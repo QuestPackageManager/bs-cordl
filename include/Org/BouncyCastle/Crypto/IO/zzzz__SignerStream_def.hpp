@@ -25,14 +25,19 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::SignerStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(933))
 // CS Name: ::Org.BouncyCastle.Crypto.IO::SignerStream*
 class CORDL_TYPE SignerStream : public ::System::IO::Stream {
 public:
   // Declarations
-  /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = get_CanRead)) bool CanRead;
+
+  __declspec(property(get = get_CanSeek)) bool CanSeek;
+
+  __declspec(property(get = get_CanWrite)) bool CanWrite;
+
+  __declspec(property(get = get_Length)) int64_t Length;
+
+  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
   /// @brief Field inSigner, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_inSigner, put = __cordl_internal_set_inSigner))::Org::BouncyCastle::Crypto::ISigner* inSigner;
@@ -40,88 +45,87 @@ public:
   /// @brief Field outSigner, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_outSigner, put = __cordl_internal_set_outSigner))::Org::BouncyCastle::Crypto::ISigner* outSigner;
 
-  __declspec(property(get = get_CanRead)) bool CanRead;
+  /// @brief Field stream, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
-  __declspec(property(get = get_CanWrite)) bool CanWrite;
+  /// @brief Method Close, addr 0xf79ecc, size 0x68, virtual true, abstract: false, final false
+  inline void Close();
 
-  __declspec(property(get = get_CanSeek)) bool CanSeek;
+  /// @brief Method Flush, addr 0xf79f34, size 0x24, virtual true, abstract: false, final false
+  inline void Flush();
 
-  __declspec(property(get = get_Length)) int64_t Length;
+  static inline ::Org::BouncyCastle::Crypto::IO::SignerStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner,
+                                                                        ::Org::BouncyCastle::Crypto::ISigner* writeSigner);
 
-  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
+  /// @brief Method Read, addr 0xf79a80, size 0xfc, virtual true, abstract: false, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+  /// @brief Method ReadByte, addr 0xf79b7c, size 0xd0, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+  /// @brief Method ReadSigner, addr 0xf79a70, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::ISigner* ReadSigner();
 
-  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
+  /// @brief Method Seek, addr 0xf79f58, size 0x24, virtual true, abstract: false, final false
+  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+
+  /// @brief Method SetLength, addr 0xf79f7c, size 0x24, virtual true, abstract: false, final false
+  inline void SetLength(int64_t length);
+
+  /// @brief Method Write, addr 0xf79c4c, size 0xf0, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method WriteByte, addr 0xf79d3c, size 0xc8, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t b);
+
+  /// @brief Method WriteSigner, addr 0xf79a78, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::ISigner* WriteSigner();
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_inSigner();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_inSigner() const;
 
-  constexpr void __cordl_internal_set_inSigner(::Org::BouncyCastle::Crypto::ISigner* value);
-
   constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_outSigner();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_outSigner() const;
 
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+
+  constexpr void __cordl_internal_set_inSigner(::Org::BouncyCastle::Crypto::ISigner* value);
+
   constexpr void __cordl_internal_set_outSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  static inline ::Org::BouncyCastle::Crypto::IO::SignerStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner,
-                                                                        ::Org::BouncyCastle::Crypto::ISigner* writeSigner);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0xf34a20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf799f0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner, ::Org::BouncyCastle::Crypto::ISigner* writeSigner);
 
-  /// @brief Method ReadSigner, addr 0xf34aa0, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ISigner* ReadSigner();
-
-  /// @brief Method WriteSigner, addr 0xf34aa8, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ISigner* WriteSigner();
-
-  /// @brief Method Read, addr 0xf34ab0, size 0xfc, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method ReadByte, addr 0xf34bac, size 0xd0, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
-
-  /// @brief Method Write, addr 0xf34c7c, size 0xf0, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method WriteByte, addr 0xf34d6c, size 0xc8, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t b);
-
-  /// @brief Method get_CanRead, addr 0xf34e34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0xf79e04, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0xf34e54, size 0x20, virtual true, abstract: false, final false
-  inline bool get_CanWrite();
-
-  /// @brief Method get_CanSeek, addr 0xf34e74, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0xf79e44, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_Length, addr 0xf34e94, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0xf79e24, size 0x20, virtual true, abstract: false, final false
+  inline bool get_CanWrite();
+
+  /// @brief Method get_Length, addr 0xf79e64, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0xf34eb4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0xf79e84, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0xf34ed8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0xf79ea8, size 0x24, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Close, addr 0xf34efc, size 0x68, virtual true, abstract: false, final false
-  inline void Close();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignerStream();
 
-  /// @brief Method Flush, addr 0xf34f64, size 0x24, virtual true, abstract: false, final false
-  inline void Flush();
-
-  /// @brief Method Seek, addr 0xf34f88, size 0x24, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
-
-  /// @brief Method SetLength, addr 0xf34fac, size 0x24, virtual true, abstract: false, final false
-  inline void SetLength(int64_t length);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerStream(SignerStream&&) = delete;
@@ -130,12 +134,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignerStream(SignerStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerStream();
-
-public:
   /// @brief Field stream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ___stream;
 

@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::UnityEngine::UISystemProfilerApi);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15821))
 // CS Name: ::UISystemProfilerApi::SampleType
 struct CORDL_TYPE __UISystemProfilerApi__SampleType {
 public:
@@ -46,24 +44,29 @@ public:
     return static_cast<____UISystemProfilerApi__SampleType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __UISystemProfilerApi__SampleType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __UISystemProfilerApi__SampleType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __UISystemProfilerApi__SampleType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Layout value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__UISystemProfilerApi__SampleType const Layout;
 
   /// @brief Field Render value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__UISystemProfilerApi__SampleType const Render;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -77,23 +80,27 @@ static_assert(offsetof(::UnityEngine::__UISystemProfilerApi__SampleType, value__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15822))
 // CS Name: ::UnityEngine::UISystemProfilerApi*
 class CORDL_TYPE UISystemProfilerApi : public ::System::Object {
 public:
   // Declarations
   using SampleType = ::UnityEngine::__UISystemProfilerApi__SampleType;
 
-  /// @brief Method BeginSample, addr 0x2ec4a5c, size 0x3c, virtual false, abstract: false, final false
-  static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
-
-  /// @brief Method EndSample, addr 0x2ec4a98, size 0x3c, virtual false, abstract: false, final false
-  static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
-
-  /// @brief Method AddMarker, addr 0x2ec4ad4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x2fb91fc, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
+  /// @brief Method BeginSample, addr 0x2fb9184, size 0x3c, virtual false, abstract: false, final false
+  static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
+
+  /// @brief Method EndSample, addr 0x2fb91c0, size 0x3c, virtual false, abstract: false, final false
+  static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UISystemProfilerApi();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UISystemProfilerApi(UISystemProfilerApi&&) = delete;
@@ -102,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UISystemProfilerApi(UISystemProfilerApi const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UISystemProfilerApi();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BadCutScoringElement__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4661)), TypeDefinitionIndex(TypeDefinitionIndex(11121))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4665))
 // CS Name: ::BadCutScoringElement*
 class CORDL_TYPE BadCutScoringElement : public ::GlobalNamespace::ScoringElement {
 public:
@@ -48,44 +46,50 @@ public:
 
   __declspec(property(get = get_cutScore)) int32_t cutScore;
 
-  __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
+  __declspec(property(get = get_executionOrder)) int32_t executionOrder;
 
   __declspec(property(get = get_multiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType;
 
-  __declspec(property(get = get_executionOrder)) int32_t executionOrder;
+  __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
 
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__multiplierEventType();
-
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__multiplierEventType() const;
-
-  constexpr void __cordl_internal_set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
-
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType();
-
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const;
-
-  constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
-
-  /// @brief Method get_cutScore, addr 0x23c6d40, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_cutScore();
-
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x23c6d48, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
-
-  /// @brief Method get_multiplierEventType, addr 0x23c6d50, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
-
-  /// @brief Method get_executionOrder, addr 0x23c6d58, size 0xc, virtual true, abstract: false, final false
-  inline int32_t get_executionOrder();
-
-  /// @brief Method Init, addr 0x23c6798, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24956e0, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::BadCutScoringElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c6d64, size 0x8, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__multiplierEventType() const;
+
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__multiplierEventType();
+
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const;
+
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType();
+
+  constexpr void __cordl_internal_set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
+
+  constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
+
+  /// @brief Method .ctor, addr 0x2495cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_cutScore, addr 0x2495c88, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_cutScore();
+
+  /// @brief Method get_executionOrder, addr 0x2495ca0, size 0xc, virtual true, abstract: false, final false
+  inline int32_t get_executionOrder();
+
+  /// @brief Method get_multiplierEventType, addr 0x2495c98, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
+
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x2495c90, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BadCutScoringElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BadCutScoringElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BadCutScoringElement(BadCutScoringElement&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BadCutScoringElement(BadCutScoringElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BadCutScoringElement();
-
-public:
   /// @brief Field _multiplierEventType, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType ____multiplierEventType;
 
@@ -120,16 +118,21 @@ static_assert(offsetof(::GlobalNamespace::BadCutScoringElement, ____wouldBeCorre
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4660)), TypeDefinitionIndex(TypeDefinitionIndex(4665)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4660), inst: 2777
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4664)) CS Name: ::BadCutScoringElement::Pool*
+// CS Name: ::BadCutScoringElement::Pool*
 class CORDL_TYPE __BadCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::BadCutScoringElement*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BadCutScoringElement__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c6d6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2495cb4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BadCutScoringElement__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BadCutScoringElement__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BadCutScoringElement__Pool(__BadCutScoringElement__Pool&&) = delete;
@@ -138,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BadCutScoringElement__Pool(__BadCutScoringElement__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BadCutScoringElement__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

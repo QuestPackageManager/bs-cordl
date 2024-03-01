@@ -18,19 +18,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TLevelPackProductData, typename TLevelProductData>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10953))
 // CS Name: ::ILevelPackProductDataContainer`2<TLevelPackProductData,TLevelProductData>*
 class CORDL_TYPE ILevelPackProductDataContainer_2 {
 public:
   // Declarations
   __declspec(property(get = get_levelPackProductsData))::System::Collections::Generic::IReadOnlyList_1<TLevelPackProductData>* levelPackProductsData;
 
-  /// @brief Method get_levelPackProductsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<TLevelPackProductData>* get_levelPackProductsData();
-
   /// @brief Method SetLevelPackProductData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLevelPackProductData(TLevelPackProductData newProductPack);
+
+  /// @brief Method get_levelPackProductsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<TLevelPackProductData>* get_levelPackProductsData();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelPackProductDataContainer_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::System::Linq::Expressions::MemberExpression);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14313))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14318))
 // CS Name: ::System.Linq.Expressions::MemberExpression*
 class CORDL_TYPE MemberExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
   __declspec(property(get = get_Member))::System::Reflection::MemberInfo* Member;
 
-  /// @brief Method get_Member, addr 0x2818548, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Reflection::MemberInfo* get_Member();
-
-  /// @brief Method GetMember, addr 0x2818554, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x28fc9d0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
+  /// @brief Method get_Member, addr 0x28fc9c4, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Reflection::MemberInfo* get_Member();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemberExpression();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemberExpression", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberExpression(MemberExpression&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberExpression(MemberExpression const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberExpression();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

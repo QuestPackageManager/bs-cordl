@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CompressionMethod);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1203))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CompressionMethod*
 class CORDL_TYPE CompressionMethod : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::CompressionMethod* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf8cb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd2b64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompressionMethod();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompressionMethod", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompressionMethod(CompressionMethod&&) = delete;
@@ -34,17 +38,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompressionMethod(CompressionMethod const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompressionMethod();
-
-public:
-  /// @brief Field cls_null offset 0xffffffff size 0x1
-  static constexpr uint8_t cls_null{ static_cast<uint8_t>(0x0u) };
-
   /// @brief Field DEFLATE offset 0xffffffff size 0x1
   static constexpr uint8_t DEFLATE{ static_cast<uint8_t>(0x1u) };
+
+  /// @brief Field cls_null offset 0xffffffff size 0x1
+  static constexpr uint8_t cls_null{ static_cast<uint8_t>(0x0u) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

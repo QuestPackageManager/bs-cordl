@@ -49,8 +49,6 @@ MARK_VAL_T(::GlobalNamespace::__OVRBoundary__BoundaryTestResult);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7607))
 // CS Name: ::OVRBoundary::Node
 struct CORDL_TYPE __OVRBoundary__Node {
 public:
@@ -69,18 +67,20 @@ public:
     return static_cast<____OVRBoundary__Node_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRBoundary__Node(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRBoundary__Node();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRBoundary__Node(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field HandLeft value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__OVRBoundary__Node const HandLeft;
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field Head value: static_cast<int32_t>(0x9)
   static ::GlobalNamespace::__OVRBoundary__Node const Head;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -103,8 +106,6 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__Node, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7608))
 // CS Name: ::OVRBoundary::BoundaryType
 struct CORDL_TYPE __OVRBoundary__BoundaryType {
 public:
@@ -122,24 +123,29 @@ public:
     return static_cast<____OVRBoundary__BoundaryType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRBoundary__BoundaryType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRBoundary__BoundaryType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRBoundary__BoundaryType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field OuterBoundary value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRBoundary__BoundaryType const OuterBoundary;
 
   /// @brief Field PlayArea value: static_cast<int32_t>(0x100)
   static ::GlobalNamespace::__OVRBoundary__BoundaryType const PlayArea;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -153,19 +159,17 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryType, value__) 
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7609))
 // CS Name: ::OVRBoundary::BoundaryTestResult
 struct CORDL_TYPE __OVRBoundary__BoundaryTestResult {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "IsTriggering", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "ClosestPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "ClosestPointNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-  constexpr __OVRBoundary__BoundaryTestResult(bool IsTriggering, float_t ClosestDistance, ::UnityEngine::Vector3 ClosestPoint, ::UnityEngine::Vector3 ClosestPointNormal) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRBoundary__BoundaryTestResult();
+
+  // Ctor Parameters [CppParam { name: "IsTriggering", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ClosestDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
+  // name: "ClosestPoint", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "ClosestPointNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  constexpr __OVRBoundary__BoundaryTestResult(bool IsTriggering, float_t ClosestDistance, ::UnityEngine::Vector3 ClosestPoint, ::UnityEngine::Vector3 ClosestPointNormal) noexcept;
 
   /// @brief Field IsTriggering, offset: 0x0, size: 0x1, def value: None
   bool IsTriggering;
@@ -200,8 +204,6 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryTestResult, Clo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7610))
 // CS Name: ::OVRBoundary*
 class CORDL_TYPE OVRBoundary : public ::System::Object {
 public:
@@ -215,14 +217,37 @@ public:
   /// @brief Field cachedGeometryList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_cachedGeometryList, put = __cordl_internal_set_cachedGeometryList))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* cachedGeometryList;
 
-  /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
+  /// @brief Field cachedGeometryManagedBuffer, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_cachedGeometryManagedBuffer, put = setStaticF_cachedGeometryManagedBuffer))::ArrayW<float_t, ::Array<float_t>*> cachedGeometryManagedBuffer;
 
   /// @brief Field cachedGeometryNativeBuffer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cachedGeometryNativeBuffer, put = setStaticF_cachedGeometryNativeBuffer))::GlobalNamespace::OVRNativeBuffer* cachedGeometryNativeBuffer;
 
-  /// @brief Field cachedGeometryManagedBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cachedGeometryManagedBuffer, put = setStaticF_cachedGeometryManagedBuffer))::ArrayW<float_t, ::Array<float_t>*> cachedGeometryManagedBuffer;
+  /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
+
+  /// @brief Method GetConfigured, addr 0x27ffec4, size 0x98, virtual false, abstract: false, final false
+  inline bool GetConfigured();
+
+  /// @brief Method GetDimensions, addr 0x2808790, size 0xd0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+
+  /// @brief Method GetGeometry, addr 0x27fff5c, size 0x43c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetGeometry(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+
+  /// @brief Method GetVisible, addr 0x2808864, size 0x98, virtual false, abstract: false, final false
+  inline bool GetVisible();
+
+  static inline ::GlobalNamespace::OVRBoundary* New_ctor();
+
+  /// @brief Method SetVisible, addr 0x28088fc, size 0x9c, virtual false, abstract: false, final false
+  inline void SetVisible(bool value);
+
+  /// @brief Method TestNode, addr 0x2808544, size 0xc4, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestNode(::GlobalNamespace::__OVRBoundary__Node node, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+
+  /// @brief Method TestPoint, addr 0x2808608, size 0xe8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_cachedGeometryList();
 
@@ -230,44 +255,27 @@ public:
 
   constexpr void __cordl_internal_set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  static inline void setStaticF_cachedVector3fSize(int32_t value);
-
-  static inline int32_t getStaticF_cachedVector3fSize();
-
-  static inline void setStaticF_cachedGeometryNativeBuffer(::GlobalNamespace::OVRNativeBuffer* value);
-
-  static inline ::GlobalNamespace::OVRNativeBuffer* getStaticF_cachedGeometryNativeBuffer();
-
-  static inline void setStaticF_cachedGeometryManagedBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
+  /// @brief Method .ctor, addr 0x2808998, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedGeometryManagedBuffer();
 
-  /// @brief Method GetConfigured, addr 0x273fa24, size 0x98, virtual false, abstract: false, final false
-  inline bool GetConfigured();
+  static inline ::GlobalNamespace::OVRNativeBuffer* getStaticF_cachedGeometryNativeBuffer();
 
-  /// @brief Method TestNode, addr 0x274382c, size 0xc4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestNode(::GlobalNamespace::__OVRBoundary__Node node, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+  static inline int32_t getStaticF_cachedVector3fSize();
 
-  /// @brief Method TestPoint, addr 0x27438f8, size 0xe8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+  static inline void setStaticF_cachedGeometryManagedBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method GetGeometry, addr 0x273fabc, size 0x43c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetGeometry(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+  static inline void setStaticF_cachedGeometryNativeBuffer(::GlobalNamespace::OVRNativeBuffer* value);
 
-  /// @brief Method GetDimensions, addr 0x2743a88, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
+  static inline void setStaticF_cachedVector3fSize(int32_t value);
 
-  /// @brief Method GetVisible, addr 0x2743b5c, size 0x98, virtual false, abstract: false, final false
-  inline bool GetVisible();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRBoundary();
 
-  /// @brief Method SetVisible, addr 0x2743bf4, size 0x9c, virtual false, abstract: false, final false
-  inline void SetVisible(bool value);
-
-  static inline ::GlobalNamespace::OVRBoundary* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2743c90, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRBoundary", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBoundary(OVRBoundary&&) = delete;
@@ -276,12 +284,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRBoundary(OVRBoundary const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRBoundary();
-
-public:
   /// @brief Field cachedGeometryList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___cachedGeometryList;
 

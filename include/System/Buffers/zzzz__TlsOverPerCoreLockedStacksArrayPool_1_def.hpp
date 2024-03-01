@@ -47,8 +47,6 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3885)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3885), inst: 4532 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3885))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure<T>
 struct CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure {
 public:
@@ -67,18 +65,23 @@ public:
     return static_cast<____TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field High value: static_cast<int32_t>(0x2)
+  static ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const High;
 
   /// @brief Field Low value: static_cast<int32_t>(0x0)
   static ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Low;
@@ -86,8 +89,8 @@ public:
   /// @brief Field Medium value: static_cast<int32_t>(0x1)
   static ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const Medium;
 
-  /// @brief Field High value: static_cast<int32_t>(0x2)
-  static ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> const High;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -99,8 +102,6 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks : public ::System::Object {
 public:
@@ -110,29 +111,35 @@ public:
                       put = __cordl_internal_set__perCoreStacks))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*,
                                                                           ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> _perCoreStacks;
 
-  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*>&
-  __cordl_internal_get__perCoreStacks();
-
-  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> const&
-  __cordl_internal_get__perCoreStacks() const;
-
-  constexpr void __cordl_internal_set__perCoreStacks(
-      ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> value);
-
   static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void TryPush(::ArrayW<T, ::Array<T>*> array);
-
-  /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::ArrayW<T, ::Array<T>*> TryPop();
 
   /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Trim(uint32_t tickCount, int32_t id, ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, ::ArrayW<int32_t, ::Array<int32_t>*> bucketSizes);
 
+  /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ArrayW<T, ::Array<T>*> TryPop();
+
+  /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void TryPush(::ArrayW<T, ::Array<T>*> array);
+
+  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> const&
+  __cordl_internal_get__perCoreStacks() const;
+
+  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*>&
+  __cordl_internal_get__perCoreStacks();
+
+  constexpr void __cordl_internal_set__perCoreStacks(
+      ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks&&) = delete;
@@ -141,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks(__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks();
-
-public:
   /// @brief Field _perCoreStacks, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> ____perCoreStacks;
 
@@ -160,8 +161,6 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3887))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::LockedStack<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack : public ::System::Object {
 public:
@@ -175,38 +174,44 @@ public:
   /// @brief Field _firstStackItemMS, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__firstStackItemMS, put = __cordl_internal_set__firstStackItemMS)) uint32_t _firstStackItemMS;
 
-  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& __cordl_internal_get__arrays();
-
-  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& __cordl_internal_get__arrays() const;
-
-  constexpr void __cordl_internal_set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
-
-  constexpr int32_t& __cordl_internal_get__count();
-
-  constexpr int32_t const& __cordl_internal_get__count() const;
-
-  constexpr void __cordl_internal_set__count(int32_t value);
-
-  constexpr uint32_t& __cordl_internal_get__firstStackItemMS();
-
-  constexpr uint32_t const& __cordl_internal_get__firstStackItemMS() const;
-
-  constexpr void __cordl_internal_set__firstStackItemMS(uint32_t value);
-
-  /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryPush(::ArrayW<T, ::Array<T>*> array);
-
-  /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::ArrayW<T, ::Array<T>*> TryPop();
+  static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>* New_ctor();
 
   /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Trim(uint32_t tickCount, int32_t id, ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, int32_t bucketSize);
 
-  static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>* New_ctor();
+  /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ArrayW<T, ::Array<T>*> TryPop();
+
+  /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryPush(::ArrayW<T, ::Array<T>*> array);
+
+  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& __cordl_internal_get__arrays() const;
+
+  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& __cordl_internal_get__arrays();
+
+  constexpr int32_t const& __cordl_internal_get__count() const;
+
+  constexpr int32_t& __cordl_internal_get__count();
+
+  constexpr uint32_t const& __cordl_internal_get__firstStackItemMS() const;
+
+  constexpr uint32_t& __cordl_internal_get__firstStackItemMS();
+
+  constexpr void __cordl_internal_set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
+
+  constexpr void __cordl_internal_set__count(int32_t value);
+
+  constexpr void __cordl_internal_set__firstStackItemMS(uint32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack&&) = delete;
@@ -215,12 +220,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack(__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack();
-
-public:
   /// @brief Field _arrays, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> ____arrays;
 
@@ -240,17 +239,17 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3879)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3879), inst: 768 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3888))
 // CS Name: ::System.Buffers::TlsOverPerCoreLockedStacksArrayPool`1<T>*
 class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1 : public ::System::Buffers::ArrayPool_1<T> {
 public:
   // Declarations
   using LockedStack = ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>;
 
+  using MemoryPressure = ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>;
+
   using PerCoreLockedStacks = ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>;
 
-  using MemoryPressure = ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>;
+  __declspec(property(get = get_Id)) int32_t Id;
 
   /// @brief Field _bucketArraySizes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bucketArraySizes, put = __cordl_internal_set__bucketArraySizes))::ArrayW<int32_t, ::Array<int32_t>*> _bucketArraySizes;
@@ -263,75 +262,19 @@ public:
   /// @brief Field _callbackCreated, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__callbackCreated, put = __cordl_internal_set__callbackCreated)) int32_t _callbackCreated;
 
-  /// @brief Field t_tlsBuckets, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_t_tlsBuckets, put = setStaticF_t_tlsBuckets))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> t_tlsBuckets;
-
-  /// @brief Field s_trimBuffers, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_s_trimBuffers, put = setStaticF_s_trimBuffers)) bool s_trimBuffers;
-
   /// @brief Field s_allTlsBuckets, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_allTlsBuckets,
                              put = setStaticF_s_allTlsBuckets))::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>,
                                                                                                                            ::System::Object*>* s_allTlsBuckets;
 
-  __declspec(property(get = get_Id)) int32_t Id;
+  /// @brief Field s_trimBuffers, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_s_trimBuffers, put = setStaticF_s_trimBuffers)) bool s_trimBuffers;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__bucketArraySizes();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__bucketArraySizes() const;
-
-  constexpr void __cordl_internal_set__bucketArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
-                     ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>&
-  __cordl_internal_get__buckets();
-
-  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
-                     ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> const&
-  __cordl_internal_get__buckets() const;
-
-  constexpr void __cordl_internal_set__buckets(
-      ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
-          value);
-
-  constexpr int32_t& __cordl_internal_get__callbackCreated();
-
-  constexpr int32_t const& __cordl_internal_get__callbackCreated() const;
-
-  constexpr void __cordl_internal_set__callbackCreated(int32_t value);
-
-  static inline void setStaticF_t_tlsBuckets(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
-
-  static inline ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> getStaticF_t_tlsBuckets();
-
-  static inline void setStaticF_s_trimBuffers(bool value);
-
-  static inline bool getStaticF_s_trimBuffers();
-
-  static inline void
-  setStaticF_s_allTlsBuckets(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>, ::System::Object*>* value);
-
-  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>, ::System::Object*>* getStaticF_s_allTlsBuckets();
-
-  static inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Field t_tlsBuckets, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_t_tlsBuckets, put = setStaticF_t_tlsBuckets))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> t_tlsBuckets;
 
   /// @brief Method CreatePerCoreLockedStacks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* CreatePerCoreLockedStacks(int32_t bucketIndex);
-
-  /// @brief Method get_Id, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Id();
-
-  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
-
-  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray);
-
-  /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Trim();
 
   /// @brief Method Gen2GcCallbackFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool Gen2GcCallbackFunc(::System::Object* target);
@@ -342,6 +285,66 @@ public:
   /// @brief Method GetTrimBuffers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool GetTrimBuffers();
 
+  static inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>* New_ctor();
+
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
+
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray);
+
+  /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Trim();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__bucketArraySizes() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__bucketArraySizes();
+
+  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
+                     ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> const&
+  __cordl_internal_get__buckets() const;
+
+  constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
+                     ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>&
+  __cordl_internal_get__buckets();
+
+  constexpr int32_t const& __cordl_internal_get__callbackCreated() const;
+
+  constexpr int32_t& __cordl_internal_get__callbackCreated();
+
+  constexpr void __cordl_internal_set__bucketArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__buckets(
+      ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
+          value);
+
+  constexpr void __cordl_internal_set__callbackCreated(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>, ::System::Object*>* getStaticF_s_allTlsBuckets();
+
+  static inline bool getStaticF_s_trimBuffers();
+
+  static inline ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> getStaticF_t_tlsBuckets();
+
+  /// @brief Method get_Id, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Id();
+
+  static inline void
+  setStaticF_s_allTlsBuckets(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>, ::System::Object*>* value);
+
+  static inline void setStaticF_s_trimBuffers(bool value);
+
+  static inline void setStaticF_t_tlsBuckets(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsOverPerCoreLockedStacksArrayPool_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsOverPerCoreLockedStacksArrayPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1&&) = delete;
@@ -350,12 +353,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsOverPerCoreLockedStacksArrayPool_1();
-
-public:
   /// @brief Field _bucketArraySizes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____bucketArraySizes;
 

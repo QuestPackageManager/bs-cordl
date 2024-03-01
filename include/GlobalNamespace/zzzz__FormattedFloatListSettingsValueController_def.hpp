@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::GlobalNamespace::FormattedFloatListSettingsValueController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4898))
 // CS Name: ::FormattedFloatListSettingsValueController::ValueType
 struct CORDL_TYPE __FormattedFloatListSettingsValueController__ValueType {
 public:
@@ -51,18 +49,23 @@ public:
     return static_cast<____FormattedFloatListSettingsValueController__ValueType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __FormattedFloatListSettingsValueController__ValueType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __FormattedFloatListSettingsValueController__ValueType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __FormattedFloatListSettingsValueController__ValueType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field InvertedNormalized value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const InvertedNormalized;
 
   /// @brief Field Normal value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const Normal;
@@ -70,8 +73,8 @@ public:
   /// @brief Field Normalized value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const Normalized;
 
-  /// @brief Field InvertedNormalized value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const InvertedNormalized;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -85,13 +88,20 @@ static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsValueContr
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4898)), TypeDefinitionIndex(TypeDefinitionIndex(16289))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4899))
 // CS Name: ::FormattedFloatListSettingsValueController*
 class CORDL_TYPE FormattedFloatListSettingsValueController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
   using ValueType = ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType;
+
+  /// @brief Field _formattingString, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__formattingString, put = __cordl_internal_set__formattingString))::StringW _formattingString;
+
+  /// @brief Field _max, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__max, put = __cordl_internal_set__max)) float_t _max;
+
+  /// @brief Field _min, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__min, put = __cordl_internal_set__min)) float_t _min;
 
   /// @brief Field _settingsValue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::FloatSO> _settingsValue;
@@ -99,68 +109,65 @@ public:
   /// @brief Field _values, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<float_t, ::Array<float_t>*> _values;
 
-  /// @brief Field _formattingString, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__formattingString, put = __cordl_internal_set__formattingString))::StringW _formattingString;
-
   /// @brief Field valueType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType))::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType valueType;
 
-  /// @brief Field _min, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__min, put = __cordl_internal_set__min)) float_t _min;
-
-  /// @brief Field _max, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__max, put = __cordl_internal_set__max)) float_t _max;
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__settingsValue();
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__settingsValue() const;
-
-  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::FloatSO> value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__values();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__values() const;
-
-  constexpr void __cordl_internal_set__values(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr ::StringW& __cordl_internal_get__formattingString();
-
-  constexpr ::StringW const& __cordl_internal_get__formattingString() const;
-
-  constexpr void __cordl_internal_set__formattingString(::StringW value);
-
-  constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType& __cordl_internal_get_valueType();
-
-  constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const& __cordl_internal_get_valueType() const;
-
-  constexpr void __cordl_internal_set_valueType(::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType value);
-
-  constexpr float_t& __cordl_internal_get__min();
-
-  constexpr float_t const& __cordl_internal_get__min() const;
-
-  constexpr void __cordl_internal_set__min(float_t value);
-
-  constexpr float_t& __cordl_internal_get__max();
-
-  constexpr float_t const& __cordl_internal_get__max() const;
-
-  constexpr void __cordl_internal_set__max(float_t value);
-
-  /// @brief Method GetInitValues, addr 0x22ddc48, size 0xe0, virtual true, abstract: false, final false
-  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
-
-  /// @brief Method ApplyValue, addr 0x22ddd28, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x23ac9dc, size 0x74, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue, addr 0x22ddd9c, size 0xdc, virtual true, abstract: false, final false
-  inline ::StringW TextForValue(int32_t idx);
+  /// @brief Method GetInitValues, addr 0x23ac8fc, size 0xe0, virtual true, abstract: false, final false
+  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsValueController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22dde78, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x23aca50, size 0xdc, virtual true, abstract: false, final false
+  inline ::StringW TextForValue(int32_t idx);
+
+  constexpr ::StringW const& __cordl_internal_get__formattingString() const;
+
+  constexpr ::StringW& __cordl_internal_get__formattingString();
+
+  constexpr float_t const& __cordl_internal_get__max() const;
+
+  constexpr float_t& __cordl_internal_get__max();
+
+  constexpr float_t const& __cordl_internal_get__min() const;
+
+  constexpr float_t& __cordl_internal_get__min();
+
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__settingsValue() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__settingsValue();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__values() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__values();
+
+  constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType const& __cordl_internal_get_valueType() const;
+
+  constexpr ::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType& __cordl_internal_get_valueType();
+
+  constexpr void __cordl_internal_set__formattingString(::StringW value);
+
+  constexpr void __cordl_internal_set__max(float_t value);
+
+  constexpr void __cordl_internal_set__min(float_t value);
+
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::FloatSO> value);
+
+  constexpr void __cordl_internal_set__values(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  constexpr void __cordl_internal_set_valueType(::GlobalNamespace::__FormattedFloatListSettingsValueController__ValueType value);
+
+  /// @brief Method .ctor, addr 0x23acb2c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FormattedFloatListSettingsValueController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsValueController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FormattedFloatListSettingsValueController(FormattedFloatListSettingsValueController&&) = delete;
@@ -169,12 +176,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FormattedFloatListSettingsValueController(FormattedFloatListSettingsValueController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FormattedFloatListSettingsValueController();
-
-public:
   /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatSO> ____settingsValue;
 

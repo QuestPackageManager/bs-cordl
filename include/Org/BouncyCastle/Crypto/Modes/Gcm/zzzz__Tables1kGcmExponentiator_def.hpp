@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(954))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::Tables1kGcmExponentiator*
 class CORDL_TYPE Tables1kGcmExponentiator : public ::System::Object {
 public:
@@ -34,8 +32,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
-  constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmExponentiator() noexcept;
+  /// @brief Method EnsureAvailable, addr 0xf84748, size 0x268, virtual false, abstract: false, final false
+  inline void EnsureAvailable(int32_t bit);
+
+  /// @brief Method ExponentiateX, addr 0xf84598, size 0x1b0, virtual true, abstract: false, final true
+  inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
+
+  /// @brief Method Init, addr 0xf8438c, size 0x20c, virtual true, abstract: false, final true
+  inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
+
+  static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator* New_ctor();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_lookupPowX2();
 
@@ -43,20 +49,18 @@ public:
 
   constexpr void __cordl_internal_set_lookupPowX2(::System::Collections::IList* value);
 
-  /// @brief Method Init, addr 0xf3f3bc, size 0x20c, virtual true, abstract: false, final true
-  inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
-
-  /// @brief Method ExponentiateX, addr 0xf3f5c8, size 0x1b0, virtual true, abstract: false, final true
-  inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
-
-  /// @brief Method EnsureAvailable, addr 0xf3f778, size 0x268, virtual false, abstract: false, final false
-  inline void EnsureAvailable(int32_t bit);
-
-  static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator* New_ctor();
-
-  /// @brief Method .ctor, addr 0xf3f9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf849b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
+  constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* i___Org__BouncyCastle__Crypto__Modes__Gcm__IGcmExponentiator() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Tables1kGcmExponentiator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Tables1kGcmExponentiator(Tables1kGcmExponentiator&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Tables1kGcmExponentiator(Tables1kGcmExponentiator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Tables1kGcmExponentiator();
-
-public:
   /// @brief Field lookupPowX2, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___lookupPowX2;
 

@@ -39,8 +39,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12458))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12477))
 // CS Name: ::IKSolverLookAt::LookAtBone*
 class CORDL_TYPE __IKSolverLookAt__LookAtBone : public ::RootMotion::FinalIK::__IKSolver__Bone {
 public:
@@ -50,31 +48,37 @@ public:
 
   __declspec(property(get = get_forward))::UnityEngine::Vector3 forward;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_baseForwardOffsetEuler();
+  /// @brief Method Initiate, addr 0x1349070, size 0xec, virtual false, abstract: false, final false
+  inline void Initiate(::UnityEngine::Transform* root);
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_baseForwardOffsetEuler() const;
-
-  constexpr void __cordl_internal_set_baseForwardOffsetEuler(::UnityEngine::Vector3 value);
+  /// @brief Method LookAt, addr 0x1349fa8, size 0x108, virtual false, abstract: false, final false
+  inline void LookAt(::UnityEngine::Vector3 direction, float_t weight);
 
   static inline ::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13082cc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x1306dd4, size 0x28, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_baseForwardOffsetEuler() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_baseForwardOffsetEuler();
+
+  constexpr void __cordl_internal_set_baseForwardOffsetEuler(::UnityEngine::Vector3 value);
+
+  /// @brief Method .ctor, addr 0x134a2b8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1348dc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method Initiate, addr 0x1307084, size 0xec, virtual false, abstract: false, final false
-  inline void Initiate(::UnityEngine::Transform* root);
-
-  /// @brief Method LookAt, addr 0x1307fbc, size 0x108, virtual false, abstract: false, final false
-  inline void LookAt(::UnityEngine::Vector3 direction, float_t weight);
-
-  /// @brief Method get_forward, addr 0x1307c74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x1349c60, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverLookAt__LookAtBone();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverLookAt__LookAtBone", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverLookAt__LookAtBone(__IKSolverLookAt__LookAtBone&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverLookAt__LookAtBone(__IKSolverLookAt__LookAtBone const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverLookAt__LookAtBone();
-
-public:
   /// @brief Field baseForwardOffsetEuler, offset: 0x74, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___baseForwardOffsetEuler;
 
@@ -104,255 +102,259 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone, ___b
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
 // CS Name: ::RootMotion.FinalIK::IKSolverLookAt*
 class CORDL_TYPE IKSolverLookAt : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
   using LookAtBone = ::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone;
 
-  /// @brief Field target, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
+  /// @brief Field bodyWeight, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_bodyWeight, put = __cordl_internal_set_bodyWeight)) float_t bodyWeight;
 
-  /// @brief Field spine, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_spine,
-                      put = __cordl_internal_set_spine))::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> spine;
+  /// @brief Field clampSmoothing, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get_clampSmoothing, put = __cordl_internal_set_clampSmoothing)) int32_t clampSmoothing;
 
-  /// @brief Field head, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* head;
+  /// @brief Field clampWeight, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get_clampWeight, put = __cordl_internal_set_clampWeight)) float_t clampWeight;
+
+  /// @brief Field clampWeightEyes, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_clampWeightEyes, put = __cordl_internal_set_clampWeightEyes)) float_t clampWeightEyes;
+
+  /// @brief Field clampWeightHead, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get_clampWeightHead, put = __cordl_internal_set_clampWeightHead)) float_t clampWeightHead;
+
+  /// @brief Field eyeForward, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_eyeForward, put = __cordl_internal_set_eyeForward))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> eyeForward;
 
   /// @brief Field eyes, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_eyes,
                       put = __cordl_internal_set_eyes))::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> eyes;
 
-  /// @brief Field bodyWeight, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_bodyWeight, put = __cordl_internal_set_bodyWeight)) float_t bodyWeight;
+  __declspec(property(get = get_eyesIsEmpty)) bool eyesIsEmpty;
 
-  /// @brief Field headWeight, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get_headWeight, put = __cordl_internal_set_headWeight)) float_t headWeight;
+  __declspec(property(get = get_eyesIsValid)) bool eyesIsValid;
 
   /// @brief Field eyesWeight, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_eyesWeight, put = __cordl_internal_set_eyesWeight)) float_t eyesWeight;
 
-  /// @brief Field clampWeight, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampWeight, put = __cordl_internal_set_clampWeight)) float_t clampWeight;
-
-  /// @brief Field clampWeightHead, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampWeightHead, put = __cordl_internal_set_clampWeightHead)) float_t clampWeightHead;
-
-  /// @brief Field clampWeightEyes, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampWeightEyes, put = __cordl_internal_set_clampWeightEyes)) float_t clampWeightEyes;
-
-  /// @brief Field clampSmoothing, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampSmoothing, put = __cordl_internal_set_clampSmoothing)) int32_t clampSmoothing;
-
-  /// @brief Field spineWeightCurve, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_spineWeightCurve, put = __cordl_internal_set_spineWeightCurve))::UnityEngine::AnimationCurve* spineWeightCurve;
-
-  /// @brief Field spineTargetOffset, offset 0xa0, size 0xc
-  __declspec(property(get = __cordl_internal_get_spineTargetOffset, put = __cordl_internal_set_spineTargetOffset))::UnityEngine::Vector3 spineTargetOffset;
-
-  /// @brief Field spineForwards, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_spineForwards, put = __cordl_internal_set_spineForwards))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> spineForwards;
+  /// @brief Field head, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* head;
 
   /// @brief Field headForwards, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_headForwards, put = __cordl_internal_set_headForwards))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> headForwards;
 
-  /// @brief Field eyeForward, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_eyeForward, put = __cordl_internal_set_eyeForward))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> eyeForward;
-
-  __declspec(property(get = get_spineIsValid)) bool spineIsValid;
-
-  __declspec(property(get = get_spineIsEmpty)) bool spineIsEmpty;
+  __declspec(property(get = get_headIsEmpty)) bool headIsEmpty;
 
   __declspec(property(get = get_headIsValid)) bool headIsValid;
 
-  __declspec(property(get = get_headIsEmpty)) bool headIsEmpty;
+  /// @brief Field headWeight, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get_headWeight, put = __cordl_internal_set_headWeight)) float_t headWeight;
 
-  __declspec(property(get = get_eyesIsValid)) bool eyesIsValid;
+  /// @brief Field spine, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_spine,
+                      put = __cordl_internal_set_spine))::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> spine;
 
-  __declspec(property(get = get_eyesIsEmpty)) bool eyesIsEmpty;
+  /// @brief Field spineForwards, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_spineForwards, put = __cordl_internal_set_spineForwards))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> spineForwards;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+  __declspec(property(get = get_spineIsEmpty)) bool spineIsEmpty;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
+  __declspec(property(get = get_spineIsValid)) bool spineIsValid;
 
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Field spineTargetOffset, offset 0xa0, size 0xc
+  __declspec(property(get = __cordl_internal_get_spineTargetOffset, put = __cordl_internal_set_spineTargetOffset))::UnityEngine::Vector3 spineTargetOffset;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>& __cordl_internal_get_spine();
+  /// @brief Field spineWeightCurve, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_spineWeightCurve, put = __cordl_internal_set_spineWeightCurve))::UnityEngine::AnimationCurve* spineWeightCurve;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> const& __cordl_internal_get_spine() const;
+  /// @brief Field target, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  constexpr void __cordl_internal_set_spine(::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> value);
+  /// @brief Method FixTransforms, addr 0x13482e8, size 0x12c, virtual true, abstract: false, final false
+  inline void FixTransforms();
+
+  /// @brief Method GetForwards, addr 0x1349c90, size 0x318, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetForwards(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> forwards,
+                                                                                        ::UnityEngine::Vector3 baseForward, ::UnityEngine::Vector3 targetForward, int32_t bones, float_t clamp);
+
+  /// @brief Method GetPoint, addr 0x1348a44, size 0x160, virtual true, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
+
+  /// @brief Method GetPoints, addr 0x1348820, size 0x224, virtual true, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
+
+  /// @brief Method IsValid, addr 0x1348414, size 0x1b0, virtual true, abstract: false, final false
+  inline bool IsValid(ByRef<::StringW> message);
+
+  static inline ::RootMotion::FinalIK::IKSolverLookAt* New_ctor();
+
+  /// @brief Method OnInitiate, addr 0x1348de8, size 0x288, virtual true, abstract: false, final false
+  inline void OnInitiate();
+
+  /// @brief Method OnUpdate, addr 0x134915c, size 0xc4, virtual true, abstract: false, final false
+  inline void OnUpdate();
+
+  /// @brief Method SetBones, addr 0x1348c54, size 0x16c, virtual false, abstract: false, final false
+  inline void SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array,
+                       ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>> bones);
+
+  /// @brief Method SetChain, addr 0x1348ba4, size 0xb0, virtual false, abstract: false, final false
+  inline bool SetChain(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spine, ::UnityEngine::Transform* head,
+                       ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> eyes, ::UnityEngine::Transform* root);
+
+  /// @brief Method SetLookAtWeight, addr 0x1348040, size 0x1c, virtual false, abstract: false, final false
+  inline void SetLookAtWeight(float_t weight);
+
+  /// @brief Method SetLookAtWeight, addr 0x134805c, size 0x2c, virtual false, abstract: false, final false
+  inline void SetLookAtWeight(float_t weight, float_t bodyWeight);
+
+  /// @brief Method SetLookAtWeight, addr 0x1348088, size 0x38, virtual false, abstract: false, final false
+  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight);
+
+  /// @brief Method SetLookAtWeight, addr 0x13480c0, size 0x48, virtual false, abstract: false, final false
+  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight);
+
+  /// @brief Method SetLookAtWeight, addr 0x1348108, size 0x58, virtual false, abstract: false, final false
+  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
+
+  /// @brief Method SetLookAtWeight, addr 0x1348160, size 0x70, virtual false, abstract: false, final false
+  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight, float_t clampWeightHead, float_t clampWeightEyes);
+
+  /// @brief Method SolveEyes, addr 0x1349784, size 0x4dc, virtual false, abstract: false, final false
+  inline void SolveEyes();
+
+  /// @brief Method SolveHead, addr 0x134943c, size 0x348, virtual false, abstract: false, final false
+  inline void SolveHead();
+
+  /// @brief Method SolveSpine, addr 0x1349220, size 0x21c, virtual false, abstract: false, final false
+  inline void SolveSpine();
+
+  /// @brief Method StoreDefaultLocalState, addr 0x13481d0, size 0x118, virtual true, abstract: false, final false
+  inline void StoreDefaultLocalState();
+
+  constexpr float_t const& __cordl_internal_get_bodyWeight() const;
+
+  constexpr float_t& __cordl_internal_get_bodyWeight();
+
+  constexpr int32_t const& __cordl_internal_get_clampSmoothing() const;
+
+  constexpr int32_t& __cordl_internal_get_clampSmoothing();
+
+  constexpr float_t const& __cordl_internal_get_clampWeight() const;
+
+  constexpr float_t& __cordl_internal_get_clampWeight();
+
+  constexpr float_t const& __cordl_internal_get_clampWeightEyes() const;
+
+  constexpr float_t& __cordl_internal_get_clampWeightEyes();
+
+  constexpr float_t const& __cordl_internal_get_clampWeightHead() const;
+
+  constexpr float_t& __cordl_internal_get_clampWeightHead();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_eyeForward() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_eyeForward();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> const& __cordl_internal_get_eyes() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>& __cordl_internal_get_eyes();
+
+  constexpr float_t const& __cordl_internal_get_eyesWeight() const;
+
+  constexpr float_t& __cordl_internal_get_eyesWeight();
 
   constexpr ::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*& __cordl_internal_get_head();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*> const& __cordl_internal_get_head() const;
 
-  constexpr void __cordl_internal_set_head(::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* value);
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_headForwards() const;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>& __cordl_internal_get_eyes();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> const& __cordl_internal_get_eyes() const;
-
-  constexpr void __cordl_internal_set_eyes(::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> value);
-
-  constexpr float_t& __cordl_internal_get_bodyWeight();
-
-  constexpr float_t const& __cordl_internal_get_bodyWeight() const;
-
-  constexpr void __cordl_internal_set_bodyWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_headWeight();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_headForwards();
 
   constexpr float_t const& __cordl_internal_get_headWeight() const;
 
-  constexpr void __cordl_internal_set_headWeight(float_t value);
+  constexpr float_t& __cordl_internal_get_headWeight();
 
-  constexpr float_t& __cordl_internal_get_eyesWeight();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> const& __cordl_internal_get_spine() const;
 
-  constexpr float_t const& __cordl_internal_get_eyesWeight() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>& __cordl_internal_get_spine();
 
-  constexpr void __cordl_internal_set_eyesWeight(float_t value);
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_spineForwards() const;
 
-  constexpr float_t& __cordl_internal_get_clampWeight();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_spineForwards();
 
-  constexpr float_t const& __cordl_internal_get_clampWeight() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_spineTargetOffset() const;
 
-  constexpr void __cordl_internal_set_clampWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_clampWeightHead();
-
-  constexpr float_t const& __cordl_internal_get_clampWeightHead() const;
-
-  constexpr void __cordl_internal_set_clampWeightHead(float_t value);
-
-  constexpr float_t& __cordl_internal_get_clampWeightEyes();
-
-  constexpr float_t const& __cordl_internal_get_clampWeightEyes() const;
-
-  constexpr void __cordl_internal_set_clampWeightEyes(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_clampSmoothing();
-
-  constexpr int32_t const& __cordl_internal_get_clampSmoothing() const;
-
-  constexpr void __cordl_internal_set_clampSmoothing(int32_t value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_spineTargetOffset();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_spineWeightCurve();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_spineWeightCurve() const;
 
-  constexpr void __cordl_internal_set_spineWeightCurve(::UnityEngine::AnimationCurve* value);
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_spineTargetOffset();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_spineTargetOffset() const;
+  constexpr void __cordl_internal_set_bodyWeight(float_t value);
 
-  constexpr void __cordl_internal_set_spineTargetOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_clampSmoothing(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_spineForwards();
+  constexpr void __cordl_internal_set_clampWeight(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_spineForwards() const;
+  constexpr void __cordl_internal_set_clampWeightEyes(float_t value);
 
-  constexpr void __cordl_internal_set_spineForwards(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_headForwards();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_headForwards() const;
-
-  constexpr void __cordl_internal_set_headForwards(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_eyeForward();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_eyeForward() const;
+  constexpr void __cordl_internal_set_clampWeightHead(float_t value);
 
   constexpr void __cordl_internal_set_eyeForward(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method SetLookAtWeight, addr 0x1306054, size 0x1c, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight);
+  constexpr void __cordl_internal_set_eyes(::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> value);
 
-  /// @brief Method SetLookAtWeight, addr 0x1306070, size 0x2c, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight);
+  constexpr void __cordl_internal_set_eyesWeight(float_t value);
 
-  /// @brief Method SetLookAtWeight, addr 0x130609c, size 0x38, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight);
+  constexpr void __cordl_internal_set_head(::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone* value);
 
-  /// @brief Method SetLookAtWeight, addr 0x13060d4, size 0x48, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight);
+  constexpr void __cordl_internal_set_headForwards(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method SetLookAtWeight, addr 0x130611c, size 0x58, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight);
+  constexpr void __cordl_internal_set_headWeight(float_t value);
 
-  /// @brief Method SetLookAtWeight, addr 0x1306174, size 0x70, virtual false, abstract: false, final false
-  inline void SetLookAtWeight(float_t weight, float_t bodyWeight, float_t headWeight, float_t eyesWeight, float_t clampWeight, float_t clampWeightHead, float_t clampWeightEyes);
+  constexpr void __cordl_internal_set_spine(::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*> value);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x13061e4, size 0x118, virtual true, abstract: false, final false
-  inline void StoreDefaultLocalState();
+  constexpr void __cordl_internal_set_spineForwards(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method FixTransforms, addr 0x13062fc, size 0x12c, virtual true, abstract: false, final false
-  inline void FixTransforms();
+  constexpr void __cordl_internal_set_spineTargetOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method IsValid, addr 0x1306428, size 0x1b0, virtual true, abstract: false, final false
-  inline bool IsValid(ByRef<::StringW> message);
+  constexpr void __cordl_internal_set_spineWeightCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method GetPoints, addr 0x1306834, size 0x224, virtual true, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method GetPoint, addr 0x1306a58, size 0x160, virtual true, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
-
-  /// @brief Method SetChain, addr 0x1306bb8, size 0xb0, virtual false, abstract: false, final false
-  inline bool SetChain(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spine, ::UnityEngine::Transform* head,
-                       ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> eyes, ::UnityEngine::Transform* root);
-
-  /// @brief Method OnInitiate, addr 0x1306dfc, size 0x288, virtual true, abstract: false, final false
-  inline void OnInitiate();
-
-  /// @brief Method OnUpdate, addr 0x1307170, size 0xc4, virtual true, abstract: false, final false
-  inline void OnUpdate();
-
-  /// @brief Method get_spineIsValid, addr 0x13065d8, size 0xcc, virtual false, abstract: false, final false
-  inline bool get_spineIsValid();
-
-  /// @brief Method get_spineIsEmpty, addr 0x1306780, size 0x24, virtual false, abstract: false, final false
-  inline bool get_spineIsEmpty();
-
-  /// @brief Method SolveSpine, addr 0x1307234, size 0x21c, virtual false, abstract: false, final false
-  inline void SolveSpine();
-
-  /// @brief Method get_headIsValid, addr 0x13066a4, size 0x10, virtual false, abstract: false, final false
-  inline bool get_headIsValid();
-
-  /// @brief Method get_headIsEmpty, addr 0x13067a4, size 0x6c, virtual false, abstract: false, final false
-  inline bool get_headIsEmpty();
-
-  /// @brief Method SolveHead, addr 0x1307450, size 0x348, virtual false, abstract: false, final false
-  inline void SolveHead();
-
-  /// @brief Method get_eyesIsValid, addr 0x13066b4, size 0xcc, virtual false, abstract: false, final false
-  inline bool get_eyesIsValid();
-
-  /// @brief Method get_eyesIsEmpty, addr 0x1306810, size 0x24, virtual false, abstract: false, final false
-  inline bool get_eyesIsEmpty();
-
-  /// @brief Method SolveEyes, addr 0x1307798, size 0x4dc, virtual false, abstract: false, final false
-  inline void SolveEyes();
-
-  /// @brief Method GetForwards, addr 0x1307ca4, size 0x318, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetForwards(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> forwards,
-                                                                                        ::UnityEngine::Vector3 baseForward, ::UnityEngine::Vector3 targetForward, int32_t bones, float_t clamp);
-
-  /// @brief Method SetBones, addr 0x1306c68, size 0x16c, virtual false, abstract: false, final false
-  inline void SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array,
-                       ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*, ::Array<::RootMotion::FinalIK::__IKSolverLookAt__LookAtBone*>*>> bones);
-
-  static inline ::RootMotion::FinalIK::IKSolverLookAt* New_ctor();
-
-  /// @brief Method .ctor, addr 0x13080c4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134a0b0, size 0x208, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_eyesIsEmpty, addr 0x13487fc, size 0x24, virtual false, abstract: false, final false
+  inline bool get_eyesIsEmpty();
+
+  /// @brief Method get_eyesIsValid, addr 0x13486a0, size 0xcc, virtual false, abstract: false, final false
+  inline bool get_eyesIsValid();
+
+  /// @brief Method get_headIsEmpty, addr 0x1348790, size 0x6c, virtual false, abstract: false, final false
+  inline bool get_headIsEmpty();
+
+  /// @brief Method get_headIsValid, addr 0x1348690, size 0x10, virtual false, abstract: false, final false
+  inline bool get_headIsValid();
+
+  /// @brief Method get_spineIsEmpty, addr 0x134876c, size 0x24, virtual false, abstract: false, final false
+  inline bool get_spineIsEmpty();
+
+  /// @brief Method get_spineIsValid, addr 0x13485c4, size 0xcc, virtual false, abstract: false, final false
+  inline bool get_spineIsValid();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverLookAt();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverLookAt", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverLookAt(IKSolverLookAt&&) = delete;
@@ -361,12 +363,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverLookAt(IKSolverLookAt const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverLookAt();
-
-public:
   /// @brief Field target, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___target;
 

@@ -20,8 +20,6 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3864)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 1023 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3865))
 // CS Name: ::System.Collections.Generic::GenericComparer`1<T>*
 class CORDL_TYPE GenericComparer_1 : public ::System::Collections::Generic::Comparer_1<T> {
 public:
@@ -40,6 +38,12 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GenericComparer_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GenericComparer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GenericComparer_1(GenericComparer_1&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericComparer_1(GenericComparer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenericComparer_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

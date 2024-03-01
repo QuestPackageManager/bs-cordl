@@ -18,36 +18,40 @@ MARK_REF_PTR_T(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8938)), TypeDefinitionIndex(TypeDefinitionIndex(9063))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8939))
 // CS Name: ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*
 class CORDL_TYPE RuntimeInitializeOnLoadMethodAttribute : public ::UnityEngine::Scripting::PreserveAttribute {
 public:
   // Declarations
+  __declspec(property(put = set_loadType))::UnityEngine::RuntimeInitializeLoadType loadType;
+
   /// @brief Field m_LoadType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LoadType, put = __cordl_internal_set_m_LoadType))::UnityEngine::RuntimeInitializeLoadType m_LoadType;
 
-  __declspec(property(put = set_loadType))::UnityEngine::RuntimeInitializeLoadType loadType;
-
-  constexpr ::UnityEngine::RuntimeInitializeLoadType& __cordl_internal_get_m_LoadType();
-
-  constexpr ::UnityEngine::RuntimeInitializeLoadType const& __cordl_internal_get_m_LoadType() const;
-
-  constexpr void __cordl_internal_set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value);
-
   static inline ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2cd4c14, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute* New_ctor(::UnityEngine::RuntimeInitializeLoadType loadType);
 
-  /// @brief Method .ctor, addr 0x2cd4c38, size 0x28, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::RuntimeInitializeLoadType const& __cordl_internal_get_m_LoadType() const;
+
+  constexpr ::UnityEngine::RuntimeInitializeLoadType& __cordl_internal_get_m_LoadType();
+
+  constexpr void __cordl_internal_set_m_LoadType(::UnityEngine::RuntimeInitializeLoadType value);
+
+  /// @brief Method .ctor, addr 0x2dc0264, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2dc0288, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RuntimeInitializeLoadType loadType);
 
-  /// @brief Method set_loadType, addr 0x2cd4c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loadType, addr 0x2dc0280, size 0x8, virtual false, abstract: false, final false
   inline void set_loadType(::UnityEngine::RuntimeInitializeLoadType value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeInitializeOnLoadMethodAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeInitializeOnLoadMethodAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeOnLoadMethodAttribute&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeInitializeOnLoadMethodAttribute(RuntimeInitializeOnLoadMethodAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeInitializeOnLoadMethodAttribute();
-
-public:
   /// @brief Field m_LoadType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::RuntimeInitializeLoadType ___m_LoadType;
 

@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::MeasureOutput);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15521))
 // CS Name: ::UnityEngine.Yoga::MeasureOutput*
 class CORDL_TYPE MeasureOutput : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Make, addr 0x2ebe1fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x2fb2924, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaSize Make(float_t width, float_t height);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeasureOutput();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MeasureOutput", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeasureOutput(MeasureOutput&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeasureOutput(MeasureOutput const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeasureOutput();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

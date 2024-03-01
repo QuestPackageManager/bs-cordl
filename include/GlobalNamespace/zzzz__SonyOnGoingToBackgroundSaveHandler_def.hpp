@@ -29,72 +29,76 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11021))
 // CS Name: ::SonyOnGoingToBackgroundSaveHandler*
 class CORDL_TYPE SonyOnGoingToBackgroundSaveHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _fileStorage, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
+
+  /// @brief Field _localLeaderboardModel, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__localLeaderboardModel, put = __cordl_internal_set__localLeaderboardModel))::GlobalNamespace::LocalLeaderboardsModel* _localLeaderboardModel;
+
   /// @brief Field _mainSettingsModel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _playerDataModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _fileStorage, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
-
   /// @brief Field _sonyBackgroundExecutionHelper, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__sonyBackgroundExecutionHelper,
                       put = __cordl_internal_set__sonyBackgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _sonyBackgroundExecutionHelper;
 
-  /// @brief Field _localLeaderboardModel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__localLeaderboardModel, put = __cordl_internal_set__localLeaderboardModel))::GlobalNamespace::LocalLeaderboardsModel* _localLeaderboardModel;
+  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution, addr 0x12ebe98, size 0x140, virtual false, abstract: false, final false
+  inline void HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+  /// @brief Method Initialize, addr 0x12ebd4c, size 0xb8, virtual false, abstract: false, final false
+  inline void Initialize();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+  static inline ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* New_ctor();
 
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
-
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+  /// @brief Method OnDestroy, addr 0x12ebe04, size 0x94, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__fileStorage() const;
 
-  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
+  constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __cordl_internal_get__localLeaderboardModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& __cordl_internal_get__localLeaderboardModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
   constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __cordl_internal_get__sonyBackgroundExecutionHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& __cordl_internal_get__sonyBackgroundExecutionHelper() const;
 
-  constexpr void __cordl_internal_set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
-
-  constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __cordl_internal_get__localLeaderboardModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& __cordl_internal_get__localLeaderboardModel() const;
+  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
 
   constexpr void __cordl_internal_set__localLeaderboardModel(::GlobalNamespace::LocalLeaderboardsModel* value);
 
-  /// @brief Method Initialize, addr 0x12aad7c, size 0xb8, virtual false, abstract: false, final false
-  inline void Initialize();
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  /// @brief Method OnDestroy, addr 0x12aae34, size 0x94, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution, addr 0x12aaec8, size 0x140, virtual false, abstract: false, final false
-  inline void HandlePlatformBackgroundExecutionHelperDidGoToBackgroundExecution();
+  constexpr void __cordl_internal_set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
 
-  static inline ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12ab008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ebfd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyOnGoingToBackgroundSaveHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyOnGoingToBackgroundSaveHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyOnGoingToBackgroundSaveHandler(SonyOnGoingToBackgroundSaveHandler&&) = delete;
@@ -103,12 +107,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyOnGoingToBackgroundSaveHandler(SonyOnGoingToBackgroundSaveHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyOnGoingToBackgroundSaveHandler();
-
-public:
   /// @brief Field _mainSettingsModel, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 

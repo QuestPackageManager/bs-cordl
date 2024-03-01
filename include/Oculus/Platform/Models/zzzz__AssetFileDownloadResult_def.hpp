@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13351))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadResult*
 class CORDL_TYPE AssetFileDownloadResult : public ::System::Object {
 public:
@@ -28,23 +26,29 @@ public:
   /// @brief Field Filepath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Filepath, put = __cordl_internal_set_Filepath))::StringW Filepath;
 
-  constexpr uint64_t& __cordl_internal_get_AssetId();
+  static inline ::Oculus::Platform::Models::AssetFileDownloadResult* New_ctor(void* o);
 
   constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
-  constexpr void __cordl_internal_set_AssetId(uint64_t value);
-
-  constexpr ::StringW& __cordl_internal_get_Filepath();
+  constexpr uint64_t& __cordl_internal_get_AssetId();
 
   constexpr ::StringW const& __cordl_internal_get_Filepath() const;
 
+  constexpr ::StringW& __cordl_internal_get_Filepath();
+
+  constexpr void __cordl_internal_set_AssetId(uint64_t value);
+
   constexpr void __cordl_internal_set_Filepath(::StringW value);
 
-  static inline ::Oculus::Platform::Models::AssetFileDownloadResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x27370b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f6424, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetFileDownloadResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDownloadResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetFileDownloadResult(AssetFileDownloadResult&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetFileDownloadResult(AssetFileDownloadResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetFileDownloadResult();
-
-public:
   /// @brief Field AssetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetId;
 

@@ -26,23 +26,18 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3844)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3844), inst: 766 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3846))
 // CS Name: ::System.Collections.Generic::LargeArrayBuilder`1<T>
 struct CORDL_TYPE LargeArrayBuilder_1 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(bool initialize);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t maxCapacity);
-
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(::System::Collections::Generic::IEnumerable_1<T>* items);
 
   /// @brief Method AddWithBufferAllocation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddWithBufferAllocation(T item, ByRef<::ArrayW<T, ::Array<T>*>> destination, ByRef<int32_t> index);
+
+  /// @brief Method AllocateBuffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AllocateBuffer();
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex, int32_t count);
@@ -56,8 +51,15 @@ public:
   /// @brief Method TryMove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryMove(ByRef<::ArrayW<T, ::Array<T>*>> array);
 
-  /// @brief Method AllocateBuffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AllocateBuffer();
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(bool initialize);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t maxCapacity);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LargeArrayBuilder_1();
 
   // Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_first", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None },
   // CppParam { name: "_buffers", ty: "::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T,::Array<T>*>>", modifiers: "", def_value: None }, CppParam { name: "_current", ty:
@@ -65,10 +67,6 @@ public:
   // def_value: None }]
   constexpr LargeArrayBuilder_1(int32_t _maxCapacity, ::ArrayW<T, ::Array<T>*> _first, ::System::Collections::Generic::ArrayBuilder_1<::ArrayW<T, ::Array<T>*>> _buffers,
                                 ::ArrayW<T, ::Array<T>*> _current, int32_t _index, int32_t _count) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LargeArrayBuilder_1();
 
   /// @brief Field _maxCapacity, offset: 0x0, size: 0x4, def value: None
   int32_t _maxCapacity;

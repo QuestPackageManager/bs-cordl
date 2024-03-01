@@ -16,20 +16,18 @@ MARK_VAL_T(::System::Threading::NativeOverlapped);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2679))
 // CS Name: ::System.Threading::NativeOverlapped
 struct CORDL_TYPE NativeOverlapped {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeOverlapped();
+
   // Ctor Parameters [CppParam { name: "InternalLow", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "InternalHigh", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
   // "OffsetLow", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "OffsetHigh", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "EventHandle", ty: "void*",
   // modifiers: "", def_value: None }]
   constexpr NativeOverlapped(void* InternalLow, void* InternalHigh, int32_t OffsetLow, int32_t OffsetHigh, void* EventHandle) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeOverlapped();
 
   /// @brief Field InternalLow, offset: 0x0, size: 0x8, def value: None
   void* InternalLow;

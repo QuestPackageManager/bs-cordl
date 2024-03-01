@@ -16,12 +16,14 @@ MARK_VAL_T(::System::Security::Cryptography::RSAParameters);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2955))
 // CS Name: ::System.Security.Cryptography::RSAParameters
 struct CORDL_TYPE RSAParameters {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RSAParameters();
+
   // Ctor Parameters [CppParam { name: "Exponent", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Modulus", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>",
   // modifiers: "", def_value: None }, CppParam { name: "P", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Q", ty:
   // "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "DP", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "DQ",
@@ -30,10 +32,6 @@ public:
   constexpr RSAParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> Exponent, ::ArrayW<uint8_t, ::Array<uint8_t>*> Modulus, ::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> Q,
                           ::ArrayW<uint8_t, ::Array<uint8_t>*> DP, ::ArrayW<uint8_t, ::Array<uint8_t>*> DQ, ::ArrayW<uint8_t, ::Array<uint8_t>*> InverseQ,
                           ::ArrayW<uint8_t, ::Array<uint8_t>*> D) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RSAParameters();
 
   /// @brief Field Exponent, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> Exponent;

@@ -18,8 +18,6 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8708))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::BatchQueryJobStruct`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE BatchQueryJobStruct_1 {
@@ -28,12 +26,12 @@ public:
   /// @brief Field jobReflectionData, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData)) void* jobReflectionData;
 
-  static inline void setStaticF_jobReflectionData(void* value);
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void* Initialize();
 
   static inline void* getStaticF_jobReflectionData();
 
-  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void* Initialize();
+  static inline void setStaticF_jobReflectionData(void* value);
 
   // Ctor Parameters []
   // @brief default ctor

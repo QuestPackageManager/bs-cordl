@@ -19,8 +19,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1673 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6507))
 // CS Name: ::UnityEngine.UIElements::NavigationEventBase`1<T>*
 class CORDL_TYPE NavigationEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -28,20 +26,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::INavigationEvent"
   constexpr operator ::UnityEngine::UIElements::INavigationEvent*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
-  constexpr ::UnityEngine::UIElements::INavigationEvent* i___UnityEngine__UIElements__INavigationEvent() noexcept;
-
-  static inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
   /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
+  static inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* New_ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Convert to "::UnityEngine::UIElements::INavigationEvent"
+  constexpr ::UnityEngine::UIElements::INavigationEvent* i___UnityEngine__UIElements__INavigationEvent() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavigationEventBase_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NavigationEventBase_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationEventBase_1(NavigationEventBase_1&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NavigationEventBase_1(NavigationEventBase_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavigationEventBase_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

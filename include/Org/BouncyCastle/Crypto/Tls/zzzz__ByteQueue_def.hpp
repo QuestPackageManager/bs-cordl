@@ -22,95 +22,99 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ByteQueue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1183))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ByteQueue*
 class CORDL_TYPE ByteQueue : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field databuf, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_databuf, put = __cordl_internal_set_databuf))::ArrayW<uint8_t, ::Array<uint8_t>*> databuf;
-
-  /// @brief Field skipped, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_skipped, put = __cordl_internal_set_skipped)) int32_t skipped;
+  __declspec(property(get = get_Available)) int32_t Available;
 
   /// @brief Field available, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_available, put = __cordl_internal_set_available)) int32_t available;
 
+  /// @brief Field databuf, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_databuf, put = __cordl_internal_set_databuf))::ArrayW<uint8_t, ::Array<uint8_t>*> databuf;
+
   /// @brief Field readOnlyBuf, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_readOnlyBuf, put = __cordl_internal_set_readOnlyBuf)) bool readOnlyBuf;
 
-  __declspec(property(get = get_Available)) int32_t Available;
+  /// @brief Field skipped, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_skipped, put = __cordl_internal_set_skipped)) int32_t skipped;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_databuf();
+  /// @brief Method AddData, addr 0xfcd2d0, size 0x16c, virtual false, abstract: false, final false
+  inline void AddData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t len);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_databuf() const;
-
-  constexpr void __cordl_internal_set_databuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_skipped();
-
-  constexpr int32_t const& __cordl_internal_get_skipped() const;
-
-  constexpr void __cordl_internal_set_skipped(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_available();
-
-  constexpr int32_t const& __cordl_internal_get_available() const;
-
-  constexpr void __cordl_internal_set_available(int32_t value);
-
-  constexpr bool& __cordl_internal_get_readOnlyBuf();
-
-  constexpr bool const& __cordl_internal_get_readOnlyBuf() const;
-
-  constexpr void __cordl_internal_set_readOnlyBuf(bool value);
-
-  /// @brief Method NextTwoPow, addr 0xf871f0, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t NextTwoPow(int32_t i);
+  /// @brief Method CopyTo, addr 0xfcd444, size 0x1bc, virtual false, abstract: false, final false
+  inline void CopyTo(::System::IO::Stream* output, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueue* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf8720c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueue* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueue* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0xf87214, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+  /// @brief Method NextTwoPow, addr 0xfcd1c0, size 0x1c, virtual false, abstract: false, final false
+  static inline int32_t NextTwoPow(int32_t i);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueue* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
-
-  /// @brief Method .ctor, addr 0xf872b4, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
-
-  /// @brief Method AddData, addr 0xf87300, size 0x16c, virtual false, abstract: false, final false
-  inline void AddData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t len);
-
-  /// @brief Method get_Available, addr 0xf8746c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Available();
-
-  /// @brief Method CopyTo, addr 0xf87474, size 0x1bc, virtual false, abstract: false, final false
-  inline void CopyTo(::System::IO::Stream* output, int32_t length);
-
-  /// @brief Method Read, addr 0xf87630, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0xfcd600, size 0x25c, virtual false, abstract: false, final false
   inline void Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t offset, int32_t len, int32_t skip);
 
-  /// @brief Method ReadFrom, addr 0xf8788c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0xfcd85c, size 0x200, virtual false, abstract: false, final false
   inline ::System::IO::MemoryStream* ReadFrom(int32_t length);
 
-  /// @brief Method RemoveData, addr 0xf87a8c, size 0x1a4, virtual false, abstract: false, final false
-  inline void RemoveData(int32_t i);
-
-  /// @brief Method RemoveData, addr 0xf87c30, size 0x2c, virtual false, abstract: false, final false
-  inline void RemoveData(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t skip);
-
-  /// @brief Method RemoveData, addr 0xf87c5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveData, addr 0xfcdc2c, size 0x88, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RemoveData(int32_t len, int32_t skip);
 
-  /// @brief Method Shrink, addr 0xf87ce4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method RemoveData, addr 0xfcdc00, size 0x2c, virtual false, abstract: false, final false
+  inline void RemoveData(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t skip);
+
+  /// @brief Method RemoveData, addr 0xfcda5c, size 0x1a4, virtual false, abstract: false, final false
+  inline void RemoveData(int32_t i);
+
+  /// @brief Method Shrink, addr 0xfcdcb4, size 0xe8, virtual false, abstract: false, final false
   inline void Shrink();
 
+  constexpr int32_t const& __cordl_internal_get_available() const;
+
+  constexpr int32_t& __cordl_internal_get_available();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_databuf() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_databuf();
+
+  constexpr bool const& __cordl_internal_get_readOnlyBuf() const;
+
+  constexpr bool& __cordl_internal_get_readOnlyBuf();
+
+  constexpr int32_t const& __cordl_internal_get_skipped() const;
+
+  constexpr int32_t& __cordl_internal_get_skipped();
+
+  constexpr void __cordl_internal_set_available(int32_t value);
+
+  constexpr void __cordl_internal_set_databuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_readOnlyBuf(bool value);
+
+  constexpr void __cordl_internal_set_skipped(int32_t value);
+
+  /// @brief Method .ctor, addr 0xfcd1dc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0xfcd284, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+
+  /// @brief Method .ctor, addr 0xfcd1e4, size 0xa0, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity);
+
+  /// @brief Method get_Available, addr 0xfcd43c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Available();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ByteQueue();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ByteQueue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ByteQueue(ByteQueue&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ByteQueue(ByteQueue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ByteQueue();
-
-public:
   /// @brief Field databuf, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___databuf;
 

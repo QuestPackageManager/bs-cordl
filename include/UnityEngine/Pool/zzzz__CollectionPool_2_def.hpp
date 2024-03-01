@@ -30,8 +30,6 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9212))
 // CS Name: ::CollectionPool`2::<>c<TCollection,TItem>*
 class CORDL_TYPE __CollectionPool_2____c : public ::System::Object {
 public:
@@ -39,14 +37,7 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* __9;
 
-  static inline void setStaticF___9(::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* value);
-
-  static inline ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* getStaticF___9();
-
   static inline ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <.cctor>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TCollection __cctor_b__5_0();
@@ -54,6 +45,19 @@ public:
   /// @brief Method <.cctor>b__5_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__5_1(TCollection l);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* getStaticF___9();
+
+  static inline void setStaticF___9(::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CollectionPool_2____c();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CollectionPool_2____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CollectionPool_2____c(__CollectionPool_2____c&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CollectionPool_2____c(__CollectionPool_2____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CollectionPool_2____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -78,8 +76,6 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9213))
 // CS Name: ::UnityEngine.Pool::CollectionPool`2<TCollection,TItem>*
 class CORDL_TYPE CollectionPool_2 : public ::System::Object {
 public:
@@ -89,19 +85,25 @@ public:
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool))::UnityEngine::Pool::ObjectPool_1<TCollection>* s_Pool;
 
-  static inline void setStaticF_s_Pool(::UnityEngine::Pool::ObjectPool_1<TCollection>* value);
-
-  static inline ::UnityEngine::Pool::ObjectPool_1<TCollection>* getStaticF_s_Pool();
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Pool::PooledObject_1<TCollection> Get(ByRef<TCollection> value);
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TCollection Get();
 
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Pool::PooledObject_1<TCollection> Get(ByRef<TCollection> value);
-
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(TCollection toRelease);
 
+  static inline ::UnityEngine::Pool::ObjectPool_1<TCollection>* getStaticF_s_Pool();
+
+  static inline void setStaticF_s_Pool(::UnityEngine::Pool::ObjectPool_1<TCollection>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CollectionPool_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionPool_2(CollectionPool_2&&) = delete;
@@ -110,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionPool_2(CollectionPool_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CollectionPool_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

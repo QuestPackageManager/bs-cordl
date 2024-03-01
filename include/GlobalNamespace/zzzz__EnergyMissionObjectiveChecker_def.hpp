@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EnergyMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4446))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4441))
 // CS Name: ::EnergyMissionObjectiveChecker*
 class CORDL_TYPE EnergyMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
@@ -27,29 +25,35 @@ public:
   /// @brief Field _energyCounter, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter))::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__energyCounter();
+  /// @brief Method CheckAndUpdateStatus, addr 0x2456f64, size 0xc4, virtual false, abstract: false, final false
+  inline void CheckAndUpdateStatus();
 
-  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
-
-  constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
-
-  /// @brief Method OnDestroy, addr 0x2388ee0, size 0xd0, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleEnergyDidChange, addr 0x2388fb0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnergyDidChange, addr 0x2456ef8, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x23890e0, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2457028, size 0x138, virtual true, abstract: false, final false
   inline void Init();
-
-  /// @brief Method CheckAndUpdateStatus, addr 0x238901c, size 0xc4, virtual false, abstract: false, final false
-  inline void CheckAndUpdateStatus();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2389218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2456e28, size 0xd0, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
+
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__energyCounter();
+
+  constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
+
+  /// @brief Method .ctor, addr 0x2457160, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnergyMissionObjectiveChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnergyMissionObjectiveChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnergyMissionObjectiveChecker(EnergyMissionObjectiveChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnergyMissionObjectiveChecker();
-
-public:
   /// @brief Field _energyCounter, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameEnergyCounter> ____energyCounter;
 

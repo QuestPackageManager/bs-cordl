@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::RenderHints);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6124))
 // CS Name: ::UnityEngine.UIElements::RenderHints
 struct CORDL_TYPE RenderHints {
 public:
@@ -44,24 +42,20 @@ public:
     return static_cast<__RenderHints_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderHints(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderHints();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderHints(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::RenderHints const None;
-
-  /// @brief Field GroupTransform value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::RenderHints const GroupTransform;
 
   /// @brief Field BoneTransform value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::RenderHints const BoneTransform;
@@ -69,17 +63,8 @@ public:
   /// @brief Field ClipWithScissors value: static_cast<int32_t>(0x4)
   static ::UnityEngine::UIElements::RenderHints const ClipWithScissors;
 
-  /// @brief Field MaskContainer value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::UIElements::RenderHints const MaskContainer;
-
-  /// @brief Field DynamicColor value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::UIElements::RenderHints const DynamicColor;
-
-  /// @brief Field DirtyOffset value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::UIElements::RenderHints const DirtyOffset;
-
-  /// @brief Field DirtyGroupTransform value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
+  /// @brief Field DirtyAll value: static_cast<int32_t>(0x1e0)
+  static ::UnityEngine::UIElements::RenderHints const DirtyAll;
 
   /// @brief Field DirtyBoneTransform value: static_cast<int32_t>(0x40)
   static ::UnityEngine::UIElements::RenderHints const DirtyBoneTransform;
@@ -87,11 +72,29 @@ public:
   /// @brief Field DirtyClipWithScissors value: static_cast<int32_t>(0x80)
   static ::UnityEngine::UIElements::RenderHints const DirtyClipWithScissors;
 
+  /// @brief Field DirtyGroupTransform value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
+
   /// @brief Field DirtyMaskContainer value: static_cast<int32_t>(0x100)
   static ::UnityEngine::UIElements::RenderHints const DirtyMaskContainer;
 
-  /// @brief Field DirtyAll value: static_cast<int32_t>(0x1e0)
-  static ::UnityEngine::UIElements::RenderHints const DirtyAll;
+  /// @brief Field DirtyOffset value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::UIElements::RenderHints const DirtyOffset;
+
+  /// @brief Field DynamicColor value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::UIElements::RenderHints const DynamicColor;
+
+  /// @brief Field GroupTransform value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::RenderHints const GroupTransform;
+
+  /// @brief Field MaskContainer value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::UIElements::RenderHints const MaskContainer;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::RenderHints const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

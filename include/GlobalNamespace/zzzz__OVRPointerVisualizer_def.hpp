@@ -21,47 +21,51 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRPointerVisualizer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7967))
 // CS Name: ::OVRPointerVisualizer*
 class CORDL_TYPE OVRPointerVisualizer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field rayTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_rayTransform, put = __cordl_internal_set_rayTransform))::UnityW<::UnityEngine::Transform> rayTransform;
-
   /// @brief Field linePointer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_linePointer, put = __cordl_internal_set_linePointer))::UnityW<::UnityEngine::LineRenderer> linePointer;
 
   /// @brief Field rayDrawDistance, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_rayDrawDistance, put = __cordl_internal_set_rayDrawDistance)) float_t rayDrawDistance;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rayTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rayTransform() const;
-
-  constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_linePointer();
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_linePointer() const;
-
-  constexpr void __cordl_internal_set_linePointer(::UnityW<::UnityEngine::LineRenderer> value);
-
-  constexpr float_t& __cordl_internal_get_rayDrawDistance();
-
-  constexpr float_t const& __cordl_internal_get_rayDrawDistance() const;
-
-  constexpr void __cordl_internal_set_rayDrawDistance(float_t value);
-
-  /// @brief Method Update, addr 0x279d038, size 0x1a0, virtual false, abstract: false, final false
-  inline void Update();
+  /// @brief Field rayTransform, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_rayTransform, put = __cordl_internal_set_rayTransform))::UnityW<::UnityEngine::Transform> rayTransform;
 
   static inline ::GlobalNamespace::OVRPointerVisualizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x279d1d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x287160c, size 0x1a0, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_linePointer() const;
+
+  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_linePointer();
+
+  constexpr float_t const& __cordl_internal_get_rayDrawDistance() const;
+
+  constexpr float_t& __cordl_internal_get_rayDrawDistance();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rayTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rayTransform();
+
+  constexpr void __cordl_internal_set_linePointer(::UnityW<::UnityEngine::LineRenderer> value);
+
+  constexpr void __cordl_internal_set_rayDrawDistance(float_t value);
+
+  constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x28717ac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRPointerVisualizer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRPointerVisualizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRPointerVisualizer(OVRPointerVisualizer&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRPointerVisualizer(OVRPointerVisualizer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRPointerVisualizer();
-
-public:
   /// @brief Field rayTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___rayTransform;
 

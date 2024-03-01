@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingVideoStats);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13395))
 // CS Name: ::Oculus.Platform.Models::LivestreamingVideoStats*
 class CORDL_TYPE LivestreamingVideoStats : public ::System::Object {
 public:
@@ -31,29 +29,35 @@ public:
   /// @brief Field TotalViews, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_TotalViews, put = __cordl_internal_set_TotalViews))::StringW TotalViews;
 
-  constexpr int32_t& __cordl_internal_get_CommentCount();
+  static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(void* o);
 
   constexpr int32_t const& __cordl_internal_get_CommentCount() const;
 
-  constexpr void __cordl_internal_set_CommentCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_ReactionCount();
+  constexpr int32_t& __cordl_internal_get_CommentCount();
 
   constexpr int32_t const& __cordl_internal_get_ReactionCount() const;
 
-  constexpr void __cordl_internal_set_ReactionCount(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_TotalViews();
+  constexpr int32_t& __cordl_internal_get_ReactionCount();
 
   constexpr ::StringW const& __cordl_internal_get_TotalViews() const;
 
+  constexpr ::StringW& __cordl_internal_get_TotalViews();
+
+  constexpr void __cordl_internal_set_CommentCount(int32_t value);
+
+  constexpr void __cordl_internal_set_ReactionCount(int32_t value);
+
   constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-  static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x273a2b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8cd4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LivestreamingVideoStats();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LivestreamingVideoStats", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LivestreamingVideoStats(LivestreamingVideoStats&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LivestreamingVideoStats(LivestreamingVideoStats const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LivestreamingVideoStats();
-
-public:
   /// @brief Field CommentCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___CommentCount;
 

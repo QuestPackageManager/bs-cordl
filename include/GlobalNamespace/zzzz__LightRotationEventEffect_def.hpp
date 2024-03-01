@@ -33,111 +33,116 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationEventEffect);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15108))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4307)) CS Name: ::LightRotationEventEffect*
+// CS Name: ::LightRotationEventEffect*
 class CORDL_TYPE LightRotationEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _event, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
-
-  /// @brief Field _rotationVector, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector))::UnityEngine::Vector3 _rotationVector;
-
-  /// @brief Field _rotationSpeedMultiplier, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__rotationSpeedMultiplier, put = __cordl_internal_set__rotationSpeedMultiplier)) float_t _rotationSpeedMultiplier;
+  /// @brief Field _audioTimeSource, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _audioTimeSource, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
-
-  /// @brief Field _transform, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
-
-  /// @brief Field _startRotation, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__startRotation, put = __cordl_internal_set__startRotation))::UnityEngine::Quaternion _startRotation;
-
-  /// @brief Field _rotationSpeed, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__rotationSpeed, put = __cordl_internal_set__rotationSpeed)) float_t _rotationSpeed;
-
   /// @brief Field _beatmapDataCallbackWrapper, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+  /// @brief Field _event, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+  /// @brief Field _rotationSpeed, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__rotationSpeed, put = __cordl_internal_set__rotationSpeed)) float_t _rotationSpeed;
 
-  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
+  /// @brief Field _rotationSpeedMultiplier, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__rotationSpeedMultiplier, put = __cordl_internal_set__rotationSpeedMultiplier)) float_t _rotationSpeedMultiplier;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotationVector();
+  /// @brief Field _rotationVector, offset 0x1c, size 0xc
+  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector))::UnityEngine::Vector3 _rotationVector;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotationVector() const;
+  /// @brief Field _startRotation, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get__startRotation, put = __cordl_internal_set__startRotation))::UnityEngine::Quaternion _startRotation;
 
-  constexpr void __cordl_internal_set__rotationVector(::UnityEngine::Vector3 value);
+  /// @brief Field _transform, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr float_t& __cordl_internal_get__rotationSpeedMultiplier();
+  /// @brief Method HandleBeatmapEvent, addr 0x243b878, size 0x124, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr float_t const& __cordl_internal_get__rotationSpeedMultiplier() const;
+  static inline ::GlobalNamespace::LightRotationEventEffect* New_ctor();
 
-  constexpr void __cordl_internal_set__rotationSpeedMultiplier(float_t value);
+  /// @brief Method OnDestroy, addr 0x243b85c, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  /// @brief Method Start, addr 0x243b620, size 0x154, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
-
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  /// @brief Method Update, addr 0x243b774, size 0xe8, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__startRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__startRotation() const;
-
-  constexpr void __cordl_internal_set__startRotation(::UnityEngine::Quaternion value);
-
-  constexpr float_t& __cordl_internal_get__rotationSpeed();
-
-  constexpr float_t const& __cordl_internal_get__rotationSpeed() const;
-
-  constexpr void __cordl_internal_set__rotationSpeed(float_t value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+
+  constexpr float_t const& __cordl_internal_get__rotationSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__rotationSpeed();
+
+  constexpr float_t const& __cordl_internal_get__rotationSpeedMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get__rotationSpeedMultiplier();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotationVector() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotationVector();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__startRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__startRotation();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x236d6d8, size 0x154, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method Update, addr 0x236d82c, size 0xe8, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__rotationSpeed(float_t value);
 
-  /// @brief Method OnDestroy, addr 0x236d914, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__rotationSpeedMultiplier(float_t value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x236d930, size 0x124, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__rotationVector(::UnityEngine::Vector3 value);
 
-  static inline ::GlobalNamespace::LightRotationEventEffect* New_ctor();
+  constexpr void __cordl_internal_set__startRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x236da54, size 0x64, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x243b99c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightRotationEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationEventEffect(LightRotationEventEffect&&) = delete;
@@ -146,12 +151,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationEventEffect(LightRotationEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightRotationEventEffect();
-
-public:
   /// @brief Field _event, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 

@@ -23,57 +23,61 @@ MARK_REF_PTR_T(::System::Threading::ThreadPoolWorkQueueThreadLocals);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2735))
 // CS Name: ::System.Threading::ThreadPoolWorkQueueThreadLocals*
 class CORDL_TYPE ThreadPoolWorkQueueThreadLocals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field workQueue, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_workQueue, put = __cordl_internal_set_workQueue))::System::Threading::ThreadPoolWorkQueue* workQueue;
-
-  /// @brief Field workStealingQueue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_workStealingQueue, put = __cordl_internal_set_workStealingQueue))::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* workStealingQueue;
-
   /// @brief Field random, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::System::Random* random;
 
   /// @brief Field threadLocals, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_threadLocals, put = setStaticF_threadLocals))::System::Threading::ThreadPoolWorkQueueThreadLocals* threadLocals;
 
-  constexpr ::System::Threading::ThreadPoolWorkQueue*& __cordl_internal_get_workQueue();
+  /// @brief Field workQueue, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_workQueue, put = __cordl_internal_set_workQueue))::System::Threading::ThreadPoolWorkQueue* workQueue;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& __cordl_internal_get_workQueue() const;
+  /// @brief Field workStealingQueue, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_workStealingQueue, put = __cordl_internal_set_workStealingQueue))::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* workStealingQueue;
 
-  constexpr void __cordl_internal_set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
+  /// @brief Method CleanUp, addr 0x2710974, size 0xd4, virtual false, abstract: false, final false
+  inline void CleanUp();
 
-  constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& __cordl_internal_get_workStealingQueue();
+  /// @brief Method Finalize, addr 0x2710a48, size 0xcc, virtual true, abstract: false, final false
+  inline void Finalize();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*> const& __cordl_internal_get_workStealingQueue() const;
-
-  constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value);
+  static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
   constexpr ::System::Random*& __cordl_internal_get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get_random() const;
 
+  constexpr ::System::Threading::ThreadPoolWorkQueue*& __cordl_internal_get_workQueue();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& __cordl_internal_get_workQueue() const;
+
+  constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& __cordl_internal_get_workStealingQueue();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*> const& __cordl_internal_get_workStealingQueue() const;
+
   constexpr void __cordl_internal_set_random(::System::Random* value);
 
-  static inline void setStaticF_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals* value);
+  constexpr void __cordl_internal_set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
+
+  constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value);
+
+  /// @brief Method .ctor, addr 0x2710858, size 0x11c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* getStaticF_threadLocals();
 
-  static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
+  static inline void setStaticF_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals* value);
 
-  /// @brief Method .ctor, addr 0x2642164, size 0x11c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadPoolWorkQueueThreadLocals();
 
-  /// @brief Method CleanUp, addr 0x2642280, size 0xd4, virtual false, abstract: false, final false
-  inline void CleanUp();
-
-  /// @brief Method Finalize, addr 0x2642354, size 0xcc, virtual true, abstract: false, final false
-  inline void Finalize();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadPoolWorkQueueThreadLocals();
-
-public:
   /// @brief Field workQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ThreadPoolWorkQueue* ___workQueue;
 

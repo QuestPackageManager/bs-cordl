@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::EventType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14606))
 // CS Name: ::UnityEngine::EventType
 struct CORDL_TYPE EventType {
 public:
@@ -70,30 +68,38 @@ public:
     return static_cast<__EventType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EventType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EventType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field ContextClick value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::EventType const ContextClick;
 
-  /// @brief Field MouseDown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::EventType const MouseDown;
+  /// @brief Field DragExited value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::EventType const DragExited;
 
-  /// @brief Field MouseUp value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::EventType const MouseUp;
+  /// @brief Field DragPerform value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::EventType const DragPerform;
 
-  /// @brief Field MouseMove value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::EventType const MouseMove;
+  /// @brief Field DragUpdated value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::EventType const DragUpdated;
 
-  /// @brief Field MouseDrag value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::EventType const MouseDrag;
+  /// @brief Field ExecuteCommand value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::EventType const ExecuteCommand;
+
+  /// @brief Field Ignore value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::EventType const Ignore;
 
   /// @brief Field KeyDown value: static_cast<int32_t>(0x4)
   static ::UnityEngine::EventType const KeyDown;
@@ -101,38 +107,14 @@ public:
   /// @brief Field KeyUp value: static_cast<int32_t>(0x5)
   static ::UnityEngine::EventType const KeyUp;
 
-  /// @brief Field ScrollWheel value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::EventType const ScrollWheel;
-
-  /// @brief Field Repaint value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::EventType const Repaint;
-
   /// @brief Field Layout value: static_cast<int32_t>(0x8)
   static ::UnityEngine::EventType const Layout;
 
-  /// @brief Field DragUpdated value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::EventType const DragUpdated;
+  /// @brief Field MouseDown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::EventType const MouseDown;
 
-  /// @brief Field DragPerform value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::EventType const DragPerform;
-
-  /// @brief Field DragExited value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::EventType const DragExited;
-
-  /// @brief Field Ignore value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::EventType const Ignore;
-
-  /// @brief Field Used value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::EventType const Used;
-
-  /// @brief Field ValidateCommand value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::EventType const ValidateCommand;
-
-  /// @brief Field ExecuteCommand value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::EventType const ExecuteCommand;
-
-  /// @brief Field ContextClick value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::EventType const ContextClick;
+  /// @brief Field MouseDrag value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::EventType const MouseDrag;
 
   /// @brief Field MouseEnterWindow value: static_cast<int32_t>(0x14)
   static ::UnityEngine::EventType const MouseEnterWindow;
@@ -140,14 +122,20 @@ public:
   /// @brief Field MouseLeaveWindow value: static_cast<int32_t>(0x15)
   static ::UnityEngine::EventType const MouseLeaveWindow;
 
+  /// @brief Field MouseMove value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::EventType const MouseMove;
+
+  /// @brief Field MouseUp value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::EventType const MouseUp;
+
+  /// @brief Field Repaint value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::EventType const Repaint;
+
+  /// @brief Field ScrollWheel value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::EventType const ScrollWheel;
+
   /// @brief Field TouchDown value: static_cast<int32_t>(0x1e)
   static ::UnityEngine::EventType const TouchDown;
-
-  /// @brief Field TouchUp value: static_cast<int32_t>(0x1f)
-  static ::UnityEngine::EventType const TouchUp;
-
-  /// @brief Field TouchMove value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::EventType const TouchMove;
 
   /// @brief Field TouchEnter value: static_cast<int32_t>(0x21)
   static ::UnityEngine::EventType const TouchEnter;
@@ -155,20 +143,32 @@ public:
   /// @brief Field TouchLeave value: static_cast<int32_t>(0x22)
   static ::UnityEngine::EventType const TouchLeave;
 
+  /// @brief Field TouchMove value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::EventType const TouchMove;
+
   /// @brief Field TouchStationary value: static_cast<int32_t>(0x23)
   static ::UnityEngine::EventType const TouchStationary;
 
-  /// @brief Field mouseDown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::EventType const mouseDown;
+  /// @brief Field TouchUp value: static_cast<int32_t>(0x1f)
+  static ::UnityEngine::EventType const TouchUp;
 
-  /// @brief Field mouseUp value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::EventType const mouseUp;
+  /// @brief Field Used value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::EventType const Used;
 
-  /// @brief Field mouseMove value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::EventType const mouseMove;
+  /// @brief Field ValidateCommand value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::EventType const ValidateCommand;
 
-  /// @brief Field mouseDrag value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::EventType const mouseDrag;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field dragPerform value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::EventType const dragPerform;
+
+  /// @brief Field dragUpdated value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::EventType const dragUpdated;
+
+  /// @brief Field ignore value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::EventType const ignore;
 
   /// @brief Field keyDown value: static_cast<int32_t>(0x4)
   static ::UnityEngine::EventType const keyDown;
@@ -176,23 +176,26 @@ public:
   /// @brief Field keyUp value: static_cast<int32_t>(0x5)
   static ::UnityEngine::EventType const keyUp;
 
-  /// @brief Field scrollWheel value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::EventType const scrollWheel;
+  /// @brief Field layout value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::EventType const layout;
+
+  /// @brief Field mouseDown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::EventType const mouseDown;
+
+  /// @brief Field mouseDrag value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::EventType const mouseDrag;
+
+  /// @brief Field mouseMove value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::EventType const mouseMove;
+
+  /// @brief Field mouseUp value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::EventType const mouseUp;
 
   /// @brief Field repaint value: static_cast<int32_t>(0x7)
   static ::UnityEngine::EventType const repaint;
 
-  /// @brief Field layout value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::EventType const layout;
-
-  /// @brief Field dragUpdated value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::EventType const dragUpdated;
-
-  /// @brief Field dragPerform value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::EventType const dragPerform;
-
-  /// @brief Field ignore value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::EventType const ignore;
+  /// @brief Field scrollWheel value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::EventType const scrollWheel;
 
   /// @brief Field used value: static_cast<int32_t>(0xc)
   static ::UnityEngine::EventType const used;

@@ -74,29 +74,10 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5341)), TypeDefinitionIndex(TypeDefinitionIndex(10773))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5353))
 // CS Name: ::StandardLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE StandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Field _standardGameplaySceneInfo, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardGameplaySceneInfo, put = __cordl_internal_set__standardGameplaySceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _standardGameplaySceneInfo;
-
-  /// @brief Field _gameCoreSceneInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
-
-  /// @brief Field _mainSettingsModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
-
-  /// @brief Field didFinishEvent, offset 0x48, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_didFinishEvent,
-      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
-
-  /// @brief Field <gameMode>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameMode_k__BackingField, put = __cordl_internal_set__gameMode_k__BackingField))::StringW _gameMode_k__BackingField;
-
   /// @brief Field <beatmapKey>k__BackingField, offset 0x58, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey_k__BackingField, put = __cordl_internal_set__beatmapKey_k__BackingField))::GlobalNamespace::BeatmapKey _beatmapKey_k__BackingField;
 
@@ -104,196 +85,68 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapLevel_k__BackingField,
                       put = __cordl_internal_set__beatmapLevel_k__BackingField))::GlobalNamespace::BeatmapLevel* _beatmapLevel_k__BackingField;
 
-  /// @brief Field <practiceSettings>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__practiceSettings_k__BackingField,
-                      put = __cordl_internal_set__practiceSettings_k__BackingField))::GlobalNamespace::PracticeSettings* _practiceSettings_k__BackingField;
-
-  /// @brief Field <usingOverrideColorScheme>k__BackingField, offset 0x80, size 0x1
-  __declspec(property(get = __cordl_internal_get__usingOverrideColorScheme_k__BackingField,
-                      put = __cordl_internal_set__usingOverrideColorScheme_k__BackingField)) bool _usingOverrideColorScheme_k__BackingField;
-
   /// @brief Field <colorScheme>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__colorScheme_k__BackingField, put = __cordl_internal_set__colorScheme_k__BackingField))::GlobalNamespace::ColorScheme* _colorScheme_k__BackingField;
-
-  /// @brief Field <usingOverrideEnvironment>k__BackingField, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get__usingOverrideEnvironment_k__BackingField,
-                      put = __cordl_internal_set__usingOverrideEnvironment_k__BackingField)) bool _usingOverrideEnvironment_k__BackingField;
 
   /// @brief Field <environmentInfo>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentInfo_k__BackingField,
                       put = __cordl_internal_set__environmentInfo_k__BackingField))::UnityW<::GlobalNamespace::EnvironmentInfoSO> _environmentInfo_k__BackingField;
 
+  /// @brief Field _gameCoreSceneInfo, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
+
+  /// @brief Field <gameMode>k__BackingField, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameMode_k__BackingField, put = __cordl_internal_set__gameMode_k__BackingField))::StringW _gameMode_k__BackingField;
+
   /// @brief Field <gameplayModifiers>k__BackingField, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiers_k__BackingField,
                       put = __cordl_internal_set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
 
-  __declspec(property(get = get_gameMode, put = set_gameMode))::StringW gameMode;
+  /// @brief Field _mainSettingsModel, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
+
+  /// @brief Field <practiceSettings>k__BackingField, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__practiceSettings_k__BackingField,
+                      put = __cordl_internal_set__practiceSettings_k__BackingField))::GlobalNamespace::PracticeSettings* _practiceSettings_k__BackingField;
+
+  /// @brief Field _standardGameplaySceneInfo, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__standardGameplaySceneInfo, put = __cordl_internal_set__standardGameplaySceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _standardGameplaySceneInfo;
+
+  /// @brief Field <usingOverrideColorScheme>k__BackingField, offset 0x80, size 0x1
+  __declspec(property(get = __cordl_internal_get__usingOverrideColorScheme_k__BackingField,
+                      put = __cordl_internal_set__usingOverrideColorScheme_k__BackingField)) bool _usingOverrideColorScheme_k__BackingField;
+
+  /// @brief Field <usingOverrideEnvironment>k__BackingField, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get__usingOverrideEnvironment_k__BackingField,
+                      put = __cordl_internal_set__usingOverrideEnvironment_k__BackingField)) bool _usingOverrideEnvironment_k__BackingField;
 
   __declspec(property(get = get_beatmapKey, put = set_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
 
   __declspec(property(get = get_beatmapLevel, put = set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
+  __declspec(property(get = get_colorScheme, put = set_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
+
+  /// @brief Field didFinishEvent, offset 0x48, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_didFinishEvent,
+      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
+
+  __declspec(property(get = get_environmentInfo, put = set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
+
+  __declspec(property(get = get_gameMode, put = set_gameMode))::StringW gameMode;
+
+  __declspec(property(get = get_gameplayModifiers, put = set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+
   __declspec(property(get = get_practiceSettings, put = set_practiceSettings))::GlobalNamespace::PracticeSettings* practiceSettings;
 
   __declspec(property(get = get_usingOverrideColorScheme, put = set_usingOverrideColorScheme)) bool usingOverrideColorScheme;
 
-  __declspec(property(get = get_colorScheme, put = set_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
-
   __declspec(property(get = get_usingOverrideEnvironment, put = set_usingOverrideEnvironment)) bool usingOverrideEnvironment;
 
-  __declspec(property(get = get_environmentInfo, put = set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
+  /// @brief Method Finish, addr 0x241ac70, size 0x28, virtual false, abstract: false, final false
+  inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  __declspec(property(get = get_gameplayModifiers, put = set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__standardGameplaySceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__standardGameplaySceneInfo() const;
-
-  constexpr void __cordl_internal_set__standardGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
-
-  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
-
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
-
-  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*& __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*> const&
-  __cordl_internal_get_didFinishEvent() const;
-
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
-
-  constexpr ::StringW& __cordl_internal_get__gameMode_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__gameMode_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__gameMode_k__BackingField(::StringW value);
-
-  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey_k__BackingField();
-
-  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__beatmapKey_k__BackingField(::GlobalNamespace::BeatmapKey value);
-
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__beatmapLevel_k__BackingField(::GlobalNamespace::BeatmapLevel* value);
-
-  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__practiceSettings_k__BackingField(::GlobalNamespace::PracticeSettings* value);
-
-  constexpr bool& __cordl_internal_get__usingOverrideColorScheme_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__usingOverrideColorScheme_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__usingOverrideColorScheme_k__BackingField(bool value);
-
-  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__colorScheme_k__BackingField(::GlobalNamespace::ColorScheme* value);
-
-  constexpr bool& __cordl_internal_get__usingOverrideEnvironment_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__usingOverrideEnvironment_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__usingOverrideEnvironment_k__BackingField(bool value);
-
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__environmentInfo_k__BackingField();
-
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__environmentInfo_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__environmentInfo_k__BackingField(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
-
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
-
-  /// @brief Method add_didFinishEvent, addr 0x2349808, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
-
-  /// @brief Method remove_didFinishEvent, addr 0x2349bfc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
-
-  /// @brief Method get_gameMode, addr 0x234c7c0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_gameMode();
-
-  /// @brief Method set_gameMode, addr 0x234c7c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameMode(::StringW value);
-
-  /// @brief Method get_beatmapKey, addr 0x234c7d0, size 0x14, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
-
-  /// @brief Method set_beatmapKey, addr 0x234c7e4, size 0x14, virtual false, abstract: false, final false
-  inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
-
-  /// @brief Method get_beatmapLevel, addr 0x234c7f8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
-
-  /// @brief Method set_beatmapLevel, addr 0x234c800, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
-
-  /// @brief Method get_practiceSettings, addr 0x234c808, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
-
-  /// @brief Method set_practiceSettings, addr 0x234c810, size 0x8, virtual false, abstract: false, final false
-  inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
-
-  /// @brief Method get_usingOverrideColorScheme, addr 0x234c818, size 0x8, virtual false, abstract: false, final false
-  inline bool get_usingOverrideColorScheme();
-
-  /// @brief Method set_usingOverrideColorScheme, addr 0x234c820, size 0xc, virtual false, abstract: false, final false
-  inline void set_usingOverrideColorScheme(bool value);
-
-  /// @brief Method get_colorScheme, addr 0x234c82c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorScheme* get_colorScheme();
-
-  /// @brief Method set_colorScheme, addr 0x234c834, size 0x8, virtual false, abstract: false, final false
-  inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
-
-  /// @brief Method get_usingOverrideEnvironment, addr 0x234c83c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_usingOverrideEnvironment();
-
-  /// @brief Method set_usingOverrideEnvironment, addr 0x234c844, size 0xc, virtual false, abstract: false, final false
-  inline void set_usingOverrideEnvironment(bool value);
-
-  /// @brief Method get_environmentInfo, addr 0x234c850, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
-
-  /// @brief Method set_environmentInfo, addr 0x234c858, size 0x8, virtual false, abstract: false, final false
-  inline void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
-
-  /// @brief Method get_gameplayModifiers, addr 0x234c860, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
-
-  /// @brief Method set_gameplayModifiers, addr 0x234c868, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
-
-  /// @brief Method Init, addr 0x234781c, size 0x1bc, virtual false, abstract: false, final false
-  inline void Init(::StringW gameMode, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                   ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                   ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-                   ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                   ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
-                   ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
-
-  /// @brief Method Init, addr 0x234a414, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x241835c, size 0x1c4, virtual false, abstract: false, final false
   inline void Init(::StringW gameMode, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
@@ -302,23 +155,174 @@ public:
                    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, bool useTestNoteCutSoundEffects,
                    bool startPaused, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method Finish, addr 0x234cd28, size 0x28, virtual false, abstract: false, final false
-  inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+  /// @brief Method Init, addr 0x2415764, size 0x1bc, virtual false, abstract: false, final false
+  inline void Init(::StringW gameMode, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                   ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
+                   ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
+                   ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                   ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
+                   ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method InitEnvironmentInfo, addr 0x234c870, size 0x158, virtual false, abstract: false, final false
-  inline void InitEnvironmentInfo(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
+  /// @brief Method InitAndSetupScenes, addr 0x241a9a8, size 0x2c8, virtual false, abstract: false, final false
+  inline void InitAndSetupScenes(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW backButtonText, bool startPaused);
 
-  /// @brief Method InitColorInfo, addr 0x234c9c8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InitColorInfo, addr 0x241a910, size 0x98, virtual false, abstract: false, final false
   inline void InitColorInfo(::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme);
 
-  /// @brief Method InitAndSetupScenes, addr 0x234ca60, size 0x2c8, virtual false, abstract: false, final false
-  inline void InitAndSetupScenes(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW backButtonText, bool startPaused);
+  /// @brief Method InitEnvironmentInfo, addr 0x241a7b8, size 0x158, virtual false, abstract: false, final false
+  inline void InitEnvironmentInfo(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel);
 
   static inline ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234cd50, size 0x8, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey_k__BackingField();
+
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme_k__BackingField() const;
+
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__environmentInfo_k__BackingField() const;
+
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__environmentInfo_k__BackingField();
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
+
+  constexpr ::StringW const& __cordl_internal_get__gameMode_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__gameMode_k__BackingField();
+
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings_k__BackingField() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__standardGameplaySceneInfo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__standardGameplaySceneInfo();
+
+  constexpr bool const& __cordl_internal_get__usingOverrideColorScheme_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__usingOverrideColorScheme_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__usingOverrideEnvironment_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__usingOverrideEnvironment_k__BackingField();
+
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*& __cordl_internal_get_didFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*> const&
+  __cordl_internal_get_didFinishEvent() const;
+
+  constexpr void __cordl_internal_set__beatmapKey_k__BackingField(::GlobalNamespace::BeatmapKey value);
+
+  constexpr void __cordl_internal_set__beatmapLevel_k__BackingField(::GlobalNamespace::BeatmapLevel* value);
+
+  constexpr void __cordl_internal_set__colorScheme_k__BackingField(::GlobalNamespace::ColorScheme* value);
+
+  constexpr void __cordl_internal_set__environmentInfo_k__BackingField(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
+
+  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
+
+  constexpr void __cordl_internal_set__gameMode_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+
+  constexpr void __cordl_internal_set__practiceSettings_k__BackingField(::GlobalNamespace::PracticeSettings* value);
+
+  constexpr void __cordl_internal_set__standardGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
+
+  constexpr void __cordl_internal_set__usingOverrideColorScheme_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__usingOverrideEnvironment_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
+
+  /// @brief Method .ctor, addr 0x241ac98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didFinishEvent, addr 0x2417750, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
+
+  /// @brief Method get_beatmapKey, addr 0x241a718, size 0x14, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
+
+  /// @brief Method get_beatmapLevel, addr 0x241a740, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
+
+  /// @brief Method get_colorScheme, addr 0x241a774, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorScheme* get_colorScheme();
+
+  /// @brief Method get_environmentInfo, addr 0x241a798, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
+
+  /// @brief Method get_gameMode, addr 0x241a708, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_gameMode();
+
+  /// @brief Method get_gameplayModifiers, addr 0x241a7a8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+
+  /// @brief Method get_practiceSettings, addr 0x241a750, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
+
+  /// @brief Method get_usingOverrideColorScheme, addr 0x241a760, size 0x8, virtual false, abstract: false, final false
+  inline bool get_usingOverrideColorScheme();
+
+  /// @brief Method get_usingOverrideEnvironment, addr 0x241a784, size 0x8, virtual false, abstract: false, final false
+  inline bool get_usingOverrideEnvironment();
+
+  /// @brief Method remove_didFinishEvent, addr 0x2417b44, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
+
+  /// @brief Method set_beatmapKey, addr 0x241a72c, size 0x14, virtual false, abstract: false, final false
+  inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
+
+  /// @brief Method set_beatmapLevel, addr 0x241a748, size 0x8, virtual false, abstract: false, final false
+  inline void set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+
+  /// @brief Method set_colorScheme, addr 0x241a77c, size 0x8, virtual false, abstract: false, final false
+  inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
+
+  /// @brief Method set_environmentInfo, addr 0x241a7a0, size 0x8, virtual false, abstract: false, final false
+  inline void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+
+  /// @brief Method set_gameMode, addr 0x241a710, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameMode(::StringW value);
+
+  /// @brief Method set_gameplayModifiers, addr 0x241a7b0, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  /// @brief Method set_practiceSettings, addr 0x241a758, size 0x8, virtual false, abstract: false, final false
+  inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
+
+  /// @brief Method set_usingOverrideColorScheme, addr 0x241a768, size 0xc, virtual false, abstract: false, final false
+  inline void set_usingOverrideColorScheme(bool value);
+
+  /// @brief Method set_usingOverrideEnvironment, addr 0x241a78c, size 0xc, virtual false, abstract: false, final false
+  inline void set_usingOverrideEnvironment(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardLevelScenesTransitionSetupDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelScenesTransitionSetupDataSO(StandardLevelScenesTransitionSetupDataSO&&) = delete;
@@ -327,12 +331,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelScenesTransitionSetupDataSO(StandardLevelScenesTransitionSetupDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelScenesTransitionSetupDataSO();
-
-public:
   /// @brief Field _standardGameplaySceneInfo, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SceneInfo> ____standardGameplaySceneInfo;
 

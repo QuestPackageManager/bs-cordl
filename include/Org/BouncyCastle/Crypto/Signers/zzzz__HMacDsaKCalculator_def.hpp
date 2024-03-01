@@ -31,14 +31,11 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1143))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::HMacDsaKCalculator*
 class CORDL_TYPE HMacDsaKCalculator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field hMac, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hMac, put = __cordl_internal_set_hMac))::Org::BouncyCastle::Crypto::Macs::HMac* hMac;
+  __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
 
   /// @brief Field K, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K))::ArrayW<uint8_t, ::Array<uint8_t>*> K;
@@ -46,61 +43,68 @@ public:
   /// @brief Field V, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_V, put = __cordl_internal_set_V))::ArrayW<uint8_t, ::Array<uint8_t>*> V;
 
+  /// @brief Field hMac, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_hMac, put = __cordl_internal_set_hMac))::Org::BouncyCastle::Crypto::Macs::HMac* hMac;
+
   /// @brief Field n, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
-
-  __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
+  /// @brief Method BitsToInt, addr 0xfbe870, size 0xc8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* BitsToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> t);
+
+  /// @brief Method Init, addr 0xfbe44c, size 0x424, virtual true, abstract: false, final true
+  inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
+
+  /// @brief Method Init, addr 0xfbe3fc, size 0x50, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
+
+  static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
+
+  /// @brief Method NextK, addr 0xfbe938, size 0x27c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* NextK();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_K() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_K();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_V() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_V();
 
   constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __cordl_internal_get_hMac();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::HMac*> const& __cordl_internal_get_hMac() const;
 
-  constexpr void __cordl_internal_set_hMac(::Org::BouncyCastle::Crypto::Macs::HMac* value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_K();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_K() const;
-
-  constexpr void __cordl_internal_set_K(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_V();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_V() const;
-
-  constexpr void __cordl_internal_set_V(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
+  constexpr void __cordl_internal_set_K(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_V(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_hMac(::Org::BouncyCastle::Crypto::Macs::HMac* value);
+
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
-
-  /// @brief Method .ctor, addr 0xf7933c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfbe30c, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_IsDeterministic, addr 0xf79424, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0xfbe3f4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
-  /// @brief Method Init, addr 0xf7942c, size 0x50, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
 
-  /// @brief Method Init, addr 0xf7947c, size 0x424, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HMacDsaKCalculator();
 
-  /// @brief Method NextK, addr 0xf79968, size 0x27c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* NextK();
-
-  /// @brief Method BitsToInt, addr 0xf798a0, size 0xc8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* BitsToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> t);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HMacDsaKCalculator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMacDsaKCalculator(HMacDsaKCalculator&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HMacDsaKCalculator(HMacDsaKCalculator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HMacDsaKCalculator();
-
-public:
   /// @brief Field hMac, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Macs::HMac* ___hMac;
 

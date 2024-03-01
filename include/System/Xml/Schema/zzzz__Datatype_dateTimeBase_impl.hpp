@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (
     ::System::Xml::Schema::Datatype_dateTimeBase::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_dateTimeBase::CreateValueConverter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bbd6c;
+  constexpr static std::size_t addrs = 0x29a31e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_dateTimeBase::*)()>(
     &::System::Xml::Schema::Datatype_dateTimeBase::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x28bbdd4;
+  constexpr static std::size_t addrs = 0x29a3250;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_dateTimeBase::*)()>(
     &::System::Xml::Schema::Datatype_dateTimeBase::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bbe2c;
+  constexpr static std::size_t addrs = 0x29a32a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_dateTimeBase::*)(::System::Xml::Schema::XsdDateTimeFlags)>(
     &::System::Xml::Schema::Datatype_dateTimeBase::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x28bbe34;
+  constexpr static std::size_t addrs = 0x29a32b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_dateTimeBase::*)()>(
     &::System::Xml::Schema::Datatype_dateTimeBase::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x28bbe9c;
+  constexpr static std::size_t addrs = 0x29a3318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_dateTimeBase::*)()>(
     &::System::Xml::Schema::Datatype_dateTimeBase::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x28bbef4;
+  constexpr static std::size_t addrs = 0x29a3370;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_dateTimeBase::*)()>(
     &::System::Xml::Schema::Datatype_dateTimeBase::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bbf4c;
+  constexpr static std::size_t addrs = 0x29a33c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_dateTimeBase::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_dateTimeBase::Compare)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x28bbf54;
+  constexpr static std::size_t addrs = 0x29a33d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_dateTimeBase::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_dateTimeBase::TryParseValue)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x28bc05c;
+  constexpr static std::size_t addrs = 0x29a34d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

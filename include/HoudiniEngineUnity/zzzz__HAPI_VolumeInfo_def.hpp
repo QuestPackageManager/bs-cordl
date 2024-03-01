@@ -28,12 +28,14 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeInfo);
 // SizeInfo { instance_size: 104, native_size: 112, calculated_instance_size: 104, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9497)), TypeDefinitionIndex(TypeDefinitionIndex(9499)), TypeDefinitionIndex(TypeDefinitionIndex(9518))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9538))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeInfo
 struct CORDL_TYPE HAPI_VolumeInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_VolumeInfo();
+
   // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_VolumeType", modifiers: "", def_value: None
   // }, CppParam { name: "xLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "yLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "zLength", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "minX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minY", ty: "int32_t", modifiers: "", def_value: None },
@@ -43,10 +45,6 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "yTaper", ty: "float_t", modifiers: "", def_value: None }]
   constexpr HAPI_VolumeInfo(int32_t nameSH, ::HoudiniEngineUnity::HAPI_VolumeType type, int32_t xLength, int32_t yLength, int32_t zLength, int32_t minX, int32_t minY, int32_t minZ, int32_t tupleSize,
                             ::HoudiniEngineUnity::HAPI_StorageType storage, int32_t tileSize, ::HoudiniEngineUnity::HAPI_Transform transform, bool hasTaper, float_t xTaper, float_t yTaper) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_VolumeInfo();
 
   /// @brief Field nameSH, offset: 0x0, size: 0x4, def value: None
   int32_t nameSH;

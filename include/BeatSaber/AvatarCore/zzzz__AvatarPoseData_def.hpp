@@ -18,22 +18,20 @@ MARK_VAL_T(::BeatSaber::AvatarCore::AvatarPoseData);
 // SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8789))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15254))
 // CS Name: ::BeatSaber.AvatarCore::AvatarPoseData
 struct CORDL_TYPE AvatarPoseData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe1726c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5cdd0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose);
-
-  // Ctor Parameters [CppParam { name: "headPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value:
-  // None }, CppParam { name: "rightHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
-  constexpr AvatarPoseData(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AvatarPoseData();
+
+  // Ctor Parameters [CppParam { name: "headPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value:
+  // None }, CppParam { name: "rightHandPose", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
+  constexpr AvatarPoseData(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose) noexcept;
 
   /// @brief Field headPose, offset: 0x0, size: 0x1c, def value: None
   ::UnityEngine::Pose headPose;

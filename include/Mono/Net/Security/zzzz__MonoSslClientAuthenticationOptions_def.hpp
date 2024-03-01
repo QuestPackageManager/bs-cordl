@@ -33,33 +33,33 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoSslClientAuthenticationOptions);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6849))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6850))
 // CS Name: ::Mono.Net.Security::MonoSslClientAuthenticationOptions*
 class CORDL_TYPE MonoSslClientAuthenticationOptions : public ::Mono::Net::Security::MonoSslAuthenticationOptions {
 public:
   // Declarations
-  /// @brief Field <Options>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Options_k__BackingField,
-                      put = __cordl_internal_set__Options_k__BackingField))::System::Net::Security::SslClientAuthenticationOptions* _Options_k__BackingField;
-
-  __declspec(property(get = get_Options))::System::Net::Security::SslClientAuthenticationOptions* Options;
-
-  __declspec(property(get = get_ServerMode)) bool ServerMode;
-
   __declspec(property(put = set_CertificateRevocationCheckMode))::System::Security::Cryptography::X509Certificates::X509RevocationMode CertificateRevocationCheckMode;
-
-  __declspec(property(put = set_EncryptionPolicy))::System::Net::Security::EncryptionPolicy EncryptionPolicy;
-
-  __declspec(property(get = get_EnabledSslProtocols, put = set_EnabledSslProtocols))::System::Security::Authentication::SslProtocols EnabledSslProtocols;
-
-  __declspec(property(get = get_TargetHost, put = set_TargetHost))::StringW TargetHost;
 
   __declspec(property(get = get_ClientCertificateRequired, put = set_ClientCertificateRequired)) bool ClientCertificateRequired;
 
   __declspec(property(get = get_ClientCertificates, put = set_ClientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
 
+  __declspec(property(get = get_EnabledSslProtocols, put = set_EnabledSslProtocols))::System::Security::Authentication::SslProtocols EnabledSslProtocols;
+
+  __declspec(property(put = set_EncryptionPolicy))::System::Net::Security::EncryptionPolicy EncryptionPolicy;
+
+  __declspec(property(get = get_Options))::System::Net::Security::SslClientAuthenticationOptions* Options;
+
   __declspec(property(get = get_ServerCertificate, put = set_ServerCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate* ServerCertificate;
+
+  __declspec(property(get = get_ServerMode)) bool ServerMode;
+
+  __declspec(property(get = get_TargetHost, put = set_TargetHost))::StringW TargetHost;
+
+  /// @brief Field <Options>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Options_k__BackingField,
+                      put = __cordl_internal_set__Options_k__BackingField))::System::Net::Security::SslClientAuthenticationOptions* _Options_k__BackingField;
+
+  static inline ::Mono::Net::Security::MonoSslClientAuthenticationOptions* New_ctor();
 
   constexpr ::System::Net::Security::SslClientAuthenticationOptions*& __cordl_internal_get__Options_k__BackingField();
 
@@ -67,53 +67,57 @@ public:
 
   constexpr void __cordl_internal_set__Options_k__BackingField(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  /// @brief Method get_Options, addr 0x282877c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::Security::SslClientAuthenticationOptions* get_Options();
-
-  /// @brief Method get_ServerMode, addr 0x2828784, size 0x8, virtual true, abstract: false, final false
-  inline bool get_ServerMode();
-
-  static inline ::Mono::Net::Security::MonoSslClientAuthenticationOptions* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2825af4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290af70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x282878c, size 0x1c, virtual true, abstract: false, final false
-  inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
-
-  /// @brief Method set_EncryptionPolicy, addr 0x28287a8, size 0x1c, virtual true, abstract: false, final false
-  inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
-
-  /// @brief Method get_EnabledSslProtocols, addr 0x28287c4, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
-
-  /// @brief Method set_EnabledSslProtocols, addr 0x28287e0, size 0x1c, virtual true, abstract: false, final false
-  inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
-
-  /// @brief Method get_TargetHost, addr 0x28287fc, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW get_TargetHost();
-
-  /// @brief Method set_TargetHost, addr 0x2828818, size 0x1c, virtual true, abstract: false, final false
-  inline void set_TargetHost(::StringW value);
-
-  /// @brief Method get_ClientCertificateRequired, addr 0x2828834, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ClientCertificateRequired, addr 0x290dcb0, size 0x40, virtual true, abstract: false, final false
   inline bool get_ClientCertificateRequired();
 
-  /// @brief Method set_ClientCertificateRequired, addr 0x2828874, size 0x40, virtual true, abstract: false, final false
-  inline void set_ClientCertificateRequired(bool value);
-
-  /// @brief Method get_ClientCertificates, addr 0x28288b4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x290dd30, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method set_ClientCertificates, addr 0x28288d0, size 0x1c, virtual true, abstract: false, final false
-  inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  /// @brief Method get_EnabledSslProtocols, addr 0x290dc40, size 0x1c, virtual true, abstract: false, final false
+  inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method get_ServerCertificate, addr 0x28288ec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Options, addr 0x290dbf8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::Security::SslClientAuthenticationOptions* get_Options();
+
+  /// @brief Method get_ServerCertificate, addr 0x290dd68, size 0x40, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_ServerCertificate();
 
-  /// @brief Method set_ServerCertificate, addr 0x282892c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ServerMode, addr 0x290dc00, size 0x8, virtual true, abstract: false, final false
+  inline bool get_ServerMode();
+
+  /// @brief Method get_TargetHost, addr 0x290dc78, size 0x1c, virtual true, abstract: false, final false
+  inline ::StringW get_TargetHost();
+
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x290dc08, size 0x1c, virtual true, abstract: false, final false
+  inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
+
+  /// @brief Method set_ClientCertificateRequired, addr 0x290dcf0, size 0x40, virtual true, abstract: false, final false
+  inline void set_ClientCertificateRequired(bool value);
+
+  /// @brief Method set_ClientCertificates, addr 0x290dd4c, size 0x1c, virtual true, abstract: false, final false
+  inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+
+  /// @brief Method set_EnabledSslProtocols, addr 0x290dc5c, size 0x1c, virtual true, abstract: false, final false
+  inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
+
+  /// @brief Method set_EncryptionPolicy, addr 0x290dc24, size 0x1c, virtual true, abstract: false, final false
+  inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
+
+  /// @brief Method set_ServerCertificate, addr 0x290dda8, size 0x40, virtual true, abstract: false, final false
   inline void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
+  /// @brief Method set_TargetHost, addr 0x290dc94, size 0x1c, virtual true, abstract: false, final false
+  inline void set_TargetHost(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoSslClientAuthenticationOptions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoSslClientAuthenticationOptions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoSslClientAuthenticationOptions(MonoSslClientAuthenticationOptions&&) = delete;
@@ -122,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoSslClientAuthenticationOptions(MonoSslClientAuthenticationOptions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoSslClientAuthenticationOptions();
-
-public:
   /// @brief Field <Options>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Net::Security::SslClientAuthenticationOptions* ____Options_k__BackingField;
 

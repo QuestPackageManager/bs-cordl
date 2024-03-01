@@ -43,32 +43,36 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataTransformHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10591))
 // CS Name: ::BeatmapDataTransformHelper*
 class CORDL_TYPE BeatmapDataTransformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedBeatmapData, addr 0x1264c18, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddTestBurstSlider, addr 0x12a7e78, size 0xec, virtual false, abstract: false, final false
+  static inline void AddTestBurstSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
+                                        int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount,
+                                        float_t squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
+
+  /// @brief Method AddTestSlider, addr 0x12a7f64, size 0x188, virtual false, abstract: false, final false
+  static inline void AddTestSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
+                                   float_t headControlPointLength, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection,
+                                   float_t tailControlPointLength, bool hasHeadNote, bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
+
+  /// @brief Method CreateTransformedBeatmapData, addr 0x12a7be8, size 0x198, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                       ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool leftHanded,
                                                                                       ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset,
                                                                                       ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions,
                                                                                       ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel);
 
-  /// @brief Method AddTestBurstSlider, addr 0x1264ea8, size 0xec, virtual false, abstract: false, final false
-  static inline void AddTestBurstSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
-                                        int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount,
-                                        float_t squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
-
-  /// @brief Method AddTestSlider, addr 0x1264f94, size 0x188, virtual false, abstract: false, final false
-  static inline void AddTestSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
-                                   float_t headControlPointLength, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection,
-                                   float_t tailControlPointLength, bool hasHeadNote, bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
-
-  /// @brief Method IsObstaclesMergingNeeded, addr 0x1264e9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsObstaclesMergingNeeded, addr 0x12a7e6c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsObstaclesMergingNeeded(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataTransformHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataTransformHelper(BeatmapDataTransformHelper&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataTransformHelper(BeatmapDataTransformHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataTransformHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

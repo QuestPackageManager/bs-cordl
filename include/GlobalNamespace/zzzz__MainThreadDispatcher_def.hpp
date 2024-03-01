@@ -65,8 +65,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16189))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass2_0`1<A>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass2_0_1 : public ::System::Object {
 public:
@@ -77,26 +75,32 @@ public:
   /// @brief Field firstParameter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_firstParameter, put = __cordl_internal_set_firstParameter)) A firstParameter;
 
-  constexpr ::System::Action_1<A>*& __cordl_internal_get_action();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<A>*> const& __cordl_internal_get_action() const;
-
-  constexpr void __cordl_internal_set_action(::System::Action_1<A>* value);
-
-  constexpr A& __cordl_internal_get_firstParameter();
-
-  constexpr A const& __cordl_internal_get_firstParameter() const;
-
-  constexpr void __cordl_internal_set_firstParameter(A value);
-
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <DispatchOnMainThread>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _DispatchOnMainThread_b__0();
 
+  constexpr ::System::Action_1<A>*& __cordl_internal_get_action();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<A>*> const& __cordl_internal_get_action() const;
+
+  constexpr A const& __cordl_internal_get_firstParameter() const;
+
+  constexpr A& __cordl_internal_get_firstParameter();
+
+  constexpr void __cordl_internal_set_action(::System::Action_1<A>* value);
+
+  constexpr void __cordl_internal_set_firstParameter(A value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainThreadDispatcher____c__DisplayClass2_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MainThreadDispatcher____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MainThreadDispatcher____c__DisplayClass2_0_1(__MainThreadDispatcher____c__DisplayClass2_0_1&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MainThreadDispatcher____c__DisplayClass2_0_1(__MainThreadDispatcher____c__DisplayClass2_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MainThreadDispatcher____c__DisplayClass2_0_1();
-
-public:
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<A>* ___action;
 
@@ -127,8 +125,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16190))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass3_0`2<A,B>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass3_0_2 : public ::System::Object {
 public:
@@ -142,32 +138,38 @@ public:
   /// @brief Field secondParameter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_secondParameter, put = __cordl_internal_set_secondParameter)) B secondParameter;
 
-  constexpr ::System::Action_2<A, B>*& __cordl_internal_get_action();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<A, B>*> const& __cordl_internal_get_action() const;
-
-  constexpr void __cordl_internal_set_action(::System::Action_2<A, B>* value);
-
-  constexpr A& __cordl_internal_get_firstParameter();
-
-  constexpr A const& __cordl_internal_get_firstParameter() const;
-
-  constexpr void __cordl_internal_set_firstParameter(A value);
-
-  constexpr B& __cordl_internal_get_secondParameter();
-
-  constexpr B const& __cordl_internal_get_secondParameter() const;
-
-  constexpr void __cordl_internal_set_secondParameter(B value);
-
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <DispatchOnMainThread>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _DispatchOnMainThread_b__0();
 
+  constexpr ::System::Action_2<A, B>*& __cordl_internal_get_action();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<A, B>*> const& __cordl_internal_get_action() const;
+
+  constexpr A const& __cordl_internal_get_firstParameter() const;
+
+  constexpr A& __cordl_internal_get_firstParameter();
+
+  constexpr B const& __cordl_internal_get_secondParameter() const;
+
+  constexpr B& __cordl_internal_get_secondParameter();
+
+  constexpr void __cordl_internal_set_action(::System::Action_2<A, B>* value);
+
+  constexpr void __cordl_internal_set_firstParameter(A value);
+
+  constexpr void __cordl_internal_set_secondParameter(B value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainThreadDispatcher____c__DisplayClass3_0_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MainThreadDispatcher____c__DisplayClass3_0_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MainThreadDispatcher____c__DisplayClass3_0_2(__MainThreadDispatcher____c__DisplayClass3_0_2&&) = delete;
@@ -176,12 +178,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MainThreadDispatcher____c__DisplayClass3_0_2(__MainThreadDispatcher____c__DisplayClass3_0_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MainThreadDispatcher____c__DisplayClass3_0_2();
-
-public:
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<A, B>* ___action;
 
@@ -201,8 +197,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16191))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass4_0`3<A,B,C>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass4_0_3 : public ::System::Object {
 public:
@@ -219,38 +213,44 @@ public:
   /// @brief Field thirdParameter, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_thirdParameter, put = __cordl_internal_set_thirdParameter)) C thirdParameter;
 
-  constexpr ::System::Action_3<A, B, C>*& __cordl_internal_get_action();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<A, B, C>*> const& __cordl_internal_get_action() const;
-
-  constexpr void __cordl_internal_set_action(::System::Action_3<A, B, C>* value);
-
-  constexpr A& __cordl_internal_get_firstParameter();
-
-  constexpr A const& __cordl_internal_get_firstParameter() const;
-
-  constexpr void __cordl_internal_set_firstParameter(A value);
-
-  constexpr B& __cordl_internal_get_secondParameter();
-
-  constexpr B const& __cordl_internal_get_secondParameter() const;
-
-  constexpr void __cordl_internal_set_secondParameter(B value);
-
-  constexpr C& __cordl_internal_get_thirdParameter();
-
-  constexpr C const& __cordl_internal_get_thirdParameter() const;
-
-  constexpr void __cordl_internal_set_thirdParameter(C value);
-
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <DispatchOnMainThread>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _DispatchOnMainThread_b__0();
 
+  constexpr ::System::Action_3<A, B, C>*& __cordl_internal_get_action();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<A, B, C>*> const& __cordl_internal_get_action() const;
+
+  constexpr A const& __cordl_internal_get_firstParameter() const;
+
+  constexpr A& __cordl_internal_get_firstParameter();
+
+  constexpr B const& __cordl_internal_get_secondParameter() const;
+
+  constexpr B& __cordl_internal_get_secondParameter();
+
+  constexpr C const& __cordl_internal_get_thirdParameter() const;
+
+  constexpr C& __cordl_internal_get_thirdParameter();
+
+  constexpr void __cordl_internal_set_action(::System::Action_3<A, B, C>* value);
+
+  constexpr void __cordl_internal_set_firstParameter(A value);
+
+  constexpr void __cordl_internal_set_secondParameter(B value);
+
+  constexpr void __cordl_internal_set_thirdParameter(C value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainThreadDispatcher____c__DisplayClass4_0_3();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MainThreadDispatcher____c__DisplayClass4_0_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MainThreadDispatcher____c__DisplayClass4_0_3(__MainThreadDispatcher____c__DisplayClass4_0_3&&) = delete;
@@ -259,12 +259,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MainThreadDispatcher____c__DisplayClass4_0_3(__MainThreadDispatcher____c__DisplayClass4_0_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MainThreadDispatcher____c__DisplayClass4_0_3();
-
-public:
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_3<A, B, C>* ___action;
 
@@ -287,8 +281,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C, typename D>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16192))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass5_0`4<A,B,C,D>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass5_0_4 : public ::System::Object {
 public:
@@ -299,53 +291,59 @@ public:
   /// @brief Field firstParameter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_firstParameter, put = __cordl_internal_set_firstParameter)) A firstParameter;
 
+  /// @brief Field fourthParameter, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_fourthParameter, put = __cordl_internal_set_fourthParameter)) D fourthParameter;
+
   /// @brief Field secondParameter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_secondParameter, put = __cordl_internal_set_secondParameter)) B secondParameter;
 
   /// @brief Field thirdParameter, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_thirdParameter, put = __cordl_internal_set_thirdParameter)) C thirdParameter;
 
-  /// @brief Field fourthParameter, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_fourthParameter, put = __cordl_internal_set_fourthParameter)) D fourthParameter;
+  static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>* New_ctor();
+
+  /// @brief Method <DispatchOnMainThread>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _DispatchOnMainThread_b__0();
 
   constexpr ::System::Action_4<A, B, C, D>*& __cordl_internal_get_action();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_4<A, B, C, D>*> const& __cordl_internal_get_action() const;
 
-  constexpr void __cordl_internal_set_action(::System::Action_4<A, B, C, D>* value);
+  constexpr A const& __cordl_internal_get_firstParameter() const;
 
   constexpr A& __cordl_internal_get_firstParameter();
 
-  constexpr A const& __cordl_internal_get_firstParameter() const;
-
-  constexpr void __cordl_internal_set_firstParameter(A value);
-
-  constexpr B& __cordl_internal_get_secondParameter();
-
-  constexpr B const& __cordl_internal_get_secondParameter() const;
-
-  constexpr void __cordl_internal_set_secondParameter(B value);
-
-  constexpr C& __cordl_internal_get_thirdParameter();
-
-  constexpr C const& __cordl_internal_get_thirdParameter() const;
-
-  constexpr void __cordl_internal_set_thirdParameter(C value);
+  constexpr D const& __cordl_internal_get_fourthParameter() const;
 
   constexpr D& __cordl_internal_get_fourthParameter();
 
-  constexpr D const& __cordl_internal_get_fourthParameter() const;
+  constexpr B const& __cordl_internal_get_secondParameter() const;
+
+  constexpr B& __cordl_internal_get_secondParameter();
+
+  constexpr C const& __cordl_internal_get_thirdParameter() const;
+
+  constexpr C& __cordl_internal_get_thirdParameter();
+
+  constexpr void __cordl_internal_set_action(::System::Action_4<A, B, C, D>* value);
+
+  constexpr void __cordl_internal_set_firstParameter(A value);
 
   constexpr void __cordl_internal_set_fourthParameter(D value);
 
-  static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>* New_ctor();
+  constexpr void __cordl_internal_set_secondParameter(B value);
+
+  constexpr void __cordl_internal_set_thirdParameter(C value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DispatchOnMainThread>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _DispatchOnMainThread_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MainThreadDispatcher____c__DisplayClass5_0_4();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MainThreadDispatcher____c__DisplayClass5_0_4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MainThreadDispatcher____c__DisplayClass5_0_4(__MainThreadDispatcher____c__DisplayClass5_0_4&&) = delete;
@@ -354,12 +352,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MainThreadDispatcher____c__DisplayClass5_0_4(__MainThreadDispatcher____c__DisplayClass5_0_4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MainThreadDispatcher____c__DisplayClass5_0_4();
-
-public:
   /// @brief Field action, offset: 0x10, size: 0x8, def value: None
   ::System::Action_4<A, B, C, D>* ___action;
 
@@ -383,19 +375,17 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16193))
 // CS Name: ::MainThreadDispatcher*
 class CORDL_TYPE MainThreadDispatcher : public ::System::Object {
 public:
   // Declarations
-  template <typename A, typename B, typename C, typename D> using __c__DisplayClass5_0_4 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>;
-
-  template <typename A, typename B, typename C> using __c__DisplayClass4_0_3 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>;
+  template <typename A> using __c__DisplayClass2_0_1 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>;
 
   template <typename A, typename B> using __c__DisplayClass3_0_2 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>;
 
-  template <typename A> using __c__DisplayClass2_0_1 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>;
+  template <typename A, typename B, typename C> using __c__DisplayClass4_0_3 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>;
+
+  template <typename A, typename B, typename C, typename D> using __c__DisplayClass5_0_4 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>;
 
   /// @brief Field _dispatchQueue, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dispatchQueue, put = __cordl_internal_set__dispatchQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* _dispatchQueue;
@@ -403,16 +393,7 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Convert to "::Zenject::ITickable"
-  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
-
-  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& __cordl_internal_get__dispatchQueue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*> const& __cordl_internal_get__dispatchQueue() const;
-
-  constexpr void __cordl_internal_set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
-
-  /// @brief Method DispatchOnMainThread, addr 0x2181fa8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DispatchOnMainThread, addr 0x225064c, size 0x58, virtual false, abstract: false, final false
   inline void DispatchOnMainThread(::System::Action* action);
 
   /// @brief Method DispatchOnMainThread, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -428,14 +409,29 @@ public:
   template <typename A, typename B, typename C, typename D>
   inline void DispatchOnMainThread(::System::Action_4<A, B, C, D>* action, A firstParameter, B secondParameter, C thirdParameter, D fourthParameter);
 
-  /// @brief Method Tick, addr 0x2182000, size 0x104, virtual true, abstract: false, final true
-  inline void Tick();
-
   static inline ::GlobalNamespace::MainThreadDispatcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2182104, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x22506a4, size 0x104, virtual true, abstract: false, final true
+  inline void Tick();
+
+  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& __cordl_internal_get__dispatchQueue();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*> const& __cordl_internal_get__dispatchQueue() const;
+
+  constexpr void __cordl_internal_set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
+
+  /// @brief Method .ctor, addr 0x22507a8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainThreadDispatcher();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MainThreadDispatcher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainThreadDispatcher(MainThreadDispatcher&&) = delete;
@@ -444,12 +440,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainThreadDispatcher(MainThreadDispatcher const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainThreadDispatcher();
-
-public:
   /// @brief Field _dispatchQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* ____dispatchQueue;
 

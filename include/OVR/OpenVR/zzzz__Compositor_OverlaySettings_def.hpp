@@ -20,12 +20,14 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_OverlaySettings);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8590))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8642))
 // CS Name: ::OVR.OpenVR::Compositor_OverlaySettings
 struct CORDL_TYPE Compositor_OverlaySettings {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Compositor_OverlaySettings();
+
   // Ctor Parameters [CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "curved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "antialias",
   // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None
   // }, CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vOffset", ty:
@@ -34,10 +36,6 @@ public:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "transform", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None }]
   constexpr Compositor_OverlaySettings(uint32_t size, bool curved, bool antialias, float_t scale, float_t distance, float_t alpha, float_t uOffset, float_t vOffset, float_t uScale, float_t vScale,
                                        float_t gridDivs, float_t gridWidth, float_t gridScale, ::OVR::OpenVR::HmdMatrix44_t transform) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Compositor_OverlaySettings();
 
   /// @brief Field size, offset: 0x0, size: 0x4, def value: None
   uint32_t size;

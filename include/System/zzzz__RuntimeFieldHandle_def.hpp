@@ -41,8 +41,6 @@ MARK_VAL_T(::System::RuntimeFieldHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2616))
 // CS Name: ::System::RuntimeFieldHandle
 struct CORDL_TYPE RuntimeFieldHandle {
 public:
@@ -52,44 +50,44 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
-
-  /// @brief Method .ctor, addr 0x2622cc0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* v);
-
-  /// @brief Method .ctor, addr 0x2622cc8, size 0x1b4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method get_Value, addr 0x2622e7c, size 0x8, virtual false, abstract: false, final false
-  inline void* get_Value();
-
-  /// @brief Method GetObjectData, addr 0x2622e84, size 0x1bc, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method Equals, addr 0x2623040, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26f2734, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x262313c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26f2830, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SetValueInternal, addr 0x2623144, size 0x4, virtual false, abstract: false, final false
-  static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
+  /// @brief Method GetObjectData, addr 0x26f2578, size 0x1bc, virtual true, abstract: false, final true
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetValue, addr 0x2623148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x26f283c, size 0x4, virtual false, abstract: false, final false
   static inline void SetValue(::System::Reflection::RuntimeFieldInfo* field, ::System::Object* obj, ::System::Object* value, ::System::RuntimeType* fieldType,
                               ::System::Reflection::FieldAttributes fieldAttr, ::System::RuntimeType* declaringType, ByRef<bool> domainInitialized);
 
-  /// @brief Method SetValueDirect, addr 0x262314c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetValueDirect, addr 0x26f2840, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueDirect(::System::Reflection::RuntimeFieldInfo* field, ::System::RuntimeType* fieldType, ::cordl_internals::Ptr<void> pTypedRef, ::System::Object* value,
                                     ::System::RuntimeType* contextType);
 
-  // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RuntimeFieldHandle(void* value) noexcept;
+  /// @brief Method SetValueInternal, addr 0x26f2838, size 0x4, virtual false, abstract: false, final false
+  static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
+
+  /// @brief Method .ctor, addr 0x26f23bc, size 0x1b4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x26f23b4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(void* v);
+
+  /// @brief Method get_Value, addr 0x26f2570, size 0x8, virtual false, abstract: false, final false
+  inline void* get_Value();
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeFieldHandle();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "void*", modifiers: "", def_value: None }]
+  constexpr RuntimeFieldHandle(void* value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   void* value;

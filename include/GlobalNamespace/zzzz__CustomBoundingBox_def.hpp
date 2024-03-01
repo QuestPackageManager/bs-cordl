@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBoundingBox);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14513))
 // CS Name: ::CustomBoundingBox*
 class CORDL_TYPE CustomBoundingBox : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,32 +31,38 @@ public:
   /// @brief Field _meshRenderer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__boundingBoxCenter();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__boundingBoxCenter() const;
-
-  constexpr void __cordl_internal_set__boundingBoxCenter(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__boundingBoxSize();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__boundingBoxSize() const;
-
-  constexpr void __cordl_internal_set__boundingBoxSize(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
-
-  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  /// @brief Method Awake, addr 0x218633c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22549e0, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CustomBoundingBox* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21863a8, size 0x60, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__boundingBoxCenter() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__boundingBoxCenter();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__boundingBoxSize() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__boundingBoxSize();
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
+
+  constexpr void __cordl_internal_set__boundingBoxCenter(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__boundingBoxSize(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
+  /// @brief Method .ctor, addr 0x2254a4c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomBoundingBox();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CustomBoundingBox", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomBoundingBox(CustomBoundingBox&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomBoundingBox(CustomBoundingBox const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomBoundingBox();
-
-public:
   /// @brief Field _boundingBoxCenter, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____boundingBoxCenter;
 

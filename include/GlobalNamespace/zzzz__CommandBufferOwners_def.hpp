@@ -24,49 +24,53 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferOwners);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
 // CS Name: ::CommandBufferOwners*
 class CORDL_TYPE CommandBufferOwners : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_NumberOfOwners)) int32_t NumberOfOwners;
+
   /// @brief Field _owners, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__owners, put = __cordl_internal_set__owners))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* _owners;
 
   /// @brief Field commandBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_commandBuffer, put = __cordl_internal_set_commandBuffer))::UnityEngine::Rendering::CommandBuffer* commandBuffer;
 
-  __declspec(property(get = get_NumberOfOwners)) int32_t NumberOfOwners;
+  /// @brief Method AddOwner, addr 0x28f004c, size 0xa0, virtual false, abstract: false, final false
+  inline void AddOwner(::UnityEngine::Object* owner);
+
+  /// @brief Method ContainsOwner, addr 0x28efff4, size 0x58, virtual false, abstract: false, final false
+  inline bool ContainsOwner(::UnityEngine::Object* owner);
+
+  static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
+
+  /// @brief Method RemoveOwner, addr 0x28efd98, size 0x60, virtual false, abstract: false, final false
+  inline void RemoveOwner(::UnityEngine::Object* owner);
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get__owners();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get__owners() const;
 
-  constexpr void __cordl_internal_set__owners(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* value);
-
   constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get_commandBuffer();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __cordl_internal_get_commandBuffer() const;
 
+  constexpr void __cordl_internal_set__owners(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* value);
+
   constexpr void __cordl_internal_set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method AddOwner, addr 0x280bbd0, size 0xa0, virtual false, abstract: false, final false
-  inline void AddOwner(::UnityEngine::Object* owner);
-
-  /// @brief Method RemoveOwner, addr 0x280b91c, size 0x60, virtual false, abstract: false, final false
-  inline void RemoveOwner(::UnityEngine::Object* owner);
-
-  /// @brief Method ContainsOwner, addr 0x280bb78, size 0x58, virtual false, abstract: false, final false
-  inline bool ContainsOwner(::UnityEngine::Object* owner);
-
-  /// @brief Method get_NumberOfOwners, addr 0x280b97c, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_NumberOfOwners();
-
-  static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
-
-  /// @brief Method .ctor, addr 0x280bc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f00ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_NumberOfOwners, addr 0x28efdf8, size 0x48, virtual false, abstract: false, final false
+  inline int32_t get_NumberOfOwners();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandBufferOwners();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferOwners", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandBufferOwners(CommandBufferOwners&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandBufferOwners(CommandBufferOwners const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CommandBufferOwners();
-
-public:
   /// @brief Field _owners, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Object>>* ____owners;
 

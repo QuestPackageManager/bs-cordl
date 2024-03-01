@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_HandleBindingInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9529))
 // CS Name: ::HoudiniEngineUnity::HAPI_HandleBindingInfo
 struct CORDL_TYPE HAPI_HandleBindingInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "handleParmNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assetParmNameSH", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "assetParmId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assetParmIndex", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_HandleBindingInfo(int32_t handleParmNameSH, int32_t assetParmNameSH, int32_t assetParmId, int32_t assetParmIndex) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_HandleBindingInfo();
+
+  // Ctor Parameters [CppParam { name: "handleParmNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assetParmNameSH", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "assetParmId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "assetParmIndex", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_HandleBindingInfo(int32_t handleParmNameSH, int32_t assetParmNameSH, int32_t assetParmId, int32_t assetParmIndex) noexcept;
 
   /// @brief Field handleParmNameSH, offset: 0x0, size: 0x4, def value: None
   int32_t handleParmNameSH;

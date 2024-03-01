@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorManagerInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4691))
 // CS Name: ::ColorManagerInstaller*
 class CORDL_TYPE ColorManagerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _menuColorScheme, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__menuColorScheme, put = __cordl_internal_set__menuColorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _menuColorScheme;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__menuColorScheme();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__menuColorScheme() const;
-
-  constexpr void __cordl_internal_set__menuColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
-
-  /// @brief Method InstallBindings, addr 0x23cb274, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x249a1bc, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ColorManagerInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cb32c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__menuColorScheme() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__menuColorScheme();
+
+  constexpr void __cordl_internal_set__menuColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
+
+  /// @brief Method .ctor, addr 0x249a274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorManagerInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorManagerInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorManagerInstaller(ColorManagerInstaller&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorManagerInstaller(ColorManagerInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorManagerInstaller();
-
-public:
   /// @brief Field _menuColorScheme, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____menuColorScheme;
 

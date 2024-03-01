@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementListPool);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6083))
 // CS Name: ::UnityEngine.UIElements::VisualElementListPool*
 class CORDL_TYPE VisualElementListPool : public ::System::Object {
 public:
@@ -34,19 +32,25 @@ public:
   static __declspec(property(get = getStaticF_pool,
                              put = setStaticF_pool))::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* pool;
 
-  static inline void setStaticF_pool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* value);
+  /// @brief Method Copy, addr 0x2ed12b4, size 0xac, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
+
+  /// @brief Method Get, addr 0x2ed1360, size 0xe0, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
+
+  /// @brief Method Release, addr 0x2ed1440, size 0xb4, virtual false, abstract: false, final false
+  static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* getStaticF_pool();
 
-  /// @brief Method Copy, addr 0x2de1b8c, size 0xac, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
+  static inline void setStaticF_pool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* value);
 
-  /// @brief Method Get, addr 0x2de1c38, size 0xe0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VisualElementListPool();
 
-  /// @brief Method Release, addr 0x2de1d18, size 0xb4, virtual false, abstract: false, final false
-  static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementListPool(VisualElementListPool&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisualElementListPool(VisualElementListPool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementListPool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

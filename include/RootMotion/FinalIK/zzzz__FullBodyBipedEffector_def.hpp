@@ -15,8 +15,6 @@ MARK_VAL_T(::RootMotion::FinalIK::FullBodyBipedEffector);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12469))
 // CS Name: ::RootMotion.FinalIK::FullBodyBipedEffector
 struct CORDL_TYPE FullBodyBipedEffector {
 public:
@@ -41,45 +39,50 @@ public:
     return static_cast<__FullBodyBipedEffector_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FullBodyBipedEffector(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FullBodyBipedEffector();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FullBodyBipedEffector(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Body value: static_cast<int32_t>(0x0)
   static ::RootMotion::FinalIK::FullBodyBipedEffector const Body;
 
-  /// @brief Field LeftShoulder value: static_cast<int32_t>(0x1)
-  static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftShoulder;
-
-  /// @brief Field RightShoulder value: static_cast<int32_t>(0x2)
-  static ::RootMotion::FinalIK::FullBodyBipedEffector const RightShoulder;
-
-  /// @brief Field LeftThigh value: static_cast<int32_t>(0x3)
-  static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftThigh;
-
-  /// @brief Field RightThigh value: static_cast<int32_t>(0x4)
-  static ::RootMotion::FinalIK::FullBodyBipedEffector const RightThigh;
+  /// @brief Field LeftFoot value: static_cast<int32_t>(0x7)
+  static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftFoot;
 
   /// @brief Field LeftHand value: static_cast<int32_t>(0x5)
   static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftHand;
 
-  /// @brief Field RightHand value: static_cast<int32_t>(0x6)
-  static ::RootMotion::FinalIK::FullBodyBipedEffector const RightHand;
+  /// @brief Field LeftShoulder value: static_cast<int32_t>(0x1)
+  static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftShoulder;
 
-  /// @brief Field LeftFoot value: static_cast<int32_t>(0x7)
-  static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftFoot;
+  /// @brief Field LeftThigh value: static_cast<int32_t>(0x3)
+  static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftThigh;
 
   /// @brief Field RightFoot value: static_cast<int32_t>(0x8)
   static ::RootMotion::FinalIK::FullBodyBipedEffector const RightFoot;
+
+  /// @brief Field RightHand value: static_cast<int32_t>(0x6)
+  static ::RootMotion::FinalIK::FullBodyBipedEffector const RightHand;
+
+  /// @brief Field RightShoulder value: static_cast<int32_t>(0x2)
+  static ::RootMotion::FinalIK::FullBodyBipedEffector const RightShoulder;
+
+  /// @brief Field RightThigh value: static_cast<int32_t>(0x4)
+  static ::RootMotion::FinalIK::FullBodyBipedEffector const RightThigh;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

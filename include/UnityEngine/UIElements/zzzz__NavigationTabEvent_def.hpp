@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationTabEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6510))
 // CS Name: ::NavigationTabEvent::Direction
 struct CORDL_TYPE __NavigationTabEvent__Direction {
 public:
@@ -44,27 +42,32 @@ public:
     return static_cast<____NavigationTabEvent__Direction_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NavigationTabEvent__Direction(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NavigationTabEvent__Direction();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __NavigationTabEvent__Direction(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::__NavigationTabEvent__Direction const None;
 
   /// @brief Field Next value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UIElements::__NavigationTabEvent__Direction const Next;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::__NavigationTabEvent__Direction const None;
+
   /// @brief Field Previous value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::__NavigationTabEvent__Direction const Previous;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -78,8 +81,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationTabEvent__Directio
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6507)), TypeDefinitionIndex(TypeDefinitionIndex(6510)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6507), inst: 4685
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6511)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
+// CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
 class CORDL_TYPE NavigationTabEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationTabEvent*> {
 public:
   // Declarations
@@ -91,29 +93,35 @@ public:
 
   __declspec(property(put = set_direction))::UnityEngine::UIElements::__NavigationTabEvent__Direction direction;
 
-  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction& __cordl_internal_get__direction_k__BackingField();
-
-  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction const& __cordl_internal_get__direction_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
-
-  /// @brief Method set_direction, addr 0x2e6e4c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_direction(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
-
-  /// @brief Method DetermineMoveDirection, addr 0x2e6e4d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x2f60bf8, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__NavigationTabEvent__Direction DetermineMoveDirection(int32_t moveValue);
 
-  /// @brief Method GetPooled, addr 0x2e6e4ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2f60c14, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationTabEvent* GetPooled(int32_t moveValue);
 
-  /// @brief Method Init, addr 0x2e6e578, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f60ca0, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::NavigationTabEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6e5c8, size 0x58, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction const& __cordl_internal_get__direction_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction& __cordl_internal_get__direction_k__BackingField();
+
+  constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
+
+  /// @brief Method .ctor, addr 0x2f60cf0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_direction, addr 0x2f60bf0, size 0x8, virtual false, abstract: false, final false
+  inline void set_direction(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavigationTabEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NavigationTabEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NavigationTabEvent(NavigationTabEvent&&) = delete;
@@ -122,12 +130,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NavigationTabEvent(NavigationTabEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavigationTabEvent();
-
-public:
   /// @brief Field <direction>k__BackingField, offset: 0x7c, size: 0x4, def value: None
   ::UnityEngine::UIElements::__NavigationTabEvent__Direction ____direction_k__BackingField;
 

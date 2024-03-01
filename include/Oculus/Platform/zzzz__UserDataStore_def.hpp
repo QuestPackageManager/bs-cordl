@@ -25,36 +25,40 @@ MARK_REF_PTR_T(::Oculus::Platform::UserDataStore);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13297))
 // CS Name: ::Oculus.Platform::UserDataStore*
 class CORDL_TYPE UserDataStore : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PrivateDeleteEntryByKey, addr 0x27313c4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PrivateDeleteEntryByKey, addr 0x27f115c, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateDeleteEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PrivateGetEntries, addr 0x2731538, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method PrivateGetEntries, addr 0x27f12cc, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PrivateGetEntries(uint64_t userID);
 
-  /// @brief Method PrivateGetEntryByKey, addr 0x273169c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PrivateGetEntryByKey, addr 0x27f142c, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PrivateGetEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PrivateWriteEntry, addr 0x2731810, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method PrivateWriteEntry, addr 0x27f159c, size 0x178, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PrivateWriteEntry(uint64_t userID, ::StringW key, ::StringW value);
 
-  /// @brief Method PublicDeleteEntryByKey, addr 0x273198c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PublicDeleteEntryByKey, addr 0x27f1714, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PublicDeleteEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PublicGetEntries, addr 0x2731b00, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method PublicGetEntries, addr 0x27f1884, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PublicGetEntries(uint64_t userID);
 
-  /// @brief Method PublicGetEntryByKey, addr 0x2731c64, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PublicGetEntryByKey, addr 0x27f19e4, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>* PublicGetEntryByKey(uint64_t userID, ::StringW key);
 
-  /// @brief Method PublicWriteEntry, addr 0x2731dd8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method PublicWriteEntry, addr 0x27f1b54, size 0x178, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUpdateResponse*>* PublicWriteEntry(uint64_t userID, ::StringW key, ::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserDataStore();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserDataStore", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserDataStore(UserDataStore&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserDataStore(UserDataStore const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserDataStore();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

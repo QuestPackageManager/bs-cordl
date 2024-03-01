@@ -24,50 +24,54 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Point);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1375))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1394))
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Sec::SecP160R1Point*
 class CORDL_TYPE SecP160R1Point : public ::Org::BouncyCastle::Math::EC::AbstractFpPoint {
 public:
   // Declarations
+  /// @brief Method Add, addr 0x104fda0, size 0x690, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
+
+  /// @brief Method Detach, addr 0x104fd08, size 0x98, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
+
+  /// @brief Method Negate, addr 0x1050a24, size 0xd8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
+
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0x1008450, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
-
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
-
-  /// @brief Method .ctor, addr 0x1008780, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R1Point*
   New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
            ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x10088a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ThreeTimes, addr 0x10509b4, size 0x70, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
+
+  /// @brief Method Twice, addr 0x1050430, size 0x4b8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
+
+  /// @brief Method TwicePlus, addr 0x10508e8, size 0xcc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
+
+  /// @brief Method .ctor, addr 0x104d420, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
+
+  /// @brief Method .ctor, addr 0x104d750, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
+
+  /// @brief Method .ctor, addr 0x104d870, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method Detach, addr 0x100ad38, size 0x98, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecP160R1Point();
 
-  /// @brief Method Add, addr 0x100add0, size 0x690, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
-
-  /// @brief Method Twice, addr 0x100b460, size 0x4b8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
-
-  /// @brief Method TwicePlus, addr 0x100b918, size 0xcc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
-
-  /// @brief Method ThreeTimes, addr 0x100b9e4, size 0x70, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* ThreeTimes();
-
-  /// @brief Method Negate, addr 0x100ba54, size 0xd8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SecP160R1Point", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecP160R1Point(SecP160R1Point&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SecP160R1Point(SecP160R1Point const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecP160R1Point();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

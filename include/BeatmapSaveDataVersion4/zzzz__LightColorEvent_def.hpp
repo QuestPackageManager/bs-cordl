@@ -24,20 +24,18 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::LightColorEvent);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11208)), TypeDefinitionIndex(TypeDefinitionIndex(11209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11142))
 // CS Name: ::BeatmapSaveDataVersion4::LightColorEvent
 struct CORDL_TYPE LightColorEvent {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightColorEvent();
+
   // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam {
   // name: "c", ty: "::BeatmapSaveDataCommon::EnvironmentColorType", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "f", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "sb", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "sf", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr LightColorEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, ::BeatmapSaveDataCommon::EnvironmentColorType c, float_t b, int32_t f, float_t sb, int32_t sf) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightColorEvent();
 
   /// @brief Field p, offset: 0x0, size: 0x4, def value: None
   int32_t p;

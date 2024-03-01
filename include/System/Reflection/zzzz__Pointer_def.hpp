@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Reflection::Pointer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3481))
 // CS Name: ::System.Reflection::Pointer*
 class CORDL_TYPE Pointer : public ::System::Object {
 public:
@@ -44,32 +42,38 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method Box, addr 0x25da5a0, size 0x188, virtual false, abstract: false, final false
+  static inline ::System::Object* Box(::cordl_internals::Ptr<void> ptr, ::System::Type* type);
 
-  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get__ptr();
+  static inline ::System::Reflection::Pointer* New_ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
+
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x25da728, size 0x40, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get__ptr() const;
 
-  constexpr void __cordl_internal_set__ptr(::cordl_internals::Ptr<void> value);
+  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get__ptr();
 
   constexpr ::System::Type*& __cordl_internal_get__ptrType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ptrType() const;
 
+  constexpr void __cordl_internal_set__ptr(::cordl_internals::Ptr<void> value);
+
   constexpr void __cordl_internal_set__ptrType(::System::Type* value);
 
-  static inline ::System::Reflection::Pointer* New_ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
-
-  /// @brief Method .ctor, addr 0x2508960, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25da574, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
 
-  /// @brief Method Box, addr 0x250898c, size 0x188, virtual false, abstract: false, final false
-  static inline ::System::Object* Box(::cordl_internals::Ptr<void> ptr, ::System::Type* type);
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2508b14, size 0x40, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Pointer();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Pointer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pointer(Pointer&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Pointer(Pointer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pointer();
-
-public:
   /// @brief Field _ptr, offset: 0x10, size: 0x8, def value: None
   ::cordl_internals::Ptr<void> ____ptr;
 

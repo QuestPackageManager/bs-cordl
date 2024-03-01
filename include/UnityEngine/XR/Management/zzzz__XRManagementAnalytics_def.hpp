@@ -25,19 +25,17 @@ MARK_VAL_T(::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16155))
 // CS Name: ::XRManagementAnalytics::BuildEvent
 struct CORDL_TYPE __XRManagementAnalytics__BuildEvent {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
-  constexpr __XRManagementAnalytics__BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup, ::ArrayW<::StringW, ::Array<::StringW>*> assigned_loaders) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __XRManagementAnalytics__BuildEvent();
+
+  // Ctor Parameters [CppParam { name: "buildGuid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "buildTarget", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
+  // name: "buildTargetGroup", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assigned_loaders", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
+  constexpr __XRManagementAnalytics__BuildEvent(::StringW buildGuid, ::StringW buildTarget, ::StringW buildTargetGroup, ::ArrayW<::StringW, ::Array<::StringW>*> assigned_loaders) noexcept;
 
   /// @brief Field buildGuid, offset: 0x0, size: 0x8, def value: None
   ::StringW buildGuid;
@@ -72,17 +70,21 @@ static_assert(offsetof(::UnityEngine::XR::Management::__XRManagementAnalytics__B
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16156))
 // CS Name: ::UnityEngine.XR.Management::XRManagementAnalytics*
 class CORDL_TYPE XRManagementAnalytics : public ::System::Object {
 public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize, addr 0x2c73154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2d5c228, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRManagementAnalytics();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRManagementAnalytics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRManagementAnalytics(XRManagementAnalytics&&) = delete;
@@ -91,12 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRManagementAnalytics(XRManagementAnalytics const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRManagementAnalytics();
+  /// @brief Field kEventBuild offset 0xffffffff size 0x8
+  static constexpr ::ConstString kEventBuild{ u"xrmanagment_build" };
 
-public:
   /// @brief Field kMaxEventsPerHour offset 0xffffffff size 0x4
   static constexpr int32_t kMaxEventsPerHour{ static_cast<int32_t>(0x3e8) };
 
@@ -105,9 +104,6 @@ public:
 
   /// @brief Field kVendorKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kVendorKey{ u"unity.xrmanagement" };
-
-  /// @brief Field kEventBuild offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEventBuild{ u"xrmanagment_build" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

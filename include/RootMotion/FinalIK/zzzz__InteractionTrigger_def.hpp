@@ -71,93 +71,97 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionTrigger__Range);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12507))
 // CS Name: ::InteractionTrigger::CharacterPosition*
 class CORDL_TYPE __InteractionTrigger__CharacterPosition : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field use, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_use, put = __cordl_internal_set_use)) bool use;
-
-  /// @brief Field offset, offset 0x14, size 0x8
-  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector2 offset;
-
   /// @brief Field angleOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_angleOffset, put = __cordl_internal_set_angleOffset)) float_t angleOffset;
 
-  /// @brief Field maxAngle, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxAngle, put = __cordl_internal_set_maxAngle)) float_t maxAngle;
-
-  /// @brief Field radius, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
-
-  /// @brief Field orbit, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_orbit, put = __cordl_internal_set_orbit)) bool orbit;
+  __declspec(property(get = get_direction3D))::UnityEngine::Vector3 direction3D;
 
   /// @brief Field fixYAxis, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get_fixYAxis, put = __cordl_internal_set_fixYAxis)) bool fixYAxis;
 
+  /// @brief Field maxAngle, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxAngle, put = __cordl_internal_set_maxAngle)) float_t maxAngle;
+
+  /// @brief Field offset, offset 0x14, size 0x8
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector2 offset;
+
   __declspec(property(get = get_offset3D))::UnityEngine::Vector3 offset3D;
 
-  __declspec(property(get = get_direction3D))::UnityEngine::Vector3 direction3D;
+  /// @brief Field orbit, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_orbit, put = __cordl_internal_set_orbit)) bool orbit;
 
-  constexpr bool& __cordl_internal_get_use();
+  /// @brief Field radius, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
 
-  constexpr bool const& __cordl_internal_get_use() const;
+  /// @brief Field use, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_use, put = __cordl_internal_set_use)) bool use;
 
-  constexpr void __cordl_internal_set_use(bool value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_offset();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_offset() const;
-
-  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector2 value);
-
-  constexpr float_t& __cordl_internal_get_angleOffset();
-
-  constexpr float_t const& __cordl_internal_get_angleOffset() const;
-
-  constexpr void __cordl_internal_set_angleOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxAngle();
-
-  constexpr float_t const& __cordl_internal_get_maxAngle() const;
-
-  constexpr void __cordl_internal_set_maxAngle(float_t value);
-
-  constexpr float_t& __cordl_internal_get_radius();
-
-  constexpr float_t const& __cordl_internal_get_radius() const;
-
-  constexpr void __cordl_internal_set_radius(float_t value);
-
-  constexpr bool& __cordl_internal_get_orbit();
-
-  constexpr bool const& __cordl_internal_get_orbit() const;
-
-  constexpr void __cordl_internal_set_orbit(bool value);
-
-  constexpr bool& __cordl_internal_get_fixYAxis();
-
-  constexpr bool const& __cordl_internal_get_fixYAxis() const;
-
-  constexpr void __cordl_internal_set_fixYAxis(bool value);
-
-  /// @brief Method get_offset3D, addr 0x1323ac8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_offset3D();
-
-  /// @brief Method get_direction3D, addr 0x1323ad4, size 0xc0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_direction3D();
-
-  /// @brief Method IsInRange, addr 0x1323b94, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method IsInRange, addr 0x1365b80, size 0x764, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float_t> error);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13242f8, size 0x14, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_angleOffset() const;
+
+  constexpr float_t& __cordl_internal_get_angleOffset();
+
+  constexpr bool const& __cordl_internal_get_fixYAxis() const;
+
+  constexpr bool& __cordl_internal_get_fixYAxis();
+
+  constexpr float_t const& __cordl_internal_get_maxAngle() const;
+
+  constexpr float_t& __cordl_internal_get_maxAngle();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_offset() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_offset();
+
+  constexpr bool const& __cordl_internal_get_orbit() const;
+
+  constexpr bool& __cordl_internal_get_orbit();
+
+  constexpr float_t const& __cordl_internal_get_radius() const;
+
+  constexpr float_t& __cordl_internal_get_radius();
+
+  constexpr bool const& __cordl_internal_get_use() const;
+
+  constexpr bool& __cordl_internal_get_use();
+
+  constexpr void __cordl_internal_set_angleOffset(float_t value);
+
+  constexpr void __cordl_internal_set_fixYAxis(bool value);
+
+  constexpr void __cordl_internal_set_maxAngle(float_t value);
+
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_orbit(bool value);
+
+  constexpr void __cordl_internal_set_radius(float_t value);
+
+  constexpr void __cordl_internal_set_use(bool value);
+
+  /// @brief Method .ctor, addr 0x13662e4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_direction3D, addr 0x1365ac0, size 0xc0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_direction3D();
+
+  /// @brief Method get_offset3D, addr 0x1365ab4, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_offset3D();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InteractionTrigger__CharacterPosition();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__CharacterPosition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InteractionTrigger__CharacterPosition(__InteractionTrigger__CharacterPosition&&) = delete;
@@ -166,12 +170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InteractionTrigger__CharacterPosition(__InteractionTrigger__CharacterPosition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InteractionTrigger__CharacterPosition();
-
-public:
   /// @brief Field use, offset: 0x10, size: 0x1, def value: None
   bool ___use;
 
@@ -217,68 +215,72 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTrigger__CharacterPos
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12508))
 // CS Name: ::InteractionTrigger::CameraPosition*
 class CORDL_TYPE __InteractionTrigger__CameraPosition : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field lookAtTarget, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_lookAtTarget, put = __cordl_internal_set_lookAtTarget))::UnityW<::UnityEngine::Collider> lookAtTarget;
-
   /// @brief Field direction, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get_direction, put = __cordl_internal_set_direction))::UnityEngine::Vector3 direction;
-
-  /// @brief Field maxDistance, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxDistance, put = __cordl_internal_set_maxDistance)) float_t maxDistance;
-
-  /// @brief Field maxAngle, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxAngle, put = __cordl_internal_set_maxAngle)) float_t maxAngle;
 
   /// @brief Field fixYAxis, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_fixYAxis, put = __cordl_internal_set_fixYAxis)) bool fixYAxis;
 
-  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_lookAtTarget();
+  /// @brief Field lookAtTarget, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_lookAtTarget, put = __cordl_internal_set_lookAtTarget))::UnityW<::UnityEngine::Collider> lookAtTarget;
 
-  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_lookAtTarget() const;
+  /// @brief Field maxAngle, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxAngle, put = __cordl_internal_set_maxAngle)) float_t maxAngle;
 
-  constexpr void __cordl_internal_set_lookAtTarget(::UnityW<::UnityEngine::Collider> value);
+  /// @brief Field maxDistance, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxDistance, put = __cordl_internal_set_maxDistance)) float_t maxDistance;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_direction();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_direction() const;
-
-  constexpr void __cordl_internal_set_direction(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_maxDistance();
-
-  constexpr float_t const& __cordl_internal_get_maxDistance() const;
-
-  constexpr void __cordl_internal_set_maxDistance(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxAngle();
-
-  constexpr float_t const& __cordl_internal_get_maxAngle() const;
-
-  constexpr void __cordl_internal_set_maxAngle(float_t value);
-
-  constexpr bool& __cordl_internal_get_fixYAxis();
-
-  constexpr bool const& __cordl_internal_get_fixYAxis() const;
-
-  constexpr void __cordl_internal_set_fixYAxis(bool value);
-
-  /// @brief Method GetRotation, addr 0x132430c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x13662f8, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsInRange, addr 0x1324484, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method IsInRange, addr 0x1366470, size 0x308, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit hit, ::UnityEngine::Transform* trigger, ByRef<float_t> error);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132478c, size 0x74, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_direction() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_direction();
+
+  constexpr bool const& __cordl_internal_get_fixYAxis() const;
+
+  constexpr bool& __cordl_internal_get_fixYAxis();
+
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_lookAtTarget() const;
+
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_lookAtTarget();
+
+  constexpr float_t const& __cordl_internal_get_maxAngle() const;
+
+  constexpr float_t& __cordl_internal_get_maxAngle();
+
+  constexpr float_t const& __cordl_internal_get_maxDistance() const;
+
+  constexpr float_t& __cordl_internal_get_maxDistance();
+
+  constexpr void __cordl_internal_set_direction(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_fixYAxis(bool value);
+
+  constexpr void __cordl_internal_set_lookAtTarget(::UnityW<::UnityEngine::Collider> value);
+
+  constexpr void __cordl_internal_set_maxAngle(float_t value);
+
+  constexpr void __cordl_internal_set_maxDistance(float_t value);
+
+  /// @brief Method .ctor, addr 0x1366778, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InteractionTrigger__CameraPosition();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__CameraPosition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InteractionTrigger__CameraPosition(__InteractionTrigger__CameraPosition&&) = delete;
@@ -287,12 +289,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InteractionTrigger__CameraPosition(__InteractionTrigger__CameraPosition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InteractionTrigger__CameraPosition();
-
-public:
   /// @brief Field lookAtTarget, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Collider> ___lookAtTarget;
 
@@ -328,36 +324,40 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTrigger__CameraPositi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12509))
 // CS Name: ::InteractionTrigger::Range::Interaction*
 class CORDL_TYPE __InteractionTrigger__Range__Interaction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field interactionObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_interactionObject, put = __cordl_internal_set_interactionObject))::UnityW<::RootMotion::FinalIK::InteractionObject> interactionObject;
-
   /// @brief Field effectors, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_effectors,
                       put = __cordl_internal_set_effectors))::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*> effectors;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject>& __cordl_internal_get_interactionObject();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject> const& __cordl_internal_get_interactionObject() const;
-
-  constexpr void __cordl_internal_set_interactionObject(::UnityW<::RootMotion::FinalIK::InteractionObject> value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*>& __cordl_internal_get_effectors();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*> const& __cordl_internal_get_effectors() const;
-
-  constexpr void __cordl_internal_set_effectors(::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*> value);
+  /// @brief Field interactionObject, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_interactionObject, put = __cordl_internal_set_interactionObject))::UnityW<::RootMotion::FinalIK::InteractionObject> interactionObject;
 
   static inline ::GlobalNamespace::__InteractionTrigger__Range__Interaction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1324810, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*> const& __cordl_internal_get_effectors() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*>& __cordl_internal_get_effectors();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject> const& __cordl_internal_get_interactionObject() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject>& __cordl_internal_get_interactionObject();
+
+  constexpr void __cordl_internal_set_effectors(::ArrayW<::RootMotion::FinalIK::FullBodyBipedEffector, ::Array<::RootMotion::FinalIK::FullBodyBipedEffector>*> value);
+
+  constexpr void __cordl_internal_set_interactionObject(::UnityW<::RootMotion::FinalIK::InteractionObject> value);
+
+  /// @brief Method .ctor, addr 0x13667fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InteractionTrigger__Range__Interaction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__Range__Interaction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InteractionTrigger__Range__Interaction(__InteractionTrigger__Range__Interaction&&) = delete;
@@ -366,12 +366,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InteractionTrigger__Range__Interaction(__InteractionTrigger__Range__Interaction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InteractionTrigger__Range__Interaction();
-
-public:
   /// @brief Field interactionObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::RootMotion::FinalIK::InteractionObject> ___interactionObject;
 
@@ -392,13 +386,21 @@ static_assert(offsetof(::GlobalNamespace::__InteractionTrigger__Range__Interacti
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12510))
 // CS Name: ::InteractionTrigger::Range*
 class CORDL_TYPE __InteractionTrigger__Range : public ::System::Object {
 public:
   // Declarations
   using Interaction = ::GlobalNamespace::__InteractionTrigger__Range__Interaction;
+
+  /// @brief Field cameraPosition, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_cameraPosition, put = __cordl_internal_set_cameraPosition))::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* cameraPosition;
+
+  /// @brief Field characterPosition, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_characterPosition, put = __cordl_internal_set_characterPosition))::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* characterPosition;
+
+  /// @brief Field interactions, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_interactions, put = __cordl_internal_set_interactions))::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*,
+                                                                                                                 ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*> interactions;
 
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
@@ -406,56 +408,52 @@ public:
   /// @brief Field show, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_show, put = __cordl_internal_set_show)) bool show;
 
-  /// @brief Field characterPosition, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_characterPosition, put = __cordl_internal_set_characterPosition))::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* characterPosition;
+  /// @brief Method IsInRange, addr 0x13659ac, size 0xb0, virtual false, abstract: false, final false
+  inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit, ::UnityEngine::Transform* trigger, ByRef<float_t> maxError);
 
-  /// @brief Field cameraPosition, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraPosition, put = __cordl_internal_set_cameraPosition))::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* cameraPosition;
-
-  /// @brief Field interactions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_interactions, put = __cordl_internal_set_interactions))::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*,
-                                                                                                                 ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*> interactions;
-
-  constexpr ::StringW& __cordl_internal_get_name();
-
-  constexpr ::StringW const& __cordl_internal_get_name() const;
-
-  constexpr void __cordl_internal_set_name(::StringW value);
-
-  constexpr bool& __cordl_internal_get_show();
-
-  constexpr bool const& __cordl_internal_get_show() const;
-
-  constexpr void __cordl_internal_set_show(bool value);
-
-  constexpr ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition*& __cordl_internal_get_characterPosition();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition*> const& __cordl_internal_get_characterPosition() const;
-
-  constexpr void __cordl_internal_set_characterPosition(::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* value);
+  static inline ::RootMotion::FinalIK::__InteractionTrigger__Range* New_ctor();
 
   constexpr ::RootMotion::FinalIK::__InteractionTrigger__CameraPosition*& __cordl_internal_get_cameraPosition();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionTrigger__CameraPosition*> const& __cordl_internal_get_cameraPosition() const;
 
-  constexpr void __cordl_internal_set_cameraPosition(::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* value);
+  constexpr ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition*& __cordl_internal_get_characterPosition();
 
-  constexpr ::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*, ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*>& __cordl_internal_get_interactions();
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition*> const& __cordl_internal_get_characterPosition() const;
 
   constexpr ::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*, ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*> const&
   __cordl_internal_get_interactions() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*, ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*>& __cordl_internal_get_interactions();
+
+  constexpr ::StringW const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_name();
+
+  constexpr bool const& __cordl_internal_get_show() const;
+
+  constexpr bool& __cordl_internal_get_show();
+
+  constexpr void __cordl_internal_set_cameraPosition(::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* value);
+
+  constexpr void __cordl_internal_set_characterPosition(::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* value);
+
   constexpr void
   __cordl_internal_set_interactions(::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*, ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*> value);
 
-  /// @brief Method IsInRange, addr 0x13239c0, size 0xb0, virtual false, abstract: false, final false
-  inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit, ::UnityEngine::Transform* trigger, ByRef<float_t> maxError);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  static inline ::RootMotion::FinalIK::__InteractionTrigger__Range* New_ctor();
+  constexpr void __cordl_internal_set_show(bool value);
 
-  /// @brief Method .ctor, addr 0x1324800, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13667ec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InteractionTrigger__Range();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__Range", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InteractionTrigger__Range(__InteractionTrigger__Range&&) = delete;
@@ -464,12 +462,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InteractionTrigger__Range(__InteractionTrigger__Range const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InteractionTrigger__Range();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -505,54 +497,58 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTrigger__Range, ___in
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12511))
 // CS Name: ::RootMotion.FinalIK::InteractionTrigger*
 class CORDL_TYPE InteractionTrigger : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using Range = ::RootMotion::FinalIK::__InteractionTrigger__Range;
-
   using CameraPosition = ::RootMotion::FinalIK::__InteractionTrigger__CameraPosition;
 
   using CharacterPosition = ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition;
+
+  using Range = ::RootMotion::FinalIK::__InteractionTrigger__Range;
 
   /// @brief Field ranges, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ranges,
                       put = __cordl_internal_set_ranges))::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> ranges;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*>& __cordl_internal_get_ranges();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> const& __cordl_internal_get_ranges() const;
-
-  constexpr void __cordl_internal_set_ranges(::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> value);
-
-  /// @brief Method OpenUserManual, addr 0x1323868, size 0x44, virtual false, abstract: false, final false
-  inline void OpenUserManual();
-
-  /// @brief Method OpenScriptReference, addr 0x13238ac, size 0x44, virtual false, abstract: false, final false
-  inline void OpenScriptReference();
-
-  /// @brief Method OpenTutorial4, addr 0x13238f0, size 0x44, virtual false, abstract: false, final false
-  inline void OpenTutorial4();
-
-  /// @brief Method SupportGroup, addr 0x1323934, size 0x44, virtual false, abstract: false, final false
-  inline void SupportGroup();
-
-  /// @brief Method ASThread, addr 0x1323978, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ASThread, addr 0x1365964, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method Start, addr 0x13239bc, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method GetBestRangeIndex, addr 0x1322300, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetBestRangeIndex, addr 0x13642ec, size 0x1b4, virtual false, abstract: false, final false
   inline int32_t GetBestRangeIndex(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit);
 
   static inline ::RootMotion::FinalIK::InteractionTrigger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1323a70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OpenScriptReference, addr 0x1365898, size 0x44, virtual false, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenTutorial4, addr 0x13658dc, size 0x44, virtual false, abstract: false, final false
+  inline void OpenTutorial4();
+
+  /// @brief Method OpenUserManual, addr 0x1365854, size 0x44, virtual false, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method Start, addr 0x13659a8, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method SupportGroup, addr 0x1365920, size 0x44, virtual false, abstract: false, final false
+  inline void SupportGroup();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> const& __cordl_internal_get_ranges() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*>& __cordl_internal_get_ranges();
+
+  constexpr void __cordl_internal_set_ranges(::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> value);
+
+  /// @brief Method .ctor, addr 0x1365a5c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InteractionTrigger();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InteractionTrigger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InteractionTrigger(InteractionTrigger&&) = delete;
@@ -561,12 +557,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InteractionTrigger(InteractionTrigger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InteractionTrigger();
-
-public:
   /// @brief Field ranges, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> ___ranges;
 

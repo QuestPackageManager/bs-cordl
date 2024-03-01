@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::ShorthandApplicator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6719))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ShorthandApplicator*
 class CORDL_TYPE ShorthandApplicator : public ::System::Object {
 public:
@@ -62,75 +60,81 @@ public:
   static __declspec(property(get = getStaticF_s_TransitionTimingFunctionList,
                              put = setStaticF_s_TransitionTimingFunctionList))::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* s_TransitionTimingFunctionList;
 
-  static inline void setStaticF_s_TransitionDelayList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* value);
+  /// @brief Method ApplyBorderColor, addr 0x2ef3c50, size 0xf4, virtual false, abstract: false, final false
+  static inline void ApplyBorderColor(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* getStaticF_s_TransitionDelayList();
+  /// @brief Method ApplyBorderRadius, addr 0x2ef3d44, size 0xf0, virtual false, abstract: false, final false
+  static inline void ApplyBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline void setStaticF_s_TransitionDurationList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* value);
+  /// @brief Method ApplyBorderWidth, addr 0x2ef3e34, size 0xec, virtual false, abstract: false, final false
+  static inline void ApplyBorderWidth(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* getStaticF_s_TransitionDurationList();
+  /// @brief Method ApplyFlex, addr 0x2ef3f20, size 0xd0, virtual false, abstract: false, final false
+  static inline void ApplyFlex(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline void setStaticF_s_TransitionPropertyList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* value);
+  /// @brief Method ApplyMargin, addr 0x2ef3ff0, size 0xf0, virtual false, abstract: false, final false
+  static inline void ApplyMargin(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* getStaticF_s_TransitionPropertyList();
+  /// @brief Method ApplyPadding, addr 0x2ef40e0, size 0xf0, virtual false, abstract: false, final false
+  static inline void ApplyPadding(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline void setStaticF_s_TransitionTimingFunctionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* value);
+  /// @brief Method ApplyTransition, addr 0x2ef41d0, size 0x150, virtual false, abstract: false, final false
+  static inline void ApplyTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* getStaticF_s_TransitionTimingFunctionList();
+  /// @brief Method ApplyUnityTextOutline, addr 0x2ef4320, size 0xb8, virtual false, abstract: false, final false
+  static inline void ApplyUnityTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method CompileFlexShorthand, addr 0x2e02238, size 0x1e8, virtual false, abstract: false, final false
-  static inline bool CompileFlexShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> grow, ByRef<float_t> shrink,
-                                          ByRef<::UnityEngine::UIElements::Length> basis);
-
-  /// @brief Method CompileBorderRadius, addr 0x2e02734, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CompileBorderRadius, addr 0x2ef2e5c, size 0x148, virtual false, abstract: false, final false
   static inline void CompileBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top,
                                          ByRef<::UnityEngine::UIElements::Length> right, ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
 
-  /// @brief Method CompileBoxArea, addr 0x2e0287c, size 0x15c, virtual false, abstract: false, final false
-  static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top, ByRef<::UnityEngine::UIElements::Length> right,
-                                    ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
-
-  /// @brief Method CompileBoxArea, addr 0x2e029d8, size 0xb8, virtual false, abstract: false, final false
-  static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> top, ByRef<float_t> right, ByRef<float_t> bottom, ByRef<float_t> left);
-
-  /// @brief Method CompileBoxArea, addr 0x2e02a90, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CompileBoxArea, addr 0x2ef31b8, size 0x168, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::Color> top, ByRef<::UnityEngine::Color> right,
                                     ByRef<::UnityEngine::Color> bottom, ByRef<::UnityEngine::Color> left);
 
-  /// @brief Method CompileTextOutline, addr 0x2e02cfc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CompileBoxArea, addr 0x2ef2fa4, size 0x15c, virtual false, abstract: false, final false
+  static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top, ByRef<::UnityEngine::UIElements::Length> right,
+                                    ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
+
+  /// @brief Method CompileBoxArea, addr 0x2ef3100, size 0xb8, virtual false, abstract: false, final false
+  static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> top, ByRef<float_t> right, ByRef<float_t> bottom, ByRef<float_t> left);
+
+  /// @brief Method CompileFlexShorthand, addr 0x2ef2960, size 0x1e8, virtual false, abstract: false, final false
+  static inline bool CompileFlexShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> grow, ByRef<float_t> shrink,
+                                          ByRef<::UnityEngine::UIElements::Length> basis);
+
+  /// @brief Method CompileTextOutline, addr 0x2ef3424, size 0xa0, virtual false, abstract: false, final false
   static inline void CompileTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::Color> outlineColor, ByRef<float_t> outlineWidth);
 
-  /// @brief Method CompileTransition, addr 0x2e02d9c, size 0x694, virtual false, abstract: false, final false
+  /// @brief Method CompileTransition, addr 0x2ef34c4, size 0x694, virtual false, abstract: false, final false
   static inline void CompileTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDelay,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDuration,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*> outProperty,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*> outTimingFunction);
 
-  /// @brief Method ApplyBorderColor, addr 0x2e03528, size 0xf4, virtual false, abstract: false, final false
-  static inline void ApplyBorderColor(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* getStaticF_s_TransitionDelayList();
 
-  /// @brief Method ApplyBorderRadius, addr 0x2e0361c, size 0xf0, virtual false, abstract: false, final false
-  static inline void ApplyBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* getStaticF_s_TransitionDurationList();
 
-  /// @brief Method ApplyBorderWidth, addr 0x2e0370c, size 0xec, virtual false, abstract: false, final false
-  static inline void ApplyBorderWidth(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* getStaticF_s_TransitionPropertyList();
 
-  /// @brief Method ApplyFlex, addr 0x2e037f8, size 0xd0, virtual false, abstract: false, final false
-  static inline void ApplyFlex(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* getStaticF_s_TransitionTimingFunctionList();
 
-  /// @brief Method ApplyMargin, addr 0x2e038c8, size 0xf0, virtual false, abstract: false, final false
-  static inline void ApplyMargin(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline void setStaticF_s_TransitionDelayList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* value);
 
-  /// @brief Method ApplyPadding, addr 0x2e039b8, size 0xf0, virtual false, abstract: false, final false
-  static inline void ApplyPadding(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline void setStaticF_s_TransitionDurationList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* value);
 
-  /// @brief Method ApplyTransition, addr 0x2e03aa8, size 0x150, virtual false, abstract: false, final false
-  static inline void ApplyTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline void setStaticF_s_TransitionPropertyList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* value);
 
-  /// @brief Method ApplyUnityTextOutline, addr 0x2e03bf8, size 0xb8, virtual false, abstract: false, final false
-  static inline void ApplyUnityTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
+  static inline void setStaticF_s_TransitionTimingFunctionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShorthandApplicator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShorthandApplicator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShorthandApplicator(ShorthandApplicator&&) = delete;
@@ -139,12 +143,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShorthandApplicator(ShorthandApplicator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShorthandApplicator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

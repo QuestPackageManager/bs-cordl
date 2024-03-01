@@ -20,37 +20,41 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
 // SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2638))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3307))
 // CS Name: ::System.Runtime.InteropServices::SafeBuffer*
 class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
-  /// @brief Field _numBytes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) void* _numBytes;
-
   /// @brief Field Uninitialized, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) void* Uninitialized;
 
-  constexpr void*& __cordl_internal_get__numBytes();
+  /// @brief Field _numBytes, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) void* _numBytes;
+
+  /// @brief Method AcquirePointer, addr 0x25c796c, size 0x108, virtual false, abstract: false, final false
+  inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
+
+  /// @brief Method NotInitialized, addr 0x25c7a74, size 0x74, virtual false, abstract: false, final false
+  static inline ::System::InvalidOperationException* NotInitialized();
+
+  /// @brief Method ReleasePointer, addr 0x25c7bb8, size 0xdc, virtual false, abstract: false, final false
+  inline void ReleasePointer();
 
   constexpr void* const& __cordl_internal_get__numBytes() const;
 
-  constexpr void __cordl_internal_set__numBytes(void* value);
+  constexpr void*& __cordl_internal_get__numBytes();
 
-  static inline void setStaticF_Uninitialized(void* value);
+  constexpr void __cordl_internal_set__numBytes(void* value);
 
   static inline void* getStaticF_Uninitialized();
 
-  /// @brief Method AcquirePointer, addr 0x24f7890, size 0x108, virtual false, abstract: false, final false
-  inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
+  static inline void setStaticF_Uninitialized(void* value);
 
-  /// @brief Method ReleasePointer, addr 0x24f7adc, size 0xdc, virtual false, abstract: false, final false
-  inline void ReleasePointer();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeBuffer();
 
-  /// @brief Method NotInitialized, addr 0x24f7998, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::InvalidOperationException* NotInitialized();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeBuffer(SafeBuffer&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeBuffer(SafeBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeBuffer();
-
-public:
   /// @brief Field _numBytes, offset: 0x20, size: 0x8, def value: None
   void* ____numBytes;
 

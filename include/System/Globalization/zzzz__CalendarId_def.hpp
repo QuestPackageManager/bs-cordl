@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Globalization::CalendarId);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3665))
 // CS Name: ::System.Globalization::CalendarId
 struct CORDL_TYPE CalendarId {
 public:
@@ -57,51 +55,35 @@ public:
     return static_cast<__CalendarId_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr CalendarId(uint16_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint16_t() const noexcept {
+    return static_cast<uint16_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CalendarId();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr CalendarId(uint16_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
   uint16_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
-
-  /// @brief Field UNINITIALIZED_VALUE value: static_cast<uint16_t>(0x0u)
-  static ::System::Globalization::CalendarId const UNINITIALIZED_VALUE;
+  /// @brief Field CHINESELUNISOLAR value: static_cast<uint16_t>(0xfu)
+  static ::System::Globalization::CalendarId const CHINESELUNISOLAR;
 
   /// @brief Field GREGORIAN value: static_cast<uint16_t>(0x1u)
   static ::System::Globalization::CalendarId const GREGORIAN;
 
-  /// @brief Field GREGORIAN_US value: static_cast<uint16_t>(0x2u)
-  static ::System::Globalization::CalendarId const GREGORIAN_US;
-
-  /// @brief Field JAPAN value: static_cast<uint16_t>(0x3u)
-  static ::System::Globalization::CalendarId const JAPAN;
-
-  /// @brief Field TAIWAN value: static_cast<uint16_t>(0x4u)
-  static ::System::Globalization::CalendarId const TAIWAN;
-
-  /// @brief Field KOREA value: static_cast<uint16_t>(0x5u)
-  static ::System::Globalization::CalendarId const KOREA;
-
-  /// @brief Field HIJRI value: static_cast<uint16_t>(0x6u)
-  static ::System::Globalization::CalendarId const HIJRI;
-
-  /// @brief Field THAI value: static_cast<uint16_t>(0x7u)
-  static ::System::Globalization::CalendarId const THAI;
-
-  /// @brief Field HEBREW value: static_cast<uint16_t>(0x8u)
-  static ::System::Globalization::CalendarId const HEBREW;
+  /// @brief Field GREGORIAN_ARABIC value: static_cast<uint16_t>(0xau)
+  static ::System::Globalization::CalendarId const GREGORIAN_ARABIC;
 
   /// @brief Field GREGORIAN_ME_FRENCH value: static_cast<uint16_t>(0x9u)
   static ::System::Globalization::CalendarId const GREGORIAN_ME_FRENCH;
 
-  /// @brief Field GREGORIAN_ARABIC value: static_cast<uint16_t>(0xau)
-  static ::System::Globalization::CalendarId const GREGORIAN_ARABIC;
+  /// @brief Field GREGORIAN_US value: static_cast<uint16_t>(0x2u)
+  static ::System::Globalization::CalendarId const GREGORIAN_US;
 
   /// @brief Field GREGORIAN_XLIT_ENGLISH value: static_cast<uint16_t>(0xbu)
   static ::System::Globalization::CalendarId const GREGORIAN_XLIT_ENGLISH;
@@ -109,17 +91,29 @@ public:
   /// @brief Field GREGORIAN_XLIT_FRENCH value: static_cast<uint16_t>(0xcu)
   static ::System::Globalization::CalendarId const GREGORIAN_XLIT_FRENCH;
 
-  /// @brief Field JULIAN value: static_cast<uint16_t>(0xdu)
-  static ::System::Globalization::CalendarId const JULIAN;
+  /// @brief Field HEBREW value: static_cast<uint16_t>(0x8u)
+  static ::System::Globalization::CalendarId const HEBREW;
+
+  /// @brief Field HIJRI value: static_cast<uint16_t>(0x6u)
+  static ::System::Globalization::CalendarId const HIJRI;
+
+  /// @brief Field JAPAN value: static_cast<uint16_t>(0x3u)
+  static ::System::Globalization::CalendarId const JAPAN;
 
   /// @brief Field JAPANESELUNISOLAR value: static_cast<uint16_t>(0xeu)
   static ::System::Globalization::CalendarId const JAPANESELUNISOLAR;
 
-  /// @brief Field CHINESELUNISOLAR value: static_cast<uint16_t>(0xfu)
-  static ::System::Globalization::CalendarId const CHINESELUNISOLAR;
+  /// @brief Field JULIAN value: static_cast<uint16_t>(0xdu)
+  static ::System::Globalization::CalendarId const JULIAN;
 
-  /// @brief Field SAKA value: static_cast<uint16_t>(0x10u)
-  static ::System::Globalization::CalendarId const SAKA;
+  /// @brief Field KOREA value: static_cast<uint16_t>(0x5u)
+  static ::System::Globalization::CalendarId const KOREA;
+
+  /// @brief Field KOREANLUNISOLAR value: static_cast<uint16_t>(0x14u)
+  static ::System::Globalization::CalendarId const KOREANLUNISOLAR;
+
+  /// @brief Field LAST_CALENDAR value: static_cast<uint16_t>(0x17u)
+  static ::System::Globalization::CalendarId const LAST_CALENDAR;
 
   /// @brief Field LUNAR_ETO_CHN value: static_cast<uint16_t>(0x11u)
   static ::System::Globalization::CalendarId const LUNAR_ETO_CHN;
@@ -130,20 +124,29 @@ public:
   /// @brief Field LUNAR_ETO_ROKUYOU value: static_cast<uint16_t>(0x13u)
   static ::System::Globalization::CalendarId const LUNAR_ETO_ROKUYOU;
 
-  /// @brief Field KOREANLUNISOLAR value: static_cast<uint16_t>(0x14u)
-  static ::System::Globalization::CalendarId const KOREANLUNISOLAR;
+  /// @brief Field PERSIAN value: static_cast<uint16_t>(0x16u)
+  static ::System::Globalization::CalendarId const PERSIAN;
+
+  /// @brief Field SAKA value: static_cast<uint16_t>(0x10u)
+  static ::System::Globalization::CalendarId const SAKA;
+
+  /// @brief Field TAIWAN value: static_cast<uint16_t>(0x4u)
+  static ::System::Globalization::CalendarId const TAIWAN;
 
   /// @brief Field TAIWANLUNISOLAR value: static_cast<uint16_t>(0x15u)
   static ::System::Globalization::CalendarId const TAIWANLUNISOLAR;
 
-  /// @brief Field PERSIAN value: static_cast<uint16_t>(0x16u)
-  static ::System::Globalization::CalendarId const PERSIAN;
+  /// @brief Field THAI value: static_cast<uint16_t>(0x7u)
+  static ::System::Globalization::CalendarId const THAI;
 
   /// @brief Field UMALQURA value: static_cast<uint16_t>(0x17u)
   static ::System::Globalization::CalendarId const UMALQURA;
 
-  /// @brief Field LAST_CALENDAR value: static_cast<uint16_t>(0x17u)
-  static ::System::Globalization::CalendarId const LAST_CALENDAR;
+  /// @brief Field UNINITIALIZED_VALUE value: static_cast<uint16_t>(0x0u)
+  static ::System::Globalization::CalendarId const UNINITIALIZED_VALUE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

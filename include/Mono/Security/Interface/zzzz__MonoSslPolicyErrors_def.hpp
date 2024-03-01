@@ -15,8 +15,6 @@ MARK_VAL_T(::Mono::Security::Interface::MonoSslPolicyErrors);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13732))
 // CS Name: ::Mono.Security.Interface::MonoSslPolicyErrors
 struct CORDL_TYPE MonoSslPolicyErrors {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__MonoSslPolicyErrors_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr MonoSslPolicyErrors(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr MonoSslPolicyErrors();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr MonoSslPolicyErrors(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::Mono::Security::Interface::MonoSslPolicyErrors const None;
 
-  /// @brief Field RemoteCertificateNotAvailable value: static_cast<int32_t>(0x1)
-  static ::Mono::Security::Interface::MonoSslPolicyErrors const RemoteCertificateNotAvailable;
+  /// @brief Field RemoteCertificateChainErrors value: static_cast<int32_t>(0x4)
+  static ::Mono::Security::Interface::MonoSslPolicyErrors const RemoteCertificateChainErrors;
 
   /// @brief Field RemoteCertificateNameMismatch value: static_cast<int32_t>(0x2)
   static ::Mono::Security::Interface::MonoSslPolicyErrors const RemoteCertificateNameMismatch;
 
-  /// @brief Field RemoteCertificateChainErrors value: static_cast<int32_t>(0x4)
-  static ::Mono::Security::Interface::MonoSslPolicyErrors const RemoteCertificateChainErrors;
+  /// @brief Field RemoteCertificateNotAvailable value: static_cast<int32_t>(0x1)
+  static ::Mono::Security::Interface::MonoSslPolicyErrors const RemoteCertificateNotAvailable;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

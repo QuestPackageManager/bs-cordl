@@ -21,36 +21,38 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5928)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5928), inst: 3843 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
 // CS Name: ::UnityEngine.InputSystem.Utilities::CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {
 public:
   // Declarations
-  __declspec(property(get = get_length)) int32_t length;
-
   __declspec(property(get = get_Item)) TDelegate Item[];
 
-  /// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_length();
-
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TDelegate get_Item(int32_t index);
-
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
+  __declspec(property(get = get_length)) int32_t length;
 
   /// @brief Method AddCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddCallback(TDelegate dlg);
 
-  /// @brief Method RemoveCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RemoveCallback(TDelegate dlg);
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
 
   /// @brief Method LockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LockForChanges();
 
+  /// @brief Method RemoveCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveCallback(TDelegate dlg);
+
   /// @brief Method UnlockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnlockForChanges();
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TDelegate get_Item(int32_t index);
+
+  /// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_length();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CallbackArray_1();
 
   // Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Callbacks", ty:
   // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToAdd", ty:
@@ -59,10 +61,6 @@ public:
   constexpr CallbackArray_1(bool m_CannotMutateCallbacksArray, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_Callbacks,
                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToAdd,
                             ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallbackArray_1();
 
   /// @brief Field m_CannotMutateCallbacksArray, offset: 0x0, size: 0x1, def value: None
   bool m_CannotMutateCallbacksArray;

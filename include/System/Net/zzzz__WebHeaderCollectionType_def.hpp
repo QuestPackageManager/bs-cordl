@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::WebHeaderCollectionType);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7099))
 // CS Name: ::System.Net::WebHeaderCollectionType
 struct CORDL_TYPE WebHeaderCollectionType {
 public:
@@ -43,18 +41,44 @@ public:
     return static_cast<__WebHeaderCollectionType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr WebHeaderCollectionType(uint16_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint16_t() const noexcept {
+    return static_cast<uint16_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr WebHeaderCollectionType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr WebHeaderCollectionType(uint16_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
   uint16_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
+  /// @brief Field FileWebRequest value: static_cast<uint16_t>(0x9u)
+  static ::System::Net::WebHeaderCollectionType const FileWebRequest;
+
+  /// @brief Field FileWebResponse value: static_cast<uint16_t>(0xau)
+  static ::System::Net::WebHeaderCollectionType const FileWebResponse;
+
+  /// @brief Field FtpWebRequest value: static_cast<uint16_t>(0x7u)
+  static ::System::Net::WebHeaderCollectionType const FtpWebRequest;
+
+  /// @brief Field FtpWebResponse value: static_cast<uint16_t>(0x8u)
+  static ::System::Net::WebHeaderCollectionType const FtpWebResponse;
+
+  /// @brief Field HttpListenerRequest value: static_cast<uint16_t>(0x5u)
+  static ::System::Net::WebHeaderCollectionType const HttpListenerRequest;
+
+  /// @brief Field HttpListenerResponse value: static_cast<uint16_t>(0x6u)
+  static ::System::Net::WebHeaderCollectionType const HttpListenerResponse;
+
+  /// @brief Field HttpWebRequest value: static_cast<uint16_t>(0x3u)
+  static ::System::Net::WebHeaderCollectionType const HttpWebRequest;
+
+  /// @brief Field HttpWebResponse value: static_cast<uint16_t>(0x4u)
+  static ::System::Net::WebHeaderCollectionType const HttpWebResponse;
 
   /// @brief Field Unknown value: static_cast<uint16_t>(0x0u)
   static ::System::Net::WebHeaderCollectionType const Unknown;
@@ -65,29 +89,8 @@ public:
   /// @brief Field WebResponse value: static_cast<uint16_t>(0x2u)
   static ::System::Net::WebHeaderCollectionType const WebResponse;
 
-  /// @brief Field HttpWebRequest value: static_cast<uint16_t>(0x3u)
-  static ::System::Net::WebHeaderCollectionType const HttpWebRequest;
-
-  /// @brief Field HttpWebResponse value: static_cast<uint16_t>(0x4u)
-  static ::System::Net::WebHeaderCollectionType const HttpWebResponse;
-
-  /// @brief Field HttpListenerRequest value: static_cast<uint16_t>(0x5u)
-  static ::System::Net::WebHeaderCollectionType const HttpListenerRequest;
-
-  /// @brief Field HttpListenerResponse value: static_cast<uint16_t>(0x6u)
-  static ::System::Net::WebHeaderCollectionType const HttpListenerResponse;
-
-  /// @brief Field FtpWebRequest value: static_cast<uint16_t>(0x7u)
-  static ::System::Net::WebHeaderCollectionType const FtpWebRequest;
-
-  /// @brief Field FtpWebResponse value: static_cast<uint16_t>(0x8u)
-  static ::System::Net::WebHeaderCollectionType const FtpWebResponse;
-
-  /// @brief Field FileWebRequest value: static_cast<uint16_t>(0x9u)
-  static ::System::Net::WebHeaderCollectionType const FileWebRequest;
-
-  /// @brief Field FileWebResponse value: static_cast<uint16_t>(0xau)
-  static ::System::Net::WebHeaderCollectionType const FileWebResponse;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

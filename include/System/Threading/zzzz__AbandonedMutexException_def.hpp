@@ -27,48 +27,52 @@ MARK_REF_PTR_T(::System::Threading::AbandonedMutexException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2656))
 // CS Name: ::System.Threading::AbandonedMutexException*
 class CORDL_TYPE AbandonedMutexException : public ::System::SystemException {
 public:
   // Declarations
-  /// @brief Field _mutexIndex, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get__mutexIndex, put = __cordl_internal_set__mutexIndex)) int32_t _mutexIndex;
-
   /// @brief Field _mutex, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__mutex, put = __cordl_internal_set__mutex))::System::Threading::Mutex* _mutex;
 
-  constexpr int32_t& __cordl_internal_get__mutexIndex();
+  /// @brief Field _mutexIndex, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get__mutexIndex, put = __cordl_internal_set__mutexIndex)) int32_t _mutexIndex;
 
-  constexpr int32_t const& __cordl_internal_get__mutexIndex() const;
+  static inline ::System::Threading::AbandonedMutexException* New_ctor();
 
-  constexpr void __cordl_internal_set__mutexIndex(int32_t value);
+  static inline ::System::Threading::AbandonedMutexException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
+
+  /// @brief Method SetupException, addr 0x2704174, size 0x6c, virtual false, abstract: false, final false
+  inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
 
   constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Mutex*> const& __cordl_internal_get__mutex() const;
 
+  constexpr int32_t const& __cordl_internal_get__mutexIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__mutexIndex();
+
   constexpr void __cordl_internal_set__mutex(::System::Threading::Mutex* value);
 
-  static inline ::System::Threading::AbandonedMutexException* New_ctor();
+  constexpr void __cordl_internal_set__mutexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2634964, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2704058, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
-
-  /// @brief Method .ctor, addr 0x26349c8, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
-
-  static inline ::System::Threading::AbandonedMutexException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x2634aec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27041e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetupException, addr 0x2634a80, size 0x6c, virtual false, abstract: false, final false
-  inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
+  /// @brief Method .ctor, addr 0x27040bc, size 0xb8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbandonedMutexException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AbandonedMutexException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbandonedMutexException(AbandonedMutexException&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AbandonedMutexException(AbandonedMutexException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbandonedMutexException();
-
-public:
   /// @brief Field _mutexIndex, offset: 0x8c, size: 0x4, def value: None
   int32_t ____mutexIndex;
 

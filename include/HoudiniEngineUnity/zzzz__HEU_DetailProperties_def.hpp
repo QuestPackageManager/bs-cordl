@@ -19,17 +19,15 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_DetailProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9747))
 // CS Name: ::HoudiniEngineUnity::HEU_DetailProperties*
 class CORDL_TYPE HEU_DetailProperties : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _detailDistance, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__detailDistance, put = __cordl_internal_set__detailDistance)) float_t _detailDistance;
-
   /// @brief Field _detailDensity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__detailDensity, put = __cordl_internal_set__detailDensity)) float_t _detailDensity;
+
+  /// @brief Field _detailDistance, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__detailDistance, put = __cordl_internal_set__detailDistance)) float_t _detailDistance;
 
   /// @brief Field _detailResolution, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__detailResolution, put = __cordl_internal_set__detailResolution)) int32_t _detailResolution;
@@ -40,41 +38,47 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_DetailProperties__() noexcept;
-
-  constexpr float_t& __cordl_internal_get__detailDistance();
-
-  constexpr float_t const& __cordl_internal_get__detailDistance() const;
-
-  constexpr void __cordl_internal_set__detailDistance(float_t value);
-
-  constexpr float_t& __cordl_internal_get__detailDensity();
-
-  constexpr float_t const& __cordl_internal_get__detailDensity() const;
-
-  constexpr void __cordl_internal_set__detailDensity(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__detailResolution();
-
-  constexpr int32_t const& __cordl_internal_get__detailResolution() const;
-
-  constexpr void __cordl_internal_set__detailResolution(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__detailResolutionPerPatch();
-
-  constexpr int32_t const& __cordl_internal_get__detailResolutionPerPatch() const;
-
-  constexpr void __cordl_internal_set__detailResolutionPerPatch(int32_t value);
-
-  /// @brief Method IsEquivalentTo, addr 0x227fef4, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x234c55c, size 0x1f0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailProperties* other);
 
   static inline ::HoudiniEngineUnity::HEU_DetailProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22800e4, size 0x18, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get__detailDensity() const;
+
+  constexpr float_t& __cordl_internal_get__detailDensity();
+
+  constexpr float_t const& __cordl_internal_get__detailDistance() const;
+
+  constexpr float_t& __cordl_internal_get__detailDistance();
+
+  constexpr int32_t const& __cordl_internal_get__detailResolution() const;
+
+  constexpr int32_t& __cordl_internal_get__detailResolution();
+
+  constexpr int32_t const& __cordl_internal_get__detailResolutionPerPatch() const;
+
+  constexpr int32_t& __cordl_internal_get__detailResolutionPerPatch();
+
+  constexpr void __cordl_internal_set__detailDensity(float_t value);
+
+  constexpr void __cordl_internal_set__detailDistance(float_t value);
+
+  constexpr void __cordl_internal_set__detailResolution(int32_t value);
+
+  constexpr void __cordl_internal_set__detailResolutionPerPatch(int32_t value);
+
+  /// @brief Method .ctor, addr 0x234c74c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_DetailProperties*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_DetailProperties__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_DetailProperties();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_DetailProperties", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_DetailProperties(HEU_DetailProperties&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_DetailProperties(HEU_DetailProperties const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_DetailProperties();
-
-public:
   /// @brief Field _detailDistance, offset: 0x10, size: 0x4, def value: None
   float_t ____detailDistance;
 

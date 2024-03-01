@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResul
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14797))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackUseMobileDataRequestResult*
 class CORDL_TYPE AndroidAssetPackUseMobileDataRequestResult : public ::System::Object {
 public:
@@ -23,17 +21,23 @@ public:
   /// @brief Field <allowed>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__allowed_k__BackingField, put = __cordl_internal_set__allowed_k__BackingField)) bool _allowed_k__BackingField;
 
-  constexpr bool& __cordl_internal_get__allowed_k__BackingField();
+  static inline ::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult* New_ctor(bool allowed);
 
   constexpr bool const& __cordl_internal_get__allowed_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__allowed_k__BackingField();
+
   constexpr void __cordl_internal_set__allowed_k__BackingField(bool value);
 
-  static inline ::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult* New_ctor(bool allowed);
-
-  /// @brief Method .ctor, addr 0x2c89770, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d72844, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool allowed);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidAssetPackUseMobileDataRequestResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackUseMobileDataRequestResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPackUseMobileDataRequestResult(AndroidAssetPackUseMobileDataRequestResult&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidAssetPackUseMobileDataRequestResult(AndroidAssetPackUseMobileDataRequestResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidAssetPackUseMobileDataRequestResult();
-
-public:
   /// @brief Field <allowed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____allowed_k__BackingField;
 

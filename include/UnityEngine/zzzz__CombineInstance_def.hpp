@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::CombineInstance);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8990))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8875))
 // CS Name: ::UnityEngine::CombineInstance
 struct CORDL_TYPE CombineInstance {
 public:
@@ -38,27 +36,27 @@ public:
 
   __declspec(property(put = set_transform))::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method get_mesh, addr 0x2cc6eb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x2db2418, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x2cc6ec0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x2db2424, size 0x88, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_subMeshIndex, addr 0x2cc70ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshIndex, addr 0x2db2650, size 0x8, virtual false, abstract: false, final false
   inline void set_subMeshIndex(int32_t value);
 
-  /// @brief Method set_transform, addr 0x2cc70f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x2db2658, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CombineInstance();
 
   // Ctor Parameters [CppParam { name: "m_MeshInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_SubMeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam
   // { name: "m_Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_LightmapScaleOffset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None },
   // CppParam { name: "m_RealtimeLightmapScaleOffset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
   constexpr CombineInstance(int32_t m_MeshInstanceID, int32_t m_SubMeshIndex, ::UnityEngine::Matrix4x4 m_Transform, ::UnityEngine::Vector4 m_LightmapScaleOffset,
                             ::UnityEngine::Vector4 m_RealtimeLightmapScaleOffset) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CombineInstance();
 
   /// @brief Field m_MeshInstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t m_MeshInstanceID;

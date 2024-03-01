@@ -21,17 +21,15 @@ MARK_REF_PTR_T(::GlobalNamespace::PageControlElement);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5101))
 // CS Name: ::PageControlElement*
 class CORDL_TYPE PageControlElement : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _rectTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
-
   /// @brief Field _imageView, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__imageView, put = __cordl_internal_set__imageView))::UnityW<::HMUI::ImageView> _imageView;
+
+  /// @brief Field _rectTransform, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _selectedColor, offset 0x28, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedColor, put = __cordl_internal_set__selectedColor))::UnityEngine::Color _selectedColor;
@@ -41,41 +39,47 @@ public:
 
   __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+  static inline ::GlobalNamespace::PageControlElement* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
-
-  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
-
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__imageView();
+  /// @brief Method SetSelected, addr 0x23e4600, size 0x64, virtual false, abstract: false, final false
+  inline void SetSelected(bool isSelected);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__imageView() const;
 
-  constexpr void __cordl_internal_set__imageView(::UnityW<::HMUI::ImageView> value);
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__imageView();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedColor();
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedColor() const;
 
-  constexpr void __cordl_internal_set__selectedColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__unselectedColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedColor();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__unselectedColor() const;
 
+  constexpr ::UnityEngine::Color& __cordl_internal_get__unselectedColor();
+
+  constexpr void __cordl_internal_set__imageView(::UnityW<::HMUI::ImageView> value);
+
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
+
+  constexpr void __cordl_internal_set__selectedColor(::UnityEngine::Color value);
+
   constexpr void __cordl_internal_set__unselectedColor(::UnityEngine::Color value);
 
-  /// @brief Method get_rectTransform, addr 0x2316a90, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
-
-  /// @brief Method SetSelected, addr 0x231692c, size 0x64, virtual false, abstract: false, final false
-  inline void SetSelected(bool isSelected);
-
-  static inline ::GlobalNamespace::PageControlElement* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2316a98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e476c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_rectTransform, addr 0x23e4764, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PageControlElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PageControlElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PageControlElement(PageControlElement&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PageControlElement(PageControlElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PageControlElement();
-
-public:
   /// @brief Field _rectTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 

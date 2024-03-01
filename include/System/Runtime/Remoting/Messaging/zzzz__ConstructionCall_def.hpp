@@ -52,36 +52,10 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionCall);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3174))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3160))
 // CS Name: ::System.Runtime.Remoting.Messaging::ConstructionCall*
 class CORDL_TYPE ConstructionCall : public ::System::Runtime::Remoting::Messaging::MethodCall {
 public:
   // Declarations
-  /// @brief Field _activator, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__activator, put = __cordl_internal_set__activator))::System::Runtime::Remoting::Activation::IActivator* _activator;
-
-  /// @brief Field _activationAttributes, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__activationAttributes,
-                      put = __cordl_internal_set__activationAttributes))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _activationAttributes;
-
-  /// @brief Field _contextProperties, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__contextProperties, put = __cordl_internal_set__contextProperties))::System::Collections::IList* _contextProperties;
-
-  /// @brief Field _activationType, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__activationType, put = __cordl_internal_set__activationType))::System::Type* _activationType;
-
-  /// @brief Field _activationTypeName, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__activationTypeName, put = __cordl_internal_set__activationTypeName))::StringW _activationTypeName;
-
-  /// @brief Field _isContextOk, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get__isContextOk, put = __cordl_internal_set__isContextOk)) bool _isContextOk;
-
-  /// @brief Field _sourceProxy, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__sourceProxy, put = __cordl_internal_set__sourceProxy))::System::Runtime::Remoting::Proxies::RemotingProxy* _sourceProxy;
-
-  __declspec(property(get = get_IsContextOk, put = set_IsContextOk)) bool IsContextOk;
-
   __declspec(property(get = get_ActivationType))::System::Type* ActivationType;
 
   __declspec(property(get = get_ActivationTypeName))::StringW ActivationTypeName;
@@ -92,132 +66,162 @@ public:
 
   __declspec(property(get = get_ContextProperties))::System::Collections::IList* ContextProperties;
 
+  __declspec(property(get = get_IsContextOk, put = set_IsContextOk)) bool IsContextOk;
+
   __declspec(property(get = get_Properties))::System::Collections::IDictionary* Properties;
 
   __declspec(property(get = get_SourceProxy, put = set_SourceProxy))::System::Runtime::Remoting::Proxies::RemotingProxy* SourceProxy;
 
+  /// @brief Field _activationAttributes, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__activationAttributes,
+                      put = __cordl_internal_set__activationAttributes))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _activationAttributes;
+
+  /// @brief Field _activationType, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__activationType, put = __cordl_internal_set__activationType))::System::Type* _activationType;
+
+  /// @brief Field _activationTypeName, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__activationTypeName, put = __cordl_internal_set__activationTypeName))::StringW _activationTypeName;
+
+  /// @brief Field _activator, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__activator, put = __cordl_internal_set__activator))::System::Runtime::Remoting::Activation::IActivator* _activator;
+
+  /// @brief Field _contextProperties, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__contextProperties, put = __cordl_internal_set__contextProperties))::System::Collections::IList* _contextProperties;
+
+  /// @brief Field _isContextOk, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get__isContextOk, put = __cordl_internal_set__isContextOk)) bool _isContextOk;
+
+  /// @brief Field _sourceProxy, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__sourceProxy, put = __cordl_internal_set__sourceProxy))::System::Runtime::Remoting::Proxies::RemotingProxy* _sourceProxy;
+
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IConstructionCallMessage"
   constexpr operator ::System::Runtime::Remoting::Activation::IConstructionCallMessage*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionCallMessage"
-  constexpr ::System::Runtime::Remoting::Activation::IConstructionCallMessage* i___System__Runtime__Remoting__Activation__IConstructionCallMessage() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
-
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodCallMessage*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+  /// @brief Method GetObjectData, addr 0x259e808, size 0x198, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr ::System::Runtime::Remoting::Activation::IActivator*& __cordl_internal_get__activator();
+  /// @brief Method InitDictionary, addr 0x259de9c, size 0x84, virtual true, abstract: false, final false
+  inline void InitDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Activation::IActivator*> const& __cordl_internal_get__activator() const;
+  /// @brief Method InitMethodProperty, addr 0x259e13c, size 0x2b0, virtual true, abstract: false, final false
+  inline void InitMethodProperty(::StringW key, ::System::Object* value);
 
-  constexpr void __cordl_internal_set__activator(::System::Runtime::Remoting::Activation::IActivator* value);
+  static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__activationAttributes();
+  static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Type* type);
+
+  /// @brief Method SetActivationAttributes, addr 0x259e0c8, size 0x8, virtual false, abstract: false, final false
+  inline void SetActivationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> attributes);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__activationAttributes() const;
 
-  constexpr void __cordl_internal_set__activationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
-
-  constexpr ::System::Collections::IList*& __cordl_internal_get__contextProperties();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__contextProperties() const;
-
-  constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList* value);
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__activationAttributes();
 
   constexpr ::System::Type*& __cordl_internal_get__activationType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__activationType() const;
 
-  constexpr void __cordl_internal_set__activationType(::System::Type* value);
+  constexpr ::StringW const& __cordl_internal_get__activationTypeName() const;
 
   constexpr ::StringW& __cordl_internal_get__activationTypeName();
 
-  constexpr ::StringW const& __cordl_internal_get__activationTypeName() const;
+  constexpr ::System::Runtime::Remoting::Activation::IActivator*& __cordl_internal_get__activator();
 
-  constexpr void __cordl_internal_set__activationTypeName(::StringW value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Activation::IActivator*> const& __cordl_internal_get__activator() const;
 
-  constexpr bool& __cordl_internal_get__isContextOk();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__contextProperties();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__contextProperties() const;
 
   constexpr bool const& __cordl_internal_get__isContextOk() const;
 
-  constexpr void __cordl_internal_set__isContextOk(bool value);
+  constexpr bool& __cordl_internal_get__isContextOk();
 
   constexpr ::System::Runtime::Remoting::Proxies::RemotingProxy*& __cordl_internal_get__sourceProxy();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Proxies::RemotingProxy*> const& __cordl_internal_get__sourceProxy() const;
 
+  constexpr void __cordl_internal_set__activationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+
+  constexpr void __cordl_internal_set__activationType(::System::Type* value);
+
+  constexpr void __cordl_internal_set__activationTypeName(::StringW value);
+
+  constexpr void __cordl_internal_set__activator(::System::Runtime::Remoting::Activation::IActivator* value);
+
+  constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList* value);
+
+  constexpr void __cordl_internal_set__isContextOk(bool value);
+
   constexpr void __cordl_internal_set__sourceProxy(::System::Runtime::Remoting::Proxies::RemotingProxy* value);
 
-  static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Type* type);
-
-  /// @brief Method .ctor, addr 0x24b9cac, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type);
-
-  static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                   ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x24cd108, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259de00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitDictionary, addr 0x24cd1a4, size 0x84, virtual true, abstract: false, final false
-  inline void InitDictionary();
+  /// @brief Method .ctor, addr 0x258a9a4, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_IsContextOk, addr 0x24cd2d4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsContextOk();
-
-  /// @brief Method set_IsContextOk, addr 0x24cd2dc, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsContextOk(bool value);
-
-  /// @brief Method get_ActivationType, addr 0x24cd2e8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_ActivationType, addr 0x259dfe0, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Type* get_ActivationType();
 
-  /// @brief Method get_ActivationTypeName, addr 0x24cd3b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ActivationTypeName, addr 0x259e0a8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ActivationTypeName();
 
-  /// @brief Method get_Activator, addr 0x24cd3b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Activator, addr 0x259e0b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_Activator();
 
-  /// @brief Method set_Activator, addr 0x24cd3c0, size 0x8, virtual true, abstract: false, final true
-  inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
-
-  /// @brief Method get_CallSiteActivationAttributes, addr 0x24cd3c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CallSiteActivationAttributes, addr 0x259e0c0, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_CallSiteActivationAttributes();
 
-  /// @brief Method SetActivationAttributes, addr 0x24cd3d0, size 0x8, virtual false, abstract: false, final false
-  inline void SetActivationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> attributes);
-
-  /// @brief Method get_ContextProperties, addr 0x24cd3d8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_ContextProperties, addr 0x259e0d0, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IList* get_ContextProperties();
 
-  /// @brief Method InitMethodProperty, addr 0x24cd444, size 0x2b0, virtual true, abstract: false, final false
-  inline void InitMethodProperty(::StringW key, ::System::Object* value);
+  /// @brief Method get_IsContextOk, addr 0x259dfcc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsContextOk();
 
-  /// @brief Method GetObjectData, addr 0x24cdb10, size 0x198, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method get_Properties, addr 0x24ce138, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x259ee30, size 0x30, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_SourceProxy, addr 0x24ce198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceProxy, addr 0x259ee90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RemotingProxy* get_SourceProxy();
 
-  /// @brief Method set_SourceProxy, addr 0x24ce1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionCallMessage"
+  constexpr ::System::Runtime::Remoting::Activation::IConstructionCallMessage* i___System__Runtime__Remoting__Activation__IConstructionCallMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodCallMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodCallMessage* i___System__Runtime__Remoting__Messaging__IMethodCallMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
+  /// @brief Method set_Activator, addr 0x259e0b8, size 0x8, virtual true, abstract: false, final true
+  inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
+
+  /// @brief Method set_IsContextOk, addr 0x259dfd4, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsContextOk(bool value);
+
+  /// @brief Method set_SourceProxy, addr 0x259ee98, size 0x8, virtual false, abstract: false, final false
   inline void set_SourceProxy(::System::Runtime::Remoting::Proxies::RemotingProxy* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConstructionCall();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionCall", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstructionCall(ConstructionCall&&) = delete;
@@ -226,12 +230,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConstructionCall(ConstructionCall const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstructionCall();
-
-public:
   /// @brief Field _activator, offset: 0x68, size: 0x8, def value: None
   ::System::Runtime::Remoting::Activation::IActivator* ____activator;
 

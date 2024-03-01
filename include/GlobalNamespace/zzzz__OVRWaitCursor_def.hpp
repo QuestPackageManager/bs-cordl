@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRWaitCursor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8138))
 // CS Name: ::OVRWaitCursor*
 class CORDL_TYPE OVRWaitCursor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -24,20 +22,26 @@ public:
   /// @brief Field rotateSpeeds, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get_rotateSpeeds, put = __cordl_internal_set_rotateSpeeds))::UnityEngine::Vector3 rotateSpeeds;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotateSpeeds();
+  static inline ::GlobalNamespace::OVRWaitCursor* New_ctor();
+
+  /// @brief Method Update, addr 0x28b740c, size 0x5c, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotateSpeeds() const;
 
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotateSpeeds();
+
   constexpr void __cordl_internal_set_rotateSpeeds(::UnityEngine::Vector3 value);
 
-  /// @brief Method Update, addr 0x27d60d4, size 0x5c, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::OVRWaitCursor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27d6130, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28b7468, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRWaitCursor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRWaitCursor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRWaitCursor(OVRWaitCursor&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRWaitCursor(OVRWaitCursor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRWaitCursor();
-
-public:
   /// @brief Field rotateSpeeds, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___rotateSpeeds;
 

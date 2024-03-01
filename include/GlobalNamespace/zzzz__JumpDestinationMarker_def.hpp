@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpDestinationMarker);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13841))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14552))
 // CS Name: ::JumpDestinationMarker*
 class CORDL_TYPE JumpDestinationMarker : public ::UnityEngine::Timeline::Marker {
 public:
   // Declarations
   static inline ::GlobalNamespace::JumpDestinationMarker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2189590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JumpDestinationMarker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JumpDestinationMarker(JumpDestinationMarker&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JumpDestinationMarker(JumpDestinationMarker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JumpDestinationMarker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

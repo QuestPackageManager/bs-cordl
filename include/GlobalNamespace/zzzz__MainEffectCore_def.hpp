@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectCore);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15407))
 // CS Name: ::MainEffectCore*
 class CORDL_TYPE MainEffectCore : public ::System::Object {
 public:
@@ -28,22 +26,28 @@ public:
   /// @brief Field _baseColorBoostThresholdID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__baseColorBoostThresholdID, put = setStaticF__baseColorBoostThresholdID)) int32_t _baseColorBoostThresholdID;
 
-  static inline void setStaticF__baseColorBoostID(int32_t value);
+  static inline ::GlobalNamespace::MainEffectCore* New_ctor();
+
+  /// @brief Method SetGlobalShaderValues, addr 0x28f0b7c, size 0x88, virtual false, abstract: false, final false
+  static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
+
+  /// @brief Method .ctor, addr 0x28f1590, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();
 
-  static inline void setStaticF__baseColorBoostThresholdID(int32_t value);
-
   static inline int32_t getStaticF__baseColorBoostThresholdID();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x280c700, size 0x88, virtual false, abstract: false, final false
-  static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
+  static inline void setStaticF__baseColorBoostID(int32_t value);
 
-  static inline ::GlobalNamespace::MainEffectCore* New_ctor();
+  static inline void setStaticF__baseColorBoostThresholdID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x280d114, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainEffectCore();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectCore", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectCore(MainEffectCore&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainEffectCore(MainEffectCore const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainEffectCore();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

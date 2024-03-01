@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightRotationBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightRotationEvent)>(
     &::BeatmapDataLoaderVersion4::LightRotationBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x12c06c8;
+  constexpr static std::size_t addrs = 0x1301698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

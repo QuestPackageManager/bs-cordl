@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Texture2D);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9728))
 // CS Name: ::HoudiniEngineUnity::Test_Texture2D*
 class CORDL_TYPE Test_Texture2D : public ::System::Object {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>"
-  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_Texture2D__() noexcept;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>*() noexcept;
+
+  /// @brief Method IsEquivalentTo, addr 0x2349ce4, size 0x108, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
+
+  /// @brief Method IsNull, addr 0x2349c84, size 0x60, virtual true, abstract: false, final true
+  inline bool IsNull();
+
+  static inline ::HoudiniEngineUnity::Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self);
+
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Texture2D> value);
+
+  /// @brief Method .ctor, addr 0x2349c5c, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Texture2D* self);
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Texture2D*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_Texture2D__() noexcept;
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Texture2D*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_Texture2D__() noexcept;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_self();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_Texture2D();
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::Texture2D> value);
-
-  static inline ::HoudiniEngineUnity::Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self);
-
-  /// @brief Method .ctor, addr 0x227d5f4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Texture2D* self);
-
-  /// @brief Method IsNull, addr 0x227d61c, size 0x60, virtual true, abstract: false, final true
-  inline bool IsNull();
-
-  /// @brief Method IsEquivalentTo, addr 0x227d67c, size 0x108, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_Texture2D", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_Texture2D(Test_Texture2D&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_Texture2D(Test_Texture2D const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_Texture2D();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___self;
 

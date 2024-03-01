@@ -10,6 +10,9 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
 class __ValueTaskAwaiter____c;
 }
 namespace System::Threading::Tasks {
@@ -38,8 +41,6 @@ MARK_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3385))
 // CS Name: ::ValueTaskAwaiter::<>c*
 class CORDL_TYPE __ValueTaskAwaiter____c : public ::System::Object {
 public:
@@ -47,18 +48,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* __9;
 
-  static inline void setStaticF___9(::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* value);
+  static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* New_ctor();
+
+  /// @brief Method <.cctor>b__9_0, addr 0x25cca00, size 0x74, virtual false, abstract: false, final false
+  inline void __cctor_b__9_0(::System::Object* state);
+
+  /// @brief Method .ctor, addr 0x25cc9f8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* getStaticF___9();
 
-  static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* New_ctor();
+  static inline void setStaticF___9(::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* value);
 
-  /// @brief Method .ctor, addr 0x24fbe5c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ValueTaskAwaiter____c();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x24fbe64, size 0x74, virtual false, abstract: false, final false
-  inline void __cctor_b__9_0(::System::Object* state);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTaskAwaiter____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ValueTaskAwaiter____c(__ValueTaskAwaiter____c&&) = delete;
@@ -67,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValueTaskAwaiter____c(__ValueTaskAwaiter____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ValueTaskAwaiter____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -83,47 +84,54 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3386))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter
 struct CORDL_TYPE ValueTaskAwaiter {
 public:
   // Declarations
   using __c = ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c;
 
+  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+
   /// @brief Field s_invokeActionDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_invokeActionDelegate, put = setStaticF_s_invokeActionDelegate))::System::Action_1<::System::Object*>* s_invokeActionDelegate;
-
-  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  static inline void setStaticF_s_invokeActionDelegate(::System::Action_1<::System::Object*>* value);
+  /// @brief Method GetResult, addr 0x25cc498, size 0x100, virtual false, abstract: false, final false
+  inline void GetResult();
+
+  /// @brief Method OnCompleted, addr 0x25cc598, size 0x18c, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x25cc734, size 0x18c, virtual true, abstract: false, final true
+  inline void UnsafeOnCompleted(::System::Action* continuation);
+
+  /// @brief Method .ctor, addr 0x25cc388, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method .ctor, addr 0x24fb988, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::ValueTask value);
-
-  /// @brief Method get_IsCompleted, addr 0x24fb990, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x25cc390, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult, addr 0x24fba98, size 0x100, virtual false, abstract: false, final false
-  inline void GetResult();
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Method UnsafeOnCompleted, addr 0x24fbb98, size 0x18c, virtual true, abstract: false, final true
-  inline void UnsafeOnCompleted(::System::Action* continuation);
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
-  constexpr ValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept;
+  static inline void setStaticF_s_invokeActionDelegate(::System::Action_1<::System::Object*>* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueTaskAwaiter();
+
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
+  constexpr ValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept;
 
   /// @brief Field _value, offset: 0x0, size: 0x10, def value: None
   ::System::Threading::Tasks::ValueTask _value;

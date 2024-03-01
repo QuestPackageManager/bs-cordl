@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleScaleUp);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4147))
 // CS Name: ::ObstacleScaleUp*
 class CORDL_TYPE ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,50 +31,56 @@ public:
   /// @brief Field _fullScalePart, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__fullScalePart, put = __cordl_internal_set__fullScalePart)) float_t _fullScalePart;
 
-  /// @brief Field _targetTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
-
   /// @brief Field _obstacleController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController))::UnityW<::GlobalNamespace::ObstacleController> _obstacleController;
 
-  constexpr float_t& __cordl_internal_get__fullScalePart();
+  /// @brief Field _targetTransform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
-  constexpr float_t const& __cordl_internal_get__fullScalePart() const;
-
-  constexpr void __cordl_internal_set__fullScalePart(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
-
-  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstacleController();
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstacleController() const;
-
-  constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleController> value);
-
-  /// @brief Method Awake, addr 0x22d4dbc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23a2424, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x22d4f6c, size 0x138, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method UpdateScale, addr 0x22d4e50, size 0x11c, virtual false, abstract: false, final false
-  inline void UpdateScale(float_t progress);
-
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x22d50a4, size 0x28, virtual false, abstract: false, final false
-  inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
-
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x22d50cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x23a2734, size 0xd0, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
+
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x23a270c, size 0x28, virtual false, abstract: false, final false
+  inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d519c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23a25d4, size 0x138, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method UpdateScale, addr 0x23a24b8, size 0x11c, virtual false, abstract: false, final false
+  inline void UpdateScale(float_t progress);
+
+  constexpr float_t const& __cordl_internal_get__fullScalePart() const;
+
+  constexpr float_t& __cordl_internal_get__fullScalePart();
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstacleController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstacleController();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+
+  constexpr void __cordl_internal_set__fullScalePart(float_t value);
+
+  constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleController> value);
+
+  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x23a2804, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObstacleScaleUp();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleScaleUp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObstacleScaleUp(ObstacleScaleUp&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleScaleUp(ObstacleScaleUp const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObstacleScaleUp();
-
-public:
   /// @brief Field _fullScalePart, offset: 0x18, size: 0x4, def value: None
   float_t ____fullScalePart;
 

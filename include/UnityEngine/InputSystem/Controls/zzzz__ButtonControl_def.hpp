@@ -15,14 +15,16 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::ButtonControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5887))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5888))
 // CS Name: ::UnityEngine.InputSystem.Controls::ButtonControl*
 class CORDL_TYPE ButtonControl : public ::UnityEngine::InputSystem::Controls::AxisControl {
 public:
   // Declarations
+  __declspec(property(get = get_isPressed)) bool isPressed;
+
   /// @brief Field pressPoint, offset 0x118, size 0x4
   __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
+
+  __declspec(property(get = get_pressPointOrDefault)) float_t pressPointOrDefault;
 
   /// @brief Field s_GlobalDefaultButtonPressPoint, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_GlobalDefaultButtonPressPoint, put = setStaticF_s_GlobalDefaultButtonPressPoint)) float_t s_GlobalDefaultButtonPressPoint;
@@ -30,48 +32,50 @@ public:
   /// @brief Field s_GlobalDefaultButtonReleaseThreshold, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_GlobalDefaultButtonReleaseThreshold, put = setStaticF_s_GlobalDefaultButtonReleaseThreshold)) float_t s_GlobalDefaultButtonReleaseThreshold;
 
-  __declspec(property(get = get_pressPointOrDefault)) float_t pressPointOrDefault;
-
-  __declspec(property(get = get_isPressed)) bool isPressed;
-
   __declspec(property(get = get_wasPressedThisFrame)) bool wasPressedThisFrame;
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  constexpr float_t& __cordl_internal_get_pressPoint();
-
-  constexpr float_t const& __cordl_internal_get_pressPoint() const;
-
-  constexpr void __cordl_internal_set_pressPoint(float_t value);
-
-  static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);
-
-  static inline float_t getStaticF_s_GlobalDefaultButtonPressPoint();
-
-  static inline void setStaticF_s_GlobalDefaultButtonReleaseThreshold(float_t value);
-
-  static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
-
-  /// @brief Method get_pressPointOrDefault, addr 0x2b09ad8, size 0x58, virtual false, abstract: false, final false
-  inline float_t get_pressPointOrDefault();
+  /// @brief Method IsValueConsideredPressed, addr 0x2befc18, size 0x6c, virtual false, abstract: false, final false
+  inline bool IsValueConsideredPressed(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::ButtonControl* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b09570, size 0x88, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_pressPoint() const;
+
+  constexpr float_t& __cordl_internal_get_pressPoint();
+
+  constexpr void __cordl_internal_set_pressPoint(float_t value);
+
+  /// @brief Method .ctor, addr 0x2bef644, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method IsValueConsideredPressed, addr 0x2b09b44, size 0x6c, virtual false, abstract: false, final false
-  inline bool IsValueConsideredPressed(float_t value);
+  static inline float_t getStaticF_s_GlobalDefaultButtonPressPoint();
 
-  /// @brief Method get_isPressed, addr 0x2b09bb0, size 0xa0, virtual false, abstract: false, final false
+  static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
+
+  /// @brief Method get_isPressed, addr 0x2befc84, size 0xa0, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method get_wasPressedThisFrame, addr 0x2b09c50, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x2befbac, size 0x58, virtual false, abstract: false, final false
+  inline float_t get_pressPointOrDefault();
+
+  /// @brief Method get_wasPressedThisFrame, addr 0x2befd24, size 0x120, virtual false, abstract: false, final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame, addr 0x2b09d70, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_wasReleasedThisFrame, addr 0x2befe44, size 0x120, virtual false, abstract: false, final false
   inline bool get_wasReleasedThisFrame();
 
+  static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);
+
+  static inline void setStaticF_s_GlobalDefaultButtonReleaseThreshold(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ButtonControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ButtonControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonControl(ButtonControl&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonControl(ButtonControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonControl();
-
-public:
   /// @brief Field pressPoint, offset: 0x118, size: 0x4, def value: None
   float_t ___pressPoint;
 

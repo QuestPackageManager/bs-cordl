@@ -24,50 +24,54 @@ MARK_REF_PTR_T(::System::Xml::Linq::XComment);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15567))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15548))
 // CS Name: ::System.Xml.Linq::XComment*
 class CORDL_TYPE XComment : public ::System::Xml::Linq::XNode {
 public:
   // Declarations
-  /// @brief Field value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
-
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr ::StringW& __cordl_internal_get_value();
+  /// @brief Field value, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
-  constexpr ::StringW const& __cordl_internal_get_value() const;
-
-  constexpr void __cordl_internal_set_value(::StringW value);
-
-  static inline ::System::Xml::Linq::XComment* New_ctor(::StringW value);
-
-  /// @brief Method .ctor, addr 0x285f3f4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value);
+  /// @brief Method CloneNode, addr 0x2944ae4, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XComment* New_ctor(::System::Xml::Linq::XComment* other);
 
-  /// @brief Method .ctor, addr 0x285f474, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Linq::XComment* other);
+  static inline ::System::Xml::Linq::XComment* New_ctor(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x285f4f0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
-
-  /// @brief Method get_Value, addr 0x285f4f8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
-
-  /// @brief Method set_Value, addr 0x285f500, size 0xf4, virtual false, abstract: false, final false
-  inline void set_Value(::StringW value);
-
-  /// @brief Method WriteTo, addr 0x285f5f4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2944a70, size 0x74, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method CloneNode, addr 0x285f668, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Xml::Linq::XNode* CloneNode();
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
+  constexpr ::StringW& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_value(::StringW value);
+
+  /// @brief Method .ctor, addr 0x29448f0, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Linq::XComment* other);
+
+  /// @brief Method .ctor, addr 0x2944870, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW value);
+
+  /// @brief Method get_NodeType, addr 0x294496c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlNodeType get_NodeType();
+
+  /// @brief Method get_Value, addr 0x2944974, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
+
+  /// @brief Method set_Value, addr 0x294497c, size 0xf4, virtual false, abstract: false, final false
+  inline void set_Value(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XComment();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XComment", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XComment(XComment&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XComment(XComment const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XComment();
-
-public:
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::StringW ___value;
 

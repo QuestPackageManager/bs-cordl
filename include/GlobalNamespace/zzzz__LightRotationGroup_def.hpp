@@ -17,9 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroup);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4286)), TypeDefinitionIndex(TypeDefinitionIndex(4287)), TypeDefinitionIndex(TypeDefinitionIndex(4288)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4297), inst: 3940 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4293)) CS
-// Name: ::LightRotationGroup*
+// CS Name: ::LightRotationGroup*
 class CORDL_TYPE LightRotationGroup
     : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupRotationXTransform>, ::UnityW<::GlobalNamespace::LightGroupRotationYTransform>,
                                                       ::UnityW<::GlobalNamespace::LightGroupRotationZTransform>> {
@@ -27,9 +25,15 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightRotationGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2369b5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2437aa4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightRotationGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightRotationGroup(LightRotationGroup&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationGroup(LightRotationGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightRotationGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

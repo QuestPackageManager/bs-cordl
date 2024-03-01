@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticPreviewMediaData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10807))
 // CS Name: ::StaticPreviewMediaData*
 class CORDL_TYPE StaticPreviewMediaData : public ::System::Object {
 public:
@@ -44,35 +42,41 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
-  constexpr ::GlobalNamespace::IPreviewMediaData* i___GlobalNamespace__IPreviewMediaData() noexcept;
+  /// @brief Method GetCoverSpriteAsync, addr 0x12cc1bc, size 0x70, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__coverSprite();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverSprite() const;
-
-  constexpr void __cordl_internal_set__coverSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__previewAudioClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__previewAudioClip() const;
-
-  constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
+  /// @brief Method GetPreviewAudioClip, addr 0x12cc22c, size 0x70, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::StaticPreviewMediaData* New_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
-  /// @brief Method .ctor, addr 0x1285bf0, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
-
-  /// @brief Method GetCoverSpriteAsync, addr 0x12891ec, size 0x70, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetPreviewAudioClip, addr 0x128925c, size 0x70, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method UnloadPreviewAudioClip, addr 0x12892cc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x12cc29c, size 0x4, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__coverSprite();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__previewAudioClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__previewAudioClip();
+
+  constexpr void __cordl_internal_set__coverSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  /// @brief Method .ctor, addr 0x12c8bc0, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
+
+  /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
+  constexpr ::GlobalNamespace::IPreviewMediaData* i___GlobalNamespace__IPreviewMediaData() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticPreviewMediaData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StaticPreviewMediaData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticPreviewMediaData(StaticPreviewMediaData&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticPreviewMediaData(StaticPreviewMediaData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StaticPreviewMediaData();
-
-public:
   /// @brief Field _coverSprite, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____coverSprite;
 

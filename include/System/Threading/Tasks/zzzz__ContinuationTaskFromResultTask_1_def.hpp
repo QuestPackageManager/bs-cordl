@@ -31,8 +31,6 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2787))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2799))
 // CS Name: ::System.Threading.Tasks::ContinuationTaskFromResultTask`1<TAntecedentResult>*
 class CORDL_TYPE ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task {
 public:
@@ -40,23 +38,29 @@ public:
   /// @brief Field m_antecedent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_antecedent, put = __cordl_internal_set_m_antecedent))::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
 
+  /// @brief Method InnerInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void InnerInvoke();
+
+  static inline ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>* New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action,
+                                                                                                          ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
+                                                                                                          ::System::Threading::Tasks::InternalTaskOptions internalOptions);
+
   constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __cordl_internal_get_m_antecedent() const;
 
   constexpr void __cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
 
-  static inline ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>* New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action,
-                                                                                                          ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                                                                          ::System::Threading::Tasks::InternalTaskOptions internalOptions);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action, ::System::Object* state,
                     ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method InnerInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void InnerInvoke();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContinuationTaskFromResultTask_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContinuationTaskFromResultTask_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContinuationTaskFromResultTask_1(ContinuationTaskFromResultTask_1&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContinuationTaskFromResultTask_1(ContinuationTaskFromResultTask_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContinuationTaskFromResultTask_1();
-
-public:
   /// @brief Field m_antecedent, offset: 0x50, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;
 

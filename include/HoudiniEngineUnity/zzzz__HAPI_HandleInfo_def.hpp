@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_HandleInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9528))
 // CS Name: ::HoudiniEngineUnity::HAPI_HandleInfo
 struct CORDL_TYPE HAPI_HandleInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "typeNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "bindingsCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_HandleInfo(int32_t nameSH, int32_t typeNameSH, int32_t bindingsCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_HandleInfo();
+
+  // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "typeNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "bindingsCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_HandleInfo(int32_t nameSH, int32_t typeNameSH, int32_t bindingsCount) noexcept;
 
   /// @brief Field nameSH, offset: 0x0, size: 0x4, def value: None
   int32_t nameSH;

@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectsMovementRecorderEditorInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5181))
 // CS Name: ::ObjectsMovementRecorderEditorInstaller*
 class CORDL_TYPE ObjectsMovementRecorderEditorInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2328120, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x23f6e1c, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2328124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f6e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectsMovementRecorderEditorInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorderEditorInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectsMovementRecorderEditorInstaller(ObjectsMovementRecorderEditorInstaller&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectsMovementRecorderEditorInstaller(ObjectsMovementRecorderEditorInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectsMovementRecorderEditorInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

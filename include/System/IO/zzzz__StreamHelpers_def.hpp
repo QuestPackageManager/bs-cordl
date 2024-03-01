@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::System::IO::StreamHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3567))
 // CS Name: ::System.IO::StreamHelpers*
 class CORDL_TYPE StreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateCopyToArgs, addr 0x251d4d8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ValidateCopyToArgs, addr 0x25ef1b0, size 0x240, virtual false, abstract: false, final false
   static inline void ValidateCopyToArgs(::System::IO::Stream* source, ::System::IO::Stream* destination, int32_t bufferSize);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StreamHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StreamHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StreamHelpers(StreamHelpers&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StreamHelpers(StreamHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StreamHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -32,26 +32,30 @@ MARK_REF_PTR_T(::GlobalNamespace::__HMAsyncRequest__CancelHander);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
 // CS Name: ::HMAsyncRequest::CancelHander*
 class CORDL_TYPE __HMAsyncRequest__CancelHander : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x21874d8, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2187604, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::GlobalNamespace::HMAsyncRequest* request);
-
-  /// @brief Method BeginInvoke, addr 0x2187618, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2255cbc, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::HMAsyncRequest* request, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2187638, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2255cdc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x2255ca8, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::GlobalNamespace::HMAsyncRequest* request);
+
+  static inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2255b7c, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HMAsyncRequest__CancelHander();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HMAsyncRequest__CancelHander", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HMAsyncRequest__CancelHander(__HMAsyncRequest__CancelHander&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HMAsyncRequest__CancelHander(__HMAsyncRequest__CancelHander const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HMAsyncRequest__CancelHander();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -76,53 +74,57 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HMAsyncReques
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14526))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14525))
 // CS Name: ::HMAsyncRequest*
 class CORDL_TYPE HMAsyncRequest : public ::GlobalNamespace::HMAutoincrementedRequestId {
 public:
   // Declarations
   using CancelHander = ::GlobalNamespace::__HMAsyncRequest__CancelHander;
 
-  /// @brief Field _cancelled, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__cancelled, put = __cordl_internal_set__cancelled)) bool _cancelled;
+  __declspec(property(get = get_CancelHandler, put = set_CancelHandler))::GlobalNamespace::__HMAsyncRequest__CancelHander* CancelHandler;
 
   /// @brief Field _cancelHander, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cancelHander, put = __cordl_internal_set__cancelHander))::GlobalNamespace::__HMAsyncRequest__CancelHander* _cancelHander;
 
-  __declspec(property(get = get_CancelHandler, put = set_CancelHandler))::GlobalNamespace::__HMAsyncRequest__CancelHander* CancelHandler;
+  /// @brief Field _cancelled, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__cancelled, put = __cordl_internal_set__cancelled)) bool _cancelled;
 
   __declspec(property(get = get_cancelled)) bool cancelled;
 
-  constexpr bool& __cordl_internal_get__cancelled();
+  /// @brief Method Cancel, addr 0x2255aec, size 0x28, virtual true, abstract: false, final false
+  inline void Cancel();
 
-  constexpr bool const& __cordl_internal_get__cancelled() const;
-
-  constexpr void __cordl_internal_set__cancelled(bool value);
+  static inline ::GlobalNamespace::HMAsyncRequest* New_ctor();
 
   constexpr ::GlobalNamespace::__HMAsyncRequest__CancelHander*& __cordl_internal_get__cancelHander();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HMAsyncRequest__CancelHander*> const& __cordl_internal_get__cancelHander() const;
 
+  constexpr bool const& __cordl_internal_get__cancelled() const;
+
+  constexpr bool& __cordl_internal_get__cancelled();
+
   constexpr void __cordl_internal_set__cancelHander(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
-  /// @brief Method get_CancelHandler, addr 0x2187430, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();
+  constexpr void __cordl_internal_set__cancelled(bool value);
 
-  /// @brief Method set_CancelHandler, addr 0x2187438, size 0x8, virtual false, abstract: false, final false
-  inline void set_CancelHandler(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
-
-  /// @brief Method get_cancelled, addr 0x2187440, size 0x8, virtual false, abstract: false, final false
-  inline bool get_cancelled();
-
-  /// @brief Method Cancel, addr 0x2187448, size 0x28, virtual true, abstract: false, final false
-  inline void Cancel();
-
-  static inline ::GlobalNamespace::HMAsyncRequest* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2187470, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255b14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_CancelHandler, addr 0x2255ad4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();
+
+  /// @brief Method get_cancelled, addr 0x2255ae4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_cancelled();
+
+  /// @brief Method set_CancelHandler, addr 0x2255adc, size 0x8, virtual false, abstract: false, final false
+  inline void set_CancelHandler(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HMAsyncRequest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HMAsyncRequest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMAsyncRequest(HMAsyncRequest&&) = delete;
@@ -131,12 +133,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HMAsyncRequest(HMAsyncRequest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HMAsyncRequest();
-
-public:
   /// @brief Field _cancelled, offset: 0x18, size: 0x1, def value: None
   bool ____cancelled;
 

@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5309))
 // CS Name: ::HealthWarningSceneSetup*
 class CORDL_TYPE HealthWarningSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _sceneSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::HealthWarningSceneSetupData* _sceneSetupData;
 
+  /// @brief Method InstallBindings, addr 0x2413c2c, size 0x15c, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::HealthWarningSceneSetup* New_ctor();
+
   constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData* value);
 
-  /// @brief Method InstallBindings, addr 0x2344ce4, size 0x15c, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::GlobalNamespace::HealthWarningSceneSetup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2344e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2413d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HealthWarningSceneSetup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningSceneSetup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HealthWarningSceneSetup(HealthWarningSceneSetup&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HealthWarningSceneSetup(HealthWarningSceneSetup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HealthWarningSceneSetup();
-
-public:
   /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningSceneSetupData* ____sceneSetupData;
 

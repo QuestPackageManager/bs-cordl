@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::Zenject::ZenAutoInjecter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10501))
 // CS Name: ::ZenAutoInjecter::ContainerSources
 struct CORDL_TYPE __ZenAutoInjecter__ContainerSources {
 public:
@@ -54,27 +52,32 @@ public:
     return static_cast<____ZenAutoInjecter__ContainerSources_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ZenAutoInjecter__ContainerSources(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ZenAutoInjecter__ContainerSources();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ZenAutoInjecter__ContainerSources(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field SceneContext value: static_cast<int32_t>(0x0)
-  static ::Zenject::__ZenAutoInjecter__ContainerSources const SceneContext;
 
   /// @brief Field ProjectContext value: static_cast<int32_t>(0x1)
   static ::Zenject::__ZenAutoInjecter__ContainerSources const ProjectContext;
 
+  /// @brief Field SceneContext value: static_cast<int32_t>(0x0)
+  static ::Zenject::__ZenAutoInjecter__ContainerSources const SceneContext;
+
   /// @brief Field SearchHierarchy value: static_cast<int32_t>(0x2)
   static ::Zenject::__ZenAutoInjecter__ContainerSources const SearchHierarchy;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -88,13 +91,13 @@ static_assert(offsetof(::Zenject::__ZenAutoInjecter__ContainerSources, value__) 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(10501))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10502))
 // CS Name: ::Zenject::ZenAutoInjecter*
 class CORDL_TYPE ZenAutoInjecter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using ContainerSources = ::Zenject::__ZenAutoInjecter__ContainerSources;
+
+  __declspec(property(get = get_ContainerSource, put = set_ContainerSource))::Zenject::__ZenAutoInjecter__ContainerSources ContainerSource;
 
   /// @brief Field _containerSource, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__containerSource, put = __cordl_internal_set__containerSource))::Zenject::__ZenAutoInjecter__ContainerSources _containerSource;
@@ -102,49 +105,53 @@ public:
   /// @brief Field _hasInjected, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get__hasInjected, put = __cordl_internal_set__hasInjected)) bool _hasInjected;
 
-  __declspec(property(get = get_ContainerSource, put = set_ContainerSource))::Zenject::__ZenAutoInjecter__ContainerSources ContainerSource;
-
-  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources& __cordl_internal_get__containerSource();
-
-  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources const& __cordl_internal_get__containerSource() const;
-
-  constexpr void __cordl_internal_set__containerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
-
-  constexpr bool& __cordl_internal_get__hasInjected();
-
-  constexpr bool const& __cordl_internal_get__hasInjected() const;
-
-  constexpr void __cordl_internal_set__hasInjected(bool value);
-
-  /// @brief Method get_ContainerSource, addr 0x2f3bdb4, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::__ZenAutoInjecter__ContainerSources get_ContainerSource();
-
-  /// @brief Method set_ContainerSource, addr 0x2f3bdbc, size 0x8, virtual false, abstract: false, final false
-  inline void set_ContainerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
-
-  /// @brief Method Construct, addr 0x2f3bdc4, size 0x44, virtual false, abstract: false, final false
-  inline void Construct();
-
-  /// @brief Method Awake, addr 0x2f3be08, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x302f530, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LookupContainer, addr 0x2f3be50, size 0x158, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* LookupContainer();
+  /// @brief Method Construct, addr 0x302f4ec, size 0x44, virtual false, abstract: false, final false
+  inline void Construct();
 
-  /// @brief Method GetContainerForCurrentScene, addr 0x2f3bfa8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetContainerForCurrentScene, addr 0x302f6d0, size 0x90, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForCurrentScene();
+
+  /// @brief Method LookupContainer, addr 0x302f578, size 0x158, virtual false, abstract: false, final false
+  inline ::Zenject::DiContainer* LookupContainer();
 
   static inline ::Zenject::ZenAutoInjecter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f3c038, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources const& __cordl_internal_get__containerSource() const;
 
-  /// @brief Method __zenInjectMethod0, addr 0x2f3c048, size 0x80, virtual false, abstract: false, final false
-  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
+  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources& __cordl_internal_get__containerSource();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3c0c8, size 0x254, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__hasInjected() const;
+
+  constexpr bool& __cordl_internal_get__hasInjected();
+
+  constexpr void __cordl_internal_set__containerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
+
+  constexpr void __cordl_internal_set__hasInjected(bool value);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302f7f0, size 0x254, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method __zenInjectMethod0, addr 0x302f770, size 0x80, virtual false, abstract: false, final false
+  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
+
+  /// @brief Method .ctor, addr 0x302f760, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_ContainerSource, addr 0x302f4dc, size 0x8, virtual false, abstract: false, final false
+  inline ::Zenject::__ZenAutoInjecter__ContainerSources get_ContainerSource();
+
+  /// @brief Method set_ContainerSource, addr 0x302f4e4, size 0x8, virtual false, abstract: false, final false
+  inline void set_ContainerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ZenAutoInjecter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenAutoInjecter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenAutoInjecter(ZenAutoInjecter&&) = delete;
@@ -153,12 +160,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenAutoInjecter(ZenAutoInjecter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenAutoInjecter();
-
-public:
   /// @brief Field _containerSource, offset: 0x18, size: 0x4, def value: None
   ::Zenject::__ZenAutoInjecter__ContainerSources ____containerSource;
 

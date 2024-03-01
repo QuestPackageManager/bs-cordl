@@ -15,31 +15,32 @@ MARK_REF_PTR_T(::System::Xml::IDtdAttributeInfo);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11321))
 // CS Name: ::System.Xml::IDtdAttributeInfo*
 class CORDL_TYPE IDtdAttributeInfo {
 public:
   // Declarations
-  __declspec(property(get = get_Prefix))::StringW Prefix;
+  __declspec(property(get = get_IsDeclaredInExternal)) bool IsDeclaredInExternal;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_IsNonCDataType)) bool IsNonCDataType;
+
+  __declspec(property(get = get_IsXmlAttribute)) bool IsXmlAttribute;
 
   __declspec(property(get = get_LineNumber)) int32_t LineNumber;
 
   __declspec(property(get = get_LinePosition)) int32_t LinePosition;
 
-  __declspec(property(get = get_IsNonCDataType)) bool IsNonCDataType;
+  __declspec(property(get = get_LocalName))::StringW LocalName;
 
-  __declspec(property(get = get_IsDeclaredInExternal)) bool IsDeclaredInExternal;
+  __declspec(property(get = get_Prefix))::StringW Prefix;
 
-  __declspec(property(get = get_IsXmlAttribute)) bool IsXmlAttribute;
+  /// @brief Method get_IsDeclaredInExternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsDeclaredInExternal();
 
-  /// @brief Method get_Prefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_Prefix();
+  /// @brief Method get_IsNonCDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsNonCDataType();
 
-  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_LocalName();
+  /// @brief Method get_IsXmlAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsXmlAttribute();
 
   /// @brief Method get_LineNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LineNumber();
@@ -47,14 +48,11 @@ public:
   /// @brief Method get_LinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_IsNonCDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsNonCDataType();
+  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_LocalName();
 
-  /// @brief Method get_IsDeclaredInExternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsDeclaredInExternal();
-
-  /// @brief Method get_IsXmlAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsXmlAttribute();
+  /// @brief Method get_Prefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_Prefix();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

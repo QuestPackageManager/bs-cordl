@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::JsonContainerType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11704))
 // CS Name: ::Newtonsoft.Json::JsonContainerType
 struct CORDL_TYPE JsonContainerType {
 public:
@@ -36,18 +34,26 @@ public:
     return static_cast<__JsonContainerType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr JsonContainerType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr JsonContainerType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr JsonContainerType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Array value: static_cast<int32_t>(0x2)
+  static ::Newtonsoft::Json::JsonContainerType const Array;
+
+  /// @brief Field Constructor value: static_cast<int32_t>(0x3)
+  static ::Newtonsoft::Json::JsonContainerType const Constructor;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::Newtonsoft::Json::JsonContainerType const None;
@@ -55,11 +61,8 @@ public:
   /// @brief Field Object value: static_cast<int32_t>(0x1)
   static ::Newtonsoft::Json::JsonContainerType const Object;
 
-  /// @brief Field Array value: static_cast<int32_t>(0x2)
-  static ::Newtonsoft::Json::JsonContainerType const Array;
-
-  /// @brief Field Constructor value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::JsonContainerType const Constructor;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

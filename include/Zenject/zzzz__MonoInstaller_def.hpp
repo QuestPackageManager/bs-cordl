@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::Zenject::MonoInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10288))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10280))
 // CS Name: ::Zenject::MonoInstaller*
 class CORDL_TYPE MonoInstaller : public ::Zenject::MonoInstallerBase {
 public:
   // Declarations
   static inline ::Zenject::MonoInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f110f8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f11108, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3004830, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3004820, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoInstaller(MonoInstaller&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoInstaller(MonoInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

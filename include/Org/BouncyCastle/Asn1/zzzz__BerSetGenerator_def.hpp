@@ -18,22 +18,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSetGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(476))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(493))
 // CS Name: ::Org.BouncyCastle.Asn1::BerSetGenerator*
 class CORDL_TYPE BerSetGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x11ebe58, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream);
-
   static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x11ebe8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122ee28, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStream);
+
+  /// @brief Method .ctor, addr 0x122ee5c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerSetGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerSetGenerator(BerSetGenerator&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerSetGenerator(BerSetGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerSetGenerator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

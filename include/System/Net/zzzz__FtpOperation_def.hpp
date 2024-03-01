@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::FtpOperation);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7054))
 // CS Name: ::System.Net::FtpOperation
 struct CORDL_TYPE FtpOperation {
 public:
@@ -46,33 +44,20 @@ public:
     return static_cast<__FtpOperation_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FtpOperation(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FtpOperation();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FtpOperation(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field DownloadFile value: static_cast<int32_t>(0x0)
-  static ::System::Net::FtpOperation const DownloadFile;
-
-  /// @brief Field ListDirectory value: static_cast<int32_t>(0x1)
-  static ::System::Net::FtpOperation const ListDirectory;
-
-  /// @brief Field ListDirectoryDetails value: static_cast<int32_t>(0x2)
-  static ::System::Net::FtpOperation const ListDirectoryDetails;
-
-  /// @brief Field UploadFile value: static_cast<int32_t>(0x3)
-  static ::System::Net::FtpOperation const UploadFile;
-
-  /// @brief Field UploadFileUnique value: static_cast<int32_t>(0x4)
-  static ::System::Net::FtpOperation const UploadFileUnique;
 
   /// @brief Field AppendFile value: static_cast<int32_t>(0x5)
   static ::System::Net::FtpOperation const AppendFile;
@@ -80,26 +65,44 @@ public:
   /// @brief Field DeleteFile value: static_cast<int32_t>(0x6)
   static ::System::Net::FtpOperation const DeleteFile;
 
+  /// @brief Field DownloadFile value: static_cast<int32_t>(0x0)
+  static ::System::Net::FtpOperation const DownloadFile;
+
   /// @brief Field GetDateTimestamp value: static_cast<int32_t>(0x7)
   static ::System::Net::FtpOperation const GetDateTimestamp;
 
   /// @brief Field GetFileSize value: static_cast<int32_t>(0x8)
   static ::System::Net::FtpOperation const GetFileSize;
 
-  /// @brief Field Rename value: static_cast<int32_t>(0x9)
-  static ::System::Net::FtpOperation const Rename;
+  /// @brief Field ListDirectory value: static_cast<int32_t>(0x1)
+  static ::System::Net::FtpOperation const ListDirectory;
+
+  /// @brief Field ListDirectoryDetails value: static_cast<int32_t>(0x2)
+  static ::System::Net::FtpOperation const ListDirectoryDetails;
 
   /// @brief Field MakeDirectory value: static_cast<int32_t>(0xa)
   static ::System::Net::FtpOperation const MakeDirectory;
 
-  /// @brief Field RemoveDirectory value: static_cast<int32_t>(0xb)
-  static ::System::Net::FtpOperation const RemoveDirectory;
+  /// @brief Field Other value: static_cast<int32_t>(0xd)
+  static ::System::Net::FtpOperation const Other;
 
   /// @brief Field PrintWorkingDirectory value: static_cast<int32_t>(0xc)
   static ::System::Net::FtpOperation const PrintWorkingDirectory;
 
-  /// @brief Field Other value: static_cast<int32_t>(0xd)
-  static ::System::Net::FtpOperation const Other;
+  /// @brief Field RemoveDirectory value: static_cast<int32_t>(0xb)
+  static ::System::Net::FtpOperation const RemoveDirectory;
+
+  /// @brief Field Rename value: static_cast<int32_t>(0x9)
+  static ::System::Net::FtpOperation const Rename;
+
+  /// @brief Field UploadFile value: static_cast<int32_t>(0x3)
+  static ::System::Net::FtpOperation const UploadFile;
+
+  /// @brief Field UploadFileUnique value: static_cast<int32_t>(0x4)
+  static ::System::Net::FtpOperation const UploadFileUnique;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

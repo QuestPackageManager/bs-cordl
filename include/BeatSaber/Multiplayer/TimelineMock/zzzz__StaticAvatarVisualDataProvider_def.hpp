@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataPro
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::Multiplayer::TimelineMock {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14894))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15244))
 // CS Name: ::BeatSaber.Multiplayer.TimelineMock::StaticAvatarVisualDataProvider*
 class CORDL_TYPE StaticAvatarVisualDataProvider : public ::System::Object {
 public:
@@ -35,23 +33,29 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*() noexcept;
 
-  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
-  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
-
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__avatarsData();
+  static inline ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider* New_ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
   constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__avatarsData() const;
 
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__avatarsData();
+
   constexpr void __cordl_internal_set__avatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method get_avatarsData, addr 0xe15b24, size 0x14, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
-
-  static inline ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider* New_ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
-
-  /// @brief Method .ctor, addr 0xe15b38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5b69c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
+  /// @brief Method get_avatarsData, addr 0xe5b688, size 0x14, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
+
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
+  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider* i___BeatSaber__AvatarCore__IAvatarVisualDataProvider() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticAvatarVisualDataProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StaticAvatarVisualDataProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticAvatarVisualDataProvider(StaticAvatarVisualDataProvider&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticAvatarVisualDataProvider(StaticAvatarVisualDataProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StaticAvatarVisualDataProvider();
-
-public:
   /// @brief Field _avatarsData, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::MultiplayerAvatarsData ____avatarsData;
 

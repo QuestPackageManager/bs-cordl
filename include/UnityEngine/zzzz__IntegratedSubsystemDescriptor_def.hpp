@@ -23,43 +23,47 @@ MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16082))
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor*
 class CORDL_TYPE IntegratedSubsystemDescriptor : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_id))::StringW id;
+
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  __declspec(property(get = get_id))::StringW id;
-
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
-  constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
-
-  constexpr void*& __cordl_internal_get_m_Ptr();
-
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
-
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
-
-  /// @brief Method get_id, addr 0x2d3abb4, size 0x3c, virtual true, abstract: false, final true
-  inline ::StringW get_id();
-
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2d3ac2c, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3ac38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2e27354, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
+
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
+
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
+  /// @brief Method .ctor, addr 0x2e27360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0x2e272dc, size 0x3c, virtual true, abstract: false, final true
+  inline ::StringW get_id();
+
+  /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+  constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntegratedSubsystemDescriptor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegratedSubsystemDescriptor();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

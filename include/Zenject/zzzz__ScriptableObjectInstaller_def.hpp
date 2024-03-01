@@ -21,23 +21,27 @@ MARK_REF_PTR_T(::Zenject::ScriptableObjectInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10296))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10289))
 // CS Name: ::Zenject::ScriptableObjectInstaller*
 class CORDL_TYPE ScriptableObjectInstaller : public ::Zenject::ScriptableObjectInstallerBase {
 public:
   // Declarations
   static inline ::Zenject::ScriptableObjectInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f1165c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenCreate, addr 0x2f1166c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3004d94, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f116c8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3004df0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3004d84, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptableObjectInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptableObjectInstaller(ScriptableObjectInstaller&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptableObjectInstaller(ScriptableObjectInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptableObjectInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

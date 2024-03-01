@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelFailedTextEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4219))
 // CS Name: ::LevelFailedTextEffect*
 class CORDL_TYPE LevelFailedTextEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _animator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
-  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
+  static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
+
+  /// @brief Method ShowEffect, addr 0x24292c0, size 0x3c, virtual false, abstract: false, final false
+  inline void ShowEffect();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
+
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method ShowEffect, addr 0x235b378, size 0x3c, virtual false, abstract: false, final false
-  inline void ShowEffect();
-
-  static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x235b3b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24292fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LevelFailedTextEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelFailedTextEffect(LevelFailedTextEffect&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelFailedTextEffect(LevelFailedTextEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelFailedTextEffect();
-
-public:
   /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 

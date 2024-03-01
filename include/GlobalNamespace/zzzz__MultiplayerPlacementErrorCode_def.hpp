@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerPlacementErrorCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12636))
 // CS Name: ::MultiplayerPlacementErrorCode
 struct CORDL_TYPE MultiplayerPlacementErrorCode {
 public:
@@ -40,18 +38,38 @@ public:
     return static_cast<__MultiplayerPlacementErrorCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr MultiplayerPlacementErrorCode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr MultiplayerPlacementErrorCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr MultiplayerPlacementErrorCode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field AuthenticationFailed value: static_cast<int32_t>(0x5)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const AuthenticationFailed;
+
+  /// @brief Field ConnectionCanceled value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ConnectionCanceled;
+
+  /// @brief Field MatchmakingTimeout value: static_cast<int32_t>(0x7)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
+
+  /// @brief Field RequestTimeout value: static_cast<int32_t>(0x6)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const RequestTimeout;
+
+  /// @brief Field ServerAtCapacity value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerAtCapacity;
+
+  /// @brief Field ServerDoesNotExist value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerDoesNotExist;
 
   /// @brief Field Success value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Success;
@@ -59,23 +77,8 @@ public:
   /// @brief Field Unknown value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Unknown;
 
-  /// @brief Field ConnectionCanceled value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ConnectionCanceled;
-
-  /// @brief Field ServerDoesNotExist value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerDoesNotExist;
-
-  /// @brief Field ServerAtCapacity value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerAtCapacity;
-
-  /// @brief Field AuthenticationFailed value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::MultiplayerPlacementErrorCode const AuthenticationFailed;
-
-  /// @brief Field RequestTimeout value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::MultiplayerPlacementErrorCode const RequestTimeout;
-
-  /// @brief Field MatchmakingTimeout value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

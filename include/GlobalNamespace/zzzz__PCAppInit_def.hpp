@@ -24,66 +24,70 @@ MARK_REF_PTR_T(::GlobalNamespace::PCAppInit);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15439))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3980))
 // CS Name: ::PCAppInit*
 class CORDL_TYPE PCAppInit : public ::GlobalNamespace::AppInit {
 public:
   // Declarations
-  /// @brief Field _mainSystemInit, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
-
   /// @brief Field _defaultScenesTransitionsFromInit, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
                       put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
 
-  /// @brief Field _goStraightToMenuCommandArgument, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__goStraightToMenuCommandArgument, put = __cordl_internal_set__goStraightToMenuCommandArgument))::StringW _goStraightToMenuCommandArgument;
-
   /// @brief Field _goStraightToEditorCommandArgument, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__goStraightToEditorCommandArgument, put = __cordl_internal_set__goStraightToEditorCommandArgument))::StringW _goStraightToEditorCommandArgument;
 
-  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
+  /// @brief Field _goStraightToMenuCommandArgument, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__goStraightToMenuCommandArgument, put = __cordl_internal_set__goStraightToMenuCommandArgument))::StringW _goStraightToMenuCommandArgument;
 
-  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
+  /// @brief Field _mainSystemInit, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
-  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
-
-  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
-
-  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
-
-  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
-
-  constexpr ::StringW& __cordl_internal_get__goStraightToMenuCommandArgument();
-
-  constexpr ::StringW const& __cordl_internal_get__goStraightToMenuCommandArgument() const;
-
-  constexpr void __cordl_internal_set__goStraightToMenuCommandArgument(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__goStraightToEditorCommandArgument();
-
-  constexpr ::StringW const& __cordl_internal_get__goStraightToEditorCommandArgument() const;
-
-  constexpr void __cordl_internal_set__goStraightToEditorCommandArgument(::StringW value);
-
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x22b2c50, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x237f2b8, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x22b2cb8, size 0x9c, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
-
-  /// @brief Method TransitionToNextScene, addr 0x22b2d54, size 0xd4, virtual true, abstract: false, final false
-  inline void TransitionToNextScene();
-
-  /// @brief Method InstallBindings, addr 0x22b2e28, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x237f490, size 0x19c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PCAppInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b2fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x237f320, size 0x9c, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
+
+  /// @brief Method TransitionToNextScene, addr 0x237f3bc, size 0xd4, virtual true, abstract: false, final false
+  inline void TransitionToNextScene();
+
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
+
+  constexpr ::StringW const& __cordl_internal_get__goStraightToEditorCommandArgument() const;
+
+  constexpr ::StringW& __cordl_internal_get__goStraightToEditorCommandArgument();
+
+  constexpr ::StringW const& __cordl_internal_get__goStraightToMenuCommandArgument() const;
+
+  constexpr ::StringW& __cordl_internal_get__goStraightToMenuCommandArgument();
+
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
+
+  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
+
+  constexpr void __cordl_internal_set__goStraightToEditorCommandArgument(::StringW value);
+
+  constexpr void __cordl_internal_set__goStraightToMenuCommandArgument(::StringW value);
+
+  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
+
+  /// @brief Method .ctor, addr 0x237f62c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PCAppInit();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PCAppInit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PCAppInit(PCAppInit&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PCAppInit(PCAppInit const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PCAppInit();
-
-public:
   /// @brief Field _mainSystemInit, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 

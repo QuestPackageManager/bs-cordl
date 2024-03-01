@@ -20,68 +20,72 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaConfig);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15522))
 // CS Name: ::UnityEngine.Yoga::YogaConfig*
 class CORDL_TYPE YogaConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _ygConfig, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ygConfig, put = __cordl_internal_set__ygConfig)) void* _ygConfig;
-
-  /// @brief Field _logger, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::UnityEngine::Yoga::Logger* _logger;
-
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::UnityEngine::Yoga::YogaConfig* Default;
 
   __declspec(property(get = get_Handle)) void* Handle;
 
-  __declspec(property(get = get_UseWebDefaults, put = set_UseWebDefaults)) bool UseWebDefaults;
-
   __declspec(property(put = set_PointScaleFactor)) float_t PointScaleFactor;
 
-  constexpr void*& __cordl_internal_get__ygConfig();
+  __declspec(property(get = get_UseWebDefaults, put = set_UseWebDefaults)) bool UseWebDefaults;
 
-  constexpr void* const& __cordl_internal_get__ygConfig() const;
+  /// @brief Field _logger, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::UnityEngine::Yoga::Logger* _logger;
 
-  constexpr void __cordl_internal_set__ygConfig(void* value);
+  /// @brief Field _ygConfig, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__ygConfig, put = __cordl_internal_set__ygConfig)) void* _ygConfig;
+
+  /// @brief Method Finalize, addr 0x2fb2a30, size 0x108, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  static inline ::UnityEngine::Yoga::YogaConfig* New_ctor();
+
+  static inline ::UnityEngine::Yoga::YogaConfig* New_ctor(void* ygConfig);
 
   constexpr ::UnityEngine::Yoga::Logger*& __cordl_internal_get__logger();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::Logger*> const& __cordl_internal_get__logger() const;
 
+  constexpr void* const& __cordl_internal_get__ygConfig() const;
+
+  constexpr void*& __cordl_internal_get__ygConfig();
+
   constexpr void __cordl_internal_set__logger(::UnityEngine::Yoga::Logger* value);
 
-  static inline void setStaticF_Default(::UnityEngine::Yoga::YogaConfig* value);
+  constexpr void __cordl_internal_set__ygConfig(void* value);
+
+  /// @brief Method .ctor, addr 0x2fb29ec, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2fb2928, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(void* ygConfig);
 
   static inline ::UnityEngine::Yoga::YogaConfig* getStaticF_Default();
 
-  static inline ::UnityEngine::Yoga::YogaConfig* New_ctor(void* ygConfig);
-
-  /// @brief Method .ctor, addr 0x2ebe200, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(void* ygConfig);
-
-  static inline ::UnityEngine::Yoga::YogaConfig* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ebe2c4, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Finalize, addr 0x2ebe308, size 0x108, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method get_Handle, addr 0x2ebbe44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x2fb056c, size 0x8, virtual false, abstract: false, final false
   inline void* get_Handle();
 
-  /// @brief Method get_UseWebDefaults, addr 0x2ebe410, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_UseWebDefaults, addr 0x2fb2b38, size 0x3c, virtual false, abstract: false, final false
   inline bool get_UseWebDefaults();
 
-  /// @brief Method set_UseWebDefaults, addr 0x2ebe44c, size 0x44, virtual false, abstract: false, final false
-  inline void set_UseWebDefaults(bool value);
+  static inline void setStaticF_Default(::UnityEngine::Yoga::YogaConfig* value);
 
-  /// @brief Method set_PointScaleFactor, addr 0x2ebe490, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_PointScaleFactor, addr 0x2fb2bb8, size 0x4c, virtual false, abstract: false, final false
   inline void set_PointScaleFactor(float_t value);
 
+  /// @brief Method set_UseWebDefaults, addr 0x2fb2b74, size 0x44, virtual false, abstract: false, final false
+  inline void set_UseWebDefaults(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr YogaConfig();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "YogaConfig", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   YogaConfig(YogaConfig&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   YogaConfig(YogaConfig const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr YogaConfig();
-
-public:
   /// @brief Field _ygConfig, offset: 0x10, size: 0x8, def value: None
   void* ____ygConfig;
 

@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerScoreRingItem__Pool);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4587))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4593))
 // CS Name: ::MultiplayerScoreRingItem*
 class CORDL_TYPE MultiplayerScoreRingItem : public ::GlobalNamespace::MultiplayerScoreItem {
 public:
@@ -32,9 +30,15 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerScoreRingItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b95e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2487528, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerScoreRingItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreRingItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreRingItem(MultiplayerScoreRingItem&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerScoreRingItem(MultiplayerScoreRingItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerScoreRingItem();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -59,16 +57,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScor
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4593)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
-// 2792 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4592)) CS Name: ::MultiplayerScoreRingItem::Pool*
+// CS Name: ::MultiplayerScoreRingItem::Pool*
 class CORDL_TYPE __MultiplayerScoreRingItem__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerScoreRingItem__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b95e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2487530, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerScoreRingItem__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerScoreRingItem__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerScoreRingItem__Pool(__MultiplayerScoreRingItem__Pool&&) = delete;
@@ -77,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerScoreRingItem__Pool(__MultiplayerScoreRingItem__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerScoreRingItem__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

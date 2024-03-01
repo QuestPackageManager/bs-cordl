@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::InspectorNameAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8916))
 // CS Name: ::UnityEngine::InspectorNameAttribute*
 class CORDL_TYPE InspectorNameAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field displayName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
 
-  constexpr ::StringW& __cordl_internal_get_displayName();
+  static inline ::UnityEngine::InspectorNameAttribute* New_ctor(::StringW displayName);
 
   constexpr ::StringW const& __cordl_internal_get_displayName() const;
 
+  constexpr ::StringW& __cordl_internal_get_displayName();
+
   constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  static inline ::UnityEngine::InspectorNameAttribute* New_ctor(::StringW displayName);
-
-  /// @brief Method .ctor, addr 0x2cd3184, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbe7d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InspectorNameAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InspectorNameAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InspectorNameAttribute(InspectorNameAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InspectorNameAttribute(InspectorNameAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InspectorNameAttribute();
-
-public:
   /// @brief Field displayName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___displayName;
 

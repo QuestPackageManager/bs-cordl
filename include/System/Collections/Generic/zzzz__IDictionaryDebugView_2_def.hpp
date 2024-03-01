@@ -16,12 +16,16 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename K, typename V>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3828))
 // CS Name: ::System.Collections.Generic::IDictionaryDebugView`2<K,V>*
 class CORDL_TYPE IDictionaryDebugView_2 : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IDictionaryDebugView_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IDictionaryDebugView_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IDictionaryDebugView_2(IDictionaryDebugView_2&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IDictionaryDebugView_2(IDictionaryDebugView_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IDictionaryDebugView_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

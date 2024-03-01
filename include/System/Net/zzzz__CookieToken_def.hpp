@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::CookieToken);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7131))
 // CS Name: ::System.Net::CookieToken
 struct CORDL_TYPE CookieToken {
 public:
@@ -52,39 +50,23 @@ public:
     return static_cast<__CookieToken_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr CookieToken(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CookieToken();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr CookieToken(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Nothing value: static_cast<int32_t>(0x0)
-  static ::System::Net::CookieToken const Nothing;
-
-  /// @brief Field NameValuePair value: static_cast<int32_t>(0x1)
-  static ::System::Net::CookieToken const NameValuePair;
-
   /// @brief Field Attribute value: static_cast<int32_t>(0x2)
   static ::System::Net::CookieToken const Attribute;
-
-  /// @brief Field EndToken value: static_cast<int32_t>(0x3)
-  static ::System::Net::CookieToken const EndToken;
-
-  /// @brief Field EndCookie value: static_cast<int32_t>(0x4)
-  static ::System::Net::CookieToken const EndCookie;
-
-  /// @brief Field End value: static_cast<int32_t>(0x5)
-  static ::System::Net::CookieToken const End;
-
-  /// @brief Field Equals value: static_cast<int32_t>(0x6)
-  static ::System::Net::CookieToken const Equals;
 
   /// @brief Field Comment value: static_cast<int32_t>(0x7)
   static ::System::Net::CookieToken const Comment;
@@ -101,11 +83,32 @@ public:
   /// @brief Field Domain value: static_cast<int32_t>(0xb)
   static ::System::Net::CookieToken const Domain;
 
+  /// @brief Field End value: static_cast<int32_t>(0x5)
+  static ::System::Net::CookieToken const End;
+
+  /// @brief Field EndCookie value: static_cast<int32_t>(0x4)
+  static ::System::Net::CookieToken const EndCookie;
+
+  /// @brief Field EndToken value: static_cast<int32_t>(0x3)
+  static ::System::Net::CookieToken const EndToken;
+
+  /// @brief Field Equals value: static_cast<int32_t>(0x6)
+  static ::System::Net::CookieToken const Equals;
+
   /// @brief Field Expires value: static_cast<int32_t>(0xc)
   static ::System::Net::CookieToken const Expires;
 
+  /// @brief Field HttpOnly value: static_cast<int32_t>(0x11)
+  static ::System::Net::CookieToken const HttpOnly;
+
   /// @brief Field MaxAge value: static_cast<int32_t>(0xd)
   static ::System::Net::CookieToken const MaxAge;
+
+  /// @brief Field NameValuePair value: static_cast<int32_t>(0x1)
+  static ::System::Net::CookieToken const NameValuePair;
+
+  /// @brief Field Nothing value: static_cast<int32_t>(0x0)
+  static ::System::Net::CookieToken const Nothing;
 
   /// @brief Field Path value: static_cast<int32_t>(0xe)
   static ::System::Net::CookieToken const Path;
@@ -116,14 +119,14 @@ public:
   /// @brief Field Secure value: static_cast<int32_t>(0x10)
   static ::System::Net::CookieToken const Secure;
 
-  /// @brief Field HttpOnly value: static_cast<int32_t>(0x11)
-  static ::System::Net::CookieToken const HttpOnly;
-
   /// @brief Field Unknown value: static_cast<int32_t>(0x12)
   static ::System::Net::CookieToken const Unknown;
 
   /// @brief Field Version value: static_cast<int32_t>(0x13)
   static ::System::Net::CookieToken const Version;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

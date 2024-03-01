@@ -41,8 +41,6 @@ MARK_VAL_T(::GlobalNamespace::NoteCutInfo);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14897))
 // CS Name: ::NoteCutInfo::FailReason
 struct CORDL_TYPE __NoteCutInfo__FailReason {
 public:
@@ -63,18 +61,23 @@ public:
     return static_cast<____NoteCutInfo__FailReason_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NoteCutInfo__FailReason(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NoteCutInfo__FailReason();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __NoteCutInfo__FailReason(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field CutHarder value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__NoteCutInfo__FailReason const CutHarder;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__NoteCutInfo__FailReason const None;
@@ -85,11 +88,11 @@ public:
   /// @brief Field WrongColor value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__NoteCutInfo__FailReason const WrongColor;
 
-  /// @brief Field CutHarder value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__NoteCutInfo__FailReason const CutHarder;
-
   /// @brief Field WrongDirection value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__NoteCutInfo__FailReason const WrongDirection;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -103,34 +106,36 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutInfo__FailReason, value__) ==
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14898))
 // CS Name: ::NoteCutInfo
 struct CORDL_TYPE NoteCutInfo {
 public:
   // Declarations
   using FailReason = ::GlobalNamespace::__NoteCutInfo__FailReason;
 
-  __declspec(property(get = get_allIsOK)) bool allIsOK;
-
   __declspec(property(get = get_allExceptSaberTypeIsOK)) bool allExceptSaberTypeIsOK;
+
+  __declspec(property(get = get_allIsOK)) bool allIsOK;
 
   __declspec(property(get = get_failReason))::GlobalNamespace::__NoteCutInfo__FailReason failReason;
 
-  /// @brief Method get_allIsOK, addr 0x1339e90, size 0x30, virtual false, abstract: false, final false
-  inline bool get_allIsOK();
-
-  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x1339ec0, size 0x28, virtual false, abstract: false, final false
-  inline bool get_allExceptSaberTypeIsOK();
-
-  /// @brief Method get_failReason, addr 0x1339ee8, size 0x44, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__NoteCutInfo__FailReason get_failReason();
-
-  /// @brief Method .ctor, addr 0x1339f2c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137af18, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
                     ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
+
+  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x137aeac, size 0x28, virtual false, abstract: false, final false
+  inline bool get_allExceptSaberTypeIsOK();
+
+  /// @brief Method get_allIsOK, addr 0x137ae7c, size 0x30, virtual false, abstract: false, final false
+  inline bool get_allIsOK();
+
+  /// @brief Method get_failReason, addr 0x137aed4, size 0x44, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__NoteCutInfo__FailReason get_failReason();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteCutInfo();
 
   // Ctor Parameters [CppParam { name: "noteData", ty: "::GlobalNamespace::NoteData*", modifiers: "", def_value: None }, CppParam { name: "speedOK", ty: "bool", modifiers: "", def_value: None },
   // CppParam { name: "directionOK", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "saberTypeOK", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "wasCutTooSoon", ty:
@@ -146,10 +151,6 @@ public:
                         ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, float_t cutAngle,
                         float_t cutDistanceToCenter, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
                         ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutInfo();
 
   /// @brief Field noteData, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::NoteData* noteData;

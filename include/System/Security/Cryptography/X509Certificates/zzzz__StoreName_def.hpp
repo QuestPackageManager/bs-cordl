@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::StoreName);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6990))
 // CS Name: ::System.Security.Cryptography.X509Certificates::StoreName
 struct CORDL_TYPE StoreName {
 public:
@@ -40,18 +38,20 @@ public:
     return static_cast<__StoreName_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StoreName(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StoreName();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr StoreName(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field AddressBook value: static_cast<int32_t>(0x1)
   static ::System::Security::Cryptography::X509Certificates::StoreName const AddressBook;
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field TrustedPublisher value: static_cast<int32_t>(0x8)
   static ::System::Security::Cryptography::X509Certificates::StoreName const TrustedPublisher;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

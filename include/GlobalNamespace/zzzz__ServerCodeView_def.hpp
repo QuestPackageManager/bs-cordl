@@ -24,77 +24,81 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerCodeView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5109))
 // CS Name: ::ServerCodeView*
 class CORDL_TYPE ServerCodeView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _serverCodeText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText))::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
-
   /// @brief Field _button, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _buttonBinder, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _serverCode, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverCode, put = __cordl_internal_set__serverCode))::StringW _serverCode;
-
   /// @brief Field _codeIsShown, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__codeIsShown, put = __cordl_internal_set__codeIsShown)) bool _codeIsShown;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__serverCodeText();
+  /// @brief Field _serverCode, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__serverCode, put = __cordl_internal_set__serverCode))::StringW _serverCode;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__serverCodeText() const;
+  /// @brief Field _serverCodeText, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText))::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
-  constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x23e5c44, size 0x10, virtual false, abstract: false, final false
+  inline void HandleShowServerCodeButtonPressed();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+  static inline ::GlobalNamespace::ServerCodeView* New_ctor();
+
+  /// @brief Method OnDisable, addr 0x23e5c28, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x23e5b90, size 0x98, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method RefreshText, addr 0x23e5af0, size 0xa0, virtual false, abstract: false, final false
+  inline void RefreshText(bool showCode);
+
+  /// @brief Method SetCode, addr 0x23e5ae4, size 0xc, virtual false, abstract: false, final false
+  inline void SetCode(::StringW serverCode);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
-
-  constexpr ::StringW& __cordl_internal_get__serverCode();
-
-  constexpr ::StringW const& __cordl_internal_get__serverCode() const;
-
-  constexpr void __cordl_internal_set__serverCode(::StringW value);
+  constexpr bool const& __cordl_internal_get__codeIsShown() const;
 
   constexpr bool& __cordl_internal_get__codeIsShown();
 
-  constexpr bool const& __cordl_internal_get__codeIsShown() const;
+  constexpr ::StringW const& __cordl_internal_get__serverCode() const;
+
+  constexpr ::StringW& __cordl_internal_get__serverCode();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__serverCodeText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__serverCodeText();
+
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   constexpr void __cordl_internal_set__codeIsShown(bool value);
 
-  /// @brief Method SetCode, addr 0x2317e10, size 0xc, virtual false, abstract: false, final false
-  inline void SetCode(::StringW serverCode);
+  constexpr void __cordl_internal_set__serverCode(::StringW value);
 
-  /// @brief Method OnEnable, addr 0x2317ebc, size 0x98, virtual false, abstract: false, final false
-  inline void OnEnable();
+  constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method OnDisable, addr 0x2317f54, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x2317f70, size 0x10, virtual false, abstract: false, final false
-  inline void HandleShowServerCodeButtonPressed();
-
-  /// @brief Method RefreshText, addr 0x2317e1c, size 0xa0, virtual false, abstract: false, final false
-  inline void RefreshText(bool showCode);
-
-  static inline ::GlobalNamespace::ServerCodeView* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2317f80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e5c54, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerCodeView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ServerCodeView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerCodeView(ServerCodeView&&) = delete;
@@ -103,12 +107,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerCodeView(ServerCodeView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerCodeView();
-
-public:
   /// @brief Field _serverCodeText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____serverCodeText;
 

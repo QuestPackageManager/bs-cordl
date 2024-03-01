@@ -23,39 +23,43 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13062))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13063))
 // CS Name: ::UnityEngine.EventSystems::BaseEventData*
 class CORDL_TYPE BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData {
 public:
   // Declarations
+  __declspec(property(get = get_currentInputModule))::UnityW<::UnityEngine::EventSystems::BaseInputModule> currentInputModule;
+
   /// @brief Field m_EventSystem, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> m_EventSystem;
 
-  __declspec(property(get = get_currentInputModule))::UnityW<::UnityEngine::EventSystems::BaseInputModule> currentInputModule;
-
   __declspec(property(get = get_selectedObject, put = set_selectedObject))::UnityW<::UnityEngine::GameObject> selectedObject;
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get_m_EventSystem();
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get_m_EventSystem() const;
-
-  constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
   static inline ::UnityEngine::EventSystems::BaseEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method .ctor, addr 0x2db37e8, size 0x28, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get_m_EventSystem() const;
+
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get_m_EventSystem();
+
+  constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
+
+  /// @brief Method .ctor, addr 0x2ea1f10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule, addr 0x2db3834, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x2ea1f5c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_selectedObject, addr 0x2db3850, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedObject, addr 0x2ea1f78, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
-  /// @brief Method set_selectedObject, addr 0x2db386c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectedObject, addr 0x2ea1f94, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseEventData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseEventData(BaseEventData&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseEventData(BaseEventData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseEventData();
-
-public:
   /// @brief Field m_EventSystem, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;
 

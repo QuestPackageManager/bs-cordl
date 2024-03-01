@@ -22,8 +22,6 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9214))
 // CS Name: ::UnityEngine.Pool::PooledObject`1<T>
 struct CORDL_TYPE PooledObject_1 {
 public:
@@ -31,22 +29,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value, ::UnityEngine::Pool::IObjectPool_1<T>* pool);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Pool::IObjectPool_1<T>*", modifiers: "", def_value: None
-  // }]
-  constexpr PooledObject_1(T m_ToReturn, ::UnityEngine::Pool::IObjectPool_1<T>* m_Pool) noexcept;
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PooledObject_1();
+
+  // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Pool::IObjectPool_1<T>*", modifiers: "", def_value: None
+  // }]
+  constexpr PooledObject_1(T m_ToReturn, ::UnityEngine::Pool::IObjectPool_1<T>* m_Pool) noexcept;
 
   /// @brief Field m_ToReturn, offset: 0x0, size: 0x8, def value: None
   T m_ToReturn;

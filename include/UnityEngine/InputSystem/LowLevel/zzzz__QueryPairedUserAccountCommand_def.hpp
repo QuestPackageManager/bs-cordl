@@ -48,8 +48,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5738))
 // CS Name: ::QueryPairedUserAccountCommand::Result
 struct CORDL_TYPE __QueryPairedUserAccountCommand__Result {
 public:
@@ -69,30 +67,35 @@ public:
     return static_cast<____QueryPairedUserAccountCommand__Result_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr __QueryPairedUserAccountCommand__Result(int64_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int64_t() const noexcept {
+    return static_cast<int64_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __QueryPairedUserAccountCommand__Result();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr __QueryPairedUserAccountCommand__Result(int64_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x8, def value: None
   int64_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field DevicePairedToUserAccount value: static_cast<int64_t>(0x2)
   static ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result const DevicePairedToUserAccount;
 
-  /// @brief Field UserAccountSelectionInProgress value: static_cast<int64_t>(0x4)
-  static ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result const UserAccountSelectionInProgress;
+  /// @brief Field UserAccountSelectionCanceled value: static_cast<int64_t>(0x10)
+  static ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result const UserAccountSelectionCanceled;
 
   /// @brief Field UserAccountSelectionComplete value: static_cast<int64_t>(0x8)
   static ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result const UserAccountSelectionComplete;
 
-  /// @brief Field UserAccountSelectionCanceled value: static_cast<int64_t>(0x10)
-  static ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result const UserAccountSelectionCanceled;
+  /// @brief Field UserAccountSelectionInProgress value: static_cast<int64_t>(0x4)
+  static ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result const UserAccountSelectionInProgress;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -106,19 +109,17 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAc
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5739))
 // CS Name: ::QueryPairedUserAccountCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -142,19 +143,17 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAc
 // SizeInfo { instance_size: 512, native_size: 512, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5740))
 // CS Name: ::QueryPairedUserAccountCommand::<idBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -179,18 +178,16 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAc
 // Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730)), TypeDefinitionIndex(TypeDefinitionIndex(5739)), TypeDefinitionIndex(TypeDefinitionIndex(5740))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5741))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryPairedUserAccountCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryPairedUserAccountCommand {
 public:
   // Declarations
+  using Result = ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result;
+
   using _idBuffer_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
 
   using _nameBuffer_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
-
-  using Result = ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand__Result;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
@@ -198,70 +195,74 @@ public:
   /// @brief Field handle, offset 0x8, size 0x8
   __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) uint64_t handle;
 
-  /// @brief Field nameBuffer, offset 0x10, size 0x200
-  __declspec(property(get = __cordl_internal_get_nameBuffer,
-                      put = __cordl_internal_set_nameBuffer))::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer nameBuffer;
+  __declspec(property(get = get_id, put = set_id))::StringW id;
 
   /// @brief Field idBuffer, offset 0x210, size 0x200
   __declspec(property(get = __cordl_internal_get_idBuffer,
                       put = __cordl_internal_set_idBuffer))::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer idBuffer;
 
-  __declspec(property(get = get_id, put = set_id))::StringW id;
-
   __declspec(property(get = get_name, put = set_name))::StringW name;
+
+  /// @brief Field nameBuffer, offset 0x10, size 0x200
+  __declspec(property(get = __cordl_internal_get_nameBuffer,
+                      put = __cordl_internal_set_nameBuffer))::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer nameBuffer;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bced3c, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr uint64_t& __cordl_internal_get_handle();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr uint64_t const& __cordl_internal_get_handle() const;
 
-  constexpr void __cordl_internal_set_handle(uint64_t value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer& __cordl_internal_get_nameBuffer();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer const& __cordl_internal_get_nameBuffer() const;
-
-  constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer& __cordl_internal_get_idBuffer();
+  constexpr uint64_t& __cordl_internal_get_handle();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer const& __cordl_internal_get_idBuffer() const;
 
+  constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer& __cordl_internal_get_idBuffer();
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer const& __cordl_internal_get_nameBuffer() const;
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer& __cordl_internal_get_nameBuffer();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
+  constexpr void __cordl_internal_set_handle(uint64_t value);
+
   constexpr void __cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x2ae99c0, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer value);
+
+  /// @brief Method get_Type, addr 0x2bcea94, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_id, addr 0x2ae99f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2bceac4, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method set_id, addr 0x2ae9a00, size 0x114, virtual false, abstract: false, final false
-  inline void set_id(::StringW value);
-
-  /// @brief Method get_name, addr 0x2ae9b14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x2bcebe8, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x2ae9b24, size 0x114, virtual false, abstract: false, final false
-  inline void set_name(::StringW value);
-
-  /// @brief Method get_typeStatic, addr 0x2ae9c38, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bced0c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae9c68, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
+
+  /// @brief Method set_id, addr 0x2bcead4, size 0x114, virtual false, abstract: false, final false
+  inline void set_id(::StringW value);
+
+  /// @brief Method set_name, addr 0x2bcebf8, size 0x114, virtual false, abstract: false, final false
+  inline void set_name(::StringW value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QueryPairedUserAccountCommand();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "uint64_t",
   // modifiers: "", def_value: None }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer", modifiers: "", def_value:
@@ -269,10 +270,6 @@ public:
   constexpr QueryPairedUserAccountCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint64_t handle,
                                           ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer nameBuffer,
                                           ::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer idBuffer) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QueryPairedUserAccountCommand();
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -339,11 +336,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x410 };
 
-  /// @brief Field kMaxNameLength offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxNameLength{ static_cast<int32_t>(0x100) };
-
   /// @brief Field kMaxIdLength offset 0xffffffff size 0x4
   static constexpr int32_t kMaxIdLength{ static_cast<int32_t>(0x100) };
+
+  /// @brief Field kMaxNameLength offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxNameLength{ static_cast<int32_t>(0x100) };
 
   /// @brief Field kSize offset 0xffffffff size 0x4
   static constexpr int32_t kSize{ static_cast<int32_t>(0x410) };

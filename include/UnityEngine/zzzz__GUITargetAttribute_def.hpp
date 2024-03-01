@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::UnityEngine::GUITargetAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14624))
 // CS Name: ::UnityEngine::GUITargetAttribute*
 class CORDL_TYPE GUITargetAttribute : public ::System::Attribute {
 public:
@@ -28,15 +26,21 @@ public:
   /// @brief Field displayMask, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_displayMask, put = __cordl_internal_set_displayMask)) int32_t displayMask;
 
-  constexpr int32_t& __cordl_internal_get_displayMask();
+  /// @brief Method GetGUITargetAttrValue, addr 0x2e00790, size 0x180, virtual false, abstract: false, final false
+  static inline int32_t GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName);
 
   constexpr int32_t const& __cordl_internal_get_displayMask() const;
 
+  constexpr int32_t& __cordl_internal_get_displayMask();
+
   constexpr void __cordl_internal_set_displayMask(int32_t value);
 
-  /// @brief Method GetGUITargetAttrValue, addr 0x2d14068, size 0x180, virtual false, abstract: false, final false
-  static inline int32_t GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GUITargetAttribute();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GUITargetAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUITargetAttribute(GUITargetAttribute&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GUITargetAttribute(GUITargetAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUITargetAttribute();
-
-public:
   /// @brief Field displayMask, offset: 0x10, size: 0x4, def value: None
   int32_t ___displayMask;
 

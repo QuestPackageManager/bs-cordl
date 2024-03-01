@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::Zenject::SingleProviderBindingFinalizer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10112))
 // CS Name: ::Zenject::SingleProviderBindingFinalizer*
 class CORDL_TYPE SingleProviderBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -39,20 +37,26 @@ public:
   __declspec(property(get = __cordl_internal_get__providerFactory,
                       put = __cordl_internal_set__providerFactory))::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
 
+  static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
+
+  /// @brief Method OnFinalizeBinding, addr 0x2ff5fe8, size 0xc4, virtual true, abstract: false, final false
+  inline void OnFinalizeBinding(::Zenject::DiContainer* container);
+
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*& __cordl_internal_get__providerFactory();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*> const& __cordl_internal_get__providerFactory() const;
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
-
-  /// @brief Method .ctor, addr 0x2f02894, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff5fbc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x2f028c0, size 0xc4, virtual true, abstract: false, final false
-  inline void OnFinalizeBinding(::Zenject::DiContainer* container);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SingleProviderBindingFinalizer();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SingleProviderBindingFinalizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SingleProviderBindingFinalizer(SingleProviderBindingFinalizer&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SingleProviderBindingFinalizer(SingleProviderBindingFinalizer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SingleProviderBindingFinalizer();
-
-public:
   /// @brief Field _providerFactory, offset: 0x18, size: 0x8, def value: None
   ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* ____providerFactory;
 

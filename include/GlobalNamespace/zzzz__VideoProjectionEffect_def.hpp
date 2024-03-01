@@ -105,8 +105,6 @@ MARK_VAL_T(::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4328))
 // CS Name: ::VideoProjectionEffect::InitData*
 class CORDL_TYPE __VideoProjectionEffect__InitData : public ::System::Object {
 public:
@@ -114,17 +112,23 @@ public:
   /// @brief Field beatmapLevel, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
+  static inline ::GlobalNamespace::__VideoProjectionEffect__InitData* New_ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel);
+
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
 
   constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  static inline ::GlobalNamespace::__VideoProjectionEffect__InitData* New_ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel);
-
-  /// @brief Method .ctor, addr 0x2372428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2440370, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionEffect__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VideoProjectionEffect__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VideoProjectionEffect__InitData(__VideoProjectionEffect__InitData&&) = delete;
@@ -133,12 +137,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VideoProjectionEffect__InitData(__VideoProjectionEffect__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionEffect__InitData();
-
-public:
   /// @brief Field beatmapLevel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
@@ -154,8 +152,6 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__InitData, ___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4329))
 // CS Name: ::VideoProjectionEffect::VideoProjectionBehavior::<>c__DisplayClass7_0*
 class CORDL_TYPE __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -163,20 +159,26 @@ public:
   /// @brief Field eventValue, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_eventValue, put = __cordl_internal_set_eventValue)) int32_t eventValue;
 
-  constexpr int32_t& __cordl_internal_get_eventValue();
+  static inline ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0* New_ctor();
+
+  /// @brief Method <LoadVideoFromModel>b__0, addr 0x244079c, size 0x24, virtual false, abstract: false, final false
+  inline bool _LoadVideoFromModel_b__0(::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId* clipWithId);
 
   constexpr int32_t const& __cordl_internal_get_eventValue() const;
 
+  constexpr int32_t& __cordl_internal_get_eventValue();
+
   constexpr void __cordl_internal_set_eventValue(int32_t value);
 
-  static inline ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23727b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2440700, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LoadVideoFromModel>b__0, addr 0x2372854, size 0x24, virtual false, abstract: false, final false
-  inline bool _LoadVideoFromModel_b__0(::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId* clipWithId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0(__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0&&) = delete;
@@ -185,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0(__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0();
-
-public:
   /// @brief Field eventValue, offset: 0x10, size: 0x4, def value: None
   int32_t ___eventValue;
 
@@ -206,23 +202,25 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__VideoProjecti
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(9037)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4330)) CS Name:
-// ::VideoProjectionEffect::VideoProjectionBehavior::<LoadPreviewCoverAsset>d__8
+// CS Name: ::VideoProjectionEffect::VideoProjectionBehavior::<LoadPreviewCoverAsset>d__8
 struct CORDL_TYPE __VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x24407c0, size 0x2e8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2440aa8, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2372878, size 0x2e8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2372b60, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -231,10 +229,6 @@ public:
   constexpr __VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                           ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior* __4__this,
                                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionEffect__VideoProjectionBehavior___LoadPreviewCoverAsset_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -269,9 +263,7 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__VideoProjecti
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14046)), TypeDefinitionIndex(TypeDefinitionIndex(15986)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 860 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4331)) CS Name:
-// ::VideoProjectionEffect::VideoProjectionBehavior*
+// CS Name: ::VideoProjectionEffect::VideoProjectionBehavior*
 class CORDL_TYPE __VideoProjectionEffect__VideoProjectionBehavior : public ::System::Object {
 public:
   // Declarations
@@ -279,68 +271,74 @@ public:
 
   using __c__DisplayClass7_0 = ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior____c__DisplayClass7_0;
 
+  /// @brief Field _beatmapLevel, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::BeatmapLevel* _beatmapLevel;
+
   /// @brief Field _eventValue, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__eventValue, put = __cordl_internal_set__eventValue)) int32_t _eventValue;
+
+  /// @brief Field _model, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__model, put = __cordl_internal_set__model))::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> _model;
 
   /// @brief Field _videoClipHandle, offset 0x18, size 0x20
   __declspec(
       property(get = __cordl_internal_get__videoClipHandle,
                put = __cordl_internal_set__videoClipHandle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>> _videoClipHandle;
 
-  /// @brief Field _model, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__model, put = __cordl_internal_set__model))::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> _model;
-
   /// @brief Field _videoPlayer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__videoPlayer, put = __cordl_internal_set__videoPlayer))::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> _videoPlayer;
 
-  /// @brief Field _beatmapLevel, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::BeatmapLevel* _beatmapLevel;
+  /// @brief Method Dispose, addr 0x24403d4, size 0xb0, virtual true, abstract: false, final false
+  inline void Dispose();
 
-  constexpr int32_t& __cordl_internal_get__eventValue();
+  /// @brief Method LoadPreviewCoverAsset, addr 0x2440708, size 0x94, virtual false, abstract: false, final false
+  inline void LoadPreviewCoverAsset();
 
-  constexpr int32_t const& __cordl_internal_get__eventValue() const;
+  /// @brief Method LoadVideoFromModel, addr 0x2440484, size 0x27c, virtual false, abstract: false, final false
+  inline void LoadVideoFromModel(int32_t eventValue);
 
-  constexpr void __cordl_internal_set__eventValue(int32_t value);
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>>& __cordl_internal_get__videoClipHandle();
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>> const& __cordl_internal_get__videoClipHandle() const;
-
-  constexpr void __cordl_internal_set__videoClipHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>> value);
-
-  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO>& __cordl_internal_get__model();
-
-  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> const& __cordl_internal_get__model() const;
-
-  constexpr void __cordl_internal_set__model(::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer>& __cordl_internal_get__videoPlayer();
-
-  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> const& __cordl_internal_get__videoPlayer() const;
-
-  constexpr void __cordl_internal_set__videoPlayer(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
+  static inline ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior* New_ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel,
+                                                                                              ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
 
+  constexpr int32_t const& __cordl_internal_get__eventValue() const;
+
+  constexpr int32_t& __cordl_internal_get__eventValue();
+
+  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> const& __cordl_internal_get__model() const;
+
+  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO>& __cordl_internal_get__model();
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>> const& __cordl_internal_get__videoClipHandle() const;
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>>& __cordl_internal_get__videoClipHandle();
+
+  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> const& __cordl_internal_get__videoPlayer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer>& __cordl_internal_get__videoPlayer();
+
   constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  static inline ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior* New_ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel,
-                                                                                              ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  constexpr void __cordl_internal_set__eventValue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2372450, size 0x3c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__model(::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> value);
+
+  constexpr void __cordl_internal_set__videoClipHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::Video::VideoClip>> value);
+
+  constexpr void __cordl_internal_set__videoPlayer(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
+
+  /// @brief Method .ctor, addr 0x2440398, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method Dispose, addr 0x237248c, size 0xb0, virtual true, abstract: false, final false
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionEffect__VideoProjectionBehavior();
 
-  /// @brief Method LoadVideoFromModel, addr 0x237253c, size 0x27c, virtual false, abstract: false, final false
-  inline void LoadVideoFromModel(int32_t eventValue);
-
-  /// @brief Method LoadPreviewCoverAsset, addr 0x23727c0, size 0x94, virtual false, abstract: false, final false
-  inline void LoadPreviewCoverAsset();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VideoProjectionEffect__VideoProjectionBehavior", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VideoProjectionEffect__VideoProjectionBehavior(__VideoProjectionEffect__VideoProjectionBehavior&&) = delete;
@@ -349,12 +347,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VideoProjectionEffect__VideoProjectionBehavior(__VideoProjectionEffect__VideoProjectionBehavior const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionEffect__VideoProjectionBehavior();
-
-public:
   /// @brief Field _eventValue, offset: 0x10, size: 0x4, def value: None
   int32_t ____eventValue;
 
@@ -390,8 +382,6 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__VideoProjecti
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4331))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4332))
 // CS Name: ::VideoProjectionEffect::BeatmapEditorVideoProjectionBehavior*
 class CORDL_TYPE __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior : public ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior {
 public:
@@ -403,32 +393,38 @@ public:
   /// @brief Field _callbackWrapper, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__callbackWrapper, put = __cordl_internal_set__callbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _callbackWrapper;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  /// @brief Method Dispose, addr 0x2440ab4, size 0x28, virtual true, abstract: false, final false
+  inline void Dispose();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
-
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
-
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__callbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__callbackWrapper() const;
-
-  constexpr void __cordl_internal_set__callbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  /// @brief Method HandleBeatmapEvent, addr 0x2440adc, size 0xec, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* data);
 
   static inline ::GlobalNamespace::__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior*
   New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
            ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method .ctor, addr 0x23721dc, size 0x22c, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__callbackWrapper();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__callbackWrapper() const;
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
+  constexpr void __cordl_internal_set__callbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+
+  /// @brief Method .ctor, addr 0x2440124, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
                     ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method Dispose, addr 0x2372b6c, size 0x28, virtual true, abstract: false, final false
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x2372b94, size 0xec, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* data);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior(__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior&&) = delete;
@@ -437,12 +433,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior(__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior();
-
-public:
   /// @brief Field _beatmapCallbacksController, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
@@ -463,8 +453,6 @@ static_assert(offsetof(::GlobalNamespace::__VideoProjectionEffect__BeatmapEditor
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4331))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4333))
 // CS Name: ::VideoProjectionEffect::GameplayVideoProjectionBehavior*
 class CORDL_TYPE __VideoProjectionEffect__GameplayVideoProjectionBehavior : public ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior {
 public:
@@ -473,10 +461,16 @@ public:
   New_ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
            ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method .ctor, addr 0x23720a4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243ffec, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::VideoProjectionDataModelSO* dataModel, ::GlobalNamespace::SongTimeSyncedVideoPlayer* videoPlayer,
                     ::GlobalNamespace::BasicBeatmapEventType videoEventType, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VideoProjectionEffect__GameplayVideoProjectionBehavior();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VideoProjectionEffect__GameplayVideoProjectionBehavior", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VideoProjectionEffect__GameplayVideoProjectionBehavior(__VideoProjectionEffect__GameplayVideoProjectionBehavior&&) = delete;
@@ -485,12 +479,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VideoProjectionEffect__GameplayVideoProjectionBehavior(__VideoProjectionEffect__GameplayVideoProjectionBehavior const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VideoProjectionEffect__GameplayVideoProjectionBehavior();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -501,105 +489,109 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VideoProjecti
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4336)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4334))
 // CS Name: ::VideoProjectionEffect*
 class CORDL_TYPE VideoProjectionEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using GameplayVideoProjectionBehavior = ::GlobalNamespace::__VideoProjectionEffect__GameplayVideoProjectionBehavior;
-
   using BeatmapEditorVideoProjectionBehavior = ::GlobalNamespace::__VideoProjectionEffect__BeatmapEditorVideoProjectionBehavior;
 
-  using VideoProjectionBehavior = ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior;
+  using GameplayVideoProjectionBehavior = ::GlobalNamespace::__VideoProjectionEffect__GameplayVideoProjectionBehavior;
 
   using InitData = ::GlobalNamespace::__VideoProjectionEffect__InitData;
 
-  /// @brief Field _videoProjectionDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__videoProjectionDataModel,
-                      put = __cordl_internal_set__videoProjectionDataModel))::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> _videoProjectionDataModel;
-
-  /// @brief Field _videoPlayer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__videoPlayer, put = __cordl_internal_set__videoPlayer))::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> _videoPlayer;
-
-  /// @brief Field _videoEventType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__videoEventType, put = __cordl_internal_set__videoEventType))::GlobalNamespace::BasicBeatmapEventType _videoEventType;
-
-  /// @brief Field _initData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__VideoProjectionEffect__InitData* _initData;
-
-  /// @brief Field _environmentContext, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__environmentContext, put = __cordl_internal_set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
-
-  /// @brief Field _beatmapData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
+  using VideoProjectionBehavior = ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior;
 
   /// @brief Field _beatmapCallbacksController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
+  /// @brief Field _beatmapData, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::IReadonlyBeatmapData* _beatmapData;
+
   /// @brief Field _behavior, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__behavior, put = __cordl_internal_set__behavior))::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior* _behavior;
 
-  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO>& __cordl_internal_get__videoProjectionDataModel();
+  /// @brief Field _environmentContext, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__environmentContext, put = __cordl_internal_set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
 
-  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> const& __cordl_internal_get__videoProjectionDataModel() const;
+  /// @brief Field _initData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__VideoProjectionEffect__InitData* _initData;
 
-  constexpr void __cordl_internal_set__videoProjectionDataModel(::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> value);
+  /// @brief Field _videoEventType, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__videoEventType, put = __cordl_internal_set__videoEventType))::GlobalNamespace::BasicBeatmapEventType _videoEventType;
 
-  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer>& __cordl_internal_get__videoPlayer();
+  /// @brief Field _videoPlayer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__videoPlayer, put = __cordl_internal_set__videoPlayer))::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> _videoPlayer;
 
-  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> const& __cordl_internal_get__videoPlayer() const;
+  /// @brief Field _videoProjectionDataModel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__videoProjectionDataModel,
+                      put = __cordl_internal_set__videoProjectionDataModel))::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> _videoProjectionDataModel;
 
-  constexpr void __cordl_internal_set__videoPlayer(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
+  static inline ::GlobalNamespace::VideoProjectionEffect* New_ctor();
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__videoEventType();
+  /// @brief Method OnDestroy, addr 0x2440350, size 0x18, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__videoEventType() const;
-
-  constexpr void __cordl_internal_set__videoEventType(::GlobalNamespace::BasicBeatmapEventType value);
-
-  constexpr ::GlobalNamespace::__VideoProjectionEffect__InitData*& __cordl_internal_get__initData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VideoProjectionEffect__InitData*> const& __cordl_internal_get__initData() const;
-
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__VideoProjectionEffect__InitData* value);
-
-  constexpr ::GlobalNamespace::EnvironmentContext& __cordl_internal_get__environmentContext();
-
-  constexpr ::GlobalNamespace::EnvironmentContext const& __cordl_internal_get__environmentContext() const;
-
-  constexpr void __cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value);
-
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
-
-  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  /// @brief Method Start, addr 0x243fee0, size 0x10c, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__beatmapData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
   constexpr ::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior*& __cordl_internal_get__behavior();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior*> const& __cordl_internal_get__behavior() const;
 
+  constexpr ::GlobalNamespace::EnvironmentContext const& __cordl_internal_get__environmentContext() const;
+
+  constexpr ::GlobalNamespace::EnvironmentContext& __cordl_internal_get__environmentContext();
+
+  constexpr ::GlobalNamespace::__VideoProjectionEffect__InitData*& __cordl_internal_get__initData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VideoProjectionEffect__InitData*> const& __cordl_internal_get__initData() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__videoEventType() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__videoEventType();
+
+  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> const& __cordl_internal_get__videoPlayer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer>& __cordl_internal_get__videoPlayer();
+
+  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> const& __cordl_internal_get__videoProjectionDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO>& __cordl_internal_get__videoProjectionDataModel();
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+
   constexpr void __cordl_internal_set__behavior(::GlobalNamespace::__VideoProjectionEffect__VideoProjectionBehavior* value);
 
-  /// @brief Method Start, addr 0x2371f98, size 0x10c, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value);
 
-  /// @brief Method OnDestroy, addr 0x2372408, size 0x18, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__VideoProjectionEffect__InitData* value);
 
-  static inline ::GlobalNamespace::VideoProjectionEffect* New_ctor();
+  constexpr void __cordl_internal_set__videoEventType(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method .ctor, addr 0x2372420, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__videoPlayer(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
+
+  constexpr void __cordl_internal_set__videoProjectionDataModel(::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> value);
+
+  /// @brief Method .ctor, addr 0x2440368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VideoProjectionEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VideoProjectionEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VideoProjectionEffect(VideoProjectionEffect&&) = delete;
@@ -608,12 +600,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VideoProjectionEffect(VideoProjectionEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VideoProjectionEffect();
-
-public:
   /// @brief Field _videoProjectionDataModel, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VideoProjectionDataModelSO> ____videoProjectionDataModel;
 

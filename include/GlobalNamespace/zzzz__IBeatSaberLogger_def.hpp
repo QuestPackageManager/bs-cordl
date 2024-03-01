@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatSaberLogger);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5167))
 // CS Name: ::IBeatSaberLogger*
 class CORDL_TYPE IBeatSaberLogger {
 public:
@@ -31,12 +29,6 @@ public:
 
   /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::StringW message, ::System::Object* context);
-
-  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void LogWarning(::StringW message);
-
-  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void LogWarning(::StringW message, ::System::Object* context);
 
   /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message);
@@ -49,6 +41,12 @@ public:
 
   /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogException(::System::Exception* exception, ::System::Object* context);
+
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void LogWarning(::StringW message);
+
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void LogWarning(::StringW message, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatSaberLogger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

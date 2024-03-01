@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FABRIKRoot);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12434))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12432))
 // CS Name: ::RootMotion.FinalIK::FABRIKRoot*
 class CORDL_TYPE FABRIKRoot : public ::RootMotion::FinalIK::IK {
 public:
@@ -29,32 +27,38 @@ public:
   /// @brief Field solver, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverFABRIKRoot* solver;
 
+  /// @brief Method ASThread, addr 0x132a73c, size 0x44, virtual false, abstract: false, final false
+  inline void ASThread();
+
+  /// @brief Method GetIKSolver, addr 0x132a780, size 0x8, virtual true, abstract: false, final false
+  inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
+
+  static inline ::RootMotion::FinalIK::FABRIKRoot* New_ctor();
+
+  /// @brief Method OpenScriptReference, addr 0x132a6b4, size 0x44, virtual true, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenUserManual, addr 0x132a670, size 0x44, virtual true, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method SupportGroup, addr 0x132a6f8, size 0x44, virtual false, abstract: false, final false
+  inline void SupportGroup();
+
   constexpr ::RootMotion::FinalIK::IKSolverFABRIKRoot*& __cordl_internal_get_solver();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverFABRIKRoot*> const& __cordl_internal_get_solver() const;
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverFABRIKRoot* value);
 
-  /// @brief Method OpenUserManual, addr 0x12e8684, size 0x44, virtual true, abstract: false, final false
-  inline void OpenUserManual();
-
-  /// @brief Method OpenScriptReference, addr 0x12e86c8, size 0x44, virtual true, abstract: false, final false
-  inline void OpenScriptReference();
-
-  /// @brief Method SupportGroup, addr 0x12e870c, size 0x44, virtual false, abstract: false, final false
-  inline void SupportGroup();
-
-  /// @brief Method ASThread, addr 0x12e8750, size 0x44, virtual false, abstract: false, final false
-  inline void ASThread();
-
-  /// @brief Method GetIKSolver, addr 0x12e8794, size 0x8, virtual true, abstract: false, final false
-  inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
-
-  static inline ::RootMotion::FinalIK::FABRIKRoot* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12e879c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132a788, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FABRIKRoot();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FABRIKRoot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FABRIKRoot(FABRIKRoot&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FABRIKRoot(FABRIKRoot const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FABRIKRoot();
-
-public:
   /// @brief Field solver, offset: 0x38, size: 0x8, def value: None
   ::RootMotion::FinalIK::IKSolverFABRIKRoot* ___solver;
 

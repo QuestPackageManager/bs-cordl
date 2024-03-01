@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PlaybackScreenshotRecorder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5186))
 // CS Name: ::PlaybackScreenshotRecorder*
 class CORDL_TYPE PlaybackScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,58 +32,64 @@ public:
   /// @brief Field _directory, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory))::StringW _directory;
 
-  /// @brief Field _playbackRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__playbackRenderer, put = __cordl_internal_set__playbackRenderer))::UnityW<::GlobalNamespace::PlaybackRenderer> _playbackRenderer;
-
   /// @brief Field _frameNumber, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__frameNumber, put = __cordl_internal_set__frameNumber)) int32_t _frameNumber;
 
+  /// @brief Field _playbackRenderer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__playbackRenderer, put = __cordl_internal_set__playbackRenderer))::UnityW<::GlobalNamespace::PlaybackRenderer> _playbackRenderer;
+
   __declspec(property(get = get_directory))::StringW directory;
 
-  constexpr ::StringW& __cordl_internal_get__directory();
+  /// @brief Method ConvertRenderTexture, addr 0x23f8260, size 0x11c, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  constexpr ::StringW const& __cordl_internal_get__directory() const;
-
-  constexpr void __cordl_internal_set__directory(::StringW value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer>& __cordl_internal_get__playbackRenderer();
-
-  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer> const& __cordl_internal_get__playbackRenderer() const;
-
-  constexpr void __cordl_internal_set__playbackRenderer(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
-
-  constexpr int32_t& __cordl_internal_get__frameNumber();
-
-  constexpr int32_t const& __cordl_internal_get__frameNumber() const;
-
-  constexpr void __cordl_internal_set__frameNumber(int32_t value);
-
-  /// @brief Method get_directory, addr 0x232929c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_directory();
-
-  /// @brief Method OnEnable, addr 0x23292a4, size 0x88, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x232932c, size 0x88, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method Init, addr 0x2327bd4, size 0xf4, virtual false, abstract: false, final false
-  inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
-
-  /// @brief Method HandleTexturesReady, addr 0x23293b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleTexturesReady, addr 0x23f80b0, size 0x7c, virtual false, abstract: false, final false
   inline void HandleTexturesReady();
 
-  /// @brief Method SaveScreenshot, addr 0x2329430, size 0x134, virtual false, abstract: false, final false
-  inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
-
-  /// @brief Method ConvertRenderTexture, addr 0x2329564, size 0x11c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
+  /// @brief Method Init, addr 0x23f68d0, size 0xf4, virtual false, abstract: false, final false
+  inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2329680, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x23f8028, size 0x88, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x23f7fa0, size 0x88, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method SaveScreenshot, addr 0x23f812c, size 0x134, virtual false, abstract: false, final false
+  inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
+
+  constexpr ::StringW const& __cordl_internal_get__directory() const;
+
+  constexpr ::StringW& __cordl_internal_get__directory();
+
+  constexpr int32_t const& __cordl_internal_get__frameNumber() const;
+
+  constexpr int32_t& __cordl_internal_get__frameNumber();
+
+  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer> const& __cordl_internal_get__playbackRenderer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer>& __cordl_internal_get__playbackRenderer();
+
+  constexpr void __cordl_internal_set__directory(::StringW value);
+
+  constexpr void __cordl_internal_set__frameNumber(int32_t value);
+
+  constexpr void __cordl_internal_set__playbackRenderer(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
+
+  /// @brief Method .ctor, addr 0x23f837c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_directory, addr 0x23f7f98, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_directory();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlaybackScreenshotRecorder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackScreenshotRecorder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlaybackScreenshotRecorder(PlaybackScreenshotRecorder&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlaybackScreenshotRecorder(PlaybackScreenshotRecorder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlaybackScreenshotRecorder();
-
-public:
   /// @brief Field _directory, offset: 0x18, size: 0x8, def value: None
   ::StringW ____directory;
 

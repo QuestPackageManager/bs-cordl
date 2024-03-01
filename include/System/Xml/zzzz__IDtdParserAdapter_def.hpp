@@ -38,93 +38,58 @@ MARK_REF_PTR_T(::System::Xml::IDtdParserAdapter);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11325))
 // CS Name: ::System.Xml::IDtdParserAdapter*
 class CORDL_TYPE IDtdParserAdapter {
 public:
   // Declarations
-  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
-
-  __declspec(property(get = get_NamespaceResolver))::System::Xml::IXmlNamespaceResolver* NamespaceResolver;
-
   __declspec(property(get = get_BaseUri))::System::Uri* BaseUri;
 
-  __declspec(property(get = get_ParsingBuffer))::ArrayW<char16_t, ::Array<char16_t>*> ParsingBuffer;
-
-  __declspec(property(get = get_ParsingBufferLength)) int32_t ParsingBufferLength;
-
   __declspec(property(get = get_CurrentPosition, put = set_CurrentPosition)) int32_t CurrentPosition;
-
-  __declspec(property(get = get_LineNo)) int32_t LineNo;
-
-  __declspec(property(get = get_LineStartPosition)) int32_t LineStartPosition;
-
-  __declspec(property(get = get_IsEof)) bool IsEof;
 
   __declspec(property(get = get_EntityStackLength)) int32_t EntityStackLength;
 
   __declspec(property(get = get_IsEntityEolNormalized)) bool IsEntityEolNormalized;
 
-  /// @brief Method get_NameTable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Xml::XmlNameTable* get_NameTable();
+  __declspec(property(get = get_IsEof)) bool IsEof;
 
-  /// @brief Method get_NamespaceResolver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Xml::IXmlNamespaceResolver* get_NamespaceResolver();
+  __declspec(property(get = get_LineNo)) int32_t LineNo;
 
-  /// @brief Method get_BaseUri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Uri* get_BaseUri();
+  __declspec(property(get = get_LineStartPosition)) int32_t LineStartPosition;
 
-  /// @brief Method get_ParsingBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<char16_t, ::Array<char16_t>*> get_ParsingBuffer();
+  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
 
-  /// @brief Method get_ParsingBufferLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_ParsingBufferLength();
+  __declspec(property(get = get_NamespaceResolver))::System::Xml::IXmlNamespaceResolver* NamespaceResolver;
 
-  /// @brief Method get_CurrentPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_CurrentPosition();
+  __declspec(property(get = get_ParsingBuffer))::ArrayW<char16_t, ::Array<char16_t>*> ParsingBuffer;
 
-  /// @brief Method set_CurrentPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_CurrentPosition(int32_t value);
-
-  /// @brief Method get_LineNo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_LineNo();
-
-  /// @brief Method get_LineStartPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_LineStartPosition();
-
-  /// @brief Method get_IsEof, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsEof();
-
-  /// @brief Method get_EntityStackLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_EntityStackLength();
-
-  /// @brief Method get_IsEntityEolNormalized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsEntityEolNormalized();
-
-  /// @brief Method ReadData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t ReadData();
+  __declspec(property(get = get_ParsingBufferLength)) int32_t ParsingBufferLength;
 
   /// @brief Method OnNewLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNewLine(int32_t pos);
 
-  /// @brief Method ParseNumericCharRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t ParseNumericCharRef(::System::Text::StringBuilder* internalSubsetBuilder);
+  /// @brief Method OnPublicId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnPublicId(::StringW publicId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo publicLiteralLineInfo);
 
-  /// @brief Method ParseNamedCharRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
-
-  /// @brief Method ParsePI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ParsePI(::System::Text::StringBuilder* sb);
+  /// @brief Method OnSystemId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnSystemId(::StringW systemId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo systemLiteralLineInfo);
 
   /// @brief Method ParseComment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ParseComment(::System::Text::StringBuilder* sb);
 
-  /// @brief Method PushEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool PushEntity(::System::Xml::IDtdEntityInfo* entity, ByRef<int32_t> entityId);
+  /// @brief Method ParseNamedCharRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t ParseNamedCharRef(bool expand, ::System::Text::StringBuilder* internalSubsetBuilder);
+
+  /// @brief Method ParseNumericCharRef, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t ParseNumericCharRef(::System::Text::StringBuilder* internalSubsetBuilder);
+
+  /// @brief Method ParsePI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ParsePI(::System::Text::StringBuilder* sb);
 
   /// @brief Method PopEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool PopEntity(ByRef<::System::Xml::IDtdEntityInfo*> oldEntity, ByRef<int32_t> newEntityId);
+
+  /// @brief Method PushEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool PushEntity(::System::Xml::IDtdEntityInfo* entity, ByRef<int32_t> entityId);
 
   /// @brief Method PushExternalSubset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool PushExternalSubset(::StringW systemId, ::StringW publicId);
@@ -132,14 +97,47 @@ public:
   /// @brief Method PushInternalDtd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PushInternalDtd(::StringW baseUri, ::StringW internalDtd);
 
-  /// @brief Method OnSystemId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnSystemId(::StringW systemId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo systemLiteralLineInfo);
-
-  /// @brief Method OnPublicId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnPublicId(::StringW publicId, ::System::Xml::LineInfo keywordLineInfo, ::System::Xml::LineInfo publicLiteralLineInfo);
+  /// @brief Method ReadData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t ReadData();
 
   /// @brief Method Throw, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Throw(::System::Exception* e);
+
+  /// @brief Method get_BaseUri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Uri* get_BaseUri();
+
+  /// @brief Method get_CurrentPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_CurrentPosition();
+
+  /// @brief Method get_EntityStackLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_EntityStackLength();
+
+  /// @brief Method get_IsEntityEolNormalized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsEntityEolNormalized();
+
+  /// @brief Method get_IsEof, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsEof();
+
+  /// @brief Method get_LineNo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_LineNo();
+
+  /// @brief Method get_LineStartPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_LineStartPosition();
+
+  /// @brief Method get_NameTable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Xml::XmlNameTable* get_NameTable();
+
+  /// @brief Method get_NamespaceResolver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Xml::IXmlNamespaceResolver* get_NamespaceResolver();
+
+  /// @brief Method get_ParsingBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<char16_t, ::Array<char16_t>*> get_ParsingBuffer();
+
+  /// @brief Method get_ParsingBufferLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_ParsingBufferLength();
+
+  /// @brief Method set_CurrentPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_CurrentPosition(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

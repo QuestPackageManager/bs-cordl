@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusLevelProductPacksSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10969))
 // CS Name: ::OculusLevelProductPacksSO*
 class CORDL_TYPE OculusLevelProductPacksSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -58,47 +56,53 @@ public:
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*,
                                                                          ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData*>*() noexcept;
 
-  /// @brief Convert to
-  /// "::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*,::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData*>"
-  constexpr ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*,
-                                                                ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData*>*
-  i___GlobalNamespace__ILevelPackProductDataContainer_2___GlobalNamespace____OculusLevelProductCollectionModel__LevelPackProductData____GlobalNamespace____OculusLevelProductCollectionModel__LevelProductData__() noexcept;
-
-  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*>&
-  __cordl_internal_get__levelPackProductsData();
-
-  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*> const&
-  __cordl_internal_get__levelPackProductsData() const;
-
-  constexpr void __cordl_internal_set__levelPackProductsData(
-      ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>*>&
-  __cordl_internal_get__levelPackRedirectionData();
-
-  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*,
-                     ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>*> const&
-  __cordl_internal_get__levelPackRedirectionData() const;
-
-  constexpr void __cordl_internal_set__levelPackRedirectionData(
-      ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
-
-  /// @brief Method get_levelPackProductsData, addr 0x12a5ffc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>* get_levelPackProductsData();
-
-  /// @brief Method get_levelPackRedirectionData, addr 0x12a6004, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>* get_levelPackRedirectionData();
-
-  /// @brief Method ILevelPackProductDataContainer<OculusLevelProductCollectionModel.LevelPackProductData,OculusLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x12a600c,
+  /// @brief Method ILevelPackProductDataContainer<OculusLevelProductCollectionModel.LevelPackProductData,OculusLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x12e7fdc,
   /// size 0x9c, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_OculusLevelProductCollectionModel_LevelPackProductData_OculusLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData* newLevelPackProductData);
 
   static inline ::GlobalNamespace::OculusLevelProductPacksSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a60a8, size 0xe4, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*> const&
+  __cordl_internal_get__levelPackProductsData() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*>&
+  __cordl_internal_get__levelPackProductsData();
+
+  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*,
+                     ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>*> const&
+  __cordl_internal_get__levelPackRedirectionData() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>*>&
+  __cordl_internal_get__levelPackRedirectionData();
+
+  constexpr void __cordl_internal_set__levelPackProductsData(
+      ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*> value);
+
+  constexpr void __cordl_internal_set__levelPackRedirectionData(
+      ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
+
+  /// @brief Method .ctor, addr 0x12e8078, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_levelPackProductsData, addr 0x12e7fcc, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>* get_levelPackProductsData();
+
+  /// @brief Method get_levelPackRedirectionData, addr 0x12e7fd4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData*>* get_levelPackRedirectionData();
+
+  /// @brief Convert to
+  /// "::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*,::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData*>"
+  constexpr ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*,
+                                                                ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData*>*
+  i___GlobalNamespace__ILevelPackProductDataContainer_2___GlobalNamespace____OculusLevelProductCollectionModel__LevelPackProductData____GlobalNamespace____OculusLevelProductCollectionModel__LevelProductData__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusLevelProductPacksSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusLevelProductPacksSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusLevelProductPacksSO(OculusLevelProductPacksSO&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusLevelProductPacksSO(OculusLevelProductPacksSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusLevelProductPacksSO();
-
-public:
   /// @brief Field _levelPackProductsData, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData*>*>
       ____levelPackProductsData;

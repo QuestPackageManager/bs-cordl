@@ -41,91 +41,47 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6639)), TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8851)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 4672 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6640)) CS Name:
-// ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
+// CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {
 public:
   // Declarations
+  /// @brief Field m_Allocator, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator))::UnityEngine::UIElements::UIRAtlasAllocator* m_Allocator;
+
+  /// @brief Field m_Convert, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Convert, put = __cordl_internal_set_m_Convert))::System::Func_2<::UnityEngine::Color, T>* m_Convert;
+
+  /// @brief Field m_Format, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Format, put = __cordl_internal_set_m_Format))::UnityEngine::TextureFormat m_Format;
+
   /// @brief Field m_InitialSize, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_InitialSize, put = __cordl_internal_set_m_InitialSize)) int32_t m_InitialSize;
 
   /// @brief Field m_MaxSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize)) int32_t m_MaxSize;
 
-  /// @brief Field m_Format, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Format, put = __cordl_internal_set_m_Format))::UnityEngine::TextureFormat m_Format;
-
-  /// @brief Field m_Convert, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Convert, put = __cordl_internal_set_m_Convert))::System::Func_2<::UnityEngine::Color, T>* m_Convert;
-
-  /// @brief Field m_Allocator, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator))::UnityEngine::UIElements::UIRAtlasAllocator* m_Allocator;
+  /// @brief Field m_Texels, offset 0x38, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Texels, put = __cordl_internal_set_m_Texels))::Unity::Collections::NativeArray_1<T> m_Texels;
 
   /// @brief Field m_Texture, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Texture, put = __cordl_internal_set_m_Texture))::UnityW<::UnityEngine::Texture2D> m_Texture;
 
-  /// @brief Field m_Texels, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Texels, put = __cordl_internal_set_m_Texels))::Unity::Collections::NativeArray_1<T> m_Texels;
-
   __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
-  constexpr int32_t& __cordl_internal_get_m_InitialSize();
+  /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);
 
-  constexpr int32_t const& __cordl_internal_get_m_InitialSize() const;
+  /// @brief Method CpuBlit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void CpuBlit(::Unity::Collections::NativeArray_1<T> src, int32_t srcWidth, int32_t srcHeight, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstWidth, int32_t dstHeight);
 
-  constexpr void __cordl_internal_set_m_InitialSize(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_MaxSize();
-
-  constexpr int32_t const& __cordl_internal_get_m_MaxSize() const;
-
-  constexpr void __cordl_internal_set_m_MaxSize(int32_t value);
-
-  constexpr ::UnityEngine::TextureFormat& __cordl_internal_get_m_Format();
-
-  constexpr ::UnityEngine::TextureFormat const& __cordl_internal_get_m_Format() const;
-
-  constexpr void __cordl_internal_set_m_Format(::UnityEngine::TextureFormat value);
-
-  constexpr ::System::Func_2<::UnityEngine::Color, T>*& __cordl_internal_get_m_Convert();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Color, T>*> const& __cordl_internal_get_m_Convert() const;
-
-  constexpr void __cordl_internal_set_m_Convert(::System::Func_2<::UnityEngine::Color, T>* value);
-
-  constexpr ::UnityEngine::UIElements::UIRAtlasAllocator*& __cordl_internal_get_m_Allocator();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIRAtlasAllocator*> const& __cordl_internal_get_m_Allocator() const;
-
-  constexpr void __cordl_internal_set_m_Allocator(::UnityEngine::UIElements::UIRAtlasAllocator* value);
-
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Texture();
-
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Texture() const;
-
-  constexpr void __cordl_internal_set_m_Texture(::UnityW<::UnityEngine::Texture2D> value);
-
-  constexpr ::Unity::Collections::NativeArray_1<T>& __cordl_internal_get_m_Texels();
-
-  constexpr ::Unity::Collections::NativeArray_1<T> const& __cordl_internal_get_m_Texels() const;
-
-  constexpr void __cordl_internal_set_m_Texels(::Unity::Collections::NativeArray_1<T> value);
-
-  static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>* New_ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize,
-                                                                                 int32_t maxSize);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize);
+  /// @brief Method CreateOrExpandTexture, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CreateOrExpandTexture();
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_texture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
-
-  /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);
+  static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>* New_ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize,
+                                                                                 int32_t maxSize);
 
   /// @brief Method SetTexel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetTexel(int32_t x, int32_t y, ::UnityEngine::Color color);
@@ -133,12 +89,60 @@ public:
   /// @brief Method UpdateTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateTexture();
 
-  /// @brief Method CreateOrExpandTexture, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CreateOrExpandTexture();
+  constexpr ::UnityEngine::UIElements::UIRAtlasAllocator*& __cordl_internal_get_m_Allocator();
 
-  /// @brief Method CpuBlit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void CpuBlit(::Unity::Collections::NativeArray_1<T> src, int32_t srcWidth, int32_t srcHeight, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstWidth, int32_t dstHeight);
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIRAtlasAllocator*> const& __cordl_internal_get_m_Allocator() const;
 
+  constexpr ::System::Func_2<::UnityEngine::Color, T>*& __cordl_internal_get_m_Convert();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Color, T>*> const& __cordl_internal_get_m_Convert() const;
+
+  constexpr ::UnityEngine::TextureFormat const& __cordl_internal_get_m_Format() const;
+
+  constexpr ::UnityEngine::TextureFormat& __cordl_internal_get_m_Format();
+
+  constexpr int32_t const& __cordl_internal_get_m_InitialSize() const;
+
+  constexpr int32_t& __cordl_internal_get_m_InitialSize();
+
+  constexpr int32_t const& __cordl_internal_get_m_MaxSize() const;
+
+  constexpr int32_t& __cordl_internal_get_m_MaxSize();
+
+  constexpr ::Unity::Collections::NativeArray_1<T> const& __cordl_internal_get_m_Texels() const;
+
+  constexpr ::Unity::Collections::NativeArray_1<T>& __cordl_internal_get_m_Texels();
+
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Texture() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Texture();
+
+  constexpr void __cordl_internal_set_m_Allocator(::UnityEngine::UIElements::UIRAtlasAllocator* value);
+
+  constexpr void __cordl_internal_set_m_Convert(::System::Func_2<::UnityEngine::Color, T>* value);
+
+  constexpr void __cordl_internal_set_m_Format(::UnityEngine::TextureFormat value);
+
+  constexpr void __cordl_internal_set_m_InitialSize(int32_t value);
+
+  constexpr void __cordl_internal_set_m_MaxSize(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Texels(::Unity::Collections::NativeArray_1<T> value);
+
+  constexpr void __cordl_internal_set_m_Texture(::UnityW<::UnityEngine::Texture2D> value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize);
+
+  /// @brief Method get_texture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShaderInfoStorage_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorage_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderInfoStorage_1(ShaderInfoStorage_1&&) = delete;
@@ -147,12 +151,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderInfoStorage_1(ShaderInfoStorage_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShaderInfoStorage_1();
-
-public:
   /// @brief Field m_InitialSize, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_InitialSize;
 

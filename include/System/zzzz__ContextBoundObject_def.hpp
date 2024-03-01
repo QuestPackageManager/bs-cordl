@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::ContextBoundObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2549))
 // CS Name: ::System::ContextBoundObject*
 class CORDL_TYPE ContextBoundObject : public ::System::MarshalByRefObject {
 public:
   // Declarations
   static inline ::System::ContextBoundObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ff4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ceb88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContextBoundObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextBoundObject(ContextBoundObject&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContextBoundObject(ContextBoundObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContextBoundObject();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

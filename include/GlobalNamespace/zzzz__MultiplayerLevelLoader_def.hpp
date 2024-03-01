@@ -54,8 +54,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelLoader);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4885))
 // CS Name: ::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState
 struct CORDL_TYPE __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState {
 public:
@@ -74,27 +72,32 @@ public:
     return static_cast<____MultiplayerLevelLoader__MultiplayerBeatmapLoaderState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NotLoading value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const NotLoading;
 
   /// @brief Field LoadingBeatmap value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const LoadingBeatmap;
 
+  /// @brief Field NotLoading value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const NotLoading;
+
   /// @brief Field WaitingForCountdown value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const WaitingForCountdown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -108,30 +111,20 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerB
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4885))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4886))
 // CS Name: ::MultiplayerLevelLoader*
 class CORDL_TYPE MultiplayerLevelLoader : public ::System::Object {
 public:
   // Declarations
   using MultiplayerBeatmapLoaderState = ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  /// @brief Field _beatmapLevelData, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData, put = __cordl_internal_set__beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData;
 
   /// @brief Field _beatmapLevelsModel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  /// @brief Field stillDownloadingSongEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_stillDownloadingSongEvent, put = __cordl_internal_set_stillDownloadingSongEvent))::System::Action* stillDownloadingSongEvent;
-
-  /// @brief Field countdownFinishedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_countdownFinishedEvent,
-                      put = __cordl_internal_set_countdownFinishedEvent))::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* countdownFinishedEvent;
-
-  /// @brief Field _loaderState, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__loaderState, put = __cordl_internal_set__loaderState))::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState _loaderState;
+  /// @brief Field _gameplaySetupData, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplaySetupData, put = __cordl_internal_set__gameplaySetupData))::GlobalNamespace::ILevelGameplaySetupData* _gameplaySetupData;
 
   /// @brief Field _getBeatmapCancellationTokenSource, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__getBeatmapCancellationTokenSource,
@@ -142,11 +135,12 @@ public:
       get = __cordl_internal_get__getBeatmapLevelResultTask,
       put = __cordl_internal_set__getBeatmapLevelResultTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>* _getBeatmapLevelResultTask;
 
-  /// @brief Field _gameplaySetupData, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplaySetupData, put = __cordl_internal_set__gameplaySetupData))::GlobalNamespace::ILevelGameplaySetupData* _gameplaySetupData;
+  /// @brief Field _loaderState, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__loaderState, put = __cordl_internal_set__loaderState))::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState _loaderState;
 
-  /// @brief Field _beatmapLevelData, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelData, put = __cordl_internal_set__beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData;
+  /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _startTime, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
@@ -154,109 +148,122 @@ public:
   /// @brief Field _stillDownloadingCalled, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__stillDownloadingCalled, put = __cordl_internal_set__stillDownloadingCalled)) bool _stillDownloadingCalled;
 
+  /// @brief Field countdownFinishedEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_countdownFinishedEvent,
+                      put = __cordl_internal_set_countdownFinishedEvent))::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* countdownFinishedEvent;
+
+  /// @brief Field stillDownloadingSongEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_stillDownloadingSongEvent, put = __cordl_internal_set_stillDownloadingSongEvent))::System::Action* stillDownloadingSongEvent;
+
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Convert to "::Zenject::ITickable"
-  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+  /// @brief Method ClearLoading, addr 0x23a9234, size 0x34, virtual false, abstract: false, final false
+  inline void ClearLoading();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  /// @brief Method LoadLevel, addr 0x23a90f4, size 0x138, virtual false, abstract: false, final false
+  inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  /// @brief Method SetNewStartTime, addr 0x23a922c, size 0x8, virtual false, abstract: false, final false
+  inline void SetNewStartTime(int64_t newStartTime);
+
+  /// @brief Method Tick, addr 0x23a9268, size 0x1f4, virtual true, abstract: false, final true
+  inline void Tick();
+
+  constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr ::GlobalNamespace::ILevelGameplaySetupData*& __cordl_internal_get__gameplaySetupData();
 
-  constexpr ::System::Action*& __cordl_internal_get_stillDownloadingSongEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_stillDownloadingSongEvent() const;
-
-  constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*& __cordl_internal_get_countdownFinishedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*> const&
-  __cordl_internal_get_countdownFinishedEvent() const;
-
-  constexpr void __cordl_internal_set_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
-
-  constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& __cordl_internal_get__loaderState();
-
-  constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const& __cordl_internal_get__loaderState() const;
-
-  constexpr void __cordl_internal_set__loaderState(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelGameplaySetupData*> const& __cordl_internal_get__gameplaySetupData() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__getBeatmapCancellationTokenSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__getBeatmapCancellationTokenSource() const;
-
-  constexpr void __cordl_internal_set__getBeatmapCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>*& __cordl_internal_get__getBeatmapLevelResultTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>*> const&
   __cordl_internal_get__getBeatmapLevelResultTask() const;
 
-  constexpr void __cordl_internal_set__getBeatmapLevelResultTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>* value);
+  constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const& __cordl_internal_get__loaderState() const;
 
-  constexpr ::GlobalNamespace::ILevelGameplaySetupData*& __cordl_internal_get__gameplaySetupData();
+  constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& __cordl_internal_get__loaderState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelGameplaySetupData*> const& __cordl_internal_get__gameplaySetupData() const;
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr void __cordl_internal_set__gameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* value);
-
-  constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData() const;
-
-  constexpr void __cordl_internal_set__beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
-
-  constexpr int64_t& __cordl_internal_get__startTime();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr int64_t const& __cordl_internal_get__startTime() const;
 
-  constexpr void __cordl_internal_set__startTime(int64_t value);
-
-  constexpr bool& __cordl_internal_get__stillDownloadingCalled();
+  constexpr int64_t& __cordl_internal_get__startTime();
 
   constexpr bool const& __cordl_internal_get__stillDownloadingCalled() const;
 
+  constexpr bool& __cordl_internal_get__stillDownloadingCalled();
+
+  constexpr ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*& __cordl_internal_get_countdownFinishedEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*> const&
+  __cordl_internal_get_countdownFinishedEvent() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_stillDownloadingSongEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_stillDownloadingSongEvent() const;
+
+  constexpr void __cordl_internal_set__beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
+
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+
+  constexpr void __cordl_internal_set__gameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* value);
+
+  constexpr void __cordl_internal_set__getBeatmapCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+
+  constexpr void __cordl_internal_set__getBeatmapLevelResultTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult>* value);
+
+  constexpr void __cordl_internal_set__loaderState(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+
+  constexpr void __cordl_internal_set__startTime(int64_t value);
+
   constexpr void __cordl_internal_set__stillDownloadingCalled(bool value);
 
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x22da1a8, size 0x9c, virtual false, abstract: false, final false
-  inline void add_stillDownloadingSongEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x22da244, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_stillDownloadingSongEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method add_countdownFinishedEvent, addr 0x22da2e0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
-
-  /// @brief Method remove_countdownFinishedEvent, addr 0x22da390, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
-
-  /// @brief Method LoadLevel, addr 0x22da440, size 0x138, virtual false, abstract: false, final false
-  inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
-
-  /// @brief Method SetNewStartTime, addr 0x22da578, size 0x8, virtual false, abstract: false, final false
-  inline void SetNewStartTime(int64_t newStartTime);
-
-  /// @brief Method ClearLoading, addr 0x22da580, size 0x34, virtual false, abstract: false, final false
-  inline void ClearLoading();
-
-  /// @brief Method Tick, addr 0x22da5b4, size 0x1f4, virtual true, abstract: false, final true
-  inline void Tick();
-
-  static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22da7a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a945c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_countdownFinishedEvent, addr 0x23a8f94, size 0xb0, virtual false, abstract: false, final false
+  inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
+
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x23a8e5c, size 0x9c, virtual false, abstract: false, final false
+  inline void add_stillDownloadingSongEvent(::System::Action* value);
+
+  /// @brief Convert to "::Zenject::ITickable"
+  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+
+  /// @brief Method remove_countdownFinishedEvent, addr 0x23a9044, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
+
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x23a8ef8, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_stillDownloadingSongEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLevelLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelLoader(MultiplayerLevelLoader&&) = delete;
@@ -265,12 +272,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLevelLoader(MultiplayerLevelLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLevelLoader();
-
-public:
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 

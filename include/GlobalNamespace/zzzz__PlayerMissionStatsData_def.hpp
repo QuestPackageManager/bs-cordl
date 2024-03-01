@@ -15,48 +15,52 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerMissionStatsData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11051))
 // CS Name: ::PlayerMissionStatsData*
 class CORDL_TYPE PlayerMissionStatsData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _missionId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionId, put = __cordl_internal_set__missionId))::StringW _missionId;
-
   /// @brief Field _cleared, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__cleared, put = __cordl_internal_set__cleared)) bool _cleared;
 
-  __declspec(property(get = get_missionId))::StringW missionId;
+  /// @brief Field _missionId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionId, put = __cordl_internal_set__missionId))::StringW _missionId;
 
   __declspec(property(get = get_cleared, put = set_cleared)) bool cleared;
 
-  constexpr ::StringW& __cordl_internal_get__missionId();
-
-  constexpr ::StringW const& __cordl_internal_get__missionId() const;
-
-  constexpr void __cordl_internal_set__missionId(::StringW value);
-
-  constexpr bool& __cordl_internal_get__cleared();
-
-  constexpr bool const& __cordl_internal_get__cleared() const;
-
-  constexpr void __cordl_internal_set__cleared(bool value);
-
-  /// @brief Method get_missionId, addr 0x12b5a1c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_missionId();
-
-  /// @brief Method get_cleared, addr 0x12b5a24, size 0x8, virtual false, abstract: false, final false
-  inline bool get_cleared();
-
-  /// @brief Method set_cleared, addr 0x12b5a2c, size 0xc, virtual false, abstract: false, final false
-  inline void set_cleared(bool value);
+  __declspec(property(get = get_missionId))::StringW missionId;
 
   static inline ::GlobalNamespace::PlayerMissionStatsData* New_ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method .ctor, addr 0x12b0714, size 0x30, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__cleared() const;
+
+  constexpr bool& __cordl_internal_get__cleared();
+
+  constexpr ::StringW const& __cordl_internal_get__missionId() const;
+
+  constexpr ::StringW& __cordl_internal_get__missionId();
+
+  constexpr void __cordl_internal_set__cleared(bool value);
+
+  constexpr void __cordl_internal_set__missionId(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12f16e4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW missionId, bool cleared);
 
+  /// @brief Method get_cleared, addr 0x12f69f4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_cleared();
+
+  /// @brief Method get_missionId, addr 0x12f69ec, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_missionId();
+
+  /// @brief Method set_cleared, addr 0x12f69fc, size 0xc, virtual false, abstract: false, final false
+  inline void set_cleared(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerMissionStatsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerMissionStatsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerMissionStatsData(PlayerMissionStatsData&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerMissionStatsData(PlayerMissionStatsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerMissionStatsData();
-
-public:
   /// @brief Field _missionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____missionId;
 

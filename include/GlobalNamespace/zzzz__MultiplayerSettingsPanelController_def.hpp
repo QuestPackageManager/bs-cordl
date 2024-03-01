@@ -36,26 +36,12 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerSettingsPanelController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4943))
 // CS Name: ::MultiplayerSettingsPanelController*
 class CORDL_TYPE MultiplayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _serverCodeView, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverCodeView, put = __cordl_internal_set__serverCodeView))::UnityW<::GlobalNamespace::ServerCodeView> _serverCodeView;
-
-  /// @brief Field _spectateToggle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__spectateToggle, put = __cordl_internal_set__spectateToggle))::UnityW<::UnityEngine::UI::Toggle> _spectateToggle;
-
   /// @brief Field _connectionSettingsWrapper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__connectionSettingsWrapper, put = __cordl_internal_set__connectionSettingsWrapper))::UnityW<::UnityEngine::GameObject> _connectionSettingsWrapper;
-
-  /// @brief Field _spectateSettingsWrapper, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__spectateSettingsWrapper, put = __cordl_internal_set__spectateSettingsWrapper))::UnityW<::UnityEngine::GameObject> _spectateSettingsWrapper;
-
-  /// @brief Field _toggleBinder, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _lobbyPlayerData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyPlayerData, put = __cordl_internal_set__lobbyPlayerData))::GlobalNamespace::ILobbyPlayerData* _lobbyPlayerData;
@@ -63,101 +49,119 @@ public:
   /// @brief Field _refreshed, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__refreshed, put = __cordl_internal_set__refreshed)) bool _refreshed;
 
+  /// @brief Field _serverCodeView, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__serverCodeView, put = __cordl_internal_set__serverCodeView))::UnityW<::GlobalNamespace::ServerCodeView> _serverCodeView;
+
+  /// @brief Field _spectateSettingsWrapper, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__spectateSettingsWrapper, put = __cordl_internal_set__spectateSettingsWrapper))::UnityW<::UnityEngine::GameObject> _spectateSettingsWrapper;
+
+  /// @brief Field _spectateToggle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__spectateToggle, put = __cordl_internal_set__spectateToggle))::UnityW<::UnityEngine::UI::Toggle> _spectateToggle;
+
+  /// @brief Field _toggleBinder, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+
   /// @brief Field playerActiveStateChangedEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IRefreshable"
-  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
+  /// @brief Method Awake, addr 0x23b540c, size 0xc4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::GlobalNamespace::ServerCodeView>& __cordl_internal_get__serverCodeView();
+  /// @brief Method HideConnectionSettings, addr 0x23b53a8, size 0x24, virtual false, abstract: false, final false
+  inline void HideConnectionSettings(bool hide);
 
-  constexpr ::UnityW<::GlobalNamespace::ServerCodeView> const& __cordl_internal_get__serverCodeView() const;
+  /// @brief Method HideSpectateSettings, addr 0x23b53cc, size 0x24, virtual false, abstract: false, final false
+  inline void HideSpectateSettings(bool hide);
 
-  constexpr void __cordl_internal_set__serverCodeView(::UnityW<::GlobalNamespace::ServerCodeView> value);
+  static inline ::GlobalNamespace::MultiplayerSettingsPanelController* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
+  /// @brief Method OnDestroy, addr 0x23b54d0, size 0x14, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__spectateToggle() const;
+  /// @brief Method Refresh, addr 0x23b529c, size 0x10c, virtual true, abstract: false, final true
+  inline void Refresh();
 
-  constexpr void __cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+  /// @brief Method SetLobbyCode, addr 0x23b53f0, size 0x1c, virtual false, abstract: false, final false
+  inline void SetLobbyCode(::StringW code);
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectionSettingsWrapper();
+  /// @brief Method SetLobbyPlayerDataModel, addr 0x23b5290, size 0xc, virtual false, abstract: false, final false
+  inline void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
+
+  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x23b54e4, size 0x24, virtual false, abstract: false, final false
+  inline void UpdateLocalPlayerIsActiveState(bool isActive);
+
+  /// @brief Method <Awake>b__14_0, addr 0x23b5510, size 0x24, virtual false, abstract: false, final false
+  inline void _Awake_b__14_0(bool on);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionSettingsWrapper() const;
 
-  constexpr void __cordl_internal_set__connectionSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__spectateSettingsWrapper();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__spectateSettingsWrapper() const;
-
-  constexpr void __cordl_internal_set__spectateSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
-
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectionSettingsWrapper();
 
   constexpr ::GlobalNamespace::ILobbyPlayerData*& __cordl_internal_get__lobbyPlayerData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayerData*> const& __cordl_internal_get__lobbyPlayerData() const;
 
-  constexpr void __cordl_internal_set__lobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* value);
+  constexpr bool const& __cordl_internal_get__refreshed() const;
 
   constexpr bool& __cordl_internal_get__refreshed();
 
-  constexpr bool const& __cordl_internal_get__refreshed() const;
+  constexpr ::UnityW<::GlobalNamespace::ServerCodeView> const& __cordl_internal_get__serverCodeView() const;
 
-  constexpr void __cordl_internal_set__refreshed(bool value);
+  constexpr ::UnityW<::GlobalNamespace::ServerCodeView>& __cordl_internal_get__serverCodeView();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__spectateSettingsWrapper() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__spectateSettingsWrapper();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__spectateToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
+
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
+  constexpr void __cordl_internal_set__connectionSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__lobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* value);
+
+  constexpr void __cordl_internal_set__refreshed(bool value);
+
+  constexpr void __cordl_internal_set__serverCodeView(::UnityW<::GlobalNamespace::ServerCodeView> value);
+
+  constexpr void __cordl_internal_set__spectateSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+
   constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method add_playerActiveStateChangedEvent, addr 0x22e647c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
-
-  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x22e652c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
-
-  /// @brief Method SetLobbyPlayerDataModel, addr 0x22e65dc, size 0xc, virtual false, abstract: false, final false
-  inline void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
-
-  /// @brief Method HideConnectionSettings, addr 0x22e66f4, size 0x24, virtual false, abstract: false, final false
-  inline void HideConnectionSettings(bool hide);
-
-  /// @brief Method HideSpectateSettings, addr 0x22e6718, size 0x24, virtual false, abstract: false, final false
-  inline void HideSpectateSettings(bool hide);
-
-  /// @brief Method SetLobbyCode, addr 0x22e673c, size 0x1c, virtual false, abstract: false, final false
-  inline void SetLobbyCode(::StringW code);
-
-  /// @brief Method Awake, addr 0x22e6758, size 0xc4, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0x22e681c, size 0x14, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x22e6830, size 0x24, virtual false, abstract: false, final false
-  inline void UpdateLocalPlayerIsActiveState(bool isActive);
-
-  /// @brief Method Refresh, addr 0x22e65e8, size 0x10c, virtual true, abstract: false, final true
-  inline void Refresh();
-
-  static inline ::GlobalNamespace::MultiplayerSettingsPanelController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22e6854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b5508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__14_0, addr 0x22e685c, size 0x24, virtual false, abstract: false, final false
-  inline void _Awake_b__14_0(bool on);
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x23b5130, size 0xb0, virtual false, abstract: false, final false
+  inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
+  /// @brief Convert to "::GlobalNamespace::IRefreshable"
+  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
+
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x23b51e0, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerSettingsPanelController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerSettingsPanelController(MultiplayerSettingsPanelController&&) = delete;
@@ -166,12 +170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerSettingsPanelController(MultiplayerSettingsPanelController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerSettingsPanelController();
-
-public:
   /// @brief Field _serverCodeView, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ServerCodeView> ____serverCodeView;
 

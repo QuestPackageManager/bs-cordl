@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceResetEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5789))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5783))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceResetEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE DeviceResetEvent {
@@ -44,34 +42,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
+  /// @brief Method Create, addr 0x2bd08d0, size 0xbc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset, double_t time);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
-
-  constexpr bool& __cordl_internal_get_hardReset();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
   constexpr bool const& __cordl_internal_get_hardReset() const;
 
+  constexpr bool& __cordl_internal_get_hardReset();
+
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+
   constexpr void __cordl_internal_set_hardReset(bool value);
 
-  /// @brief Method get_typeStatic, addr 0x2aeb7dc, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bd08b0, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2aeb7fc, size 0xbc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset, double_t time);
-
-  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "hardReset", ty: "bool", modifiers: "",
-  // def_value: None }]
-  constexpr DeviceResetEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, bool hardReset) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DeviceResetEvent();
+
+  // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "hardReset", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr DeviceResetEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, bool hardReset) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -107,11 +105,11 @@ private:
   };
 
 public:
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   /// @brief Field Type offset 0xffffffff size 0x4
   static constexpr int32_t Type{ static_cast<int32_t>(0x44525354) };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

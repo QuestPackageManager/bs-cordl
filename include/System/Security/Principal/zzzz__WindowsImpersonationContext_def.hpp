@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Security::Principal::WindowsImpersonationContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3007))
 // CS Name: ::System.Security.Principal::WindowsImpersonationContext*
 class CORDL_TYPE WindowsImpersonationContext : public ::System::Object {
 public:
@@ -34,44 +32,50 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method CloseToken, addr 0x256f4dc, size 0x4, virtual false, abstract: false, final false
+  static inline bool CloseToken(void* token);
 
-  constexpr void*& __cordl_internal_get__token();
+  /// @brief Method Dispose, addr 0x256f404, size 0x10, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void* const& __cordl_internal_get__token() const;
-
-  constexpr void __cordl_internal_set__token(void* value);
-
-  constexpr bool& __cordl_internal_get_undo();
-
-  constexpr bool const& __cordl_internal_get_undo() const;
-
-  constexpr void __cordl_internal_set_undo(bool value);
+  /// @brief Method DuplicateToken, addr 0x256f3fc, size 0x4, virtual false, abstract: false, final false
+  static inline void* DuplicateToken(void* token);
 
   static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(void* token);
 
-  /// @brief Method .ctor, addr 0x249d000, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(void* token);
-
-  /// @brief Method Dispose, addr 0x249d70c, size 0x10, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Undo, addr 0x249d71c, size 0xc4, virtual false, abstract: false, final false
-  inline void Undo();
-
-  /// @brief Method CloseToken, addr 0x249d7e4, size 0x4, virtual false, abstract: false, final false
-  static inline bool CloseToken(void* token);
-
-  /// @brief Method DuplicateToken, addr 0x249d704, size 0x4, virtual false, abstract: false, final false
-  static inline void* DuplicateToken(void* token);
-
-  /// @brief Method SetCurrentToken, addr 0x249d708, size 0x4, virtual false, abstract: false, final false
-  static inline bool SetCurrentToken(void* token);
-
-  /// @brief Method RevertToSelf, addr 0x249d7e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevertToSelf, addr 0x256f4d8, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
+  /// @brief Method SetCurrentToken, addr 0x256f400, size 0x4, virtual false, abstract: false, final false
+  static inline bool SetCurrentToken(void* token);
+
+  /// @brief Method Undo, addr 0x256f414, size 0xc4, virtual false, abstract: false, final false
+  inline void Undo();
+
+  constexpr void* const& __cordl_internal_get__token() const;
+
+  constexpr void*& __cordl_internal_get__token();
+
+  constexpr bool const& __cordl_internal_get_undo() const;
+
+  constexpr bool& __cordl_internal_get_undo();
+
+  constexpr void __cordl_internal_set__token(void* value);
+
+  constexpr void __cordl_internal_set_undo(bool value);
+
+  /// @brief Method .ctor, addr 0x256ecf8, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(void* token);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WindowsImpersonationContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsImpersonationContext(WindowsImpersonationContext&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WindowsImpersonationContext(WindowsImpersonationContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WindowsImpersonationContext();
-
-public:
   /// @brief Field _token, offset: 0x10, size: 0x8, def value: None
   void* ____token;
 

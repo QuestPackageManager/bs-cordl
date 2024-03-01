@@ -23,17 +23,19 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKControllerState);
 // SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14982)), TypeDefinitionIndex(TypeDefinitionIndex(14983))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14994))
 // CS Name: ::LIV.SDK.Unity::SDKControllerState
 struct CORDL_TYPE SDKControllerState {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22ab86c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2377f20, size 0x368, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method get_empty, addr 0x2377ed4, size 0x4c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKControllerState get_empty();
 
-  /// @brief Method ToString, addr 0x22ab8b8, size 0x368, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKControllerState();
 
   // Ctor Parameters [CppParam { name: "hmdposition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "hmdrotation", ty: "::LIV::SDK::Unity::SDKQuaternion",
   // modifiers: "", def_value: None }, CppParam { name: "calibrationcameraposition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name:
@@ -45,10 +47,6 @@ public:
                                ::LIV::SDK::Unity::SDKQuaternion calibrationcamerarotation, ::LIV::SDK::Unity::SDKVector3 cameraposition, ::LIV::SDK::Unity::SDKQuaternion camerarotation,
                                ::LIV::SDK::Unity::SDKVector3 leftposition, ::LIV::SDK::Unity::SDKQuaternion leftrotation, ::LIV::SDK::Unity::SDKVector3 rightposition,
                                ::LIV::SDK::Unity::SDKQuaternion rightrotation) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKControllerState();
 
   /// @brief Field hmdposition, offset: 0x0, size: 0xc, def value: None
   ::LIV::SDK::Unity::SDKVector3 hmdposition;

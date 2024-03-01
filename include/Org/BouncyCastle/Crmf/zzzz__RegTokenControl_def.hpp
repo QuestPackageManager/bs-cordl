@@ -27,27 +27,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::RegTokenControl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(713))
 // CS Name: ::Org.BouncyCastle.Crmf::RegTokenControl*
 class CORDL_TYPE RegTokenControl : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
+
+  __declspec(property(get = get_Value))::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
+
   /// @brief Field token, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token))::Org::BouncyCastle::Asn1::DerUtf8String* token;
 
   /// @brief Field type, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_type, put = setStaticF_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
 
-  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
-
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
   constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
-  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
+  static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
+
+  static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::StringW token);
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_token();
 
@@ -55,26 +54,31 @@ public:
 
   constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
-  static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Method .ctor, addr 0x127f0f0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
+
+  /// @brief Method .ctor, addr 0x1283e20, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW token);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
-
-  /// @brief Method .ctor, addr 0x123b120, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
-
-  static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::StringW token);
-
-  /// @brief Method .ctor, addr 0x123fe50, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW token);
-
-  /// @brief Method get_Type, addr 0x123fecc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x1283e9c, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x123ff24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x1283ef4, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
+  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
+
+  static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RegTokenControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RegTokenControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegTokenControl(RegTokenControl&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RegTokenControl(RegTokenControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegTokenControl();
-
-public:
   /// @brief Field token, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerUtf8String* ___token;
 

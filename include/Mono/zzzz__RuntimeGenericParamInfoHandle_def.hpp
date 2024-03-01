@@ -25,37 +25,35 @@ MARK_VAL_T(::Mono::RuntimeGenericParamInfoHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2230))
 // CS Name: ::Mono::RuntimeGenericParamInfoHandle
 struct CORDL_TYPE RuntimeGenericParamInfoHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Constraints))::ArrayW<::System::Type*, ::Array<::System::Type*>*> Constraints;
-
   __declspec(property(get = get_Attributes))::System::Reflection::GenericParameterAttributes Attributes;
 
-  /// @brief Method .ctor, addr 0x24324d8, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  __declspec(property(get = get_Constraints))::ArrayW<::System::Type*, ::Array<::System::Type*>*> Constraints;
 
-  /// @brief Method get_Constraints, addr 0x24324f8, size 0x4, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_Constraints();
-
-  /// @brief Method get_Attributes, addr 0x2432628, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Reflection::GenericParameterAttributes get_Attributes();
-
-  /// @brief Method GetConstraints, addr 0x24324fc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetConstraints, addr 0x25031f4, size 0x12c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetConstraints();
 
-  /// @brief Method GetConstraintsCount, addr 0x2432644, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetConstraintsCount, addr 0x250333c, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetConstraintsCount();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo>", modifiers: "", def_value: None }]
-  constexpr RuntimeGenericParamInfoHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo> value) noexcept;
+  /// @brief Method .ctor, addr 0x25031d0, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(void* ptr);
+
+  /// @brief Method get_Attributes, addr 0x2503320, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Reflection::GenericParameterAttributes get_Attributes();
+
+  /// @brief Method get_Constraints, addr 0x25031f0, size 0x4, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_Constraints();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeGenericParamInfoHandle();
+
+  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo>", modifiers: "", def_value: None }]
+  constexpr RuntimeGenericParamInfoHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo> value) noexcept;
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo> value;

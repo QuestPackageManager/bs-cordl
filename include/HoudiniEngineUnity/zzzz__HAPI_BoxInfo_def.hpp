@@ -16,22 +16,20 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_BoxInfo);
 // SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9542))
 // CS Name: ::HoudiniEngineUnity::HAPI_BoxInfo
 struct CORDL_TYPE HAPI_BoxInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2226794, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f3dfc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
-
-  // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "::ArrayW<float_t,::Array<float_t>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }]
-  constexpr HAPI_BoxInfo(::ArrayW<float_t, ::Array<float_t>*> center, ::ArrayW<float_t, ::Array<float_t>*> size, ::ArrayW<float_t, ::Array<float_t>*> rotation) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_BoxInfo();
+
+  // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "::ArrayW<float_t,::Array<float_t>*>",
+  // modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }]
+  constexpr HAPI_BoxInfo(::ArrayW<float_t, ::Array<float_t>*> center, ::ArrayW<float_t, ::Array<float_t>*> size, ::ArrayW<float_t, ::Array<float_t>*> rotation) noexcept;
 
   /// @brief Field center, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> center;

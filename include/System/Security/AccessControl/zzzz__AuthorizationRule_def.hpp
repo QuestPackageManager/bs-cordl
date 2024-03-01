@@ -26,70 +26,74 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRule);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3038)), TypeDefinitionIndex(TypeDefinitionIndex(3045))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3021))
 // CS Name: ::System.Security.AccessControl::AuthorizationRule*
 class CORDL_TYPE AuthorizationRule : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field identity, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_identity, put = __cordl_internal_set_identity))::System::Security::Principal::IdentityReference* identity;
+  __declspec(property(get = get_AccessMask)) int32_t AccessMask;
 
   /// @brief Field accessMask, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_accessMask, put = __cordl_internal_set_accessMask)) int32_t accessMask;
 
-  /// @brief Field isInherited, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_isInherited, put = __cordl_internal_set_isInherited)) bool isInherited;
+  /// @brief Field identity, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_identity, put = __cordl_internal_set_identity))::System::Security::Principal::IdentityReference* identity;
 
   /// @brief Field inheritanceFlags, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_inheritanceFlags, put = __cordl_internal_set_inheritanceFlags))::System::Security::AccessControl::InheritanceFlags inheritanceFlags;
 
+  /// @brief Field isInherited, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get_isInherited, put = __cordl_internal_set_isInherited)) bool isInherited;
+
   /// @brief Field propagationFlags, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_propagationFlags, put = __cordl_internal_set_propagationFlags))::System::Security::AccessControl::PropagationFlags propagationFlags;
-
-  __declspec(property(get = get_AccessMask)) int32_t AccessMask;
-
-  constexpr ::System::Security::Principal::IdentityReference*& __cordl_internal_get_identity();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IdentityReference*> const& __cordl_internal_get_identity() const;
-
-  constexpr void __cordl_internal_set_identity(::System::Security::Principal::IdentityReference* value);
-
-  constexpr int32_t& __cordl_internal_get_accessMask();
-
-  constexpr int32_t const& __cordl_internal_get_accessMask() const;
-
-  constexpr void __cordl_internal_set_accessMask(int32_t value);
-
-  constexpr bool& __cordl_internal_get_isInherited();
-
-  constexpr bool const& __cordl_internal_get_isInherited() const;
-
-  constexpr void __cordl_internal_set_isInherited(bool value);
-
-  constexpr ::System::Security::AccessControl::InheritanceFlags& __cordl_internal_get_inheritanceFlags();
-
-  constexpr ::System::Security::AccessControl::InheritanceFlags const& __cordl_internal_get_inheritanceFlags() const;
-
-  constexpr void __cordl_internal_set_inheritanceFlags(::System::Security::AccessControl::InheritanceFlags value);
-
-  constexpr ::System::Security::AccessControl::PropagationFlags& __cordl_internal_get_propagationFlags();
-
-  constexpr ::System::Security::AccessControl::PropagationFlags const& __cordl_internal_get_propagationFlags() const;
-
-  constexpr void __cordl_internal_set_propagationFlags(::System::Security::AccessControl::PropagationFlags value);
 
   static inline ::System::Security::AccessControl::AuthorizationRule* New_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited,
                                                                                ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                                ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method .ctor, addr 0x24a27e4, size 0x19c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_accessMask() const;
+
+  constexpr int32_t& __cordl_internal_get_accessMask();
+
+  constexpr ::System::Security::Principal::IdentityReference*& __cordl_internal_get_identity();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IdentityReference*> const& __cordl_internal_get_identity() const;
+
+  constexpr ::System::Security::AccessControl::InheritanceFlags const& __cordl_internal_get_inheritanceFlags() const;
+
+  constexpr ::System::Security::AccessControl::InheritanceFlags& __cordl_internal_get_inheritanceFlags();
+
+  constexpr bool const& __cordl_internal_get_isInherited() const;
+
+  constexpr bool& __cordl_internal_get_isInherited();
+
+  constexpr ::System::Security::AccessControl::PropagationFlags const& __cordl_internal_get_propagationFlags() const;
+
+  constexpr ::System::Security::AccessControl::PropagationFlags& __cordl_internal_get_propagationFlags();
+
+  constexpr void __cordl_internal_set_accessMask(int32_t value);
+
+  constexpr void __cordl_internal_set_identity(::System::Security::Principal::IdentityReference* value);
+
+  constexpr void __cordl_internal_set_inheritanceFlags(::System::Security::AccessControl::InheritanceFlags value);
+
+  constexpr void __cordl_internal_set_isInherited(bool value);
+
+  constexpr void __cordl_internal_set_propagationFlags(::System::Security::AccessControl::PropagationFlags value);
+
+  /// @brief Method .ctor, addr 0x25744dc, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method get_AccessMask, addr 0x24a2a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x257474c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AuthorizationRule();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRule", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthorizationRule(AuthorizationRule&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthorizationRule(AuthorizationRule const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthorizationRule();
-
-public:
   /// @brief Field identity, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Principal::IdentityReference* ___identity;
 

@@ -31,34 +31,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1707))
 // CS Name: ::Org.BouncyCastle.Pkcs::PrivateKeyInfoFactory*
 class CORDL_TYPE PrivateKeyInfoFactory : public ::System::Object {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1115130, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CreatePrivateKeyInfo, addr 0x1115138, size 0x8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
-
-  /// @brief Method CreatePrivateKeyInfo, addr 0x1115140, size 0xfa8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
-
-  /// @brief Method CreatePrivateKeyInfo, addr 0x11161f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x11591c4, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
                                                                                       ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
 
-  /// @brief Method CreatePrivateKeyInfo, addr 0x1116200, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x11591d0, size 0x21c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool wrongPkcs12Zero,
                                                                                       ::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
 
-  /// @brief Method ExtractBytes, addr 0x11160e8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CreatePrivateKeyInfo, addr 0x1158108, size 0x8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
+
+  /// @brief Method CreatePrivateKeyInfo, addr 0x1158110, size 0xfa8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
+
+  /// @brief Method ExtractBytes, addr 0x11590b8, size 0x10c, virtual false, abstract: false, final false
   static inline void ExtractBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encKey, int32_t size, int32_t offSet, ::Org::BouncyCastle::Math::BigInteger* bI);
 
+  static inline ::Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory* New_ctor();
+
+  /// @brief Method .ctor, addr 0x1158100, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrivateKeyInfoFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrivateKeyInfoFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrivateKeyInfoFactory(PrivateKeyInfoFactory&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrivateKeyInfoFactory(PrivateKeyInfoFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrivateKeyInfoFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

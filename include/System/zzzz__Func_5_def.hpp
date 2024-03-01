@@ -20,20 +20,24 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2335))
 // CS Name: ::System::Func`5<T1,T2,T3,T4,TResult>*
 class CORDL_TYPE Func_5 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TResult Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
+
   static inline ::System::Func_5<T1, T2, T3, T4, TResult>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TResult Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Func_5();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Func_5", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Func_5(Func_5&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Func_5(Func_5 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Func_5();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4463))
 // CS Name: ::MultiplayerConnectedPlayerIntroAnimator*
 class CORDL_TYPE MultiplayerConnectedPlayerIntroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _introPlayableDirector, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__introPlayableDirector, put = __cordl_internal_set__introPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _introPlayableDirector;
 
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__introPlayableDirector();
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* New_ctor();
+
+  /// @brief Method SetBeforeIntroValues, addr 0x245efdc, size 0x1c, virtual false, abstract: false, final false
+  inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
 
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__introPlayableDirector();
+
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method SetBeforeIntroValues, addr 0x2390094, size 0x1c, virtual false, abstract: false, final false
-  inline void SetBeforeIntroValues();
-
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23900b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245eff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerIntroAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerIntroAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerIntroAnimator(MultiplayerConnectedPlayerIntroAnimator&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerIntroAnimator(MultiplayerConnectedPlayerIntroAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerIntroAnimator();
-
-public:
   /// @brief Field _introPlayableDirector, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;
 

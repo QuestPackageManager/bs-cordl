@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::Bson::BsonType);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11980))
 // CS Name: ::Newtonsoft.Json.Bson::BsonType
 struct CORDL_TYPE BsonType {
 public:
@@ -52,27 +50,20 @@ public:
     return static_cast<__BsonType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
-  constexpr BsonType(int8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int8_t() const noexcept {
+    return static_cast<int8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BsonType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
+  constexpr BsonType(int8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   int8_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
-
-  /// @brief Field Number value: static_cast<int8_t>(0x1)
-  static ::Newtonsoft::Json::Bson::BsonType const Number;
-
-  /// @brief Field String value: static_cast<int8_t>(0x2)
-  static ::Newtonsoft::Json::Bson::BsonType const String;
-
-  /// @brief Field Object value: static_cast<int8_t>(0x3)
-  static ::Newtonsoft::Json::Bson::BsonType const Object;
 
   /// @brief Field Array value: static_cast<int8_t>(0x4)
   static ::Newtonsoft::Json::Bson::BsonType const Array;
@@ -80,50 +71,62 @@ public:
   /// @brief Field Binary value: static_cast<int8_t>(0x5)
   static ::Newtonsoft::Json::Bson::BsonType const Binary;
 
-  /// @brief Field Undefined value: static_cast<int8_t>(0x6)
-  static ::Newtonsoft::Json::Bson::BsonType const Undefined;
-
-  /// @brief Field Oid value: static_cast<int8_t>(0x7)
-  static ::Newtonsoft::Json::Bson::BsonType const Oid;
-
   /// @brief Field Boolean value: static_cast<int8_t>(0x8)
   static ::Newtonsoft::Json::Bson::BsonType const Boolean;
-
-  /// @brief Field Date value: static_cast<int8_t>(0x9)
-  static ::Newtonsoft::Json::Bson::BsonType const Date;
-
-  /// @brief Field Null value: static_cast<int8_t>(0xa)
-  static ::Newtonsoft::Json::Bson::BsonType const Null;
-
-  /// @brief Field Regex value: static_cast<int8_t>(0xb)
-  static ::Newtonsoft::Json::Bson::BsonType const Regex;
-
-  /// @brief Field Reference value: static_cast<int8_t>(0xc)
-  static ::Newtonsoft::Json::Bson::BsonType const Reference;
 
   /// @brief Field Code value: static_cast<int8_t>(0xd)
   static ::Newtonsoft::Json::Bson::BsonType const Code;
 
-  /// @brief Field Symbol value: static_cast<int8_t>(0xe)
-  static ::Newtonsoft::Json::Bson::BsonType const Symbol;
-
   /// @brief Field CodeWScope value: static_cast<int8_t>(0xf)
   static ::Newtonsoft::Json::Bson::BsonType const CodeWScope;
+
+  /// @brief Field Date value: static_cast<int8_t>(0x9)
+  static ::Newtonsoft::Json::Bson::BsonType const Date;
 
   /// @brief Field Integer value: static_cast<int8_t>(0x10)
   static ::Newtonsoft::Json::Bson::BsonType const Integer;
 
-  /// @brief Field TimeStamp value: static_cast<int8_t>(0x11)
-  static ::Newtonsoft::Json::Bson::BsonType const TimeStamp;
-
   /// @brief Field Long value: static_cast<int8_t>(0x12)
   static ::Newtonsoft::Json::Bson::BsonType const Long;
+
+  /// @brief Field MaxKey value: static_cast<int8_t>(0x7f)
+  static ::Newtonsoft::Json::Bson::BsonType const MaxKey;
 
   /// @brief Field MinKey value: static_cast<int8_t>(0xff)
   static ::Newtonsoft::Json::Bson::BsonType const MinKey;
 
-  /// @brief Field MaxKey value: static_cast<int8_t>(0x7f)
-  static ::Newtonsoft::Json::Bson::BsonType const MaxKey;
+  /// @brief Field Null value: static_cast<int8_t>(0xa)
+  static ::Newtonsoft::Json::Bson::BsonType const Null;
+
+  /// @brief Field Number value: static_cast<int8_t>(0x1)
+  static ::Newtonsoft::Json::Bson::BsonType const Number;
+
+  /// @brief Field Object value: static_cast<int8_t>(0x3)
+  static ::Newtonsoft::Json::Bson::BsonType const Object;
+
+  /// @brief Field Oid value: static_cast<int8_t>(0x7)
+  static ::Newtonsoft::Json::Bson::BsonType const Oid;
+
+  /// @brief Field Reference value: static_cast<int8_t>(0xc)
+  static ::Newtonsoft::Json::Bson::BsonType const Reference;
+
+  /// @brief Field Regex value: static_cast<int8_t>(0xb)
+  static ::Newtonsoft::Json::Bson::BsonType const Regex;
+
+  /// @brief Field String value: static_cast<int8_t>(0x2)
+  static ::Newtonsoft::Json::Bson::BsonType const String;
+
+  /// @brief Field Symbol value: static_cast<int8_t>(0xe)
+  static ::Newtonsoft::Json::Bson::BsonType const Symbol;
+
+  /// @brief Field TimeStamp value: static_cast<int8_t>(0x11)
+  static ::Newtonsoft::Json::Bson::BsonType const TimeStamp;
+
+  /// @brief Field Undefined value: static_cast<int8_t>(0x6)
+  static ::Newtonsoft::Json::Bson::BsonType const Undefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

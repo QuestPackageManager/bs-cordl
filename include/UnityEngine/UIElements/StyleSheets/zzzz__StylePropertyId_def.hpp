@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyId);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6746))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyId
 struct CORDL_TYPE StylePropertyId {
 public:
@@ -120,24 +118,20 @@ public:
     return static_cast<__StylePropertyId_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StylePropertyId(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StylePropertyId();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr StylePropertyId(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Unknown;
-
-  /// @brief Field Custom value: static_cast<int32_t>(0xffffffff)
-  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Custom;
 
   /// @brief Field AlignContent value: static_cast<int32_t>(0x20000)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const AlignContent;
@@ -210,6 +204,9 @@ public:
 
   /// @brief Field Cursor value: static_cast<int32_t>(0x30000)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Cursor;
+
+  /// @brief Field Custom value: static_cast<int32_t>(0xffffffff)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Custom;
 
   /// @brief Field Display value: static_cast<int32_t>(0x20008)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Display;
@@ -385,6 +382,9 @@ public:
   /// @brief Field UnityTextOverflowPosition value: static_cast<int32_t>(0x30009)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOverflowPosition;
 
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Unknown;
+
   /// @brief Field Visibility value: static_cast<int32_t>(0x1000b)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Visibility;
 
@@ -396,6 +396,9 @@ public:
 
   /// @brief Field WordSpacing value: static_cast<int32_t>(0x1000d)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const WordSpacing;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelEndActions);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4369))
 // CS Name: ::ILevelEndActions*
 class CORDL_TYPE ILevelEndActions {
 public:
@@ -25,11 +23,11 @@ public:
   /// @brief Method add_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void remove_levelFailedEvent(::System::Action* value);
-
   /// @brief Method add_levelFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelFinishedEvent(::System::Action* value);
+
+  /// @brief Method remove_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void remove_levelFailedEvent(::System::Action* value);
 
   /// @brief Method remove_levelFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelFinishedEvent(::System::Action* value);

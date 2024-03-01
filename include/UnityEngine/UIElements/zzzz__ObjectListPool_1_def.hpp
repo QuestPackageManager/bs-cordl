@@ -22,8 +22,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6084))
 // CS Name: ::UnityEngine.UIElements::ObjectListPool`1<T>*
 class CORDL_TYPE ObjectListPool_1 : public ::System::Object {
 public:
@@ -31,16 +29,22 @@ public:
   /// @brief Field pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_pool, put = setStaticF_pool))::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>*>* pool;
 
-  static inline void setStaticF_pool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>*>* value);
-
-  static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>*>* getStaticF_pool();
-
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<T>* Get();
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<T>* elements);
 
+  static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>*>* getStaticF_pool();
+
+  static inline void setStaticF_pool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectListPool_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectListPool_1(ObjectListPool_1&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectListPool_1(ObjectListPool_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectListPool_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -20,59 +20,63 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::WaypointData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11155)), TypeDefinitionIndex(TypeDefinitionIndex(11218))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11182))
 // CS Name: ::BeatmapSaveDataVersion3::WaypointData*
 class CORDL_TYPE WaypointData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
+  /// @brief Field d, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::OffsetDirection d;
+
+  __declspec(property(get = get_layer)) int32_t layer;
+
+  __declspec(property(get = get_line)) int32_t line;
+
+  __declspec(property(get = get_offsetDirection))::BeatmapSaveDataCommon::OffsetDirection offsetDirection;
+
   /// @brief Field x, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) int32_t x;
 
   /// @brief Field y, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) int32_t y;
 
-  /// @brief Field d, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::OffsetDirection d;
-
-  __declspec(property(get = get_line)) int32_t line;
-
-  __declspec(property(get = get_layer)) int32_t layer;
-
-  __declspec(property(get = get_offsetDirection))::BeatmapSaveDataCommon::OffsetDirection offsetDirection;
-
-  constexpr int32_t& __cordl_internal_get_x();
-
-  constexpr int32_t const& __cordl_internal_get_x() const;
-
-  constexpr void __cordl_internal_set_x(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_y();
-
-  constexpr int32_t const& __cordl_internal_get_y() const;
-
-  constexpr void __cordl_internal_set_y(int32_t value);
-
-  constexpr ::BeatmapSaveDataCommon::OffsetDirection& __cordl_internal_get_d();
+  static inline ::BeatmapSaveDataVersion3::WaypointData* New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
 
   constexpr ::BeatmapSaveDataCommon::OffsetDirection const& __cordl_internal_get_d() const;
 
+  constexpr ::BeatmapSaveDataCommon::OffsetDirection& __cordl_internal_get_d();
+
+  constexpr int32_t const& __cordl_internal_get_x() const;
+
+  constexpr int32_t& __cordl_internal_get_x();
+
+  constexpr int32_t const& __cordl_internal_get_y() const;
+
+  constexpr int32_t& __cordl_internal_get_y();
+
   constexpr void __cordl_internal_set_d(::BeatmapSaveDataCommon::OffsetDirection value);
 
-  /// @brief Method get_line, addr 0x12bc248, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_line();
+  constexpr void __cordl_internal_set_x(int32_t value);
 
-  /// @brief Method get_layer, addr 0x12bc250, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_layer();
+  constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method get_offsetDirection, addr 0x12bc258, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::OffsetDirection get_offsetDirection();
-
-  static inline ::BeatmapSaveDataVersion3::WaypointData* New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
-
-  /// @brief Method .ctor, addr 0x12bc260, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fd230, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
 
+  /// @brief Method get_layer, addr 0x12fd220, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_layer();
+
+  /// @brief Method get_line, addr 0x12fd218, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_line();
+
+  /// @brief Method get_offsetDirection, addr 0x12fd228, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::OffsetDirection get_offsetDirection();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WaypointData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaypointData(WaypointData&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaypointData(WaypointData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WaypointData();
-
-public:
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 

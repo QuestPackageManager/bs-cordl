@@ -16,51 +16,55 @@ MARK_REF_PTR_T(::Priority_Queue::FastPriorityQueueNode);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15224))
 // CS Name: ::Priority_Queue::FastPriorityQueueNode*
 class CORDL_TYPE FastPriorityQueueNode : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Priority, put = set_Priority)) float_t Priority;
+
+  __declspec(property(get = get_QueueIndex, put = set_QueueIndex)) int32_t QueueIndex;
+
   /// @brief Field <Priority>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__Priority_k__BackingField, put = __cordl_internal_set__Priority_k__BackingField)) float_t _Priority_k__BackingField;
 
   /// @brief Field <QueueIndex>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__QueueIndex_k__BackingField, put = __cordl_internal_set__QueueIndex_k__BackingField)) int32_t _QueueIndex_k__BackingField;
 
-  __declspec(property(get = get_Priority, put = set_Priority)) float_t Priority;
-
-  __declspec(property(get = get_QueueIndex, put = set_QueueIndex)) int32_t QueueIndex;
-
-  constexpr float_t& __cordl_internal_get__Priority_k__BackingField();
+  static inline ::Priority_Queue::FastPriorityQueueNode* New_ctor();
 
   constexpr float_t const& __cordl_internal_get__Priority_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Priority_k__BackingField(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__QueueIndex_k__BackingField();
+  constexpr float_t& __cordl_internal_get__Priority_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__QueueIndex_k__BackingField() const;
 
+  constexpr int32_t& __cordl_internal_get__QueueIndex_k__BackingField();
+
+  constexpr void __cordl_internal_set__Priority_k__BackingField(float_t value);
+
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method get_Priority, addr 0xe48718, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Priority();
-
-  /// @brief Method set_Priority, addr 0xe48720, size 0x8, virtual false, abstract: false, final false
-  inline void set_Priority(float_t value);
-
-  /// @brief Method get_QueueIndex, addr 0xe48728, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_QueueIndex();
-
-  /// @brief Method set_QueueIndex, addr 0xe48730, size 0x8, virtual false, abstract: false, final false
-  inline void set_QueueIndex(int32_t value);
-
-  static inline ::Priority_Queue::FastPriorityQueueNode* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe48738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8e708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Priority, addr 0xe8e6e8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_Priority();
+
+  /// @brief Method get_QueueIndex, addr 0xe8e6f8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_QueueIndex();
+
+  /// @brief Method set_Priority, addr 0xe8e6f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_Priority(float_t value);
+
+  /// @brief Method set_QueueIndex, addr 0xe8e700, size 0x8, virtual false, abstract: false, final false
+  inline void set_QueueIndex(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FastPriorityQueueNode();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FastPriorityQueueNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastPriorityQueueNode(FastPriorityQueueNode&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastPriorityQueueNode(FastPriorityQueueNode const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FastPriorityQueueNode();
-
-public:
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____Priority_k__BackingField;
 

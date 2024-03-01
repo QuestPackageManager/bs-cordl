@@ -16,36 +16,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspValidationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1774))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1776))
 // CS Name: ::Org.BouncyCastle.Tsp::TspValidationException*
 class CORDL_TYPE TspValidationException : public ::Org::BouncyCastle::Tsp::TspException {
 public:
   // Declarations
+  __declspec(property(get = get_FailureCode)) int32_t FailureCode;
+
   /// @brief Field failureCode, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get_failureCode, put = __cordl_internal_set_failureCode)) int32_t failureCode;
 
-  __declspec(property(get = get_FailureCode)) int32_t FailureCode;
-
-  constexpr int32_t& __cordl_internal_get_failureCode();
-
-  constexpr int32_t const& __cordl_internal_get_failureCode() const;
-
-  constexpr void __cordl_internal_set_failureCode(int32_t value);
-
   static inline ::Org::BouncyCastle::Tsp::TspValidationException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x117ee6c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Tsp::TspValidationException* New_ctor(::StringW message, int32_t failureCode);
 
-  /// @brief Method .ctor, addr 0x117d9f0, size 0x24, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_failureCode() const;
+
+  constexpr int32_t& __cordl_internal_get_failureCode();
+
+  constexpr void __cordl_internal_set_failureCode(int32_t value);
+
+  /// @brief Method .ctor, addr 0x11c0e3c, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x11bf9c0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t failureCode);
 
-  /// @brief Method get_FailureCode, addr 0x1184ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailureCode, addr 0x11c6cb0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FailureCode();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TspValidationException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TspValidationException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TspValidationException(TspValidationException&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TspValidationException(TspValidationException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TspValidationException();
-
-public:
   /// @brief Field failureCode, offset: 0x8c, size: 0x4, def value: None
   int32_t ___failureCode;
 

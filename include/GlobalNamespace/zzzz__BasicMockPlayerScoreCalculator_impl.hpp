@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicMockPlayerScoreCalculator::*)(float_t, int32_t, int32_t)>(
     &::GlobalNamespace::BasicMockPlayerScoreCalculator::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x24065bc;
+  constexpr static std::size_t addrs = 0x24d52b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BasicMockPlayerScoreCalculator::*)(::GlobalNamespace::MockNoteData*)>(
     &::GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2406678;
+  constexpr static std::size_t addrs = 0x24d5370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

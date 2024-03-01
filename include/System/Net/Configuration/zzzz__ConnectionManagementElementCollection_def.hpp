@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Net::Configuration::ConnectionManagementElementCollecti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7579))
 // CS Name: ::System.Net.Configuration::ConnectionManagementElementCollection*
 class CORDL_TYPE ConnectionManagementElementCollection : public ::System::Configuration::ConfigurationElementCollection {
 public:
   // Declarations
   static inline ::System::Net::Configuration::ConnectionManagementElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29493a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2e824, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConnectionManagementElementCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionManagementElementCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectionManagementElementCollection(ConnectionManagementElementCollection&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectionManagementElementCollection(ConnectionManagementElementCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectionManagementElementCollection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

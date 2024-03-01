@@ -16,23 +16,27 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10235)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10235), inst: 3613 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10225))
 // CS Name: ::Zenject::PoolableStaticMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>*
 class CORDL_TYPE PoolableStaticMemoryPool_8 : public ::Zenject::StaticMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue> {
 public:
   // Declarations
   static inline ::Zenject::PoolableStaticMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* New_ctor();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void OnDespawned(TValue value);
 
   /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TParam7 p7, TValue value);
 
-  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void OnDespawned(TValue value);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PoolableStaticMemoryPool_8();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_8", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoolableStaticMemoryPool_8(PoolableStaticMemoryPool_8&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoolableStaticMemoryPool_8(PoolableStaticMemoryPool_8 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoolableStaticMemoryPool_8();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonISerializableContract);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11805))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11811))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonISerializableContract*
 class CORDL_TYPE JsonISerializableContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
+  __declspec(property(get = get_ISerializableCreator, put = set_ISerializableCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ISerializableCreator;
+
   /// @brief Field <ISerializableCreator>k__BackingField, offset 0xc0, size 0x8
   __declspec(
       property(get = __cordl_internal_get__ISerializableCreator_k__BackingField,
                put = __cordl_internal_set__ISerializableCreator_k__BackingField))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _ISerializableCreator_k__BackingField;
 
-  __declspec(property(get = get_ISerializableCreator, put = set_ISerializableCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ISerializableCreator;
+  static inline ::Newtonsoft::Json::Serialization::JsonISerializableContract* New_ctor(::System::Type* underlyingType);
 
   constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__ISerializableCreator_k__BackingField();
 
@@ -42,17 +42,21 @@ public:
 
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method get_ISerializableCreator, addr 0x2691334, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
-
-  /// @brief Method set_ISerializableCreator, addr 0x269133c, size 0x8, virtual false, abstract: false, final false
-  inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
-
-  static inline ::Newtonsoft::Json::Serialization::JsonISerializableContract* New_ctor(::System::Type* underlyingType);
-
-  /// @brief Method .ctor, addr 0x2691344, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275fa90, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
+  /// @brief Method get_ISerializableCreator, addr 0x275fa80, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
+
+  /// @brief Method set_ISerializableCreator, addr 0x275fa88, size 0x8, virtual false, abstract: false, final false
+  inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonISerializableContract();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonISerializableContract", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonISerializableContract(JsonISerializableContract&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonISerializableContract(JsonISerializableContract const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonISerializableContract();
-
-public:
   /// @brief Field <ISerializableCreator>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____ISerializableCreator_k__BackingField;
 

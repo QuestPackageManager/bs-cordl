@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::UnityEngine::Motion);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14741))
 // CS Name: ::UnityEngine::Motion*
 class CORDL_TYPE Motion : public ::UnityEngine::Object {
 public:
@@ -25,20 +23,26 @@ public:
 
   __declspec(property(get = get_isLooping)) bool isLooping;
 
-  constexpr bool& __cordl_internal_get__isAnimatorMotion_k__BackingField();
+  static inline ::UnityEngine::Motion* New_ctor();
 
   constexpr bool const& __cordl_internal_get__isAnimatorMotion_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__isAnimatorMotion_k__BackingField();
+
   constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
-  static inline ::UnityEngine::Motion* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c8d1a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d77274, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping, addr 0x2c8d1f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x2d772cc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Motion();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Motion", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Motion(Motion&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Motion(Motion const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Motion();
-
-public:
   /// @brief Field <isAnimatorMotion>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____isAnimatorMotion_k__BackingField;
 

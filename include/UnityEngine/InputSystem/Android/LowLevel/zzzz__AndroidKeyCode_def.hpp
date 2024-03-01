@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5712))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidKeyCode
 struct CORDL_TYPE AndroidKeyCode {
 public:
@@ -252,39 +250,23 @@ public:
     return static_cast<__AndroidKeyCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AndroidKeyCode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidKeyCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AndroidKeyCode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Unknown;
-
-  /// @brief Field SoftLeft value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftLeft;
-
-  /// @brief Field SoftRight value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftRight;
-
-  /// @brief Field Home value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Home;
-
-  /// @brief Field Back value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Back;
-
-  /// @brief Field Call value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Call;
-
-  /// @brief Field Endcall value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Endcall;
+  /// @brief Field A value: static_cast<int32_t>(0x1d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const A;
 
   /// @brief Field Alpha0 value: static_cast<int32_t>(0x7)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha0;
@@ -316,242 +298,92 @@ public:
   /// @brief Field Alpha9 value: static_cast<int32_t>(0x10)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Alpha9;
 
-  /// @brief Field Star value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Star;
-
-  /// @brief Field Pound value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pound;
-
-  /// @brief Field DpadUp value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadUp;
-
-  /// @brief Field DpadDown value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadDown;
-
-  /// @brief Field DpadLeft value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadLeft;
-
-  /// @brief Field DpadRight value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadRight;
-
-  /// @brief Field DpadCenter value: static_cast<int32_t>(0x17)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadCenter;
-
-  /// @brief Field VolumeUp value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeUp;
-
-  /// @brief Field VolumeDown value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeDown;
-
-  /// @brief Field Power value: static_cast<int32_t>(0x1a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Power;
-
-  /// @brief Field Camera value: static_cast<int32_t>(0x1b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Camera;
-
-  /// @brief Field Clear value: static_cast<int32_t>(0x1c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Clear;
-
-  /// @brief Field A value: static_cast<int32_t>(0x1d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const A;
-
-  /// @brief Field B value: static_cast<int32_t>(0x1e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const B;
-
-  /// @brief Field C value: static_cast<int32_t>(0x1f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const C;
-
-  /// @brief Field D value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const D;
-
-  /// @brief Field E value: static_cast<int32_t>(0x21)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const E;
-
-  /// @brief Field F value: static_cast<int32_t>(0x22)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F;
-
-  /// @brief Field G value: static_cast<int32_t>(0x23)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const G;
-
-  /// @brief Field H value: static_cast<int32_t>(0x24)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const H;
-
-  /// @brief Field I value: static_cast<int32_t>(0x25)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const I;
-
-  /// @brief Field J value: static_cast<int32_t>(0x26)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const J;
-
-  /// @brief Field K value: static_cast<int32_t>(0x27)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const K;
-
-  /// @brief Field L value: static_cast<int32_t>(0x28)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const L;
-
-  /// @brief Field M value: static_cast<int32_t>(0x29)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const M;
-
-  /// @brief Field N value: static_cast<int32_t>(0x2a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const N;
-
-  /// @brief Field O value: static_cast<int32_t>(0x2b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const O;
-
-  /// @brief Field P value: static_cast<int32_t>(0x2c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const P;
-
-  /// @brief Field Q value: static_cast<int32_t>(0x2d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Q;
-
-  /// @brief Field R value: static_cast<int32_t>(0x2e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const R;
-
-  /// @brief Field S value: static_cast<int32_t>(0x2f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const S;
-
-  /// @brief Field T value: static_cast<int32_t>(0x30)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const T;
-
-  /// @brief Field U value: static_cast<int32_t>(0x31)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const U;
-
-  /// @brief Field V value: static_cast<int32_t>(0x32)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const V;
-
-  /// @brief Field W value: static_cast<int32_t>(0x33)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const W;
-
-  /// @brief Field X value: static_cast<int32_t>(0x34)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const X;
-
-  /// @brief Field Y value: static_cast<int32_t>(0x35)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Y;
-
-  /// @brief Field Z value: static_cast<int32_t>(0x36)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Z;
-
-  /// @brief Field Comma value: static_cast<int32_t>(0x37)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Comma;
-
-  /// @brief Field Period value: static_cast<int32_t>(0x38)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Period;
-
   /// @brief Field AltLeft value: static_cast<int32_t>(0x39)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AltLeft;
 
   /// @brief Field AltRight value: static_cast<int32_t>(0x3a)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AltRight;
 
-  /// @brief Field ShiftLeft value: static_cast<int32_t>(0x3b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftLeft;
-
-  /// @brief Field ShiftRight value: static_cast<int32_t>(0x3c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftRight;
-
-  /// @brief Field Tab value: static_cast<int32_t>(0x3d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tab;
-
-  /// @brief Field Space value: static_cast<int32_t>(0x3e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Space;
-
-  /// @brief Field Sym value: static_cast<int32_t>(0x3f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sym;
-
-  /// @brief Field Explorer value: static_cast<int32_t>(0x40)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Explorer;
-
-  /// @brief Field Envelope value: static_cast<int32_t>(0x41)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Envelope;
-
-  /// @brief Field Enter value: static_cast<int32_t>(0x42)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Enter;
-
-  /// @brief Field Del value: static_cast<int32_t>(0x43)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Del;
-
-  /// @brief Field Grave value: static_cast<int32_t>(0x44)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Grave;
-
-  /// @brief Field Minus value: static_cast<int32_t>(0x45)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Minus;
-
-  /// @brief Field Equals value: static_cast<int32_t>(0x46)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Equals;
-
-  /// @brief Field LeftBracket value: static_cast<int32_t>(0x47)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LeftBracket;
-
-  /// @brief Field RightBracket value: static_cast<int32_t>(0x48)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const RightBracket;
-
-  /// @brief Field Backslash value: static_cast<int32_t>(0x49)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Backslash;
-
-  /// @brief Field Semicolon value: static_cast<int32_t>(0x4a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Semicolon;
-
   /// @brief Field Apostrophe value: static_cast<int32_t>(0x4b)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Apostrophe;
 
-  /// @brief Field Slash value: static_cast<int32_t>(0x4c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Slash;
+  /// @brief Field AppSwitch value: static_cast<int32_t>(0xbb)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AppSwitch;
+
+  /// @brief Field Assist value: static_cast<int32_t>(0xdb)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Assist;
 
   /// @brief Field At value: static_cast<int32_t>(0x4d)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const At;
 
-  /// @brief Field Num value: static_cast<int32_t>(0x4e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Num;
+  /// @brief Field AvrInput value: static_cast<int32_t>(0xb6)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrInput;
 
-  /// @brief Field Headsethook value: static_cast<int32_t>(0x4f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Headsethook;
+  /// @brief Field AvrPower value: static_cast<int32_t>(0xb5)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrPower;
 
-  /// @brief Field Focus value: static_cast<int32_t>(0x50)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Focus;
+  /// @brief Field B value: static_cast<int32_t>(0x1e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const B;
 
-  /// @brief Field Plus value: static_cast<int32_t>(0x51)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Plus;
+  /// @brief Field Back value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Back;
 
-  /// @brief Field Menu value: static_cast<int32_t>(0x52)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Menu;
+  /// @brief Field Backslash value: static_cast<int32_t>(0x49)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Backslash;
 
-  /// @brief Field Notification value: static_cast<int32_t>(0x53)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Notification;
+  /// @brief Field Bookmark value: static_cast<int32_t>(0xae)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Bookmark;
 
-  /// @brief Field Search value: static_cast<int32_t>(0x54)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Search;
+  /// @brief Field Break value: static_cast<int32_t>(0x79)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Break;
 
-  /// @brief Field MediaPlayPause value: static_cast<int32_t>(0x55)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlayPause;
+  /// @brief Field Button1 value: static_cast<int32_t>(0xbc)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button1;
 
-  /// @brief Field MediaStop value: static_cast<int32_t>(0x56)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaStop;
+  /// @brief Field Button10 value: static_cast<int32_t>(0xc5)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button10;
 
-  /// @brief Field MediaNext value: static_cast<int32_t>(0x57)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaNext;
+  /// @brief Field Button11 value: static_cast<int32_t>(0xc6)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button11;
 
-  /// @brief Field MediaPrevious value: static_cast<int32_t>(0x58)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPrevious;
+  /// @brief Field Button12 value: static_cast<int32_t>(0xc7)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button12;
 
-  /// @brief Field MediaRewind value: static_cast<int32_t>(0x59)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRewind;
+  /// @brief Field Button13 value: static_cast<int32_t>(0xc8)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button13;
 
-  /// @brief Field MediaFastForward value: static_cast<int32_t>(0x5a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaFastForward;
+  /// @brief Field Button14 value: static_cast<int32_t>(0xc9)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button14;
 
-  /// @brief Field Mute value: static_cast<int32_t>(0x5b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mute;
+  /// @brief Field Button15 value: static_cast<int32_t>(0xca)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button15;
 
-  /// @brief Field PageUp value: static_cast<int32_t>(0x5c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageUp;
+  /// @brief Field Button16 value: static_cast<int32_t>(0xcb)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button16;
 
-  /// @brief Field PageDown value: static_cast<int32_t>(0x5d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageDown;
+  /// @brief Field Button2 value: static_cast<int32_t>(0xbd)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button2;
 
-  /// @brief Field Pictsymbols value: static_cast<int32_t>(0x5e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pictsymbols;
+  /// @brief Field Button3 value: static_cast<int32_t>(0xbe)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button3;
 
-  /// @brief Field SwitchCharset value: static_cast<int32_t>(0x5f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SwitchCharset;
+  /// @brief Field Button4 value: static_cast<int32_t>(0xbf)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button4;
+
+  /// @brief Field Button5 value: static_cast<int32_t>(0xc0)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button5;
+
+  /// @brief Field Button6 value: static_cast<int32_t>(0xc1)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button6;
+
+  /// @brief Field Button7 value: static_cast<int32_t>(0xc2)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button7;
+
+  /// @brief Field Button8 value: static_cast<int32_t>(0xc3)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button8;
+
+  /// @brief Field Button9 value: static_cast<int32_t>(0xc4)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button9;
 
   /// @brief Field ButtonA value: static_cast<int32_t>(0x60)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonA;
@@ -562,6 +394,33 @@ public:
   /// @brief Field ButtonC value: static_cast<int32_t>(0x62)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonC;
 
+  /// @brief Field ButtonL1 value: static_cast<int32_t>(0x66)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL1;
+
+  /// @brief Field ButtonL2 value: static_cast<int32_t>(0x68)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL2;
+
+  /// @brief Field ButtonMode value: static_cast<int32_t>(0x6e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonMode;
+
+  /// @brief Field ButtonR1 value: static_cast<int32_t>(0x67)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR1;
+
+  /// @brief Field ButtonR2 value: static_cast<int32_t>(0x69)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR2;
+
+  /// @brief Field ButtonSelect value: static_cast<int32_t>(0x6d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonSelect;
+
+  /// @brief Field ButtonStart value: static_cast<int32_t>(0x6c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonStart;
+
+  /// @brief Field ButtonThumbl value: static_cast<int32_t>(0x6a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbl;
+
+  /// @brief Field ButtonThumbr value: static_cast<int32_t>(0x6b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbr;
+
   /// @brief Field ButtonX value: static_cast<int32_t>(0x63)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonX;
 
@@ -571,38 +430,41 @@ public:
   /// @brief Field ButtonZ value: static_cast<int32_t>(0x65)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonZ;
 
-  /// @brief Field ButtonL1 value: static_cast<int32_t>(0x66)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL1;
+  /// @brief Field C value: static_cast<int32_t>(0x1f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const C;
 
-  /// @brief Field ButtonR1 value: static_cast<int32_t>(0x67)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR1;
+  /// @brief Field Calculator value: static_cast<int32_t>(0xd2)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calculator;
 
-  /// @brief Field ButtonL2 value: static_cast<int32_t>(0x68)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonL2;
+  /// @brief Field Calendar value: static_cast<int32_t>(0xd0)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calendar;
 
-  /// @brief Field ButtonR2 value: static_cast<int32_t>(0x69)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonR2;
+  /// @brief Field Call value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Call;
 
-  /// @brief Field ButtonThumbl value: static_cast<int32_t>(0x6a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbl;
+  /// @brief Field Camera value: static_cast<int32_t>(0x1b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Camera;
 
-  /// @brief Field ButtonThumbr value: static_cast<int32_t>(0x6b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonThumbr;
+  /// @brief Field CapsLock value: static_cast<int32_t>(0x73)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CapsLock;
 
-  /// @brief Field ButtonStart value: static_cast<int32_t>(0x6c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonStart;
+  /// @brief Field Captions value: static_cast<int32_t>(0xaf)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Captions;
 
-  /// @brief Field ButtonSelect value: static_cast<int32_t>(0x6d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonSelect;
+  /// @brief Field ChannelDown value: static_cast<int32_t>(0xa7)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelDown;
 
-  /// @brief Field ButtonMode value: static_cast<int32_t>(0x6e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ButtonMode;
+  /// @brief Field ChannelUp value: static_cast<int32_t>(0xa6)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelUp;
 
-  /// @brief Field Escape value: static_cast<int32_t>(0x6f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Escape;
+  /// @brief Field Clear value: static_cast<int32_t>(0x1c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Clear;
 
-  /// @brief Field ForwardDel value: static_cast<int32_t>(0x70)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ForwardDel;
+  /// @brief Field Comma value: static_cast<int32_t>(0x37)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Comma;
+
+  /// @brief Field Contacts value: static_cast<int32_t>(0xcf)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Contacts;
 
   /// @brief Field CtrlLeft value: static_cast<int32_t>(0x71)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CtrlLeft;
@@ -610,56 +472,68 @@ public:
   /// @brief Field CtrlRight value: static_cast<int32_t>(0x72)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CtrlRight;
 
-  /// @brief Field CapsLock value: static_cast<int32_t>(0x73)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const CapsLock;
+  /// @brief Field D value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const D;
 
-  /// @brief Field ScrollLock value: static_cast<int32_t>(0x74)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ScrollLock;
+  /// @brief Field Del value: static_cast<int32_t>(0x43)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Del;
 
-  /// @brief Field MetaLeft value: static_cast<int32_t>(0x75)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaLeft;
+  /// @brief Field DpadCenter value: static_cast<int32_t>(0x17)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadCenter;
 
-  /// @brief Field MetaRight value: static_cast<int32_t>(0x76)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaRight;
+  /// @brief Field DpadDown value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadDown;
 
-  /// @brief Field Function value: static_cast<int32_t>(0x77)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Function;
+  /// @brief Field DpadLeft value: static_cast<int32_t>(0x15)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadLeft;
 
-  /// @brief Field Sysrq value: static_cast<int32_t>(0x78)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sysrq;
+  /// @brief Field DpadRight value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadRight;
 
-  /// @brief Field Break value: static_cast<int32_t>(0x79)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Break;
+  /// @brief Field DpadUp value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const DpadUp;
 
-  /// @brief Field MoveHome value: static_cast<int32_t>(0x7a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveHome;
+  /// @brief Field Dvr value: static_cast<int32_t>(0xad)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Dvr;
 
-  /// @brief Field MoveEnd value: static_cast<int32_t>(0x7b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveEnd;
+  /// @brief Field E value: static_cast<int32_t>(0x21)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const E;
 
-  /// @brief Field Insert value: static_cast<int32_t>(0x7c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Insert;
+  /// @brief Field Eisu value: static_cast<int32_t>(0xd4)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Eisu;
 
-  /// @brief Field Forward value: static_cast<int32_t>(0x7d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Forward;
+  /// @brief Field Endcall value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Endcall;
 
-  /// @brief Field MediaPlay value: static_cast<int32_t>(0x7e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlay;
+  /// @brief Field Enter value: static_cast<int32_t>(0x42)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Enter;
 
-  /// @brief Field MediaPause value: static_cast<int32_t>(0x7f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPause;
+  /// @brief Field Envelope value: static_cast<int32_t>(0x41)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Envelope;
 
-  /// @brief Field MediaClose value: static_cast<int32_t>(0x80)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaClose;
+  /// @brief Field Equals value: static_cast<int32_t>(0x46)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Equals;
 
-  /// @brief Field MediaEject value: static_cast<int32_t>(0x81)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaEject;
+  /// @brief Field Escape value: static_cast<int32_t>(0x6f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Escape;
 
-  /// @brief Field MediaRecord value: static_cast<int32_t>(0x82)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRecord;
+  /// @brief Field Explorer value: static_cast<int32_t>(0x40)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Explorer;
+
+  /// @brief Field F value: static_cast<int32_t>(0x22)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F;
 
   /// @brief Field F1 value: static_cast<int32_t>(0x83)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F1;
+
+  /// @brief Field F10 value: static_cast<int32_t>(0x8c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F10;
+
+  /// @brief Field F11 value: static_cast<int32_t>(0x8d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F11;
+
+  /// @brief Field F12 value: static_cast<int32_t>(0x8e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F12;
 
   /// @brief Field F2 value: static_cast<int32_t>(0x84)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F2;
@@ -685,14 +559,146 @@ public:
   /// @brief Field F9 value: static_cast<int32_t>(0x8b)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F9;
 
-  /// @brief Field F10 value: static_cast<int32_t>(0x8c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F10;
+  /// @brief Field Focus value: static_cast<int32_t>(0x50)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Focus;
 
-  /// @brief Field F11 value: static_cast<int32_t>(0x8d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F11;
+  /// @brief Field Forward value: static_cast<int32_t>(0x7d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Forward;
 
-  /// @brief Field F12 value: static_cast<int32_t>(0x8e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const F12;
+  /// @brief Field ForwardDel value: static_cast<int32_t>(0x70)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ForwardDel;
+
+  /// @brief Field Function value: static_cast<int32_t>(0x77)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Function;
+
+  /// @brief Field G value: static_cast<int32_t>(0x23)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const G;
+
+  /// @brief Field Grave value: static_cast<int32_t>(0x44)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Grave;
+
+  /// @brief Field Guide value: static_cast<int32_t>(0xac)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Guide;
+
+  /// @brief Field H value: static_cast<int32_t>(0x24)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const H;
+
+  /// @brief Field Headsethook value: static_cast<int32_t>(0x4f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Headsethook;
+
+  /// @brief Field Henkan value: static_cast<int32_t>(0xd6)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Henkan;
+
+  /// @brief Field Home value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Home;
+
+  /// @brief Field I value: static_cast<int32_t>(0x25)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const I;
+
+  /// @brief Field Info value: static_cast<int32_t>(0xa5)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Info;
+
+  /// @brief Field Insert value: static_cast<int32_t>(0x7c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Insert;
+
+  /// @brief Field J value: static_cast<int32_t>(0x26)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const J;
+
+  /// @brief Field K value: static_cast<int32_t>(0x27)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const K;
+
+  /// @brief Field Kana value: static_cast<int32_t>(0xda)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Kana;
+
+  /// @brief Field KatakanaHiragana value: static_cast<int32_t>(0xd7)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const KatakanaHiragana;
+
+  /// @brief Field L value: static_cast<int32_t>(0x28)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const L;
+
+  /// @brief Field LanguageSwitch value: static_cast<int32_t>(0xcc)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LanguageSwitch;
+
+  /// @brief Field LeftBracket value: static_cast<int32_t>(0x47)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LeftBracket;
+
+  /// @brief Field M value: static_cast<int32_t>(0x29)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const M;
+
+  /// @brief Field MannerMode value: static_cast<int32_t>(0xcd)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MannerMode;
+
+  /// @brief Field MediaClose value: static_cast<int32_t>(0x80)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaClose;
+
+  /// @brief Field MediaEject value: static_cast<int32_t>(0x81)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaEject;
+
+  /// @brief Field MediaFastForward value: static_cast<int32_t>(0x5a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaFastForward;
+
+  /// @brief Field MediaNext value: static_cast<int32_t>(0x57)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaNext;
+
+  /// @brief Field MediaPause value: static_cast<int32_t>(0x7f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPause;
+
+  /// @brief Field MediaPlay value: static_cast<int32_t>(0x7e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlay;
+
+  /// @brief Field MediaPlayPause value: static_cast<int32_t>(0x55)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPlayPause;
+
+  /// @brief Field MediaPrevious value: static_cast<int32_t>(0x58)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaPrevious;
+
+  /// @brief Field MediaRecord value: static_cast<int32_t>(0x82)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRecord;
+
+  /// @brief Field MediaRewind value: static_cast<int32_t>(0x59)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaRewind;
+
+  /// @brief Field MediaStop value: static_cast<int32_t>(0x56)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MediaStop;
+
+  /// @brief Field Menu value: static_cast<int32_t>(0x52)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Menu;
+
+  /// @brief Field MetaLeft value: static_cast<int32_t>(0x75)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaLeft;
+
+  /// @brief Field MetaRight value: static_cast<int32_t>(0x76)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MetaRight;
+
+  /// @brief Field Minus value: static_cast<int32_t>(0x45)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Minus;
+
+  /// @brief Field Mode3D value: static_cast<int32_t>(0xce)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mode3D;
+
+  /// @brief Field MoveEnd value: static_cast<int32_t>(0x7b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveEnd;
+
+  /// @brief Field MoveHome value: static_cast<int32_t>(0x7a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MoveHome;
+
+  /// @brief Field Muhenkan value: static_cast<int32_t>(0xd5)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Muhenkan;
+
+  /// @brief Field Music value: static_cast<int32_t>(0xd1)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Music;
+
+  /// @brief Field Mute value: static_cast<int32_t>(0x5b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mute;
+
+  /// @brief Field N value: static_cast<int32_t>(0x2a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const N;
+
+  /// @brief Field Notification value: static_cast<int32_t>(0x53)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Notification;
+
+  /// @brief Field Num value: static_cast<int32_t>(0x4e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Num;
 
   /// @brief Field NumLock value: static_cast<int32_t>(0x8f)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumLock;
@@ -727,23 +733,17 @@ public:
   /// @brief Field Numpad9 value: static_cast<int32_t>(0x99)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Numpad9;
 
-  /// @brief Field NumpadDivide value: static_cast<int32_t>(0x9a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDivide;
-
-  /// @brief Field NumpadMultiply value: static_cast<int32_t>(0x9b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadMultiply;
-
-  /// @brief Field NumpadSubtract value: static_cast<int32_t>(0x9c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadSubtract;
-
   /// @brief Field NumpadAdd value: static_cast<int32_t>(0x9d)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadAdd;
 
-  /// @brief Field NumpadDot value: static_cast<int32_t>(0x9e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDot;
-
   /// @brief Field NumpadComma value: static_cast<int32_t>(0x9f)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadComma;
+
+  /// @brief Field NumpadDivide value: static_cast<int32_t>(0x9a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDivide;
+
+  /// @brief Field NumpadDot value: static_cast<int32_t>(0x9e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadDot;
 
   /// @brief Field NumpadEnter value: static_cast<int32_t>(0xa0)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadEnter;
@@ -754,20 +754,170 @@ public:
   /// @brief Field NumpadLeftParen value: static_cast<int32_t>(0xa2)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadLeftParen;
 
+  /// @brief Field NumpadMultiply value: static_cast<int32_t>(0x9b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadMultiply;
+
   /// @brief Field NumpadRightParen value: static_cast<int32_t>(0xa3)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadRightParen;
+
+  /// @brief Field NumpadSubtract value: static_cast<int32_t>(0x9c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const NumpadSubtract;
+
+  /// @brief Field O value: static_cast<int32_t>(0x2b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const O;
+
+  /// @brief Field P value: static_cast<int32_t>(0x2c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const P;
+
+  /// @brief Field PageDown value: static_cast<int32_t>(0x5d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageDown;
+
+  /// @brief Field PageUp value: static_cast<int32_t>(0x5c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const PageUp;
+
+  /// @brief Field Period value: static_cast<int32_t>(0x38)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Period;
+
+  /// @brief Field Pictsymbols value: static_cast<int32_t>(0x5e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pictsymbols;
+
+  /// @brief Field Plus value: static_cast<int32_t>(0x51)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Plus;
+
+  /// @brief Field Pound value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Pound;
+
+  /// @brief Field Power value: static_cast<int32_t>(0x1a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Power;
+
+  /// @brief Field ProgBlue value: static_cast<int32_t>(0xba)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgBlue;
+
+  /// @brief Field ProgGreen value: static_cast<int32_t>(0xb8)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgGreen;
+
+  /// @brief Field ProgRed value: static_cast<int32_t>(0xb7)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgRed;
+
+  /// @brief Field ProgYellow value: static_cast<int32_t>(0xb9)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgYellow;
+
+  /// @brief Field Q value: static_cast<int32_t>(0x2d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Q;
+
+  /// @brief Field R value: static_cast<int32_t>(0x2e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const R;
+
+  /// @brief Field RightBracket value: static_cast<int32_t>(0x48)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const RightBracket;
+
+  /// @brief Field Ro value: static_cast<int32_t>(0xd9)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Ro;
+
+  /// @brief Field S value: static_cast<int32_t>(0x2f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const S;
+
+  /// @brief Field ScrollLock value: static_cast<int32_t>(0x74)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ScrollLock;
+
+  /// @brief Field Search value: static_cast<int32_t>(0x54)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Search;
+
+  /// @brief Field Semicolon value: static_cast<int32_t>(0x4a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Semicolon;
+
+  /// @brief Field Settings value: static_cast<int32_t>(0xb0)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Settings;
+
+  /// @brief Field ShiftLeft value: static_cast<int32_t>(0x3b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftLeft;
+
+  /// @brief Field ShiftRight value: static_cast<int32_t>(0x3c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ShiftRight;
+
+  /// @brief Field Slash value: static_cast<int32_t>(0x4c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Slash;
+
+  /// @brief Field SoftLeft value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftLeft;
+
+  /// @brief Field SoftRight value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SoftRight;
+
+  /// @brief Field Space value: static_cast<int32_t>(0x3e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Space;
+
+  /// @brief Field Star value: static_cast<int32_t>(0x11)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Star;
+
+  /// @brief Field StbInput value: static_cast<int32_t>(0xb4)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbInput;
+
+  /// @brief Field StbPower value: static_cast<int32_t>(0xb3)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbPower;
+
+  /// @brief Field SwitchCharset value: static_cast<int32_t>(0x5f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const SwitchCharset;
+
+  /// @brief Field Sym value: static_cast<int32_t>(0x3f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sym;
+
+  /// @brief Field Sysrq value: static_cast<int32_t>(0x78)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Sysrq;
+
+  /// @brief Field T value: static_cast<int32_t>(0x30)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const T;
+
+  /// @brief Field Tab value: static_cast<int32_t>(0x3d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tab;
+
+  /// @brief Field Tv value: static_cast<int32_t>(0xaa)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tv;
+
+  /// @brief Field TvInput value: static_cast<int32_t>(0xb2)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvInput;
+
+  /// @brief Field TvPower value: static_cast<int32_t>(0xb1)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvPower;
+
+  /// @brief Field U value: static_cast<int32_t>(0x31)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const U;
+
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Unknown;
+
+  /// @brief Field V value: static_cast<int32_t>(0x32)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const V;
+
+  /// @brief Field VolumeDown value: static_cast<int32_t>(0x19)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeDown;
 
   /// @brief Field VolumeMute value: static_cast<int32_t>(0xa4)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeMute;
 
-  /// @brief Field Info value: static_cast<int32_t>(0xa5)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Info;
+  /// @brief Field VolumeUp value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const VolumeUp;
 
-  /// @brief Field ChannelUp value: static_cast<int32_t>(0xa6)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelUp;
+  /// @brief Field W value: static_cast<int32_t>(0x33)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const W;
 
-  /// @brief Field ChannelDown value: static_cast<int32_t>(0xa7)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ChannelDown;
+  /// @brief Field Window value: static_cast<int32_t>(0xab)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Window;
+
+  /// @brief Field X value: static_cast<int32_t>(0x34)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const X;
+
+  /// @brief Field Y value: static_cast<int32_t>(0x35)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Y;
+
+  /// @brief Field Yen value: static_cast<int32_t>(0xd8)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Yen;
+
+  /// @brief Field Z value: static_cast<int32_t>(0x36)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Z;
+
+  /// @brief Field ZenkakuHankaku value: static_cast<int32_t>(0xd3)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZenkakuHankaku;
 
   /// @brief Field ZoomIn value: static_cast<int32_t>(0xa8)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZoomIn;
@@ -775,155 +925,8 @@ public:
   /// @brief Field ZoomOut value: static_cast<int32_t>(0xa9)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZoomOut;
 
-  /// @brief Field Tv value: static_cast<int32_t>(0xaa)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Tv;
-
-  /// @brief Field Window value: static_cast<int32_t>(0xab)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Window;
-
-  /// @brief Field Guide value: static_cast<int32_t>(0xac)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Guide;
-
-  /// @brief Field Dvr value: static_cast<int32_t>(0xad)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Dvr;
-
-  /// @brief Field Bookmark value: static_cast<int32_t>(0xae)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Bookmark;
-
-  /// @brief Field Captions value: static_cast<int32_t>(0xaf)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Captions;
-
-  /// @brief Field Settings value: static_cast<int32_t>(0xb0)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Settings;
-
-  /// @brief Field TvPower value: static_cast<int32_t>(0xb1)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvPower;
-
-  /// @brief Field TvInput value: static_cast<int32_t>(0xb2)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const TvInput;
-
-  /// @brief Field StbPower value: static_cast<int32_t>(0xb3)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbPower;
-
-  /// @brief Field StbInput value: static_cast<int32_t>(0xb4)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const StbInput;
-
-  /// @brief Field AvrPower value: static_cast<int32_t>(0xb5)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrPower;
-
-  /// @brief Field AvrInput value: static_cast<int32_t>(0xb6)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AvrInput;
-
-  /// @brief Field ProgRed value: static_cast<int32_t>(0xb7)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgRed;
-
-  /// @brief Field ProgGreen value: static_cast<int32_t>(0xb8)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgGreen;
-
-  /// @brief Field ProgYellow value: static_cast<int32_t>(0xb9)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgYellow;
-
-  /// @brief Field ProgBlue value: static_cast<int32_t>(0xba)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ProgBlue;
-
-  /// @brief Field AppSwitch value: static_cast<int32_t>(0xbb)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const AppSwitch;
-
-  /// @brief Field Button1 value: static_cast<int32_t>(0xbc)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button1;
-
-  /// @brief Field Button2 value: static_cast<int32_t>(0xbd)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button2;
-
-  /// @brief Field Button3 value: static_cast<int32_t>(0xbe)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button3;
-
-  /// @brief Field Button4 value: static_cast<int32_t>(0xbf)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button4;
-
-  /// @brief Field Button5 value: static_cast<int32_t>(0xc0)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button5;
-
-  /// @brief Field Button6 value: static_cast<int32_t>(0xc1)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button6;
-
-  /// @brief Field Button7 value: static_cast<int32_t>(0xc2)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button7;
-
-  /// @brief Field Button8 value: static_cast<int32_t>(0xc3)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button8;
-
-  /// @brief Field Button9 value: static_cast<int32_t>(0xc4)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button9;
-
-  /// @brief Field Button10 value: static_cast<int32_t>(0xc5)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button10;
-
-  /// @brief Field Button11 value: static_cast<int32_t>(0xc6)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button11;
-
-  /// @brief Field Button12 value: static_cast<int32_t>(0xc7)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button12;
-
-  /// @brief Field Button13 value: static_cast<int32_t>(0xc8)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button13;
-
-  /// @brief Field Button14 value: static_cast<int32_t>(0xc9)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button14;
-
-  /// @brief Field Button15 value: static_cast<int32_t>(0xca)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button15;
-
-  /// @brief Field Button16 value: static_cast<int32_t>(0xcb)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Button16;
-
-  /// @brief Field LanguageSwitch value: static_cast<int32_t>(0xcc)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const LanguageSwitch;
-
-  /// @brief Field MannerMode value: static_cast<int32_t>(0xcd)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const MannerMode;
-
-  /// @brief Field Mode3D value: static_cast<int32_t>(0xce)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Mode3D;
-
-  /// @brief Field Contacts value: static_cast<int32_t>(0xcf)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Contacts;
-
-  /// @brief Field Calendar value: static_cast<int32_t>(0xd0)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calendar;
-
-  /// @brief Field Music value: static_cast<int32_t>(0xd1)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Music;
-
-  /// @brief Field Calculator value: static_cast<int32_t>(0xd2)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Calculator;
-
-  /// @brief Field ZenkakuHankaku value: static_cast<int32_t>(0xd3)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const ZenkakuHankaku;
-
-  /// @brief Field Eisu value: static_cast<int32_t>(0xd4)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Eisu;
-
-  /// @brief Field Muhenkan value: static_cast<int32_t>(0xd5)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Muhenkan;
-
-  /// @brief Field Henkan value: static_cast<int32_t>(0xd6)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Henkan;
-
-  /// @brief Field KatakanaHiragana value: static_cast<int32_t>(0xd7)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const KatakanaHiragana;
-
-  /// @brief Field Yen value: static_cast<int32_t>(0xd8)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Yen;
-
-  /// @brief Field Ro value: static_cast<int32_t>(0xd9)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Ro;
-
-  /// @brief Field Kana value: static_cast<int32_t>(0xda)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Kana;
-
-  /// @brief Field Assist value: static_cast<int32_t>(0xdb)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode const Assist;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

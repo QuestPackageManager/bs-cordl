@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeFeature);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3378))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeFeature*
 class CORDL_TYPE RuntimeFeature : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsDynamicCodeSupported, addr 0x24fb5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDynamicCodeSupported, addr 0x25cbfc0, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsDynamicCodeSupported();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeFeature();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeFeature", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeFeature(RuntimeFeature&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeFeature(RuntimeFeature const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeFeature();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ProgressActivitySO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10986))
 // CS Name: ::ProgressActivitySO*
 class CORDL_TYPE ProgressActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {
 public:
@@ -28,17 +26,23 @@ public:
   __declspec(property(get = __cordl_internal_get_subtasks,
                       put = __cordl_internal_set_subtasks))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> subtasks;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*>& __cordl_internal_get_subtasks();
+  static inline ::GlobalNamespace::ProgressActivitySO* New_ctor();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> const& __cordl_internal_get_subtasks() const;
 
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*>& __cordl_internal_get_subtasks();
+
   constexpr void __cordl_internal_set_subtasks(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> value);
 
-  static inline ::GlobalNamespace::ProgressActivitySO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12a88cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e989c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProgressActivitySO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProgressActivitySO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProgressActivitySO(ProgressActivitySO&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProgressActivitySO(ProgressActivitySO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProgressActivitySO();
-
-public:
   /// @brief Field subtasks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> ___subtasks;
 

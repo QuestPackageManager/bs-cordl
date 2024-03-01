@@ -50,8 +50,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15141))
 // CS Name: ::NoteData::GameplayType
 struct CORDL_TYPE __NoteData__GameplayType {
 public:
@@ -72,33 +70,38 @@ public:
     return static_cast<____NoteData__GameplayType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NoteData__GameplayType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NoteData__GameplayType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __NoteData__GameplayType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__NoteData__GameplayType const Normal;
-
   /// @brief Field Bomb value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__NoteData__GameplayType const Bomb;
-
-  /// @brief Field BurstSliderHead value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__NoteData__GameplayType const BurstSliderHead;
 
   /// @brief Field BurstSliderElement value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__NoteData__GameplayType const BurstSliderElement;
 
   /// @brief Field BurstSliderElementFill value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__NoteData__GameplayType const BurstSliderElementFill;
+
+  /// @brief Field BurstSliderHead value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__NoteData__GameplayType const BurstSliderHead;
+
+  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__NoteData__GameplayType const Normal;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -112,8 +115,6 @@ static_assert(offsetof(::GlobalNamespace::__NoteData__GameplayType, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15142))
 // CS Name: ::NoteData::ScoringType
 struct CORDL_TYPE __NoteData__ScoringType {
 public:
@@ -136,18 +137,26 @@ public:
     return static_cast<____NoteData__ScoringType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NoteData__ScoringType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NoteData__ScoringType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __NoteData__ScoringType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BurstSliderElement value: static_cast<int32_t>(0x5)
+  static ::GlobalNamespace::__NoteData__ScoringType const BurstSliderElement;
+
+  /// @brief Field BurstSliderHead value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::__NoteData__ScoringType const BurstSliderHead;
 
   /// @brief Field Ignore value: static_cast<int32_t>(0xffffffff)
   static ::GlobalNamespace::__NoteData__ScoringType const Ignore;
@@ -164,11 +173,8 @@ public:
   /// @brief Field SliderTail value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__NoteData__ScoringType const SliderTail;
 
-  /// @brief Field BurstSliderHead value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__NoteData__ScoringType const BurstSliderHead;
-
-  /// @brief Field BurstSliderElement value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__NoteData__ScoringType const BurstSliderElement;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -182,36 +188,42 @@ static_assert(offsetof(::GlobalNamespace::__NoteData__ScoringType, value__) == 0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15135)), TypeDefinitionIndex(TypeDefinitionIndex(15136)), TypeDefinitionIndex(TypeDefinitionIndex(15139)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15141)), TypeDefinitionIndex(TypeDefinitionIndex(15142)), TypeDefinitionIndex(TypeDefinitionIndex(15144))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15143)) CS Name: ::NoteData*
+// CS Name: ::NoteData*
 class CORDL_TYPE NoteData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
-  using ScoringType = ::GlobalNamespace::__NoteData__ScoringType;
-
   using GameplayType = ::GlobalNamespace::__NoteData__GameplayType;
 
-  /// @brief Field <gameplayType>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__gameplayType_k__BackingField,
-                      put = __cordl_internal_set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
+  using ScoringType = ::GlobalNamespace::__NoteData__ScoringType;
 
-  /// @brief Field <scoringType>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__scoringType_k__BackingField,
-                      put = __cordl_internal_set__scoringType_k__BackingField))::GlobalNamespace::__NoteData__ScoringType _scoringType_k__BackingField;
+  /// @brief Field <beforeJumpNoteLineLayer>k__BackingField, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField,
+                      put = __cordl_internal_set__beforeJumpNoteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _beforeJumpNoteLineLayer_k__BackingField;
 
   /// @brief Field <colorType>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
+
+  /// @brief Field <cutDirectionAngleOffset>k__BackingField, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get__cutDirectionAngleOffset_k__BackingField,
+                      put = __cordl_internal_set__cutDirectionAngleOffset_k__BackingField)) float_t _cutDirectionAngleOffset_k__BackingField;
 
   /// @brief Field <cutDirection>k__BackingField, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__cutDirection_k__BackingField,
                       put = __cordl_internal_set__cutDirection_k__BackingField))::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
 
-  /// @brief Field <timeToNextColorNote>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeToNextColorNote_k__BackingField, put = __cordl_internal_set__timeToNextColorNote_k__BackingField)) float_t _timeToNextColorNote_k__BackingField;
+  /// @brief Field <cutSfxVolumeMultiplier>k__BackingField, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField,
+                      put = __cordl_internal_set__cutSfxVolumeMultiplier_k__BackingField)) float_t _cutSfxVolumeMultiplier_k__BackingField;
 
-  /// @brief Field <timeToPrevColorNote>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeToPrevColorNote_k__BackingField, put = __cordl_internal_set__timeToPrevColorNote_k__BackingField)) float_t _timeToPrevColorNote_k__BackingField;
+  /// @brief Field <flipLineIndex>k__BackingField, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__flipLineIndex_k__BackingField, put = __cordl_internal_set__flipLineIndex_k__BackingField)) int32_t _flipLineIndex_k__BackingField;
+
+  /// @brief Field <flipYSide>k__BackingField, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__flipYSide_k__BackingField, put = __cordl_internal_set__flipYSide_k__BackingField)) float_t _flipYSide_k__BackingField;
+
+  /// @brief Field <gameplayType>k__BackingField, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__gameplayType_k__BackingField,
+                      put = __cordl_internal_set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
 
   /// @brief Field <lineIndex>k__BackingField, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
@@ -220,238 +232,60 @@ public:
   __declspec(property(get = __cordl_internal_get__noteLineLayer_k__BackingField,
                       put = __cordl_internal_set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
 
-  /// @brief Field <beforeJumpNoteLineLayer>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField,
-                      put = __cordl_internal_set__beforeJumpNoteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _beforeJumpNoteLineLayer_k__BackingField;
+  /// @brief Field <scoringType>k__BackingField, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__scoringType_k__BackingField,
+                      put = __cordl_internal_set__scoringType_k__BackingField))::GlobalNamespace::__NoteData__ScoringType _scoringType_k__BackingField;
 
-  /// @brief Field <flipLineIndex>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__flipLineIndex_k__BackingField, put = __cordl_internal_set__flipLineIndex_k__BackingField)) int32_t _flipLineIndex_k__BackingField;
+  /// @brief Field <timeToNextColorNote>k__BackingField, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__timeToNextColorNote_k__BackingField, put = __cordl_internal_set__timeToNextColorNote_k__BackingField)) float_t _timeToNextColorNote_k__BackingField;
 
-  /// @brief Field <flipYSide>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__flipYSide_k__BackingField, put = __cordl_internal_set__flipYSide_k__BackingField)) float_t _flipYSide_k__BackingField;
+  /// @brief Field <timeToPrevColorNote>k__BackingField, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__timeToPrevColorNote_k__BackingField, put = __cordl_internal_set__timeToPrevColorNote_k__BackingField)) float_t _timeToPrevColorNote_k__BackingField;
 
-  /// @brief Field <cutDirectionAngleOffset>k__BackingField, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__cutDirectionAngleOffset_k__BackingField,
-                      put = __cordl_internal_set__cutDirectionAngleOffset_k__BackingField)) float_t _cutDirectionAngleOffset_k__BackingField;
-
-  /// @brief Field <cutSfxVolumeMultiplier>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField,
-                      put = __cordl_internal_set__cutSfxVolumeMultiplier_k__BackingField)) float_t _cutSfxVolumeMultiplier_k__BackingField;
-
-  __declspec(property(get = get_subtypeGroupIdentifier)) int32_t subtypeGroupIdentifier;
-
-  __declspec(property(get = get_gameplayType, put = set_gameplayType))::GlobalNamespace::__NoteData__GameplayType gameplayType;
-
-  __declspec(property(get = get_scoringType, put = set_scoringType))::GlobalNamespace::__NoteData__ScoringType scoringType;
+  __declspec(property(get = get_beforeJumpNoteLineLayer, put = set_beforeJumpNoteLineLayer))::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer;
 
   __declspec(property(get = get_colorType, put = set_colorType))::GlobalNamespace::ColorType colorType;
 
   __declspec(property(get = get_cutDirection, put = set_cutDirection))::GlobalNamespace::NoteCutDirection cutDirection;
 
-  __declspec(property(get = get_timeToNextColorNote, put = set_timeToNextColorNote)) float_t timeToNextColorNote;
+  __declspec(property(get = get_cutDirectionAngleOffset, put = set_cutDirectionAngleOffset)) float_t cutDirectionAngleOffset;
 
-  __declspec(property(get = get_timeToPrevColorNote, put = set_timeToPrevColorNote)) float_t timeToPrevColorNote;
-
-  __declspec(property(get = get_lineIndex, put = set_lineIndex)) int32_t lineIndex;
-
-  __declspec(property(get = get_noteLineLayer, put = set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
-
-  __declspec(property(get = get_beforeJumpNoteLineLayer, put = set_beforeJumpNoteLineLayer))::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer;
+  __declspec(property(get = get_cutSfxVolumeMultiplier, put = set_cutSfxVolumeMultiplier)) float_t cutSfxVolumeMultiplier;
 
   __declspec(property(get = get_flipLineIndex, put = set_flipLineIndex)) int32_t flipLineIndex;
 
   __declspec(property(get = get_flipYSide, put = set_flipYSide)) float_t flipYSide;
 
-  __declspec(property(get = get_cutDirectionAngleOffset, put = set_cutDirectionAngleOffset)) float_t cutDirectionAngleOffset;
+  __declspec(property(get = get_gameplayType, put = set_gameplayType))::GlobalNamespace::__NoteData__GameplayType gameplayType;
 
-  __declspec(property(get = get_cutSfxVolumeMultiplier, put = set_cutSfxVolumeMultiplier)) float_t cutSfxVolumeMultiplier;
+  __declspec(property(get = get_lineIndex, put = set_lineIndex)) int32_t lineIndex;
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get__gameplayType_k__BackingField();
+  __declspec(property(get = get_noteLineLayer, put = set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get__gameplayType_k__BackingField() const;
+  __declspec(property(get = get_scoringType, put = set_scoringType))::GlobalNamespace::__NoteData__ScoringType scoringType;
 
-  constexpr void __cordl_internal_set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value);
+  __declspec(property(get = get_subtypeGroupIdentifier)) int32_t subtypeGroupIdentifier;
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType& __cordl_internal_get__scoringType_k__BackingField();
+  __declspec(property(get = get_timeToNextColorNote, put = set_timeToNextColorNote)) float_t timeToNextColorNote;
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __cordl_internal_get__scoringType_k__BackingField() const;
+  __declspec(property(get = get_timeToPrevColorNote, put = set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  constexpr void __cordl_internal_set__scoringType_k__BackingField(::GlobalNamespace::__NoteData__ScoringType value);
+  /// @brief Method ChangeNoteCutDirection, addr 0xe57404, size 0x8, virtual false, abstract: false, final false
+  inline void ChangeNoteCutDirection(::GlobalNamespace::NoteCutDirection newCutDirection);
 
-  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
+  /// @brief Method ChangeToBurstSliderHead, addr 0xe572dc, size 0x10, virtual false, abstract: false, final false
+  inline void ChangeToBurstSliderHead();
 
-  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
+  /// @brief Method ChangeToGameNote, addr 0xe572ec, size 0x10, virtual false, abstract: false, final false
+  inline void ChangeToGameNote();
 
-  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
+  /// @brief Method ChangeToSliderHead, addr 0xe572fc, size 0xc, virtual false, abstract: false, final false
+  inline void ChangeToSliderHead();
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__cutDirection_k__BackingField();
+  /// @brief Method ChangeToSliderTail, addr 0xe57308, size 0xc, virtual false, abstract: false, final false
+  inline void ChangeToSliderTail();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__cutDirection_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value);
-
-  constexpr float_t& __cordl_internal_get__timeToNextColorNote_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__timeToNextColorNote_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__timeToNextColorNote_k__BackingField(float_t value);
-
-  constexpr float_t& __cordl_internal_get__timeToPrevColorNote_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__timeToPrevColorNote_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__timeToPrevColorNote_k__BackingField(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
-
-  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
-
-  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
-
-  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField();
-
-  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__beforeJumpNoteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
-
-  constexpr int32_t& __cordl_internal_get__flipLineIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__flipLineIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__flipLineIndex_k__BackingField(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__flipYSide_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__flipYSide_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__flipYSide_k__BackingField(float_t value);
-
-  constexpr float_t& __cordl_internal_get__cutDirectionAngleOffset_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__cutDirectionAngleOffset_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__cutDirectionAngleOffset_k__BackingField(float_t value);
-
-  constexpr float_t& __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__cutSfxVolumeMultiplier_k__BackingField(float_t value);
-
-  /// @brief Method get_subtypeGroupIdentifier, addr 0xe11008, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_subtypeGroupIdentifier();
-
-  /// @brief Method get_gameplayType, addr 0xe11010, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
-
-  /// @brief Method set_gameplayType, addr 0xe11018, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
-
-  /// @brief Method get_scoringType, addr 0xe11020, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__NoteData__ScoringType get_scoringType();
-
-  /// @brief Method set_scoringType, addr 0xe11028, size 0x8, virtual false, abstract: false, final false
-  inline void set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
-
-  /// @brief Method get_colorType, addr 0xe11030, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorType get_colorType();
-
-  /// @brief Method set_colorType, addr 0xe11038, size 0x8, virtual false, abstract: false, final false
-  inline void set_colorType(::GlobalNamespace::ColorType value);
-
-  /// @brief Method get_cutDirection, addr 0xe11040, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
-
-  /// @brief Method set_cutDirection, addr 0xe11048, size 0x8, virtual false, abstract: false, final false
-  inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
-
-  /// @brief Method get_timeToNextColorNote, addr 0xe11050, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_timeToNextColorNote();
-
-  /// @brief Method set_timeToNextColorNote, addr 0xe11058, size 0x8, virtual false, abstract: false, final false
-  inline void set_timeToNextColorNote(float_t value);
-
-  /// @brief Method get_timeToPrevColorNote, addr 0xe11060, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_timeToPrevColorNote();
-
-  /// @brief Method set_timeToPrevColorNote, addr 0xe11068, size 0x8, virtual false, abstract: false, final false
-  inline void set_timeToPrevColorNote(float_t value);
-
-  /// @brief Method get_lineIndex, addr 0xe11070, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_lineIndex();
-
-  /// @brief Method set_lineIndex, addr 0xe11078, size 0x8, virtual false, abstract: false, final false
-  inline void set_lineIndex(int32_t value);
-
-  /// @brief Method get_noteLineLayer, addr 0xe11080, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
-
-  /// @brief Method set_noteLineLayer, addr 0xe11088, size 0x8, virtual false, abstract: false, final false
-  inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method get_beforeJumpNoteLineLayer, addr 0xe11090, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteLineLayer get_beforeJumpNoteLineLayer();
-
-  /// @brief Method set_beforeJumpNoteLineLayer, addr 0xe11098, size 0x8, virtual false, abstract: false, final false
-  inline void set_beforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method get_flipLineIndex, addr 0xe110a0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_flipLineIndex();
-
-  /// @brief Method set_flipLineIndex, addr 0xe110a8, size 0x8, virtual false, abstract: false, final false
-  inline void set_flipLineIndex(int32_t value);
-
-  /// @brief Method get_flipYSide, addr 0xe110b0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_flipYSide();
-
-  /// @brief Method set_flipYSide, addr 0xe110b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_flipYSide(float_t value);
-
-  /// @brief Method get_cutDirectionAngleOffset, addr 0xe110c0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_cutDirectionAngleOffset();
-
-  /// @brief Method set_cutDirectionAngleOffset, addr 0xe110c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_cutDirectionAngleOffset(float_t value);
-
-  /// @brief Method get_cutSfxVolumeMultiplier, addr 0xe110d0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_cutSfxVolumeMultiplier();
-
-  /// @brief Method set_cutSfxVolumeMultiplier, addr 0xe110d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_cutSfxVolumeMultiplier(float_t value);
-
-  /// @brief Method GetCopy, addr 0xe110e0, size 0xcc, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
-
-  static inline ::GlobalNamespace::NoteData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer,
-                                                      ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::__NoteData__ScoringType scoringType,
-                                                      ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote,
-                                                      float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide, float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier);
-
-  /// @brief Method .ctor, addr 0xe111ac, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer,
-                    ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
-                    ::GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote, float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide,
-                    float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier);
-
-  /// @brief Method CreateBombNoteData, addr 0xe11264, size 0xb4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteData* CreateBombNoteData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
-
-  /// @brief Method CreateBasicNoteData, addr 0xe11318, size 0xc0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteData* CreateBasicNoteData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::ColorType colorType,
-                                                                 ::GlobalNamespace::NoteCutDirection cutDirection);
-
-  /// @brief Method CreateBurstSliderNoteData, addr 0xe113d8, size 0xcc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteData* CreateBurstSliderNoteData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
-                                                                       ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::ColorType colorType,
-                                                                       ::GlobalNamespace::NoteCutDirection cutDirection, float_t cutSfxVolumeMultiplier);
-
-  /// @brief Method CopyWith, addr 0xe114a4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0xe57008, size 0x2cc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteData* CopyWith(::System::Nullable_1<float_t> time, ::System::Nullable_1<int32_t> lineIndex, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> noteLineLayer,
                                                ::System::Nullable_1<::GlobalNamespace::NoteLineLayer> beforeJumpNoteLineLayer,
                                                ::System::Nullable_1<::GlobalNamespace::__NoteData__GameplayType> gameplayType,
@@ -460,45 +294,221 @@ public:
                                                ::System::Nullable_1<float_t> timeToPrevColorNote, ::System::Nullable_1<int32_t> flipLineIndex, ::System::Nullable_1<float_t> flipYSide,
                                                ::System::Nullable_1<float_t> cutDirectionAngleOffset, ::System::Nullable_1<float_t> cutSfxVolumeMultiplier);
 
-  /// @brief Method SetBeforeJumpNoteLineLayer, addr 0xe11770, size 0x8, virtual false, abstract: false, final false
-  inline void SetBeforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
+  /// @brief Method CreateBasicNoteData, addr 0xe56e7c, size 0xc0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteData* CreateBasicNoteData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::ColorType colorType,
+                                                                 ::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method ChangeToBurstSliderHead, addr 0xe11778, size 0x10, virtual false, abstract: false, final false
-  inline void ChangeToBurstSliderHead();
+  /// @brief Method CreateBombNoteData, addr 0xe56dc8, size 0xb4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteData* CreateBombNoteData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method ChangeToGameNote, addr 0xe11788, size 0x10, virtual false, abstract: false, final false
-  inline void ChangeToGameNote();
+  /// @brief Method CreateBurstSliderNoteData, addr 0xe56f3c, size 0xcc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteData* CreateBurstSliderNoteData(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
+                                                                       ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::ColorType colorType,
+                                                                       ::GlobalNamespace::NoteCutDirection cutDirection, float_t cutSfxVolumeMultiplier);
 
-  /// @brief Method ChangeToSliderHead, addr 0xe11798, size 0xc, virtual false, abstract: false, final false
-  inline void ChangeToSliderHead();
+  /// @brief Method GetCopy, addr 0xe56c44, size 0xcc, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method ChangeToSliderTail, addr 0xe117a4, size 0xc, virtual false, abstract: false, final false
-  inline void ChangeToSliderTail();
-
-  /// @brief Method SetNoteFlipToNote, addr 0xe117b0, size 0x6c, virtual false, abstract: false, final false
-  inline void SetNoteFlipToNote(::GlobalNamespace::NoteData* targetNote);
-
-  /// @brief Method SetCutDirectionAngleOffset, addr 0xe1181c, size 0x8, virtual false, abstract: false, final false
-  inline void SetCutDirectionAngleOffset(float_t cutDirectionAngleOffset);
-
-  /// @brief Method ResetNoteFlip, addr 0xe11824, size 0xc, virtual false, abstract: false, final false
-  inline void ResetNoteFlip();
-
-  /// @brief Method Mirror, addr 0xe11830, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Mirror, addr 0xe57394, size 0x64, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
-  /// @brief Method SetNoteToAnyCutDirection, addr 0xe11894, size 0xc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer,
+                                                      ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::__NoteData__ScoringType scoringType,
+                                                      ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote,
+                                                      float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide, float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier);
+
+  /// @brief Method ResetNoteFlip, addr 0xe57388, size 0xc, virtual false, abstract: false, final false
+  inline void ResetNoteFlip();
+
+  /// @brief Method SetBeforeJumpNoteLineLayer, addr 0xe572d4, size 0x8, virtual false, abstract: false, final false
+  inline void SetBeforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
+
+  /// @brief Method SetCutDirectionAngleOffset, addr 0xe57380, size 0x8, virtual false, abstract: false, final false
+  inline void SetCutDirectionAngleOffset(float_t cutDirectionAngleOffset);
+
+  /// @brief Method SetNoteFlipToNote, addr 0xe57314, size 0x6c, virtual false, abstract: false, final false
+  inline void SetNoteFlipToNote(::GlobalNamespace::NoteData* targetNote);
+
+  /// @brief Method SetNoteToAnyCutDirection, addr 0xe573f8, size 0xc, virtual false, abstract: false, final false
   inline void SetNoteToAnyCutDirection();
 
-  /// @brief Method ChangeNoteCutDirection, addr 0xe118a0, size 0x8, virtual false, abstract: false, final false
-  inline void ChangeNoteCutDirection(::GlobalNamespace::NoteCutDirection newCutDirection);
-
-  /// @brief Method TransformNoteAOrBToRandomType, addr 0xe118a8, size 0x4c, virtual false, abstract: false, final false
-  inline void TransformNoteAOrBToRandomType();
-
-  /// @brief Method SubtypeIdentifier, addr 0xe11260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SubtypeIdentifier, addr 0xe56dc4, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SubtypeIdentifier(::GlobalNamespace::ColorType colorType);
 
+  /// @brief Method TransformNoteAOrBToRandomType, addr 0xe5740c, size 0x4c, virtual false, abstract: false, final false
+  inline void TransformNoteAOrBToRandomType();
+
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField();
+
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__cutDirectionAngleOffset_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__cutDirectionAngleOffset_k__BackingField();
+
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__cutDirection_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__cutDirection_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__flipLineIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__flipLineIndex_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__flipYSide_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__flipYSide_k__BackingField();
+
+  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get__gameplayType_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get__gameplayType_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
+
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
+
+  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __cordl_internal_get__scoringType_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::__NoteData__ScoringType& __cordl_internal_get__scoringType_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__timeToNextColorNote_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__timeToNextColorNote_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__timeToPrevColorNote_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__timeToPrevColorNote_k__BackingField();
+
+  constexpr void __cordl_internal_set__beforeJumpNoteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
+
+  constexpr void __cordl_internal_set__cutDirectionAngleOffset_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value);
+
+  constexpr void __cordl_internal_set__cutSfxVolumeMultiplier_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__flipLineIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__flipYSide_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value);
+
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set__scoringType_k__BackingField(::GlobalNamespace::__NoteData__ScoringType value);
+
+  constexpr void __cordl_internal_set__timeToNextColorNote_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__timeToPrevColorNote_k__BackingField(float_t value);
+
+  /// @brief Method .ctor, addr 0xe56d10, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer,
+                    ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
+                    ::GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote, float_t timeToPrevColorNote, int32_t flipLineIndex, float_t flipYSide,
+                    float_t cutDirectionAngleOffset, float_t cutSfxVolumeMultiplier);
+
+  /// @brief Method get_beforeJumpNoteLineLayer, addr 0xe56bf4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteLineLayer get_beforeJumpNoteLineLayer();
+
+  /// @brief Method get_colorType, addr 0xe56b94, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorType get_colorType();
+
+  /// @brief Method get_cutDirection, addr 0xe56ba4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
+
+  /// @brief Method get_cutDirectionAngleOffset, addr 0xe56c24, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_cutDirectionAngleOffset();
+
+  /// @brief Method get_cutSfxVolumeMultiplier, addr 0xe56c34, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_cutSfxVolumeMultiplier();
+
+  /// @brief Method get_flipLineIndex, addr 0xe56c04, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_flipLineIndex();
+
+  /// @brief Method get_flipYSide, addr 0xe56c14, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_flipYSide();
+
+  /// @brief Method get_gameplayType, addr 0xe56b74, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
+
+  /// @brief Method get_lineIndex, addr 0xe56bd4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_lineIndex();
+
+  /// @brief Method get_noteLineLayer, addr 0xe56be4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
+
+  /// @brief Method get_scoringType, addr 0xe56b84, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__NoteData__ScoringType get_scoringType();
+
+  /// @brief Method get_subtypeGroupIdentifier, addr 0xe56b6c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_subtypeGroupIdentifier();
+
+  /// @brief Method get_timeToNextColorNote, addr 0xe56bb4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_timeToNextColorNote();
+
+  /// @brief Method get_timeToPrevColorNote, addr 0xe56bc4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_timeToPrevColorNote();
+
+  /// @brief Method set_beforeJumpNoteLineLayer, addr 0xe56bfc, size 0x8, virtual false, abstract: false, final false
+  inline void set_beforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer value);
+
+  /// @brief Method set_colorType, addr 0xe56b9c, size 0x8, virtual false, abstract: false, final false
+  inline void set_colorType(::GlobalNamespace::ColorType value);
+
+  /// @brief Method set_cutDirection, addr 0xe56bac, size 0x8, virtual false, abstract: false, final false
+  inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
+
+  /// @brief Method set_cutDirectionAngleOffset, addr 0xe56c2c, size 0x8, virtual false, abstract: false, final false
+  inline void set_cutDirectionAngleOffset(float_t value);
+
+  /// @brief Method set_cutSfxVolumeMultiplier, addr 0xe56c3c, size 0x8, virtual false, abstract: false, final false
+  inline void set_cutSfxVolumeMultiplier(float_t value);
+
+  /// @brief Method set_flipLineIndex, addr 0xe56c0c, size 0x8, virtual false, abstract: false, final false
+  inline void set_flipLineIndex(int32_t value);
+
+  /// @brief Method set_flipYSide, addr 0xe56c1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_flipYSide(float_t value);
+
+  /// @brief Method set_gameplayType, addr 0xe56b7c, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
+
+  /// @brief Method set_lineIndex, addr 0xe56bdc, size 0x8, virtual false, abstract: false, final false
+  inline void set_lineIndex(int32_t value);
+
+  /// @brief Method set_noteLineLayer, addr 0xe56bec, size 0x8, virtual false, abstract: false, final false
+  inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
+
+  /// @brief Method set_scoringType, addr 0xe56b8c, size 0x8, virtual false, abstract: false, final false
+  inline void set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
+
+  /// @brief Method set_timeToNextColorNote, addr 0xe56bbc, size 0x8, virtual false, abstract: false, final false
+  inline void set_timeToNextColorNote(float_t value);
+
+  /// @brief Method set_timeToPrevColorNote, addr 0xe56bcc, size 0x8, virtual false, abstract: false, final false
+  inline void set_timeToPrevColorNote(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteData(NoteData&&) = delete;
@@ -507,12 +517,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteData(NoteData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteData();
-
-public:
   /// @brief Field <gameplayType>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__NoteData__GameplayType ____gameplayType_k__BackingField;
 

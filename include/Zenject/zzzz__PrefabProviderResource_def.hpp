@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::Zenject::PrefabProviderResource);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10375))
 // CS Name: ::Zenject::PrefabProviderResource*
 class CORDL_TYPE PrefabProviderResource : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IPrefabProvider"
-  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__resourcePath();
-
-  constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
-
-  constexpr void __cordl_internal_set__resourcePath(::StringW value);
+  /// @brief Method GetPrefab, addr 0x30194d4, size 0xcc, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
 
-  /// @brief Method .ctor, addr 0x2f25d84, size 0x28, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
+
+  constexpr ::StringW& __cordl_internal_get__resourcePath();
+
+  constexpr void __cordl_internal_set__resourcePath(::StringW value);
+
+  /// @brief Method .ctor, addr 0x30194ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath);
 
-  /// @brief Method GetPrefab, addr 0x2f25dac, size 0xcc, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::Object> GetPrefab();
+  /// @brief Convert to "::Zenject::IPrefabProvider"
+  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrefabProviderResource();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrefabProviderResource(PrefabProviderResource&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrefabProviderResource(PrefabProviderResource const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrefabProviderResource();
-
-public:
   /// @brief Field _resourcePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____resourcePath;
 

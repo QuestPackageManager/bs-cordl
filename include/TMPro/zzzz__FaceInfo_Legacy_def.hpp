@@ -17,14 +17,42 @@ MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12255))
 // CS Name: ::TMPro::FaceInfo_Legacy*
 class CORDL_TYPE FaceInfo_Legacy : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Ascender, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_Ascender, put = __cordl_internal_set_Ascender)) float_t Ascender;
+
+  /// @brief Field AtlasHeight, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_AtlasHeight, put = __cordl_internal_set_AtlasHeight)) float_t AtlasHeight;
+
+  /// @brief Field AtlasWidth, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_AtlasWidth, put = __cordl_internal_set_AtlasWidth)) float_t AtlasWidth;
+
+  /// @brief Field Baseline, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_Baseline, put = __cordl_internal_set_Baseline)) float_t Baseline;
+
+  /// @brief Field CapHeight, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_CapHeight, put = __cordl_internal_set_CapHeight)) float_t CapHeight;
+
+  /// @brief Field CenterLine, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_CenterLine, put = __cordl_internal_set_CenterLine)) float_t CenterLine;
+
+  /// @brief Field CharacterCount, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_CharacterCount, put = __cordl_internal_set_CharacterCount)) int32_t CharacterCount;
+
+  /// @brief Field Descender, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_Descender, put = __cordl_internal_set_Descender)) float_t Descender;
+
+  /// @brief Field LineHeight, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_LineHeight, put = __cordl_internal_set_LineHeight)) float_t LineHeight;
+
   /// @brief Field Name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+
+  /// @brief Field Padding, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_Padding, put = __cordl_internal_set_Padding)) float_t Padding;
 
   /// @brief Field PointSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_PointSize, put = __cordl_internal_set_PointSize)) float_t PointSize;
@@ -32,35 +60,17 @@ public:
   /// @brief Field Scale, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_Scale, put = __cordl_internal_set_Scale)) float_t Scale;
 
-  /// @brief Field CharacterCount, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_CharacterCount, put = __cordl_internal_set_CharacterCount)) int32_t CharacterCount;
-
-  /// @brief Field LineHeight, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_LineHeight, put = __cordl_internal_set_LineHeight)) float_t LineHeight;
-
-  /// @brief Field Baseline, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_Baseline, put = __cordl_internal_set_Baseline)) float_t Baseline;
-
-  /// @brief Field Ascender, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_Ascender, put = __cordl_internal_set_Ascender)) float_t Ascender;
-
-  /// @brief Field CapHeight, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_CapHeight, put = __cordl_internal_set_CapHeight)) float_t CapHeight;
-
-  /// @brief Field Descender, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_Descender, put = __cordl_internal_set_Descender)) float_t Descender;
-
-  /// @brief Field CenterLine, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_CenterLine, put = __cordl_internal_set_CenterLine)) float_t CenterLine;
-
-  /// @brief Field SuperscriptOffset, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_SuperscriptOffset, put = __cordl_internal_set_SuperscriptOffset)) float_t SuperscriptOffset;
+  /// @brief Field SubSize, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_SubSize, put = __cordl_internal_set_SubSize)) float_t SubSize;
 
   /// @brief Field SubscriptOffset, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_SubscriptOffset, put = __cordl_internal_set_SubscriptOffset)) float_t SubscriptOffset;
 
-  /// @brief Field SubSize, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_SubSize, put = __cordl_internal_set_SubSize)) float_t SubSize;
+  /// @brief Field SuperscriptOffset, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_SuperscriptOffset, put = __cordl_internal_set_SuperscriptOffset)) float_t SuperscriptOffset;
+
+  /// @brief Field TabWidth, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_TabWidth, put = __cordl_internal_set_TabWidth)) float_t TabWidth;
 
   /// @brief Field Underline, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_Underline, put = __cordl_internal_set_Underline)) float_t Underline;
@@ -74,149 +84,143 @@ public:
   /// @brief Field strikethroughThickness, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_strikethroughThickness, put = __cordl_internal_set_strikethroughThickness)) float_t strikethroughThickness;
 
-  /// @brief Field TabWidth, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_TabWidth, put = __cordl_internal_set_TabWidth)) float_t TabWidth;
-
-  /// @brief Field Padding, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_Padding, put = __cordl_internal_set_Padding)) float_t Padding;
-
-  /// @brief Field AtlasWidth, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_AtlasWidth, put = __cordl_internal_set_AtlasWidth)) float_t AtlasWidth;
-
-  /// @brief Field AtlasHeight, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_AtlasHeight, put = __cordl_internal_set_AtlasHeight)) float_t AtlasHeight;
-
-  constexpr ::StringW& __cordl_internal_get_Name();
-
-  constexpr ::StringW const& __cordl_internal_get_Name() const;
-
-  constexpr void __cordl_internal_set_Name(::StringW value);
-
-  constexpr float_t& __cordl_internal_get_PointSize();
-
-  constexpr float_t const& __cordl_internal_get_PointSize() const;
-
-  constexpr void __cordl_internal_set_PointSize(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Scale();
-
-  constexpr float_t const& __cordl_internal_get_Scale() const;
-
-  constexpr void __cordl_internal_set_Scale(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_CharacterCount();
-
-  constexpr int32_t const& __cordl_internal_get_CharacterCount() const;
-
-  constexpr void __cordl_internal_set_CharacterCount(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_LineHeight();
-
-  constexpr float_t const& __cordl_internal_get_LineHeight() const;
-
-  constexpr void __cordl_internal_set_LineHeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Baseline();
-
-  constexpr float_t const& __cordl_internal_get_Baseline() const;
-
-  constexpr void __cordl_internal_set_Baseline(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Ascender();
+  static inline ::TMPro::FaceInfo_Legacy* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_Ascender() const;
 
-  constexpr void __cordl_internal_set_Ascender(float_t value);
-
-  constexpr float_t& __cordl_internal_get_CapHeight();
-
-  constexpr float_t const& __cordl_internal_get_CapHeight() const;
-
-  constexpr void __cordl_internal_set_CapHeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Descender();
-
-  constexpr float_t const& __cordl_internal_get_Descender() const;
-
-  constexpr void __cordl_internal_set_Descender(float_t value);
-
-  constexpr float_t& __cordl_internal_get_CenterLine();
-
-  constexpr float_t const& __cordl_internal_get_CenterLine() const;
-
-  constexpr void __cordl_internal_set_CenterLine(float_t value);
-
-  constexpr float_t& __cordl_internal_get_SuperscriptOffset();
-
-  constexpr float_t const& __cordl_internal_get_SuperscriptOffset() const;
-
-  constexpr void __cordl_internal_set_SuperscriptOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_SubscriptOffset();
-
-  constexpr float_t const& __cordl_internal_get_SubscriptOffset() const;
-
-  constexpr void __cordl_internal_set_SubscriptOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_SubSize();
-
-  constexpr float_t const& __cordl_internal_get_SubSize() const;
-
-  constexpr void __cordl_internal_set_SubSize(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Underline();
-
-  constexpr float_t const& __cordl_internal_get_Underline() const;
-
-  constexpr void __cordl_internal_set_Underline(float_t value);
-
-  constexpr float_t& __cordl_internal_get_UnderlineThickness();
-
-  constexpr float_t const& __cordl_internal_get_UnderlineThickness() const;
-
-  constexpr void __cordl_internal_set_UnderlineThickness(float_t value);
-
-  constexpr float_t& __cordl_internal_get_strikethrough();
-
-  constexpr float_t const& __cordl_internal_get_strikethrough() const;
-
-  constexpr void __cordl_internal_set_strikethrough(float_t value);
-
-  constexpr float_t& __cordl_internal_get_strikethroughThickness();
-
-  constexpr float_t const& __cordl_internal_get_strikethroughThickness() const;
-
-  constexpr void __cordl_internal_set_strikethroughThickness(float_t value);
-
-  constexpr float_t& __cordl_internal_get_TabWidth();
-
-  constexpr float_t const& __cordl_internal_get_TabWidth() const;
-
-  constexpr void __cordl_internal_set_TabWidth(float_t value);
-
-  constexpr float_t& __cordl_internal_get_Padding();
-
-  constexpr float_t const& __cordl_internal_get_Padding() const;
-
-  constexpr void __cordl_internal_set_Padding(float_t value);
-
-  constexpr float_t& __cordl_internal_get_AtlasWidth();
-
-  constexpr float_t const& __cordl_internal_get_AtlasWidth() const;
-
-  constexpr void __cordl_internal_set_AtlasWidth(float_t value);
-
-  constexpr float_t& __cordl_internal_get_AtlasHeight();
+  constexpr float_t& __cordl_internal_get_Ascender();
 
   constexpr float_t const& __cordl_internal_get_AtlasHeight() const;
 
+  constexpr float_t& __cordl_internal_get_AtlasHeight();
+
+  constexpr float_t const& __cordl_internal_get_AtlasWidth() const;
+
+  constexpr float_t& __cordl_internal_get_AtlasWidth();
+
+  constexpr float_t const& __cordl_internal_get_Baseline() const;
+
+  constexpr float_t& __cordl_internal_get_Baseline();
+
+  constexpr float_t const& __cordl_internal_get_CapHeight() const;
+
+  constexpr float_t& __cordl_internal_get_CapHeight();
+
+  constexpr float_t const& __cordl_internal_get_CenterLine() const;
+
+  constexpr float_t& __cordl_internal_get_CenterLine();
+
+  constexpr int32_t const& __cordl_internal_get_CharacterCount() const;
+
+  constexpr int32_t& __cordl_internal_get_CharacterCount();
+
+  constexpr float_t const& __cordl_internal_get_Descender() const;
+
+  constexpr float_t& __cordl_internal_get_Descender();
+
+  constexpr float_t const& __cordl_internal_get_LineHeight() const;
+
+  constexpr float_t& __cordl_internal_get_LineHeight();
+
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
+
+  constexpr ::StringW& __cordl_internal_get_Name();
+
+  constexpr float_t const& __cordl_internal_get_Padding() const;
+
+  constexpr float_t& __cordl_internal_get_Padding();
+
+  constexpr float_t const& __cordl_internal_get_PointSize() const;
+
+  constexpr float_t& __cordl_internal_get_PointSize();
+
+  constexpr float_t const& __cordl_internal_get_Scale() const;
+
+  constexpr float_t& __cordl_internal_get_Scale();
+
+  constexpr float_t const& __cordl_internal_get_SubSize() const;
+
+  constexpr float_t& __cordl_internal_get_SubSize();
+
+  constexpr float_t const& __cordl_internal_get_SubscriptOffset() const;
+
+  constexpr float_t& __cordl_internal_get_SubscriptOffset();
+
+  constexpr float_t const& __cordl_internal_get_SuperscriptOffset() const;
+
+  constexpr float_t& __cordl_internal_get_SuperscriptOffset();
+
+  constexpr float_t const& __cordl_internal_get_TabWidth() const;
+
+  constexpr float_t& __cordl_internal_get_TabWidth();
+
+  constexpr float_t const& __cordl_internal_get_Underline() const;
+
+  constexpr float_t& __cordl_internal_get_Underline();
+
+  constexpr float_t const& __cordl_internal_get_UnderlineThickness() const;
+
+  constexpr float_t& __cordl_internal_get_UnderlineThickness();
+
+  constexpr float_t const& __cordl_internal_get_strikethrough() const;
+
+  constexpr float_t& __cordl_internal_get_strikethrough();
+
+  constexpr float_t const& __cordl_internal_get_strikethroughThickness() const;
+
+  constexpr float_t& __cordl_internal_get_strikethroughThickness();
+
+  constexpr void __cordl_internal_set_Ascender(float_t value);
+
   constexpr void __cordl_internal_set_AtlasHeight(float_t value);
 
-  static inline ::TMPro::FaceInfo_Legacy* New_ctor();
+  constexpr void __cordl_internal_set_AtlasWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x2c0ccf4, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_Baseline(float_t value);
+
+  constexpr void __cordl_internal_set_CapHeight(float_t value);
+
+  constexpr void __cordl_internal_set_CenterLine(float_t value);
+
+  constexpr void __cordl_internal_set_CharacterCount(int32_t value);
+
+  constexpr void __cordl_internal_set_Descender(float_t value);
+
+  constexpr void __cordl_internal_set_LineHeight(float_t value);
+
+  constexpr void __cordl_internal_set_Name(::StringW value);
+
+  constexpr void __cordl_internal_set_Padding(float_t value);
+
+  constexpr void __cordl_internal_set_PointSize(float_t value);
+
+  constexpr void __cordl_internal_set_Scale(float_t value);
+
+  constexpr void __cordl_internal_set_SubSize(float_t value);
+
+  constexpr void __cordl_internal_set_SubscriptOffset(float_t value);
+
+  constexpr void __cordl_internal_set_SuperscriptOffset(float_t value);
+
+  constexpr void __cordl_internal_set_TabWidth(float_t value);
+
+  constexpr void __cordl_internal_set_Underline(float_t value);
+
+  constexpr void __cordl_internal_set_UnderlineThickness(float_t value);
+
+  constexpr void __cordl_internal_set_strikethrough(float_t value);
+
+  constexpr void __cordl_internal_set_strikethroughThickness(float_t value);
+
+  /// @brief Method .ctor, addr 0x2cf6dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FaceInfo_Legacy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FaceInfo_Legacy(FaceInfo_Legacy&&) = delete;
@@ -225,12 +229,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FaceInfo_Legacy(FaceInfo_Legacy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FaceInfo_Legacy();
-
-public:
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;
 

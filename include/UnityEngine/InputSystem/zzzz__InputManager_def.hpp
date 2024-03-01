@@ -227,8 +227,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDev
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5551))
 // CS Name: ::InputManager::DeviceDisableScope
 struct CORDL_TYPE __InputManager__DeviceDisableScope {
 public:
@@ -247,18 +245,20 @@ public:
     return static_cast<____InputManager__DeviceDisableScope_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputManager__DeviceDisableScope(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputManager__DeviceDisableScope();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __InputManager__DeviceDisableScope(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Everywhere value: static_cast<int32_t>(0x0)
   static ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope const Everywhere;
@@ -268,6 +268,9 @@ public:
 
   /// @brief Field TemporaryWhilePlayerIsInBackground value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope const TemporaryWhilePlayerIsInBackground;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -281,19 +284,17 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputManager__DeviceDisable
 // SizeInfo { instance_size: 64, native_size: 72, calculated_instance_size: 64, calculated_native_size: 78, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5879))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5552))
 // CS Name: ::InputManager::AvailableDevice
 struct CORDL_TYPE __InputManager__AvailableDevice {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None }, CppParam { name: "deviceId", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "isNative", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRemoved", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __InputManager__AvailableDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, int32_t deviceId, bool isNative, bool isRemoved) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputManager__AvailableDevice();
+
+  // Ctor Parameters [CppParam { name: "description", ty: "::UnityEngine::InputSystem::Layouts::InputDeviceDescription", modifiers: "", def_value: None }, CppParam { name: "deviceId", ty: "int32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "isNative", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRemoved", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __InputManager__AvailableDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, int32_t deviceId, bool isNative, bool isRemoved) noexcept;
 
   /// @brief Field description, offset: 0x0, size: 0x38, def value: None
   ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description;
@@ -328,21 +329,19 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputManager__AvailableDevi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5553))
 // CS Name: ::InputManager::StateChangeMonitorTimeout
 struct CORDL_TYPE __InputManager__StateChangeMonitorTimeout {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputManager__StateChangeMonitorTimeout();
+
   // Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value:
   // None }, CppParam { name: "monitor", ty: "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: None }, CppParam { name: "monitorIndex", ty: "int64_t",
   // modifiers: "", def_value: None }, CppParam { name: "timerIndex", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr __InputManager__StateChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor,
                                                       int64_t monitorIndex, int32_t timerIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputManager__StateChangeMonitorTimeout();
 
   /// @brief Field control, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputControl* control;
@@ -382,21 +381,19 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputManager__StateChangeMo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5554))
 // CS Name: ::InputManager::StateChangeMonitorListener
 struct CORDL_TYPE __InputManager__StateChangeMonitorListener {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputManager__StateChangeMonitorListener();
+
   // Ctor Parameters [CppParam { name: "control", ty: "::UnityEngine::InputSystem::InputControl*", modifiers: "", def_value: None }, CppParam { name: "monitor", ty:
   // "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*", modifiers: "", def_value: None }, CppParam { name: "monitorIndex", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
   // name: "groupIndex", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr __InputManager__StateChangeMonitorListener(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex,
                                                        uint32_t groupIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputManager__StateChangeMonitorListener();
 
   /// @brief Field control, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputControl* control;
@@ -431,34 +428,36 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputManager__StateChangeMo
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5580))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5555))
 // CS Name: ::InputManager::StateChangeMonitorsForDevice
 struct CORDL_TYPE __InputManager__StateChangeMonitorsForDevice {
 public:
   // Declarations
   __declspec(property(get = get_count)) int32_t count;
 
-  /// @brief Method get_count, addr 0x2ab7868, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_count();
-
-  /// @brief Method Add, addr 0x2ab7870, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2b9e944, size 0x114, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, uint32_t groupIndex);
 
-  /// @brief Method Remove, addr 0x2ab79f8, size 0xb4, virtual false, abstract: false, final false
-  inline void Remove(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, bool deferRemoval);
-
-  /// @brief Method Clear, addr 0x2ab7bf0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2b9ecc4, size 0x64, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CompactArrays, addr 0x2ab7c54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CompactArrays, addr 0x2b9ed28, size 0x68, virtual false, abstract: false, final false
   inline void CompactArrays();
 
-  /// @brief Method RemoveAt, addr 0x2ab7b44, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x2b9eacc, size 0xb4, virtual false, abstract: false, final false
+  inline void Remove(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, bool deferRemoval);
+
+  /// @brief Method RemoveAt, addr 0x2b9ec18, size 0xac, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t i);
 
-  /// @brief Method SortMonitorsByIndex, addr 0x2ab7cbc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SortMonitorsByIndex, addr 0x2b9ed90, size 0x13c, virtual false, abstract: false, final false
   inline void SortMonitorsByIndex();
+
+  /// @brief Method get_count, addr 0x2b9e93c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_count();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputManager__StateChangeMonitorsForDevice();
 
   // Ctor Parameters [CppParam { name: "memoryRegions", ty:
   // "::ArrayW<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion,::Array<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>*>", modifiers: "", def_value: None },
@@ -470,10 +469,6 @@ public:
       ::ArrayW<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion, ::Array<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>*> memoryRegions,
       ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorListener, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorListener>*> listeners,
       ::UnityEngine::InputSystem::DynamicBitfield signalled, bool needToUpdateOrderingOfMonitors, bool needToCompactArrays) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputManager__StateChangeMonitorsForDevice();
 
   /// @brief Field memoryRegions, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion, ::Array<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>*> memoryRegions;
@@ -515,8 +510,6 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TDevice>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5556))
 // CS Name: ::InputManager::<>c__60`1<TDevice>*
 class CORDL_TYPE __InputManager____c__60_1 : public ::System::Object {
 public:
@@ -527,22 +520,28 @@ public:
   /// @brief Field <>9__60_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__60_0, put = setStaticF___9__60_0))::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* __9__60_0;
 
-  static inline void setStaticF___9(::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>* value);
-
-  static inline ::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>* getStaticF___9();
-
-  static inline void setStaticF___9__60_0(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* value);
-
-  static inline ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* getStaticF___9__60_0();
-
   static inline ::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <RegisterPrecompiledLayout>b__60_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* _RegisterPrecompiledLayout_b__60_0();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>* getStaticF___9();
+
+  static inline ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* getStaticF___9__60_0();
+
+  static inline void setStaticF___9(::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>* value);
+
+  static inline void setStaticF___9__60_0(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputManager____c__60_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InputManager____c__60_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InputManager____c__60_1(__InputManager____c__60_1&&) = delete;
@@ -551,12 +550,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InputManager____c__60_1(__InputManager____c__60_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputManager____c__60_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -565,34 +558,25 @@ public:
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2331)), TypeDefinitionIndex(TypeDefinitionIndex(2494)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3818)), TypeDefinitionIndex(TypeDefinitionIndex(5874)), TypeDefinitionIndex(TypeDefinitionIndex(5930)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2331), inst: 1992 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3818), inst: 1326 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3818), inst: 1330 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3818), inst: 1331 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5557)) CS Name:
-// ::InputManager::<ListControlLayouts>d__75*
+// CS Name: ::InputManager::<ListControlLayouts>d__75*
 class CORDL_TYPE __InputManager___ListControlLayouts_d__75 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current))::StringW System_Collections_Generic_IEnumerator_System_String__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::StringW __2__current;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field basedOn, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_basedOn, put = __cordl_internal_set_basedOn))::StringW basedOn;
-
   /// @brief Field <>3__basedOn, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get___3__basedOn, put = __cordl_internal_set___3__basedOn))::StringW __3__basedOn;
 
   /// @brief Field <>4__this, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::InputSystem::InputManager* __4__this;
-
-  /// @brief Field <internedBasedOn>5__2, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get__internedBasedOn_5__2, put = __cordl_internal_set__internedBasedOn_5__2))::UnityEngine::InputSystem::Utilities::InternedString _internedBasedOn_5__2;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x30
   __declspec(
@@ -607,150 +591,161 @@ public:
   __declspec(property(get = __cordl_internal_get___7__wrap4, put = __cordl_internal_set___7__wrap4))::System::Collections::Generic::__Dictionary_2__Enumerator<
       ::UnityEngine::InputSystem::Utilities::InternedString, ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*> __7__wrap4;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current))::StringW System_Collections_Generic_IEnumerator_System_String__Current;
+  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field <internedBasedOn>5__2, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get__internedBasedOn_5__2, put = __cordl_internal_set__internedBasedOn_5__2))::UnityEngine::InputSystem::Utilities::InternedString _internedBasedOn_5__2;
+
+  /// @brief Field basedOn, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_basedOn, put = __cordl_internal_set_basedOn))::StringW basedOn;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x2b9ef44, size 0x6a4, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::UnityEngine::InputSystem::__InputManager___ListControlLayouts_d__75* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x2b9f818, size 0xac, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x2b9f7c8, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2b9f8c4, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2b9f7d0, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b9f810, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2b9ef00, size 0x44, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get___2__current();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::StringW const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_basedOn();
-
-  constexpr ::StringW const& __cordl_internal_get_basedOn() const;
-
-  constexpr void __cordl_internal_set_basedOn(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get___3__basedOn();
+  constexpr ::StringW& __cordl_internal_get___2__current();
 
   constexpr ::StringW const& __cordl_internal_get___3__basedOn() const;
 
-  constexpr void __cordl_internal_set___3__basedOn(::StringW value);
+  constexpr ::StringW& __cordl_internal_get___3__basedOn();
 
   constexpr ::UnityEngine::InputSystem::InputManager*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputManager*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::InputManager* value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get__internedBasedOn_5__2();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get__internedBasedOn_5__2() const;
-
-  constexpr void __cordl_internal_set__internedBasedOn_5__2(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*> const& __cordl_internal_get___7__wrap2() const;
 
   constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>& __cordl_internal_get___7__wrap2();
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*> const& __cordl_internal_get___7__wrap2() const;
-
-  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*> value);
-
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>& __cordl_internal_get___7__wrap3();
-
   constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW> const& __cordl_internal_get___7__wrap3() const;
 
-  constexpr void __cordl_internal_set___7__wrap3(::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW> value);
-
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString,
-                                                                       ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*>&
-  __cordl_internal_get___7__wrap4();
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>& __cordl_internal_get___7__wrap3();
 
   constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString,
                                                                        ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*> const&
   __cordl_internal_get___7__wrap4() const;
 
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString,
+                                                                       ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*>&
+  __cordl_internal_get___7__wrap4();
+
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get__internedBasedOn_5__2() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get__internedBasedOn_5__2();
+
+  constexpr ::StringW const& __cordl_internal_get_basedOn() const;
+
+  constexpr ::StringW& __cordl_internal_get_basedOn();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::StringW value);
+
+  constexpr void __cordl_internal_set___3__basedOn(::StringW value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::InputManager* value);
+
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*> value);
+
+  constexpr void __cordl_internal_set___7__wrap3(::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW> value);
+
   constexpr void __cordl_internal_set___7__wrap4(
       ::System::Collections::Generic::__Dictionary_2__Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*>
           value);
 
-  static inline ::UnityEngine::InputSystem::__InputManager___ListControlLayouts_d__75* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ab7df8, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set__internedBasedOn_5__2(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2ab7e2c, size 0x44, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  constexpr void __cordl_internal_set_basedOn(::StringW value);
 
-  /// @brief Method MoveNext, addr 0x2ab7e70, size 0x6a4, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method <>m__Finally1, addr 0x2ab8514, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2b9f5e8, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x2ab8564, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2b9f638, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3, addr 0x2ab85b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally3, addr 0x2b9f688, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
-  /// @brief Method <>m__Finally4, addr 0x2ab8604, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally4, addr 0x2b9f6d8, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally4();
 
-  /// @brief Method <>m__Finally5, addr 0x2ab8654, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally5, addr 0x2b9f728, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally5();
 
-  /// @brief Method <>m__Finally6, addr 0x2ab86a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally6, addr 0x2b9f778, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally6();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x2ab86f4, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
+  /// @brief Method .ctor, addr 0x2b9eecc, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2ab86fc, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>* i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ab873c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>* i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x2ab8744, size 0xac, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2ab87f0, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputManager___ListControlLayouts_d__75();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InputManager___ListControlLayouts_d__75", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InputManager___ListControlLayouts_d__75(__InputManager___ListControlLayouts_d__75&&) = delete;
@@ -759,12 +754,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InputManager___ListControlLayouts_d__75(__InputManager___ListControlLayouts_d__75 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputManager___ListControlLayouts_d__75();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -826,8 +815,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputManager___ListControlL
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5558))
 // CS Name: ::InputManager::<>c*
 class CORDL_TYPE __InputManager____c : public ::System::Object {
 public:
@@ -838,22 +825,28 @@ public:
   /// @brief Field <>9__144_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__144_0, put = setStaticF___9__144_0))::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* __9__144_0;
 
-  static inline void setStaticF___9(::UnityEngine::InputSystem::__InputManager____c* value);
+  static inline ::UnityEngine::InputSystem::__InputManager____c* New_ctor();
+
+  /// @brief Method <MakeDeviceNameUnique>b__144_0, addr 0x2b9f934, size 0x64, virtual false, abstract: false, final false
+  inline ::StringW _MakeDeviceNameUnique_b__144_0(::UnityEngine::InputSystem::InputDevice* x);
+
+  /// @brief Method .ctor, addr 0x2b9f92c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::__InputManager____c* getStaticF___9();
 
-  static inline void setStaticF___9__144_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* value);
-
   static inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* getStaticF___9__144_0();
 
-  static inline ::UnityEngine::InputSystem::__InputManager____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::InputSystem::__InputManager____c* value);
 
-  /// @brief Method .ctor, addr 0x2ab8858, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__144_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* value);
 
-  /// @brief Method <MakeDeviceNameUnique>b__144_0, addr 0x2ab8860, size 0x64, virtual false, abstract: false, final false
-  inline ::StringW _MakeDeviceNameUnique_b__144_0(::UnityEngine::InputSystem::InputDevice* x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputManager____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InputManager____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InputManager____c(__InputManager____c&&) = delete;
@@ -862,12 +855,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InputManager____c(__InputManager____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputManager____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -878,65 +865,45 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 1224, native_size: -1, calculated_instance_size: 1224, calculated_native_size: 1224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2322)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5483)), TypeDefinitionIndex(TypeDefinitionIndex(5498)), TypeDefinitionIndex(TypeDefinitionIndex(5499)), TypeDefinitionIndex(TypeDefinitionIndex(5553)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5728)), TypeDefinitionIndex(TypeDefinitionIndex(5795)), TypeDefinitionIndex(TypeDefinitionIndex(5796)), TypeDefinitionIndex(TypeDefinitionIndex(5811)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5812)), TypeDefinitionIndex(TypeDefinitionIndex(5827)), TypeDefinitionIndex(TypeDefinitionIndex(5854)), TypeDefinitionIndex(TypeDefinitionIndex(5869)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5919)), TypeDefinitionIndex(TypeDefinitionIndex(5928)), TypeDefinitionIndex(TypeDefinitionIndex(5971)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 524 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 525 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 526 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 592 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(5919), inst: 991 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5919), inst: 992 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(5919), inst: 993 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5919), inst: 995 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(5919), inst: 999 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5919), inst: 1000 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(5919), inst: 1001 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5928), inst: 3852 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5559)) CS Name:
-// ::UnityEngine.InputSystem::InputManager*
+// CS Name: ::UnityEngine.InputSystem::InputManager*
 class CORDL_TYPE InputManager : public ::System::Object {
 public:
   // Declarations
-  using __c = ::UnityEngine::InputSystem::__InputManager____c;
+  using AvailableDevice = ::UnityEngine::InputSystem::__InputManager__AvailableDevice;
 
-  using _ListControlLayouts_d__75 = ::UnityEngine::InputSystem::__InputManager___ListControlLayouts_d__75;
-
-  template <typename TDevice> using __c__60_1 = ::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>;
-
-  using StateChangeMonitorsForDevice = ::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice;
+  using DeviceDisableScope = ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope;
 
   using StateChangeMonitorListener = ::UnityEngine::InputSystem::__InputManager__StateChangeMonitorListener;
 
   using StateChangeMonitorTimeout = ::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout;
 
-  using AvailableDevice = ::UnityEngine::InputSystem::__InputManager__AvailableDevice;
+  using StateChangeMonitorsForDevice = ::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice;
 
-  using DeviceDisableScope = ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope;
+  using _ListControlLayouts_d__75 = ::UnityEngine::InputSystem::__InputManager___ListControlLayouts_d__75;
 
-  /// @brief Field m_LayoutRegistrationVersion, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LayoutRegistrationVersion, put = __cordl_internal_set_m_LayoutRegistrationVersion)) int32_t m_LayoutRegistrationVersion;
+  using __c = ::UnityEngine::InputSystem::__InputManager____c;
 
-  /// @brief Field m_PollingFrequency, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PollingFrequency, put = __cordl_internal_set_m_PollingFrequency)) float_t m_PollingFrequency;
+  template <typename TDevice> using __c__60_1 = ::UnityEngine::InputSystem::__InputManager____c__60_1<TDevice>;
 
-  /// @brief Field m_Layouts, offset 0x18, size 0x40
-  __declspec(property(get = __cordl_internal_get_m_Layouts, put = __cordl_internal_set_m_Layouts))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection m_Layouts;
+  __declspec(property(get = get_composites))::UnityEngine::InputSystem::Utilities::TypeTable composites;
 
-  /// @brief Field m_Processors, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Processors, put = __cordl_internal_set_m_Processors))::UnityEngine::InputSystem::Utilities::TypeTable m_Processors;
+  __declspec(property(get = get_defaultUpdateType))::UnityEngine::InputSystem::LowLevel::InputUpdateType defaultUpdateType;
 
-  /// @brief Field m_Interactions, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Interactions, put = __cordl_internal_set_m_Interactions))::UnityEngine::InputSystem::Utilities::TypeTable m_Interactions;
+  __declspec(property(get = get_devices))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> devices;
 
-  /// @brief Field m_Composites, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Composites, put = __cordl_internal_set_m_Composites))::UnityEngine::InputSystem::Utilities::TypeTable m_Composites;
+  __declspec(property(get = get_gameHasFocus)) bool gameHasFocus;
 
-  /// @brief Field m_DevicesCount, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DevicesCount, put = __cordl_internal_set_m_DevicesCount)) int32_t m_DevicesCount;
+  __declspec(property(get = get_gameIsPlaying)) bool gameIsPlaying;
 
-  /// @brief Field m_Devices, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Devices,
-                      put = __cordl_internal_set_m_Devices))::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> m_Devices;
+  __declspec(property(get = get_gameShouldGetInputRegardlessOfFocus)) bool gameShouldGetInputRegardlessOfFocus;
 
-  /// @brief Field m_DevicesById, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DevicesById,
-                      put = __cordl_internal_set_m_DevicesById))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>* m_DevicesById;
+  __declspec(property(get = get_interactions))::UnityEngine::InputSystem::Utilities::TypeTable interactions;
+
+  __declspec(property(get = get_isProcessingEvents)) bool isProcessingEvents;
+
+  /// @brief Field m_AfterUpdateListeners, offset 0x310, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_AfterUpdateListeners,
+                      put = __cordl_internal_set_m_AfterUpdateListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> m_AfterUpdateListeners;
 
   /// @brief Field m_AvailableDeviceCount, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AvailableDeviceCount, put = __cordl_internal_set_m_AvailableDeviceCount)) int32_t m_AvailableDeviceCount;
@@ -946,70 +913,23 @@ public:
                       put = __cordl_internal_set_m_AvailableDevices))::ArrayW<::UnityEngine::InputSystem::__InputManager__AvailableDevice,
                                                                               ::Array<::UnityEngine::InputSystem::__InputManager__AvailableDevice>*> m_AvailableDevices;
 
-  /// @brief Field m_DisconnectedDevicesCount, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DisconnectedDevicesCount, put = __cordl_internal_set_m_DisconnectedDevicesCount)) int32_t m_DisconnectedDevicesCount;
+  /// @brief Field m_BeforeUpdateListeners, offset 0x2c0, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_BeforeUpdateListeners,
+                      put = __cordl_internal_set_m_BeforeUpdateListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> m_BeforeUpdateListeners;
 
-  /// @brief Field m_DisconnectedDevices, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DisconnectedDevices,
-                      put = __cordl_internal_set_m_DisconnectedDevices))::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> m_DisconnectedDevices;
-
-  /// @brief Field m_UpdateMask, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UpdateMask, put = __cordl_internal_set_m_UpdateMask))::UnityEngine::InputSystem::LowLevel::InputUpdateType m_UpdateMask;
+  /// @brief Field m_Composites, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Composites, put = __cordl_internal_set_m_Composites))::UnityEngine::InputSystem::Utilities::TypeTable m_Composites;
 
   /// @brief Field m_CurrentUpdate, offset 0xac, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentUpdate, put = __cordl_internal_set_m_CurrentUpdate))::UnityEngine::InputSystem::LowLevel::InputUpdateType m_CurrentUpdate;
-
-  /// @brief Field m_StateBuffers, offset 0xb0, size 0x30
-  __declspec(property(get = __cordl_internal_get_m_StateBuffers, put = __cordl_internal_set_m_StateBuffers))::UnityEngine::InputSystem::LowLevel::InputStateBuffers m_StateBuffers;
 
   /// @brief Field m_DeviceChangeListeners, offset 0xe0, size 0x50
   __declspec(property(get = __cordl_internal_get_m_DeviceChangeListeners, put = __cordl_internal_set_m_DeviceChangeListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
       ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> m_DeviceChangeListeners;
 
-  /// @brief Field m_DeviceStateChangeListeners, offset 0x130, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_DeviceStateChangeListeners, put = __cordl_internal_set_m_DeviceStateChangeListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
-      ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> m_DeviceStateChangeListeners;
-
-  /// @brief Field m_DeviceFindLayoutCallbacks, offset 0x180, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_DeviceFindLayoutCallbacks, put = __cordl_internal_set_m_DeviceFindLayoutCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
-      ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*> m_DeviceFindLayoutCallbacks;
-
   /// @brief Field m_DeviceCommandCallbacks, offset 0x1d0, size 0x50
   __declspec(property(get = __cordl_internal_get_m_DeviceCommandCallbacks, put = __cordl_internal_set_m_DeviceCommandCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
       ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*> m_DeviceCommandCallbacks;
-
-  /// @brief Field m_LayoutChangeListeners, offset 0x220, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_LayoutChangeListeners, put = __cordl_internal_set_m_LayoutChangeListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
-      ::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*> m_LayoutChangeListeners;
-
-  /// @brief Field m_EventListeners, offset 0x270, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_EventListeners, put = __cordl_internal_set_m_EventListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
-      ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> m_EventListeners;
-
-  /// @brief Field m_BeforeUpdateListeners, offset 0x2c0, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_BeforeUpdateListeners,
-                      put = __cordl_internal_set_m_BeforeUpdateListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> m_BeforeUpdateListeners;
-
-  /// @brief Field m_AfterUpdateListeners, offset 0x310, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_AfterUpdateListeners,
-                      put = __cordl_internal_set_m_AfterUpdateListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> m_AfterUpdateListeners;
-
-  /// @brief Field m_SettingsChangedListeners, offset 0x360, size 0x50
-  __declspec(property(get = __cordl_internal_get_m_SettingsChangedListeners,
-                      put = __cordl_internal_set_m_SettingsChangedListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> m_SettingsChangedListeners;
-
-  /// @brief Field m_NativeBeforeUpdateHooked, offset 0x3b0, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_NativeBeforeUpdateHooked, put = __cordl_internal_set_m_NativeBeforeUpdateHooked)) bool m_NativeBeforeUpdateHooked;
-
-  /// @brief Field m_HaveDevicesWithStateCallbackReceivers, offset 0x3b1, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HaveDevicesWithStateCallbackReceivers,
-                      put = __cordl_internal_set_m_HaveDevicesWithStateCallbackReceivers)) bool m_HaveDevicesWithStateCallbackReceivers;
-
-  /// @brief Field m_HasFocus, offset 0x3b2, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HasFocus, put = __cordl_internal_set_m_HasFocus)) bool m_HasFocus;
-
-  /// @brief Field m_InputEventStream, offset 0x3b8, size 0x78
-  __declspec(property(get = __cordl_internal_get_m_InputEventStream, put = __cordl_internal_set_m_InputEventStream))::UnityEngine::InputSystem::LowLevel::InputEventStream m_InputEventStream;
 
   /// @brief Field m_DeviceFindExecuteCommandDelegate, offset 0x430, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DeviceFindExecuteCommandDelegate,
@@ -1018,670 +938,732 @@ public:
   /// @brief Field m_DeviceFindExecuteCommandDeviceId, offset 0x438, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DeviceFindExecuteCommandDeviceId, put = __cordl_internal_set_m_DeviceFindExecuteCommandDeviceId)) int32_t m_DeviceFindExecuteCommandDeviceId;
 
-  /// @brief Field m_Runtime, offset 0x440, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Runtime, put = __cordl_internal_set_m_Runtime))::UnityEngine::InputSystem::LowLevel::IInputRuntime* m_Runtime;
+  /// @brief Field m_DeviceFindLayoutCallbacks, offset 0x180, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_DeviceFindLayoutCallbacks, put = __cordl_internal_set_m_DeviceFindLayoutCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
+      ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*> m_DeviceFindLayoutCallbacks;
+
+  /// @brief Field m_DeviceStateChangeListeners, offset 0x130, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_DeviceStateChangeListeners, put = __cordl_internal_set_m_DeviceStateChangeListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
+      ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> m_DeviceStateChangeListeners;
+
+  /// @brief Field m_Devices, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Devices,
+                      put = __cordl_internal_set_m_Devices))::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> m_Devices;
+
+  /// @brief Field m_DevicesById, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DevicesById,
+                      put = __cordl_internal_set_m_DevicesById))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>* m_DevicesById;
+
+  /// @brief Field m_DevicesCount, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DevicesCount, put = __cordl_internal_set_m_DevicesCount)) int32_t m_DevicesCount;
+
+  /// @brief Field m_DisconnectedDevices, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DisconnectedDevices,
+                      put = __cordl_internal_set_m_DisconnectedDevices))::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> m_DisconnectedDevices;
+
+  /// @brief Field m_DisconnectedDevicesCount, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DisconnectedDevicesCount, put = __cordl_internal_set_m_DisconnectedDevicesCount)) int32_t m_DisconnectedDevicesCount;
+
+  /// @brief Field m_EventListeners, offset 0x270, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_EventListeners, put = __cordl_internal_set_m_EventListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
+      ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> m_EventListeners;
+
+  /// @brief Field m_HasFocus, offset 0x3b2, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_HasFocus, put = __cordl_internal_set_m_HasFocus)) bool m_HasFocus;
+
+  /// @brief Field m_HaveDevicesWithStateCallbackReceivers, offset 0x3b1, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_HaveDevicesWithStateCallbackReceivers,
+                      put = __cordl_internal_set_m_HaveDevicesWithStateCallbackReceivers)) bool m_HaveDevicesWithStateCallbackReceivers;
+
+  /// @brief Field m_InputEventStream, offset 0x3b8, size 0x78
+  __declspec(property(get = __cordl_internal_get_m_InputEventStream, put = __cordl_internal_set_m_InputEventStream))::UnityEngine::InputSystem::LowLevel::InputEventStream m_InputEventStream;
+
+  /// @brief Field m_Interactions, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Interactions, put = __cordl_internal_set_m_Interactions))::UnityEngine::InputSystem::Utilities::TypeTable m_Interactions;
+
+  /// @brief Field m_LayoutChangeListeners, offset 0x220, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_LayoutChangeListeners, put = __cordl_internal_set_m_LayoutChangeListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
+      ::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*> m_LayoutChangeListeners;
+
+  /// @brief Field m_LayoutRegistrationVersion, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_LayoutRegistrationVersion, put = __cordl_internal_set_m_LayoutRegistrationVersion)) int32_t m_LayoutRegistrationVersion;
+
+  /// @brief Field m_Layouts, offset 0x18, size 0x40
+  __declspec(property(get = __cordl_internal_get_m_Layouts, put = __cordl_internal_set_m_Layouts))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection m_Layouts;
 
   /// @brief Field m_Metrics, offset 0x448, size 0x38
   __declspec(property(get = __cordl_internal_get_m_Metrics, put = __cordl_internal_set_m_Metrics))::UnityEngine::InputSystem::LowLevel::InputMetrics m_Metrics;
 
+  /// @brief Field m_NativeBeforeUpdateHooked, offset 0x3b0, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_NativeBeforeUpdateHooked, put = __cordl_internal_set_m_NativeBeforeUpdateHooked)) bool m_NativeBeforeUpdateHooked;
+
+  /// @brief Field m_PollingFrequency, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_PollingFrequency, put = __cordl_internal_set_m_PollingFrequency)) float_t m_PollingFrequency;
+
+  /// @brief Field m_Processors, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Processors, put = __cordl_internal_set_m_Processors))::UnityEngine::InputSystem::Utilities::TypeTable m_Processors;
+
+  /// @brief Field m_Runtime, offset 0x440, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Runtime, put = __cordl_internal_set_m_Runtime))::UnityEngine::InputSystem::LowLevel::IInputRuntime* m_Runtime;
+
   /// @brief Field m_Settings, offset 0x480, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Settings, put = __cordl_internal_set_m_Settings))::UnityW<::UnityEngine::InputSystem::InputSettings> m_Settings;
+
+  /// @brief Field m_SettingsChangedListeners, offset 0x360, size 0x50
+  __declspec(property(get = __cordl_internal_get_m_SettingsChangedListeners,
+                      put = __cordl_internal_set_m_SettingsChangedListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> m_SettingsChangedListeners;
+
+  /// @brief Field m_StateBuffers, offset 0xb0, size 0x30
+  __declspec(property(get = __cordl_internal_get_m_StateBuffers, put = __cordl_internal_set_m_StateBuffers))::UnityEngine::InputSystem::LowLevel::InputStateBuffers m_StateBuffers;
+
+  /// @brief Field m_StateChangeMonitorTimeouts, offset 0x490, size 0x38
+  __declspec(property(get = __cordl_internal_get_m_StateChangeMonitorTimeouts, put = __cordl_internal_set_m_StateChangeMonitorTimeouts))::UnityEngine::InputSystem::Utilities::InlinedArray_1<
+      ::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout> m_StateChangeMonitorTimeouts;
 
   /// @brief Field m_StateChangeMonitors, offset 0x488, size 0x8
   __declspec(property(get = __cordl_internal_get_m_StateChangeMonitors,
                       put = __cordl_internal_set_m_StateChangeMonitors))::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice,
                                                                                  ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*> m_StateChangeMonitors;
 
-  /// @brief Field m_StateChangeMonitorTimeouts, offset 0x490, size 0x38
-  __declspec(property(get = __cordl_internal_get_m_StateChangeMonitorTimeouts, put = __cordl_internal_set_m_StateChangeMonitorTimeouts))::UnityEngine::InputSystem::Utilities::InlinedArray_1<
-      ::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout> m_StateChangeMonitorTimeouts;
-
-  __declspec(property(get = get_devices))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> devices;
-
-  __declspec(property(get = get_processors))::UnityEngine::InputSystem::Utilities::TypeTable processors;
-
-  __declspec(property(get = get_interactions))::UnityEngine::InputSystem::Utilities::TypeTable interactions;
-
-  __declspec(property(get = get_composites))::UnityEngine::InputSystem::Utilities::TypeTable composites;
+  /// @brief Field m_UpdateMask, offset 0xa8, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UpdateMask, put = __cordl_internal_set_m_UpdateMask))::UnityEngine::InputSystem::LowLevel::InputUpdateType m_UpdateMask;
 
   __declspec(property(get = get_metrics))::UnityEngine::InputSystem::LowLevel::InputMetrics metrics;
+
+  __declspec(property(get = get_pollingFrequency, put = set_pollingFrequency)) float_t pollingFrequency;
+
+  __declspec(property(get = get_processors))::UnityEngine::InputSystem::Utilities::TypeTable processors;
 
   __declspec(property(get = get_settings, put = set_settings))::UnityW<::UnityEngine::InputSystem::InputSettings> settings;
 
   __declspec(property(get = get_updateMask, put = set_updateMask))::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask;
 
-  __declspec(property(get = get_defaultUpdateType))::UnityEngine::InputSystem::LowLevel::InputUpdateType defaultUpdateType;
+  /// @brief Method AddAvailableDevicesMatchingDescription, addr 0x2b95fbc, size 0x388, virtual false, abstract: false, final false
+  inline void AddAvailableDevicesMatchingDescription(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher, ::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  __declspec(property(get = get_pollingFrequency, put = set_pollingFrequency)) float_t pollingFrequency;
+  /// @brief Method AddAvailableDevicesThatAreNowRecognized, addr 0x2b94490, size 0x2a8, virtual false, abstract: false, final false
+  inline void AddAvailableDevicesThatAreNowRecognized();
 
-  __declspec(property(get = get_isProcessingEvents)) bool isProcessingEvents;
+  /// @brief Method AddDevice, addr 0x2b98324, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description);
 
-  __declspec(property(get = get_gameIsPlaying)) bool gameIsPlaying;
+  /// @brief Method AddDevice, addr 0x2b98540, size 0xd4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, ::UnityEngine::InputSystem::Utilities::InternedString layout,
+                                                            ::StringW deviceName, int32_t deviceId, ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags);
 
-  __declspec(property(get = get_gameHasFocus)) bool gameHasFocus;
+  /// @brief Method AddDevice, addr 0x2b98368, size 0x1d8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, bool throwIfNoLayoutFound, ::StringW deviceName, int32_t deviceId,
+                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags);
 
-  __declspec(property(get = get_gameShouldGetInputRegardlessOfFocus)) bool gameShouldGetInputRegardlessOfFocus;
+  /// @brief Method AddDevice, addr 0x2b8f15c, size 0x144, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::StringW layout, ::StringW name, ::UnityEngine::InputSystem::Utilities::InternedString variants);
 
-  constexpr int32_t& __cordl_internal_get_m_LayoutRegistrationVersion();
+  /// @brief Method AddDevice, addr 0x2b96e88, size 0x1b0, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Utilities::InternedString layout, int32_t deviceId, ::StringW deviceName,
+                                                            ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription,
+                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags, ::UnityEngine::InputSystem::Utilities::InternedString variants);
 
-  constexpr int32_t const& __cordl_internal_get_m_LayoutRegistrationVersion() const;
+  /// @brief Method AddDevice, addr 0x2b9789c, size 0xe8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::System::Type* type, ::StringW name);
 
-  constexpr void __cordl_internal_set_m_LayoutRegistrationVersion(int32_t value);
+  /// @brief Method AddDevice, addr 0x2b96978, size 0x510, virtual false, abstract: false, final false
+  inline void AddDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  constexpr float_t& __cordl_internal_get_m_PollingFrequency();
+  /// @brief Method AddDeviceUsage, addr 0x2b8f2a0, size 0x134, virtual false, abstract: false, final false
+  inline void AddDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  constexpr float_t const& __cordl_internal_get_m_PollingFrequency() const;
+  /// @brief Method AddStateChangeMonitor, addr 0x2b9e244, size 0x13c, virtual false, abstract: false, final false
+  inline void AddStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex,
+                                    uint32_t groupIndex);
 
-  constexpr void __cordl_internal_set_m_PollingFrequency(float_t value);
+  /// @brief Method AddStateChangeMonitorTimeout, addr 0x2b9e4d8, size 0x94, virtual false, abstract: false, final false
+  inline void AddStateChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, double_t time,
+                                           int64_t monitorIndex, int32_t timerIndex);
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __cordl_internal_get_m_Layouts();
+  /// @brief Method ApplySettings, addr 0x2b93c34, size 0x38c, virtual false, abstract: false, final false
+  inline void ApplySettings();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __cordl_internal_get_m_Layouts() const;
+  /// @brief Method AssignUniqueDeviceId, addr 0x2b97b08, size 0x18c, virtual false, abstract: false, final false
+  inline void AssignUniqueDeviceId(::UnityEngine::InputSystem::InputDevice* device);
 
-  constexpr void __cordl_internal_set_m_Layouts(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+  /// @brief Method Destroy, addr 0x2b9b224, size 0x10c, virtual false, abstract: false, final false
+  inline void Destroy();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable& __cordl_internal_get_m_Processors();
+  /// @brief Method EnableOrDisableDevice, addr 0x2b97ef8, size 0x42c, virtual false, abstract: false, final false
+  inline void EnableOrDisableDevice(::UnityEngine::InputSystem::InputDevice* device, bool enable, ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope scope);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable const& __cordl_internal_get_m_Processors() const;
+  /// @brief Method ExecuteGlobalCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TCommand> inline int64_t ExecuteGlobalCommand(ByRef<TCommand> command);
 
-  constexpr void __cordl_internal_set_m_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value);
+  /// @brief Method FindOrRegisterDeviceLayoutForType, addr 0x2b9747c, size 0xa0, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::InternedString FindOrRegisterDeviceLayoutForType(::System::Type* type);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable& __cordl_internal_get_m_Interactions();
+  /// @brief Method FireStateChangeNotifications, addr 0x2b9e780, size 0x14c, virtual false, abstract: false, final false
+  inline void FireStateChangeNotifications();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable const& __cordl_internal_get_m_Interactions() const;
+  /// @brief Method FireStateChangeNotifications, addr 0x2b9de2c, size 0x418, virtual false, abstract: false, final false
+  inline void FireStateChangeNotifications(int32_t deviceIndex, double_t internalTime, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  constexpr void __cordl_internal_set_m_Interactions(::UnityEngine::InputSystem::Utilities::TypeTable value);
+  /// @brief Method FlipBuffersForDeviceIfNecessary, addr 0x2b9dcd4, size 0xa4, virtual false, abstract: false, final false
+  inline bool FlipBuffersForDeviceIfNecessary(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable& __cordl_internal_get_m_Composites();
+  /// @brief Method FlushDisconnectedDevices, addr 0x2b98740, size 0x54, virtual false, abstract: false, final false
+  inline void FlushDisconnectedDevices();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable const& __cordl_internal_get_m_Composites() const;
+  /// @brief Method GetControls, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TControl> inline int32_t GetControls(::StringW path, ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls);
 
-  constexpr void __cordl_internal_set_m_Composites(::UnityEngine::InputSystem::Utilities::TypeTable value);
+  /// @brief Method GetDevice, addr 0x2b99000, size 0xa4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* GetDevice(::StringW nameOrLayout);
 
-  constexpr int32_t& __cordl_internal_get_m_DevicesCount();
+  /// @brief Method GetUnsupportedDevices, addr 0x2b990fc, size 0x1ec, virtual false, abstract: false, final false
+  inline int32_t GetUnsupportedDevices(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>* descriptions);
 
-  constexpr int32_t const& __cordl_internal_get_m_DevicesCount() const;
+  /// @brief Method Initialize, addr 0x2b9948c, size 0x3c, virtual false, abstract: false, final false
+  inline void Initialize(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime, ::UnityEngine::InputSystem::InputSettings* settings);
 
-  constexpr void __cordl_internal_set_m_DevicesCount(int32_t value);
+  /// @brief Method InitializeData, addr 0x2b994c8, size 0x146c, virtual false, abstract: false, final false
+  inline void InitializeData();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*>& __cordl_internal_get_m_Devices();
+  /// @brief Method InitializeDefaultState, addr 0x2b9b760, size 0x158, virtual false, abstract: false, final false
+  inline void InitializeDefaultState(::UnityEngine::InputSystem::InputDevice* device);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> const& __cordl_internal_get_m_Devices() const;
+  /// @brief Method InitializeDeviceState, addr 0x2b97c94, size 0x228, virtual false, abstract: false, final false
+  inline void InitializeDeviceState(::UnityEngine::InputSystem::InputDevice* device);
 
-  constexpr void __cordl_internal_set_m_Devices(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> value);
+  /// @brief Method InstallBeforeUpdateHookIfNecessary, addr 0x2b947f0, size 0x10c, virtual false, abstract: false, final false
+  inline void InstallBeforeUpdateHookIfNecessary();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>*& __cordl_internal_get_m_DevicesById();
+  /// @brief Method InstallGlobals, addr 0x2b9b014, size 0x210, virtual false, abstract: false, final false
+  inline void InstallGlobals();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>*> const& __cordl_internal_get_m_DevicesById() const;
+  /// @brief Method InstallRuntime, addr 0x2b9a934, size 0x6e0, virtual false, abstract: false, final false
+  inline void InstallRuntime(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime);
 
-  constexpr void __cordl_internal_set_m_DevicesById(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>* value);
+  /// @brief Method InvokeAfterUpdateCallback, addr 0x2b9d83c, size 0x68, virtual false, abstract: false, final false
+  inline void InvokeAfterUpdateCallback(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  constexpr int32_t& __cordl_internal_get_m_AvailableDeviceCount();
+  /// @brief Method IsControlOrChildUsingLayoutRecursive, addr 0x2b95b84, size 0xf0, virtual false, abstract: false, final false
+  inline bool IsControlOrChildUsingLayoutRecursive(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
+
+  /// @brief Method IsControlUsingLayout, addr 0x2b95ab4, size 0xd0, virtual false, abstract: false, final false
+  inline bool IsControlUsingLayout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
+
+  /// @brief Method IsDeviceLayoutMarkedAsSupportedInSettings, addr 0x2b9751c, size 0x10c, virtual false, abstract: false, final false
+  inline bool IsDeviceLayoutMarkedAsSupportedInSettings(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
+
+  /// @brief Method ListControlLayouts, addr 0x2b97628, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* ListControlLayouts(::StringW basedOn);
+
+  /// @brief Method MakeDeviceNameUnique, addr 0x2b97984, size 0x184, virtual false, abstract: false, final false
+  inline void MakeDeviceNameUnique(::UnityEngine::InputSystem::InputDevice* device);
+
+  static inline ::UnityEngine::InputSystem::InputManager* New_ctor();
+
+  /// @brief Method NotifyUsageChanged, addr 0x2b977f8, size 0xa4, virtual false, abstract: false, final false
+  inline void NotifyUsageChanged(::UnityEngine::InputSystem::InputDevice* device);
+
+  /// @brief Method OnBeforeUpdate, addr 0x2b9be8c, size 0x1c0, virtual false, abstract: false, final false
+  inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
+
+  /// @brief Method OnFocusChanged, addr 0x2b9c04c, size 0x240, virtual false, abstract: false, final false
+  inline void OnFocusChanged(bool focus);
+
+  /// @brief Method OnNativeDeviceDiscovered, addr 0x2b9b8b8, size 0x3e8, virtual false, abstract: false, final false
+  inline void OnNativeDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor);
+
+  /// @brief Method OnUpdate, addr 0x2b9c2a8, size 0x12e0, virtual false, abstract: false, final false
+  inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
+
+  /// @brief Method PerformLayoutPostRegistration, addr 0x2b95134, size 0x458, virtual false, abstract: false, final false
+  inline void PerformLayoutPostRegistration(::UnityEngine::InputSystem::Utilities::InternedString layoutName,
+                                            ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> baseLayouts, bool isReplacement,
+                                            bool isKnownToBeDeviceLayout, bool isOverride);
+
+  /// @brief Method ProcessStateChangeMonitorTimeouts, addr 0x2b9d588, size 0x2b4, virtual false, abstract: false, final false
+  inline void ProcessStateChangeMonitorTimeouts();
+
+  /// @brief Method ProcessStateChangeMonitors, addr 0x2b9da4c, size 0x288, virtual false, abstract: false, final false
+  inline bool ProcessStateChangeMonitors(int32_t deviceIndex, ::cordl_internals::Ptr<void> newStateFromEvent, ::cordl_internals::Ptr<void> oldStateOfDevice, uint32_t newStateSizeInBytes,
+                                         uint32_t newStateOffsetInBytes);
+
+  /// @brief Method QueueEvent, addr 0x2b992e8, size 0xcc, virtual false, abstract: false, final false
+  inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
+
+  /// @brief Method QueueEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TEvent> inline void QueueEvent(ByRef<TEvent> inputEvent);
+
+  /// @brief Method QueueEvent, addr 0x2b8f464, size 0x4, virtual false, abstract: false, final false
+  inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
+
+  /// @brief Method ReallocateStateBuffers, addr 0x2b93fec, size 0x194, virtual false, abstract: false, final false
+  inline void ReallocateStateBuffers();
+
+  /// @brief Method RecreateDevice, addr 0x2b95c74, size 0x15c, virtual false, abstract: false, final false
+  inline void RecreateDevice(::UnityEngine::InputSystem::InputDevice* oldDevice, ::UnityEngine::InputSystem::Utilities::InternedString newLayout);
+
+  /// @brief Method RecreateDevicesUsingLayout, addr 0x2b95840, size 0x274, virtual false, abstract: false, final false
+  inline void RecreateDevicesUsingLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, bool isKnownToBeDeviceLayout);
+
+  /// @brief Method RecreateDevicesUsingLayoutWithInferiorMatch, addr 0x2b95dd0, size 0x1ec, virtual false, abstract: false, final false
+  inline void RecreateDevicesUsingLayoutWithInferiorMatch(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher);
+
+  /// @brief Method RegisterControlLayout, addr 0x2b8eca0, size 0x4bc, virtual false, abstract: false, final false
+  inline void RegisterControlLayout(::StringW json, ::StringW name, bool isOverride);
+
+  /// @brief Method RegisterControlLayout, addr 0x2b94b1c, size 0x618, virtual false, abstract: false, final false
+  inline void RegisterControlLayout(::StringW name, ::System::Type* type);
+
+  /// @brief Method RegisterControlLayoutBuilder, addr 0x2b956ac, size 0x194, virtual false, abstract: false, final false
+  inline void RegisterControlLayoutBuilder(::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>* method, ::StringW name, ::StringW baseLayout);
+
+  /// @brief Method RegisterControlLayoutMatcher, addr 0x2b9558c, size 0x120, virtual false, abstract: false, final false
+  inline void RegisterControlLayoutMatcher(::StringW layoutName, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
+
+  /// @brief Method RegisterControlLayoutMatcher, addr 0x2b96344, size 0x204, virtual false, abstract: false, final false
+  inline void RegisterControlLayoutMatcher(::System::Type* type, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
+
+  /// @brief Method RegisterPrecompiledLayout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDevice> inline void RegisterPrecompiledLayout(::StringW metadata);
+
+  /// @brief Method RemoveControlLayout, addr 0x2b97038, size 0x214, virtual false, abstract: false, final false
+  inline void RemoveControlLayout(::StringW name);
+
+  /// @brief Method RemoveDevice, addr 0x2b8e7d4, size 0x464, virtual false, abstract: false, final false
+  inline void RemoveDevice(::UnityEngine::InputSystem::InputDevice* device, bool keepOnListOfAvailableDevices);
+
+  /// @brief Method RemoveDeviceUsage, addr 0x2b8f468, size 0x134, virtual false, abstract: false, final false
+  inline void RemoveDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
+
+  /// @brief Method RemoveStateChangeMonitor, addr 0x2b9e380, size 0x158, virtual false, abstract: false, final false
+  inline void RemoveStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex);
+
+  /// @brief Method RemoveStateChangeMonitorTimeout, addr 0x2b9e56c, size 0x124, virtual false, abstract: false, final false
+  inline void RemoveStateChangeMonitorTimeout(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, int32_t timerIndex);
+
+  /// @brief Method RemoveStateChangeMonitors, addr 0x2b98614, size 0x12c, virtual false, abstract: false, final false
+  inline void RemoveStateChangeMonitors(::UnityEngine::InputSystem::InputDevice* device);
+
+  /// @brief Method ResetControlPathsRecursive, addr 0x2b9b6bc, size 0xa4, virtual false, abstract: false, final false
+  static inline void ResetControlPathsRecursive(::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ResetDevice, addr 0x2b98794, size 0x57c, virtual false, abstract: false, final false
+  inline void ResetDevice(::UnityEngine::InputSystem::InputDevice* device, bool alsoResetDontResetControls, ::System::Nullable_1<bool> issueResetCommand);
+
+  /// @brief Method RestoreDevicesAfterDomainReloadIfNecessary, addr 0x2b9bca0, size 0x4, virtual false, abstract: false, final false
+  inline void RestoreDevicesAfterDomainReloadIfNecessary();
+
+  /// @brief Method SetDeviceUsage, addr 0x2b9769c, size 0x15c, virtual false, abstract: false, final false
+  inline void SetDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
+
+  /// @brief Method ShouldRunDeviceInBackground, addr 0x2b97ebc, size 0x3c, virtual false, abstract: false, final false
+  inline bool ShouldRunDeviceInBackground(::UnityEngine::InputSystem::InputDevice* device);
+
+  /// @brief Method ShouldRunUpdate, addr 0x2b9c28c, size 0x1c, virtual false, abstract: false, final false
+  inline bool ShouldRunUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
+
+  /// @brief Method SignalStateChangeMonitor, addr 0x2b9e690, size 0xf0, virtual false, abstract: false, final false
+  inline void SignalStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor);
+
+  /// @brief Method SortStateChangeMonitorsIfNecessary, addr 0x2b9d9f8, size 0x54, virtual false, abstract: false, final false
+  inline void SortStateChangeMonitorsIfNecessary(int32_t deviceIndex);
+
+  /// @brief Method TryFindMatchingControlLayout, addr 0x2b96548, size 0x430, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingControlLayout(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription, int32_t deviceId);
+
+  /// @brief Method TryGetDevice, addr 0x2b990a4, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::System::Type* layoutType);
+
+  /// @brief Method TryGetDevice, addr 0x2b98ed8, size 0x128, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::StringW nameOrLayout);
+
+  /// @brief Method TryGetDeviceById, addr 0x2b8e658, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* TryGetDeviceById(int32_t id);
+
+  /// @brief Method TryLoadControlLayout, addr 0x2b8ec90, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::UnityEngine::InputSystem::Utilities::InternedString name);
+
+  /// @brief Method TryLoadControlLayout, addr 0x2b9724c, size 0x230, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::System::Type* type);
+
+  /// @brief Method TryMatchDisconnectedDevice, addr 0x2b9bca4, size 0x1e4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* TryMatchDisconnectedDevice(::StringW deviceDescriptor);
+
+  /// @brief Method UninstallGlobals, addr 0x2b9b330, size 0x38c, virtual false, abstract: false, final false
+  inline void UninstallGlobals();
+
+  /// @brief Method Update, addr 0x2b993b4, size 0x2c, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method Update, addr 0x2b993e0, size 0xac, virtual false, abstract: false, final false
+  inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
+
+  /// @brief Method UpdateState, addr 0x2b9d8a4, size 0x154, virtual false, abstract: false, final false
+  inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr,
+                          ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
+
+  /// @brief Method UpdateState, addr 0x2b98d10, size 0x1c8, virtual false, abstract: false, final false
+  inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::cordl_internals::Ptr<void> statePtr,
+                          uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
+
+  /// @brief Method WarnAboutDevicesFailingToRecreateAfterDomainReload, addr 0x2b9be88, size 0x4, virtual false, abstract: false, final false
+  inline void WarnAboutDevicesFailingToRecreateAfterDomainReload();
+
+  /// @brief Method WriteStateChange, addr 0x2b9dd78, size 0xb4, virtual false, abstract: false, final false
+  static inline void WriteStateChange(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers buffers, int32_t deviceIndex,
+                                      ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock> deviceStateBlock, uint32_t stateOffsetInDevice, ::cordl_internals::Ptr<void> statePtr,
+                                      uint32_t stateSizeInBytes, bool flippedBuffers);
+
+  /// @brief Method <TryFindMatchingControlLayout>b__72_0, addr 0x2b9e8d4, size 0x68, virtual false, abstract: false, final false
+  inline int64_t _TryFindMatchingControlLayout_b__72_0(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandRef);
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_AfterUpdateListeners() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& __cordl_internal_get_m_AfterUpdateListeners();
 
   constexpr int32_t const& __cordl_internal_get_m_AvailableDeviceCount() const;
 
-  constexpr void __cordl_internal_set_m_AvailableDeviceCount(int32_t value);
-
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__AvailableDevice, ::Array<::UnityEngine::InputSystem::__InputManager__AvailableDevice>*>& __cordl_internal_get_m_AvailableDevices();
+  constexpr int32_t& __cordl_internal_get_m_AvailableDeviceCount();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__AvailableDevice, ::Array<::UnityEngine::InputSystem::__InputManager__AvailableDevice>*> const&
   __cordl_internal_get_m_AvailableDevices() const;
 
-  constexpr void
-  __cordl_internal_set_m_AvailableDevices(::ArrayW<::UnityEngine::InputSystem::__InputManager__AvailableDevice, ::Array<::UnityEngine::InputSystem::__InputManager__AvailableDevice>*> value);
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__AvailableDevice, ::Array<::UnityEngine::InputSystem::__InputManager__AvailableDevice>*>& __cordl_internal_get_m_AvailableDevices();
 
-  constexpr int32_t& __cordl_internal_get_m_DisconnectedDevicesCount();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_BeforeUpdateListeners() const;
 
-  constexpr int32_t const& __cordl_internal_get_m_DisconnectedDevicesCount() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& __cordl_internal_get_m_BeforeUpdateListeners();
 
-  constexpr void __cordl_internal_set_m_DisconnectedDevicesCount(int32_t value);
+  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable const& __cordl_internal_get_m_Composites() const;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*>& __cordl_internal_get_m_DisconnectedDevices();
-
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> const& __cordl_internal_get_m_DisconnectedDevices() const;
-
-  constexpr void __cordl_internal_set_m_DisconnectedDevices(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType& __cordl_internal_get_m_UpdateMask();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType const& __cordl_internal_get_m_UpdateMask() const;
-
-  constexpr void __cordl_internal_set_m_UpdateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType& __cordl_internal_get_m_CurrentUpdate();
+  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable& __cordl_internal_get_m_Composites();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType const& __cordl_internal_get_m_CurrentUpdate() const;
 
-  constexpr void __cordl_internal_set_m_CurrentUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers& __cordl_internal_get_m_StateBuffers();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers const& __cordl_internal_get_m_StateBuffers() const;
-
-  constexpr void __cordl_internal_set_m_StateBuffers(::UnityEngine::InputSystem::LowLevel::InputStateBuffers value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*>&
-  __cordl_internal_get_m_DeviceChangeListeners();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType& __cordl_internal_get_m_CurrentUpdate();
 
   constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> const&
   __cordl_internal_get_m_DeviceChangeListeners() const;
 
-  constexpr void __cordl_internal_set_m_DeviceChangeListeners(
-      ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>&
-  __cordl_internal_get_m_DeviceStateChangeListeners();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const&
-  __cordl_internal_get_m_DeviceStateChangeListeners() const;
-
-  constexpr void __cordl_internal_set_m_DeviceStateChangeListeners(
-      ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*>& __cordl_internal_get_m_DeviceFindLayoutCallbacks();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*> const&
-  __cordl_internal_get_m_DeviceFindLayoutCallbacks() const;
-
-  constexpr void
-  __cordl_internal_set_m_DeviceFindLayoutCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*>& __cordl_internal_get_m_DeviceCommandCallbacks();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*>&
+  __cordl_internal_get_m_DeviceChangeListeners();
 
   constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*> const& __cordl_internal_get_m_DeviceCommandCallbacks() const;
 
-  constexpr void __cordl_internal_set_m_DeviceCommandCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*>&
-  __cordl_internal_get_m_LayoutChangeListeners();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*> const&
-  __cordl_internal_get_m_LayoutChangeListeners() const;
-
-  constexpr void
-  __cordl_internal_set_m_LayoutChangeListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*>&
-  __cordl_internal_get_m_EventListeners();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> const&
-  __cordl_internal_get_m_EventListeners() const;
-
-  constexpr void __cordl_internal_set_m_EventListeners(
-      ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& __cordl_internal_get_m_BeforeUpdateListeners();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_BeforeUpdateListeners() const;
-
-  constexpr void __cordl_internal_set_m_BeforeUpdateListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& __cordl_internal_get_m_AfterUpdateListeners();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_AfterUpdateListeners() const;
-
-  constexpr void __cordl_internal_set_m_AfterUpdateListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& __cordl_internal_get_m_SettingsChangedListeners();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_SettingsChangedListeners() const;
-
-  constexpr void __cordl_internal_set_m_SettingsChangedListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value);
-
-  constexpr bool& __cordl_internal_get_m_NativeBeforeUpdateHooked();
-
-  constexpr bool const& __cordl_internal_get_m_NativeBeforeUpdateHooked() const;
-
-  constexpr void __cordl_internal_set_m_NativeBeforeUpdateHooked(bool value);
-
-  constexpr bool& __cordl_internal_get_m_HaveDevicesWithStateCallbackReceivers();
-
-  constexpr bool const& __cordl_internal_get_m_HaveDevicesWithStateCallbackReceivers() const;
-
-  constexpr void __cordl_internal_set_m_HaveDevicesWithStateCallbackReceivers(bool value);
-
-  constexpr bool& __cordl_internal_get_m_HasFocus();
-
-  constexpr bool const& __cordl_internal_get_m_HasFocus() const;
-
-  constexpr void __cordl_internal_set_m_HasFocus(bool value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream& __cordl_internal_get_m_InputEventStream();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream const& __cordl_internal_get_m_InputEventStream() const;
-
-  constexpr void __cordl_internal_set_m_InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventStream value);
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*>& __cordl_internal_get_m_DeviceCommandCallbacks();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*& __cordl_internal_get_m_DeviceFindExecuteCommandDelegate();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*> const& __cordl_internal_get_m_DeviceFindExecuteCommandDelegate() const;
 
-  constexpr void __cordl_internal_set_m_DeviceFindExecuteCommandDelegate(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* value);
+  constexpr int32_t const& __cordl_internal_get_m_DeviceFindExecuteCommandDeviceId() const;
 
   constexpr int32_t& __cordl_internal_get_m_DeviceFindExecuteCommandDeviceId();
 
-  constexpr int32_t const& __cordl_internal_get_m_DeviceFindExecuteCommandDeviceId() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*> const&
+  __cordl_internal_get_m_DeviceFindLayoutCallbacks() const;
 
-  constexpr void __cordl_internal_set_m_DeviceFindExecuteCommandDeviceId(int32_t value);
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*>& __cordl_internal_get_m_DeviceFindLayoutCallbacks();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const&
+  __cordl_internal_get_m_DeviceStateChangeListeners() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>&
+  __cordl_internal_get_m_DeviceStateChangeListeners();
+
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> const& __cordl_internal_get_m_Devices() const;
+
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*>& __cordl_internal_get_m_Devices();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>*& __cordl_internal_get_m_DevicesById();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>*> const& __cordl_internal_get_m_DevicesById() const;
+
+  constexpr int32_t const& __cordl_internal_get_m_DevicesCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_DevicesCount();
+
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> const& __cordl_internal_get_m_DisconnectedDevices() const;
+
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*>& __cordl_internal_get_m_DisconnectedDevices();
+
+  constexpr int32_t const& __cordl_internal_get_m_DisconnectedDevicesCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_DisconnectedDevicesCount();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> const&
+  __cordl_internal_get_m_EventListeners() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*>&
+  __cordl_internal_get_m_EventListeners();
+
+  constexpr bool const& __cordl_internal_get_m_HasFocus() const;
+
+  constexpr bool& __cordl_internal_get_m_HasFocus();
+
+  constexpr bool const& __cordl_internal_get_m_HaveDevicesWithStateCallbackReceivers() const;
+
+  constexpr bool& __cordl_internal_get_m_HaveDevicesWithStateCallbackReceivers();
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream const& __cordl_internal_get_m_InputEventStream() const;
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream& __cordl_internal_get_m_InputEventStream();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable const& __cordl_internal_get_m_Interactions() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable& __cordl_internal_get_m_Interactions();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*> const&
+  __cordl_internal_get_m_LayoutChangeListeners() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*>&
+  __cordl_internal_get_m_LayoutChangeListeners();
+
+  constexpr int32_t const& __cordl_internal_get_m_LayoutRegistrationVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_m_LayoutRegistrationVersion();
+
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __cordl_internal_get_m_Layouts() const;
+
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __cordl_internal_get_m_Layouts();
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics const& __cordl_internal_get_m_Metrics() const;
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics& __cordl_internal_get_m_Metrics();
+
+  constexpr bool const& __cordl_internal_get_m_NativeBeforeUpdateHooked() const;
+
+  constexpr bool& __cordl_internal_get_m_NativeBeforeUpdateHooked();
+
+  constexpr float_t const& __cordl_internal_get_m_PollingFrequency() const;
+
+  constexpr float_t& __cordl_internal_get_m_PollingFrequency();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable const& __cordl_internal_get_m_Processors() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::TypeTable& __cordl_internal_get_m_Processors();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputRuntime*& __cordl_internal_get_m_Runtime();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::IInputRuntime*> const& __cordl_internal_get_m_Runtime() const;
 
-  constexpr void __cordl_internal_set_m_Runtime(::UnityEngine::InputSystem::LowLevel::IInputRuntime* value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics& __cordl_internal_get_m_Metrics();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputMetrics const& __cordl_internal_get_m_Metrics() const;
-
-  constexpr void __cordl_internal_set_m_Metrics(::UnityEngine::InputSystem::LowLevel::InputMetrics value);
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputSettings> const& __cordl_internal_get_m_Settings() const;
 
   constexpr ::UnityW<::UnityEngine::InputSystem::InputSettings>& __cordl_internal_get_m_Settings();
 
-  constexpr ::UnityW<::UnityEngine::InputSystem::InputSettings> const& __cordl_internal_get_m_Settings() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& __cordl_internal_get_m_SettingsChangedListeners() const;
 
-  constexpr void __cordl_internal_set_m_Settings(::UnityW<::UnityEngine::InputSystem::InputSettings> value);
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& __cordl_internal_get_m_SettingsChangedListeners();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*>&
-  __cordl_internal_get_m_StateChangeMonitors();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers const& __cordl_internal_get_m_StateBuffers() const;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*> const&
-  __cordl_internal_get_m_StateChangeMonitors() const;
-
-  constexpr void __cordl_internal_set_m_StateChangeMonitors(
-      ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*> value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout>& __cordl_internal_get_m_StateChangeMonitorTimeouts();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers& __cordl_internal_get_m_StateBuffers();
 
   constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout> const&
   __cordl_internal_get_m_StateChangeMonitorTimeouts() const;
 
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout>& __cordl_internal_get_m_StateChangeMonitorTimeouts();
+
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*> const&
+  __cordl_internal_get_m_StateChangeMonitors() const;
+
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*>&
+  __cordl_internal_get_m_StateChangeMonitors();
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType const& __cordl_internal_get_m_UpdateMask() const;
+
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType& __cordl_internal_get_m_UpdateMask();
+
+  constexpr void __cordl_internal_set_m_AfterUpdateListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value);
+
+  constexpr void __cordl_internal_set_m_AvailableDeviceCount(int32_t value);
+
+  constexpr void
+  __cordl_internal_set_m_AvailableDevices(::ArrayW<::UnityEngine::InputSystem::__InputManager__AvailableDevice, ::Array<::UnityEngine::InputSystem::__InputManager__AvailableDevice>*> value);
+
+  constexpr void __cordl_internal_set_m_BeforeUpdateListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value);
+
+  constexpr void __cordl_internal_set_m_Composites(::UnityEngine::InputSystem::Utilities::TypeTable value);
+
+  constexpr void __cordl_internal_set_m_CurrentUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
+
+  constexpr void __cordl_internal_set_m_DeviceChangeListeners(
+      ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> value);
+
+  constexpr void __cordl_internal_set_m_DeviceCommandCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*> value);
+
+  constexpr void __cordl_internal_set_m_DeviceFindExecuteCommandDelegate(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* value);
+
+  constexpr void __cordl_internal_set_m_DeviceFindExecuteCommandDeviceId(int32_t value);
+
+  constexpr void
+  __cordl_internal_set_m_DeviceFindLayoutCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*> value);
+
+  constexpr void __cordl_internal_set_m_DeviceStateChangeListeners(
+      ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> value);
+
+  constexpr void __cordl_internal_set_m_Devices(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> value);
+
+  constexpr void __cordl_internal_set_m_DevicesById(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::InputSystem::InputDevice*>* value);
+
+  constexpr void __cordl_internal_set_m_DevicesCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_DisconnectedDevices(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> value);
+
+  constexpr void __cordl_internal_set_m_DisconnectedDevicesCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_EventListeners(
+      ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> value);
+
+  constexpr void __cordl_internal_set_m_HasFocus(bool value);
+
+  constexpr void __cordl_internal_set_m_HaveDevicesWithStateCallbackReceivers(bool value);
+
+  constexpr void __cordl_internal_set_m_InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventStream value);
+
+  constexpr void __cordl_internal_set_m_Interactions(::UnityEngine::InputSystem::Utilities::TypeTable value);
+
+  constexpr void
+  __cordl_internal_set_m_LayoutChangeListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*> value);
+
+  constexpr void __cordl_internal_set_m_LayoutRegistrationVersion(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Layouts(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+
+  constexpr void __cordl_internal_set_m_Metrics(::UnityEngine::InputSystem::LowLevel::InputMetrics value);
+
+  constexpr void __cordl_internal_set_m_NativeBeforeUpdateHooked(bool value);
+
+  constexpr void __cordl_internal_set_m_PollingFrequency(float_t value);
+
+  constexpr void __cordl_internal_set_m_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value);
+
+  constexpr void __cordl_internal_set_m_Runtime(::UnityEngine::InputSystem::LowLevel::IInputRuntime* value);
+
+  constexpr void __cordl_internal_set_m_Settings(::UnityW<::UnityEngine::InputSystem::InputSettings> value);
+
+  constexpr void __cordl_internal_set_m_SettingsChangedListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value);
+
+  constexpr void __cordl_internal_set_m_StateBuffers(::UnityEngine::InputSystem::LowLevel::InputStateBuffers value);
+
   constexpr void __cordl_internal_set_m_StateChangeMonitorTimeouts(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorTimeout> value);
 
-  /// @brief Method get_devices, addr 0x2aa6a30, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_devices();
+  constexpr void __cordl_internal_set_m_StateChangeMonitors(
+      ::ArrayW<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice, ::Array<::UnityEngine::InputSystem::__InputManager__StateChangeMonitorsForDevice>*> value);
 
-  /// @brief Method get_processors, addr 0x2aac8a8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::TypeTable get_processors();
+  constexpr void __cordl_internal_set_m_UpdateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
 
-  /// @brief Method get_interactions, addr 0x2aac8b0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::TypeTable get_interactions();
-
-  /// @brief Method get_composites, addr 0x2aac8b8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::TypeTable get_composites();
-
-  /// @brief Method get_metrics, addr 0x2aac8c0, size 0x19c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::InputMetrics get_metrics();
-
-  /// @brief Method get_settings, addr 0x2aaca5c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::InputSystem::InputSettings> get_settings();
-
-  /// @brief Method set_settings, addr 0x2aaca64, size 0xfc, virtual false, abstract: false, final false
-  inline void set_settings(::UnityEngine::InputSystem::InputSettings* value);
-
-  /// @brief Method get_updateMask, addr 0x2aaceec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_updateMask();
-
-  /// @brief Method set_updateMask, addr 0x2aacef4, size 0x24, virtual false, abstract: false, final false
-  inline void set_updateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
-
-  /// @brief Method get_defaultUpdateType, addr 0x2aad0ac, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_defaultUpdateType();
-
-  /// @brief Method get_pollingFrequency, addr 0x2aad0c8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_pollingFrequency();
-
-  /// @brief Method set_pollingFrequency, addr 0x2aad0d0, size 0x12c, virtual false, abstract: false, final false
-  inline void set_pollingFrequency(float_t value);
-
-  /// @brief Method add_onDeviceChange, addr 0x2aa5310, size 0x58, virtual false, abstract: false, final false
-  inline void add_onDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
-
-  /// @brief Method remove_onDeviceChange, addr 0x2aa5590, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
-
-  /// @brief Method add_onDeviceStateChange, addr 0x2aad1fc, size 0x58, virtual false, abstract: false, final false
-  inline void add_onDeviceStateChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
-
-  /// @brief Method remove_onDeviceStateChange, addr 0x2aad254, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onDeviceStateChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
-
-  /// @brief Method add_onDeviceCommand, addr 0x2aad2ac, size 0x58, virtual false, abstract: false, final false
-  inline void add_onDeviceCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* value);
-
-  /// @brief Method remove_onDeviceCommand, addr 0x2aad304, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onDeviceCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* value);
-
-  /// @brief Method add_onFindControlLayoutForDevice, addr 0x2aad35c, size 0x60, virtual false, abstract: false, final false
-  inline void add_onFindControlLayoutForDevice(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* value);
-
-  /// @brief Method remove_onFindControlLayoutForDevice, addr 0x2aad664, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onFindControlLayoutForDevice(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* value);
-
-  /// @brief Method add_onLayoutChange, addr 0x2aa5368, size 0x58, virtual false, abstract: false, final false
-  inline void add_onLayoutChange(::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>* value);
-
-  /// @brief Method remove_onLayoutChange, addr 0x2aa55e8, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onLayoutChange(::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>* value);
-
-  /// @brief Method add_onEvent, addr 0x2aa52b8, size 0x58, virtual false, abstract: false, final false
-  inline void add_onEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
-
-  /// @brief Method remove_onEvent, addr 0x2aa5538, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
-
-  /// @brief Method add_onBeforeUpdate, addr 0x2aad6bc, size 0x60, virtual false, abstract: false, final false
-  inline void add_onBeforeUpdate(::System::Action* value);
-
-  /// @brief Method remove_onBeforeUpdate, addr 0x2aad828, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onBeforeUpdate(::System::Action* value);
-
-  /// @brief Method add_onAfterUpdate, addr 0x2aad880, size 0x58, virtual false, abstract: false, final false
-  inline void add_onAfterUpdate(::System::Action* value);
-
-  /// @brief Method remove_onAfterUpdate, addr 0x2aad8d8, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onAfterUpdate(::System::Action* value);
-
-  /// @brief Method add_onSettingsChange, addr 0x2aad930, size 0x58, virtual false, abstract: false, final false
-  inline void add_onSettingsChange(::System::Action* value);
-
-  /// @brief Method remove_onSettingsChange, addr 0x2aad988, size 0x58, virtual false, abstract: false, final false
-  inline void remove_onSettingsChange(::System::Action* value);
-
-  /// @brief Method get_isProcessingEvents, addr 0x2aad9e0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isProcessingEvents();
-
-  /// @brief Method get_gameIsPlaying, addr 0x2aad9e8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_gameIsPlaying();
-
-  /// @brief Method get_gameHasFocus, addr 0x2aad9f0, size 0x34, virtual false, abstract: false, final false
-  inline bool get_gameHasFocus();
-
-  /// @brief Method get_gameShouldGetInputRegardlessOfFocus, addr 0x2aada24, size 0x24, virtual false, abstract: false, final false
-  inline bool get_gameShouldGetInputRegardlessOfFocus();
-
-  /// @brief Method RegisterControlLayout, addr 0x2aada48, size 0x618, virtual false, abstract: false, final false
-  inline void RegisterControlLayout(::StringW name, ::System::Type* type);
-
-  /// @brief Method RegisterControlLayout, addr 0x2aa7bcc, size 0x4bc, virtual false, abstract: false, final false
-  inline void RegisterControlLayout(::StringW json, ::StringW name, bool isOverride);
-
-  /// @brief Method RegisterControlLayoutBuilder, addr 0x2aae5d8, size 0x194, virtual false, abstract: false, final false
-  inline void RegisterControlLayoutBuilder(::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>* method, ::StringW name, ::StringW baseLayout);
-
-  /// @brief Method PerformLayoutPostRegistration, addr 0x2aae060, size 0x458, virtual false, abstract: false, final false
-  inline void PerformLayoutPostRegistration(::UnityEngine::InputSystem::Utilities::InternedString layoutName,
-                                            ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> baseLayouts, bool isReplacement,
-                                            bool isKnownToBeDeviceLayout, bool isOverride);
-
-  /// @brief Method RegisterPrecompiledLayout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDevice> inline void RegisterPrecompiledLayout(::StringW metadata);
-
-  /// @brief Method RecreateDevicesUsingLayout, addr 0x2aae76c, size 0x274, virtual false, abstract: false, final false
-  inline void RecreateDevicesUsingLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, bool isKnownToBeDeviceLayout);
-
-  /// @brief Method IsControlOrChildUsingLayoutRecursive, addr 0x2aaeab0, size 0xf0, virtual false, abstract: false, final false
-  inline bool IsControlOrChildUsingLayoutRecursive(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
-
-  /// @brief Method IsControlUsingLayout, addr 0x2aae9e0, size 0xd0, virtual false, abstract: false, final false
-  inline bool IsControlUsingLayout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Utilities::InternedString layout);
-
-  /// @brief Method RegisterControlLayoutMatcher, addr 0x2aae4b8, size 0x120, virtual false, abstract: false, final false
-  inline void RegisterControlLayoutMatcher(::StringW layoutName, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
-
-  /// @brief Method RegisterControlLayoutMatcher, addr 0x2aaf270, size 0x204, virtual false, abstract: false, final false
-  inline void RegisterControlLayoutMatcher(::System::Type* type, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
-
-  /// @brief Method RecreateDevicesUsingLayoutWithInferiorMatch, addr 0x2aaecfc, size 0x1ec, virtual false, abstract: false, final false
-  inline void RecreateDevicesUsingLayoutWithInferiorMatch(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher);
-
-  /// @brief Method RecreateDevice, addr 0x2aaeba0, size 0x15c, virtual false, abstract: false, final false
-  inline void RecreateDevice(::UnityEngine::InputSystem::InputDevice* oldDevice, ::UnityEngine::InputSystem::Utilities::InternedString newLayout);
-
-  /// @brief Method AddAvailableDevicesMatchingDescription, addr 0x2aaeee8, size 0x388, virtual false, abstract: false, final false
-  inline void AddAvailableDevicesMatchingDescription(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher, ::UnityEngine::InputSystem::Utilities::InternedString layout);
-
-  /// @brief Method RemoveControlLayout, addr 0x2aaff64, size 0x214, virtual false, abstract: false, final false
-  inline void RemoveControlLayout(::StringW name);
-
-  /// @brief Method TryLoadControlLayout, addr 0x2ab0178, size 0x230, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::System::Type* type);
-
-  /// @brief Method TryLoadControlLayout, addr 0x2aa7bbc, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadControlLayout(::UnityEngine::InputSystem::Utilities::InternedString name);
-
-  /// @brief Method TryFindMatchingControlLayout, addr 0x2aaf474, size 0x430, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingControlLayout(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription, int32_t deviceId);
-
-  /// @brief Method FindOrRegisterDeviceLayoutForType, addr 0x2ab03a8, size 0xa0, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::InternedString FindOrRegisterDeviceLayoutForType(::System::Type* type);
-
-  /// @brief Method IsDeviceLayoutMarkedAsSupportedInSettings, addr 0x2ab0448, size 0x10c, virtual false, abstract: false, final false
-  inline bool IsDeviceLayoutMarkedAsSupportedInSettings(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
-
-  /// @brief Method ListControlLayouts, addr 0x2ab0554, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* ListControlLayouts(::StringW basedOn);
-
-  /// @brief Method GetControls, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TControl> inline int32_t GetControls(::StringW path, ByRef<::UnityEngine::InputSystem::InputControlList_1<TControl>> controls);
-
-  /// @brief Method SetDeviceUsage, addr 0x2ab05c8, size 0x15c, virtual false, abstract: false, final false
-  inline void SetDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
-
-  /// @brief Method AddDeviceUsage, addr 0x2aa81cc, size 0x134, virtual false, abstract: false, final false
-  inline void AddDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
-
-  /// @brief Method RemoveDeviceUsage, addr 0x2aa8394, size 0x134, virtual false, abstract: false, final false
-  inline void RemoveDeviceUsage(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::Utilities::InternedString usage);
-
-  /// @brief Method NotifyUsageChanged, addr 0x2ab0724, size 0xa4, virtual false, abstract: false, final false
-  inline void NotifyUsageChanged(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method AddDevice, addr 0x2ab07c8, size 0xe8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::System::Type* type, ::StringW name);
-
-  /// @brief Method AddDevice, addr 0x2aa8088, size 0x144, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::StringW layout, ::StringW name, ::UnityEngine::InputSystem::Utilities::InternedString variants);
-
-  /// @brief Method AddDevice, addr 0x2aafdb4, size 0x1b0, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Utilities::InternedString layout, int32_t deviceId, ::StringW deviceName,
-                                                            ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription,
-                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags, ::UnityEngine::InputSystem::Utilities::InternedString variants);
-
-  /// @brief Method AddDevice, addr 0x2aaf8a4, size 0x510, virtual false, abstract: false, final false
-  inline void AddDevice(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method AddDevice, addr 0x2ab1250, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description);
-
-  /// @brief Method AddDevice, addr 0x2ab1294, size 0x1d8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, bool throwIfNoLayoutFound, ::StringW deviceName, int32_t deviceId,
-                                                            ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags);
-
-  /// @brief Method AddDevice, addr 0x2ab146c, size 0xd4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* AddDevice(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description, ::UnityEngine::InputSystem::Utilities::InternedString layout,
-                                                            ::StringW deviceName, int32_t deviceId, ::UnityEngine::InputSystem::__InputDevice__DeviceFlags deviceFlags);
-
-  /// @brief Method RemoveDevice, addr 0x2aa7700, size 0x464, virtual false, abstract: false, final false
-  inline void RemoveDevice(::UnityEngine::InputSystem::InputDevice* device, bool keepOnListOfAvailableDevices);
-
-  /// @brief Method FlushDisconnectedDevices, addr 0x2ab166c, size 0x54, virtual false, abstract: false, final false
-  inline void FlushDisconnectedDevices();
-
-  /// @brief Method ResetDevice, addr 0x2ab16c0, size 0x57c, virtual false, abstract: false, final false
-  inline void ResetDevice(::UnityEngine::InputSystem::InputDevice* device, bool alsoResetDontResetControls, ::System::Nullable_1<bool> issueResetCommand);
-
-  /// @brief Method TryGetDevice, addr 0x2ab1e04, size 0x128, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::StringW nameOrLayout);
-
-  /// @brief Method GetDevice, addr 0x2ab1f2c, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* GetDevice(::StringW nameOrLayout);
-
-  /// @brief Method TryGetDevice, addr 0x2ab1fd0, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* TryGetDevice(::System::Type* layoutType);
-
-  /// @brief Method TryGetDeviceById, addr 0x2aa7584, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* TryGetDeviceById(int32_t id);
-
-  /// @brief Method GetUnsupportedDevices, addr 0x2ab2028, size 0x1ec, virtual false, abstract: false, final false
-  inline int32_t GetUnsupportedDevices(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>* descriptions);
-
-  /// @brief Method EnableOrDisableDevice, addr 0x2ab0e24, size 0x42c, virtual false, abstract: false, final false
-  inline void EnableOrDisableDevice(::UnityEngine::InputSystem::InputDevice* device, bool enable, ::UnityEngine::InputSystem::__InputManager__DeviceDisableScope scope);
-
-  /// @brief Method QueueEvent, addr 0x2ab2214, size 0xcc, virtual false, abstract: false, final false
-  inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
-
-  /// @brief Method QueueEvent, addr 0x2aa8390, size 0x4, virtual false, abstract: false, final false
-  inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
-
-  /// @brief Method QueueEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEvent> inline void QueueEvent(ByRef<TEvent> inputEvent);
-
-  /// @brief Method Update, addr 0x2ab22e0, size 0x2c, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method Update, addr 0x2ab230c, size 0xac, virtual false, abstract: false, final false
-  inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
-
-  /// @brief Method Initialize, addr 0x2ab23b8, size 0x3c, virtual false, abstract: false, final false
-  inline void Initialize(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime, ::UnityEngine::InputSystem::InputSettings* settings);
-
-  /// @brief Method Destroy, addr 0x2ab4150, size 0x10c, virtual false, abstract: false, final false
-  inline void Destroy();
-
-  /// @brief Method InitializeData, addr 0x2ab23f4, size 0x146c, virtual false, abstract: false, final false
-  inline void InitializeData();
-
-  /// @brief Method InstallRuntime, addr 0x2ab3860, size 0x6e0, virtual false, abstract: false, final false
-  inline void InstallRuntime(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime);
-
-  /// @brief Method InstallGlobals, addr 0x2ab3f40, size 0x210, virtual false, abstract: false, final false
-  inline void InstallGlobals();
-
-  /// @brief Method UninstallGlobals, addr 0x2ab425c, size 0x38c, virtual false, abstract: false, final false
-  inline void UninstallGlobals();
-
-  /// @brief Method MakeDeviceNameUnique, addr 0x2ab08b0, size 0x184, virtual false, abstract: false, final false
-  inline void MakeDeviceNameUnique(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method ResetControlPathsRecursive, addr 0x2ab45e8, size 0xa4, virtual false, abstract: false, final false
-  static inline void ResetControlPathsRecursive(::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method AssignUniqueDeviceId, addr 0x2ab0a34, size 0x18c, virtual false, abstract: false, final false
-  inline void AssignUniqueDeviceId(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method ReallocateStateBuffers, addr 0x2aacf18, size 0x194, virtual false, abstract: false, final false
-  inline void ReallocateStateBuffers();
-
-  /// @brief Method InitializeDefaultState, addr 0x2ab468c, size 0x158, virtual false, abstract: false, final false
-  inline void InitializeDefaultState(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method InitializeDeviceState, addr 0x2ab0bc0, size 0x228, virtual false, abstract: false, final false
-  inline void InitializeDeviceState(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method OnNativeDeviceDiscovered, addr 0x2ab47e4, size 0x3e8, virtual false, abstract: false, final false
-  inline void OnNativeDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor);
-
-  /// @brief Method TryMatchDisconnectedDevice, addr 0x2ab4bd0, size 0x1e4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* TryMatchDisconnectedDevice(::StringW deviceDescriptor);
-
-  /// @brief Method InstallBeforeUpdateHookIfNecessary, addr 0x2aad71c, size 0x10c, virtual false, abstract: false, final false
-  inline void InstallBeforeUpdateHookIfNecessary();
-
-  /// @brief Method RestoreDevicesAfterDomainReloadIfNecessary, addr 0x2ab4bcc, size 0x4, virtual false, abstract: false, final false
-  inline void RestoreDevicesAfterDomainReloadIfNecessary();
-
-  /// @brief Method WarnAboutDevicesFailingToRecreateAfterDomainReload, addr 0x2ab4db4, size 0x4, virtual false, abstract: false, final false
-  inline void WarnAboutDevicesFailingToRecreateAfterDomainReload();
-
-  /// @brief Method OnBeforeUpdate, addr 0x2ab4db8, size 0x1c0, virtual false, abstract: false, final false
-  inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
-
-  /// @brief Method ApplySettings, addr 0x2aacb60, size 0x38c, virtual false, abstract: false, final false
-  inline void ApplySettings();
-
-  /// @brief Method ExecuteGlobalCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TCommand> inline int64_t ExecuteGlobalCommand(ByRef<TCommand> command);
-
-  /// @brief Method AddAvailableDevicesThatAreNowRecognized, addr 0x2aad3bc, size 0x2a8, virtual false, abstract: false, final false
-  inline void AddAvailableDevicesThatAreNowRecognized();
-
-  /// @brief Method ShouldRunDeviceInBackground, addr 0x2ab0de8, size 0x3c, virtual false, abstract: false, final false
-  inline bool ShouldRunDeviceInBackground(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method OnFocusChanged, addr 0x2ab4f78, size 0x240, virtual false, abstract: false, final false
-  inline void OnFocusChanged(bool focus);
-
-  /// @brief Method ShouldRunUpdate, addr 0x2ab51b8, size 0x1c, virtual false, abstract: false, final false
-  inline bool ShouldRunUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
-
-  /// @brief Method OnUpdate, addr 0x2ab51d4, size 0x12e0, virtual false, abstract: false, final false
-  inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
-
-  /// @brief Method InvokeAfterUpdateCallback, addr 0x2ab6768, size 0x68, virtual false, abstract: false, final false
-  inline void InvokeAfterUpdateCallback(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
-
-  /// @brief Method UpdateState, addr 0x2ab67d0, size 0x154, virtual false, abstract: false, final false
-  inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr,
-                          ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
-
-  /// @brief Method UpdateState, addr 0x2ab1c3c, size 0x1c8, virtual false, abstract: false, final false
-  inline bool UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, ::cordl_internals::Ptr<void> statePtr,
-                          uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
-
-  /// @brief Method WriteStateChange, addr 0x2ab6ca4, size 0xb4, virtual false, abstract: false, final false
-  static inline void WriteStateChange(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers buffers, int32_t deviceIndex,
-                                      ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock> deviceStateBlock, uint32_t stateOffsetInDevice, ::cordl_internals::Ptr<void> statePtr,
-                                      uint32_t stateSizeInBytes, bool flippedBuffers);
-
-  /// @brief Method FlipBuffersForDeviceIfNecessary, addr 0x2ab6c00, size 0xa4, virtual false, abstract: false, final false
-  inline bool FlipBuffersForDeviceIfNecessary(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
-
-  /// @brief Method AddStateChangeMonitor, addr 0x2ab7170, size 0x13c, virtual false, abstract: false, final false
-  inline void AddStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex,
-                                    uint32_t groupIndex);
-
-  /// @brief Method RemoveStateChangeMonitors, addr 0x2ab1540, size 0x12c, virtual false, abstract: false, final false
-  inline void RemoveStateChangeMonitors(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method RemoveStateChangeMonitor, addr 0x2ab72ac, size 0x158, virtual false, abstract: false, final false
-  inline void RemoveStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex);
-
-  /// @brief Method AddStateChangeMonitorTimeout, addr 0x2ab7404, size 0x94, virtual false, abstract: false, final false
-  inline void AddStateChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, double_t time,
-                                           int64_t monitorIndex, int32_t timerIndex);
-
-  /// @brief Method RemoveStateChangeMonitorTimeout, addr 0x2ab7498, size 0x124, virtual false, abstract: false, final false
-  inline void RemoveStateChangeMonitorTimeout(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, int32_t timerIndex);
-
-  /// @brief Method SortStateChangeMonitorsIfNecessary, addr 0x2ab6924, size 0x54, virtual false, abstract: false, final false
-  inline void SortStateChangeMonitorsIfNecessary(int32_t deviceIndex);
-
-  /// @brief Method SignalStateChangeMonitor, addr 0x2ab75bc, size 0xf0, virtual false, abstract: false, final false
-  inline void SignalStateChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor);
-
-  /// @brief Method FireStateChangeNotifications, addr 0x2ab76ac, size 0x14c, virtual false, abstract: false, final false
-  inline void FireStateChangeNotifications();
-
-  /// @brief Method ProcessStateChangeMonitors, addr 0x2ab6978, size 0x288, virtual false, abstract: false, final false
-  inline bool ProcessStateChangeMonitors(int32_t deviceIndex, ::cordl_internals::Ptr<void> newStateFromEvent, ::cordl_internals::Ptr<void> oldStateOfDevice, uint32_t newStateSizeInBytes,
-                                         uint32_t newStateOffsetInBytes);
-
-  /// @brief Method FireStateChangeNotifications, addr 0x2ab6d58, size 0x418, virtual false, abstract: false, final false
-  inline void FireStateChangeNotifications(int32_t deviceIndex, double_t internalTime, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
-
-  /// @brief Method ProcessStateChangeMonitorTimeouts, addr 0x2ab64b4, size 0x2b4, virtual false, abstract: false, final false
-  inline void ProcessStateChangeMonitorTimeouts();
-
-  static inline ::UnityEngine::InputSystem::InputManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ab77f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b9e8cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <TryFindMatchingControlLayout>b__72_0, addr 0x2ab7800, size 0x68, virtual false, abstract: false, final false
-  inline int64_t _TryFindMatchingControlLayout_b__72_0(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandRef);
+  /// @brief Method add_onAfterUpdate, addr 0x2b94954, size 0x58, virtual false, abstract: false, final false
+  inline void add_onAfterUpdate(::System::Action* value);
 
+  /// @brief Method add_onBeforeUpdate, addr 0x2b94790, size 0x60, virtual false, abstract: false, final false
+  inline void add_onBeforeUpdate(::System::Action* value);
+
+  /// @brief Method add_onDeviceChange, addr 0x2b8c3e4, size 0x58, virtual false, abstract: false, final false
+  inline void add_onDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
+
+  /// @brief Method add_onDeviceCommand, addr 0x2b94380, size 0x58, virtual false, abstract: false, final false
+  inline void add_onDeviceCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* value);
+
+  /// @brief Method add_onDeviceStateChange, addr 0x2b942d0, size 0x58, virtual false, abstract: false, final false
+  inline void add_onDeviceStateChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+
+  /// @brief Method add_onEvent, addr 0x2b8c38c, size 0x58, virtual false, abstract: false, final false
+  inline void add_onEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
+
+  /// @brief Method add_onFindControlLayoutForDevice, addr 0x2b94430, size 0x60, virtual false, abstract: false, final false
+  inline void add_onFindControlLayoutForDevice(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* value);
+
+  /// @brief Method add_onLayoutChange, addr 0x2b8c43c, size 0x58, virtual false, abstract: false, final false
+  inline void add_onLayoutChange(::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>* value);
+
+  /// @brief Method add_onSettingsChange, addr 0x2b94a04, size 0x58, virtual false, abstract: false, final false
+  inline void add_onSettingsChange(::System::Action* value);
+
+  /// @brief Method get_composites, addr 0x2b9398c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::TypeTable get_composites();
+
+  /// @brief Method get_defaultUpdateType, addr 0x2b94180, size 0x1c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_defaultUpdateType();
+
+  /// @brief Method get_devices, addr 0x2b8db04, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_devices();
+
+  /// @brief Method get_gameHasFocus, addr 0x2b94ac4, size 0x34, virtual false, abstract: false, final false
+  inline bool get_gameHasFocus();
+
+  /// @brief Method get_gameIsPlaying, addr 0x2b94abc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_gameIsPlaying();
+
+  /// @brief Method get_gameShouldGetInputRegardlessOfFocus, addr 0x2b94af8, size 0x24, virtual false, abstract: false, final false
+  inline bool get_gameShouldGetInputRegardlessOfFocus();
+
+  /// @brief Method get_interactions, addr 0x2b93984, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::TypeTable get_interactions();
+
+  /// @brief Method get_isProcessingEvents, addr 0x2b94ab4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isProcessingEvents();
+
+  /// @brief Method get_metrics, addr 0x2b93994, size 0x19c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputMetrics get_metrics();
+
+  /// @brief Method get_pollingFrequency, addr 0x2b9419c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_pollingFrequency();
+
+  /// @brief Method get_processors, addr 0x2b9397c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::TypeTable get_processors();
+
+  /// @brief Method get_settings, addr 0x2b93b30, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::InputSystem::InputSettings> get_settings();
+
+  /// @brief Method get_updateMask, addr 0x2b93fc0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_updateMask();
+
+  /// @brief Method remove_onAfterUpdate, addr 0x2b949ac, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onAfterUpdate(::System::Action* value);
+
+  /// @brief Method remove_onBeforeUpdate, addr 0x2b948fc, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onBeforeUpdate(::System::Action* value);
+
+  /// @brief Method remove_onDeviceChange, addr 0x2b8c664, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
+
+  /// @brief Method remove_onDeviceCommand, addr 0x2b943d8, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onDeviceCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* value);
+
+  /// @brief Method remove_onDeviceStateChange, addr 0x2b94328, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onDeviceStateChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+
+  /// @brief Method remove_onEvent, addr 0x2b8c60c, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
+
+  /// @brief Method remove_onFindControlLayoutForDevice, addr 0x2b94738, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onFindControlLayoutForDevice(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* value);
+
+  /// @brief Method remove_onLayoutChange, addr 0x2b8c6bc, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onLayoutChange(::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>* value);
+
+  /// @brief Method remove_onSettingsChange, addr 0x2b94a5c, size 0x58, virtual false, abstract: false, final false
+  inline void remove_onSettingsChange(::System::Action* value);
+
+  /// @brief Method set_pollingFrequency, addr 0x2b941a4, size 0x12c, virtual false, abstract: false, final false
+  inline void set_pollingFrequency(float_t value);
+
+  /// @brief Method set_settings, addr 0x2b93b38, size 0xfc, virtual false, abstract: false, final false
+  inline void set_settings(::UnityEngine::InputSystem::InputSettings* value);
+
+  /// @brief Method set_updateMask, addr 0x2b93fc8, size 0x24, virtual false, abstract: false, final false
+  inline void set_updateMask(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputManager(InputManager&&) = delete;
@@ -1690,12 +1672,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputManager(InputManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputManager();
-
-public:
   /// @brief Field m_LayoutRegistrationVersion, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_LayoutRegistrationVersion;
 

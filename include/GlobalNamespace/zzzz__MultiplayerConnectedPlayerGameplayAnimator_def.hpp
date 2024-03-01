@@ -33,23 +33,18 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4546))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4461))
 // CS Name: ::MultiplayerConnectedPlayerGameplayAnimator*
 class CORDL_TYPE MultiplayerConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
   // Declarations
-  /// @brief Field _bigAvatarAnimator, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__bigAvatarAnimator, put = __cordl_internal_set__bigAvatarAnimator))::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> _bigAvatarAnimator;
-
   /// @brief Field _avatarScaleAnimator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarScaleAnimator, put = __cordl_internal_set__avatarScaleAnimator))::UnityW<::GlobalNamespace::ScaleAnimator> _avatarScaleAnimator;
 
+  /// @brief Field _bigAvatarAnimator, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__bigAvatarAnimator, put = __cordl_internal_set__bigAvatarAnimator))::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> _bigAvatarAnimator;
+
   /// @brief Field _defaultLightsWidth, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__defaultLightsWidth, put = __cordl_internal_set__defaultLightsWidth)) float_t _defaultLightsWidth;
-
-  /// @brief Field _observedLightsWidth, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get__observedLightsWidth, put = __cordl_internal_set__observedLightsWidth)) float_t _observedLightsWidth;
 
   /// @brief Field _failController, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__failController,
@@ -59,78 +54,87 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerLayoutProvider,
                       put = __cordl_internal_set__multiplayerLayoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _multiplayerLayoutProvider;
 
+  /// @brief Field _observedLightsWidth, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get__observedLightsWidth, put = __cordl_internal_set__observedLightsWidth)) float_t _observedLightsWidth;
+
   /// @brief Field _playerSpectatingSpot, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__playerSpectatingSpot,
                       put = __cordl_internal_set__playerSpectatingSpot))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> _playerSpectatingSpot;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator>& __cordl_internal_get__bigAvatarAnimator();
+  /// @brief Method AnimateNewLeaderSelected, addr 0x245e178, size 0x144, virtual true, abstract: false, final false
+  inline void AnimateNewLeaderSelected(bool isLeading);
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> const& __cordl_internal_get__bigAvatarAnimator() const;
+  /// @brief Method HandleIsObservedChanged, addr 0x245e46c, size 0x7c, virtual false, abstract: false, final false
+  inline void HandleIsObservedChanged(bool isObserved);
 
-  constexpr void __cordl_internal_set__bigAvatarAnimator(::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> value);
+  /// @brief Method HandlePlayerDidFail, addr 0x245e468, size 0x4, virtual false, abstract: false, final false
+  inline void HandlePlayerDidFail();
 
-  constexpr ::UnityW<::GlobalNamespace::ScaleAnimator>& __cordl_internal_get__avatarScaleAnimator();
+  /// @brief Method HandleStateChanged, addr 0x245e2bc, size 0x110, virtual true, abstract: false, final false
+  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
+
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x245dd80, size 0x170, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x245dc34, size 0xa4, virtual true, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method TransitionIntoFailedState, addr 0x245df8c, size 0xf0, virtual false, abstract: false, final false
+  inline void TransitionIntoFailedState();
 
   constexpr ::UnityW<::GlobalNamespace::ScaleAnimator> const& __cordl_internal_get__avatarScaleAnimator() const;
 
-  constexpr void __cordl_internal_set__avatarScaleAnimator(::UnityW<::GlobalNamespace::ScaleAnimator> value);
+  constexpr ::UnityW<::GlobalNamespace::ScaleAnimator>& __cordl_internal_get__avatarScaleAnimator();
 
-  constexpr float_t& __cordl_internal_get__defaultLightsWidth();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> const& __cordl_internal_get__bigAvatarAnimator() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator>& __cordl_internal_get__bigAvatarAnimator();
 
   constexpr float_t const& __cordl_internal_get__defaultLightsWidth() const;
 
-  constexpr void __cordl_internal_set__defaultLightsWidth(float_t value);
-
-  constexpr float_t& __cordl_internal_get__observedLightsWidth();
-
-  constexpr float_t const& __cordl_internal_get__observedLightsWidth() const;
-
-  constexpr void __cordl_internal_set__observedLightsWidth(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>& __cordl_internal_get__failController();
+  constexpr float_t& __cordl_internal_get__defaultLightsWidth();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> const& __cordl_internal_get__failController() const;
 
-  constexpr void __cordl_internal_set__failController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController>& __cordl_internal_get__failController();
 
   constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__multiplayerLayoutProvider();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__multiplayerLayoutProvider() const;
 
-  constexpr void __cordl_internal_set__multiplayerLayoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+  constexpr float_t const& __cordl_internal_get__observedLightsWidth() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot>& __cordl_internal_get__playerSpectatingSpot();
+  constexpr float_t& __cordl_internal_get__observedLightsWidth();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> const& __cordl_internal_get__playerSpectatingSpot() const;
 
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot>& __cordl_internal_get__playerSpectatingSpot();
+
+  constexpr void __cordl_internal_set__avatarScaleAnimator(::UnityW<::GlobalNamespace::ScaleAnimator> value);
+
+  constexpr void __cordl_internal_set__bigAvatarAnimator(::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> value);
+
+  constexpr void __cordl_internal_set__defaultLightsWidth(float_t value);
+
+  constexpr void __cordl_internal_set__failController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController> value);
+
+  constexpr void __cordl_internal_set__multiplayerLayoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+
+  constexpr void __cordl_internal_set__observedLightsWidth(float_t value);
+
   constexpr void __cordl_internal_set__playerSpectatingSpot(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> value);
 
-  /// @brief Method Start, addr 0x238ecec, size 0xa4, virtual true, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x238ee38, size 0x170, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method TransitionIntoFailedState, addr 0x238f044, size 0xf0, virtual false, abstract: false, final false
-  inline void TransitionIntoFailedState();
-
-  /// @brief Method AnimateNewLeaderSelected, addr 0x238f230, size 0x144, virtual true, abstract: false, final false
-  inline void AnimateNewLeaderSelected(bool isLeading);
-
-  /// @brief Method HandleStateChanged, addr 0x238f374, size 0x110, virtual true, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
-
-  /// @brief Method HandlePlayerDidFail, addr 0x238f520, size 0x4, virtual false, abstract: false, final false
-  inline void HandlePlayerDidFail();
-
-  /// @brief Method HandleIsObservedChanged, addr 0x238f524, size 0x7c, virtual false, abstract: false, final false
-  inline void HandleIsObservedChanged(bool isObserved);
-
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x238f610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245e558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerGameplayAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameplayAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimator&&) = delete;
@@ -139,12 +143,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerGameplayAnimator(MultiplayerConnectedPlayerGameplayAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerGameplayAnimator();
-
-public:
   /// @brief Field _bigAvatarAnimator, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> ____bigAvatarAnimator;
 

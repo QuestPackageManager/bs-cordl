@@ -44,8 +44,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__ResultsEnvironmentInstaller____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4046))
 // CS Name: ::ResultsEnvironmentInstaller::<>c*
 class CORDL_TYPE __ResultsEnvironmentInstaller____c : public ::System::Object {
 public:
@@ -57,22 +55,28 @@ public:
   static __declspec(property(get = getStaticF___9__4_0,
                              put = setStaticF___9__4_0))::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* __9__4_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__ResultsEnvironmentInstaller____c* value);
+  static inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* New_ctor();
+
+  /// @brief Method <LoadResourcesBeforeInstall>b__4_0, addr 0x23894f8, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> _LoadResourcesBeforeInstall_b__4_0(::UnityEngine::GameObject* asset);
+
+  /// @brief Method .ctor, addr 0x23894f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* getStaticF___9();
 
-  static inline void setStaticF___9__4_0(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value);
-
   static inline ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* getStaticF___9__4_0();
 
-  static inline ::GlobalNamespace::__ResultsEnvironmentInstaller____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__ResultsEnvironmentInstaller____c* value);
 
-  /// @brief Method .ctor, addr 0x22bce88, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__4_0(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value);
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__4_0, addr 0x22bce90, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> _LoadResourcesBeforeInstall_b__4_0(::UnityEngine::GameObject* asset);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ResultsEnvironmentInstaller____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ResultsEnvironmentInstaller____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ResultsEnvironmentInstaller____c(__ResultsEnvironmentInstaller____c&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ResultsEnvironmentInstaller____c(__ResultsEnvironmentInstaller____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ResultsEnvironmentInstaller____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -97,8 +95,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ResultsEnviro
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8940)), TypeDefinitionIndex(TypeDefinitionIndex(15466)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15466), inst:
-// 313 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4047)) CS Name: ::ResultsEnvironmentInstaller*
+// CS Name: ::ResultsEnvironmentInstaller*
 class CORDL_TYPE ResultsEnvironmentInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::UnityEngine::GameObject>> {
 public:
   // Declarations
@@ -115,34 +112,40 @@ public:
 
   __declspec(property(get = get_assetLabel))::UnityEngine::AddressableAssets::AssetLabelReference* assetLabel;
 
+  /// @brief Method InstallBindings, addr 0x238937c, size 0x80, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x238921c, size 0x160, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::GameObject>>* assets,
+                                         ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+
+  static inline ::GlobalNamespace::ResultsEnvironmentInstaller* New_ctor();
+
   constexpr ::UnityEngine::AddressableAssets::AssetLabelReference*& __cordl_internal_get__resultEnvironmentControllerLabel();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetLabelReference*> const& __cordl_internal_get__resultEnvironmentControllerLabel() const;
-
-  constexpr void __cordl_internal_set__resultEnvironmentControllerLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*& __cordl_internal_get__resultsEnvironmentControllers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*> const&
   __cordl_internal_get__resultsEnvironmentControllers() const;
 
+  constexpr void __cordl_internal_set__resultEnvironmentControllerLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value);
+
   constexpr void __cordl_internal_set__resultsEnvironmentControllers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value);
 
-  /// @brief Method get_assetLabel, addr 0x22bcbac, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
-
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x22bcbb4, size 0x160, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::GameObject>>* assets,
-                                         ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
-
-  /// @brief Method InstallBindings, addr 0x22bcd14, size 0x80, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::GlobalNamespace::ResultsEnvironmentInstaller* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22bcd94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23893fc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_assetLabel, addr 0x2389214, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResultsEnvironmentInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResultsEnvironmentInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultsEnvironmentInstaller(ResultsEnvironmentInstaller&&) = delete;
@@ -151,12 +154,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResultsEnvironmentInstaller(ResultsEnvironmentInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResultsEnvironmentInstaller();
-
-public:
   /// @brief Field _resultEnvironmentControllerLabel, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetLabelReference* ____resultEnvironmentControllerLabel;
 

@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::InvalidKeyException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1748))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1749))
 // CS Name: ::Org.BouncyCastle.Security::InvalidKeyException*
 class CORDL_TYPE InvalidKeyException : public ::Org::BouncyCastle::Security::KeyException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115cd14, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x115cd1c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x115cd24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119ece4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x119ecec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x119ecf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvalidKeyException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvalidKeyException(InvalidKeyException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvalidKeyException(InvalidKeyException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidKeyException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

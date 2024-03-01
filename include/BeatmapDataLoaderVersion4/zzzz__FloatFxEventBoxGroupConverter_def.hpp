@@ -29,21 +29,25 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11244))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11251))
 // CS Name: ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*
 class CORDL_TYPE FloatFxEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
+  /// @brief Method ConvertEvents, addr 0x1301a20, size 0x220, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
+
   static inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x12bf9f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13009c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method ConvertEvents, addr 0x12c0a50, size 0x220, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloatFxEventBoxGroupConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventBoxGroupConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatFxEventBoxGroupConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

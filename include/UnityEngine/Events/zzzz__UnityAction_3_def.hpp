@@ -20,20 +20,24 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1, typename T2>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9235))
 // CS Name: ::UnityEngine.Events::UnityAction`3<T0,T1,T2>*
 class CORDL_TYPE UnityAction_3 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(T0 arg0, T1 arg1, T2 arg2);
+
   static inline ::UnityEngine::Events::UnityAction_3<T0, T1, T2>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(T0 arg0, T1 arg1, T2 arg2);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityAction_3();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityAction_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityAction_3(UnityAction_3&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityAction_3(UnityAction_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityAction_3();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

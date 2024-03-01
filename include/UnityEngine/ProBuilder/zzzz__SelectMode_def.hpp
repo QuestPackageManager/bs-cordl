@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::ProBuilder::SelectMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12051))
 // CS Name: ::UnityEngine.ProBuilder::SelectMode
 struct CORDL_TYPE SelectMode {
 public:
@@ -42,27 +40,23 @@ public:
     return static_cast<__SelectMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SelectMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SelectMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SelectMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::ProBuilder::SelectMode const None;
-
-  /// @brief Field Object value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::ProBuilder::SelectMode const Object;
-
-  /// @brief Field Vertex value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::ProBuilder::SelectMode const Vertex;
+  /// @brief Field Any value: static_cast<int32_t>(0xffff)
+  static ::UnityEngine::ProBuilder::SelectMode const Any;
 
   /// @brief Field Edge value: static_cast<int32_t>(0x4)
   static ::UnityEngine::ProBuilder::SelectMode const Edge;
@@ -70,20 +64,29 @@ public:
   /// @brief Field Face value: static_cast<int32_t>(0x8)
   static ::UnityEngine::ProBuilder::SelectMode const Face;
 
-  /// @brief Field TextureFace value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::ProBuilder::SelectMode const TextureFace;
+  /// @brief Field InputTool value: static_cast<int32_t>(0x80)
+  static ::UnityEngine::ProBuilder::SelectMode const InputTool;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::ProBuilder::SelectMode const None;
+
+  /// @brief Field Object value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::ProBuilder::SelectMode const Object;
 
   /// @brief Field TextureEdge value: static_cast<int32_t>(0x20)
   static ::UnityEngine::ProBuilder::SelectMode const TextureEdge;
 
+  /// @brief Field TextureFace value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::ProBuilder::SelectMode const TextureFace;
+
   /// @brief Field TextureVertex value: static_cast<int32_t>(0x40)
   static ::UnityEngine::ProBuilder::SelectMode const TextureVertex;
 
-  /// @brief Field InputTool value: static_cast<int32_t>(0x80)
-  static ::UnityEngine::ProBuilder::SelectMode const InputTool;
+  /// @brief Field Vertex value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::ProBuilder::SelectMode const Vertex;
 
-  /// @brief Field Any value: static_cast<int32_t>(0xffff)
-  static ::UnityEngine::ProBuilder::SelectMode const Any;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

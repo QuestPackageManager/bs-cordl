@@ -23,16 +23,11 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10144)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10144), inst: 3441 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10145))
 // CS Name: ::Zenject::Factory`1<TValue>*
 class CORDL_TYPE Factory_1 : public ::Zenject::PlaceholderFactory_1<TValue> {
 public:
   // Declarations
   static inline ::Zenject::Factory_1<TValue>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -40,6 +35,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Factory_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Factory_1(Factory_1&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Factory_1(Factory_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Factory_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

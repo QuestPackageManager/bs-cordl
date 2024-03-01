@@ -16,21 +16,19 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1515))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::ECEndomorphism*
 class CORDL_TYPE ECEndomorphism {
 public:
   // Declarations
-  __declspec(property(get = get_PointMap))::Org::BouncyCastle::Math::EC::ECPointMap* PointMap;
-
   __declspec(property(get = get_HasEfficientPointMap)) bool HasEfficientPointMap;
 
-  /// @brief Method get_PointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
+  __declspec(property(get = get_PointMap))::Org::BouncyCastle::Math::EC::ECPointMap* PointMap;
 
   /// @brief Method get_HasEfficientPointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasEfficientPointMap();
+
+  /// @brief Method get_PointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECEndomorphism", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

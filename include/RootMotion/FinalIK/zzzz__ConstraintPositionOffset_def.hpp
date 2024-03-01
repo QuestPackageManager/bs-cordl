@@ -18,66 +18,70 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ConstraintPositionOffset);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12406))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12408))
 // CS Name: ::RootMotion.FinalIK::ConstraintPositionOffset*
 class CORDL_TYPE ConstraintPositionOffset : public ::RootMotion::FinalIK::Constraint {
 public:
   // Declarations
-  /// @brief Field offset, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
-
   /// @brief Field defaultLocalPosition, offset 0x28, size 0xc
   __declspec(property(get = __cordl_internal_get_defaultLocalPosition, put = __cordl_internal_set_defaultLocalPosition))::UnityEngine::Vector3 defaultLocalPosition;
-
-  /// @brief Field lastLocalPosition, offset 0x34, size 0xc
-  __declspec(property(get = __cordl_internal_get_lastLocalPosition, put = __cordl_internal_set_lastLocalPosition))::UnityEngine::Vector3 lastLocalPosition;
 
   /// @brief Field initiated, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
+  /// @brief Field lastLocalPosition, offset 0x34, size 0xc
+  __declspec(property(get = __cordl_internal_get_lastLocalPosition, put = __cordl_internal_set_lastLocalPosition))::UnityEngine::Vector3 lastLocalPosition;
+
+  /// @brief Field offset, offset 0x1c, size 0xc
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
+
   __declspec(property(get = get_positionChanged)) bool positionChanged;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
-
-  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
-
-  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastLocalPosition() const;
-
-  constexpr void __cordl_internal_set_lastLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr bool& __cordl_internal_get_initiated();
-
-  constexpr bool const& __cordl_internal_get_initiated() const;
-
-  constexpr void __cordl_internal_set_initiated(bool value);
-
-  /// @brief Method UpdateConstraint, addr 0x12dd86c, size 0x104, virtual true, abstract: false, final false
-  inline void UpdateConstraint();
 
   static inline ::RootMotion::FinalIK::ConstraintPositionOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12dd9cc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::RootMotion::FinalIK::ConstraintPositionOffset* New_ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method .ctor, addr 0x12dd9d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateConstraint, addr 0x131e858, size 0x104, virtual true, abstract: false, final false
+  inline void UpdateConstraint();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
+
+  constexpr bool const& __cordl_internal_get_initiated() const;
+
+  constexpr bool& __cordl_internal_get_initiated();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastLocalPosition();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
+
+  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_initiated(bool value);
+
+  constexpr void __cordl_internal_set_lastLocalPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
+
+  /// @brief Method .ctor, addr 0x131e9b8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x131e9c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform);
 
-  /// @brief Method get_positionChanged, addr 0x12dd970, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_positionChanged, addr 0x131e95c, size 0x5c, virtual false, abstract: false, final false
   inline bool get_positionChanged();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConstraintPositionOffset();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstraintPositionOffset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstraintPositionOffset(ConstraintPositionOffset&&) = delete;
@@ -86,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConstraintPositionOffset(ConstraintPositionOffset const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstraintPositionOffset();
-
-public:
   /// @brief Field offset, offset: 0x1c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___offset;
 

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelinePauseMarker);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903)), TypeDefinitionIndex(TypeDefinitionIndex(13841))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14555))
 // CS Name: ::TimelinePauseMarker*
 class CORDL_TYPE TimelinePauseMarker : public ::UnityEngine::Timeline::Marker {
 public:
@@ -35,23 +33,29 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::INotification"
   constexpr operator ::UnityEngine::Playables::INotification*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::Playables::INotification"
-  constexpr ::UnityEngine::Playables::INotification* i___UnityEngine__Playables__INotification() noexcept;
-
-  constexpr ::UnityEngine::PropertyName& __cordl_internal_get__id_k__BackingField();
+  static inline ::GlobalNamespace::TimelinePauseMarker* New_ctor();
 
   constexpr ::UnityEngine::PropertyName const& __cordl_internal_get__id_k__BackingField() const;
 
+  constexpr ::UnityEngine::PropertyName& __cordl_internal_get__id_k__BackingField();
+
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method get_id, addr 0x218970c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::PropertyName get_id();
-
-  static inline ::GlobalNamespace::TimelinePauseMarker* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2189714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0x2257db0, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::PropertyName get_id();
+
+  /// @brief Convert to "::UnityEngine::Playables::INotification"
+  constexpr ::UnityEngine::Playables::INotification* i___UnityEngine__Playables__INotification() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimelinePauseMarker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimelinePauseMarker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelinePauseMarker(TimelinePauseMarker&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimelinePauseMarker(TimelinePauseMarker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelinePauseMarker();
-
-public:
   /// @brief Field <id>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::PropertyName ____id_k__BackingField;
 

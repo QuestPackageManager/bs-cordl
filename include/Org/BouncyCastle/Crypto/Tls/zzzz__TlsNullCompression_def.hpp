@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNullCompression);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1314))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsNullCompression*
 class CORDL_TYPE TlsNullCompression : public ::System::Object {
 public:
@@ -29,20 +27,26 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
-
-  /// @brief Method Compress, addr 0xfdb4e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0x10204b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0xfdb4f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0x10204c0, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfdb4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10204c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsNullCompression();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsNullCompression", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsNullCompression(TlsNullCompression&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsNullCompression(TlsNullCompression const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsNullCompression();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

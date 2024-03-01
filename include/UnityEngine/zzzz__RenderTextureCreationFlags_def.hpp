@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::RenderTextureCreationFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8855))
 // CS Name: ::UnityEngine::RenderTextureCreationFlags
 struct CORDL_TYPE RenderTextureCreationFlags {
 public:
@@ -42,48 +40,53 @@ public:
     return static_cast<__RenderTextureCreationFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderTextureCreationFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderTextureCreationFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderTextureCreationFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field MipMap value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::RenderTextureCreationFlags const MipMap;
-
-  /// @brief Field AutoGenerateMips value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::RenderTextureCreationFlags const AutoGenerateMips;
-
-  /// @brief Field SRGB value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::RenderTextureCreationFlags const SRGB;
-
-  /// @brief Field EyeTexture value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::RenderTextureCreationFlags const EyeTexture;
-
-  /// @brief Field EnableRandomWrite value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::RenderTextureCreationFlags const EnableRandomWrite;
-
-  /// @brief Field CreatedFromScript value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::RenderTextureCreationFlags const CreatedFromScript;
 
   /// @brief Field AllowVerticalFlip value: static_cast<int32_t>(0x80)
   static ::UnityEngine::RenderTextureCreationFlags const AllowVerticalFlip;
 
-  /// @brief Field NoResolvedColorSurface value: static_cast<int32_t>(0x100)
-  static ::UnityEngine::RenderTextureCreationFlags const NoResolvedColorSurface;
+  /// @brief Field AutoGenerateMips value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::RenderTextureCreationFlags const AutoGenerateMips;
+
+  /// @brief Field BindMS value: static_cast<int32_t>(0x800)
+  static ::UnityEngine::RenderTextureCreationFlags const BindMS;
+
+  /// @brief Field CreatedFromScript value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::RenderTextureCreationFlags const CreatedFromScript;
 
   /// @brief Field DynamicallyScalable value: static_cast<int32_t>(0x400)
   static ::UnityEngine::RenderTextureCreationFlags const DynamicallyScalable;
 
-  /// @brief Field BindMS value: static_cast<int32_t>(0x800)
-  static ::UnityEngine::RenderTextureCreationFlags const BindMS;
+  /// @brief Field EnableRandomWrite value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::RenderTextureCreationFlags const EnableRandomWrite;
+
+  /// @brief Field EyeTexture value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::RenderTextureCreationFlags const EyeTexture;
+
+  /// @brief Field MipMap value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::RenderTextureCreationFlags const MipMap;
+
+  /// @brief Field NoResolvedColorSurface value: static_cast<int32_t>(0x100)
+  static ::UnityEngine::RenderTextureCreationFlags const NoResolvedColorSurface;
+
+  /// @brief Field SRGB value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::RenderTextureCreationFlags const SRGB;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

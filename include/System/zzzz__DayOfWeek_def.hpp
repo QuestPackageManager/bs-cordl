@@ -15,8 +15,6 @@ MARK_VAL_T(::System::DayOfWeek);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2371))
 // CS Name: ::System::DayOfWeek
 struct CORDL_TYPE DayOfWeek {
 public:
@@ -39,24 +37,35 @@ public:
     return static_cast<__DayOfWeek_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr DayOfWeek(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DayOfWeek();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr DayOfWeek(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Friday value: static_cast<int32_t>(0x5)
+  static ::System::DayOfWeek const Friday;
+
+  /// @brief Field Monday value: static_cast<int32_t>(0x1)
+  static ::System::DayOfWeek const Monday;
+
+  /// @brief Field Saturday value: static_cast<int32_t>(0x6)
+  static ::System::DayOfWeek const Saturday;
 
   /// @brief Field Sunday value: static_cast<int32_t>(0x0)
   static ::System::DayOfWeek const Sunday;
 
-  /// @brief Field Monday value: static_cast<int32_t>(0x1)
-  static ::System::DayOfWeek const Monday;
+  /// @brief Field Thursday value: static_cast<int32_t>(0x4)
+  static ::System::DayOfWeek const Thursday;
 
   /// @brief Field Tuesday value: static_cast<int32_t>(0x2)
   static ::System::DayOfWeek const Tuesday;
@@ -64,14 +73,8 @@ public:
   /// @brief Field Wednesday value: static_cast<int32_t>(0x3)
   static ::System::DayOfWeek const Wednesday;
 
-  /// @brief Field Thursday value: static_cast<int32_t>(0x4)
-  static ::System::DayOfWeek const Thursday;
-
-  /// @brief Field Friday value: static_cast<int32_t>(0x5)
-  static ::System::DayOfWeek const Friday;
-
-  /// @brief Field Saturday value: static_cast<int32_t>(0x6)
-  static ::System::DayOfWeek const Saturday;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

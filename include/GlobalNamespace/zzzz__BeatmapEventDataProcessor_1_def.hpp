@@ -25,8 +25,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15125))
 // CS Name: ::BeatmapEventDataProcessor`1<T>*
 class CORDL_TYPE BeatmapEventDataProcessor_1 : public ::System::Object {
 public:
@@ -34,11 +32,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
-  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>* i___GlobalNamespace__ISortedListItemProcessor_1___GlobalNamespace__BeatmapDataItem__() noexcept;
-
-  /// @brief Method ProcessInsertedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+  static inline ::GlobalNamespace::BeatmapEventDataProcessor_1<T>* New_ctor();
 
   /// @brief Method ProcessBeforeDeleteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
@@ -46,20 +40,30 @@ public:
   /// @brief Method ProcessBeforeDeleteEventDataCommon, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ProcessBeforeDeleteEventDataCommon(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
+
+  /// @brief Method ProcessInsertedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+
   /// @brief Method ProcessInsertedEventDataCommon, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ProcessInsertedEventDataCommon(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
   /// @brief Method ProcessInsertedEventDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
-
-  static inline ::GlobalNamespace::BeatmapEventDataProcessor_1<T>* New_ctor();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>"
+  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapDataItem*>* i___GlobalNamespace__ISortedListItemProcessor_1___GlobalNamespace__BeatmapDataItem__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapEventDataProcessor_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataProcessor_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataProcessor_1(BeatmapEventDataProcessor_1&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapEventDataProcessor_1(BeatmapEventDataProcessor_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapEventDataProcessor_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

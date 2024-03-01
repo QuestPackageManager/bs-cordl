@@ -64,19 +64,17 @@ MARK_VAL_T(::UnityEngine::Rendering::__ScriptableCullingParameters___m_LayerFarC
 // SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9128))
 // CS Name: ::ScriptableCullingParameters::<m_CullingPlanes>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __ScriptableCullingParameters___m_CullingPlanes_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __ScriptableCullingParameters___m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ScriptableCullingParameters___m_CullingPlanes_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __ScriptableCullingParameters___m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -100,19 +98,17 @@ static_assert(offsetof(::UnityEngine::Rendering::__ScriptableCullingParameters__
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9129))
 // CS Name: ::ScriptableCullingParameters::<m_LayerFarCullDistances>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __ScriptableCullingParameters___m_LayerFarCullDistances_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __ScriptableCullingParameters___m_LayerFarCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ScriptableCullingParameters___m_LayerFarCullDistances_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __ScriptableCullingParameters___m_LayerFarCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x4, def value: None
   float_t FixedElementField;
@@ -136,55 +132,57 @@ static_assert(offsetof(::UnityEngine::Rendering::__ScriptableCullingParameters__
 // SizeInfo { instance_size: 1576, native_size: 1576, calculated_instance_size: 1576, calculated_native_size: 1592, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(9112)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9114)), TypeDefinitionIndex(TypeDefinitionIndex(9126)), TypeDefinitionIndex(TypeDefinitionIndex(9127)), TypeDefinitionIndex(TypeDefinitionIndex(9128)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9129))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9130)) CS Name: ::UnityEngine.Rendering::ScriptableCullingParameters
+// CS Name: ::UnityEngine.Rendering::ScriptableCullingParameters
 struct CORDL_TYPE ScriptableCullingParameters {
 public:
   // Declarations
-  using _m_LayerFarCullDistances_e__FixedBuffer = ::UnityEngine::Rendering::__ScriptableCullingParameters___m_LayerFarCullDistances_e__FixedBuffer;
-
   using _m_CullingPlanes_e__FixedBuffer = ::UnityEngine::Rendering::__ScriptableCullingParameters___m_CullingPlanes_e__FixedBuffer;
 
-  /// @brief Field maximumCullingPlaneCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_maximumCullingPlaneCount, put = setStaticF_maximumCullingPlaneCount)) int32_t maximumCullingPlaneCount;
+  using _m_LayerFarCullDistances_e__FixedBuffer = ::UnityEngine::Rendering::__ScriptableCullingParameters___m_LayerFarCullDistances_e__FixedBuffer;
+
+  __declspec(property(get = get_cullingPlaneCount)) int32_t cullingPlaneCount;
 
   /// @brief Field layerCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_layerCount, put = setStaticF_layerCount)) int32_t layerCount;
 
-  __declspec(property(get = get_cullingPlaneCount)) int32_t cullingPlaneCount;
+  /// @brief Field maximumCullingPlaneCount, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_maximumCullingPlaneCount, put = setStaticF_maximumCullingPlaneCount)) int32_t maximumCullingPlaneCount;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>* i___System__IEquatable_1___UnityEngine__Rendering__ScriptableCullingParameters_();
+  /// @brief Method Equals, addr 0x2de53b4, size 0xb8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  static inline void setStaticF_maximumCullingPlaneCount(int32_t value);
+  /// @brief Method Equals, addr 0x2de4c74, size 0x740, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::ScriptableCullingParameters other);
 
-  static inline int32_t getStaticF_maximumCullingPlaneCount();
+  /// @brief Method GetCullingPlane, addr 0x2de4b84, size 0xf0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
 
-  static inline void setStaticF_layerCount(int32_t value);
+  /// @brief Method GetHashCode, addr 0x2de546c, size 0x6a8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetLayerCullingDistance, addr 0x2de4aa4, size 0xe0, virtual false, abstract: false, final false
+  inline float_t GetLayerCullingDistance(int32_t layerIndex);
 
   static inline int32_t getStaticF_layerCount();
 
-  /// @brief Method get_cullingPlaneCount, addr 0x2cf9374, size 0x8, virtual false, abstract: false, final false
+  static inline int32_t getStaticF_maximumCullingPlaneCount();
+
+  /// @brief Method get_cullingPlaneCount, addr 0x2de4a9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPlaneCount();
 
-  /// @brief Method GetLayerCullingDistance, addr 0x2cf937c, size 0xe0, virtual false, abstract: false, final false
-  inline float_t GetLayerCullingDistance(int32_t layerIndex);
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>* i___System__IEquatable_1___UnityEngine__Rendering__ScriptableCullingParameters_();
 
-  /// @brief Method GetCullingPlane, addr 0x2cf945c, size 0xf0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
+  static inline void setStaticF_layerCount(int32_t value);
 
-  /// @brief Method Equals, addr 0x2cf954c, size 0x740, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::ScriptableCullingParameters other);
+  static inline void setStaticF_maximumCullingPlaneCount(int32_t value);
 
-  /// @brief Method Equals, addr 0x2cf9c8c, size 0xb8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2cf9d44, size 0x6a8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptableCullingParameters();
 
   // Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LODParameters", ty: "::UnityEngine::Rendering::LODParameters",
   // modifiers: "", def_value: None }, CppParam { name: "m_CullingPlanes", ty: "::UnityEngine::Rendering::__ScriptableCullingParameters___m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value:
@@ -208,10 +206,6 @@ public:
                                         ::UnityEngine::Rendering::CameraProperties m_CameraProperties, float_t m_AccurateOcclusionThreshold, int32_t m_MaximumPortalCullingJobs,
                                         ::UnityEngine::Matrix4x4 m_StereoViewMatrix, ::UnityEngine::Matrix4x4 m_StereoProjectionMatrix, float_t m_StereoSeparationDistance,
                                         int32_t m_maximumVisibleLights, bool m_ConservativeEnclosingSphere, int32_t m_NumIterationsEnclosingSphere) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptableCullingParameters();
 
   /// @brief Field m_IsOrthographic, offset: 0x0, size: 0x4, def value: None
   int32_t m_IsOrthographic;

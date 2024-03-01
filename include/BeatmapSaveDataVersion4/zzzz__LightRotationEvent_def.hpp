@@ -24,20 +24,18 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::LightRotationEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11208)), TypeDefinitionIndex(TypeDefinitionIndex(11219))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11143))
 // CS Name: ::BeatmapSaveDataVersion4::LightRotationEvent
 struct CORDL_TYPE LightRotationEvent {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightRotationEvent();
+
   // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam {
   // name: "l", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty:
   // "::BeatmapSaveDataCommon::RotationDirection", modifiers: "", def_value: None }]
   constexpr LightRotationEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, int32_t l, float_t r, ::BeatmapSaveDataCommon::RotationDirection d) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightRotationEvent();
 
   /// @brief Field p, offset: 0x0, size: 0x4, def value: None
   int32_t p;

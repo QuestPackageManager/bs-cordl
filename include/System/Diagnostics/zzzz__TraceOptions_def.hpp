@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Diagnostics::TraceOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
 // CS Name: ::System.Diagnostics::TraceOptions
 struct CORDL_TYPE TraceOptions {
 public:
@@ -39,30 +37,32 @@ public:
     return static_cast<__TraceOptions_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TraceOptions(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TraceOptions();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TraceOptions(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Diagnostics::TraceOptions const None;
-
-  /// @brief Field LogicalOperationStack value: static_cast<int32_t>(0x1)
-  static ::System::Diagnostics::TraceOptions const LogicalOperationStack;
+  /// @brief Field Callstack value: static_cast<int32_t>(0x20)
+  static ::System::Diagnostics::TraceOptions const Callstack;
 
   /// @brief Field DateTime value: static_cast<int32_t>(0x2)
   static ::System::Diagnostics::TraceOptions const DateTime;
 
-  /// @brief Field Timestamp value: static_cast<int32_t>(0x4)
-  static ::System::Diagnostics::TraceOptions const Timestamp;
+  /// @brief Field LogicalOperationStack value: static_cast<int32_t>(0x1)
+  static ::System::Diagnostics::TraceOptions const LogicalOperationStack;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Diagnostics::TraceOptions const None;
 
   /// @brief Field ProcessId value: static_cast<int32_t>(0x8)
   static ::System::Diagnostics::TraceOptions const ProcessId;
@@ -70,8 +70,11 @@ public:
   /// @brief Field ThreadId value: static_cast<int32_t>(0x10)
   static ::System::Diagnostics::TraceOptions const ThreadId;
 
-  /// @brief Field Callstack value: static_cast<int32_t>(0x20)
-  static ::System::Diagnostics::TraceOptions const Callstack;
+  /// @brief Field Timestamp value: static_cast<int32_t>(0x4)
+  static ::System::Diagnostics::TraceOptions const Timestamp;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

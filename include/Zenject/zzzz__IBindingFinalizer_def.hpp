@@ -19,19 +19,17 @@ MARK_REF_PTR_T(::Zenject::IBindingFinalizer);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10095))
 // CS Name: ::Zenject::IBindingFinalizer*
 class CORDL_TYPE IBindingFinalizer {
 public:
   // Declarations
   __declspec(property(get = get_BindingInheritanceMethod))::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
 
-  /// @brief Method get_BindingInheritanceMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
-
   /// @brief Method FinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FinalizeBinding(::Zenject::DiContainer* container);
+
+  /// @brief Method get_BindingInheritanceMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindingFinalizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

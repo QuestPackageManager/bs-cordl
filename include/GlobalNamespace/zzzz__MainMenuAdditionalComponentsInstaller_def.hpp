@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::GlobalNamespace::MainMenuAdditionalComponentsInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10289))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4697))
 // CS Name: ::MainMenuAdditionalComponentsInstaller*
 class CORDL_TYPE MainMenuAdditionalComponentsInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x23cd5e8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x249c530, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MainMenuAdditionalComponentsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cd644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249c58c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainMenuAdditionalComponentsInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MainMenuAdditionalComponentsInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainMenuAdditionalComponentsInstaller(MainMenuAdditionalComponentsInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainMenuAdditionalComponentsInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

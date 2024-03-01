@@ -22,41 +22,45 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteTrailParticleSystem);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15068))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4226))
 // CS Name: ::NoteTrailParticleSystem*
 class CORDL_TYPE NoteTrailParticleSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _particleSystem, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
-
   /// @brief Field _emitParams, offset 0x20, size 0x90
   __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams))::UnityEngine::__ParticleSystem__EmitParams _emitParams;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+  /// @brief Field _particleSystem, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
-
-  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
-
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__emitParams();
-
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__emitParams() const;
-
-  constexpr void __cordl_internal_set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value);
-
-  /// @brief Method Awake, addr 0x235c08c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2429fd4, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Emit, addr 0x235c09c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x2429fe4, size 0x110, virtual false, abstract: false, final false
   inline void Emit(::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, int32_t count);
 
   static inline ::GlobalNamespace::NoteTrailParticleSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x235c1ac, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__emitParams() const;
+
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__emitParams();
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+
+  constexpr void __cordl_internal_set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+
+  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
+
+  /// @brief Method .ctor, addr 0x242a0f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteTrailParticleSystem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteTrailParticleSystem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteTrailParticleSystem(NoteTrailParticleSystem&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteTrailParticleSystem(NoteTrailParticleSystem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteTrailParticleSystem();
-
-public:
   /// @brief Field _particleSystem, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 

@@ -20,33 +20,37 @@ MARK_REF_PTR_T(::System::Threading::NativeEventCalls);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2744))
 // CS Name: ::System.Threading::NativeEventCalls*
 class CORDL_TYPE NativeEventCalls : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateEvent_internal, addr 0x264444c, size 0x58, virtual false, abstract: false, final false
-  static inline void* CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
-
-  /// @brief Method CreateEvent_icall, addr 0x26444a4, size 0xc, virtual false, abstract: false, final false
-  static inline void* CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
-
-  /// @brief Method SetEvent, addr 0x26444b0, size 0xe0, virtual false, abstract: false, final false
-  static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
-
-  /// @brief Method SetEvent_internal, addr 0x2644590, size 0x4, virtual false, abstract: false, final false
-  static inline bool SetEvent_internal(void* handle);
-
-  /// @brief Method ResetEvent, addr 0x2644594, size 0xe0, virtual false, abstract: false, final false
-  static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
-
-  /// @brief Method ResetEvent_internal, addr 0x2644674, size 0x4, virtual false, abstract: false, final false
-  static inline bool ResetEvent_internal(void* handle);
-
-  /// @brief Method CloseEvent_internal, addr 0x2644678, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseEvent_internal, addr 0x2712d6c, size 0x4, virtual false, abstract: false, final false
   static inline void CloseEvent_internal(void* handle);
 
+  /// @brief Method CreateEvent_icall, addr 0x2712b98, size 0xc, virtual false, abstract: false, final false
+  static inline void* CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
+
+  /// @brief Method CreateEvent_internal, addr 0x2712b40, size 0x58, virtual false, abstract: false, final false
+  static inline void* CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
+
+  /// @brief Method ResetEvent, addr 0x2712c88, size 0xe0, virtual false, abstract: false, final false
+  static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
+
+  /// @brief Method ResetEvent_internal, addr 0x2712d68, size 0x4, virtual false, abstract: false, final false
+  static inline bool ResetEvent_internal(void* handle);
+
+  /// @brief Method SetEvent, addr 0x2712ba4, size 0xe0, virtual false, abstract: false, final false
+  static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
+
+  /// @brief Method SetEvent_internal, addr 0x2712c84, size 0x4, virtual false, abstract: false, final false
+  static inline bool SetEvent_internal(void* handle);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeEventCalls();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeEventCalls", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeEventCalls(NativeEventCalls&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeEventCalls(NativeEventCalls const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeEventCalls();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

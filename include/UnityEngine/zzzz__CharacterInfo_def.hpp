@@ -24,20 +24,18 @@ MARK_VAL_T(::UnityEngine::CharacterInfo);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 65, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8909)), TypeDefinitionIndex(TypeDefinitionIndex(15838))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15847))
 // CS Name: ::UnityEngine::CharacterInfo
 struct CORDL_TYPE CharacterInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CharacterInfo();
+
   // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name:
   // "vert", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers:
   // "", def_value: None }, CppParam { name: "style", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "flipped", ty: "bool", modifiers: "", def_value: None }]
   constexpr CharacterInfo(int32_t index, ::UnityEngine::Rect uv, ::UnityEngine::Rect vert, float_t width, int32_t size, ::UnityEngine::FontStyle style, bool flipped) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CharacterInfo();
 
   /// @brief Field index, offset: 0x0, size: 0x4, def value: None
   int32_t index;

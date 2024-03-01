@@ -24,19 +24,37 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::RuntimeThread);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2308))
 // CS Name: ::Internal.Runtime.Augments::RuntimeThread*
 class CORDL_TYPE RuntimeThread : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field thread, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_thread, put = __cordl_internal_set_thread))::System::Threading::Thread* thread;
+  __declspec(property(put = set_IsBackground)) bool IsBackground;
 
   /// @brief Field OptimalMaxSpinWaitsPerSpinIteration, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_OptimalMaxSpinWaitsPerSpinIteration, put = setStaticF_OptimalMaxSpinWaitsPerSpinIteration)) int32_t OptimalMaxSpinWaitsPerSpinIteration;
 
-  __declspec(property(put = set_IsBackground)) bool IsBackground;
+  /// @brief Field thread, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_thread, put = __cordl_internal_set_thread))::System::Threading::Thread* thread;
+
+  /// @brief Method Create, addr 0x251e2ac, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Internal::Runtime::Augments::RuntimeThread* Create(::System::Threading::ParameterizedThreadStart* start, int32_t maxStackSize);
+
+  /// @brief Method GetCurrentProcessorId, addr 0x251e3b4, size 0x8, virtual false, abstract: false, final false
+  static inline int32_t GetCurrentProcessorId();
+
+  static inline ::Internal::Runtime::Augments::RuntimeThread* New_ctor(::System::Threading::Thread* t);
+
+  /// @brief Method Sleep, addr 0x251e38c, size 0x8, virtual false, abstract: false, final false
+  static inline void Sleep(int32_t millisecondsTimeout);
+
+  /// @brief Method SpinWait, addr 0x251e39c, size 0x18, virtual false, abstract: false, final false
+  static inline bool SpinWait(int32_t iterations);
+
+  /// @brief Method Start, addr 0x251e370, size 0x1c, virtual false, abstract: false, final false
+  inline void Start(::System::Object* state);
+
+  /// @brief Method Yield, addr 0x251e394, size 0x8, virtual false, abstract: false, final false
+  static inline bool Yield();
 
   constexpr ::System::Threading::Thread*& __cordl_internal_get_thread();
 
@@ -44,36 +62,22 @@ public:
 
   constexpr void __cordl_internal_set_thread(::System::Threading::Thread* value);
 
-  static inline void setStaticF_OptimalMaxSpinWaitsPerSpinIteration(int32_t value);
+  /// @brief Method .ctor, addr 0x251e284, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Thread* t);
 
   static inline int32_t getStaticF_OptimalMaxSpinWaitsPerSpinIteration();
 
-  static inline ::Internal::Runtime::Augments::RuntimeThread* New_ctor(::System::Threading::Thread* t);
+  static inline void setStaticF_OptimalMaxSpinWaitsPerSpinIteration(int32_t value);
 
-  /// @brief Method .ctor, addr 0x244c58c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Thread* t);
-
-  /// @brief Method Create, addr 0x244c5b4, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Internal::Runtime::Augments::RuntimeThread* Create(::System::Threading::ParameterizedThreadStart* start, int32_t maxStackSize);
-
-  /// @brief Method set_IsBackground, addr 0x244c658, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IsBackground, addr 0x251e350, size 0x20, virtual false, abstract: false, final false
   inline void set_IsBackground(bool value);
 
-  /// @brief Method Start, addr 0x244c678, size 0x1c, virtual false, abstract: false, final false
-  inline void Start(::System::Object* state);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeThread();
 
-  /// @brief Method Sleep, addr 0x244c694, size 0x8, virtual false, abstract: false, final false
-  static inline void Sleep(int32_t millisecondsTimeout);
-
-  /// @brief Method Yield, addr 0x244c69c, size 0x8, virtual false, abstract: false, final false
-  static inline bool Yield();
-
-  /// @brief Method SpinWait, addr 0x244c6a4, size 0x18, virtual false, abstract: false, final false
-  static inline bool SpinWait(int32_t iterations);
-
-  /// @brief Method GetCurrentProcessorId, addr 0x244c6bc, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetCurrentProcessorId();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeThread", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeThread(RuntimeThread&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeThread(RuntimeThread const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeThread();
-
-public:
   /// @brief Field thread, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Thread* ___thread;
 

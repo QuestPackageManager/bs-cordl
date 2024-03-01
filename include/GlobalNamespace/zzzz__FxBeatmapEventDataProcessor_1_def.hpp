@@ -22,26 +22,30 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15125), inst: 944 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15127))
 // CS Name: ::FxBeatmapEventDataProcessor`1<T>*
 class CORDL_TYPE FxBeatmapEventDataProcessor_1 : public ::GlobalNamespace::BeatmapEventDataProcessor_1<T> {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+  static inline ::GlobalNamespace::FxBeatmapEventDataProcessor_1<T>* New_ctor();
 
   /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+
   /// @brief Method UpdateByOther, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateByOther(T current, T other);
-
-  static inline ::GlobalNamespace::FxBeatmapEventDataProcessor_1<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxBeatmapEventDataProcessor_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FxBeatmapEventDataProcessor_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FxBeatmapEventDataProcessor_1(FxBeatmapEventDataProcessor_1&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FxBeatmapEventDataProcessor_1(FxBeatmapEventDataProcessor_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxBeatmapEventDataProcessor_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

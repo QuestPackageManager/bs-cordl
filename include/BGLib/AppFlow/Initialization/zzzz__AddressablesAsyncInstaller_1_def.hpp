@@ -63,24 +63,25 @@ namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3834)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 797 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 5028 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 92 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15465)) CS Name:
-// ::AddressablesAsyncInstaller`1::<LoadResourcesBeforeInstallAsync>d__2<T>
+// CS Name: ::AddressablesAsyncInstaller`1::<LoadResourcesBeforeInstallAsync>d__2<T>
 struct CORDL_TYPE __AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None }, CppParam {
@@ -92,10 +93,6 @@ public:
       ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AddressablesAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__2();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -128,9 +125,7 @@ namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3834)), TypeDefinitionIndex(TypeDefinitionIndex(14046)), TypeDefinitionIndex(TypeDefinitionIndex(15468)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 91 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 853 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15466)) CS Name: ::BGLib.AppFlow.Initialization::AddressablesAsyncInstaller`1<T>*
+// CS Name: ::BGLib.AppFlow.Initialization::AddressablesAsyncInstaller`1<T>*
 class CORDL_TYPE AddressablesAsyncInstaller_1 : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
@@ -142,11 +137,11 @@ public:
 
   __declspec(property(get = get_assetLabel))::UnityEngine::AddressableAssets::AssetLabelReference* assetLabel;
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>& __cordl_internal_get__handle();
+  /// @brief Method GetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> const& __cordl_internal_get__handle() const;
-
-  constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> value);
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<T>* assets, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* _);
@@ -154,23 +149,29 @@ public:
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* _);
 
-  /// @brief Method get_assetLabel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
-
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<T>* assets, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+  static inline ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>* New_ctor();
 
   /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method GetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> const& __cordl_internal_get__handle() const;
 
-  static inline ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>* New_ctor();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>& __cordl_internal_get__handle();
+
+  constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_assetLabel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddressablesAsyncInstaller_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesAsyncInstaller_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1&&) = delete;
@@ -179,12 +180,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddressablesAsyncInstaller_1();
-
-public:
   /// @brief Field _handle, offset: 0x20, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> ____handle;
 

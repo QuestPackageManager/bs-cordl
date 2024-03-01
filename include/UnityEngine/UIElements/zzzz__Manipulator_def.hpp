@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Manipulator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6164))
 // CS Name: ::UnityEngine.UIElements::Manipulator*
 class CORDL_TYPE Manipulator : public ::System::Object {
 public:
@@ -34,14 +32,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IManipulator"
   constexpr operator ::UnityEngine::UIElements::IManipulator*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IManipulator"
-  constexpr ::UnityEngine::UIElements::IManipulator* i___UnityEngine__UIElements__IManipulator() noexcept;
-
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
-
-  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
+  static inline ::UnityEngine::UIElements::Manipulator* New_ctor();
 
   /// @brief Method RegisterCallbacksOnTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterCallbacksOnTarget();
@@ -49,17 +40,30 @@ public:
   /// @brief Method UnregisterCallbacksFromTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method get_target, addr 0x2e1c308, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::VisualElement* get_target();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
 
-  /// @brief Method set_target, addr 0x2e1c310, size 0x54, virtual true, abstract: false, final true
-  inline void set_target(::UnityEngine::UIElements::VisualElement* value);
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
 
-  static inline ::UnityEngine::UIElements::Manipulator* New_ctor();
+  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x2e1c364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f0da8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_target, addr 0x2f0da30, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::VisualElement* get_target();
+
+  /// @brief Convert to "::UnityEngine::UIElements::IManipulator"
+  constexpr ::UnityEngine::UIElements::IManipulator* i___UnityEngine__UIElements__IManipulator() noexcept;
+
+  /// @brief Method set_target, addr 0x2f0da38, size 0x54, virtual true, abstract: false, final true
+  inline void set_target(::UnityEngine::UIElements::VisualElement* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Manipulator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Manipulator(Manipulator&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Manipulator(Manipulator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Manipulator();
-
-public:
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Target;
 

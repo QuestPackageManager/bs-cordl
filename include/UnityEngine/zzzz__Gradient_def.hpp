@@ -37,84 +37,88 @@ MARK_REF_PTR_T(::UnityEngine::Gradient);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9001))
 // CS Name: ::UnityEngine::Gradient*
 class CORDL_TYPE Gradient : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = get_alphaKeys, put = set_alphaKeys))::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys;
 
   __declspec(property(get = get_colorKeys, put = set_colorKeys))::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys;
 
-  __declspec(property(get = get_alphaKeys, put = set_alphaKeys))::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys;
+  /// @brief Field m_Ptr, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   __declspec(property(put = set_mode))::UnityEngine::GradientMode mode;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Gradient*>*() noexcept;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
-
-  constexpr void*& __cordl_internal_get_m_Ptr();
-
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
-
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
-
-  /// @brief Method Init, addr 0x2ce46b8, size 0x28, virtual false, abstract: false, final false
-  static inline void* Init();
-
-  /// @brief Method Cleanup, addr 0x2ce46e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x2dcfe08, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Internal_Equals, addr 0x2ce471c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2dd01dc, size 0xc8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* o);
+
+  /// @brief Method Equals, addr 0x2dd02a4, size 0xc8, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Gradient* other);
+
+  /// @brief Method Evaluate, addr 0x2dcff88, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color Evaluate(float_t time);
+
+  /// @brief Method Evaluate_Injected, addr 0x2dcfff0, size 0x54, virtual false, abstract: false, final false
+  inline void Evaluate_Injected(float_t time, ByRef<::UnityEngine::Color> ret);
+
+  /// @brief Method Finalize, addr 0x2dcfed0, size 0xb8, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method GetHashCode, addr 0x2dd036c, size 0xc, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Init, addr 0x2dcfde0, size 0x28, virtual false, abstract: false, final false
+  static inline void* Init();
+
+  /// @brief Method Internal_Equals, addr 0x2dcfe44, size 0x44, virtual false, abstract: false, final false
   inline bool Internal_Equals(void* other);
 
   static inline ::UnityEngine::Gradient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ce4760, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Finalize, addr 0x2ce47a8, size 0xb8, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method Evaluate, addr 0x2ce4860, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color Evaluate(float_t time);
-
-  /// @brief Method get_colorKeys, addr 0x2ce491c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> get_colorKeys();
-
-  /// @brief Method set_colorKeys, addr 0x2ce4958, size 0x44, virtual false, abstract: false, final false
-  inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> value);
-
-  /// @brief Method get_alphaKeys, addr 0x2ce499c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> get_alphaKeys();
-
-  /// @brief Method set_alphaKeys, addr 0x2ce49d8, size 0x44, virtual false, abstract: false, final false
-  inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> value);
-
-  /// @brief Method set_mode, addr 0x2ce4a1c, size 0x44, virtual false, abstract: false, final false
-  inline void set_mode(::UnityEngine::GradientMode value);
-
-  /// @brief Method SetKeys, addr 0x2ce4a60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetKeys, addr 0x2dd0188, size 0x54, virtual false, abstract: false, final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                       ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys);
 
-  /// @brief Method Equals, addr 0x2ce4ab4, size 0xc8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* o);
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  /// @brief Method Equals, addr 0x2ce4b7c, size 0xc8, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Gradient* other);
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  /// @brief Method GetHashCode, addr 0x2ce4c44, size 0xc, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method Evaluate_Injected, addr 0x2ce48c8, size 0x54, virtual false, abstract: false, final false
-  inline void Evaluate_Injected(float_t time, ByRef<::UnityEngine::Color> ret);
+  /// @brief Method .ctor, addr 0x2dcfe88, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
+  /// @brief Method get_alphaKeys, addr 0x2dd00c4, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> get_alphaKeys();
+
+  /// @brief Method get_colorKeys, addr 0x2dd0044, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> get_colorKeys();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
+
+  /// @brief Method set_alphaKeys, addr 0x2dd0100, size 0x44, virtual false, abstract: false, final false
+  inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> value);
+
+  /// @brief Method set_colorKeys, addr 0x2dd0080, size 0x44, virtual false, abstract: false, final false
+  inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> value);
+
+  /// @brief Method set_mode, addr 0x2dd0144, size 0x44, virtual false, abstract: false, final false
+  inline void set_mode(::UnityEngine::GradientMode value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gradient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Gradient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gradient(Gradient&&) = delete;
@@ -123,12 +127,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gradient(Gradient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gradient();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

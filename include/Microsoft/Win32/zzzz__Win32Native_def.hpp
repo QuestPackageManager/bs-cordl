@@ -16,18 +16,22 @@ MARK_REF_PTR_T(::Microsoft::Win32::Win32Native);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2296))
 // CS Name: ::Microsoft.Win32::Win32Native*
 class CORDL_TYPE Win32Native : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMessage, addr 0x244bc7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x251d974, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(int32_t hr);
 
-  /// @brief Method MakeHRFromErrorCode, addr 0x244bcd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MakeHRFromErrorCode, addr 0x251d9d0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t MakeHRFromErrorCode(int32_t errorCode);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Win32Native();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Win32Native", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Win32Native(Win32Native&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Win32Native(Win32Native const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Win32Native();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

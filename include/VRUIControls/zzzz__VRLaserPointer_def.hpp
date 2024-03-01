@@ -25,49 +25,53 @@ MARK_REF_PTR_T(::VRUIControls::VRLaserPointer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15835))
 // CS Name: ::VRUIControls::VRLaserPointer*
 class CORDL_TYPE VRLaserPointer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _renderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::MeshRenderer> _renderer;
-
   /// @brief Field _fadeStartNormalizedDistanceId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__fadeStartNormalizedDistanceId, put = setStaticF__fadeStartNormalizedDistanceId)) int32_t _fadeStartNormalizedDistanceId;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
-
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  static inline void setStaticF__fadeStartNormalizedDistanceId(int32_t value);
-
-  static inline int32_t getStaticF__fadeStartNormalizedDistanceId();
-
-  static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
-
-  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
-
-  /// @brief Method SetLocalPosition, addr 0x2ed4990, size 0x48, virtual false, abstract: false, final false
-  inline void SetLocalPosition(::UnityEngine::Vector3 position);
-
-  /// @brief Method SetLocalScale, addr 0x2ed49d8, size 0x48, virtual false, abstract: false, final false
-  inline void SetLocalScale(::UnityEngine::Vector3 scale);
-
-  /// @brief Method SetFadeDistance, addr 0x2ed4a20, size 0xfc, virtual false, abstract: false, final false
-  inline void SetFadeDistance(float_t distance);
+  /// @brief Field _renderer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::MeshRenderer> _renderer;
 
   static inline ::VRUIControls::VRLaserPointer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed4b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFadeDistance, addr 0x2fc8148, size 0xfc, virtual false, abstract: false, final false
+  inline void SetFadeDistance(float_t distance);
+
+  /// @brief Method SetLocalPosition, addr 0x2fc80b8, size 0x48, virtual false, abstract: false, final false
+  inline void SetLocalPosition(::UnityEngine::Vector3 position);
+
+  /// @brief Method SetLocalScale, addr 0x2fc8100, size 0x48, virtual false, abstract: false, final false
+  inline void SetLocalScale(::UnityEngine::Vector3 scale);
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
+
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
+  /// @brief Method .ctor, addr 0x2fc8244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline int32_t getStaticF__fadeStartNormalizedDistanceId();
+
+  static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
+
+  static inline void setStaticF__fadeStartNormalizedDistanceId(int32_t value);
+
+  static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRLaserPointer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VRLaserPointer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRLaserPointer(VRLaserPointer&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRLaserPointer(VRLaserPointer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRLaserPointer();
-
-public:
   /// @brief Field _renderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
 

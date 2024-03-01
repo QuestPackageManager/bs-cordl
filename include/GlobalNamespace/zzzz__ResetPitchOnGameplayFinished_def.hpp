@@ -20,43 +20,47 @@ MARK_REF_PTR_T(::GlobalNamespace::ResetPitchOnGameplayFinished);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4022))
 // CS Name: ::ResetPitchOnGameplayFinished*
 class CORDL_TYPE ResetPitchOnGameplayFinished : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _audioManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
                       put = __cordl_internal_set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
-  /// @brief Field _audioManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+  /// @brief Method Finalize, addr 0x2386310, size 0x110, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x2386420, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleAnyGameplayLevelDidFinish();
+
+  static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
+                                                                          ::GlobalNamespace::AudioManagerSO* audioManager);
+
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
 
   constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
 
-  constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
-
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
-
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
-
   constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
-  static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
-                                                                          ::GlobalNamespace::AudioManagerSO* audioManager);
+  constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  /// @brief Method .ctor, addr 0x22b9c00, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2386268, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager);
 
-  /// @brief Method Finalize, addr 0x22b9ca8, size 0x110, virtual true, abstract: false, final false
-  inline void Finalize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResetPitchOnGameplayFinished();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x22b9db8, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleAnyGameplayLevelDidFinish();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResetPitchOnGameplayFinished", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinished&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinished const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResetPitchOnGameplayFinished();
-
-public:
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;
 

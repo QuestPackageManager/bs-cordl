@@ -15,35 +15,39 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::Level2Map);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2262))
 // CS Name: ::Mono.Globalization.Unicode::Level2Map*
 class CORDL_TYPE Level2Map : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field Source, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source)) uint8_t Source;
-
   /// @brief Field Replace, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_Replace, put = __cordl_internal_set_Replace)) uint8_t Replace;
 
-  constexpr uint8_t& __cordl_internal_get_Source();
-
-  constexpr uint8_t const& __cordl_internal_get_Source() const;
-
-  constexpr void __cordl_internal_set_Source(uint8_t value);
-
-  constexpr uint8_t& __cordl_internal_get_Replace();
-
-  constexpr uint8_t const& __cordl_internal_get_Replace() const;
-
-  constexpr void __cordl_internal_set_Replace(uint8_t value);
+  /// @brief Field Source, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source)) uint8_t Source;
 
   static inline ::Mono::Globalization::Unicode::Level2Map* New_ctor(uint8_t source, uint8_t replace);
 
-  /// @brief Method .ctor, addr 0x2435524, size 0x30, virtual false, abstract: false, final false
+  constexpr uint8_t const& __cordl_internal_get_Replace() const;
+
+  constexpr uint8_t& __cordl_internal_get_Replace();
+
+  constexpr uint8_t const& __cordl_internal_get_Source() const;
+
+  constexpr uint8_t& __cordl_internal_get_Source();
+
+  constexpr void __cordl_internal_set_Replace(uint8_t value);
+
+  constexpr void __cordl_internal_set_Source(uint8_t value);
+
+  /// @brief Method .ctor, addr 0x250621c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t source, uint8_t replace);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Level2Map();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Level2Map(Level2Map&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Level2Map(Level2Map const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Level2Map();
-
-public:
   /// @brief Field Source, offset: 0x10, size: 0x1, def value: None
   uint8_t ___Source;
 

@@ -23,29 +23,33 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14102))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14095))
 // CS Name: ::UnityEngine.AddressableAssets::AssetReferenceT`1<TObject>*
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {
 public:
   // Declarations
-  static inline ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>* New_ctor(::StringW guid);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::StringW guid);
-
   /// @brief Method LoadAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset();
 
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
-  /// @brief Method ValidateAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool ValidateAsset(::UnityEngine::Object* obj);
+  static inline ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>* New_ctor(::StringW guid);
 
   /// @brief Method ValidateAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW mainAssetPath);
 
+  /// @brief Method ValidateAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool ValidateAsset(::UnityEngine::Object* obj);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW guid);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReferenceT_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceT_1(AssetReferenceT_1&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceT_1(AssetReferenceT_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceT_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

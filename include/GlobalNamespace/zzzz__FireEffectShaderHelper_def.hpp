@@ -15,33 +15,37 @@ MARK_REF_PTR_T(::GlobalNamespace::FireEffectShaderHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16320))
 // CS Name: ::FireEffectShaderHelper*
 class CORDL_TYPE FireEffectShaderHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field effectStartSongTimePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_effectStartSongTimePropertyId, put = setStaticF_effectStartSongTimePropertyId)) int32_t effectStartSongTimePropertyId;
-
   /// @brief Field colorPropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_colorPropertyId, put = setStaticF_colorPropertyId)) int32_t colorPropertyId;
+
+  /// @brief Field effectStartSongTimePropertyId, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_effectStartSongTimePropertyId, put = setStaticF_effectStartSongTimePropertyId)) int32_t effectStartSongTimePropertyId;
 
   /// @brief Field privatePointLightColorPropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_privatePointLightColorPropertyId, put = setStaticF_privatePointLightColorPropertyId)) int32_t privatePointLightColorPropertyId;
 
-  static inline void setStaticF_effectStartSongTimePropertyId(int32_t value);
+  static inline int32_t getStaticF_colorPropertyId();
 
   static inline int32_t getStaticF_effectStartSongTimePropertyId();
 
+  static inline int32_t getStaticF_privatePointLightColorPropertyId();
+
   static inline void setStaticF_colorPropertyId(int32_t value);
 
-  static inline int32_t getStaticF_colorPropertyId();
+  static inline void setStaticF_effectStartSongTimePropertyId(int32_t value);
 
   static inline void setStaticF_privatePointLightColorPropertyId(int32_t value);
 
-  static inline int32_t getStaticF_privatePointLightColorPropertyId();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FireEffectShaderHelper();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FireEffectShaderHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FireEffectShaderHelper(FireEffectShaderHelper&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FireEffectShaderHelper(FireEffectShaderHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FireEffectShaderHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -19,31 +19,35 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::DecimalConstantAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(2655))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3364))
 // CS Name: ::System.Runtime.CompilerServices::DecimalConstantAttribute*
 class CORDL_TYPE DecimalConstantAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_Value))::System::Decimal Value;
+
   /// @brief Field _dec, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get__dec, put = __cordl_internal_set__dec))::System::Decimal _dec;
 
-  __declspec(property(get = get_Value))::System::Decimal Value;
-
-  constexpr ::System::Decimal& __cordl_internal_get__dec();
+  static inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
   constexpr ::System::Decimal const& __cordl_internal_get__dec() const;
 
+  constexpr ::System::Decimal& __cordl_internal_get__dec();
+
   constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
-  static inline ::System::Runtime::CompilerServices::DecimalConstantAttribute* New_ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
-
-  /// @brief Method .ctor, addr 0x24fb300, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cbd00, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
-  /// @brief Method get_Value, addr 0x24fb39c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25cbd9c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Value();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecimalConstantAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DecimalConstantAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecimalConstantAttribute(DecimalConstantAttribute&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecimalConstantAttribute(DecimalConstantAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecimalConstantAttribute();
-
-public:
   /// @brief Field _dec, offset: 0x10, size: 0x10, def value: None
   ::System::Decimal ____dec;
 

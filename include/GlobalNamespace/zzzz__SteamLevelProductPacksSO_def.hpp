@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductPacksSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10978))
 // CS Name: ::SteamLevelProductPacksSO*
 class CORDL_TYPE SteamLevelProductPacksSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -58,48 +56,54 @@ public:
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,
                                                                          ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*() noexcept;
 
-  /// @brief Convert to
-  /// "::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
-  constexpr ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,
-                                                                ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*
-  i___GlobalNamespace__ILevelPackProductDataContainer_2___GlobalNamespace____SteamLevelProductCollectionModel__LevelPackProductData____GlobalNamespace____SteamLevelProductCollectionModel__LevelProductData__() noexcept;
-
-  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*>&
-  __cordl_internal_get__levelPackProductsData();
-
-  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> const&
-  __cordl_internal_get__levelPackProductsData() const;
-
-  constexpr void __cordl_internal_set__levelPackProductsData(
-      ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>&
-  __cordl_internal_get__levelPackRedirectionData();
-
-  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*,
-                     ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> const&
-  __cordl_internal_get__levelPackRedirectionData() const;
-
-  constexpr void __cordl_internal_set__levelPackRedirectionData(
-      ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
-
-  /// @brief Method get_levelPackProductsData, addr 0x12a856c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>* get_levelPackProductsData();
-
-  /// @brief Method get_levelPackRedirectionData, addr 0x12a8574, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
-  get_levelPackRedirectionData();
-
-  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x12a857c,
+  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x12e954c,
   /// size 0x9c, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_SteamLevelProductCollectionModel_LevelPackProductData_SteamLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* newLevelPackProductData);
 
   static inline ::GlobalNamespace::SteamLevelProductPacksSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a8618, size 0xe4, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> const&
+  __cordl_internal_get__levelPackProductsData() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*>&
+  __cordl_internal_get__levelPackProductsData();
+
+  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*,
+                     ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> const&
+  __cordl_internal_get__levelPackRedirectionData() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>&
+  __cordl_internal_get__levelPackRedirectionData();
+
+  constexpr void __cordl_internal_set__levelPackProductsData(
+      ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> value);
+
+  constexpr void __cordl_internal_set__levelPackRedirectionData(
+      ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
+
+  /// @brief Method .ctor, addr 0x12e95e8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_levelPackProductsData, addr 0x12e953c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>* get_levelPackProductsData();
+
+  /// @brief Method get_levelPackRedirectionData, addr 0x12e9544, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
+  get_levelPackRedirectionData();
+
+  /// @brief Convert to
+  /// "::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
+  constexpr ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,
+                                                                ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*
+  i___GlobalNamespace__ILevelPackProductDataContainer_2___GlobalNamespace____SteamLevelProductCollectionModel__LevelPackProductData____GlobalNamespace____SteamLevelProductCollectionModel__LevelProductData__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SteamLevelProductPacksSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SteamLevelProductPacksSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SteamLevelProductPacksSO(SteamLevelProductPacksSO&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SteamLevelProductPacksSO(SteamLevelProductPacksSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SteamLevelProductPacksSO();
-
-public:
   /// @brief Field _levelPackProductsData, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*>
       ____levelPackProductsData;

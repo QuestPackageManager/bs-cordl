@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(176))
 // CS Name: ::Org.BouncyCastle.Asn1.Icao::IcaoObjectIdentifiers*
 class CORDL_TYPE IcaoObjectIdentifiers : public ::System::Object {
 public:
@@ -26,14 +24,8 @@ public:
   /// @brief Field IdIcao, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdIcao, put = setStaticF_IdIcao))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcao;
 
-  /// @brief Field IdIcaoMrtd, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoMrtd, put = setStaticF_IdIcaoMrtd))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtd;
-
-  /// @brief Field IdIcaoMrtdSecurity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoMrtdSecurity, put = setStaticF_IdIcaoMrtdSecurity))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtdSecurity;
-
-  /// @brief Field IdIcaoLdsSecurityObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoLdsSecurityObject, put = setStaticF_IdIcaoLdsSecurityObject))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoLdsSecurityObject;
+  /// @brief Field IdIcaoAAProtocolObject, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdIcaoAAProtocolObject, put = setStaticF_IdIcaoAAProtocolObject))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoAAProtocolObject;
 
   /// @brief Field IdIcaoCscaMasterList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdIcaoCscaMasterList, put = setStaticF_IdIcaoCscaMasterList))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoCscaMasterList;
@@ -45,9 +37,6 @@ public:
   /// @brief Field IdIcaoDocumentTypeList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdIcaoDocumentTypeList, put = setStaticF_IdIcaoDocumentTypeList))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoDocumentTypeList;
 
-  /// @brief Field IdIcaoAAProtocolObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdIcaoAAProtocolObject, put = setStaticF_IdIcaoAAProtocolObject))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoAAProtocolObject;
-
   /// @brief Field IdIcaoExtensions, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdIcaoExtensions, put = setStaticF_IdIcaoExtensions))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoExtensions;
 
@@ -55,51 +44,66 @@ public:
   static __declspec(property(get = getStaticF_IdIcaoExtensionsNamechangekeyrollover,
                              put = setStaticF_IdIcaoExtensionsNamechangekeyrollover))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoExtensionsNamechangekeyrollover;
 
-  static inline void setStaticF_IdIcao(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field IdIcaoLdsSecurityObject, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdIcaoLdsSecurityObject, put = setStaticF_IdIcaoLdsSecurityObject))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoLdsSecurityObject;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcao();
+  /// @brief Field IdIcaoMrtd, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdIcaoMrtd, put = setStaticF_IdIcaoMrtd))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtd;
 
-  static inline void setStaticF_IdIcaoMrtd(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoMrtd();
-
-  static inline void setStaticF_IdIcaoMrtdSecurity(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoMrtdSecurity();
-
-  static inline void setStaticF_IdIcaoLdsSecurityObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoLdsSecurityObject();
-
-  static inline void setStaticF_IdIcaoCscaMasterList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoCscaMasterList();
-
-  static inline void setStaticF_IdIcaoCscaMasterListSigningKey(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoCscaMasterListSigningKey();
-
-  static inline void setStaticF_IdIcaoDocumentTypeList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoDocumentTypeList();
-
-  static inline void setStaticF_IdIcaoAAProtocolObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoAAProtocolObject();
-
-  static inline void setStaticF_IdIcaoExtensions(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoExtensions();
-
-  static inline void setStaticF_IdIcaoExtensionsNamechangekeyrollover(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoExtensionsNamechangekeyrollover();
+  /// @brief Field IdIcaoMrtdSecurity, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdIcaoMrtdSecurity, put = setStaticF_IdIcaoMrtdSecurity))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdIcaoMrtdSecurity;
 
   static inline ::Org::BouncyCastle::Asn1::Icao::IcaoObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf9fc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe5bfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcao();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoAAProtocolObject();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoCscaMasterList();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoCscaMasterListSigningKey();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoDocumentTypeList();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoExtensions();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoExtensionsNamechangekeyrollover();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoLdsSecurityObject();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoMrtd();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIcaoMrtdSecurity();
+
+  static inline void setStaticF_IdIcao(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoAAProtocolObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoCscaMasterList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoCscaMasterListSigningKey(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoDocumentTypeList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoExtensions(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoExtensionsNamechangekeyrollover(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoLdsSecurityObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoMrtd(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdIcaoMrtdSecurity(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IcaoObjectIdentifiers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IcaoObjectIdentifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IcaoObjectIdentifiers(IcaoObjectIdentifiers&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IcaoObjectIdentifiers(IcaoObjectIdentifiers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IcaoObjectIdentifiers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

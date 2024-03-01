@@ -15,19 +15,17 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeTileInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 29, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeTileInfo
 struct CORDL_TYPE HAPI_VolumeTileInfo {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "minX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minY", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minZ", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }]
-  constexpr HAPI_VolumeTileInfo(int32_t minX, int32_t minY, int32_t minZ, bool isValid) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_VolumeTileInfo();
+
+  // Ctor Parameters [CppParam { name: "minX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minY", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "minZ", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: None }]
+  constexpr HAPI_VolumeTileInfo(int32_t minX, int32_t minY, int32_t minZ, bool isValid) noexcept;
 
   /// @brief Field minX, offset: 0x0, size: 0x4, def value: None
   int32_t minX;

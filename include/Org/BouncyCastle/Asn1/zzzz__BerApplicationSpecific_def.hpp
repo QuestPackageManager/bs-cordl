@@ -18,17 +18,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerApplicationSpecific);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(471))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(472))
 // CS Name: ::Org.BouncyCastle.Asn1::BerApplicationSpecific*
 class CORDL_TYPE BerApplicationSpecific : public ::Org::BouncyCastle::Asn1::DerApplicationSpecific {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method .ctor, addr 0x11e8a24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122b9f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerApplicationSpecific();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecific", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerApplicationSpecific(BerApplicationSpecific&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerApplicationSpecific(BerApplicationSpecific const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerApplicationSpecific();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -38,21 +38,25 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10336)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10336), inst: 3434 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10342))
 // CS Name: ::Zenject::IFactoryProvider`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE IFactoryProvider_6 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:
   // Declarations
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+
   static inline ::Zenject::IFactoryProvider_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IFactoryProvider_6();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_6", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IFactoryProvider_6(IFactoryProvider_6&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IFactoryProvider_6(IFactoryProvider_6 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IFactoryProvider_6();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

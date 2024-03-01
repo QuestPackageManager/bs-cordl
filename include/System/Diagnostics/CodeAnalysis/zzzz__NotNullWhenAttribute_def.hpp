@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3748))
 // CS Name: ::System.Diagnostics.CodeAnalysis::NotNullWhenAttribute*
 class CORDL_TYPE NotNullWhenAttribute : public ::System::Attribute {
 public:
@@ -23,17 +21,23 @@ public:
   /// @brief Field <ReturnValue>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ReturnValue_k__BackingField, put = __cordl_internal_set__ReturnValue_k__BackingField)) bool _ReturnValue_k__BackingField;
 
-  constexpr bool& __cordl_internal_get__ReturnValue_k__BackingField();
+  static inline ::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute* New_ctor(bool returnValue);
 
   constexpr bool const& __cordl_internal_get__ReturnValue_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__ReturnValue_k__BackingField();
+
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  static inline ::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute* New_ctor(bool returnValue);
-
-  /// @brief Method .ctor, addr 0x259ee2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266f510, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotNullWhenAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NotNullWhenAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotNullWhenAttribute(NotNullWhenAttribute&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotNullWhenAttribute(NotNullWhenAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NotNullWhenAttribute();
-
-public:
   /// @brief Field <ReturnValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReturnValue_k__BackingField;
 

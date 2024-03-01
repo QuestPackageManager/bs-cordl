@@ -32,18 +32,16 @@ MARK_VAL_T(::GlobalNamespace::__TrailElementCollection__InterpolationState);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4234))
 // CS Name: ::TrailElementCollection::InterpolationState
 struct CORDL_TYPE __TrailElementCollection__InterpolationState {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __TrailElementCollection__InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __TrailElementCollection__InterpolationState();
+
+  // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __TrailElementCollection__InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept;
 
   /// @brief Field segmentIndex, offset: 0x0, size: 0x4, def value: None
   int32_t segmentIndex;
@@ -68,8 +66,6 @@ static_assert(offsetof(::GlobalNamespace::__TrailElementCollection__Interpolatio
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4235))
 // CS Name: ::TrailElementCollection*
 class CORDL_TYPE TrailElementCollection : public ::System::Object {
 public:
@@ -79,66 +75,72 @@ public:
   /// @brief Field _capacity, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__capacity, put = __cordl_internal_set__capacity)) int32_t _capacity;
 
-  /// @brief Field _snapshots, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__snapshots, put = __cordl_internal_set__snapshots))::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> _snapshots;
-
   /// @brief Field _headIndex, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__headIndex, put = __cordl_internal_set__headIndex)) int32_t _headIndex;
+
+  /// @brief Field _snapshots, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__snapshots, put = __cordl_internal_set__snapshots))::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> _snapshots;
 
   /// @brief Field _totalDistance, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__totalDistance, put = __cordl_internal_set__totalDistance)) float_t _totalDistance;
 
-  constexpr int32_t& __cordl_internal_get__capacity();
+  /// @brief Method GetElement, addr 0x242eb10, size 0x44, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::TrailElement* GetElement(int32_t index);
 
-  constexpr int32_t const& __cordl_internal_get__capacity() const;
-
-  constexpr void __cordl_internal_set__capacity(int32_t value);
-
-  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*>& __cordl_internal_get__snapshots();
-
-  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> const& __cordl_internal_get__snapshots() const;
-
-  constexpr void __cordl_internal_set__snapshots(::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> value);
-
-  constexpr int32_t& __cordl_internal_get__headIndex();
-
-  constexpr int32_t const& __cordl_internal_get__headIndex() const;
-
-  constexpr void __cordl_internal_set__headIndex(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__totalDistance();
-
-  constexpr float_t const& __cordl_internal_get__totalDistance() const;
-
-  constexpr void __cordl_internal_set__totalDistance(float_t value);
-
-  static inline ::GlobalNamespace::TrailElementCollection* New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
-
-  /// @brief Method .ctor, addr 0x235ed60, size 0x1b0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
-
-  /// @brief Method InitSnapshots, addr 0x235f068, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InitSnapshots, addr 0x242cfb0, size 0x90, virtual false, abstract: false, final false
   inline void InitSnapshots(::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 
-  /// @brief Method SetHeadData, addr 0x235f4dc, size 0xb4, virtual false, abstract: false, final false
-  inline void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
-
-  /// @brief Method MoveTailToHead, addr 0x235f590, size 0x9c, virtual false, abstract: false, final false
-  inline void MoveTailToHead();
-
-  /// @brief Method UpdateDistances, addr 0x235f62c, size 0x7c, virtual false, abstract: false, final false
-  inline void UpdateDistances();
-
-  /// @brief Method Interpolate, addr 0x23604f0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x242e438, size 0x294, virtual false, abstract: false, final false
   inline void Interpolate(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> lerpState, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> normal,
                           ByRef<float_t> time);
 
-  /// @brief Method UpdateLerpState, addr 0x2360ab8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MoveTailToHead, addr 0x242d4d8, size 0x9c, virtual false, abstract: false, final false
+  inline void MoveTailToHead();
+
+  static inline ::GlobalNamespace::TrailElementCollection* New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
+
+  /// @brief Method SetHeadData, addr 0x242d424, size 0xb4, virtual false, abstract: false, final false
+  inline void SetHeadData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
+
+  /// @brief Method UpdateDistances, addr 0x242d574, size 0x7c, virtual false, abstract: false, final false
+  inline void UpdateDistances();
+
+  /// @brief Method UpdateLerpState, addr 0x242ea00, size 0x110, virtual false, abstract: false, final false
   inline void UpdateLerpState(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> interpolationState);
 
-  /// @brief Method GetElement, addr 0x2360bc8, size 0x44, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::TrailElement* GetElement(int32_t index);
+  constexpr int32_t const& __cordl_internal_get__capacity() const;
 
+  constexpr int32_t& __cordl_internal_get__capacity();
+
+  constexpr int32_t const& __cordl_internal_get__headIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__headIndex();
+
+  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> const& __cordl_internal_get__snapshots() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*>& __cordl_internal_get__snapshots();
+
+  constexpr float_t const& __cordl_internal_get__totalDistance() const;
+
+  constexpr float_t& __cordl_internal_get__totalDistance();
+
+  constexpr void __cordl_internal_set__capacity(int32_t value);
+
+  constexpr void __cordl_internal_set__headIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__snapshots(::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> value);
+
+  constexpr void __cordl_internal_set__totalDistance(float_t value);
+
+  /// @brief Method .ctor, addr 0x242cca8, size 0x1b0, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrailElementCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TrailElementCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrailElementCollection(TrailElementCollection&&) = delete;
@@ -147,12 +149,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrailElementCollection(TrailElementCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrailElementCollection();
-
-public:
   /// @brief Field _capacity, offset: 0x10, size: 0x4, def value: None
   int32_t ____capacity;
 

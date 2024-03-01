@@ -30,92 +30,96 @@ MARK_REF_PTR_T(::GlobalNamespace::FriendsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5027))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4938))
 // CS Name: ::FriendsViewController*
 class CORDL_TYPE FriendsViewController : public ::GlobalNamespace::NetworkPlayersViewController {
 public:
   // Declarations
+  /// @brief Field _allowAnyoneToJoin, offset 0xb0, size 0x1
+  __declspec(property(get = __cordl_internal_get__allowAnyoneToJoin, put = __cordl_internal_set__allowAnyoneToJoin)) bool _allowAnyoneToJoin;
+
   /// @brief Field _enableOpenPartyToggle, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__enableOpenPartyToggle, put = __cordl_internal_set__enableOpenPartyToggle))::UnityW<::UnityEngine::UI::Toggle> _enableOpenPartyToggle;
-
-  /// @brief Field _networkPlayerModel, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkPlayerModel, put = __cordl_internal_set__networkPlayerModel))::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> _networkPlayerModel;
 
   /// @brief Field _networkConfig, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
+  /// @brief Field _networkPlayerModel, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkPlayerModel, put = __cordl_internal_set__networkPlayerModel))::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> _networkPlayerModel;
+
   /// @brief Field _toggleBinder, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  /// @brief Field _allowAnyoneToJoin, offset 0xb0, size 0x1
-  __declspec(property(get = __cordl_internal_get__allowAnyoneToJoin, put = __cordl_internal_set__allowAnyoneToJoin)) bool _allowAnyoneToJoin;
-
   __declspec(property(get = get_myPartyTitle))::StringW myPartyTitle;
-
-  __declspec(property(get = get_otherPlayersTitle))::StringW otherPlayersTitle;
 
   __declspec(property(get = get_networkPlayerModel))::GlobalNamespace::INetworkPlayerModel* networkPlayerModel;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__enableOpenPartyToggle();
+  __declspec(property(get = get_otherPlayersTitle))::StringW otherPlayersTitle;
+
+  /// @brief Method DidDeactivate, addr 0x23b33c8, size 0x44, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+
+  /// @brief Method HandleOpenPartyToggleChanged, addr 0x23b3434, size 0x10, virtual false, abstract: false, final false
+  inline void HandleOpenPartyToggleChanged(bool openParty);
+
+  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x23b313c, size 0x10c, virtual true, abstract: false, final false
+  inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
+
+  static inline ::GlobalNamespace::FriendsViewController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23b340c, size 0x28, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RefreshParty, addr 0x23b3248, size 0x180, virtual false, abstract: false, final false
+  inline void RefreshParty(bool overrideHide);
+
+  constexpr bool const& __cordl_internal_get__allowAnyoneToJoin() const;
+
+  constexpr bool& __cordl_internal_get__allowAnyoneToJoin();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__enableOpenPartyToggle() const;
 
-  constexpr void __cordl_internal_set__enableOpenPartyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>& __cordl_internal_get__networkPlayerModel();
-
-  constexpr ::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> const& __cordl_internal_get__networkPlayerModel() const;
-
-  constexpr void __cordl_internal_set__networkPlayerModel(::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> value);
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__enableOpenPartyToggle();
 
   constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
-  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  constexpr ::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> const& __cordl_internal_get__networkPlayerModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel>& __cordl_internal_get__networkPlayerModel();
 
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
-
-  constexpr bool& __cordl_internal_get__allowAnyoneToJoin();
-
-  constexpr bool const& __cordl_internal_get__allowAnyoneToJoin() const;
-
   constexpr void __cordl_internal_set__allowAnyoneToJoin(bool value);
 
-  /// @brief Method get_myPartyTitle, addr 0x22e4400, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_myPartyTitle();
+  constexpr void __cordl_internal_set__enableOpenPartyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method get_otherPlayersTitle, addr 0x22e4440, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_otherPlayersTitle();
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  /// @brief Method get_networkPlayerModel, addr 0x22e4480, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
+  constexpr void __cordl_internal_set__networkPlayerModel(::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> value);
 
-  /// @brief Method NetworkPlayersViewControllerDidActivate, addr 0x22e4488, size 0x10c, virtual true, abstract: false, final false
-  inline void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method DidDeactivate, addr 0x22e4714, size 0x44, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method OnDestroy, addr 0x22e4758, size 0x28, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleOpenPartyToggleChanged, addr 0x22e4780, size 0x10, virtual false, abstract: false, final false
-  inline void HandleOpenPartyToggleChanged(bool openParty);
-
-  /// @brief Method RefreshParty, addr 0x22e4594, size 0x180, virtual false, abstract: false, final false
-  inline void RefreshParty(bool overrideHide);
-
-  static inline ::GlobalNamespace::FriendsViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22e4790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b3444, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_myPartyTitle, addr 0x23b30b4, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_myPartyTitle();
+
+  /// @brief Method get_networkPlayerModel, addr 0x23b3134, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::INetworkPlayerModel* get_networkPlayerModel();
+
+  /// @brief Method get_otherPlayersTitle, addr 0x23b30f4, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_otherPlayersTitle();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FriendsViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FriendsViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FriendsViewController(FriendsViewController&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FriendsViewController(FriendsViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FriendsViewController();
-
-public:
   /// @brief Field _enableOpenPartyToggle, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____enableOpenPartyToggle;
 

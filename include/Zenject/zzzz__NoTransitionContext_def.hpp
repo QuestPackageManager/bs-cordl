@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Zenject::NoTransitionContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10317))
 // CS Name: ::Zenject::NoTransitionContext*
 class CORDL_TYPE NoTransitionContext : public ::UnityEngine::MonoBehaviour {
 public:
@@ -40,29 +38,35 @@ public:
 
   __declspec(property(get = get_postInstallMethod))::System::Action_1<::Zenject::DiContainer*>* postInstallMethod;
 
-  constexpr ::UnityW<::Zenject::NoTransitionInstaller>& __cordl_internal_get__noScenesTransitionInstaller();
-
-  constexpr ::UnityW<::Zenject::NoTransitionInstaller> const& __cordl_internal_get__noScenesTransitionInstaller() const;
-
-  constexpr void __cordl_internal_set__noScenesTransitionInstaller(::UnityW<::Zenject::NoTransitionInstaller> value);
-
-  /// @brief Method get_installMethod, addr 0x2f20b18, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
-
-  /// @brief Method get_postInstallMethod, addr 0x2f20b8c, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
-
-  /// @brief Method Awake, addr 0x2f20c00, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3014328, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Zenject::NoTransitionContext* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f20c78, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  constexpr ::UnityW<::Zenject::NoTransitionInstaller> const& __cordl_internal_get__noScenesTransitionInstaller() const;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f20c80, size 0x178, virtual false, abstract: false, final false
+  constexpr ::UnityW<::Zenject::NoTransitionInstaller>& __cordl_internal_get__noScenesTransitionInstaller();
+
+  constexpr void __cordl_internal_set__noScenesTransitionInstaller(::UnityW<::Zenject::NoTransitionInstaller> value);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x30143a8, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x30143a0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_installMethod, addr 0x3014240, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
+
+  /// @brief Method get_postInstallMethod, addr 0x30142b4, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Action_1<::Zenject::DiContainer*>* get_postInstallMethod();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoTransitionContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoTransitionContext(NoTransitionContext&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoTransitionContext(NoTransitionContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoTransitionContext();
-
-public:
   /// @brief Field _noScenesTransitionInstaller, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::Zenject::NoTransitionInstaller> ____noScenesTransitionInstaller;
 

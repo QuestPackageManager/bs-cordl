@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::NotImplementedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2445))
 // CS Name: ::System::NotImplementedException*
 class CORDL_TYPE NotImplementedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::NotImplementedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d2d84, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::NotImplementedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::NotImplementedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25d2de0, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x26a2468, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::NotImplementedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x25d2e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a24e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x26a24c4, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotImplementedException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NotImplementedException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotImplementedException(NotImplementedException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotImplementedException(NotImplementedException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NotImplementedException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

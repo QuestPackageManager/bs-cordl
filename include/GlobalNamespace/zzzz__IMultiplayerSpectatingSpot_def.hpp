@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSpectatingSpot);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4598))
 // CS Name: ::IMultiplayerSpectatingSpot*
 class CORDL_TYPE IMultiplayerSpectatingSpot {
 public:
@@ -33,15 +31,15 @@ public:
 
   __declspec(property(get = get_observable))::GlobalNamespace::IMultiplayerObservable* observable;
 
+  __declspec(property(get = get_spotName))::StringW spotName;
+
   __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  __declspec(property(get = get_spotName))::StringW spotName;
+  /// @brief Method SetIsObserved, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetIsObserved(bool isObserved);
 
   /// @brief Method add_hasBeenRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
-
-  /// @brief Method remove_hasBeenRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
   /// @brief Method get_isMain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isMain();
@@ -49,14 +47,14 @@ public:
   /// @brief Method get_observable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
-  /// @brief Method get_transform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::UnityEngine::Transform> get_transform();
-
   /// @brief Method get_spotName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_spotName();
 
-  /// @brief Method SetIsObserved, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetIsObserved(bool isObserved);
+  /// @brief Method get_transform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
+
+  /// @brief Method remove_hasBeenRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerSpectatingSpot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -19,19 +19,17 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::Waypoint);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11218))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11145))
 // CS Name: ::BeatmapSaveDataVersion4::Waypoint
 struct CORDL_TYPE Waypoint {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "o", ty:
-  // "::BeatmapSaveDataCommon::OffsetDirection", modifiers: "", def_value: None }]
-  constexpr Waypoint(int32_t x, int32_t y, ::BeatmapSaveDataCommon::OffsetDirection o) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Waypoint();
+
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "o", ty:
+  // "::BeatmapSaveDataCommon::OffsetDirection", modifiers: "", def_value: None }]
+  constexpr Waypoint(int32_t x, int32_t y, ::BeatmapSaveDataCommon::OffsetDirection o) noexcept;
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   int32_t x;

@@ -25,98 +25,96 @@ MARK_VAL_T(::UnityEngine::RectInt);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8906))
 // CS Name: ::UnityEngine::RectInt
 struct CORDL_TYPE RectInt {
 public:
   // Declarations
-  __declspec(property(get = get_x, put = set_x)) int32_t x;
-
-  __declspec(property(get = get_y, put = set_y)) int32_t y;
+  __declspec(property(get = get_height, put = set_height)) int32_t height;
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  __declspec(property(get = get_height, put = set_height)) int32_t height;
-
-  __declspec(property(get = get_xMin)) int32_t xMin;
-
-  __declspec(property(get = get_yMin)) int32_t yMin;
+  __declspec(property(get = get_x, put = set_x)) int32_t x;
 
   __declspec(property(get = get_xMax)) int32_t xMax;
 
+  __declspec(property(get = get_xMin)) int32_t xMin;
+
+  __declspec(property(get = get_y, put = set_y)) int32_t y;
+
   __declspec(property(get = get_yMax)) int32_t yMax;
+
+  __declspec(property(get = get_yMin)) int32_t yMin;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::RectInt>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::RectInt>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::RectInt>"
-  constexpr ::System::IEquatable_1<::UnityEngine::RectInt>* i___System__IEquatable_1___UnityEngine__RectInt_();
-
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
+
+  /// @brief Method Equals, addr 0x2dbbf00, size 0x44, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::RectInt other);
+
+  /// @brief Method Overlaps, addr 0x2dbbc4c, size 0x9c, virtual false, abstract: false, final false
+  inline bool Overlaps(::UnityEngine::RectInt other);
+
+  /// @brief Method ToString, addr 0x2dbbce8, size 0xc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method ToString, addr 0x2dbbcf4, size 0x20c, virtual true, abstract: false, final true
+  inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
+
+  /// @brief Method .ctor, addr 0x2dbbc40, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height);
+
+  /// @brief Method get_height, addr 0x2dbbaa0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_height();
+
+  /// @brief Method get_width, addr 0x2dbba90, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_width();
+
+  /// @brief Method get_x, addr 0x2dbba70, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_x();
+
+  /// @brief Method get_xMax, addr 0x2dbbb78, size 0x64, virtual false, abstract: false, final false
+  inline int32_t get_xMax();
+
+  /// @brief Method get_xMin, addr 0x2dbbab0, size 0x64, virtual false, abstract: false, final false
+  inline int32_t get_xMin();
+
+  /// @brief Method get_y, addr 0x2dbba80, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_y();
+
+  /// @brief Method get_yMax, addr 0x2dbbbdc, size 0x64, virtual false, abstract: false, final false
+  inline int32_t get_yMax();
+
+  /// @brief Method get_yMin, addr 0x2dbbb14, size 0x64, virtual false, abstract: false, final false
+  inline int32_t get_yMin();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::RectInt>"
+  constexpr ::System::IEquatable_1<::UnityEngine::RectInt>* i___System__IEquatable_1___UnityEngine__RectInt_();
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method get_x, addr 0x2cd050c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_x();
-
-  /// @brief Method set_x, addr 0x2cd0514, size 0x8, virtual false, abstract: false, final false
-  inline void set_x(int32_t value);
-
-  /// @brief Method get_y, addr 0x2cd051c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_y();
-
-  /// @brief Method set_y, addr 0x2cd0524, size 0x8, virtual false, abstract: false, final false
-  inline void set_y(int32_t value);
-
-  /// @brief Method get_width, addr 0x2cd052c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_width();
-
-  /// @brief Method set_width, addr 0x2cd0534, size 0x8, virtual false, abstract: false, final false
-  inline void set_width(int32_t value);
-
-  /// @brief Method get_height, addr 0x2cd053c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_height();
-
-  /// @brief Method set_height, addr 0x2cd0544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x2dbbaa8, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method get_xMin, addr 0x2cd054c, size 0x64, virtual false, abstract: false, final false
-  inline int32_t get_xMin();
+  /// @brief Method set_width, addr 0x2dbba98, size 0x8, virtual false, abstract: false, final false
+  inline void set_width(int32_t value);
 
-  /// @brief Method get_yMin, addr 0x2cd05b0, size 0x64, virtual false, abstract: false, final false
-  inline int32_t get_yMin();
+  /// @brief Method set_x, addr 0x2dbba78, size 0x8, virtual false, abstract: false, final false
+  inline void set_x(int32_t value);
 
-  /// @brief Method get_xMax, addr 0x2cd0614, size 0x64, virtual false, abstract: false, final false
-  inline int32_t get_xMax();
-
-  /// @brief Method get_yMax, addr 0x2cd0678, size 0x64, virtual false, abstract: false, final false
-  inline int32_t get_yMax();
-
-  /// @brief Method .ctor, addr 0x2cd06dc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height);
-
-  /// @brief Method Overlaps, addr 0x2cd06e8, size 0x9c, virtual false, abstract: false, final false
-  inline bool Overlaps(::UnityEngine::RectInt other);
-
-  /// @brief Method ToString, addr 0x2cd0784, size 0xc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method ToString, addr 0x2cd0790, size 0x20c, virtual true, abstract: false, final true
-  inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
-
-  /// @brief Method Equals, addr 0x2cd099c, size 0x44, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::RectInt other);
-
-  // Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RectInt(int32_t m_XMin, int32_t m_YMin, int32_t m_Width, int32_t m_Height) noexcept;
+  /// @brief Method set_y, addr 0x2dbba88, size 0x8, virtual false, abstract: false, final false
+  inline void set_y(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RectInt();
+
+  // Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "m_Width", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RectInt(int32_t m_XMin, int32_t m_YMin, int32_t m_Width, int32_t m_Height) noexcept;
 
   /// @brief Field m_XMin, offset: 0x0, size: 0x4, def value: None
   int32_t m_XMin;

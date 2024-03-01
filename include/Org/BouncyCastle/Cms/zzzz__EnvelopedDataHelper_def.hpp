@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::EnvelopedDataHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(668))
 // CS Name: ::Org.BouncyCastle.Cms::EnvelopedDataHelper*
 class CORDL_TYPE EnvelopedDataHelper : public ::System::Object {
 public:
@@ -50,31 +48,37 @@ public:
   /// @brief Field MacAlgNames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MacAlgNames, put = setStaticF_MacAlgNames))::System::Collections::IDictionary* MacAlgNames;
 
-  static inline void setStaticF_BaseCipherNames(::System::Collections::IDictionary* value);
-
-  static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();
-
-  static inline void setStaticF_MacAlgNames(::System::Collections::IDictionary* value);
-
-  static inline ::System::Collections::IDictionary* getStaticF_MacAlgNames();
-
-  /// @brief Method CreateContentCipher, addr 0x122e5dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x12725ac, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x122e64c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateKeyGenerator, addr 0x12726ac, size 0x10, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
+
+  /// @brief Method GenerateEncryptionAlgID, addr 0x127261c, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
                                                                                        ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CreateKeyGenerator, addr 0x122e6dc, size 0x10, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
-
   static inline ::Org::BouncyCastle::Cms::EnvelopedDataHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x122e6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12726bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Collections::IDictionary* getStaticF_BaseCipherNames();
+
+  static inline ::System::Collections::IDictionary* getStaticF_MacAlgNames();
+
+  static inline void setStaticF_BaseCipherNames(::System::Collections::IDictionary* value);
+
+  static inline void setStaticF_MacAlgNames(::System::Collections::IDictionary* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvelopedDataHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvelopedDataHelper(EnvelopedDataHelper&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvelopedDataHelper(EnvelopedDataHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvelopedDataHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

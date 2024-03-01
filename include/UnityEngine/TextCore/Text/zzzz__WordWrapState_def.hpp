@@ -68,16 +68,14 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordWrapState);
 // SizeInfo { instance_size: 784, native_size: -1, calculated_instance_size: 784, calculated_native_size: 798, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(13630)), TypeDefinitionIndex(TypeDefinitionIndex(13647)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13648)), TypeDefinitionIndex(TypeDefinitionIndex(13650)), TypeDefinitionIndex(TypeDefinitionIndex(13671)), TypeDefinitionIndex(TypeDefinitionIndex(13672)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13676)), TypeDefinitionIndex(TypeDefinitionIndex(13679)), TypeDefinitionIndex(TypeDefinitionIndex(13680)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13680), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13680), inst: 391 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13680), inst: 738 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13680), inst: 5123 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13680), inst: 5124 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13680), inst: 5125 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13680), inst: 5126 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13662)) CS Name: ::UnityEngine.TextCore.Text::WordWrapState
+// CS Name: ::UnityEngine.TextCore.Text::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WordWrapState();
+
   // Ctor Parameters [CppParam { name: "previousWordBreak", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCharacterCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleSpriteCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "visibleLinkCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -133,10 +131,6 @@ public:
                           ::UnityW<::UnityEngine::TextCore::Text::FontAsset> currentFontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> currentSpriteAsset,
                           ::UnityW<::UnityEngine::Material> currentMaterial, int32_t currentMaterialIndex, ::UnityEngine::TextCore::Text::Extents meshExtents, bool tagNoParsing,
                           bool isNonBreakingSpace) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WordWrapState();
 
   /// @brief Field previousWordBreak, offset: 0x0, size: 0x4, def value: None
   int32_t previousWordBreak;

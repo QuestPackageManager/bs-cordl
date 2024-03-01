@@ -37,8 +37,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Prese
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10854))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType
 struct CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType {
 public:
@@ -57,27 +55,32 @@ public:
     return static_cast<____MirrorRendererGraphicsSettingsPresets__Preset__MirrorType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MirrorRendererGraphicsSettingsPresets__Preset__MirrorType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const None;
 
   /// @brief Field FakeMirror value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const FakeMirror;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const None;
+
   /// @brief Field RenderedMirror value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const RenderedMirror;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -91,91 +94,95 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPreset
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(10854)), TypeDefinitionIndex(TypeDefinitionIndex(10857))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10855))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets::Preset*
 class CORDL_TYPE __MirrorRendererGraphicsSettingsPresets__Preset : public ::GlobalNamespace::NamedPreset {
 public:
   // Declarations
   using MirrorType = ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType;
 
-  /// @brief Field mirrorType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_mirrorType, put = __cordl_internal_set_mirrorType))::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType mirrorType;
-
-  /// @brief Field reflectLayers, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_reflectLayers, put = __cordl_internal_set_reflectLayers))::UnityEngine::LayerMask reflectLayers;
-
-  /// @brief Field stereoTextureWidth, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_stereoTextureWidth, put = __cordl_internal_set_stereoTextureWidth)) int32_t stereoTextureWidth;
-
-  /// @brief Field stereoTextureHeight, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_stereoTextureHeight, put = __cordl_internal_set_stereoTextureHeight)) int32_t stereoTextureHeight;
-
-  /// @brief Field monoTextureWidth, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_monoTextureWidth, put = __cordl_internal_set_monoTextureWidth)) int32_t monoTextureWidth;
-
-  /// @brief Field monoTextureHeight, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_monoTextureHeight, put = __cordl_internal_set_monoTextureHeight)) int32_t monoTextureHeight;
+  /// @brief Field enableBloomPrePassFog, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get_enableBloomPrePassFog, put = __cordl_internal_set_enableBloomPrePassFog)) bool enableBloomPrePassFog;
 
   /// @brief Field maxAntiAliasing, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_maxAntiAliasing, put = __cordl_internal_set_maxAntiAliasing)) int32_t maxAntiAliasing;
 
-  /// @brief Field enableBloomPrePassFog, offset 0x34, size 0x1
-  __declspec(property(get = __cordl_internal_get_enableBloomPrePassFog, put = __cordl_internal_set_enableBloomPrePassFog)) bool enableBloomPrePassFog;
+  /// @brief Field mirrorType, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_mirrorType, put = __cordl_internal_set_mirrorType))::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType mirrorType;
 
-  constexpr ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType& __cordl_internal_get_mirrorType();
+  /// @brief Field monoTextureHeight, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_monoTextureHeight, put = __cordl_internal_set_monoTextureHeight)) int32_t monoTextureHeight;
 
-  constexpr ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const& __cordl_internal_get_mirrorType() const;
+  /// @brief Field monoTextureWidth, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_monoTextureWidth, put = __cordl_internal_set_monoTextureWidth)) int32_t monoTextureWidth;
 
-  constexpr void __cordl_internal_set_mirrorType(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType value);
+  /// @brief Field reflectLayers, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_reflectLayers, put = __cordl_internal_set_reflectLayers))::UnityEngine::LayerMask reflectLayers;
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_reflectLayers();
+  /// @brief Field stereoTextureHeight, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_stereoTextureHeight, put = __cordl_internal_set_stereoTextureHeight)) int32_t stereoTextureHeight;
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_reflectLayers() const;
-
-  constexpr void __cordl_internal_set_reflectLayers(::UnityEngine::LayerMask value);
-
-  constexpr int32_t& __cordl_internal_get_stereoTextureWidth();
-
-  constexpr int32_t const& __cordl_internal_get_stereoTextureWidth() const;
-
-  constexpr void __cordl_internal_set_stereoTextureWidth(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_stereoTextureHeight();
-
-  constexpr int32_t const& __cordl_internal_get_stereoTextureHeight() const;
-
-  constexpr void __cordl_internal_set_stereoTextureHeight(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_monoTextureWidth();
-
-  constexpr int32_t const& __cordl_internal_get_monoTextureWidth() const;
-
-  constexpr void __cordl_internal_set_monoTextureWidth(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_monoTextureHeight();
-
-  constexpr int32_t const& __cordl_internal_get_monoTextureHeight() const;
-
-  constexpr void __cordl_internal_set_monoTextureHeight(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_maxAntiAliasing();
-
-  constexpr int32_t const& __cordl_internal_get_maxAntiAliasing() const;
-
-  constexpr void __cordl_internal_set_maxAntiAliasing(int32_t value);
-
-  constexpr bool& __cordl_internal_get_enableBloomPrePassFog();
-
-  constexpr bool const& __cordl_internal_get_enableBloomPrePassFog() const;
-
-  constexpr void __cordl_internal_set_enableBloomPrePassFog(bool value);
+  /// @brief Field stereoTextureWidth, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_stereoTextureWidth, put = __cordl_internal_set_stereoTextureWidth)) int32_t stereoTextureWidth;
 
   static inline ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1293b48, size 0x44, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_enableBloomPrePassFog() const;
+
+  constexpr bool& __cordl_internal_get_enableBloomPrePassFog();
+
+  constexpr int32_t const& __cordl_internal_get_maxAntiAliasing() const;
+
+  constexpr int32_t& __cordl_internal_get_maxAntiAliasing();
+
+  constexpr ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType const& __cordl_internal_get_mirrorType() const;
+
+  constexpr ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType& __cordl_internal_get_mirrorType();
+
+  constexpr int32_t const& __cordl_internal_get_monoTextureHeight() const;
+
+  constexpr int32_t& __cordl_internal_get_monoTextureHeight();
+
+  constexpr int32_t const& __cordl_internal_get_monoTextureWidth() const;
+
+  constexpr int32_t& __cordl_internal_get_monoTextureWidth();
+
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_reflectLayers() const;
+
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_reflectLayers();
+
+  constexpr int32_t const& __cordl_internal_get_stereoTextureHeight() const;
+
+  constexpr int32_t& __cordl_internal_get_stereoTextureHeight();
+
+  constexpr int32_t const& __cordl_internal_get_stereoTextureWidth() const;
+
+  constexpr int32_t& __cordl_internal_get_stereoTextureWidth();
+
+  constexpr void __cordl_internal_set_enableBloomPrePassFog(bool value);
+
+  constexpr void __cordl_internal_set_maxAntiAliasing(int32_t value);
+
+  constexpr void __cordl_internal_set_mirrorType(::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType value);
+
+  constexpr void __cordl_internal_set_monoTextureHeight(int32_t value);
+
+  constexpr void __cordl_internal_set_monoTextureWidth(int32_t value);
+
+  constexpr void __cordl_internal_set_reflectLayers(::UnityEngine::LayerMask value);
+
+  constexpr void __cordl_internal_set_stereoTextureHeight(int32_t value);
+
+  constexpr void __cordl_internal_set_stereoTextureWidth(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12d5b18, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MirrorRendererGraphicsSettingsPresets__Preset();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MirrorRendererGraphicsSettingsPresets__Preset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MirrorRendererGraphicsSettingsPresets__Preset(__MirrorRendererGraphicsSettingsPresets__Preset&&) = delete;
@@ -184,12 +191,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MirrorRendererGraphicsSettingsPresets__Preset(__MirrorRendererGraphicsSettingsPresets__Preset const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MirrorRendererGraphicsSettingsPresets__Preset();
-
-public:
   /// @brief Field mirrorType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset__MirrorType ___mirrorType;
 
@@ -240,8 +241,6 @@ static_assert(offsetof(::GlobalNamespace::__MirrorRendererGraphicsSettingsPreset
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10858))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10856))
 // CS Name: ::MirrorRendererGraphicsSettingsPresets*
 class CORDL_TYPE MirrorRendererGraphicsSettingsPresets : public ::GlobalNamespace::NamedPresetsSO {
 public:
@@ -252,31 +251,37 @@ public:
   __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*,
                                                                                                          ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> _presets;
 
+  __declspec(property(get = get_namedPresets))::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> namedPresets;
+
   __declspec(
       property(get = get_presets))::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> presets;
 
-  __declspec(property(get = get_namedPresets))::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> namedPresets;
-
-  constexpr ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*>&
-  __cordl_internal_get__presets();
+  static inline ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* New_ctor();
 
   constexpr ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> const&
   __cordl_internal_get__presets() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*>&
+  __cordl_internal_get__presets();
+
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> value);
 
-  /// @brief Method get_presets, addr 0x1293b30, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> get_presets();
-
-  /// @brief Method get_namedPresets, addr 0x1293b38, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
-
-  static inline ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1293b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d5b10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_namedPresets, addr 0x12d5b08, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
+
+  /// @brief Method get_presets, addr 0x12d5b00, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> get_presets();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MirrorRendererGraphicsSettingsPresets();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MirrorRendererGraphicsSettingsPresets", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresets&&) = delete;
@@ -285,12 +290,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirrorRendererGraphicsSettingsPresets(MirrorRendererGraphicsSettingsPresets const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MirrorRendererGraphicsSettingsPresets();
-
-public:
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> ____presets;
 

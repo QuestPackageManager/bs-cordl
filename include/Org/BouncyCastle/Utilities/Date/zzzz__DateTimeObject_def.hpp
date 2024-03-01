@@ -19,34 +19,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1791))
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeObject*
 class CORDL_TYPE DateTimeObject : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Value))::System::DateTime Value;
+
   /// @brief Field dt, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_dt, put = __cordl_internal_set_dt))::System::DateTime dt;
 
-  __declspec(property(get = get_Value))::System::DateTime Value;
+  static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 
-  constexpr ::System::DateTime& __cordl_internal_get_dt();
+  /// @brief Method ToString, addr 0x11cb57c, size 0x20, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
 
+  constexpr ::System::DateTime& __cordl_internal_get_dt();
+
   constexpr void __cordl_internal_set_dt(::System::DateTime value);
 
-  static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
-
-  /// @brief Method .ctor, addr 0x117f388, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c1358, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dt);
 
-  /// @brief Method get_Value, addr 0x11895a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x11cb574, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
-  /// @brief Method ToString, addr 0x11895ac, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeObject();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeObject(DateTimeObject&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateTimeObject(DateTimeObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeObject();
-
-public:
   /// @brief Field dt, offset: 0x10, size: 0x8, def value: None
   ::System::DateTime ___dt;
 

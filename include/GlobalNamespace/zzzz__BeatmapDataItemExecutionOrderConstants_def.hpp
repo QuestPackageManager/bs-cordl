@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataItemExecutionOrderConstants);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15110))
 // CS Name: ::BeatmapDataItemExecutionOrderConstants*
 class CORDL_TYPE BeatmapDataItemExecutionOrderConstants : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0e50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe54070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataItemExecutionOrderConstants();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataItemExecutionOrderConstants", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataItemExecutionOrderConstants(BeatmapDataItemExecutionOrderConstants&&) = delete;
@@ -34,23 +38,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataItemExecutionOrderConstants(BeatmapDataItemExecutionOrderConstants const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataItemExecutionOrderConstants();
-
-public:
   /// @brief Field kBPMChangeBeatmapEventExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kBPMChangeBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffc17) };
-
-  /// @brief Field kEarlySpawnRotationBeatmapEventExecutionOrder offset 0xffffffff size 0x4
-  static constexpr int32_t kEarlySpawnRotationBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffc18) };
 
   /// @brief Field kCommonBeatmapEventExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kCommonBeatmapEventExecutionOrder{ static_cast<int32_t>(0xffffff9c) };
 
   /// @brief Field kCommonBeatmapObjectDataExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kCommonBeatmapObjectDataExecutionOrder{ static_cast<int32_t>(0x64) };
+
+  /// @brief Field kEarlySpawnRotationBeatmapEventExecutionOrder offset 0xffffffff size 0x4
+  static constexpr int32_t kEarlySpawnRotationBeatmapEventExecutionOrder{ static_cast<int32_t>(0xfffffc18) };
 
   /// @brief Field kLateSpawnRotationBeatmapEventExecutionOrder offset 0xffffffff size 0x4
   static constexpr int32_t kLateSpawnRotationBeatmapEventExecutionOrder{ static_cast<int32_t>(0x3e8) };

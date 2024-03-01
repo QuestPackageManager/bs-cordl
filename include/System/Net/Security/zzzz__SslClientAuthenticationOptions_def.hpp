@@ -33,23 +33,26 @@ MARK_REF_PTR_T(::System::Net::Security::SslClientAuthenticationOptions);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6974)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7376))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7372)) CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
+// CS Name: ::System.Net.Security::SslClientAuthenticationOptions*
 class CORDL_TYPE SslClientAuthenticationOptions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _encryptionPolicy, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__encryptionPolicy, put = __cordl_internal_set__encryptionPolicy))::System::Net::Security::EncryptionPolicy _encryptionPolicy;
+  __declspec(property(put = set_CertificateRevocationCheckMode))::System::Security::Cryptography::X509Certificates::X509RevocationMode CertificateRevocationCheckMode;
 
-  /// @brief Field _checkCertificateRevocation, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__checkCertificateRevocation,
-                      put = __cordl_internal_set__checkCertificateRevocation))::System::Security::Cryptography::X509Certificates::X509RevocationMode _checkCertificateRevocation;
+  __declspec(property(get = get_ClientCertificates, put = set_ClientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
 
-  /// @brief Field _enabledSslProtocols, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__enabledSslProtocols, put = __cordl_internal_set__enabledSslProtocols))::System::Security::Authentication::SslProtocols _enabledSslProtocols;
+  __declspec(property(get = get_EnabledSslProtocols, put = set_EnabledSslProtocols))::System::Security::Authentication::SslProtocols EnabledSslProtocols;
 
-  /// @brief Field _allowRenegotiation, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get__allowRenegotiation, put = __cordl_internal_set__allowRenegotiation)) bool _allowRenegotiation;
+  __declspec(property(put = set_EncryptionPolicy))::System::Net::Security::EncryptionPolicy EncryptionPolicy;
+
+  __declspec(property(put = set_LocalCertificateSelectionCallback))::System::Net::Security::LocalCertificateSelectionCallback* LocalCertificateSelectionCallback;
+
+  __declspec(property(get = get_TargetHost, put = set_TargetHost))::StringW TargetHost;
+
+  /// @brief Field <ClientCertificates>k__BackingField, offset 0x30, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__ClientCertificates_k__BackingField,
+               put = __cordl_internal_set__ClientCertificates_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _ClientCertificates_k__BackingField;
 
   /// @brief Field <LocalCertificateSelectionCallback>k__BackingField, offset 0x20, size 0x8
   __declspec(property(
@@ -59,97 +62,99 @@ public:
   /// @brief Field <TargetHost>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__TargetHost_k__BackingField, put = __cordl_internal_set__TargetHost_k__BackingField))::StringW _TargetHost_k__BackingField;
 
-  /// @brief Field <ClientCertificates>k__BackingField, offset 0x30, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__ClientCertificates_k__BackingField,
-               put = __cordl_internal_set__ClientCertificates_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _ClientCertificates_k__BackingField;
+  /// @brief Field _allowRenegotiation, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get__allowRenegotiation, put = __cordl_internal_set__allowRenegotiation)) bool _allowRenegotiation;
 
-  __declspec(property(put = set_LocalCertificateSelectionCallback))::System::Net::Security::LocalCertificateSelectionCallback* LocalCertificateSelectionCallback;
+  /// @brief Field _checkCertificateRevocation, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__checkCertificateRevocation,
+                      put = __cordl_internal_set__checkCertificateRevocation))::System::Security::Cryptography::X509Certificates::X509RevocationMode _checkCertificateRevocation;
 
-  __declspec(property(get = get_TargetHost, put = set_TargetHost))::StringW TargetHost;
+  /// @brief Field _enabledSslProtocols, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__enabledSslProtocols, put = __cordl_internal_set__enabledSslProtocols))::System::Security::Authentication::SslProtocols _enabledSslProtocols;
 
-  __declspec(property(get = get_ClientCertificates, put = set_ClientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
+  /// @brief Field _encryptionPolicy, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__encryptionPolicy, put = __cordl_internal_set__encryptionPolicy))::System::Net::Security::EncryptionPolicy _encryptionPolicy;
 
-  __declspec(property(put = set_CertificateRevocationCheckMode))::System::Security::Cryptography::X509Certificates::X509RevocationMode CertificateRevocationCheckMode;
-
-  __declspec(property(put = set_EncryptionPolicy))::System::Net::Security::EncryptionPolicy EncryptionPolicy;
-
-  __declspec(property(get = get_EnabledSslProtocols, put = set_EnabledSslProtocols))::System::Security::Authentication::SslProtocols EnabledSslProtocols;
-
-  constexpr ::System::Net::Security::EncryptionPolicy& __cordl_internal_get__encryptionPolicy();
-
-  constexpr ::System::Net::Security::EncryptionPolicy const& __cordl_internal_get__encryptionPolicy() const;
-
-  constexpr void __cordl_internal_set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value);
-
-  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode& __cordl_internal_get__checkCertificateRevocation();
-
-  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode const& __cordl_internal_get__checkCertificateRevocation() const;
-
-  constexpr void __cordl_internal_set__checkCertificateRevocation(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
-
-  constexpr ::System::Security::Authentication::SslProtocols& __cordl_internal_get__enabledSslProtocols();
-
-  constexpr ::System::Security::Authentication::SslProtocols const& __cordl_internal_get__enabledSslProtocols() const;
-
-  constexpr void __cordl_internal_set__enabledSslProtocols(::System::Security::Authentication::SslProtocols value);
-
-  constexpr bool& __cordl_internal_get__allowRenegotiation();
-
-  constexpr bool const& __cordl_internal_get__allowRenegotiation() const;
-
-  constexpr void __cordl_internal_set__allowRenegotiation(bool value);
-
-  constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& __cordl_internal_get__LocalCertificateSelectionCallback_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const& __cordl_internal_get__LocalCertificateSelectionCallback_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__LocalCertificateSelectionCallback_k__BackingField(::System::Net::Security::LocalCertificateSelectionCallback* value);
-
-  constexpr ::StringW& __cordl_internal_get__TargetHost_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__TargetHost_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__TargetHost_k__BackingField(::StringW value);
+  static inline ::System::Net::Security::SslClientAuthenticationOptions* New_ctor();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__ClientCertificates_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get__ClientCertificates_k__BackingField() const;
 
+  constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& __cordl_internal_get__LocalCertificateSelectionCallback_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const& __cordl_internal_get__LocalCertificateSelectionCallback_k__BackingField() const;
+
+  constexpr ::StringW const& __cordl_internal_get__TargetHost_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__TargetHost_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__allowRenegotiation() const;
+
+  constexpr bool& __cordl_internal_get__allowRenegotiation();
+
+  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode const& __cordl_internal_get__checkCertificateRevocation() const;
+
+  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode& __cordl_internal_get__checkCertificateRevocation();
+
+  constexpr ::System::Security::Authentication::SslProtocols const& __cordl_internal_get__enabledSslProtocols() const;
+
+  constexpr ::System::Security::Authentication::SslProtocols& __cordl_internal_get__enabledSslProtocols();
+
+  constexpr ::System::Net::Security::EncryptionPolicy const& __cordl_internal_get__encryptionPolicy() const;
+
+  constexpr ::System::Net::Security::EncryptionPolicy& __cordl_internal_get__encryptionPolicy();
+
   constexpr void __cordl_internal_set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x2903abc, size 0x8, virtual false, abstract: false, final false
-  inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
+  constexpr void __cordl_internal_set__LocalCertificateSelectionCallback_k__BackingField(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  /// @brief Method get_TargetHost, addr 0x2903ac4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_TargetHost();
+  constexpr void __cordl_internal_set__TargetHost_k__BackingField(::StringW value);
 
-  /// @brief Method set_TargetHost, addr 0x2903acc, size 0x8, virtual false, abstract: false, final false
-  inline void set_TargetHost(::StringW value);
+  constexpr void __cordl_internal_set__allowRenegotiation(bool value);
 
-  /// @brief Method get_ClientCertificates, addr 0x2903ad4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
+  constexpr void __cordl_internal_set__checkCertificateRevocation(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method set_ClientCertificates, addr 0x2903adc, size 0x8, virtual false, abstract: false, final false
-  inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__enabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_CertificateRevocationCheckMode, addr 0x2903ae4, size 0xa0, virtual false, abstract: false, final false
-  inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
+  constexpr void __cordl_internal_set__encryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method set_EncryptionPolicy, addr 0x2903b84, size 0xa0, virtual false, abstract: false, final false
-  inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
-
-  /// @brief Method get_EnabledSslProtocols, addr 0x2903c24, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
-
-  /// @brief Method set_EnabledSslProtocols, addr 0x2903c2c, size 0x8, virtual false, abstract: false, final false
-  inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
-
-  static inline ::System::Net::Security::SslClientAuthenticationOptions* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2903c34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29e90b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ClientCertificates, addr 0x29e8f50, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
+
+  /// @brief Method get_EnabledSslProtocols, addr 0x29e90a0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
+
+  /// @brief Method get_TargetHost, addr 0x29e8f40, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_TargetHost();
+
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x29e8f60, size 0xa0, virtual false, abstract: false, final false
+  inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
+
+  /// @brief Method set_ClientCertificates, addr 0x29e8f58, size 0x8, virtual false, abstract: false, final false
+  inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+
+  /// @brief Method set_EnabledSslProtocols, addr 0x29e90a8, size 0x8, virtual false, abstract: false, final false
+  inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
+
+  /// @brief Method set_EncryptionPolicy, addr 0x29e9000, size 0xa0, virtual false, abstract: false, final false
+  inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
+
+  /// @brief Method set_LocalCertificateSelectionCallback, addr 0x29e8f38, size 0x8, virtual false, abstract: false, final false
+  inline void set_LocalCertificateSelectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
+
+  /// @brief Method set_TargetHost, addr 0x29e8f48, size 0x8, virtual false, abstract: false, final false
+  inline void set_TargetHost(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SslClientAuthenticationOptions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SslClientAuthenticationOptions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SslClientAuthenticationOptions(SslClientAuthenticationOptions&&) = delete;
@@ -158,12 +163,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SslClientAuthenticationOptions(SslClientAuthenticationOptions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SslClientAuthenticationOptions();
-
-public:
   /// @brief Field _encryptionPolicy, offset: 0x10, size: 0x4, def value: None
   ::System::Net::Security::EncryptionPolicy ____encryptionPolicy;
 

@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "System/Runtime/InteropServices/Architecture.hpp"
 #include "System/Runtime/InteropServices/COMException.hpp"
 #include "System/Runtime/InteropServices/CallingConvention.hpp"
 #include "System/Runtime/InteropServices/CharSet.hpp"
@@ -30,9 +31,11 @@ module;
 #include "System/Runtime/InteropServices/MarshalAsAttribute.hpp"
 #include "System/Runtime/InteropServices/MarshalDirectiveException.hpp"
 #include "System/Runtime/InteropServices/MemoryMarshal.hpp"
+#include "System/Runtime/InteropServices/OSPlatform.hpp"
 #include "System/Runtime/InteropServices/OptionalAttribute.hpp"
 #include "System/Runtime/InteropServices/OutAttribute.hpp"
 #include "System/Runtime/InteropServices/PreserveSigAttribute.hpp"
+#include "System/Runtime/InteropServices/RuntimeInformation.hpp"
 #include "System/Runtime/InteropServices/SafeBuffer.hpp"
 #include "System/Runtime/InteropServices/SafeHandle.hpp"
 #include "System/Runtime/InteropServices/UnmanagedFunctionPointerAttribute.hpp"

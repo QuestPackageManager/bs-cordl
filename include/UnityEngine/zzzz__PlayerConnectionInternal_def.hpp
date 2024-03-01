@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::PlayerConnectionInternal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8882))
 // CS Name: ::UnityEngine::PlayerConnectionInternal*
 class CORDL_TYPE PlayerConnectionInternal : public ::System::Object {
 public:
@@ -32,62 +30,68 @@ public:
   /// @brief Convert operator to "::UnityEngine::IPlayerEditorConnectionNative"
   constexpr operator ::UnityEngine::IPlayerEditorConnectionNative*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::IPlayerEditorConnectionNative"
-  constexpr ::UnityEngine::IPlayerEditorConnectionNative* i___UnityEngine__IPlayerEditorConnectionNative() noexcept;
+  /// @brief Method DisconnectAll, addr 0x2db3bdc, size 0x28, virtual false, abstract: false, final false
+  static inline void DisconnectAll();
 
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.SendMessage, addr 0x2cc80dc, size 0x12c, virtual true, abstract: false, final true
-  inline void UnityEngine_IPlayerEditorConnectionNative_SendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.TrySendMessage, addr 0x2cc825c, size 0x130, virtual true, abstract: false, final true
-  inline bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.Poll, addr 0x2cc83e0, size 0x28, virtual true, abstract: false, final true
-  inline void UnityEngine_IPlayerEditorConnectionNative_Poll();
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.RegisterInternal, addr 0x2cc8430, size 0x84, virtual true, abstract: false, final true
-  inline void UnityEngine_IPlayerEditorConnectionNative_RegisterInternal(::System::Guid messageId);
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal, addr 0x2cc84f0, size 0x84, virtual true, abstract: false, final true
-  inline void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(::System::Guid messageId);
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.Initialize, addr 0x2cc85b0, size 0x28, virtual true, abstract: false, final true
-  inline void UnityEngine_IPlayerEditorConnectionNative_Initialize();
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.IsConnected, addr 0x2cc8600, size 0x28, virtual true, abstract: false, final true
-  inline bool UnityEngine_IPlayerEditorConnectionNative_IsConnected();
-
-  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.DisconnectAll, addr 0x2cc8650, size 0x28, virtual true, abstract: false, final true
-  inline void UnityEngine_IPlayerEditorConnectionNative_DisconnectAll();
-
-  /// @brief Method IsConnected, addr 0x2cc8628, size 0x28, virtual false, abstract: false, final false
-  static inline bool IsConnected();
-
-  /// @brief Method Initialize, addr 0x2cc85d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2db3b3c, size 0x28, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method RegisterInternal, addr 0x2cc84b4, size 0x3c, virtual false, abstract: false, final false
-  static inline void RegisterInternal(::StringW messageId);
-
-  /// @brief Method UnregisterInternal, addr 0x2cc8574, size 0x3c, virtual false, abstract: false, final false
-  static inline void UnregisterInternal(::StringW messageId);
-
-  /// @brief Method SendMessage, addr 0x2cc8208, size 0x54, virtual false, abstract: false, final false
-  static inline void SendMessage(::StringW messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
-
-  /// @brief Method TrySendMessage, addr 0x2cc838c, size 0x54, virtual false, abstract: false, final false
-  static inline bool TrySendMessage(::StringW messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
-
-  /// @brief Method PollInternal, addr 0x2cc8408, size 0x28, virtual false, abstract: false, final false
-  static inline void PollInternal();
-
-  /// @brief Method DisconnectAll, addr 0x2cc8678, size 0x28, virtual false, abstract: false, final false
-  static inline void DisconnectAll();
+  /// @brief Method IsConnected, addr 0x2db3b8c, size 0x28, virtual false, abstract: false, final false
+  static inline bool IsConnected();
 
   static inline ::UnityEngine::PlayerConnectionInternal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cc86a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PollInternal, addr 0x2db396c, size 0x28, virtual false, abstract: false, final false
+  static inline void PollInternal();
+
+  /// @brief Method RegisterInternal, addr 0x2db3a18, size 0x3c, virtual false, abstract: false, final false
+  static inline void RegisterInternal(::StringW messageId);
+
+  /// @brief Method SendMessage, addr 0x2db376c, size 0x54, virtual false, abstract: false, final false
+  static inline void SendMessage(::StringW messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+
+  /// @brief Method TrySendMessage, addr 0x2db38f0, size 0x54, virtual false, abstract: false, final false
+  static inline bool TrySendMessage(::StringW messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.DisconnectAll, addr 0x2db3bb4, size 0x28, virtual true, abstract: false, final true
+  inline void UnityEngine_IPlayerEditorConnectionNative_DisconnectAll();
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.Initialize, addr 0x2db3b14, size 0x28, virtual true, abstract: false, final true
+  inline void UnityEngine_IPlayerEditorConnectionNative_Initialize();
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.IsConnected, addr 0x2db3b64, size 0x28, virtual true, abstract: false, final true
+  inline bool UnityEngine_IPlayerEditorConnectionNative_IsConnected();
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.Poll, addr 0x2db3944, size 0x28, virtual true, abstract: false, final true
+  inline void UnityEngine_IPlayerEditorConnectionNative_Poll();
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.RegisterInternal, addr 0x2db3994, size 0x84, virtual true, abstract: false, final true
+  inline void UnityEngine_IPlayerEditorConnectionNative_RegisterInternal(::System::Guid messageId);
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.SendMessage, addr 0x2db3640, size 0x12c, virtual true, abstract: false, final true
+  inline void UnityEngine_IPlayerEditorConnectionNative_SendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.TrySendMessage, addr 0x2db37c0, size 0x130, virtual true, abstract: false, final true
+  inline bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
+
+  /// @brief Method UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal, addr 0x2db3a54, size 0x84, virtual true, abstract: false, final true
+  inline void UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal(::System::Guid messageId);
+
+  /// @brief Method UnregisterInternal, addr 0x2db3ad8, size 0x3c, virtual false, abstract: false, final false
+  static inline void UnregisterInternal(::StringW messageId);
+
+  /// @brief Method .ctor, addr 0x2db3c04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::IPlayerEditorConnectionNative"
+  constexpr ::UnityEngine::IPlayerEditorConnectionNative* i___UnityEngine__IPlayerEditorConnectionNative() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerConnectionInternal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerConnectionInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerConnectionInternal(PlayerConnectionInternal&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerConnectionInternal(PlayerConnectionInternal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerConnectionInternal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

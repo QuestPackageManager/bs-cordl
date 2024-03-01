@@ -16,23 +16,27 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterfaceAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7293))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7301))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterfaceAPI*
 class CORDL_TYPE UnixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
 public:
   // Declarations
-  /// @brief Method getifaddrs, addr 0x29f2adc, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t getifaddrs(ByRef<void*> ifap);
-
-  /// @brief Method freeifaddrs, addr 0x29f2a5c, size 0x7c, virtual false, abstract: false, final false
-  static inline void freeifaddrs(void* ifap);
-
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29f2300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ada3d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method freeifaddrs, addr 0x2adab30, size 0x7c, virtual false, abstract: false, final false
+  static inline void freeifaddrs(void* ifap);
+
+  /// @brief Method getifaddrs, addr 0x2adabb0, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t getifaddrs(ByRef<void*> ifap);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnixNetworkInterfaceAPI();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnixNetworkInterfaceAPI", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnixNetworkInterfaceAPI(UnixNetworkInterfaceAPI&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnixNetworkInterfaceAPI(UnixNetworkInterfaceAPI const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnixNetworkInterfaceAPI();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

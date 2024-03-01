@@ -42,8 +42,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightPairRotationEventEffect__RotationData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4303))
 // CS Name: ::LightPairRotationEventEffect::RotationData*
 class CORDL_TYPE __LightPairRotationEventEffect__RotationData : public ::System::Object {
 public:
@@ -51,62 +49,68 @@ public:
   /// @brief Field enabled, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_enabled, put = __cordl_internal_set_enabled)) bool enabled;
 
+  /// @brief Field rotationAngle, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotationAngle, put = __cordl_internal_set_rotationAngle)) float_t rotationAngle;
+
   /// @brief Field rotationSpeed, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationSpeed, put = __cordl_internal_set_rotationSpeed)) float_t rotationSpeed;
 
   /// @brief Field startRotation, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_startRotation, put = __cordl_internal_set_startRotation))::UnityEngine::Quaternion startRotation;
 
-  /// @brief Field transform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
-
   /// @brief Field startRotationAngle, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_startRotationAngle, put = __cordl_internal_set_startRotationAngle)) float_t startRotationAngle;
 
-  /// @brief Field rotationAngle, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationAngle, put = __cordl_internal_set_rotationAngle)) float_t rotationAngle;
-
-  constexpr bool& __cordl_internal_get_enabled();
-
-  constexpr bool const& __cordl_internal_get_enabled() const;
-
-  constexpr void __cordl_internal_set_enabled(bool value);
-
-  constexpr float_t& __cordl_internal_get_rotationSpeed();
-
-  constexpr float_t const& __cordl_internal_get_rotationSpeed() const;
-
-  constexpr void __cordl_internal_set_rotationSpeed(float_t value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_startRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_startRotation() const;
-
-  constexpr void __cordl_internal_set_startRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
-
-  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_startRotationAngle();
-
-  constexpr float_t const& __cordl_internal_get_startRotationAngle() const;
-
-  constexpr void __cordl_internal_set_startRotationAngle(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotationAngle();
-
-  constexpr float_t const& __cordl_internal_get_rotationAngle() const;
-
-  constexpr void __cordl_internal_set_rotationAngle(float_t value);
+  /// @brief Field transform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   static inline ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x236c638, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_enabled() const;
+
+  constexpr bool& __cordl_internal_get_enabled();
+
+  constexpr float_t const& __cordl_internal_get_rotationAngle() const;
+
+  constexpr float_t& __cordl_internal_get_rotationAngle();
+
+  constexpr float_t const& __cordl_internal_get_rotationSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_rotationSpeed();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_startRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_startRotation();
+
+  constexpr float_t const& __cordl_internal_get_startRotationAngle() const;
+
+  constexpr float_t& __cordl_internal_get_startRotationAngle();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+
+  constexpr void __cordl_internal_set_enabled(bool value);
+
+  constexpr void __cordl_internal_set_rotationAngle(float_t value);
+
+  constexpr void __cordl_internal_set_rotationSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_startRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_startRotationAngle(float_t value);
+
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x243a580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LightPairRotationEventEffect__RotationData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LightPairRotationEventEffect__RotationData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LightPairRotationEventEffect__RotationData(__LightPairRotationEventEffect__RotationData&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LightPairRotationEventEffect__RotationData(__LightPairRotationEventEffect__RotationData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LightPairRotationEventEffect__RotationData();
-
-public:
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
 
@@ -161,13 +159,22 @@ static_assert(offsetof(::GlobalNamespace::__LightPairRotationEventEffect__Rotati
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4304))
 // CS Name: ::LightPairRotationEventEffect*
 class CORDL_TYPE LightPairRotationEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using RotationData = ::GlobalNamespace::__LightPairRotationEventEffect__RotationData;
+
+  /// @brief Field _audioTimeSource, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+
+  /// @brief Field _beatmapCallbacksController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
   /// @brief Field _eventL, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__eventL, put = __cordl_internal_set__eventL))::GlobalNamespace::BasicBeatmapEventType _eventL;
@@ -175,43 +182,11 @@ public:
   /// @brief Field _eventR, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__eventR, put = __cordl_internal_set__eventR))::GlobalNamespace::BasicBeatmapEventType _eventR;
 
-  /// @brief Field _switchOverrideRandomValuesEvent, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__switchOverrideRandomValuesEvent,
-                      put = __cordl_internal_set__switchOverrideRandomValuesEvent))::GlobalNamespace::BasicBeatmapEventType _switchOverrideRandomValuesEvent;
-
-  /// @brief Field _rotationVector, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector))::UnityEngine::Vector3 _rotationVector;
-
   /// @brief Field _overrideRandomValues, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideRandomValues, put = __cordl_internal_set__overrideRandomValues)) bool _overrideRandomValues;
 
-  /// @brief Field _useZPositionForAngleOffset, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get__useZPositionForAngleOffset, put = __cordl_internal_set__useZPositionForAngleOffset)) bool _useZPositionForAngleOffset;
-
-  /// @brief Field _zPositionAngleOffsetScale, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__zPositionAngleOffsetScale, put = __cordl_internal_set__zPositionAngleOffsetScale)) float_t _zPositionAngleOffsetScale;
-
-  /// @brief Field _startRotation, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__startRotation, put = __cordl_internal_set__startRotation)) float_t _startRotation;
-
-  /// @brief Field _transformL, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__transformL, put = __cordl_internal_set__transformL))::UnityW<::UnityEngine::Transform> _transformL;
-
-  /// @brief Field _transformR, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR))::UnityW<::UnityEngine::Transform> _transformR;
-
-  /// @brief Field _beatmapCallbacksController, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
-
-  /// @brief Field _audioTimeSource, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
-
-  /// @brief Field _rotationDataL, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotationDataL, put = __cordl_internal_set__rotationDataL))::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataL;
-
-  /// @brief Field _rotationDataR, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotationDataR, put = __cordl_internal_set__rotationDataR))::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataR;
+  /// @brief Field _randomDirection, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get__randomDirection, put = __cordl_internal_set__randomDirection)) float_t _randomDirection;
 
   /// @brief Field _randomGenerationFrameNum, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__randomGenerationFrameNum, put = __cordl_internal_set__randomGenerationFrameNum)) int32_t _randomGenerationFrameNum;
@@ -219,141 +194,168 @@ public:
   /// @brief Field _randomStartRotation, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__randomStartRotation, put = __cordl_internal_set__randomStartRotation)) float_t _randomStartRotation;
 
-  /// @brief Field _randomDirection, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get__randomDirection, put = __cordl_internal_set__randomDirection)) float_t _randomDirection;
+  /// @brief Field _rotationDataL, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotationDataL, put = __cordl_internal_set__rotationDataL))::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataL;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+  /// @brief Field _rotationDataR, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__rotationDataR, put = __cordl_internal_set__rotationDataR))::GlobalNamespace::__LightPairRotationEventEffect__RotationData* _rotationDataR;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__eventL();
+  /// @brief Field _rotationVector, offset 0x24, size 0xc
+  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector))::UnityEngine::Vector3 _rotationVector;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__eventL() const;
+  /// @brief Field _startRotation, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__startRotation, put = __cordl_internal_set__startRotation)) float_t _startRotation;
 
-  constexpr void __cordl_internal_set__eventL(::GlobalNamespace::BasicBeatmapEventType value);
+  /// @brief Field _switchOverrideRandomValuesEvent, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__switchOverrideRandomValuesEvent,
+                      put = __cordl_internal_set__switchOverrideRandomValuesEvent))::GlobalNamespace::BasicBeatmapEventType _switchOverrideRandomValuesEvent;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__eventR();
+  /// @brief Field _transformL, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__transformL, put = __cordl_internal_set__transformL))::UnityW<::UnityEngine::Transform> _transformL;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__eventR() const;
+  /// @brief Field _transformR, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR))::UnityW<::UnityEngine::Transform> _transformR;
 
-  constexpr void __cordl_internal_set__eventR(::GlobalNamespace::BasicBeatmapEventType value);
+  /// @brief Field _useZPositionForAngleOffset, offset 0x31, size 0x1
+  __declspec(property(get = __cordl_internal_get__useZPositionForAngleOffset, put = __cordl_internal_set__useZPositionForAngleOffset)) bool _useZPositionForAngleOffset;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__switchOverrideRandomValuesEvent();
+  /// @brief Field _zPositionAngleOffsetScale, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__zPositionAngleOffsetScale, put = __cordl_internal_set__zPositionAngleOffsetScale)) float_t _zPositionAngleOffsetScale;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__switchOverrideRandomValuesEvent() const;
+  /// @brief Method HandleBeatmapEvent, addr 0x243a848, size 0x380, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr void __cordl_internal_set__switchOverrideRandomValuesEvent(::GlobalNamespace::BasicBeatmapEventType value);
+  static inline ::GlobalNamespace::LightPairRotationEventEffect* New_ctor();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotationVector();
+  /// @brief Method OnDestroy, addr 0x243a82c, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotationVector() const;
+  /// @brief Method Start, addr 0x243a1b8, size 0x3c8, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr void __cordl_internal_set__rotationVector(::UnityEngine::Vector3 value);
+  /// @brief Method Update, addr 0x243a588, size 0x2a4, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr bool& __cordl_internal_get__overrideRandomValues();
-
-  constexpr bool const& __cordl_internal_get__overrideRandomValues() const;
-
-  constexpr void __cordl_internal_set__overrideRandomValues(bool value);
-
-  constexpr bool& __cordl_internal_get__useZPositionForAngleOffset();
-
-  constexpr bool const& __cordl_internal_get__useZPositionForAngleOffset() const;
-
-  constexpr void __cordl_internal_set__useZPositionForAngleOffset(bool value);
-
-  constexpr float_t& __cordl_internal_get__zPositionAngleOffsetScale();
-
-  constexpr float_t const& __cordl_internal_get__zPositionAngleOffsetScale() const;
-
-  constexpr void __cordl_internal_set__zPositionAngleOffsetScale(float_t value);
-
-  constexpr float_t& __cordl_internal_get__startRotation();
-
-  constexpr float_t const& __cordl_internal_get__startRotation() const;
-
-  constexpr void __cordl_internal_set__startRotation(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transformL();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transformL() const;
-
-  constexpr void __cordl_internal_set__transformL(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transformR();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transformR() const;
-
-  constexpr void __cordl_internal_set__transformR(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
-
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  /// @brief Method UpdateRotationData, addr 0x243abc8, size 0x21c, virtual false, abstract: false, final false
+  inline void UpdateRotationData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* rotationData, float_t startRotationOffset, float_t direction);
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::GlobalNamespace::__LightPairRotationEventEffect__RotationData*& __cordl_internal_get__rotationDataL();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LightPairRotationEventEffect__RotationData*> const& __cordl_internal_get__rotationDataL() const;
-
-  constexpr void __cordl_internal_set__rotationDataL(::GlobalNamespace::__LightPairRotationEventEffect__RotationData* value);
-
-  constexpr ::GlobalNamespace::__LightPairRotationEventEffect__RotationData*& __cordl_internal_get__rotationDataR();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LightPairRotationEventEffect__RotationData*> const& __cordl_internal_get__rotationDataR() const;
-
-  constexpr void __cordl_internal_set__rotationDataR(::GlobalNamespace::__LightPairRotationEventEffect__RotationData* value);
-
-  constexpr int32_t& __cordl_internal_get__randomGenerationFrameNum();
-
-  constexpr int32_t const& __cordl_internal_get__randomGenerationFrameNum() const;
-
-  constexpr void __cordl_internal_set__randomGenerationFrameNum(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__randomStartRotation();
-
-  constexpr float_t const& __cordl_internal_get__randomStartRotation() const;
-
-  constexpr void __cordl_internal_set__randomStartRotation(float_t value);
-
-  constexpr float_t& __cordl_internal_get__randomDirection();
-
-  constexpr float_t const& __cordl_internal_get__randomDirection() const;
-
-  constexpr void __cordl_internal_set__randomDirection(float_t value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__eventL() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__eventL();
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__eventR() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__eventR();
+
+  constexpr bool const& __cordl_internal_get__overrideRandomValues() const;
+
+  constexpr bool& __cordl_internal_get__overrideRandomValues();
+
+  constexpr float_t const& __cordl_internal_get__randomDirection() const;
+
+  constexpr float_t& __cordl_internal_get__randomDirection();
+
+  constexpr int32_t const& __cordl_internal_get__randomGenerationFrameNum() const;
+
+  constexpr int32_t& __cordl_internal_get__randomGenerationFrameNum();
+
+  constexpr float_t const& __cordl_internal_get__randomStartRotation() const;
+
+  constexpr float_t& __cordl_internal_get__randomStartRotation();
+
+  constexpr ::GlobalNamespace::__LightPairRotationEventEffect__RotationData*& __cordl_internal_get__rotationDataL();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LightPairRotationEventEffect__RotationData*> const& __cordl_internal_get__rotationDataL() const;
+
+  constexpr ::GlobalNamespace::__LightPairRotationEventEffect__RotationData*& __cordl_internal_get__rotationDataR();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LightPairRotationEventEffect__RotationData*> const& __cordl_internal_get__rotationDataR() const;
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotationVector() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotationVector();
+
+  constexpr float_t const& __cordl_internal_get__startRotation() const;
+
+  constexpr float_t& __cordl_internal_get__startRotation();
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__switchOverrideRandomValuesEvent() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__switchOverrideRandomValuesEvent();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transformL() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transformL();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transformR() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transformR();
+
+  constexpr bool const& __cordl_internal_get__useZPositionForAngleOffset() const;
+
+  constexpr bool& __cordl_internal_get__useZPositionForAngleOffset();
+
+  constexpr float_t const& __cordl_internal_get__zPositionAngleOffsetScale() const;
+
+  constexpr float_t& __cordl_internal_get__zPositionAngleOffsetScale();
+
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x236c270, size 0x3c8, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__eventL(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method Update, addr 0x236c640, size 0x2a4, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__eventR(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method OnDestroy, addr 0x236c8e4, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__overrideRandomValues(bool value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x236c900, size 0x380, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__randomDirection(float_t value);
 
-  /// @brief Method UpdateRotationData, addr 0x236cc80, size 0x21c, virtual false, abstract: false, final false
-  inline void UpdateRotationData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* rotationData, float_t startRotationOffset, float_t direction);
+  constexpr void __cordl_internal_set__randomGenerationFrameNum(int32_t value);
 
-  static inline ::GlobalNamespace::LightPairRotationEventEffect* New_ctor();
+  constexpr void __cordl_internal_set__randomStartRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x236ce9c, size 0x74, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__rotationDataL(::GlobalNamespace::__LightPairRotationEventEffect__RotationData* value);
+
+  constexpr void __cordl_internal_set__rotationDataR(::GlobalNamespace::__LightPairRotationEventEffect__RotationData* value);
+
+  constexpr void __cordl_internal_set__rotationVector(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__startRotation(float_t value);
+
+  constexpr void __cordl_internal_set__switchOverrideRandomValuesEvent(::GlobalNamespace::BasicBeatmapEventType value);
+
+  constexpr void __cordl_internal_set__transformL(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__transformR(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__useZPositionForAngleOffset(bool value);
+
+  constexpr void __cordl_internal_set__zPositionAngleOffsetScale(float_t value);
+
+  /// @brief Method .ctor, addr 0x243ade4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightPairRotationEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightPairRotationEventEffect(LightPairRotationEventEffect&&) = delete;
@@ -362,12 +364,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightPairRotationEventEffect(LightPairRotationEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightPairRotationEventEffect();
-
-public:
   /// @brief Field _eventL, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventL;
 

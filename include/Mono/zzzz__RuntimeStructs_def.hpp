@@ -45,21 +45,19 @@ MARK_VAL_T(::Mono::__RuntimeStructs__RemoteClass);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2235))
 // CS Name: ::RuntimeStructs::RemoteClass
 struct CORDL_TYPE __RuntimeStructs__RemoteClass {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RuntimeStructs__RemoteClass();
+
   // Ctor Parameters [CppParam { name: "default_vtable", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "xdomain_vtable", ty: "void*", modifiers: "", def_value: None }, CppParam {
   // name: "proxy_class", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty: "void*", modifiers: "",
   // def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr __RuntimeStructs__RemoteClass(void* default_vtable, void* xdomain_vtable, ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> proxy_class, void* proxy_class_name,
                                           uint32_t interface_count) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RuntimeStructs__RemoteClass();
 
   /// @brief Field default_vtable, offset: 0x0, size: 0x8, def value: None
   void* default_vtable;
@@ -99,8 +97,6 @@ static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, interface_count) =
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2236))
 // CS Name: ::RuntimeStructs::MonoClass
 #pragma pack(push, 0)
 struct CORDL_TYPE __RuntimeStructs__MonoClass {
@@ -127,21 +123,19 @@ static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__MonoClas
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2237))
 // CS Name: ::RuntimeStructs::GenericParamInfo
 struct CORDL_TYPE __RuntimeStructs__GenericParamInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RuntimeStructs__GenericParamInfo();
+
   // Ctor Parameters [CppParam { name: "pklass", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "void*", modifiers:
   // "", def_value: None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "constraints", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>>", modifiers: "", def_value: None }]
   constexpr __RuntimeStructs__GenericParamInfo(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass, void* name, uint16_t flags, uint32_t token,
                                                ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>> constraints) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RuntimeStructs__GenericParamInfo();
 
   /// @brief Field pklass, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass;
@@ -181,18 +175,16 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, constraints) 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2238))
 // CS Name: ::RuntimeStructs::GPtrArray
 struct CORDL_TYPE __RuntimeStructs__GPtrArray {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "data", ty: "::cordl_internals::Ptr<void*>", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __RuntimeStructs__GPtrArray(::cordl_internals::Ptr<void*> data, int32_t len) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __RuntimeStructs__GPtrArray();
+
+  // Ctor Parameters [CppParam { name: "data", ty: "::cordl_internals::Ptr<void*>", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __RuntimeStructs__GPtrArray(::cordl_internals::Ptr<void*> data, int32_t len) noexcept;
 
   /// @brief Field data, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<void*> data;
@@ -217,8 +209,6 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, len) == 0x8, "Offset
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2239))
 // CS Name: ::Mono::RuntimeStructs*
 class CORDL_TYPE RuntimeStructs : public ::System::Object {
 public:
@@ -231,6 +221,12 @@ public:
 
   using RemoteClass = ::Mono::__RuntimeStructs__RemoteClass;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeStructs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeStructs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeStructs(RuntimeStructs&&) = delete;
@@ -239,12 +235,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeStructs(RuntimeStructs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeStructs();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

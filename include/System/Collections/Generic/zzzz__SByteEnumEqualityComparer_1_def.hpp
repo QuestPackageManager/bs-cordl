@@ -26,8 +26,6 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3873)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3873), inst: 1629 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3874))
 // CS Name: ::System.Collections.Generic::SByteEnumEqualityComparer`1<T>*
 class CORDL_TYPE SByteEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {
 public:
@@ -35,23 +33,29 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode(T obj);
 
   static inline ::System::Collections::Generic::SByteEnumEqualityComparer_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::System::Collections::Generic::SByteEnumEqualityComparer_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* information,
                                                                                          ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* information, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode(T obj);
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SByteEnumEqualityComparer_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SByteEnumEqualityComparer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SByteEnumEqualityComparer_1(SByteEnumEqualityComparer_1&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SByteEnumEqualityComparer_1(SByteEnumEqualityComparer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SByteEnumEqualityComparer_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

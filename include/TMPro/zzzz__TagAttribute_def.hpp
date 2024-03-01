@@ -15,19 +15,17 @@ MARK_VAL_T(::TMPro::TagAttribute);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12223))
 // CS Name: ::TMPro::TagAttribute
 struct CORDL_TYPE TagAttribute {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "hashCode", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TagAttribute(int32_t startIndex, int32_t length, int32_t hashCode) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr TagAttribute();
+
+  // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "hashCode", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TagAttribute(int32_t startIndex, int32_t length, int32_t hashCode) noexcept;
 
   /// @brief Field startIndex, offset: 0x0, size: 0x4, def value: None
   int32_t startIndex;

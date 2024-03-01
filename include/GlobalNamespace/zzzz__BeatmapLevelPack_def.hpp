@@ -26,12 +26,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPack);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11052))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10788))
 // CS Name: ::BeatmapLevelPack*
 class CORDL_TYPE BeatmapLevelPack : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field beatmapLevels, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapLevels,
+                      put = __cordl_internal_set_beatmapLevels))::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels;
+
+  /// @brief Field contentRating, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_contentRating, put = __cordl_internal_set_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
+
+  /// @brief Field coverImage, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_coverImage, put = __cordl_internal_set_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
+
   /// @brief Field packID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_packID, put = __cordl_internal_set_packID))::StringW packID;
 
@@ -41,72 +49,68 @@ public:
   /// @brief Field shortPackName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_shortPackName, put = __cordl_internal_set_shortPackName))::StringW shortPackName;
 
-  /// @brief Field coverImage, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_coverImage, put = __cordl_internal_set_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
-
   /// @brief Field smallCoverImage, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_smallCoverImage, put = __cordl_internal_set_smallCoverImage))::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
-  /// @brief Field beatmapLevels, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapLevels,
-                      put = __cordl_internal_set_beatmapLevels))::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels;
-
-  /// @brief Field contentRating, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_contentRating, put = __cordl_internal_set_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
-
-  constexpr ::StringW& __cordl_internal_get_packID();
-
-  constexpr ::StringW const& __cordl_internal_get_packID() const;
-
-  constexpr void __cordl_internal_set_packID(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_packName();
-
-  constexpr ::StringW const& __cordl_internal_get_packName() const;
-
-  constexpr void __cordl_internal_set_packName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_shortPackName();
-
-  constexpr ::StringW const& __cordl_internal_get_shortPackName() const;
-
-  constexpr void __cordl_internal_set_shortPackName(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_coverImage();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_coverImage() const;
-
-  constexpr void __cordl_internal_set_coverImage(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_smallCoverImage();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_smallCoverImage() const;
-
-  constexpr void __cordl_internal_set_smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>& __cordl_internal_get_beatmapLevels();
-
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> const& __cordl_internal_get_beatmapLevels() const;
-
-  constexpr void __cordl_internal_set_beatmapLevels(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> value);
-
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get_contentRating();
-
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get_contentRating() const;
-
-  constexpr void __cordl_internal_set_contentRating(::GlobalNamespace::PlayerSensitivityFlag value);
+  /// @brief Method CreateLevelPackForFiltering, addr 0x12c8cd4, size 0xc4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapLevelPack* CreateLevelPackForFiltering(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels);
 
   static inline ::GlobalNamespace::BeatmapLevelPack* New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
                                                               ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels,
                                                               ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
-  /// @brief Method .ctor, addr 0x1285ca0, size 0x64, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> const& __cordl_internal_get_beatmapLevels() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>& __cordl_internal_get_beatmapLevels();
+
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get_contentRating() const;
+
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get_contentRating();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_coverImage() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_coverImage();
+
+  constexpr ::StringW const& __cordl_internal_get_packID() const;
+
+  constexpr ::StringW& __cordl_internal_get_packID();
+
+  constexpr ::StringW const& __cordl_internal_get_packName() const;
+
+  constexpr ::StringW& __cordl_internal_get_packName();
+
+  constexpr ::StringW const& __cordl_internal_get_shortPackName() const;
+
+  constexpr ::StringW& __cordl_internal_get_shortPackName();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_smallCoverImage() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_smallCoverImage();
+
+  constexpr void __cordl_internal_set_beatmapLevels(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> value);
+
+  constexpr void __cordl_internal_set_contentRating(::GlobalNamespace::PlayerSensitivityFlag value);
+
+  constexpr void __cordl_internal_set_coverImage(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set_packID(::StringW value);
+
+  constexpr void __cordl_internal_set_packName(::StringW value);
+
+  constexpr void __cordl_internal_set_shortPackName(::StringW value);
+
+  constexpr void __cordl_internal_set_smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
+
+  /// @brief Method .ctor, addr 0x12c8c70, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
                     ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels, ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
-  /// @brief Method CreateLevelPackForFiltering, addr 0x1285d04, size 0xc4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapLevelPack* CreateLevelPackForFiltering(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapLevelPack();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelPack(BeatmapLevelPack&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelPack(BeatmapLevelPack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelPack();
-
-public:
   /// @brief Field packID, offset: 0x10, size: 0x8, def value: None
   ::StringW ___packID;
 

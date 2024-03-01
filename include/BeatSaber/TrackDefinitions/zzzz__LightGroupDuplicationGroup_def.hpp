@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16141))
 // CS Name: ::BeatSaber.TrackDefinitions::LightGroupDuplicationGroup*
 class CORDL_TYPE LightGroupDuplicationGroup : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -36,29 +34,35 @@ public:
 
   __declspec(property(get = get_lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> lightGroups;
 
-  constexpr ::StringW& __cordl_internal_get__duplicationGroupName();
+  static inline ::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__duplicationGroupName() const;
 
-  constexpr void __cordl_internal_set__duplicationGroupName(::StringW value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>& __cordl_internal_get__lightGroups();
+  constexpr ::StringW& __cordl_internal_get__duplicationGroupName();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> const& __cordl_internal_get__lightGroups() const;
 
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>& __cordl_internal_get__lightGroups();
+
+  constexpr void __cordl_internal_set__duplicationGroupName(::StringW value);
+
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method get_duplicationGroupName, addr 0xe3d634, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_duplicationGroupName();
-
-  /// @brief Method get_lightGroups, addr 0xe3d63c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
-
-  static inline ::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe3d644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe83614, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_duplicationGroupName, addr 0xe83604, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_duplicationGroupName();
+
+  /// @brief Method get_lightGroups, addr 0xe8360c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightGroupDuplicationGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupDuplicationGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupDuplicationGroup(LightGroupDuplicationGroup&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupDuplicationGroup(LightGroupDuplicationGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroupDuplicationGroup();
-
-public:
   /// @brief Field _duplicationGroupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____duplicationGroupName;
 

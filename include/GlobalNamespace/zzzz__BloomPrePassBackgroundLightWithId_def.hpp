@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundLightWithId);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14412))
 // CS Name: ::BloomPrePassBackgroundLightWithId*
 class CORDL_TYPE BloomPrePassBackgroundLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -32,23 +30,29 @@ public:
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& __cordl_internal_get__bloomPrePassBackgroundColor();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> const& __cordl_internal_get__bloomPrePassBackgroundColor() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value);
-
-  /// @brief Method get_color, addr 0x21a3130, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
-
-  /// @brief Method ColorWasSet, addr 0x21a3150, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x22717b8, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21a3170, size 0x10, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> const& __cordl_internal_get__bloomPrePassBackgroundColor() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& __cordl_internal_get__bloomPrePassBackgroundColor();
+
+  constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value);
+
+  /// @brief Method .ctor, addr 0x22717d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_color, addr 0x2271798, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_color();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassBackgroundLightWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundLightWithId();
-
-public:
   /// @brief Field _bloomPrePassBackgroundColor, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> ____bloomPrePassBackgroundColor;
 

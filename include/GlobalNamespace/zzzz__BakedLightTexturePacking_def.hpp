@@ -28,30 +28,34 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightTexturePacking);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5142))
 // CS Name: ::BakedLightTexturePacking*
 class CORDL_TYPE BakedLightTexturePacking : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _texPropertyIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__texPropertyIds, put = setStaticF__texPropertyIds))::ArrayW<int32_t, ::Array<int32_t>*> _texPropertyIds;
-
   /// @brief Field _material, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityW<::UnityEngine::Material> _material;
 
-  static inline void setStaticF__texPropertyIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  /// @brief Field _texPropertyIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__texPropertyIds, put = setStaticF__texPropertyIds))::ArrayW<int32_t, ::Array<int32_t>*> _texPropertyIds;
+
+  /// @brief Method PackTextures, addr 0x23f1050, size 0x36c, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
+                                                                    ::UnityEngine::RenderTextureDescriptor descriptor);
+
+  static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF__texPropertyIds();
 
   static inline void setStaticF__material(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
+  static inline void setStaticF__texPropertyIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method PackTextures, addr 0x2322354, size 0x36c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::RenderTexture> PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::RenderTexture>>* textures,
-                                                                    ::UnityEngine::RenderTextureDescriptor descriptor);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BakedLightTexturePacking();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightTexturePacking", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakedLightTexturePacking(BakedLightTexturePacking&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BakedLightTexturePacking(BakedLightTexturePacking const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BakedLightTexturePacking();
-
-public:
   /// @brief Field kBakedLightTexturePackingShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kBakedLightTexturePackingShaderName{ u"Hidden/BakedLightTexturePacking" };
 

@@ -25,34 +25,32 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedCollection);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11775))
 // CS Name: ::Newtonsoft.Json.Utilities::IWrappedCollection*
 class CORDL_TYPE IWrappedCollection {
 public:
   // Declarations
   __declspec(property(get = get_UnderlyingCollection))::System::Object* UnderlyingCollection;
 
-  /// @brief Convert operator to "::System::Collections::IList"
-  constexpr operator ::System::Collections::IList*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IList"
-  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
-
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
-
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Convert operator to "::System::Collections::IList"
+  constexpr operator ::System::Collections::IList*() noexcept;
 
   /// @brief Method get_UnderlyingCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UnderlyingCollection();
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IWrappedCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

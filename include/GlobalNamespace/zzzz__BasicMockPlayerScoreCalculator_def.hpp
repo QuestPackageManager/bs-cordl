@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicMockPlayerScoreCalculator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15692))
 // CS Name: ::BasicMockPlayerScoreCalculator*
 class CORDL_TYPE BasicMockPlayerScoreCalculator : public ::System::Object {
 public:
@@ -34,11 +32,11 @@ public:
   /// @brief Field _hitFrequency, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__hitFrequency, put = __cordl_internal_set__hitFrequency)) float_t _hitFrequency;
 
-  /// @brief Field _minScore, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__minScore, put = __cordl_internal_set__minScore)) int32_t _minScore;
-
   /// @brief Field _maxScore, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__maxScore, put = __cordl_internal_set__maxScore)) int32_t _maxScore;
+
+  /// @brief Field _minScore, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__minScore, put = __cordl_internal_set__minScore)) int32_t _minScore;
 
   /// @brief Field _random, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random))::System::Random* _random;
@@ -46,41 +44,47 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
-  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
+  /// @brief Method GetScoreForNote, addr 0x24d5370, size 0x74, virtual true, abstract: false, final true
+  inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
-  constexpr float_t& __cordl_internal_get__hitFrequency();
+  static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
   constexpr float_t const& __cordl_internal_get__hitFrequency() const;
 
-  constexpr void __cordl_internal_set__hitFrequency(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__minScore();
-
-  constexpr int32_t const& __cordl_internal_get__minScore() const;
-
-  constexpr void __cordl_internal_set__minScore(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__maxScore();
+  constexpr float_t& __cordl_internal_get__hitFrequency();
 
   constexpr int32_t const& __cordl_internal_get__maxScore() const;
 
-  constexpr void __cordl_internal_set__maxScore(int32_t value);
+  constexpr int32_t& __cordl_internal_get__maxScore();
+
+  constexpr int32_t const& __cordl_internal_get__minScore() const;
+
+  constexpr int32_t& __cordl_internal_get__minScore();
 
   constexpr ::System::Random*& __cordl_internal_get__random();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get__random() const;
 
+  constexpr void __cordl_internal_set__hitFrequency(float_t value);
+
+  constexpr void __cordl_internal_set__maxScore(int32_t value);
+
+  constexpr void __cordl_internal_set__minScore(int32_t value);
+
   constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
-
-  /// @brief Method .ctor, addr 0x24065bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d52b4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 
-  /// @brief Method GetScoreForNote, addr 0x2406678, size 0x74, virtual true, abstract: false, final true
-  inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
+  /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
+  constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasicMockPlayerScoreCalculator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasicMockPlayerScoreCalculator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasicMockPlayerScoreCalculator(BasicMockPlayerScoreCalculator&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicMockPlayerScoreCalculator(BasicMockPlayerScoreCalculator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicMockPlayerScoreCalculator();
-
-public:
   /// @brief Field _hitFrequency, offset: 0x10, size: 0x4, def value: None
   float_t ____hitFrequency;
 

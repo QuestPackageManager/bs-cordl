@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::BeatmapSaveDataCommon::IBeat);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapSaveDataCommon {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11211))
 // CS Name: ::BeatmapSaveDataCommon::IBeat*
 class CORDL_TYPE IBeat {
 public:
@@ -29,14 +27,14 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
-  constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
+  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x12fdd64, size 0x118, virtual true, abstract: false, final true
+  inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
   /// @brief Method get_beat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beat();
 
-  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x12bcd94, size 0x118, virtual true, abstract: false, final true
-  inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
+  /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
+  constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

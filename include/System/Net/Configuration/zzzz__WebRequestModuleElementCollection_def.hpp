@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Net::Configuration::WebRequestModuleElementCollection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7592))
 // CS Name: ::System.Net.Configuration::WebRequestModuleElementCollection*
 class CORDL_TYPE WebRequestModuleElementCollection : public ::System::Configuration::ConfigurationElementCollection {
 public:
   // Declarations
   static inline ::System::Net::Configuration::WebRequestModuleElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2949920, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2ed9c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WebRequestModuleElementCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElementCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebRequestModuleElementCollection(WebRequestModuleElementCollection&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebRequestModuleElementCollection(WebRequestModuleElementCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebRequestModuleElementCollection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

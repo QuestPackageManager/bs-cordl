@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair::*)()>(
     &::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair::get_levelId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x12b88d4;
+  constexpr static std::size_t addrs = 0x12f98a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair::*)()>(
     &::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair::get_relativeSfxVolume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12b88f0;
+  constexpr static std::size_t addrs = 0x12f98c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair::*)()>(
     &::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12b88f8;
+  constexpr static std::size_t addrs = 0x12f98c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::RelativeSfxVolumeSO::*)()>(
     &::GlobalNamespace::RelativeSfxVolumeSO::get_relativeSfxVolumePerPack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12b88bc;
+  constexpr static std::size_t addrs = 0x12f988c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumeSO*>::get(),
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumeSO__RelativeSfxVolumePair*>*> (
         ::GlobalNamespace::RelativeSfxVolumeSO::*)()>(&::GlobalNamespace::RelativeSfxVolumeSO::get_relativeSfxVolumePerLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12b88c4;
+  constexpr static std::size_t addrs = 0x12f9894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumeSO*>::get(),
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeSfxVolumeSO::*)()>(&::GlobalNamespace::RelativeSfxVolumeSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12b88cc;
+  constexpr static std::size_t addrs = 0x12f989c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumeSO*>::get(), ".ctor",

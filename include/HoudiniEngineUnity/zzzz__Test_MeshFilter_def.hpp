@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_MeshFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9714))
 // CS Name: ::HoudiniEngineUnity::Test_MeshFilter*
 class CORDL_TYPE Test_MeshFilter : public ::System::Object {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>"
-  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_MeshFilter__() noexcept;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>*() noexcept;
+
+  /// @brief Method IsEquivalentTo, addr 0x23483d8, size 0x1a0, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshFilter* other);
+
+  /// @brief Method IsNull, addr 0x2348378, size 0x60, virtual true, abstract: false, final true
+  inline bool IsNull();
+
+  static inline ::HoudiniEngineUnity::Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self);
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::MeshFilter> value);
+
+  /// @brief Method .ctor, addr 0x2348350, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::MeshFilter* self);
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_MeshFilter*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_MeshFilter__() noexcept;
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_MeshFilter*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_MeshFilter__() noexcept;
 
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_self();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_MeshFilter();
 
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::MeshFilter> value);
-
-  static inline ::HoudiniEngineUnity::Test_MeshFilter* New_ctor(::UnityEngine::MeshFilter* self);
-
-  /// @brief Method .ctor, addr 0x227bce8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::MeshFilter* self);
-
-  /// @brief Method IsNull, addr 0x227bd10, size 0x60, virtual true, abstract: false, final true
-  inline bool IsNull();
-
-  /// @brief Method IsEquivalentTo, addr 0x227bd70, size 0x1a0, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_MeshFilter* other);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_MeshFilter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_MeshFilter(Test_MeshFilter&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_MeshFilter(Test_MeshFilter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_MeshFilter();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ___self;
 

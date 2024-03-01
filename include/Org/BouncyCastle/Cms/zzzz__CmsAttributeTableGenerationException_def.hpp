@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(612))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(613))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAttributeTableGenerationException*
 class CORDL_TYPE CmsAttributeTableGenerationException : public ::Org::BouncyCastle::Cms::CmsException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12061f0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor(::StringW name);
-
-  /// @brief Method .ctor, addr 0x12061f4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
 
   static inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException* New_ctor(::StringW name, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x12061f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12491c0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x12491c4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+  /// @brief Method .ctor, addr 0x12491c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Exception* e);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsAttributeTableGenerationException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsAttributeTableGenerationException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsAttributeTableGenerationException(CmsAttributeTableGenerationException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsAttributeTableGenerationException(CmsAttributeTableGenerationException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsAttributeTableGenerationException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

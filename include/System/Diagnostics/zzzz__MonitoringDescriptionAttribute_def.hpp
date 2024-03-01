@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Diagnostics::MonitoringDescriptionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7398))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6969))
 // CS Name: ::System.Diagnostics::MonitoringDescriptionAttribute*
 class CORDL_TYPE MonitoringDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute {
 public:
@@ -25,12 +23,18 @@ public:
 
   static inline ::System::Diagnostics::MonitoringDescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor, addr 0x2977864, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5d938, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
-  /// @brief Method get_Description, addr 0x29778cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Description, addr 0x2a5d9a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonitoringDescriptionAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonitoringDescriptionAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonitoringDescriptionAttribute(MonitoringDescriptionAttribute&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonitoringDescriptionAttribute(MonitoringDescriptionAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonitoringDescriptionAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

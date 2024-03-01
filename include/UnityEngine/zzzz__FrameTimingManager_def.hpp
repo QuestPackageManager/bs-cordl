@@ -19,18 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::FrameTimingManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8871))
 // CS Name: ::UnityEngine::FrameTimingManager*
 class CORDL_TYPE FrameTimingManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureFrameTimings, addr 0x2cc6a2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrameTimings, addr 0x2db1f90, size 0x28, virtual false, abstract: false, final false
   static inline void CaptureFrameTimings();
 
-  /// @brief Method GetLatestTimings, addr 0x2cc6a54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings, addr 0x2db1fb8, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> timings);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FrameTimingManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FrameTimingManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FrameTimingManager(FrameTimingManager&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FrameTimingManager(FrameTimingManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FrameTimingManager();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

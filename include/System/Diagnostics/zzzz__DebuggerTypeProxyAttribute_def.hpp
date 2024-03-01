@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerTypeProxyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3734))
 // CS Name: ::System.Diagnostics::DebuggerTypeProxyAttribute*
 class CORDL_TYPE DebuggerTypeProxyAttribute : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field typeName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
 
-  constexpr ::StringW& __cordl_internal_get_typeName();
+  static inline ::System::Diagnostics::DebuggerTypeProxyAttribute* New_ctor(::System::Type* type);
 
   constexpr ::StringW const& __cordl_internal_get_typeName() const;
 
+  constexpr ::StringW& __cordl_internal_get_typeName();
+
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  static inline ::System::Diagnostics::DebuggerTypeProxyAttribute* New_ctor(::System::Type* type);
-
-  /// @brief Method .ctor, addr 0x259cbb4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d298, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebuggerTypeProxyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerTypeProxyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggerTypeProxyAttribute(DebuggerTypeProxyAttribute&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DebuggerTypeProxyAttribute(DebuggerTypeProxyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebuggerTypeProxyAttribute();
-
-public:
   /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___typeName;
 

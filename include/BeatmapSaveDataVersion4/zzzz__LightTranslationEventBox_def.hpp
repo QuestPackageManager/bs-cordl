@@ -28,22 +28,20 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::LightTranslationEventBox);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11202)), TypeDefinitionIndex(TypeDefinitionIndex(11207)), TypeDefinitionIndex(TypeDefinitionIndex(11208))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11135))
 // CS Name: ::BeatmapSaveDataVersion4::LightTranslationEventBox
 struct CORDL_TYPE LightTranslationEventBox {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationEventBox();
+
   // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None
   // }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam {
   // name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam { name: "a", ty:
   // "::BeatmapSaveDataCommon::Axis", modifiers: "", def_value: None }, CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr LightTranslationEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t, int32_t b,
                                      ::BeatmapSaveDataCommon::EaseType e, ::BeatmapSaveDataCommon::Axis a, int32_t f) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTranslationEventBox();
 
   /// @brief Field w, offset: 0x0, size: 0x4, def value: None
   float_t w;

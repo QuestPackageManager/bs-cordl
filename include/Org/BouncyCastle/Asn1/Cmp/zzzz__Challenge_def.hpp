@@ -29,55 +29,59 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::Challenge);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(18))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::Challenge*
 class CORDL_TYPE Challenge : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Owf;
+
+  /// @brief Field challenge, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_challenge, put = __cordl_internal_set_challenge))::Org::BouncyCastle::Asn1::Asn1OctetString* challenge;
+
   /// @brief Field owf, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_owf, put = __cordl_internal_set_owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
 
   /// @brief Field witness, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_witness, put = __cordl_internal_set_witness))::Org::BouncyCastle::Asn1::Asn1OctetString* witness;
 
-  /// @brief Field challenge, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_challenge, put = __cordl_internal_set_challenge))::Org::BouncyCastle::Asn1::Asn1OctetString* challenge;
+  /// @brief Method GetInstance, addr 0xed7fe4, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_Owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Owf;
+  static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_owf();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_owf() const;
-
-  constexpr void __cordl_internal_set_owf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_witness();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_witness() const;
-
-  constexpr void __cordl_internal_set_witness(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  /// @brief Method ToAsn1Object, addr 0xed8174, size 0x180, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_challenge();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_challenge() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_owf();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_owf() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_witness();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_witness() const;
+
   constexpr void __cordl_internal_set_challenge(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  constexpr void __cordl_internal_set_owf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method .ctor, addr 0xe90f60, size 0xb4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_witness(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  /// @brief Method .ctor, addr 0xed7f30, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe91014, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_Owf, addr 0xe9119c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Owf, addr 0xed816c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
-  /// @brief Method ToAsn1Object, addr 0xe911a4, size 0x180, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Challenge();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Challenge(Challenge&&) = delete;
@@ -86,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Challenge(Challenge const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Challenge();
-
-public:
   /// @brief Field owf, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___owf;
 

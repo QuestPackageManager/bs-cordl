@@ -31,20 +31,24 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9813)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9813), inst: 1057 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9815))
 // CS Name: ::Zenject::ConcreteIdBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteIdBinderGeneric_1 : public ::Zenject::ConcreteBinderGeneric_1<TContract> {
 public:
   // Declarations
   static inline ::Zenject::ConcreteIdBinderGeneric_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
-
   /// @brief Method WithId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderGeneric_1<TContract>* WithId(::System::Object* identifier);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConcreteIdBinderGeneric_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderGeneric_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcreteIdBinderGeneric_1(ConcreteIdBinderGeneric_1&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConcreteIdBinderGeneric_1(ConcreteIdBinderGeneric_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConcreteIdBinderGeneric_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

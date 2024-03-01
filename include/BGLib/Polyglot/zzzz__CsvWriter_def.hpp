@@ -21,26 +21,30 @@ MARK_REF_PTR_T(::BGLib::Polyglot::CsvWriter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15668))
 // CS Name: ::BGLib.Polyglot::CsvWriter*
 class CORDL_TYPE CsvWriter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendRow, addr 0xe4a78c, size 0x3b4, virtual false, abstract: false, final false
-  static inline void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
-
-  /// @brief Method AppendElement, addr 0xe4abf4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AppendElement, addr 0xe90bc4, size 0x84, virtual false, abstract: false, final false
   static inline void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
 
-  /// @brief Method HasEscapeChars, addr 0xe4ab40, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AppendRow, addr 0xe9075c, size 0x3b4, virtual false, abstract: false, final false
+  static inline void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
+
+  /// @brief Method HasEscapeChars, addr 0xe90b10, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasEscapeChars(::StringW element);
 
   static inline ::BGLib::Polyglot::CsvWriter* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4ac78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe90c48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CsvWriter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CsvWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CsvWriter(CsvWriter&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CsvWriter(CsvWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CsvWriter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

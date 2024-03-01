@@ -18,18 +18,16 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureWithPoseAndDepth_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8605))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8607))
 // CS Name: ::OVR.OpenVR::VRTextureWithPoseAndDepth_t
 struct CORDL_TYPE VRTextureWithPoseAndDepth_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "depth", ty: "::OVR::OpenVR::VRTextureDepthInfo_t", modifiers: "", def_value: None }]
-  constexpr VRTextureWithPoseAndDepth_t(::OVR::OpenVR::VRTextureDepthInfo_t depth) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VRTextureWithPoseAndDepth_t();
+
+  // Ctor Parameters [CppParam { name: "depth", ty: "::OVR::OpenVR::VRTextureDepthInfo_t", modifiers: "", def_value: None }]
+  constexpr VRTextureWithPoseAndDepth_t(::OVR::OpenVR::VRTextureDepthInfo_t depth) noexcept;
 
   /// @brief Field depth, offset: 0x0, size: 0x50, def value: None
   ::OVR::OpenVR::VRTextureDepthInfo_t depth;

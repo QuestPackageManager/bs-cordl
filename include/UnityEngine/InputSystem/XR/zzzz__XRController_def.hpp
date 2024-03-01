@@ -14,26 +14,30 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRController);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5548))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5584))
 // CS Name: ::UnityEngine.InputSystem.XR::XRController*
 class CORDL_TYPE XRController : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Method get_leftHand, addr 0x2ac6524, size 0xa0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
-
-  /// @brief Method get_rightHand, addr 0x2ac65c4, size 0xa0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
-
-  /// @brief Method FinishSetup, addr 0x2ac6664, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2bad738, size 0xf0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ac679c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bad870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_leftHand, addr 0x2bad5f8, size 0xa0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
+
+  /// @brief Method get_rightHand, addr 0x2bad698, size 0xa0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRController(XRController&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRController(XRController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRController();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

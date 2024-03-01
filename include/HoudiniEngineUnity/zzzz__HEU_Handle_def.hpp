@@ -64,8 +64,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Handle);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9473))
 // CS Name: ::HEU_Handle::HEU_HandleType
 struct CORDL_TYPE __HEU_Handle__HEU_HandleType {
 public:
@@ -83,24 +81,29 @@ public:
     return static_cast<____HEU_Handle__HEU_HandleType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_Handle__HEU_HandleType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_Handle__HEU_HandleType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_Handle__HEU_HandleType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field UNSUPPORTED value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const UNSUPPORTED;
 
   /// @brief Field XFORM value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const XFORM;
 
-  /// @brief Field UNSUPPORTED value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const UNSUPPORTED;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -114,26 +117,36 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, value
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9473)), TypeDefinitionIndex(TypeDefinitionIndex(9506)), TypeDefinitionIndex(TypeDefinitionIndex(9507)), TypeDefinitionIndex(TypeDefinitionIndex(9519))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9474)) CS Name: ::HoudiniEngineUnity::HEU_Handle*
+// CS Name: ::HoudiniEngineUnity::HEU_Handle*
 class CORDL_TYPE HEU_Handle : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   using HEU_HandleType = ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType;
 
-  /// @brief Field _handleName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__handleName, put = __cordl_internal_set__handleName))::StringW _handleName;
+  __declspec(property(get = get_ConvertedTransformEuler))::HoudiniEngineUnity::HAPI_TransformEuler ConvertedTransformEuler;
 
-  /// @brief Field _handleType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__handleType, put = __cordl_internal_set__handleType))::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType _handleType;
+  __declspec(property(get = get_HandleName))::StringW HandleName;
+
+  __declspec(property(get = get_HandlePosition))::UnityEngine::Vector3 HandlePosition;
+
+  __declspec(property(get = get_HandleRotation))::UnityEngine::Quaternion HandleRotation;
+
+  __declspec(property(get = get_HandleScale))::UnityEngine::Vector3 HandleScale;
+
+  __declspec(property(get = get_HandleType))::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType HandleType;
+
+  __declspec(property(get = get_RSTOrder))::HoudiniEngineUnity::HAPI_RSTOrder RSTOrder;
+
+  __declspec(property(get = get_XYZOrder))::HoudiniEngineUnity::HAPI_XYZOrder XYZOrder;
+
+  /// @brief Field _convertedTransformEuler, offset 0x70, size 0x28
+  __declspec(property(get = __cordl_internal_get__convertedTransformEuler, put = __cordl_internal_set__convertedTransformEuler))::HoudiniEngineUnity::HAPI_TransformEuler _convertedTransformEuler;
 
   /// @brief Field _handleIndex, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__handleIndex, put = __cordl_internal_set__handleIndex)) int32_t _handleIndex;
 
-  /// @brief Field _handleParamTranslateBinding, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__handleParamTranslateBinding,
-                      put = __cordl_internal_set__handleParamTranslateBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamTranslateBinding;
+  /// @brief Field _handleName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__handleName, put = __cordl_internal_set__handleName))::StringW _handleName;
 
   /// @brief Field _handleParamRotateBinding, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__handleParamRotateBinding,
@@ -141,6 +154,10 @@ public:
 
   /// @brief Field _handleParamScaleBinding, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__handleParamScaleBinding, put = __cordl_internal_set__handleParamScaleBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamScaleBinding;
+
+  /// @brief Field _handleParamTranslateBinding, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__handleParamTranslateBinding,
+                      put = __cordl_internal_set__handleParamTranslateBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamTranslateBinding;
 
   /// @brief Field _handlePosition, offset 0x40, size 0xc
   __declspec(property(get = __cordl_internal_get__handlePosition, put = __cordl_internal_set__handlePosition))::UnityEngine::Vector3 _handlePosition;
@@ -151,187 +168,177 @@ public:
   /// @brief Field _handleScale, offset 0x5c, size 0xc
   __declspec(property(get = __cordl_internal_get__handleScale, put = __cordl_internal_set__handleScale))::UnityEngine::Vector3 _handleScale;
 
+  /// @brief Field _handleType, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__handleType, put = __cordl_internal_set__handleType))::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType _handleType;
+
   /// @brief Field _rstOrder, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__rstOrder, put = __cordl_internal_set__rstOrder))::HoudiniEngineUnity::HAPI_RSTOrder _rstOrder;
 
   /// @brief Field _xyzOrder, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__xyzOrder, put = __cordl_internal_set__xyzOrder))::HoudiniEngineUnity::HAPI_XYZOrder _xyzOrder;
 
-  /// @brief Field _convertedTransformEuler, offset 0x70, size 0x28
-  __declspec(property(get = __cordl_internal_get__convertedTransformEuler, put = __cordl_internal_set__convertedTransformEuler))::HoudiniEngineUnity::HAPI_TransformEuler _convertedTransformEuler;
-
-  __declspec(property(get = get_HandleName))::StringW HandleName;
-
-  __declspec(property(get = get_HandleType))::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType HandleType;
-
-  __declspec(property(get = get_RSTOrder))::HoudiniEngineUnity::HAPI_RSTOrder RSTOrder;
-
-  __declspec(property(get = get_XYZOrder))::HoudiniEngineUnity::HAPI_XYZOrder XYZOrder;
-
-  __declspec(property(get = get_ConvertedTransformEuler))::HoudiniEngineUnity::HAPI_TransformEuler ConvertedTransformEuler;
-
-  __declspec(property(get = get_HandlePosition))::UnityEngine::Vector3 HandlePosition;
-
-  __declspec(property(get = get_HandleRotation))::UnityEngine::Quaternion HandleRotation;
-
-  __declspec(property(get = get_HandleScale))::UnityEngine::Vector3 HandleScale;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Handle__() noexcept;
+  /// @brief Method CleanUp, addr 0x22f2dcc, size 0xc, virtual false, abstract: false, final false
+  inline void CleanUp();
 
-  constexpr ::StringW& __cordl_internal_get__handleName();
+  /// @brief Method GenerateTransform, addr 0x22f28e0, size 0x4ec, virtual false, abstract: false, final false
+  inline void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
 
-  constexpr ::StringW const& __cordl_internal_get__handleName() const;
+  /// @brief Method GetRotateBinding, addr 0x22f1e98, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
 
-  constexpr void __cordl_internal_set__handleName(::StringW value);
+  /// @brief Method GetScaleBinding, addr 0x22f1ea0, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType& __cordl_internal_get__handleType();
+  /// @brief Method GetTranslateBinding, addr 0x22f1e90, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const& __cordl_internal_get__handleType() const;
+  /// @brief Method GetUpdatedPosition, addr 0x22f2df0, size 0x160, virtual false, abstract: false, final false
+  inline bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition);
 
-  constexpr void __cordl_internal_set__handleType(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType value);
+  /// @brief Method GetUpdatedRotation, addr 0x22f2f50, size 0x1fc, virtual false, abstract: false, final false
+  inline bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation);
 
-  constexpr int32_t& __cordl_internal_get__handleIndex();
+  /// @brief Method HasRotateHandle, addr 0x22f1e10, size 0x10, virtual false, abstract: false, final false
+  inline bool HasRotateHandle();
+
+  /// @brief Method HasScaleHandle, addr 0x22f1e20, size 0x10, virtual false, abstract: false, final false
+  inline bool HasScaleHandle();
+
+  /// @brief Method HasTranslateHandle, addr 0x22f1e00, size 0x10, virtual false, abstract: false, final false
+  inline bool HasTranslateHandle();
+
+  /// @brief Method IsEquivalentTo, addr 0x22f314c, size 0x4fc, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
+
+  /// @brief Method IsRotateHandleDisabled, addr 0x22f1e50, size 0x20, virtual false, abstract: false, final false
+  inline bool IsRotateHandleDisabled();
+
+  /// @brief Method IsScaleHandleDisabled, addr 0x22f1e70, size 0x20, virtual false, abstract: false, final false
+  inline bool IsScaleHandleDisabled();
+
+  /// @brief Method IsSpecialRSTOrder, addr 0x22f2dd8, size 0x18, virtual false, abstract: false, final false
+  static inline bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
+
+  /// @brief Method IsTranslateHandleDisabled, addr 0x22f1e30, size 0x20, virtual false, abstract: false, final false
+  inline bool IsTranslateHandleDisabled();
+
+  static inline ::HoudiniEngineUnity::HEU_Handle* New_ctor();
+
+  /// @brief Method SetupHandle, addr 0x22f1ecc, size 0x7cc, virtual false, abstract: false, final false
+  inline bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t handleIndex, ::StringW handleName, ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType handleType,
+                          ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
+
+  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler const& __cordl_internal_get__convertedTransformEuler() const;
+
+  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler& __cordl_internal_get__convertedTransformEuler();
 
   constexpr int32_t const& __cordl_internal_get__handleIndex() const;
 
-  constexpr void __cordl_internal_set__handleIndex(int32_t value);
+  constexpr int32_t& __cordl_internal_get__handleIndex();
 
-  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamTranslateBinding();
+  constexpr ::StringW const& __cordl_internal_get__handleName() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamTranslateBinding() const;
-
-  constexpr void __cordl_internal_set__handleParamTranslateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
+  constexpr ::StringW& __cordl_internal_get__handleName();
 
   constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamRotateBinding();
 
   constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamRotateBinding() const;
 
-  constexpr void __cordl_internal_set__handleParamRotateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
-
   constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamScaleBinding();
 
   constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamScaleBinding() const;
 
-  constexpr void __cordl_internal_set__handleParamScaleBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
+  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamTranslateBinding();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__handlePosition();
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamTranslateBinding() const;
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__handlePosition() const;
 
-  constexpr void __cordl_internal_set__handlePosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__handleRotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__handlePosition();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__handleRotation() const;
 
-  constexpr void __cordl_internal_set__handleRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__handleScale();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__handleRotation();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__handleScale() const;
 
-  constexpr void __cordl_internal_set__handleScale(::UnityEngine::Vector3 value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__handleScale();
 
-  constexpr ::HoudiniEngineUnity::HAPI_RSTOrder& __cordl_internal_get__rstOrder();
+  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const& __cordl_internal_get__handleType() const;
+
+  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType& __cordl_internal_get__handleType();
 
   constexpr ::HoudiniEngineUnity::HAPI_RSTOrder const& __cordl_internal_get__rstOrder() const;
 
-  constexpr void __cordl_internal_set__rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value);
-
-  constexpr ::HoudiniEngineUnity::HAPI_XYZOrder& __cordl_internal_get__xyzOrder();
+  constexpr ::HoudiniEngineUnity::HAPI_RSTOrder& __cordl_internal_get__rstOrder();
 
   constexpr ::HoudiniEngineUnity::HAPI_XYZOrder const& __cordl_internal_get__xyzOrder() const;
 
-  constexpr void __cordl_internal_set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value);
-
-  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler& __cordl_internal_get__convertedTransformEuler();
-
-  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler const& __cordl_internal_get__convertedTransformEuler() const;
+  constexpr ::HoudiniEngineUnity::HAPI_XYZOrder& __cordl_internal_get__xyzOrder();
 
   constexpr void __cordl_internal_set__convertedTransformEuler(::HoudiniEngineUnity::HAPI_TransformEuler value);
 
-  /// @brief Method get_HandleName, addr 0x2224764, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_HandleName();
+  constexpr void __cordl_internal_set__handleIndex(int32_t value);
 
-  /// @brief Method get_HandleType, addr 0x222476c, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType get_HandleType();
+  constexpr void __cordl_internal_set__handleName(::StringW value);
 
-  /// @brief Method get_RSTOrder, addr 0x2224774, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HAPI_RSTOrder get_RSTOrder();
+  constexpr void __cordl_internal_set__handleParamRotateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
 
-  /// @brief Method get_XYZOrder, addr 0x222477c, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
+  constexpr void __cordl_internal_set__handleParamScaleBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
 
-  /// @brief Method get_ConvertedTransformEuler, addr 0x2224784, size 0x14, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HAPI_TransformEuler get_ConvertedTransformEuler();
+  constexpr void __cordl_internal_set__handleParamTranslateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
 
-  /// @brief Method HasTranslateHandle, addr 0x2224798, size 0x10, virtual false, abstract: false, final false
-  inline bool HasTranslateHandle();
+  constexpr void __cordl_internal_set__handlePosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method HasRotateHandle, addr 0x22247a8, size 0x10, virtual false, abstract: false, final false
-  inline bool HasRotateHandle();
+  constexpr void __cordl_internal_set__handleRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method HasScaleHandle, addr 0x22247b8, size 0x10, virtual false, abstract: false, final false
-  inline bool HasScaleHandle();
+  constexpr void __cordl_internal_set__handleScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method IsTranslateHandleDisabled, addr 0x22247c8, size 0x20, virtual false, abstract: false, final false
-  inline bool IsTranslateHandleDisabled();
+  constexpr void __cordl_internal_set__handleType(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType value);
 
-  /// @brief Method IsRotateHandleDisabled, addr 0x22247e8, size 0x20, virtual false, abstract: false, final false
-  inline bool IsRotateHandleDisabled();
+  constexpr void __cordl_internal_set__rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value);
 
-  /// @brief Method IsScaleHandleDisabled, addr 0x2224808, size 0x20, virtual false, abstract: false, final false
-  inline bool IsScaleHandleDisabled();
+  constexpr void __cordl_internal_set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value);
 
-  /// @brief Method GetTranslateBinding, addr 0x2224828, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetTranslateBinding();
-
-  /// @brief Method GetRotateBinding, addr 0x2224830, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetRotateBinding();
-
-  /// @brief Method GetScaleBinding, addr 0x2224838, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HandleParamBinding* GetScaleBinding();
-
-  /// @brief Method get_HandlePosition, addr 0x2224840, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_HandlePosition();
-
-  /// @brief Method get_HandleRotation, addr 0x222484c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_HandleRotation();
-
-  /// @brief Method get_HandleScale, addr 0x2224858, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_HandleScale();
-
-  /// @brief Method SetupHandle, addr 0x2224864, size 0x7cc, virtual false, abstract: false, final false
-  inline bool SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t handleIndex, ::StringW handleName, ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType handleType,
-                          ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo, ::HoudiniEngineUnity::HEU_Parameters* parameters);
-
-  /// @brief Method CleanUp, addr 0x2225764, size 0xc, virtual false, abstract: false, final false
-  inline void CleanUp();
-
-  /// @brief Method GenerateTransform, addr 0x2225278, size 0x4ec, virtual false, abstract: false, final false
-  inline void GenerateTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_Parameters* parameters);
-
-  /// @brief Method GetUpdatedPosition, addr 0x2225788, size 0x160, virtual false, abstract: false, final false
-  inline bool GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition);
-
-  /// @brief Method GetUpdatedRotation, addr 0x22258e8, size 0x1fc, virtual false, abstract: false, final false
-  inline bool GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation);
-
-  /// @brief Method IsSpecialRSTOrder, addr 0x2225770, size 0x18, virtual false, abstract: false, final false
-  static inline bool IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder);
-
-  /// @brief Method IsEquivalentTo, addr 0x2225ae4, size 0x4fc, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_Handle* other);
-
-  static inline ::HoudiniEngineUnity::HEU_Handle* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2225fe0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f3648, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ConvertedTransformEuler, addr 0x22f1dec, size 0x14, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HAPI_TransformEuler get_ConvertedTransformEuler();
+
+  /// @brief Method get_HandleName, addr 0x22f1dcc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_HandleName();
+
+  /// @brief Method get_HandlePosition, addr 0x22f1ea8, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_HandlePosition();
+
+  /// @brief Method get_HandleRotation, addr 0x22f1eb4, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_HandleRotation();
+
+  /// @brief Method get_HandleScale, addr 0x22f1ec0, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_HandleScale();
+
+  /// @brief Method get_HandleType, addr 0x22f1dd4, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType get_HandleType();
+
+  /// @brief Method get_RSTOrder, addr 0x22f1ddc, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HAPI_RSTOrder get_RSTOrder();
+
+  /// @brief Method get_XYZOrder, addr 0x22f1de4, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HAPI_XYZOrder get_XYZOrder();
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Handle__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_Handle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Handle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_Handle(HEU_Handle&&) = delete;
@@ -340,12 +347,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_Handle(HEU_Handle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_Handle();
-
-public:
   /// @brief Field _handleName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____handleName;
 

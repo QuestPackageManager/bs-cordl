@@ -16,19 +16,17 @@ MARK_VAL_T(::OVR::OpenVR::D3D12TextureData_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8609))
 // CS Name: ::OVR.OpenVR::D3D12TextureData_t
 struct CORDL_TYPE D3D12TextureData_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_pResource", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pCommandQueue", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_nNodeMask", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr D3D12TextureData_t(void* m_pResource, void* m_pCommandQueue, uint32_t m_nNodeMask) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr D3D12TextureData_t();
+
+  // Ctor Parameters [CppParam { name: "m_pResource", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pCommandQueue", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
+  // "m_nNodeMask", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr D3D12TextureData_t(void* m_pResource, void* m_pCommandQueue, uint32_t m_nNodeMask) noexcept;
 
   /// @brief Field m_pResource, offset: 0x0, size: 0x8, def value: None
   void* m_pResource;

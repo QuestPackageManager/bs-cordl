@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseEventsHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6428))
 // CS Name: ::UnityEngine.UIElements::MouseEventsHelper*
 class CORDL_TYPE MouseEventsHelper : public ::System::Object {
 public:
@@ -34,10 +32,16 @@ public:
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse,
                                     ::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 
-  /// @brief Method SendMouseOverMouseOut, addr 0x2e64990, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method SendMouseOverMouseOut, addr 0x2f570b8, size 0x374, virtual false, abstract: false, final false
   static inline void SendMouseOverMouseOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderMouse, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderMouse,
                                            ::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseEventsHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseEventsHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseEventsHelper(MouseEventsHelper&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseEventsHelper(MouseEventsHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseEventsHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

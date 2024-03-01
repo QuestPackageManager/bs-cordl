@@ -34,106 +34,111 @@ MARK_REF_PTR_T(::GlobalNamespace::GradientImageViewStateTransition);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4745)), TypeDefinitionIndex(TypeDefinitionIndex(13580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4745), inst: 927
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4754)) CS Name: ::GradientImageViewStateTransition*
+// CS Name: ::GradientImageViewStateTransition*
 class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::HMUI::ImageView>> {
 public:
   // Declarations
-  /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::GradientTransitionSO> _transition;
-
   /// @brief Field _colorTweenA, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__colorTweenA, put = __cordl_internal_set__colorTweenA))::Tweening::ColorTween* _colorTweenA;
 
   /// @brief Field _colorTweenB, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__colorTweenB, put = __cordl_internal_set__colorTweenB))::Tweening::ColorTween* _colorTweenB;
 
+  /// @brief Field _transition, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::GradientTransitionSO> _transition;
+
   __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::UnityW<::GlobalNamespace::GradientTransitionSO>& __cordl_internal_get__transition();
+  static inline ::GlobalNamespace::GradientImageViewStateTransition* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::GradientTransitionSO> const& __cordl_internal_get__transition() const;
+  /// @brief Method SetColors, addr 0x24a7e48, size 0x60, virtual false, abstract: false, final false
+  inline void SetColors(::UnityEngine::Color startColor, ::UnityEngine::Color endColor);
 
-  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::GradientTransitionSO> value);
+  /// @brief Method SetDisabledState, addr 0x24a7fa8, size 0x80, virtual true, abstract: false, final false
+  inline void SetDisabledState();
+
+  /// @brief Method SetHighlightedState, addr 0x24a7ea8, size 0x80, virtual true, abstract: false, final false
+  inline void SetHighlightedState();
+
+  /// @brief Method SetNormalState, addr 0x24a7dc8, size 0x80, virtual true, abstract: false, final false
+  inline void SetNormalState();
+
+  /// @brief Method SetPressedState, addr 0x24a7f28, size 0x80, virtual true, abstract: false, final false
+  inline void SetPressedState();
+
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x24a80a8, size 0x80, virtual true, abstract: false, final false
+  inline void SetSelectedAndHighlightedState();
+
+  /// @brief Method SetSelectedState, addr 0x24a8028, size 0x80, virtual true, abstract: false, final false
+  inline void SetSelectedState();
+
+  /// @brief Method StartTween, addr 0x24a8128, size 0x194, virtual false, abstract: false, final false
+  inline void StartTween(::UnityEngine::Color startColor, ::UnityEngine::Color endColor, ::System::Action_1<::UnityEngine::Color>* tweenAction, ::System::Action* onCompleteAction,
+                         ByRef<::Tweening::ColorTween*> colorTween);
+
+  /// @brief Method StartTweens, addr 0x24a78c4, size 0x20c, virtual false, abstract: false, final false
+  inline void StartTweens(::UnityEngine::Color endColor1, ::UnityEngine::Color endColor2);
+
+  /// @brief Method TransitionToDisabledState, addr 0x24a7c00, size 0x80, virtual true, abstract: false, final false
+  inline void TransitionToDisabledState();
+
+  /// @brief Method TransitionToHighlightedState, addr 0x24a7ad0, size 0x80, virtual true, abstract: false, final false
+  inline void TransitionToHighlightedState();
+
+  /// @brief Method TransitionToNormalState, addr 0x24a782c, size 0x80, virtual true, abstract: false, final false
+  inline void TransitionToNormalState();
+
+  /// @brief Method TransitionToPressedState, addr 0x24a7b68, size 0x80, virtual true, abstract: false, final false
+  inline void TransitionToPressedState();
+
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x24a7d30, size 0x80, virtual true, abstract: false, final false
+  inline void TransitionToSelectedAndHighlightedState();
+
+  /// @brief Method TransitionToSelectedState, addr 0x24a7c98, size 0x80, virtual true, abstract: false, final false
+  inline void TransitionToSelectedState();
+
+  /// @brief Method <StartTweens>b__17_2, addr 0x24a8414, size 0x1c, virtual false, abstract: false, final false
+  inline void _StartTweens_b__17_2(::UnityEngine::Color color);
+
+  /// @brief Method <StartTweens>b__17_3, addr 0x24a8430, size 0x1c, virtual false, abstract: false, final false
+  inline void _StartTweens_b__17_3(::UnityEngine::Color color);
+
+  /// @brief Method <StartTweens>g__Color1CompleteAction|17_0, addr 0x24a8304, size 0x88, virtual false, abstract: false, final false
+  inline void _StartTweens_g__Color1CompleteAction_17_0();
+
+  /// @brief Method <StartTweens>g__Color2CompleteAction|17_1, addr 0x24a838c, size 0x88, virtual false, abstract: false, final false
+  inline void _StartTweens_g__Color2CompleteAction_17_1();
 
   constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTweenA();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTweenA() const;
 
-  constexpr void __cordl_internal_set__colorTweenA(::Tweening::ColorTween* value);
-
   constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTweenB();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTweenB() const;
 
+  constexpr ::UnityW<::GlobalNamespace::GradientTransitionSO> const& __cordl_internal_get__transition() const;
+
+  constexpr ::UnityW<::GlobalNamespace::GradientTransitionSO>& __cordl_internal_get__transition();
+
+  constexpr void __cordl_internal_set__colorTweenA(::Tweening::ColorTween* value);
+
   constexpr void __cordl_internal_set__colorTweenB(::Tweening::ColorTween* value);
 
-  /// @brief Method get_transition, addr 0x23d98dc, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::GradientTransitionSO> value);
 
-  /// @brief Method TransitionToNormalState, addr 0x23d98e4, size 0x80, virtual true, abstract: false, final false
-  inline void TransitionToNormalState();
-
-  /// @brief Method TransitionToHighlightedState, addr 0x23d9b88, size 0x80, virtual true, abstract: false, final false
-  inline void TransitionToHighlightedState();
-
-  /// @brief Method TransitionToPressedState, addr 0x23d9c20, size 0x80, virtual true, abstract: false, final false
-  inline void TransitionToPressedState();
-
-  /// @brief Method TransitionToDisabledState, addr 0x23d9cb8, size 0x80, virtual true, abstract: false, final false
-  inline void TransitionToDisabledState();
-
-  /// @brief Method TransitionToSelectedState, addr 0x23d9d50, size 0x80, virtual true, abstract: false, final false
-  inline void TransitionToSelectedState();
-
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x23d9de8, size 0x80, virtual true, abstract: false, final false
-  inline void TransitionToSelectedAndHighlightedState();
-
-  /// @brief Method SetNormalState, addr 0x23d9e80, size 0x80, virtual true, abstract: false, final false
-  inline void SetNormalState();
-
-  /// @brief Method SetHighlightedState, addr 0x23d9f60, size 0x80, virtual true, abstract: false, final false
-  inline void SetHighlightedState();
-
-  /// @brief Method SetPressedState, addr 0x23d9fe0, size 0x80, virtual true, abstract: false, final false
-  inline void SetPressedState();
-
-  /// @brief Method SetDisabledState, addr 0x23da060, size 0x80, virtual true, abstract: false, final false
-  inline void SetDisabledState();
-
-  /// @brief Method SetSelectedState, addr 0x23da0e0, size 0x80, virtual true, abstract: false, final false
-  inline void SetSelectedState();
-
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x23da160, size 0x80, virtual true, abstract: false, final false
-  inline void SetSelectedAndHighlightedState();
-
-  /// @brief Method StartTweens, addr 0x23d997c, size 0x20c, virtual false, abstract: false, final false
-  inline void StartTweens(::UnityEngine::Color endColor1, ::UnityEngine::Color endColor2);
-
-  /// @brief Method StartTween, addr 0x23da1e0, size 0x194, virtual false, abstract: false, final false
-  inline void StartTween(::UnityEngine::Color startColor, ::UnityEngine::Color endColor, ::System::Action_1<::UnityEngine::Color>* tweenAction, ::System::Action* onCompleteAction,
-                         ByRef<::Tweening::ColorTween*> colorTween);
-
-  /// @brief Method SetColors, addr 0x23d9f00, size 0x60, virtual false, abstract: false, final false
-  inline void SetColors(::UnityEngine::Color startColor, ::UnityEngine::Color endColor);
-
-  static inline ::GlobalNamespace::GradientImageViewStateTransition* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23da374, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a82bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <StartTweens>g__Color1CompleteAction|17_0, addr 0x23da3bc, size 0x88, virtual false, abstract: false, final false
-  inline void _StartTweens_g__Color1CompleteAction_17_0();
+  /// @brief Method get_transition, addr 0x24a7824, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
-  /// @brief Method <StartTweens>g__Color2CompleteAction|17_1, addr 0x23da444, size 0x88, virtual false, abstract: false, final false
-  inline void _StartTweens_g__Color2CompleteAction_17_1();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GradientImageViewStateTransition();
 
-  /// @brief Method <StartTweens>b__17_2, addr 0x23da4cc, size 0x1c, virtual false, abstract: false, final false
-  inline void _StartTweens_b__17_2(::UnityEngine::Color color);
-
-  /// @brief Method <StartTweens>b__17_3, addr 0x23da4e8, size 0x1c, virtual false, abstract: false, final false
-  inline void _StartTweens_b__17_3(::UnityEngine::Color color);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GradientImageViewStateTransition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientImageViewStateTransition(GradientImageViewStateTransition&&) = delete;
@@ -142,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GradientImageViewStateTransition(GradientImageViewStateTransition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GradientImageViewStateTransition();
-
-public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GradientTransitionSO> ____transition;
 

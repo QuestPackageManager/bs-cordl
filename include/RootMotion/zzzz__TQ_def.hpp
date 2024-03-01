@@ -22,35 +22,39 @@ MARK_REF_PTR_T(::RootMotion::TQ);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12371))
 // CS Name: ::RootMotion::TQ*
 class CORDL_TYPE TQ : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field t, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityEngine::Vector3 t;
-
   /// @brief Field q, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::UnityEngine::Quaternion q;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_t();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_t() const;
-
-  constexpr void __cordl_internal_set_t(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_q();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_q() const;
-
-  constexpr void __cordl_internal_set_q(::UnityEngine::Quaternion value);
+  /// @brief Field t, offset 0x10, size 0xc
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityEngine::Vector3 t;
 
   static inline ::RootMotion::TQ* New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x12ccd18, size 0x64, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_q() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_q();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_t() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_t();
+
+  constexpr void __cordl_internal_set_q(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_t(::UnityEngine::Vector3 value);
+
+  /// @brief Method .ctor, addr 0x130dd04, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TQ();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TQ", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TQ(TQ&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TQ(TQ const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TQ();
-
-public:
   /// @brief Field t, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___t;
 

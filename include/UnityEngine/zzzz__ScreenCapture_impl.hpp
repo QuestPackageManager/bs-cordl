@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d389e4;
+  constexpr static std::size_t addrs = 0x2e2510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode)>(
     &::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2d38a7c;
+  constexpr static std::size_t addrs = 0x2e251a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, int32_t, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode)>(
     &::UnityEngine::ScreenCapture::CaptureScreenshot)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d38a28;
+  constexpr static std::size_t addrs = 0x2e25150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

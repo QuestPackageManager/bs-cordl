@@ -36,103 +36,107 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupList);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10735))
 // CS Name: ::BeatmapEventDataBoxGroupList*
 class CORDL_TYPE BeatmapEventDataBoxGroupList : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field updateBeatmapDataOnInsert, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_updateBeatmapDataOnInsert, put = __cordl_internal_set_updateBeatmapDataOnInsert)) bool updateBeatmapDataOnInsert;
+  /// @brief Field _beatToTimeConverter, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatToTimeConverter, put = __cordl_internal_set__beatToTimeConverter))::GlobalNamespace::IBeatToTimeConverter* _beatToTimeConverter;
+
+  /// @brief Field _beatmapData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
 
   /// @brief Field _beatmapEventDataBoxGroupProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapEventDataBoxGroupProcessor,
                       put = __cordl_internal_set__beatmapEventDataBoxGroupProcessor))::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* _beatmapEventDataBoxGroupProcessor;
 
-  /// @brief Field _sortedList, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sortedList,
-                      put = __cordl_internal_set__sortedList))::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>* _sortedList;
-
   /// @brief Field _groupId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__groupId, put = __cordl_internal_set__groupId)) int32_t _groupId;
 
-  /// @brief Field _beatmapData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
-
-  /// @brief Field _beatToTimeConverter, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatToTimeConverter, put = __cordl_internal_set__beatToTimeConverter))::GlobalNamespace::IBeatToTimeConverter* _beatToTimeConverter;
-
   /// @brief Field _nonSyncedInsertsExist, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__nonSyncedInsertsExist, put = __cordl_internal_set__nonSyncedInsertsExist)) bool _nonSyncedInsertsExist;
+
+  /// @brief Field _sortedList, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__sortedList,
+                      put = __cordl_internal_set__sortedList))::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>* _sortedList;
 
   /// @brief Field _usedBeatmapEventDataBoxes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__usedBeatmapEventDataBoxes,
                              put = setStaticF__usedBeatmapEventDataBoxes))::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* _usedBeatmapEventDataBoxes;
 
-  constexpr bool& __cordl_internal_get_updateBeatmapDataOnInsert();
+  /// @brief Field updateBeatmapDataOnInsert, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_updateBeatmapDataOnInsert, put = __cordl_internal_set_updateBeatmapDataOnInsert)) bool updateBeatmapDataOnInsert;
 
-  constexpr bool const& __cordl_internal_get_updateBeatmapDataOnInsert() const;
+  /// @brief Method Insert, addr 0x12bd2b0, size 0x3c4, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
-  constexpr void __cordl_internal_set_updateBeatmapDataOnInsert(bool value);
+  static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
+
+  /// @brief Method NoDomainReloadInit, addr 0x12bd0e4, size 0x78, virtual false, abstract: false, final false
+  static inline void NoDomainReloadInit();
+
+  /// @brief Method Remove, addr 0x12bd6c4, size 0x3c8, virtual false, abstract: false, final false
+  inline void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
+
+  /// @brief Method SyncWithBeatmapData, addr 0x12bda8c, size 0x178, virtual false, abstract: false, final false
+  inline void SyncWithBeatmapData();
+
+  constexpr ::GlobalNamespace::IBeatToTimeConverter*& __cordl_internal_get__beatToTimeConverter();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConverter*> const& __cordl_internal_get__beatToTimeConverter() const;
+
+  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get__beatmapData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
   constexpr ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*& __cordl_internal_get__beatmapEventDataBoxGroupProcessor();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventDataBoxGroupProcessor*> const& __cordl_internal_get__beatmapEventDataBoxGroupProcessor() const;
 
-  constexpr void __cordl_internal_set__beatmapEventDataBoxGroupProcessor(::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* value);
+  constexpr int32_t const& __cordl_internal_get__groupId() const;
+
+  constexpr int32_t& __cordl_internal_get__groupId();
+
+  constexpr bool const& __cordl_internal_get__nonSyncedInsertsExist() const;
+
+  constexpr bool& __cordl_internal_get__nonSyncedInsertsExist();
 
   constexpr ::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>*& __cordl_internal_get__sortedList();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>*> const&
   __cordl_internal_get__sortedList() const;
 
-  constexpr void __cordl_internal_set__sortedList(::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
+  constexpr bool const& __cordl_internal_get_updateBeatmapDataOnInsert() const;
 
-  constexpr int32_t& __cordl_internal_get__groupId();
-
-  constexpr int32_t const& __cordl_internal_get__groupId() const;
-
-  constexpr void __cordl_internal_set__groupId(int32_t value);
-
-  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get__beatmapData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get__beatmapData() const;
-
-  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
-
-  constexpr ::GlobalNamespace::IBeatToTimeConverter*& __cordl_internal_get__beatToTimeConverter();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConverter*> const& __cordl_internal_get__beatToTimeConverter() const;
+  constexpr bool& __cordl_internal_get_updateBeatmapDataOnInsert();
 
   constexpr void __cordl_internal_set__beatToTimeConverter(::GlobalNamespace::IBeatToTimeConverter* value);
 
-  constexpr bool& __cordl_internal_get__nonSyncedInsertsExist();
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
 
-  constexpr bool const& __cordl_internal_get__nonSyncedInsertsExist() const;
+  constexpr void __cordl_internal_set__beatmapEventDataBoxGroupProcessor(::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* value);
+
+  constexpr void __cordl_internal_set__groupId(int32_t value);
 
   constexpr void __cordl_internal_set__nonSyncedInsertsExist(bool value);
 
-  static inline void setStaticF__usedBeatmapEventDataBoxes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
+  constexpr void __cordl_internal_set__sortedList(::GlobalNamespace::SortedList_2<::GlobalNamespace::BeatmapEventDataBoxGroup*, ::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
+
+  constexpr void __cordl_internal_set_updateBeatmapDataOnInsert(bool value);
+
+  /// @brief Method .ctor, addr 0x12bd15c, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
 
   static inline ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* getStaticF__usedBeatmapEventDataBoxes();
 
-  /// @brief Method NoDomainReloadInit, addr 0x127a114, size 0x78, virtual false, abstract: false, final false
-  static inline void NoDomainReloadInit();
+  static inline void setStaticF__usedBeatmapEventDataBoxes(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
-  static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapEventDataBoxGroupList();
 
-  /// @brief Method .ctor, addr 0x127a18c, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter);
-
-  /// @brief Method Insert, addr 0x127a2e0, size 0x3c4, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
-
-  /// @brief Method Remove, addr 0x127a6f4, size 0x3c8, virtual false, abstract: false, final false
-  inline void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
-
-  /// @brief Method SyncWithBeatmapData, addr 0x127aabc, size 0x178, virtual false, abstract: false, final false
-  inline void SyncWithBeatmapData();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapEventDataBoxGroupList(BeatmapEventDataBoxGroupList&&) = delete;
@@ -141,12 +145,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapEventDataBoxGroupList(BeatmapEventDataBoxGroupList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapEventDataBoxGroupList();
-
-public:
   /// @brief Field updateBeatmapDataOnInsert, offset: 0x10, size: 0x1, def value: None
   bool ___updateBeatmapDataOnInsert;
 

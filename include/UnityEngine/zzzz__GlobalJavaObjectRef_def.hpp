@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::GlobalJavaObjectRef);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14783))
 // CS Name: ::UnityEngine::GlobalJavaObjectRef*
 class CORDL_TYPE GlobalJavaObjectRef : public ::System::Object {
 public:
@@ -28,32 +26,38 @@ public:
   /// @brief Field m_jobject, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_jobject, put = __cordl_internal_set_m_jobject)) void* m_jobject;
 
-  constexpr bool& __cordl_internal_get_m_disposed();
+  /// @brief Method Dispose, addr 0x2d69c5c, size 0x7c, virtual false, abstract: false, final false
+  inline void Dispose();
 
-  constexpr bool const& __cordl_internal_get_m_disposed() const;
-
-  constexpr void __cordl_internal_set_m_disposed(bool value);
-
-  constexpr void*& __cordl_internal_get_m_jobject();
-
-  constexpr void* const& __cordl_internal_get_m_jobject() const;
-
-  constexpr void __cordl_internal_set_m_jobject(void* value);
+  /// @brief Method Finalize, addr 0x2d69bc8, size 0x94, virtual true, abstract: false, final false
+  inline void Finalize();
 
   static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(void* jobject);
 
-  /// @brief Method .ctor, addr 0x2c80a04, size 0xb4, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
+
+  constexpr bool& __cordl_internal_get_m_disposed();
+
+  constexpr void* const& __cordl_internal_get_m_jobject() const;
+
+  constexpr void*& __cordl_internal_get_m_jobject();
+
+  constexpr void __cordl_internal_set_m_disposed(bool value);
+
+  constexpr void __cordl_internal_set_m_jobject(void* value);
+
+  /// @brief Method .ctor, addr 0x2d69ad8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(void* jobject);
 
-  /// @brief Method Finalize, addr 0x2c80af4, size 0x94, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method op_Implicit, addr 0x2c80c04, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d69cd8, size 0x18, virtual false, abstract: false, final false
   static inline void* op_Implicit_void_(::UnityEngine::GlobalJavaObjectRef* obj);
 
-  /// @brief Method Dispose, addr 0x2c80b88, size 0x7c, virtual false, abstract: false, final false
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GlobalJavaObjectRef();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GlobalJavaObjectRef", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GlobalJavaObjectRef(GlobalJavaObjectRef&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GlobalJavaObjectRef(GlobalJavaObjectRef const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GlobalJavaObjectRef();
-
-public:
   /// @brief Field m_disposed, offset: 0x10, size: 0x1, def value: None
   bool ___m_disposed;
 

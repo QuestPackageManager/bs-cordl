@@ -21,32 +21,30 @@ MARK_VAL_T(::System::Runtime::Serialization::SerializationEntry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3198))
 // CS Name: ::System.Runtime.Serialization::SerializationEntry
 struct CORDL_TYPE SerializationEntry {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::System::Object* Value;
-
   __declspec(property(get = get_Name))::StringW Name;
 
-  /// @brief Method .ctor, addr 0x24d5574, size 0xc, virtual false, abstract: false, final false
+  __declspec(property(get = get_Value))::System::Object* Value;
+
+  /// @brief Method .ctor, addr 0x25a626c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW entryName, ::System::Object* entryValue, ::System::Type* entryType);
 
-  /// @brief Method get_Value, addr 0x24d5580, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Value();
-
-  /// @brief Method get_Name, addr 0x24d5588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x25a6280, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {
-  // name: "_type", ty: "::System::Type*", modifiers: "", def_value: None }]
-  constexpr SerializationEntry(::StringW _name, ::System::Object* _value, ::System::Type* _type) noexcept;
+  /// @brief Method get_Value, addr 0x25a6278, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Value();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SerializationEntry();
+
+  // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam {
+  // name: "_type", ty: "::System::Type*", modifiers: "", def_value: None }]
+  constexpr SerializationEntry(::StringW _name, ::System::Object* _value, ::System::Type* _type) noexcept;
 
   /// @brief Field _name, offset: 0x0, size: 0x8, def value: None
   ::StringW _name;

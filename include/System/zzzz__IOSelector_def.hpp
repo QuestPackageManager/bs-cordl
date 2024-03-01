@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::System::IOSelector);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6907))
 // CS Name: ::System::IOSelector*
 class CORDL_TYPE IOSelector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x2951ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2a37474, size 0x4, virtual false, abstract: false, final false
   static inline void Add(void* handle, ::System::IOSelectorJob* job);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IOSelector();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IOSelector", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IOSelector(IOSelector&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IOSelector(IOSelector const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IOSelector();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

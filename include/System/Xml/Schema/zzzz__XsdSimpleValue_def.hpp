@@ -20,40 +20,44 @@ MARK_REF_PTR_T(::System::Xml::Schema::XsdSimpleValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11514))
 // CS Name: ::System.Xml.Schema::XsdSimpleValue*
 class CORDL_TYPE XsdSimpleValue : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field xmlType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType))::System::Xml::Schema::XmlSchemaSimpleType* xmlType;
+  __declspec(property(get = get_TypedValue))::System::Object* TypedValue;
+
+  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaSimpleType* XmlType;
 
   /// @brief Field typedValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typedValue, put = __cordl_internal_set_typedValue))::System::Object* typedValue;
 
-  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaSimpleType* XmlType;
-
-  __declspec(property(get = get_TypedValue))::System::Object* TypedValue;
-
-  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_xmlType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_xmlType() const;
-
-  constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+  /// @brief Field xmlType, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType))::System::Xml::Schema::XmlSchemaSimpleType* xmlType;
 
   constexpr ::System::Object*& __cordl_internal_get_typedValue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typedValue() const;
 
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_xmlType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_xmlType() const;
+
   constexpr void __cordl_internal_set_typedValue(::System::Object* value);
 
-  /// @brief Method get_XmlType, addr 0x28b4390, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
+  constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method get_TypedValue, addr 0x28b4398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x299b814, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
+  /// @brief Method get_XmlType, addr 0x299b80c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XsdSimpleValue();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XsdSimpleValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XsdSimpleValue(XsdSimpleValue&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XsdSimpleValue(XsdSimpleValue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XsdSimpleValue();
-
-public:
   /// @brief Field xmlType, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaSimpleType* ___xmlType;
 

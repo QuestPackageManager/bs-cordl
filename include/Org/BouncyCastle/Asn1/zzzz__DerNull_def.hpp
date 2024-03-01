@@ -22,47 +22,51 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerNull);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(454))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(477))
 // CS Name: ::Org.BouncyCastle.Asn1::DerNull*
 class CORDL_TYPE DerNull : public ::Org::BouncyCastle::Asn1::Asn1Null {
 public:
   // Declarations
-  /// @brief Field zeroBytes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
-
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::DerNull* Instance;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_zeroBytes();
+  /// @brief Field zeroBytes, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_zeroBytes() const;
+  /// @brief Method Asn1Equals, addr 0x122bfb8, size 0x78, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method Asn1GetHashCode, addr 0x122c030, size 0x8, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::DerNull* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerNull* getStaticF_Instance();
+  /// @brief Method Encode, addr 0x122bf94, size 0x24, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11e8f14, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor(int32_t dummy);
 
-  /// @brief Method .ctor, addr 0x11e8f6c, size 0x58, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_zeroBytes() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_zeroBytes();
+
+  constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x122bee4, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x122bf3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
-  /// @brief Method Encode, addr 0x11e8fc4, size 0x24, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+  static inline ::Org::BouncyCastle::Asn1::DerNull* getStaticF_Instance();
 
-  /// @brief Method Asn1Equals, addr 0x11e8fe8, size 0x78, virtual true, abstract: false, final false
-  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::DerNull* value);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11e9060, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Asn1GetHashCode();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerNull();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerNull", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerNull(DerNull&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerNull(DerNull const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerNull();
-
-public:
   /// @brief Field zeroBytes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___zeroBytes;
 

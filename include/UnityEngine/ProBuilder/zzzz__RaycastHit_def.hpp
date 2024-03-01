@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::RaycastHit);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12079))
 // CS Name: ::UnityEngine.ProBuilder::RaycastHit*
 class CORDL_TYPE RaycastHit : public ::System::Object {
 public:
@@ -29,44 +27,50 @@ public:
   /// @brief Field distance, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
 
-  /// @brief Field point, offset 0x14, size 0xc
-  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::UnityEngine::Vector3 point;
+  /// @brief Field face, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face)) int32_t face;
 
   /// @brief Field normal, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal))::UnityEngine::Vector3 normal;
 
-  /// @brief Field face, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face)) int32_t face;
-
-  constexpr float_t& __cordl_internal_get_distance();
-
-  constexpr float_t const& __cordl_internal_get_distance() const;
-
-  constexpr void __cordl_internal_set_distance(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_point();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_point() const;
-
-  constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_normal();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_normal() const;
-
-  constexpr void __cordl_internal_set_normal(::UnityEngine::Vector3 value);
-
-  constexpr int32_t& __cordl_internal_get_face();
-
-  constexpr int32_t const& __cordl_internal_get_face() const;
-
-  constexpr void __cordl_internal_set_face(int32_t value);
+  /// @brief Field point, offset 0x14, size 0xc
+  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::UnityEngine::Vector3 point;
 
   static inline ::UnityEngine::ProBuilder::RaycastHit* New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
-  /// @brief Method .ctor, addr 0x2b62540, size 0x74, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_distance() const;
+
+  constexpr float_t& __cordl_internal_get_distance();
+
+  constexpr int32_t const& __cordl_internal_get_face() const;
+
+  constexpr int32_t& __cordl_internal_get_face();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_normal() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_normal();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_point() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_point();
+
+  constexpr void __cordl_internal_set_distance(float_t value);
+
+  constexpr void __cordl_internal_set_face(int32_t value);
+
+  constexpr void __cordl_internal_set_normal(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
+
+  /// @brief Method .ctor, addr 0x2c49614, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RaycastHit();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RaycastHit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RaycastHit(RaycastHit&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RaycastHit(RaycastHit const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RaycastHit();
-
-public:
   /// @brief Field distance, offset: 0x10, size: 0x4, def value: None
   float_t ___distance;
 

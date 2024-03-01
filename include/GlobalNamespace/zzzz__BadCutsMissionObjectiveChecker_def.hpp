@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BadCutsMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4451))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4439))
 // CS Name: ::BadCutsMissionObjectiveChecker*
 class CORDL_TYPE BadCutsMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -33,26 +31,32 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
+  /// @brief Method HandleNoteWasCut, addr 0x2456ad8, size 0x90, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+
+  /// @brief Method Init, addr 0x24568b8, size 0x14c, virtual true, abstract: false, final false
+  inline void Init();
+
+  static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2456a40, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Init, addr 0x2388970, size 0x14c, virtual true, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method OnDestroy, addr 0x2388af8, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleNoteWasCut, addr 0x2388b90, size 0x90, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-
-  static inline ::GlobalNamespace::BadCutsMissionObjectiveChecker* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2388c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2456ba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BadCutsMissionObjectiveChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BadCutsMissionObjectiveChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BadCutsMissionObjectiveChecker(BadCutsMissionObjectiveChecker&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BadCutsMissionObjectiveChecker(BadCutsMissionObjectiveChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BadCutsMissionObjectiveChecker();
-
-public:
   /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 

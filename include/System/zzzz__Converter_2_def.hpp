@@ -20,20 +20,24 @@ namespace System {
 // cpp template
 template <typename TInput, typename TOutput>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2340))
 // CS Name: ::System::Converter`2<TInput,TOutput>*
 class CORDL_TYPE Converter_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TOutput Invoke(TInput input);
+
   static inline ::System::Converter_2<TInput, TOutput>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TOutput Invoke(TInput input);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Converter_2();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Converter_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Converter_2(Converter_2&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Converter_2(Converter_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Converter_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

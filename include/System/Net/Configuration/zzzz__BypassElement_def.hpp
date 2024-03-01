@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::System::Net::Configuration::BypassElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16432))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7576))
 // CS Name: ::System.Net.Configuration::BypassElement*
 class CORDL_TYPE BypassElement : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BypassElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BypassElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BypassElement(BypassElement&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BypassElement(BypassElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BypassElement();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvali
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3332))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2301))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*
 class CORDL_TYPE SafeHandleZeroOrMinusOneIsInvalid : public ::System::Runtime::InteropServices::SafeHandle {
 public:
@@ -24,12 +22,18 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x244bfa8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251dca0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x244c0cc, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x251ddc4, size 0x5c, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeHandleZeroOrMinusOneIsInvalid();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandleZeroOrMinusOneIsInvalid", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeHandleZeroOrMinusOneIsInvalid(SafeHandleZeroOrMinusOneIsInvalid&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeHandleZeroOrMinusOneIsInvalid(SafeHandleZeroOrMinusOneIsInvalid const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeHandleZeroOrMinusOneIsInvalid();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LODGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9696))
 // CS Name: ::HoudiniEngineUnity::Test_LODGroup*
 class CORDL_TYPE Test_LODGroup : public ::System::Object {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"
-  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_LODGroup__() noexcept;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>*() noexcept;
+
+  /// @brief Method IsEquivalentTo, addr 0x2346204, size 0x28c, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
+
+  /// @brief Method IsNull, addr 0x23461a4, size 0x60, virtual true, abstract: false, final true
+  inline bool IsNull();
+
+  static inline ::HoudiniEngineUnity::Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self);
+
+  constexpr ::UnityW<::UnityEngine::LODGroup> const& __cordl_internal_get_self() const;
+
+  constexpr ::UnityW<::UnityEngine::LODGroup>& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::LODGroup> value);
+
+  /// @brief Method .ctor, addr 0x234617c, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::LODGroup* self);
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>"
+  constexpr ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_LODGroup*>* i___HoudiniEngineUnity__IEquivableWrapperClass_1___HoudiniEngineUnity__Test_LODGroup__() noexcept;
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LODGroup*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_LODGroup__() noexcept;
 
-  constexpr ::UnityW<::UnityEngine::LODGroup>& __cordl_internal_get_self();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_LODGroup();
 
-  constexpr ::UnityW<::UnityEngine::LODGroup> const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::LODGroup> value);
-
-  static inline ::HoudiniEngineUnity::Test_LODGroup* New_ctor(::UnityEngine::LODGroup* self);
-
-  /// @brief Method .ctor, addr 0x2279b14, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::LODGroup* self);
-
-  /// @brief Method IsNull, addr 0x2279b3c, size 0x60, virtual true, abstract: false, final true
-  inline bool IsNull();
-
-  /// @brief Method IsEquivalentTo, addr 0x2279b9c, size 0x28c, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LODGroup* other);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_LODGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_LODGroup(Test_LODGroup&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_LODGroup(Test_LODGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_LODGroup();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::LODGroup> ___self;
 

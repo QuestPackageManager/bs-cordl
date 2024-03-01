@@ -81,24 +81,16 @@ MARK_REF_PTR_T(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCha
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15015))
 // CS Name: ::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*
 class CORDL_TYPE __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
-
-  /// @brief Field _placeTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__placeTransform, put = __cordl_internal_set__placeTransform))::UnityW<::UnityEngine::Transform> _placeTransform;
+  /// @brief Field _animationClip, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__animationClip, put = __cordl_internal_set__animationClip))::UnityW<::UnityEngine::AnimationClip> _animationClip;
 
   /// @brief Field _animationController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animationController,
                       put = __cordl_internal_set__animationController))::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> _animationController;
-
-  /// @brief Field _animationClip, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__animationClip, put = __cordl_internal_set__animationClip))::UnityW<::UnityEngine::AnimationClip> _animationClip;
 
   /// @brief Field _btsCharacter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__btsCharacter, put = __cordl_internal_set__btsCharacter))::UnityW<::GlobalNamespace::BTSCharacter> _btsCharacter;
@@ -107,58 +99,70 @@ public:
   __declspec(property(get = __cordl_internal_get__btsCharacterAssetReference,
                       put = __cordl_internal_set__btsCharacterAssetReference))::UnityEngine::AddressableAssets::AssetReference* _btsCharacterAssetReference;
 
+  /// @brief Field _name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+
+  /// @brief Field _placeTransform, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__placeTransform, put = __cordl_internal_set__placeTransform))::UnityW<::UnityEngine::Transform> _placeTransform;
+
   __declspec(property(get = get_name))::StringW name;
 
-  constexpr ::StringW& __cordl_internal_get__name();
+  /// @brief Method Clean, addr 0xe74668, size 0xec, virtual false, abstract: false, final false
+  inline void Clean();
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+  static inline ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation* New_ctor();
 
-  constexpr void __cordl_internal_set__name(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__placeTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__placeTransform() const;
-
-  constexpr void __cordl_internal_set__placeTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController>& __cordl_internal_get__animationController();
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> const& __cordl_internal_get__animationController() const;
-
-  constexpr void __cordl_internal_set__animationController(::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> value);
-
-  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__animationClip();
+  /// @brief Method SetCharacter, addr 0xe74210, size 0xcc, virtual false, abstract: false, final false
+  inline void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
 
-  constexpr void __cordl_internal_set__animationClip(::UnityW<::UnityEngine::AnimationClip> value);
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__animationClip();
 
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacter>& __cordl_internal_get__btsCharacter();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> const& __cordl_internal_get__animationController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController>& __cordl_internal_get__animationController();
 
   constexpr ::UnityW<::GlobalNamespace::BTSCharacter> const& __cordl_internal_get__btsCharacter() const;
 
-  constexpr void __cordl_internal_set__btsCharacter(::UnityW<::GlobalNamespace::BTSCharacter> value);
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacter>& __cordl_internal_get__btsCharacter();
 
   constexpr ::UnityEngine::AddressableAssets::AssetReference*& __cordl_internal_get__btsCharacterAssetReference();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __cordl_internal_get__btsCharacterAssetReference() const;
 
+  constexpr ::StringW const& __cordl_internal_get__name() const;
+
+  constexpr ::StringW& __cordl_internal_get__name();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__placeTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__placeTransform();
+
+  constexpr void __cordl_internal_set__animationClip(::UnityW<::UnityEngine::AnimationClip> value);
+
+  constexpr void __cordl_internal_set__animationController(::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> value);
+
+  constexpr void __cordl_internal_set__btsCharacter(::UnityW<::GlobalNamespace::BTSCharacter> value);
+
   constexpr void __cordl_internal_set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method get_name, addr 0xe2ec6c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_name();
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method Clean, addr 0xe2eb04, size 0xec, virtual false, abstract: false, final false
-  inline void Clean();
+  constexpr void __cordl_internal_set__placeTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method SetCharacter, addr 0xe2e6ac, size 0xcc, virtual false, abstract: false, final false
-  inline void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
-
-  static inline ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe2ec74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe747d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_name, addr 0xe747d0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_name();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation&&) = delete;
@@ -167,12 +171,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation(__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation();
-
-public:
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
 
@@ -213,12 +211,14 @@ static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTS
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15016))
 // CS Name: ::BtsResultsEnvironmentController::<DestroyCharactersDelayed>d__13*
 class CORDL_TYPE __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -228,66 +228,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0xe747e4, size 0xc0, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe748a4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe748ac, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe748ec, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0xe747e0, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::BtsResultsEnvironmentController>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> value);
 
-  static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0xe2eadc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe74640, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe2ec7c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0xe2ec80, size 0xc0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe2ed40, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe2ed48, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe2ed88, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13(__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13&&) = delete;
@@ -296,12 +298,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13(__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -327,15 +323,13 @@ static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___De
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4038)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15017))
 // CS Name: ::BtsResultsEnvironmentController*
 class CORDL_TYPE BtsResultsEnvironmentController : public ::GlobalNamespace::BaseResultsEnvironmentController {
 public:
   // Declarations
-  using _DestroyCharactersDelayed_d__13 = ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13;
-
   using BTSResultCharacterPlaceWithAnimation = ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
+
+  using _DestroyCharactersDelayed_d__13 = ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13;
 
   /// @brief Field _btsCharacterAnimationWrapper, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__btsCharacterAnimationWrapper,
@@ -348,80 +342,86 @@ public:
   __declspec(property(get = __cordl_internal_get__btsCharactersResultsAppearPlayableDirector,
                       put = __cordl_internal_set__btsCharactersResultsAppearPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _btsCharactersResultsAppearPlayableDirector;
 
+  /// @brief Field _handles, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__handles,
+                      put = __cordl_internal_set__handles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _handles;
+
   /// @brief Field _resultPlacesWithAnimations, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__resultPlacesWithAnimations, put = __cordl_internal_set__resultPlacesWithAnimations))::ArrayW<
       ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
       ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> _resultPlacesWithAnimations;
 
-  /// @brief Field _handles, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__handles,
-                      put = __cordl_internal_set__handles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _handles;
-
   __declspec(property(get = get_keyword))::StringW keyword;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__btsCharacterAnimationWrapper();
+  /// @brief Method Activate, addr 0xe742dc, size 0xa8, virtual true, abstract: false, final false
+  inline void Activate();
+
+  /// @brief Method Deactivate, addr 0xe74384, size 0x1d0, virtual true, abstract: false, final false
+  inline void Deactivate();
+
+  /// @brief Method DestroyCharactersAndStopAnimations, addr 0xe74554, size 0x84, virtual false, abstract: false, final false
+  inline void DestroyCharactersAndStopAnimations();
+
+  /// @brief Method DestroyCharactersDelayed, addr 0xe745d8, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* DestroyCharactersDelayed();
+
+  static inline ::GlobalNamespace::BtsResultsEnvironmentController* New_ctor();
+
+  /// @brief Method Setup, addr 0xe73adc, size 0x4e4, virtual true, abstract: false, final false
+  inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+
+  /// @brief Method SpawnBtsCharacters, addr 0xe73fc0, size 0x250, virtual false, abstract: false, final false
+  inline void SpawnBtsCharacters(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__btsCharacterAnimationWrapper() const;
 
-  constexpr void __cordl_internal_set__btsCharacterAnimationWrapper(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel>& __cordl_internal_get__btsCharacterDataModel();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__btsCharacterAnimationWrapper();
 
   constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel> const& __cordl_internal_get__btsCharacterDataModel() const;
 
-  constexpr void __cordl_internal_set__btsCharacterDataModel(::UnityW<::GlobalNamespace::BTSCharacterDataModel> value);
-
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__btsCharactersResultsAppearPlayableDirector();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel>& __cordl_internal_get__btsCharacterDataModel();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__btsCharactersResultsAppearPlayableDirector() const;
 
-  constexpr void __cordl_internal_set__btsCharactersResultsAppearPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
-                     ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>&
-  __cordl_internal_get__resultPlacesWithAnimations();
-
-  constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
-                     ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> const&
-  __cordl_internal_get__resultPlacesWithAnimations() const;
-
-  constexpr void __cordl_internal_set__resultPlacesWithAnimations(::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
-                                                                           ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>
-                                                                      value);
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__btsCharactersResultsAppearPlayableDirector();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get__handles();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
   __cordl_internal_get__handles() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
+                     ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> const&
+  __cordl_internal_get__resultPlacesWithAnimations() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
+                     ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>&
+  __cordl_internal_get__resultPlacesWithAnimations();
+
+  constexpr void __cordl_internal_set__btsCharacterAnimationWrapper(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__btsCharacterDataModel(::UnityW<::GlobalNamespace::BTSCharacterDataModel> value);
+
+  constexpr void __cordl_internal_set__btsCharactersResultsAppearPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
+
   constexpr void __cordl_internal_set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method get_keyword, addr 0xe2df38, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_keyword();
+  constexpr void __cordl_internal_set__resultPlacesWithAnimations(::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
+                                                                           ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>
+                                                                      value);
 
-  /// @brief Method Setup, addr 0xe2df78, size 0x4e4, virtual true, abstract: false, final false
-  inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
-
-  /// @brief Method SpawnBtsCharacters, addr 0xe2e45c, size 0x250, virtual false, abstract: false, final false
-  inline void SpawnBtsCharacters(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
-
-  /// @brief Method Activate, addr 0xe2e778, size 0xa8, virtual true, abstract: false, final false
-  inline void Activate();
-
-  /// @brief Method Deactivate, addr 0xe2e820, size 0x1d0, virtual true, abstract: false, final false
-  inline void Deactivate();
-
-  /// @brief Method DestroyCharactersDelayed, addr 0xe2ea74, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* DestroyCharactersDelayed();
-
-  /// @brief Method DestroyCharactersAndStopAnimations, addr 0xe2e9f0, size 0x84, virtual false, abstract: false, final false
-  inline void DestroyCharactersAndStopAnimations();
-
-  static inline ::GlobalNamespace::BtsResultsEnvironmentController* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe2ebf0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe74754, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_keyword, addr 0xe73a9c, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_keyword();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BtsResultsEnvironmentController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BtsResultsEnvironmentController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BtsResultsEnvironmentController(BtsResultsEnvironmentController&&) = delete;
@@ -430,12 +430,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BtsResultsEnvironmentController(BtsResultsEnvironmentController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BtsResultsEnvironmentController();
-
-public:
   /// @brief Field _btsCharacterAnimationWrapper, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____btsCharacterAnimationWrapper;
 

@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LanguagePackInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13379))
 // CS Name: ::Oculus.Platform.Models::LanguagePackInfo*
 class CORDL_TYPE LanguagePackInfo : public ::System::Object {
 public:
@@ -31,29 +29,35 @@ public:
   /// @brief Field Tag, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Tag, put = __cordl_internal_set_Tag))::StringW Tag;
 
-  constexpr ::StringW& __cordl_internal_get_EnglishName();
+  static inline ::Oculus::Platform::Models::LanguagePackInfo* New_ctor(void* o);
 
   constexpr ::StringW const& __cordl_internal_get_EnglishName() const;
 
-  constexpr void __cordl_internal_set_EnglishName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_NativeName();
+  constexpr ::StringW& __cordl_internal_get_EnglishName();
 
   constexpr ::StringW const& __cordl_internal_get_NativeName() const;
 
-  constexpr void __cordl_internal_set_NativeName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Tag();
+  constexpr ::StringW& __cordl_internal_get_NativeName();
 
   constexpr ::StringW const& __cordl_internal_get_Tag() const;
 
+  constexpr ::StringW& __cordl_internal_get_Tag();
+
+  constexpr void __cordl_internal_set_EnglishName(::StringW value);
+
+  constexpr void __cordl_internal_set_NativeName(::StringW value);
+
   constexpr void __cordl_internal_set_Tag(::StringW value);
 
-  static inline ::Oculus::Platform::Models::LanguagePackInfo* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2736c84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f5ff8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LanguagePackInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LanguagePackInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguagePackInfo(LanguagePackInfo&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LanguagePackInfo(LanguagePackInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LanguagePackInfo();
-
-public:
   /// @brief Field EnglishName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___EnglishName;
 

@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6716))
 // CS Name: ::UnityEngine.UIElements.Experimental::IValueAnimationUpdate*
 class CORDL_TYPE IValueAnimationUpdate {
 public:

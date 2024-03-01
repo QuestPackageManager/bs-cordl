@@ -43,8 +43,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9641))
 // CS Name: ::HoudiniEngineUnity::HEU_InputUtility*
 class CORDL_TYPE HEU_InputUtility : public ::System::Object {
 public:
@@ -52,41 +50,47 @@ public:
   /// @brief Field _inputInterfaces, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__inputInterfaces, put = setStaticF__inputInterfaces))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* _inputInterfaces;
 
-  static inline void setStaticF__inputInterfaces(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* value);
-
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* getStaticF__inputInterfaces();
-
-  /// @brief Method GetHighestPriority, addr 0x226421c, size 0xcc, virtual false, abstract: false, final false
-  static inline int32_t GetHighestPriority();
-
-  /// @brief Method RegisterInputInterface, addr 0x22642e8, size 0x29c, virtual false, abstract: false, final false
-  static inline void RegisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
-
-  /// @brief Method UnregisterInputInterface, addr 0x22646dc, size 0x80, virtual false, abstract: false, final false
-  static inline void UnregisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
-
-  /// @brief Method GetInputInterfaceByType, addr 0x2264584, size 0x158, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterfaceByType(::System::Type* type);
-
-  /// @brief Method GetInputInterface, addr 0x226475c, size 0x118, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::UnityEngine::GameObject* inputObject);
-
-  /// @brief Method GetInputInterface, addr 0x2264874, size 0xe0, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::HoudiniEngineUnity::HEU_InputObjectInfo* inputObjectInfo);
-
-  /// @brief Method CreateInputNodeWithMultiObjects, addr 0x2264954, size 0x5d0, virtual false, abstract: false, final false
-  static inline bool CreateInputNodeWithMultiObjects(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, ByRef<int32_t> connectMergeID,
-                                                     ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> inputObjects,
-                                                     ByRef<::System::Collections::Generic::List_1<int32_t>*> inputObjectsConnectedAssetIDs, ::HoudiniEngineUnity::HEU_InputNode* inputNode);
-
-  /// @brief Method CreateInputNodeWithMultiAssets, addr 0x226524c, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method CreateInputNodeWithMultiAssets, addr 0x23318b4, size 0x3c4, virtual false, abstract: false, final false
   static inline bool CreateInputNodeWithMultiAssets(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ByRef<int32_t> connectMergeID,
                                                     ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> inputAssetInfos, bool bKeepWorldTransform,
                                                     int32_t mergeParentID);
 
-  /// @brief Method UploadInputObjectTransform, addr 0x2264f24, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method CreateInputNodeWithMultiObjects, addr 0x2330fbc, size 0x5d0, virtual false, abstract: false, final false
+  static inline bool CreateInputNodeWithMultiObjects(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, ByRef<int32_t> connectMergeID,
+                                                     ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> inputObjects,
+                                                     ByRef<::System::Collections::Generic::List_1<int32_t>*> inputObjectsConnectedAssetIDs, ::HoudiniEngineUnity::HEU_InputNode* inputNode);
+
+  /// @brief Method GetHighestPriority, addr 0x2330884, size 0xcc, virtual false, abstract: false, final false
+  static inline int32_t GetHighestPriority();
+
+  /// @brief Method GetInputInterface, addr 0x2330dc4, size 0x118, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::UnityEngine::GameObject* inputObject);
+
+  /// @brief Method GetInputInterface, addr 0x2330edc, size 0xe0, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterface(::HoudiniEngineUnity::HEU_InputObjectInfo* inputObjectInfo);
+
+  /// @brief Method GetInputInterfaceByType, addr 0x2330bec, size 0x158, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::HEU_InputInterface* GetInputInterfaceByType(::System::Type* type);
+
+  /// @brief Method RegisterInputInterface, addr 0x2330950, size 0x29c, virtual false, abstract: false, final false
+  static inline void RegisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
+
+  /// @brief Method UnregisterInputInterface, addr 0x2330d44, size 0x80, virtual false, abstract: false, final false
+  static inline void UnregisterInputInterface(::HoudiniEngineUnity::HEU_InputInterface* inputInterface);
+
+  /// @brief Method UploadInputObjectTransform, addr 0x233158c, size 0x328, virtual false, abstract: false, final false
   static inline bool UploadInputObjectTransform(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputObjectInfo* inputObject, int32_t inputNodeID, bool bKeepWorldTransform);
 
+  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* getStaticF__inputInterfaces();
+
+  static inline void setStaticF__inputInterfaces(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputInterface*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_InputUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_InputUtility(HEU_InputUtility&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputUtility(HEU_InputUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_InputUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

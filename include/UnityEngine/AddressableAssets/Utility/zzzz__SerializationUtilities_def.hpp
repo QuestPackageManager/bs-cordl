@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::SerializationUtilities
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14115))
 // CS Name: ::SerializationUtilities::ObjectType
 struct CORDL_TYPE __SerializationUtilities__ObjectType {
 public:
@@ -55,24 +53,35 @@ public:
     return static_cast<____SerializationUtilities__ObjectType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SerializationUtilities__ObjectType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SerializationUtilities__ObjectType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __SerializationUtilities__ObjectType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field AsciiString value: static_cast<int32_t>(0x0)
   static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const AsciiString;
 
-  /// @brief Field UnicodeString value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const UnicodeString;
+  /// @brief Field Hash128 value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const Hash128;
+
+  /// @brief Field Int32 value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const Int32;
+
+  /// @brief Field JsonObject value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const JsonObject;
+
+  /// @brief Field Type value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const Type;
 
   /// @brief Field UInt16 value: static_cast<int32_t>(0x2)
   static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const UInt16;
@@ -80,17 +89,11 @@ public:
   /// @brief Field UInt32 value: static_cast<int32_t>(0x3)
   static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const UInt32;
 
-  /// @brief Field Int32 value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const Int32;
+  /// @brief Field UnicodeString value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const UnicodeString;
 
-  /// @brief Field Hash128 value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const Hash128;
-
-  /// @brief Field Type value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const Type;
-
-  /// @brief Field JsonObject value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType const JsonObject;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -104,26 +107,30 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::__Serializatio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14116))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::SerializationUtilities*
 class CORDL_TYPE SerializationUtilities : public ::System::Object {
 public:
   // Declarations
   using ObjectType = ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType;
 
-  /// @brief Method ReadInt32FromByteArray, addr 0x2a2c0c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32FromByteArray, addr 0x2b1419c, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadInt32FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset);
 
-  /// @brief Method WriteInt32ToByteArray, addr 0x2a2c13c, size 0x84, virtual false, abstract: false, final false
-  static inline int32_t WriteInt32ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t val, int32_t offset);
-
-  /// @brief Method ReadObjectFromByteArray, addr 0x2a2c1c0, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method ReadObjectFromByteArray, addr 0x2b14294, size 0x5a0, virtual false, abstract: false, final false
   static inline ::System::Object* ReadObjectFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData, int32_t dataIndex);
 
-  /// @brief Method WriteObjectToByteList, addr 0x2a2c760, size 0xb60, virtual false, abstract: false, final false
+  /// @brief Method WriteInt32ToByteArray, addr 0x2b14210, size 0x84, virtual false, abstract: false, final false
+  static inline int32_t WriteInt32ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t val, int32_t offset);
+
+  /// @brief Method WriteObjectToByteList, addr 0x2b14834, size 0xb60, virtual false, abstract: false, final false
   static inline int32_t WriteObjectToByteList(::System::Object* obj, ::System::Collections::Generic::List_1<uint8_t>* buffer);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerializationUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SerializationUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationUtilities(SerializationUtilities&&) = delete;
@@ -132,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerializationUtilities(SerializationUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerializationUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -38,105 +38,109 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(78))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::KeyAgreeRecipientInfo*
 class CORDL_TYPE KeyAgreeRecipientInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = get_KeyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* KeyEncryptionAlgorithm;
 
-  /// @brief Field originator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_originator, put = __cordl_internal_set_originator))::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator;
+  __declspec(property(get = get_Originator))::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Originator;
 
-  /// @brief Field ukm, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ukm, put = __cordl_internal_set_ukm))::Org::BouncyCastle::Asn1::Asn1OctetString* ukm;
+  __declspec(property(get = get_RecipientEncryptedKeys))::Org::BouncyCastle::Asn1::Asn1Sequence* RecipientEncryptedKeys;
+
+  __declspec(property(get = get_UserKeyingMaterial))::Org::BouncyCastle::Asn1::Asn1OctetString* UserKeyingMaterial;
+
+  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   /// @brief Field keyEncryptionAlgorithm, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_keyEncryptionAlgorithm,
                       put = __cordl_internal_set_keyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
 
+  /// @brief Field originator, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_originator, put = __cordl_internal_set_originator))::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator;
+
   /// @brief Field recipientEncryptedKeys, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_recipientEncryptedKeys, put = __cordl_internal_set_recipientEncryptedKeys))::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  /// @brief Field ukm, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_ukm, put = __cordl_internal_set_ukm))::Org::BouncyCastle::Asn1::Asn1OctetString* ukm;
 
-  __declspec(property(get = get_Originator))::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* Originator;
+  /// @brief Field version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  __declspec(property(get = get_UserKeyingMaterial))::Org::BouncyCastle::Asn1::Asn1OctetString* UserKeyingMaterial;
+  /// @brief Method GetInstance, addr 0xeeb95c, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  __declspec(property(get = get_KeyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* KeyEncryptionAlgorithm;
-
-  __declspec(property(get = get_RecipientEncryptedKeys))::Org::BouncyCastle::Asn1::Asn1Sequence* RecipientEncryptedKeys;
-
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
-
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*& __cordl_internal_get_originator();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*> const& __cordl_internal_get_originator() const;
-
-  constexpr void __cordl_internal_set_originator(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_ukm();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_ukm() const;
-
-  constexpr void __cordl_internal_set_ukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncryptionAlgorithm();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncryptionAlgorithm() const;
-
-  constexpr void __cordl_internal_set_keyEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_recipientEncryptedKeys();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_recipientEncryptedKeys() const;
-
-  constexpr void __cordl_internal_set_recipientEncryptedKeys(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  /// @brief Method GetInstance, addr 0xeeb974, size 0x178, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys);
 
-  /// @brief Method .ctor, addr 0xea4600, size 0x98, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xeebb14, size 0x1ec, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncryptionAlgorithm();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncryptionAlgorithm() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*& __cordl_internal_get_originator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*> const& __cordl_internal_get_originator() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_recipientEncryptedKeys();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_recipientEncryptedKeys() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_ukm();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_ukm() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+
+  constexpr void __cordl_internal_set_keyEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+
+  constexpr void __cordl_internal_set_originator(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* value);
+
+  constexpr void __cordl_internal_set_recipientEncryptedKeys(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+
+  constexpr void __cordl_internal_set_ukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  /// @brief Method .ctor, addr 0xeeb5d0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xea4698, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeeb668, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xea498c, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
-
-  /// @brief Method GetInstance, addr 0xea49a4, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_Version, addr 0xea4b1c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
-
-  /// @brief Method get_Originator, addr 0xea4b24, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* get_Originator();
-
-  /// @brief Method get_UserKeyingMaterial, addr 0xea4b2c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_UserKeyingMaterial();
-
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xea4b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xeebb04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_RecipientEncryptedKeys, addr 0xea4b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Originator, addr 0xeebaf4, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* get_Originator();
+
+  /// @brief Method get_RecipientEncryptedKeys, addr 0xeebb0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_RecipientEncryptedKeys();
 
-  /// @brief Method ToAsn1Object, addr 0xea4b44, size 0x1ec, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_UserKeyingMaterial, addr 0xeebafc, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_UserKeyingMaterial();
 
+  /// @brief Method get_Version, addr 0xeebaec, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyAgreeRecipientInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyAgreeRecipientInfo(KeyAgreeRecipientInfo&&) = delete;
@@ -145,12 +149,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyAgreeRecipientInfo(KeyAgreeRecipientInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyAgreeRecipientInfo();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
 

@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeDependencyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3413))
 // CS Name: ::System.Runtime.CompilerServices::TypeDependencyAttribute*
 class CORDL_TYPE TypeDependencyAttribute : public ::System::Attribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field typeName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
 
-  constexpr ::StringW& __cordl_internal_get_typeName();
+  static inline ::System::Runtime::CompilerServices::TypeDependencyAttribute* New_ctor(::StringW typeName);
 
   constexpr ::StringW const& __cordl_internal_get_typeName() const;
 
+  constexpr ::StringW& __cordl_internal_get_typeName();
+
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  static inline ::System::Runtime::CompilerServices::TypeDependencyAttribute* New_ctor(::StringW typeName);
-
-  /// @brief Method .ctor, addr 0x24fddd4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cf9e4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypeDependencyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeDependencyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeDependencyAttribute(TypeDependencyAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeDependencyAttribute(TypeDependencyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeDependencyAttribute();
-
-public:
   /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___typeName;
 

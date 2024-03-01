@@ -26,33 +26,37 @@ MARK_REF_PTR_T(::System::UriTypeConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7490))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6909))
 // CS Name: ::System::UriTypeConverter*
 class CORDL_TYPE UriTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  static inline ::System::UriTypeConverter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29524d4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CanConvert, addr 0x29524dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2a37958, size 0xe4, virtual false, abstract: false, final false
   inline bool CanConvert(::System::Type* type);
 
-  /// @brief Method CanConvertFrom, addr 0x29525c0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2a37a3c, size 0xb4, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2952674, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2a37af0, size 0x78, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x29526ec, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2a37b68, size 0x1ac, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2952898, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2a37d14, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
+  static inline ::System::UriTypeConverter* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2a37950, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UriTypeConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UriTypeConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UriTypeConverter(UriTypeConverter&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UriTypeConverter(UriTypeConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UriTypeConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

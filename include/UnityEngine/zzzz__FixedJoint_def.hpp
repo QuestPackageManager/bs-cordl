@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::FixedJoint);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13933))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13936))
 // CS Name: ::UnityEngine::FixedJoint*
 class CORDL_TYPE FixedJoint : public ::UnityEngine::Joint {
 public:
   // Declarations
   static inline ::UnityEngine::FixedJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d34f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e216b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixedJoint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FixedJoint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedJoint(FixedJoint&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedJoint(FixedJoint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixedJoint();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

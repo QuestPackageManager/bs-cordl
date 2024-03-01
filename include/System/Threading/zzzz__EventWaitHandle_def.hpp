@@ -18,28 +18,32 @@ MARK_REF_PTR_T(::System::Threading::EventWaitHandle);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2740))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2708))
 // CS Name: ::System.Threading::EventWaitHandle*
 class CORDL_TYPE EventWaitHandle : public ::System::Threading::WaitHandle {
 public:
   // Declarations
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x2634b0c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
-
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x263b87c, size 0x2c0, virtual false, abstract: false, final false
-  inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
-
-  /// @brief Method Reset, addr 0x2639bc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x27092b4, size 0x64, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x2636438, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2705b2c, size 0x64, virtual false, abstract: false, final false
   inline bool Set();
 
+  /// @brief Method .ctor, addr 0x2704200, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
+
+  /// @brief Method .ctor, addr 0x270af70, size 0x2c0, virtual false, abstract: false, final false
+  inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventWaitHandle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventWaitHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventWaitHandle(EventWaitHandle&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventWaitHandle(EventWaitHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventWaitHandle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

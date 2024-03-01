@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockVectorAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8990)), TypeDefinitionIndex(TypeDefinitionIndex(14457))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14466))
 // CS Name: ::MaterialPropertyBlockVectorAnimator*
 class CORDL_TYPE MaterialPropertyBlockVectorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -24,20 +22,26 @@ public:
   /// @brief Field _vector, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get__vector, put = __cordl_internal_set__vector))::UnityEngine::Vector4 _vector;
 
-  constexpr ::UnityEngine::Vector4& __cordl_internal_get__vector();
+  static inline ::GlobalNamespace::MaterialPropertyBlockVectorAnimator* New_ctor();
+
+  /// @brief Method SetProperty, addr 0x22773b0, size 0x34, virtual true, abstract: false, final false
+  inline void SetProperty();
 
   constexpr ::UnityEngine::Vector4 const& __cordl_internal_get__vector() const;
 
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get__vector();
+
   constexpr void __cordl_internal_set__vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method SetProperty, addr 0x21a9d48, size 0x34, virtual true, abstract: false, final false
-  inline void SetProperty();
-
-  static inline ::GlobalNamespace::MaterialPropertyBlockVectorAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21a9d7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22773e4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockVectorAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockVectorAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimator&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockVectorAnimator(MaterialPropertyBlockVectorAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockVectorAnimator();
-
-public:
   /// @brief Field _vector, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Vector4 ____vector;
 

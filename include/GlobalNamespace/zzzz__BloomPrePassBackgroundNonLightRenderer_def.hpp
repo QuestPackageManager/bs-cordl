@@ -23,85 +23,89 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14359))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14358))
 // CS Name: ::BloomPrePassBackgroundNonLightRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
-  /// @brief Field _renderer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
-
-  /// @brief Field _meshFilter, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
+  /// @brief Field _cachedTransform, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__cachedTransform, put = __cordl_internal_set__cachedTransform))::UnityW<::UnityEngine::Transform> _cachedTransform;
 
   /// @brief Field _isPartOfInstancedRendering, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__isPartOfInstancedRendering, put = __cordl_internal_set__isPartOfInstancedRendering)) bool _isPartOfInstancedRendering;
 
-  /// @brief Field _cachedTransform, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachedTransform, put = __cordl_internal_set__cachedTransform))::UnityW<::UnityEngine::Transform> _cachedTransform;
+  /// @brief Field _meshFilter, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
-
-  __declspec(property(get = get_meshFilter))::UnityW<::UnityEngine::MeshFilter> meshFilter;
+  /// @brief Field _renderer, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
   __declspec(property(get = get_cachedTransform))::UnityW<::UnityEngine::Transform> cachedTransform;
 
   __declspec(property(put = set_isPartOfInstancedRendering)) bool isPartOfInstancedRendering;
 
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+  __declspec(property(get = get_meshFilter))::UnityW<::UnityEngine::MeshFilter> meshFilter;
 
-  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
-
-  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
-
-  constexpr bool& __cordl_internal_get__isPartOfInstancedRendering();
-
-  constexpr bool const& __cordl_internal_get__isPartOfInstancedRendering() const;
-
-  constexpr void __cordl_internal_set__isPartOfInstancedRendering(bool value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cachedTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cachedTransform() const;
-
-  constexpr void __cordl_internal_set__cachedTransform(::UnityW<::UnityEngine::Transform> value);
-
-  /// @brief Method get_renderer, addr 0x2199fec, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
-
-  /// @brief Method get_meshFilter, addr 0x2199ff4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
-
-  /// @brief Method get_cachedTransform, addr 0x2199ffc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
-
-  /// @brief Method set_isPartOfInstancedRendering, addr 0x219947c, size 0x30, virtual false, abstract: false, final false
-  inline void set_isPartOfInstancedRendering(bool value);
-
-  /// @brief Method Awake, addr 0x219a1e4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x226884c, size 0x2c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable, addr 0x219a21c, size 0x10, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnValidate, addr 0x219a230, size 0x34, virtual true, abstract: false, final false
-  inline void OnValidate();
-
-  /// @brief Method InitIfNeeded, addr 0x219a264, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x22688cc, size 0xc8, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219a440, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2268884, size 0x10, virtual true, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method OnValidate, addr 0x2268898, size 0x34, virtual true, abstract: false, final false
+  inline void OnValidate();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cachedTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cachedTransform();
+
+  constexpr bool const& __cordl_internal_get__isPartOfInstancedRendering() const;
+
+  constexpr bool& __cordl_internal_get__isPartOfInstancedRendering();
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
+
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+
+  constexpr void __cordl_internal_set__cachedTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__isPartOfInstancedRendering(bool value);
+
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
+
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
+
+  /// @brief Method .ctor, addr 0x2268aa8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_cachedTransform, addr 0x2268664, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
+
+  /// @brief Method get_meshFilter, addr 0x226865c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
+
+  /// @brief Method get_renderer, addr 0x2268654, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
+
+  /// @brief Method set_isPartOfInstancedRendering, addr 0x2267ae4, size 0x30, virtual false, abstract: false, final false
+  inline void set_isPartOfInstancedRendering(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassBackgroundNonLightRenderer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundNonLightRenderer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundNonLightRenderer(BloomPrePassBackgroundNonLightRenderer&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundNonLightRenderer(BloomPrePassBackgroundNonLightRenderer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundNonLightRenderer();
-
-public:
   /// @brief Field _renderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 

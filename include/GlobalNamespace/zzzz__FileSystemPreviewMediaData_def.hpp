@@ -36,15 +36,10 @@ MARK_REF_PTR_T(::GlobalNamespace::FileSystemPreviewMediaData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10808))
 // CS Name: ::FileSystemPreviewMediaData*
 class CORDL_TYPE FileSystemPreviewMediaData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _spriteAsyncLoader, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteAsyncLoader, put = __cordl_internal_set__spriteAsyncLoader))::GlobalNamespace::ISpriteAsyncLoader* _spriteAsyncLoader;
-
   /// @brief Field _audioClipAsyncLoader, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
 
@@ -54,52 +49,61 @@ public:
   /// @brief Field _previewAudioClipPath, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__previewAudioClipPath, put = __cordl_internal_set__previewAudioClipPath))::StringW _previewAudioClipPath;
 
+  /// @brief Field _spriteAsyncLoader, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteAsyncLoader, put = __cordl_internal_set__spriteAsyncLoader))::GlobalNamespace::ISpriteAsyncLoader* _spriteAsyncLoader;
+
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
-  constexpr ::GlobalNamespace::IPreviewMediaData* i___GlobalNamespace__IPreviewMediaData() noexcept;
+  /// @brief Method GetCoverSpriteAsync, addr 0x12cc468, size 0xb0, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::GlobalNamespace::ISpriteAsyncLoader*& __cordl_internal_get__spriteAsyncLoader();
+  /// @brief Method GetPreviewAudioClip, addr 0x12cc518, size 0x24, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISpriteAsyncLoader*> const& __cordl_internal_get__spriteAsyncLoader() const;
+  static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                                                                        ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::ISpriteAsyncLoader* value);
+  /// @brief Method UnloadPreviewAudioClip, addr 0x12cc53c, size 0x24, virtual true, abstract: false, final true
+  inline void UnloadPreviewAudioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
+  constexpr ::StringW const& __cordl_internal_get__coverSpritePath() const;
 
   constexpr ::StringW& __cordl_internal_get__coverSpritePath();
 
-  constexpr ::StringW const& __cordl_internal_get__coverSpritePath() const;
-
-  constexpr void __cordl_internal_set__coverSpritePath(::StringW value);
+  constexpr ::StringW const& __cordl_internal_get__previewAudioClipPath() const;
 
   constexpr ::StringW& __cordl_internal_get__previewAudioClipPath();
 
-  constexpr ::StringW const& __cordl_internal_get__previewAudioClipPath() const;
+  constexpr ::GlobalNamespace::ISpriteAsyncLoader*& __cordl_internal_get__spriteAsyncLoader();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISpriteAsyncLoader*> const& __cordl_internal_get__spriteAsyncLoader() const;
+
+  constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
+
+  constexpr void __cordl_internal_set__coverSpritePath(::StringW value);
 
   constexpr void __cordl_internal_set__previewAudioClipPath(::StringW value);
 
-  static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                                                                        ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
+  constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::ISpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x12892d0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cc2a0, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x1289498, size 0xb0, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
+  constexpr ::GlobalNamespace::IPreviewMediaData* i___GlobalNamespace__IPreviewMediaData() noexcept;
 
-  /// @brief Method GetPreviewAudioClip, addr 0x1289548, size 0x24, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileSystemPreviewMediaData();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x128956c, size 0x24, virtual true, abstract: false, final true
-  inline void UnloadPreviewAudioClip();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemPreviewMediaData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemPreviewMediaData(FileSystemPreviewMediaData&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileSystemPreviewMediaData(FileSystemPreviewMediaData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileSystemPreviewMediaData();
-
-public:
   /// @brief Field _spriteAsyncLoader, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ISpriteAsyncLoader* ____spriteAsyncLoader;
 

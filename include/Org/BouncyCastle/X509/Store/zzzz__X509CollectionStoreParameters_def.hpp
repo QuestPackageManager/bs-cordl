@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1849))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CollectionStoreParameters*
 class CORDL_TYPE X509CollectionStoreParameters : public ::System::Object {
 public:
@@ -36,8 +34,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509StoreParameters*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
-  constexpr ::Org::BouncyCastle::X509::Store::IX509StoreParameters* i___Org__BouncyCastle__X509__Store__IX509StoreParameters() noexcept;
+  /// @brief Method GetCollection, addr 0x11e2a28, size 0x58, virtual false, abstract: false, final false
+  inline ::System::Collections::ICollection* GetCollection();
+
+  static inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* New_ctor(::System::Collections::ICollection* collection);
+
+  /// @brief Method ToString, addr 0x11e2a80, size 0x108, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_collection();
 
@@ -45,17 +48,18 @@ public:
 
   constexpr void __cordl_internal_set_collection(::System::Collections::IList* value);
 
-  static inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* New_ctor(::System::Collections::ICollection* collection);
-
-  /// @brief Method .ctor, addr 0x11a099c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e296c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method GetCollection, addr 0x11a0a58, size 0x58, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* GetCollection();
+  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
+  constexpr ::Org::BouncyCastle::X509::Store::IX509StoreParameters* i___Org__BouncyCastle__X509__Store__IX509StoreParameters() noexcept;
 
-  /// @brief Method ToString, addr 0x11a0ab0, size 0x108, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509CollectionStoreParameters();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509CollectionStoreParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509CollectionStoreParameters(X509CollectionStoreParameters&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509CollectionStoreParameters(X509CollectionStoreParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509CollectionStoreParameters();
-
-public:
   /// @brief Field collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___collection;
 

@@ -25,46 +25,50 @@ MARK_REF_PTR_T(::System::Security::Principal::NTAccount);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3000))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3001))
 // CS Name: ::System.Security.Principal::NTAccount*
 class CORDL_TYPE NTAccount : public ::System::Security::Principal::IdentityReference {
 public:
   // Declarations
+  __declspec(property(get = get_Value))::StringW Value;
+
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  /// @brief Method Equals, addr 0x256acf0, size 0x98, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* o);
 
-  constexpr ::StringW& __cordl_internal_get__value();
-
-  constexpr ::StringW const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(::StringW value);
+  /// @brief Method GetHashCode, addr 0x256adf0, size 0x28, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::System::Security::Principal::NTAccount* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2498f08, size 0xe8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
-
-  /// @brief Method get_Value, addr 0x2498ff0, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
-
-  /// @brief Method Equals, addr 0x2498ff8, size 0x98, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* o);
-
-  /// @brief Method GetHashCode, addr 0x24990f8, size 0x28, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x2499120, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x256ae18, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x249912c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method Translate, addr 0x256ae24, size 0x22c, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method op_Equality, addr 0x2499090, size 0x68, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__value() const;
+
+  constexpr ::StringW& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__value(::StringW value);
+
+  /// @brief Method .ctor, addr 0x256ac00, size 0xe8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+  /// @brief Method get_Value, addr 0x256ace8, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Value();
+
+  /// @brief Method op_Equality, addr 0x256ad88, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::NTAccount* left, ::System::Security::Principal::NTAccount* right);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NTAccount();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NTAccount", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NTAccount(NTAccount&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NTAccount(NTAccount const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NTAccount();
-
-public:
   /// @brief Field _value, offset: 0x10, size: 0x8, def value: None
   ::StringW ____value;
 

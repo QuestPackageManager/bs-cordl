@@ -31,26 +31,30 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9845)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9845), inst: 1729 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10008))
 // CS Name: ::Zenject::MemoryPoolExpandBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
   // Declarations
+  __declspec(property(get = get_MemoryPoolBindInfo, put = set_MemoryPoolBindInfo))::Zenject::MemoryPoolBindInfo* MemoryPoolBindInfo;
+
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__MemoryPoolBindInfo_k__BackingField,
                       put = __cordl_internal_set__MemoryPoolBindInfo_k__BackingField))::Zenject::MemoryPoolBindInfo* _MemoryPoolBindInfo_k__BackingField;
 
-  __declspec(property(get = get_MemoryPoolBindInfo, put = set_MemoryPoolBindInfo))::Zenject::MemoryPoolBindInfo* MemoryPoolBindInfo;
+  /// @brief Method ExpandByDoubling, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling(bool showExpandWarning);
+
+  /// @brief Method ExpandByOneAtATime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime(bool showExpandWarning);
+
+  static inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
+                                                                         ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
   constexpr ::Zenject::MemoryPoolBindInfo*& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField() const;
 
   constexpr void __cordl_internal_set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value);
-
-  static inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
-                                                                         ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
@@ -61,12 +65,12 @@ public:
   /// @brief Method set_MemoryPoolBindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_MemoryPoolBindInfo(::Zenject::MemoryPoolBindInfo* value);
 
-  /// @brief Method ExpandByOneAtATime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime(bool showExpandWarning);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryPoolExpandBinder_1();
 
-  /// @brief Method ExpandByDoubling, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling(bool showExpandWarning);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolExpandBinder_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolExpandBinder_1(MemoryPoolExpandBinder_1&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolExpandBinder_1(MemoryPoolExpandBinder_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryPoolExpandBinder_1();
-
-public:
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::Zenject::MemoryPoolBindInfo* ____MemoryPoolBindInfo_k__BackingField;
 

@@ -17,24 +17,28 @@ MARK_REF_PTR_T(::System::IO::Error);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3554))
 // CS Name: ::System.IO::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetStreamIsClosed, addr 0x251b168, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Exception* GetStreamIsClosed();
-
-  /// @brief Method GetEndOfFile, addr 0x251b1e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfFile, addr 0x25eceb8, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetEndOfFile();
 
-  /// @brief Method GetReadNotSupported, addr 0x251b260, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetReadNotSupported, addr 0x25ecf38, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* GetReadNotSupported();
 
-  /// @brief Method GetWriteNotSupported, addr 0x251b2d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStreamIsClosed, addr 0x25ece40, size 0x78, virtual false, abstract: false, final false
+  static inline ::System::Exception* GetStreamIsClosed();
+
+  /// @brief Method GetWriteNotSupported, addr 0x25ecfac, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* GetWriteNotSupported();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Error();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Error(Error&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Error(Error const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Error();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

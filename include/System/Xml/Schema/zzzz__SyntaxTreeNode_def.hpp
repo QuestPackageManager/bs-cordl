@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::System::Xml::Schema::SyntaxTreeNode);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11497))
 // CS Name: ::System.Xml.Schema::SyntaxTreeNode*
 class CORDL_TYPE SyntaxTreeNode : public ::System::Object {
 public:
@@ -37,24 +35,30 @@ public:
 
   __declspec(property(get = get_IsRangeNode)) bool IsRangeNode;
 
-  /// @brief Method ExpandTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
-
   /// @brief Method ConstructPos, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsNullable();
-
-  /// @brief Method get_IsRangeNode, addr 0x28b1234, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsRangeNode();
+  /// @brief Method ExpandTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SyntaxTreeNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28b123c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29986b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IsNullable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsNullable();
+
+  /// @brief Method get_IsRangeNode, addr 0x29986b0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsRangeNode();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SyntaxTreeNode();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SyntaxTreeNode(SyntaxTreeNode&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SyntaxTreeNode(SyntaxTreeNode const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SyntaxTreeNode();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

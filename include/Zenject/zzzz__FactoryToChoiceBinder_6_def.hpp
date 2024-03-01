@@ -28,8 +28,6 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9907)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9907), inst: 1796 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9996))
 // CS Name: ::Zenject::FactoryToChoiceBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_6 : public ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract> {
 public:
@@ -37,15 +35,21 @@ public:
   static inline ::Zenject::FactoryToChoiceBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
                                                                                                                      ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TConcrete> inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TConcrete>* To();
 
   /// @brief Method ToSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* ToSelf();
 
-  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TConcrete> inline ::Zenject::FactoryFromBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TConcrete>* To();
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FactoryToChoiceBinder_6();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_6", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryToChoiceBinder_6(FactoryToChoiceBinder_6&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FactoryToChoiceBinder_6(FactoryToChoiceBinder_6 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FactoryToChoiceBinder_6();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

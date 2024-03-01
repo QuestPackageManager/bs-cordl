@@ -30,8 +30,6 @@ MARK_VAL_T(::GlobalNamespace::ColorSchemeNetSerializable);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14918))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12588))
 // CS Name: ::ColorSchemeNetSerializable
 struct CORDL_TYPE ColorSchemeNetSerializable {
 public:
@@ -39,18 +37,22 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*();
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
+  /// @brief Method Deserialize, addr 0xe9b7c0, size 0x80, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method .ctor, addr 0xe555f0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0xe9b740, size 0x80, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  /// @brief Method .ctor, addr 0xe9b5c0, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize, addr 0xe55770, size 0x80, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+  /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+  constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable();
 
-  /// @brief Method Deserialize, addr 0xe557f0, size 0x80, virtual true, abstract: false, final true
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSchemeNetSerializable();
 
   // Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "saberBColor", ty:
   // "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: None }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value:
@@ -61,10 +63,6 @@ public:
                                        ::GlobalNamespace::ColorNoAlphaSerializable obstaclesColor, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0,
                                        ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1, ::GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost,
                                        ::GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemeNetSerializable();
 
   /// @brief Field saberAColor, offset: 0x0, size: 0x10, def value: None
   ::GlobalNamespace::ColorNoAlphaSerializable saberAColor;

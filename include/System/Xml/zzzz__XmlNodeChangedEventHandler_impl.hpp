@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeChangedEventHandler::*)(::System::Object*, void*)>(
     &::System::Xml::XmlNodeChangedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2894e8c;
+  constexpr static std::size_t addrs = 0x297b308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeChangedEventHandler::*)(::System::Object*, ::System::Xml::XmlNodeChangedEventArgs*)>(
     &::System::Xml::XmlNodeChangedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2894fbc;
+  constexpr static std::size_t addrs = 0x297b438;
 
   inline static ::MethodInfo const* methodInfo() {
 

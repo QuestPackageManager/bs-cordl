@@ -20,20 +20,24 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6441))
 // CS Name: ::UnityEngine.UIElements::EventCallback`1<TEventType>*
 class CORDL_TYPE EventCallback_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(TEventType evt);
+
   static inline ::UnityEngine::UIElements::EventCallback_1<TEventType>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(TEventType evt);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventCallback_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventCallback_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventCallback_1(EventCallback_1&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventCallback_1(EventCallback_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventCallback_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

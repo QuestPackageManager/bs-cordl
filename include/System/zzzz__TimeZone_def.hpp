@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::System::TimeZone);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2485))
 // CS Name: ::System::TimeZone*
 class CORDL_TYPE TimeZone : public ::System::Object {
 public:
@@ -39,34 +37,40 @@ public:
   /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject))::System::Object* s_InternalSyncObject;
 
-  static inline void setStaticF_currentTimeZone(::System::TimeZone* value);
-
-  static inline ::System::TimeZone* getStaticF_currentTimeZone();
-
-  static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
-
-  static inline ::System::Object* getStaticF_s_InternalSyncObject();
-
-  /// @brief Method get_InternalSyncObject, addr 0x25e8df8, size 0xa0, virtual false, abstract: false, final false
-  static inline ::System::Object* get_InternalSyncObject();
-
-  static inline ::System::TimeZone* New_ctor();
-
-  /// @brief Method .ctor, addr 0x25e8e98, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_CurrentTimeZone, addr 0x25e8ea0, size 0x16c, virtual false, abstract: false, final false
-  static inline ::System::TimeZone* get_CurrentTimeZone();
-
-  /// @brief Method GetUtcOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
+  /// @brief Method CalculateUtcOffset, addr 0x26b96f0, size 0x21c, virtual false, abstract: false, final false
+  static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
 
   /// @brief Method GetDaylightChanges, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method CalculateUtcOffset, addr 0x25e900c, size 0x21c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
+  /// @brief Method GetUtcOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
+  static inline ::System::TimeZone* New_ctor();
+
+  /// @brief Method .ctor, addr 0x26b957c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::TimeZone* getStaticF_currentTimeZone();
+
+  static inline ::System::Object* getStaticF_s_InternalSyncObject();
+
+  /// @brief Method get_CurrentTimeZone, addr 0x26b9584, size 0x16c, virtual false, abstract: false, final false
+  static inline ::System::TimeZone* get_CurrentTimeZone();
+
+  /// @brief Method get_InternalSyncObject, addr 0x26b94dc, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::Object* get_InternalSyncObject();
+
+  static inline void setStaticF_currentTimeZone(::System::TimeZone* value);
+
+  static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeZone();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeZone(TimeZone&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimeZone(TimeZone const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZone();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

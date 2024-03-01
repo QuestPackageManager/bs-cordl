@@ -21,45 +21,49 @@ MARK_REF_PTR_T(::GlobalNamespace::PoseObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5187))
 // CS Name: ::PoseObject*
 class CORDL_TYPE PoseObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _transform, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
-
   /// @brief Field _poseObjectId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__poseObjectId, put = __cordl_internal_set__poseObjectId))::UnityW<::GlobalNamespace::PoseObjectIdSO> _poseObjectId;
 
-  __declspec(property(get = get_objectTransform))::UnityW<::UnityEngine::Transform> objectTransform;
+  /// @brief Field _transform, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   __declspec(property(get = get_id))::StringW id;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO>& __cordl_internal_get__poseObjectId();
-
-  constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO> const& __cordl_internal_get__poseObjectId() const;
-
-  constexpr void __cordl_internal_set__poseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO> value);
-
-  /// @brief Method get_objectTransform, addr 0x23296d0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
-
-  /// @brief Method get_id, addr 0x23296d8, size 0x1c, virtual false, abstract: false, final false
-  inline ::StringW get_id();
+  __declspec(property(get = get_objectTransform))::UnityW<::UnityEngine::Transform> objectTransform;
 
   static inline ::GlobalNamespace::PoseObject* New_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method .ctor, addr 0x2327854, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO> const& __cordl_internal_get__poseObjectId() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO>& __cordl_internal_get__poseObjectId();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__poseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO> value);
+
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x23f6550, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
+  /// @brief Method get_id, addr 0x23f83d4, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_id();
+
+  /// @brief Method get_objectTransform, addr 0x23f83cc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PoseObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PoseObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PoseObject(PoseObject&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoseObject(PoseObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoseObject();
-
-public:
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 

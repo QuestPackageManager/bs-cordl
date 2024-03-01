@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Net::Configuration::SettingsSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16433))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7586))
 // CS Name: ::System.Net.Configuration::SettingsSection*
 class CORDL_TYPE SettingsSection : public ::System::Configuration::ConfigurationSection {
 public:
@@ -27,12 +25,18 @@ public:
 
   static inline ::System::Net::Configuration::SettingsSection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2949680, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2eafc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x29496b8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2a2eb34, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingsSection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SettingsSection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsSection(SettingsSection&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsSection(SettingsSection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SettingsSection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

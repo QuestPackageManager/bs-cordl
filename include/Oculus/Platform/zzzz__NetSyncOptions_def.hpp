@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Oculus::Platform::NetSyncOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13260))
 // CS Name: ::Oculus.Platform::NetSyncOptions*
 class CORDL_TYPE NetSyncOptions : public ::System::Object {
 public:
@@ -29,32 +27,38 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  constexpr void*& __cordl_internal_get_Handle();
-
-  constexpr void* const& __cordl_internal_get_Handle() const;
-
-  constexpr void __cordl_internal_set_Handle(void* value);
+  /// @brief Method Finalize, addr 0x27e61f4, size 0xd4, virtual true, abstract: false, final false
+  inline void Finalize();
 
   static inline ::Oculus::Platform::NetSyncOptions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x271ee34, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method SetVoipGroup, addr 0x271ee98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVoipGroup, addr 0x27e6064, size 0x68, virtual false, abstract: false, final false
   inline void SetVoipGroup(::StringW value);
 
-  /// @brief Method SetVoipStreamDefault, addr 0x271ef00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVoipStreamDefault, addr 0x27e60cc, size 0x68, virtual false, abstract: false, final false
   inline void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value);
 
-  /// @brief Method SetZoneId, addr 0x271ef68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetZoneId, addr 0x27e6134, size 0x68, virtual false, abstract: false, final false
   inline void SetZoneId(::StringW value);
 
-  /// @brief Method op_Explicit, addr 0x271efd0, size 0x58, virtual false, abstract: false, final false
+  constexpr void* const& __cordl_internal_get_Handle() const;
+
+  constexpr void*& __cordl_internal_get_Handle();
+
+  constexpr void __cordl_internal_set_Handle(void* value);
+
+  /// @brief Method .ctor, addr 0x27e6000, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method op_Explicit, addr 0x27e619c, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::NetSyncOptions* options);
 
-  /// @brief Method Finalize, addr 0x271f028, size 0xd4, virtual true, abstract: false, final false
-  inline void Finalize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetSyncOptions();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncOptions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSyncOptions(NetSyncOptions&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSyncOptions(NetSyncOptions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSyncOptions();
-
-public:
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   void* ___Handle;
 

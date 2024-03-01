@@ -23,21 +23,19 @@ MARK_VAL_T(::UnityEngine::LightBakingOutput);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 33, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8841)), TypeDefinitionIndex(TypeDefinitionIndex(8842))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8812))
 // CS Name: ::UnityEngine::LightBakingOutput
 struct CORDL_TYPE LightBakingOutput {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightBakingOutput();
+
   // Ctor Parameters [CppParam { name: "probeOcclusionLightIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "occlusionMaskChannel", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "lightmapBakeType", ty: "::UnityEngine::LightmapBakeType", modifiers: "", def_value: None }, CppParam { name: "mixedLightingMode", ty: "::UnityEngine::MixedLightingMode",
   // modifiers: "", def_value: None }, CppParam { name: "isBaked", ty: "bool", modifiers: "", def_value: None }]
   constexpr LightBakingOutput(int32_t probeOcclusionLightIndex, int32_t occlusionMaskChannel, ::UnityEngine::LightmapBakeType lightmapBakeType, ::UnityEngine::MixedLightingMode mixedLightingMode,
                               bool isBaked) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightBakingOutput();
 
   /// @brief Field probeOcclusionLightIndex, offset: 0x0, size: 0x4, def value: None
   int32_t probeOcclusionLightIndex;

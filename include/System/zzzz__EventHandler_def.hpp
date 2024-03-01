@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::System::EventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2377))
 // CS Name: ::System::EventHandler*
 class CORDL_TYPE EventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::EventHandler* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x25b8ef4, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x25b9024, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2689708, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
+  static inline ::System::EventHandler* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x26895d8, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventHandler(EventHandler&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventHandler(EventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

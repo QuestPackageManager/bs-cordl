@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusInEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6491), inst: 1944 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6494))
 // CS Name: ::UnityEngine.UIElements::FocusInEvent*
 class CORDL_TYPE FocusInEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusInEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e6d4cc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5fbf4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e6d520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5fc48, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6d52c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5fc54, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FocusInEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FocusInEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusInEvent(FocusInEvent&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FocusInEvent(FocusInEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FocusInEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

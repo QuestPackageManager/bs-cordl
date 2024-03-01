@@ -18,18 +18,10 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::NormalizationTableUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2266))
 // CS Name: ::Mono.Globalization.Unicode::NormalizationTableUtil*
 class CORDL_TYPE NormalizationTableUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field Prop, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Prop, put = setStaticF_Prop))::Mono::Globalization::Unicode::CodePointIndexer* Prop;
-
-  /// @brief Field Map, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Map, put = setStaticF_Map))::Mono::Globalization::Unicode::CodePointIndexer* Map;
-
   /// @brief Field Combining, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Combining, put = setStaticF_Combining))::Mono::Globalization::Unicode::CodePointIndexer* Combining;
 
@@ -39,32 +31,44 @@ public:
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Mono::Globalization::Unicode::CodePointIndexer* Helper;
 
-  static inline void setStaticF_Prop(::Mono::Globalization::Unicode::CodePointIndexer* value);
+  /// @brief Field Map, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Map, put = setStaticF_Map))::Mono::Globalization::Unicode::CodePointIndexer* Map;
 
-  static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Prop();
+  /// @brief Field Prop, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Prop, put = setStaticF_Prop))::Mono::Globalization::Unicode::CodePointIndexer* Prop;
 
-  static inline void setStaticF_Map(::Mono::Globalization::Unicode::CodePointIndexer* value);
+  /// @brief Method MapIdx, addr 0x25088dc, size 0x68, virtual false, abstract: false, final false
+  static inline int32_t MapIdx(int32_t cp);
 
-  static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Map();
-
-  static inline void setStaticF_Combining(::Mono::Globalization::Unicode::CodePointIndexer* value);
+  /// @brief Method PropIdx, addr 0x2508874, size 0x68, virtual false, abstract: false, final false
+  static inline int32_t PropIdx(int32_t cp);
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Combining();
 
-  static inline void setStaticF_Composite(::Mono::Globalization::Unicode::CodePointIndexer* value);
-
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Composite();
-
-  static inline void setStaticF_Helper(::Mono::Globalization::Unicode::CodePointIndexer* value);
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Helper();
 
-  /// @brief Method PropIdx, addr 0x2437b7c, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t PropIdx(int32_t cp);
+  static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Map();
 
-  /// @brief Method MapIdx, addr 0x2437be4, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t MapIdx(int32_t cp);
+  static inline ::Mono::Globalization::Unicode::CodePointIndexer* getStaticF_Prop();
 
+  static inline void setStaticF_Combining(::Mono::Globalization::Unicode::CodePointIndexer* value);
+
+  static inline void setStaticF_Composite(::Mono::Globalization::Unicode::CodePointIndexer* value);
+
+  static inline void setStaticF_Helper(::Mono::Globalization::Unicode::CodePointIndexer* value);
+
+  static inline void setStaticF_Map(::Mono::Globalization::Unicode::CodePointIndexer* value);
+
+  static inline void setStaticF_Prop(::Mono::Globalization::Unicode::CodePointIndexer* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NormalizationTableUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NormalizationTableUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NormalizationTableUtil(NormalizationTableUtil&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NormalizationTableUtil(NormalizationTableUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NormalizationTableUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

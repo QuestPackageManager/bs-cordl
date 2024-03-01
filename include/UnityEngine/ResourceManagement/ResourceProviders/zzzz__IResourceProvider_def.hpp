@@ -29,24 +29,19 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IResourcePr
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14016))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IResourceProvider*
 class CORDL_TYPE IResourceProvider {
 public:
   // Declarations
-  __declspec(property(get = get_ProviderId))::StringW ProviderId;
-
   __declspec(property(get = get_BehaviourFlags))::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags BehaviourFlags;
 
-  /// @brief Method get_ProviderId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_ProviderId();
-
-  /// @brief Method GetDefaultType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
+  __declspec(property(get = get_ProviderId))::StringW ProviderId;
 
   /// @brief Method CanProvide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanProvide(::System::Type* type, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
+
+  /// @brief Method GetDefaultType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
   /// @brief Method Provide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
@@ -56,6 +51,9 @@ public:
 
   /// @brief Method get_BehaviourFlags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags get_BehaviourFlags();
+
+  /// @brief Method get_ProviderId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_ProviderId();
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

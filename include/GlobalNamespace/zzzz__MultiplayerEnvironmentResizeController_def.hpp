@@ -49,8 +49,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerEnvironmentResizeController__Resi
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4543))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeType
 struct CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeType {
 public:
@@ -69,18 +67,23 @@ public:
     return static_cast<____MultiplayerEnvironmentResizeController__ResizeType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerEnvironmentResizeController__ResizeType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MultiplayerEnvironmentResizeController__ResizeType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MultiplayerEnvironmentResizeController__ResizeType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Length value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const Length;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const None;
@@ -88,8 +91,8 @@ public:
   /// @brief Field Position value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const Position;
 
-  /// @brief Field Length value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const Length;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -103,75 +106,79 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeControll
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4544))
 // CS Name: ::MultiplayerEnvironmentResizeController::ResizeData*
 class CORDL_TYPE __MultiplayerEnvironmentResizeController__ResizeData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _resizeType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__resizeType, put = __cordl_internal_set__resizeType))::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType _resizeType;
-
-  /// @brief Field _offset, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) float_t _offset;
-
   /// @brief Field _lights, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lights,
                       put = __cordl_internal_set__lights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _lights;
+
+  /// @brief Field _offset, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) float_t _offset;
 
   /// @brief Field _otherTransforms, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__otherTransforms,
                       put = __cordl_internal_set__otherTransforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _otherTransforms;
 
-  __declspec(property(get = get_resizeType))::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType resizeType;
-
-  __declspec(property(get = get_offset)) float_t offset;
+  /// @brief Field _resizeType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__resizeType, put = __cordl_internal_set__resizeType))::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType _resizeType;
 
   __declspec(property(get = get_lights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> lights;
 
+  __declspec(property(get = get_offset)) float_t offset;
+
   __declspec(property(get = get_otherTransforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> otherTransforms;
 
-  constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType& __cordl_internal_get__resizeType();
-
-  constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const& __cordl_internal_get__resizeType() const;
-
-  constexpr void __cordl_internal_set__resizeType(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType value);
-
-  constexpr float_t& __cordl_internal_get__offset();
-
-  constexpr float_t const& __cordl_internal_get__offset() const;
-
-  constexpr void __cordl_internal_set__offset(float_t value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__lights();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__lights() const;
-
-  constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__otherTransforms();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__otherTransforms() const;
-
-  constexpr void __cordl_internal_set__otherTransforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  /// @brief Method get_resizeType, addr 0x23aace8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType get_resizeType();
-
-  /// @brief Method get_offset, addr 0x23aacf0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_offset();
-
-  /// @brief Method get_lights, addr 0x23aacf8, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> get_lights();
-
-  /// @brief Method get_otherTransforms, addr 0x23aad00, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_otherTransforms();
+  __declspec(property(get = get_resizeType))::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType resizeType;
 
   static inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23aad08, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__lights() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__lights();
+
+  constexpr float_t const& __cordl_internal_get__offset() const;
+
+  constexpr float_t& __cordl_internal_get__offset();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__otherTransforms() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__otherTransforms();
+
+  constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType const& __cordl_internal_get__resizeType() const;
+
+  constexpr ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType& __cordl_internal_get__resizeType();
+
+  constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
+
+  constexpr void __cordl_internal_set__offset(float_t value);
+
+  constexpr void __cordl_internal_set__otherTransforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set__resizeType(::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType value);
+
+  /// @brief Method .ctor, addr 0x2478c50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_lights, addr 0x2478c40, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> get_lights();
+
+  /// @brief Method get_offset, addr 0x2478c38, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_offset();
+
+  /// @brief Method get_otherTransforms, addr 0x2478c48, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> get_otherTransforms();
+
+  /// @brief Method get_resizeType, addr 0x2478c30, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType get_resizeType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerEnvironmentResizeController__ResizeData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerEnvironmentResizeController__ResizeData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerEnvironmentResizeController__ResizeData(__MultiplayerEnvironmentResizeController__ResizeData&&) = delete;
@@ -180,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerEnvironmentResizeController__ResizeData(__MultiplayerEnvironmentResizeController__ResizeData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerEnvironmentResizeController__ResizeData();
-
-public:
   /// @brief Field _resizeType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType ____resizeType;
 
@@ -216,8 +217,6 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerEnvironmentResizeControll
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 67, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4545))
 // CS Name: ::MultiplayerEnvironmentResizeController*
 class CORDL_TYPE MultiplayerEnvironmentResizeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -225,6 +224,20 @@ public:
   using ResizeData = ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData;
 
   using ResizeType = ::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeType;
+
+  /// @brief Field _beatmapObjectSpawnCenter, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnCenter,
+                      put = __cordl_internal_set__beatmapObjectSpawnCenter))::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _beatmapObjectSpawnCenter;
+
+  /// @brief Field _centerResizeController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__centerResizeController,
+                      put = __cordl_internal_set__centerResizeController))::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> _centerResizeController;
+
+  /// @brief Field _edgeDistanceFromCenterFound, offset 0x41, size 0x1
+  __declspec(property(get = __cordl_internal_get__edgeDistanceFromCenterFound, put = __cordl_internal_set__edgeDistanceFromCenterFound)) bool _edgeDistanceFromCenterFound;
+
+  /// @brief Field _isResizingFinished, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__isResizingFinished, put = __cordl_internal_set__isResizingFinished)) bool _isResizingFinished;
 
   /// @brief Field _platformEnd, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__platformEnd, put = __cordl_internal_set__platformEnd))::UnityW<::UnityEngine::Transform> _platformEnd;
@@ -234,111 +247,103 @@ public:
                       put = __cordl_internal_set__resizeData))::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*,
                                                                        ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> _resizeData;
 
-  /// @brief Field _centerResizeController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__centerResizeController,
-                      put = __cordl_internal_set__centerResizeController))::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> _centerResizeController;
-
-  /// @brief Field _beatmapObjectSpawnCenter, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnCenter,
-                      put = __cordl_internal_set__beatmapObjectSpawnCenter))::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _beatmapObjectSpawnCenter;
-
-  /// @brief Field resizingDidFinishEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_resizingDidFinishEvent, put = __cordl_internal_set_resizingDidFinishEvent))::System::Action* resizingDidFinishEvent;
-
-  /// @brief Field _isResizingFinished, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__isResizingFinished, put = __cordl_internal_set__isResizingFinished)) bool _isResizingFinished;
-
-  /// @brief Field _edgeDistanceFromCenterFound, offset 0x41, size 0x1
-  __declspec(property(get = __cordl_internal_get__edgeDistanceFromCenterFound, put = __cordl_internal_set__edgeDistanceFromCenterFound)) bool _edgeDistanceFromCenterFound;
-
   /// @brief Field _spawnCenterDistanceFound, offset 0x42, size 0x1
   __declspec(property(get = __cordl_internal_get__spawnCenterDistanceFound, put = __cordl_internal_set__spawnCenterDistanceFound)) bool _spawnCenterDistanceFound;
 
   __declspec(property(get = get_isResizingFinished)) bool isResizingFinished;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__platformEnd();
+  /// @brief Field resizingDidFinishEvent, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_resizingDidFinishEvent, put = __cordl_internal_set_resizingDidFinishEvent))::System::Action* resizingDidFinishEvent;
+
+  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x24788a4, size 0x18, virtual false, abstract: false, final false
+  inline void HandleEdgeDistanceFromCenterWasCalculated(float_t edgeDistanceFromCenter);
+
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x24788bc, size 0x18, virtual false, abstract: false, final false
+  inline void HandleSpawnCenterDistanceWasFound(float_t distance);
+
+  static inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x24788d4, size 0x154, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Resize, addr 0x2478a40, size 0x1e8, virtual false, abstract: false, final false
+  inline void Resize();
+
+  /// @brief Method Start, addr 0x2478764, size 0x140, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method TryResize, addr 0x2478a28, size 0x18, virtual false, abstract: false, final false
+  inline void TryResize();
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter>& __cordl_internal_get__beatmapObjectSpawnCenter();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> const& __cordl_internal_get__centerResizeController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController>& __cordl_internal_get__centerResizeController();
+
+  constexpr bool const& __cordl_internal_get__edgeDistanceFromCenterFound() const;
+
+  constexpr bool& __cordl_internal_get__edgeDistanceFromCenterFound();
+
+  constexpr bool const& __cordl_internal_get__isResizingFinished() const;
+
+  constexpr bool& __cordl_internal_get__isResizingFinished();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__platformEnd() const;
 
-  constexpr void __cordl_internal_set__platformEnd(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*>&
-  __cordl_internal_get__resizeData();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__platformEnd();
 
   constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> const&
   __cordl_internal_get__resizeData() const;
 
-  constexpr void __cordl_internal_set__resizeData(
-      ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> value);
+  constexpr ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*>&
+  __cordl_internal_get__resizeData();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController>& __cordl_internal_get__centerResizeController();
+  constexpr bool const& __cordl_internal_get__spawnCenterDistanceFound() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> const& __cordl_internal_get__centerResizeController() const;
-
-  constexpr void __cordl_internal_set__centerResizeController(::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter>& __cordl_internal_get__beatmapObjectSpawnCenter();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
-
-  constexpr void __cordl_internal_set__beatmapObjectSpawnCenter(::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> value);
+  constexpr bool& __cordl_internal_get__spawnCenterDistanceFound();
 
   constexpr ::System::Action*& __cordl_internal_get_resizingDidFinishEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_resizingDidFinishEvent() const;
 
-  constexpr void __cordl_internal_set_resizingDidFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnCenter(::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> value);
 
-  constexpr bool& __cordl_internal_get__isResizingFinished();
-
-  constexpr bool const& __cordl_internal_get__isResizingFinished() const;
-
-  constexpr void __cordl_internal_set__isResizingFinished(bool value);
-
-  constexpr bool& __cordl_internal_get__edgeDistanceFromCenterFound();
-
-  constexpr bool const& __cordl_internal_get__edgeDistanceFromCenterFound() const;
+  constexpr void __cordl_internal_set__centerResizeController(::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> value);
 
   constexpr void __cordl_internal_set__edgeDistanceFromCenterFound(bool value);
 
-  constexpr bool& __cordl_internal_get__spawnCenterDistanceFound();
+  constexpr void __cordl_internal_set__isResizingFinished(bool value);
 
-  constexpr bool const& __cordl_internal_get__spawnCenterDistanceFound() const;
+  constexpr void __cordl_internal_set__platformEnd(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__resizeData(
+      ::ArrayW<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*, ::Array<::GlobalNamespace::__MultiplayerEnvironmentResizeController__ResizeData*>*> value);
 
   constexpr void __cordl_internal_set__spawnCenterDistanceFound(bool value);
 
-  /// @brief Method get_isResizingFinished, addr 0x23aa6dc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isResizingFinished();
+  constexpr void __cordl_internal_set_resizingDidFinishEvent(::System::Action* value);
 
-  /// @brief Method add_resizingDidFinishEvent, addr 0x23aa6e4, size 0x9c, virtual false, abstract: false, final false
-  inline void add_resizingDidFinishEvent(::System::Action* value);
-
-  /// @brief Method remove_resizingDidFinishEvent, addr 0x23aa780, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_resizingDidFinishEvent(::System::Action* value);
-
-  /// @brief Method Start, addr 0x23aa81c, size 0x140, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23aa98c, size 0x154, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleEdgeDistanceFromCenterWasCalculated, addr 0x23aa95c, size 0x18, virtual false, abstract: false, final false
-  inline void HandleEdgeDistanceFromCenterWasCalculated(float_t edgeDistanceFromCenter);
-
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x23aa974, size 0x18, virtual false, abstract: false, final false
-  inline void HandleSpawnCenterDistanceWasFound(float_t distance);
-
-  /// @brief Method TryResize, addr 0x23aaae0, size 0x18, virtual false, abstract: false, final false
-  inline void TryResize();
-
-  /// @brief Method Resize, addr 0x23aaaf8, size 0x1e8, virtual false, abstract: false, final false
-  inline void Resize();
-
-  static inline ::GlobalNamespace::MultiplayerEnvironmentResizeController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23aace0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2478c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_resizingDidFinishEvent, addr 0x247862c, size 0x9c, virtual false, abstract: false, final false
+  inline void add_resizingDidFinishEvent(::System::Action* value);
+
+  /// @brief Method get_isResizingFinished, addr 0x2478624, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isResizingFinished();
+
+  /// @brief Method remove_resizingDidFinishEvent, addr 0x24786c8, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_resizingDidFinishEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerEnvironmentResizeController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEnvironmentResizeController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeController&&) = delete;
@@ -347,12 +352,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerEnvironmentResizeController(MultiplayerEnvironmentResizeController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerEnvironmentResizeController();
-
-public:
   /// @brief Field _platformEnd, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____platformEnd;
 

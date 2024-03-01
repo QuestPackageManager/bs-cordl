@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureDispatchingStrategy);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6434))
 // CS Name: ::MouseCaptureDispatchingStrategy::EventBehavior
 struct CORDL_TYPE __MouseCaptureDispatchingStrategy__EventBehavior {
 public:
@@ -52,27 +50,32 @@ public:
     return static_cast<____MouseCaptureDispatchingStrategy__EventBehavior_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MouseCaptureDispatchingStrategy__EventBehavior(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MouseCaptureDispatchingStrategy__EventBehavior();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MouseCaptureDispatchingStrategy__EventBehavior(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::__MouseCaptureDispatchingStrategy__EventBehavior const None;
 
   /// @brief Field IsCapturable value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UIElements::__MouseCaptureDispatchingStrategy__EventBehavior const IsCapturable;
 
   /// @brief Field IsSentExclusivelyToCapturingElement value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::__MouseCaptureDispatchingStrategy__EventBehavior const IsSentExclusivelyToCapturingElement;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::__MouseCaptureDispatchingStrategy__EventBehavior const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -86,8 +89,6 @@ static_assert(offsetof(::UnityEngine::UIElements::__MouseCaptureDispatchingStrat
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6435))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureDispatchingStrategy*
 class CORDL_TYPE MouseCaptureDispatchingStrategy : public ::System::Object {
 public:
@@ -97,20 +98,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
-  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
-
-  /// @brief Method CanDispatchEvent, addr 0x2e685a0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2f5acc8, size 0x7c, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e68634, size 0x688, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2f5ad5c, size 0x688, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::MouseCaptureDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e68d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5b450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseCaptureDispatchingStrategy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureDispatchingStrategy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseCaptureDispatchingStrategy(MouseCaptureDispatchingStrategy&&) = delete;
@@ -119,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseCaptureDispatchingStrategy(MouseCaptureDispatchingStrategy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseCaptureDispatchingStrategy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

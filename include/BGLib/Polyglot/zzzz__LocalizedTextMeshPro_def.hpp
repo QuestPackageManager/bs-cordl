@@ -25,31 +25,36 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LocalizedTextMeshPro);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12205)), TypeDefinitionIndex(TypeDefinitionIndex(15685)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15685), inst:
-// 4431 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15687)) CS Name: ::BGLib.Polyglot::LocalizedTextMeshPro*
+// CS Name: ::BGLib.Polyglot::LocalizedTextMeshPro*
 class CORDL_TYPE LocalizedTextMeshPro : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshPro>> {
 public:
   // Declarations
-  /// @brief Method SetText, addr 0xe4f404, size 0x2c, virtual true, abstract: false, final false
-  inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
+  /// @brief Method IsAlignmentLeft, addr 0xe9558c, size 0x28, virtual false, abstract: false, final false
+  static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method UpdateAlignment, addr 0xe4f430, size 0x108, virtual true, abstract: false, final false
-  inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::BGLib::Polyglot::LanguageDirection direction);
-
-  /// @brief Method IsOppositeDirection, addr 0xe4f538, size 0x5c, virtual false, abstract: false, final false
-  static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
-
-  /// @brief Method IsAlignmentRight, addr 0xe4f594, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0xe95564, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentLeft, addr 0xe4f5bc, size 0x28, virtual false, abstract: false, final false
-  static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
+  /// @brief Method IsOppositeDirection, addr 0xe95508, size 0x5c, virtual false, abstract: false, final false
+  static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshPro* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4f5e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0xe953d4, size 0x2c, virtual true, abstract: false, final false
+  inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
+
+  /// @brief Method UpdateAlignment, addr 0xe95400, size 0x108, virtual true, abstract: false, final false
+  inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::BGLib::Polyglot::LanguageDirection direction);
+
+  /// @brief Method .ctor, addr 0xe955b4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalizedTextMeshPro();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedTextMeshPro(LocalizedTextMeshPro&&) = delete;
@@ -58,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizedTextMeshPro(LocalizedTextMeshPro const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizedTextMeshPro();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

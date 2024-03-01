@@ -81,27 +81,31 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionSystem__InteractionEventDeleg
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12502))
 // CS Name: ::InteractionSystem::InteractionDelegate*
 class CORDL_TYPE __InteractionSystem__InteractionDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x1321b38, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x13233a4, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject);
-
-  /// @brief Method BeginInvoke, addr 0x13233b8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x13653a4, size 0x90, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x1323448, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x1365434, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x1365390, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject);
+
+  static inline ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x1363b24, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InteractionSystem__InteractionDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionSystem__InteractionDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InteractionSystem__InteractionDelegate(__InteractionSystem__InteractionDelegate&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InteractionSystem__InteractionDelegate(__InteractionSystem__InteractionDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InteractionSystem__InteractionDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -126,28 +124,32 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Interacti
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12503))
 // CS Name: ::InteractionSystem::InteractionEventDelegate*
 class CORDL_TYPE __InteractionSystem__InteractionEventDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x1323454, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x1323518, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject,
-                     ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* interactionEvent);
-
-  /// @brief Method BeginInvoke, addr 0x132352c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x1365518, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject,
                                              ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* interactionEvent, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x13235c4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x13655b0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x1365504, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject,
+                     ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* interactionEvent);
+
+  static inline ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x1365440, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InteractionSystem__InteractionEventDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionSystem__InteractionEventDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InteractionSystem__InteractionEventDelegate(__InteractionSystem__InteractionEventDelegate&&) = delete;
@@ -156,12 +158,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InteractionSystem__InteractionEventDelegate(__InteractionSystem__InteractionEventDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InteractionSystem__InteractionEventDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -172,54 +168,20 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Interacti
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(13919))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12504))
 // CS Name: ::RootMotion.FinalIK::InteractionSystem*
 class CORDL_TYPE InteractionSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InteractionEventDelegate = ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate;
-
   using InteractionDelegate = ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate;
 
-  /// @brief Field targetTag, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetTag, put = __cordl_internal_set_targetTag))::StringW targetTag;
-
-  /// @brief Field fadeInTime, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_fadeInTime, put = __cordl_internal_set_fadeInTime)) float_t fadeInTime;
-
-  /// @brief Field speed, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_speed, put = __cordl_internal_set_speed)) float_t speed;
-
-  /// @brief Field resetToDefaultsSpeed, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_resetToDefaultsSpeed, put = __cordl_internal_set_resetToDefaultsSpeed)) float_t resetToDefaultsSpeed;
-
-  /// @brief Field characterCollider, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_characterCollider, put = __cordl_internal_set_characterCollider))::UnityW<::UnityEngine::Collider> characterCollider;
+  using InteractionEventDelegate = ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate;
 
   /// @brief Field FPSCamera, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_FPSCamera, put = __cordl_internal_set_FPSCamera))::UnityW<::UnityEngine::Transform> FPSCamera;
 
-  /// @brief Field camRaycastLayers, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_camRaycastLayers, put = __cordl_internal_set_camRaycastLayers))::UnityEngine::LayerMask camRaycastLayers;
-
-  /// @brief Field camRaycastDistance, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_camRaycastDistance, put = __cordl_internal_set_camRaycastDistance)) float_t camRaycastDistance;
-
-  /// @brief Field <triggersInRange>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__triggersInRange_k__BackingField,
-      put = __cordl_internal_set__triggersInRange_k__BackingField))::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* _triggersInRange_k__BackingField;
-
-  /// @brief Field inContact, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_inContact,
-                      put = __cordl_internal_set_inContact))::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* inContact;
-
-  /// @brief Field bestRangeIndexes, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_bestRangeIndexes, put = __cordl_internal_set_bestRangeIndexes))::System::Collections::Generic::List_1<int32_t>* bestRangeIndexes;
-
-  /// @brief Field OnInteractionStart, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnInteractionStart, put = __cordl_internal_set_OnInteractionStart))::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* OnInteractionStart;
+  /// @brief Field OnInteractionEvent, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_OnInteractionEvent,
+                      put = __cordl_internal_set_OnInteractionEvent))::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* OnInteractionEvent;
 
   /// @brief Field OnInteractionPause, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_OnInteractionPause, put = __cordl_internal_set_OnInteractionPause))::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* OnInteractionPause;
@@ -232,363 +194,401 @@ public:
   __declspec(property(get = __cordl_internal_get_OnInteractionResume,
                       put = __cordl_internal_set_OnInteractionResume))::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* OnInteractionResume;
 
+  /// @brief Field OnInteractionStart, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_OnInteractionStart, put = __cordl_internal_set_OnInteractionStart))::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* OnInteractionStart;
+
   /// @brief Field OnInteractionStop, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_OnInteractionStop, put = __cordl_internal_set_OnInteractionStop))::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* OnInteractionStop;
 
-  /// @brief Field OnInteractionEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnInteractionEvent,
-                      put = __cordl_internal_set_OnInteractionEvent))::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* OnInteractionEvent;
+  /// @brief Field <triggersInRange>k__BackingField, offset 0x48, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__triggersInRange_k__BackingField,
+      put = __cordl_internal_set__triggersInRange_k__BackingField))::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* _triggersInRange_k__BackingField;
 
-  /// @brief Field raycastHit, offset 0x90, size 0x2c
-  __declspec(property(get = __cordl_internal_get_raycastHit, put = __cordl_internal_set_raycastHit))::UnityEngine::RaycastHit raycastHit;
+  /// @brief Field bestRangeIndexes, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_bestRangeIndexes, put = __cordl_internal_set_bestRangeIndexes))::System::Collections::Generic::List_1<int32_t>* bestRangeIndexes;
+
+  /// @brief Field c, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::UnityW<::UnityEngine::Collider> c;
+
+  /// @brief Field camRaycastDistance, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_camRaycastDistance, put = __cordl_internal_set_camRaycastDistance)) float_t camRaycastDistance;
+
+  /// @brief Field camRaycastLayers, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_camRaycastLayers, put = __cordl_internal_set_camRaycastLayers))::UnityEngine::LayerMask camRaycastLayers;
+
+  /// @brief Field characterCollider, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_characterCollider, put = __cordl_internal_set_characterCollider))::UnityW<::UnityEngine::Collider> characterCollider;
+
+  /// @brief Field fadeInTime, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_fadeInTime, put = __cordl_internal_set_fadeInTime)) float_t fadeInTime;
 
   /// @brief Field fullBody, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_fullBody, put = __cordl_internal_set_fullBody))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> fullBody;
 
-  /// @brief Field lookAt, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_lookAt, put = __cordl_internal_set_lookAt))::RootMotion::FinalIK::InteractionLookAt* lookAt;
+  __declspec(property(get = get_ik, put = set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
+
+  /// @brief Field inContact, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_inContact,
+                      put = __cordl_internal_set_inContact))::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* inContact;
+
+  __declspec(property(get = get_inInteraction)) bool inInteraction;
+
+  /// @brief Field initiated, offset 0xd8, size 0x1
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
   /// @brief Field interactionEffectors, offset 0xd0, size 0x8
   __declspec(
       property(get = __cordl_internal_get_interactionEffectors,
                put = __cordl_internal_set_interactionEffectors))::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*> interactionEffectors;
 
-  /// @brief Field initiated, offset 0xd8, size 0x1
-  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
-
   /// @brief Field lastCollider, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_lastCollider, put = __cordl_internal_set_lastCollider))::UnityW<::UnityEngine::Collider> lastCollider;
 
-  /// @brief Field c, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::UnityW<::UnityEngine::Collider> c;
+  /// @brief Field lookAt, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_lookAt, put = __cordl_internal_set_lookAt))::RootMotion::FinalIK::InteractionLookAt* lookAt;
 
-  __declspec(property(get = get_inInteraction)) bool inInteraction;
+  /// @brief Field raycastHit, offset 0x90, size 0x2c
+  __declspec(property(get = __cordl_internal_get_raycastHit, put = __cordl_internal_set_raycastHit))::UnityEngine::RaycastHit raycastHit;
 
-  __declspec(property(get = get_ik, put = set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
+  /// @brief Field resetToDefaultsSpeed, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_resetToDefaultsSpeed, put = __cordl_internal_set_resetToDefaultsSpeed)) float_t resetToDefaultsSpeed;
+
+  /// @brief Field speed, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_speed, put = __cordl_internal_set_speed)) float_t speed;
+
+  /// @brief Field targetTag, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_targetTag, put = __cordl_internal_set_targetTag))::StringW targetTag;
 
   __declspec(property(get = get_triggersInRange, put = set_triggersInRange))::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* triggersInRange;
 
-  constexpr ::StringW& __cordl_internal_get_targetTag();
+  /// @brief Method ASThread, addr 0x1361b20, size 0x44, virtual false, abstract: false, final false
+  inline void ASThread();
 
-  constexpr ::StringW const& __cordl_internal_get_targetTag() const;
+  /// @brief Method ContactIsInRange, addr 0x1364144, size 0x1a8, virtual false, abstract: false, final false
+  inline bool ContactIsInRange(int32_t index, ByRef<int32_t> bestRangeIndex);
 
-  constexpr void __cordl_internal_set_targetTag(::StringW value);
+  /// @brief Method GetClosestInteractionObjectInRange, addr 0x1362eb0, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityW<::RootMotion::FinalIK::InteractionObject> GetClosestInteractionObjectInRange();
 
-  constexpr float_t& __cordl_internal_get_fadeInTime();
+  /// @brief Method GetClosestInteractionObjectsInRange, addr 0x1362f48, size 0x108, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionObject>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionObject>>*> GetClosestInteractionObjectsInRange();
 
-  constexpr float_t const& __cordl_internal_get_fadeInTime() const;
+  /// @brief Method GetClosestInteractionRange, addr 0x1362c24, size 0xe8, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__InteractionTrigger__Range* GetClosestInteractionRange();
 
-  constexpr void __cordl_internal_set_fadeInTime(float_t value);
+  /// @brief Method GetClosestInteractionTargetInRange, addr 0x1362ee8, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityW<::RootMotion::FinalIK::InteractionTarget> GetClosestInteractionTargetInRange();
 
-  constexpr float_t& __cordl_internal_get_speed();
+  /// @brief Method GetClosestInteractionTargetsInRange, addr 0x1363050, size 0x1e0, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> GetClosestInteractionTargetsInRange();
 
-  constexpr float_t const& __cordl_internal_get_speed() const;
+  /// @brief Method GetClosestTriggerIndex, addr 0x1362d0c, size 0x1a4, virtual false, abstract: false, final false
+  inline int32_t GetClosestTriggerIndex();
 
-  constexpr void __cordl_internal_set_speed(float_t value);
+  /// @brief Method GetInteractionObject, addr 0x1362378, size 0x80, virtual false, abstract: false, final false
+  inline ::UnityW<::RootMotion::FinalIK::InteractionObject> GetInteractionObject(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  constexpr float_t& __cordl_internal_get_resetToDefaultsSpeed();
+  /// @brief Method GetMinActiveProgress, addr 0x13624a0, size 0xd0, virtual false, abstract: false, final false
+  inline float_t GetMinActiveProgress();
 
-  constexpr float_t const& __cordl_internal_get_resetToDefaultsSpeed() const;
+  /// @brief Method GetProgress, addr 0x13623f8, size 0xa8, virtual false, abstract: false, final false
+  inline float_t GetProgress(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  constexpr void __cordl_internal_set_resetToDefaultsSpeed(float_t value);
+  /// @brief Method GetTriggerRange, addr 0x13634a4, size 0x120, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__InteractionTrigger__Range* GetTriggerRange(int32_t index);
 
-  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_characterCollider();
+  /// @brief Method InteractionPause, addr 0x1363e30, size 0x20, virtual false, abstract: false, final false
+  inline void InteractionPause(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
-  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_characterCollider() const;
+  /// @brief Method InteractionResume, addr 0x1363e50, size 0x1c, virtual false, abstract: false, final false
+  inline void InteractionResume(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
-  constexpr void __cordl_internal_set_characterCollider(::UnityW<::UnityEngine::Collider> value);
+  /// @brief Method InteractionStop, addr 0x1363e6c, size 0x1c, virtual false, abstract: false, final false
+  inline void InteractionStop(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_FPSCamera();
+  /// @brief Method IsInInteraction, addr 0x1361cdc, size 0xb8, virtual false, abstract: false, final false
+  inline bool IsInInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+
+  /// @brief Method IsInSync, addr 0x1361ee4, size 0xe4, virtual false, abstract: false, final false
+  inline bool IsInSync();
+
+  /// @brief Method IsPaused, addr 0x1361e4c, size 0x98, virtual false, abstract: false, final false
+  inline bool IsPaused();
+
+  /// @brief Method IsPaused, addr 0x1361d94, size 0xb8, virtual false, abstract: false, final false
+  inline bool IsPaused(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+
+  /// @brief Method IsValid, addr 0x1361bfc, size 0xe0, virtual false, abstract: false, final false
+  inline bool IsValid(bool log);
+
+  /// @brief Method LookAtInteraction, addr 0x1363e88, size 0x54, virtual false, abstract: false, final false
+  inline void LookAtInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
+
+  static inline ::RootMotion::FinalIK::InteractionSystem* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x1364c04, size 0x3e8, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDrawGizmosSelected, addr 0x13644a0, size 0xe4, virtual false, abstract: false, final false
+  inline void OnDrawGizmosSelected();
+
+  /// @brief Method OnFixTransforms, addr 0x1364bec, size 0x18, virtual false, abstract: false, final false
+  inline void OnFixTransforms();
+
+  /// @brief Method OnPostFBBIK, addr 0x1364b2c, size 0xc0, virtual false, abstract: false, final false
+  inline void OnPostFBBIK();
+
+  /// @brief Method OnPreFBBIK, addr 0x1364aa4, size 0x88, virtual false, abstract: false, final false
+  inline void OnPreFBBIK();
+
+  /// @brief Method OnTriggerEnter, addr 0x1363edc, size 0x16c, virtual false, abstract: false, final false
+  inline void OnTriggerEnter(::UnityEngine::Collider* c);
+
+  /// @brief Method OnTriggerExit, addr 0x1364048, size 0xfc, virtual false, abstract: false, final false
+  inline void OnTriggerExit(::UnityEngine::Collider* c);
+
+  /// @brief Method OpenScriptReference, addr 0x1361988, size 0x44, virtual false, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenTutorial1, addr 0x13619cc, size 0x44, virtual false, abstract: false, final false
+  inline void OpenTutorial1();
+
+  /// @brief Method OpenTutorial2, addr 0x1361a10, size 0x44, virtual false, abstract: false, final false
+  inline void OpenTutorial2();
+
+  /// @brief Method OpenTutorial3, addr 0x1361a54, size 0x44, virtual false, abstract: false, final false
+  inline void OpenTutorial3();
+
+  /// @brief Method OpenTutorial4, addr 0x1361a98, size 0x44, virtual false, abstract: false, final false
+  inline void OpenTutorial4();
+
+  /// @brief Method OpenUserManual, addr 0x1361944, size 0x44, virtual false, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method PauseAll, addr 0x136224c, size 0x68, virtual false, abstract: false, final false
+  inline void PauseAll();
+
+  /// @brief Method PauseInteraction, addr 0x13620c0, size 0x84, virtual false, abstract: false, final false
+  inline bool PauseInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+
+  /// @brief Method Raycasting, addr 0x1364868, size 0x130, virtual false, abstract: false, final false
+  inline void Raycasting();
+
+  /// @brief Method ResumeAll, addr 0x13622b4, size 0x68, virtual false, abstract: false, final false
+  inline void ResumeAll();
+
+  /// @brief Method ResumeInteraction, addr 0x1362144, size 0x84, virtual false, abstract: false, final false
+  inline bool ResumeInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+
+  /// @brief Method Start, addr 0x13635e4, size 0x540, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method StartInteraction, addr 0x1361fc8, size 0xf8, virtual false, abstract: false, final false
+  inline bool StartInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject, bool interrupt);
+
+  /// @brief Method StopAll, addr 0x136231c, size 0x5c, virtual false, abstract: false, final false
+  inline void StopAll();
+
+  /// @brief Method StopInteraction, addr 0x13621c8, size 0x84, virtual false, abstract: false, final false
+  inline bool StopInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+
+  /// @brief Method SupportGroup, addr 0x1361adc, size 0x44, virtual false, abstract: false, final false
+  inline void SupportGroup();
+
+  /// @brief Method TriggerEffectorsReady, addr 0x1363230, size 0x274, virtual false, abstract: false, final false
+  inline bool TriggerEffectorsReady(int32_t index);
+
+  /// @brief Method TriggerIndexIsValid, addr 0x13626ec, size 0x114, virtual false, abstract: false, final false
+  inline bool TriggerIndexIsValid(int32_t index);
+
+  /// @brief Method TriggerInteraction, addr 0x1362570, size 0x17c, virtual false, abstract: false, final false
+  inline bool TriggerInteraction(int32_t index, bool interrupt);
+
+  /// @brief Method TriggerInteraction, addr 0x1362800, size 0x1bc, virtual false, abstract: false, final false
+  inline bool TriggerInteraction(int32_t index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionObject*> interactionObject);
+
+  /// @brief Method TriggerInteraction, addr 0x13629bc, size 0x268, virtual false, abstract: false, final false
+  inline bool TriggerInteraction(int32_t index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionTarget*> interactionTarget);
+
+  /// @brief Method Update, addr 0x1364584, size 0x2e4, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateEffectors, addr 0x1364998, size 0x10c, virtual false, abstract: false, final false
+  inline void UpdateEffectors();
+
+  /// @brief Method UpdateTriggerEventBroadcasting, addr 0x1363be8, size 0x248, virtual false, abstract: false, final false
+  inline void UpdateTriggerEventBroadcasting();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_FPSCamera() const;
 
-  constexpr void __cordl_internal_set_FPSCamera(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_FPSCamera();
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_camRaycastLayers();
+  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate*& __cordl_internal_get_OnInteractionEvent();
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_camRaycastLayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate*> const& __cordl_internal_get_OnInteractionEvent() const;
 
-  constexpr void __cordl_internal_set_camRaycastLayers(::UnityEngine::LayerMask value);
+  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionPause();
 
-  constexpr float_t& __cordl_internal_get_camRaycastDistance();
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionPause() const;
 
-  constexpr float_t const& __cordl_internal_get_camRaycastDistance() const;
+  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionPickUp();
 
-  constexpr void __cordl_internal_set_camRaycastDistance(float_t value);
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionPickUp() const;
+
+  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionResume();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionResume() const;
+
+  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionStart();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionStart() const;
+
+  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionStop();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionStop() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>*& __cordl_internal_get__triggersInRange_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>*> const&
   __cordl_internal_get__triggersInRange_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__triggersInRange_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_bestRangeIndexes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_bestRangeIndexes() const;
+
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_c() const;
+
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_c();
+
+  constexpr float_t const& __cordl_internal_get_camRaycastDistance() const;
+
+  constexpr float_t& __cordl_internal_get_camRaycastDistance();
+
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_camRaycastLayers() const;
+
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_camRaycastLayers();
+
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_characterCollider() const;
+
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_characterCollider();
+
+  constexpr float_t const& __cordl_internal_get_fadeInTime() const;
+
+  constexpr float_t& __cordl_internal_get_fadeInTime();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_fullBody() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_fullBody();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>*& __cordl_internal_get_inContact();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>*> const& __cordl_internal_get_inContact() const;
 
-  constexpr void __cordl_internal_set_inContact(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
+  constexpr bool const& __cordl_internal_get_initiated() const;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_bestRangeIndexes();
+  constexpr bool& __cordl_internal_get_initiated();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_bestRangeIndexes() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*> const& __cordl_internal_get_interactionEffectors() const;
 
-  constexpr void __cordl_internal_set_bestRangeIndexes(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr ::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*>& __cordl_internal_get_interactionEffectors();
 
-  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionStart();
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_lastCollider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionStart() const;
-
-  constexpr void __cordl_internal_set_OnInteractionStart(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
-
-  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionPause();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionPause() const;
-
-  constexpr void __cordl_internal_set_OnInteractionPause(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
-
-  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionPickUp();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionPickUp() const;
-
-  constexpr void __cordl_internal_set_OnInteractionPickUp(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
-
-  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionResume();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionResume() const;
-
-  constexpr void __cordl_internal_set_OnInteractionResume(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
-
-  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*& __cordl_internal_get_OnInteractionStop();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate*> const& __cordl_internal_get_OnInteractionStop() const;
-
-  constexpr void __cordl_internal_set_OnInteractionStop(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
-
-  constexpr ::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate*& __cordl_internal_get_OnInteractionEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate*> const& __cordl_internal_get_OnInteractionEvent() const;
-
-  constexpr void __cordl_internal_set_OnInteractionEvent(::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* value);
-
-  constexpr ::UnityEngine::RaycastHit& __cordl_internal_get_raycastHit();
-
-  constexpr ::UnityEngine::RaycastHit const& __cordl_internal_get_raycastHit() const;
-
-  constexpr void __cordl_internal_set_raycastHit(::UnityEngine::RaycastHit value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_fullBody();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_fullBody() const;
-
-  constexpr void __cordl_internal_set_fullBody(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_lastCollider();
 
   constexpr ::RootMotion::FinalIK::InteractionLookAt*& __cordl_internal_get_lookAt();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::InteractionLookAt*> const& __cordl_internal_get_lookAt() const;
 
-  constexpr void __cordl_internal_set_lookAt(::RootMotion::FinalIK::InteractionLookAt* value);
+  constexpr ::UnityEngine::RaycastHit const& __cordl_internal_get_raycastHit() const;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*>& __cordl_internal_get_interactionEffectors();
+  constexpr ::UnityEngine::RaycastHit& __cordl_internal_get_raycastHit();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*> const& __cordl_internal_get_interactionEffectors() const;
+  constexpr float_t const& __cordl_internal_get_resetToDefaultsSpeed() const;
 
-  constexpr void __cordl_internal_set_interactionEffectors(::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*> value);
+  constexpr float_t& __cordl_internal_get_resetToDefaultsSpeed();
 
-  constexpr bool& __cordl_internal_get_initiated();
+  constexpr float_t const& __cordl_internal_get_speed() const;
 
-  constexpr bool const& __cordl_internal_get_initiated() const;
+  constexpr float_t& __cordl_internal_get_speed();
 
-  constexpr void __cordl_internal_set_initiated(bool value);
+  constexpr ::StringW const& __cordl_internal_get_targetTag() const;
 
-  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_lastCollider();
+  constexpr ::StringW& __cordl_internal_get_targetTag();
 
-  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_lastCollider() const;
+  constexpr void __cordl_internal_set_FPSCamera(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr void __cordl_internal_set_lastCollider(::UnityW<::UnityEngine::Collider> value);
+  constexpr void __cordl_internal_set_OnInteractionEvent(::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate* value);
 
-  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_c();
+  constexpr void __cordl_internal_set_OnInteractionPause(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
 
-  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_c() const;
+  constexpr void __cordl_internal_set_OnInteractionPickUp(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
+
+  constexpr void __cordl_internal_set_OnInteractionResume(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
+
+  constexpr void __cordl_internal_set_OnInteractionStart(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
+
+  constexpr void __cordl_internal_set_OnInteractionStop(::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate* value);
+
+  constexpr void __cordl_internal_set__triggersInRange_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
+
+  constexpr void __cordl_internal_set_bestRangeIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
   constexpr void __cordl_internal_set_c(::UnityW<::UnityEngine::Collider> value);
 
-  /// @brief Method OpenUserManual, addr 0x131f958, size 0x44, virtual false, abstract: false, final false
-  inline void OpenUserManual();
+  constexpr void __cordl_internal_set_camRaycastDistance(float_t value);
 
-  /// @brief Method OpenScriptReference, addr 0x131f99c, size 0x44, virtual false, abstract: false, final false
-  inline void OpenScriptReference();
+  constexpr void __cordl_internal_set_camRaycastLayers(::UnityEngine::LayerMask value);
 
-  /// @brief Method OpenTutorial1, addr 0x131f9e0, size 0x44, virtual false, abstract: false, final false
-  inline void OpenTutorial1();
+  constexpr void __cordl_internal_set_characterCollider(::UnityW<::UnityEngine::Collider> value);
 
-  /// @brief Method OpenTutorial2, addr 0x131fa24, size 0x44, virtual false, abstract: false, final false
-  inline void OpenTutorial2();
+  constexpr void __cordl_internal_set_fadeInTime(float_t value);
 
-  /// @brief Method OpenTutorial3, addr 0x131fa68, size 0x44, virtual false, abstract: false, final false
-  inline void OpenTutorial3();
+  constexpr void __cordl_internal_set_fullBody(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
 
-  /// @brief Method OpenTutorial4, addr 0x131faac, size 0x44, virtual false, abstract: false, final false
-  inline void OpenTutorial4();
+  constexpr void __cordl_internal_set_inContact(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
 
-  /// @brief Method SupportGroup, addr 0x131faf0, size 0x44, virtual false, abstract: false, final false
-  inline void SupportGroup();
+  constexpr void __cordl_internal_set_initiated(bool value);
 
-  /// @brief Method ASThread, addr 0x131fb34, size 0x44, virtual false, abstract: false, final false
-  inline void ASThread();
+  constexpr void __cordl_internal_set_interactionEffectors(::ArrayW<::RootMotion::FinalIK::InteractionEffector*, ::Array<::RootMotion::FinalIK::InteractionEffector*>*> value);
 
-  /// @brief Method get_inInteraction, addr 0x131fb78, size 0x98, virtual false, abstract: false, final false
-  inline bool get_inInteraction();
+  constexpr void __cordl_internal_set_lastCollider(::UnityW<::UnityEngine::Collider> value);
 
-  /// @brief Method IsInInteraction, addr 0x131fcf0, size 0xb8, virtual false, abstract: false, final false
-  inline bool IsInInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+  constexpr void __cordl_internal_set_lookAt(::RootMotion::FinalIK::InteractionLookAt* value);
 
-  /// @brief Method IsPaused, addr 0x131fda8, size 0xb8, virtual false, abstract: false, final false
-  inline bool IsPaused(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+  constexpr void __cordl_internal_set_raycastHit(::UnityEngine::RaycastHit value);
 
-  /// @brief Method IsPaused, addr 0x131fe60, size 0x98, virtual false, abstract: false, final false
-  inline bool IsPaused();
+  constexpr void __cordl_internal_set_resetToDefaultsSpeed(float_t value);
 
-  /// @brief Method IsInSync, addr 0x131fef8, size 0xe4, virtual false, abstract: false, final false
-  inline bool IsInSync();
+  constexpr void __cordl_internal_set_speed(float_t value);
 
-  /// @brief Method StartInteraction, addr 0x131ffdc, size 0xf8, virtual false, abstract: false, final false
-  inline bool StartInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionObject* interactionObject, bool interrupt);
+  constexpr void __cordl_internal_set_targetTag(::StringW value);
 
-  /// @brief Method PauseInteraction, addr 0x13200d4, size 0x84, virtual false, abstract: false, final false
-  inline bool PauseInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
-
-  /// @brief Method ResumeInteraction, addr 0x1320158, size 0x84, virtual false, abstract: false, final false
-  inline bool ResumeInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
-
-  /// @brief Method StopInteraction, addr 0x13201dc, size 0x84, virtual false, abstract: false, final false
-  inline bool StopInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
-
-  /// @brief Method PauseAll, addr 0x1320260, size 0x68, virtual false, abstract: false, final false
-  inline void PauseAll();
-
-  /// @brief Method ResumeAll, addr 0x13202c8, size 0x68, virtual false, abstract: false, final false
-  inline void ResumeAll();
-
-  /// @brief Method StopAll, addr 0x1320330, size 0x5c, virtual false, abstract: false, final false
-  inline void StopAll();
-
-  /// @brief Method GetInteractionObject, addr 0x132038c, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityW<::RootMotion::FinalIK::InteractionObject> GetInteractionObject(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
-
-  /// @brief Method GetProgress, addr 0x132040c, size 0xa8, virtual false, abstract: false, final false
-  inline float_t GetProgress(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
-
-  /// @brief Method GetMinActiveProgress, addr 0x13204b4, size 0xd0, virtual false, abstract: false, final false
-  inline float_t GetMinActiveProgress();
-
-  /// @brief Method TriggerInteraction, addr 0x1320584, size 0x17c, virtual false, abstract: false, final false
-  inline bool TriggerInteraction(int32_t index, bool interrupt);
-
-  /// @brief Method TriggerInteraction, addr 0x1320814, size 0x1bc, virtual false, abstract: false, final false
-  inline bool TriggerInteraction(int32_t index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionObject*> interactionObject);
-
-  /// @brief Method TriggerInteraction, addr 0x13209d0, size 0x268, virtual false, abstract: false, final false
-  inline bool TriggerInteraction(int32_t index, bool interrupt, ByRef<::RootMotion::FinalIK::InteractionTarget*> interactionTarget);
-
-  /// @brief Method GetClosestInteractionRange, addr 0x1320c38, size 0xe8, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__InteractionTrigger__Range* GetClosestInteractionRange();
-
-  /// @brief Method GetClosestInteractionObjectInRange, addr 0x1320ec4, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityW<::RootMotion::FinalIK::InteractionObject> GetClosestInteractionObjectInRange();
-
-  /// @brief Method GetClosestInteractionTargetInRange, addr 0x1320efc, size 0x60, virtual false, abstract: false, final false
-  inline ::UnityW<::RootMotion::FinalIK::InteractionTarget> GetClosestInteractionTargetInRange();
-
-  /// @brief Method GetClosestInteractionObjectsInRange, addr 0x1320f5c, size 0x108, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionObject>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionObject>>*> GetClosestInteractionObjectsInRange();
-
-  /// @brief Method GetClosestInteractionTargetsInRange, addr 0x1321064, size 0x1e0, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> GetClosestInteractionTargetsInRange();
-
-  /// @brief Method TriggerEffectorsReady, addr 0x1321244, size 0x274, virtual false, abstract: false, final false
-  inline bool TriggerEffectorsReady(int32_t index);
-
-  /// @brief Method GetTriggerRange, addr 0x13214b8, size 0x120, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__InteractionTrigger__Range* GetTriggerRange(int32_t index);
-
-  /// @brief Method GetClosestTriggerIndex, addr 0x1320d20, size 0x1a4, virtual false, abstract: false, final false
-  inline int32_t GetClosestTriggerIndex();
-
-  /// @brief Method get_ik, addr 0x13215d8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> get_ik();
-
-  /// @brief Method set_ik, addr 0x13215e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
-
-  /// @brief Method get_triggersInRange, addr 0x13215e8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* get_triggersInRange();
-
-  /// @brief Method set_triggersInRange, addr 0x13215f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_triggersInRange(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
-
-  /// @brief Method Start, addr 0x13215f8, size 0x540, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method InteractionPause, addr 0x1321e44, size 0x20, virtual false, abstract: false, final false
-  inline void InteractionPause(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
-
-  /// @brief Method InteractionResume, addr 0x1321e64, size 0x1c, virtual false, abstract: false, final false
-  inline void InteractionResume(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
-
-  /// @brief Method InteractionStop, addr 0x1321e80, size 0x1c, virtual false, abstract: false, final false
-  inline void InteractionStop(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
-
-  /// @brief Method LookAtInteraction, addr 0x1321e9c, size 0x54, virtual false, abstract: false, final false
-  inline void LookAtInteraction(::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionObject* interactionObject);
-
-  /// @brief Method OnTriggerEnter, addr 0x1321ef0, size 0x16c, virtual false, abstract: false, final false
-  inline void OnTriggerEnter(::UnityEngine::Collider* c);
-
-  /// @brief Method OnTriggerExit, addr 0x132205c, size 0xfc, virtual false, abstract: false, final false
-  inline void OnTriggerExit(::UnityEngine::Collider* c);
-
-  /// @brief Method ContactIsInRange, addr 0x1322158, size 0x1a8, virtual false, abstract: false, final false
-  inline bool ContactIsInRange(int32_t index, ByRef<int32_t> bestRangeIndex);
-
-  /// @brief Method OnDrawGizmosSelected, addr 0x13224b4, size 0xe4, virtual false, abstract: false, final false
-  inline void OnDrawGizmosSelected();
-
-  /// @brief Method Update, addr 0x1322598, size 0x2e4, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method Raycasting, addr 0x132287c, size 0x130, virtual false, abstract: false, final false
-  inline void Raycasting();
-
-  /// @brief Method UpdateTriggerEventBroadcasting, addr 0x1321bfc, size 0x248, virtual false, abstract: false, final false
-  inline void UpdateTriggerEventBroadcasting();
-
-  /// @brief Method UpdateEffectors, addr 0x13229ac, size 0x10c, virtual false, abstract: false, final false
-  inline void UpdateEffectors();
-
-  /// @brief Method OnPreFBBIK, addr 0x1322ab8, size 0x88, virtual false, abstract: false, final false
-  inline void OnPreFBBIK();
-
-  /// @brief Method OnPostFBBIK, addr 0x1322b40, size 0xc0, virtual false, abstract: false, final false
-  inline void OnPostFBBIK();
-
-  /// @brief Method OnFixTransforms, addr 0x1322c00, size 0x18, virtual false, abstract: false, final false
-  inline void OnFixTransforms();
-
-  /// @brief Method OnDestroy, addr 0x1322c18, size 0x3e8, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method IsValid, addr 0x131fc10, size 0xe0, virtual false, abstract: false, final false
-  inline bool IsValid(bool log);
-
-  /// @brief Method TriggerIndexIsValid, addr 0x1320700, size 0x114, virtual false, abstract: false, final false
-  inline bool TriggerIndexIsValid(int32_t index);
-
-  static inline ::RootMotion::FinalIK::InteractionSystem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1323000, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1364fec, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ik, addr 0x13635c4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> get_ik();
+
+  /// @brief Method get_inInteraction, addr 0x1361b64, size 0x98, virtual false, abstract: false, final false
+  inline bool get_inInteraction();
+
+  /// @brief Method get_triggersInRange, addr 0x13635d4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* get_triggersInRange();
+
+  /// @brief Method set_ik, addr 0x13635cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
+
+  /// @brief Method set_triggersInRange, addr 0x13635dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_triggersInRange(::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InteractionSystem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InteractionSystem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InteractionSystem(InteractionSystem&&) = delete;
@@ -597,12 +597,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InteractionSystem(InteractionSystem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InteractionSystem();
-
-public:
   /// @brief Field targetTag, offset: 0x18, size: 0x8, def value: None
   ::StringW ___targetTag;
 

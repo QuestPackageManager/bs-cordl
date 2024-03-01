@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::InputStreamPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(556))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(557))
 // CS Name: ::Org.BouncyCastle.Bcpg::InputStreamPacket*
 class CORDL_TYPE InputStreamPacket : public ::Org::BouncyCastle::Bcpg::Packet {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field bcpgIn, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bcpgIn, put = __cordl_internal_set_bcpgIn))::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn;
 
+  /// @brief Method GetInputStream, addr 0x124126c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* GetInputStream();
+
+  static inline ::Org::BouncyCastle::Bcpg::InputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+
   constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __cordl_internal_get_bcpgIn();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgInputStream*> const& __cordl_internal_get_bcpgIn() const;
 
   constexpr void __cordl_internal_set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::InputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
-
-  /// @brief Method .ctor, addr 0x11fb150, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123e120, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method GetInputStream, addr 0x11fe29c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* GetInputStream();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputStreamPacket();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputStreamPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputStreamPacket(InputStreamPacket&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputStreamPacket(InputStreamPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputStreamPacket();
-
-public:
   /// @brief Field bcpgIn, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::BcpgInputStream* ___bcpgIn;
 

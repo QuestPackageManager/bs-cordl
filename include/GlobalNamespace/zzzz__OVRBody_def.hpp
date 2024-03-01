@@ -52,12 +52,12 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBody);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7733)), TypeDefinitionIndex(TypeDefinitionIndex(7837)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7606))
 // CS Name: ::OVRBody*
 class CORDL_TYPE OVRBody : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  __declspec(property(get = get_BodyState))::System::Nullable_1<::GlobalNamespace::__OVRPlugin__BodyState> BodyState;
+
   /// @brief Field _bodyState, offset 0x18, size 0x18
   __declspec(property(get = __cordl_internal_get__bodyState, put = __cordl_internal_set__bodyState))::GlobalNamespace::__OVRPlugin__BodyState _bodyState;
 
@@ -81,104 +81,108 @@ public:
   /// @brief Field _trackingInstanceCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__trackingInstanceCount, put = setStaticF__trackingInstanceCount)) int32_t _trackingInstanceCount;
 
-  __declspec(property(get = get_BodyState))::System::Nullable_1<::GlobalNamespace::__OVRPlugin__BodyState> BodyState;
+  /// @brief Convert operator to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
+  constexpr operator ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*() noexcept;
 
   /// @brief Convert operator to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
   constexpr operator ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
-  constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* i___GlobalNamespace____OVRSkeleton__IOVRSkeletonDataProvider() noexcept;
+  /// @brief Method Awake, addr 0x2807edc, size 0x7c, virtual false, abstract: false, final false
+  inline void Awake();
 
-  /// @brief Convert operator to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
-  constexpr operator ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider*() noexcept;
+  /// @brief Method GetBodyState, addr 0x2808144, size 0x84, virtual false, abstract: false, final false
+  inline void GetBodyState(::GlobalNamespace::__OVRPlugin__Step step);
 
-  /// @brief Convert to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
-  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* i___GlobalNamespace____OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() noexcept;
+  static inline ::GlobalNamespace::OVRBody* New_ctor();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__BodyState& __cordl_internal_get__bodyState();
+  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x280851c, size 0x18, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData();
+
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x28082cc, size 0x250, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
+
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x28082c4, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
+
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x280853c, size 0x8, virtual true, abstract: false, final true
+  inline bool OVRSkeleton_IOVRSkeletonDataProvider_get_enabled();
+
+  /// @brief Method OnDestroy, addr 0x28082b0, size 0xc, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDisable, addr 0x2808228, size 0x88, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x2807f58, size 0x114, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method OnPermissionGranted, addr 0x28081c8, size 0x60, virtual false, abstract: false, final false
+  inline void OnPermissionGranted(::StringW permissionId);
+
+  /// @brief Method StartBodyTracking, addr 0x280806c, size 0xd8, virtual false, abstract: false, final false
+  inline bool StartBodyTracking();
+
+  /// @brief Method Update, addr 0x28082bc, size 0x8, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::GlobalNamespace::__OVRPlugin__BodyState const& __cordl_internal_get__bodyState() const;
 
-  constexpr void __cordl_internal_set__bodyState(::GlobalNamespace::__OVRPlugin__BodyState value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*>& __cordl_internal_get__boneRotations();
+  constexpr ::GlobalNamespace::__OVRPlugin__BodyState& __cordl_internal_get__bodyState();
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> const& __cordl_internal_get__boneRotations() const;
 
-  constexpr void __cordl_internal_set__boneRotations(::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __cordl_internal_get__boneTranslations();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*>& __cordl_internal_get__boneRotations();
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __cordl_internal_get__boneTranslations() const;
 
-  constexpr void __cordl_internal_set__boneTranslations(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
-
-  constexpr bool& __cordl_internal_get__dataChangedSinceLastQuery();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __cordl_internal_get__boneTranslations();
 
   constexpr bool const& __cordl_internal_get__dataChangedSinceLastQuery() const;
 
-  constexpr void __cordl_internal_set__dataChangedSinceLastQuery(bool value);
-
-  constexpr bool& __cordl_internal_get__hasData();
+  constexpr bool& __cordl_internal_get__dataChangedSinceLastQuery();
 
   constexpr bool const& __cordl_internal_get__hasData() const;
 
-  constexpr void __cordl_internal_set__hasData(bool value);
+  constexpr bool& __cordl_internal_get__hasData();
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get__onPermissionGranted();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get__onPermissionGranted() const;
 
+  constexpr void __cordl_internal_set__bodyState(::GlobalNamespace::__OVRPlugin__BodyState value);
+
+  constexpr void __cordl_internal_set__boneRotations(::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> value);
+
+  constexpr void __cordl_internal_set__boneTranslations(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
+
+  constexpr void __cordl_internal_set__dataChangedSinceLastQuery(bool value);
+
+  constexpr void __cordl_internal_set__hasData(bool value);
+
   constexpr void __cordl_internal_set__onPermissionGranted(::System::Action_1<::StringW>* value);
 
-  static inline void setStaticF__trackingInstanceCount(int32_t value);
+  /// @brief Method .ctor, addr 0x2808534, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_BodyState, addr 0x274313c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_BodyState, addr 0x2807e54, size 0x88, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::GlobalNamespace::__OVRPlugin__BodyState> get_BodyState();
 
-  /// @brief Method Awake, addr 0x27431c4, size 0x7c, virtual false, abstract: false, final false
-  inline void Awake();
+  /// @brief Convert to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
+  constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* i___GlobalNamespace____OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() noexcept;
 
-  /// @brief Method OnEnable, addr 0x2743240, size 0x114, virtual false, abstract: false, final false
-  inline void OnEnable();
+  /// @brief Convert to "::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider"
+  constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* i___GlobalNamespace____OVRSkeleton__IOVRSkeletonDataProvider() noexcept;
 
-  /// @brief Method OnPermissionGranted, addr 0x27434b0, size 0x60, virtual false, abstract: false, final false
-  inline void OnPermissionGranted(::StringW permissionId);
+  static inline void setStaticF__trackingInstanceCount(int32_t value);
 
-  /// @brief Method StartBodyTracking, addr 0x2743354, size 0xd8, virtual false, abstract: false, final false
-  inline bool StartBodyTracking();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRBody();
 
-  /// @brief Method OnDisable, addr 0x2743510, size 0x88, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnDestroy, addr 0x2743598, size 0xc, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method Update, addr 0x27435a4, size 0x8, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method GetBodyState, addr 0x274342c, size 0x84, virtual false, abstract: false, final false
-  inline void GetBodyState(::GlobalNamespace::__OVRPlugin__Step step);
-
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x27435ac, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
-
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x27435b4, size 0x250, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
-
-  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x2743804, size 0x18, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData();
-
-  static inline ::GlobalNamespace::OVRBody* New_ctor();
-
-  /// @brief Method .ctor, addr 0x274381c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x2743824, size 0x8, virtual true, abstract: false, final true
-  inline bool OVRSkeleton_IOVRSkeletonDataProvider_get_enabled();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRBody", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRBody(OVRBody&&) = delete;
@@ -187,12 +191,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRBody(OVRBody const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRBody();
-
-public:
   /// @brief Field _bodyState, offset: 0x18, size: 0x18, def value: None
   ::GlobalNamespace::__OVRPlugin__BodyState ____bodyState;
 

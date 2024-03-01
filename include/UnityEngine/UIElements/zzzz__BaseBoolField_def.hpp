@@ -33,82 +33,86 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseBoolField);
 // SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6389), inst: 77 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6326))
 // CS Name: ::UnityEngine.UIElements::BaseBoolField*
 class CORDL_TYPE BaseBoolField : public ::UnityEngine::UIElements::BaseField_1<bool> {
 public:
   // Declarations
-  /// @brief Field m_Label, offset 0x408, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label))::UnityEngine::UIElements::Label* m_Label;
-
   /// @brief Field m_CheckMark, offset 0x410, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CheckMark, put = __cordl_internal_set_m_CheckMark))::UnityEngine::UIElements::VisualElement* m_CheckMark;
 
   /// @brief Field m_Clickable, offset 0x418, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Clickable, put = __cordl_internal_set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
 
+  /// @brief Field m_Label, offset 0x408, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label))::UnityEngine::UIElements::Label* m_Label;
+
   /// @brief Field m_OriginalText, offset 0x420, size 0x8
   __declspec(property(get = __cordl_internal_get_m_OriginalText, put = __cordl_internal_set_m_OriginalText))::StringW m_OriginalText;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_Label();
+  /// @brief Method InitLabel, addr 0x2f3a2a4, size 0x94, virtual true, abstract: false, final false
+  inline void InitLabel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_Label() const;
+  static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 
-  constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::Label* value);
+  /// @brief Method OnClickEvent, addr 0x2f3a418, size 0x288, virtual false, abstract: false, final false
+  inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
+
+  /// @brief Method OnKeyDown, addr 0x2f3a174, size 0x114, virtual false, abstract: false, final false
+  inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
+
+  /// @brief Method OnNavigationSubmit, addr 0x2f3a140, size 0x34, virtual false, abstract: false, final false
+  inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
+
+  /// @brief Method SetValueWithoutNotify, addr 0x2f3a338, size 0xe0, virtual true, abstract: false, final false
+  inline void SetValueWithoutNotify(bool newValue);
+
+  /// @brief Method ToggleValue, addr 0x2f3a6a0, size 0x38, virtual true, abstract: false, final false
+  inline void ToggleValue();
+
+  /// @brief Method UpdateMixedValueContent, addr 0x2f3a6d8, size 0x184, virtual true, abstract: false, final false
+  inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckMark();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CheckMark() const;
 
-  constexpr void __cordl_internal_set_m_CheckMark(::UnityEngine::UIElements::VisualElement* value);
-
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __cordl_internal_get_m_Clickable() const;
 
-  constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
+  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_Label();
 
-  constexpr ::StringW& __cordl_internal_get_m_OriginalText();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_Label() const;
 
   constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
 
+  constexpr ::StringW& __cordl_internal_get_m_OriginalText();
+
+  constexpr void __cordl_internal_set_m_CheckMark(::UnityEngine::UIElements::VisualElement* value);
+
+  constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
+
+  constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::Label* value);
+
   constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
-
-  /// @brief Method .ctor, addr 0x2e476f4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f39e1c, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method OnNavigationSubmit, addr 0x2e47a18, size 0x34, virtual false, abstract: false, final false
-  inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
-
-  /// @brief Method OnKeyDown, addr 0x2e47a4c, size 0x114, virtual false, abstract: false, final false
-  inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
-
-  /// @brief Method get_text, addr 0x2e47b60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2f3a288, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x2e47990, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2f3a0b8, size 0x88, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method InitLabel, addr 0x2e47b7c, size 0x94, virtual true, abstract: false, final false
-  inline void InitLabel();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseBoolField();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x2e47c10, size 0xe0, virtual true, abstract: false, final false
-  inline void SetValueWithoutNotify(bool newValue);
-
-  /// @brief Method OnClickEvent, addr 0x2e47cf0, size 0x288, virtual false, abstract: false, final false
-  inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
-
-  /// @brief Method ToggleValue, addr 0x2e47f78, size 0x38, virtual true, abstract: false, final false
-  inline void ToggleValue();
-
-  /// @brief Method UpdateMixedValueContent, addr 0x2e47fb0, size 0x184, virtual true, abstract: false, final false
-  inline void UpdateMixedValueContent();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseBoolField", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseBoolField(BaseBoolField&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseBoolField(BaseBoolField const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseBoolField();
-
-public:
   /// @brief Field m_Label, offset: 0x408, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_Label;
 

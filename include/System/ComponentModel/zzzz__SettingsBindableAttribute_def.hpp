@@ -18,51 +18,55 @@ MARK_REF_PTR_T(::System::ComponentModel::SettingsBindableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7464))
 // CS Name: ::System.ComponentModel::SettingsBindableAttribute*
 class CORDL_TYPE SettingsBindableAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <Bindable>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__Bindable_k__BackingField, put = __cordl_internal_set__Bindable_k__BackingField)) bool _Bindable_k__BackingField;
-
-  /// @brief Field Yes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes))::System::ComponentModel::SettingsBindableAttribute* Yes;
+  __declspec(property(get = get_Bindable)) bool Bindable;
 
   /// @brief Field No, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_No, put = setStaticF_No))::System::ComponentModel::SettingsBindableAttribute* No;
 
-  __declspec(property(get = get_Bindable)) bool Bindable;
+  /// @brief Field Yes, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes))::System::ComponentModel::SettingsBindableAttribute* Yes;
 
-  constexpr bool& __cordl_internal_get__Bindable_k__BackingField();
+  /// @brief Field <Bindable>k__BackingField, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__Bindable_k__BackingField, put = __cordl_internal_set__Bindable_k__BackingField)) bool _Bindable_k__BackingField;
 
-  constexpr bool const& __cordl_internal_get__Bindable_k__BackingField() const;
+  /// @brief Method Equals, addr 0x2a01d20, size 0x8c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr void __cordl_internal_set__Bindable_k__BackingField(bool value);
-
-  static inline void setStaticF_Yes(::System::ComponentModel::SettingsBindableAttribute* value);
-
-  static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_Yes();
-
-  static inline void setStaticF_No(::System::ComponentModel::SettingsBindableAttribute* value);
-
-  static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_No();
+  /// @brief Method GetHashCode, addr 0x2a01dac, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* New_ctor(bool bindable);
 
-  /// @brief Method .ctor, addr 0x291c874, size 0x28, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__Bindable_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__Bindable_k__BackingField();
+
+  constexpr void __cordl_internal_set__Bindable_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x2a01cf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool bindable);
 
-  /// @brief Method get_Bindable, addr 0x291c89c, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_No();
+
+  static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_Yes();
+
+  /// @brief Method get_Bindable, addr 0x2a01d18, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
-  /// @brief Method Equals, addr 0x291c8a4, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  static inline void setStaticF_No(::System::ComponentModel::SettingsBindableAttribute* value);
 
-  /// @brief Method GetHashCode, addr 0x291c930, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  static inline void setStaticF_Yes(::System::ComponentModel::SettingsBindableAttribute* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingsBindableAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsBindableAttribute(SettingsBindableAttribute&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsBindableAttribute(SettingsBindableAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SettingsBindableAttribute();
-
-public:
   /// @brief Field <Bindable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Bindable_k__BackingField;
 

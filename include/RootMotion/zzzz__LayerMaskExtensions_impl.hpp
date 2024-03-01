@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::LayerMask, int32_t)>(&::RootMotion::LayerMaskExtensions::Contains)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x12d915c;
+  constexpr static std::size_t addrs = 0x131a148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(&::RootMotion::LayerMaskExtensions::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x12d91a8;
+  constexpr static std::size_t addrs = 0x131a194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::RootMotion::LayerMaskExtensions::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x12d9264;
+  constexpr static std::size_t addrs = 0x131a250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::RootMotion::LayerMaskExtensions::NamesToMask)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x12d91bc;
+  constexpr static std::size_t addrs = 0x131a1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::RootMotion::LayerMaskExtensions::LayerNumbersToMask)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x12d9278;
+  constexpr static std::size_t addrs = 0x131a264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::UnityEngine::LayerMask)>(&::RootMotion::LayerMaskExtensions::Inverse)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x12d9308;
+  constexpr static std::size_t addrs = 0x131a2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::UnityEngine::LayerMask, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::RootMotion::LayerMaskExtensions::AddToMask)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x12d9330;
+  constexpr static std::size_t addrs = 0x131a31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::UnityEngine::LayerMask, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::RootMotion::LayerMaskExtensions::RemoveFromMask)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12d937c;
+  constexpr static std::size_t addrs = 0x131a368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::UnityEngine::LayerMask)>(
     &::RootMotion::LayerMaskExtensions::MaskToNames)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x12d93e4;
+  constexpr static std::size_t addrs = 0x131a3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(::UnityEngine::LayerMask)>(
     &::RootMotion::LayerMaskExtensions::MaskToNumbers)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x12d9538;
+  constexpr static std::size_t addrs = 0x131a524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::LayerMask)>(&::RootMotion::LayerMaskExtensions::MaskToString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x12d9670;
+  constexpr static std::size_t addrs = 0x131a65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::LayerMask, ::StringW)>(&::RootMotion::LayerMaskExtensions::MaskToString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x12d96c8;
+  constexpr static std::size_t addrs = 0x131a6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

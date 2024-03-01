@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSequence);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11625))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11633))
 // CS Name: ::System.Xml.Schema::XmlSchemaSequence*
 class CORDL_TYPE XmlSchemaSequence : public ::System::Xml::Schema::XmlSchemaGroupBase {
 public:
   // Declarations
+  __declspec(property(get = get_Items))::System::Xml::Schema::XmlSchemaObjectCollection* Items;
+
   /// @brief Field items, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::System::Xml::Schema::XmlSchemaObjectCollection* items;
 
-  __declspec(property(get = get_Items))::System::Xml::Schema::XmlSchemaObjectCollection* Items;
+  static inline ::System::Xml::Schema::XmlSchemaSequence* New_ctor();
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_items();
 
@@ -34,14 +34,18 @@ public:
 
   constexpr void __cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method get_Items, addr 0x28cb410, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
-
-  static inline ::System::Xml::Schema::XmlSchemaSequence* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28ca1c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b1644, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Items, addr 0x29b288c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaSequence();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSequence", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSequence(XmlSchemaSequence&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaSequence(XmlSchemaSequence const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaSequence();
-
-public:
   /// @brief Field items, offset: 0x38, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaObjectCollection* ___items;
 

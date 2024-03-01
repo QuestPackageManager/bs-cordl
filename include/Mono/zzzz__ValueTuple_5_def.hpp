@@ -16,19 +16,17 @@ namespace Mono {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2247))
 // CS Name: ::Mono::ValueTuple`5<T1,T2,T3,T4,T5>
 struct CORDL_TYPE ValueTuple_5 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3",
-  // modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }]
-  constexpr ValueTuple_5(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueTuple_5();
+
+  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3",
+  // modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }]
+  constexpr ValueTuple_5(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5) noexcept;
 
   /// @brief Field Item1, offset: 0x0, size: 0x8, def value: None
   T1 Item1;

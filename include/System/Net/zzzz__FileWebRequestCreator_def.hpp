@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Net::FileWebRequestCreator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7145))
 // CS Name: ::System.Net::FileWebRequestCreator*
 class CORDL_TYPE FileWebRequestCreator : public ::System::Object {
 public:
@@ -32,17 +30,23 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Convert to "::System::Net::IWebRequestCreate"
-  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
+  /// @brief Method Create, addr 0x2aa1964, size 0x60, virtual true, abstract: false, final true
+  inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::FileWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29a8030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8f104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x29ba890, size 0x60, virtual true, abstract: false, final true
-  inline ::System::Net::WebRequest* Create(::System::Uri* uri);
+  /// @brief Convert to "::System::Net::IWebRequestCreate"
+  constexpr ::System::Net::IWebRequestCreate* i___System__Net__IWebRequestCreate() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileWebRequestCreator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileWebRequestCreator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileWebRequestCreator(FileWebRequestCreator&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileWebRequestCreator(FileWebRequestCreator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileWebRequestCreator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,20 +23,18 @@ MARK_VAL_T(::UnityEngine::UIElements::ComputedTransitionProperty);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6746))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6546))
 // CS Name: ::UnityEngine.UIElements::ComputedTransitionProperty
 struct CORDL_TYPE ComputedTransitionProperty {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ComputedTransitionProperty();
+
   // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "durationMs", ty: "int32_t", modifiers:
   // "", def_value: None }, CppParam { name: "delayMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "easingCurve", ty: "::System::Func_2<float_t,float_t>*", modifiers: "",
   // def_value: None }]
   constexpr ComputedTransitionProperty(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ComputedTransitionProperty();
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::StylePropertyId id;

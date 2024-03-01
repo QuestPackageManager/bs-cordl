@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9732))
 // CS Name: ::Test_TreeInstance_Extensions::<>c*
 class CORDL_TYPE __Test_TreeInstance_Extensions____c : public ::System::Object {
 public:
@@ -49,29 +47,35 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* __9__2_0;
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* value);
+  static inline ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* New_ctor();
+
+  /// @brief Method <ToTestObject>b__1_0, addr 0x234a64c, size 0x88, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__1_0(::UnityEngine::TreeInstance lod);
+
+  /// @brief Method <ToTestObject>b__2_0, addr 0x234a6d4, size 0x88, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__2_0(::UnityEngine::TreeInstance lod);
+
+  /// @brief Method .ctor, addr 0x234a644, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
-
   static inline ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* getStaticF___9__1_0();
-
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
 
   static inline ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* getStaticF___9__2_0();
 
-  static inline ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* New_ctor();
+  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c* value);
 
-  /// @brief Method .ctor, addr 0x227dfdc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x227dfe4, size 0x88, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__1_0(::UnityEngine::TreeInstance lod);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>* value);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x227e06c, size 0x88, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_TreeInstance* _ToTestObject_b__2_0(::UnityEngine::TreeInstance lod);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Test_TreeInstance_Extensions____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Test_TreeInstance_Extensions____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Test_TreeInstance_Extensions____c(__Test_TreeInstance_Extensions____c&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Test_TreeInstance_Extensions____c(__Test_TreeInstance_Extensions____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Test_TreeInstance_Extensions____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,24 +94,28 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_TreeI
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9733))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance_Extensions*
 class CORDL_TYPE Test_TreeInstance_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x227dcfc, size 0x88, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::Test_TreeInstance* ToTestObject(::UnityEngine::TreeInstance self);
-
-  /// @brief Method ToTestObject, addr 0x227dd84, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x234a3ec, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_TreeInstance*, ::Array<::HoudiniEngineUnity::Test_TreeInstance*>*>
   ToTestObject(::ArrayW<::UnityEngine::TreeInstance, ::Array<::UnityEngine::TreeInstance>*> self);
 
-  /// @brief Method ToTestObject, addr 0x227de7c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x234a364, size 0x88, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::Test_TreeInstance* ToTestObject(::UnityEngine::TreeInstance self);
+
+  /// @brief Method ToTestObject, addr 0x234a4e4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TreeInstance*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::TreeInstance>* self);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_TreeInstance_Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_TreeInstance_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_TreeInstance_Extensions(Test_TreeInstance_Extensions&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_TreeInstance_Extensions(Test_TreeInstance_Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_TreeInstance_Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BookmarksFoldersModel____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10596))
 // CS Name: ::BookmarksFoldersModel::<>c*
 class CORDL_TYPE __BookmarksFoldersModel____c : public ::System::Object {
 public:
@@ -45,22 +43,28 @@ public:
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::System::__Environment__SpecialFolder, ::StringW>* __9__3_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__BookmarksFoldersModel____c* value);
+  static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
+
+  /// @brief Method .ctor, addr 0x12a884c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x12a8854, size 0xc, virtual false, abstract: false, final false
+  inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Func_2<::System::__Environment__SpecialFolder, ::StringW>* value);
-
   static inline ::System::Func_2<::System::__Environment__SpecialFolder, ::StringW>* getStaticF___9__3_0();
 
-  static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__BookmarksFoldersModel____c* value);
 
-  /// @brief Method .ctor, addr 0x126587c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__3_0(::System::Func_2<::System::__Environment__SpecialFolder, ::StringW>* value);
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x1265884, size 0xc, virtual false, abstract: false, final false
-  inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BookmarksFoldersModel____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BookmarksFoldersModel____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BookmarksFoldersModel____c(__BookmarksFoldersModel____c&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BookmarksFoldersModel____c(__BookmarksFoldersModel____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BookmarksFoldersModel____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -85,16 +83,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BookmarksFold
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10597))
 // CS Name: ::BookmarksFoldersModel*
 class CORDL_TYPE BookmarksFoldersModel : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__BookmarksFoldersModel____c;
-
-  /// @brief Field myFolders, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_myFolders, put = __cordl_internal_set_myFolders))::ArrayW<::StringW, ::Array<::StringW>*> myFolders;
 
   /// @brief Field _bookmarksFolders, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bookmarksFolders,
@@ -102,26 +95,35 @@ public:
 
   __declspec(property(get = get_bookmarksFolders))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> bookmarksFolders;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_myFolders();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_myFolders() const;
-
-  constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& __cordl_internal_get__bookmarksFolders();
-
-  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& __cordl_internal_get__bookmarksFolders() const;
-
-  constexpr void __cordl_internal_set__bookmarksFolders(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
-
-  /// @brief Method get_bookmarksFolders, addr 0x126523c, size 0x594, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
+  /// @brief Field myFolders, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_myFolders, put = __cordl_internal_set_myFolders))::ArrayW<::StringW, ::Array<::StringW>*> myFolders;
 
   static inline ::GlobalNamespace::BookmarksFoldersModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1265810, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& __cordl_internal_get__bookmarksFolders() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& __cordl_internal_get__bookmarksFolders();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_myFolders() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_myFolders();
+
+  constexpr void __cordl_internal_set__bookmarksFolders(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
+
+  constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  /// @brief Method .ctor, addr 0x12a87e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_bookmarksFolders, addr 0x12a820c, size 0x594, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BookmarksFoldersModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BookmarksFoldersModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BookmarksFoldersModel(BookmarksFoldersModel&&) = delete;
@@ -130,12 +132,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BookmarksFoldersModel(BookmarksFoldersModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BookmarksFoldersModel();
-
-public:
   /// @brief Field myFolders, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___myFolders;
 

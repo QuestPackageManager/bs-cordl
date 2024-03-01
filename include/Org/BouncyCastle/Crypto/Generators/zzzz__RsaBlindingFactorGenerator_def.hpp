@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(922))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::RsaBlindingFactorGenerator*
 class CORDL_TYPE RsaBlindingFactorGenerator : public ::System::Object {
 public:
@@ -38,29 +36,35 @@ public:
   /// @brief Field random, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
+  /// @brief Method GenerateBlindingFactor, addr 0xf767fc, size 0x188, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* GenerateBlindingFactor();
+
+  /// @brief Method Init, addr 0xf76624, size 0x1d8, virtual false, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* param);
+
+  static inline ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator* New_ctor();
+
   constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
-
-  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xf30654, size 0x1d8, virtual false, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* param);
-
-  /// @brief Method GenerateBlindingFactor, addr 0xf3082c, size 0x188, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* GenerateBlindingFactor();
-
-  static inline ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0xf309b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf76984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RsaBlindingFactorGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingFactorGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaBlindingFactorGenerator(RsaBlindingFactorGenerator&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaBlindingFactorGenerator(RsaBlindingFactorGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RsaBlindingFactorGenerator();
-
-public:
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ___key;
 

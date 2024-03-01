@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::BeatmapDifficultyMask);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15103))
 // CS Name: ::BeatmapDifficultyMask
 struct CORDL_TYPE BeatmapDifficultyMask {
 public:
@@ -38,27 +36,26 @@ public:
     return static_cast<__BeatmapDifficultyMask_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr BeatmapDifficultyMask(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<uint8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BeatmapDifficultyMask();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr BeatmapDifficultyMask(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+  /// @brief Field All value: static_cast<uint8_t>(0x1fu)
+  static ::GlobalNamespace::BeatmapDifficultyMask const All;
 
   /// @brief Field Easy value: static_cast<uint8_t>(0x1u)
   static ::GlobalNamespace::BeatmapDifficultyMask const Easy;
-
-  /// @brief Field Normal value: static_cast<uint8_t>(0x2u)
-  static ::GlobalNamespace::BeatmapDifficultyMask const Normal;
-
-  /// @brief Field Hard value: static_cast<uint8_t>(0x4u)
-  static ::GlobalNamespace::BeatmapDifficultyMask const Hard;
 
   /// @brief Field Expert value: static_cast<uint8_t>(0x8u)
   static ::GlobalNamespace::BeatmapDifficultyMask const Expert;
@@ -66,8 +63,14 @@ public:
   /// @brief Field ExpertPlus value: static_cast<uint8_t>(0x10u)
   static ::GlobalNamespace::BeatmapDifficultyMask const ExpertPlus;
 
-  /// @brief Field All value: static_cast<uint8_t>(0x1fu)
-  static ::GlobalNamespace::BeatmapDifficultyMask const All;
+  /// @brief Field Hard value: static_cast<uint8_t>(0x4u)
+  static ::GlobalNamespace::BeatmapDifficultyMask const Hard;
+
+  /// @brief Field Normal value: static_cast<uint8_t>(0x2u)
+  static ::GlobalNamespace::BeatmapDifficultyMask const Normal;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

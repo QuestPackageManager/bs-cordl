@@ -89,24 +89,25 @@ MARK_VAL_T(::BeatSaber::PerformancePresets::__PerformancePresetHelper___IsPerfor
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::PerformancePresets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3834)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 2573 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16240)) CS Name:
-// ::PerformancePresetHelper::<IsPerformancePresetAvailableAsync>d__11
+// CS Name: ::PerformancePresetHelper::<IsPerformancePresetAvailableAsync>d__11
 struct CORDL_TYPE __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe81b88, size 0x454, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe81fdc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe3bbb8, size 0x454, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe3c00c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "presetKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam
@@ -115,10 +116,6 @@ public:
   constexpr __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::StringW presetKey,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -153,8 +150,6 @@ static_assert(offsetof(::BeatSaber::PerformancePresets::__PerformancePresetHelpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::PerformancePresets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16241))
 // CS Name: ::PerformancePresetHelper::<>c*
 class CORDL_TYPE __PerformancePresetHelper____c : public ::System::Object {
 public:
@@ -165,22 +160,28 @@ public:
   /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* __9__12_0;
 
-  static inline void setStaticF___9(::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* value);
+  static inline ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* New_ctor();
+
+  /// @brief Method <GetPerformancePresetAsync>b__12_0, addr 0xe820a0, size 0x4, virtual false, abstract: false, final false
+  inline void _GetPerformancePresetAsync_b__12_0(::UnityEngine::TextAsset* _);
+
+  /// @brief Method .ctor, addr 0xe82098, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* getStaticF___9();
 
-  static inline void setStaticF___9__12_0(::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* value);
-
   static inline ::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* getStaticF___9__12_0();
 
-  static inline ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* New_ctor();
+  static inline void setStaticF___9(::BeatSaber::PerformancePresets::__PerformancePresetHelper____c* value);
 
-  /// @brief Method .ctor, addr 0xe3c0c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__12_0(::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* value);
 
-  /// @brief Method <GetPerformancePresetAsync>b__12_0, addr 0xe3c0d0, size 0x4, virtual false, abstract: false, final false
-  inline void _GetPerformancePresetAsync_b__12_0(::UnityEngine::TextAsset* _);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PerformancePresetHelper____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PerformancePresetHelper____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PerformancePresetHelper____c(__PerformancePresetHelper____c&&) = delete;
@@ -189,12 +190,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PerformancePresetHelper____c(__PerformancePresetHelper____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PerformancePresetHelper____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -205,25 +200,25 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::PerformancePresets::_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::PerformancePresets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3834)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8952)), TypeDefinitionIndex(TypeDefinitionIndex(14046)), TypeDefinitionIndex(TypeDefinitionIndex(16238)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 858 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 897 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3834), inst: 402 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 858 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16242)) CS Name:
-// ::PerformancePresetHelper::<GetPerformancePresetAsync>d__12
+// CS Name: ::PerformancePresetHelper::<GetPerformancePresetAsync>d__12
 struct CORDL_TYPE __PerformancePresetHelper___GetPerformancePresetAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe820a4, size 0x6a8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe8274c, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe3c0d4, size 0x6a8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe3c77c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PerformancePresetHelper___GetPerformancePresetAsync_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatSaber::PerformancePresets::PerformancePreset*>", modifiers: "", def_value: None }, CppParam { name: "presetKey", ty:
@@ -236,10 +231,6 @@ public:
       ::System::Collections::Generic::List_1<::StringW>* _keys_5__2,
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> _handle_5__3,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PerformancePresetHelper___GetPerformancePresetAsync_d__12();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -284,25 +275,25 @@ static_assert(offsetof(::BeatSaber::PerformancePresets::__PerformancePresetHelpe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::PerformancePresets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3834)), TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(16238)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2507), inst: 5298 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 897 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3834), inst: 2573 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16243)) CS Name: ::PerformancePresetHelper::<GetDefaultPerformancePresetAsync>d__13
+// CS Name: ::PerformancePresetHelper::<GetDefaultPerformancePresetAsync>d__13
 struct CORDL_TYPE __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe827a4, size 0x70c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe82eb0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe3c7d4, size 0x70c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe3cee0, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW,::BeatSaber::PerformancePresets::PerformancePreset*>>", modifiers: "", def_value: None }, CppParam
@@ -315,10 +306,6 @@ public:
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* _resourceLocations_5__2, ::StringW _presetKey_5__3,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::PerformancePresets::PerformancePreset*> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__13();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -363,8 +350,6 @@ static_assert(offsetof(::BeatSaber::PerformancePresets::__PerformancePresetHelpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::PerformancePresets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16244))
 // CS Name: ::BeatSaber.PerformancePresets::PerformancePresetHelper*
 class CORDL_TYPE PerformancePresetHelper : public ::System::Object {
 public:
@@ -373,27 +358,33 @@ public:
 
   using _GetPerformancePresetAsync_d__12 = ::BeatSaber::PerformancePresets::__PerformancePresetHelper___GetPerformancePresetAsync_d__12;
 
-  using __c = ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c;
-
   using _IsPerformancePresetAvailableAsync_d__11 = ::BeatSaber::PerformancePresets::__PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__11;
 
-  /// @brief Method IsPerformancePresetAvailableAsync, addr 0xe3b838, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<bool>* IsPerformancePresetAvailableAsync(::StringW presetKey);
+  using __c = ::BeatSaber::PerformancePresets::__PerformancePresetHelper____c;
 
-  /// @brief Method GetPerformancePresetAsync, addr 0xe3b930, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::BeatSaber::PerformancePresets::PerformancePreset*>* GetPerformancePresetAsync(::StringW presetKey);
-
-  /// @brief Method GetDefaultPerformancePresetAsync, addr 0xe3ba28, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPerformancePresetAsync, addr 0xe819f0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::BeatSaber::PerformancePresets::PerformancePreset*>>* GetDefaultPerformancePresetAsync();
 
-  /// @brief Method GetHardwareCategory, addr 0xe3bb0c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0xe81ad4, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW GetHardwareCategory();
+
+  /// @brief Method GetPerformancePresetAsync, addr 0xe818f8, size 0xf8, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::BeatSaber::PerformancePresets::PerformancePreset*>* GetPerformancePresetAsync(::StringW presetKey);
+
+  /// @brief Method IsPerformancePresetAvailableAsync, addr 0xe81800, size 0xf8, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<bool>* IsPerformancePresetAvailableAsync(::StringW presetKey);
 
   static inline ::BeatSaber::PerformancePresets::PerformancePresetHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3bbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe81b80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PerformancePresetHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PerformancePresetHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformancePresetHelper(PerformancePresetHelper&&) = delete;
@@ -402,32 +393,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PerformancePresetHelper(PerformancePresetHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PerformancePresetHelper();
-
-public:
   /// @brief Field kCustomPresetKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCustomPresetKey{ u"Custom" };
 
   /// @brief Field kDefaultPresetKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultPresetKey{ u"PlatformDefaultPerformancePreset" };
-
-  /// @brief Field kPerformancePresetKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPerformancePresetKey{ u"PerformancePreset" };
-
-  /// @brief Field kQuestHWDeviceCategoryName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kQuestHWDeviceCategoryName{ u"Monterey" };
-
-  /// @brief Field kQuest2HWDeviceCategoryName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kQuest2HWDeviceCategoryName{ u"Miramar" };
-
-  /// @brief Field kQuestProHWDeviceCategoryName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kQuestProHWDeviceCategoryName{ u"Arcata" };
-
-  /// @brief Field kQuest3HWDeviceCategoryName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kQuest3HWDeviceCategoryName{ u"Stinson" };
 
   /// @brief Field kPS4HWDeviceCategoryName offset 0xffffffff size 0x8
   static constexpr ::ConstString kPS4HWDeviceCategoryName{ u"Orbis" };
@@ -437,6 +407,21 @@ public:
 
   /// @brief Field kPS5HWDeviceCategoryName offset 0xffffffff size 0x8
   static constexpr ::ConstString kPS5HWDeviceCategoryName{ u"Prospero" };
+
+  /// @brief Field kPerformancePresetKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kPerformancePresetKey{ u"PerformancePreset" };
+
+  /// @brief Field kQuest2HWDeviceCategoryName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kQuest2HWDeviceCategoryName{ u"Miramar" };
+
+  /// @brief Field kQuest3HWDeviceCategoryName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kQuest3HWDeviceCategoryName{ u"Stinson" };
+
+  /// @brief Field kQuestHWDeviceCategoryName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kQuestHWDeviceCategoryName{ u"Monterey" };
+
+  /// @brief Field kQuestProHWDeviceCategoryName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kQuestProHWDeviceCategoryName{ u"Arcata" };
 
   /// @brief Field kStandaloneHWDeviceCategoryName offset 0xffffffff size 0x8
   static constexpr ::ConstString kStandaloneHWDeviceCategoryName{ u"Standalone" };

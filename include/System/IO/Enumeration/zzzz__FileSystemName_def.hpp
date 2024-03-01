@@ -19,38 +19,42 @@ MARK_REF_PTR_T(::System::IO::Enumeration::FileSystemName);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3654))
 // CS Name: ::System.IO.Enumeration::FileSystemName*
 class CORDL_TYPE FileSystemName : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_wildcardChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_wildcardChars, put = setStaticF_s_wildcardChars))::ArrayW<char16_t, ::Array<char16_t>*> s_wildcardChars;
-
   /// @brief Field s_simpleWildcardChars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_simpleWildcardChars, put = setStaticF_s_simpleWildcardChars))::ArrayW<char16_t, ::Array<char16_t>*> s_simpleWildcardChars;
 
-  static inline void setStaticF_s_wildcardChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  /// @brief Field s_wildcardChars, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_wildcardChars, put = setStaticF_s_wildcardChars))::ArrayW<char16_t, ::Array<char16_t>*> s_wildcardChars;
+
+  /// @brief Method MatchPattern, addr 0x263bc90, size 0x754, virtual false, abstract: false, final false
+  static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
+
+  /// @brief Method MatchesSimpleExpression, addr 0x263ab50, size 0x88, virtual false, abstract: false, final false
+  static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
+
+  /// @brief Method MatchesWin32Expression, addr 0x263abd8, size 0x88, virtual false, abstract: false, final false
+  static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
+
+  /// @brief Method TranslateWin32Expression, addr 0x263a590, size 0x39c, virtual false, abstract: false, final false
+  static inline ::StringW TranslateWin32Expression(::StringW expression);
+
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_simpleWildcardChars();
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_wildcardChars();
 
   static inline void setStaticF_s_simpleWildcardChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_simpleWildcardChars();
+  static inline void setStaticF_s_wildcardChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method TranslateWin32Expression, addr 0x2569b04, size 0x39c, virtual false, abstract: false, final false
-  static inline ::StringW TranslateWin32Expression(::StringW expression);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileSystemName();
 
-  /// @brief Method MatchesWin32Expression, addr 0x2569ea0, size 0x88, virtual false, abstract: false, final false
-  static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
-
-  /// @brief Method MatchesSimpleExpression, addr 0x256a67c, size 0x88, virtual false, abstract: false, final false
-  static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
-
-  /// @brief Method MatchPattern, addr 0x2569f28, size 0x754, virtual false, abstract: false, final false
-  static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemName", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemName(FileSystemName&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileSystemName(FileSystemName const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileSystemName();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

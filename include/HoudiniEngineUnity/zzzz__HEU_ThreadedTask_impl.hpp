@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::Start)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2241684;
+  constexpr static std::size_t addrs = 0x230dcec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::Stop)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2241940;
+  constexpr static std::size_t addrs = 0x230dfa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::Abort)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2241b04;
+  constexpr static std::size_t addrs = 0x230e16c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::Reset)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2241b38;
+  constexpr static std::size_t addrs = 0x230e1a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::Update)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2241bbc;
+  constexpr static std::size_t addrs = 0x230e224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::DoWork)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2241da4;
+  constexpr static std::size_t addrs = 0x230e40c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::OnComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2241da8;
+  constexpr static std::size_t addrs = 0x230e410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::OnStopped)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2241dac;
+  constexpr static std::size_t addrs = 0x230e414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::CleanUp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2241db0;
+  constexpr static std::size_t addrs = 0x230e418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::Run)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2241db4;
+  constexpr static std::size_t addrs = 0x230e41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(), "Run",
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::get_TaskName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2241dd8;
+  constexpr static std::size_t addrs = 0x230e440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(), "get_TaskName",
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::get_IsComplete)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x224197c;
+  constexpr static std::size_t addrs = 0x230dfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(), "get_IsComplete",
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)(bool)>(&::HoudiniEngineUnity::HEU_ThreadedTask::set_IsComplete)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2241880;
+  constexpr static std::size_t addrs = 0x230dee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::get_IsActive)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2241c14;
+  constexpr static std::size_t addrs = 0x230e27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(), "get_IsActive",
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)(bool)>(&::HoudiniEngineUnity::HEU_ThreadedTask::set_IsActive)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22417c0;
+  constexpr static std::size_t addrs = 0x230de28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::get_StopRequested)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2241cdc;
+  constexpr static std::size_t addrs = 0x230e344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(),
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)(bool)>(&::HoudiniEngineUnity::HEU_ThreadedTask::set_StopRequested)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2241a44;
+  constexpr static std::size_t addrs = 0x230e0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ThreadPriority (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(
     &::HoudiniEngineUnity::HEU_ThreadedTask::get_Priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2241de0;
+  constexpr static std::size_t addrs = 0x230e448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(), "get_Priority",
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)(::System::Threading::ThreadPriority)>(
     &::HoudiniEngineUnity::HEU_ThreadedTask::set_Priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2241de8;
+  constexpr static std::size_t addrs = 0x230e450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::get_IsBackground)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2241df0;
+  constexpr static std::size_t addrs = 0x230e458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(),
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)(bool)>(&::HoudiniEngineUnity::HEU_ThreadedTask::set_IsBackground)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2241df8;
+  constexpr static std::size_t addrs = 0x230e460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ThreadedTask::*)()>(&::HoudiniEngineUnity::HEU_ThreadedTask::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2241e04;
+  constexpr static std::size_t addrs = 0x230e46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ThreadedTask*>::get(), ".ctor",

@@ -81,8 +81,6 @@ MARK_REF_PTR_T(::System::Net::__CommandStream__PipelineEntry);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7043))
 // CS Name: ::CommandStream::PipelineInstruction
 struct CORDL_TYPE __CommandStream__PipelineInstruction {
 public:
@@ -103,18 +101,20 @@ public:
     return static_cast<____CommandStream__PipelineInstruction_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CommandStream__PipelineInstruction(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CommandStream__PipelineInstruction();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __CommandStream__PipelineInstruction(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Abort value: static_cast<int32_t>(0x0)
   static ::System::Net::__CommandStream__PipelineInstruction const Abort;
@@ -122,14 +122,17 @@ public:
   /// @brief Field Advance value: static_cast<int32_t>(0x1)
   static ::System::Net::__CommandStream__PipelineInstruction const Advance;
 
+  /// @brief Field GiveStream value: static_cast<int32_t>(0x4)
+  static ::System::Net::__CommandStream__PipelineInstruction const GiveStream;
+
   /// @brief Field Pause value: static_cast<int32_t>(0x2)
   static ::System::Net::__CommandStream__PipelineInstruction const Pause;
 
   /// @brief Field Reread value: static_cast<int32_t>(0x3)
   static ::System::Net::__CommandStream__PipelineInstruction const Reread;
 
-  /// @brief Field GiveStream value: static_cast<int32_t>(0x4)
-  static ::System::Net::__CommandStream__PipelineInstruction const GiveStream;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -143,8 +146,6 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineInstruction, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7044))
 // CS Name: ::CommandStream::PipelineEntryFlags
 struct CORDL_TYPE __CommandStream__PipelineEntryFlags {
 public:
@@ -164,30 +165,35 @@ public:
     return static_cast<____CommandStream__PipelineEntryFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CommandStream__PipelineEntryFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CommandStream__PipelineEntryFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __CommandStream__PipelineEntryFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field UserCommand value: static_cast<int32_t>(0x1)
-  static ::System::Net::__CommandStream__PipelineEntryFlags const UserCommand;
-
-  /// @brief Field GiveDataStream value: static_cast<int32_t>(0x2)
-  static ::System::Net::__CommandStream__PipelineEntryFlags const GiveDataStream;
 
   /// @brief Field CreateDataConnection value: static_cast<int32_t>(0x4)
   static ::System::Net::__CommandStream__PipelineEntryFlags const CreateDataConnection;
 
   /// @brief Field DontLogParameter value: static_cast<int32_t>(0x8)
   static ::System::Net::__CommandStream__PipelineEntryFlags const DontLogParameter;
+
+  /// @brief Field GiveDataStream value: static_cast<int32_t>(0x2)
+  static ::System::Net::__CommandStream__PipelineEntryFlags const GiveDataStream;
+
+  /// @brief Field UserCommand value: static_cast<int32_t>(0x1)
+  static ::System::Net::__CommandStream__PipelineEntryFlags const UserCommand;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -201,8 +207,6 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineEntryFlags, value
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7044))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7045))
 // CS Name: ::CommandStream::PipelineEntry*
 class CORDL_TYPE __CommandStream__PipelineEntry : public ::System::Object {
 public:
@@ -213,31 +217,37 @@ public:
   /// @brief Field Flags, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Net::__CommandStream__PipelineEntryFlags Flags;
 
-  constexpr ::StringW& __cordl_internal_get_Command();
-
-  constexpr ::StringW const& __cordl_internal_get_Command() const;
-
-  constexpr void __cordl_internal_set_Command(::StringW value);
-
-  constexpr ::System::Net::__CommandStream__PipelineEntryFlags& __cordl_internal_get_Flags();
-
-  constexpr ::System::Net::__CommandStream__PipelineEntryFlags const& __cordl_internal_get_Flags() const;
-
-  constexpr void __cordl_internal_set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value);
+  /// @brief Method HasFlag, addr 0x2a783ec, size 0x10, virtual false, abstract: false, final false
+  inline bool HasFlag(::System::Net::__CommandStream__PipelineEntryFlags flags);
 
   static inline ::System::Net::__CommandStream__PipelineEntry* New_ctor(::StringW command);
 
-  /// @brief Method .ctor, addr 0x2992654, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW command);
-
   static inline ::System::Net::__CommandStream__PipelineEntry* New_ctor(::StringW command, ::System::Net::__CommandStream__PipelineEntryFlags flags);
 
-  /// @brief Method .ctor, addr 0x299267c, size 0x30, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_Command() const;
+
+  constexpr ::StringW& __cordl_internal_get_Command();
+
+  constexpr ::System::Net::__CommandStream__PipelineEntryFlags const& __cordl_internal_get_Flags() const;
+
+  constexpr ::System::Net::__CommandStream__PipelineEntryFlags& __cordl_internal_get_Flags();
+
+  constexpr void __cordl_internal_set_Command(::StringW value);
+
+  constexpr void __cordl_internal_set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value);
+
+  /// @brief Method .ctor, addr 0x2a79728, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW command);
+
+  /// @brief Method .ctor, addr 0x2a79750, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW command, ::System::Net::__CommandStream__PipelineEntryFlags flags);
 
-  /// @brief Method HasFlag, addr 0x2991318, size 0x10, virtual false, abstract: false, final false
-  inline bool HasFlag(::System::Net::__CommandStream__PipelineEntryFlags flags);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CommandStream__PipelineEntry();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CommandStream__PipelineEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CommandStream__PipelineEntry(__CommandStream__PipelineEntry&&) = delete;
@@ -246,12 +256,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CommandStream__PipelineEntry(__CommandStream__PipelineEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CommandStream__PipelineEntry();
-
-public:
   /// @brief Field Command, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Command;
 
@@ -272,8 +276,6 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineEntry, ___Flags) 
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7064))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7046))
 // CS Name: ::System.Net::CommandStream*
 class CORDL_TYPE CommandStream : public ::System::Net::NetworkStreamWrapper {
 public:
@@ -284,24 +286,28 @@ public:
 
   using PipelineInstruction = ::System::Net::__CommandStream__PipelineInstruction;
 
-  /// @brief Field _recoverableFailure, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__recoverableFailure, put = __cordl_internal_set__recoverableFailure)) bool _recoverableFailure;
+  __declspec(property(get = get_Encoding, put = set_Encoding))::System::Text::Encoding* Encoding;
 
-  /// @brief Field _request, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Net::WebRequest* _request;
+  __declspec(property(get = get_RecoverableFailure)) bool RecoverableFailure;
 
-  /// @brief Field _isAsync, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__isAsync, put = __cordl_internal_set__isAsync)) bool _isAsync;
+  /// @brief Field _abortReason, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__abortReason, put = __cordl_internal_set__abortReason))::StringW _abortReason;
 
   /// @brief Field _aborted, offset 0x49, size 0x1
   __declspec(property(get = __cordl_internal_get__aborted, put = __cordl_internal_set__aborted)) bool _aborted;
+
+  /// @brief Field _buffer, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::StringW _buffer;
 
   /// @brief Field _commands, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__commands,
                       put = __cordl_internal_set__commands))::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> _commands;
 
-  /// @brief Field _index, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
+  /// @brief Field _currentResponseDescription, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__currentResponseDescription, put = __cordl_internal_set__currentResponseDescription))::System::Net::ResponseDescription* _currentResponseDescription;
+
+  /// @brief Field _decoder, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__decoder, put = __cordl_internal_set__decoder))::System::Text::Decoder* _decoder;
 
   /// @brief Field _doRead, offset 0x5c, size 0x1
   __declspec(property(get = __cordl_internal_get__doRead, put = __cordl_internal_set__doRead)) bool _doRead;
@@ -309,193 +315,195 @@ public:
   /// @brief Field _doSend, offset 0x5d, size 0x1
   __declspec(property(get = __cordl_internal_get__doSend, put = __cordl_internal_set__doSend)) bool _doSend;
 
-  /// @brief Field _currentResponseDescription, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentResponseDescription, put = __cordl_internal_set__currentResponseDescription))::System::Net::ResponseDescription* _currentResponseDescription;
-
-  /// @brief Field _abortReason, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__abortReason, put = __cordl_internal_set__abortReason))::StringW _abortReason;
-
-  /// @brief Field _buffer, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::StringW _buffer;
-
   /// @brief Field _encoding, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
-  /// @brief Field _decoder, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__decoder, put = __cordl_internal_set__decoder))::System::Text::Decoder* _decoder;
+  /// @brief Field _index, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  /// @brief Field s_writeCallbackDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_writeCallbackDelegate, put = setStaticF_s_writeCallbackDelegate))::System::AsyncCallback* s_writeCallbackDelegate;
+  /// @brief Field _isAsync, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__isAsync, put = __cordl_internal_set__isAsync)) bool _isAsync;
+
+  /// @brief Field _recoverableFailure, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__recoverableFailure, put = __cordl_internal_set__recoverableFailure)) bool _recoverableFailure;
+
+  /// @brief Field _request, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Net::WebRequest* _request;
 
   /// @brief Field s_readCallbackDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_readCallbackDelegate, put = setStaticF_s_readCallbackDelegate))::System::AsyncCallback* s_readCallbackDelegate;
 
-  __declspec(property(get = get_RecoverableFailure)) bool RecoverableFailure;
+  /// @brief Field s_writeCallbackDelegate, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_writeCallbackDelegate, put = setStaticF_s_writeCallbackDelegate))::System::AsyncCallback* s_writeCallbackDelegate;
 
-  __declspec(property(get = get_Encoding, put = set_Encoding))::System::Text::Encoding* Encoding;
+  /// @brief Method Abort, addr 0x2a77894, size 0x1f8, virtual true, abstract: false, final false
+  inline void Abort(::System::Exception* e);
 
-  constexpr bool& __cordl_internal_get__recoverableFailure();
+  /// @brief Method BuildCommandsList, addr 0x2a781e8, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* request);
 
-  constexpr bool const& __cordl_internal_get__recoverableFailure() const;
+  /// @brief Method CheckContinuePipeline, addr 0x2a78338, size 0xb4, virtual false, abstract: false, final false
+  inline void CheckContinuePipeline();
 
-  constexpr void __cordl_internal_set__recoverableFailure(bool value);
+  /// @brief Method CheckValid, addr 0x2a795ac, size 0x8, virtual true, abstract: false, final false
+  inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
 
-  constexpr ::System::Net::WebRequest*& __cordl_internal_get__request();
+  /// @brief Method ClearState, addr 0x2a781d8, size 0x10, virtual true, abstract: false, final false
+  inline void ClearState();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __cordl_internal_get__request() const;
+  /// @brief Method ContinueCommandPipeline, addr 0x2a77d00, size 0x4d8, virtual false, abstract: false, final false
+  inline ::System::IO::Stream* ContinueCommandPipeline();
 
-  constexpr void __cordl_internal_set__request(::System::Net::WebRequest* value);
+  /// @brief Method Dispose, addr 0x2a77abc, size 0x94, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr bool& __cordl_internal_get__isAsync();
+  /// @brief Method GenerateException, addr 0x2a78270, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Exception* GenerateException(::System::Net::FtpStatusCode code, ::StringW statusDescription, ::System::Exception* innerException);
 
-  constexpr bool const& __cordl_internal_get__isAsync() const;
+  /// @brief Method GenerateException, addr 0x2a781f0, size 0x80, virtual false, abstract: false, final false
+  inline ::System::Exception* GenerateException(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Exception* innerException);
 
-  constexpr void __cordl_internal_set__isAsync(bool value);
+  /// @brief Method InitCommandPipeline, addr 0x2a77c70, size 0x90, virtual false, abstract: false, final false
+  inline void InitCommandPipeline(::System::Net::WebRequest* request, ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> commands,
+                                  bool isAsync);
 
-  constexpr bool& __cordl_internal_get__aborted();
+  /// @brief Method InvokeRequestCallback, addr 0x2a77b50, size 0x70, virtual false, abstract: false, final false
+  inline void InvokeRequestCallback(::System::Object* obj);
+
+  /// @brief Method MarkAsRecoverableFailure, addr 0x2a77bd8, size 0x18, virtual false, abstract: false, final false
+  inline void MarkAsRecoverableFailure();
+
+  static inline ::System::Net::CommandStream* New_ctor(::System::Net::Sockets::TcpClient* client);
+
+  /// @brief Method PipelineCallback, addr 0x2a78a54, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
+                                                                              ByRef<::System::IO::Stream*> stream);
+
+  /// @brief Method PostReadCommandProcessing, addr 0x2a78854, size 0x200, virtual false, abstract: false, final false
+  inline bool PostReadCommandProcessing(ByRef<::System::IO::Stream*> stream);
+
+  /// @brief Method PostSendCommandProcessing, addr 0x2a783fc, size 0x130, virtual false, abstract: false, final false
+  inline bool PostSendCommandProcessing(ByRef<::System::IO::Stream*> stream);
+
+  /// @brief Method ReadCallback, addr 0x2a78a5c, size 0x2d0, virtual false, abstract: false, final false
+  static inline void ReadCallback(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method ReceiveCommandResponse, addr 0x2a7852c, size 0x328, virtual false, abstract: false, final false
+  inline ::System::Net::ResponseDescription* ReceiveCommandResponse();
+
+  /// @brief Method ReceiveCommandResponseCallback, addr 0x2a78d64, size 0x554, virtual false, abstract: false, final false
+  inline void ReceiveCommandResponseCallback(::System::Net::ReceiveState* state, int32_t bytesRead);
+
+  /// @brief Method SubmitRequest, addr 0x2a77bf0, size 0x80, virtual false, abstract: false, final false
+  inline ::System::IO::Stream* SubmitRequest(::System::Net::WebRequest* request, bool isAsync, bool readInitalResponseOnConnect);
+
+  /// @brief Method WriteCallback, addr 0x2a792b8, size 0x2b4, virtual false, abstract: false, final false
+  static inline void WriteCallback(::System::IAsyncResult* asyncResult);
+
+  constexpr ::StringW const& __cordl_internal_get__abortReason() const;
+
+  constexpr ::StringW& __cordl_internal_get__abortReason();
 
   constexpr bool const& __cordl_internal_get__aborted() const;
 
-  constexpr void __cordl_internal_set__aborted(bool value);
+  constexpr bool& __cordl_internal_get__aborted();
 
-  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>& __cordl_internal_get__commands();
+  constexpr ::StringW const& __cordl_internal_get__buffer() const;
+
+  constexpr ::StringW& __cordl_internal_get__buffer();
 
   constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> const& __cordl_internal_get__commands() const;
 
-  constexpr void __cordl_internal_set__commands(::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> value);
-
-  constexpr int32_t& __cordl_internal_get__index();
-
-  constexpr int32_t const& __cordl_internal_get__index() const;
-
-  constexpr void __cordl_internal_set__index(int32_t value);
-
-  constexpr bool& __cordl_internal_get__doRead();
-
-  constexpr bool const& __cordl_internal_get__doRead() const;
-
-  constexpr void __cordl_internal_set__doRead(bool value);
-
-  constexpr bool& __cordl_internal_get__doSend();
-
-  constexpr bool const& __cordl_internal_get__doSend() const;
-
-  constexpr void __cordl_internal_set__doSend(bool value);
+  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>& __cordl_internal_get__commands();
 
   constexpr ::System::Net::ResponseDescription*& __cordl_internal_get__currentResponseDescription();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __cordl_internal_get__currentResponseDescription() const;
 
-  constexpr void __cordl_internal_set__currentResponseDescription(::System::Net::ResponseDescription* value);
+  constexpr ::System::Text::Decoder*& __cordl_internal_get__decoder();
 
-  constexpr ::StringW& __cordl_internal_get__abortReason();
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get__decoder() const;
 
-  constexpr ::StringW const& __cordl_internal_get__abortReason() const;
+  constexpr bool const& __cordl_internal_get__doRead() const;
 
-  constexpr void __cordl_internal_set__abortReason(::StringW value);
+  constexpr bool& __cordl_internal_get__doRead();
 
-  constexpr ::StringW& __cordl_internal_get__buffer();
+  constexpr bool const& __cordl_internal_get__doSend() const;
 
-  constexpr ::StringW const& __cordl_internal_get__buffer() const;
-
-  constexpr void __cordl_internal_set__buffer(::StringW value);
+  constexpr bool& __cordl_internal_get__doSend();
 
   constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr ::System::Text::Decoder*& __cordl_internal_get__decoder();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get__decoder() const;
+  constexpr bool const& __cordl_internal_get__isAsync() const;
+
+  constexpr bool& __cordl_internal_get__isAsync();
+
+  constexpr bool const& __cordl_internal_get__recoverableFailure() const;
+
+  constexpr bool& __cordl_internal_get__recoverableFailure();
+
+  constexpr ::System::Net::WebRequest*& __cordl_internal_get__request();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __cordl_internal_get__request() const;
+
+  constexpr void __cordl_internal_set__abortReason(::StringW value);
+
+  constexpr void __cordl_internal_set__aborted(bool value);
+
+  constexpr void __cordl_internal_set__buffer(::StringW value);
+
+  constexpr void __cordl_internal_set__commands(::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> value);
+
+  constexpr void __cordl_internal_set__currentResponseDescription(::System::Net::ResponseDescription* value);
 
   constexpr void __cordl_internal_set__decoder(::System::Text::Decoder* value);
 
-  static inline void setStaticF_s_writeCallbackDelegate(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set__doRead(bool value);
 
-  static inline ::System::AsyncCallback* getStaticF_s_writeCallbackDelegate();
+  constexpr void __cordl_internal_set__doSend(bool value);
 
-  static inline void setStaticF_s_readCallbackDelegate(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+
+  constexpr void __cordl_internal_set__index(int32_t value);
+
+  constexpr void __cordl_internal_set__isAsync(bool value);
+
+  constexpr void __cordl_internal_set__recoverableFailure(bool value);
+
+  constexpr void __cordl_internal_set__request(::System::Net::WebRequest* value);
+
+  /// @brief Method .ctor, addr 0x2a7777c, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
   static inline ::System::AsyncCallback* getStaticF_s_readCallbackDelegate();
 
-  static inline ::System::Net::CommandStream* New_ctor(::System::Net::Sockets::TcpClient* client);
+  static inline ::System::AsyncCallback* getStaticF_s_writeCallbackDelegate();
 
-  /// @brief Method .ctor, addr 0x29906a8, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Sockets::TcpClient* client);
-
-  /// @brief Method Abort, addr 0x29907c0, size 0x1f8, virtual true, abstract: false, final false
-  inline void Abort(::System::Exception* e);
-
-  /// @brief Method Dispose, addr 0x29909e8, size 0x94, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method InvokeRequestCallback, addr 0x2990a7c, size 0x70, virtual false, abstract: false, final false
-  inline void InvokeRequestCallback(::System::Object* obj);
-
-  /// @brief Method get_RecoverableFailure, addr 0x2990afc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RecoverableFailure();
-
-  /// @brief Method MarkAsRecoverableFailure, addr 0x2990b04, size 0x18, virtual false, abstract: false, final false
-  inline void MarkAsRecoverableFailure();
-
-  /// @brief Method SubmitRequest, addr 0x2990b1c, size 0x80, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* SubmitRequest(::System::Net::WebRequest* request, bool isAsync, bool readInitalResponseOnConnect);
-
-  /// @brief Method ClearState, addr 0x2991104, size 0x10, virtual true, abstract: false, final false
-  inline void ClearState();
-
-  /// @brief Method BuildCommandsList, addr 0x2991114, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* request);
-
-  /// @brief Method GenerateException, addr 0x299111c, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Exception* GenerateException(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Exception* innerException);
-
-  /// @brief Method GenerateException, addr 0x299119c, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Exception* GenerateException(::System::Net::FtpStatusCode code, ::StringW statusDescription, ::System::Exception* innerException);
-
-  /// @brief Method InitCommandPipeline, addr 0x2990b9c, size 0x90, virtual false, abstract: false, final false
-  inline void InitCommandPipeline(::System::Net::WebRequest* request, ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> commands,
-                                  bool isAsync);
-
-  /// @brief Method CheckContinuePipeline, addr 0x2991264, size 0xb4, virtual false, abstract: false, final false
-  inline void CheckContinuePipeline();
-
-  /// @brief Method ContinueCommandPipeline, addr 0x2990c2c, size 0x4d8, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* ContinueCommandPipeline();
-
-  /// @brief Method PostSendCommandProcessing, addr 0x2991328, size 0x130, virtual false, abstract: false, final false
-  inline bool PostSendCommandProcessing(ByRef<::System::IO::Stream*> stream);
-
-  /// @brief Method PostReadCommandProcessing, addr 0x2991780, size 0x200, virtual false, abstract: false, final false
-  inline bool PostReadCommandProcessing(ByRef<::System::IO::Stream*> stream);
-
-  /// @brief Method PipelineCallback, addr 0x2991980, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
-                                                                              ByRef<::System::IO::Stream*> stream);
-
-  /// @brief Method ReadCallback, addr 0x2991988, size 0x2d0, virtual false, abstract: false, final false
-  static inline void ReadCallback(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method WriteCallback, addr 0x29921e4, size 0x2b4, virtual false, abstract: false, final false
-  static inline void WriteCallback(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method get_Encoding, addr 0x2992498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x2a7956c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method set_Encoding, addr 0x29924a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_RecoverableFailure, addr 0x2a77bd0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_RecoverableFailure();
+
+  static inline void setStaticF_s_readCallbackDelegate(::System::AsyncCallback* value);
+
+  static inline void setStaticF_s_writeCallbackDelegate(::System::AsyncCallback* value);
+
+  /// @brief Method set_Encoding, addr 0x2a79574, size 0x38, virtual false, abstract: false, final false
   inline void set_Encoding(::System::Text::Encoding* value);
 
-  /// @brief Method CheckValid, addr 0x29924d8, size 0x8, virtual true, abstract: false, final false
-  inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandStream();
 
-  /// @brief Method ReceiveCommandResponse, addr 0x2991458, size 0x328, virtual false, abstract: false, final false
-  inline ::System::Net::ResponseDescription* ReceiveCommandResponse();
-
-  /// @brief Method ReceiveCommandResponseCallback, addr 0x2991c90, size 0x554, virtual false, abstract: false, final false
-  inline void ReceiveCommandResponseCallback(::System::Net::ReceiveState* state, int32_t bytesRead);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CommandStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandStream(CommandStream&&) = delete;
@@ -504,12 +512,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandStream(CommandStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CommandStream();
-
-public:
   /// @brief Field _recoverableFailure, offset: 0x38, size: 0x1, def value: None
   bool ____recoverableFailure;
 

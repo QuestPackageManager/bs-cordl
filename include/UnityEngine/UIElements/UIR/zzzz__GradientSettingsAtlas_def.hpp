@@ -48,25 +48,23 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6637))
 // CS Name: ::GradientSettingsAtlas::RawTexture
 struct CORDL_TYPE __GradientSettingsAtlas__RawTexture {
 public:
   // Declarations
-  /// @brief Method WriteRawInt2Packed, addr 0x2ea5364, size 0x88, virtual false, abstract: false, final false
-  inline void WriteRawInt2Packed(int32_t v0, int32_t v1, int32_t destX, int32_t destY);
-
-  /// @brief Method WriteRawFloat4Packed, addr 0x2ea52bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WriteRawFloat4Packed, addr 0x2f999e4, size 0xa8, virtual false, abstract: false, final false
   inline void WriteRawFloat4Packed(float_t f0, float_t f1, float_t f2, float_t f3, int32_t destX, int32_t destY);
 
-  // Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GradientSettingsAtlas__RawTexture(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> rgba, int32_t width, int32_t height) noexcept;
+  /// @brief Method WriteRawInt2Packed, addr 0x2f99a8c, size 0x88, virtual false, abstract: false, final false
+  inline void WriteRawInt2Packed(int32_t v0, int32_t v1, int32_t destX, int32_t destY);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __GradientSettingsAtlas__RawTexture();
+
+  // Ctor Parameters [CppParam { name: "rgba", ty: "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __GradientSettingsAtlas__RawTexture(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> rgba, int32_t width, int32_t height) noexcept;
 
   /// @brief Field rgba, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> rgba;
@@ -96,19 +94,25 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6637)), TypeDefinitionIndex(TypeDefinitionIndex(8695))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6638))
 // CS Name: ::UnityEngine.UIElements.UIR::GradientSettingsAtlas*
 class CORDL_TYPE GradientSettingsAtlas : public ::System::Object {
 public:
   // Declarations
   using RawTexture = ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture;
 
-  /// @brief Field m_Length, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Length, put = __cordl_internal_set_m_Length)) int32_t m_Length;
+  __declspec(property(get = get_MustCommit, put = set_MustCommit)) bool MustCommit;
 
-  /// @brief Field m_ElemWidth, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ElemWidth, put = __cordl_internal_set_m_ElemWidth)) int32_t m_ElemWidth;
+  /// @brief Field <MustCommit>k__BackingField, offset 0x39, size 0x1
+  __declspec(property(get = __cordl_internal_get__MustCommit_k__BackingField, put = __cordl_internal_set__MustCommit_k__BackingField)) bool _MustCommit_k__BackingField;
+
+  /// @brief Field <disposed>k__BackingField, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+
+  __declspec(property(get = get_atlas))::UnityW<::UnityEngine::Texture2D> atlas;
+
+  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+
+  __declspec(property(get = get_length)) int32_t length;
 
   /// @brief Field m_Allocator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator))::UnityEngine::UIElements::UIR::BestFitAllocator* m_Allocator;
@@ -116,137 +120,135 @@ public:
   /// @brief Field m_Atlas, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Atlas, put = __cordl_internal_set_m_Atlas))::UnityW<::UnityEngine::Texture2D> m_Atlas;
 
+  /// @brief Field m_ElemWidth, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ElemWidth, put = __cordl_internal_set_m_ElemWidth)) int32_t m_ElemWidth;
+
+  /// @brief Field m_Length, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Length, put = __cordl_internal_set_m_Length)) int32_t m_Length;
+
   /// @brief Field m_RawAtlas, offset 0x28, size 0x10
   __declspec(property(get = __cordl_internal_get_m_RawAtlas, put = __cordl_internal_set_m_RawAtlas))::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture m_RawAtlas;
-
-  /// @brief Field <disposed>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
-
-  /// @brief Field <MustCommit>k__BackingField, offset 0x39, size 0x1
-  __declspec(property(get = __cordl_internal_get__MustCommit_k__BackingField, put = __cordl_internal_set__MustCommit_k__BackingField)) bool _MustCommit_k__BackingField;
-
-  /// @brief Field s_MarkerWrite, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerWrite, put = setStaticF_s_MarkerWrite))::Unity::Profiling::ProfilerMarker s_MarkerWrite;
 
   /// @brief Field s_MarkerCommit, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_MarkerCommit, put = setStaticF_s_MarkerCommit))::Unity::Profiling::ProfilerMarker s_MarkerCommit;
 
+  /// @brief Field s_MarkerWrite, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_MarkerWrite, put = setStaticF_s_MarkerWrite))::Unity::Profiling::ProfilerMarker s_MarkerWrite;
+
   /// @brief Field s_TextureCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_TextureCounter, put = setStaticF_s_TextureCounter)) int32_t s_TextureCounter;
-
-  __declspec(property(get = get_length)) int32_t length;
-
-  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
-
-  __declspec(property(get = get_atlas))::UnityW<::UnityEngine::Texture2D> atlas;
-
-  __declspec(property(get = get_MustCommit, put = set_MustCommit)) bool MustCommit;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Add, addr 0x2f99458, size 0xec, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::Alloc Add(int32_t count);
 
-  constexpr int32_t& __cordl_internal_get_m_Length();
+  /// @brief Method Commit, addr 0x2f99b28, size 0x64, virtual false, abstract: false, final false
+  inline void Commit();
 
-  constexpr int32_t const& __cordl_internal_get_m_Length() const;
+  /// @brief Method Dispose, addr 0x2f99270, size 0x6c, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void __cordl_internal_set_m_Length(int32_t value);
+  /// @brief Method Dispose, addr 0x2f992dc, size 0x78, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr int32_t& __cordl_internal_get_m_ElemWidth();
+  static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
 
-  constexpr int32_t const& __cordl_internal_get_m_ElemWidth() const;
+  /// @brief Method PrepareAtlas, addr 0x2f99b8c, size 0x168, virtual false, abstract: false, final false
+  inline void PrepareAtlas();
 
-  constexpr void __cordl_internal_set_m_ElemWidth(int32_t value);
+  /// @brief Method Reset, addr 0x2f99384, size 0xcc, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method Write, addr 0x2f99544, size 0x4a0, virtual false, abstract: false, final false
+  inline void Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*> settings,
+                    ::UnityEngine::UIElements::UIR::GradientRemap* remap);
+
+  constexpr bool const& __cordl_internal_get__MustCommit_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__MustCommit_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
   constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __cordl_internal_get_m_Allocator();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __cordl_internal_get_m_Allocator() const;
 
-  constexpr void __cordl_internal_set_m_Allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Atlas() const;
 
   constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Atlas();
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Atlas() const;
+  constexpr int32_t const& __cordl_internal_get_m_ElemWidth() const;
 
-  constexpr void __cordl_internal_set_m_Atlas(::UnityW<::UnityEngine::Texture2D> value);
+  constexpr int32_t& __cordl_internal_get_m_ElemWidth();
 
-  constexpr ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture& __cordl_internal_get_m_RawAtlas();
+  constexpr int32_t const& __cordl_internal_get_m_Length() const;
+
+  constexpr int32_t& __cordl_internal_get_m_Length();
 
   constexpr ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture const& __cordl_internal_get_m_RawAtlas() const;
 
-  constexpr void __cordl_internal_set_m_RawAtlas(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture value);
-
-  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__MustCommit_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__MustCommit_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture& __cordl_internal_get_m_RawAtlas();
 
   constexpr void __cordl_internal_set__MustCommit_k__BackingField(bool value);
 
-  static inline void setStaticF_s_MarkerWrite(::Unity::Profiling::ProfilerMarker value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerWrite();
+  constexpr void __cordl_internal_set_m_Allocator(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  static inline void setStaticF_s_MarkerCommit(::Unity::Profiling::ProfilerMarker value);
+  constexpr void __cordl_internal_set_m_Atlas(::UnityW<::UnityEngine::Texture2D> value);
+
+  constexpr void __cordl_internal_set_m_ElemWidth(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Length(int32_t value);
+
+  constexpr void __cordl_internal_set_m_RawAtlas(::UnityEngine::UIElements::UIR::__GradientSettingsAtlas__RawTexture value);
+
+  /// @brief Method .ctor, addr 0x2f99354, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(int32_t length);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerCommit();
 
-  static inline void setStaticF_s_TextureCounter(int32_t value);
+  static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerWrite();
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_length, addr 0x2ea4b2c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_length();
-
-  /// @brief Method get_disposed, addr 0x2ea4b34, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disposed();
-
-  /// @brief Method set_disposed, addr 0x2ea4b3c, size 0xc, virtual false, abstract: false, final false
-  inline void set_disposed(bool value);
-
-  /// @brief Method Dispose, addr 0x2ea4b48, size 0x6c, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Dispose, addr 0x2ea4bb4, size 0x78, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
-
-  /// @brief Method .ctor, addr 0x2ea4c2c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(int32_t length);
-
-  /// @brief Method Reset, addr 0x2ea4c5c, size 0xcc, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method get_atlas, addr 0x2ea4d28, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
-
-  /// @brief Method Add, addr 0x2ea4d30, size 0xec, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::Alloc Add(int32_t count);
-
-  /// @brief Method Write, addr 0x2ea4e1c, size 0x4a0, virtual false, abstract: false, final false
-  inline void Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*> settings,
-                    ::UnityEngine::UIElements::UIR::GradientRemap* remap);
-
-  /// @brief Method get_MustCommit, addr 0x2ea53ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustCommit, addr 0x2f99b14, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustCommit();
 
-  /// @brief Method set_MustCommit, addr 0x2ea53f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x2f99450, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
+
+  /// @brief Method get_disposed, addr 0x2f9925c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_disposed();
+
+  /// @brief Method get_length, addr 0x2f99254, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_length();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  static inline void setStaticF_s_MarkerCommit(::Unity::Profiling::ProfilerMarker value);
+
+  static inline void setStaticF_s_MarkerWrite(::Unity::Profiling::ProfilerMarker value);
+
+  static inline void setStaticF_s_TextureCounter(int32_t value);
+
+  /// @brief Method set_MustCommit, addr 0x2f99b1c, size 0xc, virtual false, abstract: false, final false
   inline void set_MustCommit(bool value);
 
-  /// @brief Method Commit, addr 0x2ea5400, size 0x64, virtual false, abstract: false, final false
-  inline void Commit();
+  /// @brief Method set_disposed, addr 0x2f99264, size 0xc, virtual false, abstract: false, final false
+  inline void set_disposed(bool value);
 
-  /// @brief Method PrepareAtlas, addr 0x2ea5464, size 0x168, virtual false, abstract: false, final false
-  inline void PrepareAtlas();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GradientSettingsAtlas();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GradientSettingsAtlas", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GradientSettingsAtlas(GradientSettingsAtlas&&) = delete;
@@ -255,12 +257,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GradientSettingsAtlas(GradientSettingsAtlas const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GradientSettingsAtlas();
-
-public:
   /// @brief Field m_Length, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Length;
 

@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolInstallerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10289))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5234))
 // CS Name: ::RecordingToolInstallerSO*
 class CORDL_TYPE RecordingToolInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x23354b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2404400, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::RecordingToolInstallerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23354bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2404404, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordingToolInstallerSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolInstallerSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolInstallerSO(RecordingToolInstallerSO&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingToolInstallerSO(RecordingToolInstallerSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolInstallerSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

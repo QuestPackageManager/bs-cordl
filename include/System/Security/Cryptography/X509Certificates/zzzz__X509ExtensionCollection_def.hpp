@@ -41,37 +41,43 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Extension
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7022))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ExtensionCollection*
 class CORDL_TYPE X509ExtensionCollection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::ArrayList* _list;
+  __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::ArrayW<uint8_t, ::Array<uint8_t>*> Empty;
 
-  __declspec(property(get = get_Count)) int32_t Count;
-
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
+
+  __declspec(property(get = get_Item))::System::Security::Cryptography::X509Certificates::X509Extension* Item[];
 
   __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
 
-  __declspec(property(get = get_Item))::System::Security::Cryptography::X509Certificates::X509Extension* Item[];
+  /// @brief Field _list, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::ArrayList* _list;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method Add, addr 0x2a6f814, size 0x74, virtual false, abstract: false, final false
+  inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Extension* extension);
+
+  /// @brief Method GetEnumerator, addr 0x2a6f98c, size 0x64, virtual false, abstract: false, final false
+  inline ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* GetEnumerator();
+
+  static inline ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* New_ctor();
+
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2a6f888, size 0x104, virtual true, abstract: false, final true
+  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2a6fa34, size 0x64, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
 
@@ -79,39 +85,37 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  static inline void setStaticF_Empty(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method .ctor, addr 0x2a6f3b0, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Empty();
 
-  static inline ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29882dc, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_Count, addr 0x2988348, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2a6f41c, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x298836c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x2a6f440, size 0x24, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x2988390, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Object* get_SyncRoot();
-
-  /// @brief Method get_Item, addr 0x2988394, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2a6f468, size 0x3ac, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Extension* get_Item(::StringW oid);
 
-  /// @brief Method Add, addr 0x2988740, size 0x74, virtual false, abstract: false, final false
-  inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Extension* extension);
+  /// @brief Method get_SyncRoot, addr 0x2a6f464, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x29887b4, size 0x104, virtual true, abstract: false, final true
-  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x29888b8, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* GetEnumerator();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2988960, size 0x64, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+  static inline void setStaticF_Empty(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509ExtensionCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509ExtensionCollection(X509ExtensionCollection&&) = delete;
@@ -120,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509ExtensionCollection(X509ExtensionCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509ExtensionCollection();
-
-public:
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____list;
 

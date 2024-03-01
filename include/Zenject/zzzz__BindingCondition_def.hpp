@@ -27,26 +27,30 @@ MARK_REF_PTR_T(::Zenject::BindingCondition);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10301))
 // CS Name: ::Zenject::BindingCondition*
 class CORDL_TYPE BindingCondition : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::Zenject::BindingCondition* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2f12670, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2f1279c, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::Zenject::InjectContext* c);
-
-  /// @brief Method BeginInvoke, addr 0x2f127b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3005ed8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Zenject::InjectContext* c, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2f127d0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3005ef8, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x3005ec4, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::Zenject::InjectContext* c);
+
+  static inline ::Zenject::BindingCondition* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x3005d98, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BindingCondition();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BindingCondition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindingCondition(BindingCondition&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BindingCondition(BindingCondition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindingCondition();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

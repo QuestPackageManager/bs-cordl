@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableDepthTexturePS4);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15395))
 // CS Name: ::DisableDepthTexturePS4*
 class CORDL_TYPE DisableDepthTexturePS4 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,17 +24,23 @@ public:
   /// @brief Field _depthTextureEnabled, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__depthTextureEnabled, put = __cordl_internal_set__depthTextureEnabled))::UnityW<::GlobalNamespace::BoolSO> _depthTextureEnabled;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__depthTextureEnabled();
+  static inline ::GlobalNamespace::DisableDepthTexturePS4* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__depthTextureEnabled() const;
 
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__depthTextureEnabled();
+
   constexpr void __cordl_internal_set__depthTextureEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  static inline ::GlobalNamespace::DisableDepthTexturePS4* New_ctor();
-
-  /// @brief Method .ctor, addr 0x280bc78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f00f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisableDepthTexturePS4();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisableDepthTexturePS4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisableDepthTexturePS4(DisableDepthTexturePS4&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisableDepthTexturePS4(DisableDepthTexturePS4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableDepthTexturePS4();
-
-public:
   /// @brief Field _depthTextureEnabled, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____depthTextureEnabled;
 

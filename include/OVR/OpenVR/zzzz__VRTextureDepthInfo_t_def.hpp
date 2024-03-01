@@ -24,19 +24,17 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureDepthInfo_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8590)), TypeDefinitionIndex(TypeDefinitionIndex(8594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8605))
 // CS Name: ::OVR.OpenVR::VRTextureDepthInfo_t
 struct CORDL_TYPE VRTextureDepthInfo_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None },
-  // CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
-  constexpr VRTextureDepthInfo_t(void* handle, ::OVR::OpenVR::HmdMatrix44_t mProjection, ::OVR::OpenVR::HmdVector2_t vRange) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VRTextureDepthInfo_t();
+
+  // Ctor Parameters [CppParam { name: "handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "mProjection", ty: "::OVR::OpenVR::HmdMatrix44_t", modifiers: "", def_value: None },
+  // CppParam { name: "vRange", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
+  constexpr VRTextureDepthInfo_t(void* handle, ::OVR::OpenVR::HmdMatrix44_t mProjection, ::OVR::OpenVR::HmdVector2_t vRange) noexcept;
 
   /// @brief Field handle, offset: 0x0, size: 0x8, def value: None
   void* handle;

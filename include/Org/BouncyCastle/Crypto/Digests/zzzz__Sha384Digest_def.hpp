@@ -20,42 +20,46 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Sha384Digest);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(756))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(769))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Sha384Digest*
 class CORDL_TYPE Sha384Digest : public ::Org::BouncyCastle::Crypto::Digests::LongDigest {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::Sha384Digest* New_ctor();
+  /// @brief Method Copy, addr 0xf162e0, size 0x60, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method .ctor, addr 0xecf108, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method DoFinal, addr 0xf161e0, size 0xb8, virtual true, abstract: false, final false
+  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+
+  /// @brief Method GetDigestSize, addr 0xf161d8, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetDigestSize();
+
+  static inline ::Org::BouncyCastle::Crypto::Digests::Sha384Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha384Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha384Digest* t);
 
-  /// @brief Method .ctor, addr 0xecf160, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha384Digest* t);
-
-  /// @brief Method get_AlgorithmName, addr 0xecf1c8, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method GetDigestSize, addr 0xecf208, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetDigestSize();
-
-  /// @brief Method DoFinal, addr 0xecf210, size 0xb8, virtual true, abstract: false, final false
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
-
-  /// @brief Method Reset, addr 0xecf2c8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf16298, size 0x48, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Copy, addr 0xecf310, size 0x60, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
-
-  /// @brief Method Reset, addr 0xecf370, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0xf16340, size 0x88, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
+  /// @brief Method .ctor, addr 0xf160d8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0xf16130, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha384Digest* t);
+
+  /// @brief Method get_AlgorithmName, addr 0xf16198, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_AlgorithmName();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Sha384Digest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Sha384Digest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sha384Digest(Sha384Digest&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Sha384Digest(Sha384Digest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Sha384Digest();
-
-public:
   /// @brief Field DigestLength offset 0xffffffff size 0x4
   static constexpr int32_t DigestLength{ static_cast<int32_t>(0x30) };
 

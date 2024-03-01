@@ -19,71 +19,75 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1032))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaValidationParameters*
 class CORDL_TYPE DsaValidationParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field seed, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
-
-  /// @brief Field counter, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
-
-  /// @brief Field usageIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_usageIndex, put = __cordl_internal_set_usageIndex)) int32_t usageIndex;
-
   __declspec(property(get = get_Counter)) int32_t Counter;
 
   __declspec(property(get = get_UsageIndex)) int32_t UsageIndex;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
+  /// @brief Field counter, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
+  /// @brief Field seed, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
-  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field usageIndex, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_usageIndex, put = __cordl_internal_set_usageIndex)) int32_t usageIndex;
 
-  constexpr int32_t& __cordl_internal_get_counter();
+  /// @brief Method Equals, addr 0xfa22c8, size 0xa4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr int32_t const& __cordl_internal_get_counter() const;
+  /// @brief Method Equals, addr 0xfa236c, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* other);
 
-  constexpr void __cordl_internal_set_counter(int32_t value);
+  /// @brief Method GetHashCode, addr 0xfa23fc, size 0x88, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  constexpr int32_t& __cordl_internal_get_usageIndex();
-
-  constexpr int32_t const& __cordl_internal_get_usageIndex() const;
-
-  constexpr void __cordl_internal_set_usageIndex(int32_t value);
+  /// @brief Method GetSeed, addr 0xfa2240, size 0x78, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
 
-  /// @brief Method .ctor, addr 0xf5d160, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
-
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method .ctor, addr 0xf5d168, size 0x108, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_counter() const;
+
+  constexpr int32_t& __cordl_internal_get_counter();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
+
+  constexpr int32_t const& __cordl_internal_get_usageIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_usageIndex();
+
+  constexpr void __cordl_internal_set_counter(int32_t value);
+
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_usageIndex(int32_t value);
+
+  /// @brief Method .ctor, addr 0xfa2130, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter);
+
+  /// @brief Method .ctor, addr 0xfa2138, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter, int32_t usageIndex);
 
-  /// @brief Method GetSeed, addr 0xf5d270, size 0x78, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
-
-  /// @brief Method get_Counter, addr 0xf5d2e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Counter, addr 0xfa22b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Counter();
 
-  /// @brief Method get_UsageIndex, addr 0xf5d2f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0xfa22c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
-  /// @brief Method Equals, addr 0xf5d2f8, size 0xa4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DsaValidationParameters();
 
-  /// @brief Method Equals, addr 0xf5d39c, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* other);
-
-  /// @brief Method GetHashCode, addr 0xf5d42c, size 0x88, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DsaValidationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DsaValidationParameters(DsaValidationParameters&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DsaValidationParameters(DsaValidationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DsaValidationParameters();
-
-public:
   /// @brief Field seed, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___seed;
 

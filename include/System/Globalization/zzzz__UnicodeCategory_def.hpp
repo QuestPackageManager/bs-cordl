@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Globalization::UnicodeCategory);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3692))
 // CS Name: ::System.Globalization::UnicodeCategory
 struct CORDL_TYPE UnicodeCategory {
 public:
@@ -62,108 +60,113 @@ public:
     return static_cast<__UnicodeCategory_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr UnicodeCategory(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr UnicodeCategory();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr UnicodeCategory(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field UppercaseLetter value: static_cast<int32_t>(0x0)
-  static ::System::Globalization::UnicodeCategory const UppercaseLetter;
-
-  /// @brief Field LowercaseLetter value: static_cast<int32_t>(0x1)
-  static ::System::Globalization::UnicodeCategory const LowercaseLetter;
-
-  /// @brief Field TitlecaseLetter value: static_cast<int32_t>(0x2)
-  static ::System::Globalization::UnicodeCategory const TitlecaseLetter;
-
-  /// @brief Field ModifierLetter value: static_cast<int32_t>(0x3)
-  static ::System::Globalization::UnicodeCategory const ModifierLetter;
-
-  /// @brief Field OtherLetter value: static_cast<int32_t>(0x4)
-  static ::System::Globalization::UnicodeCategory const OtherLetter;
-
-  /// @brief Field NonSpacingMark value: static_cast<int32_t>(0x5)
-  static ::System::Globalization::UnicodeCategory const NonSpacingMark;
-
-  /// @brief Field SpacingCombiningMark value: static_cast<int32_t>(0x6)
-  static ::System::Globalization::UnicodeCategory const SpacingCombiningMark;
-
-  /// @brief Field EnclosingMark value: static_cast<int32_t>(0x7)
-  static ::System::Globalization::UnicodeCategory const EnclosingMark;
-
-  /// @brief Field DecimalDigitNumber value: static_cast<int32_t>(0x8)
-  static ::System::Globalization::UnicodeCategory const DecimalDigitNumber;
-
-  /// @brief Field LetterNumber value: static_cast<int32_t>(0x9)
-  static ::System::Globalization::UnicodeCategory const LetterNumber;
-
-  /// @brief Field OtherNumber value: static_cast<int32_t>(0xa)
-  static ::System::Globalization::UnicodeCategory const OtherNumber;
-
-  /// @brief Field SpaceSeparator value: static_cast<int32_t>(0xb)
-  static ::System::Globalization::UnicodeCategory const SpaceSeparator;
-
-  /// @brief Field LineSeparator value: static_cast<int32_t>(0xc)
-  static ::System::Globalization::UnicodeCategory const LineSeparator;
-
-  /// @brief Field ParagraphSeparator value: static_cast<int32_t>(0xd)
-  static ::System::Globalization::UnicodeCategory const ParagraphSeparator;
-
-  /// @brief Field Control value: static_cast<int32_t>(0xe)
-  static ::System::Globalization::UnicodeCategory const Control;
-
-  /// @brief Field Format value: static_cast<int32_t>(0xf)
-  static ::System::Globalization::UnicodeCategory const Format;
-
-  /// @brief Field Surrogate value: static_cast<int32_t>(0x10)
-  static ::System::Globalization::UnicodeCategory const Surrogate;
-
-  /// @brief Field PrivateUse value: static_cast<int32_t>(0x11)
-  static ::System::Globalization::UnicodeCategory const PrivateUse;
-
-  /// @brief Field ConnectorPunctuation value: static_cast<int32_t>(0x12)
-  static ::System::Globalization::UnicodeCategory const ConnectorPunctuation;
-
-  /// @brief Field DashPunctuation value: static_cast<int32_t>(0x13)
-  static ::System::Globalization::UnicodeCategory const DashPunctuation;
-
-  /// @brief Field OpenPunctuation value: static_cast<int32_t>(0x14)
-  static ::System::Globalization::UnicodeCategory const OpenPunctuation;
 
   /// @brief Field ClosePunctuation value: static_cast<int32_t>(0x15)
   static ::System::Globalization::UnicodeCategory const ClosePunctuation;
 
-  /// @brief Field InitialQuotePunctuation value: static_cast<int32_t>(0x16)
-  static ::System::Globalization::UnicodeCategory const InitialQuotePunctuation;
+  /// @brief Field ConnectorPunctuation value: static_cast<int32_t>(0x12)
+  static ::System::Globalization::UnicodeCategory const ConnectorPunctuation;
 
-  /// @brief Field FinalQuotePunctuation value: static_cast<int32_t>(0x17)
-  static ::System::Globalization::UnicodeCategory const FinalQuotePunctuation;
-
-  /// @brief Field OtherPunctuation value: static_cast<int32_t>(0x18)
-  static ::System::Globalization::UnicodeCategory const OtherPunctuation;
-
-  /// @brief Field MathSymbol value: static_cast<int32_t>(0x19)
-  static ::System::Globalization::UnicodeCategory const MathSymbol;
+  /// @brief Field Control value: static_cast<int32_t>(0xe)
+  static ::System::Globalization::UnicodeCategory const Control;
 
   /// @brief Field CurrencySymbol value: static_cast<int32_t>(0x1a)
   static ::System::Globalization::UnicodeCategory const CurrencySymbol;
 
+  /// @brief Field DashPunctuation value: static_cast<int32_t>(0x13)
+  static ::System::Globalization::UnicodeCategory const DashPunctuation;
+
+  /// @brief Field DecimalDigitNumber value: static_cast<int32_t>(0x8)
+  static ::System::Globalization::UnicodeCategory const DecimalDigitNumber;
+
+  /// @brief Field EnclosingMark value: static_cast<int32_t>(0x7)
+  static ::System::Globalization::UnicodeCategory const EnclosingMark;
+
+  /// @brief Field FinalQuotePunctuation value: static_cast<int32_t>(0x17)
+  static ::System::Globalization::UnicodeCategory const FinalQuotePunctuation;
+
+  /// @brief Field Format value: static_cast<int32_t>(0xf)
+  static ::System::Globalization::UnicodeCategory const Format;
+
+  /// @brief Field InitialQuotePunctuation value: static_cast<int32_t>(0x16)
+  static ::System::Globalization::UnicodeCategory const InitialQuotePunctuation;
+
+  /// @brief Field LetterNumber value: static_cast<int32_t>(0x9)
+  static ::System::Globalization::UnicodeCategory const LetterNumber;
+
+  /// @brief Field LineSeparator value: static_cast<int32_t>(0xc)
+  static ::System::Globalization::UnicodeCategory const LineSeparator;
+
+  /// @brief Field LowercaseLetter value: static_cast<int32_t>(0x1)
+  static ::System::Globalization::UnicodeCategory const LowercaseLetter;
+
+  /// @brief Field MathSymbol value: static_cast<int32_t>(0x19)
+  static ::System::Globalization::UnicodeCategory const MathSymbol;
+
+  /// @brief Field ModifierLetter value: static_cast<int32_t>(0x3)
+  static ::System::Globalization::UnicodeCategory const ModifierLetter;
+
   /// @brief Field ModifierSymbol value: static_cast<int32_t>(0x1b)
   static ::System::Globalization::UnicodeCategory const ModifierSymbol;
+
+  /// @brief Field NonSpacingMark value: static_cast<int32_t>(0x5)
+  static ::System::Globalization::UnicodeCategory const NonSpacingMark;
+
+  /// @brief Field OpenPunctuation value: static_cast<int32_t>(0x14)
+  static ::System::Globalization::UnicodeCategory const OpenPunctuation;
+
+  /// @brief Field OtherLetter value: static_cast<int32_t>(0x4)
+  static ::System::Globalization::UnicodeCategory const OtherLetter;
+
+  /// @brief Field OtherNotAssigned value: static_cast<int32_t>(0x1d)
+  static ::System::Globalization::UnicodeCategory const OtherNotAssigned;
+
+  /// @brief Field OtherNumber value: static_cast<int32_t>(0xa)
+  static ::System::Globalization::UnicodeCategory const OtherNumber;
+
+  /// @brief Field OtherPunctuation value: static_cast<int32_t>(0x18)
+  static ::System::Globalization::UnicodeCategory const OtherPunctuation;
 
   /// @brief Field OtherSymbol value: static_cast<int32_t>(0x1c)
   static ::System::Globalization::UnicodeCategory const OtherSymbol;
 
-  /// @brief Field OtherNotAssigned value: static_cast<int32_t>(0x1d)
-  static ::System::Globalization::UnicodeCategory const OtherNotAssigned;
+  /// @brief Field ParagraphSeparator value: static_cast<int32_t>(0xd)
+  static ::System::Globalization::UnicodeCategory const ParagraphSeparator;
+
+  /// @brief Field PrivateUse value: static_cast<int32_t>(0x11)
+  static ::System::Globalization::UnicodeCategory const PrivateUse;
+
+  /// @brief Field SpaceSeparator value: static_cast<int32_t>(0xb)
+  static ::System::Globalization::UnicodeCategory const SpaceSeparator;
+
+  /// @brief Field SpacingCombiningMark value: static_cast<int32_t>(0x6)
+  static ::System::Globalization::UnicodeCategory const SpacingCombiningMark;
+
+  /// @brief Field Surrogate value: static_cast<int32_t>(0x10)
+  static ::System::Globalization::UnicodeCategory const Surrogate;
+
+  /// @brief Field TitlecaseLetter value: static_cast<int32_t>(0x2)
+  static ::System::Globalization::UnicodeCategory const TitlecaseLetter;
+
+  /// @brief Field UppercaseLetter value: static_cast<int32_t>(0x0)
+  static ::System::Globalization::UnicodeCategory const UppercaseLetter;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

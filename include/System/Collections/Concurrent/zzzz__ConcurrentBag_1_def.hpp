@@ -66,29 +66,17 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7537))
 // CS Name: ::ConcurrentBag`1::WorkStealingQueue<T>*
 class CORDL_TYPE __ConcurrentBag_1__WorkStealingQueue : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _headIndex, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__headIndex, put = __cordl_internal_set__headIndex)) int32_t _headIndex;
-
-  /// @brief Field _tailIndex, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__tailIndex, put = __cordl_internal_set__tailIndex)) int32_t _tailIndex;
-
-  /// @brief Field _array, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
-
-  /// @brief Field _mask, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
+  __declspec(property(get = get_DangerousCount)) int32_t DangerousCount;
 
   /// @brief Field _addTakeCount, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__addTakeCount, put = __cordl_internal_set__addTakeCount)) int32_t _addTakeCount;
 
-  /// @brief Field _stealCount, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__stealCount, put = __cordl_internal_set__stealCount)) int32_t _stealCount;
+  /// @brief Field _array, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
 
   /// @brief Field _currentOp, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__currentOp, put = __cordl_internal_set__currentOp)) int32_t _currentOp;
@@ -96,84 +84,34 @@ public:
   /// @brief Field _frozen, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__frozen, put = __cordl_internal_set__frozen)) bool _frozen;
 
+  /// @brief Field _headIndex, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__headIndex, put = __cordl_internal_set__headIndex)) int32_t _headIndex;
+
+  /// @brief Field _mask, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
+
   /// @brief Field _nextQueue, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__nextQueue, put = __cordl_internal_set__nextQueue))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _nextQueue;
 
   /// @brief Field _ownerThreadId, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__ownerThreadId, put = __cordl_internal_set__ownerThreadId)) int32_t _ownerThreadId;
 
-  __declspec(property(get = get_DangerousCount)) int32_t DangerousCount;
+  /// @brief Field _stealCount, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__stealCount, put = __cordl_internal_set__stealCount)) int32_t _stealCount;
 
-  constexpr int32_t& __cordl_internal_get__headIndex();
+  /// @brief Field _tailIndex, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__tailIndex, put = __cordl_internal_set__tailIndex)) int32_t _tailIndex;
 
-  constexpr int32_t const& __cordl_internal_get__headIndex() const;
+  /// @brief Method DangerousCopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t DangerousCopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-  constexpr void __cordl_internal_set__headIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__tailIndex();
-
-  constexpr int32_t const& __cordl_internal_get__tailIndex() const;
-
-  constexpr void __cordl_internal_set__tailIndex(int32_t value);
-
-  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
-
-  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
-
-  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
-
-  constexpr int32_t& __cordl_internal_get__mask();
-
-  constexpr int32_t const& __cordl_internal_get__mask() const;
-
-  constexpr void __cordl_internal_set__mask(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__addTakeCount();
-
-  constexpr int32_t const& __cordl_internal_get__addTakeCount() const;
-
-  constexpr void __cordl_internal_set__addTakeCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__stealCount();
-
-  constexpr int32_t const& __cordl_internal_get__stealCount() const;
-
-  constexpr void __cordl_internal_set__stealCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__currentOp();
-
-  constexpr int32_t const& __cordl_internal_get__currentOp() const;
-
-  constexpr void __cordl_internal_set__currentOp(int32_t value);
-
-  constexpr bool& __cordl_internal_get__frozen();
-
-  constexpr bool const& __cordl_internal_get__frozen() const;
-
-  constexpr void __cordl_internal_set__frozen(bool value);
-
-  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __cordl_internal_get__nextQueue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __cordl_internal_get__nextQueue() const;
-
-  constexpr void __cordl_internal_set__nextQueue(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
-
-  constexpr int32_t& __cordl_internal_get__ownerThreadId();
-
-  constexpr int32_t const& __cordl_internal_get__ownerThreadId() const;
-
-  constexpr void __cordl_internal_set__ownerThreadId(int32_t value);
-
-  static inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* New_ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
+  /// @brief Method LocalClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void LocalClear();
 
   /// @brief Method LocalPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalPush(T item, ByRef<int64_t> emptyToNonEmptyListTransitionCount);
 
-  /// @brief Method LocalClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void LocalClear();
+  static inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* New_ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
 
   /// @brief Method TryLocalPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryLocalPop(ByRef<T> result);
@@ -181,12 +119,78 @@ public:
   /// @brief Method TrySteal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySteal(ByRef<T> result, bool take);
 
-  /// @brief Method DangerousCopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t DangerousCopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
+  constexpr int32_t const& __cordl_internal_get__addTakeCount() const;
+
+  constexpr int32_t& __cordl_internal_get__addTakeCount();
+
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
+
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
+
+  constexpr int32_t const& __cordl_internal_get__currentOp() const;
+
+  constexpr int32_t& __cordl_internal_get__currentOp();
+
+  constexpr bool const& __cordl_internal_get__frozen() const;
+
+  constexpr bool& __cordl_internal_get__frozen();
+
+  constexpr int32_t const& __cordl_internal_get__headIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__headIndex();
+
+  constexpr int32_t const& __cordl_internal_get__mask() const;
+
+  constexpr int32_t& __cordl_internal_get__mask();
+
+  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __cordl_internal_get__nextQueue();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __cordl_internal_get__nextQueue() const;
+
+  constexpr int32_t const& __cordl_internal_get__ownerThreadId() const;
+
+  constexpr int32_t& __cordl_internal_get__ownerThreadId();
+
+  constexpr int32_t const& __cordl_internal_get__stealCount() const;
+
+  constexpr int32_t& __cordl_internal_get__stealCount();
+
+  constexpr int32_t const& __cordl_internal_get__tailIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__tailIndex();
+
+  constexpr void __cordl_internal_set__addTakeCount(int32_t value);
+
+  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
+
+  constexpr void __cordl_internal_set__currentOp(int32_t value);
+
+  constexpr void __cordl_internal_set__frozen(bool value);
+
+  constexpr void __cordl_internal_set__headIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__mask(int32_t value);
+
+  constexpr void __cordl_internal_set__nextQueue(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
+
+  constexpr void __cordl_internal_set__ownerThreadId(int32_t value);
+
+  constexpr void __cordl_internal_set__stealCount(int32_t value);
+
+  constexpr void __cordl_internal_set__tailIndex(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
 
   /// @brief Method get_DangerousCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_DangerousCount();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ConcurrentBag_1__WorkStealingQueue();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentBag_1__WorkStealingQueue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ConcurrentBag_1__WorkStealingQueue(__ConcurrentBag_1__WorkStealingQueue&&) = delete;
@@ -195,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ConcurrentBag_1__WorkStealingQueue(__ConcurrentBag_1__WorkStealingQueue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ConcurrentBag_1__WorkStealingQueue();
-
-public:
   /// @brief Field _headIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____headIndex;
 
@@ -247,12 +245,14 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7538))
 // CS Name: ::ConcurrentBag`1::Enumerator<T>*
 class CORDL_TYPE __ConcurrentBag_1__Enumerator : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Current)) T Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field _array, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
 
@@ -262,66 +262,68 @@ public:
   /// @brief Field _index, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  __declspec(property(get = get_Current)) T Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
-
-  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
-
-  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
-
-  constexpr T& __cordl_internal_get__current();
-
-  constexpr T const& __cordl_internal_get__current() const;
-
-  constexpr void __cordl_internal_set__current(T value);
-
-  constexpr int32_t& __cordl_internal_get__index();
-
-  constexpr int32_t const& __cordl_internal_get__index() const;
-
-  constexpr void __cordl_internal_set__index(int32_t value);
-
-  static inline ::System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>* New_ctor(::ArrayW<T, ::Array<T>*> array);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<T, ::Array<T>*> array);
-
-  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline T get_Current();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Reset();
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool MoveNext();
+
+  static inline ::System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>* New_ctor(::ArrayW<T, ::Array<T>*> array);
+
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
+
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
+
+  constexpr T const& __cordl_internal_get__current() const;
+
+  constexpr T& __cordl_internal_get__current();
+
+  constexpr int32_t const& __cordl_internal_get__index() const;
+
+  constexpr int32_t& __cordl_internal_get__index();
+
+  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
+
+  constexpr void __cordl_internal_set__current(T value);
+
+  constexpr void __cordl_internal_set__index(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<T, ::Array<T>*> array);
+
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline T get_Current();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ConcurrentBag_1__Enumerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentBag_1__Enumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ConcurrentBag_1__Enumerator(__ConcurrentBag_1__Enumerator&&) = delete;
@@ -330,12 +332,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ConcurrentBag_1__Enumerator(__ConcurrentBag_1__Enumerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ConcurrentBag_1__Enumerator();
-
-public:
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____array;
 
@@ -355,8 +351,6 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7539))
 // CS Name: ::System.Collections.Concurrent::ConcurrentBag`1<T>*
 class CORDL_TYPE ConcurrentBag_1 : public ::System::Object {
 public:
@@ -364,6 +358,19 @@ public:
   using Enumerator = ::System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>;
 
   using WorkStealingQueue = ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>;
+
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_DangerousCount)) int32_t DangerousCount;
+
+  __declspec(property(get = get_GlobalQueuesLock))::System::Object* GlobalQueuesLock;
+
+  __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
+
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+
+  /// @brief Field _emptyToNonEmptyListTransitionCount, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__emptyToNonEmptyListTransitionCount, put = __cordl_internal_set__emptyToNonEmptyListTransitionCount)) int64_t _emptyToNonEmptyListTransitionCount;
 
   /// @brief Field _locals, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__locals,
@@ -373,90 +380,67 @@ public:
   __declspec(property(get = __cordl_internal_get__workStealingQueues,
                       put = __cordl_internal_set__workStealingQueues))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _workStealingQueues;
 
-  /// @brief Field _emptyToNonEmptyListTransitionCount, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__emptyToNonEmptyListTransitionCount, put = __cordl_internal_set__emptyToNonEmptyListTransitionCount)) int64_t _emptyToNonEmptyListTransitionCount;
-
-  __declspec(property(get = get_Count)) int32_t Count;
-
-  __declspec(property(get = get_DangerousCount)) int32_t DangerousCount;
-
-  __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
-
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
-
-  __declspec(property(get = get_GlobalQueuesLock))::System::Object* GlobalQueuesLock;
-
   /// @brief Convert operator to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
   constexpr operator ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
-  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* i___System__Collections__Concurrent__IProducerConsumerCollection_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-  constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<T>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
-  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
-
-  constexpr ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*& __cordl_internal_get__locals();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*> const&
-  __cordl_internal_get__locals() const;
-
-  constexpr void __cordl_internal_set__locals(::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* value);
-
-  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __cordl_internal_get__workStealingQueues();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __cordl_internal_get__workStealingQueues() const;
-
-  constexpr void __cordl_internal_set__workStealingQueues(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
-
-  constexpr int64_t& __cordl_internal_get__emptyToNonEmptyListTransitionCount();
-
-  constexpr int64_t const& __cordl_internal_get__emptyToNonEmptyListTransitionCount() const;
-
-  constexpr void __cordl_internal_set__emptyToNonEmptyListTransitionCount(int64_t value);
-
-  static inline ::System::Collections::Concurrent::ConcurrentBag_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Convert operator to "::System::Collections::IEnumerable"
+  constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool System_Collections_Concurrent_IProducerConsumerCollection_T__TryAdd(T item);
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
 
-  /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryTake(ByRef<T> result);
+  /// @brief Method CopyFromEachQueueToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t CopyFromEachQueueToArray(::ArrayW<T, ::Array<T>*> array, int32_t index);
 
-  /// @brief Method GetCurrentThreadWorkStealingQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* GetCurrentThreadWorkStealingQueue(bool forceCreate);
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index);
 
   /// @brief Method CreateWorkStealingQueueForCurrentThread, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* CreateWorkStealingQueueForCurrentThread();
 
+  /// @brief Method FreezeBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void FreezeBag(ByRef<bool> lockTaken);
+
+  /// @brief Method GetCurrentThreadWorkStealingQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* GetCurrentThreadWorkStealingQueue(bool forceCreate);
+
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
+
   /// @brief Method GetUnownedWorkStealingQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* GetUnownedWorkStealingQueue();
+
+  static inline ::System::Collections::Concurrent::ConcurrentBag_1<T>* New_ctor();
+
+  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool System_Collections_Concurrent_IProducerConsumerCollection_T__TryAdd(T item);
+
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool System_Collections_ICollection_get_IsSynchronized();
+
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::ArrayW<T, ::Array<T>*> ToArray();
 
   /// @brief Method TrySteal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySteal(ByRef<T> result, bool take);
@@ -465,26 +449,33 @@ public:
   inline bool TryStealFromTo(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* startInclusive,
                              ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* endExclusive, ByRef<T> result, bool take);
 
-  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index);
+  /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool TryTake(ByRef<T> result);
 
-  /// @brief Method CopyFromEachQueueToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t CopyFromEachQueueToArray(::ArrayW<T, ::Array<T>*> array, int32_t index);
+  /// @brief Method UnfreezeBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UnfreezeBag(bool lockTaken);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+  constexpr int64_t const& __cordl_internal_get__emptyToNonEmptyListTransitionCount() const;
 
-  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::ArrayW<T, ::Array<T>*> ToArray();
+  constexpr int64_t& __cordl_internal_get__emptyToNonEmptyListTransitionCount();
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
+  constexpr ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*& __cordl_internal_get__locals();
 
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*> const&
+  __cordl_internal_get__locals() const;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __cordl_internal_get__workStealingQueues();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __cordl_internal_get__workStealingQueues() const;
+
+  constexpr void __cordl_internal_set__emptyToNonEmptyListTransitionCount(int64_t value);
+
+  constexpr void __cordl_internal_set__locals(::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* value);
+
+  constexpr void __cordl_internal_set__workStealingQueues(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
@@ -492,21 +483,30 @@ public:
   /// @brief Method get_DangerousCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_DangerousCount();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool System_Collections_ICollection_get_IsSynchronized();
-
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
-
   /// @brief Method get_GlobalQueuesLock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* get_GlobalQueuesLock();
 
-  /// @brief Method FreezeBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void FreezeBag(ByRef<bool> lockTaken);
+  /// @brief Convert to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
+  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* i___System__Collections__Concurrent__IProducerConsumerCollection_1_T_() noexcept;
 
-  /// @brief Method UnfreezeBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UnfreezeBag(bool lockTaken);
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
 
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConcurrentBag_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentBag_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConcurrentBag_1(ConcurrentBag_1&&) = delete;
@@ -515,12 +515,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConcurrentBag_1(ConcurrentBag_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConcurrentBag_1();
-
-public:
   /// @brief Field _locals, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* ____locals;
 

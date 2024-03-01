@@ -15,18 +15,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CompositorOptions);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9549))
 // CS Name: ::HoudiniEngineUnity::HAPI_CompositorOptions
 struct CORDL_TYPE HAPI_CompositorOptions {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "maximumResolutionX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maximumResolutionY", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_CompositorOptions(int32_t maximumResolutionX, int32_t maximumResolutionY) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_CompositorOptions();
+
+  // Ctor Parameters [CppParam { name: "maximumResolutionX", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maximumResolutionY", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_CompositorOptions(int32_t maximumResolutionX, int32_t maximumResolutionY) noexcept;
 
   /// @brief Field maximumResolutionX, offset: 0x0, size: 0x4, def value: None
   int32_t maximumResolutionX;

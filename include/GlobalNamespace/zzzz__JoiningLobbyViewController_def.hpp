@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::JoiningLobbyViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5017))
 // CS Name: ::JoiningLobbyViewController*
 class CORDL_TYPE JoiningLobbyViewController : public ::HMUI::ViewController {
 public:
@@ -42,53 +40,59 @@ public:
   /// @brief Field didCancelEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didCancelEvent, put = __cordl_internal_set_didCancelEvent))::System::Action* didCancelEvent;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelJoiningButton();
+  /// @brief Method DidActivate, addr 0x23cc120, size 0xc8, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+  /// @brief Method HideLoading, addr 0x23cc0e0, size 0x40, virtual false, abstract: false, final false
+  inline void HideLoading();
+
+  /// @brief Method Init, addr 0x23cc0ac, size 0x34, virtual false, abstract: false, final false
+  inline void Init(::StringW text);
+
+  static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
+
+  /// @brief Method <DidActivate>b__8_0, addr 0x23cc1f0, size 0x1c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelJoiningButton() const;
 
-  constexpr void __cordl_internal_set__cancelJoiningButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__loadingControl();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelJoiningButton();
 
   constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__loadingControl() const;
 
-  constexpr void __cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
-
-  constexpr ::StringW& __cordl_internal_get__text();
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__loadingControl();
 
   constexpr ::StringW const& __cordl_internal_get__text() const;
 
-  constexpr void __cordl_internal_set__text(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__text();
 
   constexpr ::System::Action*& __cordl_internal_get_didCancelEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didCancelEvent() const;
 
+  constexpr void __cordl_internal_set__cancelJoiningButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
+
+  constexpr void __cordl_internal_set__text(::StringW value);
+
   constexpr void __cordl_internal_set_didCancelEvent(::System::Action* value);
 
-  /// @brief Method add_didCancelEvent, addr 0x22fd2cc, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didCancelEvent(::System::Action* value);
-
-  /// @brief Method remove_didCancelEvent, addr 0x22fd368, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didCancelEvent(::System::Action* value);
-
-  /// @brief Method Init, addr 0x22fd404, size 0x34, virtual false, abstract: false, final false
-  inline void Init(::StringW text);
-
-  /// @brief Method HideLoading, addr 0x22fd438, size 0x40, virtual false, abstract: false, final false
-  inline void HideLoading();
-
-  /// @brief Method DidActivate, addr 0x22fd478, size 0xc8, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22fd540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cc1e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x22fd548, size 0x1c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__8_0();
+  /// @brief Method add_didCancelEvent, addr 0x23cbf74, size 0x9c, virtual false, abstract: false, final false
+  inline void add_didCancelEvent(::System::Action* value);
 
+  /// @brief Method remove_didCancelEvent, addr 0x23cc010, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_didCancelEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JoiningLobbyViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JoiningLobbyViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JoiningLobbyViewController(JoiningLobbyViewController&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JoiningLobbyViewController(JoiningLobbyViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JoiningLobbyViewController();
-
-public:
   /// @brief Field _cancelJoiningButton, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____cancelJoiningButton;
 

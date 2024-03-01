@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::System::Threading::ThreadStart);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2671))
 // CS Name: ::System.Threading::ThreadStart*
 class CORDL_TYPE ThreadStart : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Threading::ThreadStart* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2635044, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2635100, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x27047f4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
+  static inline ::System::Threading::ThreadStart* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2704738, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadStart();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadStart", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadStart(ThreadStart&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadStart(ThreadStart const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadStart();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::Org::BouncyCastle::Bcpg::RevocationKeyTag);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(543))
 // CS Name: ::Org.BouncyCastle.Bcpg::RevocationKeyTag
 struct CORDL_TYPE RevocationKeyTag {
 public:
@@ -34,24 +32,29 @@ public:
     return static_cast<__RevocationKeyTag_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr RevocationKeyTag(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<uint8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RevocationKeyTag();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr RevocationKeyTag(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   /// @brief Field ClassDefault value: static_cast<uint8_t>(0x80u)
   static ::Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassDefault;
 
   /// @brief Field ClassSensitive value: static_cast<uint8_t>(0x40u)
   static ::Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassSensitive;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

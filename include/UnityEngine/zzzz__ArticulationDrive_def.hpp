@@ -15,20 +15,18 @@ MARK_VAL_T(::UnityEngine::ArticulationDrive);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13909))
 // CS Name: ::UnityEngine::ArticulationDrive
 struct CORDL_TYPE ArticulationDrive {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArticulationDrive();
+
   // Ctor Parameters [CppParam { name: "lowerLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "upperLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "stiffness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damping", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "forceLimit", ty: "float_t", modifiers:
   // "", def_value: None }, CppParam { name: "target", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "targetVelocity", ty: "float_t", modifiers: "", def_value: None }]
   constexpr ArticulationDrive(float_t lowerLimit, float_t upperLimit, float_t stiffness, float_t damping, float_t forceLimit, float_t target, float_t targetVelocity) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArticulationDrive();
 
   /// @brief Field lowerLimit, offset: 0x0, size: 0x4, def value: None
   float_t lowerLimit;

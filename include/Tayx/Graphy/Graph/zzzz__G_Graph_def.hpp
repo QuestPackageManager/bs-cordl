@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::Tayx::Graphy::Graph::G_Graph);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Graph {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14953))
 // CS Name: ::Tayx.Graphy.Graph::G_Graph*
 class CORDL_TYPE G_Graph : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method UpdateGraph, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void UpdateGraph();
-
   /// @brief Method CreatePoints, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CreatePoints();
 
   static inline ::Tayx::Graphy::Graph::G_Graph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0ca20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void UpdateGraph();
+
+  /// @brief Method .ctor, addr 0x2af4af4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_Graph();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_Graph", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_Graph(G_Graph&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_Graph(G_Graph const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_Graph();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

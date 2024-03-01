@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::SharedStatics);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2569))
 // CS Name: ::System::SharedStatics*
 class CORDL_TYPE SharedStatics : public ::System::Object {
 public:
@@ -30,27 +28,33 @@ public:
   /// @brief Field _sharedStatics, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__sharedStatics, put = setStaticF__sharedStatics))::System::SharedStatics* _sharedStatics;
 
+  /// @brief Method GetSharedStringMaker, addr 0x26e4ec4, size 0x1d0, virtual false, abstract: false, final false
+  static inline ::System::Security::Util::__Tokenizer__StringMaker* GetSharedStringMaker();
+
+  static inline ::System::SharedStatics* New_ctor();
+
+  /// @brief Method ReleaseSharedStringMaker, addr 0x26e5094, size 0x150, virtual false, abstract: false, final false
+  static inline void ReleaseSharedStringMaker(ByRef<::System::Security::Util::__Tokenizer__StringMaker*> maker);
+
   constexpr ::System::Security::Util::__Tokenizer__StringMaker*& __cordl_internal_get__maker();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::__Tokenizer__StringMaker*> const& __cordl_internal_get__maker() const;
 
   constexpr void __cordl_internal_set__maker(::System::Security::Util::__Tokenizer__StringMaker* value);
 
-  static inline void setStaticF__sharedStatics(::System::SharedStatics* value);
+  /// @brief Method .ctor, addr 0x26e4ebc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::SharedStatics* getStaticF__sharedStatics();
 
-  static inline ::System::SharedStatics* New_ctor();
+  static inline void setStaticF__sharedStatics(::System::SharedStatics* value);
 
-  /// @brief Method .ctor, addr 0x26157d8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SharedStatics();
 
-  /// @brief Method GetSharedStringMaker, addr 0x26157e0, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::System::Security::Util::__Tokenizer__StringMaker* GetSharedStringMaker();
-
-  /// @brief Method ReleaseSharedStringMaker, addr 0x26159b0, size 0x150, virtual false, abstract: false, final false
-  static inline void ReleaseSharedStringMaker(ByRef<::System::Security::Util::__Tokenizer__StringMaker*> maker);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SharedStatics(SharedStatics&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SharedStatics(SharedStatics const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SharedStatics();
-
-public:
   /// @brief Field _maker, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Util::__Tokenizer__StringMaker* ____maker;
 

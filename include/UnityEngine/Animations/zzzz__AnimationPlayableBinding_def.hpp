@@ -27,18 +27,22 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableBinding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14778))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableBinding*
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2c95fc0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2d80094, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAnimationOutput, addr 0x2c960fc, size 0x1040, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationOutput, addr 0x2d801d0, size 0x1040, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimationPlayableBinding();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableBinding(AnimationPlayableBinding&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationPlayableBinding(AnimationPlayableBinding const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationPlayableBinding();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

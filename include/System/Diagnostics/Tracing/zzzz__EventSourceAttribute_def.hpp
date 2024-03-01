@@ -15,45 +15,49 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventSourceAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3746))
 // CS Name: ::System.Diagnostics.Tracing::EventSourceAttribute*
 class CORDL_TYPE EventSourceAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(put = set_Guid))::StringW Guid;
+
+  __declspec(property(put = set_Name))::StringW Name;
+
   /// @brief Field <Guid>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Guid_k__BackingField, put = __cordl_internal_set__Guid_k__BackingField))::StringW _Guid_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
-  __declspec(property(put = set_Guid))::StringW Guid;
-
-  __declspec(property(put = set_Name))::StringW Name;
-
-  constexpr ::StringW& __cordl_internal_get__Guid_k__BackingField();
+  static inline ::System::Diagnostics::Tracing::EventSourceAttribute* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__Guid_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Guid_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Guid_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+
+  constexpr void __cordl_internal_set__Guid_k__BackingField(::StringW value);
+
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method set_Guid, addr 0x259ee0c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Guid(::StringW value);
-
-  /// @brief Method set_Name, addr 0x259ee14, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
-
-  static inline ::System::Diagnostics::Tracing::EventSourceAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x259ee1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266f500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_Guid, addr 0x266f4f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_Guid(::StringW value);
+
+  /// @brief Method set_Name, addr 0x266f4f8, size 0x8, virtual false, abstract: false, final false
+  inline void set_Name(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventSourceAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventSourceAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventSourceAttribute(EventSourceAttribute&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventSourceAttribute(EventSourceAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventSourceAttribute();
-
-public:
   /// @brief Field <Guid>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Guid_k__BackingField;
 

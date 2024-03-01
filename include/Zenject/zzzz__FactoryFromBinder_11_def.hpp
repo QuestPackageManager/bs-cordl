@@ -98,8 +98,6 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9874))
 // CS Name: ::FactoryFromBinder`11::<>c__DisplayClass1_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
 class CORDL_TYPE __FactoryFromBinder_11____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -109,6 +107,11 @@ public:
       get = __cordl_internal_get_method,
       put = __cordl_internal_set_method))::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* method;
 
+  static inline ::Zenject::__FactoryFromBinder_11____c__DisplayClass1_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* New_ctor();
+
+  /// @brief Method <FromMethod>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::IProvider* _FromMethod_b__0(::Zenject::DiContainer* container);
+
   constexpr ::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*& __cordl_internal_get_method();
 
   constexpr ::cordl_internals::to_const_pointer<
@@ -117,20 +120,21 @@ public:
 
   constexpr void __cordl_internal_set_method(::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* value);
 
-  static inline ::Zenject::__FactoryFromBinder_11____c__DisplayClass1_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <FromMethod>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::IProvider* _FromMethod_b__0(::Zenject::DiContainer* container);
-
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FactoryFromBinder_11____c__DisplayClass1_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_11____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FactoryFromBinder_11____c__DisplayClass1_0(__FactoryFromBinder_11____c__DisplayClass1_0&&) = delete;
@@ -139,12 +143,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FactoryFromBinder_11____c__DisplayClass1_0(__FactoryFromBinder_11____c__DisplayClass1_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FactoryFromBinder_11____c__DisplayClass1_0();
-
-public:
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* ___method;
 
@@ -159,8 +157,6 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract, typename TSubFactory>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9875))
 // CS Name: ::FactoryFromBinder`11::<>c__2`1<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract,TSubFactory>*
 class CORDL_TYPE __FactoryFromBinder_11____c__2_1 : public ::System::Object {
 public:
@@ -174,21 +170,7 @@ public:
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Action_1<
       ::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>*>* __9__2_0;
 
-  static inline void
-  setStaticF___9(::Zenject::__FactoryFromBinder_11____c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract, TSubFactory>* value);
-
-  static inline ::Zenject::__FactoryFromBinder_11____c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract, TSubFactory>* getStaticF___9();
-
-  static inline void setStaticF___9__2_0(
-      ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>*>* value);
-
-  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>*>*
-  getStaticF___9__2_0();
-
   static inline ::Zenject::__FactoryFromBinder_11____c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract, TSubFactory>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <FromFactory>b__2_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromFactory_b__2_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>* x);
@@ -199,6 +181,26 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Zenject::__FactoryFromBinder_11____c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract, TSubFactory>* getStaticF___9();
+
+  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>*>*
+  getStaticF___9__2_0();
+
+  static inline void
+  setStaticF___9(::Zenject::__FactoryFromBinder_11____c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract, TSubFactory>* value);
+
+  static inline void setStaticF___9__2_0(
+      ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FactoryFromBinder_11____c__2_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_11____c__2_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FactoryFromBinder_11____c__2_1(__FactoryFromBinder_11____c__2_1&&) = delete;
@@ -207,12 +209,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FactoryFromBinder_11____c__2_1(__FactoryFromBinder_11____c__2_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FactoryFromBinder_11____c__2_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -224,8 +220,6 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9876))
 // CS Name: ::FactoryFromBinder`11::<>c__DisplayClass3_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
 class CORDL_TYPE __FactoryFromBinder_11____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -233,19 +227,16 @@ public:
   /// @brief Field factoryId, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_factoryId, put = __cordl_internal_set_factoryId))::System::Guid factoryId;
 
-  constexpr ::System::Guid& __cordl_internal_get_factoryId();
-
-  constexpr ::System::Guid const& __cordl_internal_get_factoryId() const;
-
-  constexpr void __cordl_internal_set_factoryId(::System::Guid value);
-
   static inline ::Zenject::__FactoryFromBinder_11____c__DisplayClass3_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <FromIFactory>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromIFactory_b__0(::Zenject::DiContainer* container);
+
+  constexpr ::System::Guid const& __cordl_internal_get_factoryId() const;
+
+  constexpr ::System::Guid& __cordl_internal_get_factoryId();
+
+  constexpr void __cordl_internal_set_factoryId(::System::Guid value);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -253,6 +244,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FactoryFromBinder_11____c__DisplayClass3_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_11____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FactoryFromBinder_11____c__DisplayClass3_0(__FactoryFromBinder_11____c__DisplayClass3_0&&) = delete;
@@ -261,12 +261,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FactoryFromBinder_11____c__DisplayClass3_0(__FactoryFromBinder_11____c__DisplayClass3_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FactoryFromBinder_11____c__DisplayClass3_0();
-
-public:
   /// @brief Field factoryId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___factoryId;
 
@@ -281,28 +275,16 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9988))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9877))
 // CS Name: ::Zenject::FactoryFromBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
 class CORDL_TYPE FactoryFromBinder_11 : public ::Zenject::FactoryFromBinderBase {
 public:
   // Declarations
-  using __c__DisplayClass3_0 = ::Zenject::__FactoryFromBinder_11____c__DisplayClass3_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>;
-
   template <typename TSubFactory>
   using __c__2_1 = ::Zenject::__FactoryFromBinder_11____c__2_1<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract, TSubFactory>;
 
   using __c__DisplayClass1_0 = ::Zenject::__FactoryFromBinder_11____c__DisplayClass1_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>;
 
-  static inline ::Zenject::FactoryFromBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*
-  New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
-
-  /// @brief Method FromMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::ConditionCopyNonLazyBinder*
-  FromMethod(::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* method);
+  using __c__DisplayClass3_0 = ::Zenject::__FactoryFromBinder_11____c__DisplayClass3_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>;
 
   /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSubFactory> inline ::Zenject::ConditionCopyNonLazyBinder* FromFactory();
@@ -312,6 +294,10 @@ public:
   FromIFactory(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*>*>*
                    factoryBindGenerator);
 
+  /// @brief Method FromMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::ConditionCopyNonLazyBinder*
+  FromMethod(::System::Func_12<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* method);
+
   /// @brief Method FromSubContainerResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactorySubContainerBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* FromSubContainerResolve();
 
@@ -319,6 +305,18 @@ public:
   inline ::Zenject::FactorySubContainerBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*
   FromSubContainerResolve(::System::Object* subIdentifier);
 
+  static inline ::Zenject::FactoryFromBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*
+  New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FactoryFromBinder_11();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_11", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FactoryFromBinder_11(FactoryFromBinder_11&&) = delete;
@@ -327,12 +325,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FactoryFromBinder_11(FactoryFromBinder_11 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FactoryFromBinder_11();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

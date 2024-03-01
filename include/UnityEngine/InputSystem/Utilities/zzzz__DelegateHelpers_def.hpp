@@ -34,13 +34,11 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DelegateHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5923))
 // CS Name: ::UnityEngine.InputSystem.Utilities::DelegateHelpers*
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x2b0f27c, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacksSafe, addr 0x2bf5350, size 0x2bc, virtual false, abstract: false, final false
   static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -58,6 +56,12 @@ public:
   static inline bool InvokeCallbacksSafe_AnyCallbackReturnsTrue(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1, TValue2, bool>*>> callbacks, TValue1 argument1,
                                                                 TValue2 argument2, ::StringW callbackName, ::System::Object* context);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DelegateHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DelegateHelpers(DelegateHelpers&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DelegateHelpers(DelegateHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DelegateHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

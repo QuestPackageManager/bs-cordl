@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::BcpgOutputStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(555))
 // CS Name: ::Org.BouncyCastle.Bcpg::BcpgOutputStream*
 class CORDL_TYPE BcpgOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
@@ -43,121 +41,127 @@ public:
   /// @brief Field partialBufferLength, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_partialBufferLength, put = __cordl_internal_set_partialBufferLength)) int32_t partialBufferLength;
 
+  /// @brief Field partialOffset, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_partialOffset, put = __cordl_internal_set_partialOffset)) int32_t partialOffset;
+
   /// @brief Field partialPower, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_partialPower, put = __cordl_internal_set_partialPower)) int32_t partialPower;
 
-  /// @brief Field partialOffset, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_partialOffset, put = __cordl_internal_set_partialOffset)) int32_t partialOffset;
+  /// @brief Method Close, addr 0x12411d8, size 0x8c, virtual true, abstract: false, final false
+  inline void Close();
+
+  /// @brief Method Finish, addr 0x1241198, size 0x40, virtual false, abstract: false, final false
+  inline void Finish();
+
+  /// @brief Method Flush, addr 0x1241174, size 0x24, virtual true, abstract: false, final false
+  inline void Flush();
+
+  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr);
+
+  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag);
+
+  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
+
+  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length);
+
+  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat);
+
+  /// @brief Method PartialFlush, addr 0x1240c20, size 0x80, virtual false, abstract: false, final false
+  inline void PartialFlush(bool isLast);
+
+  /// @brief Method Wrap, addr 0x12405b8, size 0x90, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* Wrap(::System::IO::Stream* outStr);
+
+  /// @brief Method Write, addr 0x1240e28, size 0x34, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method WriteByte, addr 0x1240df4, size 0x34, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t value);
+
+  /// @brief Method WriteHeader, addr 0x12406d8, size 0x174, virtual false, abstract: false, final false
+  inline void WriteHeader(::Org::BouncyCastle::Bcpg::PacketTag tag, bool oldPackets, bool partial, int64_t bodyLen);
+
+  /// @brief Method WriteInt, addr 0x1240ef0, size 0xb4, virtual true, abstract: false, final false
+  inline void WriteInt(int32_t n);
+
+  /// @brief Method WriteLong, addr 0x1240fa4, size 0xf4, virtual true, abstract: false, final false
+  inline void WriteLong(int64_t n);
+
+  /// @brief Method WriteNewPacketLength, addr 0x1240b40, size 0xe0, virtual false, abstract: false, final false
+  inline void WriteNewPacketLength(int64_t bodyLen);
+
+  /// @brief Method WriteObject, addr 0x1240588, size 0x28, virtual false, abstract: false, final false
+  inline void WriteObject(::Org::BouncyCastle::Bcpg::BcpgObject* bcpgObject);
+
+  /// @brief Method WriteObjects, addr 0x1241108, size 0x6c, virtual false, abstract: false, final false
+  inline void WriteObjects(::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*, ::Array<::Org::BouncyCastle::Bcpg::BcpgObject*>*> v);
+
+  /// @brief Method WritePacket, addr 0x1241098, size 0x28, virtual false, abstract: false, final false
+  inline void WritePacket(::Org::BouncyCastle::Bcpg::ContainedPacket* p);
+
+  /// @brief Method WritePacket, addr 0x12410c0, size 0x48, virtual false, abstract: false, final false
+  inline void WritePacket(::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> body, bool oldFormat);
+
+  /// @brief Method WritePartial, addr 0x1240ca0, size 0x68, virtual false, abstract: false, final false
+  inline void WritePartial(uint8_t b);
+
+  /// @brief Method WritePartial, addr 0x1240d08, size 0xec, virtual false, abstract: false, final false
+  inline void WritePartial(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t off, int32_t len);
+
+  /// @brief Method WriteShort, addr 0x1240e5c, size 0x94, virtual true, abstract: false, final false
+  inline void WriteShort(int16_t n);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_outStr();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_outStr() const;
 
-  constexpr void __cordl_internal_set_outStr(::System::IO::Stream* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_partialBuffer() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_partialBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_partialBuffer() const;
-
-  constexpr void __cordl_internal_set_partialBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr int32_t const& __cordl_internal_get_partialBufferLength() const;
 
   constexpr int32_t& __cordl_internal_get_partialBufferLength();
 
-  constexpr int32_t const& __cordl_internal_get_partialBufferLength() const;
-
-  constexpr void __cordl_internal_set_partialBufferLength(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_partialPower();
-
-  constexpr int32_t const& __cordl_internal_get_partialPower() const;
-
-  constexpr void __cordl_internal_set_partialPower(int32_t value);
+  constexpr int32_t const& __cordl_internal_get_partialOffset() const;
 
   constexpr int32_t& __cordl_internal_get_partialOffset();
 
-  constexpr int32_t const& __cordl_internal_get_partialOffset() const;
+  constexpr int32_t const& __cordl_internal_get_partialPower() const;
+
+  constexpr int32_t& __cordl_internal_get_partialPower();
+
+  constexpr void __cordl_internal_set_outStr(::System::IO::Stream* value);
+
+  constexpr void __cordl_internal_set_partialBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_partialBufferLength(int32_t value);
 
   constexpr void __cordl_internal_set_partialOffset(int32_t value);
 
-  /// @brief Method Wrap, addr 0x11fd5e8, size 0x90, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* Wrap(::System::IO::Stream* outStr);
+  constexpr void __cordl_internal_set_partialPower(int32_t value);
 
-  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr);
-
-  /// @brief Method .ctor, addr 0x11fd540, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1240510, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStr);
 
-  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag);
-
-  /// @brief Method .ctor, addr 0x11fd678, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1240648, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag);
 
-  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat);
-
-  /// @brief Method .ctor, addr 0x11fd87c, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat);
-
-  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length);
-
-  /// @brief Method .ctor, addr 0x11fd9ac, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length);
-
-  static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* New_ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
-
-  /// @brief Method .ctor, addr 0x11fda48, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1240a18, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method WriteNewPacketLength, addr 0x11fdb70, size 0xe0, virtual false, abstract: false, final false
-  inline void WriteNewPacketLength(int64_t bodyLen);
+  /// @brief Method .ctor, addr 0x124097c, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length);
 
-  /// @brief Method WriteHeader, addr 0x11fd708, size 0x174, virtual false, abstract: false, final false
-  inline void WriteHeader(::Org::BouncyCastle::Bcpg::PacketTag tag, bool oldPackets, bool partial, int64_t bodyLen);
+  /// @brief Method .ctor, addr 0x124084c, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat);
 
-  /// @brief Method PartialFlush, addr 0x11fdc50, size 0x80, virtual false, abstract: false, final false
-  inline void PartialFlush(bool isLast);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BcpgOutputStream();
 
-  /// @brief Method WritePartial, addr 0x11fdcd0, size 0x68, virtual false, abstract: false, final false
-  inline void WritePartial(uint8_t b);
-
-  /// @brief Method WritePartial, addr 0x11fdd38, size 0xec, virtual false, abstract: false, final false
-  inline void WritePartial(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t off, int32_t len);
-
-  /// @brief Method WriteByte, addr 0x11fde24, size 0x34, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t value);
-
-  /// @brief Method Write, addr 0x11fde58, size 0x34, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method WriteShort, addr 0x11fde8c, size 0x94, virtual true, abstract: false, final false
-  inline void WriteShort(int16_t n);
-
-  /// @brief Method WriteInt, addr 0x11fdf20, size 0xb4, virtual true, abstract: false, final false
-  inline void WriteInt(int32_t n);
-
-  /// @brief Method WriteLong, addr 0x11fdfd4, size 0xf4, virtual true, abstract: false, final false
-  inline void WriteLong(int64_t n);
-
-  /// @brief Method WritePacket, addr 0x11fe0c8, size 0x28, virtual false, abstract: false, final false
-  inline void WritePacket(::Org::BouncyCastle::Bcpg::ContainedPacket* p);
-
-  /// @brief Method WritePacket, addr 0x11fe0f0, size 0x48, virtual false, abstract: false, final false
-  inline void WritePacket(::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> body, bool oldFormat);
-
-  /// @brief Method WriteObject, addr 0x11fd5b8, size 0x28, virtual false, abstract: false, final false
-  inline void WriteObject(::Org::BouncyCastle::Bcpg::BcpgObject* bcpgObject);
-
-  /// @brief Method WriteObjects, addr 0x11fe138, size 0x6c, virtual false, abstract: false, final false
-  inline void WriteObjects(::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject*, ::Array<::Org::BouncyCastle::Bcpg::BcpgObject*>*> v);
-
-  /// @brief Method Flush, addr 0x11fe1a4, size 0x24, virtual true, abstract: false, final false
-  inline void Flush();
-
-  /// @brief Method Finish, addr 0x11fe1c8, size 0x40, virtual false, abstract: false, final false
-  inline void Finish();
-
-  /// @brief Method Close, addr 0x11fe208, size 0x8c, virtual true, abstract: false, final false
-  inline void Close();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BcpgOutputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BcpgOutputStream(BcpgOutputStream&&) = delete;
@@ -166,12 +170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BcpgOutputStream(BcpgOutputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BcpgOutputStream();
-
-public:
   /// @brief Field outStr, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ___outStr;
 

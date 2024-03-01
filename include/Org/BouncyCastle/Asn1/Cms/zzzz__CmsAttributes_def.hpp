@@ -17,14 +17,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CmsAttributes);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(62))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::CmsAttributes*
 class CORDL_TYPE CmsAttributes : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field ContentHint, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ContentHint, put = setStaticF_ContentHint))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentHint;
+
   /// @brief Field ContentType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ContentType, put = setStaticF_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
+
+  /// @brief Field CounterSignature, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_CounterSignature, put = setStaticF_CounterSignature))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CounterSignature;
 
   /// @brief Field MessageDigest, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MessageDigest, put = setStaticF_MessageDigest))::Org::BouncyCastle::Asn1::DerObjectIdentifier* MessageDigest;
@@ -32,37 +36,37 @@ public:
   /// @brief Field SigningTime, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SigningTime, put = setStaticF_SigningTime))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SigningTime;
 
-  /// @brief Field CounterSignature, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CounterSignature, put = setStaticF_CounterSignature))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CounterSignature;
+  static inline ::Org::BouncyCastle::Asn1::Cms::CmsAttributes* New_ctor();
 
-  /// @brief Field ContentHint, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ContentHint, put = setStaticF_ContentHint))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentHint;
-
-  static inline void setStaticF_ContentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ContentType();
-
-  static inline void setStaticF_MessageDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_MessageDigest();
-
-  static inline void setStaticF_SigningTime(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_SigningTime();
-
-  static inline void setStaticF_CounterSignature(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CounterSignature();
-
-  static inline void setStaticF_ContentHint(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Method .ctor, addr 0xee73f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ContentHint();
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::CmsAttributes* New_ctor();
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ContentType();
 
-  /// @brief Method .ctor, addr 0xea0420, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CounterSignature();
 
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_MessageDigest();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_SigningTime();
+
+  static inline void setStaticF_ContentHint(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_ContentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_CounterSignature(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_MessageDigest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_SigningTime(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsAttributes();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsAttributes", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsAttributes(CmsAttributes&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsAttributes(CmsAttributes const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsAttributes();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

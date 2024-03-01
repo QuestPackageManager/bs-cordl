@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::*)(::System::Object*, void*)>(
     &::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x1321b38;
+  constexpr static std::size_t addrs = 0x1363b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13233a4;
+  constexpr static std::size_t addrs = 0x1365390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::*)(::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*, ::System::AsyncCallback*,
                                                                         ::System::Object*)>(&::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x13233b8;
+  constexpr static std::size_t addrs = 0x13653a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::*)(::System::IAsyncResult*)>(
     &::RootMotion::FinalIK::__InteractionSystem__InteractionDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1323448;
+  constexpr static std::size_t addrs = 0x1365434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate::*)(::System::Object*, void*)>(
     &::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x1323454;
+  constexpr static std::size_t addrs = 0x1365440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*, ::RootMotion::FinalIK::__InteractionObject__InteractionEvent*)>(
     &::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x1323518;
+  constexpr static std::size_t addrs = 0x1365504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                              ::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::System::AsyncCallback*, ::System::Object*)>(
     &::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x132352c;
+  constexpr static std::size_t addrs = 0x1365518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate::*)(::System::IAsyncResult*)>(
     &::RootMotion::FinalIK::__InteractionSystem__InteractionEventDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13235c4;
+  constexpr static std::size_t addrs = 0x13655b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131f958;
+  constexpr static std::size_t addrs = 0x1361944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131f99c;
+  constexpr static std::size_t addrs = 0x1361988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OpenTutorial1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131f9e0;
+  constexpr static std::size_t addrs = 0x13619cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OpenTutorial2)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131fa24;
+  constexpr static std::size_t addrs = 0x1361a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OpenTutorial3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131fa68;
+  constexpr static std::size_t addrs = 0x1361a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OpenTutorial4)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131faac;
+  constexpr static std::size_t addrs = 0x1361a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131faf0;
+  constexpr static std::size_t addrs = 0x1361adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "SupportGroup",
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x131fb34;
+  constexpr static std::size_t addrs = 0x1361b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "ASThread",
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::get_inInteraction)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x131fb78;
+  constexpr static std::size_t addrs = 0x1361b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(
     &::RootMotion::FinalIK::InteractionSystem::IsInInteraction)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x131fcf0;
+  constexpr static std::size_t addrs = 0x1361cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(
     &::RootMotion::FinalIK::InteractionSystem::IsPaused)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x131fda8;
+  constexpr static std::size_t addrs = 0x1361d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::IsPaused)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x131fe60;
+  constexpr static std::size_t addrs = 0x1361e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "IsPaused",
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::IsInSync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x131fef8;
+  constexpr static std::size_t addrs = 0x1361ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "IsInSync",
@@ -394,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*, bool)>(&::RootMotion::FinalIK::InteractionSystem::StartInteraction)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x131ffdc;
+  constexpr static std::size_t addrs = 0x1361fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(
     &::RootMotion::FinalIK::InteractionSystem::PauseInteraction)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x13200d4;
+  constexpr static std::size_t addrs = 0x13620c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(
     &::RootMotion::FinalIK::InteractionSystem::ResumeInteraction)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x1320158;
+  constexpr static std::size_t addrs = 0x1362144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -441,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(
     &::RootMotion::FinalIK::InteractionSystem::StopInteraction)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x13201dc;
+  constexpr static std::size_t addrs = 0x13621c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::PauseAll)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1320260;
+  constexpr static std::size_t addrs = 0x136224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "PauseAll",
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::ResumeAll)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13202c8;
+  constexpr static std::size_t addrs = 0x13622b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "ResumeAll",
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::StopAll)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1320330;
+  constexpr static std::size_t addrs = 0x136231c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "StopAll",
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::RootMotion::FinalIK::InteractionObject> (::RootMotion::FinalIK::InteractionSystem::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector)>(&::RootMotion::FinalIK::InteractionSystem::GetInteractionObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x132038c;
+  constexpr static std::size_t addrs = 0x1362378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedEffector)>(
     &::RootMotion::FinalIK::InteractionSystem::GetProgress)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x132040c;
+  constexpr static std::size_t addrs = 0x13623f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::GetMinActiveProgress)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x13204b4;
+  constexpr static std::size_t addrs = 0x13624a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(int32_t, bool)>(
     &::RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x1320584;
+  constexpr static std::size_t addrs = 0x1362570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(int32_t, bool, ByRef<::RootMotion::FinalIK::InteractionObject*>)>(
     &::RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x1320814;
+  constexpr static std::size_t addrs = 0x1362800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(int32_t, bool, ByRef<::RootMotion::FinalIK::InteractionTarget*>)>(
     &::RootMotion::FinalIK::InteractionSystem::TriggerInteraction)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x13209d0;
+  constexpr static std::size_t addrs = 0x13629bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::__InteractionTrigger__Range* (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::GetClosestInteractionRange)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x1320c38;
+  constexpr static std::size_t addrs = 0x1362c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::RootMotion::FinalIK::InteractionObject> (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectInRange)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x1320ec4;
+  constexpr static std::size_t addrs = 0x1362eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::RootMotion::FinalIK::InteractionTarget> (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetInRange)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1320efc;
+  constexpr static std::size_t addrs = 0x1362ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -631,7 +631,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionObject>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionObject>>*> (::RootMotion::FinalIK::InteractionSystem::*)()>(
         &::RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x1320f5c;
+  constexpr static std::size_t addrs = 0x1362f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> (::RootMotion::FinalIK::InteractionSystem::*)()>(
         &::RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x1321064;
+  constexpr static std::size_t addrs = 0x1363050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -662,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(int32_t)>(
     &::RootMotion::FinalIK::InteractionSystem::TriggerEffectorsReady)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x1321244;
+  constexpr static std::size_t addrs = 0x1363230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::__InteractionTrigger__Range* (::RootMotion::FinalIK::InteractionSystem::*)(int32_t)>(
     &::RootMotion::FinalIK::InteractionSystem::GetTriggerRange)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x13214b8;
+  constexpr static std::size_t addrs = 0x13634a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -692,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::GetClosestTriggerIndex)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x1320d20;
+  constexpr static std::size_t addrs = 0x1362d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -706,7 +706,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::get_ik)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13215d8;
+  constexpr static std::size_t addrs = 0x13635c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "get_ik",
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(::RootMotion::FinalIK::FullBodyBipedIK*)>(
     &::RootMotion::FinalIK::InteractionSystem::set_ik)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13215e0;
+  constexpr static std::size_t addrs = 0x13635cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>* (
     ::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::get_triggersInRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13215e8;
+  constexpr static std::size_t addrs = 0x13635d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(
     ::System::Collections::Generic::List_1<::UnityW<::RootMotion::FinalIK::InteractionTrigger>>*)>(&::RootMotion::FinalIK::InteractionSystem::set_triggersInRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13215f0;
+  constexpr static std::size_t addrs = 0x13635dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -764,7 +764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::Start)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x13215f8;
+  constexpr static std::size_t addrs = 0x13635e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "Start",
@@ -778,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&::RootMotion::FinalIK::InteractionSystem::InteractionPause)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x1321e44;
+  constexpr static std::size_t addrs = 0x1363e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&::RootMotion::FinalIK::InteractionSystem::InteractionResume)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1321e64;
+  constexpr static std::size_t addrs = 0x1363e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -810,7 +810,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&::RootMotion::FinalIK::InteractionSystem::InteractionStop)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1321e80;
+  constexpr static std::size_t addrs = 0x1363e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -826,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(
     ::RootMotion::FinalIK::FullBodyBipedEffector, ::RootMotion::FinalIK::InteractionObject*)>(&::RootMotion::FinalIK::InteractionSystem::LookAtInteraction)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1321e9c;
+  constexpr static std::size_t addrs = 0x1363e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -842,7 +842,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(::UnityEngine::Collider*)>(
     &::RootMotion::FinalIK::InteractionSystem::OnTriggerEnter)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x1321ef0;
+  constexpr static std::size_t addrs = 0x1363edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -857,7 +857,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)(::UnityEngine::Collider*)>(
     &::RootMotion::FinalIK::InteractionSystem::OnTriggerExit)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x132205c;
+  constexpr static std::size_t addrs = 0x1364048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -872,7 +872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(int32_t, ByRef<int32_t>)>(
     &::RootMotion::FinalIK::InteractionSystem::ContactIsInRange)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x1322158;
+  constexpr static std::size_t addrs = 0x1364144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -887,7 +887,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x13224b4;
+  constexpr static std::size_t addrs = 0x13644a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -900,7 +900,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::Update)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x1322598;
+  constexpr static std::size_t addrs = 0x1364584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "Update",
@@ -913,7 +913,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::Raycasting)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x132287c;
+  constexpr static std::size_t addrs = 0x1364868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "Raycasting",
@@ -927,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(
     &::RootMotion::FinalIK::InteractionSystem::UpdateTriggerEventBroadcasting)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x1321bfc;
+  constexpr static std::size_t addrs = 0x1363be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -940,7 +940,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::UpdateEffectors)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x13229ac;
+  constexpr static std::size_t addrs = 0x1364998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -953,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OnPreFBBIK)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1322ab8;
+  constexpr static std::size_t addrs = 0x1364aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "OnPreFBBIK",
@@ -966,7 +966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OnPostFBBIK)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x1322b40;
+  constexpr static std::size_t addrs = 0x1364b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "OnPostFBBIK",
@@ -979,7 +979,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OnFixTransforms)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1322c00;
+  constexpr static std::size_t addrs = 0x1364bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(),
@@ -992,7 +992,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::OnDestroy)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x1322c18;
+  constexpr static std::size_t addrs = 0x1364c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), "OnDestroy",
@@ -1005,7 +1005,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(bool)>(&::RootMotion::FinalIK::InteractionSystem::IsValid)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x131fc10;
+  constexpr static std::size_t addrs = 0x1361bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1020,7 +1020,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::InteractionSystem::*)(int32_t)>(
     &::RootMotion::FinalIK::InteractionSystem::TriggerIndexIsValid)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x1320700;
+  constexpr static std::size_t addrs = 0x13626ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1034,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::InteractionSystem::*)()>(&::RootMotion::FinalIK::InteractionSystem::_ctor)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x1323000;
+  constexpr static std::size_t addrs = 0x1364fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::InteractionSystem*>::get(), ".ctor",

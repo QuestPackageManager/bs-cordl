@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::FadeOutInstantly);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15399))
 // CS Name: ::FadeOutInstantly*
 class CORDL_TYPE FadeOutInstantly : public ::UnityEngine::MonoBehaviour {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _fadeInOut, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
 
-  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOut();
+  static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
+
+  /// @brief Method Start, addr 0x28f04a4, size 0x1c, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
 
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOut();
+
   constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  /// @brief Method Start, addr 0x280c028, size 0x1c, virtual false, abstract: false, final false
-  inline void Start();
-
-  static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
-
-  /// @brief Method .ctor, addr 0x280c044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f04c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FadeOutInstantly();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FadeOutInstantly", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FadeOutInstantly(FadeOutInstantly&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FadeOutInstantly(FadeOutInstantly const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FadeOutInstantly();
-
-public:
   /// @brief Field _fadeInOut, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
 

@@ -23,46 +23,50 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelReturnToMenuController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4436))
 // CS Name: ::StandardLevelReturnToMenuController*
 class CORDL_TYPE StandardLevelReturnToMenuController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _standardLevelSceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
-                      put = __cordl_internal_set__standardLevelSceneSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelSceneSetupData;
-
   /// @brief Field _prepareLevelCompletionResults, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults,
                       put = __cordl_internal_set__prepareLevelCompletionResults))::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> _prepareLevelCompletionResults;
 
+  /// @brief Field _standardLevelSceneSetupData, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
+                      put = __cordl_internal_set__standardLevelSceneSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelSceneSetupData;
+
   /// @brief Convert operator to "::GlobalNamespace::IReturnToMenuController"
   constexpr operator ::GlobalNamespace::IReturnToMenuController*() noexcept;
+
+  static inline ::GlobalNamespace::StandardLevelReturnToMenuController* New_ctor();
+
+  /// @brief Method ReturnToMenu, addr 0x2456820, size 0x40, virtual true, abstract: false, final true
+  inline void ReturnToMenu();
+
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
+
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelSceneSetupData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelSceneSetupData();
+
+  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
+
+  constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
+
+  /// @brief Method .ctor, addr 0x2456860, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
   constexpr ::GlobalNamespace::IReturnToMenuController* i___GlobalNamespace__IReturnToMenuController() noexcept;
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelSceneSetupData();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardLevelReturnToMenuController();
 
-  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelSceneSetupData() const;
-
-  constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
-
-  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
-
-  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
-
-  /// @brief Method ReturnToMenu, addr 0x23888d8, size 0x40, virtual true, abstract: false, final true
-  inline void ReturnToMenu();
-
-  static inline ::GlobalNamespace::StandardLevelReturnToMenuController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2388918, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelReturnToMenuController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelReturnToMenuController(StandardLevelReturnToMenuController&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelReturnToMenuController(StandardLevelReturnToMenuController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelReturnToMenuController();
-
-public:
   /// @brief Field _standardLevelSceneSetupData, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;
 

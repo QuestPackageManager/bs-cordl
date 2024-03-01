@@ -25,27 +25,31 @@ MARK_REF_PTR_T(::System::Threading::Tasks::AsyncCausalityTracer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2820))
 // CS Name: ::System.Threading.Tasks::AsyncCausalityTracer*
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_LoggingOn, addr 0x2650aa8, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_LoggingOn();
-
-  /// @brief Method TraceOperationCreation, addr 0x2653ffc, size 0x4, virtual false, abstract: false, final false
-  static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
-
-  /// @brief Method TraceOperationCompletion, addr 0x2654000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x272274c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x2654004, size 0x4, virtual false, abstract: false, final false
-  static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
+  /// @brief Method TraceOperationCreation, addr 0x2722748, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x2650ab0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x271f1fc, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
+  /// @brief Method TraceSynchronousWorkStart, addr 0x2722750, size 0x4, virtual false, abstract: false, final false
+  static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
+
+  /// @brief Method get_LoggingOn, addr 0x271f1f4, size 0x8, virtual false, abstract: false, final false
+  static inline bool get_LoggingOn();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncCausalityTracer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCausalityTracer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncCausalityTracer(AsyncCausalityTracer&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncCausalityTracer(AsyncCausalityTracer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncCausalityTracer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

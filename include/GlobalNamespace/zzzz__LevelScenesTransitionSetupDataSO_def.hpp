@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15463))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5341))
 // CS Name: ::LevelScenesTransitionSetupDataSO*
 class CORDL_TYPE LevelScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
@@ -33,9 +31,17 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayCoreSceneSetupData_k__BackingField,
                       put = __cordl_internal_set__gameplayCoreSceneSetupData_k__BackingField))::GlobalNamespace::GameplayCoreSceneSetupData* _gameplayCoreSceneSetupData_k__BackingField;
 
+  __declspec(property(get = get_gameplayCoreSceneSetupData, put = set_gameplayCoreSceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* gameplayCoreSceneSetupData;
+
   __declspec(property(get = get_transformedBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  __declspec(property(get = get_gameplayCoreSceneSetupData, put = set_gameplayCoreSceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* gameplayCoreSceneSetupData;
+  /// @brief Method BeforeScenesWillBeActivated, addr 0x2415274, size 0x18, virtual false, abstract: false, final false
+  inline void BeforeScenesWillBeActivated();
+
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x2417df8, size 0x18, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
+
+  static inline ::GlobalNamespace::LevelScenesTransitionSetupDataSO* New_ctor();
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__gameplayCoreSceneSetupData_k__BackingField();
 
@@ -43,26 +49,24 @@ public:
 
   constexpr void __cordl_internal_set__gameplayCoreSceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method get_transformedBeatmapData, addr 0x2349e84, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
-
-  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x2349ea0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
-
-  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x2349ea8, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
-
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x2349eb0, size 0x18, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
-
-  /// @brief Method BeforeScenesWillBeActivated, addr 0x234732c, size 0x18, virtual false, abstract: false, final false
-  inline void BeforeScenesWillBeActivated();
-
-  static inline ::GlobalNamespace::LevelScenesTransitionSetupDataSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2349ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2417e10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x2417de8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
+
+  /// @brief Method get_transformedBeatmapData, addr 0x2417dcc, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
+
+  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x2417df0, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LevelScenesTransitionSetupDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LevelScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelScenesTransitionSetupDataSO(LevelScenesTransitionSetupDataSO&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelScenesTransitionSetupDataSO(LevelScenesTransitionSetupDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelScenesTransitionSetupDataSO();
-
-public:
   /// @brief Field <gameplayCoreSceneSetupData>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____gameplayCoreSceneSetupData_k__BackingField;
 

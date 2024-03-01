@@ -27,12 +27,16 @@ MARK_REF_PTR_T(::GlobalNamespace::PresentHiddenSettingsAfterNClicks);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4914))
 // CS Name: ::PresentHiddenSettingsAfterNClicks*
 class CORDL_TYPE PresentHiddenSettingsAfterNClicks : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _buttonBinder, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+
+  /// @brief Field _currentNumberOfClicks, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentNumberOfClicks, put = __cordl_internal_set__currentNumberOfClicks)) int32_t _currentNumberOfClicks;
+
   /// @brief Field _hiddenSettingsButton, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__hiddenSettingsButton, put = __cordl_internal_set__hiddenSettingsButton))::UnityW<::UnityEngine::UI::Button> _hiddenSettingsButton;
 
@@ -47,62 +51,62 @@ public:
   __declspec(property(get = __cordl_internal_get__settingsFlowCoordinator,
                       put = __cordl_internal_set__settingsFlowCoordinator))::UnityW<::GlobalNamespace::SettingsFlowCoordinator> _settingsFlowCoordinator;
 
-  /// @brief Field _currentNumberOfClicks, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentNumberOfClicks, put = __cordl_internal_set__currentNumberOfClicks)) int32_t _currentNumberOfClicks;
+  static inline ::GlobalNamespace::PresentHiddenSettingsAfterNClicks* New_ctor();
 
-  /// @brief Field _buttonBinder, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Method OnDisable, addr 0x23ae0f0, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__hiddenSettingsButton();
+  /// @brief Method OnEnable, addr 0x23ae054, size 0x9c, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__hiddenSettingsButton() const;
-
-  constexpr void __cordl_internal_set__hiddenSettingsButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__hiddenSettingsViewController();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__hiddenSettingsViewController() const;
-
-  constexpr void __cordl_internal_set__hiddenSettingsViewController(::UnityW<::HMUI::ViewController> value);
-
-  constexpr int32_t& __cordl_internal_get__numberOfClicksRequired();
-
-  constexpr int32_t const& __cordl_internal_get__numberOfClicksRequired() const;
-
-  constexpr void __cordl_internal_set__numberOfClicksRequired(int32_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::SettingsFlowCoordinator>& __cordl_internal_get__settingsFlowCoordinator();
-
-  constexpr ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> const& __cordl_internal_get__settingsFlowCoordinator() const;
-
-  constexpr void __cordl_internal_set__settingsFlowCoordinator(::UnityW<::GlobalNamespace::SettingsFlowCoordinator> value);
-
-  constexpr int32_t& __cordl_internal_get__currentNumberOfClicks();
-
-  constexpr int32_t const& __cordl_internal_get__currentNumberOfClicks() const;
-
-  constexpr void __cordl_internal_set__currentNumberOfClicks(int32_t value);
+  /// @brief Method <OnEnable>b__6_0, addr 0x23ae17c, size 0x48, virtual false, abstract: false, final false
+  inline void _OnEnable_b__6_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
+  constexpr int32_t const& __cordl_internal_get__currentNumberOfClicks() const;
+
+  constexpr int32_t& __cordl_internal_get__currentNumberOfClicks();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__hiddenSettingsButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__hiddenSettingsButton();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__hiddenSettingsViewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__hiddenSettingsViewController();
+
+  constexpr int32_t const& __cordl_internal_get__numberOfClicksRequired() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfClicksRequired();
+
+  constexpr ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> const& __cordl_internal_get__settingsFlowCoordinator() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SettingsFlowCoordinator>& __cordl_internal_get__settingsFlowCoordinator();
+
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method OnEnable, addr 0x22df3a0, size 0x9c, virtual false, abstract: false, final false
-  inline void OnEnable();
+  constexpr void __cordl_internal_set__currentNumberOfClicks(int32_t value);
 
-  /// @brief Method OnDisable, addr 0x22df43c, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDisable();
+  constexpr void __cordl_internal_set__hiddenSettingsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  static inline ::GlobalNamespace::PresentHiddenSettingsAfterNClicks* New_ctor();
+  constexpr void __cordl_internal_set__hiddenSettingsViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x22df458, size 0x70, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__numberOfClicksRequired(int32_t value);
+
+  constexpr void __cordl_internal_set__settingsFlowCoordinator(::UnityW<::GlobalNamespace::SettingsFlowCoordinator> value);
+
+  /// @brief Method .ctor, addr 0x23ae10c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__6_0, addr 0x22df4c8, size 0x48, virtual false, abstract: false, final false
-  inline void _OnEnable_b__6_0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PresentHiddenSettingsAfterNClicks();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PresentHiddenSettingsAfterNClicks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicks&&) = delete;
@@ -111,12 +115,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PresentHiddenSettingsAfterNClicks(PresentHiddenSettingsAfterNClicks const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PresentHiddenSettingsAfterNClicks();
-
-public:
   /// @brief Field _hiddenSettingsButton, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____hiddenSettingsButton;
 

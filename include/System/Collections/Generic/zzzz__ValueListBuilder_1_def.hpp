@@ -3,6 +3,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Span_1_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -25,19 +26,13 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 4877 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3843))
 // CS Name: ::System.Collections.Generic::ValueListBuilder`1<T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
   // Declarations
+  __declspec(property(get = get_Item)) T Item[];
+
   __declspec(property(get = get_Length)) int32_t Length;
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Span_1<T> initialSpan);
-
-  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Length();
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Append(T item);
@@ -51,13 +46,25 @@ public:
   /// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Grow();
 
-  // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value:
-  // None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T, ::Array<T>*> _arrayFromPool, int32_t _pos) noexcept;
+  /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T Pop();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Span_1<T> initialSpan);
+
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ByRef<T> get_Item(int32_t index);
+
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Length();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueListBuilder_1();
+
+  // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value:
+  // None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T, ::Array<T>*> _arrayFromPool, int32_t _pos) noexcept;
 
   /// @brief Field _span, offset: 0x0, size: 0x10, def value: None
   ::System::Span_1<T> _span;

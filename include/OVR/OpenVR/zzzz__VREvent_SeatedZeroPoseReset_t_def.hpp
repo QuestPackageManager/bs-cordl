@@ -14,18 +14,16 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_SeatedZeroPoseReset_t);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8623))
 // CS Name: ::OVR.OpenVR::VREvent_SeatedZeroPoseReset_t
 struct CORDL_TYPE VREvent_SeatedZeroPoseReset_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "bResetBySystemMenu", ty: "bool", modifiers: "", def_value: None }]
-  constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_SeatedZeroPoseReset_t();
+
+  // Ctor Parameters [CppParam { name: "bResetBySystemMenu", ty: "bool", modifiers: "", def_value: None }]
+  constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu) noexcept;
 
   /// @brief Field bResetBySystemMenu, offset: 0x0, size: 0x1, def value: None
   bool bResetBySystemMenu;

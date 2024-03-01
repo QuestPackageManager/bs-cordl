@@ -38,58 +38,57 @@ MARK_VAL_T(::System::Threading::CancellationTokenRegistration);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2691)), TypeDefinitionIndex(TypeDefinitionIndex(2693)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4970
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2683)) CS Name: ::System.Threading::CancellationTokenRegistration
+// CS Name: ::System.Threading::CancellationTokenRegistration
 struct CORDL_TYPE CancellationTokenRegistration {
 public:
   // Declarations
-  /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
-  constexpr operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*();
-
-  /// @brief Convert to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
-  constexpr ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>* i___System__IEquatable_1___System__Threading__CancellationTokenRegistration_();
+  /// @brief Convert operator to "::System::IAsyncDisposable"
+  constexpr operator ::System::IAsyncDisposable*();
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
+  constexpr operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*();
 
-  /// @brief Convert operator to "::System::IAsyncDisposable"
-  constexpr operator ::System::IAsyncDisposable*();
+  /// @brief Method Dispose, addr 0x2706a78, size 0x94, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method DisposeAsync, addr 0x2706d2c, size 0x94, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
+
+  /// @brief Method Equals, addr 0x2706b8c, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2706c1c, size 0x80, virtual true, abstract: false, final true
+  inline bool Equals(::System::Threading::CancellationTokenRegistration other);
+
+  /// @brief Method GetHashCode, addr 0x2706c9c, size 0x90, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Unregister, addr 0x27069fc, size 0x7c, virtual false, abstract: false, final false
+  inline bool Unregister();
+
+  /// @brief Method .ctor, addr 0x27069f0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo);
 
   /// @brief Convert to "::System::IAsyncDisposable"
   constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable();
 
-  /// @brief Method .ctor, addr 0x26372fc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method Unregister, addr 0x2637308, size 0x7c, virtual false, abstract: false, final false
-  inline bool Unregister();
+  /// @brief Convert to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
+  constexpr ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>* i___System__IEquatable_1___System__Threading__CancellationTokenRegistration_();
 
-  /// @brief Method Dispose, addr 0x2637384, size 0x94, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Equals, addr 0x2637498, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x2637528, size 0x80, virtual true, abstract: false, final true
-  inline bool Equals(::System::Threading::CancellationTokenRegistration other);
-
-  /// @brief Method GetHashCode, addr 0x26375a8, size 0x90, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method DisposeAsync, addr 0x2637638, size 0x94, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CancellationTokenRegistration();
 
   // Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "::System::Threading::CancellationCallbackInfo*", modifiers: "", def_value: None }, CppParam { name: "m_registrationInfo", ty:
   // "::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>", modifiers: "", def_value: None }]
   constexpr CancellationTokenRegistration(::System::Threading::CancellationCallbackInfo* m_callbackInfo,
                                           ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> m_registrationInfo) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CancellationTokenRegistration();
 
   /// @brief Field m_callbackInfo, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::CancellationCallbackInfo* m_callbackInfo;

@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::UnityEngine::WaitForFixedUpdate);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8975))
 // CS Name: ::UnityEngine::WaitForFixedUpdate*
 class CORDL_TYPE WaitForFixedUpdate : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WaitForFixedUpdate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WaitForFixedUpdate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaitForFixedUpdate(WaitForFixedUpdate&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaitForFixedUpdate(WaitForFixedUpdate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WaitForFixedUpdate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

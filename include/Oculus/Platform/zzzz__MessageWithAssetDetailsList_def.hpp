@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAssetDetailsList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13348)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
-// 4544 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13174)) CS Name: ::Oculus.Platform::MessageWithAssetDetailsList*
+// CS Name: ::Oculus.Platform::MessageWithAssetDetailsList*
 class CORDL_TYPE MessageWithAssetDetailsList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithAssetDetailsList* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x271812c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetAssetDetailsList, addr 0x271a2bc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetailsList, addr 0x27e2850, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
 
-  /// @brief Method GetDataFromMessage, addr 0x271a2f8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e288c, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetDataFromMessage(void* c_message);
 
+  static inline ::Oculus::Platform::MessageWithAssetDetailsList* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e04c0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithAssetDetailsList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAssetDetailsList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithAssetDetailsList(MessageWithAssetDetailsList&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithAssetDetailsList(MessageWithAssetDetailsList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithAssetDetailsList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

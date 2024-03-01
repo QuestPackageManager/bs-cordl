@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFocusChangeDirection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6140))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6052))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusChangeDirection*
 class CORDL_TYPE VisualElementFocusChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection {
 public:
@@ -30,25 +28,31 @@ public:
   /// @brief Field s_Right, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Right, put = setStaticF_s_Right))::UnityEngine::UIElements::VisualElementFocusChangeDirection* s_Right;
 
-  static inline void setStaticF_s_Left(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);
+  static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* New_ctor(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2ec8dbc, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Left();
 
-  static inline void setStaticF_s_Right(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);
-
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Right();
 
-  /// @brief Method get_left, addr 0x2dd95e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x2ec8d0c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_left();
 
-  /// @brief Method get_right, addr 0x2dd963c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x2ec8d64, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_right();
 
-  static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* New_ctor(int32_t value);
+  static inline void setStaticF_s_Left(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);
 
-  /// @brief Method .ctor, addr 0x2dd9694, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(int32_t value);
+  static inline void setStaticF_s_Right(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VisualElementFocusChangeDirection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementFocusChangeDirection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisualElementFocusChangeDirection(VisualElementFocusChangeDirection&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisualElementFocusChangeDirection(VisualElementFocusChangeDirection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementFocusChangeDirection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

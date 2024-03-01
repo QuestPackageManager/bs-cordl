@@ -16,12 +16,16 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3830))
 // CS Name: ::System.Collections.Generic::DictionaryValueCollectionDebugView`2<TKey,TValue>*
 class CORDL_TYPE DictionaryValueCollectionDebugView_2 : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DictionaryValueCollectionDebugView_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DictionaryValueCollectionDebugView_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DictionaryValueCollectionDebugView_2(DictionaryValueCollectionDebugView_2&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DictionaryValueCollectionDebugView_2(DictionaryValueCollectionDebugView_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DictionaryValueCollectionDebugView_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

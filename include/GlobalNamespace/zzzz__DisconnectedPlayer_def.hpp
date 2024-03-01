@@ -26,134 +26,138 @@ MARK_REF_PTR_T(::GlobalNamespace::DisconnectedPlayer);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14894))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12617))
 // CS Name: ::DisconnectedPlayer*
 class CORDL_TYPE DisconnectedPlayer : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field <multiplayerAvatarsData>k__BackingField, offset 0x28, size 0x18
+  __declspec(property(get = __cordl_internal_get__multiplayerAvatarsData_k__BackingField,
+                      put = __cordl_internal_set__multiplayerAvatarsData_k__BackingField))::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
+
+  /// @brief Field <sortIndex>k__BackingField, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__sortIndex_k__BackingField, put = __cordl_internal_set__sortIndex_k__BackingField)) int32_t _sortIndex_k__BackingField;
+
   /// @brief Field <userId>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__userId_k__BackingField, put = __cordl_internal_set__userId_k__BackingField))::StringW _userId_k__BackingField;
 
   /// @brief Field <userName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__userName_k__BackingField, put = __cordl_internal_set__userName_k__BackingField))::StringW _userName_k__BackingField;
 
-  /// @brief Field <sortIndex>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__sortIndex_k__BackingField, put = __cordl_internal_set__sortIndex_k__BackingField)) int32_t _sortIndex_k__BackingField;
+  __declspec(property(get = get_currentLatency)) int64_t currentLatency;
 
-  /// @brief Field <multiplayerAvatarsData>k__BackingField, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get__multiplayerAvatarsData_k__BackingField,
-                      put = __cordl_internal_set__multiplayerAvatarsData_k__BackingField))::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
+  __declspec(property(get = get_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
 
-  __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
+  __declspec(property(get = get_hasValidLatency)) bool hasValidLatency;
+
+  __declspec(property(get = get_isConnected)) bool isConnected;
+
+  __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
 
   __declspec(property(get = get_isFailed)) bool isFailed;
 
+  __declspec(property(get = get_isKicked)) bool isKicked;
+
   __declspec(property(get = get_isMe)) bool isMe;
+
+  __declspec(property(get = get_multiplayerAvatarsData))::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
+
+  __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
+
+  __declspec(property(get = get_sortIndex)) int32_t sortIndex;
 
   __declspec(property(get = get_userId, put = set_userId))::StringW userId;
 
   __declspec(property(get = get_userName, put = set_userName))::StringW userName;
 
-  __declspec(property(get = get_hasValidLatency)) bool hasValidLatency;
-
-  __declspec(property(get = get_currentLatency)) int64_t currentLatency;
-
-  __declspec(property(get = get_isConnected)) bool isConnected;
-
-  __declspec(property(get = get_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
-
-  __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
-
-  __declspec(property(get = get_sortIndex)) int32_t sortIndex;
-
-  __declspec(property(get = get_multiplayerAvatarsData))::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
-
-  __declspec(property(get = get_isKicked)) bool isKicked;
-
   /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
   constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
-  constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__userId_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__userId_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__userId_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__sortIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__sortIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__sortIndex_k__BackingField(int32_t value);
-
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField();
-
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
-
-  /// @brief Method get_offsetSyncTime, addr 0xe5e8e0, size 0x8, virtual true, abstract: false, final true
-  inline int64_t get_offsetSyncTime();
-
-  /// @brief Method get_isFailed, addr 0xe5e8e8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isFailed();
-
-  /// @brief Method get_isMe, addr 0xe5e8f0, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isMe();
-
-  /// @brief Method get_userId, addr 0xe5e8f8, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_userId();
-
-  /// @brief Method set_userId, addr 0xe5e900, size 0x8, virtual false, abstract: false, final false
-  inline void set_userId(::StringW value);
-
-  /// @brief Method get_userName, addr 0xe5e908, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_userName();
-
-  /// @brief Method set_userName, addr 0xe5e910, size 0x8, virtual false, abstract: false, final false
-  inline void set_userName(::StringW value);
-
-  /// @brief Method get_hasValidLatency, addr 0xe5e918, size 0x8, virtual true, abstract: false, final true
-  inline bool get_hasValidLatency();
-
-  /// @brief Method get_currentLatency, addr 0xe5e920, size 0x8, virtual true, abstract: false, final true
-  inline int64_t get_currentLatency();
-
-  /// @brief Method get_isConnected, addr 0xe5e928, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isConnected();
-
-  /// @brief Method get_disconnectedReason, addr 0xe5e930, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
-
-  /// @brief Method get_isConnectionOwner, addr 0xe5e938, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isConnectionOwner();
-
-  /// @brief Method get_sortIndex, addr 0xe5e940, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_sortIndex();
-
-  /// @brief Method get_multiplayerAvatarsData, addr 0xe5e948, size 0x14, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
-
-  /// @brief Method get_isKicked, addr 0xe5e95c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isKicked();
-
-  /// @brief Method HasState, addr 0xe5e964, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasState, addr 0xea4934, size 0x8, virtual true, abstract: false, final true
   inline bool HasState(::StringW state);
 
   static inline ::GlobalNamespace::DisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
-  /// @brief Method .ctor, addr 0xe5e96c, size 0x44, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__sortIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__sortIndex_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__userId_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__userId_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
+
+  constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
+
+  constexpr void __cordl_internal_set__sortIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__userId_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0xea493c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
+  /// @brief Method get_currentLatency, addr 0xea48f0, size 0x8, virtual true, abstract: false, final true
+  inline int64_t get_currentLatency();
+
+  /// @brief Method get_disconnectedReason, addr 0xea4900, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::DisconnectedReason get_disconnectedReason();
+
+  /// @brief Method get_hasValidLatency, addr 0xea48e8, size 0x8, virtual true, abstract: false, final true
+  inline bool get_hasValidLatency();
+
+  /// @brief Method get_isConnected, addr 0xea48f8, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isConnected();
+
+  /// @brief Method get_isConnectionOwner, addr 0xea4908, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isConnectionOwner();
+
+  /// @brief Method get_isFailed, addr 0xea48b8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isFailed();
+
+  /// @brief Method get_isKicked, addr 0xea492c, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isKicked();
+
+  /// @brief Method get_isMe, addr 0xea48c0, size 0x8, virtual true, abstract: false, final true
+  inline bool get_isMe();
+
+  /// @brief Method get_multiplayerAvatarsData, addr 0xea4918, size 0x14, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
+
+  /// @brief Method get_offsetSyncTime, addr 0xea48b0, size 0x8, virtual true, abstract: false, final true
+  inline int64_t get_offsetSyncTime();
+
+  /// @brief Method get_sortIndex, addr 0xea4910, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_sortIndex();
+
+  /// @brief Method get_userId, addr 0xea48c8, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_userId();
+
+  /// @brief Method get_userName, addr 0xea48d8, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_userName();
+
+  /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
+  constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
+
+  /// @brief Method set_userId, addr 0xea48d0, size 0x8, virtual false, abstract: false, final false
+  inline void set_userId(::StringW value);
+
+  /// @brief Method set_userName, addr 0xea48e0, size 0x8, virtual false, abstract: false, final false
+  inline void set_userName(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisconnectedPlayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectedPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisconnectedPlayer(DisconnectedPlayer&&) = delete;
@@ -162,12 +166,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisconnectedPlayer(DisconnectedPlayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisconnectedPlayer();
-
-public:
   /// @brief Field <userId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userId_k__BackingField;
 

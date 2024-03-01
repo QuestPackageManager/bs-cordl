@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PreAssetEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9386))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9391))
 // CS Name: ::HoudiniEngineUnity::HEU_PreAssetEventData*
 class CORDL_TYPE HEU_PreAssetEventData : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Field AssetType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_AssetType, put = __cordl_internal_set_AssetType))::HoudiniEngineUnity::HEU_AssetEventType AssetType;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get_Asset();
+  static inline ::HoudiniEngineUnity::HEU_PreAssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get_Asset() const;
 
-  constexpr void __cordl_internal_set_Asset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
-
-  constexpr ::HoudiniEngineUnity::HEU_AssetEventType& __cordl_internal_get_AssetType();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get_Asset();
 
   constexpr ::HoudiniEngineUnity::HEU_AssetEventType const& __cordl_internal_get_AssetType() const;
 
+  constexpr ::HoudiniEngineUnity::HEU_AssetEventType& __cordl_internal_get_AssetType();
+
+  constexpr void __cordl_internal_set_Asset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
+
   constexpr void __cordl_internal_set_AssetType(::HoudiniEngineUnity::HEU_AssetEventType value);
 
-  static inline ::HoudiniEngineUnity::HEU_PreAssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
-
-  /// @brief Method .ctor, addr 0x21e3c6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22af2d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_PreAssetEventData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_PreAssetEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_PreAssetEventData(HEU_PreAssetEventData&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_PreAssetEventData(HEU_PreAssetEventData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_PreAssetEventData();
-
-public:
   /// @brief Field Asset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ___Asset;
 

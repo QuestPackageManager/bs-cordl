@@ -23,20 +23,18 @@ MARK_VAL_T(::System::ConsoleScreenBufferInfo);
 // SizeInfo { instance_size: 22, native_size: 22, calculated_instance_size: 22, calculated_native_size: 38, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2645)), TypeDefinitionIndex(TypeDefinitionIndex(2646))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2647))
 // CS Name: ::System::ConsoleScreenBufferInfo
 struct CORDL_TYPE ConsoleScreenBufferInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConsoleScreenBufferInfo();
+
   // Ctor Parameters [CppParam { name: "Size", ty: "::System::Coord", modifiers: "", def_value: None }, CppParam { name: "CursorPosition", ty: "::System::Coord", modifiers: "", def_value: None },
   // CppParam { name: "Attribute", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "Window", ty: "::System::SmallRect", modifiers: "", def_value: None }, CppParam { name:
   // "MaxWindowSize", ty: "::System::Coord", modifiers: "", def_value: None }]
   constexpr ConsoleScreenBufferInfo(::System::Coord Size, ::System::Coord CursorPosition, int16_t Attribute, ::System::SmallRect Window, ::System::Coord MaxWindowSize) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConsoleScreenBufferInfo();
 
   /// @brief Field Size, offset: 0x0, size: 0x4, def value: None
   ::System::Coord Size;

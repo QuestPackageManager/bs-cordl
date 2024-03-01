@@ -19,18 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::PropertyNameUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8904))
 // CS Name: ::UnityEngine::PropertyNameUtils*
 class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropertyNameFromString, addr 0x2ccf9f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x2dbaf5c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x2ccfbc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x2dbb128, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::StringW name, ByRef<::UnityEngine::PropertyName> ret);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyNameUtils();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PropertyNameUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyNameUtils(PropertyNameUtils&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyNameUtils(PropertyNameUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyNameUtils();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

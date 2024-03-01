@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14456))
 // CS Name: ::MaterialController*
 class CORDL_TYPE MaterialController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,29 +33,35 @@ public:
 
   __declspec(property(get = get_material))::UnityW<::UnityEngine::Material> material;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
+  static inline ::GlobalNamespace::MaterialController* New_ctor();
+
+  /// @brief Method OnValidate, addr 0x2276768, size 0x2c, virtual false, abstract: false, final false
+  inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>& __cordl_internal_get__renderers();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> const& __cordl_internal_get__renderers() const;
 
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*>& __cordl_internal_get__renderers();
+
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
+
   constexpr void __cordl_internal_set__renderers(::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> value);
 
-  /// @brief Method get_material, addr 0x21a90f8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_material();
-
-  /// @brief Method OnValidate, addr 0x21a9100, size 0x2c, virtual false, abstract: false, final false
-  inline void OnValidate();
-
-  static inline ::GlobalNamespace::MaterialController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21a912c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2276794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_material, addr 0x2276760, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_material();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialController(MaterialController&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialController(MaterialController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialController();
-
-public:
   /// @brief Field _material, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 

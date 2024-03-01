@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::HmdVector3d_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8593))
 // CS Name: ::OVR.OpenVR::HmdVector3d_t
 struct CORDL_TYPE HmdVector3d_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "v0", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "v2", ty:
-  // "double_t", modifiers: "", def_value: None }]
-  constexpr HmdVector3d_t(double_t v0, double_t v1, double_t v2) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HmdVector3d_t();
+
+  // Ctor Parameters [CppParam { name: "v0", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "v1", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "v2", ty:
+  // "double_t", modifiers: "", def_value: None }]
+  constexpr HmdVector3d_t(double_t v0, double_t v1, double_t v2) noexcept;
 
   /// @brief Field v0, offset: 0x0, size: 0x8, def value: None
   double_t v0;

@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)(int32_t)>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0xe472f4;
+  constexpr static std::size_t addrs = 0xe8d2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0xe47328;
+  constexpr static std::size_t addrs = 0xe8d2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -599,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0xe473e0;
+  constexpr static std::size_t addrs = 0xe8d3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally1)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0xe479e0;
+  constexpr static std::size_t addrs = 0xe8d9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::__m__Finally2)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0xe47930;
+  constexpr static std::size_t addrs = 0xe8d900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, int32_t> (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe47a90;
+  constexpr static std::size_t addrs = 0xe8da60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -659,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xe47a98;
+  constexpr static std::size_t addrs = 0xe8da68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0xe47ad8;
+  constexpr static std::size_t addrs = 0xe8daa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -690,7 +690,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
         &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0xe47b34;
+  constexpr static std::size_t addrs = 0xe8db04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::*)()>(
     &::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xe47be8;
+  constexpr static std::size_t addrs = 0xe8dbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -967,7 +967,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ValueTuple_2<int32_t, int32_t>>* (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*, ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t)>(
     &::GlobalNamespace::ShuffleExtensions::ZipSkipTombstone)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0xe47264;
+  constexpr static std::size_t addrs = 0xe8d234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

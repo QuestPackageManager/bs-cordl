@@ -23,51 +23,55 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13994))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LinkedListNodeCache`1<T>*
 class CORDL_TYPE LinkedListNodeCache_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_NodesCreated, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_NodesCreated, put = __cordl_internal_set_m_NodesCreated)) int32_t m_NodesCreated;
+  __declspec(property(get = get_CachedNodeCount)) int32_t CachedNodeCount;
+
+  __declspec(property(get = get_CreatedNodeCount)) int32_t CreatedNodeCount;
 
   /// @brief Field m_NodeCache, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache))::System::Collections::Generic::LinkedList_1<T>* m_NodeCache;
 
-  __declspec(property(get = get_CreatedNodeCount)) int32_t CreatedNodeCount;
+  /// @brief Field m_NodesCreated, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_NodesCreated, put = __cordl_internal_set_m_NodesCreated)) int32_t m_NodesCreated;
 
-  __declspec(property(get = get_CachedNodeCount)) int32_t CachedNodeCount;
+  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
 
-  constexpr int32_t& __cordl_internal_get_m_NodesCreated();
+  static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* New_ctor();
 
-  constexpr int32_t const& __cordl_internal_get_m_NodesCreated() const;
-
-  constexpr void __cordl_internal_set_m_NodesCreated(int32_t value);
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Release(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
   constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get_m_NodeCache();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __cordl_internal_get_m_NodeCache() const;
 
+  constexpr int32_t const& __cordl_internal_get_m_NodesCreated() const;
+
+  constexpr int32_t& __cordl_internal_get_m_NodesCreated();
+
   constexpr void __cordl_internal_set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value);
 
-  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
-
-  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Release(::System::Collections::Generic::LinkedListNode_1<T>* node);
-
-  /// @brief Method get_CreatedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_CreatedNodeCount();
-
-  /// @brief Method get_CachedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_CachedNodeCount();
-
-  static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* New_ctor();
+  constexpr void __cordl_internal_set_m_NodesCreated(int32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_CachedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_CachedNodeCount();
+
+  /// @brief Method get_CreatedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_CreatedNodeCount();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LinkedListNodeCache_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LinkedListNodeCache_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedListNodeCache_1(LinkedListNodeCache_1&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedListNodeCache_1(LinkedListNodeCache_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkedListNodeCache_1();
-
-public:
   /// @brief Field m_NodesCreated, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_NodesCreated;
 

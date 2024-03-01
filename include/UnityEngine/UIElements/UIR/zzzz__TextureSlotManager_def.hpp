@@ -28,18 +28,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::TextureSlotManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6667))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureSlotManager*
 class CORDL_TYPE TextureSlotManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Textures, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Textures,
-                      put = __cordl_internal_set_m_Textures))::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> m_Textures;
+  __declspec(property(get = get_FreeSlots, put = set_FreeSlots)) int32_t FreeSlots;
 
-  /// @brief Field m_Tickets, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tickets, put = __cordl_internal_set_m_Tickets))::ArrayW<int32_t, ::Array<int32_t>*> m_Tickets;
+  /// @brief Field <FreeSlots>k__BackingField, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__FreeSlots_k__BackingField, put = __cordl_internal_set__FreeSlots_k__BackingField)) int32_t _FreeSlots_k__BackingField;
+
+  /// @brief Field k_SlotCount, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_k_SlotCount, put = setStaticF_k_SlotCount)) int32_t k_SlotCount;
 
   /// @brief Field m_CurrentTicket, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentTicket, put = __cordl_internal_set_m_CurrentTicket)) int32_t m_CurrentTicket;
@@ -50,106 +49,111 @@ public:
   /// @brief Field m_GpuTextures, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GpuTextures, put = __cordl_internal_set_m_GpuTextures))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> m_GpuTextures;
 
-  /// @brief Field <FreeSlots>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__FreeSlots_k__BackingField, put = __cordl_internal_set__FreeSlots_k__BackingField)) int32_t _FreeSlots_k__BackingField;
+  /// @brief Field m_Textures, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Textures,
+                      put = __cordl_internal_set_m_Textures))::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> m_Textures;
 
-  /// @brief Field textureRegistry, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_textureRegistry, put = __cordl_internal_set_textureRegistry))::UnityEngine::UIElements::TextureRegistry* textureRegistry;
-
-  /// @brief Field k_SlotCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_k_SlotCount, put = setStaticF_k_SlotCount)) int32_t k_SlotCount;
+  /// @brief Field m_Tickets, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Tickets, put = __cordl_internal_set_m_Tickets))::ArrayW<int32_t, ::Array<int32_t>*> m_Tickets;
 
   /// @brief Field slotIds, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_slotIds, put = setStaticF_slotIds))::ArrayW<int32_t, ::Array<int32_t>*> slotIds;
 
+  /// @brief Field textureRegistry, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_textureRegistry, put = __cordl_internal_set_textureRegistry))::UnityEngine::UIElements::TextureRegistry* textureRegistry;
+
   /// @brief Field textureTableId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_textureTableId, put = setStaticF_textureTableId)) int32_t textureTableId;
 
-  __declspec(property(get = get_FreeSlots, put = set_FreeSlots)) int32_t FreeSlots;
+  /// @brief Method Bind, addr 0x2fa805c, size 0x218, virtual false, abstract: false, final false
+  inline void Bind(::UnityEngine::UIElements::TextureId id, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*>& __cordl_internal_get_m_Textures();
+  /// @brief Method FindOldestSlot, addr 0x2fa7f8c, size 0xd0, virtual false, abstract: false, final false
+  inline int32_t FindOldestSlot();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> const& __cordl_internal_get_m_Textures() const;
+  /// @brief Method IndexOf, addr 0x2fa7e50, size 0xd4, virtual false, abstract: false, final false
+  inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
 
-  constexpr void __cordl_internal_set_m_Textures(::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> value);
+  /// @brief Method MarkUsed, addr 0x2fa7f24, size 0x58, virtual false, abstract: false, final false
+  inline void MarkUsed(int32_t slotIndex);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_Tickets();
+  static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Tickets() const;
+  /// @brief Method Reset, addr 0x2fa7cb8, size 0x12c, virtual false, abstract: false, final false
+  inline void Reset();
 
-  constexpr void __cordl_internal_set_m_Tickets(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_m_CurrentTicket();
-
-  constexpr int32_t const& __cordl_internal_get_m_CurrentTicket() const;
-
-  constexpr void __cordl_internal_set_m_CurrentTicket(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_FirstUsedTicket();
-
-  constexpr int32_t const& __cordl_internal_get_m_FirstUsedTicket() const;
-
-  constexpr void __cordl_internal_set_m_FirstUsedTicket(int32_t value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get_m_GpuTextures();
-
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_GpuTextures() const;
-
-  constexpr void __cordl_internal_set_m_GpuTextures(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
-
-  constexpr int32_t& __cordl_internal_get__FreeSlots_k__BackingField();
+  /// @brief Method StartNewBatch, addr 0x2fa7de4, size 0x6c, virtual false, abstract: false, final false
+  inline void StartNewBatch();
 
   constexpr int32_t const& __cordl_internal_get__FreeSlots_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__FreeSlots_k__BackingField(int32_t value);
+  constexpr int32_t& __cordl_internal_get__FreeSlots_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get_m_CurrentTicket() const;
+
+  constexpr int32_t& __cordl_internal_get_m_CurrentTicket();
+
+  constexpr int32_t const& __cordl_internal_get_m_FirstUsedTicket() const;
+
+  constexpr int32_t& __cordl_internal_get_m_FirstUsedTicket();
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_GpuTextures() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get_m_GpuTextures();
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> const& __cordl_internal_get_m_Textures() const;
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*>& __cordl_internal_get_m_Textures();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Tickets() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_Tickets();
 
   constexpr ::UnityEngine::UIElements::TextureRegistry*& __cordl_internal_get_textureRegistry();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& __cordl_internal_get_textureRegistry() const;
 
+  constexpr void __cordl_internal_set__FreeSlots_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set_m_CurrentTicket(int32_t value);
+
+  constexpr void __cordl_internal_set_m_FirstUsedTicket(int32_t value);
+
+  constexpr void __cordl_internal_set_m_GpuTextures(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+
+  constexpr void __cordl_internal_set_m_Textures(::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> value);
+
+  constexpr void __cordl_internal_set_m_Tickets(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
   constexpr void __cordl_internal_set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
-  static inline void setStaticF_k_SlotCount(int32_t value);
+  /// @brief Method .ctor, addr 0x2fa7b50, size 0x168, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF_k_SlotCount();
 
-  static inline void setStaticF_slotIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_slotIds();
-
-  static inline void setStaticF_textureTableId(int32_t value);
 
   static inline int32_t getStaticF_textureTableId();
 
-  static inline ::UnityEngine::UIElements::UIR::TextureSlotManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2eb3428, size 0x168, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Reset, addr 0x2eb3590, size 0x12c, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method StartNewBatch, addr 0x2eb36bc, size 0x6c, virtual false, abstract: false, final false
-  inline void StartNewBatch();
-
-  /// @brief Method IndexOf, addr 0x2eb3728, size 0xd4, virtual false, abstract: false, final false
-  inline int32_t IndexOf(::UnityEngine::UIElements::TextureId id);
-
-  /// @brief Method MarkUsed, addr 0x2eb37fc, size 0x58, virtual false, abstract: false, final false
-  inline void MarkUsed(int32_t slotIndex);
-
-  /// @brief Method get_FreeSlots, addr 0x2eb3854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FreeSlots, addr 0x2fa7f7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FreeSlots();
 
-  /// @brief Method set_FreeSlots, addr 0x2eb385c, size 0x8, virtual false, abstract: false, final false
+  static inline void setStaticF_k_SlotCount(int32_t value);
+
+  static inline void setStaticF_slotIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  static inline void setStaticF_textureTableId(int32_t value);
+
+  /// @brief Method set_FreeSlots, addr 0x2fa7f84, size 0x8, virtual false, abstract: false, final false
   inline void set_FreeSlots(int32_t value);
 
-  /// @brief Method FindOldestSlot, addr 0x2eb3864, size 0xd0, virtual false, abstract: false, final false
-  inline int32_t FindOldestSlot();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextureSlotManager();
 
-  /// @brief Method Bind, addr 0x2eb3934, size 0x218, virtual false, abstract: false, final false
-  inline void Bind(::UnityEngine::UIElements::TextureId id, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextureSlotManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureSlotManager(TextureSlotManager&&) = delete;
@@ -158,12 +162,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextureSlotManager(TextureSlotManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureSlotManager();
-
-public:
   /// @brief Field m_Textures, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::TextureId, ::Array<::UnityEngine::UIElements::TextureId>*> ___m_Textures;
 

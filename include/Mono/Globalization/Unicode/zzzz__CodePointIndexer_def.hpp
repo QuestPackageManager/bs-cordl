@@ -24,23 +24,21 @@ MARK_VAL_T(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2257))
 // CS Name: ::CodePointIndexer::TableRange
 struct CORDL_TYPE __CodePointIndexer__TableRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2435300, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505ff8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t indexStart);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CodePointIndexer__TableRange();
 
   // Ctor Parameters [CppParam { name: "Start", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "End", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "IndexStart", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "IndexEnd", ty: "int32_t", modifiers: "", def_value:
   // None }]
   constexpr __CodePointIndexer__TableRange(int32_t Start, int32_t End, int32_t Count, int32_t IndexStart, int32_t IndexEnd) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CodePointIndexer__TableRange();
 
   /// @brief Field Start, offset: 0x0, size: 0x4, def value: None
   int32_t Start;
@@ -80,62 +78,66 @@ static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__Table
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2258))
 // CS Name: ::Mono.Globalization.Unicode::CodePointIndexer*
 class CORDL_TYPE CodePointIndexer : public ::System::Object {
 public:
   // Declarations
   using TableRange = ::Mono::Globalization::Unicode::__CodePointIndexer__TableRange;
 
+  /// @brief Field TotalCount, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_TotalCount, put = __cordl_internal_set_TotalCount)) int32_t TotalCount;
+
+  /// @brief Field defaultCP, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_defaultCP, put = __cordl_internal_set_defaultCP)) int32_t defaultCP;
+
+  /// @brief Field defaultIndex, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_defaultIndex, put = __cordl_internal_set_defaultIndex)) int32_t defaultIndex;
+
   /// @brief Field ranges, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get_ranges,
       put = __cordl_internal_set_ranges))::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> ranges;
 
-  /// @brief Field TotalCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_TotalCount, put = __cordl_internal_set_TotalCount)) int32_t TotalCount;
+  static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex,
+                                                                           int32_t defaultCP);
 
-  /// @brief Field defaultIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_defaultIndex, put = __cordl_internal_set_defaultIndex)) int32_t defaultIndex;
+  /// @brief Method ToIndex, addr 0x2506010, size 0x84, virtual false, abstract: false, final false
+  inline int32_t ToIndex(int32_t cp);
 
-  /// @brief Field defaultCP, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_defaultCP, put = __cordl_internal_set_defaultCP)) int32_t defaultCP;
+  constexpr int32_t const& __cordl_internal_get_TotalCount() const;
 
-  constexpr ::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*>& __cordl_internal_get_ranges();
+  constexpr int32_t& __cordl_internal_get_TotalCount();
+
+  constexpr int32_t const& __cordl_internal_get_defaultCP() const;
+
+  constexpr int32_t& __cordl_internal_get_defaultCP();
+
+  constexpr int32_t const& __cordl_internal_get_defaultIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_defaultIndex();
 
   constexpr ::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> const&
   __cordl_internal_get_ranges() const;
 
-  constexpr void __cordl_internal_set_ranges(::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> value);
-
-  constexpr int32_t& __cordl_internal_get_TotalCount();
-
-  constexpr int32_t const& __cordl_internal_get_TotalCount() const;
+  constexpr ::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*>& __cordl_internal_get_ranges();
 
   constexpr void __cordl_internal_set_TotalCount(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get_defaultIndex();
-
-  constexpr int32_t const& __cordl_internal_get_defaultIndex() const;
+  constexpr void __cordl_internal_set_defaultCP(int32_t value);
 
   constexpr void __cordl_internal_set_defaultIndex(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get_defaultCP();
+  constexpr void __cordl_internal_set_ranges(::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> value);
 
-  constexpr int32_t const& __cordl_internal_get_defaultCP() const;
-
-  constexpr void __cordl_internal_set_defaultCP(int32_t value);
-
-  static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex,
-                                                                           int32_t defaultCP);
-
-  /// @brief Method .ctor, addr 0x24351ac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2505ea4, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex, int32_t defaultCP);
 
-  /// @brief Method ToIndex, addr 0x2435318, size 0x84, virtual false, abstract: false, final false
-  inline int32_t ToIndex(int32_t cp);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CodePointIndexer();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CodePointIndexer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CodePointIndexer(CodePointIndexer&&) = delete;
@@ -144,12 +146,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CodePointIndexer(CodePointIndexer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CodePointIndexer();
-
-public:
   /// @brief Field ranges, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> ___ranges;
 

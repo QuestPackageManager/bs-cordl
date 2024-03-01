@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryAssem
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3259))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryAssembly*
 class CORDL_TYPE BinaryAssembly : public ::System::Object {
 public:
@@ -34,35 +32,41 @@ public:
   /// @brief Field assemblyString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
 
-  constexpr int32_t& __cordl_internal_get_assemId();
-
-  constexpr int32_t const& __cordl_internal_get_assemId() const;
-
-  constexpr void __cordl_internal_set_assemId(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_assemblyString();
-
-  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
-
-  constexpr void __cordl_internal_set_assemblyString(::StringW value);
+  /// @brief Method Dump, addr 0x25b3bfc, size 0x4, virtual false, abstract: false, final false
+  inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e2e3c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Set, addr 0x24e2e44, size 0xc, virtual false, abstract: false, final false
-  inline void Set(int32_t assemId, ::StringW assemblyString);
-
-  /// @brief Method Write, addr 0x24e2e50, size 0x70, virtual true, abstract: false, final true
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
-
-  /// @brief Method Read, addr 0x24e2ec0, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x25b3bb8, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24e2f04, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+  /// @brief Method Set, addr 0x25b3b3c, size 0xc, virtual false, abstract: false, final false
+  inline void Set(int32_t assemId, ::StringW assemblyString);
 
+  /// @brief Method Write, addr 0x25b3b48, size 0x70, virtual true, abstract: false, final true
+  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+
+  constexpr int32_t const& __cordl_internal_get_assemId() const;
+
+  constexpr int32_t& __cordl_internal_get_assemId();
+
+  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
+
+  constexpr ::StringW& __cordl_internal_get_assemblyString();
+
+  constexpr void __cordl_internal_set_assemId(int32_t value);
+
+  constexpr void __cordl_internal_set_assemblyString(::StringW value);
+
+  /// @brief Method .ctor, addr 0x25b3b34, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryAssembly();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryAssembly", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryAssembly(BinaryAssembly&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryAssembly(BinaryAssembly const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryAssembly();
-
-public:
   /// @brief Field assemId, offset: 0x10, size: 0x4, def value: None
   int32_t ___assemId;
 

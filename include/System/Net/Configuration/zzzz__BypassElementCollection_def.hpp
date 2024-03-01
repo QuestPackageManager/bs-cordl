@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Net::Configuration::BypassElementCollection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7577))
 // CS Name: ::System.Net.Configuration::BypassElementCollection*
 class CORDL_TYPE BypassElementCollection : public ::System::Configuration::ConfigurationElementCollection {
 public:
   // Declarations
   static inline ::System::Net::Configuration::BypassElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2949370, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2e7ec, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BypassElementCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BypassElementCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BypassElementCollection(BypassElementCollection&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BypassElementCollection(BypassElementCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BypassElementCollection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

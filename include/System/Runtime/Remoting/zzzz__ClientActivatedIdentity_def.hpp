@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ClientActivatedIdentity);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3072))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3073))
 // CS Name: ::System.Runtime.Remoting::ClientActivatedIdentity*
 class CORDL_TYPE ClientActivatedIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
@@ -39,33 +37,39 @@ public:
   /// @brief Field _targetThis, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__targetThis, put = __cordl_internal_set__targetThis))::System::MarshalByRefObject* _targetThis;
 
+  /// @brief Method AsyncObjectProcessMessage, addr 0x25867fc, size 0xf0, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
+                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
+
+  /// @brief Method GetServerObject, addr 0x25864f8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::MarshalByRefObject* GetServerObject();
+
+  static inline ::System::Runtime::Remoting::ClientActivatedIdentity* New_ctor(::StringW objectUri, ::System::Type* objectType);
+
+  /// @brief Method OnLifetimeExpired, addr 0x2586508, size 0x60, virtual true, abstract: false, final false
+  inline void OnLifetimeExpired();
+
+  /// @brief Method SetClientProxy, addr 0x2586500, size 0x8, virtual false, abstract: false, final false
+  inline void SetClientProxy(::System::MarshalByRefObject* obj);
+
+  /// @brief Method SyncObjectProcessMessage, addr 0x2586568, size 0xdc, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+
   constexpr ::System::MarshalByRefObject*& __cordl_internal_get__targetThis();
 
   constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __cordl_internal_get__targetThis() const;
 
   constexpr void __cordl_internal_set__targetThis(::System::MarshalByRefObject* value);
 
-  static inline ::System::Runtime::Remoting::ClientActivatedIdentity* New_ctor(::StringW objectUri, ::System::Type* objectType);
-
-  /// @brief Method .ctor, addr 0x24b57d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25864cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Type* objectType);
 
-  /// @brief Method GetServerObject, addr 0x24b5800, size 0x8, virtual false, abstract: false, final false
-  inline ::System::MarshalByRefObject* GetServerObject();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClientActivatedIdentity();
 
-  /// @brief Method SetClientProxy, addr 0x24b5808, size 0x8, virtual false, abstract: false, final false
-  inline void SetClientProxy(::System::MarshalByRefObject* obj);
-
-  /// @brief Method OnLifetimeExpired, addr 0x24b5810, size 0x60, virtual true, abstract: false, final false
-  inline void OnLifetimeExpired();
-
-  /// @brief Method SyncObjectProcessMessage, addr 0x24b5870, size 0xdc, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
-
-  /// @brief Method AsyncObjectProcessMessage, addr 0x24b5b04, size 0xf0, virtual true, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
-                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClientActivatedIdentity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClientActivatedIdentity(ClientActivatedIdentity&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClientActivatedIdentity(ClientActivatedIdentity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClientActivatedIdentity();
-
-public:
   /// @brief Field _targetThis, offset: 0x70, size: 0x8, def value: None
   ::System::MarshalByRefObject* ____targetThis;
 

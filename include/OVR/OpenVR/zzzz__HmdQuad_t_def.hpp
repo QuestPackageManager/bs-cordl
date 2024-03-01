@@ -18,20 +18,18 @@ MARK_VAL_T(::OVR::OpenVR::HmdQuad_t);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8591))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8598))
 // CS Name: ::OVR.OpenVR::HmdQuad_t
 struct CORDL_TYPE HmdQuad_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HmdQuad_t();
+
   // Ctor Parameters [CppParam { name: "vCorners0", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners1", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
   // def_value: None }, CppParam { name: "vCorners2", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vCorners3", ty: "::OVR::OpenVR::HmdVector3_t", modifiers:
   // "", def_value: None }]
   constexpr HmdQuad_t(::OVR::OpenVR::HmdVector3_t vCorners0, ::OVR::OpenVR::HmdVector3_t vCorners1, ::OVR::OpenVR::HmdVector3_t vCorners2, ::OVR::OpenVR::HmdVector3_t vCorners3) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HmdQuad_t();
 
   /// @brief Field vCorners0, offset: 0x0, size: 0xc, def value: None
   ::OVR::OpenVR::HmdVector3_t vCorners0;

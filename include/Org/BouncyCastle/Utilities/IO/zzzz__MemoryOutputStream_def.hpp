@@ -14,22 +14,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::MemoryOutputStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1809))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::MemoryOutputStream*
 class CORDL_TYPE MemoryOutputStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  /// @brief Method get_CanRead, addr 0x118da20, size 0x8, virtual true, abstract: false, final true
-  inline bool get_CanRead();
-
   static inline ::Org::BouncyCastle::Utilities::IO::MemoryOutputStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x118da28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11cf9f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_CanRead, addr 0x11cf9f0, size 0x8, virtual true, abstract: false, final true
+  inline bool get_CanRead();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryOutputStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryOutputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryOutputStream(MemoryOutputStream&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryOutputStream(MemoryOutputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryOutputStream();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

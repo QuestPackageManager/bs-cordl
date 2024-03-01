@@ -16,15 +16,19 @@ MARK_REF_PTR_T(::ENet::Extensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15348))
 // CS Name: ::ENet::Extensions*
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringLength, addr 0x228839c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x2354a04, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Extensions(Extensions&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Extensions(Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectSubMenuDestination);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10609))
 // CS Name: ::SelectSubMenuDestination::Destination
 struct CORDL_TYPE __SelectSubMenuDestination__Destination {
 public:
@@ -48,27 +46,29 @@ public:
     return static_cast<____SelectSubMenuDestination__Destination_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SelectSubMenuDestination__Destination(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SelectSubMenuDestination__Destination();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __SelectSubMenuDestination__Destination(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field MainMenu value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const MainMenu;
 
   /// @brief Field Campaign value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Campaign;
 
-  /// @brief Field SoloFreePlay value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const SoloFreePlay;
+  /// @brief Field MainMenu value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const MainMenu;
+
+  /// @brief Field Multiplayer value: static_cast<int32_t>(0x6)
+  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Multiplayer;
 
   /// @brief Field PartyFreePlay value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__SelectSubMenuDestination__Destination const PartyFreePlay;
@@ -76,11 +76,14 @@ public:
   /// @brief Field Settings value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Settings;
 
+  /// @brief Field SoloFreePlay value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const SoloFreePlay;
+
   /// @brief Field Tutorial value: static_cast<int32_t>(0x5)
   static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Tutorial;
 
-  /// @brief Field Multiplayer value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Multiplayer;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -94,8 +97,6 @@ static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destinatio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10608)), TypeDefinitionIndex(TypeDefinitionIndex(10609))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10610))
 // CS Name: ::SelectSubMenuDestination*
 class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
@@ -105,17 +106,23 @@ public:
   /// @brief Field menuDestination, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_menuDestination, put = __cordl_internal_set_menuDestination))::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination;
 
-  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& __cordl_internal_get_menuDestination();
+  static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
   constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination const& __cordl_internal_get_menuDestination() const;
 
+  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& __cordl_internal_get_menuDestination();
+
   constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value);
 
-  static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
-
-  /// @brief Method .ctor, addr 0x12658b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a8880, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SelectSubMenuDestination();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SelectSubMenuDestination", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectSubMenuDestination(SelectSubMenuDestination&&) = delete;
@@ -124,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectSubMenuDestination(SelectSubMenuDestination const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SelectSubMenuDestination();
-
-public:
   /// @brief Field menuDestination, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__SelectSubMenuDestination__Destination ___menuDestination;
 

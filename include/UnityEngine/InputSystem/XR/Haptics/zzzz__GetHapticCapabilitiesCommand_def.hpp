@@ -28,8 +28,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5605))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::GetHapticCapabilitiesCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE GetHapticCapabilitiesCommand {
@@ -38,8 +36,7 @@ public:
   /// @brief Field baseCommand, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
-  /// @brief Field numChannels, offset 0x8, size 0x4
-  __declspec(property(get = __cordl_internal_get_numChannels, put = __cordl_internal_set_numChannels)) uint32_t numChannels;
+  __declspec(property(get = get_capabilities))::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
 
   /// @brief Field frequencyHz, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_frequencyHz, put = __cordl_internal_set_frequencyHz)) uint32_t frequencyHz;
@@ -47,60 +44,61 @@ public:
   /// @brief Field maxBufferSize, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_maxBufferSize, put = __cordl_internal_set_maxBufferSize)) uint32_t maxBufferSize;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  /// @brief Field numChannels, offset 0x8, size 0x4
+  __declspec(property(get = __cordl_internal_get_numChannels, put = __cordl_internal_set_numChannels)) uint32_t numChannels;
 
-  __declspec(property(get = get_capabilities))::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
+  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bb1190, size 0x5c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr uint32_t& __cordl_internal_get_numChannels();
-
-  constexpr uint32_t const& __cordl_internal_get_numChannels() const;
-
-  constexpr void __cordl_internal_set_numChannels(uint32_t value);
-
-  constexpr uint32_t& __cordl_internal_get_frequencyHz();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr uint32_t const& __cordl_internal_get_frequencyHz() const;
 
-  constexpr void __cordl_internal_set_frequencyHz(uint32_t value);
-
-  constexpr uint32_t& __cordl_internal_get_maxBufferSize();
+  constexpr uint32_t& __cordl_internal_get_frequencyHz();
 
   constexpr uint32_t const& __cordl_internal_get_maxBufferSize() const;
 
+  constexpr uint32_t& __cordl_internal_get_maxBufferSize();
+
+  constexpr uint32_t const& __cordl_internal_get_numChannels() const;
+
+  constexpr uint32_t& __cordl_internal_get_numChannels();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
+  constexpr void __cordl_internal_set_frequencyHz(uint32_t value);
+
   constexpr void __cordl_internal_set_maxBufferSize(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x2aca44c, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_numChannels(uint32_t value);
+
+  /// @brief Method get_Type, addr 0x2bb1520, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2aca47c, size 0x30, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
-
-  /// @brief Method get_capabilities, addr 0x2aca118, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x2bb11ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method Create, addr 0x2aca0bc, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand Create();
+  /// @brief Method get_typeStatic, addr 0x2bb1550, size 0x30, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetHapticCapabilitiesCommand();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "numChannels", ty: "uint32_t",
   // modifiers: "", def_value: None }, CppParam { name: "frequencyHz", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxBufferSize", ty: "uint32_t", modifiers: "", def_value:
   // None }]
   constexpr GetHapticCapabilitiesCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetHapticCapabilitiesCommand();
 
 private:
   /// @brief Explicitly laid out type with union based offsets

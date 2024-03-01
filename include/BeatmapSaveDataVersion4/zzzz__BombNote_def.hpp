@@ -15,18 +15,16 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::BombNote);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11149))
 // CS Name: ::BeatmapSaveDataVersion4::BombNote
 struct CORDL_TYPE BombNote {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BombNote(int32_t x, int32_t y) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr BombNote();
+
+  // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BombNote(int32_t x, int32_t y) noexcept;
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   int32_t x;

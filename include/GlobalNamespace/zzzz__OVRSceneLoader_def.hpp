@@ -68,22 +68,20 @@ MARK_VAL_T(::GlobalNamespace::__OVRSceneLoader__SceneInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7976))
 // CS Name: ::OVRSceneLoader::SceneInfo
 struct CORDL_TYPE __OVRSceneLoader__SceneInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x279fa44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28741bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
-
-  // Ctor Parameters [CppParam { name: "scenes", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int64_t", modifiers: "",
-  // def_value: None }]
-  constexpr __OVRSceneLoader__SceneInfo(::System::Collections::Generic::List_1<::StringW>* scenes, int64_t version) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRSceneLoader__SceneInfo();
+
+  // Ctor Parameters [CppParam { name: "scenes", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "version", ty: "int64_t", modifiers: "",
+  // def_value: None }]
+  constexpr __OVRSceneLoader__SceneInfo(::System::Collections::Generic::List_1<::StringW>* scenes, int64_t version) noexcept;
 
   /// @brief Field scenes, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* scenes;
@@ -108,12 +106,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader__SceneInfo, version) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7977))
 // CS Name: ::OVRSceneLoader::<DelayCanvasPosUpdate>d__24*
 class CORDL_TYPE __OVRSceneLoader___DelayCanvasPosUpdate_d__24 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -123,66 +123,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x28741c8, size 0xa4, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x287426c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2874274, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28742b4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x28741c4, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
-  static inline ::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x279f838, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2873fb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x279fa4c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x279fa50, size 0xa4, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x279faf4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x279fafc, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRSceneLoader___DelayCanvasPosUpdate_d__24();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x279fb3c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSceneLoader___DelayCanvasPosUpdate_d__24", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRSceneLoader___DelayCanvasPosUpdate_d__24(__OVRSceneLoader___DelayCanvasPosUpdate_d__24&&) = delete;
@@ -191,12 +193,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRSceneLoader___DelayCanvasPosUpdate_d__24(__OVRSceneLoader___DelayCanvasPosUpdate_d__24 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRSceneLoader___DelayCanvasPosUpdate_d__24();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -222,12 +218,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7978))
 // CS Name: ::OVRSceneLoader::<onCheckSceneCoroutine>d__25*
 class CORDL_TYPE __OVRSceneLoader___onCheckSceneCoroutine_d__25 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -237,66 +235,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x28742c0, size 0x34c, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x287460c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2874614, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2874654, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x28742bc, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
-  static inline ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x279f860, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2873fd8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x279fb44, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x279fb48, size 0x34c, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x279fe94, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x279fe9c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRSceneLoader___onCheckSceneCoroutine_d__25();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x279fedc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSceneLoader___onCheckSceneCoroutine_d__25", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRSceneLoader___onCheckSceneCoroutine_d__25(__OVRSceneLoader___onCheckSceneCoroutine_d__25&&) = delete;
@@ -305,12 +305,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRSceneLoader___onCheckSceneCoroutine_d__25(__OVRSceneLoader___onCheckSceneCoroutine_d__25 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRSceneLoader___onCheckSceneCoroutine_d__25();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -336,171 +330,175 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCorouti
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7976)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7979))
 // CS Name: ::OVRSceneLoader*
 class CORDL_TYPE OVRSceneLoader : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _onCheckSceneCoroutine_d__25 = ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25;
+  using SceneInfo = ::GlobalNamespace::__OVRSceneLoader__SceneInfo;
 
   using _DelayCanvasPosUpdate_d__24 = ::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24;
 
-  using SceneInfo = ::GlobalNamespace::__OVRSceneLoader__SceneInfo;
-
-  /// @brief Field sceneCheckIntervalSeconds, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_sceneCheckIntervalSeconds, put = __cordl_internal_set_sceneCheckIntervalSeconds)) float_t sceneCheckIntervalSeconds;
-
-  /// @brief Field logCloseTime, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_logCloseTime, put = __cordl_internal_set_logCloseTime)) float_t logCloseTime;
-
-  /// @brief Field mainCanvas, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mainCanvas, put = __cordl_internal_set_mainCanvas))::UnityW<::UnityEngine::Canvas> mainCanvas;
-
-  /// @brief Field logTextBox, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_logTextBox, put = __cordl_internal_set_logTextBox))::UnityW<::UnityEngine::UI::Text> logTextBox;
-
-  /// @brief Field loadSceneOperation, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_loadSceneOperation, put = __cordl_internal_set_loadSceneOperation))::UnityEngine::AsyncOperation* loadSceneOperation;
-
-  /// @brief Field formattedLogText, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_formattedLogText, put = __cordl_internal_set_formattedLogText))::StringW formattedLogText;
-
-  /// @brief Field closeLogTimer, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_closeLogTimer, put = __cordl_internal_set_closeLogTimer)) float_t closeLogTimer;
-
-  /// @brief Field closeLogDialogue, offset 0x44, size 0x1
-  __declspec(property(get = __cordl_internal_get_closeLogDialogue, put = __cordl_internal_set_closeLogDialogue)) bool closeLogDialogue;
+  using _onCheckSceneCoroutine_d__25 = ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25;
 
   /// @brief Field canvasPosUpdated, offset 0x45, size 0x1
   __declspec(property(get = __cordl_internal_get_canvasPosUpdated, put = __cordl_internal_set_canvasPosUpdated)) bool canvasPosUpdated;
 
-  /// @brief Field scenePath, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_scenePath, put = __cordl_internal_set_scenePath))::StringW scenePath;
+  /// @brief Field closeLogDialogue, offset 0x44, size 0x1
+  __declspec(property(get = __cordl_internal_get_closeLogDialogue, put = __cordl_internal_set_closeLogDialogue)) bool closeLogDialogue;
 
-  /// @brief Field sceneLoadDataPath, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_sceneLoadDataPath, put = __cordl_internal_set_sceneLoadDataPath))::StringW sceneLoadDataPath;
+  /// @brief Field closeLogTimer, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_closeLogTimer, put = __cordl_internal_set_closeLogTimer)) float_t closeLogTimer;
+
+  /// @brief Field currentSceneInfo, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get_currentSceneInfo, put = __cordl_internal_set_currentSceneInfo))::GlobalNamespace::__OVRSceneLoader__SceneInfo currentSceneInfo;
+
+  /// @brief Field formattedLogText, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_formattedLogText, put = __cordl_internal_set_formattedLogText))::StringW formattedLogText;
+
+  /// @brief Field loadSceneOperation, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_loadSceneOperation, put = __cordl_internal_set_loadSceneOperation))::UnityEngine::AsyncOperation* loadSceneOperation;
 
   /// @brief Field loadedAssetBundles, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_loadedAssetBundles,
                       put = __cordl_internal_set_loadedAssetBundles))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* loadedAssetBundles;
 
-  /// @brief Field currentSceneInfo, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_currentSceneInfo, put = __cordl_internal_set_currentSceneInfo))::GlobalNamespace::__OVRSceneLoader__SceneInfo currentSceneInfo;
+  /// @brief Field logCloseTime, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_logCloseTime, put = __cordl_internal_set_logCloseTime)) float_t logCloseTime;
 
-  constexpr float_t& __cordl_internal_get_sceneCheckIntervalSeconds();
+  /// @brief Field logTextBox, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_logTextBox, put = __cordl_internal_set_logTextBox))::UnityW<::UnityEngine::UI::Text> logTextBox;
 
-  constexpr float_t const& __cordl_internal_get_sceneCheckIntervalSeconds() const;
+  /// @brief Field mainCanvas, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_mainCanvas, put = __cordl_internal_set_mainCanvas))::UnityW<::UnityEngine::Canvas> mainCanvas;
 
-  constexpr void __cordl_internal_set_sceneCheckIntervalSeconds(float_t value);
+  /// @brief Field sceneCheckIntervalSeconds, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_sceneCheckIntervalSeconds, put = __cordl_internal_set_sceneCheckIntervalSeconds)) float_t sceneCheckIntervalSeconds;
 
-  constexpr float_t& __cordl_internal_get_logCloseTime();
+  /// @brief Field sceneLoadDataPath, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_sceneLoadDataPath, put = __cordl_internal_set_sceneLoadDataPath))::StringW sceneLoadDataPath;
 
-  constexpr float_t const& __cordl_internal_get_logCloseTime() const;
+  /// @brief Field scenePath, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_scenePath, put = __cordl_internal_set_scenePath))::StringW scenePath;
 
-  constexpr void __cordl_internal_set_logCloseTime(float_t value);
+  /// @brief Method Awake, addr 0x2872ca0, size 0x6c, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_mainCanvas();
+  /// @brief Method DelayCanvasPosUpdate, addr 0x2872e58, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
 
-  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_mainCanvas() const;
+  /// @brief Method DestroyAllGameObjects, addr 0x2874000, size 0x110, virtual false, abstract: false, final false
+  inline void DestroyAllGameObjects();
 
-  constexpr void __cordl_internal_set_mainCanvas(::UnityW<::UnityEngine::Canvas> value);
+  /// @brief Method GetSceneInfo, addr 0x2872ec0, size 0x28c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRSceneLoader__SceneInfo GetSceneInfo();
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_logTextBox();
+  /// @brief Method LoadScene, addr 0x287314c, size 0x8ac, virtual false, abstract: false, final false
+  inline void LoadScene(::GlobalNamespace::__OVRSceneLoader__SceneInfo sceneInfo);
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_logTextBox() const;
+  /// @brief Method LoadSceneOperation_completed, addr 0x28739f8, size 0xdc, virtual false, abstract: false, final false
+  inline void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
 
-  constexpr void __cordl_internal_set_logTextBox(::UnityW<::UnityEngine::UI::Text> value);
+  static inline ::GlobalNamespace::OVRSceneLoader* New_ctor();
+
+  /// @brief Method Start, addr 0x2872d0c, size 0x14c, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x2873b3c, size 0x274, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateCanvasPosition, addr 0x2873db0, size 0x200, virtual false, abstract: false, final false
+  inline void UpdateCanvasPosition();
+
+  constexpr bool const& __cordl_internal_get_canvasPosUpdated() const;
+
+  constexpr bool& __cordl_internal_get_canvasPosUpdated();
+
+  constexpr bool const& __cordl_internal_get_closeLogDialogue() const;
+
+  constexpr bool& __cordl_internal_get_closeLogDialogue();
+
+  constexpr float_t const& __cordl_internal_get_closeLogTimer() const;
+
+  constexpr float_t& __cordl_internal_get_closeLogTimer();
+
+  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo const& __cordl_internal_get_currentSceneInfo() const;
+
+  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo& __cordl_internal_get_currentSceneInfo();
+
+  constexpr ::StringW const& __cordl_internal_get_formattedLogText() const;
+
+  constexpr ::StringW& __cordl_internal_get_formattedLogText();
 
   constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get_loadSceneOperation();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get_loadSceneOperation() const;
 
-  constexpr void __cordl_internal_set_loadSceneOperation(::UnityEngine::AsyncOperation* value);
-
-  constexpr ::StringW& __cordl_internal_get_formattedLogText();
-
-  constexpr ::StringW const& __cordl_internal_get_formattedLogText() const;
-
-  constexpr void __cordl_internal_set_formattedLogText(::StringW value);
-
-  constexpr float_t& __cordl_internal_get_closeLogTimer();
-
-  constexpr float_t const& __cordl_internal_get_closeLogTimer() const;
-
-  constexpr void __cordl_internal_set_closeLogTimer(float_t value);
-
-  constexpr bool& __cordl_internal_get_closeLogDialogue();
-
-  constexpr bool const& __cordl_internal_get_closeLogDialogue() const;
-
-  constexpr void __cordl_internal_set_closeLogDialogue(bool value);
-
-  constexpr bool& __cordl_internal_get_canvasPosUpdated();
-
-  constexpr bool const& __cordl_internal_get_canvasPosUpdated() const;
-
-  constexpr void __cordl_internal_set_canvasPosUpdated(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_scenePath();
-
-  constexpr ::StringW const& __cordl_internal_get_scenePath() const;
-
-  constexpr void __cordl_internal_set_scenePath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_sceneLoadDataPath();
-
-  constexpr ::StringW const& __cordl_internal_get_sceneLoadDataPath() const;
-
-  constexpr void __cordl_internal_set_sceneLoadDataPath(::StringW value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>*& __cordl_internal_get_loadedAssetBundles();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>*> const& __cordl_internal_get_loadedAssetBundles() const;
 
-  constexpr void __cordl_internal_set_loadedAssetBundles(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* value);
+  constexpr float_t const& __cordl_internal_get_logCloseTime() const;
 
-  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo& __cordl_internal_get_currentSceneInfo();
+  constexpr float_t& __cordl_internal_get_logCloseTime();
 
-  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo const& __cordl_internal_get_currentSceneInfo() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_logTextBox() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_logTextBox();
+
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_mainCanvas() const;
+
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_mainCanvas();
+
+  constexpr float_t const& __cordl_internal_get_sceneCheckIntervalSeconds() const;
+
+  constexpr float_t& __cordl_internal_get_sceneCheckIntervalSeconds();
+
+  constexpr ::StringW const& __cordl_internal_get_sceneLoadDataPath() const;
+
+  constexpr ::StringW& __cordl_internal_get_sceneLoadDataPath();
+
+  constexpr ::StringW const& __cordl_internal_get_scenePath() const;
+
+  constexpr ::StringW& __cordl_internal_get_scenePath();
+
+  constexpr void __cordl_internal_set_canvasPosUpdated(bool value);
+
+  constexpr void __cordl_internal_set_closeLogDialogue(bool value);
+
+  constexpr void __cordl_internal_set_closeLogTimer(float_t value);
 
   constexpr void __cordl_internal_set_currentSceneInfo(::GlobalNamespace::__OVRSceneLoader__SceneInfo value);
 
-  /// @brief Method Awake, addr 0x279e528, size 0x6c, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set_formattedLogText(::StringW value);
 
-  /// @brief Method Start, addr 0x279e594, size 0x14c, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set_loadSceneOperation(::UnityEngine::AsyncOperation* value);
 
-  /// @brief Method LoadScene, addr 0x279e9d4, size 0x8ac, virtual false, abstract: false, final false
-  inline void LoadScene(::GlobalNamespace::__OVRSceneLoader__SceneInfo sceneInfo);
+  constexpr void __cordl_internal_set_loadedAssetBundles(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* value);
 
-  /// @brief Method LoadSceneOperation_completed, addr 0x279f280, size 0xdc, virtual false, abstract: false, final false
-  inline void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
+  constexpr void __cordl_internal_set_logCloseTime(float_t value);
 
-  /// @brief Method Update, addr 0x279f3c4, size 0x274, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set_logTextBox(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method UpdateCanvasPosition, addr 0x279f638, size 0x200, virtual false, abstract: false, final false
-  inline void UpdateCanvasPosition();
+  constexpr void __cordl_internal_set_mainCanvas(::UnityW<::UnityEngine::Canvas> value);
 
-  /// @brief Method GetSceneInfo, addr 0x279e748, size 0x28c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRSceneLoader__SceneInfo GetSceneInfo();
+  constexpr void __cordl_internal_set_sceneCheckIntervalSeconds(float_t value);
 
-  /// @brief Method DelayCanvasPosUpdate, addr 0x279e6e0, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
+  constexpr void __cordl_internal_set_sceneLoadDataPath(::StringW value);
 
-  /// @brief Method onCheckSceneCoroutine, addr 0x279f35c, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* onCheckSceneCoroutine();
+  constexpr void __cordl_internal_set_scenePath(::StringW value);
 
-  /// @brief Method DestroyAllGameObjects, addr 0x279f888, size 0x110, virtual false, abstract: false, final false
-  inline void DestroyAllGameObjects();
-
-  static inline ::GlobalNamespace::OVRSceneLoader* New_ctor();
-
-  /// @brief Method .ctor, addr 0x279f998, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2874110, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method onCheckSceneCoroutine, addr 0x2873ad4, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* onCheckSceneCoroutine();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRSceneLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRSceneLoader(OVRSceneLoader&&) = delete;
@@ -509,12 +507,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSceneLoader(OVRSceneLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRSceneLoader();
-
-public:
   /// @brief Field sceneCheckIntervalSeconds, offset: 0x18, size: 0x4, def value: None
   float_t ___sceneCheckIntervalSeconds;
 
@@ -557,11 +549,11 @@ public:
   /// @brief Field externalStoragePath offset 0xffffffff size 0x8
   static constexpr ::ConstString externalStoragePath{ u"/sdcard/Android/data" };
 
-  /// @brief Field sceneLoadDataName offset 0xffffffff size 0x8
-  static constexpr ::ConstString sceneLoadDataName{ u"SceneLoadData.txt" };
-
   /// @brief Field resourceBundleName offset 0xffffffff size 0x8
   static constexpr ::ConstString resourceBundleName{ u"asset_resources" };
+
+  /// @brief Field sceneLoadDataName offset 0xffffffff size 0x8
+  static constexpr ::ConstString sceneLoadDataName{ u"SceneLoadData.txt" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

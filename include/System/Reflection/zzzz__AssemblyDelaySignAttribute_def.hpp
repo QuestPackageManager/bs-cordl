@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyDelaySignAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3445))
 // CS Name: ::System.Reflection::AssemblyDelaySignAttribute*
 class CORDL_TYPE AssemblyDelaySignAttribute : public ::System::Attribute {
 public:
@@ -23,17 +21,23 @@ public:
   /// @brief Field <DelaySign>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__DelaySign_k__BackingField, put = __cordl_internal_set__DelaySign_k__BackingField)) bool _DelaySign_k__BackingField;
 
-  constexpr bool& __cordl_internal_get__DelaySign_k__BackingField();
+  static inline ::System::Reflection::AssemblyDelaySignAttribute* New_ctor(bool delaySign);
 
   constexpr bool const& __cordl_internal_get__DelaySign_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__DelaySign_k__BackingField();
+
   constexpr void __cordl_internal_set__DelaySign_k__BackingField(bool value);
 
-  static inline ::System::Reflection::AssemblyDelaySignAttribute* New_ctor(bool delaySign);
-
-  /// @brief Method .ctor, addr 0x2505078, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d6c8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool delaySign);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssemblyDelaySignAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyDelaySignAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssemblyDelaySignAttribute(AssemblyDelaySignAttribute&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssemblyDelaySignAttribute(AssemblyDelaySignAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssemblyDelaySignAttribute();
-
-public:
   /// @brief Field <DelaySign>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____DelaySign_k__BackingField;
 

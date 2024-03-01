@@ -18,49 +18,47 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LinearColor);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9158))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::LinearColor
 struct CORDL_TYPE LinearColor {
 public:
   // Declarations
-  __declspec(property(get = get_red, put = set_red)) float_t red;
+  __declspec(property(get = get_blue, put = set_blue)) float_t blue;
 
   __declspec(property(get = get_green, put = set_green)) float_t green;
 
-  __declspec(property(get = get_blue, put = set_blue)) float_t blue;
+  __declspec(property(get = get_red, put = set_red)) float_t red;
 
-  /// @brief Method get_red, addr 0x2cfcbe4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_red();
-
-  /// @brief Method set_red, addr 0x2cfcbec, size 0xb4, virtual false, abstract: false, final false
-  inline void set_red(float_t value);
-
-  /// @brief Method get_green, addr 0x2cfcca0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_green();
-
-  /// @brief Method set_green, addr 0x2cfcca8, size 0xb4, virtual false, abstract: false, final false
-  inline void set_green(float_t value);
-
-  /// @brief Method get_blue, addr 0x2cfcd5c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_blue();
-
-  /// @brief Method set_blue, addr 0x2cfcd64, size 0xb4, virtual false, abstract: false, final false
-  inline void set_blue(float_t value);
-
-  /// @brief Method Convert, addr 0x2cfce18, size 0x338, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
-
-  /// @brief Method Black, addr 0x2cfd150, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Black, addr 0x2de8878, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
 
-  // Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_blue",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr LinearColor(float_t m_red, float_t m_green, float_t m_blue, float_t m_intensity) noexcept;
+  /// @brief Method Convert, addr 0x2de8540, size 0x338, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
+
+  /// @brief Method get_blue, addr 0x2de8484, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_blue();
+
+  /// @brief Method get_green, addr 0x2de83c8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_green();
+
+  /// @brief Method get_red, addr 0x2de830c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_red();
+
+  /// @brief Method set_blue, addr 0x2de848c, size 0xb4, virtual false, abstract: false, final false
+  inline void set_blue(float_t value);
+
+  /// @brief Method set_green, addr 0x2de83d0, size 0xb4, virtual false, abstract: false, final false
+  inline void set_green(float_t value);
+
+  /// @brief Method set_red, addr 0x2de8314, size 0xb4, virtual false, abstract: false, final false
+  inline void set_red(float_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LinearColor();
+
+  // Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_blue",
+  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_intensity", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr LinearColor(float_t m_red, float_t m_green, float_t m_blue, float_t m_intensity) noexcept;
 
   /// @brief Field m_red, offset: 0x0, size: 0x4, def value: None
   float_t m_red;

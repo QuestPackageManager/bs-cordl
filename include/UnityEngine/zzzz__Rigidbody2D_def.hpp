@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::UnityEngine::Rigidbody2D);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16058))
 // CS Name: ::UnityEngine::Rigidbody2D*
 class CORDL_TYPE Rigidbody2D : public ::UnityEngine::Component {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Rigidbody2D();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Rigidbody2D", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Rigidbody2D(Rigidbody2D&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Rigidbody2D(Rigidbody2D const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Rigidbody2D();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

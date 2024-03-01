@@ -63,20 +63,24 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3641))
 // CS Name: ::FileSystemEnumerable`1::FindPredicate<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__FindPredicate : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+
   static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileSystemEnumerable_1__FindPredicate();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerable_1__FindPredicate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileSystemEnumerable_1__FindPredicate(__FileSystemEnumerable_1__FindPredicate&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileSystemEnumerable_1__FindPredicate(__FileSystemEnumerable_1__FindPredicate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileSystemEnumerable_1__FindPredicate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -101,20 +99,24 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3642))
 // CS Name: ::FileSystemEnumerable`1::FindTransform<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__FindTransform : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TResult Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+
   static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TResult Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileSystemEnumerable_1__FindTransform();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerable_1__FindTransform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileSystemEnumerable_1__FindTransform(__FileSystemEnumerable_1__FindTransform&&) = delete;
@@ -123,12 +125,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileSystemEnumerable_1__FindTransform(__FileSystemEnumerable_1__FindTransform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileSystemEnumerable_1__FindTransform();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -139,8 +135,6 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3653)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3653), inst: 1934 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3643))
 // CS Name: ::FileSystemEnumerable`1::DelegateEnumerator<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__DelegateEnumerator : public ::System::IO::Enumeration::FileSystemEnumerator_1<TResult> {
 public:
@@ -148,26 +142,32 @@ public:
   /// @brief Field _enumerable, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__enumerable, put = __cordl_internal_set__enumerable))::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* _enumerable;
 
+  static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* New_ctor(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* enumerable);
+
+  /// @brief Method ShouldIncludeEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+
+  /// @brief Method ShouldRecurseIntoEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool ShouldRecurseIntoEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+
+  /// @brief Method TransformEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TResult TransformEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+
   constexpr ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>*& __cordl_internal_get__enumerable();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::FileSystemEnumerable_1<TResult>*> const& __cordl_internal_get__enumerable() const;
 
   constexpr void __cordl_internal_set__enumerable(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* value);
 
-  static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* New_ctor(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* enumerable);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* enumerable);
 
-  /// @brief Method TransformEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TResult TransformEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileSystemEnumerable_1__DelegateEnumerator();
 
-  /// @brief Method ShouldRecurseIntoEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool ShouldRecurseIntoEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
-
-  /// @brief Method ShouldIncludeEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerable_1__DelegateEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileSystemEnumerable_1__DelegateEnumerator(__FileSystemEnumerable_1__DelegateEnumerator&&) = delete;
@@ -176,12 +176,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileSystemEnumerable_1__DelegateEnumerator(__FileSystemEnumerable_1__DelegateEnumerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileSystemEnumerable_1__DelegateEnumerator();
-
-public:
   /// @brief Field _enumerable, offset: 0x78, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* ____enumerable;
 
@@ -195,29 +189,19 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3644))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerable`1<TResult>*
 class CORDL_TYPE FileSystemEnumerable_1 : public ::System::Object {
 public:
   // Declarations
   using DelegateEnumerator = ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>;
 
-  using FindTransform = ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>;
-
   using FindPredicate = ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>;
 
-  /// @brief Field _enumerator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__enumerator, put = __cordl_internal_set__enumerator))::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* _enumerator;
+  using FindTransform = ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>;
 
-  /// @brief Field _transform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* _transform;
+  __declspec(property(get = get_ShouldIncludePredicate, put = set_ShouldIncludePredicate))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldIncludePredicate;
 
-  /// @brief Field _options, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::IO::EnumerationOptions* _options;
-
-  /// @brief Field _directory, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory))::StringW _directory;
+  __declspec(property(get = get_ShouldRecursePredicate))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldRecursePredicate;
 
   /// @brief Field <ShouldIncludePredicate>k__BackingField, offset 0x30, size 0x8
   __declspec(
@@ -229,62 +213,70 @@ public:
       property(get = __cordl_internal_get__ShouldRecursePredicate_k__BackingField,
                put = __cordl_internal_set__ShouldRecursePredicate_k__BackingField))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* _ShouldRecursePredicate_k__BackingField;
 
-  __declspec(property(get = get_ShouldIncludePredicate, put = set_ShouldIncludePredicate))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldIncludePredicate;
+  /// @brief Field _directory, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__directory, put = __cordl_internal_set__directory))::StringW _directory;
 
-  __declspec(property(get = get_ShouldRecursePredicate))::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* ShouldRecursePredicate;
+  /// @brief Field _enumerator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__enumerator, put = __cordl_internal_set__enumerator))::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* _enumerator;
+
+  /// @brief Field _options, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::IO::EnumerationOptions* _options;
+
+  /// @brief Field _transform, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* _transform;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<TResult>* GetEnumerator();
 
-  constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*& __cordl_internal_get__enumerator();
+  static inline ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* New_ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform,
+                                                                                     ::System::IO::EnumerationOptions* options);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*> const& __cordl_internal_get__enumerator() const;
-
-  constexpr void __cordl_internal_set__enumerator(::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* value);
-
-  constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*& __cordl_internal_get__transform();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* value);
-
-  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get__options();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get__options() const;
-
-  constexpr void __cordl_internal_set__options(::System::IO::EnumerationOptions* value);
-
-  constexpr ::StringW& __cordl_internal_get__directory();
-
-  constexpr ::StringW const& __cordl_internal_get__directory() const;
-
-  constexpr void __cordl_internal_set__directory(::StringW value);
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*& __cordl_internal_get__ShouldIncludePredicate_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*> const&
   __cordl_internal_get__ShouldIncludePredicate_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ShouldIncludePredicate_k__BackingField(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* value);
-
   constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*& __cordl_internal_get__ShouldRecursePredicate_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*> const&
   __cordl_internal_get__ShouldRecursePredicate_k__BackingField() const;
 
+  constexpr ::StringW const& __cordl_internal_get__directory() const;
+
+  constexpr ::StringW& __cordl_internal_get__directory();
+
+  constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*& __cordl_internal_get__enumerator();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*> const& __cordl_internal_get__enumerator() const;
+
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get__options();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get__options() const;
+
+  constexpr ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*& __cordl_internal_get__transform();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*> const& __cordl_internal_get__transform() const;
+
+  constexpr void __cordl_internal_set__ShouldIncludePredicate_k__BackingField(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* value);
+
   constexpr void __cordl_internal_set__ShouldRecursePredicate_k__BackingField(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* value);
 
-  static inline ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* New_ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform,
-                                                                                     ::System::IO::EnumerationOptions* options);
+  constexpr void __cordl_internal_set__directory(::StringW value);
+
+  constexpr void __cordl_internal_set__enumerator(::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* value);
+
+  constexpr void __cordl_internal_set__options(::System::IO::EnumerationOptions* value);
+
+  constexpr void __cordl_internal_set__transform(::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform, ::System::IO::EnumerationOptions* options);
@@ -292,18 +284,24 @@ public:
   /// @brief Method get_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* get_ShouldIncludePredicate();
 
-  /// @brief Method set_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_ShouldIncludePredicate(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* value);
-
   /// @brief Method get_ShouldRecursePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* get_ShouldRecursePredicate();
 
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<TResult>* GetEnumerator();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// @brief Method set_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_ShouldIncludePredicate(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileSystemEnumerable_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemEnumerable_1(FileSystemEnumerable_1&&) = delete;
@@ -312,12 +310,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileSystemEnumerable_1(FileSystemEnumerable_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileSystemEnumerable_1();
-
-public:
   /// @brief Field _enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* ____enumerator;
 

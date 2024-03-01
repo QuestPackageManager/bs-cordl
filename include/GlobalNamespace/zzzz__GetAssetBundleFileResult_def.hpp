@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::GetAssetBundleFileResult);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10836))
 // CS Name: ::GetAssetBundleFileResult
 struct CORDL_TYPE GetAssetBundleFileResult {
 public:
@@ -24,22 +22,22 @@ public:
   /// @brief Field Error, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_Error, put = setStaticF_Error))::GlobalNamespace::GetAssetBundleFileResult Error;
 
-  static inline void setStaticF_Error(::GlobalNamespace::GetAssetBundleFileResult value);
+  /// @brief Method Sucess, addr 0x12d1f04, size 0xc, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::GetAssetBundleFileResult Sucess(::StringW assetBundlePath);
+
+  /// @brief Method .ctor, addr 0x12d1ef4, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(bool isError, ::StringW assetBundlePath);
 
   static inline ::GlobalNamespace::GetAssetBundleFileResult getStaticF_Error();
 
-  /// @brief Method .ctor, addr 0x128ff24, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(bool isError, ::StringW assetBundlePath);
-
-  /// @brief Method Sucess, addr 0x128ff34, size 0xc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::GetAssetBundleFileResult Sucess(::StringW assetBundlePath);
-
-  // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath) noexcept;
+  static inline void setStaticF_Error(::GlobalNamespace::GetAssetBundleFileResult value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GetAssetBundleFileResult();
+
+  // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr GetAssetBundleFileResult(bool isError, ::StringW assetBundlePath) noexcept;
 
   /// @brief Field isError, offset: 0x0, size: 0x1, def value: None
   bool isError;

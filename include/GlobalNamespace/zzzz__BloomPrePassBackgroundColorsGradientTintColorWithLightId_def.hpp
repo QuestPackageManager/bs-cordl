@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorW
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14446))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14410))
 // CS Name: ::BloomPrePassBackgroundColorsGradientTintColorWithLightId*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientTintColorWithLightId : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -37,32 +35,38 @@ public:
   /// @brief Field grayscaleFactor, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_grayscaleFactor, put = __cordl_internal_set_grayscaleFactor)) float_t grayscaleFactor;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>& __cordl_internal_get__bloomPrePassBackgroundColorsGradient();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value);
-
-  constexpr bool& __cordl_internal_get__useGrayscale();
-
-  constexpr bool const& __cordl_internal_get__useGrayscale() const;
-
-  constexpr void __cordl_internal_set__useGrayscale(bool value);
-
-  constexpr float_t& __cordl_internal_get_grayscaleFactor();
-
-  constexpr float_t const& __cordl_internal_get_grayscaleFactor() const;
-
-  constexpr void __cordl_internal_set_grayscaleFactor(float_t value);
-
-  /// @brief Method ColorWasSet, addr 0x21a3060, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x22716c8, size 0x70, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21a30d0, size 0x18, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const& __cordl_internal_get__bloomPrePassBackgroundColorsGradient() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>& __cordl_internal_get__bloomPrePassBackgroundColorsGradient();
+
+  constexpr bool const& __cordl_internal_get__useGrayscale() const;
+
+  constexpr bool& __cordl_internal_get__useGrayscale();
+
+  constexpr float_t const& __cordl_internal_get_grayscaleFactor() const;
+
+  constexpr float_t& __cordl_internal_get_grayscaleFactor();
+
+  constexpr void __cordl_internal_set__bloomPrePassBackgroundColorsGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value);
+
+  constexpr void __cordl_internal_set__useGrayscale(bool value);
+
+  constexpr void __cordl_internal_set_grayscaleFactor(float_t value);
+
+  /// @brief Method .ctor, addr 0x2271738, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassBackgroundColorsGradientTintColorWithLightId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientTintColorWithLightId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightId&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundColorsGradientTintColorWithLightId();
-
-public:
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;
 

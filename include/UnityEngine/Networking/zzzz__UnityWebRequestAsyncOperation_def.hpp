@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestAsyncOperation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8945))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15733))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestAsyncOperation*
 class CORDL_TYPE UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation {
 public:
@@ -29,23 +27,29 @@ public:
 
   __declspec(property(get = get_webRequest, put = set_webRequest))::UnityEngine::Networking::UnityWebRequest* webRequest;
 
+  static inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* New_ctor();
+
   constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get__webRequest_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get__webRequest_k__BackingField() const;
 
   constexpr void __cordl_internal_set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method get_webRequest, addr 0x2ec7db4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
-
-  /// @brief Method set_webRequest, addr 0x2ec7dbc, size 0x8, virtual false, abstract: false, final false
-  inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
-
-  static inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ec7dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fbc4ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_webRequest, addr 0x2fbc4dc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();
+
+  /// @brief Method set_webRequest, addr 0x2fbc4e4, size 0x8, virtual false, abstract: false, final false
+  inline void set_webRequest(::UnityEngine::Networking::UnityWebRequest* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityWebRequestAsyncOperation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAsyncOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestAsyncOperation(UnityWebRequestAsyncOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequestAsyncOperation();
-
-public:
   /// @brief Field <webRequest>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequest* ____webRequest_k__BackingField;
 

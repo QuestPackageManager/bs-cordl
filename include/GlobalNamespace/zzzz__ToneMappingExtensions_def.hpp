@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ToneMappingExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14385))
 // CS Name: ::ToneMappingExtensions*
 class CORDL_TYPE ToneMappingExtensions : public ::System::Object {
 public:
@@ -28,13 +26,19 @@ public:
   /// @brief Field _shaderKeywordMap, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__shaderKeywordMap, put = setStaticF__shaderKeywordMap))::ArrayW<::StringW, ::Array<::StringW>*> _shaderKeywordMap;
 
-  static inline void setStaticF__shaderKeywordMap(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Method SetShaderKeyword, addr 0x226aff4, size 0x94, virtual false, abstract: false, final false
+  static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__shaderKeywordMap();
 
-  /// @brief Method SetShaderKeyword, addr 0x219c98c, size 0x94, virtual false, abstract: false, final false
-  static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
+  static inline void setStaticF__shaderKeywordMap(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ToneMappingExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ToneMappingExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToneMappingExtensions(ToneMappingExtensions&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ToneMappingExtensions(ToneMappingExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ToneMappingExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

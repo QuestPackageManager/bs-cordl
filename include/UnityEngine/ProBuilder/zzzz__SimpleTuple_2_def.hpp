@@ -17,8 +17,6 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12099))
 // CS Name: ::UnityEngine.ProBuilder::SimpleTuple`2<T1,T2>
 struct CORDL_TYPE SimpleTuple_2 {
 public:
@@ -27,30 +25,30 @@ public:
 
   __declspec(property(get = get_item2, put = set_item2)) T2 item2;
 
-  /// @brief Method get_item1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T1 get_item1();
-
-  /// @brief Method set_item1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_item1(T1 value);
-
-  /// @brief Method get_item2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T2 get_item2();
-
-  /// @brief Method set_item2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_item2(T2 value);
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T1 item1, T2 item2);
 
-  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method get_item1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T1 get_item1();
 
-  // Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: None }]
-  constexpr SimpleTuple_2(T1 m_Item1, T2 m_Item2) noexcept;
+  /// @brief Method get_item2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T2 get_item2();
+
+  /// @brief Method set_item1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_item1(T1 value);
+
+  /// @brief Method set_item2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_item2(T2 value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SimpleTuple_2();
+
+  // Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: None }]
+  constexpr SimpleTuple_2(T1 m_Item1, T2 m_Item2) noexcept;
 
   /// @brief Field m_Item1, offset: 0x0, size: 0x8, def value: None
   T1 m_Item1;

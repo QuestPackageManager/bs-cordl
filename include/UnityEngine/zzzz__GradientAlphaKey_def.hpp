@@ -15,21 +15,19 @@ MARK_VAL_T(::UnityEngine::GradientAlphaKey);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8999))
 // CS Name: ::UnityEngine::GradientAlphaKey
 struct CORDL_TYPE GradientAlphaKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2ce46b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dcfdd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t alpha, float_t time);
-
-  // Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr GradientAlphaKey(float_t alpha, float_t time) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GradientAlphaKey();
+
+  // Ctor Parameters [CppParam { name: "alpha", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr GradientAlphaKey(float_t alpha, float_t time) noexcept;
 
   /// @brief Field alpha, offset: 0x0, size: 0x4, def value: None
   float_t alpha;

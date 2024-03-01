@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableOnVisible);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14519))
 // CS Name: ::EnableOnVisible*
 class CORDL_TYPE EnableOnVisible : public ::UnityEngine::MonoBehaviour {
 public:
@@ -34,38 +32,44 @@ public:
   __declspec(property(get = __cordl_internal_get__components,
                       put = __cordl_internal_set__components))::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> _components;
 
+  /// @brief Method Awake, addr 0x2255034, size 0x64, virtual false, abstract: false, final false
+  inline void Awake();
+
+  static inline ::GlobalNamespace::EnableOnVisible* New_ctor();
+
+  /// @brief Method OnBecameInvisible, addr 0x2255120, size 0x88, virtual false, abstract: false, final false
+  inline void OnBecameInvisible();
+
+  /// @brief Method OnBecameVisible, addr 0x2255098, size 0x88, virtual false, abstract: false, final false
+  inline void OnBecameVisible();
+
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_VisibilityChangedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_VisibilityChangedEvent() const;
 
-  constexpr void __cordl_internal_set_VisibilityChangedEvent(::System::Action_1<bool>* value);
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> const& __cordl_internal_get__components() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*>& __cordl_internal_get__components();
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> const& __cordl_internal_get__components() const;
+  constexpr void __cordl_internal_set_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
   constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> value);
 
-  /// @brief Method add_VisibilityChangedEvent, addr 0x2186830, size 0xb0, virtual false, abstract: false, final false
-  inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
-
-  /// @brief Method remove_VisibilityChangedEvent, addr 0x21868e0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
-
-  /// @brief Method Awake, addr 0x2186990, size 0x64, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnBecameVisible, addr 0x21869f4, size 0x88, virtual false, abstract: false, final false
-  inline void OnBecameVisible();
-
-  /// @brief Method OnBecameInvisible, addr 0x2186a7c, size 0x88, virtual false, abstract: false, final false
-  inline void OnBecameInvisible();
-
-  static inline ::GlobalNamespace::EnableOnVisible* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2186b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22551a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_VisibilityChangedEvent, addr 0x2254ed4, size 0xb0, virtual false, abstract: false, final false
+  inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
+
+  /// @brief Method remove_VisibilityChangedEvent, addr 0x2254f84, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnableOnVisible();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnableOnVisible", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnableOnVisible(EnableOnVisible&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnableOnVisible(EnableOnVisible const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnableOnVisible();
-
-public:
   /// @brief Field VisibilityChangedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<bool>* ___VisibilityChangedEvent;
 

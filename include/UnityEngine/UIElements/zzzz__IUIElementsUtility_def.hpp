@@ -18,21 +18,10 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUIElementsUtility);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6158))
 // CS Name: ::UnityEngine.UIElements::IUIElementsUtility*
 class CORDL_TYPE IUIElementsUtility {
 public:
   // Declarations
-  /// @brief Method TakeCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TakeCapture();
-
-  /// @brief Method ReleaseCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ReleaseCapture();
-
-  /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ProcessEvent(int32_t instanceID, void* nativeEventPtr, ByRef<bool> eventHandled);
-
   /// @brief Method CleanupRoots, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CleanupRoots();
 
@@ -41,6 +30,15 @@ public:
 
   /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MakeCurrentIMGUIContainerDirty();
+
+  /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool ProcessEvent(int32_t instanceID, void* nativeEventPtr, ByRef<bool> eventHandled);
+
+  /// @brief Method ReleaseCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool ReleaseCapture();
+
+  /// @brief Method TakeCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool TakeCapture();
 
   // Ctor Parameters [CppParam { name: "", ty: "IUIElementsUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

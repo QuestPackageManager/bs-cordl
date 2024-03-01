@@ -36,23 +36,21 @@ MARK_VAL_T(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8913)), TypeDefinitionIndex(TypeDefinitionIndex(13919))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15829))
 // CS Name: ::PhysicsRaycasterWithCache::CachedRaycast
 struct CORDL_TYPE __PhysicsRaycasterWithCache__CachedRaycast {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2ed0c20, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc4348, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PhysicsRaycasterWithCache__CachedRaycast();
 
   // Ctor Parameters [CppParam { name: "wasHit", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "ray", ty: "::UnityEngine::Ray", modifiers: "", def_value: None }, CppParam { name:
   // "hitInfo", ty: "::UnityEngine::RaycastHit", modifiers: "", def_value: None }, CppParam { name: "maxDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "layerMask", ty:
   // "int32_t", modifiers: "", def_value: None }]
   constexpr __PhysicsRaycasterWithCache__CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PhysicsRaycasterWithCache__CachedRaycast();
 
   /// @brief Field wasHit, offset: 0x0, size: 0x1, def value: None
   bool wasHit;
@@ -92,8 +90,6 @@ static_assert(offsetof(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycas
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15830))
 // CS Name: ::VRUIControls::PhysicsRaycasterWithCache*
 class CORDL_TYPE PhysicsRaycasterWithCache : public ::System::Object {
 public:
@@ -107,27 +103,33 @@ public:
   /// @brief Field _lastFrameCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__lastFrameCount, put = __cordl_internal_set__lastFrameCount)) int32_t _lastFrameCount;
 
+  static inline ::VRUIControls::PhysicsRaycasterWithCache* New_ctor();
+
+  /// @brief Method Raycast, addr 0x2fc3ddc, size 0x56c, virtual false, abstract: false, final false
+  inline bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);
+
   constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& __cordl_internal_get__cachedRaycasts();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*> const&
   __cordl_internal_get__cachedRaycasts() const;
 
-  constexpr void __cordl_internal_set__cachedRaycasts(::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* value);
+  constexpr int32_t const& __cordl_internal_get__lastFrameCount() const;
 
   constexpr int32_t& __cordl_internal_get__lastFrameCount();
 
-  constexpr int32_t const& __cordl_internal_get__lastFrameCount() const;
+  constexpr void __cordl_internal_set__cachedRaycasts(::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* value);
 
   constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
-  /// @brief Method Raycast, addr 0x2ed06b4, size 0x56c, virtual false, abstract: false, final false
-  inline bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);
-
-  static inline ::VRUIControls::PhysicsRaycasterWithCache* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ed0c60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc4388, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PhysicsRaycasterWithCache();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycasterWithCache", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsRaycasterWithCache(PhysicsRaycasterWithCache&&) = delete;
@@ -136,12 +138,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PhysicsRaycasterWithCache(PhysicsRaycasterWithCache const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PhysicsRaycasterWithCache();
-
-public:
   /// @brief Field _cachedRaycasts, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* ____cachedRaycasts;
 

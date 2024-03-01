@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::RejoinDialogResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13426))
 // CS Name: ::Oculus.Platform.Models::RejoinDialogResult*
 class CORDL_TYPE RejoinDialogResult : public ::System::Object {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field RejoinSelected, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_RejoinSelected, put = __cordl_internal_set_RejoinSelected)) bool RejoinSelected;
 
-  constexpr bool& __cordl_internal_get_RejoinSelected();
+  static inline ::Oculus::Platform::Models::RejoinDialogResult* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_RejoinSelected() const;
 
+  constexpr bool& __cordl_internal_get_RejoinSelected();
+
   constexpr void __cordl_internal_set_RejoinSelected(bool value);
 
-  static inline ::Oculus::Platform::Models::RejoinDialogResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x273cbac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa3d8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RejoinDialogResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RejoinDialogResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RejoinDialogResult(RejoinDialogResult&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RejoinDialogResult(RejoinDialogResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RejoinDialogResult();
-
-public:
   /// @brief Field RejoinSelected, offset: 0x10, size: 0x1, def value: None
   bool ___RejoinSelected;
 

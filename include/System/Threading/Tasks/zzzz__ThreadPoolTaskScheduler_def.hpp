@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2814))
 // CS Name: ::ThreadPoolTaskScheduler::<>c*
 class CORDL_TYPE __ThreadPoolTaskScheduler____c : public ::System::Object {
 public:
@@ -40,18 +38,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* __9;
 
-  static inline void setStaticF___9(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* value);
+  static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* New_ctor();
+
+  /// @brief Method <.cctor>b__10_0, addr 0x27226c4, size 0x84, virtual false, abstract: false, final false
+  inline void __cctor_b__10_0(::System::Object* s);
+
+  /// @brief Method .ctor, addr 0x27226bc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* getStaticF___9();
 
-  static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* New_ctor();
+  static inline void setStaticF___9(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* value);
 
-  /// @brief Method .ctor, addr 0x2653f70, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ThreadPoolTaskScheduler____c();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x2653f78, size 0x84, virtual false, abstract: false, final false
-  inline void __cctor_b__10_0(::System::Object* s);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolTaskScheduler____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ThreadPoolTaskScheduler____c(__ThreadPoolTaskScheduler____c&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ThreadPoolTaskScheduler____c(__ThreadPoolTaskScheduler____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ThreadPoolTaskScheduler____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -76,43 +74,47 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Thre
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2812))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2815))
 // CS Name: ::System.Threading.Tasks::ThreadPoolTaskScheduler*
 class CORDL_TYPE ThreadPoolTaskScheduler : public ::System::Threading::Tasks::TaskScheduler {
 public:
   // Declarations
   using __c = ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c;
 
+  __declspec(property(get = get_RequiresAtomicStartTransition)) bool RequiresAtomicStartTransition;
+
   /// @brief Field s_longRunningThreadWork, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_longRunningThreadWork, put = setStaticF_s_longRunningThreadWork))::System::Threading::ParameterizedThreadStart* s_longRunningThreadWork;
 
-  __declspec(property(get = get_RequiresAtomicStartTransition)) bool RequiresAtomicStartTransition;
+  static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler* New_ctor();
 
-  static inline void setStaticF_s_longRunningThreadWork(::System::Threading::ParameterizedThreadStart* value);
+  /// @brief Method NotifyWorkItemProgress, addr 0x272257c, size 0x10, virtual true, abstract: false, final false
+  inline void NotifyWorkItemProgress();
+
+  /// @brief Method QueueTask, addr 0x27222c8, size 0x1c8, virtual true, abstract: false, final false
+  inline void QueueTask(::System::Threading::Tasks::Task* task);
+
+  /// @brief Method TryDequeue, addr 0x2722574, size 0x8, virtual true, abstract: false, final false
+  inline bool TryDequeue(::System::Threading::Tasks::Task* task);
+
+  /// @brief Method TryExecuteTaskInline, addr 0x2722490, size 0xe4, virtual true, abstract: false, final false
+  inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
+
+  /// @brief Method .ctor, addr 0x2722270, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Threading::ParameterizedThreadStart* getStaticF_s_longRunningThreadWork();
 
-  static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2653b24, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method QueueTask, addr 0x2653b7c, size 0x1c8, virtual true, abstract: false, final false
-  inline void QueueTask(::System::Threading::Tasks::Task* task);
-
-  /// @brief Method TryExecuteTaskInline, addr 0x2653d44, size 0xe4, virtual true, abstract: false, final false
-  inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
-
-  /// @brief Method TryDequeue, addr 0x2653e28, size 0x8, virtual true, abstract: false, final false
-  inline bool TryDequeue(::System::Threading::Tasks::Task* task);
-
-  /// @brief Method NotifyWorkItemProgress, addr 0x2653e30, size 0x10, virtual true, abstract: false, final false
-  inline void NotifyWorkItemProgress();
-
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x2653e40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x272258c, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
+  static inline void setStaticF_s_longRunningThreadWork(::System::Threading::ParameterizedThreadStart* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadPoolTaskScheduler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolTaskScheduler(ThreadPoolTaskScheduler&&) = delete;
@@ -121,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadPoolTaskScheduler(ThreadPoolTaskScheduler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadPoolTaskScheduler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

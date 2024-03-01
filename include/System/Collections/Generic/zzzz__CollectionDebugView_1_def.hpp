@@ -16,12 +16,16 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3857))
 // CS Name: ::System.Collections.Generic::CollectionDebugView`1<T>*
 class CORDL_TYPE CollectionDebugView_1 : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CollectionDebugView_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionDebugView_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionDebugView_1(CollectionDebugView_1&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionDebugView_1(CollectionDebugView_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CollectionDebugView_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

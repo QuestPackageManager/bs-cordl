@@ -17,104 +17,108 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD4Managed);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13745))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13746))
 // CS Name: ::Mono.Security.Cryptography::MD4Managed*
 class CORDL_TYPE MD4Managed : public ::Mono::Security::Cryptography::MD4 {
 public:
   // Declarations
-  /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint32_t, ::Array<uint32_t>*> state;
-
   /// @brief Field buffer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field count, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count))::ArrayW<uint32_t, ::Array<uint32_t>*> count;
 
-  /// @brief Field x, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<uint32_t, ::Array<uint32_t>*> x;
-
   /// @brief Field digest, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_state();
+  /// @brief Field state, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint32_t, ::Array<uint32_t>*> state;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_state() const;
+  /// @brief Field x, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<uint32_t, ::Array<uint32_t>*> x;
 
-  constexpr void __cordl_internal_set_state(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  /// @brief Method Decode, addr 0x24f5728, size 0xb4, virtual false, abstract: false, final false
+  inline void Decode(::ArrayW<uint32_t, ::Array<uint32_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t index);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
+  /// @brief Method Encode, addr 0x24f54dc, size 0xf8, virtual false, abstract: false, final false
+  inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> input);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
+  /// @brief Method F, addr 0x24f564c, size 0x10, virtual false, abstract: false, final false
+  inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method FF, addr 0x24f568c, size 0x2c, virtual false, abstract: false, final false
+  inline void FF(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_count();
+  /// @brief Method G, addr 0x24f565c, size 0x14, virtual false, abstract: false, final false
+  inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_count() const;
+  /// @brief Method GG, addr 0x24f56b8, size 0x3c, virtual false, abstract: false, final false
+  inline void GG(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  constexpr void __cordl_internal_set_count(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  /// @brief Method H, addr 0x24f5670, size 0xc, virtual false, abstract: false, final false
+  inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_x();
+  /// @brief Method HH, addr 0x24f56f4, size 0x34, virtual false, abstract: false, final false
+  inline void HH(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_x() const;
+  /// @brief Method HashCore, addr 0x24f4c44, size 0x124, virtual true, abstract: false, final false
+  inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  /// @brief Method HashFinal, addr 0x24f53e0, size 0xfc, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
+  /// @brief Method Initialize, addr 0x24f4b90, size 0xb4, virtual true, abstract: false, final false
+  inline void Initialize();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
-
-  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method MD4Transform, addr 0x24f4d68, size 0x678, virtual false, abstract: false, final false
+  inline void MD4Transform(::ArrayW<uint32_t, ::Array<uint32_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   static inline ::Mono::Security::Cryptography::MD4Managed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2424dc8, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Initialize, addr 0x2424e98, size 0xb4, virtual true, abstract: false, final false
-  inline void Initialize();
-
-  /// @brief Method HashCore, addr 0x2424f4c, size 0x124, virtual true, abstract: false, final false
-  inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
-
-  /// @brief Method HashFinal, addr 0x24256e8, size 0xfc, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
-
-  /// @brief Method Padding, addr 0x24258dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Padding, addr 0x24f55d4, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
-  /// @brief Method F, addr 0x2425954, size 0x10, virtual false, abstract: false, final false
-  inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
-
-  /// @brief Method G, addr 0x2425964, size 0x14, virtual false, abstract: false, final false
-  inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
-
-  /// @brief Method H, addr 0x2425978, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
-
-  /// @brief Method ROL, addr 0x2425984, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ROL, addr 0x24f567c, size 0x10, virtual false, abstract: false, final false
   inline uint32_t ROL(uint32_t x, uint8_t n);
 
-  /// @brief Method FF, addr 0x2425994, size 0x2c, virtual false, abstract: false, final false
-  inline void FF(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  /// @brief Method GG, addr 0x24259c0, size 0x3c, virtual false, abstract: false, final false
-  inline void GG(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  /// @brief Method HH, addr 0x24259fc, size 0x34, virtual false, abstract: false, final false
-  inline void HH(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_count() const;
 
-  /// @brief Method Encode, addr 0x24257e4, size 0xf8, virtual false, abstract: false, final false
-  inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> input);
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_count();
 
-  /// @brief Method Decode, addr 0x2425a30, size 0xb4, virtual false, abstract: false, final false
-  inline void Decode(::ArrayW<uint32_t, ::Array<uint32_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t index);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
 
-  /// @brief Method MD4Transform, addr 0x2425070, size 0x678, virtual false, abstract: false, final false
-  inline void MD4Transform(::ArrayW<uint32_t, ::Array<uint32_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
 
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_state() const;
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_state();
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_x() const;
+
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_x();
+
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_count(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+
+  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_state(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+
+  constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+
+  /// @brief Method .ctor, addr 0x24f4ac0, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MD4Managed();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MD4Managed(MD4Managed&&) = delete;
@@ -123,12 +127,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MD4Managed(MD4Managed const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MD4Managed();
-
-public:
   /// @brief Field state, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___state;
 

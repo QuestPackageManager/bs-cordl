@@ -21,40 +21,44 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(11643))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11607))
 // CS Name: ::System.Xml.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
+  __declspec(property(get = get_Exception))::System::Xml::Schema::XmlSchemaException* Exception;
+
+  __declspec(property(get = get_Severity))::System::Xml::Schema::XmlSeverityType Severity;
+
   /// @brief Field ex, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ex, put = __cordl_internal_set_ex))::System::Xml::Schema::XmlSchemaException* ex;
 
   /// @brief Field severity, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_severity, put = __cordl_internal_set_severity))::System::Xml::Schema::XmlSeverityType severity;
 
-  __declspec(property(get = get_Severity))::System::Xml::Schema::XmlSeverityType Severity;
-
-  __declspec(property(get = get_Exception))::System::Xml::Schema::XmlSchemaException* Exception;
-
   constexpr ::System::Xml::Schema::XmlSchemaException*& __cordl_internal_get_ex();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaException*> const& __cordl_internal_get_ex() const;
 
-  constexpr void __cordl_internal_set_ex(::System::Xml::Schema::XmlSchemaException* value);
+  constexpr ::System::Xml::Schema::XmlSeverityType const& __cordl_internal_get_severity() const;
 
   constexpr ::System::Xml::Schema::XmlSeverityType& __cordl_internal_get_severity();
 
-  constexpr ::System::Xml::Schema::XmlSeverityType const& __cordl_internal_get_severity() const;
+  constexpr void __cordl_internal_set_ex(::System::Xml::Schema::XmlSchemaException* value);
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method get_Severity, addr 0x28c8258, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSeverityType get_Severity();
-
-  /// @brief Method get_Exception, addr 0x28c8260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x29af6dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
+  /// @brief Method get_Severity, addr 0x29af6d4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSeverityType get_Severity();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValidationEventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationEventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationEventArgs(ValidationEventArgs&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationEventArgs(ValidationEventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidationEventArgs();
-
-public:
   /// @brief Field ex, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaException* ___ex;
 

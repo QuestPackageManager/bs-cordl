@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerEventsHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6429))
 // CS Name: ::UnityEngine.UIElements::PointerEventsHelper*
 class CORDL_TYPE PointerEventsHelper : public ::System::Object {
 public:
@@ -35,10 +33,16 @@ public:
   static inline void SendEnterLeave(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                     ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 
-  /// @brief Method SendOverOut, addr 0x2e64610, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method SendOverOut, addr 0x2f56d38, size 0x380, virtual false, abstract: false, final false
   static inline void SendOverOut(::UnityEngine::UIElements::VisualElement* previousTopElementUnderPointer, ::UnityEngine::UIElements::VisualElement* currentTopElementUnderPointer,
                                  ::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerEventsHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerEventsHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerEventsHelper(PointerEventsHelper&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerEventsHelper(PointerEventsHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerEventsHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

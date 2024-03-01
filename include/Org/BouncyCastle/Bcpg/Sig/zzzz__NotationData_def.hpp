@@ -17,39 +17,43 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::NotationData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(531))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(538))
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::NotationData*
 class CORDL_TYPE NotationData : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
   __declspec(property(get = get_IsHumanReadable)) bool IsHumanReadable;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+  /// @brief Method CreateData, addr 0x1238dec, size 0x220, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method .ctor, addr 0x11f5d80, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+  /// @brief Method GetNotationName, addr 0x123903c, size 0x6c, virtual false, abstract: false, final false
+  inline ::StringW GetNotationName();
+
+  /// @brief Method GetNotationValue, addr 0x12390a8, size 0x90, virtual false, abstract: false, final false
+  inline ::StringW GetNotationValue();
+
+  /// @brief Method GetNotationValueBytes, addr 0x1239138, size 0xc4, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNotationValueBytes();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method .ctor, addr 0x11f5dc8, size 0x54, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method .ctor, addr 0x1238d98, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method CreateData, addr 0x11f5e1c, size 0x220, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(bool humanReadable, ::StringW notationName, ::StringW notationValue);
+  /// @brief Method .ctor, addr 0x1238d50, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_IsHumanReadable, addr 0x11f603c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsHumanReadable, addr 0x123900c, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsHumanReadable();
 
-  /// @brief Method GetNotationName, addr 0x11f606c, size 0x6c, virtual false, abstract: false, final false
-  inline ::StringW GetNotationName();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotationData();
 
-  /// @brief Method GetNotationValue, addr 0x11f60d8, size 0x90, virtual false, abstract: false, final false
-  inline ::StringW GetNotationValue();
-
-  /// @brief Method GetNotationValueBytes, addr 0x11f6168, size 0xc4, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNotationValueBytes();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NotationData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotationData(NotationData&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotationData(NotationData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NotationData();
-
-public:
   /// @brief Field HeaderFlagLength offset 0xffffffff size 0x4
   static constexpr int32_t HeaderFlagLength{ static_cast<int32_t>(0x4) };
 

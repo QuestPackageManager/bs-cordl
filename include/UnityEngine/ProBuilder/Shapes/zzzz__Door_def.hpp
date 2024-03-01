@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Door);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12131))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12126))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Door*
 class CORDL_TYPE Door : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -42,29 +40,35 @@ public:
   /// @brief Field m_LegWidth, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LegWidth, put = __cordl_internal_set_m_LegWidth)) float_t m_LegWidth;
 
-  constexpr float_t& __cordl_internal_get_m_DoorHeight();
-
-  constexpr float_t const& __cordl_internal_get_m_DoorHeight() const;
-
-  constexpr void __cordl_internal_set_m_DoorHeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_LegWidth();
-
-  constexpr float_t const& __cordl_internal_get_m_LegWidth() const;
-
-  constexpr void __cordl_internal_set_m_LegWidth(float_t value);
-
-  /// @brief Method CopyShape, addr 0x2b8855c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2c70630, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
-
-  /// @brief Method RebuildMesh, addr 0x2b88608, size 0x1a9c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Door* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b8a0a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2c706dc, size 0x1a9c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+
+  constexpr float_t const& __cordl_internal_get_m_DoorHeight() const;
+
+  constexpr float_t& __cordl_internal_get_m_DoorHeight();
+
+  constexpr float_t const& __cordl_internal_get_m_LegWidth() const;
+
+  constexpr float_t& __cordl_internal_get_m_LegWidth();
+
+  constexpr void __cordl_internal_set_m_DoorHeight(float_t value);
+
+  constexpr void __cordl_internal_set_m_LegWidth(float_t value);
+
+  /// @brief Method .ctor, addr 0x2c72178, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Door();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Door", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Door(Door&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Door(Door const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Door();
-
-public:
   /// @brief Field m_DoorHeight, offset: 0x10, size: 0x4, def value: None
   float_t ___m_DoorHeight;
 

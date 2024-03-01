@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1060))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Iso18033KdfParameters*
 class CORDL_TYPE Iso18033KdfParameters : public ::System::Object {
 public:
@@ -31,23 +29,29 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
-  constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
-
-  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetSeed, addr 0xfa6bb0, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0xf61bb8, size 0x28, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
+
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xfa6b88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method GetSeed, addr 0xf61be0, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Iso18033KdfParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Iso18033KdfParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Iso18033KdfParameters(Iso18033KdfParameters&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Iso18033KdfParameters(Iso18033KdfParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Iso18033KdfParameters();
-
-public:
   /// @brief Field seed, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___seed;
 

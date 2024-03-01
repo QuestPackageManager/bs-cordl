@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Xml::AttributeProperties);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11336))
 // CS Name: ::System.Xml::AttributeProperties
 struct CORDL_TYPE AttributeProperties {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__AttributeProperties_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr AttributeProperties(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AttributeProperties();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr AttributeProperties(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field DEFAULT value: static_cast<uint32_t>(0x4020100u)
-  static ::System::Xml::AttributeProperties const DEFAULT;
-
-  /// @brief Field URI value: static_cast<uint32_t>(0x40201u)
-  static ::System::Xml::AttributeProperties const URI;
 
   /// @brief Field BOOLEAN value: static_cast<uint32_t>(0x2000402u)
   static ::System::Xml::AttributeProperties const BOOLEAN;
 
+  /// @brief Field DEFAULT value: static_cast<uint32_t>(0x4020100u)
+  static ::System::Xml::AttributeProperties const DEFAULT;
+
   /// @brief Field NAME value: static_cast<uint32_t>(0x4020004u)
   static ::System::Xml::AttributeProperties const NAME;
+
+  /// @brief Field URI value: static_cast<uint32_t>(0x40201u)
+  static ::System::Xml::AttributeProperties const URI;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

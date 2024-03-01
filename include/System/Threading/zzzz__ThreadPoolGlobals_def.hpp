@@ -18,40 +18,44 @@ MARK_REF_PTR_T(::System::Threading::ThreadPoolGlobals);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2730))
 // CS Name: ::System.Threading::ThreadPoolGlobals*
 class CORDL_TYPE ThreadPoolGlobals : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field enableWorkerTracking, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_enableWorkerTracking, put = setStaticF_enableWorkerTracking)) bool enableWorkerTracking;
+
   /// @brief Field processorCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_processorCount, put = setStaticF_processorCount)) int32_t processorCount;
 
   /// @brief Field vmTpInitialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_vmTpInitialized, put = setStaticF_vmTpInitialized)) bool vmTpInitialized;
 
-  /// @brief Field enableWorkerTracking, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_enableWorkerTracking, put = setStaticF_enableWorkerTracking)) bool enableWorkerTracking;
-
   /// @brief Field workQueue, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_workQueue, put = setStaticF_workQueue))::System::Threading::ThreadPoolWorkQueue* workQueue;
 
-  static inline void setStaticF_processorCount(int32_t value);
+  static inline bool getStaticF_enableWorkerTracking();
 
   static inline int32_t getStaticF_processorCount();
 
-  static inline void setStaticF_vmTpInitialized(bool value);
-
   static inline bool getStaticF_vmTpInitialized();
-
-  static inline void setStaticF_enableWorkerTracking(bool value);
-
-  static inline bool getStaticF_enableWorkerTracking();
-
-  static inline void setStaticF_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
 
   static inline ::System::Threading::ThreadPoolWorkQueue* getStaticF_workQueue();
 
+  static inline void setStaticF_enableWorkerTracking(bool value);
+
+  static inline void setStaticF_processorCount(int32_t value);
+
+  static inline void setStaticF_vmTpInitialized(bool value);
+
+  static inline void setStaticF_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadPoolGlobals();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolGlobals", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadPoolGlobals(ThreadPoolGlobals&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadPoolGlobals(ThreadPoolGlobals const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadPoolGlobals();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

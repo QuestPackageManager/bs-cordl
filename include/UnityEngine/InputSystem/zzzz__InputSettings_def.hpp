@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputSettings);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5560))
 // CS Name: ::InputSettings::UpdateMode
 struct CORDL_TYPE __InputSettings__UpdateMode {
 public:
@@ -67,18 +65,20 @@ public:
     return static_cast<____InputSettings__UpdateMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputSettings__UpdateMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputSettings__UpdateMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __InputSettings__UpdateMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field ProcessEventsInDynamicUpdate value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::__InputSettings__UpdateMode const ProcessEventsInDynamicUpdate;
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field ProcessEventsManually value: static_cast<int32_t>(0x3)
   static ::UnityEngine::InputSystem::__InputSettings__UpdateMode const ProcessEventsManually;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -101,8 +104,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__UpdateMode, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5561))
 // CS Name: ::InputSettings::BackgroundBehavior
 struct CORDL_TYPE __InputSettings__BackgroundBehavior {
 public:
@@ -121,27 +122,32 @@ public:
     return static_cast<____InputSettings__BackgroundBehavior_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputSettings__BackgroundBehavior(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputSettings__BackgroundBehavior();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __InputSettings__BackgroundBehavior(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field ResetAndDisableNonBackgroundDevices value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const ResetAndDisableNonBackgroundDevices;
+  /// @brief Field IgnoreFocus value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const IgnoreFocus;
 
   /// @brief Field ResetAndDisableAllDevices value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const ResetAndDisableAllDevices;
 
-  /// @brief Field IgnoreFocus value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const IgnoreFocus;
+  /// @brief Field ResetAndDisableNonBackgroundDevices value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const ResetAndDisableNonBackgroundDevices;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -155,8 +161,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__BackgroundBe
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5562))
 // CS Name: ::InputSettings::EditorInputBehaviorInPlayMode
 struct CORDL_TYPE __InputSettings__EditorInputBehaviorInPlayMode {
 public:
@@ -175,27 +179,32 @@ public:
     return static_cast<____InputSettings__EditorInputBehaviorInPlayMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputSettings__EditorInputBehaviorInPlayMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputSettings__EditorInputBehaviorInPlayMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __InputSettings__EditorInputBehaviorInPlayMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field PointersAndKeyboardsRespectGameViewFocus value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const PointersAndKeyboardsRespectGameViewFocus;
+  /// @brief Field AllDeviceInputAlwaysGoesToGameView value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const AllDeviceInputAlwaysGoesToGameView;
 
   /// @brief Field AllDevicesRespectGameViewFocus value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const AllDevicesRespectGameViewFocus;
 
-  /// @brief Field AllDeviceInputAlwaysGoesToGameView value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const AllDeviceInputAlwaysGoesToGameView;
+  /// @brief Field PointersAndKeyboardsRespectGameViewFocus value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const PointersAndKeyboardsRespectGameViewFocus;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -209,22 +218,78 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSettings__EditorInputB
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5560)), TypeDefinitionIndex(TypeDefinitionIndex(5561)), TypeDefinitionIndex(TypeDefinitionIndex(5562)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8954))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5563)) CS Name: ::UnityEngine.InputSystem::InputSettings*
+// CS Name: ::UnityEngine.InputSystem::InputSettings*
 class CORDL_TYPE InputSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  using EditorInputBehaviorInPlayMode = ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode;
-
   using BackgroundBehavior = ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior;
+
+  using EditorInputBehaviorInPlayMode = ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode;
 
   using UpdateMode = ::UnityEngine::InputSystem::__InputSettings__UpdateMode;
 
-  /// @brief Field m_SupportedDevices, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SupportedDevices, put = __cordl_internal_set_m_SupportedDevices))::ArrayW<::StringW, ::Array<::StringW>*> m_SupportedDevices;
+  __declspec(property(get = get_backgroundBehavior, put = set_backgroundBehavior))::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior backgroundBehavior;
 
-  /// @brief Field m_UpdateMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_UpdateMode, put = __cordl_internal_set_m_UpdateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode m_UpdateMode;
+  __declspec(property(get = get_buttonReleaseThreshold, put = set_buttonReleaseThreshold)) float_t buttonReleaseThreshold;
+
+  __declspec(property(get = get_compensateForScreenOrientation, put = set_compensateForScreenOrientation)) bool compensateForScreenOrientation;
+
+  __declspec(property(get = get_defaultButtonPressPoint, put = set_defaultButtonPressPoint)) float_t defaultButtonPressPoint;
+
+  __declspec(property(get = get_defaultDeadzoneMax, put = set_defaultDeadzoneMax)) float_t defaultDeadzoneMax;
+
+  __declspec(property(get = get_defaultDeadzoneMin, put = set_defaultDeadzoneMin)) float_t defaultDeadzoneMin;
+
+  __declspec(property(get = get_defaultHoldTime, put = set_defaultHoldTime)) float_t defaultHoldTime;
+
+  __declspec(property(get = get_defaultSlowTapTime, put = set_defaultSlowTapTime)) float_t defaultSlowTapTime;
+
+  __declspec(property(get = get_defaultTapTime, put = set_defaultTapTime)) float_t defaultTapTime;
+
+  __declspec(property(get = get_disableRedundantEventsMerging, put = set_disableRedundantEventsMerging)) bool disableRedundantEventsMerging;
+
+  __declspec(property(get = get_editorInputBehaviorInPlayMode,
+                      put = set_editorInputBehaviorInPlayMode))::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode editorInputBehaviorInPlayMode;
+
+  __declspec(property(get = get_filterNoiseOnCurrent, put = set_filterNoiseOnCurrent)) bool filterNoiseOnCurrent;
+
+  /// @brief Field m_BackgroundBehavior, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_BackgroundBehavior,
+                      put = __cordl_internal_set_m_BackgroundBehavior))::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior m_BackgroundBehavior;
+
+  /// @brief Field m_ButtonReleaseThreshold, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ButtonReleaseThreshold, put = __cordl_internal_set_m_ButtonReleaseThreshold)) float_t m_ButtonReleaseThreshold;
+
+  /// @brief Field m_CompensateForScreenOrientation, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_CompensateForScreenOrientation, put = __cordl_internal_set_m_CompensateForScreenOrientation)) bool m_CompensateForScreenOrientation;
+
+  /// @brief Field m_DefaultButtonPressPoint, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefaultButtonPressPoint, put = __cordl_internal_set_m_DefaultButtonPressPoint)) float_t m_DefaultButtonPressPoint;
+
+  /// @brief Field m_DefaultDeadzoneMax, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMax, put = __cordl_internal_set_m_DefaultDeadzoneMax)) float_t m_DefaultDeadzoneMax;
+
+  /// @brief Field m_DefaultDeadzoneMin, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMin, put = __cordl_internal_set_m_DefaultDeadzoneMin)) float_t m_DefaultDeadzoneMin;
+
+  /// @brief Field m_DefaultHoldTime, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefaultHoldTime, put = __cordl_internal_set_m_DefaultHoldTime)) float_t m_DefaultHoldTime;
+
+  /// @brief Field m_DefaultSlowTapTime, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefaultSlowTapTime, put = __cordl_internal_set_m_DefaultSlowTapTime)) float_t m_DefaultSlowTapTime;
+
+  /// @brief Field m_DefaultTapTime, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_DefaultTapTime, put = __cordl_internal_set_m_DefaultTapTime)) float_t m_DefaultTapTime;
+
+  /// @brief Field m_DisableRedundantEventsMerging, offset 0x5c, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_DisableRedundantEventsMerging, put = __cordl_internal_set_m_DisableRedundantEventsMerging)) bool m_DisableRedundantEventsMerging;
+
+  /// @brief Field m_EditorInputBehaviorInPlayMode, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_EditorInputBehaviorInPlayMode,
+                      put = __cordl_internal_set_m_EditorInputBehaviorInPlayMode))::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode m_EditorInputBehaviorInPlayMode;
+
+  /// @brief Field m_FeatureFlags, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FeatureFlags, put = __cordl_internal_set_m_FeatureFlags))::System::Collections::Generic::HashSet_1<::StringW>* m_FeatureFlags;
 
   /// @brief Field m_MaxEventBytesPerUpdate, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxEventBytesPerUpdate, put = __cordl_internal_set_m_MaxEventBytesPerUpdate)) int32_t m_MaxEventBytesPerUpdate;
@@ -232,326 +297,275 @@ public:
   /// @brief Field m_MaxQueuedEventsPerUpdate, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxQueuedEventsPerUpdate, put = __cordl_internal_set_m_MaxQueuedEventsPerUpdate)) int32_t m_MaxQueuedEventsPerUpdate;
 
-  /// @brief Field m_CompensateForScreenOrientation, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_CompensateForScreenOrientation, put = __cordl_internal_set_m_CompensateForScreenOrientation)) bool m_CompensateForScreenOrientation;
-
-  /// @brief Field m_BackgroundBehavior, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_BackgroundBehavior,
-                      put = __cordl_internal_set_m_BackgroundBehavior))::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior m_BackgroundBehavior;
-
-  /// @brief Field m_EditorInputBehaviorInPlayMode, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_EditorInputBehaviorInPlayMode,
-                      put = __cordl_internal_set_m_EditorInputBehaviorInPlayMode))::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode m_EditorInputBehaviorInPlayMode;
-
-  /// @brief Field m_DefaultDeadzoneMin, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMin, put = __cordl_internal_set_m_DefaultDeadzoneMin)) float_t m_DefaultDeadzoneMin;
-
-  /// @brief Field m_DefaultDeadzoneMax, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMax, put = __cordl_internal_set_m_DefaultDeadzoneMax)) float_t m_DefaultDeadzoneMax;
-
-  /// @brief Field m_DefaultButtonPressPoint, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DefaultButtonPressPoint, put = __cordl_internal_set_m_DefaultButtonPressPoint)) float_t m_DefaultButtonPressPoint;
-
-  /// @brief Field m_ButtonReleaseThreshold, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ButtonReleaseThreshold, put = __cordl_internal_set_m_ButtonReleaseThreshold)) float_t m_ButtonReleaseThreshold;
-
-  /// @brief Field m_DefaultTapTime, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DefaultTapTime, put = __cordl_internal_set_m_DefaultTapTime)) float_t m_DefaultTapTime;
-
-  /// @brief Field m_DefaultSlowTapTime, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DefaultSlowTapTime, put = __cordl_internal_set_m_DefaultSlowTapTime)) float_t m_DefaultSlowTapTime;
-
-  /// @brief Field m_DefaultHoldTime, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DefaultHoldTime, put = __cordl_internal_set_m_DefaultHoldTime)) float_t m_DefaultHoldTime;
-
-  /// @brief Field m_TapRadius, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_TapRadius, put = __cordl_internal_set_m_TapRadius)) float_t m_TapRadius;
-
   /// @brief Field m_MultiTapDelayTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MultiTapDelayTime, put = __cordl_internal_set_m_MultiTapDelayTime)) float_t m_MultiTapDelayTime;
-
-  /// @brief Field m_DisableRedundantEventsMerging, offset 0x5c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_DisableRedundantEventsMerging, put = __cordl_internal_set_m_DisableRedundantEventsMerging)) bool m_DisableRedundantEventsMerging;
 
   /// @brief Field m_ShortcutKeysConsumeInputs, offset 0x5d, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShortcutKeysConsumeInputs, put = __cordl_internal_set_m_ShortcutKeysConsumeInputs)) bool m_ShortcutKeysConsumeInputs;
 
-  /// @brief Field m_FeatureFlags, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FeatureFlags, put = __cordl_internal_set_m_FeatureFlags))::System::Collections::Generic::HashSet_1<::StringW>* m_FeatureFlags;
+  /// @brief Field m_SupportedDevices, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SupportedDevices, put = __cordl_internal_set_m_SupportedDevices))::ArrayW<::StringW, ::Array<::StringW>*> m_SupportedDevices;
 
-  __declspec(property(get = get_updateMode, put = set_updateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode updateMode;
+  /// @brief Field m_TapRadius, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_TapRadius, put = __cordl_internal_set_m_TapRadius)) float_t m_TapRadius;
 
-  __declspec(property(get = get_compensateForScreenOrientation, put = set_compensateForScreenOrientation)) bool compensateForScreenOrientation;
-
-  __declspec(property(get = get_filterNoiseOnCurrent, put = set_filterNoiseOnCurrent)) bool filterNoiseOnCurrent;
-
-  __declspec(property(get = get_defaultDeadzoneMin, put = set_defaultDeadzoneMin)) float_t defaultDeadzoneMin;
-
-  __declspec(property(get = get_defaultDeadzoneMax, put = set_defaultDeadzoneMax)) float_t defaultDeadzoneMax;
-
-  __declspec(property(get = get_defaultButtonPressPoint, put = set_defaultButtonPressPoint)) float_t defaultButtonPressPoint;
-
-  __declspec(property(get = get_buttonReleaseThreshold, put = set_buttonReleaseThreshold)) float_t buttonReleaseThreshold;
-
-  __declspec(property(get = get_defaultTapTime, put = set_defaultTapTime)) float_t defaultTapTime;
-
-  __declspec(property(get = get_defaultSlowTapTime, put = set_defaultSlowTapTime)) float_t defaultSlowTapTime;
-
-  __declspec(property(get = get_defaultHoldTime, put = set_defaultHoldTime)) float_t defaultHoldTime;
-
-  __declspec(property(get = get_tapRadius, put = set_tapRadius)) float_t tapRadius;
-
-  __declspec(property(get = get_multiTapDelayTime, put = set_multiTapDelayTime)) float_t multiTapDelayTime;
-
-  __declspec(property(get = get_backgroundBehavior, put = set_backgroundBehavior))::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior backgroundBehavior;
-
-  __declspec(property(get = get_editorInputBehaviorInPlayMode,
-                      put = set_editorInputBehaviorInPlayMode))::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode editorInputBehaviorInPlayMode;
+  /// @brief Field m_UpdateMode, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UpdateMode, put = __cordl_internal_set_m_UpdateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode m_UpdateMode;
 
   __declspec(property(get = get_maxEventBytesPerUpdate, put = set_maxEventBytesPerUpdate)) int32_t maxEventBytesPerUpdate;
 
   __declspec(property(get = get_maxQueuedEventsPerUpdate, put = set_maxQueuedEventsPerUpdate)) int32_t maxQueuedEventsPerUpdate;
 
+  __declspec(property(get = get_multiTapDelayTime, put = set_multiTapDelayTime)) float_t multiTapDelayTime;
+
   __declspec(property(get = get_supportedDevices, put = set_supportedDevices))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> supportedDevices;
 
-  __declspec(property(get = get_disableRedundantEventsMerging, put = set_disableRedundantEventsMerging)) bool disableRedundantEventsMerging;
+  __declspec(property(get = get_tapRadius, put = set_tapRadius)) float_t tapRadius;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_SupportedDevices();
+  __declspec(property(get = get_updateMode, put = set_updateMode))::UnityEngine::InputSystem::__InputSettings__UpdateMode updateMode;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_SupportedDevices() const;
+  /// @brief Method IsFeatureEnabled, addr 0x2b9ffb8, size 0xc0, virtual false, abstract: false, final false
+  inline bool IsFeatureEnabled(::StringW featureName);
 
-  constexpr void __cordl_internal_set_m_SupportedDevices(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  static inline ::UnityEngine::InputSystem::InputSettings* New_ctor();
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode& __cordl_internal_get_m_UpdateMode();
+  /// @brief Method OnChange, addr 0x2b9f9b8, size 0xcc, virtual false, abstract: false, final false
+  inline void OnChange();
 
-  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode const& __cordl_internal_get_m_UpdateMode() const;
-
-  constexpr void __cordl_internal_set_m_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
-
-  constexpr int32_t& __cordl_internal_get_m_MaxEventBytesPerUpdate();
-
-  constexpr int32_t const& __cordl_internal_get_m_MaxEventBytesPerUpdate() const;
-
-  constexpr void __cordl_internal_set_m_MaxEventBytesPerUpdate(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_MaxQueuedEventsPerUpdate();
-
-  constexpr int32_t const& __cordl_internal_get_m_MaxQueuedEventsPerUpdate() const;
-
-  constexpr void __cordl_internal_set_m_MaxQueuedEventsPerUpdate(int32_t value);
-
-  constexpr bool& __cordl_internal_get_m_CompensateForScreenOrientation();
-
-  constexpr bool const& __cordl_internal_get_m_CompensateForScreenOrientation() const;
-
-  constexpr void __cordl_internal_set_m_CompensateForScreenOrientation(bool value);
-
-  constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior& __cordl_internal_get_m_BackgroundBehavior();
+  /// @brief Method SetInternalFeatureFlag, addr 0x2b9fe18, size 0x1a0, virtual false, abstract: false, final false
+  inline void SetInternalFeatureFlag(::StringW featureName, bool enabled);
 
   constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior const& __cordl_internal_get_m_BackgroundBehavior() const;
 
-  constexpr void __cordl_internal_set_m_BackgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
-
-  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode& __cordl_internal_get_m_EditorInputBehaviorInPlayMode();
-
-  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const& __cordl_internal_get_m_EditorInputBehaviorInPlayMode() const;
-
-  constexpr void __cordl_internal_set_m_EditorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
-
-  constexpr float_t& __cordl_internal_get_m_DefaultDeadzoneMin();
-
-  constexpr float_t const& __cordl_internal_get_m_DefaultDeadzoneMin() const;
-
-  constexpr void __cordl_internal_set_m_DefaultDeadzoneMin(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_DefaultDeadzoneMax();
-
-  constexpr float_t const& __cordl_internal_get_m_DefaultDeadzoneMax() const;
-
-  constexpr void __cordl_internal_set_m_DefaultDeadzoneMax(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_DefaultButtonPressPoint();
-
-  constexpr float_t const& __cordl_internal_get_m_DefaultButtonPressPoint() const;
-
-  constexpr void __cordl_internal_set_m_DefaultButtonPressPoint(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_ButtonReleaseThreshold();
+  constexpr ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior& __cordl_internal_get_m_BackgroundBehavior();
 
   constexpr float_t const& __cordl_internal_get_m_ButtonReleaseThreshold() const;
 
-  constexpr void __cordl_internal_set_m_ButtonReleaseThreshold(float_t value);
+  constexpr float_t& __cordl_internal_get_m_ButtonReleaseThreshold();
 
-  constexpr float_t& __cordl_internal_get_m_DefaultTapTime();
+  constexpr bool const& __cordl_internal_get_m_CompensateForScreenOrientation() const;
 
-  constexpr float_t const& __cordl_internal_get_m_DefaultTapTime() const;
+  constexpr bool& __cordl_internal_get_m_CompensateForScreenOrientation();
 
-  constexpr void __cordl_internal_set_m_DefaultTapTime(float_t value);
+  constexpr float_t const& __cordl_internal_get_m_DefaultButtonPressPoint() const;
 
-  constexpr float_t& __cordl_internal_get_m_DefaultSlowTapTime();
+  constexpr float_t& __cordl_internal_get_m_DefaultButtonPressPoint();
 
-  constexpr float_t const& __cordl_internal_get_m_DefaultSlowTapTime() const;
+  constexpr float_t const& __cordl_internal_get_m_DefaultDeadzoneMax() const;
 
-  constexpr void __cordl_internal_set_m_DefaultSlowTapTime(float_t value);
+  constexpr float_t& __cordl_internal_get_m_DefaultDeadzoneMax();
 
-  constexpr float_t& __cordl_internal_get_m_DefaultHoldTime();
+  constexpr float_t const& __cordl_internal_get_m_DefaultDeadzoneMin() const;
+
+  constexpr float_t& __cordl_internal_get_m_DefaultDeadzoneMin();
 
   constexpr float_t const& __cordl_internal_get_m_DefaultHoldTime() const;
 
-  constexpr void __cordl_internal_set_m_DefaultHoldTime(float_t value);
+  constexpr float_t& __cordl_internal_get_m_DefaultHoldTime();
 
-  constexpr float_t& __cordl_internal_get_m_TapRadius();
+  constexpr float_t const& __cordl_internal_get_m_DefaultSlowTapTime() const;
 
-  constexpr float_t const& __cordl_internal_get_m_TapRadius() const;
+  constexpr float_t& __cordl_internal_get_m_DefaultSlowTapTime();
 
-  constexpr void __cordl_internal_set_m_TapRadius(float_t value);
+  constexpr float_t const& __cordl_internal_get_m_DefaultTapTime() const;
 
-  constexpr float_t& __cordl_internal_get_m_MultiTapDelayTime();
-
-  constexpr float_t const& __cordl_internal_get_m_MultiTapDelayTime() const;
-
-  constexpr void __cordl_internal_set_m_MultiTapDelayTime(float_t value);
-
-  constexpr bool& __cordl_internal_get_m_DisableRedundantEventsMerging();
+  constexpr float_t& __cordl_internal_get_m_DefaultTapTime();
 
   constexpr bool const& __cordl_internal_get_m_DisableRedundantEventsMerging() const;
 
-  constexpr void __cordl_internal_set_m_DisableRedundantEventsMerging(bool value);
+  constexpr bool& __cordl_internal_get_m_DisableRedundantEventsMerging();
 
-  constexpr bool& __cordl_internal_get_m_ShortcutKeysConsumeInputs();
+  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode const& __cordl_internal_get_m_EditorInputBehaviorInPlayMode() const;
 
-  constexpr bool const& __cordl_internal_get_m_ShortcutKeysConsumeInputs() const;
-
-  constexpr void __cordl_internal_set_m_ShortcutKeysConsumeInputs(bool value);
+  constexpr ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode& __cordl_internal_get_m_EditorInputBehaviorInPlayMode();
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_m_FeatureFlags();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get_m_FeatureFlags() const;
 
+  constexpr int32_t const& __cordl_internal_get_m_MaxEventBytesPerUpdate() const;
+
+  constexpr int32_t& __cordl_internal_get_m_MaxEventBytesPerUpdate();
+
+  constexpr int32_t const& __cordl_internal_get_m_MaxQueuedEventsPerUpdate() const;
+
+  constexpr int32_t& __cordl_internal_get_m_MaxQueuedEventsPerUpdate();
+
+  constexpr float_t const& __cordl_internal_get_m_MultiTapDelayTime() const;
+
+  constexpr float_t& __cordl_internal_get_m_MultiTapDelayTime();
+
+  constexpr bool const& __cordl_internal_get_m_ShortcutKeysConsumeInputs() const;
+
+  constexpr bool& __cordl_internal_get_m_ShortcutKeysConsumeInputs();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_SupportedDevices() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_SupportedDevices();
+
+  constexpr float_t const& __cordl_internal_get_m_TapRadius() const;
+
+  constexpr float_t& __cordl_internal_get_m_TapRadius();
+
+  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode const& __cordl_internal_get_m_UpdateMode() const;
+
+  constexpr ::UnityEngine::InputSystem::__InputSettings__UpdateMode& __cordl_internal_get_m_UpdateMode();
+
+  constexpr void __cordl_internal_set_m_BackgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
+
+  constexpr void __cordl_internal_set_m_ButtonReleaseThreshold(float_t value);
+
+  constexpr void __cordl_internal_set_m_CompensateForScreenOrientation(bool value);
+
+  constexpr void __cordl_internal_set_m_DefaultButtonPressPoint(float_t value);
+
+  constexpr void __cordl_internal_set_m_DefaultDeadzoneMax(float_t value);
+
+  constexpr void __cordl_internal_set_m_DefaultDeadzoneMin(float_t value);
+
+  constexpr void __cordl_internal_set_m_DefaultHoldTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_DefaultSlowTapTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_DefaultTapTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_DisableRedundantEventsMerging(bool value);
+
+  constexpr void __cordl_internal_set_m_EditorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
+
   constexpr void __cordl_internal_set_m_FeatureFlags(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method get_updateMode, addr 0x2ab88c4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode get_updateMode();
+  constexpr void __cordl_internal_set_m_MaxEventBytesPerUpdate(int32_t value);
 
-  /// @brief Method set_updateMode, addr 0x2ab88cc, size 0x18, virtual false, abstract: false, final false
-  inline void set_updateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
+  constexpr void __cordl_internal_set_m_MaxQueuedEventsPerUpdate(int32_t value);
 
-  /// @brief Method get_compensateForScreenOrientation, addr 0x2ab89b0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_compensateForScreenOrientation();
+  constexpr void __cordl_internal_set_m_MultiTapDelayTime(float_t value);
 
-  /// @brief Method set_compensateForScreenOrientation, addr 0x2ab89b8, size 0x1c, virtual false, abstract: false, final false
-  inline void set_compensateForScreenOrientation(bool value);
+  constexpr void __cordl_internal_set_m_ShortcutKeysConsumeInputs(bool value);
 
-  /// @brief Method get_filterNoiseOnCurrent, addr 0x2ab89d4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_filterNoiseOnCurrent();
+  constexpr void __cordl_internal_set_m_SupportedDevices(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_filterNoiseOnCurrent, addr 0x2ab89dc, size 0x4, virtual false, abstract: false, final false
-  inline void set_filterNoiseOnCurrent(bool value);
+  constexpr void __cordl_internal_set_m_TapRadius(float_t value);
 
-  /// @brief Method get_defaultDeadzoneMin, addr 0x2ab89e0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_defaultDeadzoneMin();
+  constexpr void __cordl_internal_set_m_UpdateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
 
-  /// @brief Method set_defaultDeadzoneMin, addr 0x2ab89e8, size 0x18, virtual false, abstract: false, final false
-  inline void set_defaultDeadzoneMin(float_t value);
-
-  /// @brief Method get_defaultDeadzoneMax, addr 0x2ab8a00, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_defaultDeadzoneMax();
-
-  /// @brief Method set_defaultDeadzoneMax, addr 0x2ab8a08, size 0x18, virtual false, abstract: false, final false
-  inline void set_defaultDeadzoneMax(float_t value);
-
-  /// @brief Method get_defaultButtonPressPoint, addr 0x2ab8a20, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_defaultButtonPressPoint();
-
-  /// @brief Method set_defaultButtonPressPoint, addr 0x2ab8a28, size 0x34, virtual false, abstract: false, final false
-  inline void set_defaultButtonPressPoint(float_t value);
-
-  /// @brief Method get_buttonReleaseThreshold, addr 0x2ab8a5c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_buttonReleaseThreshold();
-
-  /// @brief Method set_buttonReleaseThreshold, addr 0x2ab8a64, size 0x18, virtual false, abstract: false, final false
-  inline void set_buttonReleaseThreshold(float_t value);
-
-  /// @brief Method get_defaultTapTime, addr 0x2ab8a7c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_defaultTapTime();
-
-  /// @brief Method set_defaultTapTime, addr 0x2ab8a84, size 0x18, virtual false, abstract: false, final false
-  inline void set_defaultTapTime(float_t value);
-
-  /// @brief Method get_defaultSlowTapTime, addr 0x2ab8a9c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_defaultSlowTapTime();
-
-  /// @brief Method set_defaultSlowTapTime, addr 0x2ab8aa4, size 0x18, virtual false, abstract: false, final false
-  inline void set_defaultSlowTapTime(float_t value);
-
-  /// @brief Method get_defaultHoldTime, addr 0x2ab8abc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_defaultHoldTime();
-
-  /// @brief Method set_defaultHoldTime, addr 0x2ab8ac4, size 0x18, virtual false, abstract: false, final false
-  inline void set_defaultHoldTime(float_t value);
-
-  /// @brief Method get_tapRadius, addr 0x2ab8adc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_tapRadius();
-
-  /// @brief Method set_tapRadius, addr 0x2ab8ae4, size 0x18, virtual false, abstract: false, final false
-  inline void set_tapRadius(float_t value);
-
-  /// @brief Method get_multiTapDelayTime, addr 0x2ab8afc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_multiTapDelayTime();
-
-  /// @brief Method set_multiTapDelayTime, addr 0x2ab8b04, size 0x18, virtual false, abstract: false, final false
-  inline void set_multiTapDelayTime(float_t value);
-
-  /// @brief Method get_backgroundBehavior, addr 0x2ab8b1c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior get_backgroundBehavior();
-
-  /// @brief Method set_backgroundBehavior, addr 0x2ab8b24, size 0x18, virtual false, abstract: false, final false
-  inline void set_backgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
-
-  /// @brief Method get_editorInputBehaviorInPlayMode, addr 0x2ab8b3c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode();
-
-  /// @brief Method set_editorInputBehaviorInPlayMode, addr 0x2ab8b44, size 0x18, virtual false, abstract: false, final false
-  inline void set_editorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
-
-  /// @brief Method get_maxEventBytesPerUpdate, addr 0x2ab8b5c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxEventBytesPerUpdate();
-
-  /// @brief Method set_maxEventBytesPerUpdate, addr 0x2ab8b64, size 0x18, virtual false, abstract: false, final false
-  inline void set_maxEventBytesPerUpdate(int32_t value);
-
-  /// @brief Method get_maxQueuedEventsPerUpdate, addr 0x2ab8b7c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxQueuedEventsPerUpdate();
-
-  /// @brief Method set_maxQueuedEventsPerUpdate, addr 0x2ab8b84, size 0x18, virtual false, abstract: false, final false
-  inline void set_maxQueuedEventsPerUpdate(int32_t value);
-
-  /// @brief Method get_supportedDevices, addr 0x2ab8b9c, size 0x60, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices();
-
-  /// @brief Method set_supportedDevices, addr 0x2ab8bfc, size 0x124, virtual false, abstract: false, final false
-  inline void set_supportedDevices(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value);
-
-  /// @brief Method get_disableRedundantEventsMerging, addr 0x2ab8d20, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disableRedundantEventsMerging();
-
-  /// @brief Method set_disableRedundantEventsMerging, addr 0x2ab8d28, size 0x1c, virtual false, abstract: false, final false
-  inline void set_disableRedundantEventsMerging(bool value);
-
-  /// @brief Method SetInternalFeatureFlag, addr 0x2ab8d44, size 0x1a0, virtual false, abstract: false, final false
-  inline void SetInternalFeatureFlag(::StringW featureName, bool enabled);
-
-  /// @brief Method IsFeatureEnabled, addr 0x2ab8ee4, size 0xc0, virtual false, abstract: false, final false
-  inline bool IsFeatureEnabled(::StringW featureName);
-
-  /// @brief Method OnChange, addr 0x2ab88e4, size 0xcc, virtual false, abstract: false, final false
-  inline void OnChange();
-
-  static inline ::UnityEngine::InputSystem::InputSettings* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ab8fa4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ba0078, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_backgroundBehavior, addr 0x2b9fbf0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior get_backgroundBehavior();
+
+  /// @brief Method get_buttonReleaseThreshold, addr 0x2b9fb30, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_buttonReleaseThreshold();
+
+  /// @brief Method get_compensateForScreenOrientation, addr 0x2b9fa84, size 0x8, virtual false, abstract: false, final false
+  inline bool get_compensateForScreenOrientation();
+
+  /// @brief Method get_defaultButtonPressPoint, addr 0x2b9faf4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_defaultButtonPressPoint();
+
+  /// @brief Method get_defaultDeadzoneMax, addr 0x2b9fad4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_defaultDeadzoneMax();
+
+  /// @brief Method get_defaultDeadzoneMin, addr 0x2b9fab4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_defaultDeadzoneMin();
+
+  /// @brief Method get_defaultHoldTime, addr 0x2b9fb90, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_defaultHoldTime();
+
+  /// @brief Method get_defaultSlowTapTime, addr 0x2b9fb70, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_defaultSlowTapTime();
+
+  /// @brief Method get_defaultTapTime, addr 0x2b9fb50, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_defaultTapTime();
+
+  /// @brief Method get_disableRedundantEventsMerging, addr 0x2b9fdf4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_disableRedundantEventsMerging();
+
+  /// @brief Method get_editorInputBehaviorInPlayMode, addr 0x2b9fc10, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode();
+
+  /// @brief Method get_filterNoiseOnCurrent, addr 0x2b9faa8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_filterNoiseOnCurrent();
+
+  /// @brief Method get_maxEventBytesPerUpdate, addr 0x2b9fc30, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxEventBytesPerUpdate();
+
+  /// @brief Method get_maxQueuedEventsPerUpdate, addr 0x2b9fc50, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxQueuedEventsPerUpdate();
+
+  /// @brief Method get_multiTapDelayTime, addr 0x2b9fbd0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_multiTapDelayTime();
+
+  /// @brief Method get_supportedDevices, addr 0x2b9fc70, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices();
+
+  /// @brief Method get_tapRadius, addr 0x2b9fbb0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_tapRadius();
+
+  /// @brief Method get_updateMode, addr 0x2b9f998, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::__InputSettings__UpdateMode get_updateMode();
+
+  /// @brief Method set_backgroundBehavior, addr 0x2b9fbf8, size 0x18, virtual false, abstract: false, final false
+  inline void set_backgroundBehavior(::UnityEngine::InputSystem::__InputSettings__BackgroundBehavior value);
+
+  /// @brief Method set_buttonReleaseThreshold, addr 0x2b9fb38, size 0x18, virtual false, abstract: false, final false
+  inline void set_buttonReleaseThreshold(float_t value);
+
+  /// @brief Method set_compensateForScreenOrientation, addr 0x2b9fa8c, size 0x1c, virtual false, abstract: false, final false
+  inline void set_compensateForScreenOrientation(bool value);
+
+  /// @brief Method set_defaultButtonPressPoint, addr 0x2b9fafc, size 0x34, virtual false, abstract: false, final false
+  inline void set_defaultButtonPressPoint(float_t value);
+
+  /// @brief Method set_defaultDeadzoneMax, addr 0x2b9fadc, size 0x18, virtual false, abstract: false, final false
+  inline void set_defaultDeadzoneMax(float_t value);
+
+  /// @brief Method set_defaultDeadzoneMin, addr 0x2b9fabc, size 0x18, virtual false, abstract: false, final false
+  inline void set_defaultDeadzoneMin(float_t value);
+
+  /// @brief Method set_defaultHoldTime, addr 0x2b9fb98, size 0x18, virtual false, abstract: false, final false
+  inline void set_defaultHoldTime(float_t value);
+
+  /// @brief Method set_defaultSlowTapTime, addr 0x2b9fb78, size 0x18, virtual false, abstract: false, final false
+  inline void set_defaultSlowTapTime(float_t value);
+
+  /// @brief Method set_defaultTapTime, addr 0x2b9fb58, size 0x18, virtual false, abstract: false, final false
+  inline void set_defaultTapTime(float_t value);
+
+  /// @brief Method set_disableRedundantEventsMerging, addr 0x2b9fdfc, size 0x1c, virtual false, abstract: false, final false
+  inline void set_disableRedundantEventsMerging(bool value);
+
+  /// @brief Method set_editorInputBehaviorInPlayMode, addr 0x2b9fc18, size 0x18, virtual false, abstract: false, final false
+  inline void set_editorInputBehaviorInPlayMode(::UnityEngine::InputSystem::__InputSettings__EditorInputBehaviorInPlayMode value);
+
+  /// @brief Method set_filterNoiseOnCurrent, addr 0x2b9fab0, size 0x4, virtual false, abstract: false, final false
+  inline void set_filterNoiseOnCurrent(bool value);
+
+  /// @brief Method set_maxEventBytesPerUpdate, addr 0x2b9fc38, size 0x18, virtual false, abstract: false, final false
+  inline void set_maxEventBytesPerUpdate(int32_t value);
+
+  /// @brief Method set_maxQueuedEventsPerUpdate, addr 0x2b9fc58, size 0x18, virtual false, abstract: false, final false
+  inline void set_maxQueuedEventsPerUpdate(int32_t value);
+
+  /// @brief Method set_multiTapDelayTime, addr 0x2b9fbd8, size 0x18, virtual false, abstract: false, final false
+  inline void set_multiTapDelayTime(float_t value);
+
+  /// @brief Method set_supportedDevices, addr 0x2b9fcd0, size 0x124, virtual false, abstract: false, final false
+  inline void set_supportedDevices(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value);
+
+  /// @brief Method set_tapRadius, addr 0x2b9fbb8, size 0x18, virtual false, abstract: false, final false
+  inline void set_tapRadius(float_t value);
+
+  /// @brief Method set_updateMode, addr 0x2b9f9a0, size 0x18, virtual false, abstract: false, final false
+  inline void set_updateMode(::UnityEngine::InputSystem::__InputSettings__UpdateMode value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputSettings(InputSettings&&) = delete;
@@ -560,12 +574,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputSettings(InputSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputSettings();
-
-public:
   /// @brief Field m_SupportedDevices, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_SupportedDevices;
 

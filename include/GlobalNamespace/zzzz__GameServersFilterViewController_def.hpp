@@ -35,163 +35,167 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5016))
 // CS Name: ::GameServersFilterViewController*
 class CORDL_TYPE GameServersFilterViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _filterByDifficultyToggle, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterByDifficultyToggle, put = __cordl_internal_set__filterByDifficultyToggle))::UnityW<::UnityEngine::UI::Toggle> _filterByDifficultyToggle;
-
-  /// @brief Field _filterByDifficultyButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterByDifficultyButton, put = __cordl_internal_set__filterByDifficultyButton))::UnityW<::UnityEngine::UI::Button> _filterByDifficultyButton;
-
   /// @brief Field _beatmapDifficultyDropdown, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDifficultyDropdown,
                       put = __cordl_internal_set__beatmapDifficultyDropdown))::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> _beatmapDifficultyDropdown;
 
-  /// @brief Field _filterByModifiersToggle, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterByModifiersToggle, put = __cordl_internal_set__filterByModifiersToggle))::UnityW<::UnityEngine::UI::Toggle> _filterByModifiersToggle;
+  /// @brief Field _filterByDifficultyButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterByDifficultyButton, put = __cordl_internal_set__filterByDifficultyButton))::UnityW<::UnityEngine::UI::Button> _filterByDifficultyButton;
+
+  /// @brief Field _filterByDifficultyToggle, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterByDifficultyToggle, put = __cordl_internal_set__filterByDifficultyToggle))::UnityW<::UnityEngine::UI::Toggle> _filterByDifficultyToggle;
 
   /// @brief Field _filterByModifiersButton, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__filterByModifiersButton, put = __cordl_internal_set__filterByModifiersButton))::UnityW<::UnityEngine::UI::Button> _filterByModifiersButton;
+
+  /// @brief Field _filterByModifiersToggle, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterByModifiersToggle, put = __cordl_internal_set__filterByModifiersToggle))::UnityW<::UnityEngine::UI::Toggle> _filterByModifiersToggle;
+
+  /// @brief Field _filterBySongsButton, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterBySongsButton, put = __cordl_internal_set__filterBySongsButton))::UnityW<::UnityEngine::UI::Button> _filterBySongsButton;
+
+  /// @brief Field _filterBySongsToggle, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterBySongsToggle, put = __cordl_internal_set__filterBySongsToggle))::UnityW<::UnityEngine::UI::Toggle> _filterBySongsToggle;
 
   /// @brief Field _gameplayModifiersDropdown, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiersDropdown,
                       put = __cordl_internal_set__gameplayModifiersDropdown))::UnityW<::GlobalNamespace::GameplayModifiersDropdown> _gameplayModifiersDropdown;
 
-  /// @brief Field _filterBySongsToggle, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterBySongsToggle, put = __cordl_internal_set__filterBySongsToggle))::UnityW<::UnityEngine::UI::Toggle> _filterBySongsToggle;
-
-  /// @brief Field _filterBySongsButton, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterBySongsButton, put = __cordl_internal_set__filterBySongsButton))::UnityW<::UnityEngine::UI::Button> _filterBySongsButton;
-
-  /// @brief Field _songPacksDropdown, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPacksDropdown, put = __cordl_internal_set__songPacksDropdown))::UnityW<::GlobalNamespace::SongPacksDropdown> _songPacksDropdown;
-
   /// @brief Field _showFullToggle, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__showFullToggle, put = __cordl_internal_set__showFullToggle))::UnityW<::UnityEngine::UI::Toggle> _showFullToggle;
+
+  /// @brief Field _showInternetGames, offset 0xd0, size 0x1
+  __declspec(property(get = __cordl_internal_get__showInternetGames, put = __cordl_internal_set__showInternetGames)) bool _showInternetGames;
 
   /// @brief Field _showPasswordProtectedToggle, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__showPasswordProtectedToggle,
                       put = __cordl_internal_set__showPasswordProtectedToggle))::UnityW<::UnityEngine::UI::Toggle> _showPasswordProtectedToggle;
 
+  /// @brief Field _songPacksDropdown, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPacksDropdown, put = __cordl_internal_set__songPacksDropdown))::UnityW<::GlobalNamespace::SongPacksDropdown> _songPacksDropdown;
+
   /// @brief Field _toggleBinder, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  /// @brief Field _showInternetGames, offset 0xd0, size 0x1
-  __declspec(property(get = __cordl_internal_get__showInternetGames, put = __cordl_internal_set__showInternetGames)) bool _showInternetGames;
-
   __declspec(property(get = get_gameServersFilter))::GlobalNamespace::GameServersFilter* gameServersFilter;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterByDifficultyToggle();
+  /// @brief Method DidActivate, addr 0x23cbd28, size 0x15c, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterByDifficultyToggle() const;
+  static inline ::GlobalNamespace::GameServersFilterViewController* New_ctor();
 
-  constexpr void __cordl_internal_set__filterByDifficultyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+  /// @brief Method OnDestroy, addr 0x23cbe84, size 0x28, virtual true, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterByDifficultyButton();
+  /// @brief Method Refresh, addr 0x23cbc04, size 0x124, virtual false, abstract: false, final false
+  inline void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterByDifficultyButton() const;
+  /// @brief Method SetupGameServersFilter, addr 0x23cbc00, size 0x4, virtual false, abstract: false, final false
+  inline void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
 
-  constexpr void __cordl_internal_set__filterByDifficultyButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method <DidActivate>b__16_0, addr 0x23cbf14, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__16_0(bool isOn);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown>& __cordl_internal_get__beatmapDifficultyDropdown();
+  /// @brief Method <DidActivate>b__16_1, addr 0x23cbf34, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__16_1(bool isOn);
+
+  /// @brief Method <DidActivate>b__16_2, addr 0x23cbf54, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__16_2(bool isOn);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
 
-  constexpr void __cordl_internal_set__beatmapDifficultyDropdown(::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> value);
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown>& __cordl_internal_get__beatmapDifficultyDropdown();
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterByModifiersToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterByDifficultyButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterByModifiersToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterByDifficultyButton();
 
-  constexpr void __cordl_internal_set__filterByModifiersToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterByDifficultyToggle() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterByModifiersButton();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterByDifficultyToggle();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterByModifiersButton() const;
 
-  constexpr void __cordl_internal_set__filterByModifiersButton(::UnityW<::UnityEngine::UI::Button> value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterByModifiersButton();
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown>& __cordl_internal_get__gameplayModifiersDropdown();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterByModifiersToggle() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown> const& __cordl_internal_get__gameplayModifiersDropdown() const;
-
-  constexpr void __cordl_internal_set__gameplayModifiersDropdown(::UnityW<::GlobalNamespace::GameplayModifiersDropdown> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterBySongsToggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterBySongsToggle() const;
-
-  constexpr void __cordl_internal_set__filterBySongsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterBySongsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterByModifiersToggle();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__filterBySongsButton() const;
 
-  constexpr void __cordl_internal_set__filterBySongsButton(::UnityW<::UnityEngine::UI::Button> value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__filterBySongsButton();
 
-  constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__filterBySongsToggle() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown> const& __cordl_internal_get__songPacksDropdown() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__filterBySongsToggle();
 
-  constexpr void __cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::SongPacksDropdown> value);
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown> const& __cordl_internal_get__gameplayModifiersDropdown() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__showFullToggle();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown>& __cordl_internal_get__gameplayModifiersDropdown();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__showFullToggle() const;
 
-  constexpr void __cordl_internal_set__showFullToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__showFullToggle();
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__showPasswordProtectedToggle();
+  constexpr bool const& __cordl_internal_get__showInternetGames() const;
+
+  constexpr bool& __cordl_internal_get__showInternetGames();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__showPasswordProtectedToggle() const;
 
-  constexpr void __cordl_internal_set__showPasswordProtectedToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__showPasswordProtectedToggle();
+
+  constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown> const& __cordl_internal_get__songPacksDropdown() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
 
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__beatmapDifficultyDropdown(::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> value);
 
-  constexpr bool& __cordl_internal_get__showInternetGames();
+  constexpr void __cordl_internal_set__filterByDifficultyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr bool const& __cordl_internal_get__showInternetGames() const;
+  constexpr void __cordl_internal_set__filterByDifficultyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__filterByModifiersButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__filterByModifiersToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__filterBySongsButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__filterBySongsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__gameplayModifiersDropdown(::UnityW<::GlobalNamespace::GameplayModifiersDropdown> value);
+
+  constexpr void __cordl_internal_set__showFullToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
   constexpr void __cordl_internal_set__showInternetGames(bool value);
 
-  /// @brief Method get_gameServersFilter, addr 0x22fce4c, size 0x10c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
+  constexpr void __cordl_internal_set__showPasswordProtectedToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method SetupGameServersFilter, addr 0x22fcf58, size 0x4, virtual false, abstract: false, final false
-  inline void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
+  constexpr void __cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::SongPacksDropdown> value);
 
-  /// @brief Method DidActivate, addr 0x22fd080, size 0x15c, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method OnDestroy, addr 0x22fd1dc, size 0x28, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method Refresh, addr 0x22fcf5c, size 0x124, virtual false, abstract: false, final false
-  inline void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
-
-  static inline ::GlobalNamespace::GameServersFilterViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22fd204, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cbeac, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__16_0, addr 0x22fd26c, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__16_0(bool isOn);
+  /// @brief Method get_gameServersFilter, addr 0x23cbaf4, size 0x10c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
 
-  /// @brief Method <DidActivate>b__16_1, addr 0x22fd28c, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__16_1(bool isOn);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameServersFilterViewController();
 
-  /// @brief Method <DidActivate>b__16_2, addr 0x22fd2ac, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__16_2(bool isOn);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServersFilterViewController(GameServersFilterViewController&&) = delete;
@@ -200,12 +204,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServersFilterViewController(GameServersFilterViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameServersFilterViewController();
-
-public:
   /// @brief Field _filterByDifficultyToggle, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByDifficultyToggle;
 

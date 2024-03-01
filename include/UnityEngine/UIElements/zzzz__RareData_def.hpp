@@ -49,41 +49,43 @@ MARK_VAL_T(::UnityEngine::UIElements::RareData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6067)), TypeDefinitionIndex(TypeDefinitionIndex(6147)), TypeDefinitionIndex(TypeDefinitionIndex(6152)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6153)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14601))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6617))
 // CS Name: ::UnityEngine.UIElements::RareData
 struct CORDL_TYPE RareData {
 public:
   // Declarations
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::RareData>*();
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*();
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
-  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
+  /// @brief Method Copy, addr 0x2f92b9c, size 0x1c, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::RareData>*();
+  /// @brief Method CopyFrom, addr 0x2f92bb8, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other);
+
+  /// @brief Method Equals, addr 0x2f92d30, size 0xa0, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f92cec, size 0x44, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::RareData other);
+
+  /// @brief Method GetHashCode, addr 0x2f92dd0, size 0xf8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* i___System__IEquatable_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method Copy, addr 0x2e9e474, size 0x1c, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::RareData Copy();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method CopyFrom, addr 0x2e9e490, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other);
-
-  /// @brief Method op_Equality, addr 0x2e9e4a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f92bcc, size 0x120, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
-  /// @brief Method Equals, addr 0x2e9e5c4, size 0x44, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::RareData other);
-
-  /// @brief Method Equals, addr 0x2e9e608, size 0xa0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e9e6a8, size 0xf8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RareData();
 
   // Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: None }, CppParam { name: "textOverflow", ty:
   // "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: None }, CppParam { name: "unityBackgroundImageTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None },
@@ -94,10 +96,6 @@ public:
   constexpr RareData(::UnityEngine::UIElements::Cursor cursor, ::UnityEngine::UIElements::TextOverflow textOverflow, ::UnityEngine::Color unityBackgroundImageTintColor,
                      ::UnityEngine::ScaleMode unityBackgroundScaleMode, ::UnityEngine::UIElements::OverflowClipBox unityOverflowClipBox, int32_t unitySliceBottom, int32_t unitySliceLeft,
                      int32_t unitySliceRight, int32_t unitySliceTop, ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RareData();
 
   /// @brief Field cursor, offset: 0x0, size: 0x18, def value: None
   ::UnityEngine::UIElements::Cursor cursor;

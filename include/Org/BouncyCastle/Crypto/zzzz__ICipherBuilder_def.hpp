@@ -23,22 +23,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ICipherBuilder);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(978))
 // CS Name: ::Org.BouncyCastle.Crypto::ICipherBuilder*
 class CORDL_TYPE ICipherBuilder {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
-  /// @brief Method get_AlgorithmDetails, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* get_AlgorithmDetails();
+  /// @brief Method BuildCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
   /// @brief Method GetMaxOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method BuildCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
+  /// @brief Method get_AlgorithmDetails, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* get_AlgorithmDetails();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

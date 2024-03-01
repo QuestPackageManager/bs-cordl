@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::EventModifiers);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14607))
 // CS Name: ::UnityEngine::EventModifiers
 struct CORDL_TYPE EventModifiers {
 public:
@@ -40,42 +38,47 @@ public:
     return static_cast<__EventModifiers_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EventModifiers(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventModifiers();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EventModifiers(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::EventModifiers const None;
-
-  /// @brief Field Shift value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::EventModifiers const Shift;
-
-  /// @brief Field Control value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::EventModifiers const Control;
 
   /// @brief Field Alt value: static_cast<int32_t>(0x4)
   static ::UnityEngine::EventModifiers const Alt;
 
+  /// @brief Field CapsLock value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::EventModifiers const CapsLock;
+
   /// @brief Field Command value: static_cast<int32_t>(0x8)
   static ::UnityEngine::EventModifiers const Command;
+
+  /// @brief Field Control value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::EventModifiers const Control;
+
+  /// @brief Field FunctionKey value: static_cast<int32_t>(0x40)
+  static ::UnityEngine::EventModifiers const FunctionKey;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::EventModifiers const None;
 
   /// @brief Field Numeric value: static_cast<int32_t>(0x10)
   static ::UnityEngine::EventModifiers const Numeric;
 
-  /// @brief Field CapsLock value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::EventModifiers const CapsLock;
+  /// @brief Field Shift value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::EventModifiers const Shift;
 
-  /// @brief Field FunctionKey value: static_cast<int32_t>(0x40)
-  static ::UnityEngine::EventModifiers const FunctionKey;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

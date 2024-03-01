@@ -25,39 +25,37 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance);
 // SizeInfo { instance_size: 16, native_size: 24, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9148))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14017))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::SceneInstance
 struct CORDL_TYPE SceneInstance {
 public:
   // Declarations
   __declspec(property(get = get_Scene, put = set_Scene))::UnityEngine::SceneManagement::Scene Scene;
 
-  /// @brief Method get_Scene, addr 0x2bd4f74, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::SceneManagement::Scene get_Scene();
-
-  /// @brief Method set_Scene, addr 0x2bd4f7c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
-
-  /// @brief Method Activate, addr 0x2bd4f84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x2cbe058, size 0x20, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method ActivateAsync, addr 0x2bd4fa4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ActivateAsync, addr 0x2cbe078, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* ActivateAsync();
 
-  /// @brief Method GetHashCode, addr 0x2bd4fd0, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x2bd4ff0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cbe0c4, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  // Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*",
-  // modifiers: "", def_value: None }]
-  constexpr SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, ::UnityEngine::AsyncOperation* m_Operation) noexcept;
+  /// @brief Method GetHashCode, addr 0x2cbe0a4, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method get_Scene, addr 0x2cbe048, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::SceneManagement::Scene get_Scene();
+
+  /// @brief Method set_Scene, addr 0x2cbe050, size 0x8, virtual false, abstract: false, final false
+  inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SceneInstance();
+
+  // Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*",
+  // modifiers: "", def_value: None }]
+  constexpr SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, ::UnityEngine::AsyncOperation* m_Operation) noexcept;
 
   /// @brief Field m_Scene, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::Scene m_Scene;

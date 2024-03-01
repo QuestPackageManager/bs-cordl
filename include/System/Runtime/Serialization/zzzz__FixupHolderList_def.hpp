@@ -19,47 +19,51 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::FixupHolderList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3220))
 // CS Name: ::System.Runtime.Serialization::FixupHolderList*
 class CORDL_TYPE FixupHolderList : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field m_count, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
+
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values,
                       put = __cordl_internal_set_m_values))::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> m_values;
 
-  /// @brief Field m_count, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
+  /// @brief Method Add, addr 0x25ae6b0, size 0xa8, virtual true, abstract: false, final false
+  inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
 
-  constexpr ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*>& __cordl_internal_get_m_values();
-
-  constexpr ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> const& __cordl_internal_get_m_values() const;
-
-  constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> value);
-
-  constexpr int32_t& __cordl_internal_get_m_count();
-
-  constexpr int32_t const& __cordl_internal_get_m_count() const;
-
-  constexpr void __cordl_internal_set_m_count(int32_t value);
+  /// @brief Method EnlargeArray, addr 0x25ae758, size 0x88, virtual false, abstract: false, final false
+  inline void EnlargeArray();
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24dd840, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor(int32_t startingSize);
 
-  /// @brief Method .ctor, addr 0x24dd94c, size 0x6c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_m_count() const;
+
+  constexpr int32_t& __cordl_internal_get_m_count();
+
+  constexpr ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> const& __cordl_internal_get_m_values() const;
+
+  constexpr ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*>& __cordl_internal_get_m_values();
+
+  constexpr void __cordl_internal_set_m_count(int32_t value);
+
+  constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> value);
+
+  /// @brief Method .ctor, addr 0x25ae538, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25ae644, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method Add, addr 0x24dd9b8, size 0xa8, virtual true, abstract: false, final false
-  inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixupHolderList();
 
-  /// @brief Method EnlargeArray, addr 0x24dda60, size 0x88, virtual false, abstract: false, final false
-  inline void EnlargeArray();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FixupHolderList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixupHolderList(FixupHolderList&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixupHolderList(FixupHolderList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixupHolderList();
-
-public:
   /// @brief Field m_values, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> ___m_values;
 

@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::UnityEngine::UI::PositionAsUV1);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13041))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13045))
 // CS Name: ::UnityEngine.UI::PositionAsUV1*
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
-  static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2daf974, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ModifyMesh, addr 0x2daf97c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x2e9e0a4, size 0xbc, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
+  static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2e9e09c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PositionAsUV1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PositionAsUV1(PositionAsUV1&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PositionAsUV1(PositionAsUV1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PositionAsUV1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

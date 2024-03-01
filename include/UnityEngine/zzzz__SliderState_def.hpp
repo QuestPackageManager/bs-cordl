@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::SliderState);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14603))
 // CS Name: ::UnityEngine::SliderState*
 class CORDL_TYPE SliderState : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::SliderState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d09b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df627c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SliderState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SliderState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderState(SliderState&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderState(SliderState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderState();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

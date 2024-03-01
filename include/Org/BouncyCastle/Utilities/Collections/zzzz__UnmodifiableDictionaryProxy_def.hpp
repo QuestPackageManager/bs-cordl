@@ -30,26 +30,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictiona
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1785))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1786))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableDictionaryProxy*
 class CORDL_TYPE UnmodifiableDictionaryProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary {
 public:
   // Declarations
-  /// @brief Field d, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::System::Collections::IDictionary* d;
-
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_IsFixedSize)) bool IsFixedSize;
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
-
   __declspec(property(get = get_Keys))::System::Collections::ICollection* Keys;
 
+  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+
   __declspec(property(get = get_Values))::System::Collections::ICollection* Values;
+
+  /// @brief Field d, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::System::Collections::IDictionary* d;
+
+  /// @brief Method Contains, addr 0x11ca0dc, size 0xac, virtual true, abstract: false, final false
+  inline bool Contains(::System::Object* k);
+
+  /// @brief Method CopyTo, addr 0x11ca188, size 0xb8, virtual true, abstract: false, final false
+  inline void CopyTo(::System::Array* array, int32_t index);
+
+  /// @brief Method GetEnumerator, addr 0x11ca2e4, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
+
+  /// @brief Method GetValue, addr 0x11ca6bc, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::Object* GetValue(::System::Object* k);
+
+  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d);
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_d();
 
@@ -57,41 +69,33 @@ public:
 
   constexpr void __cordl_internal_set_d(::System::Collections::IDictionary* value);
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d);
-
-  /// @brief Method .ctor, addr 0x11853bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c738c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* d);
 
-  /// @brief Method Contains, addr 0x118810c, size 0xac, virtual true, abstract: false, final false
-  inline bool Contains(::System::Object* k);
-
-  /// @brief Method CopyTo, addr 0x11881b8, size 0xb8, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* array, int32_t index);
-
-  /// @brief Method get_Count, addr 0x1188270, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x11ca240, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator, addr 0x1188314, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
-
-  /// @brief Method get_IsFixedSize, addr 0x11883b8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x11ca388, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized, addr 0x118845c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x11ca42c, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x1188500, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::Object* get_SyncRoot();
-
-  /// @brief Method get_Keys, addr 0x11885a4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x11ca574, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_Values, addr 0x1188648, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x11ca4d0, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::Object* get_SyncRoot();
+
+  /// @brief Method get_Values, addr 0x11ca618, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method GetValue, addr 0x11886ec, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::Object* GetValue(::System::Object* k);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnmodifiableDictionaryProxy();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableDictionaryProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmodifiableDictionaryProxy(UnmodifiableDictionaryProxy&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnmodifiableDictionaryProxy(UnmodifiableDictionaryProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnmodifiableDictionaryProxy();
-
-public:
   /// @brief Field d, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___d;
 

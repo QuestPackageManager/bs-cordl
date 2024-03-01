@@ -21,37 +21,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(659))
 // CS Name: ::Org.BouncyCastle.Cms::DefaultDigestAlgorithmIdentifierFinder*
 class CORDL_TYPE DefaultDigestAlgorithmIdentifierFinder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field digestOids, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_digestOids, put = setStaticF_digestOids))::System::Collections::IDictionary* digestOids;
-
   /// @brief Field digestNameToOids, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_digestNameToOids, put = setStaticF_digestNameToOids))::System::Collections::IDictionary* digestNameToOids;
 
-  static inline void setStaticF_digestOids(::System::Collections::IDictionary* value);
+  /// @brief Field digestOids, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_digestOids, put = setStaticF_digestOids))::System::Collections::IDictionary* digestOids;
+
+  static inline ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* New_ctor();
+
+  /// @brief Method .ctor, addr 0x125e180, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method find, addr 0x126e1c0, size 0x19c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::StringW digAlgName);
+
+  /// @brief Method find, addr 0x125e188, size 0x264, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
+
+  static inline ::System::Collections::IDictionary* getStaticF_digestNameToOids();
 
   static inline ::System::Collections::IDictionary* getStaticF_digestOids();
 
   static inline void setStaticF_digestNameToOids(::System::Collections::IDictionary* value);
 
-  static inline ::System::Collections::IDictionary* getStaticF_digestNameToOids();
+  static inline void setStaticF_digestOids(::System::Collections::IDictionary* value);
 
-  /// @brief Method find, addr 0x121a1b8, size 0x264, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultDigestAlgorithmIdentifierFinder();
 
-  /// @brief Method find, addr 0x122a1f0, size 0x19c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* find(::StringW digAlgName);
-
-  static inline ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x121a1b0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDigestAlgorithmIdentifierFinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultDigestAlgorithmIdentifierFinder(DefaultDigestAlgorithmIdentifierFinder&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultDigestAlgorithmIdentifierFinder(DefaultDigestAlgorithmIdentifierFinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultDigestAlgorithmIdentifierFinder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

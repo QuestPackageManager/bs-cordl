@@ -28,14 +28,13 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::TransparentProxy);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2229)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3087))
 // CS Name: ::System.Runtime.Remoting.Proxies::TransparentProxy*
 class CORDL_TYPE TransparentProxy : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _rp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__rp, put = __cordl_internal_set__rp))::System::Runtime::Remoting::Proxies::RealProxy* _rp;
+  __declspec(property(get = get_IsContextBoundObject)) bool IsContextBoundObject;
+
+  __declspec(property(get = get_TargetContext))::System::Runtime::Remoting::Contexts::Context* TargetContext;
 
   /// @brief Field _class, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__class, put = __cordl_internal_set__class))::Mono::RuntimeRemoteClassHandle _class;
@@ -43,51 +42,56 @@ public:
   /// @brief Field _custom_type_info, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__custom_type_info, put = __cordl_internal_set__custom_type_info)) bool _custom_type_info;
 
-  __declspec(property(get = get_IsContextBoundObject)) bool IsContextBoundObject;
+  /// @brief Field _rp, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__rp, put = __cordl_internal_set__rp))::System::Runtime::Remoting::Proxies::RealProxy* _rp;
 
-  __declspec(property(get = get_TargetContext))::System::Runtime::Remoting::Contexts::Context* TargetContext;
+  /// @brief Method GetProxyType, addr 0x25892cc, size 0xd0, virtual false, abstract: false, final false
+  inline ::System::RuntimeType* GetProxyType();
+
+  /// @brief Method InCurrentContext, addr 0x25893d4, size 0x40, virtual false, abstract: false, final false
+  inline bool InCurrentContext();
+
+  /// @brief Method LoadRemoteFieldNew, addr 0x2589414, size 0x2d8, virtual false, abstract: false, final false
+  inline ::System::Object* LoadRemoteFieldNew(void* classPtr, void* fieldPtr);
+
+  static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
+
+  /// @brief Method StoreRemoteField, addr 0x258a0f8, size 0x2d8, virtual false, abstract: false, final false
+  inline void StoreRemoteField(void* classPtr, void* fieldPtr, ::System::Object* arg);
+
+  constexpr ::Mono::RuntimeRemoteClassHandle const& __cordl_internal_get__class() const;
+
+  constexpr ::Mono::RuntimeRemoteClassHandle& __cordl_internal_get__class();
+
+  constexpr bool const& __cordl_internal_get__custom_type_info() const;
+
+  constexpr bool& __cordl_internal_get__custom_type_info();
 
   constexpr ::System::Runtime::Remoting::Proxies::RealProxy*& __cordl_internal_get__rp();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Proxies::RealProxy*> const& __cordl_internal_get__rp() const;
 
-  constexpr void __cordl_internal_set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
-
-  constexpr ::Mono::RuntimeRemoteClassHandle& __cordl_internal_get__class();
-
-  constexpr ::Mono::RuntimeRemoteClassHandle const& __cordl_internal_get__class() const;
-
   constexpr void __cordl_internal_set__class(::Mono::RuntimeRemoteClassHandle value);
-
-  constexpr bool& __cordl_internal_get__custom_type_info();
-
-  constexpr bool const& __cordl_internal_get__custom_type_info() const;
 
   constexpr void __cordl_internal_set__custom_type_info(bool value);
 
-  /// @brief Method GetProxyType, addr 0x24b85d4, size 0xd0, virtual false, abstract: false, final false
-  inline ::System::RuntimeType* GetProxyType();
+  constexpr void __cordl_internal_set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
 
-  /// @brief Method get_IsContextBoundObject, addr 0x24b86a4, size 0x1c, virtual false, abstract: false, final false
-  inline bool get_IsContextBoundObject();
-
-  /// @brief Method get_TargetContext, addr 0x24b86c0, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
-
-  /// @brief Method InCurrentContext, addr 0x24b86dc, size 0x40, virtual false, abstract: false, final false
-  inline bool InCurrentContext();
-
-  /// @brief Method LoadRemoteFieldNew, addr 0x24b871c, size 0x2d8, virtual false, abstract: false, final false
-  inline ::System::Object* LoadRemoteFieldNew(void* classPtr, void* fieldPtr);
-
-  /// @brief Method StoreRemoteField, addr 0x24b9400, size 0x2d8, virtual false, abstract: false, final false
-  inline void StoreRemoteField(void* classPtr, void* fieldPtr, ::System::Object* arg);
-
-  static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24b96d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258a3d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IsContextBoundObject, addr 0x258939c, size 0x1c, virtual false, abstract: false, final false
+  inline bool get_IsContextBoundObject();
+
+  /// @brief Method get_TargetContext, addr 0x25893b8, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TransparentProxy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TransparentProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransparentProxy(TransparentProxy&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransparentProxy(TransparentProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransparentProxy();
-
-public:
   /// @brief Field _rp, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Proxies::RealProxy* ____rp;
 

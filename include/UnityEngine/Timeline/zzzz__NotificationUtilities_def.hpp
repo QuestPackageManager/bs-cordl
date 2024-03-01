@@ -36,20 +36,24 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::NotificationUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13888))
 // CS Name: ::UnityEngine.Timeline::NotificationUtilities*
 class CORDL_TYPE NotificationUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateNotificationsPlayable, addr 0x2c6d91c, size 0x6e0, virtual false, abstract: false, final false
+  /// @brief Method CreateNotificationsPlayable, addr 0x2d579f0, size 0x6e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeNotificationBehaviour*>
   CreateNotificationsPlayable(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* markers, double_t duration,
                               ::UnityEngine::Playables::DirectorWrapMode extrapolationMode);
 
-  /// @brief Method TrackTypeSupportsNotifications, addr 0x2c6dffc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method TrackTypeSupportsNotifications, addr 0x2d580d0, size 0x18c, virtual false, abstract: false, final false
   static inline bool TrackTypeSupportsNotifications(::System::Type* type);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotificationUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NotificationUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotificationUtilities(NotificationUtilities&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotificationUtilities(NotificationUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NotificationUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

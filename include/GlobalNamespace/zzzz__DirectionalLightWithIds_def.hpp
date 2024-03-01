@@ -21,47 +21,51 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithIds);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14446))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14418))
 // CS Name: ::DirectionalLightWithIds*
 class CORDL_TYPE DirectionalLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
   // Declarations
+  /// @brief Field _defaultColor, offset 0x54, size 0x10
+  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor))::UnityEngine::Color _defaultColor;
+
   /// @brief Field _directionalLight, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__directionalLight, put = __cordl_internal_set__directionalLight))::UnityW<::GlobalNamespace::DirectionalLight> _directionalLight;
 
   /// @brief Field _setIntensityOnly, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__setIntensityOnly, put = __cordl_internal_set__setIntensityOnly)) bool _setIntensityOnly;
 
-  /// @brief Field _defaultColor, offset 0x54, size 0x10
-  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor))::UnityEngine::Color _defaultColor;
-
-  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__directionalLight();
-
-  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__directionalLight() const;
-
-  constexpr void __cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
-
-  constexpr bool& __cordl_internal_get__setIntensityOnly();
-
-  constexpr bool const& __cordl_internal_get__setIntensityOnly() const;
-
-  constexpr void __cordl_internal_set__setIntensityOnly(bool value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
-
-  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
-
-  /// @brief Method ColorWasSet, addr 0x21a388c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2271ef4, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21a38d0, size 0x24, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
+
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__directionalLight() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__directionalLight();
+
+  constexpr bool const& __cordl_internal_get__setIntensityOnly() const;
+
+  constexpr bool& __cordl_internal_get__setIntensityOnly();
+
+  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
+
+  constexpr void __cordl_internal_set__setIntensityOnly(bool value);
+
+  /// @brief Method .ctor, addr 0x2271f38, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectionalLightWithIds();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectionalLightWithIds(DirectionalLightWithIds&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectionalLightWithIds(DirectionalLightWithIds const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectionalLightWithIds();
-
-public:
   /// @brief Field _directionalLight, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 

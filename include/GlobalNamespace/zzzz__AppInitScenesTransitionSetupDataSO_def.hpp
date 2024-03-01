@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitS
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15457))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType
 struct CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType {
 public:
@@ -53,30 +51,35 @@ public:
     return static_cast<____AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field DoNotOverride value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const DoNotOverride;
-
-  /// @brief Field AppStart value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const AppStart;
 
   /// @brief Field AppRestart value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const AppRestart;
 
+  /// @brief Field AppStart value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const AppStart;
+
+  /// @brief Field DoNotOverride value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const DoNotOverride;
+
   /// @brief Field MultiSceneEditor value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const MultiSceneEditor;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -90,8 +93,6 @@ static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15456)), TypeDefinitionIndex(TypeDefinitionIndex(15457))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15458))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*
 class CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -104,24 +105,30 @@ public:
   __declspec(property(get = get_appInitOverrideStartType,
                       put = set_appInitOverrideStartType))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType;
 
-  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType& __cordl_internal_get__appInitOverrideStartType_k__BackingField();
-
-  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const& __cordl_internal_get__appInitOverrideStartType_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
-
-  /// @brief Method get_appInitOverrideStartType, addr 0xe45244, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType get_appInitOverrideStartType();
-
-  /// @brief Method set_appInitOverrideStartType, addr 0xe4524c, size 0x8, virtual false, abstract: false, final false
-  inline void set_appInitOverrideStartType(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
-
   static inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*
   New_ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
 
-  /// @brief Method .ctor, addr 0xe3f5cc, size 0x28, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const& __cordl_internal_get__appInitOverrideStartType_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType& __cordl_internal_get__appInitOverrideStartType_k__BackingField();
+
+  constexpr void __cordl_internal_set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
+
+  /// @brief Method .ctor, addr 0xe8559c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
 
+  /// @brief Method get_appInitOverrideStartType, addr 0xe8b214, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType get_appInitOverrideStartType();
+
+  /// @brief Method set_appInitOverrideStartType, addr 0xe8b21c, size 0x8, virtual false, abstract: false, final false
+  inline void set_appInitOverrideStartType(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData(__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData&&) = delete;
@@ -130,12 +137,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData(__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData();
-
-public:
   /// @brief Field <appInitOverrideStartType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType ____appInitOverrideStartType_k__BackingField;
 
@@ -151,30 +152,34 @@ static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15464))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15459))
 // CS Name: ::AppInitScenesTransitionSetupDataSO*
 class CORDL_TYPE AppInitScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  using AppInitSceneSetupData = ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
-
   using AppInitOverrideStartType = ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType;
 
-  /// @brief Method Init, addr 0xe44ffc, size 0x6c, virtual false, abstract: false, final false
+  using AppInitSceneSetupData = ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData;
+
+  /// @brief Method Init, addr 0xe8afcc, size 0x6c, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method InitAsAppStart, addr 0xe45154, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InitAsAppStart, addr 0xe8b124, size 0x6c, virtual false, abstract: false, final false
   inline void InitAsAppStart();
-
-  /// @brief Method __Init, addr 0xe451c0, size 0x74, virtual false, abstract: false, final false
-  inline void __Init(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe45234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __Init, addr 0xe8b190, size 0x74, virtual false, abstract: false, final false
+  inline void __Init(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType);
+
+  /// @brief Method .ctor, addr 0xe8b204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppInitScenesTransitionSetupDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AppInitScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppInitScenesTransitionSetupDataSO(AppInitScenesTransitionSetupDataSO&&) = delete;
@@ -183,12 +188,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AppInitScenesTransitionSetupDataSO(AppInitScenesTransitionSetupDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppInitScenesTransitionSetupDataSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

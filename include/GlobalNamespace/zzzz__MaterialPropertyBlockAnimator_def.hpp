@@ -19,78 +19,82 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockAnimator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14457))
 // CS Name: ::MaterialPropertyBlockAnimator*
 class CORDL_TYPE MaterialPropertyBlockAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _property, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property))::StringW _property;
+  /// @brief Field _isInitialized, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
   /// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
                       put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
-  /// @brief Field propertyId, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
-
-  /// @brief Field _isInitialized, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
+  /// @brief Field _property, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property))::StringW _property;
 
   __declspec(property(get = get_materialPropertyBlockController,
                       put = set_materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> materialPropertyBlockController;
 
-  constexpr ::StringW& __cordl_internal_get__property();
+  /// @brief Field propertyId, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
 
-  constexpr ::StringW const& __cordl_internal_get__property() const;
-
-  constexpr void __cordl_internal_set__property(::StringW value);
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
-
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
-
-  constexpr int32_t& __cordl_internal_get_propertyId();
-
-  constexpr int32_t const& __cordl_internal_get_propertyId() const;
-
-  constexpr void __cordl_internal_set_propertyId(int32_t value);
-
-  constexpr bool& __cordl_internal_get__isInitialized();
-
-  constexpr bool const& __cordl_internal_get__isInitialized() const;
-
-  constexpr void __cordl_internal_set__isInitialized(bool value);
-
-  /// @brief Method get_materialPropertyBlockController, addr 0x21a9134, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
-
-  /// @brief Method set_materialPropertyBlockController, addr 0x21a913c, size 0x7c, virtual false, abstract: false, final false
-  inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
-
-  /// @brief Method SetProperty, addr 0x21a91b8, size 0x4, virtual true, abstract: false, final false
-  inline void SetProperty();
-
-  /// @brief Method Awake, addr 0x21a91bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2276824, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x21a927c, size 0x28, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method LazyInit, addr 0x21a924c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x22768b4, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
-
-  /// @brief Method RefreshProperty, addr 0x21a9494, size 0x20, virtual false, abstract: false, final false
-  inline void RefreshProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21a94b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RefreshProperty, addr 0x2276afc, size 0x20, virtual false, abstract: false, final false
+  inline void RefreshProperty();
+
+  /// @brief Method SetProperty, addr 0x2276820, size 0x4, virtual true, abstract: false, final false
+  inline void SetProperty();
+
+  /// @brief Method Update, addr 0x22768e4, size 0x28, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
+
+  constexpr bool& __cordl_internal_get__isInitialized();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+
+  constexpr ::StringW const& __cordl_internal_get__property() const;
+
+  constexpr ::StringW& __cordl_internal_get__property();
+
+  constexpr int32_t const& __cordl_internal_get_propertyId() const;
+
+  constexpr int32_t& __cordl_internal_get_propertyId();
+
+  constexpr void __cordl_internal_set__isInitialized(bool value);
+
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+
+  constexpr void __cordl_internal_set__property(::StringW value);
+
+  constexpr void __cordl_internal_set_propertyId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2276b1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_materialPropertyBlockController, addr 0x227679c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
+
+  /// @brief Method set_materialPropertyBlockController, addr 0x22767a4, size 0x7c, virtual false, abstract: false, final false
+  inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockAnimator(MaterialPropertyBlockAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockAnimator();
-
-public:
   /// @brief Field _property, offset: 0x18, size: 0x8, def value: None
   ::StringW ____property;
 

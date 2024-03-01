@@ -30,48 +30,52 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateSelector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3237))
 // CS Name: ::System.Runtime.Serialization::SurrogateSelector*
 class CORDL_TYPE SurrogateSelector : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_surrogates, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_surrogates, put = __cordl_internal_set_m_surrogates))::System::Runtime::Serialization::SurrogateHashtable* m_surrogates;
-
   /// @brief Field m_nextSelector, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_nextSelector, put = __cordl_internal_set_m_nextSelector))::System::Runtime::Serialization::ISurrogateSelector* m_nextSelector;
+
+  /// @brief Field m_surrogates, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_surrogates, put = __cordl_internal_set_m_surrogates))::System::Runtime::Serialization::SurrogateHashtable* m_surrogates;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
-  constexpr ::System::Runtime::Serialization::ISurrogateSelector* i___System__Runtime__Serialization__ISurrogateSelector() noexcept;
+  /// @brief Method AddSurrogate, addr 0x25b17b4, size 0x14c, virtual true, abstract: false, final false
+  inline void AddSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate);
 
-  constexpr ::System::Runtime::Serialization::SurrogateHashtable*& __cordl_internal_get_m_surrogates();
+  /// @brief Method GetSurrogate, addr 0x25b193c, size 0x1fc, virtual true, abstract: false, final false
+  inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
+                                                                                 ByRef<::System::Runtime::Serialization::ISurrogateSelector*> selector);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SurrogateHashtable*> const& __cordl_internal_get_m_surrogates() const;
-
-  constexpr void __cordl_internal_set_m_surrogates(::System::Runtime::Serialization::SurrogateHashtable* value);
+  static inline ::System::Runtime::Serialization::SurrogateSelector* New_ctor();
 
   constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __cordl_internal_get_m_nextSelector();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISurrogateSelector*> const& __cordl_internal_get_m_nextSelector() const;
 
+  constexpr ::System::Runtime::Serialization::SurrogateHashtable*& __cordl_internal_get_m_surrogates();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SurrogateHashtable*> const& __cordl_internal_get_m_surrogates() const;
+
   constexpr void __cordl_internal_set_m_nextSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  static inline ::System::Runtime::Serialization::SurrogateSelector* New_ctor();
+  constexpr void __cordl_internal_set_m_surrogates(::System::Runtime::Serialization::SurrogateHashtable* value);
 
-  /// @brief Method .ctor, addr 0x24e0a44, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b173c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddSurrogate, addr 0x24e0abc, size 0x14c, virtual true, abstract: false, final false
-  inline void AddSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context, ::System::Runtime::Serialization::ISerializationSurrogate* surrogate);
+  /// @brief Convert to "::System::Runtime::Serialization::ISurrogateSelector"
+  constexpr ::System::Runtime::Serialization::ISurrogateSelector* i___System__Runtime__Serialization__ISurrogateSelector() noexcept;
 
-  /// @brief Method GetSurrogate, addr 0x24e0c44, size 0x1fc, virtual true, abstract: false, final false
-  inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
-                                                                                 ByRef<::System::Runtime::Serialization::ISurrogateSelector*> selector);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SurrogateSelector();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SurrogateSelector", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurrogateSelector(SurrogateSelector&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SurrogateSelector(SurrogateSelector const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SurrogateSelector();
-
-public:
   /// @brief Field m_surrogates, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::SurrogateHashtable* ___m_surrogates;
 

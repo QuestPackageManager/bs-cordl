@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskCanceledException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2455))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2756))
 // CS Name: ::System.Threading.Tasks::TaskCanceledException*
 class CORDL_TYPE TaskCanceledException : public ::System::OperationCanceledException {
 public:
@@ -33,32 +31,38 @@ public:
   /// @brief Field _canceledTask, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__canceledTask, put = __cordl_internal_set__canceledTask))::System::Threading::Tasks::Task* _canceledTask;
 
+  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor();
+
+  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::StringW message);
+
+  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::System::Threading::Tasks::Task* task);
+
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__canceledTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__canceledTask() const;
 
   constexpr void __cordl_internal_set__canceledTask(::System::Threading::Tasks::Task* value);
 
-  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2646d78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271546c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x2646dc4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
-  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::System::Threading::Tasks::Task* task);
-
-  /// @brief Method .ctor, addr 0x2646dcc, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::Task* task);
-
-  static inline ::System::Threading::Tasks::TaskCanceledException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x2646e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2715564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x27154b8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x27154c0, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::Task* task);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TaskCanceledException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskCanceledException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskCanceledException(TaskCanceledException&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TaskCanceledException(TaskCanceledException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskCanceledException();
-
-public:
   /// @brief Field _canceledTask, offset: 0x98, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____canceledTask;
 

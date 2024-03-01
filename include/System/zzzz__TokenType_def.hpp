@@ -15,8 +15,6 @@ MARK_VAL_T(::System::TokenType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2401))
 // CS Name: ::System::TokenType
 struct CORDL_TYPE TokenType {
 public:
@@ -64,114 +62,119 @@ public:
     return static_cast<__TokenType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TokenType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TokenType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TokenType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NumberToken value: static_cast<int32_t>(0x1)
-  static ::System::TokenType const NumberToken;
-
-  /// @brief Field YearNumberToken value: static_cast<int32_t>(0x2)
-  static ::System::TokenType const YearNumberToken;
 
   /// @brief Field Am value: static_cast<int32_t>(0x3)
   static ::System::TokenType const Am;
 
-  /// @brief Field Pm value: static_cast<int32_t>(0x4)
-  static ::System::TokenType const Pm;
-
-  /// @brief Field MonthToken value: static_cast<int32_t>(0x5)
-  static ::System::TokenType const MonthToken;
-
-  /// @brief Field EndOfString value: static_cast<int32_t>(0x6)
-  static ::System::TokenType const EndOfString;
+  /// @brief Field DateWordToken value: static_cast<int32_t>(0xa)
+  static ::System::TokenType const DateWordToken;
 
   /// @brief Field DayOfWeekToken value: static_cast<int32_t>(0x7)
   static ::System::TokenType const DayOfWeekToken;
 
-  /// @brief Field TimeZoneToken value: static_cast<int32_t>(0x8)
-  static ::System::TokenType const TimeZoneToken;
+  /// @brief Field EndOfString value: static_cast<int32_t>(0x6)
+  static ::System::TokenType const EndOfString;
 
   /// @brief Field EraToken value: static_cast<int32_t>(0x9)
   static ::System::TokenType const EraToken;
 
-  /// @brief Field DateWordToken value: static_cast<int32_t>(0xa)
-  static ::System::TokenType const DateWordToken;
-
-  /// @brief Field UnknownToken value: static_cast<int32_t>(0xb)
-  static ::System::TokenType const UnknownToken;
-
   /// @brief Field HebrewNumber value: static_cast<int32_t>(0xc)
   static ::System::TokenType const HebrewNumber;
-
-  /// @brief Field JapaneseEraToken value: static_cast<int32_t>(0xd)
-  static ::System::TokenType const JapaneseEraToken;
-
-  /// @brief Field TEraToken value: static_cast<int32_t>(0xe)
-  static ::System::TokenType const TEraToken;
 
   /// @brief Field IgnorableSymbol value: static_cast<int32_t>(0xf)
   static ::System::TokenType const IgnorableSymbol;
 
-  /// @brief Field SEP_Unk value: static_cast<int32_t>(0x100)
-  static ::System::TokenType const SEP_Unk;
+  /// @brief Field JapaneseEraToken value: static_cast<int32_t>(0xd)
+  static ::System::TokenType const JapaneseEraToken;
 
-  /// @brief Field SEP_End value: static_cast<int32_t>(0x200)
-  static ::System::TokenType const SEP_End;
+  /// @brief Field MonthToken value: static_cast<int32_t>(0x5)
+  static ::System::TokenType const MonthToken;
 
-  /// @brief Field SEP_Space value: static_cast<int32_t>(0x300)
-  static ::System::TokenType const SEP_Space;
+  /// @brief Field NumberToken value: static_cast<int32_t>(0x1)
+  static ::System::TokenType const NumberToken;
 
-  /// @brief Field SEP_Am value: static_cast<int32_t>(0x400)
-  static ::System::TokenType const SEP_Am;
-
-  /// @brief Field SEP_Pm value: static_cast<int32_t>(0x500)
-  static ::System::TokenType const SEP_Pm;
-
-  /// @brief Field SEP_Date value: static_cast<int32_t>(0x600)
-  static ::System::TokenType const SEP_Date;
-
-  /// @brief Field SEP_Time value: static_cast<int32_t>(0x700)
-  static ::System::TokenType const SEP_Time;
-
-  /// @brief Field SEP_YearSuff value: static_cast<int32_t>(0x800)
-  static ::System::TokenType const SEP_YearSuff;
-
-  /// @brief Field SEP_MonthSuff value: static_cast<int32_t>(0x900)
-  static ::System::TokenType const SEP_MonthSuff;
-
-  /// @brief Field SEP_DaySuff value: static_cast<int32_t>(0xa00)
-  static ::System::TokenType const SEP_DaySuff;
-
-  /// @brief Field SEP_HourSuff value: static_cast<int32_t>(0xb00)
-  static ::System::TokenType const SEP_HourSuff;
-
-  /// @brief Field SEP_MinuteSuff value: static_cast<int32_t>(0xc00)
-  static ::System::TokenType const SEP_MinuteSuff;
-
-  /// @brief Field SEP_SecondSuff value: static_cast<int32_t>(0xd00)
-  static ::System::TokenType const SEP_SecondSuff;
-
-  /// @brief Field SEP_LocalTimeMark value: static_cast<int32_t>(0xe00)
-  static ::System::TokenType const SEP_LocalTimeMark;
-
-  /// @brief Field SEP_DateOrOffset value: static_cast<int32_t>(0xf00)
-  static ::System::TokenType const SEP_DateOrOffset;
+  /// @brief Field Pm value: static_cast<int32_t>(0x4)
+  static ::System::TokenType const Pm;
 
   /// @brief Field RegularTokenMask value: static_cast<int32_t>(0xff)
   static ::System::TokenType const RegularTokenMask;
 
+  /// @brief Field SEP_Am value: static_cast<int32_t>(0x400)
+  static ::System::TokenType const SEP_Am;
+
+  /// @brief Field SEP_Date value: static_cast<int32_t>(0x600)
+  static ::System::TokenType const SEP_Date;
+
+  /// @brief Field SEP_DateOrOffset value: static_cast<int32_t>(0xf00)
+  static ::System::TokenType const SEP_DateOrOffset;
+
+  /// @brief Field SEP_DaySuff value: static_cast<int32_t>(0xa00)
+  static ::System::TokenType const SEP_DaySuff;
+
+  /// @brief Field SEP_End value: static_cast<int32_t>(0x200)
+  static ::System::TokenType const SEP_End;
+
+  /// @brief Field SEP_HourSuff value: static_cast<int32_t>(0xb00)
+  static ::System::TokenType const SEP_HourSuff;
+
+  /// @brief Field SEP_LocalTimeMark value: static_cast<int32_t>(0xe00)
+  static ::System::TokenType const SEP_LocalTimeMark;
+
+  /// @brief Field SEP_MinuteSuff value: static_cast<int32_t>(0xc00)
+  static ::System::TokenType const SEP_MinuteSuff;
+
+  /// @brief Field SEP_MonthSuff value: static_cast<int32_t>(0x900)
+  static ::System::TokenType const SEP_MonthSuff;
+
+  /// @brief Field SEP_Pm value: static_cast<int32_t>(0x500)
+  static ::System::TokenType const SEP_Pm;
+
+  /// @brief Field SEP_SecondSuff value: static_cast<int32_t>(0xd00)
+  static ::System::TokenType const SEP_SecondSuff;
+
+  /// @brief Field SEP_Space value: static_cast<int32_t>(0x300)
+  static ::System::TokenType const SEP_Space;
+
+  /// @brief Field SEP_Time value: static_cast<int32_t>(0x700)
+  static ::System::TokenType const SEP_Time;
+
+  /// @brief Field SEP_Unk value: static_cast<int32_t>(0x100)
+  static ::System::TokenType const SEP_Unk;
+
+  /// @brief Field SEP_YearSuff value: static_cast<int32_t>(0x800)
+  static ::System::TokenType const SEP_YearSuff;
+
   /// @brief Field SeparatorTokenMask value: static_cast<int32_t>(0xff00)
   static ::System::TokenType const SeparatorTokenMask;
+
+  /// @brief Field TEraToken value: static_cast<int32_t>(0xe)
+  static ::System::TokenType const TEraToken;
+
+  /// @brief Field TimeZoneToken value: static_cast<int32_t>(0x8)
+  static ::System::TokenType const TimeZoneToken;
+
+  /// @brief Field UnknownToken value: static_cast<int32_t>(0xb)
+  static ::System::TokenType const UnknownToken;
+
+  /// @brief Field YearNumberToken value: static_cast<int32_t>(0x2)
+  static ::System::TokenType const YearNumberToken;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

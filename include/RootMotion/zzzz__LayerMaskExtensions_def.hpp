@@ -20,48 +20,52 @@ MARK_REF_PTR_T(::RootMotion::LayerMaskExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12394))
 // CS Name: ::RootMotion::LayerMaskExtensions*
 class CORDL_TYPE LayerMaskExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Contains, addr 0x12d915c, size 0x4c, virtual false, abstract: false, final false
-  static inline bool Contains(::UnityEngine::LayerMask mask, int32_t layer);
-
-  /// @brief Method Create, addr 0x12d91a8, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask Create(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
-
-  /// @brief Method Create, addr 0x12d9264, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask Create(::ArrayW<int32_t, ::Array<int32_t>*> layerNumbers);
-
-  /// @brief Method NamesToMask, addr 0x12d91bc, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask NamesToMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
-
-  /// @brief Method LayerNumbersToMask, addr 0x12d9278, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask LayerNumbersToMask(::ArrayW<int32_t, ::Array<int32_t>*> layerNumbers);
-
-  /// @brief Method Inverse, addr 0x12d9308, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask Inverse(::UnityEngine::LayerMask original);
-
-  /// @brief Method AddToMask, addr 0x12d9330, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AddToMask, addr 0x131a31c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask AddToMask(::UnityEngine::LayerMask original, ::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method RemoveFromMask, addr 0x12d937c, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask RemoveFromMask(::UnityEngine::LayerMask original, ::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
+  /// @brief Method Contains, addr 0x131a148, size 0x4c, virtual false, abstract: false, final false
+  static inline bool Contains(::UnityEngine::LayerMask mask, int32_t layer);
 
-  /// @brief Method MaskToNames, addr 0x12d93e4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x131a194, size 0x14, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask Create(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
+
+  /// @brief Method Create, addr 0x131a250, size 0x14, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask Create(::ArrayW<int32_t, ::Array<int32_t>*> layerNumbers);
+
+  /// @brief Method Inverse, addr 0x131a2f4, size 0x28, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask Inverse(::UnityEngine::LayerMask original);
+
+  /// @brief Method LayerNumbersToMask, addr 0x131a264, size 0x90, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask LayerNumbersToMask(::ArrayW<int32_t, ::Array<int32_t>*> layerNumbers);
+
+  /// @brief Method MaskToNames, addr 0x131a3d0, size 0x154, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> MaskToNames(::UnityEngine::LayerMask original);
 
-  /// @brief Method MaskToNumbers, addr 0x12d9538, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method MaskToNumbers, addr 0x131a524, size 0x138, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> MaskToNumbers(::UnityEngine::LayerMask original);
 
-  /// @brief Method MaskToString, addr 0x12d9670, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MaskToString, addr 0x131a65c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW MaskToString(::UnityEngine::LayerMask original);
 
-  /// @brief Method MaskToString, addr 0x12d96c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MaskToString, addr 0x131a6b4, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW MaskToString(::UnityEngine::LayerMask original, ::StringW delimiter);
 
+  /// @brief Method NamesToMask, addr 0x131a1a8, size 0xa8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask NamesToMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
+
+  /// @brief Method RemoveFromMask, addr 0x131a368, size 0x68, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask RemoveFromMask(::UnityEngine::LayerMask original, ::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LayerMaskExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LayerMaskExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LayerMaskExtensions(LayerMaskExtensions&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LayerMaskExtensions(LayerMaskExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LayerMaskExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -35,83 +35,87 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualTreeUpdater);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6013))
 // CS Name: ::UnityEngine.UIElements::BaseVisualTreeUpdater*
 class CORDL_TYPE BaseVisualTreeUpdater : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field panelChanged, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_panelChanged, put = __cordl_internal_set_panelChanged))::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelChanged;
-
   /// @brief Field m_Panel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel))::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel;
 
   __declspec(property(get = get_panel, put = set_panel))::UnityEngine::UIElements::BaseVisualElementPanel* panel;
 
-  __declspec(property(get = get_visualTree))::UnityEngine::UIElements::VisualElement* visualTree;
+  /// @brief Field panelChanged, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_panelChanged, put = __cordl_internal_set_panelChanged))::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelChanged;
 
   __declspec(property(get = get_profilerMarker))::Unity::Profiling::ProfilerMarker profilerMarker;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
-  constexpr operator ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
-  constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
+  __declspec(property(get = get_visualTree))::UnityEngine::UIElements::VisualElement* visualTree;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert operator to "::UnityEngine::UIElements::IVisualTreeUpdater"
+  constexpr operator ::UnityEngine::UIElements::IVisualTreeUpdater*() noexcept;
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __cordl_internal_get_panelChanged();
+  /// @brief Method Dispose, addr 0x2ebf860, size 0x6c, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*> const& __cordl_internal_get_panelChanged() const;
+  /// @brief Method Dispose, addr 0x2ebf8cc, size 0x4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
+  static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
+
+  /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Update();
 
   constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get_m_Panel() const;
 
+  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __cordl_internal_get_panelChanged();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*> const& __cordl_internal_get_panelChanged() const;
+
   constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method add_panelChanged, addr 0x2dd0f8c, size 0xb0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
+
+  /// @brief Method .ctor, addr 0x2ebf8d0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method add_panelChanged, addr 0x2ebf6b4, size 0xb0, virtual false, abstract: false, final false
   inline void add_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  /// @brief Method remove_panelChanged, addr 0x2dd103c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
-
-  /// @brief Method get_panel, addr 0x2dd10ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panel, addr 0x2ebf814, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
-
-  /// @brief Method set_panel, addr 0x2dd10f4, size 0x20, virtual true, abstract: false, final true
-  inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
-
-  /// @brief Method get_visualTree, addr 0x2dd1114, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
   /// @brief Method get_profilerMarker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method Dispose, addr 0x2dd1138, size 0x6c, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Method get_visualTree, addr 0x2ebf83c, size 0x24, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
-  /// @brief Method Dispose, addr 0x2dd11a4, size 0x4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Update();
+  /// @brief Convert to "::UnityEngine::UIElements::IVisualTreeUpdater"
+  constexpr ::UnityEngine::UIElements::IVisualTreeUpdater* i___UnityEngine__UIElements__IVisualTreeUpdater() noexcept;
 
-  /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+  /// @brief Method remove_panelChanged, addr 0x2ebf764, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_panelChanged(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  static inline ::UnityEngine::UIElements::BaseVisualTreeUpdater* New_ctor();
+  /// @brief Method set_panel, addr 0x2ebf81c, size 0x20, virtual true, abstract: false, final true
+  inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method .ctor, addr 0x2dd11a8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseVisualTreeUpdater();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseVisualTreeUpdater", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseVisualTreeUpdater(BaseVisualTreeUpdater&&) = delete;
@@ -120,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseVisualTreeUpdater(BaseVisualTreeUpdater const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseVisualTreeUpdater();
-
-public:
   /// @brief Field panelChanged, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* ___panelChanged;
 

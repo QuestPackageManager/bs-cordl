@@ -19,23 +19,21 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14405))
 // CS Name: ::LightGroupSO*
 class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _groupName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName))::StringW _groupName;
-
   /// @brief Field _groupDescription, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__groupDescription, put = __cordl_internal_set__groupDescription))::StringW _groupDescription;
 
   /// @brief Field _groupId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__groupId, put = __cordl_internal_set__groupId)) int32_t _groupId;
 
-  /// @brief Field _startLightId, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__startLightId, put = __cordl_internal_set__startLightId)) int32_t _startLightId;
+  /// @brief Field _groupName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName))::StringW _groupName;
+
+  /// @brief Field _ignoreLightGroupEffectManager, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__ignoreLightGroupEffectManager, put = __cordl_internal_set__ignoreLightGroupEffectManager)) bool _ignoreLightGroupEffectManager;
 
   /// @brief Field _numberOfElements, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
@@ -43,92 +41,98 @@ public:
   /// @brief Field _sameIdElements, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__sameIdElements, put = __cordl_internal_set__sameIdElements)) int32_t _sameIdElements;
 
-  /// @brief Field _ignoreLightGroupEffectManager, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__ignoreLightGroupEffectManager, put = __cordl_internal_set__ignoreLightGroupEffectManager)) bool _ignoreLightGroupEffectManager;
-
-  __declspec(property(get = get_groupName))::StringW groupName;
+  /// @brief Field _startLightId, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__startLightId, put = __cordl_internal_set__startLightId)) int32_t _startLightId;
 
   __declspec(property(get = get_groupId)) int32_t groupId;
 
-  __declspec(property(get = get_startLightId)) int32_t startLightId;
+  __declspec(property(get = get_groupName))::StringW groupName;
+
+  __declspec(property(get = get_ignoreLightGroupEffectManager)) bool ignoreLightGroupEffectManager;
 
   __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
 
   __declspec(property(get = get_sameIdElements)) int32_t sameIdElements;
 
-  __declspec(property(get = get_ignoreLightGroupEffectManager)) bool ignoreLightGroupEffectManager;
+  __declspec(property(get = get_startLightId)) int32_t startLightId;
 
   /// @brief Convert operator to "::GlobalNamespace::ILightGroup"
   constexpr operator ::GlobalNamespace::ILightGroup*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ILightGroup"
-  constexpr ::GlobalNamespace::ILightGroup* i___GlobalNamespace__ILightGroup() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__groupName();
-
-  constexpr ::StringW const& __cordl_internal_get__groupName() const;
-
-  constexpr void __cordl_internal_set__groupName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__groupDescription();
+  static inline ::GlobalNamespace::LightGroupSO* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__groupDescription() const;
 
-  constexpr void __cordl_internal_set__groupDescription(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__groupId();
+  constexpr ::StringW& __cordl_internal_get__groupDescription();
 
   constexpr int32_t const& __cordl_internal_get__groupId() const;
 
-  constexpr void __cordl_internal_set__groupId(int32_t value);
+  constexpr int32_t& __cordl_internal_get__groupId();
 
-  constexpr int32_t& __cordl_internal_get__startLightId();
+  constexpr ::StringW const& __cordl_internal_get__groupName() const;
 
-  constexpr int32_t const& __cordl_internal_get__startLightId() const;
-
-  constexpr void __cordl_internal_set__startLightId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__numberOfElements();
-
-  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
-
-  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__sameIdElements();
-
-  constexpr int32_t const& __cordl_internal_get__sameIdElements() const;
-
-  constexpr void __cordl_internal_set__sameIdElements(int32_t value);
-
-  constexpr bool& __cordl_internal_get__ignoreLightGroupEffectManager();
+  constexpr ::StringW& __cordl_internal_get__groupName();
 
   constexpr bool const& __cordl_internal_get__ignoreLightGroupEffectManager() const;
 
+  constexpr bool& __cordl_internal_get__ignoreLightGroupEffectManager();
+
+  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfElements();
+
+  constexpr int32_t const& __cordl_internal_get__sameIdElements() const;
+
+  constexpr int32_t& __cordl_internal_get__sameIdElements();
+
+  constexpr int32_t const& __cordl_internal_get__startLightId() const;
+
+  constexpr int32_t& __cordl_internal_get__startLightId();
+
+  constexpr void __cordl_internal_set__groupDescription(::StringW value);
+
+  constexpr void __cordl_internal_set__groupId(int32_t value);
+
+  constexpr void __cordl_internal_set__groupName(::StringW value);
+
   constexpr void __cordl_internal_set__ignoreLightGroupEffectManager(bool value);
 
-  /// @brief Method get_groupName, addr 0x21a2aec, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_groupName();
+  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method get_groupId, addr 0x21a2af4, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_groupId();
+  constexpr void __cordl_internal_set__sameIdElements(int32_t value);
 
-  /// @brief Method get_startLightId, addr 0x21a2afc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_startLightId();
+  constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method get_numberOfElements, addr 0x21a2b04, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_numberOfElements();
-
-  /// @brief Method get_sameIdElements, addr 0x21a2b0c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_sameIdElements();
-
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x21a2b14, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ignoreLightGroupEffectManager();
-
-  static inline ::GlobalNamespace::LightGroupSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21a2b1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2271184, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_groupId, addr 0x227115c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_groupId();
+
+  /// @brief Method get_groupName, addr 0x2271154, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_groupName();
+
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x227117c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ignoreLightGroupEffectManager();
+
+  /// @brief Method get_numberOfElements, addr 0x227116c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_numberOfElements();
+
+  /// @brief Method get_sameIdElements, addr 0x2271174, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_sameIdElements();
+
+  /// @brief Method get_startLightId, addr 0x2271164, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_startLightId();
+
+  /// @brief Convert to "::GlobalNamespace::ILightGroup"
+  constexpr ::GlobalNamespace::ILightGroup* i___GlobalNamespace__ILightGroup() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightGroupSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupSO(LightGroupSO&&) = delete;
@@ -137,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupSO(LightGroupSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroupSO();
-
-public:
   /// @brief Field _groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____groupName;
 

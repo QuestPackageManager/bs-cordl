@@ -143,8 +143,6 @@ MARK_VAL_T(::GlobalNamespace::__LobbyPlayersDataModel___SetOwnedSongPacks_d__42)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10929))
 // CS Name: ::LobbyPlayersDataModel::<>c*
 class CORDL_TYPE __LobbyPlayersDataModel____c : public ::System::Object {
 public:
@@ -155,22 +153,28 @@ public:
   /// @brief Field <>9__42_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__42_0, put = setStaticF___9__42_0))::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* __9__42_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__LobbyPlayersDataModel____c* value);
+  static inline ::GlobalNamespace::__LobbyPlayersDataModel____c* New_ctor();
+
+  /// @brief Method <SetOwnedSongPacks>b__42_0, addr 0x12e0920, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW _SetOwnedSongPacks_b__42_0(::GlobalNamespace::BeatmapLevelPack* pack);
+
+  /// @brief Method .ctor, addr 0x12e0918, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__LobbyPlayersDataModel____c* getStaticF___9();
 
-  static inline void setStaticF___9__42_0(::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* value);
-
   static inline ::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* getStaticF___9__42_0();
 
-  static inline ::GlobalNamespace::__LobbyPlayersDataModel____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__LobbyPlayersDataModel____c* value);
 
-  /// @brief Method .ctor, addr 0x129e948, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__42_0(::System::Func_2<::GlobalNamespace::BeatmapLevelPack*, ::StringW>* value);
 
-  /// @brief Method <SetOwnedSongPacks>b__42_0, addr 0x129e950, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _SetOwnedSongPacks_b__42_0(::GlobalNamespace::BeatmapLevelPack* pack);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LobbyPlayersDataModel____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LobbyPlayersDataModel____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LobbyPlayersDataModel____c(__LobbyPlayersDataModel____c&&) = delete;
@@ -179,12 +183,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LobbyPlayersDataModel____c(__LobbyPlayersDataModel____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LobbyPlayersDataModel____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -195,23 +193,25 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyPlayersD
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(14920)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10930)) CS
-// Name: ::LobbyPlayersDataModel::<SetOwnedSongPacks>d__42
+// CS Name: ::LobbyPlayersDataModel::<SetOwnedSongPacks>d__42
 struct CORDL_TYPE __LobbyPlayersDataModel___SetOwnedSongPacks_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12e0938, size 0x820, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12e1158, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x129e968, size 0x820, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x129f188, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LobbyPlayersDataModel___SetOwnedSongPacks_d__42();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LobbyPlayersDataModel*", modifiers: "",
@@ -224,10 +224,6 @@ public:
                                                               ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevelPack*>* __7__wrap2,
                                                               ::GlobalNamespace::BeatmapLevelPack* _dlcSongPack_5__4,
                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LobbyPlayersDataModel___SetOwnedSongPacks_d__42();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -277,13 +273,15 @@ static_assert(offsetof(::GlobalNamespace::__LobbyPlayersDataModel___SetOwnedSong
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3818)), TypeDefinitionIndex(TypeDefinitionIndex(3840)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10917)), TypeDefinitionIndex(TypeDefinitionIndex(10927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3818), inst: 1403 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3840), inst: 3757 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10931)) CS Name:
-// ::LobbyPlayersDataModel::<GetEnumerator>d__59*
+// CS Name: ::LobbyPlayersDataModel::<GetEnumerator>d__59*
 class CORDL_TYPE __LobbyPlayersDataModel___GetEnumerator_d__59 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current))::System::Collections::Generic::KeyValuePair_2<
+      ::StringW, ::GlobalNamespace::ILobbyPlayerData*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -298,79 +296,80 @@ public:
   __declspec(property(get = __cordl_internal_get___7__wrap1,
                       put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> __7__wrap1;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current))::System::Collections::Generic::KeyValuePair_2<
-      ::StringW, ::GlobalNamespace::ILobbyPlayerData*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
-  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x12e1180, size 0x1e4, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__LobbyPlayersDataModel___GetEnumerator_d__59* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current, addr 0x12e13b4, size 0xc, virtual true, abstract:
+  /// false, final true
+  inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>
+  System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x12e13c0, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x12e1400, size 0x5c, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x12e1164, size 0x1c, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>& __cordl_internal_get___2__current();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> value);
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>& __cordl_internal_get___2__current();
 
   constexpr ::GlobalNamespace::LobbyPlayersDataModel*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayersDataModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::LobbyPlayersDataModel* value);
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> const& __cordl_internal_get___7__wrap1() const;
 
   constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> const& __cordl_internal_get___7__wrap1() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> value);
+
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::LobbyPlayersDataModel* value);
 
   constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> value);
 
-  static inline ::GlobalNamespace::__LobbyPlayersDataModel___GetEnumerator_d__59* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x129e5f4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x129f194, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  /// @brief Method MoveNext, addr 0x129f1b0, size 0x1e4, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method <>m__Finally1, addr 0x129f394, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x12e1364, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,ILobbyPlayerData>>.get_Current, addr 0x129f3e4, size 0xc, virtual true, abstract:
-  /// false, final true
-  inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>
-  System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current();
+  /// @brief Method .ctor, addr 0x12e05c4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x129f3f0, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x129f430, size 0x5c, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LobbyPlayersDataModel___GetEnumerator_d__59();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LobbyPlayersDataModel___GetEnumerator_d__59", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LobbyPlayersDataModel___GetEnumerator_d__59(__LobbyPlayersDataModel___GetEnumerator_d__59&&) = delete;
@@ -379,12 +378,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LobbyPlayersDataModel___GetEnumerator_d__59(__LobbyPlayersDataModel___GetEnumerator_d__59 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LobbyPlayersDataModel___GetEnumerator_d__59();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -415,8 +408,6 @@ static_assert(offsetof(::GlobalNamespace::__LobbyPlayersDataModel___GetEnumerato
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10932))
 // CS Name: ::LobbyPlayersDataModel*
 class CORDL_TYPE LobbyPlayersDataModel : public ::System::Object {
 public:
@@ -427,6 +418,31 @@ public:
 
   using __c = ::GlobalNamespace::__LobbyPlayersDataModel____c;
 
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_Item))::GlobalNamespace::ILobbyPlayerData* Item[];
+
+  __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::StringW>* Keys;
+
+  __declspec(property(get = get_Values))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILobbyPlayerData*>* Values;
+
+  /// @brief Field _beatmapCharacteristicCollection, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
+                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+
+  /// @brief Field _beatmapLevelsModel, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+
+  /// @brief Field _cancellationTokenSource, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+
+  /// @brief Field _emptyLobbyPlayerData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__emptyLobbyPlayerData, put = __cordl_internal_set__emptyLobbyPlayerData))::GlobalNamespace::LobbyPlayerData* _emptyLobbyPlayerData;
+
+  /// @brief Field _lobbyPlayerPermissionsModel, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+
   /// @brief Field _menuRpcManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
@@ -434,29 +450,12 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
                       put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
-
-  /// @brief Field _beatmapCharacteristicCollection, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
-                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
-
-  /// @brief Field _lobbyPlayerPermissionsModel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
-                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
-
-  /// @brief Field _emptyLobbyPlayerData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__emptyLobbyPlayerData, put = __cordl_internal_set__emptyLobbyPlayerData))::GlobalNamespace::LobbyPlayerData* _emptyLobbyPlayerData;
+  /// @brief Field <partyOwnerId>k__BackingField, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__partyOwnerId_k__BackingField, put = __cordl_internal_set__partyOwnerId_k__BackingField))::StringW _partyOwnerId_k__BackingField;
 
   /// @brief Field _playersData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__playersData,
                       put = __cordl_internal_set__playersData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* _playersData;
-
-  /// @brief Field _cancellationTokenSource, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
-
-  /// @brief Field <partyOwnerId>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__partyOwnerId_k__BackingField, put = __cordl_internal_set__partyOwnerId_k__BackingField))::StringW _partyOwnerId_k__BackingField;
 
   /// @brief Field didChangeEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeEvent, put = __cordl_internal_set_didChangeEvent))::System::Action_1<::StringW>* didChangeEvent;
@@ -465,280 +464,278 @@ public:
 
   __declspec(property(get = get_partyOwnerId, put = set_partyOwnerId))::StringW partyOwnerId;
 
-  __declspec(property(get = get_Item))::GlobalNamespace::ILobbyPlayerData* Item[];
-
-  __declspec(property(get = get_Count)) int32_t Count;
-
-  __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::StringW>* Keys;
-
-  __declspec(property(get = get_Values))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILobbyPlayerData*>* Values;
-
   /// @brief Convert operator to "::GlobalNamespace::ILobbyPlayersDataModel"
   constexpr operator ::GlobalNamespace::ILobbyPlayersDataModel*() noexcept;
-
-  /// @brief Convert to "::GlobalNamespace::ILobbyPlayersDataModel"
-  constexpr ::GlobalNamespace::ILobbyPlayersDataModel* i___GlobalNamespace__ILobbyPlayersDataModel() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>"
-  constexpr operator ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>"
-  constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*
-  i___System__Collections__Generic__IReadOnlyDictionary_2___StringW___GlobalNamespace__ILobbyPlayerData__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
-  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
+  constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept;
+
+  /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>"
+  constexpr operator ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
-  constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
-  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
-  i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Activate, addr 0x12dde14, size 0x106c, virtual true, abstract: false, final true
+  inline void Activate();
 
-  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
+  /// @brief Method ClearData, addr 0x12ddc3c, size 0x80, virtual true, abstract: false, final true
+  inline void ClearData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
+  /// @brief Method ClearLocalPlayerBeatmapLevel, addr 0x12dd5fc, size 0xd8, virtual true, abstract: false, final true
+  inline void ClearLocalPlayerBeatmapLevel();
 
-  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+  /// @brief Method ClearLocalPlayerGameplayModifiers, addr 0x12dd7f0, size 0xbc, virtual true, abstract: false, final true
+  inline void ClearLocalPlayerGameplayModifiers();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  /// @brief Method ClearRecommendations, addr 0x12ddcbc, size 0x158, virtual true, abstract: false, final true
+  inline void ClearRecommendations();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  /// @brief Method ContainsKey, addr 0x12e0640, size 0x58, virtual true, abstract: false, final true
+  inline bool ContainsKey(::StringW key);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  /// @brief Method Deactivate, addr 0x12def18, size 0xa18, virtual true, abstract: false, final true
+  inline void Deactivate();
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
+  /// @brief Method Dispose, addr 0x12df930, size 0x4, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
+  /// @brief Method GetEnumerator, addr 0x12e055c, size 0x68, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>* GetEnumerator();
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  /// @brief Method GetOrCreateLobbyPlayerDataModel, addr 0x12dd02c, size 0xdc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::LobbyPlayerData* GetOrCreateLobbyPlayerDataModel(::StringW userId, ByRef<bool> alreadyExists);
+
+  /// @brief Method HandleMenuRpcManagerClearBeatmap, addr 0x12dff60, size 0x20, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerClearBeatmap(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerClearRecommendedGameplayModifiers, addr 0x12dff58, size 0x8, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerClearRecommendedGameplayModifiers(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerGetIsInLobby, addr 0x12dfc80, size 0x138, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerGetIsInLobby(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerGetIsReady, addr 0x12dfdb8, size 0x138, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerGetIsReady(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerGetOwnedSongPacks, addr 0x12e03f8, size 0x4, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerGetOwnedSongPacks(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerGetRecommendedBeatmap, addr 0x12df934, size 0x1b8, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerGetRecommendedBeatmap(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerGetRecommendedGameplayModifiers, addr 0x12dfaec, size 0x194, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerGetRecommendedGameplayModifiers(::StringW userId);
+
+  /// @brief Method HandleMenuRpcManagerRecommendBeatmap, addr 0x12dfef0, size 0x64, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerRecommendBeatmap(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
+
+  /// @brief Method HandleMenuRpcManagerRecommendGameplayModifiers, addr 0x12dff54, size 0x4, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerRecommendGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
+
+  /// @brief Method HandleMenuRpcManagerSetIsInLobby, addr 0x12dff8c, size 0xc, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerSetIsInLobby(::StringW userId, bool isInLobby);
+
+  /// @brief Method HandleMenuRpcManagerSetIsReady, addr 0x12dff80, size 0xc, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerSetIsReady(::StringW userId, bool isReady);
+
+  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x12e03fc, size 0x160, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
+
+  /// @brief Method HandleMultiplayerSessionManagerPlayerConnected, addr 0x12e0060, size 0x238, virtual false, abstract: false, final false
+  inline void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+
+  /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected, addr 0x12e0298, size 0x160, virtual false, abstract: false, final false
+  inline void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+
+  /// @brief Method HandleMultiplayerSessionManagerPlayerStateChanged, addr 0x12dff98, size 0xc8, virtual false, abstract: false, final false
+  inline void HandleMultiplayerSessionManagerPlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+
+  /// @brief Method ILobbyPlayersDataModel.SetLocalPlayerBeatmapLevel, addr 0x12e08b0, size 0x4, virtual true, abstract: false, final true
+  inline void ILobbyPlayersDataModel_SetLocalPlayerBeatmapLevel(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+
+  static inline ::GlobalNamespace::LobbyPlayersDataModel* New_ctor();
+
+  /// @brief Method NotifyModelChange, addr 0x12dd1c0, size 0x1c, virtual false, abstract: false, final false
+  inline void NotifyModelChange(::StringW userId);
+
+  /// @brief Method RequestKickPlayer, addr 0x12ddb74, size 0xc8, virtual true, abstract: false, final true
+  inline void RequestKickPlayer(::StringW userId);
+
+  /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x12dd490, size 0x16c, virtual false, abstract: false, final false
+  inline void SetLocalPlayerBeatmapLevel(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+
+  /// @brief Method SetLocalPlayerGameplayModifiers, addr 0x12dd6d4, size 0x11c, virtual true, abstract: false, final true
+  inline void SetLocalPlayerGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
+
+  /// @brief Method SetLocalPlayerIsActive, addr 0x12dd8ac, size 0xc, virtual true, abstract: false, final true
+  inline void SetLocalPlayerIsActive(bool isActive);
+
+  /// @brief Method SetLocalPlayerIsActive, addr 0x12dd8b8, size 0xf4, virtual false, abstract: false, final false
+  inline void SetLocalPlayerIsActive(bool isActive, bool notifyChange);
+
+  /// @brief Method SetLocalPlayerIsInLobby, addr 0x12dda90, size 0xc, virtual true, abstract: false, final true
+  inline void SetLocalPlayerIsInLobby(bool isInLobby);
+
+  /// @brief Method SetLocalPlayerIsInLobby, addr 0x12dda9c, size 0xd8, virtual false, abstract: false, final false
+  inline void SetLocalPlayerIsInLobby(bool isInLobby, bool notifyChange);
+
+  /// @brief Method SetLocalPlayerIsReady, addr 0x12dd9ac, size 0xc, virtual true, abstract: false, final true
+  inline void SetLocalPlayerIsReady(bool isReady);
+
+  /// @brief Method SetLocalPlayerIsReady, addr 0x12dd9b8, size 0xd8, virtual false, abstract: false, final false
+  inline void SetLocalPlayerIsReady(bool isReady, bool notifyChange);
+
+  /// @brief Method SetOwnedSongPacks, addr 0x12dee80, size 0x98, virtual false, abstract: false, final false
+  inline void SetOwnedSongPacks();
+
+  /// @brief Method SetPlayerBeatmapLevel, addr 0x12dd108, size 0xb8, virtual false, abstract: false, final false
+  inline void SetPlayerBeatmapLevel(::StringW userId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+
+  /// @brief Method SetPlayerGameplayModifiers, addr 0x12dd1dc, size 0x7c, virtual false, abstract: false, final false
+  inline void SetPlayerGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* modifiers);
+
+  /// @brief Method SetPlayerIsActive, addr 0x12dd258, size 0x8c, virtual false, abstract: false, final false
+  inline void SetPlayerIsActive(::StringW userId, bool isActive, bool notifyChange);
+
+  /// @brief Method SetPlayerIsInLobby, addr 0x12dd370, size 0x8c, virtual false, abstract: false, final false
+  inline void SetPlayerIsInLobby(::StringW userId, bool isInLobby, bool notifyChange);
+
+  /// @brief Method SetPlayerIsPartyOwner, addr 0x12dd3fc, size 0x94, virtual false, abstract: false, final false
+  inline void SetPlayerIsPartyOwner(::StringW userId, bool isPartyOwner, bool notifyChange);
+
+  /// @brief Method SetPlayerIsReady, addr 0x12dd2e4, size 0x8c, virtual false, abstract: false, final false
+  inline void SetPlayerIsReady(::StringW userId, bool isReady, bool notifyChange);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x12e05ec, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method TryGetValue, addr 0x12e0698, size 0x7c, virtual true, abstract: false, final true
+  inline bool TryGetValue(::StringW key, ByRef<::GlobalNamespace::ILobbyPlayerData*> value);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
-
-  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
-
-  constexpr ::GlobalNamespace::LobbyPlayerData*& __cordl_internal_get__emptyLobbyPlayerData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerData*> const& __cordl_internal_get__emptyLobbyPlayerData() const;
-
-  constexpr void __cordl_internal_set__emptyLobbyPlayerData(::GlobalNamespace::LobbyPlayerData* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*& __cordl_internal_get__playersData();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*> const& __cordl_internal_get__playersData() const;
-
-  constexpr void __cordl_internal_set__playersData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr ::GlobalNamespace::LobbyPlayerData*& __cordl_internal_get__emptyLobbyPlayerData();
 
-  constexpr ::StringW& __cordl_internal_get__partyOwnerId_k__BackingField();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerData*> const& __cordl_internal_get__emptyLobbyPlayerData() const;
+
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
+
+  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
+
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr ::StringW const& __cordl_internal_get__partyOwnerId_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__partyOwnerId_k__BackingField(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__partyOwnerId_k__BackingField();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*& __cordl_internal_get__playersData();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*> const& __cordl_internal_get__playersData() const;
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_didChangeEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_didChangeEvent() const;
 
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+
+  constexpr void __cordl_internal_set__emptyLobbyPlayerData(::GlobalNamespace::LobbyPlayerData* value);
+
+  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
+
+  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+
+  constexpr void __cordl_internal_set__partyOwnerId_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__playersData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* value);
+
   constexpr void __cordl_internal_set_didChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method get_localUserId, addr 0x129ad2c, size 0x140, virtual true, abstract: false, final true
-  inline ::StringW get_localUserId();
-
-  /// @brief Method get_partyOwnerId, addr 0x129ae6c, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_partyOwnerId();
-
-  /// @brief Method set_partyOwnerId, addr 0x129ae74, size 0x8, virtual false, abstract: false, final false
-  inline void set_partyOwnerId(::StringW value);
-
-  /// @brief Method add_didChangeEvent, addr 0x129ae7c, size 0xb0, virtual true, abstract: false, final true
-  inline void add_didChangeEvent(::System::Action_1<::StringW>* value);
-
-  /// @brief Method remove_didChangeEvent, addr 0x129af2c, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_didChangeEvent(::System::Action_1<::StringW>* value);
-
-  /// @brief Method get_Item, addr 0x129afdc, size 0x80, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::ILobbyPlayerData* get_Item(::StringW userId);
-
-  /// @brief Method GetOrCreateLobbyPlayerDataModel, addr 0x129b05c, size 0xdc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LobbyPlayerData* GetOrCreateLobbyPlayerDataModel(::StringW userId, ByRef<bool> alreadyExists);
-
-  /// @brief Method SetPlayerBeatmapLevel, addr 0x129b138, size 0xb8, virtual false, abstract: false, final false
-  inline void SetPlayerBeatmapLevel(::StringW userId, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
-
-  /// @brief Method SetPlayerGameplayModifiers, addr 0x129b20c, size 0x7c, virtual false, abstract: false, final false
-  inline void SetPlayerGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* modifiers);
-
-  /// @brief Method SetPlayerIsActive, addr 0x129b288, size 0x8c, virtual false, abstract: false, final false
-  inline void SetPlayerIsActive(::StringW userId, bool isActive, bool notifyChange);
-
-  /// @brief Method SetPlayerIsReady, addr 0x129b314, size 0x8c, virtual false, abstract: false, final false
-  inline void SetPlayerIsReady(::StringW userId, bool isReady, bool notifyChange);
-
-  /// @brief Method SetPlayerIsInLobby, addr 0x129b3a0, size 0x8c, virtual false, abstract: false, final false
-  inline void SetPlayerIsInLobby(::StringW userId, bool isInLobby, bool notifyChange);
-
-  /// @brief Method SetPlayerIsPartyOwner, addr 0x129b42c, size 0x94, virtual false, abstract: false, final false
-  inline void SetPlayerIsPartyOwner(::StringW userId, bool isPartyOwner, bool notifyChange);
-
-  /// @brief Method SetLocalPlayerBeatmapLevel, addr 0x129b4c0, size 0x16c, virtual false, abstract: false, final false
-  inline void SetLocalPlayerBeatmapLevel(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
-
-  /// @brief Method ClearLocalPlayerBeatmapLevel, addr 0x129b62c, size 0xd8, virtual true, abstract: false, final true
-  inline void ClearLocalPlayerBeatmapLevel();
-
-  /// @brief Method SetLocalPlayerGameplayModifiers, addr 0x129b704, size 0x11c, virtual true, abstract: false, final true
-  inline void SetLocalPlayerGameplayModifiers(::GlobalNamespace::GameplayModifiers* modifiers);
-
-  /// @brief Method ClearLocalPlayerGameplayModifiers, addr 0x129b820, size 0xbc, virtual true, abstract: false, final true
-  inline void ClearLocalPlayerGameplayModifiers();
-
-  /// @brief Method SetLocalPlayerIsActive, addr 0x129b8dc, size 0xc, virtual true, abstract: false, final true
-  inline void SetLocalPlayerIsActive(bool isActive);
-
-  /// @brief Method SetLocalPlayerIsActive, addr 0x129b8e8, size 0xf4, virtual false, abstract: false, final false
-  inline void SetLocalPlayerIsActive(bool isActive, bool notifyChange);
-
-  /// @brief Method SetLocalPlayerIsReady, addr 0x129b9dc, size 0xc, virtual true, abstract: false, final true
-  inline void SetLocalPlayerIsReady(bool isReady);
-
-  /// @brief Method SetLocalPlayerIsReady, addr 0x129b9e8, size 0xd8, virtual false, abstract: false, final false
-  inline void SetLocalPlayerIsReady(bool isReady, bool notifyChange);
-
-  /// @brief Method SetLocalPlayerIsInLobby, addr 0x129bac0, size 0xc, virtual true, abstract: false, final true
-  inline void SetLocalPlayerIsInLobby(bool isInLobby);
-
-  /// @brief Method SetLocalPlayerIsInLobby, addr 0x129bacc, size 0xd8, virtual false, abstract: false, final false
-  inline void SetLocalPlayerIsInLobby(bool isInLobby, bool notifyChange);
-
-  /// @brief Method RequestKickPlayer, addr 0x129bba4, size 0xc8, virtual true, abstract: false, final true
-  inline void RequestKickPlayer(::StringW userId);
-
-  /// @brief Method ClearData, addr 0x129bc6c, size 0x80, virtual true, abstract: false, final true
-  inline void ClearData();
-
-  /// @brief Method ClearRecommendations, addr 0x129bcec, size 0x158, virtual true, abstract: false, final true
-  inline void ClearRecommendations();
-
-  /// @brief Method Activate, addr 0x129be44, size 0x106c, virtual true, abstract: false, final true
-  inline void Activate();
-
-  /// @brief Method Deactivate, addr 0x129cf48, size 0xa18, virtual true, abstract: false, final true
-  inline void Deactivate();
-
-  /// @brief Method Dispose, addr 0x129d960, size 0x4, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method SetOwnedSongPacks, addr 0x129ceb0, size 0x98, virtual false, abstract: false, final false
-  inline void SetOwnedSongPacks();
-
-  /// @brief Method HandleMenuRpcManagerGetRecommendedBeatmap, addr 0x129d964, size 0x1b8, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerGetRecommendedBeatmap(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerGetRecommendedGameplayModifiers, addr 0x129db1c, size 0x194, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerGetRecommendedGameplayModifiers(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerGetIsInLobby, addr 0x129dcb0, size 0x138, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerGetIsInLobby(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerGetIsReady, addr 0x129dde8, size 0x138, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerGetIsReady(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerRecommendBeatmap, addr 0x129df20, size 0x64, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerRecommendBeatmap(::StringW userId, ::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable);
-
-  /// @brief Method HandleMenuRpcManagerRecommendGameplayModifiers, addr 0x129df84, size 0x4, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerRecommendGameplayModifiers(::StringW userId, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-
-  /// @brief Method HandleMenuRpcManagerClearRecommendedGameplayModifiers, addr 0x129df88, size 0x8, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerClearRecommendedGameplayModifiers(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerClearBeatmap, addr 0x129df90, size 0x20, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerClearBeatmap(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerSetIsReady, addr 0x129dfb0, size 0xc, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerSetIsReady(::StringW userId, bool isReady);
-
-  /// @brief Method HandleMenuRpcManagerSetIsInLobby, addr 0x129dfbc, size 0xc, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerSetIsInLobby(::StringW userId, bool isInLobby);
-
-  /// @brief Method HandleMultiplayerSessionManagerPlayerStateChanged, addr 0x129dfc8, size 0xc8, virtual false, abstract: false, final false
-  inline void HandleMultiplayerSessionManagerPlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-
-  /// @brief Method HandleMultiplayerSessionManagerPlayerConnected, addr 0x129e090, size 0x238, virtual false, abstract: false, final false
-  inline void HandleMultiplayerSessionManagerPlayerConnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-
-  /// @brief Method HandleMultiplayerSessionManagerPlayerDisconnected, addr 0x129e2c8, size 0x160, virtual false, abstract: false, final false
-  inline void HandleMultiplayerSessionManagerPlayerDisconnected(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
-
-  /// @brief Method NotifyModelChange, addr 0x129b1f0, size 0x1c, virtual false, abstract: false, final false
-  inline void NotifyModelChange(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerGetOwnedSongPacks, addr 0x129e428, size 0x4, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerGetOwnedSongPacks(::StringW userId);
-
-  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x129e42c, size 0x160, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
-
-  /// @brief Method GetEnumerator, addr 0x129e58c, size 0x68, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>* GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x129e61c, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method get_Count, addr 0x129e620, size 0x50, virtual true, abstract: false, final true
-  inline int32_t get_Count();
-
-  /// @brief Method ContainsKey, addr 0x129e670, size 0x58, virtual true, abstract: false, final true
-  inline bool ContainsKey(::StringW key);
-
-  /// @brief Method TryGetValue, addr 0x129e6c8, size 0x7c, virtual true, abstract: false, final true
-  inline bool TryGetValue(::StringW key, ByRef<::GlobalNamespace::ILobbyPlayerData*> value);
-
-  /// @brief Method get_Keys, addr 0x129e744, size 0x50, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_Keys();
-
-  /// @brief Method get_Values, addr 0x129e794, size 0x50, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILobbyPlayerData*>* get_Values();
-
-  static inline ::GlobalNamespace::LobbyPlayersDataModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x129e7e4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e07b4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ILobbyPlayersDataModel.SetLocalPlayerBeatmapLevel, addr 0x129e8e0, size 0x4, virtual true, abstract: false, final true
-  inline void ILobbyPlayersDataModel_SetLocalPlayerBeatmapLevel(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+  /// @brief Method add_didChangeEvent, addr 0x12dce4c, size 0xb0, virtual true, abstract: false, final true
+  inline void add_didChangeEvent(::System::Action_1<::StringW>* value);
 
+  /// @brief Method get_Count, addr 0x12e05f0, size 0x50, virtual true, abstract: false, final true
+  inline int32_t get_Count();
+
+  /// @brief Method get_Item, addr 0x12dcfac, size 0x80, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::ILobbyPlayerData* get_Item(::StringW userId);
+
+  /// @brief Method get_Keys, addr 0x12e0714, size 0x50, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_Keys();
+
+  /// @brief Method get_Values, addr 0x12e0764, size 0x50, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILobbyPlayerData*>* get_Values();
+
+  /// @brief Method get_localUserId, addr 0x12dccfc, size 0x140, virtual true, abstract: false, final true
+  inline ::StringW get_localUserId();
+
+  /// @brief Method get_partyOwnerId, addr 0x12dce3c, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_partyOwnerId();
+
+  /// @brief Convert to "::GlobalNamespace::ILobbyPlayersDataModel"
+  constexpr ::GlobalNamespace::ILobbyPlayersDataModel* i___GlobalNamespace__ILobbyPlayersDataModel() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>>"
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>>*
+  i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2___StringW___GlobalNamespace__ILobbyPlayerData___() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IReadOnlyDictionary_2<::StringW,::GlobalNamespace::ILobbyPlayerData*>"
+  constexpr ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>*
+  i___System__Collections__Generic__IReadOnlyDictionary_2___StringW___GlobalNamespace__ILobbyPlayerData__() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// @brief Method remove_didChangeEvent, addr 0x12dcefc, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_didChangeEvent(::System::Action_1<::StringW>* value);
+
+  /// @brief Method set_partyOwnerId, addr 0x12dce44, size 0x8, virtual false, abstract: false, final false
+  inline void set_partyOwnerId(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LobbyPlayersDataModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayersDataModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyPlayersDataModel(LobbyPlayersDataModel&&) = delete;
@@ -747,12 +744,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LobbyPlayersDataModel(LobbyPlayersDataModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LobbyPlayersDataModel();
-
-public:
   /// @brief Field _menuRpcManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;
 

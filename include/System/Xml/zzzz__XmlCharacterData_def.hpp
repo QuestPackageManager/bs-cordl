@@ -18,53 +18,57 @@ MARK_REF_PTR_T(::System::Xml::XmlCharacterData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11411))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11398))
 // CS Name: ::System.Xml::XmlCharacterData*
 class CORDL_TYPE XmlCharacterData : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
-  /// @brief Field data, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
-
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
+  __declspec(property(get = get_Data, put = set_Data))::StringW Data;
 
   __declspec(property(get = get_InnerText, put = set_InnerText))::StringW InnerText;
 
-  __declspec(property(get = get_Data, put = set_Data))::StringW Data;
+  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr ::StringW& __cordl_internal_get_data();
+  /// @brief Field data, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
 
-  constexpr ::StringW const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(::StringW value);
+  /// @brief Method CheckOnData, addr 0x296c81c, size 0x38, virtual false, abstract: false, final false
+  inline bool CheckOnData(::StringW data);
 
   static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor, addr 0x2887108, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_data() const;
+
+  constexpr ::StringW& __cordl_internal_get_data();
+
+  constexpr void __cordl_internal_set_data(::StringW value);
+
+  /// @brief Method .ctor, addr 0x296c584, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Value, addr 0x2887274, size 0x10, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
-
-  /// @brief Method set_Value, addr 0x2887284, size 0x10, virtual true, abstract: false, final false
-  inline void set_Value(::StringW value);
-
-  /// @brief Method get_InnerText, addr 0x2887294, size 0xc, virtual true, abstract: false, final false
-  inline ::StringW get_InnerText();
-
-  /// @brief Method set_InnerText, addr 0x28872a0, size 0xc, virtual true, abstract: false, final false
-  inline void set_InnerText(::StringW value);
-
-  /// @brief Method get_Data, addr 0x28872ac, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x296c728, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_Data();
 
-  /// @brief Method set_Data, addr 0x2887300, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_InnerText, addr 0x296c710, size 0xc, virtual true, abstract: false, final false
+  inline ::StringW get_InnerText();
+
+  /// @brief Method get_Value, addr 0x296c6f0, size 0x10, virtual true, abstract: false, final false
+  inline ::StringW get_Value();
+
+  /// @brief Method set_Data, addr 0x296c77c, size 0xa0, virtual true, abstract: false, final false
   inline void set_Data(::StringW value);
 
-  /// @brief Method CheckOnData, addr 0x28873a0, size 0x38, virtual false, abstract: false, final false
-  inline bool CheckOnData(::StringW data);
+  /// @brief Method set_InnerText, addr 0x296c71c, size 0xc, virtual true, abstract: false, final false
+  inline void set_InnerText(::StringW value);
 
+  /// @brief Method set_Value, addr 0x296c700, size 0x10, virtual true, abstract: false, final false
+  inline void set_Value(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlCharacterData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlCharacterData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlCharacterData(XmlCharacterData&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlCharacterData(XmlCharacterData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlCharacterData();
-
-public:
   /// @brief Field data, offset: 0x20, size: 0x8, def value: None
   ::StringW ___data;
 

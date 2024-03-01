@@ -92,8 +92,6 @@ MARK_VAL_T(::GlobalNamespace::__Interop__Sys__FileStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2211))
 // CS Name: ::Interop::Error
 struct CORDL_TYPE __Interop__Error {
 public:
@@ -190,21 +188,26 @@ public:
     return static_cast<____Interop__Error_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Interop__Error(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Interop__Error();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Interop__Error(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field SUCCESS value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__Interop__Error const SUCCESS;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field E2BIG value: static_cast<int32_t>(0x10001)
   static ::GlobalNamespace::__Interop__Error const _cordl_E2BIG;
@@ -272,6 +275,9 @@ public:
   /// @brief Field EFBIG value: static_cast<int32_t>(0x10016)
   static ::GlobalNamespace::__Interop__Error const _cordl_EFBIG;
 
+  /// @brief Field EHOSTDOWN value: static_cast<int32_t>(0x10070)
+  static ::GlobalNamespace::__Interop__Error const _cordl_EHOSTDOWN;
+
   /// @brief Field EHOSTUNREACH value: static_cast<int32_t>(0x10017)
   static ::GlobalNamespace::__Interop__Error const _cordl_EHOSTUNREACH;
 
@@ -332,6 +338,9 @@ public:
   /// @brief Field ENOBUFS value: static_cast<int32_t>(0x1002a)
   static ::GlobalNamespace::__Interop__Error const _cordl_ENOBUFS;
 
+  /// @brief Field ENODATA value: static_cast<int32_t>(0x10071)
+  static ::GlobalNamespace::__Interop__Error const _cordl_ENODATA;
+
   /// @brief Field ENODEV value: static_cast<int32_t>(0x1002c)
   static ::GlobalNamespace::__Interop__Error const _cordl_ENODEV;
 
@@ -383,11 +392,17 @@ public:
   /// @brief Field ENXIO value: static_cast<int32_t>(0x1003f)
   static ::GlobalNamespace::__Interop__Error const _cordl_ENXIO;
 
+  /// @brief Field EOPNOTSUPP value: static_cast<int32_t>(0x1003d)
+  static ::GlobalNamespace::__Interop__Error const _cordl_EOPNOTSUPP;
+
   /// @brief Field EOVERFLOW value: static_cast<int32_t>(0x10040)
   static ::GlobalNamespace::__Interop__Error const _cordl_EOVERFLOW;
 
   /// @brief Field EPERM value: static_cast<int32_t>(0x10042)
   static ::GlobalNamespace::__Interop__Error const _cordl_EPERM;
+
+  /// @brief Field EPFNOSUPPORT value: static_cast<int32_t>(0x10060)
+  static ::GlobalNamespace::__Interop__Error const _cordl_EPFNOSUPPORT;
 
   /// @brief Field EPIPE value: static_cast<int32_t>(0x10043)
   static ::GlobalNamespace::__Interop__Error const _cordl_EPIPE;
@@ -407,6 +422,12 @@ public:
   /// @brief Field EROFS value: static_cast<int32_t>(0x10048)
   static ::GlobalNamespace::__Interop__Error const _cordl_EROFS;
 
+  /// @brief Field ESHUTDOWN value: static_cast<int32_t>(0x1006c)
+  static ::GlobalNamespace::__Interop__Error const _cordl_ESHUTDOWN;
+
+  /// @brief Field ESOCKTNOSUPPORT value: static_cast<int32_t>(0x1005e)
+  static ::GlobalNamespace::__Interop__Error const _cordl_ESOCKTNOSUPPORT;
+
   /// @brief Field ESPIPE value: static_cast<int32_t>(0x10049)
   static ::GlobalNamespace::__Interop__Error const _cordl_ESPIPE;
 
@@ -422,29 +443,11 @@ public:
   /// @brief Field ETXTBSY value: static_cast<int32_t>(0x1004e)
   static ::GlobalNamespace::__Interop__Error const _cordl_ETXTBSY;
 
-  /// @brief Field EXDEV value: static_cast<int32_t>(0x1004f)
-  static ::GlobalNamespace::__Interop__Error const _cordl_EXDEV;
-
-  /// @brief Field ESOCKTNOSUPPORT value: static_cast<int32_t>(0x1005e)
-  static ::GlobalNamespace::__Interop__Error const _cordl_ESOCKTNOSUPPORT;
-
-  /// @brief Field EPFNOSUPPORT value: static_cast<int32_t>(0x10060)
-  static ::GlobalNamespace::__Interop__Error const _cordl_EPFNOSUPPORT;
-
-  /// @brief Field ESHUTDOWN value: static_cast<int32_t>(0x1006c)
-  static ::GlobalNamespace::__Interop__Error const _cordl_ESHUTDOWN;
-
-  /// @brief Field EHOSTDOWN value: static_cast<int32_t>(0x10070)
-  static ::GlobalNamespace::__Interop__Error const _cordl_EHOSTDOWN;
-
-  /// @brief Field ENODATA value: static_cast<int32_t>(0x10071)
-  static ::GlobalNamespace::__Interop__Error const _cordl_ENODATA;
-
-  /// @brief Field EOPNOTSUPP value: static_cast<int32_t>(0x1003d)
-  static ::GlobalNamespace::__Interop__Error const _cordl_EOPNOTSUPP;
-
   /// @brief Field EWOULDBLOCK value: static_cast<int32_t>(0x10006)
   static ::GlobalNamespace::__Interop__Error const _cordl_EWOULDBLOCK;
+
+  /// @brief Field EXDEV value: static_cast<int32_t>(0x1004f)
+  static ::GlobalNamespace::__Interop__Error const _cordl_EXDEV;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -458,8 +461,6 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Error, value__) == 0x0, "Of
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2211))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2212))
 // CS Name: ::Interop::ErrorInfo
 struct CORDL_TYPE __Interop__ErrorInfo {
 public:
@@ -468,31 +469,31 @@ public:
 
   __declspec(property(get = get_RawErrno)) int32_t RawErrno;
 
-  /// @brief Method .ctor, addr 0x2430e6c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(int32_t _cordl_errno);
-
-  /// @brief Method .ctor, addr 0x2430ed8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__Interop__Error error);
-
-  /// @brief Method get_Error, addr 0x2430ee4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__Interop__Error get_Error();
-
-  /// @brief Method get_RawErrno, addr 0x2430d34, size 0x6c, virtual false, abstract: false, final false
-  inline int32_t get_RawErrno();
-
-  /// @brief Method GetErrorMessage, addr 0x2430da0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMessage, addr 0x2501a98, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetErrorMessage();
 
-  /// @brief Method ToString, addr 0x2431064, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2501d5c, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "_error", ty: "::GlobalNamespace::__Interop__Error", modifiers: "", def_value: None }, CppParam { name: "_rawErrno", ty: "int32_t", modifiers: "", def_value:
-  // None }]
-  constexpr __Interop__ErrorInfo(::GlobalNamespace::__Interop__Error _error, int32_t _rawErrno) noexcept;
+  /// @brief Method .ctor, addr 0x2501b64, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(int32_t _cordl_errno);
+
+  /// @brief Method .ctor, addr 0x2501bd0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::__Interop__Error error);
+
+  /// @brief Method get_Error, addr 0x2501bdc, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__Interop__Error get_Error();
+
+  /// @brief Method get_RawErrno, addr 0x2501a2c, size 0x6c, virtual false, abstract: false, final false
+  inline int32_t get_RawErrno();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Interop__ErrorInfo();
+
+  // Ctor Parameters [CppParam { name: "_error", ty: "::GlobalNamespace::__Interop__Error", modifiers: "", def_value: None }, CppParam { name: "_rawErrno", ty: "int32_t", modifiers: "", def_value:
+  // None }]
+  constexpr __Interop__ErrorInfo(::GlobalNamespace::__Interop__Error _error, int32_t _rawErrno) noexcept;
 
   /// @brief Field _error, offset: 0x0, size: 0x4, def value: None
   ::GlobalNamespace::__Interop__Error _error;
@@ -517,8 +518,6 @@ static_assert(offsetof(::GlobalNamespace::__Interop__ErrorInfo, _rawErrno) == 0x
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2213))
 // CS Name: ::Interop::Sys::NodeType
 struct CORDL_TYPE __Interop__Sys__NodeType {
 public:
@@ -543,24 +542,23 @@ public:
     return static_cast<____Interop__Sys__NodeType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Interop__Sys__NodeType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Interop__Sys__NodeType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Interop__Sys__NodeType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field DT_UNKNOWN value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_UNKNOWN;
-
-  /// @brief Field DT_FIFO value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_FIFO;
+  /// @brief Field DT_BLK value: static_cast<int32_t>(0x6)
+  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_BLK;
 
   /// @brief Field DT_CHR value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__Interop__Sys__NodeType const DT_CHR;
@@ -568,20 +566,26 @@ public:
   /// @brief Field DT_DIR value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__Interop__Sys__NodeType const DT_DIR;
 
-  /// @brief Field DT_BLK value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_BLK;
-
-  /// @brief Field DT_REG value: static_cast<int32_t>(0x8)
-  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_REG;
+  /// @brief Field DT_FIFO value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_FIFO;
 
   /// @brief Field DT_LNK value: static_cast<int32_t>(0xa)
   static ::GlobalNamespace::__Interop__Sys__NodeType const DT_LNK;
 
+  /// @brief Field DT_REG value: static_cast<int32_t>(0x8)
+  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_REG;
+
   /// @brief Field DT_SOCK value: static_cast<int32_t>(0xc)
   static ::GlobalNamespace::__Interop__Sys__NodeType const DT_SOCK;
 
+  /// @brief Field DT_UNKNOWN value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__Interop__Sys__NodeType const DT_UNKNOWN;
+
   /// @brief Field DT_WHT value: static_cast<int32_t>(0xe)
   static ::GlobalNamespace::__Interop__Sys__NodeType const DT_WHT;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -595,22 +599,20 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__NodeType, value__) == 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2213))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2214))
 // CS Name: ::Interop::Sys::DirectoryEntry
 struct CORDL_TYPE __Interop__Sys__DirectoryEntry {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x2431a74, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x250276c, size 0x164, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> GetName(::System::Span_1<char16_t> buffer);
-
-  // Ctor Parameters [CppParam { name: "Name", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "NameLength", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "InodeType", ty: "::GlobalNamespace::__Interop__Sys__NodeType", modifiers: "", def_value: None }]
-  constexpr __Interop__Sys__DirectoryEntry(::cordl_internals::Ptr<uint8_t> Name, int32_t NameLength, ::GlobalNamespace::__Interop__Sys__NodeType InodeType) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Interop__Sys__DirectoryEntry();
+
+  // Ctor Parameters [CppParam { name: "Name", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "NameLength", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "InodeType", ty: "::GlobalNamespace::__Interop__Sys__NodeType", modifiers: "", def_value: None }]
+  constexpr __Interop__Sys__DirectoryEntry(::cordl_internals::Ptr<uint8_t> Name, int32_t NameLength, ::GlobalNamespace::__Interop__Sys__NodeType InodeType) noexcept;
 
   /// @brief Field Name, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<uint8_t> Name;
@@ -640,8 +642,6 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__DirectoryEntry, InodeT
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2216))
 // CS Name: ::Interop::Sys::FileStatusFlags
 struct CORDL_TYPE __Interop__Sys__FileStatusFlags {
 public:
@@ -659,24 +659,29 @@ public:
     return static_cast<____Interop__Sys__FileStatusFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Interop__Sys__FileStatusFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Interop__Sys__FileStatusFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Interop__Sys__FileStatusFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field HasBirthTime value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__Interop__Sys__FileStatusFlags const HasBirthTime;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__Interop__Sys__FileStatusFlags const None;
 
-  /// @brief Field HasBirthTime value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__Interop__Sys__FileStatusFlags const HasBirthTime;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -690,12 +695,14 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__FileStatusFlags, value
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2216))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2215))
 // CS Name: ::Interop::Sys::FileStatus
 struct CORDL_TYPE __Interop__Sys__FileStatus {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Interop__Sys__FileStatus();
+
   // Ctor Parameters [CppParam { name: "Flags", ty: "::GlobalNamespace::__Interop__Sys__FileStatusFlags", modifiers: "", def_value: None }, CppParam { name: "Mode", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "Uid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Gid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Size", ty:
   // "int64_t", modifiers: "", def_value: None }, CppParam { name: "ATime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "ATimeNsec", ty: "int64_t", modifiers: "", def_value: None
@@ -706,10 +713,6 @@ public:
   constexpr __Interop__Sys__FileStatus(::GlobalNamespace::__Interop__Sys__FileStatusFlags Flags, int32_t Mode, uint32_t Uid, uint32_t Gid, int64_t Size, int64_t ATime, int64_t ATimeNsec,
                                        int64_t MTime, int64_t MTimeNsec, int64_t CTime, int64_t CTimeNsec, int64_t BirthTime, int64_t BirthTimeNsec, int64_t Dev, int64_t Ino,
                                        uint32_t UserFlags) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Interop__Sys__FileStatus();
 
   /// @brief Field Flags, offset: 0x0, size: 0x4, def value: None
   ::GlobalNamespace::__Interop__Sys__FileStatusFlags Flags;
@@ -804,8 +807,6 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__FileStatus, UserFlags)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2217))
 // CS Name: ::Interop::Sys::Permissions
 struct CORDL_TYPE __Interop__Sys__Permissions {
 public:
@@ -834,57 +835,62 @@ public:
     return static_cast<____Interop__Sys__Permissions_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Interop__Sys__Permissions(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Interop__Sys__Permissions();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Interop__Sys__Permissions(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Mask value: static_cast<int32_t>(0x1ff)
   static ::GlobalNamespace::__Interop__Sys__Permissions const Mask;
 
-  /// @brief Field S_IRWXU value: static_cast<int32_t>(0x1c0)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRWXU;
-
-  /// @brief Field S_IRUSR value: static_cast<int32_t>(0x100)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRUSR;
-
-  /// @brief Field S_IWUSR value: static_cast<int32_t>(0x80)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IWUSR;
-
-  /// @brief Field S_IXUSR value: static_cast<int32_t>(0x40)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IXUSR;
-
-  /// @brief Field S_IRWXG value: static_cast<int32_t>(0x38)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRWXG;
-
   /// @brief Field S_IRGRP value: static_cast<int32_t>(0x20)
   static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRGRP;
-
-  /// @brief Field S_IWGRP value: static_cast<int32_t>(0x10)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IWGRP;
-
-  /// @brief Field S_IXGRP value: static_cast<int32_t>(0x8)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IXGRP;
-
-  /// @brief Field S_IRWXO value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRWXO;
 
   /// @brief Field S_IROTH value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__Interop__Sys__Permissions const S_IROTH;
 
+  /// @brief Field S_IRUSR value: static_cast<int32_t>(0x100)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRUSR;
+
+  /// @brief Field S_IRWXG value: static_cast<int32_t>(0x38)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRWXG;
+
+  /// @brief Field S_IRWXO value: static_cast<int32_t>(0x7)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRWXO;
+
+  /// @brief Field S_IRWXU value: static_cast<int32_t>(0x1c0)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IRWXU;
+
+  /// @brief Field S_IWGRP value: static_cast<int32_t>(0x10)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IWGRP;
+
   /// @brief Field S_IWOTH value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__Interop__Sys__Permissions const S_IWOTH;
 
+  /// @brief Field S_IWUSR value: static_cast<int32_t>(0x80)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IWUSR;
+
+  /// @brief Field S_IXGRP value: static_cast<int32_t>(0x8)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IXGRP;
+
   /// @brief Field S_IXOTH value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__Interop__Sys__Permissions const S_IXOTH;
+
+  /// @brief Field S_IXUSR value: static_cast<int32_t>(0x40)
+  static ::GlobalNamespace::__Interop__Sys__Permissions const S_IXUSR;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -898,116 +904,120 @@ static_assert(offsetof(::GlobalNamespace::__Interop__Sys__Permissions, value__) 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2218))
 // CS Name: ::Interop::Sys*
 class CORDL_TYPE __Interop__Sys : public ::System::Object {
 public:
   // Declarations
-  using Permissions = ::GlobalNamespace::__Interop__Sys__Permissions;
-
-  using FileStatusFlags = ::GlobalNamespace::__Interop__Sys__FileStatusFlags;
+  using DirectoryEntry = ::GlobalNamespace::__Interop__Sys__DirectoryEntry;
 
   using FileStatus = ::GlobalNamespace::__Interop__Sys__FileStatus;
 
-  using DirectoryEntry = ::GlobalNamespace::__Interop__Sys__DirectoryEntry;
+  using FileStatusFlags = ::GlobalNamespace::__Interop__Sys__FileStatusFlags;
 
   using NodeType = ::GlobalNamespace::__Interop__Sys__NodeType;
+
+  using Permissions = ::GlobalNamespace::__Interop__Sys__Permissions;
 
   /// @brief Field CanSetHiddenFlag, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_CanSetHiddenFlag, put = setStaticF_CanSetHiddenFlag)) bool CanSetHiddenFlag;
 
-  static inline void setStaticF_CanSetHiddenFlag(bool value);
+  /// @brief Method CloseDir, addr 0x2501e70, size 0x1c, virtual false, abstract: false, final false
+  static inline int32_t CloseDir(void* dir);
+
+  /// @brief Method ConvertErrorPalToPlatform, addr 0x2501be4, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t ConvertErrorPalToPlatform(::GlobalNamespace::__Interop__Error error);
+
+  /// @brief Method ConvertErrorPlatformToPal, addr 0x2501bcc, size 0x4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::__Interop__Error ConvertErrorPlatformToPal(int32_t platformErrno);
+
+  /// @brief Method CopyFile, addr 0x2502220, size 0xb4, virtual false, abstract: false, final false
+  static inline int32_t CopyFile(::Microsoft::Win32::SafeHandles::SafeFileHandle* source, ::Microsoft::Win32::SafeHandles::SafeFileHandle* destination);
+
+  /// @brief Method DoubleToString, addr 0x2502714, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t DoubleToString(double_t value, ::cordl_internals::Ptr<uint8_t> format, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferLength);
+
+  /// @brief Method GetEGid, addr 0x25022d4, size 0x4, virtual false, abstract: false, final false
+  static inline uint32_t GetEGid();
+
+  /// @brief Method GetEUid, addr 0x25022d8, size 0x4, virtual false, abstract: false, final false
+  static inline uint32_t GetEUid();
+
+  /// @brief Method GetLastErrorInfo, addr 0x25018a8, size 0x68, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::__Interop__ErrorInfo GetLastErrorInfo();
+
+  /// @brief Method GetNonCryptographicallySecureRandomBytes, addr 0x2501b60, size 0x4, virtual false, abstract: false, final false
+  static inline void GetNonCryptographicallySecureRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
+
+  /// @brief Method GetReadDirRBufferSize, addr 0x2501e68, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t GetReadDirRBufferSize();
+
+  /// @brief Method LChflagsCanSetHiddenFlag, addr 0x25022dc, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t LChflagsCanSetHiddenFlag();
+
+  /// @brief Method LStat, addr 0x250212c, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t LStat(::StringW path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
+
+  /// @brief Method LStat, addr 0x2502588, size 0x158, virtual false, abstract: false, final false
+  static inline int32_t LStat(::System::ReadOnlySpan_1<char16_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
+
+  /// @brief Method LStat, addr 0x250256c, size 0x1c, virtual false, abstract: false, final false
+  static inline int32_t LStat(ByRef<uint8_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
+
+  /// @brief Method Link, addr 0x25022e0, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t Link(::StringW source, ::StringW link);
+
+  /// @brief Method MkDir, addr 0x2502334, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t MkDir(::StringW path, int32_t mode);
+
+  /// @brief Method OpenDir, addr 0x2501e34, size 0x34, virtual false, abstract: false, final false
+  static inline void* OpenDir(::StringW path);
+
+  /// @brief Method ReadDirR, addr 0x2501e6c, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t ReadDirR(void* dir, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize, ByRef<::GlobalNamespace::__Interop__Sys__DirectoryEntry> outputEntry);
+
+  /// @brief Method ReadLink, addr 0x2501ed8, size 0x218, virtual false, abstract: false, final false
+  static inline ::StringW ReadLink(::StringW path);
+
+  /// @brief Method ReadLink, addr 0x2501e8c, size 0x4c, virtual false, abstract: false, final false
+  static inline int32_t ReadLink(::StringW path, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t bufferSize);
+
+  /// @brief Method Rename, addr 0x2502370, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t Rename(::StringW oldPath, ::StringW newPath);
+
+  /// @brief Method RmDir, addr 0x25023c4, size 0x34, virtual false, abstract: false, final false
+  static inline int32_t RmDir(::StringW path);
+
+  /// @brief Method Stat, addr 0x25020f0, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t Stat(::StringW path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
+
+  /// @brief Method Stat, addr 0x2502414, size 0x158, virtual false, abstract: false, final false
+  static inline int32_t Stat(::System::ReadOnlySpan_1<char16_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
+
+  /// @brief Method Stat, addr 0x25023f8, size 0x1c, virtual false, abstract: false, final false
+  static inline int32_t Stat(ByRef<uint8_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
+
+  /// @brief Method StrError, addr 0x2501c60, size 0xfc, virtual false, abstract: false, final false
+  static inline ::StringW StrError(int32_t platformErrno);
+
+  /// @brief Method StrErrorR, addr 0x2501e30, size 0x4, virtual false, abstract: false, final false
+  static inline ::cordl_internals::Ptr<uint8_t> StrErrorR(int32_t platformErrno, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize);
+
+  /// @brief Method Symlink, addr 0x2502168, size 0xb8, virtual false, abstract: false, final false
+  static inline int32_t Symlink(::StringW target, ::StringW linkPath);
+
+  /// @brief Method Unlink, addr 0x25026e0, size 0x34, virtual false, abstract: false, final false
+  static inline int32_t Unlink(::StringW pathname);
 
   static inline bool getStaticF_CanSetHiddenFlag();
 
-  /// @brief Method GetLastErrorInfo, addr 0x2430bb0, size 0x68, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__Interop__ErrorInfo GetLastErrorInfo();
+  static inline void setStaticF_CanSetHiddenFlag(bool value);
 
-  /// @brief Method StrError, addr 0x2430f68, size 0xfc, virtual false, abstract: false, final false
-  static inline ::StringW StrError(int32_t platformErrno);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Interop__Sys();
 
-  /// @brief Method ConvertErrorPlatformToPal, addr 0x2430ed4, size 0x4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__Interop__Error ConvertErrorPlatformToPal(int32_t platformErrno);
-
-  /// @brief Method ConvertErrorPalToPlatform, addr 0x2430eec, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t ConvertErrorPalToPlatform(::GlobalNamespace::__Interop__Error error);
-
-  /// @brief Method StrErrorR, addr 0x2431138, size 0x4, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<uint8_t> StrErrorR(int32_t platformErrno, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize);
-
-  /// @brief Method GetNonCryptographicallySecureRandomBytes, addr 0x2430e68, size 0x4, virtual false, abstract: false, final false
-  static inline void GetNonCryptographicallySecureRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
-
-  /// @brief Method OpenDir, addr 0x243113c, size 0x34, virtual false, abstract: false, final false
-  static inline void* OpenDir(::StringW path);
-
-  /// @brief Method GetReadDirRBufferSize, addr 0x2431170, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t GetReadDirRBufferSize();
-
-  /// @brief Method ReadDirR, addr 0x2431174, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t ReadDirR(void* dir, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferSize, ByRef<::GlobalNamespace::__Interop__Sys__DirectoryEntry> outputEntry);
-
-  /// @brief Method CloseDir, addr 0x2431178, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t CloseDir(void* dir);
-
-  /// @brief Method ReadLink, addr 0x2431194, size 0x4c, virtual false, abstract: false, final false
-  static inline int32_t ReadLink(::StringW path, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t bufferSize);
-
-  /// @brief Method ReadLink, addr 0x24311e0, size 0x218, virtual false, abstract: false, final false
-  static inline ::StringW ReadLink(::StringW path);
-
-  /// @brief Method Stat, addr 0x24313f8, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t Stat(::StringW path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
-
-  /// @brief Method LStat, addr 0x2431434, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t LStat(::StringW path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
-
-  /// @brief Method Symlink, addr 0x2431470, size 0xb8, virtual false, abstract: false, final false
-  static inline int32_t Symlink(::StringW target, ::StringW linkPath);
-
-  /// @brief Method CopyFile, addr 0x2431528, size 0xb4, virtual false, abstract: false, final false
-  static inline int32_t CopyFile(::Microsoft::Win32::SafeHandles::SafeFileHandle* source, ::Microsoft::Win32::SafeHandles::SafeFileHandle* destination);
-
-  /// @brief Method GetEGid, addr 0x24315dc, size 0x4, virtual false, abstract: false, final false
-  static inline uint32_t GetEGid();
-
-  /// @brief Method GetEUid, addr 0x24315e0, size 0x4, virtual false, abstract: false, final false
-  static inline uint32_t GetEUid();
-
-  /// @brief Method LChflagsCanSetHiddenFlag, addr 0x24315e4, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t LChflagsCanSetHiddenFlag();
-
-  /// @brief Method Link, addr 0x24315e8, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t Link(::StringW source, ::StringW link);
-
-  /// @brief Method MkDir, addr 0x243163c, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t MkDir(::StringW path, int32_t mode);
-
-  /// @brief Method Rename, addr 0x2431678, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t Rename(::StringW oldPath, ::StringW newPath);
-
-  /// @brief Method RmDir, addr 0x24316cc, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t RmDir(::StringW path);
-
-  /// @brief Method Stat, addr 0x2431700, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t Stat(ByRef<uint8_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
-
-  /// @brief Method Stat, addr 0x243171c, size 0x158, virtual false, abstract: false, final false
-  static inline int32_t Stat(::System::ReadOnlySpan_1<char16_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
-
-  /// @brief Method LStat, addr 0x2431874, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t LStat(ByRef<uint8_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
-
-  /// @brief Method LStat, addr 0x2431890, size 0x158, virtual false, abstract: false, final false
-  static inline int32_t LStat(::System::ReadOnlySpan_1<char16_t> path, ByRef<::GlobalNamespace::__Interop__Sys__FileStatus> output);
-
-  /// @brief Method Unlink, addr 0x24319e8, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t Unlink(::StringW pathname);
-
-  /// @brief Method DoubleToString, addr 0x2431a1c, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t DoubleToString(double_t value, ::cordl_internals::Ptr<uint8_t> format, ::cordl_internals::Ptr<uint8_t> buffer, int32_t bufferLength);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Interop__Sys", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Interop__Sys(__Interop__Sys&&) = delete;
@@ -1016,12 +1026,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Interop__Sys(__Interop__Sys const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Interop__Sys();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1032,37 +1036,41 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Interop__Sys,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2219))
 // CS Name: ::Interop*
 class CORDL_TYPE Interop : public ::System::Object {
 public:
   // Declarations
-  using Sys = ::GlobalNamespace::__Interop__Sys;
+  using Error = ::GlobalNamespace::__Interop__Error;
 
   using ErrorInfo = ::GlobalNamespace::__Interop__ErrorInfo;
 
-  using Error = ::GlobalNamespace::__Interop__Error;
+  using Sys = ::GlobalNamespace::__Interop__Sys;
 
-  /// @brief Method ThrowExceptionForIoErrno, addr 0x24305e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckIo, addr 0x2501910, size 0x20, virtual false, abstract: false, final false
+  static inline int32_t CheckIo(int32_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
+
+  /// @brief Method CheckIo, addr 0x2501830, size 0x78, virtual false, abstract: false, final false
+  static inline int64_t CheckIo(int64_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
+
+  /// @brief Method GetExceptionForIoErrno, addr 0x2501338, size 0x4f8, virtual false, abstract: false, final false
+  static inline ::System::Exception* GetExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path, bool isDirectory);
+
+  /// @brief Method GetIOException, addr 0x25019a0, size 0x8c, virtual false, abstract: false, final false
+  static inline ::System::Exception* GetIOException(::GlobalNamespace::__Interop__ErrorInfo errorInfo);
+
+  /// @brief Method GetRandomBytes, addr 0x2501afc, size 0x64, virtual false, abstract: false, final false
+  static inline void GetRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
+
+  /// @brief Method ThrowExceptionForIoErrno, addr 0x25012e0, size 0x58, virtual false, abstract: false, final false
   static inline void ThrowExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path, bool isDirectory,
                                               ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
 
-  /// @brief Method CheckIo, addr 0x2430b38, size 0x78, virtual false, abstract: false, final false
-  static inline int64_t CheckIo(int64_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Interop();
 
-  /// @brief Method CheckIo, addr 0x2430c18, size 0x20, virtual false, abstract: false, final false
-  static inline int32_t CheckIo(int32_t result, ::StringW path, bool isDirectory, ::System::Func_2<::GlobalNamespace::__Interop__ErrorInfo, ::GlobalNamespace::__Interop__ErrorInfo>* errorRewriter);
-
-  /// @brief Method GetExceptionForIoErrno, addr 0x2430640, size 0x4f8, virtual false, abstract: false, final false
-  static inline ::System::Exception* GetExceptionForIoErrno(::GlobalNamespace::__Interop__ErrorInfo errorInfo, ::StringW path, bool isDirectory);
-
-  /// @brief Method GetIOException, addr 0x2430ca8, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::Exception* GetIOException(::GlobalNamespace::__Interop__ErrorInfo errorInfo);
-
-  /// @brief Method GetRandomBytes, addr 0x2430e04, size 0x64, virtual false, abstract: false, final false
-  static inline void GetRandomBytes(::cordl_internals::Ptr<uint8_t> buffer, int32_t length);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Interop", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Interop(Interop&&) = delete;
@@ -1071,12 +1079,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Interop(Interop const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Interop();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

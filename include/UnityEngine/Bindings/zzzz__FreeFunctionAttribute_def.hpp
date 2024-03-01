@@ -15,27 +15,31 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::FreeFunctionAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16112))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16120))
 // CS Name: ::UnityEngine.Bindings::FreeFunctionAttribute*
 class CORDL_TYPE FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d39358, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name);
-
-  /// @brief Method .ctor, addr 0x2d39378, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe);
 
-  /// @brief Method .ctor, addr 0x2d39394, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25a80, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2e25aa0, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+  /// @brief Method .ctor, addr 0x2e25abc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isThreadSafe);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FreeFunctionAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FreeFunctionAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FreeFunctionAttribute(FreeFunctionAttribute&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FreeFunctionAttribute(FreeFunctionAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FreeFunctionAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

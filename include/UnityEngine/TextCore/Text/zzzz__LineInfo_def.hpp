@@ -24,12 +24,14 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LineInfo);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13647)), TypeDefinitionIndex(TypeDefinitionIndex(13671))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13648))
 // CS Name: ::UnityEngine.TextCore.Text::LineInfo
 struct CORDL_TYPE LineInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LineInfo();
+
   // Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty:
@@ -44,10 +46,6 @@ public:
                      int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight,
                      float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight,
                      ::UnityEngine::TextCore::Text::TextAlignment alignment, ::UnityEngine::TextCore::Text::Extents lineExtents) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LineInfo();
 
   /// @brief Field controlCharacterCount, offset: 0x0, size: 0x4, def value: None
   int32_t controlCharacterCount;

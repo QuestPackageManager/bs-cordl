@@ -30,8 +30,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GamepadState);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5751))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::GamepadState
 #pragma pack(push, 0)
 struct CORDL_TYPE GamepadState {
@@ -40,76 +38,76 @@ public:
   /// @brief Field buttons, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_buttons, put = __cordl_internal_set_buttons)) uint32_t buttons;
 
+  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+
   /// @brief Field leftStick, offset 0x4, size 0x8
   __declspec(property(get = __cordl_internal_get_leftStick, put = __cordl_internal_set_leftStick))::UnityEngine::Vector2 leftStick;
-
-  /// @brief Field rightStick, offset 0xc, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightStick, put = __cordl_internal_set_rightStick))::UnityEngine::Vector2 rightStick;
 
   /// @brief Field leftTrigger, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_leftTrigger, put = __cordl_internal_set_leftTrigger)) float_t leftTrigger;
 
+  /// @brief Field rightStick, offset 0xc, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightStick, put = __cordl_internal_set_rightStick))::UnityEngine::Vector2 rightStick;
+
   /// @brief Field rightTrigger, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_rightTrigger, put = __cordl_internal_set_rightTrigger)) float_t rightTrigger;
-
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
-
-  constexpr uint32_t& __cordl_internal_get_buttons();
+  /// @brief Method WithButton, addr 0x2bcf3fc, size 0x34, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value);
 
   constexpr uint32_t const& __cordl_internal_get_buttons() const;
 
-  constexpr void __cordl_internal_set_buttons(uint32_t value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_leftStick();
+  constexpr uint32_t& __cordl_internal_get_buttons();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_leftStick() const;
 
-  constexpr void __cordl_internal_set_leftStick(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_rightStick();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_rightStick() const;
-
-  constexpr void __cordl_internal_set_rightStick(::UnityEngine::Vector2 value);
-
-  constexpr float_t& __cordl_internal_get_leftTrigger();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_leftStick();
 
   constexpr float_t const& __cordl_internal_get_leftTrigger() const;
 
-  constexpr void __cordl_internal_set_leftTrigger(float_t value);
+  constexpr float_t& __cordl_internal_get_leftTrigger();
 
-  constexpr float_t& __cordl_internal_get_rightTrigger();
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_rightStick() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_rightStick();
 
   constexpr float_t const& __cordl_internal_get_rightTrigger() const;
 
+  constexpr float_t& __cordl_internal_get_rightTrigger();
+
+  constexpr void __cordl_internal_set_buttons(uint32_t value);
+
+  constexpr void __cordl_internal_set_leftStick(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_leftTrigger(float_t value);
+
+  constexpr void __cordl_internal_set_rightStick(::UnityEngine::Vector2 value);
+
   constexpr void __cordl_internal_set_rightTrigger(float_t value);
 
-  /// @brief Method get_Format, addr 0x2aea214, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
-
-  /// @brief Method get_format, addr 0x2aea244, size 0x30, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
-
-  /// @brief Method .ctor, addr 0x2aea274, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcf348, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::Array<::UnityEngine::InputSystem::LowLevel::GamepadButton>*> buttons);
 
-  /// @brief Method WithButton, addr 0x2aea328, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value);
+  /// @brief Method get_Format, addr 0x2bcf2e8, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
+
+  /// @brief Method get_format, addr 0x2bcf318, size 0x30, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GamepadState();
 
   // Ctor Parameters [CppParam { name: "buttons", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "leftStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
   // CppParam { name: "rightStick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftTrigger", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "rightTrigger", ty: "float_t", modifiers: "", def_value: None }]
   constexpr GamepadState(uint32_t buttons, ::UnityEngine::Vector2 leftStick, ::UnityEngine::Vector2 rightStick, float_t leftTrigger, float_t rightTrigger) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GamepadState();
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -187,20 +185,20 @@ private:
   };
 
 public:
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
-  /// @brief Field ButtonSouthShortDisplayName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ButtonSouthShortDisplayName{ u"A" };
+  /// @brief Field ButtonEastShortDisplayName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ButtonEastShortDisplayName{ u"B" };
 
   /// @brief Field ButtonNorthShortDisplayName offset 0xffffffff size 0x8
   static constexpr ::ConstString ButtonNorthShortDisplayName{ u"Y" };
 
+  /// @brief Field ButtonSouthShortDisplayName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ButtonSouthShortDisplayName{ u"A" };
+
   /// @brief Field ButtonWestShortDisplayName offset 0xffffffff size 0x8
   static constexpr ::ConstString ButtonWestShortDisplayName{ u"X" };
 
-  /// @brief Field ButtonEastShortDisplayName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ButtonEastShortDisplayName{ u"B" };
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

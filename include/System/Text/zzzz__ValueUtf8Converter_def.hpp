@@ -23,28 +23,26 @@ MARK_VAL_T(::System::Text::ValueUtf8Converter);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 736 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2869))
 // CS Name: ::System.Text::ValueUtf8Converter
 struct CORDL_TYPE ValueUtf8Converter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x246a8bc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Span_1<uint8_t> initialBuffer);
-
-  /// @brief Method ConvertAndTerminateString, addr 0x246a8c8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ConvertAndTerminateString, addr 0x253d5c0, size 0x224, virtual false, abstract: false, final false
   inline ::System::Span_1<uint8_t> ConvertAndTerminateString(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method Dispose, addr 0x246ab98, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x253d890, size 0xf4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  // Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "_bytes", ty: "::System::Span_1<uint8_t>",
-  // modifiers: "", def_value: None }]
-  constexpr ValueUtf8Converter(::ArrayW<uint8_t, ::Array<uint8_t>*> _arrayToReturnToPool, ::System::Span_1<uint8_t> _bytes) noexcept;
+  /// @brief Method .ctor, addr 0x253d5b4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Span_1<uint8_t> initialBuffer);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueUtf8Converter();
+
+  // Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "_bytes", ty: "::System::Span_1<uint8_t>",
+  // modifiers: "", def_value: None }]
+  constexpr ValueUtf8Converter(::ArrayW<uint8_t, ::Array<uint8_t>*> _arrayToReturnToPool, ::System::Span_1<uint8_t> _bytes) noexcept;
 
   /// @brief Field _arrayToReturnToPool, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> _arrayToReturnToPool;

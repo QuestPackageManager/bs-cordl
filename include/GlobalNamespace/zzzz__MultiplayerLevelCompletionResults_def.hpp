@@ -49,8 +49,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelCompletionResults);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12774))
 // CS Name: ::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState
 struct CORDL_TYPE __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState {
 public:
@@ -69,27 +67,32 @@ public:
     return static_cast<____MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field SongFinished value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const SongFinished;
 
   /// @brief Field NotFinished value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const NotFinished;
 
   /// @brief Field NotStarted value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const NotStarted;
+
+  /// @brief Field SongFinished value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const SongFinished;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -103,8 +106,6 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__M
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12775))
 // CS Name: ::MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason
 struct CORDL_TYPE __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason {
 public:
@@ -128,21 +129,26 @@ public:
     return static_cast<____MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field Cleared value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const Cleared;
+
+  /// @brief Field ConnectedAfterLevelEnded value: static_cast<int32_t>(0x7)
+  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const ConnectedAfterLevelEnded;
 
   /// @brief Field Failed value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const Failed;
@@ -150,20 +156,20 @@ public:
   /// @brief Field GivenUp value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const GivenUp;
 
-  /// @brief Field Quit value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const Quit;
-
   /// @brief Field HostEndedLevel value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const HostEndedLevel;
 
-  /// @brief Field WasInactive value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const WasInactive;
+  /// @brief Field Quit value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const Quit;
 
   /// @brief Field StartupFailed value: static_cast<int32_t>(0x6)
   static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const StartupFailed;
 
-  /// @brief Field ConnectedAfterLevelEnded value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const ConnectedAfterLevelEnded;
+  /// @brief Field WasInactive value: static_cast<int32_t>(0x5)
+  static ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const WasInactive;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -177,8 +183,6 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelCompletionResults__M
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12774)), TypeDefinitionIndex(TypeDefinitionIndex(12775))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12776))
 // CS Name: ::MultiplayerLevelCompletionResults*
 class CORDL_TYPE MultiplayerLevelCompletionResults : public ::System::Object {
 public:
@@ -187,98 +191,104 @@ public:
 
   using MultiplayerPlayerLevelEndState = ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 
-  /// @brief Field _playerLevelEndState, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__playerLevelEndState,
-                      put = __cordl_internal_set__playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState _playerLevelEndState;
+  /// @brief Field _levelCompletionResults, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelCompletionResults, put = __cordl_internal_set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
 
   /// @brief Field _playerLevelEndReason, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__playerLevelEndReason,
                       put = __cordl_internal_set__playerLevelEndReason))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason _playerLevelEndReason;
 
-  /// @brief Field _levelCompletionResults, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelCompletionResults, put = __cordl_internal_set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
+  /// @brief Field _playerLevelEndState, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__playerLevelEndState,
+                      put = __cordl_internal_set__playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState _playerLevelEndState;
 
-  __declspec(property(get = get_playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState;
-
-  __declspec(property(get = get_playerLevelEndReason))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason;
-
-  __declspec(property(get = get_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+  __declspec(property(get = get_failedOrGivenUp)) bool failedOrGivenUp;
 
   __declspec(property(get = get_hasAnyResults)) bool hasAnyResults;
 
-  __declspec(property(get = get_failedOrGivenUp)) bool failedOrGivenUp;
+  __declspec(property(get = get_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+
+  __declspec(property(get = get_playerLevelEndReason))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason;
+
+  __declspec(property(get = get_playerLevelEndState))::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*() noexcept;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*
-  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__MultiplayerLevelCompletionResults__() noexcept;
-
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Convert to "::System::IComparable"
-  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+  /// @brief Method CompareTo, addr 0xebbaac, size 0xec, virtual true, abstract: false, final true
+  inline int32_t CompareTo(::System::Object* obj);
 
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState& __cordl_internal_get__playerLevelEndState();
+  /// @brief Method CreateFromSerializedData, addr 0xebba00, size 0xac, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::MultiplayerLevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const& __cordl_internal_get__playerLevelEndState() const;
-
-  constexpr void __cordl_internal_set__playerLevelEndState(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState value);
-
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason& __cordl_internal_get__playerLevelEndReason();
-
-  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const& __cordl_internal_get__playerLevelEndReason() const;
-
-  constexpr void __cordl_internal_set__playerLevelEndReason(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason value);
-
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get__levelCompletionResults() const;
-
-  constexpr void __cordl_internal_set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
-
-  /// @brief Method get_playerLevelEndState, addr 0xe74938, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState get_playerLevelEndState();
-
-  /// @brief Method get_playerLevelEndReason, addr 0xe74940, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason get_playerLevelEndReason();
-
-  /// @brief Method get_levelCompletionResults, addr 0xe74948, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
-
-  /// @brief Method get_hasAnyResults, addr 0xe74950, size 0x10, virtual false, abstract: false, final false
-  inline bool get_hasAnyResults();
-
-  /// @brief Method get_failedOrGivenUp, addr 0xe7496c, size 0x14, virtual false, abstract: false, final false
-  inline bool get_failedOrGivenUp();
+  /// @brief Method HasAnyResult, addr 0xebb930, size 0xc, virtual false, abstract: false, final false
+  static inline bool HasAnyResult(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState);
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe74980, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState,
                                                                                ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason,
                                                                                ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method .ctor, addr 0xe74988, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0xebb994, size 0x6c, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get__levelCompletionResults() const;
+
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason const& __cordl_internal_get__playerLevelEndReason() const;
+
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason& __cordl_internal_get__playerLevelEndReason();
+
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState const& __cordl_internal_get__playerLevelEndState() const;
+
+  constexpr ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState& __cordl_internal_get__playerLevelEndState();
+
+  constexpr void __cordl_internal_set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
+
+  constexpr void __cordl_internal_set__playerLevelEndReason(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason value);
+
+  constexpr void __cordl_internal_set__playerLevelEndState(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState value);
+
+  /// @brief Method .ctor, addr 0xebb950, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0xebb958, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState,
                     ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Serialize, addr 0xe749c4, size 0x6c, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+  /// @brief Method get_failedOrGivenUp, addr 0xebb93c, size 0x14, virtual false, abstract: false, final false
+  inline bool get_failedOrGivenUp();
 
-  /// @brief Method CreateFromSerializedData, addr 0xe74a30, size 0xac, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::MultiplayerLevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
+  /// @brief Method get_hasAnyResults, addr 0xebb920, size 0x10, virtual false, abstract: false, final false
+  inline bool get_hasAnyResults();
 
-  /// @brief Method CompareTo, addr 0xe74adc, size 0xec, virtual true, abstract: false, final true
-  inline int32_t CompareTo(::System::Object* obj);
+  /// @brief Method get_levelCompletionResults, addr 0xebb918, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
 
-  /// @brief Method HasAnyResult, addr 0xe74960, size 0xc, virtual false, abstract: false, final false
-  static inline bool HasAnyResult(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState);
+  /// @brief Method get_playerLevelEndReason, addr 0xebb910, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason get_playerLevelEndReason();
 
+  /// @brief Method get_playerLevelEndState, addr 0xebb908, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState get_playerLevelEndState();
+
+  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"
+  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*
+  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__MultiplayerLevelCompletionResults__() noexcept;
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLevelCompletionResults();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelCompletionResults", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLevelCompletionResults(MultiplayerLevelCompletionResults&&) = delete;
@@ -287,12 +297,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLevelCompletionResults(MultiplayerLevelCompletionResults const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLevelCompletionResults();
-
-public:
   /// @brief Field _playerLevelEndState, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState ____playerLevelEndState;
 

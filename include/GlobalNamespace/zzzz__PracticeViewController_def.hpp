@@ -97,23 +97,25 @@ MARK_VAL_T(::GlobalNamespace::__PracticeViewController___LoadSong_d__27);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10793)), TypeDefinitionIndex(TypeDefinitionIndex(15305)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 274 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 908 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5034)) CS Name: ::PracticeViewController::<LoadSong>d__27
+// CS Name: ::PracticeViewController::<LoadSong>d__27
 struct CORDL_TYPE __PracticeViewController___LoadSong_d__27 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x23d39f0, size 0x36c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x23d3d5c, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2305bb4, size 0x36c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2305f20, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PracticeViewController___LoadSong_d__27();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PracticeViewController>",
@@ -124,10 +126,6 @@ public:
                                                       ::UnityW<::GlobalNamespace::PracticeViewController> __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelDataResult> __u__1,
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PracticeViewController___LoadSong_d__27();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -172,59 +170,17 @@ static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d_
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10773)), TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
 // CS Name: ::PracticeViewController*
 class CORDL_TYPE PracticeViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   using _LoadSong_d__27 = ::GlobalNamespace::__PracticeViewController___LoadSong_d__27;
 
-  /// @brief Field _songStartSlider, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__songStartSlider, put = __cordl_internal_set__songStartSlider))::UnityW<::HMUI::TimeSlider> _songStartSlider;
-
-  /// @brief Field _speedSlider, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__speedSlider, put = __cordl_internal_set__speedSlider))::UnityW<::HMUI::PercentSlider> _speedSlider;
-
-  /// @brief Field _levelBar, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
-
-  /// @brief Field _playButton, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__playButton, put = __cordl_internal_set__playButton))::UnityW<::UnityEngine::UI::Button> _playButton;
-
-  /// @brief Field _playerDataModel, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
-
-  /// @brief Field _songPreviewPlayer, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
-
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevelModel,
-                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
-
-  /// @brief Field _beatmapLevelsModel, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  /// @brief Field _audioClip, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip))::UnityW<::UnityEngine::AudioClip> _audioClip;
 
   /// @brief Field _audioClipAsyncLoader, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
-
-  /// @brief Field didPressPlayButtonEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didPressPlayButtonEvent, put = __cordl_internal_set_didPressPlayButtonEvent))::System::Action* didPressPlayButtonEvent;
-
-  /// @brief Field _practiceSettings, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__practiceSettings, put = __cordl_internal_set__practiceSettings))::GlobalNamespace::PracticeSettings* _practiceSettings;
-
-  /// @brief Field _currentPlayingStartTime, offset 0xc8, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentPlayingStartTime, put = __cordl_internal_set__currentPlayingStartTime)) float_t _currentPlayingStartTime;
-
-  /// @brief Field _maxStartSongTime, offset 0xcc, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxStartSongTime, put = __cordl_internal_set__maxStartSongTime)) float_t _maxStartSongTime;
-
-  /// @brief Field _getAudioClipTask, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__getAudioClipTask, put = __cordl_internal_set__getAudioClipTask))::System::Threading::Tasks::Task* _getAudioClipTask;
-
-  /// @brief Field _cancellationTokenSource, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _beatmapKey, offset 0xe0, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey))::GlobalNamespace::BeatmapKey _beatmapKey;
@@ -232,163 +188,209 @@ public:
   /// @brief Field _beatmapLevel, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::BeatmapLevel* _beatmapLevel;
 
-  /// @brief Field _audioClip, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip))::UnityW<::UnityEngine::AudioClip> _audioClip;
+  /// @brief Field _beatmapLevelsModel, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+
+  /// @brief Field _cancellationTokenSource, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+
+  /// @brief Field _currentPlayingStartTime, offset 0xc8, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentPlayingStartTime, put = __cordl_internal_set__currentPlayingStartTime)) float_t _currentPlayingStartTime;
+
+  /// @brief Field _getAudioClipTask, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__getAudioClipTask, put = __cordl_internal_set__getAudioClipTask))::System::Threading::Tasks::Task* _getAudioClipTask;
+
+  /// @brief Field _levelBar, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
+
+  /// @brief Field _maxStartSongTime, offset 0xcc, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxStartSongTime, put = __cordl_internal_set__maxStartSongTime)) float_t _maxStartSongTime;
+
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevelModel,
+                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
+
+  /// @brief Field _playButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__playButton, put = __cordl_internal_set__playButton))::UnityW<::UnityEngine::UI::Button> _playButton;
+
+  /// @brief Field _playerDataModel, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+
+  /// @brief Field _practiceSettings, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__practiceSettings, put = __cordl_internal_set__practiceSettings))::GlobalNamespace::PracticeSettings* _practiceSettings;
+
+  /// @brief Field _songPreviewPlayer, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
+
+  /// @brief Field _songStartSlider, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__songStartSlider, put = __cordl_internal_set__songStartSlider))::UnityW<::HMUI::TimeSlider> _songStartSlider;
+
+  /// @brief Field _speedSlider, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__speedSlider, put = __cordl_internal_set__speedSlider))::UnityW<::HMUI::PercentSlider> _speedSlider;
+
+  /// @brief Field didPressPlayButtonEvent, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_didPressPlayButtonEvent, put = __cordl_internal_set_didPressPlayButtonEvent))::System::Action* didPressPlayButtonEvent;
 
   __declspec(property(get = get_practiceSettings))::GlobalNamespace::PracticeSettings* practiceSettings;
 
-  constexpr ::UnityW<::HMUI::TimeSlider>& __cordl_internal_get__songStartSlider();
+  /// @brief Method CancelSongLoading, addr 0x23d33c8, size 0x24, virtual false, abstract: false, final false
+  inline void CancelSongLoading();
 
-  constexpr ::UnityW<::HMUI::TimeSlider> const& __cordl_internal_get__songStartSlider() const;
+  /// @brief Method DidActivate, addr 0x23d33ec, size 0x1a8, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr void __cordl_internal_set__songStartSlider(::UnityW<::HMUI::TimeSlider> value);
+  /// @brief Method DidDeactivate, addr 0x23d3770, size 0x110, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  constexpr ::UnityW<::HMUI::PercentSlider>& __cordl_internal_get__speedSlider();
+  /// @brief Method HandlePlayButtonPressed, addr 0x23d39a0, size 0x48, virtual false, abstract: false, final false
+  inline void HandlePlayButtonPressed();
 
-  constexpr ::UnityW<::HMUI::PercentSlider> const& __cordl_internal_get__speedSlider() const;
+  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x23d3968, size 0x38, virtual false, abstract: false, final false
+  inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  constexpr void __cordl_internal_set__speedSlider(::UnityW<::HMUI::PercentSlider> value);
+  /// @brief Method HandleSpeedSliderValueDidChange, addr 0x23d394c, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleSpeedSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
+  /// @brief Method Init, addr 0x23d32a4, size 0x124, virtual false, abstract: false, final false
+  inline void Init(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
+  /// @brief Method LoadSong, addr 0x23d3594, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
+  static inline ::GlobalNamespace::PracticeViewController* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__playButton();
+  /// @brief Method PlayPreview, addr 0x23d3880, size 0xcc, virtual false, abstract: false, final false
+  inline void PlayPreview();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__playButton() const;
+  /// @brief Method RefreshUI, addr 0x23d3728, size 0x48, virtual false, abstract: false, final false
+  inline void RefreshUI();
 
-  constexpr void __cordl_internal_set__playButton(::UnityW<::UnityEngine::UI::Button> value);
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
-
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
-
-  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
-
-  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
-
-  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__perceivedLoudnessPerLevelModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __cordl_internal_get__perceivedLoudnessPerLevelModel() const;
-
-  constexpr void __cordl_internal_set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
-
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
-
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
-
-  constexpr ::System::Action*& __cordl_internal_get_didPressPlayButtonEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressPlayButtonEvent() const;
-
-  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action* value);
-
-  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings() const;
-
-  constexpr void __cordl_internal_set__practiceSettings(::GlobalNamespace::PracticeSettings* value);
-
-  constexpr float_t& __cordl_internal_get__currentPlayingStartTime();
-
-  constexpr float_t const& __cordl_internal_get__currentPlayingStartTime() const;
-
-  constexpr void __cordl_internal_set__currentPlayingStartTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__maxStartSongTime();
-
-  constexpr float_t const& __cordl_internal_get__maxStartSongTime() const;
-
-  constexpr void __cordl_internal_set__maxStartSongTime(float_t value);
-
-  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__getAudioClipTask();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__getAudioClipTask() const;
-
-  constexpr void __cordl_internal_set__getAudioClipTask(::System::Threading::Tasks::Task* value);
-
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
-
-  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
-
-  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
-
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
 
-  constexpr void __cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value);
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
+
+  constexpr float_t const& __cordl_internal_get__currentPlayingStartTime() const;
+
+  constexpr float_t& __cordl_internal_get__currentPlayingStartTime();
+
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__getAudioClipTask();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__getAudioClipTask() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
+
+  constexpr float_t const& __cordl_internal_get__maxStartSongTime() const;
+
+  constexpr float_t& __cordl_internal_get__maxStartSongTime();
+
+  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__perceivedLoudnessPerLevelModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __cordl_internal_get__perceivedLoudnessPerLevelModel() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__playButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__playButton();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+
+  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
+
+  constexpr ::UnityW<::HMUI::TimeSlider> const& __cordl_internal_get__songStartSlider() const;
+
+  constexpr ::UnityW<::HMUI::TimeSlider>& __cordl_internal_get__songStartSlider();
+
+  constexpr ::UnityW<::HMUI::PercentSlider> const& __cordl_internal_get__speedSlider() const;
+
+  constexpr ::UnityW<::HMUI::PercentSlider>& __cordl_internal_get__speedSlider();
+
+  constexpr ::System::Action*& __cordl_internal_get_didPressPlayButtonEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressPlayButtonEvent() const;
 
   constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x2305328, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didPressPlayButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x23053c4, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didPressPlayButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method get_practiceSettings, addr 0x2305460, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
+  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method Init, addr 0x2305468, size 0x124, virtual false, abstract: false, final false
-  inline void Init(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
 
-  /// @brief Method DidActivate, addr 0x23055b0, size 0x1a8, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method DidDeactivate, addr 0x2305934, size 0x110, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+  constexpr void __cordl_internal_set__currentPlayingStartTime(float_t value);
 
-  /// @brief Method LoadSong, addr 0x2305758, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
+  constexpr void __cordl_internal_set__getAudioClipTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method PlayPreview, addr 0x2305a44, size 0xcc, virtual false, abstract: false, final false
-  inline void PlayPreview();
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  /// @brief Method RefreshUI, addr 0x23058ec, size 0x48, virtual false, abstract: false, final false
-  inline void RefreshUI();
+  constexpr void __cordl_internal_set__maxStartSongTime(float_t value);
 
-  /// @brief Method CancelSongLoading, addr 0x230558c, size 0x24, virtual false, abstract: false, final false
-  inline void CancelSongLoading();
+  constexpr void __cordl_internal_set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
 
-  /// @brief Method HandleSpeedSliderValueDidChange, addr 0x2305b10, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleSpeedSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
+  constexpr void __cordl_internal_set__playButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x2305b2c, size 0x38, virtual false, abstract: false, final false
-  inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method HandlePlayButtonPressed, addr 0x2305b64, size 0x48, virtual false, abstract: false, final false
-  inline void HandlePlayButtonPressed();
+  constexpr void __cordl_internal_set__practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  static inline ::GlobalNamespace::PracticeViewController* New_ctor();
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  /// @brief Method .ctor, addr 0x2305bac, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__songStartSlider(::UnityW<::HMUI::TimeSlider> value);
+
+  constexpr void __cordl_internal_set__speedSlider(::UnityW<::HMUI::PercentSlider> value);
+
+  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x23d39e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x23d3164, size 0x9c, virtual false, abstract: false, final false
+  inline void add_didPressPlayButtonEvent(::System::Action* value);
+
+  /// @brief Method get_practiceSettings, addr 0x23d329c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
+
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x23d3200, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_didPressPlayButtonEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PracticeViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PracticeViewController(PracticeViewController&&) = delete;
@@ -397,12 +399,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PracticeViewController(PracticeViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PracticeViewController();
-
-public:
   /// @brief Field _songStartSlider, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::TimeSlider> ____songStartSlider;
 
@@ -457,11 +453,11 @@ public:
   /// @brief Field _audioClip, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
-  /// @brief Field kWaitBeforePlayPreviewAfterPreviewStartValueChanged offset 0xffffffff size 0x4
-  static constexpr float_t kWaitBeforePlayPreviewAfterPreviewStartValueChanged{ 1.0 };
-
   /// @brief Field kMinValueChangeToInstantPlayPreview offset 0xffffffff size 0x4
   static constexpr float_t kMinValueChangeToInstantPlayPreview{ 3.0 };
+
+  /// @brief Field kWaitBeforePlayPreviewAfterPreviewStartValueChanged offset 0xffffffff size 0x4
+  static constexpr float_t kWaitBeforePlayPreviewAfterPreviewStartValueChanged{ 1.0 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,8 +19,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TLevelProductData>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10954))
 // CS Name: ::ILevelPackProductData`1<TLevelProductData>*
 class CORDL_TYPE ILevelPackProductData_1 {
 public:

@@ -23,20 +23,18 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::ColorNote);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11215)), TypeDefinitionIndex(TypeDefinitionIndex(11216))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11148))
 // CS Name: ::BeatmapSaveDataVersion4::ColorNote
 struct CORDL_TYPE ColorNote {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorNote();
+
   // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "a", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "c", ty: "::BeatmapSaveDataCommon::NoteColorType", modifiers: "", def_value: None }, CppParam { name: "d", ty:
   // "::BeatmapSaveDataCommon::NoteCutDirection", modifiers: "", def_value: None }]
   constexpr ColorNote(int32_t x, int32_t y, int32_t a, ::BeatmapSaveDataCommon::NoteColorType c, ::BeatmapSaveDataCommon::NoteCutDirection d) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorNote();
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   int32_t x;

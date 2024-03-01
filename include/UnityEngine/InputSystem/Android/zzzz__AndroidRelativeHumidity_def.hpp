@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidRelativeHumidity);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5543))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5700))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidRelativeHumidity*
 class CORDL_TYPE AndroidRelativeHumidity : public ::UnityEngine::InputSystem::HumiditySensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidRelativeHumidity* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae757c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc650, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidRelativeHumidity();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidRelativeHumidity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidRelativeHumidity(AndroidRelativeHumidity&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidRelativeHumidity(AndroidRelativeHumidity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidRelativeHumidity();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -16,44 +16,48 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9572))
 // CS Name: ::HoudiniEngineUnity::HEU_UnityMaterialInfo*
 class CORDL_TYPE HEU_UnityMaterialInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _unityMaterialPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__unityMaterialPath, put = __cordl_internal_set__unityMaterialPath))::StringW _unityMaterialPath;
+  /// @brief Field _substanceIndex, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__substanceIndex, put = __cordl_internal_set__substanceIndex)) int32_t _substanceIndex;
 
   /// @brief Field _substancePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__substancePath, put = __cordl_internal_set__substancePath))::StringW _substancePath;
 
-  /// @brief Field _substanceIndex, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__substanceIndex, put = __cordl_internal_set__substanceIndex)) int32_t _substanceIndex;
-
-  constexpr ::StringW& __cordl_internal_get__unityMaterialPath();
-
-  constexpr ::StringW const& __cordl_internal_get__unityMaterialPath() const;
-
-  constexpr void __cordl_internal_set__unityMaterialPath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__substancePath();
-
-  constexpr ::StringW const& __cordl_internal_get__substancePath() const;
-
-  constexpr void __cordl_internal_set__substancePath(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__substanceIndex();
-
-  constexpr int32_t const& __cordl_internal_get__substanceIndex() const;
-
-  constexpr void __cordl_internal_set__substanceIndex(int32_t value);
+  /// @brief Field _unityMaterialPath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__unityMaterialPath, put = __cordl_internal_set__unityMaterialPath))::StringW _unityMaterialPath;
 
   static inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
-  /// @brief Method .ctor, addr 0x22372b8, size 0x3c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__substanceIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__substanceIndex();
+
+  constexpr ::StringW const& __cordl_internal_get__substancePath() const;
+
+  constexpr ::StringW& __cordl_internal_get__substancePath();
+
+  constexpr ::StringW const& __cordl_internal_get__unityMaterialPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__unityMaterialPath();
+
+  constexpr void __cordl_internal_set__substanceIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__substancePath(::StringW value);
+
+  constexpr void __cordl_internal_set__unityMaterialPath(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2303920, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_UnityMaterialInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_UnityMaterialInfo(HEU_UnityMaterialInfo&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_UnityMaterialInfo(HEU_UnityMaterialInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_UnityMaterialInfo();
-
-public:
   /// @brief Field _unityMaterialPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____unityMaterialPath;
 

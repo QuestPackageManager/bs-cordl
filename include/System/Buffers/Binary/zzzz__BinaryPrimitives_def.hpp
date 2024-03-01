@@ -15,27 +15,31 @@ MARK_REF_PTR_T(::System::Buffers::Binary::BinaryPrimitives);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3890))
 // CS Name: ::System.Buffers.Binary::BinaryPrimitives*
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x25af59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x267fc80, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x25af5a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x267fc88, size 0x14, virtual false, abstract: false, final false
   static inline int64_t ReverseEndianness(int64_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x25af5b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x267fc9c, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x25af5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x267fca8, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x25af5cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x267fcb0, size 0x14, virtual false, abstract: false, final false
   static inline uint64_t ReverseEndianness(uint64_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryPrimitives();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryPrimitives", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryPrimitives(BinaryPrimitives&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryPrimitives(BinaryPrimitives const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryPrimitives();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

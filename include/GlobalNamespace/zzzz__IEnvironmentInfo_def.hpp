@@ -23,26 +23,24 @@ MARK_REF_PTR_T(::GlobalNamespace::IEnvironmentInfo);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10636))
 // CS Name: ::IEnvironmentInfo*
 class CORDL_TYPE IEnvironmentInfo {
 public:
   // Declarations
-  __declspec(property(get = get_environmentLightGroups))::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups;
+  __declspec(property(get = get_defaultLightshowAsset))::UnityW<::UnityEngine::TextAsset> defaultLightshowAsset;
 
   __declspec(property(get = get_environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  __declspec(property(get = get_defaultLightshowAsset))::UnityW<::UnityEngine::TextAsset> defaultLightshowAsset;
+  __declspec(property(get = get_environmentLightGroups))::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups;
 
-  /// @brief Method get_environmentLightGroups, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::IEnvironmentLightGroups* get_environmentLightGroups();
+  /// @brief Method get_defaultLightshowAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::UnityEngine::TextAsset> get_defaultLightshowAsset();
 
   /// @brief Method get_environmentKeywords, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
-  /// @brief Method get_defaultLightshowAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::UnityEngine::TextAsset> get_defaultLightshowAsset();
+  /// @brief Method get_environmentLightGroups, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::IEnvironmentLightGroups* get_environmentLightGroups();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnvironmentInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

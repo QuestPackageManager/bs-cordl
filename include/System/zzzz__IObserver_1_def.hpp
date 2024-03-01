@@ -18,20 +18,18 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2420))
 // CS Name: ::System::IObserver`1<T>*
 class CORDL_TYPE IObserver_1 {
 public:
   // Declarations
-  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnNext(T value);
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnCompleted();
 
   /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnCompleted();
+  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnNext(T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IObserver_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

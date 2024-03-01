@@ -45,8 +45,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15501))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15490))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepContext*
 class CORDL_TYPE DTSweepContext : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext {
 public:
@@ -54,8 +52,22 @@ public:
   /// @brief Field ALPHA, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_ALPHA, put = __cordl_internal_set_ALPHA)) float_t ALPHA;
 
+  __declspec(property(get = get_Algorithm))::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm Algorithm;
+
+  /// @brief Field Basin, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_Basin, put = __cordl_internal_set_Basin))::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* Basin;
+
+  /// @brief Field EdgeEvent, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_EdgeEvent, put = __cordl_internal_set_EdgeEvent))::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* EdgeEvent;
+
   /// @brief Field Front, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_Front, put = __cordl_internal_set_Front))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* Front;
+
+  __declspec(property(get = get_Head, put = set_Head))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Head;
+
+  __declspec(property(get = get_IsDebugEnabled, put = set_IsDebugEnabled)) bool IsDebugEnabled;
+
+  __declspec(property(get = get_Tail, put = set_Tail))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Tail;
 
   /// @brief Field <Head>k__BackingField, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__Head_k__BackingField,
@@ -65,128 +77,120 @@ public:
   __declspec(property(get = __cordl_internal_get__Tail_k__BackingField,
                       put = __cordl_internal_set__Tail_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Tail_k__BackingField;
 
-  /// @brief Field Basin, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_Basin, put = __cordl_internal_set_Basin))::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* Basin;
-
-  /// @brief Field EdgeEvent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_EdgeEvent, put = __cordl_internal_set_EdgeEvent))::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* EdgeEvent;
-
   /// @brief Field _comparator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__comparator, put = __cordl_internal_set__comparator))::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* _comparator;
 
-  __declspec(property(get = get_Head, put = set_Head))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Head;
+  /// @brief Method AddNode, addr 0x2c18130, size 0x18, virtual false, abstract: false, final false
+  inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  __declspec(property(get = get_Tail, put = set_Tail))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Tail;
+  /// @brief Method Clear, addr 0x2c1a384, size 0x78, virtual true, abstract: false, final false
+  inline void Clear();
 
-  __declspec(property(get = get_IsDebugEnabled, put = set_IsDebugEnabled)) bool IsDebugEnabled;
+  /// @brief Method CreateAdvancingFront, addr 0x2c1698c, size 0x228, virtual false, abstract: false, final false
+  inline void CreateAdvancingFront();
 
-  __declspec(property(get = get_Algorithm))::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm Algorithm;
+  /// @brief Method FinalizeTriangulation, addr 0x2c17bc8, size 0xf0, virtual false, abstract: false, final false
+  inline void FinalizeTriangulation();
 
-  constexpr float_t& __cordl_internal_get_ALPHA();
+  /// @brief Method LocateNode, addr 0x2c17f6c, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
+
+  /// @brief Method MapTriangleToNodes, addr 0x2c17a94, size 0xdc, virtual false, abstract: false, final false
+  inline void MapTriangleToNodes(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
+
+  /// @brief Method MeshClean, addr 0x2c17f68, size 0x4, virtual false, abstract: false, final false
+  inline void MeshClean(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
+
+  /// @brief Method MeshCleanReq, addr 0x2c1a260, size 0x124, virtual false, abstract: false, final false
+  inline void MeshCleanReq(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
+
+  /// @brief Method NewConstraint, addr 0x2c1a828, size 0x70, virtual true, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a,
+                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
+
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* New_ctor();
+
+  /// @brief Method PrepareTriangulation, addr 0x2c1a47c, size 0x2a4, virtual true, abstract: false, final false
+  inline void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
+
+  /// @brief Method RemoveFromList, addr 0x2c17b70, size 0x58, virtual false, abstract: false, final false
+  inline void RemoveFromList(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
+
+  /// @brief Method RemoveNode, addr 0x2c19eb0, size 0x18, virtual false, abstract: false, final false
+  inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
   constexpr float_t const& __cordl_internal_get_ALPHA() const;
 
-  constexpr void __cordl_internal_set_ALPHA(float_t value);
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*& __cordl_internal_get_Front();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*> const& __cordl_internal_get_Front() const;
-
-  constexpr void __cordl_internal_set_Front(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* value);
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__Head_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get__Head_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Head_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__Tail_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get__Tail_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Tail_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+  constexpr float_t& __cordl_internal_get_ALPHA();
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*& __cordl_internal_get_Basin();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*> const& __cordl_internal_get_Basin() const;
 
-  constexpr void __cordl_internal_set_Basin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* value);
-
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*& __cordl_internal_get_EdgeEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*> const& __cordl_internal_get_EdgeEvent() const;
 
-  constexpr void __cordl_internal_set_EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* value);
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*& __cordl_internal_get_Front();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*> const& __cordl_internal_get_Front() const;
+
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__Head_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get__Head_k__BackingField() const;
+
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__Tail_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get__Tail_k__BackingField() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*& __cordl_internal_get__comparator();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*> const& __cordl_internal_get__comparator() const;
 
+  constexpr void __cordl_internal_set_ALPHA(float_t value);
+
+  constexpr void __cordl_internal_set_Basin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* value);
+
+  constexpr void __cordl_internal_set_EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* value);
+
+  constexpr void __cordl_internal_set_Front(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* value);
+
+  constexpr void __cordl_internal_set__Head_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+
+  constexpr void __cordl_internal_set__Tail_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+
   constexpr void __cordl_internal_set__comparator(::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* value);
 
-  /// @brief Method get_Head, addr 0x2b32ff0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();
-
-  /// @brief Method set_Head, addr 0x2b32ff8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Head(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-
-  /// @brief Method get_Tail, addr 0x2b33000, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Tail();
-
-  /// @brief Method set_Tail, addr 0x2b33008, size 0x8, virtual false, abstract: false, final false
-  inline void set_Tail(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b2c894, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c13968, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDebugEnabled, addr 0x2b330e0, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsDebugEnabled();
-
-  /// @brief Method set_IsDebugEnabled, addr 0x2b330e8, size 0x7c, virtual true, abstract: false, final false
-  inline void set_IsDebugEnabled(bool value);
-
-  /// @brief Method RemoveFromList, addr 0x2b30a9c, size 0x58, virtual false, abstract: false, final false
-  inline void RemoveFromList(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
-
-  /// @brief Method MeshClean, addr 0x2b30e94, size 0x4, virtual false, abstract: false, final false
-  inline void MeshClean(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
-
-  /// @brief Method MeshCleanReq, addr 0x2b3318c, size 0x124, virtual false, abstract: false, final false
-  inline void MeshCleanReq(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* triangle);
-
-  /// @brief Method Clear, addr 0x2b332b0, size 0x78, virtual true, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method AddNode, addr 0x2b3105c, size 0x18, virtual false, abstract: false, final false
-  inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
-
-  /// @brief Method RemoveNode, addr 0x2b32ddc, size 0x18, virtual false, abstract: false, final false
-  inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
-
-  /// @brief Method LocateNode, addr 0x2b30e98, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
-
-  /// @brief Method CreateAdvancingFront, addr 0x2b2f8b8, size 0x228, virtual false, abstract: false, final false
-  inline void CreateAdvancingFront();
-
-  /// @brief Method MapTriangleToNodes, addr 0x2b309c0, size 0xdc, virtual false, abstract: false, final false
-  inline void MapTriangleToNodes(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
-
-  /// @brief Method PrepareTriangulation, addr 0x2b333a8, size 0x2a4, virtual true, abstract: false, final false
-  inline void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
-
-  /// @brief Method FinalizeTriangulation, addr 0x2b30af4, size 0xf0, virtual false, abstract: false, final false
-  inline void FinalizeTriangulation();
-
-  /// @brief Method NewConstraint, addr 0x2b33754, size 0x70, virtual true, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* NewConstraint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a,
-                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b);
-
-  /// @brief Method get_Algorithm, addr 0x2b337c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2c1a898, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm get_Algorithm();
 
+  /// @brief Method get_Head, addr 0x2c1a0c4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();
+
+  /// @brief Method get_IsDebugEnabled, addr 0x2c1a1b4, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsDebugEnabled();
+
+  /// @brief Method get_Tail, addr 0x2c1a0d4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Tail();
+
+  /// @brief Method set_Head, addr 0x2c1a0cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_Head(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+
+  /// @brief Method set_IsDebugEnabled, addr 0x2c1a1bc, size 0x7c, virtual true, abstract: false, final false
+  inline void set_IsDebugEnabled(bool value);
+
+  /// @brief Method set_Tail, addr 0x2c1a0dc, size 0x8, virtual false, abstract: false, final false
+  inline void set_Tail(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DTSweepContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DTSweepContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DTSweepContext(DTSweepContext&&) = delete;
@@ -195,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DTSweepContext(DTSweepContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DTSweepContext();
-
-public:
   /// @brief Field ALPHA, offset: 0x40, size: 0x4, def value: None
   float_t ___ALPHA;
 

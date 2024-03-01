@@ -43,21 +43,22 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstallerData);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5318))
 // CS Name: ::StandardLevelNoTransitionInstallerData*
 class CORDL_TYPE StandardLevelNoTransitionInstallerData : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Field _beatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevel,
-                      put = __cordl_internal_set__beatmapLevel))::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* _beatmapLevel;
+  /// @brief Field _backButtonText, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__backButtonText, put = __cordl_internal_set__backButtonText))::StringW _backButtonText;
 
   /// @brief Field _beatmapCharacteristic, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+
+  /// @brief Field _beatmapLevel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevel,
+                      put = __cordl_internal_set__beatmapLevel))::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* _beatmapLevel;
 
   /// @brief Field _colorScheme, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__colorScheme,
@@ -76,12 +77,6 @@ public:
   /// @brief Field _practiceSettings, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__practiceSettings, put = __cordl_internal_set__practiceSettings))::GlobalNamespace::PracticeSettings* _practiceSettings;
 
-  /// @brief Field _backButtonText, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__backButtonText, put = __cordl_internal_set__backButtonText))::StringW _backButtonText;
-
-  /// @brief Field _useTestNoteCutSoundEffects, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
-
   /// @brief Field _selectedBeatmapLevel, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedBeatmapLevel, put = __cordl_internal_set__selectedBeatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> _selectedBeatmapLevel;
 
@@ -91,11 +86,16 @@ public:
   /// @brief Field _selectedEnvironmentInfo, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedEnvironmentInfo, put = __cordl_internal_set__selectedEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> _selectedEnvironmentInfo;
 
-  __declspec(property(get = get_beatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> beatmapLevel;
+  /// @brief Field _useTestNoteCutSoundEffects, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
+
+  __declspec(property(get = get_backButtonText, put = set_backButtonText))::StringW backButtonText;
 
   __declspec(property(get = get_beatmapCharacteristic, put = set_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   __declspec(property(get = get_beatmapDifficulty, put = set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+
+  __declspec(property(get = get_beatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> beatmapLevel;
 
   __declspec(property(get = get_colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
@@ -107,145 +107,149 @@ public:
 
   __declspec(property(get = get_practiceSettings, put = set_practiceSettings))::GlobalNamespace::PracticeSettings* practiceSettings;
 
-  __declspec(property(get = get_backButtonText, put = set_backButtonText))::StringW backButtonText;
-
   __declspec(property(get = get_useTestNoteCutSoundEffects, put = set_useTestNoteCutSoundEffects)) bool useTestNoteCutSoundEffects;
+
+  static inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* New_ctor();
+
+  constexpr ::StringW const& __cordl_internal_get__backButtonText() const;
+
+  constexpr ::StringW& __cordl_internal_get__backButtonText();
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __cordl_internal_set__beatmapLevel(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
-
-  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
-
-  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
-
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*& __cordl_internal_get__colorScheme();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> const& __cordl_internal_get__colorScheme() const;
-
-  constexpr void __cordl_internal_set__colorScheme(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* value);
 
   constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__environmentInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
   __cordl_internal_get__environmentInfo() const;
 
-  constexpr void __cordl_internal_set__environmentInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
-
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
-
-  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings() const;
 
-  constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
-
   constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings() const;
 
-  constexpr void __cordl_internal_set__practiceSettings(::GlobalNamespace::PracticeSettings* value);
-
-  constexpr ::StringW& __cordl_internal_get__backButtonText();
-
-  constexpr ::StringW const& __cordl_internal_get__backButtonText() const;
-
-  constexpr void __cordl_internal_set__backButtonText(::StringW value);
-
-  constexpr bool& __cordl_internal_get__useTestNoteCutSoundEffects();
-
-  constexpr bool const& __cordl_internal_get__useTestNoteCutSoundEffects() const;
-
-  constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__selectedBeatmapLevel() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__selectedBeatmapLevel();
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__selectedBeatmapLevel() const;
-
-  constexpr void __cordl_internal_set__selectedBeatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__selectedColorScheme() const;
 
   constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__selectedColorScheme();
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__selectedColorScheme() const;
-
-  constexpr void __cordl_internal_set__selectedColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__selectedEnvironmentInfo() const;
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__selectedEnvironmentInfo();
 
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__selectedEnvironmentInfo() const;
+  constexpr bool const& __cordl_internal_get__useTestNoteCutSoundEffects() const;
+
+  constexpr bool& __cordl_internal_get__useTestNoteCutSoundEffects();
+
+  constexpr void __cordl_internal_set__backButtonText(::StringW value);
+
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
+
+  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set__beatmapLevel(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
+
+  constexpr void __cordl_internal_set__colorScheme(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* value);
+
+  constexpr void __cordl_internal_set__environmentInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
+
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+
+  constexpr void __cordl_internal_set__practiceSettings(::GlobalNamespace::PracticeSettings* value);
+
+  constexpr void __cordl_internal_set__selectedBeatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
+
+  constexpr void __cordl_internal_set__selectedColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
   constexpr void __cordl_internal_set__selectedEnvironmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  /// @brief Method get_beatmapLevel, addr 0x23475b8, size 0xcc, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_beatmapLevel();
+  constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x23479e0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
-
-  /// @brief Method set_beatmapCharacteristic, addr 0x23479e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
-
-  /// @brief Method get_beatmapDifficulty, addr 0x23479f0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
-
-  /// @brief Method set_beatmapDifficulty, addr 0x23479f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
-
-  /// @brief Method get_colorScheme, addr 0x2347750, size 0xcc, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
-
-  /// @brief Method get_environmentInfo, addr 0x2347684, size 0xcc, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
-
-  /// @brief Method get_gameplayModifiers, addr 0x2347a00, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
-
-  /// @brief Method set_gameplayModifiers, addr 0x2347a08, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
-
-  /// @brief Method get_playerSpecificSettings, addr 0x2347a10, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
-
-  /// @brief Method set_playerSpecificSettings, addr 0x2347a18, size 0x8, virtual false, abstract: false, final false
-  inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
-
-  /// @brief Method get_practiceSettings, addr 0x2347a20, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
-
-  /// @brief Method set_practiceSettings, addr 0x2347a28, size 0x8, virtual false, abstract: false, final false
-  inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
-
-  /// @brief Method get_backButtonText, addr 0x2347a30, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_backButtonText();
-
-  /// @brief Method set_backButtonText, addr 0x2347a38, size 0x8, virtual false, abstract: false, final false
-  inline void set_backButtonText(::StringW value);
-
-  /// @brief Method get_useTestNoteCutSoundEffects, addr 0x2347a40, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useTestNoteCutSoundEffects();
-
-  /// @brief Method set_useTestNoteCutSoundEffects, addr 0x2347a48, size 0xc, virtual false, abstract: false, final false
-  inline void set_useTestNoteCutSoundEffects(bool value);
-
-  static inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2347a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241599c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_backButtonText, addr 0x2415978, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_backButtonText();
+
+  /// @brief Method get_beatmapCharacteristic, addr 0x2415928, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
+
+  /// @brief Method get_beatmapDifficulty, addr 0x2415938, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
+
+  /// @brief Method get_beatmapLevel, addr 0x2415500, size 0xcc, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> get_beatmapLevel();
+
+  /// @brief Method get_colorScheme, addr 0x2415698, size 0xcc, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
+
+  /// @brief Method get_environmentInfo, addr 0x24155cc, size 0xcc, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
+
+  /// @brief Method get_gameplayModifiers, addr 0x2415948, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+
+  /// @brief Method get_playerSpecificSettings, addr 0x2415958, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
+
+  /// @brief Method get_practiceSettings, addr 0x2415968, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
+
+  /// @brief Method get_useTestNoteCutSoundEffects, addr 0x2415988, size 0x8, virtual false, abstract: false, final false
+  inline bool get_useTestNoteCutSoundEffects();
+
+  /// @brief Method set_backButtonText, addr 0x2415980, size 0x8, virtual false, abstract: false, final false
+  inline void set_backButtonText(::StringW value);
+
+  /// @brief Method set_beatmapCharacteristic, addr 0x2415930, size 0x8, virtual false, abstract: false, final false
+  inline void set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+
+  /// @brief Method set_beatmapDifficulty, addr 0x2415940, size 0x8, virtual false, abstract: false, final false
+  inline void set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  /// @brief Method set_gameplayModifiers, addr 0x2415950, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  /// @brief Method set_playerSpecificSettings, addr 0x2415960, size 0x8, virtual false, abstract: false, final false
+  inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+
+  /// @brief Method set_practiceSettings, addr 0x2415970, size 0x8, virtual false, abstract: false, final false
+  inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
+
+  /// @brief Method set_useTestNoteCutSoundEffects, addr 0x2415990, size 0xc, virtual false, abstract: false, final false
+  inline void set_useTestNoteCutSoundEffects(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardLevelNoTransitionInstallerData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelNoTransitionInstallerData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelNoTransitionInstallerData(StandardLevelNoTransitionInstallerData&&) = delete;
@@ -254,12 +258,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelNoTransitionInstallerData(StandardLevelNoTransitionInstallerData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelNoTransitionInstallerData();
-
-public:
   /// @brief Field _beatmapLevel, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevel;
 

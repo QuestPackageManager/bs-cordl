@@ -16,24 +16,28 @@ MARK_REF_PTR_T(::GlobalNamespace::BitMaskUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15158))
 // CS Name: ::BitMaskUtil*
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0xe15560, size 0x64, virtual false, abstract: false, final false
-  static inline uint32_t NumberOfSetBits(uint64_t i);
-
-  /// @brief Method NumberOfSetBits, addr 0xe0df30, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0xe53a94, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method ShiftLeft, addr 0xe155c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0xe5b0c4, size 0x64, virtual false, abstract: false, final false
+  static inline uint32_t NumberOfSetBits(uint64_t i);
+
+  /// @brief Method ShiftLeft, addr 0xe5b128, size 0x48, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0xe1560c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0xe5b170, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BitMaskUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitMaskUtil(BitMaskUtil&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BitMaskUtil(BitMaskUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitMaskUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

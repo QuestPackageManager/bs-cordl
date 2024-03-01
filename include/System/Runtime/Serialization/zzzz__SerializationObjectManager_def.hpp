@@ -27,55 +27,59 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationObjectManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3210))
 // CS Name: ::System.Runtime.Serialization::SerializationObjectManager*
 class CORDL_TYPE SerializationObjectManager : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _context, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Serialization::StreamingContext _context;
+
   /// @brief Field _objectSeenTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__objectSeenTable,
                       put = __cordl_internal_set__objectSeenTable))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* _objectSeenTable;
-
-  /// @brief Field _context, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Serialization::StreamingContext _context;
 
   /// @brief Field _onSerializedHandler, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__onSerializedHandler,
                       put = __cordl_internal_set__onSerializedHandler))::System::Runtime::Serialization::SerializationEventHandler* _onSerializedHandler;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__objectSeenTable();
+  /// @brief Method AddOnSerialized, addr 0x25a7860, size 0x90, virtual false, abstract: false, final false
+  inline void AddOnSerialized(::System::Object* obj);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__objectSeenTable() const;
+  static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr void __cordl_internal_set__objectSeenTable(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
+  /// @brief Method RaiseOnSerializedEvent, addr 0x25a78f0, size 0x20, virtual false, abstract: false, final false
+  inline void RaiseOnSerializedEvent();
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get__context();
+  /// @brief Method RegisterObject, addr 0x25a7750, size 0x110, virtual false, abstract: false, final false
+  inline void RegisterObject(::System::Object* obj);
 
   constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
 
-  constexpr void __cordl_internal_set__context(::System::Runtime::Serialization::StreamingContext value);
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get__context();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__objectSeenTable();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__objectSeenTable() const;
 
   constexpr ::System::Runtime::Serialization::SerializationEventHandler*& __cordl_internal_get__onSerializedHandler();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationEventHandler*> const& __cordl_internal_get__onSerializedHandler() const;
 
+  constexpr void __cordl_internal_set__context(::System::Runtime::Serialization::StreamingContext value);
+
+  constexpr void __cordl_internal_set__objectSeenTable(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
+
   constexpr void __cordl_internal_set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
 
-  static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x24d69c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a76bc, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method RegisterObject, addr 0x24d6a58, size 0x110, virtual false, abstract: false, final false
-  inline void RegisterObject(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SerializationObjectManager();
 
-  /// @brief Method RaiseOnSerializedEvent, addr 0x24d6bf8, size 0x20, virtual false, abstract: false, final false
-  inline void RaiseOnSerializedEvent();
-
-  /// @brief Method AddOnSerialized, addr 0x24d6b68, size 0x90, virtual false, abstract: false, final false
-  inline void AddOnSerialized(::System::Object* obj);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SerializationObjectManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SerializationObjectManager(SerializationObjectManager&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerializationObjectManager(SerializationObjectManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerializationObjectManager();
-
-public:
   /// @brief Field _objectSeenTable, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* ____objectSeenTable;
 

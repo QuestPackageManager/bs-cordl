@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultObjectiveListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5102)), TypeDefinitionIndex(TypeDefinitionIndex(13627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13627), inst:
-// 5200 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5103)) CS Name: ::ResultObjectiveListItemsList*
+// CS Name: ::ResultObjectiveListItemsList*
 class CORDL_TYPE ResultObjectiveListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::ResultObjectiveListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ResultObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2316bf0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e48c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResultObjectiveListItemsList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItemsList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultObjectiveListItemsList(ResultObjectiveListItemsList&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResultObjectiveListItemsList(ResultObjectiveListItemsList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResultObjectiveListItemsList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

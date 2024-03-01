@@ -33,65 +33,63 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTransformOrigin);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6559)), TypeDefinitionIndex(TypeDefinitionIndex(6576))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6575))
 // CS Name: ::UnityEngine.UIElements::StyleTransformOrigin
 struct CORDL_TYPE StyleTransformOrigin {
 public:
   // Declarations
-  __declspec(property(get = get_value))::UnityEngine::UIElements::TransformOrigin value;
-
   __declspec(property(get = get_keyword))::UnityEngine::UIElements::StyleKeyword keyword;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
-  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*();
-
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
-  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TransformOrigin_();
+  __declspec(property(get = get_value))::UnityEngine::UIElements::TransformOrigin value;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>*();
 
+  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
+  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>*();
+
+  /// @brief Method Equals, addr 0x2f831a4, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f83118, size 0x8c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::StyleTransformOrigin other);
+
+  /// @brief Method GetHashCode, addr 0x2f83234, size 0x24, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToString, addr 0x2f832cc, size 0x88, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2f83018, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method .ctor, addr 0x2f83024, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::TransformOrigin v, ::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method get_keyword, addr 0x2f83010, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
+
+  /// @brief Method get_value, addr 0x2f80b34, size 0x40, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::TransformOrigin get_value();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTransformOrigin>* i___System__IEquatable_1___UnityEngine__UIElements__StyleTransformOrigin_();
 
-  /// @brief Method get_value, addr 0x2e8d40c, size 0x40, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::TransformOrigin get_value();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TransformOrigin>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TransformOrigin_();
 
-  /// @brief Method get_keyword, addr 0x2e8f8e8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
-
-  /// @brief Method .ctor, addr 0x2e8f8f0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method .ctor, addr 0x2e8f8fc, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::TransformOrigin v, ::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method op_Equality, addr 0x2e8f914, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f8303c, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTransformOrigin lhs, ::UnityEngine::UIElements::StyleTransformOrigin rhs);
 
-  /// @brief Method op_Implicit, addr 0x2e8d608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2f80d30, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTransformOrigin op_Implicit___UnityEngine__UIElements__StyleTransformOrigin(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method Equals, addr 0x2e8f9f0, size 0x8c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::StyleTransformOrigin other);
-
-  /// @brief Method Equals, addr 0x2e8fa7c, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e8fb0c, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x2e8fba4, size 0x88, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty:
-  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
-  constexpr StyleTransformOrigin(::UnityEngine::UIElements::TransformOrigin m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleTransformOrigin();
+
+  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty:
+  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+  constexpr StyleTransformOrigin(::UnityEngine::UIElements::TransformOrigin m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief Field m_Value, offset: 0x0, size: 0x14, def value: None
   ::UnityEngine::UIElements::TransformOrigin m_Value;

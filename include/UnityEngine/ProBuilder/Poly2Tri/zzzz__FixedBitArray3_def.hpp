@@ -42,8 +42,6 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3);
 // SizeInfo { instance_size: 3, native_size: 12, calculated_instance_size: 3, calculated_native_size: 19, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15511))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::FixedBitArray3
 struct CORDL_TYPE FixedBitArray3 {
 public:
@@ -55,49 +53,49 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<bool>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<bool>*();
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<bool>* i___System__Collections__Generic__IEnumerable_1_bool_();
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
+
+  /// @brief Method Clear, addr 0x2c199e0, size 0xc, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Clear, addr 0x2c1bfac, size 0x50, virtual false, abstract: false, final false
+  inline void Clear(bool value);
+
+  /// @brief Method Contains, addr 0x2c1bf18, size 0x4c, virtual false, abstract: false, final false
+  inline bool Contains(bool value);
+
+  /// @brief Method Enumerate, addr 0x2c1bffc, size 0x84, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<bool>* Enumerate();
+
+  /// @brief Method GetEnumerator, addr 0x2c1c0b4, size 0xa8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<bool>* GetEnumerator();
+
+  /// @brief Method IndexOf, addr 0x2c1bf64, size 0x48, virtual false, abstract: false, final false
+  inline int32_t IndexOf(bool value);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2c1c15c, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method get_Item, addr 0x2c15d70, size 0x6c, virtual false, abstract: false, final false
+  inline bool get_Item(int32_t index);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<bool>* i___System__Collections__Generic__IEnumerable_1_bool_();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
-  /// @brief Method get_Item, addr 0x2b2ec9c, size 0x6c, virtual false, abstract: false, final false
-  inline bool get_Item(int32_t index);
-
-  /// @brief Method set_Item, addr 0x2b2f054, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2c16128, size 0x70, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
-
-  /// @brief Method Contains, addr 0x2b34e44, size 0x4c, virtual false, abstract: false, final false
-  inline bool Contains(bool value);
-
-  /// @brief Method IndexOf, addr 0x2b34e90, size 0x48, virtual false, abstract: false, final false
-  inline int32_t IndexOf(bool value);
-
-  /// @brief Method Clear, addr 0x2b3290c, size 0xc, virtual false, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method Clear, addr 0x2b34ed8, size 0x50, virtual false, abstract: false, final false
-  inline void Clear(bool value);
-
-  /// @brief Method Enumerate, addr 0x2b34f28, size 0x84, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<bool>* Enumerate();
-
-  /// @brief Method GetEnumerator, addr 0x2b34fe0, size 0xa8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<bool>* GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2b35088, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  // Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_2", ty: "bool",
-  // modifiers: "", def_value: None }]
-  constexpr FixedBitArray3(bool _0, bool _1, bool _2) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FixedBitArray3();
+
+  // Ctor Parameters [CppParam { name: "_0", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_1", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_2", ty: "bool",
+  // modifiers: "", def_value: None }]
+  constexpr FixedBitArray3(bool _0, bool _1, bool _2) noexcept;
 
   /// @brief Field _0, offset: 0x0, size: 0x1, def value: None
   bool _0;
@@ -127,126 +125,130 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3, _2) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15511))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15510))
 // CS Name: ::FixedBitArray3::<Enumerate>d__10*
 class CORDL_TYPE __FixedBitArray3___Enumerate_d__10 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Boolean__get_Current)) bool System_Collections_Generic_IEnumerator_System_Boolean__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) bool __2__current;
 
-  /// @brief Field <>l__initialThreadId, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
+  /// @brief Field <>3__<>4__this, offset 0x1f, size 0x3
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __3____4__this;
 
   /// @brief Field <>4__this, offset 0x1c, size 0x3
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __4__this;
 
-  /// @brief Field <>3__<>4__this, offset 0x1f, size 0x3
-  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 __3____4__this;
+  /// @brief Field <>l__initialThreadId, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <i>5__2, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Boolean__get_Current)) bool System_Collections_Generic_IEnumerator_System_Boolean__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<bool>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<bool>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<bool>* i___System__Collections__Generic__IEnumerable_1_bool_() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<bool>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<bool>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<bool>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<bool>* i___System__Collections__Generic__IEnumerator_1_bool_() noexcept;
+  /// @brief Convert operator to "::System::Collections::IEnumerable"
+  constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method MoveNext, addr 0x2c1c164, size 0x70, virtual true, abstract: false, final true
+  inline bool MoveNext();
+
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator, addr 0x2c1c278, size 0xc0, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<bool>* System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator();
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Boolean>.get_Current, addr 0x2c1c1d4, size 0x8, virtual true, abstract: false, final true
+  inline bool System_Collections_Generic_IEnumerator_System_Boolean__get_Current();
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2c1c338, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c1c1dc, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c1c21c, size 0x5c, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2c1c160, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+  constexpr int32_t& __cordl_internal_get___1__state();
+
+  constexpr bool const& __cordl_internal_get___2__current() const;
+
+  constexpr bool& __cordl_internal_get___2__current();
+
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get___3____4__this() const;
+
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get___3____4__this();
+
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get___4__this();
+
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
+
+  constexpr int32_t& __cordl_internal_get__i_5__2();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(bool value);
+
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
+
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2c1c080, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<bool>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<bool>* i___System__Collections__Generic__IEnumerable_1_bool_() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<bool>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<bool>* i___System__Collections__Generic__IEnumerator_1_bool_() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FixedBitArray3___Enumerate_d__10();
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr bool& __cordl_internal_get___2__current();
-
-  constexpr bool const& __cordl_internal_get___2__current() const;
-
-  constexpr void __cordl_internal_set___2__current(bool value);
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get___4__this();
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get___3____4__this();
-
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get___3____4__this() const;
-
-  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
-
-  constexpr int32_t& __cordl_internal_get__i_5__2();
-
-  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
-
-  constexpr void __cordl_internal_set__i_5__2(int32_t value);
-
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::__FixedBitArray3___Enumerate_d__10* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x2b34fac, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x2b3508c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  /// @brief Method MoveNext, addr 0x2b35090, size 0x70, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Boolean>.get_Current, addr 0x2b35100, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_Generic_IEnumerator_System_Boolean__get_Current();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2b35108, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b35148, size 0x5c, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Boolean>.GetEnumerator, addr 0x2b351a4, size 0xc0, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<bool>* System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2b35264, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FixedBitArray3___Enumerate_d__10", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FixedBitArray3___Enumerate_d__10(__FixedBitArray3___Enumerate_d__10&&) = delete;
@@ -255,12 +257,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FixedBitArray3___Enumerate_d__10(__FixedBitArray3___Enumerate_d__10 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FixedBitArray3___Enumerate_d__10();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 

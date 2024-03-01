@@ -31,8 +31,6 @@ MARK_VAL_T(::UnityEngine::EventSystems::RaycastResult);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13111))
 // CS Name: ::UnityEngine.EventSystems::RaycastResult
 struct CORDL_TYPE RaycastResult {
 public:
@@ -41,20 +39,24 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method get_gameObject, addr 0x2dbf7e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
-
-  /// @brief Method set_gameObject, addr 0x2dbf7ec, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameObject(::UnityEngine::GameObject* value);
-
-  /// @brief Method get_isValid, addr 0x2dbf7f4, size 0x98, virtual false, abstract: false, final false
-  inline bool get_isValid();
-
-  /// @brief Method Clear, addr 0x2dbf88c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2eadfb4, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString, addr 0x2db45ec, size 0x6d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ea2d14, size 0x6d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  /// @brief Method get_gameObject, addr 0x2eadf0c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
+
+  /// @brief Method get_isValid, addr 0x2eadf1c, size 0x98, virtual false, abstract: false, final false
+  inline bool get_isValid();
+
+  /// @brief Method set_gameObject, addr 0x2eadf14, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameObject(::UnityEngine::GameObject* value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RaycastResult();
 
   // Ctor Parameters [CppParam { name: "m_GameObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "_cordl_module", ty:
   // "::UnityW<::UnityEngine::EventSystems::BaseRaycaster>", modifiers: "", def_value: None }, CppParam { name: "distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "index",
@@ -65,10 +67,6 @@ public:
   constexpr RaycastResult(::UnityW<::UnityEngine::GameObject> m_GameObject, ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _cordl_module, float_t distance, float_t index, int32_t depth,
                           int32_t sortingLayer, int32_t sortingOrder, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldNormal, ::UnityEngine::Vector2 screenPosition,
                           int32_t displayIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RaycastResult();
 
   /// @brief Field m_GameObject, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> m_GameObject;

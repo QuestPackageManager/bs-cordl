@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounterManager);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14808))
 // CS Name: ::AvatarSyncMessageCounterManager::MessageType
 struct CORDL_TYPE __AvatarSyncMessageCounterManager__MessageType {
 public:
@@ -52,24 +50,29 @@ public:
     return static_cast<____AvatarSyncMessageCounterManager__MessageType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AvatarSyncMessageCounterManager__MessageType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __AvatarSyncMessageCounterManager__MessageType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __AvatarSyncMessageCounterManager__MessageType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Delta value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType const Delta;
 
   /// @brief Field Sync value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType const Sync;
 
-  /// @brief Field Delta value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType const Delta;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -83,25 +86,42 @@ static_assert(offsetof(::GlobalNamespace::__AvatarSyncMessageCounterManager__Mes
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14809))
 // CS Name: ::AvatarSyncMessageCounterManager*
 class CORDL_TYPE AvatarSyncMessageCounterManager : public ::System::Object {
 public:
   // Declarations
   using MessageType = ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType;
 
-  /// @brief Field userMessageCounters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_userMessageCounters, put = __cordl_internal_set_userMessageCounters))::System::Collections::Generic::Dictionary_2<
-      ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>* userMessageCounters;
+  /// @brief Field _instance, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::GlobalNamespace::AvatarSyncMessageCounterManager* _instance;
 
   /// @brief Field messageTypePeriods, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_messageTypePeriods,
                       put = __cordl_internal_set_messageTypePeriods))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType,
                                                                                                                   ::System::TimeSpan>* messageTypePeriods;
 
-  /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::GlobalNamespace::AvatarSyncMessageCounterManager* _instance;
+  /// @brief Field userMessageCounters, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_userMessageCounters, put = __cordl_internal_set_userMessageCounters))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>* userMessageCounters;
+
+  /// @brief Method GetMessageTypePeriod, addr 0x272a1ac, size 0x18c, virtual false, abstract: false, final false
+  inline ::StringW GetMessageTypePeriod(::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
+
+  /// @brief Method GetPlayerMessageCount, addr 0x272a54c, size 0x10c, virtual false, abstract: false, final false
+  inline int32_t GetPlayerMessageCount(::StringW userId, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
+
+  /// @brief Method MessageReceived, addr 0x272a338, size 0x214, virtual false, abstract: false, final false
+  inline void MessageReceived(::StringW userId, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
+
+  static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* New_ctor();
+
+  /// @brief Method SetMessageTypePeriod, addr 0x272a144, size 0x68, virtual false, abstract: false, final false
+  inline void SetMessageTypePeriod(::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType, ::System::TimeSpan period);
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*& __cordl_internal_get_messageTypePeriods();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*> const&
+  __cordl_internal_get_messageTypePeriods() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>*&
@@ -111,41 +131,28 @@ public:
       ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>*> const&
   __cordl_internal_get_userMessageCounters() const;
 
+  constexpr void __cordl_internal_set_messageTypePeriods(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>* value);
+
   constexpr void __cordl_internal_set_userMessageCounters(
       ::System::Collections::Generic::Dictionary_2<
           ::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::GlobalNamespace::AvatarSyncMessageCounter*>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*& __cordl_internal_get_messageTypePeriods();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>*> const&
-  __cordl_internal_get_messageTypePeriods() const;
-
-  constexpr void __cordl_internal_set_messageTypePeriods(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType, ::System::TimeSpan>* value);
-
-  static inline void setStaticF__instance(::GlobalNamespace::AvatarSyncMessageCounterManager* value);
+  /// @brief Method .ctor, addr 0x2729ff8, size 0x14c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x265a830, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x2729f7c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* get_Instance();
 
-  static inline ::GlobalNamespace::AvatarSyncMessageCounterManager* New_ctor();
+  static inline void setStaticF__instance(::GlobalNamespace::AvatarSyncMessageCounterManager* value);
 
-  /// @brief Method .ctor, addr 0x265a8ac, size 0x14c, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSyncMessageCounterManager();
 
-  /// @brief Method SetMessageTypePeriod, addr 0x265a9f8, size 0x68, virtual false, abstract: false, final false
-  inline void SetMessageTypePeriod(::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType, ::System::TimeSpan period);
-
-  /// @brief Method GetMessageTypePeriod, addr 0x265aa60, size 0x18c, virtual false, abstract: false, final false
-  inline ::StringW GetMessageTypePeriod(::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
-
-  /// @brief Method MessageReceived, addr 0x265abec, size 0x214, virtual false, abstract: false, final false
-  inline void MessageReceived(::StringW userId, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
-
-  /// @brief Method GetPlayerMessageCount, addr 0x265ae00, size 0x10c, virtual false, abstract: false, final false
-  inline int32_t GetPlayerMessageCount(::StringW userId, ::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType messageType);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSyncMessageCounterManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSyncMessageCounterManager(AvatarSyncMessageCounterManager&&) = delete;
@@ -154,12 +161,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSyncMessageCounterManager(AvatarSyncMessageCounterManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarSyncMessageCounterManager();
-
-public:
   /// @brief Field userMessageCounters, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__AvatarSyncMessageCounterManager__MessageType,
                                                                                                        ::GlobalNamespace::AvatarSyncMessageCounter*>*>* ___userMessageCounters;

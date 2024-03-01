@@ -20,26 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ExampleInstanceCustomAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9380))
 // CS Name: ::HEU_ExampleInstanceCustomAttribute*
 class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstancerCallback, addr 0x21e23a4, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method InstancerCallback, addr 0x22ada0c, size 0x3ac, virtual false, abstract: false, final false
   inline void InstancerCallback();
 
   /// @brief Method LogArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void LogArray(::StringW name, ::ArrayW<T, ::Array<T>*> arr, int32_t tupleSize);
 
-  /// @brief Method LogAttr, addr 0x21e2750, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LogAttr, addr 0x22addb8, size 0x154, virtual false, abstract: false, final false
   static inline void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
 
   static inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e28a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22adf0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ExampleInstanceCustomAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ExampleInstanceCustomAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ExampleInstanceCustomAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

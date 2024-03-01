@@ -20,12 +20,14 @@ MARK_VAL_T(::UnityEngine::ContactPoint2D);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16056))
 // CS Name: ::UnityEngine::ContactPoint2D
 struct CORDL_TYPE ContactPoint2D {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContactPoint2D();
+
   // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
   // None }, CppParam { name: "m_RelativeVelocity", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "m_NormalImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_TangentImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
@@ -34,10 +36,6 @@ public:
   // }]
   constexpr ContactPoint2D(::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, ::UnityEngine::Vector2 m_RelativeVelocity, float_t m_Separation, float_t m_NormalImpulse,
                            float_t m_TangentImpulse, int32_t m_Collider, int32_t m_OtherCollider, int32_t m_Rigidbody, int32_t m_OtherRigidbody, int32_t m_Enabled) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContactPoint2D();
 
   /// @brief Field m_Point, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Point;

@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ValidateCommandEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6488)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6488), inst: 1021 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6489))
 // CS Name: ::UnityEngine.UIElements::ValidateCommandEvent*
 class CORDL_TYPE ValidateCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ValidateCommandEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::ValidateCommandEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6d2c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5f9ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValidateCommandEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidateCommandEvent(ValidateCommandEvent&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidateCommandEvent(ValidateCommandEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidateCommandEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

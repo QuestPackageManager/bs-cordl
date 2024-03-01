@@ -28,22 +28,20 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15713)), TypeDefinitionIndex(TypeDefinitionIndex(15714)), TypeDefinitionIndex(TypeDefinitionIndex(15715))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15717))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphMarshallingStruct
 struct CORDL_TYPE GlyphMarshallingStruct {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GlyphMarshallingStruct();
+
   // Ctor Parameters [CppParam { name: "index", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "metrics", ty: "::UnityEngine::TextCore::GlyphMetrics", modifiers: "", def_value:
   // None }, CppParam { name: "glyphRect", ty: "::UnityEngine::TextCore::GlyphRect", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "atlasIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "classDefinitionType", ty: "::UnityEngine::TextCore::GlyphClassDefinitionType", modifiers: "",
   // def_value: None }]
   constexpr GlyphMarshallingStruct(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex,
                                    ::UnityEngine::TextCore::GlyphClassDefinitionType classDefinitionType) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GlyphMarshallingStruct();
 
   /// @brief Field index, offset: 0x0, size: 0x4, def value: None
   uint32_t index;

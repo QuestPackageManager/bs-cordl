@@ -18,21 +18,26 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8802)), TypeDefinitionIndex(TypeDefinitionIndex(15788)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15788), inst:
-// 915 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15783)) CS Name: ::BeatSaber.BeatAvatarSDK::AvatarMeshPartSO*
+// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarMeshPartSO*
 class CORDL_TYPE AvatarMeshPartSO : public ::BeatSaber::BeatAvatarSDK::AvatarPartSO_1<::UnityW<::UnityEngine::Mesh>> {
 public:
   // Declarations
   __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Method get_mesh, addr 0xe26568, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
-
   static inline ::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe265a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe6c108, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_mesh, addr 0xe6c0cc, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarMeshPartSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarMeshPartSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarMeshPartSO(AvatarMeshPartSO&&) = delete;
@@ -41,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarMeshPartSO(AvatarMeshPartSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarMeshPartSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -20,39 +20,43 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactiveClient);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4501))
 // CS Name: ::MultiplayerLocalInactiveClient*
 class CORDL_TYPE MultiplayerLocalInactiveClient : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _playerTransforms, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
-
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
+  /// @brief Field _playerTransforms, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
+  /// @brief Method LateUpdate, addr 0x246a16c, size 0x348, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
-  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
+  static inline ::GlobalNamespace::MultiplayerLocalInactiveClient* New_ctor();
 
   constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
+
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method LateUpdate, addr 0x239b224, size 0x348, virtual false, abstract: false, final false
-  inline void LateUpdate();
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  static inline ::GlobalNamespace::MultiplayerLocalInactiveClient* New_ctor();
-
-  /// @brief Method .ctor, addr 0x239b56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x246a4b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLocalInactiveClient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactiveClient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalInactiveClient(MultiplayerLocalInactiveClient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalInactiveClient();
-
-public:
   /// @brief Field _playerTransforms, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 

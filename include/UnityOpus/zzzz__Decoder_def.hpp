@@ -28,71 +28,75 @@ MARK_REF_PTR_T(::UnityOpus::Decoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16384))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16381))
 // CS Name: ::UnityOpus::Decoder*
 class CORDL_TYPE Decoder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field decoder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) void* decoder;
-
   /// @brief Field channels, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels))::UnityOpus::NumChannels channels;
 
-  /// @brief Field softclipMem, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_softclipMem, put = __cordl_internal_set_softclipMem))::ArrayW<float_t, ::Array<float_t>*> softclipMem;
+  /// @brief Field decoder, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) void* decoder;
 
   /// @brief Field disposedValue, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
 
+  /// @brief Field softclipMem, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_softclipMem, put = __cordl_internal_set_softclipMem))::ArrayW<float_t, ::Array<float_t>*> softclipMem;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Decode, addr 0x2359218, size 0xcc, virtual false, abstract: false, final false
+  inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
+
+  /// @brief Method Dispose, addr 0x23595f4, size 0x6c, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x2359454, size 0x84, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method Finalize, addr 0x2359554, size 0xa0, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
+
+  constexpr ::UnityOpus::NumChannels const& __cordl_internal_get_channels() const;
+
+  constexpr ::UnityOpus::NumChannels& __cordl_internal_get_channels();
+
+  constexpr void* const& __cordl_internal_get_decoder() const;
+
+  constexpr void*& __cordl_internal_get_decoder();
+
+  constexpr bool const& __cordl_internal_get_disposedValue() const;
+
+  constexpr bool& __cordl_internal_get_disposedValue();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_softclipMem() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_softclipMem();
+
+  constexpr void __cordl_internal_set_channels(::UnityOpus::NumChannels value);
+
+  constexpr void __cordl_internal_set_decoder(void* value);
+
+  constexpr void __cordl_internal_set_disposedValue(bool value);
+
+  constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  /// @brief Method .ctor, addr 0x2359030, size 0x154, virtual false, abstract: false, final false
+  inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __cordl_internal_get_decoder();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Decoder();
 
-  constexpr void* const& __cordl_internal_get_decoder() const;
-
-  constexpr void __cordl_internal_set_decoder(void* value);
-
-  constexpr ::UnityOpus::NumChannels& __cordl_internal_get_channels();
-
-  constexpr ::UnityOpus::NumChannels const& __cordl_internal_get_channels() const;
-
-  constexpr void __cordl_internal_set_channels(::UnityOpus::NumChannels value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_softclipMem();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_softclipMem() const;
-
-  constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr bool& __cordl_internal_get_disposedValue();
-
-  constexpr bool const& __cordl_internal_get_disposedValue() const;
-
-  constexpr void __cordl_internal_set_disposedValue(bool value);
-
-  static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
-
-  /// @brief Method .ctor, addr 0x228c9c8, size 0x154, virtual false, abstract: false, final false
-  inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
-
-  /// @brief Method Decode, addr 0x228cbb0, size 0xcc, virtual false, abstract: false, final false
-  inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
-
-  /// @brief Method Dispose, addr 0x228cdec, size 0x84, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method Finalize, addr 0x228ceec, size 0xa0, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method Dispose, addr 0x228cf8c, size 0x6c, virtual true, abstract: false, final true
-  inline void Dispose();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Decoder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Decoder(Decoder&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Decoder(Decoder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Decoder();
-
-public:
   /// @brief Field decoder, offset: 0x10, size: 0x8, def value: None
   void* ___decoder;
 

@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ConstructionLevelActivat
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3131))
 // CS Name: ::System.Runtime.Remoting.Activation::ConstructionLevelActivator*
 class CORDL_TYPE ConstructionLevelActivator : public ::System::Object {
 public:
@@ -34,20 +32,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
-  constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
-
-  /// @brief Method get_NextActivator, addr 0x24c6ff8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
-
-  /// @brief Method Activate, addr 0x24c7000, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x2597cf8, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Activation::ConstructionLevelActivator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c6398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2597090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_NextActivator, addr 0x2597cf0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
+
+  /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
+  constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConstructionLevelActivator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionLevelActivator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConstructionLevelActivator(ConstructionLevelActivator&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConstructionLevelActivator(ConstructionLevelActivator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstructionLevelActivator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

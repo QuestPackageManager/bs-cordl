@@ -77,23 +77,25 @@ MARK_VAL_T(::BGLib::UnityExtension::__AssetBundleExtensions___ExistsAsync_d__0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(15736)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5052 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15632)) CS Name: ::AssetBundleExtensions::<ExistsAsync>d__0
+// CS Name: ::AssetBundleExtensions::<ExistsAsync>d__0
 struct CORDL_TYPE __AssetBundleExtensions___ExistsAsync_d__0 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe99410, size 0x440, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe99a20, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe53440, size 0x440, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe53a50, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AssetBundleExtensions___ExistsAsync_d__0();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None },
@@ -102,10 +104,6 @@ public:
   constexpr __AssetBundleExtensions___ExistsAsync_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::StringW assetBundlePath,
                                                        ::UnityEngine::Networking::UnityWebRequest* _webRequest_5__2,
                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::__UnityWebRequest__Result> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AssetBundleExtensions___ExistsAsync_d__0();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -145,40 +143,44 @@ static_assert(offsetof(::BGLib::UnityExtension::__AssetBundleExtensions___Exists
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15633))
 // CS Name: ::AssetBundleExtensions::<>c__DisplayClass1_0*
 class CORDL_TYPE __AssetBundleExtensions____c__DisplayClass1_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field assetBundleCreateRequest, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_assetBundleCreateRequest, put = __cordl_internal_set_assetBundleCreateRequest))::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest;
+
   /// @brief Field loadAssetBundleTaskSource, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_loadAssetBundleTaskSource,
                       put = __cordl_internal_set_loadAssetBundleTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* loadAssetBundleTaskSource;
 
-  /// @brief Field assetBundleCreateRequest, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_assetBundleCreateRequest, put = __cordl_internal_set_assetBundleCreateRequest))::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest;
+  static inline ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass1_0* New_ctor();
+
+  /// @brief Method <GetAwaiter>b__0, addr 0xe99a78, size 0x68, virtual false, abstract: false, final false
+  inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
+
+  constexpr ::UnityEngine::AssetBundleCreateRequest*& __cordl_internal_get_assetBundleCreateRequest();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleCreateRequest*> const& __cordl_internal_get_assetBundleCreateRequest() const;
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>*& __cordl_internal_get_loadAssetBundleTaskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>*> const&
   __cordl_internal_get_loadAssetBundleTaskSource() const;
 
-  constexpr void __cordl_internal_set_loadAssetBundleTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* value);
-
-  constexpr ::UnityEngine::AssetBundleCreateRequest*& __cordl_internal_get_assetBundleCreateRequest();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleCreateRequest*> const& __cordl_internal_get_assetBundleCreateRequest() const;
-
   constexpr void __cordl_internal_set_assetBundleCreateRequest(::UnityEngine::AssetBundleCreateRequest* value);
 
-  static inline ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass1_0* New_ctor();
+  constexpr void __cordl_internal_set_loadAssetBundleTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* value);
 
-  /// @brief Method .ctor, addr 0xe532f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe992c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0xe53aa8, size 0x68, virtual false, abstract: false, final false
-  inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AssetBundleExtensions____c__DisplayClass1_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AssetBundleExtensions____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AssetBundleExtensions____c__DisplayClass1_0(__AssetBundleExtensions____c__DisplayClass1_0&&) = delete;
@@ -187,12 +189,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AssetBundleExtensions____c__DisplayClass1_0(__AssetBundleExtensions____c__DisplayClass1_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AssetBundleExtensions____c__DisplayClass1_0();
-
-public:
   /// @brief Field loadAssetBundleTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* ___loadAssetBundleTaskSource;
 
@@ -213,8 +209,6 @@ static_assert(offsetof(::BGLib::UnityExtension::__AssetBundleExtensions____c__Di
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15634))
 // CS Name: ::AssetBundleExtensions::<>c__DisplayClass2_0*
 class CORDL_TYPE __AssetBundleExtensions____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -226,26 +220,32 @@ public:
   /// @brief Field resourceRequest, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_resourceRequest, put = __cordl_internal_set_resourceRequest))::UnityEngine::ResourceRequest* resourceRequest;
 
+  static inline ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass2_0* New_ctor();
+
+  /// @brief Method <GetAwaiter>b__0, addr 0xe99ae0, size 0x68, virtual false, abstract: false, final false
+  inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
+
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get_loadResourceTaskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get_loadResourceTaskSource() const;
-
-  constexpr void __cordl_internal_set_loadResourceTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* value);
 
   constexpr ::UnityEngine::ResourceRequest*& __cordl_internal_get_resourceRequest();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceRequest*> const& __cordl_internal_get_resourceRequest() const;
 
+  constexpr void __cordl_internal_set_loadResourceTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* value);
+
   constexpr void __cordl_internal_set_resourceRequest(::UnityEngine::ResourceRequest* value);
 
-  static inline ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass2_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe53438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0xe53b10, size 0x68, virtual false, abstract: false, final false
-  inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AssetBundleExtensions____c__DisplayClass2_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AssetBundleExtensions____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AssetBundleExtensions____c__DisplayClass2_0(__AssetBundleExtensions____c__DisplayClass2_0&&) = delete;
@@ -254,12 +254,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AssetBundleExtensions____c__DisplayClass2_0(__AssetBundleExtensions____c__DisplayClass2_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AssetBundleExtensions____c__DisplayClass2_0();
-
-public:
   /// @brief Field loadResourceTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* ___loadResourceTaskSource;
 
@@ -280,27 +274,31 @@ static_assert(offsetof(::BGLib::UnityExtension::__AssetBundleExtensions____c__Di
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15635))
 // CS Name: ::BGLib.UnityExtension::AssetBundleExtensions*
 class CORDL_TYPE AssetBundleExtensions : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass2_0 = ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass2_0;
+  using _ExistsAsync_d__0 = ::BGLib::UnityExtension::__AssetBundleExtensions___ExistsAsync_d__0;
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass1_0;
 
-  using _ExistsAsync_d__0 = ::BGLib::UnityExtension::__AssetBundleExtensions___ExistsAsync_d__0;
+  using __c__DisplayClass2_0 = ::BGLib::UnityExtension::__AssetBundleExtensions____c__DisplayClass2_0;
 
-  /// @brief Method ExistsAsync, addr 0xe530c4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ExistsAsync, addr 0xe99094, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ExistsAsync(::StringW assetBundlePath);
 
-  /// @brief Method GetAwaiter, addr 0xe531c0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0xe99190, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> GetAwaiter(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
 
-  /// @brief Method GetAwaiter, addr 0xe53300, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0xe992d0, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> GetAwaiter(::UnityEngine::ResourceRequest* resourceRequest);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetBundleExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleExtensions(AssetBundleExtensions&&) = delete;
@@ -309,12 +307,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetBundleExtensions(AssetBundleExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetBundleExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

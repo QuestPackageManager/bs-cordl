@@ -15,18 +15,16 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::ColorBoostEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11132))
 // CS Name: ::BeatmapSaveDataVersion4::ColorBoostEvent
 struct CORDL_TYPE ColorBoostEvent {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ColorBoostEvent(int32_t b) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ColorBoostEvent();
+
+  // Ctor Parameters [CppParam { name: "b", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ColorBoostEvent(int32_t b) noexcept;
 
   /// @brief Field b, offset: 0x0, size: 0x4, def value: None
   int32_t b;

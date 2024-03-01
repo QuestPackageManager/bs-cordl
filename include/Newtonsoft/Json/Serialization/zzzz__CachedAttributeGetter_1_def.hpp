@@ -22,8 +22,6 @@ namespace Newtonsoft::Json::Serialization {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11860))
 // CS Name: ::Newtonsoft.Json.Serialization::CachedAttributeGetter`1<T>*
 class CORDL_TYPE CachedAttributeGetter_1 : public ::System::Object {
 public:
@@ -31,13 +29,19 @@ public:
   /// @brief Field TypeAttributeCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_TypeAttributeCache, put = setStaticF_TypeAttributeCache))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* TypeAttributeCache;
 
-  static inline void setStaticF_TypeAttributeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* value);
-
-  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* getStaticF_TypeAttributeCache();
-
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetAttribute(::System::Object* type);
 
+  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* getStaticF_TypeAttributeCache();
+
+  static inline void setStaticF_TypeAttributeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CachedAttributeGetter_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CachedAttributeGetter_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CachedAttributeGetter_1(CachedAttributeGetter_1&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CachedAttributeGetter_1(CachedAttributeGetter_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CachedAttributeGetter_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

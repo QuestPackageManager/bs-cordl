@@ -19,12 +19,18 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Capture);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6910))
 // CS Name: ::System.Text.RegularExpressions::Capture*
 class CORDL_TYPE Capture : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Index, put = set_Index)) int32_t Index;
+
+  __declspec(property(get = get_Length, put = set_Length)) int32_t Length;
+
+  __declspec(property(get = get_Text, put = set_Text))::StringW Text;
+
+  __declspec(property(get = get_Value))::StringW Value;
+
   /// @brief Field <Index>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__Index_k__BackingField, put = __cordl_internal_set__Index_k__BackingField)) int32_t _Index_k__BackingField;
 
@@ -34,67 +40,65 @@ public:
   /// @brief Field <Text>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Text_k__BackingField, put = __cordl_internal_set__Text_k__BackingField))::StringW _Text_k__BackingField;
 
-  __declspec(property(get = get_Index, put = set_Index)) int32_t Index;
+  /// @brief Method GetLeftSubstring, addr 0x2a37f94, size 0x88, virtual false, abstract: false, final false
+  inline ::System::ReadOnlySpan_1<char16_t> GetLeftSubstring();
 
-  __declspec(property(get = get_Length, put = set_Length)) int32_t Length;
-
-  __declspec(property(get = get_Text, put = set_Text))::StringW Text;
-
-  __declspec(property(get = get_Value))::StringW Value;
-
-  constexpr int32_t& __cordl_internal_get__Index_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__Index_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Index_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__Length_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__Length_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get__Text_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__Text_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
+  /// @brief Method GetRightSubstring, addr 0x2a3801c, size 0x90, virtual false, abstract: false, final false
+  inline ::System::ReadOnlySpan_1<char16_t> GetRightSubstring();
 
   static inline ::System::Text::RegularExpressions::Capture* New_ctor(::StringW text, int32_t index, int32_t length);
 
-  /// @brief Method .ctor, addr 0x2952a84, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW text, int32_t index, int32_t length);
-
-  /// @brief Method get_Index, addr 0x2952ac0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Index();
-
-  /// @brief Method set_Index, addr 0x2952ac8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Index(int32_t value);
-
-  /// @brief Method get_Length, addr 0x2952ad0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Length();
-
-  /// @brief Method set_Length, addr 0x2952ad8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Length(int32_t value);
-
-  /// @brief Method get_Text, addr 0x2952ae0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Text();
-
-  /// @brief Method set_Text, addr 0x2952ae8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Text(::StringW value);
-
-  /// @brief Method get_Value, addr 0x2952af0, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
-
-  /// @brief Method ToString, addr 0x2952b14, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2a37f90, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetLeftSubstring, addr 0x2952b18, size 0x88, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<char16_t> GetLeftSubstring();
+  constexpr int32_t const& __cordl_internal_get__Index_k__BackingField() const;
 
-  /// @brief Method GetRightSubstring, addr 0x2952ba0, size 0x90, virtual false, abstract: false, final false
-  inline ::System::ReadOnlySpan_1<char16_t> GetRightSubstring();
+  constexpr int32_t& __cordl_internal_get__Index_k__BackingField();
 
+  constexpr int32_t const& __cordl_internal_get__Length_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__Length_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__Text_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__Text_k__BackingField();
+
+  constexpr void __cordl_internal_set__Index_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2a37f00, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW text, int32_t index, int32_t length);
+
+  /// @brief Method get_Index, addr 0x2a37f3c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Index();
+
+  /// @brief Method get_Length, addr 0x2a37f4c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Length();
+
+  /// @brief Method get_Text, addr 0x2a37f5c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Text();
+
+  /// @brief Method get_Value, addr 0x2a37f6c, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW get_Value();
+
+  /// @brief Method set_Index, addr 0x2a37f44, size 0x8, virtual false, abstract: false, final false
+  inline void set_Index(int32_t value);
+
+  /// @brief Method set_Length, addr 0x2a37f54, size 0x8, virtual false, abstract: false, final false
+  inline void set_Length(int32_t value);
+
+  /// @brief Method set_Text, addr 0x2a37f64, size 0x8, virtual false, abstract: false, final false
+  inline void set_Text(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Capture();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Capture", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Capture(Capture&&) = delete;
@@ -103,12 +107,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Capture(Capture const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Capture();
-
-public:
   /// @brief Field <Index>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____Index_k__BackingField;
 

@@ -37,8 +37,6 @@ namespace BGLib::DotnetExtension::Collections {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15238))
 // CS Name: ::LRUCache`2::CacheElement<TKey,TValue>*
 class CORDL_TYPE __LRUCache_2__CacheElement : public ::System::Object {
 public:
@@ -46,31 +44,37 @@ public:
   /// @brief Field _key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) TKey _key;
 
+  __declspec(property(get = get_key)) TKey key;
+
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) TValue value;
 
-  __declspec(property(get = get_key)) TKey key;
-
-  constexpr TKey& __cordl_internal_get__key();
+  static inline ::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>* New_ctor(TKey key, TValue value);
 
   constexpr TKey const& __cordl_internal_get__key() const;
 
-  constexpr void __cordl_internal_set__key(TKey value);
-
-  constexpr TValue& __cordl_internal_get_value();
+  constexpr TKey& __cordl_internal_get__key();
 
   constexpr TValue const& __cordl_internal_get_value() const;
 
+  constexpr TValue& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set__key(TKey value);
+
   constexpr void __cordl_internal_set_value(TValue value);
-
-  /// @brief Method get_key, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TKey get_key();
-
-  static inline ::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>* New_ctor(TKey key, TValue value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TKey key, TValue value);
 
+  /// @brief Method get_key, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TKey get_key();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LRUCache_2__CacheElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LRUCache_2__CacheElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LRUCache_2__CacheElement(__LRUCache_2__CacheElement&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LRUCache_2__CacheElement(__LRUCache_2__CacheElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LRUCache_2__CacheElement();
-
-public:
   /// @brief Field _key, offset: 0x10, size: 0x8, def value: None
   TKey ____key;
 
@@ -101,17 +99,13 @@ namespace BGLib::DotnetExtension::Collections {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15239))
 // CS Name: ::BGLib.DotnetExtension.Collections::LRUCache`2<TKey,TValue>*
 class CORDL_TYPE LRUCache_2 : public ::System::Object {
 public:
   // Declarations
   using CacheElement = ::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>;
 
-  /// @brief Field itemWillBeRemovedFromCacheEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_itemWillBeRemovedFromCacheEvent,
-                      put = __cordl_internal_set_itemWillBeRemovedFromCacheEvent))::System::Action_2<TKey, TValue>* itemWillBeRemovedFromCacheEvent;
+  __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field _cacheContent, offset 0x18, size 0x8
   __declspec(
@@ -125,20 +119,34 @@ public:
   /// @brief Field _maxNumberElements, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__maxNumberElements, put = __cordl_internal_set__maxNumberElements)) int32_t _maxNumberElements;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+  /// @brief Field itemWillBeRemovedFromCacheEvent, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_itemWillBeRemovedFromCacheEvent,
+                      put = __cordl_internal_set_itemWillBeRemovedFromCacheEvent))::System::Action_2<TKey, TValue>* itemWillBeRemovedFromCacheEvent;
 
-  constexpr ::System::Action_2<TKey, TValue>*& __cordl_internal_get_itemWillBeRemovedFromCacheEvent();
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(TKey key, TValue value);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TKey, TValue>*> const& __cordl_internal_get_itemWillBeRemovedFromCacheEvent() const;
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
 
-  constexpr void __cordl_internal_set_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value);
+  /// @brief Method IsInCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool IsInCache(TKey key);
+
+  /// @brief Method MakeNodeMostRecentlyUsed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void MakeNodeMostRecentlyUsed(::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* node);
+
+  static inline ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* New_ctor(int32_t maxNumberElements);
+
+  /// @brief Method RemoveLeastUsedElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveLeastUsedElement();
+
+  /// @brief Method TryGetFromCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryGetFromCache(TKey key, ByRef<TValue> value);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*& __cordl_internal_get__cacheContent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*> const&
   __cordl_internal_get__cacheContent() const;
-
-  constexpr void __cordl_internal_set__cacheContent(::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>*&
   __cordl_internal_get__index();
@@ -147,47 +155,41 @@ public:
       ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>*> const&
   __cordl_internal_get__index() const;
 
-  constexpr void __cordl_internal_set__index(
-      ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>* value);
+  constexpr int32_t const& __cordl_internal_get__maxNumberElements() const;
 
   constexpr int32_t& __cordl_internal_get__maxNumberElements();
 
-  constexpr int32_t const& __cordl_internal_get__maxNumberElements() const;
+  constexpr ::System::Action_2<TKey, TValue>*& __cordl_internal_get_itemWillBeRemovedFromCacheEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TKey, TValue>*> const& __cordl_internal_get_itemWillBeRemovedFromCacheEvent() const;
+
+  constexpr void __cordl_internal_set__cacheContent(::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* value);
+
+  constexpr void __cordl_internal_set__index(
+      ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>* value);
 
   constexpr void __cordl_internal_set__maxNumberElements(int32_t value);
 
-  /// @brief Method add_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void add_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value);
-
-  /// @brief Method remove_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void remove_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value);
-
-  static inline ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* New_ctor(int32_t maxNumberElements);
+  constexpr void __cordl_internal_set_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNumberElements);
 
-  /// @brief Method IsInCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool IsInCache(TKey key);
+  /// @brief Method add_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void add_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method MakeNodeMostRecentlyUsed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void MakeNodeMostRecentlyUsed(::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* node);
+  /// @brief Method remove_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void remove_itemWillBeRemovedFromCacheEvent(::System::Action_2<TKey, TValue>* value);
 
-  /// @brief Method TryGetFromCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetFromCache(TKey key, ByRef<TValue> value);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LRUCache_2();
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(TKey key, TValue value);
-
-  /// @brief Method RemoveLeastUsedElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RemoveLeastUsedElement();
-
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LRUCache_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LRUCache_2(LRUCache_2&&) = delete;
@@ -196,12 +198,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LRUCache_2(LRUCache_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LRUCache_2();
-
-public:
   /// @brief Field itemWillBeRemovedFromCacheEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<TKey, TValue>* ___itemWillBeRemovedFromCacheEvent;
 

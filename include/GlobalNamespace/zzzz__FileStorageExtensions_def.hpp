@@ -79,56 +79,60 @@ MARK_GEN_VAL_T(::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsyn
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16281))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16266))
 // CS Name: ::FileStorageExtensions::<>c__DisplayClass0_0*
 class CORDL_TYPE __FileStorageExtensions____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field fileName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
+
   /// @brief Field fileStorage, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
 
-  /// @brief Field fileName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
+  /// @brief Field storageLocation, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_storageLocation, put = __cordl_internal_set_storageLocation))::GlobalNamespace::StoragePreference storageLocation;
 
   /// @brief Field value, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
-  /// @brief Field storageLocation, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_storageLocation, put = __cordl_internal_set_storageLocation))::GlobalNamespace::StoragePreference storageLocation;
+  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass0_0* New_ctor();
+
+  /// @brief Method <SaveFile>b__0, addr 0xe8eef8, size 0xbc, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* _SaveFile_b__0();
+
+  constexpr ::StringW const& __cordl_internal_get_fileName() const;
+
+  constexpr ::StringW& __cordl_internal_get_fileName();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get_fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get_fileStorage() const;
 
-  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
-
-  constexpr ::StringW& __cordl_internal_get_fileName();
-
-  constexpr ::StringW const& __cordl_internal_get_fileName() const;
-
-  constexpr void __cordl_internal_set_fileName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_value();
-
-  constexpr ::StringW const& __cordl_internal_get_value() const;
-
-  constexpr void __cordl_internal_set_value(::StringW value);
+  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
 
   constexpr ::GlobalNamespace::StoragePreference& __cordl_internal_get_storageLocation();
 
-  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
+
+  constexpr ::StringW& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_fileName(::StringW value);
+
+  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass0_0* New_ctor();
+  constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0xe48ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8eaa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SaveFile>b__0, addr 0xe48f28, size 0xbc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* _SaveFile_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileStorageExtensions____c__DisplayClass0_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileStorageExtensions____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileStorageExtensions____c__DisplayClass0_0(__FileStorageExtensions____c__DisplayClass0_0&&) = delete;
@@ -137,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileStorageExtensions____c__DisplayClass0_0(__FileStorageExtensions____c__DisplayClass0_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileStorageExtensions____c__DisplayClass0_0();
-
-public:
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
@@ -173,47 +171,51 @@ static_assert(offsetof(::GlobalNamespace::__FileStorageExtensions____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16281))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16267))
 // CS Name: ::FileStorageExtensions::<>c__DisplayClass1_0*
 class CORDL_TYPE __FileStorageExtensions____c__DisplayClass1_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field fileStorage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
-
   /// @brief Field fileName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
 
+  /// @brief Field fileStorage, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
+
   /// @brief Field storageLocation, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_storageLocation, put = __cordl_internal_set_storageLocation))::GlobalNamespace::StoragePreference storageLocation;
+
+  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0* New_ctor();
+
+  /// @brief Method <LoadFile>b__0, addr 0xe8efb4, size 0xb4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* _LoadFile_b__0();
+
+  constexpr ::StringW const& __cordl_internal_get_fileName() const;
+
+  constexpr ::StringW& __cordl_internal_get_fileName();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get_fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get_fileStorage() const;
 
-  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
-
-  constexpr ::StringW& __cordl_internal_get_fileName();
-
-  constexpr ::StringW const& __cordl_internal_get_fileName() const;
-
-  constexpr void __cordl_internal_set_fileName(::StringW value);
+  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
 
   constexpr ::GlobalNamespace::StoragePreference& __cordl_internal_get_storageLocation();
 
-  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
+  constexpr void __cordl_internal_set_fileName(::StringW value);
+
+  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe48bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8eb80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LoadFile>b__0, addr 0xe48fe4, size 0xb4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* _LoadFile_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileStorageExtensions____c__DisplayClass1_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileStorageExtensions____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileStorageExtensions____c__DisplayClass1_0(__FileStorageExtensions____c__DisplayClass1_0&&) = delete;
@@ -222,12 +224,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileStorageExtensions____c__DisplayClass1_0(__FileStorageExtensions____c__DisplayClass1_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileStorageExtensions____c__DisplayClass1_0();
-
-public:
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
@@ -253,47 +249,51 @@ static_assert(offsetof(::GlobalNamespace::__FileStorageExtensions____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16281))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16268))
 // CS Name: ::FileStorageExtensions::<>c__DisplayClass2_0*
 class CORDL_TYPE __FileStorageExtensions____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field fileStorage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
-
   /// @brief Field fileName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
 
+  /// @brief Field fileStorage, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
+
   /// @brief Field storageLocation, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_storageLocation, put = __cordl_internal_set_storageLocation))::GlobalNamespace::StoragePreference storageLocation;
+
+  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0* New_ctor();
+
+  /// @brief Method <FileExists>b__0, addr 0xe8f068, size 0xb4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* _FileExists_b__0();
+
+  constexpr ::StringW const& __cordl_internal_get_fileName() const;
+
+  constexpr ::StringW& __cordl_internal_get_fileName();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get_fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get_fileStorage() const;
 
-  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
-
-  constexpr ::StringW& __cordl_internal_get_fileName();
-
-  constexpr ::StringW const& __cordl_internal_get_fileName() const;
-
-  constexpr void __cordl_internal_set_fileName(::StringW value);
+  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
 
   constexpr ::GlobalNamespace::StoragePreference& __cordl_internal_get_storageLocation();
 
-  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
+  constexpr void __cordl_internal_set_fileName(::StringW value);
+
+  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe48c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8ec60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FileExists>b__0, addr 0xe49098, size 0xb4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* _FileExists_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileStorageExtensions____c__DisplayClass2_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileStorageExtensions____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileStorageExtensions____c__DisplayClass2_0(__FileStorageExtensions____c__DisplayClass2_0&&) = delete;
@@ -302,12 +302,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileStorageExtensions____c__DisplayClass2_0(__FileStorageExtensions____c__DisplayClass2_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileStorageExtensions____c__DisplayClass2_0();
-
-public:
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
@@ -333,47 +327,51 @@ static_assert(offsetof(::GlobalNamespace::__FileStorageExtensions____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16281))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16269))
 // CS Name: ::FileStorageExtensions::<>c__DisplayClass3_0*
 class CORDL_TYPE __FileStorageExtensions____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field fileStorage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
-
   /// @brief Field fileName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
 
+  /// @brief Field fileStorage, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage))::GlobalNamespace::IFileStorage* fileStorage;
+
   /// @brief Field storageLocation, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_storageLocation, put = __cordl_internal_set_storageLocation))::GlobalNamespace::StoragePreference storageLocation;
+
+  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0* New_ctor();
+
+  /// @brief Method <DeleteFile>b__0, addr 0xe8f11c, size 0xb4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* _DeleteFile_b__0();
+
+  constexpr ::StringW const& __cordl_internal_get_fileName() const;
+
+  constexpr ::StringW& __cordl_internal_get_fileName();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get_fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get_fileStorage() const;
 
-  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
-
-  constexpr ::StringW& __cordl_internal_get_fileName();
-
-  constexpr ::StringW const& __cordl_internal_get_fileName() const;
-
-  constexpr void __cordl_internal_set_fileName(::StringW value);
+  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
 
   constexpr ::GlobalNamespace::StoragePreference& __cordl_internal_get_storageLocation();
 
-  constexpr ::GlobalNamespace::StoragePreference const& __cordl_internal_get_storageLocation() const;
+  constexpr void __cordl_internal_set_fileName(::StringW value);
+
+  constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe48d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8ed2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DeleteFile>b__0, addr 0xe4914c, size 0xb4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* _DeleteFile_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileStorageExtensions____c__DisplayClass3_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FileStorageExtensions____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FileStorageExtensions____c__DisplayClass3_0(__FileStorageExtensions____c__DisplayClass3_0&&) = delete;
@@ -382,12 +380,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FileStorageExtensions____c__DisplayClass3_0(__FileStorageExtensions____c__DisplayClass3_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileStorageExtensions____c__DisplayClass3_0();
-
-public:
   /// @brief Field fileStorage, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
@@ -415,23 +407,25 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(16281)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 90 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(16270)) CS Name: ::FileStorageExtensions::<LoadFromJSONFileAsync>d__7`1<T>
+// CS Name: ::FileStorageExtensions::<LoadFromJSONFileAsync>d__7`1<T>
 struct CORDL_TYPE __FileStorageExtensions___LoadFromJSONFileAsync_d__7_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FileStorageExtensions___LoadFromJSONFileAsync_d__7_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: None }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*", modifiers: "",
@@ -440,10 +434,6 @@ public:
   constexpr __FileStorageExtensions___LoadFromJSONFileAsync_d__7_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder,
                                                                    ::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation,
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FileStorageExtensions___LoadFromJSONFileAsync_d__7_1();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -474,48 +464,52 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16271))
 // CS Name: ::FileStorageExtensions*
 class CORDL_TYPE FileStorageExtensions : public ::System::Object {
 public:
   // Declarations
   template <typename T> using _LoadFromJSONFileAsync_d__7_1 = ::GlobalNamespace::__FileStorageExtensions___LoadFromJSONFileAsync_d__7_1<T>;
 
-  using __c__DisplayClass3_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0;
-
-  using __c__DisplayClass2_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0;
+  using __c__DisplayClass0_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass0_0;
 
   using __c__DisplayClass1_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0;
 
-  using __c__DisplayClass0_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass0_0;
+  using __c__DisplayClass2_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0;
 
-  /// @brief Method SaveFile, addr 0xe489fc, size 0xd4, virtual false, abstract: false, final false
-  static inline void SaveFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
+  using __c__DisplayClass3_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0;
 
-  /// @brief Method LoadFile, addr 0xe48ad8, size 0xd8, virtual false, abstract: false, final false
-  static inline ::StringW LoadFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
-
-  /// @brief Method FileExists, addr 0xe48bb8, size 0xd8, virtual false, abstract: false, final false
-  static inline bool FileExists(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
-
-  /// @brief Method DeleteFile, addr 0xe48c98, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DeleteFile, addr 0xe8ec68, size 0xc4, virtual false, abstract: false, final false
   static inline void DeleteFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveToJSONFile, addr 0xe48d64, size 0xe8, virtual false, abstract: false, final false
-  static inline void SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation, bool prettyPrint);
+  /// @brief Method FileExists, addr 0xe8eb88, size 0xd8, virtual false, abstract: false, final false
+  static inline bool FileExists(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
+
+  /// @brief Method LoadFile, addr 0xe8eaa8, size 0xd8, virtual false, abstract: false, final false
+  static inline ::StringW LoadFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   /// @brief Method LoadFromJSONFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T LoadFromJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
-
-  /// @brief Method SaveToJSONFileAsync, addr 0xe48e4c, size 0xdc, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
-                                                                      ::GlobalNamespace::StoragePreference storageLocation, bool prettyPrint);
 
   /// @brief Method LoadFromJSONFileAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<T>* LoadFromJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
+  /// @brief Method SaveFile, addr 0xe8e9cc, size 0xd4, virtual false, abstract: false, final false
+  static inline void SaveFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
+
+  /// @brief Method SaveToJSONFile, addr 0xe8ed34, size 0xe8, virtual false, abstract: false, final false
+  static inline void SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation, bool prettyPrint);
+
+  /// @brief Method SaveToJSONFileAsync, addr 0xe8ee1c, size 0xdc, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task* SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
+                                                                      ::GlobalNamespace::StoragePreference storageLocation, bool prettyPrint);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileStorageExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileStorageExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileStorageExtensions(FileStorageExtensions&&) = delete;
@@ -524,12 +518,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileStorageExtensions(FileStorageExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileStorageExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

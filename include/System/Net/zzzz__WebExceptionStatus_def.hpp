@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::WebExceptionStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7097))
 // CS Name: ::System.Net::WebExceptionStatus
 struct CORDL_TYPE WebExceptionStatus {
 public:
@@ -53,81 +51,86 @@ public:
     return static_cast<__WebExceptionStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr WebExceptionStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr WebExceptionStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr WebExceptionStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
-  static ::System::Net::WebExceptionStatus const Success;
-
-  /// @brief Field NameResolutionFailure value: static_cast<int32_t>(0x1)
-  static ::System::Net::WebExceptionStatus const NameResolutionFailure;
+  /// @brief Field CacheEntryNotFound value: static_cast<int32_t>(0x12)
+  static ::System::Net::WebExceptionStatus const CacheEntryNotFound;
 
   /// @brief Field ConnectFailure value: static_cast<int32_t>(0x2)
   static ::System::Net::WebExceptionStatus const ConnectFailure;
 
-  /// @brief Field ReceiveFailure value: static_cast<int32_t>(0x3)
-  static ::System::Net::WebExceptionStatus const ReceiveFailure;
-
-  /// @brief Field SendFailure value: static_cast<int32_t>(0x4)
-  static ::System::Net::WebExceptionStatus const SendFailure;
-
-  /// @brief Field PipelineFailure value: static_cast<int32_t>(0x5)
-  static ::System::Net::WebExceptionStatus const PipelineFailure;
-
-  /// @brief Field RequestCanceled value: static_cast<int32_t>(0x6)
-  static ::System::Net::WebExceptionStatus const RequestCanceled;
-
-  /// @brief Field ProtocolError value: static_cast<int32_t>(0x7)
-  static ::System::Net::WebExceptionStatus const ProtocolError;
-
   /// @brief Field ConnectionClosed value: static_cast<int32_t>(0x8)
   static ::System::Net::WebExceptionStatus const ConnectionClosed;
-
-  /// @brief Field TrustFailure value: static_cast<int32_t>(0x9)
-  static ::System::Net::WebExceptionStatus const TrustFailure;
-
-  /// @brief Field SecureChannelFailure value: static_cast<int32_t>(0xa)
-  static ::System::Net::WebExceptionStatus const SecureChannelFailure;
-
-  /// @brief Field ServerProtocolViolation value: static_cast<int32_t>(0xb)
-  static ::System::Net::WebExceptionStatus const ServerProtocolViolation;
 
   /// @brief Field KeepAliveFailure value: static_cast<int32_t>(0xc)
   static ::System::Net::WebExceptionStatus const KeepAliveFailure;
 
+  /// @brief Field MessageLengthLimitExceeded value: static_cast<int32_t>(0x11)
+  static ::System::Net::WebExceptionStatus const MessageLengthLimitExceeded;
+
+  /// @brief Field NameResolutionFailure value: static_cast<int32_t>(0x1)
+  static ::System::Net::WebExceptionStatus const NameResolutionFailure;
+
   /// @brief Field Pending value: static_cast<int32_t>(0xd)
   static ::System::Net::WebExceptionStatus const Pending;
 
-  /// @brief Field Timeout value: static_cast<int32_t>(0xe)
-  static ::System::Net::WebExceptionStatus const Timeout;
+  /// @brief Field PipelineFailure value: static_cast<int32_t>(0x5)
+  static ::System::Net::WebExceptionStatus const PipelineFailure;
+
+  /// @brief Field ProtocolError value: static_cast<int32_t>(0x7)
+  static ::System::Net::WebExceptionStatus const ProtocolError;
 
   /// @brief Field ProxyNameResolutionFailure value: static_cast<int32_t>(0xf)
   static ::System::Net::WebExceptionStatus const ProxyNameResolutionFailure;
 
-  /// @brief Field UnknownError value: static_cast<int32_t>(0x10)
-  static ::System::Net::WebExceptionStatus const UnknownError;
+  /// @brief Field ReceiveFailure value: static_cast<int32_t>(0x3)
+  static ::System::Net::WebExceptionStatus const ReceiveFailure;
 
-  /// @brief Field MessageLengthLimitExceeded value: static_cast<int32_t>(0x11)
-  static ::System::Net::WebExceptionStatus const MessageLengthLimitExceeded;
-
-  /// @brief Field CacheEntryNotFound value: static_cast<int32_t>(0x12)
-  static ::System::Net::WebExceptionStatus const CacheEntryNotFound;
+  /// @brief Field RequestCanceled value: static_cast<int32_t>(0x6)
+  static ::System::Net::WebExceptionStatus const RequestCanceled;
 
   /// @brief Field RequestProhibitedByCachePolicy value: static_cast<int32_t>(0x13)
   static ::System::Net::WebExceptionStatus const RequestProhibitedByCachePolicy;
 
   /// @brief Field RequestProhibitedByProxy value: static_cast<int32_t>(0x14)
   static ::System::Net::WebExceptionStatus const RequestProhibitedByProxy;
+
+  /// @brief Field SecureChannelFailure value: static_cast<int32_t>(0xa)
+  static ::System::Net::WebExceptionStatus const SecureChannelFailure;
+
+  /// @brief Field SendFailure value: static_cast<int32_t>(0x4)
+  static ::System::Net::WebExceptionStatus const SendFailure;
+
+  /// @brief Field ServerProtocolViolation value: static_cast<int32_t>(0xb)
+  static ::System::Net::WebExceptionStatus const ServerProtocolViolation;
+
+  /// @brief Field Success value: static_cast<int32_t>(0x0)
+  static ::System::Net::WebExceptionStatus const Success;
+
+  /// @brief Field Timeout value: static_cast<int32_t>(0xe)
+  static ::System::Net::WebExceptionStatus const Timeout;
+
+  /// @brief Field TrustFailure value: static_cast<int32_t>(0x9)
+  static ::System::Net::WebExceptionStatus const TrustFailure;
+
+  /// @brief Field UnknownError value: static_cast<int32_t>(0x10)
+  static ::System::Net::WebExceptionStatus const UnknownError;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

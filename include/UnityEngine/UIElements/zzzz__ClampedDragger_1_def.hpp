@@ -39,8 +39,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6047), inst: 1531 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6047))
 // CS Name: ::ClampedDragger`1::DragDirection<T>
 struct CORDL_TYPE __ClampedDragger_1__DragDirection {
 public:
@@ -60,30 +58,35 @@ public:
     return static_cast<____ClampedDragger_1__DragDirection_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ClampedDragger_1__DragDirection(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ClampedDragger_1__DragDirection();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ClampedDragger_1__DragDirection(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const None;
-
-  /// @brief Field LowToHigh value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const LowToHigh;
+  /// @brief Field Free value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const Free;
 
   /// @brief Field HighToLow value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const HighToLow;
 
-  /// @brief Field Free value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const Free;
+  /// @brief Field LowToHigh value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const LowToHigh;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -95,16 +98,11 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6047)), TypeDefinitionIndex(TypeDefinitionIndex(6066)), TypeDefinitionIndex(TypeDefinitionIndex(8987)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6047), inst: 922 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6048)) CS Name:
-// ::UnityEngine.UIElements::ClampedDragger`1<T>*
+// CS Name: ::UnityEngine.UIElements::ClampedDragger`1<T>*
 class CORDL_TYPE ClampedDragger_1 : public ::UnityEngine::UIElements::Clickable {
 public:
   // Declarations
   using DragDirection = ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T>;
-
-  /// @brief Field dragging, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_dragging, put = __cordl_internal_set_dragging))::System::Action* dragging;
 
   /// @brief Field <dragDirection>k__BackingField, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get__dragDirection_k__BackingField,
@@ -117,66 +115,18 @@ public:
   __declspec(property(get = __cordl_internal_get__startMousePosition_k__BackingField,
                       put = __cordl_internal_set__startMousePosition_k__BackingField))::UnityEngine::Vector2 _startMousePosition_k__BackingField;
 
+  __declspec(property(get = get_delta))::UnityEngine::Vector2 delta;
+
   __declspec(property(get = get_dragDirection, put = set_dragDirection))::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> dragDirection;
+
+  /// @brief Field dragging, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_dragging, put = __cordl_internal_set_dragging))::System::Action* dragging;
 
   __declspec(property(put = set_slider))::UnityEngine::UIElements::BaseSlider_1<T>* slider;
 
   __declspec(property(get = get_startMousePosition, put = set_startMousePosition))::UnityEngine::Vector2 startMousePosition;
 
-  __declspec(property(get = get_delta))::UnityEngine::Vector2 delta;
-
-  constexpr ::System::Action*& __cordl_internal_get_dragging();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_dragging() const;
-
-  constexpr void __cordl_internal_set_dragging(::System::Action* value);
-
-  constexpr ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T>& __cordl_internal_get__dragDirection_k__BackingField();
-
-  constexpr ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const& __cordl_internal_get__dragDirection_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__dragDirection_k__BackingField(::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> value);
-
-  constexpr ::UnityEngine::UIElements::BaseSlider_1<T>*& __cordl_internal_get__slider_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseSlider_1<T>*> const& __cordl_internal_get__slider_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__slider_k__BackingField(::UnityEngine::UIElements::BaseSlider_1<T>* value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__startMousePosition_k__BackingField();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__startMousePosition_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__startMousePosition_k__BackingField(::UnityEngine::Vector2 value);
-
-  /// @brief Method add_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void add_dragging(::System::Action* value);
-
-  /// @brief Method remove_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void remove_dragging(::System::Action* value);
-
-  /// @brief Method get_dragDirection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> get_dragDirection();
-
-  /// @brief Method set_dragDirection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_dragDirection(::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> value);
-
-  /// @brief Method set_slider, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_slider(::UnityEngine::UIElements::BaseSlider_1<T>* value);
-
-  /// @brief Method get_startMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_startMousePosition();
-
-  /// @brief Method set_startMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_startMousePosition(::UnityEngine::Vector2 value);
-
-  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_delta();
-
   static inline ::UnityEngine::UIElements::ClampedDragger_1<T>* New_ctor(::UnityEngine::UIElements::BaseSlider_1<T>* slider, ::System::Action* clickHandler, ::System::Action* dragHandler);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::BaseSlider_1<T>* slider, ::System::Action* clickHandler, ::System::Action* dragHandler);
 
   /// @brief Method ProcessDownEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
@@ -184,6 +134,63 @@ public:
   /// @brief Method ProcessMoveEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessMoveEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition);
 
+  constexpr ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> const& __cordl_internal_get__dragDirection_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T>& __cordl_internal_get__dragDirection_k__BackingField();
+
+  constexpr ::UnityEngine::UIElements::BaseSlider_1<T>*& __cordl_internal_get__slider_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseSlider_1<T>*> const& __cordl_internal_get__slider_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__startMousePosition_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__startMousePosition_k__BackingField();
+
+  constexpr ::System::Action*& __cordl_internal_get_dragging();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_dragging() const;
+
+  constexpr void __cordl_internal_set__dragDirection_k__BackingField(::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> value);
+
+  constexpr void __cordl_internal_set__slider_k__BackingField(::UnityEngine::UIElements::BaseSlider_1<T>* value);
+
+  constexpr void __cordl_internal_set__startMousePosition_k__BackingField(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_dragging(::System::Action* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::BaseSlider_1<T>* slider, ::System::Action* clickHandler, ::System::Action* dragHandler);
+
+  /// @brief Method add_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void add_dragging(::System::Action* value);
+
+  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_delta();
+
+  /// @brief Method get_dragDirection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> get_dragDirection();
+
+  /// @brief Method get_startMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_startMousePosition();
+
+  /// @brief Method remove_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void remove_dragging(::System::Action* value);
+
+  /// @brief Method set_dragDirection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_dragDirection(::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> value);
+
+  /// @brief Method set_slider, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_slider(::UnityEngine::UIElements::BaseSlider_1<T>* value);
+
+  /// @brief Method set_startMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_startMousePosition(::UnityEngine::Vector2 value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClampedDragger_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClampedDragger_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClampedDragger_1(ClampedDragger_1&&) = delete;
@@ -192,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClampedDragger_1(ClampedDragger_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClampedDragger_1();
-
-public:
   /// @brief Field dragging, offset: 0x70, size: 0x8, def value: None
   ::System::Action* ___dragging;
 

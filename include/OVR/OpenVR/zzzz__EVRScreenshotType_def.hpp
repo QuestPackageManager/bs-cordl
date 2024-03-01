@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EVRScreenshotType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8552))
 // CS Name: ::OVR.OpenVR::EVRScreenshotType
 struct CORDL_TYPE EVRScreenshotType {
 public:
@@ -38,36 +36,41 @@ public:
     return static_cast<__EVRScreenshotType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EVRScreenshotType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EVRScreenshotType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EVRScreenshotType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::OVR::OpenVR::EVRScreenshotType const None;
-
-  /// @brief Field Mono value: static_cast<int32_t>(0x1)
-  static ::OVR::OpenVR::EVRScreenshotType const Mono;
-
-  /// @brief Field Stereo value: static_cast<int32_t>(0x2)
-  static ::OVR::OpenVR::EVRScreenshotType const Stereo;
 
   /// @brief Field Cubemap value: static_cast<int32_t>(0x3)
   static ::OVR::OpenVR::EVRScreenshotType const Cubemap;
 
+  /// @brief Field Mono value: static_cast<int32_t>(0x1)
+  static ::OVR::OpenVR::EVRScreenshotType const Mono;
+
   /// @brief Field MonoPanorama value: static_cast<int32_t>(0x4)
   static ::OVR::OpenVR::EVRScreenshotType const MonoPanorama;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::OVR::OpenVR::EVRScreenshotType const None;
+
+  /// @brief Field Stereo value: static_cast<int32_t>(0x2)
+  static ::OVR::OpenVR::EVRScreenshotType const Stereo;
+
   /// @brief Field StereoPanorama value: static_cast<int32_t>(0x5)
   static ::OVR::OpenVR::EVRScreenshotType const StereoPanorama;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

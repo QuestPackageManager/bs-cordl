@@ -27,18 +27,10 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(129))
 // CS Name: ::Org.BouncyCastle.Asn1.CryptoPro::Gost3410NamedParameters*
 class CORDL_TYPE Gost3410NamedParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
-
-  /// @brief Field parameters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters))::System::Collections::IDictionary* parameters;
-
   /// @brief Field cryptoProA, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cryptoProA, put = setStaticF_cryptoProA))::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProA;
 
@@ -48,43 +40,55 @@ public:
   /// @brief Field cryptoProXchA, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cryptoProXchA, put = setStaticF_cryptoProXchA))::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProXchA;
 
-  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+  /// @brief Field objIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
 
-  static inline ::System::Collections::IDictionary* getStaticF_objIds();
+  /// @brief Field parameters, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters))::System::Collections::IDictionary* parameters;
 
-  static inline void setStaticF_parameters(::System::Collections::IDictionary* value);
+  /// @brief Method GetByName, addr 0xefe4f4, size 0x1ec, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
 
-  static inline ::System::Collections::IDictionary* getStaticF_parameters();
+  /// @brief Method GetByOid, addr 0xefe2cc, size 0x11c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  static inline void setStaticF_cryptoProA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
-
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProA();
-
-  static inline void setStaticF_cryptoProB(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
-
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProB();
-
-  static inline void setStaticF_cryptoProXchA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
-
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProXchA();
+  /// @brief Method GetOid, addr 0xefe6e0, size 0x11c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xeb6ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xefdb70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetByOid, addr 0xeb72fc, size 0x11c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProA();
 
-  /// @brief Method get_Names, addr 0xeb7418, size 0x10c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProB();
+
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProXchA();
+
+  static inline ::System::Collections::IDictionary* getStaticF_objIds();
+
+  static inline ::System::Collections::IDictionary* getStaticF_parameters();
+
+  /// @brief Method get_Names, addr 0xefe3e8, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
-  /// @brief Method GetByName, addr 0xeb7524, size 0x1ec, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
+  static inline void setStaticF_cryptoProA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
 
-  /// @brief Method GetOid, addr 0xeb7710, size 0x11c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
+  static inline void setStaticF_cryptoProB(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
 
+  static inline void setStaticF_cryptoProXchA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);
+
+  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+
+  static inline void setStaticF_parameters(::System::Collections::IDictionary* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gost3410NamedParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410NamedParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3410NamedParameters(Gost3410NamedParameters&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost3410NamedParameters(Gost3410NamedParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost3410NamedParameters();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

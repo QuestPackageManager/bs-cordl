@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MissMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4451))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4449))
 // CS Name: ::MissMissionObjectiveChecker*
 class CORDL_TYPE MissMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -29,26 +27,32 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
+  /// @brief Method HandleNoteWasMissed, addr 0x24596ac, size 0x54, virtual false, abstract: false, final false
+  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
+
+  /// @brief Method Init, addr 0x2459518, size 0xfc, virtual true, abstract: false, final false
+  inline void Init();
+
+  static inline ::GlobalNamespace::MissMissionObjectiveChecker* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2459614, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Init, addr 0x238a5d0, size 0xfc, virtual true, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method OnDestroy, addr 0x238a6cc, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleNoteWasMissed, addr 0x238a764, size 0x54, virtual false, abstract: false, final false
-  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
-
-  static inline ::GlobalNamespace::MissMissionObjectiveChecker* New_ctor();
-
-  /// @brief Method .ctor, addr 0x238a864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24597ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissMissionObjectiveChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissMissionObjectiveChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissMissionObjectiveChecker(MissMissionObjectiveChecker&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissMissionObjectiveChecker(MissMissionObjectiveChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissMissionObjectiveChecker();
-
-public:
   /// @brief Field _beatmapObjectManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 

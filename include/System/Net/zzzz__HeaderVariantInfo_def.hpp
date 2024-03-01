@@ -19,8 +19,6 @@ MARK_VAL_T(::System::Net::HeaderVariantInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7139))
 // CS Name: ::System.Net::HeaderVariantInfo
 struct CORDL_TYPE HeaderVariantInfo {
 public:
@@ -29,21 +27,21 @@ public:
 
   __declspec(property(get = get_Variant))::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x29b38c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9a998, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x29b38d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2a9a9a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x29b38d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x2a9a9ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
-
-  // Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value: None }]
-  constexpr HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HeaderVariantInfo();
+
+  // Ctor Parameters [CppParam { name: "m_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_variant", ty: "::System::Net::CookieVariant", modifiers: "", def_value: None }]
+  constexpr HeaderVariantInfo(::StringW m_name, ::System::Net::CookieVariant m_variant) noexcept;
 
   /// @brief Field m_name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_name;

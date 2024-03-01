@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TripleDES);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2973))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2974))
 // CS Name: ::System.Security.Cryptography::TripleDES*
 class CORDL_TYPE TripleDES : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
   // Declarations
+  __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
+
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalBlockSizes,
                              put = setStaticF_s_legalBlockSizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalBlockSizes;
@@ -33,39 +33,43 @@ public:
   static __declspec(property(get = getStaticF_s_legalKeySizes,
                              put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
 
-  __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
+  /// @brief Method Create, addr 0x255efd8, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Security::Cryptography::TripleDES* Create();
 
-  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+  /// @brief Method EqualBytes, addr 0x255f17c, size 0x1a0, virtual false, abstract: false, final false
+  static inline bool EqualBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, int32_t start1, int32_t start2, int32_t count);
 
-  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
+  /// @brief Method IsLegalKeySize, addr 0x255f090, size 0x24, virtual false, abstract: false, final false
+  static inline bool IsLegalKeySize(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
-  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
-
-  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
+  /// @brief Method IsWeakKey, addr 0x255ecb8, size 0x13c, virtual false, abstract: false, final false
+  static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
 
   static inline ::System::Security::Cryptography::TripleDES* New_ctor();
 
-  /// @brief Method .ctor, addr 0x248ce70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255eb68, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x248cef8, size 0xc8, virtual true, abstract: false, final false
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
+
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
+
+  /// @brief Method get_Key, addr 0x255ebf0, size 0xc8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key, addr 0x248d0fc, size 0x1e4, virtual true, abstract: false, final false
+  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  /// @brief Method set_Key, addr 0x255edf4, size 0x1e4, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Create, addr 0x248d2e0, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::TripleDES* Create();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TripleDES();
 
-  /// @brief Method IsWeakKey, addr 0x248cfc0, size 0x13c, virtual false, abstract: false, final false
-  static inline bool IsWeakKey(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
-
-  /// @brief Method EqualBytes, addr 0x248d484, size 0x1a0, virtual false, abstract: false, final false
-  static inline bool EqualBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, int32_t start1, int32_t start2, int32_t count);
-
-  /// @brief Method IsLegalKeySize, addr 0x248d398, size 0x24, virtual false, abstract: false, final false
-  static inline bool IsLegalKeySize(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TripleDES", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TripleDES(TripleDES&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TripleDES(TripleDES const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TripleDES();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

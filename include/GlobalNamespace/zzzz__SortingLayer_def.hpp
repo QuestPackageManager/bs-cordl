@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SortingLayer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14551))
 // CS Name: ::SortingLayer*
 class CORDL_TYPE SortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -28,23 +26,29 @@ public:
 
   __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+  static inline ::GlobalNamespace::SortingLayer* New_ctor();
+
+  /// @brief Method Reset, addr 0x2257bdc, size 0x50, virtual false, abstract: false, final false
+  inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method get_renderer, addr 0x2189530, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
-
-  /// @brief Method Reset, addr 0x2189538, size 0x50, virtual false, abstract: false, final false
-  inline void Reset();
-
-  static inline ::GlobalNamespace::SortingLayer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2189588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2257c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_renderer, addr 0x2257bd4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SortingLayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SortingLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SortingLayer(SortingLayer&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SortingLayer(SortingLayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SortingLayer();
-
-public:
   /// @brief Field _renderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 

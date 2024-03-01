@@ -46,12 +46,14 @@ MARK_REF_PTR_T(::System::Net::FileWebResponse);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3555)), TypeDefinitionIndex(TypeDefinitionIndex(7107))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7147))
 // CS Name: ::System.Net::FileWebResponse*
 class CORDL_TYPE FileWebResponse : public ::System::Net::WebResponse {
 public:
   // Declarations
+  __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
+
+  __declspec(property(get = get_ResponseUri))::System::Uri* ResponseUri;
+
   /// @brief Field m_closed, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_m_closed, put = __cordl_internal_set_m_closed)) bool m_closed;
 
@@ -70,93 +72,95 @@ public:
   /// @brief Field m_uri, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_uri, put = __cordl_internal_set_m_uri))::System::Uri* m_uri;
 
-  __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
-
-  __declspec(property(get = get_ResponseUri))::System::Uri* ResponseUri;
+  /// @brief Convert operator to "::System::Net::ICloseEx"
+  constexpr operator ::System::Net::ICloseEx*() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method CheckDisposed, addr 0x2aa245c, size 0x84, virtual false, abstract: false, final false
+  inline void CheckDisposed();
 
-  /// @brief Convert operator to "::System::Net::ICloseEx"
-  constexpr operator ::System::Net::ICloseEx*() noexcept;
+  /// @brief Method Close, addr 0x2aa24f8, size 0x98, virtual true, abstract: false, final false
+  inline void Close();
 
-  /// @brief Convert to "::System::Net::ICloseEx"
-  constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
+  /// @brief Method GetObjectData, addr 0x2aa22b4, size 0x190, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  constexpr bool& __cordl_internal_get_m_closed();
+  /// @brief Method GetResponseStream, addr 0x2aa26fc, size 0x54, virtual true, abstract: false, final false
+  inline ::System::IO::Stream* GetResponseStream();
+
+  static inline ::System::Net::FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
+
+  static inline ::System::Net::FileWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+
+  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x2aa2590, size 0x16c, virtual true, abstract: false, final true
+  inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
+
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2aa22a8, size 0xc, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   constexpr bool const& __cordl_internal_get_m_closed() const;
 
-  constexpr void __cordl_internal_set_m_closed(bool value);
-
-  constexpr int64_t& __cordl_internal_get_m_contentLength();
+  constexpr bool& __cordl_internal_get_m_closed();
 
   constexpr int64_t const& __cordl_internal_get_m_contentLength() const;
 
-  constexpr void __cordl_internal_set_m_contentLength(int64_t value);
-
-  constexpr ::System::IO::FileAccess& __cordl_internal_get_m_fileAccess();
+  constexpr int64_t& __cordl_internal_get_m_contentLength();
 
   constexpr ::System::IO::FileAccess const& __cordl_internal_get_m_fileAccess() const;
 
-  constexpr void __cordl_internal_set_m_fileAccess(::System::IO::FileAccess value);
+  constexpr ::System::IO::FileAccess& __cordl_internal_get_m_fileAccess();
 
   constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_m_headers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_m_headers() const;
 
-  constexpr void __cordl_internal_set_m_headers(::System::Net::WebHeaderCollection* value);
-
   constexpr ::System::IO::Stream*& __cordl_internal_get_m_stream();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_stream() const;
-
-  constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
 
   constexpr ::System::Uri*& __cordl_internal_get_m_uri();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_uri() const;
 
+  constexpr void __cordl_internal_set_m_closed(bool value);
+
+  constexpr void __cordl_internal_set_m_contentLength(int64_t value);
+
+  constexpr void __cordl_internal_set_m_fileAccess(::System::IO::FileAccess value);
+
+  constexpr void __cordl_internal_set_m_headers(::System::Net::WebHeaderCollection* value);
+
+  constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
+
   constexpr void __cordl_internal_set_m_uri(::System::Uri* value);
 
-  static inline ::System::Net::FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
-
-  /// @brief Method .ctor, addr 0x29ba040, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa1114, size 0x2cc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
-  static inline ::System::Net::FileWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method .ctor, addr 0x29bafa0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa2074, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29bb1d4, size 0xc, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method GetObjectData, addr 0x29bb1e0, size 0x190, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
-
-  /// @brief Method get_Headers, addr 0x29bb370, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x2aa2444, size 0x18, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x29bb40c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x2aa24e0, size 0x18, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method CheckDisposed, addr 0x29bb388, size 0x84, virtual false, abstract: false, final false
-  inline void CheckDisposed();
+  /// @brief Convert to "::System::Net::ICloseEx"
+  constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
-  /// @brief Method Close, addr 0x29bb424, size 0x98, virtual true, abstract: false, final false
-  inline void Close();
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x29bb4bc, size 0x16c, virtual true, abstract: false, final true
-  inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileWebResponse();
 
-  /// @brief Method GetResponseStream, addr 0x29bb628, size 0x54, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetResponseStream();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileWebResponse", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileWebResponse(FileWebResponse&&) = delete;
@@ -165,12 +169,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileWebResponse(FileWebResponse const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileWebResponse();
-
-public:
   /// @brief Field m_closed, offset: 0x19, size: 0x1, def value: None
   bool ___m_closed;
 

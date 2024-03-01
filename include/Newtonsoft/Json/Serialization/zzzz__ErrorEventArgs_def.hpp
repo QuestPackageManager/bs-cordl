@@ -20,12 +20,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11814))
 // CS Name: ::Newtonsoft.Json.Serialization::ErrorEventArgs*
 class CORDL_TYPE ErrorEventArgs : public ::System::EventArgs {
 public:
   // Declarations
+  __declspec(property(get = get_CurrentObject, put = set_CurrentObject))::System::Object* CurrentObject;
+
+  __declspec(property(get = get_ErrorContext, put = set_ErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
+
   /// @brief Field <CurrentObject>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__CurrentObject_k__BackingField, put = __cordl_internal_set__CurrentObject_k__BackingField))::System::Object* _CurrentObject_k__BackingField;
 
@@ -33,39 +35,41 @@ public:
   __declspec(property(get = __cordl_internal_get__ErrorContext_k__BackingField,
                       put = __cordl_internal_set__ErrorContext_k__BackingField))::Newtonsoft::Json::Serialization::ErrorContext* _ErrorContext_k__BackingField;
 
-  __declspec(property(get = get_CurrentObject, put = set_CurrentObject))::System::Object* CurrentObject;
-
-  __declspec(property(get = get_ErrorContext, put = set_ErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* ErrorContext;
+  static inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* New_ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
   constexpr ::System::Object*& __cordl_internal_get__CurrentObject_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__CurrentObject_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__CurrentObject_k__BackingField(::System::Object* value);
-
   constexpr ::Newtonsoft::Json::Serialization::ErrorContext*& __cordl_internal_get__ErrorContext_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ErrorContext*> const& __cordl_internal_get__ErrorContext_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__CurrentObject_k__BackingField(::System::Object* value);
+
   constexpr void __cordl_internal_set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
-  /// @brief Method get_CurrentObject, addr 0x26918e8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_CurrentObject();
-
-  /// @brief Method set_CurrentObject, addr 0x26918f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_CurrentObject(::System::Object* value);
-
-  /// @brief Method get_ErrorContext, addr 0x26918f8, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ErrorContext* get_ErrorContext();
-
-  /// @brief Method set_ErrorContext, addr 0x2691900, size 0x8, virtual false, abstract: false, final false
-  inline void set_ErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
-
-  static inline ::Newtonsoft::Json::Serialization::ErrorEventArgs* New_ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
-
-  /// @brief Method .ctor, addr 0x2691908, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2760054, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
+  /// @brief Method get_CurrentObject, addr 0x2760034, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_CurrentObject();
+
+  /// @brief Method get_ErrorContext, addr 0x2760044, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ErrorContext* get_ErrorContext();
+
+  /// @brief Method set_CurrentObject, addr 0x276003c, size 0x8, virtual false, abstract: false, final false
+  inline void set_CurrentObject(::System::Object* value);
+
+  /// @brief Method set_ErrorContext, addr 0x276004c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ErrorEventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ErrorEventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ErrorEventArgs(ErrorEventArgs&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ErrorEventArgs(ErrorEventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ErrorEventArgs();
-
-public:
   /// @brief Field <CurrentObject>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____CurrentObject_k__BackingField;
 

@@ -28,74 +28,78 @@ MARK_REF_PTR_T(::GlobalNamespace::SetSaberFakeGlowColor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4646))
 // CS Name: ::SetSaberFakeGlowColor*
 class CORDL_TYPE SetSaberFakeGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _tintColor, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor))::UnityEngine::Color _tintColor;
-
-  /// @brief Field _saberTypeObject, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberTypeObject, put = __cordl_internal_set__saberTypeObject))::UnityW<::GlobalNamespace::SaberTypeObject> _saberTypeObject;
+  /// @brief Field _colorManager, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _parametric3SliceSprite, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__parametric3SliceSprite,
                       put = __cordl_internal_set__parametric3SliceSprite))::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> _parametric3SliceSprite;
 
-  /// @brief Field _colorManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
-
   /// @brief Field _saberType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
 
+  /// @brief Field _saberTypeObject, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberTypeObject, put = __cordl_internal_set__saberTypeObject))::UnityW<::GlobalNamespace::SaberTypeObject> _saberTypeObject;
+
+  /// @brief Field _tintColor, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor))::UnityEngine::Color _tintColor;
+
   __declspec(property(put = set_saberType))::GlobalNamespace::SaberType saberType;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__tintColor();
+  static inline ::GlobalNamespace::SetSaberFakeGlowColor* New_ctor();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__tintColor() const;
+  /// @brief Method SetColors, addr 0x2492740, size 0x5c, virtual false, abstract: false, final false
+  inline void SetColors();
 
-  constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
-
-  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject>& __cordl_internal_get__saberTypeObject();
-
-  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject> const& __cordl_internal_get__saberTypeObject() const;
-
-  constexpr void __cordl_internal_set__saberTypeObject(::UnityW<::GlobalNamespace::SaberTypeObject> value);
-
-  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__parametric3SliceSprite();
-
-  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSprite() const;
-
-  constexpr void __cordl_internal_set__parametric3SliceSprite(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
+  /// @brief Method Start, addr 0x249279c, size 0x80, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__parametric3SliceSprite() const;
 
-  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__parametric3SliceSprite();
 
   constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
 
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+
+  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject> const& __cordl_internal_get__saberTypeObject() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject>& __cordl_internal_get__saberTypeObject();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__tintColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__tintColor();
+
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
+
+  constexpr void __cordl_internal_set__parametric3SliceSprite(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
+
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method set_saberType, addr 0x23c3318, size 0xc, virtual false, abstract: false, final false
-  inline void set_saberType(::GlobalNamespace::SaberType value);
+  constexpr void __cordl_internal_set__saberTypeObject(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method Start, addr 0x23c3854, size 0x80, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  /// @brief Method SetColors, addr 0x23c37f8, size 0x5c, virtual false, abstract: false, final false
-  inline void SetColors();
-
-  static inline ::GlobalNamespace::SetSaberFakeGlowColor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c38d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249281c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_saberType, addr 0x2492260, size 0xc, virtual false, abstract: false, final false
+  inline void set_saberType(::GlobalNamespace::SaberType value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SetSaberFakeGlowColor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberFakeGlowColor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetSaberFakeGlowColor(SetSaberFakeGlowColor&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetSaberFakeGlowColor(SetSaberFakeGlowColor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetSaberFakeGlowColor();
-
-public:
   /// @brief Field _tintColor, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____tintColor;
 

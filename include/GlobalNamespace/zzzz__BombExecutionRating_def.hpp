@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExecutionRating);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10594))
 // CS Name: ::BombExecutionRating::Rating
 struct CORDL_TYPE __BombExecutionRating__Rating {
 public:
@@ -44,24 +42,29 @@ public:
     return static_cast<____BombExecutionRating__Rating_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __BombExecutionRating__Rating(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __BombExecutionRating__Rating();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __BombExecutionRating__Rating(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field NotGood value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__BombExecutionRating__Rating const NotGood;
 
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__BombExecutionRating__Rating const OK;
 
-  /// @brief Field NotGood value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__BombExecutionRating__Rating const NotGood;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -75,8 +78,6 @@ static_assert(offsetof(::GlobalNamespace::__BombExecutionRating__Rating, value__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10593)), TypeDefinitionIndex(TypeDefinitionIndex(10594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10595))
 // CS Name: ::BombExecutionRating*
 class CORDL_TYPE BombExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
@@ -88,20 +89,26 @@ public:
 
   __declspec(property(get = get_rating))::GlobalNamespace::__BombExecutionRating__Rating rating;
 
-  constexpr ::GlobalNamespace::__BombExecutionRating__Rating& __cordl_internal_get__rating_k__BackingField();
+  static inline ::GlobalNamespace::BombExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
   constexpr ::GlobalNamespace::__BombExecutionRating__Rating const& __cordl_internal_get__rating_k__BackingField() const;
 
+  constexpr ::GlobalNamespace::__BombExecutionRating__Rating& __cordl_internal_get__rating_k__BackingField();
+
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
 
-  /// @brief Method get_rating, addr 0x12651fc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();
-
-  static inline ::GlobalNamespace::BombExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
-
-  /// @brief Method .ctor, addr 0x1265204, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a81d4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
+  /// @brief Method get_rating, addr 0x12a81cc, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BombExecutionRating();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BombExecutionRating", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombExecutionRating(BombExecutionRating&&) = delete;
@@ -110,12 +117,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BombExecutionRating(BombExecutionRating const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BombExecutionRating();
-
-public:
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::__BombExecutionRating__Rating ____rating_k__BackingField;
 

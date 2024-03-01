@@ -15,8 +15,6 @@ MARK_VAL_T(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(580))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyAlgorithmTag
 struct CORDL_TYPE PublicKeyAlgorithmTag {
 public:
@@ -54,30 +52,23 @@ public:
     return static_cast<__PublicKeyAlgorithmTag_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PublicKeyAlgorithmTag(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PublicKeyAlgorithmTag();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PublicKeyAlgorithmTag(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field RsaGeneral value: static_cast<int32_t>(0x1)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaGeneral;
-
-  /// @brief Field RsaEncrypt value: static_cast<int32_t>(0x2)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaEncrypt;
-
-  /// @brief Field RsaSign value: static_cast<int32_t>(0x3)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaSign;
-
-  /// @brief Field ElGamalEncrypt value: static_cast<int32_t>(0x10)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalEncrypt;
+  /// @brief Field DiffieHellman value: static_cast<int32_t>(0x15)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const DiffieHellman;
 
   /// @brief Field Dsa value: static_cast<int32_t>(0x11)
   static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Dsa;
@@ -91,17 +82,23 @@ public:
   /// @brief Field ECDsa value: static_cast<int32_t>(0x13)
   static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ECDsa;
 
-  /// @brief Field ElGamalGeneral value: static_cast<int32_t>(0x14)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalGeneral;
-
-  /// @brief Field DiffieHellman value: static_cast<int32_t>(0x15)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const DiffieHellman;
-
   /// @brief Field EdDsa value: static_cast<int32_t>(0x16)
   static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const EdDsa;
 
+  /// @brief Field ElGamalEncrypt value: static_cast<int32_t>(0x10)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalEncrypt;
+
+  /// @brief Field ElGamalGeneral value: static_cast<int32_t>(0x14)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const ElGamalGeneral;
+
   /// @brief Field Experimental_1 value: static_cast<int32_t>(0x64)
   static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_1;
+
+  /// @brief Field Experimental_10 value: static_cast<int32_t>(0x6d)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_10;
+
+  /// @brief Field Experimental_11 value: static_cast<int32_t>(0x6e)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_11;
 
   /// @brief Field Experimental_2 value: static_cast<int32_t>(0x65)
   static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_2;
@@ -127,11 +124,17 @@ public:
   /// @brief Field Experimental_9 value: static_cast<int32_t>(0x6c)
   static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_9;
 
-  /// @brief Field Experimental_10 value: static_cast<int32_t>(0x6d)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_10;
+  /// @brief Field RsaEncrypt value: static_cast<int32_t>(0x2)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaEncrypt;
 
-  /// @brief Field Experimental_11 value: static_cast<int32_t>(0x6e)
-  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const Experimental_11;
+  /// @brief Field RsaGeneral value: static_cast<int32_t>(0x1)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaGeneral;
+
+  /// @brief Field RsaSign value: static_cast<int32_t>(0x3)
+  static ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const RsaSign;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

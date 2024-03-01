@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::AppStaticSettingsInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3965))
 // CS Name: ::AppStaticSettingsInstaller*
 class CORDL_TYPE AppStaticSettingsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _appStaticSettings, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__appStaticSettings, put = __cordl_internal_set__appStaticSettings))::UnityW<::GlobalNamespace::AppStaticSettingsSO> _appStaticSettings;
 
-  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO>& __cordl_internal_get__appStaticSettings();
-
-  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& __cordl_internal_get__appStaticSettings() const;
-
-  constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
-
-  /// @brief Method InstallBindings, addr 0x22af428, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x237ba90, size 0x6c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppStaticSettingsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af494, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& __cordl_internal_get__appStaticSettings() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO>& __cordl_internal_get__appStaticSettings();
+
+  constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
+
+  /// @brief Method .ctor, addr 0x237bafc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppStaticSettingsInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AppStaticSettingsInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppStaticSettingsInstaller(AppStaticSettingsInstaller&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AppStaticSettingsInstaller(AppStaticSettingsInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppStaticSettingsInstaller();
-
-public:
   /// @brief Field _appStaticSettings, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppStaticSettingsSO> ____appStaticSettings;
 

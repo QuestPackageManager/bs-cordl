@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_State);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9484))
 // CS Name: ::HoudiniEngineUnity::HAPI_State
 struct CORDL_TYPE HAPI_State {
 public:
@@ -41,36 +39,23 @@ public:
     return static_cast<__HAPI_State_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_State(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_State();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_State(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_STATE_READY value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY;
-
-  /// @brief Field HAPI_STATE_READY_WITH_FATAL_ERRORS value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_FATAL_ERRORS;
-
-  /// @brief Field HAPI_STATE_READY_WITH_COOK_ERRORS value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_COOK_ERRORS;
-
-  /// @brief Field HAPI_STATE_STARTING_COOK value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_COOK;
-
   /// @brief Field HAPI_STATE_COOKING value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_COOKING;
-
-  /// @brief Field HAPI_STATE_STARTING_LOAD value: static_cast<int32_t>(0x5)
-  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_LOAD;
 
   /// @brief Field HAPI_STATE_LOADING value: static_cast<int32_t>(0x6)
   static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_LOADING;
@@ -80,6 +65,24 @@ public:
 
   /// @brief Field HAPI_STATE_MAX_READY_STATE value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_MAX_READY_STATE;
+
+  /// @brief Field HAPI_STATE_READY value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY;
+
+  /// @brief Field HAPI_STATE_READY_WITH_COOK_ERRORS value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_COOK_ERRORS;
+
+  /// @brief Field HAPI_STATE_READY_WITH_FATAL_ERRORS value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_READY_WITH_FATAL_ERRORS;
+
+  /// @brief Field HAPI_STATE_STARTING_COOK value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_COOK;
+
+  /// @brief Field HAPI_STATE_STARTING_LOAD value: static_cast<int32_t>(0x5)
+  static ::HoudiniEngineUnity::HAPI_State const HAPI_STATE_STARTING_LOAD;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

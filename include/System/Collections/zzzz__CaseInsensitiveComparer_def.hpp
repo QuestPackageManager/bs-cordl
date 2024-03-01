@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::System::Collections::CaseInsensitiveComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3770))
 // CS Name: ::System.Collections::CaseInsensitiveComparer*
 class CORDL_TYPE CaseInsensitiveComparer : public ::System::Object {
 public:
@@ -39,8 +37,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+  /// @brief Method Compare, addr 0x2671458, size 0xec, virtual true, abstract: false, final true
+  inline int32_t Compare(::System::Object* a, ::System::Object* b);
+
+  static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
+
+  static inline ::System::Collections::CaseInsensitiveComparer* New_ctor(::System::Globalization::CultureInfo* culture);
 
   constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
 
@@ -48,19 +50,21 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x25a0c74, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2671358, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Collections::CaseInsensitiveComparer* New_ctor(::System::Globalization::CultureInfo* culture);
-
-  /// @brief Method .ctor, addr 0x25a0cec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26713d0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Compare, addr 0x25a0d74, size 0xec, virtual true, abstract: false, final true
-  inline int32_t Compare(::System::Object* a, ::System::Object* b);
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CaseInsensitiveComparer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CaseInsensitiveComparer(CaseInsensitiveComparer&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CaseInsensitiveComparer(CaseInsensitiveComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CaseInsensitiveComparer();
-
-public:
   /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ____compareInfo;
 

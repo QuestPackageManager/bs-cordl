@@ -32,8 +32,6 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10008)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10008), inst: 4434 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10009))
 // CS Name: ::Zenject::MemoryPoolMaxSizeBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolMaxSizeBinder_1 : public ::Zenject::MemoryPoolExpandBinder_1<TContract> {
 public:
@@ -41,12 +39,18 @@ public:
   static inline ::Zenject::MemoryPoolMaxSizeBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                           ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
-
   /// @brief Method WithMaxSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* WithMaxSize(int32_t size);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryPoolMaxSizeBinder_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolMaxSizeBinder_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolMaxSizeBinder_1(MemoryPoolMaxSizeBinder_1&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolMaxSizeBinder_1(MemoryPoolMaxSizeBinder_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryPoolMaxSizeBinder_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::__BipedReferences__AutoDetectParams::*)(bool, bool)>(
     &::RootMotion::__BipedReferences__AutoDetectParams::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x12d7d6c;
+  constexpr static std::size_t addrs = 0x1318d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::__BipedReferences__AutoDetectParams (*)()>(
     &::RootMotion::__BipedReferences__AutoDetectParams::get_Default)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d7d80;
+  constexpr static std::size_t addrs = 0x1318d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::__BipedReferences__AutoDetectParams>::get(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::BipedReferences::*)()>(&::RootMotion::BipedReferences::get_isFilled)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x12d4464;
+  constexpr static std::size_t addrs = 0x1315450;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::BipedReferences::*)()>(&::RootMotion::BipedReferences::get_isEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x12d47c0;
+  constexpr static std::size_t addrs = 0x13157ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::BipedReferences*>::get(), "get_isEmpty",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::BipedReferences::*)(bool)>(&::RootMotion::BipedReferences::IsEmpty)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x12d47d0;
+  constexpr static std::size_t addrs = 0x13157bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::BipedReferences::*)(::UnityEngine::Transform*, bool)>(&::RootMotion::BipedReferences::Contains)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x12d4b5c;
+  constexpr static std::size_t addrs = 0x1315b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(ByRef<::RootMotion::BipedReferences*>, ::UnityEngine::Transform*, ::RootMotion::__BipedReferences__AutoDetectParams)>(&::RootMotion::BipedReferences::AutoDetectReferences)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x12d4eec;
+  constexpr static std::size_t addrs = 0x1315ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ByRef<::RootMotion::BipedReferences*>, ::UnityEngine::Transform*, ::RootMotion::__BipedReferences__AutoDetectParams)>(&::RootMotion::BipedReferences::DetectReferencesByNaming)> {
   constexpr static std::size_t size = 0x748;
-  constexpr static std::size_t addrs = 0x12d5510;
+  constexpr static std::size_t addrs = 0x13164fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ByRef<::RootMotion::BipedReferences*>, ::UnityEngine::Animator*, ::RootMotion::__BipedReferences__AutoDetectParams)>(&::RootMotion::BipedReferences::AssignHumanoidReferences)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x12d514c;
+  constexpr static std::size_t addrs = 0x1316138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::SetupError)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x12d5d0c;
+  constexpr static std::size_t addrs = 0x1316cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::SetupWarning)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x12d5dec;
+  constexpr static std::size_t addrs = 0x1316dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(&::RootMotion::BipedReferences::IsNeckBone)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x12d6864;
+  constexpr static std::size_t addrs = 0x1317850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::Transform*, ByRef<::RootMotion::BipedReferences*>, ::RootMotion::__BipedReferences__AutoDetectParams)>(&::RootMotion::BipedReferences::AddBoneToEyes)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x12d6684;
+  constexpr static std::size_t addrs = 0x1317670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::Transform*, ByRef<::RootMotion::BipedReferences*>, ::RootMotion::__BipedReferences__AutoDetectParams)>(&::RootMotion::BipedReferences::AddBoneToSpine)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x12d6424;
+  constexpr static std::size_t addrs = 0x1317410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::RootMotion::__BipedNaming__BoneType, ::RootMotion::__BipedNaming__BoneSide, ByRef<::UnityEngine::Transform*>, ByRef<::UnityEngine::Transform*>,
                          ByRef<::UnityEngine::Transform*>, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>)>(&::RootMotion::BipedReferences::DetectLimb)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x12d5e88;
+  constexpr static std::size_t addrs = 0x1316e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>, ::UnityEngine::Transform*)>(
     &::RootMotion::BipedReferences::AddBoneToHierarchy)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x12d6778;
+  constexpr static std::size_t addrs = 0x1317764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<::StringW>)>(
     &::RootMotion::BipedReferences::LimbError)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x12d6944;
+  constexpr static std::size_t addrs = 0x1317930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ByRef<::StringW>)>(
     &::RootMotion::BipedReferences::LimbWarning)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x12d7404;
+  constexpr static std::size_t addrs = 0x13183f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::SpineError)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x12d6ec4;
+  constexpr static std::size_t addrs = 0x1317eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::SpineWarning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d76d8;
+  constexpr static std::size_t addrs = 0x13186c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::EyesError)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x12d7218;
+  constexpr static std::size_t addrs = 0x1318204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::EyesWarning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d76e0;
+  constexpr static std::size_t addrs = 0x13186cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::RootHeightWarning)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x12d76e8;
+  constexpr static std::size_t addrs = 0x13186d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::RootMotion::BipedReferences*, ByRef<::StringW>)>(&::RootMotion::BipedReferences::FacingAxisWarning)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x12d789c;
+  constexpr static std::size_t addrs = 0x1318888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::RootMotion::BipedReferences::GetVerticalOffset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12d7d04;
+  constexpr static std::size_t addrs = 0x1318cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::BipedReferences::*)()>(&::RootMotion::BipedReferences::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12d50e4;
+  constexpr static std::size_t addrs = 0x13160d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::BipedReferences*>::get(), ".ctor",

@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::UnityEngine::UI::AspectRatioFitter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12968))
 // CS Name: ::AspectRatioFitter::AspectMode
 struct CORDL_TYPE __AspectRatioFitter__AspectMode {
 public:
@@ -60,18 +58,29 @@ public:
     return static_cast<____AspectRatioFitter__AspectMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AspectRatioFitter__AspectMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __AspectRatioFitter__AspectMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __AspectRatioFitter__AspectMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field EnvelopeParent value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const EnvelopeParent;
+
+  /// @brief Field FitInParent value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const FitInParent;
+
+  /// @brief Field HeightControlsWidth value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const HeightControlsWidth;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const None;
@@ -79,14 +88,8 @@ public:
   /// @brief Field WidthControlsHeight value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const WidthControlsHeight;
 
-  /// @brief Field HeightControlsWidth value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const HeightControlsWidth;
-
-  /// @brief Field FitInParent value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const FitInParent;
-
-  /// @brief Field EnvelopeParent value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UI::__AspectRatioFitter__AspectMode const EnvelopeParent;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -100,13 +103,15 @@ static_assert(offsetof(::UnityEngine::UI::__AspectRatioFitter__AspectMode, value
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 43, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9024)), TypeDefinitionIndex(TypeDefinitionIndex(12968)), TypeDefinitionIndex(TypeDefinitionIndex(13112))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12969))
 // CS Name: ::UnityEngine.UI::AspectRatioFitter*
 class CORDL_TYPE AspectRatioFitter : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   using AspectMode = ::UnityEngine::UI::__AspectRatioFitter__AspectMode;
+
+  __declspec(property(get = get_aspectMode, put = set_aspectMode))::UnityEngine::UI::__AspectRatioFitter__AspectMode aspectMode;
+
+  __declspec(property(get = get_aspectRatio, put = set_aspectRatio)) float_t aspectRatio;
 
   /// @brief Field m_AspectMode, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AspectMode, put = __cordl_internal_set_m_AspectMode))::UnityEngine::UI::__AspectRatioFitter__AspectMode m_AspectMode;
@@ -114,137 +119,139 @@ public:
   /// @brief Field m_AspectRatio, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AspectRatio, put = __cordl_internal_set_m_AspectRatio)) float_t m_AspectRatio;
 
-  /// @brief Field m_Rect, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Rect, put = __cordl_internal_set_m_Rect))::UnityW<::UnityEngine::RectTransform> m_Rect;
-
   /// @brief Field m_DelayedSetDirty, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DelayedSetDirty, put = __cordl_internal_set_m_DelayedSetDirty)) bool m_DelayedSetDirty;
 
   /// @brief Field m_DoesParentExist, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DoesParentExist, put = __cordl_internal_set_m_DoesParentExist)) bool m_DoesParentExist;
 
+  /// @brief Field m_Rect, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Rect, put = __cordl_internal_set_m_Rect))::UnityW<::UnityEngine::RectTransform> m_Rect;
+
   /// @brief Field m_Tracker, offset 0x2a, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
 
-  __declspec(property(get = get_aspectMode, put = set_aspectMode))::UnityEngine::UI::__AspectRatioFitter__AspectMode aspectMode;
-
-  __declspec(property(get = get_aspectRatio, put = set_aspectRatio)) float_t aspectRatio;
-
   __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
-
-  /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
-  constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
-  constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
-  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
+  /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
+  constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
 
-  constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode& __cordl_internal_get_m_AspectMode();
+  /// @brief Method DoesParentExists, addr 0x2e7faf0, size 0x8, virtual false, abstract: false, final false
+  inline bool DoesParentExists();
 
-  constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode const& __cordl_internal_get_m_AspectMode() const;
+  /// @brief Method GetParentSize, addr 0x2e7f8e0, size 0x110, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 GetParentSize();
 
-  constexpr void __cordl_internal_set_m_AspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value);
+  /// @brief Method GetSizeDeltaToProduceSize, addr 0x2e7f9f0, size 0xf8, virtual false, abstract: false, final false
+  inline float_t GetSizeDeltaToProduceSize(float_t size, int32_t axis);
 
-  constexpr float_t& __cordl_internal_get_m_AspectRatio();
+  /// @brief Method IsAspectModeValid, addr 0x2e7f09c, size 0x28, virtual false, abstract: false, final false
+  inline bool IsAspectModeValid();
 
-  constexpr float_t const& __cordl_internal_get_m_AspectRatio() const;
-
-  constexpr void __cordl_internal_set_m_AspectRatio(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_Rect();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_Rect() const;
-
-  constexpr void __cordl_internal_set_m_Rect(::UnityW<::UnityEngine::RectTransform> value);
-
-  constexpr bool& __cordl_internal_get_m_DelayedSetDirty();
-
-  constexpr bool const& __cordl_internal_get_m_DelayedSetDirty() const;
-
-  constexpr void __cordl_internal_set_m_DelayedSetDirty(bool value);
-
-  constexpr bool& __cordl_internal_get_m_DoesParentExist();
-
-  constexpr bool const& __cordl_internal_get_m_DoesParentExist() const;
-
-  constexpr void __cordl_internal_set_m_DoesParentExist(bool value);
-
-  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get_m_Tracker();
-
-  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get_m_Tracker() const;
-
-  constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
-
-  /// @brief Method get_aspectMode, addr 0x2d91620, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::__AspectRatioFitter__AspectMode get_aspectMode();
-
-  /// @brief Method set_aspectMode, addr 0x2d91628, size 0x74, virtual false, abstract: false, final false
-  inline void set_aspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value);
-
-  /// @brief Method get_aspectRatio, addr 0x2d916a0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_aspectRatio();
-
-  /// @brief Method set_aspectRatio, addr 0x2d916a8, size 0x74, virtual false, abstract: false, final false
-  inline void set_aspectRatio(float_t value);
-
-  /// @brief Method get_rectTransform, addr 0x2d9171c, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
+  /// @brief Method IsComponentValidOnObject, addr 0x2e7efd0, size 0xcc, virtual false, abstract: false, final false
+  inline bool IsComponentValidOnObject();
 
   static inline ::UnityEngine::UI::AspectRatioFitter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d917b0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method OnEnable, addr 0x2d917c0, size 0x98, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method Start, addr 0x2d91858, size 0x50, virtual true, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDisable, addr 0x2d9199c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2e7f0c4, size 0x7c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x2d91e04, size 0x98, virtual true, abstract: false, final false
-  inline void OnTransformParentChanged();
+  /// @brief Method OnEnable, addr 0x2e7eee8, size 0x98, virtual true, abstract: false, final false
+  inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2d91e9c, size 0x14, virtual true, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x2d91eb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x2e7f5d8, size 0x4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method UpdateRect, addr 0x2d91eb4, size 0x304, virtual false, abstract: false, final false
-  inline void UpdateRect();
+  /// @brief Method OnTransformParentChanged, addr 0x2e7f52c, size 0x98, virtual true, abstract: false, final false
+  inline void OnTransformParentChanged();
 
-  /// @brief Method GetSizeDeltaToProduceSize, addr 0x2d922c8, size 0xf8, virtual false, abstract: false, final false
-  inline float_t GetSizeDeltaToProduceSize(float_t size, int32_t axis);
-
-  /// @brief Method GetParentSize, addr 0x2d921b8, size 0x110, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetParentSize();
-
-  /// @brief Method SetLayoutHorizontal, addr 0x2d923c0, size 0x4, virtual true, abstract: false, final false
-  inline void SetLayoutHorizontal();
-
-  /// @brief Method SetLayoutVertical, addr 0x2d923c4, size 0x4, virtual true, abstract: false, final false
-  inline void SetLayoutVertical();
-
-  /// @brief Method SetDirty, addr 0x2d9169c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x2e7edc4, size 0x4, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method IsComponentValidOnObject, addr 0x2d918a8, size 0xcc, virtual false, abstract: false, final false
-  inline bool IsComponentValidOnObject();
+  /// @brief Method SetLayoutHorizontal, addr 0x2e7fae8, size 0x4, virtual true, abstract: false, final false
+  inline void SetLayoutHorizontal();
 
-  /// @brief Method IsAspectModeValid, addr 0x2d91974, size 0x28, virtual false, abstract: false, final false
-  inline bool IsAspectModeValid();
+  /// @brief Method SetLayoutVertical, addr 0x2e7faec, size 0x4, virtual true, abstract: false, final false
+  inline void SetLayoutVertical();
 
-  /// @brief Method DoesParentExists, addr 0x2d923c8, size 0x8, virtual false, abstract: false, final false
-  inline bool DoesParentExists();
+  /// @brief Method Start, addr 0x2e7ef80, size 0x50, virtual true, abstract: false, final false
+  inline void Start();
 
+  /// @brief Method Update, addr 0x2e7f5c4, size 0x14, virtual true, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateRect, addr 0x2e7f5dc, size 0x304, virtual false, abstract: false, final false
+  inline void UpdateRect();
+
+  constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode const& __cordl_internal_get_m_AspectMode() const;
+
+  constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode& __cordl_internal_get_m_AspectMode();
+
+  constexpr float_t const& __cordl_internal_get_m_AspectRatio() const;
+
+  constexpr float_t& __cordl_internal_get_m_AspectRatio();
+
+  constexpr bool const& __cordl_internal_get_m_DelayedSetDirty() const;
+
+  constexpr bool& __cordl_internal_get_m_DelayedSetDirty();
+
+  constexpr bool const& __cordl_internal_get_m_DoesParentExist() const;
+
+  constexpr bool& __cordl_internal_get_m_DoesParentExist();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_Rect() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_Rect();
+
+  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get_m_Tracker() const;
+
+  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get_m_Tracker();
+
+  constexpr void __cordl_internal_set_m_AspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value);
+
+  constexpr void __cordl_internal_set_m_AspectRatio(float_t value);
+
+  constexpr void __cordl_internal_set_m_DelayedSetDirty(bool value);
+
+  constexpr void __cordl_internal_set_m_DoesParentExist(bool value);
+
+  constexpr void __cordl_internal_set_m_Rect(::UnityW<::UnityEngine::RectTransform> value);
+
+  constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
+
+  /// @brief Method .ctor, addr 0x2e7eed8, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_aspectMode, addr 0x2e7ed48, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UI::__AspectRatioFitter__AspectMode get_aspectMode();
+
+  /// @brief Method get_aspectRatio, addr 0x2e7edc8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_aspectRatio();
+
+  /// @brief Method get_rectTransform, addr 0x2e7ee44, size 0x94, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutController"
+  constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
+  constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
+
+  /// @brief Method set_aspectMode, addr 0x2e7ed50, size 0x74, virtual false, abstract: false, final false
+  inline void set_aspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value);
+
+  /// @brief Method set_aspectRatio, addr 0x2e7edd0, size 0x74, virtual false, abstract: false, final false
+  inline void set_aspectRatio(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AspectRatioFitter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AspectRatioFitter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspectRatioFitter(AspectRatioFitter&&) = delete;
@@ -253,12 +260,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspectRatioFitter(AspectRatioFitter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AspectRatioFitter();
-
-public:
   /// @brief Field m_AspectMode, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::UI::__AspectRatioFitter__AspectMode ___m_AspectMode;
 

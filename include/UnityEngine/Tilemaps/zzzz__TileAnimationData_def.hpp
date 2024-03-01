@@ -19,19 +19,17 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileAnimationData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16067))
 // CS Name: ::UnityEngine.Tilemaps::TileAnimationData
 struct CORDL_TYPE TileAnimationData {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_AnimatedSprites", ty: "::ArrayW<::UnityW<::UnityEngine::Sprite>,::Array<::UnityW<::UnityEngine::Sprite>>*>", modifiers: "", def_value: None }, CppParam {
-  // name: "m_AnimationSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AnimationStartTime", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr TileAnimationData(::ArrayW<::UnityW<::UnityEngine::Sprite>, ::Array<::UnityW<::UnityEngine::Sprite>>*> m_AnimatedSprites, float_t m_AnimationSpeed, float_t m_AnimationStartTime) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr TileAnimationData();
+
+  // Ctor Parameters [CppParam { name: "m_AnimatedSprites", ty: "::ArrayW<::UnityW<::UnityEngine::Sprite>,::Array<::UnityW<::UnityEngine::Sprite>>*>", modifiers: "", def_value: None }, CppParam {
+  // name: "m_AnimationSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AnimationStartTime", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr TileAnimationData(::ArrayW<::UnityW<::UnityEngine::Sprite>, ::Array<::UnityW<::UnityEngine::Sprite>>*> m_AnimatedSprites, float_t m_AnimationSpeed, float_t m_AnimationStartTime) noexcept;
 
   /// @brief Field m_AnimatedSprites, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Sprite>, ::Array<::UnityW<::UnityEngine::Sprite>>*> m_AnimatedSprites;

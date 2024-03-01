@@ -20,20 +20,18 @@ MARK_VAL_T(::UnityEngine::HumanLimit);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14723))
 // CS Name: ::UnityEngine::HumanLimit
 struct CORDL_TYPE HumanLimit {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HumanLimit();
+
   // Ctor Parameters [CppParam { name: "m_Min", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Max", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None
   // }, CppParam { name: "m_Center", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_AxisLength", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_UseDefaultValues", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HumanLimit(::UnityEngine::Vector3 m_Min, ::UnityEngine::Vector3 m_Max, ::UnityEngine::Vector3 m_Center, float_t m_AxisLength, int32_t m_UseDefaultValues) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HumanLimit();
 
   /// @brief Field m_Min, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Min;

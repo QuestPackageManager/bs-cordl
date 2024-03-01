@@ -18,19 +18,17 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainTextEntry);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6656))
 // CS Name: ::UnityEngine.UIElements.UIR::RenderChainTextEntry
 struct CORDL_TYPE RenderChainTextEntry {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "command", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "firstVertex", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderChainTextEntry(::UnityEngine::UIElements::UIR::RenderChainCommand* command, int32_t firstVertex, int32_t vertexCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderChainTextEntry();
+
+  // Ctor Parameters [CppParam { name: "command", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "firstVertex", ty: "int32_t", modifiers:
+  // "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderChainTextEntry(::UnityEngine::UIElements::UIR::RenderChainCommand* command, int32_t firstVertex, int32_t vertexCount) noexcept;
 
   /// @brief Field command, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* command;

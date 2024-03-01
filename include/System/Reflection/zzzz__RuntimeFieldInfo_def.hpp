@@ -65,16 +65,38 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeFieldInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2616)), TypeDefinitionIndex(TypeDefinitionIndex(3464)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3516))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3517)) CS Name: ::System.Reflection::RuntimeFieldInfo*
+// CS Name: ::System.Reflection::RuntimeFieldInfo*
 class CORDL_TYPE RuntimeFieldInfo : public ::System::Reflection::RtFieldInfo {
 public:
   // Declarations
-  /// @brief Field klass, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_klass, put = __cordl_internal_set_klass)) void* klass;
+  __declspec(property(get = get_Attributes))::System::Reflection::FieldAttributes Attributes;
+
+  __declspec(property(get = get_BindingFlags))::System::Reflection::BindingFlags BindingFlags;
+
+  __declspec(property(get = get_DeclaringType))::System::Type* DeclaringType;
+
+  __declspec(property(get = get_FieldHandle))::System::RuntimeFieldHandle FieldHandle;
+
+  __declspec(property(get = get_FieldType))::System::Type* FieldType;
+
+  __declspec(property(get = get_MetadataToken)) int32_t MetadataToken;
+
+  __declspec(property(get = get_Module))::System::Reflection::Module* Module;
+
+  __declspec(property(get = get_Name))::StringW Name;
+
+  __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
+
+  __declspec(property(get = get_ReflectedTypeInternal))::System::RuntimeType* ReflectedTypeInternal;
+
+  /// @brief Field attrs, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_attrs, put = __cordl_internal_set_attrs))::System::Reflection::FieldAttributes attrs;
 
   /// @brief Field fhandle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_fhandle, put = __cordl_internal_set_fhandle))::System::RuntimeFieldHandle fhandle;
+
+  /// @brief Field klass, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_klass, put = __cordl_internal_set_klass)) void* klass;
 
   /// @brief Field name, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
@@ -82,165 +104,148 @@ public:
   /// @brief Field type, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  /// @brief Field attrs, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_attrs, put = __cordl_internal_set_attrs))::System::Reflection::FieldAttributes attrs;
-
-  __declspec(property(get = get_BindingFlags))::System::Reflection::BindingFlags BindingFlags;
-
-  __declspec(property(get = get_Module))::System::Reflection::Module* Module;
-
-  __declspec(property(get = get_ReflectedTypeInternal))::System::RuntimeType* ReflectedTypeInternal;
-
-  __declspec(property(get = get_Attributes))::System::Reflection::FieldAttributes Attributes;
-
-  __declspec(property(get = get_FieldHandle))::System::RuntimeFieldHandle FieldHandle;
-
-  __declspec(property(get = get_FieldType))::System::Type* FieldType;
-
-  __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
-
-  __declspec(property(get = get_DeclaringType))::System::Type* DeclaringType;
-
-  __declspec(property(get = get_Name))::StringW Name;
-
-  __declspec(property(get = get_MetadataToken)) int32_t MetadataToken;
-
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method CheckConsistency, addr 0x25e3bdc, size 0x180, virtual true, abstract: false, final false
+  inline void CheckConsistency(::System::Object* target);
 
-  constexpr void*& __cordl_internal_get_klass();
+  /// @brief Method CheckGeneric, addr 0x25e42c4, size 0x80, virtual false, abstract: false, final false
+  inline void CheckGeneric();
 
-  constexpr void* const& __cordl_internal_get_klass() const;
+  /// @brief Method GetCustomAttributes, addr 0x25e40ac, size 0x70, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  constexpr void __cordl_internal_set_klass(void* value);
+  /// @brief Method GetCustomAttributes, addr 0x25e4044, size 0x68, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  constexpr ::System::RuntimeFieldHandle& __cordl_internal_get_fhandle();
+  /// @brief Method GetDeclaringTypeInternal, addr 0x25e3a14, size 0x84, virtual false, abstract: false, final false
+  inline ::System::RuntimeType* GetDeclaringTypeInternal();
+
+  /// @brief Method GetFieldOffset, addr 0x25e411c, size 0x4, virtual true, abstract: false, final false
+  inline int32_t GetFieldOffset();
+
+  /// @brief Method GetObjectData, addr 0x25e3b1c, size 0xbc, virtual true, abstract: false, final true
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method GetParentType, addr 0x25e3fb4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* GetParentType(bool declaring);
+
+  /// @brief Method GetRawConstantValue, addr 0x25e4674, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Object* GetRawConstantValue();
+
+  /// @brief Method GetRuntimeModule, addr 0x25e39f8, size 0x1c, virtual false, abstract: false, final false
+  inline ::System::Reflection::RuntimeModule* GetRuntimeModule();
+
+  /// @brief Method GetValue, addr 0x25e4124, size 0x1a0, virtual true, abstract: false, final false
+  inline ::System::Object* GetValue(::System::Object* obj);
+
+  /// @brief Method GetValueInternal, addr 0x25e4120, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Object* GetValueInternal(::System::Object* obj);
+
+  /// @brief Method IsDefined, addr 0x25e3fd4, size 0x70, virtual true, abstract: false, final false
+  inline bool IsDefined(::System::Type* attributeType, bool inherit);
+
+  static inline ::System::Reflection::RuntimeFieldInfo* New_ctor();
+
+  /// @brief Method ResolveType, addr 0x25e3f34, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Type* ResolveType();
+
+  /// @brief Method SetValue, addr 0x25e43b0, size 0x2c4, virtual true, abstract: false, final false
+  inline void SetValue(::System::Object* obj, ::System::Object* val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
+                       ::System::Globalization::CultureInfo* culture);
+
+  /// @brief Method SetValueDirect, addr 0x25e3dc0, size 0x164, virtual true, abstract: false, final false
+  inline void SetValueDirect(::System::TypedReference obj, ::System::Object* value);
+
+  /// @brief Method SetValueInternal, addr 0x25e43ac, size 0x4, virtual false, abstract: false, final false
+  static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
+
+  /// @brief Method ToString, addr 0x25e4344, size 0x68, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method UnsafeGetValue, addr 0x25e3bd8, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Object* UnsafeGetValue(::System::Object* obj);
+
+  /// @brief Method UnsafeSetValue, addr 0x25e3d5c, size 0x64, virtual true, abstract: false, final false
+  inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
+                             ::System::Globalization::CultureInfo* culture);
+
+  constexpr ::System::Reflection::FieldAttributes const& __cordl_internal_get_attrs() const;
+
+  constexpr ::System::Reflection::FieldAttributes& __cordl_internal_get_attrs();
 
   constexpr ::System::RuntimeFieldHandle const& __cordl_internal_get_fhandle() const;
 
-  constexpr void __cordl_internal_set_fhandle(::System::RuntimeFieldHandle value);
+  constexpr ::System::RuntimeFieldHandle& __cordl_internal_get_fhandle();
 
-  constexpr ::StringW& __cordl_internal_get_name();
+  constexpr void* const& __cordl_internal_get_klass() const;
+
+  constexpr void*& __cordl_internal_get_klass();
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_name();
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
-
-  constexpr ::System::Reflection::FieldAttributes& __cordl_internal_get_attrs();
-
-  constexpr ::System::Reflection::FieldAttributes const& __cordl_internal_get_attrs() const;
-
   constexpr void __cordl_internal_set_attrs(::System::Reflection::FieldAttributes value);
 
-  /// @brief Method get_BindingFlags, addr 0x2511de0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Reflection::BindingFlags get_BindingFlags();
+  constexpr void __cordl_internal_set_fhandle(::System::RuntimeFieldHandle value);
 
-  /// @brief Method get_Module, addr 0x2511de8, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Reflection::Module* get_Module();
+  constexpr void __cordl_internal_set_klass(void* value);
 
-  /// @brief Method GetDeclaringTypeInternal, addr 0x2511e08, size 0x84, virtual false, abstract: false, final false
-  inline ::System::RuntimeType* GetDeclaringTypeInternal();
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method get_ReflectedTypeInternal, addr 0x2511e8c, size 0x84, virtual false, abstract: false, final false
-  inline ::System::RuntimeType* get_ReflectedTypeInternal();
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method GetRuntimeModule, addr 0x2511dec, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Reflection::RuntimeModule* GetRuntimeModule();
-
-  /// @brief Method GetObjectData, addr 0x2511f10, size 0xbc, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method UnsafeGetValue, addr 0x2511fcc, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Object* UnsafeGetValue(::System::Object* obj);
-
-  /// @brief Method CheckConsistency, addr 0x2511fd0, size 0x180, virtual true, abstract: false, final false
-  inline void CheckConsistency(::System::Object* target);
-
-  /// @brief Method UnsafeSetValue, addr 0x2512150, size 0x64, virtual true, abstract: false, final false
-  inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
-                             ::System::Globalization::CultureInfo* culture);
-
-  /// @brief Method SetValueDirect, addr 0x25121b4, size 0x164, virtual true, abstract: false, final false
-  inline void SetValueDirect(::System::TypedReference obj, ::System::Object* value);
-
-  /// @brief Method get_Attributes, addr 0x2512318, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::FieldAttributes get_Attributes();
-
-  /// @brief Method get_FieldHandle, addr 0x2512320, size 0x8, virtual true, abstract: false, final false
-  inline ::System::RuntimeFieldHandle get_FieldHandle();
-
-  /// @brief Method ResolveType, addr 0x2512328, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Type* ResolveType();
-
-  /// @brief Method get_FieldType, addr 0x251232c, size 0x7c, virtual true, abstract: false, final false
-  inline ::System::Type* get_FieldType();
-
-  /// @brief Method GetParentType, addr 0x25123a8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* GetParentType(bool declaring);
-
-  /// @brief Method get_ReflectedType, addr 0x25123b0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Type* get_ReflectedType();
-
-  /// @brief Method get_DeclaringType, addr 0x25123b8, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Type* get_DeclaringType();
-
-  /// @brief Method get_Name, addr 0x25123c0, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
-
-  /// @brief Method IsDefined, addr 0x25123c8, size 0x70, virtual true, abstract: false, final false
-  inline bool IsDefined(::System::Type* attributeType, bool inherit);
-
-  /// @brief Method GetCustomAttributes, addr 0x2512438, size 0x68, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
-
-  /// @brief Method GetCustomAttributes, addr 0x25124a0, size 0x70, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
-
-  /// @brief Method GetFieldOffset, addr 0x2512510, size 0x4, virtual true, abstract: false, final false
-  inline int32_t GetFieldOffset();
-
-  /// @brief Method GetValueInternal, addr 0x2512514, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Object* GetValueInternal(::System::Object* obj);
-
-  /// @brief Method GetValue, addr 0x2512518, size 0x1a0, virtual true, abstract: false, final false
-  inline ::System::Object* GetValue(::System::Object* obj);
-
-  /// @brief Method ToString, addr 0x2512738, size 0x68, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method SetValueInternal, addr 0x25127a0, size 0x4, virtual false, abstract: false, final false
-  static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
-
-  /// @brief Method SetValue, addr 0x25127a4, size 0x2c4, virtual true, abstract: false, final false
-  inline void SetValue(::System::Object* obj, ::System::Object* val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
-                       ::System::Globalization::CultureInfo* culture);
-
-  /// @brief Method GetRawConstantValue, addr 0x2512a68, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Object* GetRawConstantValue();
-
-  /// @brief Method CheckGeneric, addr 0x25126b8, size 0x80, virtual false, abstract: false, final false
-  inline void CheckGeneric();
-
-  /// @brief Method get_MetadataToken, addr 0x2512a6c, size 0x4, virtual true, abstract: false, final false
-  inline int32_t get_MetadataToken();
-
-  /// @brief Method get_metadata_token, addr 0x2512a70, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t get_metadata_token(::System::Reflection::RuntimeFieldInfo* monoField);
-
-  static inline ::System::Reflection::RuntimeFieldInfo* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2512a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e4680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Attributes, addr 0x25e3f24, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Reflection::FieldAttributes get_Attributes();
+
+  /// @brief Method get_BindingFlags, addr 0x25e39ec, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Reflection::BindingFlags get_BindingFlags();
+
+  /// @brief Method get_DeclaringType, addr 0x25e3fc4, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Type* get_DeclaringType();
+
+  /// @brief Method get_FieldHandle, addr 0x25e3f2c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::RuntimeFieldHandle get_FieldHandle();
+
+  /// @brief Method get_FieldType, addr 0x25e3f38, size 0x7c, virtual true, abstract: false, final false
+  inline ::System::Type* get_FieldType();
+
+  /// @brief Method get_MetadataToken, addr 0x25e4678, size 0x4, virtual true, abstract: false, final false
+  inline int32_t get_MetadataToken();
+
+  /// @brief Method get_Module, addr 0x25e39f4, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Reflection::Module* get_Module();
+
+  /// @brief Method get_Name, addr 0x25e3fcc, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
+
+  /// @brief Method get_ReflectedType, addr 0x25e3fbc, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Type* get_ReflectedType();
+
+  /// @brief Method get_ReflectedTypeInternal, addr 0x25e3a98, size 0x84, virtual false, abstract: false, final false
+  inline ::System::RuntimeType* get_ReflectedTypeInternal();
+
+  /// @brief Method get_metadata_token, addr 0x25e467c, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t get_metadata_token(::System::Reflection::RuntimeFieldInfo* monoField);
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeFieldInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeFieldInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeFieldInfo(RuntimeFieldInfo&&) = delete;
@@ -249,12 +254,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeFieldInfo(RuntimeFieldInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeFieldInfo();
-
-public:
   /// @brief Field klass, offset: 0x10, size: 0x8, def value: None
   void* ___klass;
 

@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ReloadDataEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9234)), TypeDefinitionIndex(TypeDefinitionIndex(9388)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9234), inst: 5219
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9393)) CS Name: ::HoudiniEngineUnity::HEU_ReloadDataEvent*
+// CS Name: ::HoudiniEngineUnity::HEU_ReloadDataEvent*
 class CORDL_TYPE HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_ReloadDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e3ce4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22af34c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ReloadDataEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ReloadDataEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ReloadDataEvent(HEU_ReloadDataEvent&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ReloadDataEvent(HEU_ReloadDataEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ReloadDataEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

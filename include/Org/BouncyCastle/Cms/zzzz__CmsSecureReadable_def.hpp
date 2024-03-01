@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSecureReadable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(626))
 // CS Name: ::Org.BouncyCastle.Cms::CmsSecureReadable*
 class CORDL_TYPE CmsSecureReadable {
 public:
@@ -35,14 +33,14 @@ public:
 
   __declspec(property(get = get_CryptoObject))::System::Object* CryptoObject;
 
+  /// @brief Method GetReadable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
+
   /// @brief Method get_Algorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
   /// @brief Method get_CryptoObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_CryptoObject();
-
-  /// @brief Method GetReadable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSecureReadable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

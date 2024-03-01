@@ -15,8 +15,6 @@ MARK_VAL_T(::BeatmapSaveDataCommon::IndexFilterType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11214))
 // CS Name: ::BeatmapSaveDataCommon::IndexFilterType
 struct CORDL_TYPE IndexFilterType {
 public:
@@ -34,24 +32,29 @@ public:
     return static_cast<__IndexFilterType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr IndexFilterType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IndexFilterType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr IndexFilterType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Division value: static_cast<int32_t>(0x1)
   static ::BeatmapSaveDataCommon::IndexFilterType const Division;
 
   /// @brief Field StepAndOffset value: static_cast<int32_t>(0x2)
   static ::BeatmapSaveDataCommon::IndexFilterType const StepAndOffset;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

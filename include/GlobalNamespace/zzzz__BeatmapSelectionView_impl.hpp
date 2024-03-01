@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapSelectionView::*)(ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::BeatmapSelectionView::SetBeatmap)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2310454;
+  constexpr static std::size_t addrs = 0x23de330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapSelectionView::*)()>(&::GlobalNamespace::BeatmapSelectionView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2310534;
+  constexpr static std::size_t addrs = 0x23de410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapSelectionView*>::get(), ".ctor",

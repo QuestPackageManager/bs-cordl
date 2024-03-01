@@ -29,40 +29,44 @@ MARK_REF_PTR_T(::Oculus::Platform::Achievements);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13281))
 // CS Name: ::Oculus.Platform::Achievements*
 class CORDL_TYPE Achievements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCount, addr 0x2729924, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddCount, addr 0x27eb940, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddCount(::StringW name, uint64_t count);
 
-  /// @brief Method AddFields, addr 0x2729a94, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddFields, addr 0x27ebab0, size 0x170, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* AddFields(::StringW name, ::StringW fields);
 
-  /// @brief Method GetAllDefinitions, addr 0x2729c04, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetAllDefinitions, addr 0x27ebc20, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetAllDefinitions();
 
-  /// @brief Method GetAllProgress, addr 0x2729d5c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetAllProgress, addr 0x27ebd78, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetAllProgress();
 
-  /// @brief Method GetDefinitionsByName, addr 0x2729eb4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetDefinitionsByName, addr 0x27ebed0, size 0x174, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* GetDefinitionsByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method GetProgressByName, addr 0x272a028, size 0x174, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
-
-  /// @brief Method Unlock, addr 0x272a19c, size 0x160, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* Unlock(::StringW name);
-
-  /// @brief Method GetNextAchievementDefinitionListPage, addr 0x272a2fc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextAchievementDefinitionListPage, addr 0x27ec318, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>*
   GetNextAchievementDefinitionListPage(::Oculus::Platform::Models::AchievementDefinitionList* list);
 
-  /// @brief Method GetNextAchievementProgressListPage, addr 0x272a4d8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextAchievementProgressListPage, addr 0x27ec4f4, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetNextAchievementProgressListPage(::Oculus::Platform::Models::AchievementProgressList* list);
 
+  /// @brief Method GetProgressByName, addr 0x27ec044, size 0x174, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayW<::StringW, ::Array<::StringW>*> names);
+
+  /// @brief Method Unlock, addr 0x27ec1b8, size 0x160, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* Unlock(::StringW name);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Achievements();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Achievements", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Achievements(Achievements&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Achievements(Achievements const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Achievements();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

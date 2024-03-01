@@ -29,23 +29,27 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4476))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4472))
 // CS Name: ::MultiplayerConnectedPlayerBombNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool;
 
-  /// @brief Method Init, addr 0x238d390, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x245c2d8, size 0x58, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239134c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2460294, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerBombNoteController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerBombNoteController();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -70,16 +68,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4472)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
-// 2789 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4471)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
+// CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239135c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24602a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerConnectedPlayerBombNoteController__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerBombNoteController__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerConnectedPlayerBombNoteController__Pool(__MultiplayerConnectedPlayerBombNoteController__Pool&&) = delete;
@@ -88,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerConnectedPlayerBombNoteController__Pool(__MultiplayerConnectedPlayerBombNoteController__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerConnectedPlayerBombNoteController__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::CommandType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6701))
 // CS Name: ::UnityEngine.UIElements.UIR::CommandType
 struct CORDL_TYPE CommandType {
 public:
@@ -44,54 +42,59 @@ public:
     return static_cast<__CommandType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr CommandType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CommandType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr CommandType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Draw value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::UIR::CommandType const Draw;
-
-  /// @brief Field ImmediateCull value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::UIR::CommandType const ImmediateCull;
-
-  /// @brief Field Immediate value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UIElements::UIR::CommandType const Immediate;
-
-  /// @brief Field PushView value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::UIR::CommandType const PushView;
-
-  /// @brief Field PopView value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::UIR::CommandType const PopView;
-
-  /// @brief Field PushScissor value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::UIElements::UIR::CommandType const PushScissor;
-
-  /// @brief Field PopScissor value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::UIElements::UIR::CommandType const PopScissor;
-
-  /// @brief Field PushRenderTexture value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::UIElements::UIR::CommandType const PushRenderTexture;
-
-  /// @brief Field PopRenderTexture value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::UIElements::UIR::CommandType const PopRenderTexture;
 
   /// @brief Field BlitToPreviousRT value: static_cast<int32_t>(0x9)
   static ::UnityEngine::UIElements::UIR::CommandType const BlitToPreviousRT;
 
-  /// @brief Field PushDefaultMaterial value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::UIElements::UIR::CommandType const PushDefaultMaterial;
+  /// @brief Field Draw value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::UIElements::UIR::CommandType const Draw;
+
+  /// @brief Field Immediate value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::UIElements::UIR::CommandType const Immediate;
+
+  /// @brief Field ImmediateCull value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::UIR::CommandType const ImmediateCull;
 
   /// @brief Field PopDefaultMaterial value: static_cast<int32_t>(0xb)
   static ::UnityEngine::UIElements::UIR::CommandType const PopDefaultMaterial;
+
+  /// @brief Field PopRenderTexture value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::UIElements::UIR::CommandType const PopRenderTexture;
+
+  /// @brief Field PopScissor value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::UIElements::UIR::CommandType const PopScissor;
+
+  /// @brief Field PopView value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::UIR::CommandType const PopView;
+
+  /// @brief Field PushDefaultMaterial value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::UIElements::UIR::CommandType const PushDefaultMaterial;
+
+  /// @brief Field PushRenderTexture value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::UIElements::UIR::CommandType const PushRenderTexture;
+
+  /// @brief Field PushScissor value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::UIElements::UIR::CommandType const PushScissor;
+
+  /// @brief Field PushView value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UIElements::UIR::CommandType const PushView;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

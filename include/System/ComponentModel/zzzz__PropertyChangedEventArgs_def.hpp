@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7476))
 // CS Name: ::System.ComponentModel::PropertyChangedEventArgs*
 class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field _propertyName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
-  constexpr ::StringW& __cordl_internal_get__propertyName();
+  static inline ::System::ComponentModel::PropertyChangedEventArgs* New_ctor(::StringW propertyName);
 
   constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
+  constexpr ::StringW& __cordl_internal_get__propertyName();
+
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  static inline ::System::ComponentModel::PropertyChangedEventArgs* New_ctor(::StringW propertyName);
-
-  /// @brief Method .ctor, addr 0x291e018, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a03494, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyChangedEventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangedEventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyChangedEventArgs(PropertyChangedEventArgs&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyChangedEventArgs(PropertyChangedEventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyChangedEventArgs();
-
-public:
   /// @brief Field _propertyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____propertyName;
 

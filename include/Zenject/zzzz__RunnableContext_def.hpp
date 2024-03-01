@@ -20,65 +20,69 @@ MARK_REF_PTR_T(::Zenject::RunnableContext);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10261))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10264))
 // CS Name: ::Zenject::RunnableContext*
 class CORDL_TYPE RunnableContext : public ::Zenject::Context {
 public:
   // Declarations
-  /// @brief Field _autoRun, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__autoRun, put = __cordl_internal_set__autoRun)) bool _autoRun;
+  __declspec(property(get = get_Initialized, put = set_Initialized)) bool Initialized;
 
   /// @brief Field <Initialized>k__BackingField, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get__Initialized_k__BackingField, put = __cordl_internal_set__Initialized_k__BackingField)) bool _Initialized_k__BackingField;
 
+  /// @brief Field _autoRun, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__autoRun, put = __cordl_internal_set__autoRun)) bool _autoRun;
+
   /// @brief Field _staticAutoRun, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__staticAutoRun, put = setStaticF__staticAutoRun)) bool _staticAutoRun;
 
-  __declspec(property(get = get_Initialized, put = set_Initialized)) bool Initialized;
+  /// @brief Method CreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T CreateComponent(::UnityEngine::GameObject* gameObject);
 
-  constexpr bool& __cordl_internal_get__autoRun();
-
-  constexpr bool const& __cordl_internal_get__autoRun() const;
-
-  constexpr void __cordl_internal_set__autoRun(bool value);
-
-  constexpr bool& __cordl_internal_get__Initialized_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__Initialized_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Initialized_k__BackingField(bool value);
-
-  static inline void setStaticF__staticAutoRun(bool value);
-
-  static inline bool getStaticF__staticAutoRun();
-
-  /// @brief Method get_Initialized, addr 0x2f0d4f4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Initialized();
-
-  /// @brief Method set_Initialized, addr 0x2f0d4fc, size 0xc, virtual false, abstract: false, final false
-  inline void set_Initialized(bool value);
-
-  /// @brief Method Initialize, addr 0x2f0a6fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2ffde24, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Run, addr 0x2f0d508, size 0x70, virtual true, abstract: false, final false
+  static inline ::Zenject::RunnableContext* New_ctor();
+
+  /// @brief Method Run, addr 0x3000c30, size 0x70, virtual true, abstract: false, final false
   inline void Run();
 
   /// @brief Method RunInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RunInternal();
 
-  /// @brief Method CreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T CreateComponent(::UnityEngine::GameObject* gameObject);
+  constexpr bool const& __cordl_internal_get__Initialized_k__BackingField() const;
 
-  static inline ::Zenject::RunnableContext* New_ctor();
+  constexpr bool& __cordl_internal_get__Initialized_k__BackingField();
 
-  /// @brief Method .ctor, addr 0x2f0b080, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+  constexpr bool const& __cordl_internal_get__autoRun() const;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0d5c4, size 0x178, virtual false, abstract: false, final false
+  constexpr bool& __cordl_internal_get__autoRun();
+
+  constexpr void __cordl_internal_set__Initialized_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__autoRun(bool value);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3000cec, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x2ffe7a8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline bool getStaticF__staticAutoRun();
+
+  /// @brief Method get_Initialized, addr 0x3000c1c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Initialized();
+
+  static inline void setStaticF__staticAutoRun(bool value);
+
+  /// @brief Method set_Initialized, addr 0x3000c24, size 0xc, virtual false, abstract: false, final false
+  inline void set_Initialized(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RunnableContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RunnableContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RunnableContext(RunnableContext&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RunnableContext(RunnableContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RunnableContext();
-
-public:
   /// @brief Field _autoRun, offset: 0x40, size: 0x1, def value: None
   bool ____autoRun;
 

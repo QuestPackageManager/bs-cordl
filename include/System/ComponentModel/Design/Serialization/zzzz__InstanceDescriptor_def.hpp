@@ -23,12 +23,14 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::InstanceDescript
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7514))
 // CS Name: ::System.ComponentModel.Design.Serialization::InstanceDescriptor*
 class CORDL_TYPE InstanceDescriptor : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Arguments))::System::Collections::ICollection* Arguments;
+
+  __declspec(property(get = get_MemberInfo))::System::Reflection::MemberInfo* MemberInfo;
+
   /// @brief Field <Arguments>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Arguments_k__BackingField, put = __cordl_internal_set__Arguments_k__BackingField))::System::Collections::ICollection* _Arguments_k__BackingField;
 
@@ -38,47 +40,49 @@ public:
   /// @brief Field <MemberInfo>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField))::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
 
-  __declspec(property(get = get_Arguments))::System::Collections::ICollection* Arguments;
+  /// @brief Method Invoke, addr 0x2a24b90, size 0x358, virtual false, abstract: false, final false
+  inline ::System::Object* Invoke();
 
-  __declspec(property(get = get_MemberInfo))::System::Reflection::MemberInfo* MemberInfo;
+  static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
+
+  static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
   constexpr ::System::Collections::ICollection*& __cordl_internal_get__Arguments_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__Arguments_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ICollection* value);
-
-  constexpr bool& __cordl_internal_get__IsComplete_k__BackingField();
-
   constexpr bool const& __cordl_internal_get__IsComplete_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__IsComplete_k__BackingField(bool value);
+  constexpr bool& __cordl_internal_get__IsComplete_k__BackingField();
 
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__MemberInfo_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get__MemberInfo_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ICollection* value);
+
+  constexpr void __cordl_internal_set__IsComplete_k__BackingField(bool value);
+
   constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
-
-  /// @brief Method .ctor, addr 0x293f1f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2466c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
-  static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
-
-  /// @brief Method .ctor, addr 0x293f1f8, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a24674, size 0x50c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
-  /// @brief Method get_Arguments, addr 0x293f704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x2a24b80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Arguments();
 
-  /// @brief Method get_MemberInfo, addr 0x293f70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x2a24b88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method Invoke, addr 0x293f714, size 0x358, virtual false, abstract: false, final false
-  inline ::System::Object* Invoke();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstanceDescriptor();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InstanceDescriptor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstanceDescriptor(InstanceDescriptor&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstanceDescriptor(InstanceDescriptor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstanceDescriptor();
-
-public:
   /// @brief Field <Arguments>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ICollection* ____Arguments_k__BackingField;
 

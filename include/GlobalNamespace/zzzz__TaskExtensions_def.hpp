@@ -53,38 +53,42 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12887))
 // CS Name: ::TaskExtensions::<>c__DisplayClass0_0`1<T>*
 class CORDL_TYPE __TaskExtensions____c__DisplayClass0_0_1 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field cancellationToken, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+
   /// @brief Field tcs, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
 
-  /// @brief Field cancellationToken, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>* New_ctor();
+
+  /// @brief Method <WithCancellation>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _WithCancellation_b__0();
+
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
+
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get_tcs();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
-
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
-
-  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
-
   constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>* New_ctor();
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WithCancellation>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _WithCancellation_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TaskExtensions____c__DisplayClass0_0_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TaskExtensions____c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TaskExtensions____c__DisplayClass0_0_1(__TaskExtensions____c__DisplayClass0_0_1&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TaskExtensions____c__DisplayClass0_0_1(__TaskExtensions____c__DisplayClass0_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TaskExtensions____c__DisplayClass0_0_1();
-
-public:
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ___tcs;
 
@@ -115,22 +113,25 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 108
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12888)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
+// CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
 struct CORDL_TYPE __TaskExtensions___WaitForTask_d__1_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TaskExtensions___WaitForTask_d__1_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "tcs", ty: "::System::Threading::Tasks::TaskCompletionSource_1<T>*", modifiers:
@@ -140,10 +141,6 @@ public:
   constexpr __TaskExtensions___WaitForTask_d__1_1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                   ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs, ::System::Threading::Tasks::Task_1<T>* task,
                                                   ::System::Threading::Tasks::TaskCompletionSource_1<T>* __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TaskExtensions___WaitForTask_d__1_1();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -174,8 +171,6 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12889))
 // CS Name: ::TaskExtensions*
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:
@@ -184,12 +179,18 @@ public:
 
   template <typename T> using __c__DisplayClass0_0_1 = ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>;
 
-  /// @brief Method WithCancellation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* WithCancellation(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken);
-
   /// @brief Method WaitForTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void WaitForTask(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs);
 
+  /// @brief Method WithCancellation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* WithCancellation(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TaskExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskExtensions(TaskExtensions&&) = delete;
@@ -198,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TaskExtensions(TaskExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

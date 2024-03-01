@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Material_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9703))
 // CS Name: ::Test_Material_Extensions::<>c*
 class CORDL_TYPE __Test_Material_Extensions____c : public ::System::Object {
 public:
@@ -49,29 +47,35 @@ public:
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* __9__2_0;
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Material_Extensions____c* value);
+  static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* New_ctor();
+
+  /// @brief Method <ToTestObject>b__1_0, addr 0x23471a4, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__1_0(::UnityEngine::Material* lod);
+
+  /// @brief Method <ToTestObject>b__2_0, addr 0x2347208, size 0x64, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__2_0(::UnityEngine::Material* lod);
+
+  /// @brief Method .ctor, addr 0x234719c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* value);
-
   static inline ::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* getStaticF___9__1_0();
-
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* value);
 
   static inline ::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* getStaticF___9__2_0();
 
-  static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* New_ctor();
+  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Material_Extensions____c* value);
 
-  /// @brief Method .ctor, addr 0x227ab34, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* value);
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x227ab3c, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__1_0(::UnityEngine::Material* lod);
+  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* value);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x227aba0, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__2_0(::UnityEngine::Material* lod);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Test_Material_Extensions____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Material_Extensions____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Test_Material_Extensions____c(__Test_Material_Extensions____c&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Test_Material_Extensions____c(__Test_Material_Extensions____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Test_Material_Extensions____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,24 +94,28 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Mater
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9704))
 // CS Name: ::HoudiniEngineUnity::Test_Material_Extensions*
 class CORDL_TYPE Test_Material_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Material_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x227a848, size 0x64, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material* self);
-
-  /// @brief Method ToTestObject, addr 0x227a8ac, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2346f14, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Material*, ::Array<::HoudiniEngineUnity::Test_Material*>*>
   ToTestObject(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x227a9d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2346eb0, size 0x64, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material* self);
+
+  /// @brief Method ToTestObject, addr 0x234703c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* self);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_Material_Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_Material_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_Material_Extensions(Test_Material_Extensions&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_Material_Extensions(Test_Material_Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_Material_Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

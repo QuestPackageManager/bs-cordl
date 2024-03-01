@@ -18,36 +18,40 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyPublishingHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11032))
 // CS Name: ::SonyPublishingHelper*
 class CORDL_TYPE SonyPublishingHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetServiceId, addr 0x12ad948, size 0x28, virtual false, abstract: false, final false
-  static inline ::StringW GetServiceId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
-
-  /// @brief Method GetContentId, addr 0x12ad990, size 0x20, virtual false, abstract: false, final false
-  static inline ::StringW GetContentId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
-
-  /// @brief Method GetContentId, addr 0x12ad9e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetContentId, addr 0x12ee9b4, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetContentId(::StringW serviceId, ::StringW productLabel);
 
-  /// @brief Method GetContentIdFromTitleId, addr 0x12ad9b0, size 0x34, virtual false, abstract: false, final false
-  static inline ::StringW GetContentIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId, ::StringW productLabel);
+  /// @brief Method GetContentId, addr 0x12ee960, size 0x20, virtual false, abstract: false, final false
+  static inline ::StringW GetContentId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetContentIdFromNpTitleId, addr 0x12ada40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromNpTitleId, addr 0x12eea10, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW GetContentIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId, ::StringW productLabel);
 
-  /// @brief Method GetNpTitleId, addr 0x12adab4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetContentIdFromTitleId, addr 0x12ee980, size 0x34, virtual false, abstract: false, final false
+  static inline ::StringW GetContentIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId, ::StringW productLabel);
+
+  /// @brief Method GetNpTitleId, addr 0x12eea84, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetNpTitleId(::StringW titleId);
 
-  /// @brief Method GetServiceIdFromTitleId, addr 0x12ad970, size 0x20, virtual false, abstract: false, final false
-  static inline ::StringW GetServiceIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId);
+  /// @brief Method GetServiceId, addr 0x12ee918, size 0x28, virtual false, abstract: false, final false
+  static inline ::StringW GetServiceId(::GlobalNamespace::SonyPublisherSKUSettingsSO* sonyPublisherSKUSettings);
 
-  /// @brief Method GetServiceIdFromNpTitleId, addr 0x12ada58, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetServiceIdFromNpTitleId, addr 0x12eea28, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetServiceIdFromNpTitleId(::StringW serviceIdPrefix, ::StringW npTitleId);
 
+  /// @brief Method GetServiceIdFromTitleId, addr 0x12ee940, size 0x20, virtual false, abstract: false, final false
+  static inline ::StringW GetServiceIdFromTitleId(::StringW serviceIdPrefix, ::StringW titleId);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyPublishingHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyPublishingHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyPublishingHelper(SonyPublishingHelper&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyPublishingHelper(SonyPublishingHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyPublishingHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

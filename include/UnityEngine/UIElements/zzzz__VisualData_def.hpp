@@ -42,40 +42,43 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6146)), TypeDefinitionIndex(TypeDefinitionIndex(6552)), TypeDefinitionIndex(TypeDefinitionIndex(6572)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8995))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6620)) CS Name: ::UnityEngine.UIElements::VisualData
+// CS Name: ::UnityEngine.UIElements::VisualData
 struct CORDL_TYPE VisualData {
 public:
   // Declarations
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualData>*();
+
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>*();
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
-  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__VisualData_();
+  /// @brief Method Copy, addr 0x2f935f0, size 0x1c, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::VisualData Copy();
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualData>*();
+  /// @brief Method CopyFrom, addr 0x2f9360c, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(ByRef<::UnityEngine::UIElements::VisualData> other);
+
+  /// @brief Method Equals, addr 0x2f93858, size 0xa8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f9380c, size 0x4c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::VisualData other);
+
+  /// @brief Method GetHashCode, addr 0x2f93900, size 0x280, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::VisualData>* i___System__IEquatable_1___UnityEngine__UIElements__VisualData_();
 
-  /// @brief Method Copy, addr 0x2e9eec8, size 0x1c, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::VisualData Copy();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
+  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__VisualData_();
 
-  /// @brief Method CopyFrom, addr 0x2e9eee4, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::VisualData> other);
-
-  /// @brief Method op_Equality, addr 0x2e9eef8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f93620, size 0x1ec, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::VisualData lhs, ::UnityEngine::UIElements::VisualData rhs);
 
-  /// @brief Method Equals, addr 0x2e9f0e4, size 0x4c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::VisualData other);
-
-  /// @brief Method Equals, addr 0x2e9f130, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e9f1d8, size 0x280, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VisualData();
 
   // Ctor Parameters [CppParam { name: "backgroundColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "backgroundImage", ty: "::UnityEngine::UIElements::Background",
   // modifiers: "", def_value: None }, CppParam { name: "borderBottomColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "borderBottomLeftRadius", ty:
@@ -88,10 +91,6 @@ public:
                        ::UnityEngine::UIElements::Length borderBottomLeftRadius, ::UnityEngine::UIElements::Length borderBottomRightRadius, ::UnityEngine::Color borderLeftColor,
                        ::UnityEngine::Color borderRightColor, ::UnityEngine::Color borderTopColor, ::UnityEngine::UIElements::Length borderTopLeftRadius,
                        ::UnityEngine::UIElements::Length borderTopRightRadius, float_t opacity, ::UnityEngine::UIElements::OverflowInternal overflow) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualData();
 
   /// @brief Field backgroundColor, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color backgroundColor;

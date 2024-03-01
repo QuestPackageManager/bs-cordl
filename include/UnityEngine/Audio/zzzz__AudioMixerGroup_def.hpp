@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8944))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15312))
 // CS Name: ::UnityEngine.Audio::AudioMixerGroup*
 class CORDL_TYPE AudioMixerGroup : public ::UnityEngine::Object {
 public:
@@ -31,17 +29,23 @@ public:
   /// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
   constexpr operator ::UnityEngine::Internal::ISubAssetNotDuplicatable*() noexcept;
 
+  static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2d861b4, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_audioMixer, addr 0x2d8620c, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
+
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
   constexpr ::UnityEngine::Internal::ISubAssetNotDuplicatable* i___UnityEngine__Internal__ISubAssetNotDuplicatable() noexcept;
 
-  static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioMixerGroup();
 
-  /// @brief Method .ctor, addr 0x2c9c0e0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_audioMixer, addr 0x2c9c138, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioMixerGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioMixerGroup(AudioMixerGroup&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioMixerGroup(AudioMixerGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioMixerGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

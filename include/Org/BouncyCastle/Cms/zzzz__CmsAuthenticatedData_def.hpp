@@ -35,111 +35,115 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(616))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedData*
 class CORDL_TYPE CmsAuthenticatedData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field recipientInfoStore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
+  __declspec(property(get = get_ContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
 
-  /// @brief Field contentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = get_MacAlgOid))::StringW MacAlgOid;
 
-  /// @brief Field macAlg, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_macAlg, put = __cordl_internal_set_macAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg;
+  __declspec(property(get = get_MacAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* MacAlgorithmID;
 
   /// @brief Field authAttrs, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
 
-  /// @brief Field unauthAttrs, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
+  /// @brief Field contentInfo, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
   /// @brief Field mac, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
 
-  __declspec(property(get = get_MacAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* MacAlgorithmID;
+  /// @brief Field macAlg, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_macAlg, put = __cordl_internal_set_macAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg;
 
-  __declspec(property(get = get_MacAlgOid))::StringW MacAlgOid;
+  /// @brief Field recipientInfoStore, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
-  __declspec(property(get = get_ContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
+  /// @brief Field unauthAttrs, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
-  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
+  /// @brief Method GetAuthAttrs, addr 0x124941c, size 0x74, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAuthAttrs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
+  /// @brief Method GetEncoded, addr 0x1249504, size 0x1c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
+  /// @brief Method GetMac, addr 0x124937c, size 0x5c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
+  /// @brief Method GetRecipientInfos, addr 0x124940c, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
+  /// @brief Method GetUnauthAttrs, addr 0x1249490, size 0x74, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnauthAttrs();
 
-  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_macAlg();
+  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::System::IO::Stream* authData);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_macAlg() const;
-
-  constexpr void __cordl_internal_set_macAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authAttrs();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authAttrs() const;
 
-  constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mac() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mac();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_macAlg();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_macAlg() const;
+
+  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthAttrs();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthAttrs() const;
 
-  constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mac();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mac() const;
+  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
   constexpr void __cordl_internal_set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
+  constexpr void __cordl_internal_set_macAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x12061fc, size 0x24, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
+
+  constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  /// @brief Method .ctor, addr 0x12491cc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
-  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::System::IO::Stream* authData);
-
-  /// @brief Method .ctor, addr 0x1206388, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1249358, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authData);
 
-  static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
-
-  /// @brief Method .ctor, addr 0x1206220, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12491f0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method GetMac, addr 0x12063ac, size 0x5c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
-
-  /// @brief Method get_MacAlgorithmID, addr 0x1206408, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithmID();
-
-  /// @brief Method get_MacAlgOid, addr 0x1206410, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW get_MacAlgOid();
-
-  /// @brief Method GetRecipientInfos, addr 0x120643c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
-
-  /// @brief Method get_ContentInfo, addr 0x1206444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x1249414, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method GetAuthAttrs, addr 0x120644c, size 0x74, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAuthAttrs();
+  /// @brief Method get_MacAlgOid, addr 0x12493e0, size 0x2c, virtual false, abstract: false, final false
+  inline ::StringW get_MacAlgOid();
 
-  /// @brief Method GetUnauthAttrs, addr 0x12064c0, size 0x74, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnauthAttrs();
+  /// @brief Method get_MacAlgorithmID, addr 0x12493d8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithmID();
 
-  /// @brief Method GetEncoded, addr 0x1206534, size 0x1c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsAuthenticatedData();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsAuthenticatedData(CmsAuthenticatedData&&) = delete;
@@ -148,12 +152,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsAuthenticatedData(CmsAuthenticatedData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsAuthenticatedData();
-
-public:
   /// @brief Field recipientInfoStore, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Cms::RecipientInformationStore* ___recipientInfoStore;
 

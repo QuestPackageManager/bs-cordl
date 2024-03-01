@@ -16,20 +16,18 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_HapticVibration_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8631))
 // CS Name: ::OVR.OpenVR::VREvent_HapticVibration_t
 struct CORDL_TYPE VREvent_HapticVibration_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VREvent_HapticVibration_t();
+
   // Ctor Parameters [CppParam { name: "containerHandle", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "componentHandle", ty: "uint64_t", modifiers: "", def_value: None },
   // CppParam { name: "fDurationSeconds", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fFrequency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "fAmplitude", ty: "float_t", modifiers: "", def_value: None }]
   constexpr VREvent_HapticVibration_t(uint64_t containerHandle, uint64_t componentHandle, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VREvent_HapticVibration_t();
 
   /// @brief Field containerHandle, offset: 0x0, size: 0x8, def value: None
   uint64_t containerHandle;

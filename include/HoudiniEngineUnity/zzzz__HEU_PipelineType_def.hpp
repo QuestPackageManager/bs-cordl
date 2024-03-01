@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_PipelineType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9645))
 // CS Name: ::HoudiniEngineUnity::HEU_PipelineType
 struct CORDL_TYPE HEU_PipelineType {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__HEU_PipelineType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HEU_PipelineType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HEU_PipelineType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HEU_PipelineType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unsupported value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HEU_PipelineType const Unsupported;
 
   /// @brief Field BiRP value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::HEU_PipelineType const BiRP;
 
+  /// @brief Field HDRP value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::HEU_PipelineType const HDRP;
+
   /// @brief Field URP value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::HEU_PipelineType const URP;
 
-  /// @brief Field HDRP value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::HEU_PipelineType const HDRP;
+  /// @brief Field Unsupported value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HEU_PipelineType const Unsupported;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

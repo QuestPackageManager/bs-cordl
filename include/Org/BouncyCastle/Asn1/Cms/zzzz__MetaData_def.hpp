@@ -35,17 +35,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::MetaData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(80))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::MetaData*
 class CORDL_TYPE MetaData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field hashProtected, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashProtected, put = __cordl_internal_set_hashProtected))::Org::BouncyCastle::Asn1::DerBoolean* hashProtected;
+  __declspec(property(get = get_FileName))::Org::BouncyCastle::Asn1::DerUtf8String* FileName;
+
+  __declspec(property(get = get_IsHashProtected)) bool IsHashProtected;
+
+  __declspec(property(get = get_MediaType))::Org::BouncyCastle::Asn1::DerIA5String* MediaType;
+
+  __declspec(property(get = get_OtherMetaData))::Org::BouncyCastle::Asn1::Cms::Attributes* OtherMetaData;
 
   /// @brief Field fileName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::Org::BouncyCastle::Asn1::DerUtf8String* fileName;
+
+  /// @brief Field hashProtected, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_hashProtected, put = __cordl_internal_set_hashProtected))::Org::BouncyCastle::Asn1::DerBoolean* hashProtected;
 
   /// @brief Field mediaType, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_mediaType, put = __cordl_internal_set_mediaType))::Org::BouncyCastle::Asn1::DerIA5String* mediaType;
@@ -53,68 +59,66 @@ public:
   /// @brief Field otherMetaData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_otherMetaData, put = __cordl_internal_set_otherMetaData))::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData;
 
-  __declspec(property(get = get_IsHashProtected)) bool IsHashProtected;
+  /// @brief Method GetInstance, addr 0xeec6e0, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_FileName))::Org::BouncyCastle::Asn1::DerUtf8String* FileName;
+  static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName,
+                                                                   ::Org::BouncyCastle::Asn1::DerIA5String* mediaType, ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
 
-  __declspec(property(get = get_MediaType))::Org::BouncyCastle::Asn1::DerIA5String* MediaType;
+  static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  __declspec(property(get = get_OtherMetaData))::Org::BouncyCastle::Asn1::Cms::Attributes* OtherMetaData;
-
-  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_hashProtected();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_hashProtected() const;
-
-  constexpr void __cordl_internal_set_hashProtected(::Org::BouncyCastle::Asn1::DerBoolean* value);
+  /// @brief Method ToAsn1Object, addr 0xeec784, size 0x1a0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_fileName();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __cordl_internal_get_fileName() const;
 
-  constexpr void __cordl_internal_set_fileName(::Org::BouncyCastle::Asn1::DerUtf8String* value);
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_hashProtected();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_hashProtected() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_mediaType();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_mediaType() const;
 
-  constexpr void __cordl_internal_set_mediaType(::Org::BouncyCastle::Asn1::DerIA5String* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Cms::Attributes*& __cordl_internal_get_otherMetaData();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Attributes*> const& __cordl_internal_get_otherMetaData() const;
 
+  constexpr void __cordl_internal_set_fileName(::Org::BouncyCastle::Asn1::DerUtf8String* value);
+
+  constexpr void __cordl_internal_set_hashProtected(::Org::BouncyCastle::Asn1::DerBoolean* value);
+
+  constexpr void __cordl_internal_set_mediaType(::Org::BouncyCastle::Asn1::DerIA5String* value);
+
   constexpr void __cordl_internal_set_otherMetaData(::Org::BouncyCastle::Asn1::Cms::Attributes* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName,
-                                                                   ::Org::BouncyCastle::Asn1::DerIA5String* mediaType, ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
-
-  /// @brief Method .ctor, addr 0xea54bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeec48c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName, ::Org::BouncyCastle::Asn1::DerIA5String* mediaType,
                     ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xea54fc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeec4cc, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xea5710, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* GetInstance(::System::Object* obj);
-
-  /// @brief Method ToAsn1Object, addr 0xea57b4, size 0x1a0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
-  /// @brief Method get_IsHashProtected, addr 0xea5954, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_IsHashProtected();
-
-  /// @brief Method get_FileName, addr 0xea5970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FileName, addr 0xeec940, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_FileName();
 
-  /// @brief Method get_MediaType, addr 0xea5978, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsHashProtected, addr 0xeec924, size 0x1c, virtual true, abstract: false, final false
+  inline bool get_IsHashProtected();
+
+  /// @brief Method get_MediaType, addr 0xeec948, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_MediaType();
 
-  /// @brief Method get_OtherMetaData, addr 0xea5980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OtherMetaData, addr 0xeec950, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attributes* get_OtherMetaData();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MetaData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MetaData(MetaData&&) = delete;
@@ -123,12 +127,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MetaData(MetaData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MetaData();
-
-public:
   /// @brief Field hashProtected, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBoolean* ___hashProtected;
 

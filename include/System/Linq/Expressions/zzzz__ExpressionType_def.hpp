@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Linq::Expressions::ExpressionType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
 // CS Name: ::System.Linq.Expressions::ExpressionType
 struct CORDL_TYPE ExpressionType {
 public:
@@ -117,21 +115,29 @@ public:
     return static_cast<__ExpressionType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ExpressionType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ExpressionType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ExpressionType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field Add value: static_cast<int32_t>(0x0)
   static ::System::Linq::Expressions::ExpressionType const Add;
+
+  /// @brief Field AddAssign value: static_cast<int32_t>(0x3f)
+  static ::System::Linq::Expressions::ExpressionType const AddAssign;
+
+  /// @brief Field AddAssignChecked value: static_cast<int32_t>(0x4a)
+  static ::System::Linq::Expressions::ExpressionType const AddAssignChecked;
 
   /// @brief Field AddChecked value: static_cast<int32_t>(0x1)
   static ::System::Linq::Expressions::ExpressionType const AddChecked;
@@ -142,11 +148,20 @@ public:
   /// @brief Field AndAlso value: static_cast<int32_t>(0x3)
   static ::System::Linq::Expressions::ExpressionType const AndAlso;
 
-  /// @brief Field ArrayLength value: static_cast<int32_t>(0x4)
-  static ::System::Linq::Expressions::ExpressionType const ArrayLength;
+  /// @brief Field AndAssign value: static_cast<int32_t>(0x40)
+  static ::System::Linq::Expressions::ExpressionType const AndAssign;
 
   /// @brief Field ArrayIndex value: static_cast<int32_t>(0x5)
   static ::System::Linq::Expressions::ExpressionType const ArrayIndex;
+
+  /// @brief Field ArrayLength value: static_cast<int32_t>(0x4)
+  static ::System::Linq::Expressions::ExpressionType const ArrayLength;
+
+  /// @brief Field Assign value: static_cast<int32_t>(0x2e)
+  static ::System::Linq::Expressions::ExpressionType const Assign;
+
+  /// @brief Field Block value: static_cast<int32_t>(0x2f)
+  static ::System::Linq::Expressions::ExpressionType const Block;
 
   /// @brief Field Call value: static_cast<int32_t>(0x6)
   static ::System::Linq::Expressions::ExpressionType const Call;
@@ -166,8 +181,23 @@ public:
   /// @brief Field ConvertChecked value: static_cast<int32_t>(0xb)
   static ::System::Linq::Expressions::ExpressionType const ConvertChecked;
 
+  /// @brief Field DebugInfo value: static_cast<int32_t>(0x30)
+  static ::System::Linq::Expressions::ExpressionType const DebugInfo;
+
+  /// @brief Field Decrement value: static_cast<int32_t>(0x31)
+  static ::System::Linq::Expressions::ExpressionType const Decrement;
+
+  /// @brief Field Default value: static_cast<int32_t>(0x33)
+  static ::System::Linq::Expressions::ExpressionType const Default;
+
   /// @brief Field Divide value: static_cast<int32_t>(0xc)
   static ::System::Linq::Expressions::ExpressionType const Divide;
+
+  /// @brief Field DivideAssign value: static_cast<int32_t>(0x41)
+  static ::System::Linq::Expressions::ExpressionType const DivideAssign;
+
+  /// @brief Field Dynamic value: static_cast<int32_t>(0x32)
+  static ::System::Linq::Expressions::ExpressionType const Dynamic;
 
   /// @brief Field Equal value: static_cast<int32_t>(0xd)
   static ::System::Linq::Expressions::ExpressionType const Equal;
@@ -175,20 +205,47 @@ public:
   /// @brief Field ExclusiveOr value: static_cast<int32_t>(0xe)
   static ::System::Linq::Expressions::ExpressionType const ExclusiveOr;
 
+  /// @brief Field ExclusiveOrAssign value: static_cast<int32_t>(0x42)
+  static ::System::Linq::Expressions::ExpressionType const ExclusiveOrAssign;
+
+  /// @brief Field Extension value: static_cast<int32_t>(0x34)
+  static ::System::Linq::Expressions::ExpressionType const Extension;
+
+  /// @brief Field Goto value: static_cast<int32_t>(0x35)
+  static ::System::Linq::Expressions::ExpressionType const Goto;
+
   /// @brief Field GreaterThan value: static_cast<int32_t>(0xf)
   static ::System::Linq::Expressions::ExpressionType const GreaterThan;
 
   /// @brief Field GreaterThanOrEqual value: static_cast<int32_t>(0x10)
   static ::System::Linq::Expressions::ExpressionType const GreaterThanOrEqual;
 
+  /// @brief Field Increment value: static_cast<int32_t>(0x36)
+  static ::System::Linq::Expressions::ExpressionType const Increment;
+
+  /// @brief Field Index value: static_cast<int32_t>(0x37)
+  static ::System::Linq::Expressions::ExpressionType const Index;
+
   /// @brief Field Invoke value: static_cast<int32_t>(0x11)
   static ::System::Linq::Expressions::ExpressionType const Invoke;
+
+  /// @brief Field IsFalse value: static_cast<int32_t>(0x54)
+  static ::System::Linq::Expressions::ExpressionType const IsFalse;
+
+  /// @brief Field IsTrue value: static_cast<int32_t>(0x53)
+  static ::System::Linq::Expressions::ExpressionType const IsTrue;
+
+  /// @brief Field Label value: static_cast<int32_t>(0x38)
+  static ::System::Linq::Expressions::ExpressionType const Label;
 
   /// @brief Field Lambda value: static_cast<int32_t>(0x12)
   static ::System::Linq::Expressions::ExpressionType const Lambda;
 
   /// @brief Field LeftShift value: static_cast<int32_t>(0x13)
   static ::System::Linq::Expressions::ExpressionType const LeftShift;
+
+  /// @brief Field LeftShiftAssign value: static_cast<int32_t>(0x43)
+  static ::System::Linq::Expressions::ExpressionType const LeftShiftAssign;
 
   /// @brief Field LessThan value: static_cast<int32_t>(0x14)
   static ::System::Linq::Expressions::ExpressionType const LessThan;
@@ -199,6 +256,9 @@ public:
   /// @brief Field ListInit value: static_cast<int32_t>(0x16)
   static ::System::Linq::Expressions::ExpressionType const ListInit;
 
+  /// @brief Field Loop value: static_cast<int32_t>(0x3a)
+  static ::System::Linq::Expressions::ExpressionType const Loop;
+
   /// @brief Field MemberAccess value: static_cast<int32_t>(0x17)
   static ::System::Linq::Expressions::ExpressionType const MemberAccess;
 
@@ -208,8 +268,17 @@ public:
   /// @brief Field Modulo value: static_cast<int32_t>(0x19)
   static ::System::Linq::Expressions::ExpressionType const Modulo;
 
+  /// @brief Field ModuloAssign value: static_cast<int32_t>(0x44)
+  static ::System::Linq::Expressions::ExpressionType const ModuloAssign;
+
   /// @brief Field Multiply value: static_cast<int32_t>(0x1a)
   static ::System::Linq::Expressions::ExpressionType const Multiply;
+
+  /// @brief Field MultiplyAssign value: static_cast<int32_t>(0x45)
+  static ::System::Linq::Expressions::ExpressionType const MultiplyAssign;
+
+  /// @brief Field MultiplyAssignChecked value: static_cast<int32_t>(0x4b)
+  static ::System::Linq::Expressions::ExpressionType const MultiplyAssignChecked;
 
   /// @brief Field MultiplyChecked value: static_cast<int32_t>(0x1b)
   static ::System::Linq::Expressions::ExpressionType const MultiplyChecked;
@@ -217,20 +286,17 @@ public:
   /// @brief Field Negate value: static_cast<int32_t>(0x1c)
   static ::System::Linq::Expressions::ExpressionType const Negate;
 
-  /// @brief Field UnaryPlus value: static_cast<int32_t>(0x1d)
-  static ::System::Linq::Expressions::ExpressionType const UnaryPlus;
-
   /// @brief Field NegateChecked value: static_cast<int32_t>(0x1e)
   static ::System::Linq::Expressions::ExpressionType const NegateChecked;
 
   /// @brief Field New value: static_cast<int32_t>(0x1f)
   static ::System::Linq::Expressions::ExpressionType const New;
 
-  /// @brief Field NewArrayInit value: static_cast<int32_t>(0x20)
-  static ::System::Linq::Expressions::ExpressionType const NewArrayInit;
-
   /// @brief Field NewArrayBounds value: static_cast<int32_t>(0x21)
   static ::System::Linq::Expressions::ExpressionType const NewArrayBounds;
+
+  /// @brief Field NewArrayInit value: static_cast<int32_t>(0x20)
+  static ::System::Linq::Expressions::ExpressionType const NewArrayInit;
 
   /// @brief Field Not value: static_cast<int32_t>(0x22)
   static ::System::Linq::Expressions::ExpressionType const Not;
@@ -238,8 +304,14 @@ public:
   /// @brief Field NotEqual value: static_cast<int32_t>(0x23)
   static ::System::Linq::Expressions::ExpressionType const NotEqual;
 
+  /// @brief Field OnesComplement value: static_cast<int32_t>(0x52)
+  static ::System::Linq::Expressions::ExpressionType const OnesComplement;
+
   /// @brief Field Or value: static_cast<int32_t>(0x24)
   static ::System::Linq::Expressions::ExpressionType const Or;
+
+  /// @brief Field OrAssign value: static_cast<int32_t>(0x46)
+  static ::System::Linq::Expressions::ExpressionType const OrAssign;
 
   /// @brief Field OrElse value: static_cast<int32_t>(0x25)
   static ::System::Linq::Expressions::ExpressionType const OrElse;
@@ -247,8 +319,23 @@ public:
   /// @brief Field Parameter value: static_cast<int32_t>(0x26)
   static ::System::Linq::Expressions::ExpressionType const Parameter;
 
+  /// @brief Field PostDecrementAssign value: static_cast<int32_t>(0x50)
+  static ::System::Linq::Expressions::ExpressionType const PostDecrementAssign;
+
+  /// @brief Field PostIncrementAssign value: static_cast<int32_t>(0x4f)
+  static ::System::Linq::Expressions::ExpressionType const PostIncrementAssign;
+
   /// @brief Field Power value: static_cast<int32_t>(0x27)
   static ::System::Linq::Expressions::ExpressionType const Power;
+
+  /// @brief Field PowerAssign value: static_cast<int32_t>(0x47)
+  static ::System::Linq::Expressions::ExpressionType const PowerAssign;
+
+  /// @brief Field PreDecrementAssign value: static_cast<int32_t>(0x4e)
+  static ::System::Linq::Expressions::ExpressionType const PreDecrementAssign;
+
+  /// @brief Field PreIncrementAssign value: static_cast<int32_t>(0x4d)
+  static ::System::Linq::Expressions::ExpressionType const PreIncrementAssign;
 
   /// @brief Field Quote value: static_cast<int32_t>(0x28)
   static ::System::Linq::Expressions::ExpressionType const Quote;
@@ -256,56 +343,23 @@ public:
   /// @brief Field RightShift value: static_cast<int32_t>(0x29)
   static ::System::Linq::Expressions::ExpressionType const RightShift;
 
-  /// @brief Field Subtract value: static_cast<int32_t>(0x2a)
-  static ::System::Linq::Expressions::ExpressionType const Subtract;
-
-  /// @brief Field SubtractChecked value: static_cast<int32_t>(0x2b)
-  static ::System::Linq::Expressions::ExpressionType const SubtractChecked;
-
-  /// @brief Field TypeAs value: static_cast<int32_t>(0x2c)
-  static ::System::Linq::Expressions::ExpressionType const TypeAs;
-
-  /// @brief Field TypeIs value: static_cast<int32_t>(0x2d)
-  static ::System::Linq::Expressions::ExpressionType const TypeIs;
-
-  /// @brief Field Assign value: static_cast<int32_t>(0x2e)
-  static ::System::Linq::Expressions::ExpressionType const Assign;
-
-  /// @brief Field Block value: static_cast<int32_t>(0x2f)
-  static ::System::Linq::Expressions::ExpressionType const Block;
-
-  /// @brief Field DebugInfo value: static_cast<int32_t>(0x30)
-  static ::System::Linq::Expressions::ExpressionType const DebugInfo;
-
-  /// @brief Field Decrement value: static_cast<int32_t>(0x31)
-  static ::System::Linq::Expressions::ExpressionType const Decrement;
-
-  /// @brief Field Dynamic value: static_cast<int32_t>(0x32)
-  static ::System::Linq::Expressions::ExpressionType const Dynamic;
-
-  /// @brief Field Default value: static_cast<int32_t>(0x33)
-  static ::System::Linq::Expressions::ExpressionType const Default;
-
-  /// @brief Field Extension value: static_cast<int32_t>(0x34)
-  static ::System::Linq::Expressions::ExpressionType const Extension;
-
-  /// @brief Field Goto value: static_cast<int32_t>(0x35)
-  static ::System::Linq::Expressions::ExpressionType const Goto;
-
-  /// @brief Field Increment value: static_cast<int32_t>(0x36)
-  static ::System::Linq::Expressions::ExpressionType const Increment;
-
-  /// @brief Field Index value: static_cast<int32_t>(0x37)
-  static ::System::Linq::Expressions::ExpressionType const Index;
-
-  /// @brief Field Label value: static_cast<int32_t>(0x38)
-  static ::System::Linq::Expressions::ExpressionType const Label;
+  /// @brief Field RightShiftAssign value: static_cast<int32_t>(0x48)
+  static ::System::Linq::Expressions::ExpressionType const RightShiftAssign;
 
   /// @brief Field RuntimeVariables value: static_cast<int32_t>(0x39)
   static ::System::Linq::Expressions::ExpressionType const RuntimeVariables;
 
-  /// @brief Field Loop value: static_cast<int32_t>(0x3a)
-  static ::System::Linq::Expressions::ExpressionType const Loop;
+  /// @brief Field Subtract value: static_cast<int32_t>(0x2a)
+  static ::System::Linq::Expressions::ExpressionType const Subtract;
+
+  /// @brief Field SubtractAssign value: static_cast<int32_t>(0x49)
+  static ::System::Linq::Expressions::ExpressionType const SubtractAssign;
+
+  /// @brief Field SubtractAssignChecked value: static_cast<int32_t>(0x4c)
+  static ::System::Linq::Expressions::ExpressionType const SubtractAssignChecked;
+
+  /// @brief Field SubtractChecked value: static_cast<int32_t>(0x2b)
+  static ::System::Linq::Expressions::ExpressionType const SubtractChecked;
 
   /// @brief Field Switch value: static_cast<int32_t>(0x3b)
   static ::System::Linq::Expressions::ExpressionType const Switch;
@@ -316,74 +370,23 @@ public:
   /// @brief Field Try value: static_cast<int32_t>(0x3d)
   static ::System::Linq::Expressions::ExpressionType const Try;
 
-  /// @brief Field Unbox value: static_cast<int32_t>(0x3e)
-  static ::System::Linq::Expressions::ExpressionType const Unbox;
-
-  /// @brief Field AddAssign value: static_cast<int32_t>(0x3f)
-  static ::System::Linq::Expressions::ExpressionType const AddAssign;
-
-  /// @brief Field AndAssign value: static_cast<int32_t>(0x40)
-  static ::System::Linq::Expressions::ExpressionType const AndAssign;
-
-  /// @brief Field DivideAssign value: static_cast<int32_t>(0x41)
-  static ::System::Linq::Expressions::ExpressionType const DivideAssign;
-
-  /// @brief Field ExclusiveOrAssign value: static_cast<int32_t>(0x42)
-  static ::System::Linq::Expressions::ExpressionType const ExclusiveOrAssign;
-
-  /// @brief Field LeftShiftAssign value: static_cast<int32_t>(0x43)
-  static ::System::Linq::Expressions::ExpressionType const LeftShiftAssign;
-
-  /// @brief Field ModuloAssign value: static_cast<int32_t>(0x44)
-  static ::System::Linq::Expressions::ExpressionType const ModuloAssign;
-
-  /// @brief Field MultiplyAssign value: static_cast<int32_t>(0x45)
-  static ::System::Linq::Expressions::ExpressionType const MultiplyAssign;
-
-  /// @brief Field OrAssign value: static_cast<int32_t>(0x46)
-  static ::System::Linq::Expressions::ExpressionType const OrAssign;
-
-  /// @brief Field PowerAssign value: static_cast<int32_t>(0x47)
-  static ::System::Linq::Expressions::ExpressionType const PowerAssign;
-
-  /// @brief Field RightShiftAssign value: static_cast<int32_t>(0x48)
-  static ::System::Linq::Expressions::ExpressionType const RightShiftAssign;
-
-  /// @brief Field SubtractAssign value: static_cast<int32_t>(0x49)
-  static ::System::Linq::Expressions::ExpressionType const SubtractAssign;
-
-  /// @brief Field AddAssignChecked value: static_cast<int32_t>(0x4a)
-  static ::System::Linq::Expressions::ExpressionType const AddAssignChecked;
-
-  /// @brief Field MultiplyAssignChecked value: static_cast<int32_t>(0x4b)
-  static ::System::Linq::Expressions::ExpressionType const MultiplyAssignChecked;
-
-  /// @brief Field SubtractAssignChecked value: static_cast<int32_t>(0x4c)
-  static ::System::Linq::Expressions::ExpressionType const SubtractAssignChecked;
-
-  /// @brief Field PreIncrementAssign value: static_cast<int32_t>(0x4d)
-  static ::System::Linq::Expressions::ExpressionType const PreIncrementAssign;
-
-  /// @brief Field PreDecrementAssign value: static_cast<int32_t>(0x4e)
-  static ::System::Linq::Expressions::ExpressionType const PreDecrementAssign;
-
-  /// @brief Field PostIncrementAssign value: static_cast<int32_t>(0x4f)
-  static ::System::Linq::Expressions::ExpressionType const PostIncrementAssign;
-
-  /// @brief Field PostDecrementAssign value: static_cast<int32_t>(0x50)
-  static ::System::Linq::Expressions::ExpressionType const PostDecrementAssign;
+  /// @brief Field TypeAs value: static_cast<int32_t>(0x2c)
+  static ::System::Linq::Expressions::ExpressionType const TypeAs;
 
   /// @brief Field TypeEqual value: static_cast<int32_t>(0x51)
   static ::System::Linq::Expressions::ExpressionType const TypeEqual;
 
-  /// @brief Field OnesComplement value: static_cast<int32_t>(0x52)
-  static ::System::Linq::Expressions::ExpressionType const OnesComplement;
+  /// @brief Field TypeIs value: static_cast<int32_t>(0x2d)
+  static ::System::Linq::Expressions::ExpressionType const TypeIs;
 
-  /// @brief Field IsTrue value: static_cast<int32_t>(0x53)
-  static ::System::Linq::Expressions::ExpressionType const IsTrue;
+  /// @brief Field UnaryPlus value: static_cast<int32_t>(0x1d)
+  static ::System::Linq::Expressions::ExpressionType const UnaryPlus;
 
-  /// @brief Field IsFalse value: static_cast<int32_t>(0x54)
-  static ::System::Linq::Expressions::ExpressionType const IsFalse;
+  /// @brief Field Unbox value: static_cast<int32_t>(0x3e)
+  static ::System::Linq::Expressions::ExpressionType const Unbox;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

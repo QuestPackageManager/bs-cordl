@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxUnicastIPAddressInformati
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7266))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7287))
 // CS Name: ::System.Net.NetworkInformation::LinuxUnicastIPAddressInformation*
 class CORDL_TYPE LinuxUnicastIPAddressInformation : public ::System::Net::NetworkInformation::UnicastIPAddressInformation {
 public:
   // Declarations
+  __declspec(property(get = get_Address))::System::Net::IPAddress* Address;
+
   /// @brief Field address, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_address, put = __cordl_internal_set_address))::System::Net::IPAddress* address;
 
-  __declspec(property(get = get_Address))::System::Net::IPAddress* Address;
+  static inline ::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
   constexpr ::System::Net::IPAddress*& __cordl_internal_get_address();
 
@@ -34,14 +34,18 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  static inline ::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
-
-  /// @brief Method .ctor, addr 0x29f3d50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adbe24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method get_Address, addr 0x29f3d78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Address, addr 0x2adbe4c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IPAddress* get_Address();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LinuxUnicastIPAddressInformation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LinuxUnicastIPAddressInformation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinuxUnicastIPAddressInformation(LinuxUnicastIPAddressInformation&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinuxUnicastIPAddressInformation(LinuxUnicastIPAddressInformation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinuxUnicastIPAddressInformation();
-
-public:
   /// @brief Field address, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPAddress* ___address;
 

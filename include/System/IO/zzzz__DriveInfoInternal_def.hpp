@@ -16,15 +16,19 @@ MARK_REF_PTR_T(::System::IO::DriveInfoInternal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3637))
 // CS Name: ::System.IO::DriveInfoInternal*
 class CORDL_TYPE DriveInfoInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLogicalDrives, addr 0x2566cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrives, addr 0x2639a14, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetLogicalDrives();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DriveInfoInternal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DriveInfoInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DriveInfoInternal(DriveInfoInternal&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DriveInfoInternal(DriveInfoInternal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DriveInfoInternal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

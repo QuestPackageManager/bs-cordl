@@ -24,24 +24,28 @@ MARK_REF_PTR_T(::Tayx::Graphy::Utils::G_ExtensionMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Utils {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14943))
 // CS Name: ::Tayx.Graphy.Utils::G_ExtensionMethods*
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive, addr 0x2a0b0ac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x2af3180, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
                                                                                                           bool active);
 
-  /// @brief Method SetOneActive, addr 0x2a0b210, size 0xb4, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
-                                                                                                         int32_t active);
-
-  /// @brief Method SetAllActive, addr 0x2a0b2c4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SetAllActive, addr 0x2af3398, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
                                                                                                          bool active);
 
+  /// @brief Method SetOneActive, addr 0x2af32e4, size 0xb4, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
+                                                                                                         int32_t active);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_ExtensionMethods();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_ExtensionMethods", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_ExtensionMethods(G_ExtensionMethods&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_ExtensionMethods(G_ExtensionMethods const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_ExtensionMethods();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

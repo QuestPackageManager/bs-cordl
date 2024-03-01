@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsProtocol);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1222))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsProtocol*
 class CORDL_TYPE DtlsProtocol : public ::System::Object {
 public:
@@ -40,36 +38,42 @@ public:
   /// @brief Field mSecureRandom, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
 
+  /// @brief Method ApplyMaxFragmentLengthExtension, addr 0xfd8a0c, size 0xa0, virtual false, abstract: false, final false
+  static inline void ApplyMaxFragmentLengthExtension(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer, int16_t maxFragmentLength);
+
+  /// @brief Method EvaluateMaxFragmentLengthExtension, addr 0xfd8aac, size 0xac, virtual false, abstract: false, final false
+  static inline int16_t EvaluateMaxFragmentLengthExtension(bool resumedSession, ::System::Collections::IDictionary* clientExtensions, ::System::Collections::IDictionary* serverExtensions,
+                                                           uint8_t alertDescription);
+
+  /// @brief Method GenerateCertificate, addr 0xfd8b58, size 0x84, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate);
+
+  /// @brief Method GenerateSupplementalData, addr 0xfd8bdc, size 0x7c, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSupplementalData(::System::Collections::IList* supplementalData);
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+
+  /// @brief Method ProcessFinished, addr 0xfd88dc, size 0x130, virtual true, abstract: false, final false
+  inline void ProcessFinished(::ArrayW<uint8_t, ::Array<uint8_t>*> body, ::ArrayW<uint8_t, ::Array<uint8_t>*> expected_verify_data);
+
+  /// @brief Method ValidateSelectedCipherSuite, addr 0xfd8c58, size 0xb4, virtual false, abstract: false, final false
+  static inline void ValidateSelectedCipherSuite(int32_t selectedCipherSuite, uint8_t alertDescription);
+
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mSecureRandom();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mSecureRandom() const;
 
   constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
-
-  /// @brief Method .ctor, addr 0xf92894, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfd8864, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method ProcessFinished, addr 0xf9290c, size 0x130, virtual true, abstract: false, final false
-  inline void ProcessFinished(::ArrayW<uint8_t, ::Array<uint8_t>*> body, ::ArrayW<uint8_t, ::Array<uint8_t>*> expected_verify_data);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DtlsProtocol();
 
-  /// @brief Method ApplyMaxFragmentLengthExtension, addr 0xf92a3c, size 0xa0, virtual false, abstract: false, final false
-  static inline void ApplyMaxFragmentLengthExtension(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer, int16_t maxFragmentLength);
-
-  /// @brief Method EvaluateMaxFragmentLengthExtension, addr 0xf92adc, size 0xac, virtual false, abstract: false, final false
-  static inline int16_t EvaluateMaxFragmentLengthExtension(bool resumedSession, ::System::Collections::IDictionary* clientExtensions, ::System::Collections::IDictionary* serverExtensions,
-                                                           uint8_t alertDescription);
-
-  /// @brief Method GenerateCertificate, addr 0xf92b88, size 0x84, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate);
-
-  /// @brief Method GenerateSupplementalData, addr 0xf92c0c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSupplementalData(::System::Collections::IList* supplementalData);
-
-  /// @brief Method ValidateSelectedCipherSuite, addr 0xf92c88, size 0xb4, virtual false, abstract: false, final false
-  static inline void ValidateSelectedCipherSuite(int32_t selectedCipherSuite, uint8_t alertDescription);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DtlsProtocol", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsProtocol(DtlsProtocol&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DtlsProtocol(DtlsProtocol const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DtlsProtocol();
-
-public:
   /// @brief Field mSecureRandom, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___mSecureRandom;
 

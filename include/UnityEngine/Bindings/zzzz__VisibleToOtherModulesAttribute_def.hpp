@@ -16,22 +16,26 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::VisibleToOtherModulesAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16107))
 // CS Name: ::UnityEngine.Bindings::VisibleToOtherModulesAttribute*
 class CORDL_TYPE VisibleToOtherModulesAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d38cc4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
-  /// @brief Method .ctor, addr 0x2d38ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e253ec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2e253f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VisibleToOtherModulesAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VisibleToOtherModulesAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VisibleToOtherModulesAttribute(VisibleToOtherModulesAttribute&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisibleToOtherModulesAttribute(VisibleToOtherModulesAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisibleToOtherModulesAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

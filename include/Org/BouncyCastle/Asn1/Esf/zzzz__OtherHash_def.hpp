@@ -34,65 +34,69 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OtherHash);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(149))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OtherHash*
 class CORDL_TYPE OtherHash : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field sha1Hash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sha1Hash, put = __cordl_internal_set_sha1Hash))::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash;
+  __declspec(property(get = get_HashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
   /// @brief Field otherHash, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_otherHash, put = __cordl_internal_set_otherHash))::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash;
 
-  __declspec(property(get = get_HashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
+  /// @brief Field sha1Hash, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_sha1Hash, put = __cordl_internal_set_sha1Hash))::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Method GetHashValue, addr 0xf05d0c, size 0x30, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashValue();
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_sha1Hash();
+  /// @brief Method GetInstance, addr 0xf03e8c, size 0x128, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* GetInstance(::System::Object* obj);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_sha1Hash() const;
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
 
-  constexpr void __cordl_internal_set_sha1Hash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
+
+  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
+
+  /// @brief Method ToAsn1Object, addr 0xf05d5c, size 0x20, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*& __cordl_internal_get_otherHash();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*> const& __cordl_internal_get_otherHash() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_sha1Hash();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_sha1Hash() const;
+
   constexpr void __cordl_internal_set_otherHash(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* value);
 
-  /// @brief Method GetInstance, addr 0xebcebc, size 0x128, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* GetInstance(::System::Object* obj);
+  constexpr void __cordl_internal_set_sha1Hash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
-
-  /// @brief Method .ctor, addr 0xebebd4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
-
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
-
-  /// @brief Method .ctor, addr 0xebe95c, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
-
-  static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
-
-  /// @brief Method .ctor, addr 0xebeb5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf05b2c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
 
-  /// @brief Method get_HashAlgorithm, addr 0xebec98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf05ba4, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
+
+  /// @brief Method .ctor, addr 0xf0592c, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
+
+  /// @brief Method get_HashAlgorithm, addr 0xf05c68, size 0xa4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method GetHashValue, addr 0xebed3c, size 0x30, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashValue();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  /// @brief Method ToAsn1Object, addr 0xebed8c, size 0x20, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OtherHash();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OtherHash", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherHash(OtherHash&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OtherHash(OtherHash const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OtherHash();
-
-public:
   /// @brief Field sha1Hash, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___sha1Hash;
 

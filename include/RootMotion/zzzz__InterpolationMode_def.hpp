@@ -15,8 +15,6 @@ MARK_VAL_T(::RootMotion::InterpolationMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12391))
 // CS Name: ::RootMotion::InterpolationMode
 struct CORDL_TYPE InterpolationMode {
 public:
@@ -59,21 +57,41 @@ public:
     return static_cast<__InterpolationMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr InterpolationMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InterpolationMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InterpolationMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BackInCubic value: static_cast<int32_t>(0x19)
+  static ::RootMotion::InterpolationMode const BackInCubic;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::RootMotion::InterpolationMode const None;
+  /// @brief Field BackInQuartic value: static_cast<int32_t>(0x1a)
+  static ::RootMotion::InterpolationMode const BackInQuartic;
+
+  /// @brief Field InBack value: static_cast<int32_t>(0xc)
+  static ::RootMotion::InterpolationMode const InBack;
+
+  /// @brief Field InCubic value: static_cast<int32_t>(0x6)
+  static ::RootMotion::InterpolationMode const InCubic;
+
+  /// @brief Field InElastic value: static_cast<int32_t>(0x8)
+  static ::RootMotion::InterpolationMode const InElastic;
+
+  /// @brief Field InElasticBig value: static_cast<int32_t>(0xa)
+  static ::RootMotion::InterpolationMode const InElasticBig;
+
+  /// @brief Field InElasticSmall value: static_cast<int32_t>(0x9)
+  static ::RootMotion::InterpolationMode const InElasticSmall;
 
   /// @brief Field InOutCubic value: static_cast<int32_t>(0x1)
   static ::RootMotion::InterpolationMode const InOutCubic;
@@ -84,59 +102,20 @@ public:
   /// @brief Field InOutSine value: static_cast<int32_t>(0x3)
   static ::RootMotion::InterpolationMode const InOutSine;
 
-  /// @brief Field InQuintic value: static_cast<int32_t>(0x4)
-  static ::RootMotion::InterpolationMode const InQuintic;
+  /// @brief Field InQuadratic value: static_cast<int32_t>(0x7)
+  static ::RootMotion::InterpolationMode const InQuadratic;
 
   /// @brief Field InQuartic value: static_cast<int32_t>(0x5)
   static ::RootMotion::InterpolationMode const InQuartic;
 
-  /// @brief Field InCubic value: static_cast<int32_t>(0x6)
-  static ::RootMotion::InterpolationMode const InCubic;
-
-  /// @brief Field InQuadratic value: static_cast<int32_t>(0x7)
-  static ::RootMotion::InterpolationMode const InQuadratic;
-
-  /// @brief Field InElastic value: static_cast<int32_t>(0x8)
-  static ::RootMotion::InterpolationMode const InElastic;
-
-  /// @brief Field InElasticSmall value: static_cast<int32_t>(0x9)
-  static ::RootMotion::InterpolationMode const InElasticSmall;
-
-  /// @brief Field InElasticBig value: static_cast<int32_t>(0xa)
-  static ::RootMotion::InterpolationMode const InElasticBig;
+  /// @brief Field InQuintic value: static_cast<int32_t>(0x4)
+  static ::RootMotion::InterpolationMode const InQuintic;
 
   /// @brief Field InSine value: static_cast<int32_t>(0xb)
   static ::RootMotion::InterpolationMode const InSine;
 
-  /// @brief Field InBack value: static_cast<int32_t>(0xc)
-  static ::RootMotion::InterpolationMode const InBack;
-
-  /// @brief Field OutQuintic value: static_cast<int32_t>(0xd)
-  static ::RootMotion::InterpolationMode const OutQuintic;
-
-  /// @brief Field OutQuartic value: static_cast<int32_t>(0xe)
-  static ::RootMotion::InterpolationMode const OutQuartic;
-
-  /// @brief Field OutCubic value: static_cast<int32_t>(0xf)
-  static ::RootMotion::InterpolationMode const OutCubic;
-
-  /// @brief Field OutInCubic value: static_cast<int32_t>(0x10)
-  static ::RootMotion::InterpolationMode const OutInCubic;
-
-  /// @brief Field OutInQuartic value: static_cast<int32_t>(0x11)
-  static ::RootMotion::InterpolationMode const OutInQuartic;
-
-  /// @brief Field OutElastic value: static_cast<int32_t>(0x12)
-  static ::RootMotion::InterpolationMode const OutElastic;
-
-  /// @brief Field OutElasticSmall value: static_cast<int32_t>(0x13)
-  static ::RootMotion::InterpolationMode const OutElasticSmall;
-
-  /// @brief Field OutElasticBig value: static_cast<int32_t>(0x14)
-  static ::RootMotion::InterpolationMode const OutElasticBig;
-
-  /// @brief Field OutSine value: static_cast<int32_t>(0x15)
-  static ::RootMotion::InterpolationMode const OutSine;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::RootMotion::InterpolationMode const None;
 
   /// @brief Field OutBack value: static_cast<int32_t>(0x16)
   static ::RootMotion::InterpolationMode const OutBack;
@@ -147,11 +126,35 @@ public:
   /// @brief Field OutBackQuartic value: static_cast<int32_t>(0x18)
   static ::RootMotion::InterpolationMode const OutBackQuartic;
 
-  /// @brief Field BackInCubic value: static_cast<int32_t>(0x19)
-  static ::RootMotion::InterpolationMode const BackInCubic;
+  /// @brief Field OutCubic value: static_cast<int32_t>(0xf)
+  static ::RootMotion::InterpolationMode const OutCubic;
 
-  /// @brief Field BackInQuartic value: static_cast<int32_t>(0x1a)
-  static ::RootMotion::InterpolationMode const BackInQuartic;
+  /// @brief Field OutElastic value: static_cast<int32_t>(0x12)
+  static ::RootMotion::InterpolationMode const OutElastic;
+
+  /// @brief Field OutElasticBig value: static_cast<int32_t>(0x14)
+  static ::RootMotion::InterpolationMode const OutElasticBig;
+
+  /// @brief Field OutElasticSmall value: static_cast<int32_t>(0x13)
+  static ::RootMotion::InterpolationMode const OutElasticSmall;
+
+  /// @brief Field OutInCubic value: static_cast<int32_t>(0x10)
+  static ::RootMotion::InterpolationMode const OutInCubic;
+
+  /// @brief Field OutInQuartic value: static_cast<int32_t>(0x11)
+  static ::RootMotion::InterpolationMode const OutInQuartic;
+
+  /// @brief Field OutQuartic value: static_cast<int32_t>(0xe)
+  static ::RootMotion::InterpolationMode const OutQuartic;
+
+  /// @brief Field OutQuintic value: static_cast<int32_t>(0xd)
+  static ::RootMotion::InterpolationMode const OutQuintic;
+
+  /// @brief Field OutSine value: static_cast<int32_t>(0x15)
+  static ::RootMotion::InterpolationMode const OutSine;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

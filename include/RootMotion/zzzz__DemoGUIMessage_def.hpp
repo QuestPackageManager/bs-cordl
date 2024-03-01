@@ -16,38 +16,42 @@ MARK_REF_PTR_T(::RootMotion::DemoGUIMessage);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12388))
 // CS Name: ::RootMotion::DemoGUIMessage*
 class CORDL_TYPE DemoGUIMessage : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
-
   /// @brief Field color, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
-  constexpr ::StringW& __cordl_internal_get_text();
-
-  constexpr ::StringW const& __cordl_internal_get_text() const;
-
-  constexpr void __cordl_internal_set_text(::StringW value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
-
-  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
-
-  /// @brief Method OnGUI, addr 0x12d7d90, size 0xf8, virtual false, abstract: false, final false
-  inline void OnGUI();
+  /// @brief Field text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   static inline ::RootMotion::DemoGUIMessage* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12d7e88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x1318d7c, size 0xf8, virtual false, abstract: false, final false
+  inline void OnGUI();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
+
+  constexpr ::StringW const& __cordl_internal_get_text() const;
+
+  constexpr ::StringW& __cordl_internal_get_text();
+
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_text(::StringW value);
+
+  /// @brief Method .ctor, addr 0x1318e74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DemoGUIMessage();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DemoGUIMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DemoGUIMessage(DemoGUIMessage&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DemoGUIMessage(DemoGUIMessage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DemoGUIMessage();
-
-public:
   /// @brief Field text, offset: 0x18, size: 0x8, def value: None
   ::StringW ___text;
 

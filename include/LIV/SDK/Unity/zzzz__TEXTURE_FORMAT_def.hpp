@@ -15,8 +15,6 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_FORMAT);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14977))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_FORMAT
 struct CORDL_TYPE TEXTURE_FORMAT {
 public:
@@ -34,24 +32,29 @@ public:
     return static_cast<__TEXTURE_FORMAT_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr TEXTURE_FORMAT(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TEXTURE_FORMAT();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr TEXTURE_FORMAT(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field ARGB32 value: static_cast<uint32_t>(0x201000au)
+  static ::LIV::SDK::Unity::TEXTURE_FORMAT const ARGB32;
 
   /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x1000a00u)
   static ::LIV::SDK::Unity::TEXTURE_FORMAT const UNDEFINED;
 
-  /// @brief Field ARGB32 value: static_cast<uint32_t>(0x201000au)
-  static ::LIV::SDK::Unity::TEXTURE_FORMAT const ARGB32;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

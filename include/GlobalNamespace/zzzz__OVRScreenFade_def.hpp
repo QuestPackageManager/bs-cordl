@@ -46,12 +46,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRScreenFade___Fade_d__25);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8114))
 // CS Name: ::OVRScreenFade::<Fade>d__25*
 class CORDL_TYPE __OVRScreenFade___Fade_d__25 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -61,93 +63,95 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRScreenFade> __4__this;
 
-  /// @brief Field startAlpha, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_startAlpha, put = __cordl_internal_set_startAlpha)) float_t startAlpha;
+  /// @brief Field <elapsedTime>5__2, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
 
   /// @brief Field endAlpha, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_endAlpha, put = __cordl_internal_set_endAlpha)) float_t endAlpha;
 
-  /// @brief Field <elapsedTime>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
-
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field startAlpha, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_startAlpha, put = __cordl_internal_set_startAlpha)) float_t startAlpha;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x28af08c, size 0x11c, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRScreenFade___Fade_d__25* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x28af1a8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x28af1b0, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28af1f0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x28af088, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRScreenFade> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRScreenFade>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRScreenFade> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRScreenFade> value);
-
-  constexpr float_t& __cordl_internal_get_startAlpha();
-
-  constexpr float_t const& __cordl_internal_get_startAlpha() const;
-
-  constexpr void __cordl_internal_set_startAlpha(float_t value);
-
-  constexpr float_t& __cordl_internal_get_endAlpha();
-
-  constexpr float_t const& __cordl_internal_get_endAlpha() const;
-
-  constexpr void __cordl_internal_set_endAlpha(float_t value);
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
 
   constexpr float_t& __cordl_internal_get__elapsedTime_5__2();
 
-  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get_endAlpha() const;
+
+  constexpr float_t& __cordl_internal_get_endAlpha();
+
+  constexpr float_t const& __cordl_internal_get_startAlpha() const;
+
+  constexpr float_t& __cordl_internal_get_startAlpha();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRScreenFade> value);
 
   constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
-  static inline ::GlobalNamespace::__OVRScreenFade___Fade_d__25* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set_endAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x27ce108, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_startAlpha(float_t value);
+
+  /// @brief Method .ctor, addr 0x28af034, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27ce15c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27ce160, size 0x11c, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27ce27c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27ce284, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRScreenFade___Fade_d__25();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27ce2c4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRScreenFade___Fade_d__25", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRScreenFade___Fade_d__25(__OVRScreenFade___Fade_d__25&&) = delete;
@@ -156,12 +160,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRScreenFade___Fade_d__25(__OVRScreenFade___Fade_d__25 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRScreenFade___Fade_d__25();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -202,166 +200,170 @@ static_assert(offsetof(::GlobalNamespace::__OVRScreenFade___Fade_d__25, ____elap
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8115))
 // CS Name: ::OVRScreenFade*
 class CORDL_TYPE OVRScreenFade : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using _Fade_d__25 = ::GlobalNamespace::__OVRScreenFade___Fade_d__25;
 
-  /// @brief Field fadeTime, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_fadeTime, put = __cordl_internal_set_fadeTime)) float_t fadeTime;
-
-  /// @brief Field fadeColor, offset 0x1c, size 0x10
-  __declspec(property(get = __cordl_internal_get_fadeColor, put = __cordl_internal_set_fadeColor))::UnityEngine::Color fadeColor;
-
-  /// @brief Field fadeOnStart, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get_fadeOnStart, put = __cordl_internal_set_fadeOnStart)) bool fadeOnStart;
-
-  /// @brief Field renderQueue, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_renderQueue, put = __cordl_internal_set_renderQueue)) int32_t renderQueue;
-
-  /// @brief Field explicitFadeAlpha, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_explicitFadeAlpha, put = __cordl_internal_set_explicitFadeAlpha)) float_t explicitFadeAlpha;
+  /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::UnityW<::GlobalNamespace::OVRScreenFade> _instance_k__BackingField;
 
   /// @brief Field animatedFadeAlpha, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_animatedFadeAlpha, put = __cordl_internal_set_animatedFadeAlpha)) float_t animatedFadeAlpha;
 
-  /// @brief Field uiFadeAlpha, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_uiFadeAlpha, put = __cordl_internal_set_uiFadeAlpha)) float_t uiFadeAlpha;
+  __declspec(property(get = get_currentAlpha)) float_t currentAlpha;
 
-  /// @brief Field fadeRenderer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_fadeRenderer, put = __cordl_internal_set_fadeRenderer))::UnityW<::UnityEngine::MeshRenderer> fadeRenderer;
+  /// @brief Field explicitFadeAlpha, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_explicitFadeAlpha, put = __cordl_internal_set_explicitFadeAlpha)) float_t explicitFadeAlpha;
 
-  /// @brief Field fadeMesh, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_fadeMesh, put = __cordl_internal_set_fadeMesh))::UnityW<::UnityEngine::MeshFilter> fadeMesh;
+  /// @brief Field fadeColor, offset 0x1c, size 0x10
+  __declspec(property(get = __cordl_internal_get_fadeColor, put = __cordl_internal_set_fadeColor))::UnityEngine::Color fadeColor;
 
   /// @brief Field fadeMaterial, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_fadeMaterial, put = __cordl_internal_set_fadeMaterial))::UnityW<::UnityEngine::Material> fadeMaterial;
 
+  /// @brief Field fadeMesh, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_fadeMesh, put = __cordl_internal_set_fadeMesh))::UnityW<::UnityEngine::MeshFilter> fadeMesh;
+
+  /// @brief Field fadeOnStart, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get_fadeOnStart, put = __cordl_internal_set_fadeOnStart)) bool fadeOnStart;
+
+  /// @brief Field fadeRenderer, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_fadeRenderer, put = __cordl_internal_set_fadeRenderer))::UnityW<::UnityEngine::MeshRenderer> fadeRenderer;
+
+  /// @brief Field fadeTime, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_fadeTime, put = __cordl_internal_set_fadeTime)) float_t fadeTime;
+
   /// @brief Field isFading, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_isFading, put = __cordl_internal_set_isFading)) bool isFading;
 
-  /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::UnityW<::GlobalNamespace::OVRScreenFade> _instance_k__BackingField;
+  /// @brief Field renderQueue, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_renderQueue, put = __cordl_internal_set_renderQueue)) int32_t renderQueue;
 
-  __declspec(property(get = get_currentAlpha)) float_t currentAlpha;
+  /// @brief Field uiFadeAlpha, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_uiFadeAlpha, put = __cordl_internal_set_uiFadeAlpha)) float_t uiFadeAlpha;
 
-  constexpr float_t& __cordl_internal_get_fadeTime();
-
-  constexpr float_t const& __cordl_internal_get_fadeTime() const;
-
-  constexpr void __cordl_internal_set_fadeTime(float_t value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_fadeColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_fadeColor() const;
-
-  constexpr void __cordl_internal_set_fadeColor(::UnityEngine::Color value);
-
-  constexpr bool& __cordl_internal_get_fadeOnStart();
-
-  constexpr bool const& __cordl_internal_get_fadeOnStart() const;
-
-  constexpr void __cordl_internal_set_fadeOnStart(bool value);
-
-  constexpr int32_t& __cordl_internal_get_renderQueue();
-
-  constexpr int32_t const& __cordl_internal_get_renderQueue() const;
-
-  constexpr void __cordl_internal_set_renderQueue(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_explicitFadeAlpha();
-
-  constexpr float_t const& __cordl_internal_get_explicitFadeAlpha() const;
-
-  constexpr void __cordl_internal_set_explicitFadeAlpha(float_t value);
-
-  constexpr float_t& __cordl_internal_get_animatedFadeAlpha();
-
-  constexpr float_t const& __cordl_internal_get_animatedFadeAlpha() const;
-
-  constexpr void __cordl_internal_set_animatedFadeAlpha(float_t value);
-
-  constexpr float_t& __cordl_internal_get_uiFadeAlpha();
-
-  constexpr float_t const& __cordl_internal_get_uiFadeAlpha() const;
-
-  constexpr void __cordl_internal_set_uiFadeAlpha(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_fadeRenderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_fadeRenderer() const;
-
-  constexpr void __cordl_internal_set_fadeRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_fadeMesh();
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_fadeMesh() const;
-
-  constexpr void __cordl_internal_set_fadeMesh(::UnityW<::UnityEngine::MeshFilter> value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_fadeMaterial();
-
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_fadeMaterial() const;
-
-  constexpr void __cordl_internal_set_fadeMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr bool& __cordl_internal_get_isFading();
-
-  constexpr bool const& __cordl_internal_get_isFading() const;
-
-  constexpr void __cordl_internal_set_isFading(bool value);
-
-  static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value);
-
-  static inline ::UnityW<::GlobalNamespace::OVRScreenFade> getStaticF__instance_k__BackingField();
-
-  /// @brief Method get_instance, addr 0x27cd790, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::OVRScreenFade> get_instance();
-
-  /// @brief Method set_instance, addr 0x27cd7d8, size 0x4c, virtual false, abstract: false, final false
-  static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);
-
-  /// @brief Method get_currentAlpha, addr 0x27cd824, size 0xbc, virtual false, abstract: false, final false
-  inline float_t get_currentAlpha();
-
-  /// @brief Method Start, addr 0x27cd8e0, size 0x49c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method FadeIn, addr 0x27cdd7c, size 0x28, virtual false, abstract: false, final false
-  inline void FadeIn();
-
-  /// @brief Method FadeOut, addr 0x27cde20, size 0x28, virtual false, abstract: false, final false
-  inline void FadeOut();
-
-  /// @brief Method OnLevelFinishedLoading, addr 0x27cde48, size 0x28, virtual false, abstract: false, final false
-  inline void OnLevelFinishedLoading(int32_t level);
-
-  /// @brief Method OnEnable, addr 0x27cde70, size 0x18, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDestroy, addr 0x27cde88, size 0x154, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method SetUIFade, addr 0x27cdfdc, size 0x1c, virtual false, abstract: false, final false
-  inline void SetUIFade(float_t level);
-
-  /// @brief Method SetExplicitFade, addr 0x27ce100, size 0x8, virtual false, abstract: false, final false
-  inline void SetExplicitFade(float_t level);
-
-  /// @brief Method Fade, addr 0x27cdda4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x28aecd0, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t startAlpha, float_t endAlpha);
 
-  /// @brief Method SetMaterialAlpha, addr 0x27cdff8, size 0x108, virtual false, abstract: false, final false
-  inline void SetMaterialAlpha();
+  /// @brief Method FadeIn, addr 0x28aeca8, size 0x28, virtual false, abstract: false, final false
+  inline void FadeIn();
+
+  /// @brief Method FadeOut, addr 0x28aed4c, size 0x28, virtual false, abstract: false, final false
+  inline void FadeOut();
 
   static inline ::GlobalNamespace::OVRScreenFade* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27ce130, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x28aedb4, size 0x154, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnEnable, addr 0x28aed9c, size 0x18, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method OnLevelFinishedLoading, addr 0x28aed74, size 0x28, virtual false, abstract: false, final false
+  inline void OnLevelFinishedLoading(int32_t level);
+
+  /// @brief Method SetExplicitFade, addr 0x28af02c, size 0x8, virtual false, abstract: false, final false
+  inline void SetExplicitFade(float_t level);
+
+  /// @brief Method SetMaterialAlpha, addr 0x28aef24, size 0x108, virtual false, abstract: false, final false
+  inline void SetMaterialAlpha();
+
+  /// @brief Method SetUIFade, addr 0x28aef08, size 0x1c, virtual false, abstract: false, final false
+  inline void SetUIFade(float_t level);
+
+  /// @brief Method Start, addr 0x28ae80c, size 0x49c, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr float_t const& __cordl_internal_get_animatedFadeAlpha() const;
+
+  constexpr float_t& __cordl_internal_get_animatedFadeAlpha();
+
+  constexpr float_t const& __cordl_internal_get_explicitFadeAlpha() const;
+
+  constexpr float_t& __cordl_internal_get_explicitFadeAlpha();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_fadeColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_fadeColor();
+
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_fadeMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_fadeMaterial();
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_fadeMesh() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_fadeMesh();
+
+  constexpr bool const& __cordl_internal_get_fadeOnStart() const;
+
+  constexpr bool& __cordl_internal_get_fadeOnStart();
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_fadeRenderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_fadeRenderer();
+
+  constexpr float_t const& __cordl_internal_get_fadeTime() const;
+
+  constexpr float_t& __cordl_internal_get_fadeTime();
+
+  constexpr bool const& __cordl_internal_get_isFading() const;
+
+  constexpr bool& __cordl_internal_get_isFading();
+
+  constexpr int32_t const& __cordl_internal_get_renderQueue() const;
+
+  constexpr int32_t& __cordl_internal_get_renderQueue();
+
+  constexpr float_t const& __cordl_internal_get_uiFadeAlpha() const;
+
+  constexpr float_t& __cordl_internal_get_uiFadeAlpha();
+
+  constexpr void __cordl_internal_set_animatedFadeAlpha(float_t value);
+
+  constexpr void __cordl_internal_set_explicitFadeAlpha(float_t value);
+
+  constexpr void __cordl_internal_set_fadeColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_fadeMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_fadeMesh(::UnityW<::UnityEngine::MeshFilter> value);
+
+  constexpr void __cordl_internal_set_fadeOnStart(bool value);
+
+  constexpr void __cordl_internal_set_fadeRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
+  constexpr void __cordl_internal_set_fadeTime(float_t value);
+
+  constexpr void __cordl_internal_set_isFading(bool value);
+
+  constexpr void __cordl_internal_set_renderQueue(int32_t value);
+
+  constexpr void __cordl_internal_set_uiFadeAlpha(float_t value);
+
+  /// @brief Method .ctor, addr 0x28af05c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::UnityW<::GlobalNamespace::OVRScreenFade> getStaticF__instance_k__BackingField();
+
+  /// @brief Method get_currentAlpha, addr 0x28ae750, size 0xbc, virtual false, abstract: false, final false
+  inline float_t get_currentAlpha();
+
+  /// @brief Method get_instance, addr 0x28ae6bc, size 0x48, virtual false, abstract: false, final false
+  static inline ::UnityW<::GlobalNamespace::OVRScreenFade> get_instance();
+
+  static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value);
+
+  /// @brief Method set_instance, addr 0x28ae704, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRScreenFade();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRScreenFade", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRScreenFade(OVRScreenFade&&) = delete;
@@ -370,12 +372,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRScreenFade(OVRScreenFade const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRScreenFade();
-
-public:
   /// @brief Field fadeTime, offset: 0x18, size: 0x4, def value: None
   float_t ___fadeTime;
 

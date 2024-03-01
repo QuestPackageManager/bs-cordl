@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::VRIKRootController::*)()>(
     &::RootMotion::FinalIK::VRIKRootController::get_pelvisTargetRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x133585c;
+  constexpr static std::size_t addrs = 0x1376848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::VRIKRootController*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::VRIKRootController::set_pelvisTargetRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1335868;
+  constexpr static std::size_t addrs = 0x1376854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)()>(&::RootMotion::FinalIK::VRIKRootController::Awake)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x1335874;
+  constexpr static std::size_t addrs = 0x1376860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::VRIKRootController*>::get(), "Awake",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)()>(&::RootMotion::FinalIK::VRIKRootController::Calibrate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x1334540;
+  constexpr static std::size_t addrs = 0x137552c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::VRIKRootController*>::get(), "Calibrate",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData*)>(
     &::RootMotion::FinalIK::VRIKRootController::Calibrate)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x1335350;
+  constexpr static std::size_t addrs = 0x137633c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)()>(&::RootMotion::FinalIK::VRIKRootController::OnPreUpdate)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x1335968;
+  constexpr static std::size_t addrs = 0x1376954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::VRIKRootController*>::get(), "OnPreUpdate",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)()>(&::RootMotion::FinalIK::VRIKRootController::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x1335d30;
+  constexpr static std::size_t addrs = 0x1376d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::VRIKRootController*>::get(), "OnDestroy",
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::VRIKRootController::*)()>(&::RootMotion::FinalIK::VRIKRootController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1335e3c;
+  constexpr static std::size_t addrs = 0x1376e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::VRIKRootController*>::get(), ".ctor",

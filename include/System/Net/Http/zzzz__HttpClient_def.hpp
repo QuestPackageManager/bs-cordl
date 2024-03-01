@@ -80,24 +80,25 @@ MARK_VAL_T(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(14650)), TypeDefinitionIndex(TypeDefinitionIndex(14660)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3393), inst: 887 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 887 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14647)) CS Name:
-// ::HttpClient::<SendAsyncWorker>d__47
+// CS Name: ::HttpClient::<SendAsyncWorker>d__47
 struct CORDL_TYPE __HttpClient___SendAsyncWorker_d__47 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x291b57c, size 0x620, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x291bb9c, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2836100, size 0x620, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2836720, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HttpClient___SendAsyncWorker_d__47();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -113,10 +114,6 @@ public:
                                                  ::System::Net::Http::HttpResponseMessage* _response_5__3,
                                                  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1,
                                                  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpClient___SendAsyncWorker_d__47();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -181,23 +178,25 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(14660)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 887 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 398 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpClient::<GetStringAsync>d__53
+// CS Name: ::HttpClient::<GetStringAsync>d__53
 struct CORDL_TYPE __HttpClient___GetStringAsync_d__53 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x291bbf4, size 0x4c4, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x291c258, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2836778, size 0x4c4, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2836ddc, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HttpClient___GetStringAsync_d__53();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpClient*", modifiers: "",
@@ -209,10 +208,6 @@ public:
                                                 ::System::Uri* requestUri, ::System::Net::Http::HttpResponseMessage* _resp_5__2,
                                                 ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1,
                                                 ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpClient___GetStringAsync_d__53();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -262,8 +257,6 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___GetStringAsync_d__53,
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(14656))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14649))
 // CS Name: ::System.Net.Http::HttpClient*
 class CORDL_TYPE HttpClient : public ::System::Net::Http::HttpMessageInvoker {
 public:
@@ -272,8 +265,18 @@ public:
 
   using _SendAsyncWorker_d__47 = ::System::Net::Http::__HttpClient___SendAsyncWorker_d__47;
 
+  __declspec(property(get = get_MaxResponseContentBufferSize)) int64_t MaxResponseContentBufferSize;
+
+  __declspec(property(put = set_Timeout))::System::TimeSpan Timeout;
+
+  /// @brief Field TimeoutDefault, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_TimeoutDefault, put = setStaticF_TimeoutDefault))::System::TimeSpan TimeoutDefault;
+
   /// @brief Field base_address, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_base_address, put = __cordl_internal_set_base_address))::System::Uri* base_address;
+
+  /// @brief Field buffer_size, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_buffer_size, put = __cordl_internal_set_buffer_size)) int64_t buffer_size;
 
   /// @brief Field cts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts))::System::Threading::CancellationTokenSource* cts;
@@ -284,104 +287,100 @@ public:
   /// @brief Field headers, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
 
-  /// @brief Field buffer_size, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer_size, put = __cordl_internal_set_buffer_size)) int64_t buffer_size;
-
   /// @brief Field timeout, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout))::System::TimeSpan timeout;
 
-  /// @brief Field TimeoutDefault, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TimeoutDefault, put = setStaticF_TimeoutDefault))::System::TimeSpan TimeoutDefault;
+  /// @brief Method Dispose, addr 0x291ab20, size 0x6c, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  __declspec(property(get = get_MaxResponseContentBufferSize)) int64_t MaxResponseContentBufferSize;
+  /// @brief Method GetAsync, addr 0x291abc4, size 0xdc, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
 
-  __declspec(property(put = set_Timeout))::System::TimeSpan Timeout;
+  /// @brief Method GetStringAsync, addr 0x291b3c0, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
+
+  static inline ::System::Net::Http::HttpClient* New_ctor();
+
+  static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
+
+  /// @brief Method SendAsync, addr 0x291afe4, size 0xc, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
+                                                                                                  ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method SendAsync, addr 0x291acdc, size 0x78, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
+                                                                                                  ::System::Net::Http::HttpCompletionOption completionOption);
+
+  /// @brief Method SendAsync, addr 0x291ad54, size 0x290, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
+  SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method SendAsyncWorker, addr 0x291b2a8, size 0x118, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
+  SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::Uri*& __cordl_internal_get_base_address();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_base_address() const;
 
-  constexpr void __cordl_internal_set_base_address(::System::Uri* value);
+  constexpr int64_t const& __cordl_internal_get_buffer_size() const;
+
+  constexpr int64_t& __cordl_internal_get_buffer_size();
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
 
-  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
-
-  constexpr bool& __cordl_internal_get_disposed();
-
   constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+  constexpr bool& __cordl_internal_get_disposed();
 
   constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
-
-  constexpr int64_t& __cordl_internal_get_buffer_size();
-
-  constexpr int64_t const& __cordl_internal_get_buffer_size() const;
-
-  constexpr void __cordl_internal_set_buffer_size(int64_t value);
+  constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
 
   constexpr ::System::TimeSpan& __cordl_internal_get_timeout();
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
+  constexpr void __cordl_internal_set_base_address(::System::Uri* value);
+
+  constexpr void __cordl_internal_set_buffer_size(int64_t value);
+
+  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
+
+  constexpr void __cordl_internal_set_disposed(bool value);
+
+  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
 
   constexpr void __cordl_internal_set_timeout(::System::TimeSpan value);
 
-  static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
-
-  static inline ::System::TimeSpan getStaticF_TimeoutDefault();
-
-  static inline ::System::Net::Http::HttpClient* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28353c4, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
-
-  /// @brief Method .ctor, addr 0x2835428, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
-
-  /// @brief Method get_MaxResponseContentBufferSize, addr 0x2835568, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_MaxResponseContentBufferSize();
-
-  /// @brief Method set_Timeout, addr 0x2835570, size 0x134, virtual false, abstract: false, final false
-  inline void set_Timeout(::System::TimeSpan value);
-
-  /// @brief Method Dispose, addr 0x28356a4, size 0x6c, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method GetAsync, addr 0x2835748, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
-
-  /// @brief Method SendAsync, addr 0x2835860, size 0x78, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
-                                                                                                  ::System::Net::Http::HttpCompletionOption completionOption);
-
-  /// @brief Method SendAsync, addr 0x2835b68, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
-                                                                                                  ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method SendAsync, addr 0x28358d8, size 0x290, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
-  SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method SendAsyncWorker, addr 0x2835e2c, size 0x118, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
-  SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetStringAsync, addr 0x2835f44, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
-
-  /// @brief Method <>n__0, addr 0x28360c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x291b53c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* request,
                                                                                                ::System::Threading::CancellationToken cancellationToken);
 
+  /// @brief Method .ctor, addr 0x291a840, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x291a8a4, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
+
+  static inline ::System::TimeSpan getStaticF_TimeoutDefault();
+
+  /// @brief Method get_MaxResponseContentBufferSize, addr 0x291a9e4, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_MaxResponseContentBufferSize();
+
+  static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
+
+  /// @brief Method set_Timeout, addr 0x291a9ec, size 0x134, virtual false, abstract: false, final false
+  inline void set_Timeout(::System::TimeSpan value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpClient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpClient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpClient(HttpClient&&) = delete;
@@ -390,12 +389,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpClient(HttpClient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpClient();
-
-public:
   /// @brief Field base_address, offset: 0x20, size: 0x8, def value: None
   ::System::Uri* ___base_address;
 

@@ -15,18 +15,22 @@ MARK_REF_PTR_T(::BGLib::DotnetExtension::EnvironmentVariableHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::DotnetExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15236))
 // CS Name: ::BGLib.DotnetExtension::EnvironmentVariableHelper*
 class CORDL_TYPE EnvironmentVariableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDirectoryPath, addr 0xe48758, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryPath, addr 0xe8e728, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryPath(::StringW variableName);
 
-  /// @brief Method SetDirectoryPath, addr 0xe48808, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetDirectoryPath, addr 0xe8e7d8, size 0x11c, virtual false, abstract: false, final false
   static inline void SetDirectoryPath(::StringW variableName, ::StringW path);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentVariableHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentVariableHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentVariableHelper(EnvironmentVariableHelper&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentVariableHelper(EnvironmentVariableHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentVariableHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

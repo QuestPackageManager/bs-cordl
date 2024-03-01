@@ -35,8 +35,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6252))
 // CS Name: ::UxmlEnumAttributeDescription`1::<>c<T>*
 class CORDL_TYPE __UxmlEnumAttributeDescription_1____c : public ::System::Object {
 public:
@@ -50,22 +48,7 @@ public:
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_3<::StringW, T, T>* __9__4_0;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* value);
-
-  static inline ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* getStaticF___9();
-
-  static inline void setStaticF___9__3_0(::System::Func_3<::StringW, T, T>* value);
-
-  static inline ::System::Func_3<::StringW, T, T>* getStaticF___9__3_0();
-
-  static inline void setStaticF___9__4_0(::System::Func_3<::StringW, T, T>* value);
-
-  static inline ::System::Func_3<::StringW, T, T>* getStaticF___9__4_0();
-
   static inline ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <GetValueFromBag>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _GetValueFromBag_b__3_0(::StringW s, T convertible);
@@ -73,6 +56,27 @@ public:
   /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _TryGetValueFromBag_b__4_0(::StringW s, T convertible);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* getStaticF___9();
+
+  static inline ::System::Func_3<::StringW, T, T>* getStaticF___9__3_0();
+
+  static inline ::System::Func_3<::StringW, T, T>* getStaticF___9__4_0();
+
+  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* value);
+
+  static inline void setStaticF___9__3_0(::System::Func_3<::StringW, T, T>* value);
+
+  static inline void setStaticF___9__4_0(::System::Func_3<::StringW, T, T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UxmlEnumAttributeDescription_1____c();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlEnumAttributeDescription_1____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UxmlEnumAttributeDescription_1____c(__UxmlEnumAttributeDescription_1____c&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UxmlEnumAttributeDescription_1____c(__UxmlEnumAttributeDescription_1____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UxmlEnumAttributeDescription_1____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -97,28 +95,32 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6241)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6241), inst: 5195 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6253))
 // CS Name: ::UnityEngine.UIElements::UxmlEnumAttributeDescription`1<T>*
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {
 public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>;
 
-  static inline ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method ConvertValueToEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename U> static inline U ConvertValueToEnum(::StringW v, U defaultValue);
 
   /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
+  static inline ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>* New_ctor();
+
   /// @brief Method TryGetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<T> value);
 
-  /// @brief Method ConvertValueToEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename U> static inline U ConvertValueToEnum(::StringW v, U defaultValue);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlEnumAttributeDescription_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1&&) = delete;
@@ -127,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlEnumAttributeDescription_1(UxmlEnumAttributeDescription_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlEnumAttributeDescription_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

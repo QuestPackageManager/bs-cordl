@@ -27,21 +27,25 @@ MARK_REF_PTR_T(::System::Net::Security::RemoteCertificateValidationCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7378))
 // CS Name: ::System.Net.Security::RemoteCertificateValidationCallback*
 class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2904194, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x29042c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29e9740, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Object* sender, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
+  static inline ::System::Net::Security::RemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x29e9610, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RemoteCertificateValidationCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RemoteCertificateValidationCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemoteCertificateValidationCallback(RemoteCertificateValidationCallback&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RemoteCertificateValidationCallback(RemoteCertificateValidationCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RemoteCertificateValidationCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

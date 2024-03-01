@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Runtime::ConstrainedExecution::Cer);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3347))
 // CS Name: ::System.Runtime.ConstrainedExecution::Cer
 struct CORDL_TYPE Cer {
 public:
@@ -35,27 +33,32 @@ public:
     return static_cast<__Cer_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr Cer(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Cer();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr Cer(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Runtime::ConstrainedExecution::Cer const None;
 
   /// @brief Field MayFail value: static_cast<int32_t>(0x1)
   static ::System::Runtime::ConstrainedExecution::Cer const MayFail;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Runtime::ConstrainedExecution::Cer const None;
+
   /// @brief Field Success value: static_cast<int32_t>(0x2)
   static ::System::Runtime::ConstrainedExecution::Cer const Success;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::RootMotion::BakerMuscle);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12375))
 // CS Name: ::RootMotion::BakerMuscle*
 class CORDL_TYPE BakerMuscle : public ::System::Object {
 public:
@@ -40,47 +38,53 @@ public:
   /// @brief Field propertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
+  /// @brief Method MultiplyLength, addr 0x13104cc, size 0xa8, virtual false, abstract: false, final false
+  inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
+
+  /// @brief Method MuscleNameToPropertyName, addr 0x130fa38, size 0xa34, virtual false, abstract: false, final false
+  inline ::StringW MuscleNameToPropertyName(::StringW n);
+
+  static inline ::RootMotion::BakerMuscle* New_ctor(int32_t muscleIndex);
+
+  /// @brief Method Reset, addr 0x131046c, size 0x60, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SetCurves, addr 0x1310574, size 0xf4, virtual false, abstract: false, final false
+  inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
+
+  /// @brief Method SetKeyframe, addr 0x1310668, size 0x3c, virtual false, abstract: false, final false
+  inline void SetKeyframe(float_t time, ::ArrayW<float_t, ::Array<float_t>*> muscles);
+
+  /// @brief Method SetLoopFrame, addr 0x13106a4, size 0x8, virtual false, abstract: false, final false
+  inline void SetLoopFrame(float_t time);
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_curve();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __cordl_internal_set_curve(::UnityEngine::AnimationCurve* value);
+  constexpr int32_t const& __cordl_internal_get_muscleIndex() const;
 
   constexpr int32_t& __cordl_internal_get_muscleIndex();
 
-  constexpr int32_t const& __cordl_internal_get_muscleIndex() const;
-
-  constexpr void __cordl_internal_set_muscleIndex(int32_t value);
+  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
   constexpr ::StringW& __cordl_internal_get_propertyName();
 
-  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
+  constexpr void __cordl_internal_set_curve(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_muscleIndex(int32_t value);
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  static inline ::RootMotion::BakerMuscle* New_ctor(int32_t muscleIndex);
-
-  /// @brief Method .ctor, addr 0x12ce9e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130f9d4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t muscleIndex);
 
-  /// @brief Method MuscleNameToPropertyName, addr 0x12cea4c, size 0xa34, virtual false, abstract: false, final false
-  inline ::StringW MuscleNameToPropertyName(::StringW n);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BakerMuscle();
 
-  /// @brief Method MultiplyLength, addr 0x12cf4e0, size 0xa8, virtual false, abstract: false, final false
-  inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
-
-  /// @brief Method SetCurves, addr 0x12cf588, size 0xf4, virtual false, abstract: false, final false
-  inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
-
-  /// @brief Method Reset, addr 0x12cf480, size 0x60, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method SetKeyframe, addr 0x12cf67c, size 0x3c, virtual false, abstract: false, final false
-  inline void SetKeyframe(float_t time, ::ArrayW<float_t, ::Array<float_t>*> muscles);
-
-  /// @brief Method SetLoopFrame, addr 0x12cf6b8, size 0x8, virtual false, abstract: false, final false
-  inline void SetLoopFrame(float_t time);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BakerMuscle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakerMuscle(BakerMuscle&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BakerMuscle(BakerMuscle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BakerMuscle();
-
-public:
   /// @brief Field curve, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___curve;
 

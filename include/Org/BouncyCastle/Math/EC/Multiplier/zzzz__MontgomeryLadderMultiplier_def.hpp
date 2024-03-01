@@ -20,20 +20,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultip
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1527))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1535))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::MontgomeryLadderMultiplier*
 class CORDL_TYPE MontgomeryLadderMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x106405c, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x10a902c, size 0x1fc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1064258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a9228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MontgomeryLadderMultiplier();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MontgomeryLadderMultiplier", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MontgomeryLadderMultiplier(MontgomeryLadderMultiplier&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MontgomeryLadderMultiplier(MontgomeryLadderMultiplier const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MontgomeryLadderMultiplier();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Xml::ElementProperties);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11335))
 // CS Name: ::System.Xml::ElementProperties
 struct CORDL_TYPE ElementProperties {
 public:
@@ -41,45 +39,50 @@ public:
     return static_cast<__ElementProperties_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr ElementProperties(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ElementProperties();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr ElementProperties(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field DEFAULT value: static_cast<uint32_t>(0x4020100u)
-  static ::System::Xml::ElementProperties const DEFAULT;
-
-  /// @brief Field URI_PARENT value: static_cast<uint32_t>(0x8040201u)
-  static ::System::Xml::ElementProperties const URI_PARENT;
-
-  /// @brief Field BOOL_PARENT value: static_cast<uint32_t>(0x10080402u)
-  static ::System::Xml::ElementProperties const BOOL_PARENT;
-
-  /// @brief Field NAME_PARENT value: static_cast<uint32_t>(0x20100804u)
-  static ::System::Xml::ElementProperties const NAME_PARENT;
-
-  /// @brief Field EMPTY value: static_cast<uint32_t>(0x40201008u)
-  static ::System::Xml::ElementProperties const EMPTY;
-
-  /// @brief Field NO_ENTITIES value: static_cast<uint32_t>(0x80402010u)
-  static ::System::Xml::ElementProperties const NO_ENTITIES;
-
-  /// @brief Field HEAD value: static_cast<uint32_t>(0x80804020u)
-  static ::System::Xml::ElementProperties const HEAD;
 
   /// @brief Field BLOCK_WS value: static_cast<uint32_t>(0x808040u)
   static ::System::Xml::ElementProperties const BLOCK_WS;
 
+  /// @brief Field BOOL_PARENT value: static_cast<uint32_t>(0x10080402u)
+  static ::System::Xml::ElementProperties const BOOL_PARENT;
+
+  /// @brief Field DEFAULT value: static_cast<uint32_t>(0x4020100u)
+  static ::System::Xml::ElementProperties const DEFAULT;
+
+  /// @brief Field EMPTY value: static_cast<uint32_t>(0x40201008u)
+  static ::System::Xml::ElementProperties const EMPTY;
+
   /// @brief Field HAS_NS value: static_cast<uint32_t>(0x1008080u)
   static ::System::Xml::ElementProperties const HAS_NS;
+
+  /// @brief Field HEAD value: static_cast<uint32_t>(0x80804020u)
+  static ::System::Xml::ElementProperties const HEAD;
+
+  /// @brief Field NAME_PARENT value: static_cast<uint32_t>(0x20100804u)
+  static ::System::Xml::ElementProperties const NAME_PARENT;
+
+  /// @brief Field NO_ENTITIES value: static_cast<uint32_t>(0x80402010u)
+  static ::System::Xml::ElementProperties const NO_ENTITIES;
+
+  /// @brief Field URI_PARENT value: static_cast<uint32_t>(0x8040201u)
+  static ::System::Xml::ElementProperties const URI_PARENT;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

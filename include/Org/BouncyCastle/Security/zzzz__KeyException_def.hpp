@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::KeyException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1717))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1748))
 // CS Name: ::Org.BouncyCastle.Security::KeyException*
 class CORDL_TYPE KeyException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::KeyException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115ccfc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Security::KeyException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x115cd04, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::KeyException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x115cd0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119eccc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x119ecd4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x119ecdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyException(KeyException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyException(KeyException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

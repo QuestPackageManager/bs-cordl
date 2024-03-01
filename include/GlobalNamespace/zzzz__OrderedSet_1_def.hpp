@@ -65,8 +65,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12801)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12801), inst: 4842 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12801))
 // CS Name: ::OrderedSet`1::ProcessOrder<T>
 struct CORDL_TYPE __OrderedSet_1__ProcessOrder {
 public:
@@ -85,27 +83,32 @@ public:
     return static_cast<____OrderedSet_1__ProcessOrder_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OrderedSet_1__ProcessOrder(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OrderedSet_1__ProcessOrder();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OrderedSet_1__ProcessOrder(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Lifo value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const Lifo;
+  /// @brief Field DontCare value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const DontCare;
 
   /// @brief Field Fifo value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const Fifo;
 
-  /// @brief Field DontCare value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const DontCare;
+  /// @brief Field Lifo value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const Lifo;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -117,62 +120,66 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12802))
 // CS Name: ::OrderedSet`1::Node<T>*
 class CORDL_TYPE __OrderedSet_1__Node : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
-
-  /// @brief Field previous, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_previous, put = __cordl_internal_set_previous))::GlobalNamespace::__OrderedSet_1__Node<T>* previous;
-
-  /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::GlobalNamespace::__OrderedSet_1__Node<T>* next;
+  /// @brief Field clearCount, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_clearCount, put = __cordl_internal_set_clearCount)) int32_t clearCount;
 
   /// @brief Field isRemoved, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_isRemoved, put = __cordl_internal_set_isRemoved)) bool isRemoved;
 
-  /// @brief Field clearCount, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_clearCount, put = __cordl_internal_set_clearCount)) int32_t clearCount;
+  /// @brief Field next, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::GlobalNamespace::__OrderedSet_1__Node<T>* next;
 
-  constexpr T& __cordl_internal_get_value();
+  /// @brief Field previous, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_previous, put = __cordl_internal_set_previous))::GlobalNamespace::__OrderedSet_1__Node<T>* previous;
 
-  constexpr T const& __cordl_internal_get_value() const;
+  /// @brief Field value, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
 
-  constexpr void __cordl_internal_set_value(T value);
+  static inline ::GlobalNamespace::__OrderedSet_1__Node<T>* New_ctor(T value, int32_t clearCount);
 
-  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get_previous();
+  constexpr int32_t const& __cordl_internal_get_clearCount() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get_previous() const;
+  constexpr int32_t& __cordl_internal_get_clearCount();
 
-  constexpr void __cordl_internal_set_previous(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+  constexpr bool const& __cordl_internal_get_isRemoved() const;
+
+  constexpr bool& __cordl_internal_get_isRemoved();
 
   constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get_next();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get_next() const;
 
-  constexpr void __cordl_internal_set_next(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get_previous();
 
-  constexpr bool& __cordl_internal_get_isRemoved();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get_previous() const;
 
-  constexpr bool const& __cordl_internal_get_isRemoved() const;
+  constexpr T const& __cordl_internal_get_value() const;
 
-  constexpr void __cordl_internal_set_isRemoved(bool value);
-
-  constexpr int32_t& __cordl_internal_get_clearCount();
-
-  constexpr int32_t const& __cordl_internal_get_clearCount() const;
+  constexpr T& __cordl_internal_get_value();
 
   constexpr void __cordl_internal_set_clearCount(int32_t value);
 
-  static inline ::GlobalNamespace::__OrderedSet_1__Node<T>* New_ctor(T value, int32_t clearCount);
+  constexpr void __cordl_internal_set_isRemoved(bool value);
+
+  constexpr void __cordl_internal_set_next(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+
+  constexpr void __cordl_internal_set_previous(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+
+  constexpr void __cordl_internal_set_value(T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value, int32_t clearCount);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OrderedSet_1__Node();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedSet_1__Node", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OrderedSet_1__Node(__OrderedSet_1__Node&&) = delete;
@@ -181,12 +188,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OrderedSet_1__Node(__OrderedSet_1__Node const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OrderedSet_1__Node();
-
-public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   T ___value;
 
@@ -212,12 +213,14 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12803))
 // CS Name: ::OrderedSet`1::<GetEnumerator>d__23<T>*
 class CORDL_TYPE __OrderedSet_1___GetEnumerator_d__23 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -230,62 +233,19 @@ public:
   /// @brief Field <next>5__2, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__next_5__2, put = __cordl_internal_set__next_5__2))::GlobalNamespace::__OrderedSet_1__Node<T>* _next_5__2;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr T& __cordl_internal_get___2__current();
-
-  constexpr T const& __cordl_internal_get___2__current() const;
-
-  constexpr void __cordl_internal_set___2__current(T value);
-
-  constexpr ::GlobalNamespace::OrderedSet_1<T>*& __cordl_internal_get___4__this();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OrderedSet_1<T>*> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OrderedSet_1<T>* value);
-
-  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get__next_5__2();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get__next_5__2() const;
-
-  constexpr void __cordl_internal_set__next_5__2(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
-
-  static inline ::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
+
+  static inline ::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
@@ -296,6 +256,51 @@ public:
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+  constexpr int32_t& __cordl_internal_get___1__state();
+
+  constexpr T const& __cordl_internal_get___2__current() const;
+
+  constexpr T& __cordl_internal_get___2__current();
+
+  constexpr ::GlobalNamespace::OrderedSet_1<T>*& __cordl_internal_get___4__this();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OrderedSet_1<T>*> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get__next_5__2();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get__next_5__2() const;
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(T value);
+
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OrderedSet_1<T>* value);
+
+  constexpr void __cordl_internal_set__next_5__2(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OrderedSet_1___GetEnumerator_d__23();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedSet_1___GetEnumerator_d__23", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OrderedSet_1___GetEnumerator_d__23(__OrderedSet_1___GetEnumerator_d__23&&) = delete;
@@ -304,12 +309,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OrderedSet_1___GetEnumerator_d__23(__OrderedSet_1___GetEnumerator_d__23 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OrderedSet_1___GetEnumerator_d__23();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -332,19 +331,24 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12801)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12801), inst:
-// 1028 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12804)) CS Name: ::OrderedSet`1<T>*
+// CS Name: ::OrderedSet`1<T>*
 class CORDL_TYPE OrderedSet_1 : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumerator_d__23 = ::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>;
-
   using Node = ::GlobalNamespace::__OrderedSet_1__Node<T>;
 
   using ProcessOrder = ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T>;
 
+  using _GetEnumerator_d__23 = ::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>;
+
+  /// @brief Field _clearCount, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__clearCount, put = __cordl_internal_set__clearCount)) int32_t _clearCount;
+
   /// @brief Field _comparison, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__comparison, put = __cordl_internal_set__comparison))::System::Comparison_1<T>* _comparison;
+
+  /// @brief Field _head, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::GlobalNamespace::__OrderedSet_1__Node<T>* _head;
 
   /// @brief Field _processOrder, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__processOrder, put = __cordl_internal_set__processOrder))::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> _processOrder;
@@ -353,87 +357,19 @@ public:
   __declspec(property(get = __cordl_internal_get__sortIndices,
                       put = __cordl_internal_set__sortIndices))::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>* _sortIndices;
 
-  /// @brief Field _head, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::GlobalNamespace::__OrderedSet_1__Node<T>* _head;
-
   /// @brief Field _tail, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail))::GlobalNamespace::__OrderedSet_1__Node<T>* _tail;
-
-  /// @brief Field _clearCount, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__clearCount, put = __cordl_internal_set__clearCount)) int32_t _clearCount;
 
   __declspec(property(get = get_count)) int32_t count;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  constexpr ::System::Comparison_1<T>*& __cordl_internal_get__comparison();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<T>*> const& __cordl_internal_get__comparison() const;
-
-  constexpr void __cordl_internal_set__comparison(::System::Comparison_1<T>* value);
-
-  constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T>& __cordl_internal_get__processOrder();
-
-  constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const& __cordl_internal_get__processOrder() const;
-
-  constexpr void __cordl_internal_set__processOrder(::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>*& __cordl_internal_get__sortIndices();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>*> const& __cordl_internal_get__sortIndices() const;
-
-  constexpr void __cordl_internal_set__sortIndices(::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>* value);
-
-  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get__head();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get__head() const;
-
-  constexpr void __cordl_internal_set__head(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
-
-  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get__tail();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get__tail() const;
-
-  constexpr void __cordl_internal_set__tail(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
-
-  constexpr int32_t& __cordl_internal_get__clearCount();
-
-  constexpr int32_t const& __cordl_internal_get__clearCount() const;
-
-  constexpr void __cordl_internal_set__clearCount(int32_t value);
-
-  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_count();
-
-  static inline ::GlobalNamespace::OrderedSet_1<T>* New_ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
-
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
-
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
-
-  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Contains(T item);
-
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Remove(T item);
-
-  /// @brief Method UpdateSortedPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateSortedPosition(T item);
 
   /// @brief Method AppendNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendNode(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
@@ -441,33 +377,101 @@ public:
   /// @brief Method AppendNodeUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendNodeUnchecked(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Contains(T item);
+
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
+
+  /// @brief Method GetFirstOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetFirstOrDefault();
+
+  static inline ::GlobalNamespace::OrderedSet_1<T>* New_ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
+
   /// @brief Method PrependNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PrependNode(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
   /// @brief Method PrependNodeUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PrependNodeUnchecked(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method SwapNodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SwapNodes(::GlobalNamespace::__OrderedSet_1__Node<T>* previous, ::GlobalNamespace::__OrderedSet_1__Node<T>* next);
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Remove(T item);
 
   /// @brief Method RemoveNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveNode(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method UpdateSortedPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UpdateSortedPosition(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
-
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
+  /// @brief Method SwapNodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SwapNodes(::GlobalNamespace::__OrderedSet_1__Node<T>* previous, ::GlobalNamespace::__OrderedSet_1__Node<T>* next);
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetFirstOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetFirstOrDefault();
-
   /// @brief Method TryGetFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetFirst(ByRef<T> value);
 
+  /// @brief Method UpdateSortedPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UpdateSortedPosition(T item);
+
+  /// @brief Method UpdateSortedPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UpdateSortedPosition(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
+
+  constexpr int32_t const& __cordl_internal_get__clearCount() const;
+
+  constexpr int32_t& __cordl_internal_get__clearCount();
+
+  constexpr ::System::Comparison_1<T>*& __cordl_internal_get__comparison();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Comparison_1<T>*> const& __cordl_internal_get__comparison() const;
+
+  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get__head();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get__head() const;
+
+  constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const& __cordl_internal_get__processOrder() const;
+
+  constexpr ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T>& __cordl_internal_get__processOrder();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>*& __cordl_internal_get__sortIndices();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>*> const& __cordl_internal_get__sortIndices() const;
+
+  constexpr ::GlobalNamespace::__OrderedSet_1__Node<T>*& __cordl_internal_get__tail();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OrderedSet_1__Node<T>*> const& __cordl_internal_get__tail() const;
+
+  constexpr void __cordl_internal_set__clearCount(int32_t value);
+
+  constexpr void __cordl_internal_set__comparison(::System::Comparison_1<T>* value);
+
+  constexpr void __cordl_internal_set__head(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+
+  constexpr void __cordl_internal_set__processOrder(::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> value);
+
+  constexpr void __cordl_internal_set__sortIndices(::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>* value);
+
+  constexpr void __cordl_internal_set__tail(::GlobalNamespace::__OrderedSet_1__Node<T>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
+
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_count();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>* i___System__Collections__Generic__IEnumerable_1_T_() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OrderedSet_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedSet_1(OrderedSet_1&&) = delete;
@@ -476,12 +480,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OrderedSet_1(OrderedSet_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OrderedSet_1();
-
-public:
   /// @brief Field _comparison, offset: 0x10, size: 0x8, def value: None
   ::System::Comparison_1<T>* ____comparison;
 

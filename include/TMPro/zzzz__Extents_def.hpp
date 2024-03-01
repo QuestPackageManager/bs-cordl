@@ -19,38 +19,36 @@ MARK_VAL_T(::TMPro::Extents);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12220))
 // CS Name: ::TMPro::Extents
 struct CORDL_TYPE Extents {
 public:
   // Declarations
-  /// @brief Field zero, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::TMPro::Extents zero;
-
   /// @brief Field uninitialized, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_uninitialized, put = setStaticF_uninitialized))::TMPro::Extents uninitialized;
 
-  static inline void setStaticF_zero(::TMPro::Extents value);
+  /// @brief Field zero, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::TMPro::Extents zero;
+
+  /// @brief Method ToString, addr 0x2ce7cfc, size 0x2ac, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2ce7cf0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
+
+  static inline ::TMPro::Extents getStaticF_uninitialized();
 
   static inline ::TMPro::Extents getStaticF_zero();
 
   static inline void setStaticF_uninitialized(::TMPro::Extents value);
 
-  static inline ::TMPro::Extents getStaticF_uninitialized();
-
-  /// @brief Method .ctor, addr 0x2bfdc1c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
-
-  /// @brief Method ToString, addr 0x2bfdc28, size 0x2ac, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
+  static inline void setStaticF_zero(::TMPro::Extents value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Extents();
+
+  // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  constexpr Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
   /// @brief Field min, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 min;

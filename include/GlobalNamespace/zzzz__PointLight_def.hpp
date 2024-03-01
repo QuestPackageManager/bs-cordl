@@ -20,51 +20,55 @@ MARK_REF_PTR_T(::GlobalNamespace::PointLight);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14392))
 // CS Name: ::PointLight*
 class CORDL_TYPE PointLight : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _lights, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__lights, put = setStaticF__lights))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* _lights;
+
   /// @brief Field color, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
   /// @brief Field intensity, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_intensity, put = __cordl_internal_set_intensity)) float_t intensity;
 
-  /// @brief Field _lights, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lights, put = setStaticF__lights))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* _lights;
+  static inline ::GlobalNamespace::PointLight* New_ctor();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
+  /// @brief Method OnDisable, addr 0x226ee5c, size 0x80, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x226ed8c, size 0xd0, virtual false, abstract: false, final false
+  inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
-
-  constexpr float_t& __cordl_internal_get_intensity();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
   constexpr float_t const& __cordl_internal_get_intensity() const;
 
+  constexpr float_t& __cordl_internal_get_intensity();
+
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
+
   constexpr void __cordl_internal_set_intensity(float_t value);
 
-  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* value);
+  /// @brief Method .ctor, addr 0x226eedc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* getStaticF__lights();
 
-  /// @brief Method get_lights, addr 0x21a06cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x226ed34, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* get_lights();
 
-  /// @brief Method OnEnable, addr 0x21a0724, size 0xd0, virtual false, abstract: false, final false
-  inline void OnEnable();
+  static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* value);
 
-  /// @brief Method OnDisable, addr 0x21a07f4, size 0x80, virtual false, abstract: false, final false
-  inline void OnDisable();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointLight();
 
-  static inline ::GlobalNamespace::PointLight* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21a0874, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointLight", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointLight(PointLight&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointLight(PointLight const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointLight();
-
-public:
   /// @brief Field color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 

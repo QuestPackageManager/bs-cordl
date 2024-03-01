@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GetViewDataDictionary);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6132))
 // CS Name: ::UnityEngine.UIElements::GetViewDataDictionary*
 class CORDL_TYPE GetViewDataDictionary : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::GetViewDataDictionary* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2de7dec, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2de7ea8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ed75d0, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ISerializableJsonDictionary* Invoke();
 
+  static inline ::UnityEngine::UIElements::GetViewDataDictionary* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2ed7514, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetViewDataDictionary();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GetViewDataDictionary", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetViewDataDictionary(GetViewDataDictionary&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetViewDataDictionary(GetViewDataDictionary const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetViewDataDictionary();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

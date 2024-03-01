@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupSceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15456))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5332))
 // CS Name: ::ShaderWarmupSceneSetupData*
 class CORDL_TYPE ShaderWarmupSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -30,23 +28,29 @@ public:
 
   __declspec(property(get = get_nextScenesTransitionSetupData, put = set_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField();
+  static inline ::GlobalNamespace::ShaderWarmupSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
   constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField() const;
 
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField();
+
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x2348f0c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
-
-  /// @brief Method set_nextScenesTransitionSetupData, addr 0x2348f14, size 0x8, virtual false, abstract: false, final false
-  inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
-
-  static inline ::GlobalNamespace::ShaderWarmupSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
-
-  /// @brief Method .ctor, addr 0x2348f1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2416e64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x2416e54, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
+
+  /// @brief Method set_nextScenesTransitionSetupData, addr 0x2416e5c, size 0x8, virtual false, abstract: false, final false
+  inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShaderWarmupSceneSetupData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShaderWarmupSceneSetupData(ShaderWarmupSceneSetupData&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderWarmupSceneSetupData(ShaderWarmupSceneSetupData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShaderWarmupSceneSetupData();
-
-public:
   /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData_k__BackingField;
 

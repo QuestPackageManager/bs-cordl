@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BitMaskArray);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14864))
 // CS Name: ::BitMaskArray*
 class CORDL_TYPE BitMaskArray : public ::System::Object {
 public:
@@ -49,59 +47,65 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>"
   constexpr operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>"
-  constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>* i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMaskArray__() noexcept;
+  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>*() noexcept;
 
-  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>"
-  constexpr ::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>* i___System__IEquatable_1___GlobalNamespace__BitMaskArray__() noexcept;
+  /// @brief Method Deserialize, addr 0x1378a48, size 0xcc, virtual true, abstract: false, final true
+  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
+  /// @brief Method Equals, addr 0x1378578, size 0x64, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::BitMaskArray* other);
+
+  /// @brief Method GetBits, addr 0x13786d8, size 0x11c, virtual true, abstract: false, final true
+  inline uint64_t GetBits(int32_t offset, int32_t count);
+
+  static inline ::GlobalNamespace::BitMaskArray* New_ctor(int32_t bitCount);
+
+  /// @brief Method Serialize, addr 0x13788ec, size 0x15c, virtual true, abstract: false, final true
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  /// @brief Method SetBits, addr 0x13785dc, size 0xfc, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::BitMaskArray* SetBits(int32_t offset, uint64_t bits);
+
+  /// @brief Method ToString, addr 0x13787f4, size 0xf8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__bitCount_k__BackingField();
+
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get__data() const;
+
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get__data();
+
+  constexpr void __cordl_internal_set__bitCount_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__data(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+
+  /// @brief Method .ctor, addr 0x13784fc, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t bitCount);
+
+  /// @brief Method get_bitCount, addr 0x13784f4, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_bitCount();
+
+  /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>"
+  constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskArray*>* i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMaskArray__() noexcept;
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr int32_t& __cordl_internal_get__bitCount_k__BackingField();
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::BitMaskArray*>* i___System__IEquatable_1___GlobalNamespace__BitMaskArray__() noexcept;
 
-  constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BitMaskArray();
 
-  constexpr void __cordl_internal_set__bitCount_k__BackingField(int32_t value);
-
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get__data();
-
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get__data() const;
-
-  constexpr void __cordl_internal_set__data(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
-
-  /// @brief Method get_bitCount, addr 0x1337508, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_bitCount();
-
-  static inline ::GlobalNamespace::BitMaskArray* New_ctor(int32_t bitCount);
-
-  /// @brief Method .ctor, addr 0x1337510, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t bitCount);
-
-  /// @brief Method Equals, addr 0x133758c, size 0x64, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::BitMaskArray* other);
-
-  /// @brief Method SetBits, addr 0x13375f0, size 0xfc, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::BitMaskArray* SetBits(int32_t offset, uint64_t bits);
-
-  /// @brief Method GetBits, addr 0x13376ec, size 0x11c, virtual true, abstract: false, final true
-  inline uint64_t GetBits(int32_t offset, int32_t count);
-
-  /// @brief Method ToString, addr 0x1337808, size 0xf8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Serialize, addr 0x1337900, size 0x15c, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  /// @brief Method Deserialize, addr 0x1337a5c, size 0xcc, virtual true, abstract: false, final true
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskArray", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BitMaskArray(BitMaskArray&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BitMaskArray(BitMaskArray const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitMaskArray();
-
-public:
   /// @brief Field <bitCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____bitCount_k__BackingField;
 

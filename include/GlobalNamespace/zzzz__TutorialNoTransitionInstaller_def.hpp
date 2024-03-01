@@ -23,39 +23,43 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10318))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5319))
 // CS Name: ::TutorialNoTransitionInstaller*
 class CORDL_TYPE TutorialNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
+  /// @brief Field _playerSpecificSettings, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerSpecificSettings, put = __cordl_internal_set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
+
   /// @brief Field _scenesTransitionSetupData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
                       put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  /// @brief Field _playerSpecificSettings, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerSpecificSettings, put = __cordl_internal_set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
+  /// @brief Method InstallBindings, addr 0x24159a4, size 0x40, virtual true, abstract: false, final false
+  inline void InstallBindings(::Zenject::DiContainer* container);
 
-  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
-
-  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
-
-  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
+  static inline ::GlobalNamespace::TutorialNoTransitionInstaller* New_ctor();
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings() const;
 
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
+
   constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method InstallBindings, addr 0x2347a5c, size 0x40, virtual true, abstract: false, final false
-  inline void InstallBindings(::Zenject::DiContainer* container);
+  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  static inline ::GlobalNamespace::TutorialNoTransitionInstaller* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2347e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415dc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialNoTransitionInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TutorialNoTransitionInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialNoTransitionInstaller(TutorialNoTransitionInstaller&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialNoTransitionInstaller(TutorialNoTransitionInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TutorialNoTransitionInstaller();
-
-public:
   /// @brief Field _scenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 

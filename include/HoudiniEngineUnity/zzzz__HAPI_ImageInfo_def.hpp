@@ -24,22 +24,20 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImageInfo);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9508)), TypeDefinitionIndex(TypeDefinitionIndex(9509))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9536))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImageInfo
 struct CORDL_TYPE HAPI_ImageInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_ImageInfo();
+
   // Ctor Parameters [CppParam { name: "imageFileFormatNameSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "xRes", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "yRes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dataFormat", ty: "::HoudiniEngineUnity::HAPI_ImageDataFormat", modifiers: "", def_value: None }, CppParam { name:
   // "interleaved", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "packing", ty: "::HoudiniEngineUnity::HAPI_ImagePacking", modifiers: "", def_value: None }, CppParam { name: "gamma",
   // ty: "double_t", modifiers: "", def_value: None }]
   constexpr HAPI_ImageInfo(int32_t imageFileFormatNameSH, int32_t xRes, int32_t yRes, ::HoudiniEngineUnity::HAPI_ImageDataFormat dataFormat, bool interleaved,
                            ::HoudiniEngineUnity::HAPI_ImagePacking packing, double_t gamma) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_ImageInfo();
 
   /// @brief Field imageFileFormatNameSH, offset: 0x0, size: 0x4, def value: None
   int32_t imageFileFormatNameSH;

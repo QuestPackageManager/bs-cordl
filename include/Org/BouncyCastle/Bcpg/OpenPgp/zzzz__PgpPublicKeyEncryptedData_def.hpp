@@ -37,16 +37,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1638))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1660))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPublicKeyEncryptedData*
 class CORDL_TYPE PgpPublicKeyEncryptedData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData {
 public:
   // Declarations
+  __declspec(property(get = get_KeyId)) int64_t KeyId;
+
   /// @brief Field keyData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_keyData, put = __cordl_internal_set_keyData))::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData;
 
-  __declspec(property(get = get_KeyId)) int64_t KeyId;
+  /// @brief Method ConfirmCheckSum, addr 0x112968c, size 0x98, virtual false, abstract: false, final false
+  inline bool ConfirmCheckSum(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo);
+
+  /// @brief Method GetDataStream, addr 0x1129f30, size 0x78c, virtual false, abstract: false, final false
+  inline ::System::IO::Stream* GetDataStream(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey);
+
+  /// @brief Method GetKeyCipher, addr 0x1129444, size 0x248, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetKeyCipher(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm);
+
+  /// @brief Method GetSymmetricAlgorithm, addr 0x1129740, size 0x28, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag GetSymmetricAlgorithm(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey);
+
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData,
+                                                                                        ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
+
+  /// @brief Method ProcessEncodedMpi, addr 0x112abb8, size 0x190, virtual false, abstract: false, final false
+  static inline void ProcessEncodedMpi(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher, int32_t size, ::ArrayW<uint8_t, ::Array<uint8_t>*> mpiEnc);
+
+  /// @brief Method RecoverSessionData, addr 0x1129768, size 0x7c8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RecoverSessionData(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey);
 
   constexpr ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket*& __cordl_internal_get_keyData();
 
@@ -54,33 +73,18 @@ public:
 
   constexpr void __cordl_internal_set_keyData(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData,
-                                                                                        ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
-
-  /// @brief Method .ctor, addr 0x10e6448, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1129418, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* keyData, ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
-  /// @brief Method GetKeyCipher, addr 0x10e6474, size 0x248, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetKeyCipher(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm);
-
-  /// @brief Method ConfirmCheckSum, addr 0x10e66bc, size 0x98, virtual false, abstract: false, final false
-  inline bool ConfirmCheckSum(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo);
-
-  /// @brief Method get_KeyId, addr 0x10e6754, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x1129724, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method GetSymmetricAlgorithm, addr 0x10e6770, size 0x28, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag GetSymmetricAlgorithm(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpPublicKeyEncryptedData();
 
-  /// @brief Method GetDataStream, addr 0x10e6f60, size 0x78c, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* GetDataStream(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey);
-
-  /// @brief Method RecoverSessionData, addr 0x10e6798, size 0x7c8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RecoverSessionData(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* privKey);
-
-  /// @brief Method ProcessEncodedMpi, addr 0x10e7be8, size 0x190, virtual false, abstract: false, final false
-  static inline void ProcessEncodedMpi(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher, int32_t size, ::ArrayW<uint8_t, ::Array<uint8_t>*> mpiEnc);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpPublicKeyEncryptedData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpPublicKeyEncryptedData(PgpPublicKeyEncryptedData&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpPublicKeyEncryptedData(PgpPublicKeyEncryptedData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpPublicKeyEncryptedData();
-
-public:
   /// @brief Field keyData, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* ___keyData;
 

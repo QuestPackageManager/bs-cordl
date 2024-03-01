@@ -15,8 +15,6 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_DEVICE);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14978))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_DEVICE
 struct CORDL_TYPE TEXTURE_DEVICE {
 public:
@@ -38,36 +36,41 @@ public:
     return static_cast<__TEXTURE_DEVICE_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr TEXTURE_DEVICE(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TEXTURE_DEVICE();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr TEXTURE_DEVICE(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
-  static ::LIV::SDK::Unity::TEXTURE_DEVICE const UNDEFINED;
-
-  /// @brief Field RAW value: static_cast<uint32_t>(0x4030201u)
-  static ::LIV::SDK::Unity::TEXTURE_DEVICE const RAW;
 
   /// @brief Field DIRECTX value: static_cast<uint32_t>(0x5040302u)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const DIRECTX;
 
+  /// @brief Field METAL value: static_cast<uint32_t>(0x2010005u)
+  static ::LIV::SDK::Unity::TEXTURE_DEVICE const METAL;
+
   /// @brief Field OPENGL value: static_cast<uint32_t>(0x50403u)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const OPENGL;
+
+  /// @brief Field RAW value: static_cast<uint32_t>(0x4030201u)
+  static ::LIV::SDK::Unity::TEXTURE_DEVICE const RAW;
+
+  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
+  static ::LIV::SDK::Unity::TEXTURE_DEVICE const UNDEFINED;
 
   /// @brief Field VULKAN value: static_cast<uint32_t>(0x1000504u)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const VULKAN;
 
-  /// @brief Field METAL value: static_cast<uint32_t>(0x2010005u)
-  static ::LIV::SDK::Unity::TEXTURE_DEVICE const METAL;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

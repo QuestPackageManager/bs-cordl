@@ -20,32 +20,30 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2693))
 // CS Name: ::System.Threading::SparselyPopulatedArrayAddInfo`1<T>
 struct CORDL_TYPE SparselyPopulatedArrayAddInfo_1 {
 public:
   // Declarations
-  __declspec(property(get = get_Source))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Source;
-
   __declspec(property(get = get_Index)) int32_t Index;
+
+  __declspec(property(get = get_Source))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Source;
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int32_t index);
 
-  /// @brief Method get_Source, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Source();
-
   /// @brief Method get_Index, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
-  // modifiers: "", def_value: None }]
-  constexpr SparselyPopulatedArrayAddInfo_1(::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source, int32_t _index) noexcept;
+  /// @brief Method get_Source, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Source();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SparselyPopulatedArrayAddInfo_1();
+
+  // Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
+  // modifiers: "", def_value: None }]
+  constexpr SparselyPopulatedArrayAddInfo_1(::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source, int32_t _index) noexcept;
 
   /// @brief Field _source, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source;

@@ -15,19 +15,17 @@ MARK_VAL_T(::UnityEngine::ModifiableMassProperties);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13903))
 // CS Name: ::UnityEngine::ModifiableMassProperties
 struct CORDL_TYPE ModifiableMassProperties {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "inverseMassScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inverseInertiaScale", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "otherInverseMassScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "otherInverseInertiaScale", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr ModifiableMassProperties(float_t inverseMassScale, float_t inverseInertiaScale, float_t otherInverseMassScale, float_t otherInverseInertiaScale) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ModifiableMassProperties();
+
+  // Ctor Parameters [CppParam { name: "inverseMassScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inverseInertiaScale", ty: "float_t", modifiers: "", def_value: None },
+  // CppParam { name: "otherInverseMassScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "otherInverseInertiaScale", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr ModifiableMassProperties(float_t inverseMassScale, float_t inverseInertiaScale, float_t otherInverseMassScale, float_t otherInverseInertiaScale) noexcept;
 
   /// @brief Field inverseMassScale, offset: 0x0, size: 0x4, def value: None
   float_t inverseMassScale;

@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::Zenject::__ValidationUtil____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10499))
 // CS Name: ::ValidationUtil::<>c*
 class CORDL_TYPE __ValidationUtil____c : public ::System::Object {
 public:
@@ -52,28 +50,34 @@ public:
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* __9__0_0;
 
-  static inline void setStaticF___9(::Zenject::__ValidationUtil____c* value);
+  static inline ::Zenject::__ValidationUtil____c* New_ctor();
+
+  /// @brief Method <CreateDefaultArgs>b__0_0, addr 0x302f240, size 0x80, virtual false, abstract: false, final false
+  inline ::Zenject::TypeValuePair _CreateDefaultArgs_b__0_0(::System::Type* x);
+
+  /// @brief Method __zenCreate, addr 0x302f2c0, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302f31c, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+
+  /// @brief Method .ctor, addr 0x302f238, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Zenject::__ValidationUtil____c* getStaticF___9();
 
-  static inline void setStaticF___9__0_0(::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* value);
-
   static inline ::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* getStaticF___9__0_0();
 
-  static inline ::Zenject::__ValidationUtil____c* New_ctor();
+  static inline void setStaticF___9(::Zenject::__ValidationUtil____c* value);
 
-  /// @brief Method .ctor, addr 0x2f3bb10, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__0_0(::System::Func_2<::System::Type*, ::Zenject::TypeValuePair>* value);
 
-  /// @brief Method <CreateDefaultArgs>b__0_0, addr 0x2f3bb18, size 0x80, virtual false, abstract: false, final false
-  inline ::Zenject::TypeValuePair _CreateDefaultArgs_b__0_0(::System::Type* x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ValidationUtil____c();
 
-  /// @brief Method __zenCreate, addr 0x2f3bb98, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3bbf4, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ValidationUtil____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ValidationUtil____c(__ValidationUtil____c&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValidationUtil____c(__ValidationUtil____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ValidationUtil____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -98,17 +96,21 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__ValidationUtil____c, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10500))
 // CS Name: ::Zenject::ValidationUtil*
 class CORDL_TYPE ValidationUtil : public ::System::Object {
 public:
   // Declarations
   using __c = ::Zenject::__ValidationUtil____c;
 
-  /// @brief Method CreateDefaultArgs, addr 0x2f3b998, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultArgs, addr 0x302f0c0, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValidationUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationUtil(ValidationUtil&&) = delete;
@@ -117,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationUtil(ValidationUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidationUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

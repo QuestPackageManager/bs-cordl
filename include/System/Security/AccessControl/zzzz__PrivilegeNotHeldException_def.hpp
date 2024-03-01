@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::System::Security::AccessControl::PrivilegeNotHeldException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2501))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3012))
 // CS Name: ::System.Security.AccessControl::PrivilegeNotHeldException*
 class CORDL_TYPE PrivilegeNotHeldException : public ::System::UnauthorizedAccessException {
 public:
@@ -36,29 +34,35 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__privilegeName();
-
-  constexpr ::StringW const& __cordl_internal_get__privilegeName() const;
-
-  constexpr void __cordl_internal_set__privilegeName(::StringW value);
+  /// @brief Method GetObjectData, addr 0x2574370, size 0xdc, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24a25a4, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                        ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x24a25f0, size 0x88, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__privilegeName() const;
+
+  constexpr ::StringW& __cordl_internal_get__privilegeName();
+
+  constexpr void __cordl_internal_set__privilegeName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x257429c, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25742e8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x24a2678, size 0xdc, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PrivilegeNotHeldException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PrivilegeNotHeldException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PrivilegeNotHeldException(PrivilegeNotHeldException&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrivilegeNotHeldException(PrivilegeNotHeldException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrivilegeNotHeldException();
-
-public:
   /// @brief Field _privilegeName, offset: 0x90, size: 0x8, def value: None
   ::StringW ____privilegeName;
 

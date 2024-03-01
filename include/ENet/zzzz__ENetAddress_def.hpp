@@ -15,8 +15,6 @@ MARK_VAL_T(::ENet::ENetAddress);
 // SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 1, natural_alignment: 2, packing: Some(1), specified_packing: Some(0) }
 namespace ENet {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15330))
 // CS Name: ::ENet::ENetAddress
 #pragma pack(push, 0)
 struct CORDL_TYPE ENetAddress {
@@ -25,18 +23,18 @@ public:
   /// @brief Field port, offset 0x10, size 0x2
   __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) uint16_t port;
 
-  constexpr uint16_t& __cordl_internal_get_port();
-
   constexpr uint16_t const& __cordl_internal_get_port() const;
 
-  constexpr void __cordl_internal_set_port(uint16_t value);
+  constexpr uint16_t& __cordl_internal_get_port();
 
-  // Ctor Parameters [CppParam { name: "port", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr ENetAddress(uint16_t port) noexcept;
+  constexpr void __cordl_internal_set_port(uint16_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ENetAddress();
+
+  // Ctor Parameters [CppParam { name: "port", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr ENetAddress(uint16_t port) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -340,8 +340,6 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayCla
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11255))
 // CS Name: ::BeatmapDataLoader::BeatmapDataItemConverter*
 class CORDL_TYPE __BeatmapDataLoader__BeatmapDataItemConverter : public ::System::Object {
 public:
@@ -349,20 +347,26 @@ public:
   /// @brief Field _bpmTimeProcessor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bpmTimeProcessor, put = __cordl_internal_set__bpmTimeProcessor))::GlobalNamespace::BpmTimeProcessor* _bpmTimeProcessor;
 
+  /// @brief Method BeatToTime, addr 0x1306e08, size 0x1c, virtual false, abstract: false, final false
+  inline float_t BeatToTime(float_t beat);
+
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
   constexpr ::GlobalNamespace::BpmTimeProcessor*& __cordl_internal_get__bpmTimeProcessor();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BpmTimeProcessor*> const& __cordl_internal_get__bpmTimeProcessor() const;
 
   constexpr void __cordl_internal_set__bpmTimeProcessor(::GlobalNamespace::BpmTimeProcessor* value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c5db4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1306d7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-  /// @brief Method BeatToTime, addr 0x12c5e40, size 0x1c, virtual false, abstract: false, final false
-  inline float_t BeatToTime(float_t beat);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__BeatmapDataItemConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__BeatmapDataItemConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__BeatmapDataItemConverter(__BeatmapDataLoader__BeatmapDataItemConverter&&) = delete;
@@ -371,12 +375,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__BeatmapDataItemConverter(__BeatmapDataLoader__BeatmapDataItemConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__BeatmapDataItemConverter();
-
-public:
   /// @brief Field _bpmTimeProcessor, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BpmTimeProcessor* ____bpmTimeProcessor;
 
@@ -392,8 +390,6 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader__Beatmap
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11254))
 // CS Name: ::BeatmapDataLoader::BasicEventConverter*
 class CORDL_TYPE __BeatmapDataLoader__BasicEventConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
@@ -402,21 +398,27 @@ public:
   __declspec(property(get = __cordl_internal_get__specialEventsFilter,
                       put = __cordl_internal_set__specialEventsFilter))::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* _specialEventsFilter;
 
+  /// @brief Method Convert, addr 0x130530c, size 0xd0, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion3::BasicEventData* basicEventSaveData);
+
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
+                                                                                                ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* specialEventsFilter);
+
   constexpr ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter*& __cordl_internal_get__specialEventsFilter();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter*> const& __cordl_internal_get__specialEventsFilter() const;
 
   constexpr void __cordl_internal_set__specialEventsFilter(::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
-                                                                                                ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* specialEventsFilter);
-
-  /// @brief Method .ctor, addr 0x12c42f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13052b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* specialEventsFilter);
 
-  /// @brief Method Convert, addr 0x12c4344, size 0xd0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion3::BasicEventData* basicEventSaveData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__BasicEventConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__BasicEventConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__BasicEventConverter(__BeatmapDataLoader__BasicEventConverter&&) = delete;
@@ -425,12 +427,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__BasicEventConverter(__BeatmapDataLoader__BasicEventConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__BasicEventConverter();
-
-public:
   /// @brief Field _specialEventsFilter, offset: 0x18, size: 0x8, def value: None
   ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* ____specialEventsFilter;
 
@@ -446,20 +442,24 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEv
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11256))
 // CS Name: ::BeatmapDataLoader::BombNoteConverter*
 class CORDL_TYPE __BeatmapDataLoader__BombNoteConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c1fe8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c2164, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1303134, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::BombNoteData* bombNoteSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x1302fb8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__BombNoteConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__BombNoteConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__BombNoteConverter(__BeatmapDataLoader__BombNoteConverter&&) = delete;
@@ -468,12 +468,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__BombNoteConverter(__BeatmapDataLoader__BombNoteConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__BombNoteConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -484,20 +478,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11257))
 // CS Name: ::BeatmapDataLoader::BpmEventConverter*
 class CORDL_TYPE __BeatmapDataLoader__BpmEventConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c25fc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c2624, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13035ec, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BPMChangeBeatmapEventData* Convert(::BeatmapSaveDataVersion3::BpmChangeEventData* bpmChangeEventSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x13035c4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__BpmEventConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__BpmEventConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__BpmEventConverter(__BeatmapDataLoader__BpmEventConverter&&) = delete;
@@ -506,12 +504,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__BpmEventConverter(__BeatmapDataLoader__BpmEventConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__BpmEventConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -522,20 +514,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11258))
 // CS Name: ::BeatmapDataLoader::ColorBoostEventConverter*
 class CORDL_TYPE __BeatmapDataLoader__ColorBoostEventConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c431c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c4414, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13053dc, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion3::ColorBoostEventData* colorBoostEventSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x13052e4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__ColorBoostEventConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__ColorBoostEventConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__ColorBoostEventConverter(__BeatmapDataLoader__ColorBoostEventConverter&&) = delete;
@@ -544,12 +540,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__ColorBoostEventConverter(__BeatmapDataLoader__ColorBoostEventConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__ColorBoostEventConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -560,20 +550,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11259))
 // CS Name: ::BeatmapDataLoader::ColorNoteConverter*
 class CORDL_TYPE __BeatmapDataLoader__ColorNoteConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c1fc0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c20b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1303080, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::ColorNoteData* colorNoteSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x1302f90, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__ColorNoteConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__ColorNoteConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__ColorNoteConverter(__BeatmapDataLoader__ColorNoteConverter&&) = delete;
@@ -582,12 +576,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__ColorNoteConverter(__BeatmapDataLoader__ColorNoteConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__ColorNoteConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -598,8 +586,6 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11260))
 // CS Name: ::BeatmapDataLoader::IntVfxEventBoxConverter*
 class CORDL_TYPE __BeatmapDataLoader__IntVfxEventBoxConverter : public ::System::Object {
 public:
@@ -607,20 +593,26 @@ public:
   /// @brief Field _fxEventsCollection, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__fxEventsCollection, put = __cordl_internal_set__fxEventsCollection))::BeatmapSaveDataVersion3::FxEventsCollection* _fxEventsCollection;
 
+  /// @brief Method Convert, addr 0x1306824, size 0x550, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::FxEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroup);
+
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter* New_ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
+
   constexpr ::BeatmapSaveDataVersion3::FxEventsCollection*& __cordl_internal_get__fxEventsCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::FxEventsCollection*> const& __cordl_internal_get__fxEventsCollection() const;
 
   constexpr void __cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::FxEventsCollection* value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter* New_ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
-
-  /// @brief Method .ctor, addr 0x12c52e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13062ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
 
-  /// @brief Method Convert, addr 0x12c585c, size 0x550, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::FxEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroup);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__IntVfxEventBoxConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__IntVfxEventBoxConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__IntVfxEventBoxConverter(__BeatmapDataLoader__IntVfxEventBoxConverter&&) = delete;
@@ -629,12 +621,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__IntVfxEventBoxConverter(__BeatmapDataLoader__IntVfxEventBoxConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__IntVfxEventBoxConverter();
-
-public:
   /// @brief Field _fxEventsCollection, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::FxEventsCollection* ____fxEventsCollection;
 
@@ -650,8 +636,6 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxE
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11261))
 // CS Name: ::BeatmapDataLoader::FloatVfxEventBoxConverter*
 class CORDL_TYPE __BeatmapDataLoader__FloatVfxEventBoxConverter : public ::System::Object {
 public:
@@ -659,20 +643,26 @@ public:
   /// @brief Field _fxEventsCollection, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__fxEventsCollection, put = __cordl_internal_set__fxEventsCollection))::BeatmapSaveDataVersion3::FxEventsCollection* _fxEventsCollection;
 
+  /// @brief Method Convert, addr 0x13062d4, size 0x550, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::FxEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroup);
+
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter* New_ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
+
   constexpr ::BeatmapSaveDataVersion3::FxEventsCollection*& __cordl_internal_get__fxEventsCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::FxEventsCollection*> const& __cordl_internal_get__fxEventsCollection() const;
 
   constexpr void __cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::FxEventsCollection* value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter* New_ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
-
-  /// @brief Method .ctor, addr 0x12c52bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1306284, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection);
 
-  /// @brief Method Convert, addr 0x12c530c, size 0x550, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::FxEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroup);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__FloatVfxEventBoxConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__FloatVfxEventBoxConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__FloatVfxEventBoxConverter(__BeatmapDataLoader__FloatVfxEventBoxConverter&&) = delete;
@@ -681,12 +671,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__FloatVfxEventBoxConverter(__BeatmapDataLoader__FloatVfxEventBoxConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__FloatVfxEventBoxConverter();
-
-public:
   /// @brief Field _fxEventsCollection, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::FxEventsCollection* ____fxEventsCollection;
 
@@ -702,15 +686,19 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVf
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11262))
 // CS Name: ::BeatmapDataLoader::IntVfxBaseDataConvertor*
 class CORDL_TYPE __BeatmapDataLoader__IntVfxBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c61e8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13071b0, size 0x114, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IntFxBaseData* Convert(int32_t vfxEventBaseData, ::BeatmapSaveDataVersion3::FxEventsCollection* collection);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__IntVfxBaseDataConvertor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__IntVfxBaseDataConvertor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__IntVfxBaseDataConvertor(__BeatmapDataLoader__IntVfxBaseDataConvertor&&) = delete;
@@ -719,12 +707,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__IntVfxBaseDataConvertor(__BeatmapDataLoader__IntVfxBaseDataConvertor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__IntVfxBaseDataConvertor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -735,15 +717,19 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11263))
 // CS Name: ::BeatmapDataLoader::FloatVfxBaseDataConvertor*
 class CORDL_TYPE __BeatmapDataLoader__FloatVfxBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c62fc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13072c4, size 0x12c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::FloatFxBaseData* Convert(int32_t vfxEventBaseData, ::BeatmapSaveDataVersion3::FxEventsCollection* collection);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__FloatVfxBaseDataConvertor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__FloatVfxBaseDataConvertor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__FloatVfxBaseDataConvertor(__BeatmapDataLoader__FloatVfxBaseDataConvertor&&) = delete;
@@ -752,12 +738,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__FloatVfxBaseDataConvertor(__BeatmapDataLoader__FloatVfxBaseDataConvertor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__FloatVfxBaseDataConvertor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -768,18 +748,22 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11264))
 // CS Name: ::BeatmapDataLoader::IndexFilterConverter*
 class CORDL_TYPE __BeatmapDataLoader__IndexFilterConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c5e5c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1306e24, size 0x38c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IndexFilter* Convert(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, int32_t groupSize);
 
-  /// @brief Method IsIndexFilterValid, addr 0x12c6428, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsIndexFilterValid, addr 0x13073f0, size 0x88, virtual false, abstract: false, final false
   static inline bool IsIndexFilterValid(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, int32_t groupSize);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__IndexFilterConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__IndexFilterConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__IndexFilterConverter(__BeatmapDataLoader__IndexFilterConverter&&) = delete;
@@ -788,12 +772,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__IndexFilterConverter(__BeatmapDataLoader__IndexFilterConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__IndexFilterConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -804,20 +782,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11265))
 // CS Name: ::BeatmapDataLoader::LightColorEventBoxConverter*
 class CORDL_TYPE __BeatmapDataLoader__LightColorEventBoxConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c44ac, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1305474, size 0x348, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::LightColorEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroupData);
 
   static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColorEventBoxConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12c65b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1307578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__LightColorEventBoxConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__LightColorEventBoxConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__LightColorEventBoxConverter(__BeatmapDataLoader__LightColorEventBoxConverter&&) = delete;
@@ -826,12 +808,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__LightColorEventBoxConverter(__BeatmapDataLoader__LightColorEventBoxConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__LightColorEventBoxConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -842,15 +818,19 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11266))
 // CS Name: ::BeatmapDataLoader::LightColoBaseDataConvertor*
 class CORDL_TYPE __BeatmapDataLoader__LightColoBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c64b0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1307478, size 0x100, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightColorBaseData* Convert(::BeatmapSaveDataVersion3::LightColorBaseData* saveData);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__LightColoBaseDataConvertor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__LightColoBaseDataConvertor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__LightColoBaseDataConvertor(__BeatmapDataLoader__LightColoBaseDataConvertor&&) = delete;
@@ -859,12 +839,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__LightColoBaseDataConvertor(__BeatmapDataLoader__LightColoBaseDataConvertor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__LightColoBaseDataConvertor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -875,20 +849,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11267))
 // CS Name: ::BeatmapDataLoader::LightRotationEventBoxConverter*
 class CORDL_TYPE __BeatmapDataLoader__LightRotationEventBoxConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c47f4, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13057bc, size 0x564, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::LightRotationEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroupData);
 
   static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationEventBoxConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12c667c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1307644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__LightRotationEventBoxConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__LightRotationEventBoxConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__LightRotationEventBoxConverter(__BeatmapDataLoader__LightRotationEventBoxConverter&&) = delete;
@@ -897,12 +875,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__LightRotationEventBoxConverter(__BeatmapDataLoader__LightRotationEventBoxConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__LightRotationEventBoxConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -913,15 +885,19 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11268))
 // CS Name: ::BeatmapDataLoader::LightRotationBaseDataConvertor*
 class CORDL_TYPE __BeatmapDataLoader__LightRotationBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c65b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1307580, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightRotationBaseData* Convert(::BeatmapSaveDataVersion3::LightRotationBaseData* saveData);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__LightRotationBaseDataConvertor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__LightRotationBaseDataConvertor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__LightRotationBaseDataConvertor(__BeatmapDataLoader__LightRotationBaseDataConvertor&&) = delete;
@@ -930,12 +906,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__LightRotationBaseDataConvertor(__BeatmapDataLoader__LightRotationBaseDataConvertor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__LightRotationBaseDataConvertor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -946,20 +916,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11269))
 // CS Name: ::BeatmapDataLoader::LightTranslationEventBoxConverter*
 class CORDL_TYPE __BeatmapDataLoader__LightTranslationEventBoxConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c4d58, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1305d20, size 0x564, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapEventDataBox* Convert(::BeatmapSaveDataVersion3::LightTranslationEventBox* saveData, ::GlobalNamespace::ILightGroup* lightGroupData);
 
   static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationEventBoxConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12c6720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13076e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__LightTranslationEventBoxConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__LightTranslationEventBoxConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__LightTranslationEventBoxConverter(__BeatmapDataLoader__LightTranslationEventBoxConverter&&) = delete;
@@ -968,12 +942,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__LightTranslationEventBoxConverter(__BeatmapDataLoader__LightTranslationEventBoxConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__LightTranslationEventBoxConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -984,15 +952,19 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11270))
 // CS Name: ::BeatmapDataLoader::LightTranslationBaseDataConvertor*
 class CORDL_TYPE __BeatmapDataLoader__LightTranslationBaseDataConvertor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c6684, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x130764c, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightTranslationBaseData* Convert(::BeatmapSaveDataVersion3::LightTranslationBaseData* saveData);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__LightTranslationBaseDataConvertor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__LightTranslationBaseDataConvertor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__LightTranslationBaseDataConvertor(__BeatmapDataLoader__LightTranslationBaseDataConvertor&&) = delete;
@@ -1001,12 +973,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__LightTranslationBaseDataConvertor(__BeatmapDataLoader__LightTranslationBaseDataConvertor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__LightTranslationBaseDataConvertor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1017,23 +983,27 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11271))
 // CS Name: ::BeatmapDataLoader::ObstacleConverter*
 class CORDL_TYPE __BeatmapDataLoader__ObstacleConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c2010, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c21c0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1303190, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::ObstacleData* obstacleSaveData);
 
-  /// @brief Method GetNoteLineLayer, addr 0x12c6728, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetNoteLineLayer, addr 0x13076f0, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteLineLayer GetNoteLineLayer(int32_t lineLayer);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x1302fe0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__ObstacleConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__ObstacleConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__ObstacleConverter(__BeatmapDataLoader__ObstacleConverter&&) = delete;
@@ -1042,12 +1012,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__ObstacleConverter(__BeatmapDataLoader__ObstacleConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__ObstacleConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1058,23 +1022,27 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11272))
 // CS Name: ::BeatmapDataLoader::RotationEventConverter*
 class CORDL_TYPE __BeatmapDataLoader__RotationEventConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c26b8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c26e0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13036a8, size 0xa4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SpawnRotationBeatmapEventData* Convert(::BeatmapSaveDataVersion3::RotationEventData* rotationEventSaveData);
 
-  /// @brief Method SpawnRotationEventType, addr 0x12c673c, size 0x10, virtual false, abstract: false, final false
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method SpawnRotationEventType, addr 0x1307704, size 0x10, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__SpawnRotationBeatmapEventData__SpawnRotationEventType SpawnRotationEventType(::BeatmapSaveDataCommon::ExecutionTime executionTime);
 
+  /// @brief Method .ctor, addr 0x1303680, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__RotationEventConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__RotationEventConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__RotationEventConverter(__BeatmapDataLoader__RotationEventConverter&&) = delete;
@@ -1083,12 +1051,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__RotationEventConverter(__BeatmapDataLoader__RotationEventConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__RotationEventConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1099,20 +1061,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11273))
 // CS Name: ::BeatmapDataLoader::SliderConverter*
 class CORDL_TYPE __BeatmapDataLoader__SliderConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c2038, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c22a8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x1303270, size 0x164, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::SliderData* sliderSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x1303008, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__SliderConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__SliderConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__SliderConverter(__BeatmapDataLoader__SliderConverter&&) = delete;
@@ -1121,12 +1087,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__SliderConverter(__BeatmapDataLoader__SliderConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__SliderConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1137,20 +1097,24 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11274))
 // CS Name: ::BeatmapDataLoader::BurstSliderConverter*
 class CORDL_TYPE __BeatmapDataLoader__BurstSliderConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c2060, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c240c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13033d4, size 0x128, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::BurstSliderData* sliderSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x1303030, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__BurstSliderConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__BurstSliderConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__BurstSliderConverter(__BeatmapDataLoader__BurstSliderConverter&&) = delete;
@@ -1159,12 +1123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__BurstSliderConverter(__BeatmapDataLoader__BurstSliderConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__BurstSliderConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1175,8 +1133,6 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11275))
 // CS Name: ::BeatmapDataLoader::SpecialEventsFilter*
 class CORDL_TYPE __BeatmapDataLoader__SpecialEventsFilter : public ::System::Object {
 public:
@@ -1185,21 +1141,27 @@ public:
   __declspec(property(get = __cordl_internal_get__eventTypesToFilter,
                       put = __cordl_internal_set__eventTypesToFilter))::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* _eventTypesToFilter;
 
+  /// @brief Method IsEventValid, addr 0x1306da4, size 0x64, virtual false, abstract: false, final false
+  inline bool IsEventValid(::BeatmapSaveDataCommon::BeatmapEventType basicBeatmapEventType);
+
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* New_ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords,
+                                                                                                ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
+
   constexpr ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*& __cordl_internal_get__eventTypesToFilter();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*> const& __cordl_internal_get__eventTypesToFilter() const;
 
   constexpr void __cordl_internal_set__eventTypesToFilter(::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter* New_ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords,
-                                                                                                ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
-
-  /// @brief Method .ctor, addr 0x12c4018, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1304fe0, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
-  /// @brief Method IsEventValid, addr 0x12c5ddc, size 0x64, virtual false, abstract: false, final false
-  inline bool IsEventValid(::BeatmapSaveDataCommon::BeatmapEventType basicBeatmapEventType);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__SpecialEventsFilter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__SpecialEventsFilter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__SpecialEventsFilter(__BeatmapDataLoader__SpecialEventsFilter&&) = delete;
@@ -1208,12 +1170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__SpecialEventsFilter(__BeatmapDataLoader__SpecialEventsFilter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__SpecialEventsFilter();
-
-public:
   /// @brief Field _eventTypesToFilter, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____eventTypesToFilter;
 
@@ -1229,20 +1185,24 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader__Special
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11276))
 // CS Name: ::BeatmapDataLoader::WaypointConverter*
 class CORDL_TYPE __BeatmapDataLoader__WaypointConverter : public ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter {
 public:
   // Declarations
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x12c2088, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
-
-  /// @brief Method Convert, addr 0x12c2534, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13034fc, size 0xc8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion3::WaypointData* waypointSaveData);
 
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter* New_ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+  /// @brief Method .ctor, addr 0x1303058, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader__WaypointConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader__WaypointConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader__WaypointConverter(__BeatmapDataLoader__WaypointConverter&&) = delete;
@@ -1251,12 +1211,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader__WaypointConverter(__BeatmapDataLoader__WaypointConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader__WaypointConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1267,83 +1221,87 @@ static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion3::__Bea
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11277))
 // CS Name: ::BeatmapDataLoader::<>c__DisplayClass3_0*
 class CORDL_TYPE __BeatmapDataLoader____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field beatmapDifficulty, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+
   /// @brief Field beatmapJson, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapJson, put = __cordl_internal_set_beatmapJson))::StringW beatmapJson;
 
   /// @brief Field defaultLightshowJson, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_defaultLightshowJson, put = __cordl_internal_set_defaultLightshowJson))::StringW defaultLightshowJson;
 
-  /// @brief Field beatmapDifficulty, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
-
-  /// @brief Field startBpm, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_startBpm, put = __cordl_internal_set_startBpm)) float_t startBpm;
+  /// @brief Field environmentInfo, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::GlobalNamespace::IEnvironmentInfo* environmentInfo;
 
   /// @brief Field loadingForDesignatedEnvironment, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_loadingForDesignatedEnvironment, put = __cordl_internal_set_loadingForDesignatedEnvironment)) bool loadingForDesignatedEnvironment;
 
-  /// @brief Field environmentInfo, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::GlobalNamespace::IEnvironmentInfo* environmentInfo;
-
   /// @brief Field playerSpecificSettings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  constexpr ::StringW& __cordl_internal_get_beatmapJson();
+  /// @brief Field startBpm, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_startBpm, put = __cordl_internal_set_startBpm)) float_t startBpm;
 
-  constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0* New_ctor();
 
-  constexpr void __cordl_internal_set_beatmapJson(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_defaultLightshowJson();
-
-  constexpr ::StringW const& __cordl_internal_get_defaultLightshowJson() const;
-
-  constexpr void __cordl_internal_set_defaultLightshowJson(::StringW value);
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
+  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x1307714, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapData* _GetBeatmapDataFromSaveDataJsonAsync_b__0();
 
   constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
 
-  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
-  constexpr float_t& __cordl_internal_get_startBpm();
+  constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
 
-  constexpr float_t const& __cordl_internal_get_startBpm() const;
+  constexpr ::StringW& __cordl_internal_get_beatmapJson();
 
-  constexpr void __cordl_internal_set_startBpm(float_t value);
+  constexpr ::StringW const& __cordl_internal_get_defaultLightshowJson() const;
 
-  constexpr bool& __cordl_internal_get_loadingForDesignatedEnvironment();
-
-  constexpr bool const& __cordl_internal_get_loadingForDesignatedEnvironment() const;
-
-  constexpr void __cordl_internal_set_loadingForDesignatedEnvironment(bool value);
+  constexpr ::StringW& __cordl_internal_get_defaultLightshowJson();
 
   constexpr ::GlobalNamespace::IEnvironmentInfo*& __cordl_internal_get_environmentInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEnvironmentInfo*> const& __cordl_internal_get_environmentInfo() const;
 
-  constexpr void __cordl_internal_set_environmentInfo(::GlobalNamespace::IEnvironmentInfo* value);
+  constexpr bool const& __cordl_internal_get_loadingForDesignatedEnvironment() const;
+
+  constexpr bool& __cordl_internal_get_loadingForDesignatedEnvironment();
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
+  constexpr float_t const& __cordl_internal_get_startBpm() const;
+
+  constexpr float_t& __cordl_internal_get_startBpm();
+
+  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set_beatmapJson(::StringW value);
+
+  constexpr void __cordl_internal_set_defaultLightshowJson(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentInfo(::GlobalNamespace::IEnvironmentInfo* value);
+
+  constexpr void __cordl_internal_set_loadingForDesignatedEnvironment(bool value);
+
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0* New_ctor();
+  constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x12c0e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1301e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x12c674c, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapData* _GetBeatmapDataFromSaveDataJsonAsync_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader____c__DisplayClass3_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader____c__DisplayClass3_0(__BeatmapDataLoader____c__DisplayClass3_0&&) = delete;
@@ -1352,12 +1310,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader____c__DisplayClass3_0(__BeatmapDataLoader____c__DisplayClass3_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader____c__DisplayClass3_0();
-
-public:
   /// @brief Field beatmapJson, offset: 0x10, size: 0x8, def value: None
   ::StringW ___beatmapJson;
 
@@ -1403,8 +1355,6 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__Di
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11278))
 // CS Name: ::BeatmapDataLoader::<>c__DisplayClass4_0*
 class CORDL_TYPE __BeatmapDataLoader____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -1412,20 +1362,26 @@ public:
   /// @brief Field beatmapJson, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapJson, put = __cordl_internal_set_beatmapJson))::StringW beatmapJson;
 
-  constexpr ::StringW& __cordl_internal_get_beatmapJson();
+  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0* New_ctor();
+
+  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x1307730, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataBasicInfo* _GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
 
+  constexpr ::StringW& __cordl_internal_get_beatmapJson();
+
   constexpr void __cordl_internal_set_beatmapJson(::StringW value);
 
-  static inline ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12c0f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1301f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x12c6768, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataBasicInfo* _GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader____c__DisplayClass4_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader____c__DisplayClass4_0(__BeatmapDataLoader____c__DisplayClass4_0&&) = delete;
@@ -1434,12 +1390,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader____c__DisplayClass4_0(__BeatmapDataLoader____c__DisplayClass4_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader____c__DisplayClass4_0();
-
-public:
   /// @brief Field beatmapJson, offset: 0x10, size: 0x8, def value: None
   ::StringW ___beatmapJson;
 
@@ -1455,79 +1405,75 @@ static_assert(offsetof(::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__Di
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11279))
 // CS Name: ::BeatmapDataLoaderVersion3::BeatmapDataLoader*
 class CORDL_TYPE BeatmapDataLoader : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass4_0 = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0;
+  using BasicEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter;
 
-  using __c__DisplayClass3_0 = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0;
+  using BeatmapDataItemConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter;
 
-  using WaypointConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter;
+  using BombNoteConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter;
 
-  using SpecialEventsFilter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter;
+  using BpmEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter;
 
   using BurstSliderConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BurstSliderConverter;
 
-  using SliderConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter;
+  using ColorBoostEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter;
 
-  using RotationEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter;
+  using ColorNoteConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter;
 
-  using ObstacleConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter;
+  using FloatVfxBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxBaseDataConvertor;
 
-  using LightTranslationBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationBaseDataConvertor;
+  using FloatVfxEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter;
 
-  using LightTranslationEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationEventBoxConverter;
+  using IndexFilterConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IndexFilterConverter;
 
-  using LightRotationBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationBaseDataConvertor;
+  using IntVfxBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxBaseDataConvertor;
 
-  using LightRotationEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationEventBoxConverter;
+  using IntVfxEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter;
 
   using LightColoBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColoBaseDataConvertor;
 
   using LightColorEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightColorEventBoxConverter;
 
-  using IndexFilterConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IndexFilterConverter;
+  using LightRotationBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationBaseDataConvertor;
 
-  using FloatVfxBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxBaseDataConvertor;
+  using LightRotationEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightRotationEventBoxConverter;
 
-  using IntVfxBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxBaseDataConvertor;
+  using LightTranslationBaseDataConvertor = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationBaseDataConvertor;
 
-  using FloatVfxEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__FloatVfxEventBoxConverter;
+  using LightTranslationEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__LightTranslationEventBoxConverter;
 
-  using IntVfxEventBoxConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__IntVfxEventBoxConverter;
+  using ObstacleConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ObstacleConverter;
 
-  using ColorNoteConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorNoteConverter;
+  using RotationEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__RotationEventConverter;
 
-  using ColorBoostEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__ColorBoostEventConverter;
+  using SliderConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SliderConverter;
 
-  using BpmEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BpmEventConverter;
+  using SpecialEventsFilter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__SpecialEventsFilter;
 
-  using BombNoteConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BombNoteConverter;
+  using WaypointConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__WaypointConverter;
 
-  using BeatmapDataItemConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BeatmapDataItemConverter;
+  using __c__DisplayClass3_0 = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass3_0;
 
-  using BasicEventConverter = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader__BasicEventConverter;
+  using __c__DisplayClass4_0 = ::BeatmapDataLoaderVersion3::__BeatmapDataLoader____c__DisplayClass4_0;
 
-  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x12c0d14, size 0x134, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>*
-  GetBeatmapDataFromSaveDataJsonAsync(::StringW beatmapJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm,
-                                      bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+  /// @brief Method ConvertBasicEvents, addr 0x130374c, size 0x650, virtual false, abstract: false, final false
+  static inline void ConvertBasicEvents(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
+                                        ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x12c0e50, size 0xf0, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoFromSaveDataJsonAsync(::StringW beatmapJson);
+  /// @brief Method ConvertEventBoxGroups, addr 0x1303d9c, size 0x1244, virtual false, abstract: false, final false
+  static inline void ConvertEventBoxGroups(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData,
+                                           ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x12c0f48, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x1301f18, size 0x100, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* GetBeatmapDataBasicInfoFromSaveDataJson(::StringW beatmapJson);
 
-  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x12c1048, size 0x2d0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveDataJson(::StringW beatmapJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                                                               float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
-                                                                               ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x1301e20, size 0xf0, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoFromSaveDataJsonAsync(::StringW beatmapJson);
 
-  /// @brief Method GetBeatmapDataFromSaveData, addr 0x12c1318, size 0xca8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataFromSaveData, addr 0x13022e8, size 0xca8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData,
                                                                            ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData,
                                                                            ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
@@ -1535,19 +1481,27 @@ public:
                                                                            ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups,
                                                                            ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Diagnostics::Stopwatch* stopwatch);
 
-  /// @brief Method ConvertBasicEvents, addr 0x12c2784, size 0x650, virtual false, abstract: false, final false
-  static inline void ConvertBasicEvents(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
-                                        ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
+  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x1302018, size 0x2d0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveDataJson(::StringW beatmapJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                                                                               float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
+                                                                               ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method ConvertEventBoxGroups, addr 0x12c2dd4, size 0x1244, virtual false, abstract: false, final false
-  static inline void ConvertEventBoxGroups(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData,
-                                           ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
+  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x1301ce4, size 0x134, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>*
+  GetBeatmapDataFromSaveDataJsonAsync(::StringW beatmapJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm,
+                                      bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   static inline ::BeatmapDataLoaderVersion3::BeatmapDataLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12c5dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1306d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataLoader(BeatmapDataLoader&&) = delete;
@@ -1556,12 +1510,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataLoader(BeatmapDataLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataLoader();
-
-public:
   /// @brief Field kDefaultNumberOfLines offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultNumberOfLines{ static_cast<int32_t>(0x4) };
 

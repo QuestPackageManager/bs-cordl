@@ -25,164 +25,168 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadedTask);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2670))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9601))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadedTask*
 class CORDL_TYPE HEU_ThreadedTask : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _isComplete, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__isComplete, put = __cordl_internal_set__isComplete)) bool _isComplete;
+  __declspec(property(get = get_IsActive, put = set_IsActive)) bool IsActive;
+
+  __declspec(property(get = get_IsBackground, put = set_IsBackground)) bool IsBackground;
+
+  __declspec(property(get = get_IsComplete, put = set_IsComplete)) bool IsComplete;
+
+  __declspec(property(get = get_Priority, put = set_Priority))::System::Threading::ThreadPriority Priority;
+
+  __declspec(property(get = get_StopRequested, put = set_StopRequested)) bool StopRequested;
+
+  __declspec(property(get = get_TaskName))::StringW TaskName;
 
   /// @brief Field _isActive, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
-  /// @brief Field _stopRequested, offset 0x12, size 0x1
-  __declspec(property(get = __cordl_internal_get__stopRequested, put = __cordl_internal_set__stopRequested)) bool _stopRequested;
+  /// @brief Field _isBackground, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get__isBackground, put = __cordl_internal_set__isBackground)) bool _isBackground;
+
+  /// @brief Field _isComplete, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__isComplete, put = __cordl_internal_set__isComplete)) bool _isComplete;
 
   /// @brief Field _lockHandle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lockHandle, put = __cordl_internal_set__lockHandle))::System::Object* _lockHandle;
 
-  /// @brief Field _thread, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__thread, put = __cordl_internal_set__thread))::System::Threading::Thread* _thread;
+  /// @brief Field _name, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _priority, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority))::System::Threading::ThreadPriority _priority;
 
-  /// @brief Field _isBackground, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get__isBackground, put = __cordl_internal_set__isBackground)) bool _isBackground;
+  /// @brief Field _stopRequested, offset 0x12, size 0x1
+  __declspec(property(get = __cordl_internal_get__stopRequested, put = __cordl_internal_set__stopRequested)) bool _stopRequested;
 
-  /// @brief Field _name, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  /// @brief Field _thread, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__thread, put = __cordl_internal_set__thread))::System::Threading::Thread* _thread;
 
-  __declspec(property(get = get_TaskName))::StringW TaskName;
+  /// @brief Method Abort, addr 0x230e16c, size 0x34, virtual true, abstract: false, final false
+  inline void Abort();
 
-  __declspec(property(get = get_IsComplete, put = set_IsComplete)) bool IsComplete;
+  /// @brief Method CleanUp, addr 0x230e418, size 0x4, virtual true, abstract: false, final false
+  inline void CleanUp();
 
-  __declspec(property(get = get_IsActive, put = set_IsActive)) bool IsActive;
+  /// @brief Method DoWork, addr 0x230e40c, size 0x4, virtual true, abstract: false, final false
+  inline void DoWork();
 
-  __declspec(property(get = get_StopRequested, put = set_StopRequested)) bool StopRequested;
+  static inline ::HoudiniEngineUnity::HEU_ThreadedTask* New_ctor();
 
-  __declspec(property(get = get_Priority, put = set_Priority))::System::Threading::ThreadPriority Priority;
+  /// @brief Method OnComplete, addr 0x230e410, size 0x4, virtual true, abstract: false, final false
+  inline void OnComplete();
 
-  __declspec(property(get = get_IsBackground, put = set_IsBackground)) bool IsBackground;
+  /// @brief Method OnStopped, addr 0x230e414, size 0x4, virtual true, abstract: false, final false
+  inline void OnStopped();
 
-  constexpr bool& __cordl_internal_get__isComplete();
+  /// @brief Method Reset, addr 0x230e1a0, size 0x84, virtual true, abstract: false, final false
+  inline void Reset();
 
-  constexpr bool const& __cordl_internal_get__isComplete() const;
+  /// @brief Method Run, addr 0x230e41c, size 0x24, virtual false, abstract: false, final false
+  inline void Run();
 
-  constexpr void __cordl_internal_set__isComplete(bool value);
+  /// @brief Method Start, addr 0x230dcec, size 0x13c, virtual true, abstract: false, final false
+  inline void Start();
 
-  constexpr bool& __cordl_internal_get__isActive();
+  /// @brief Method Stop, addr 0x230dfa8, size 0x3c, virtual true, abstract: false, final false
+  inline void Stop();
+
+  /// @brief Method Update, addr 0x230e224, size 0x58, virtual true, abstract: false, final false
+  inline void Update();
 
   constexpr bool const& __cordl_internal_get__isActive() const;
 
-  constexpr void __cordl_internal_set__isActive(bool value);
+  constexpr bool& __cordl_internal_get__isActive();
 
-  constexpr bool& __cordl_internal_get__stopRequested();
+  constexpr bool const& __cordl_internal_get__isBackground() const;
 
-  constexpr bool const& __cordl_internal_get__stopRequested() const;
+  constexpr bool& __cordl_internal_get__isBackground();
 
-  constexpr void __cordl_internal_set__stopRequested(bool value);
+  constexpr bool const& __cordl_internal_get__isComplete() const;
+
+  constexpr bool& __cordl_internal_get__isComplete();
 
   constexpr ::System::Object*& __cordl_internal_get__lockHandle();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lockHandle() const;
 
-  constexpr void __cordl_internal_set__lockHandle(::System::Object* value);
+  constexpr ::StringW const& __cordl_internal_get__name() const;
+
+  constexpr ::StringW& __cordl_internal_get__name();
+
+  constexpr ::System::Threading::ThreadPriority const& __cordl_internal_get__priority() const;
+
+  constexpr ::System::Threading::ThreadPriority& __cordl_internal_get__priority();
+
+  constexpr bool const& __cordl_internal_get__stopRequested() const;
+
+  constexpr bool& __cordl_internal_get__stopRequested();
 
   constexpr ::System::Threading::Thread*& __cordl_internal_get__thread();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__thread() const;
 
-  constexpr void __cordl_internal_set__thread(::System::Threading::Thread* value);
-
-  constexpr ::System::Threading::ThreadPriority& __cordl_internal_get__priority();
-
-  constexpr ::System::Threading::ThreadPriority const& __cordl_internal_get__priority() const;
-
-  constexpr void __cordl_internal_set__priority(::System::Threading::ThreadPriority value);
-
-  constexpr bool& __cordl_internal_get__isBackground();
-
-  constexpr bool const& __cordl_internal_get__isBackground() const;
+  constexpr void __cordl_internal_set__isActive(bool value);
 
   constexpr void __cordl_internal_set__isBackground(bool value);
 
-  constexpr ::StringW& __cordl_internal_get__name();
+  constexpr void __cordl_internal_set__isComplete(bool value);
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+  constexpr void __cordl_internal_set__lockHandle(::System::Object* value);
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method Start, addr 0x2241684, size 0x13c, virtual true, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__priority(::System::Threading::ThreadPriority value);
 
-  /// @brief Method Stop, addr 0x2241940, size 0x3c, virtual true, abstract: false, final false
-  inline void Stop();
+  constexpr void __cordl_internal_set__stopRequested(bool value);
 
-  /// @brief Method Abort, addr 0x2241b04, size 0x34, virtual true, abstract: false, final false
-  inline void Abort();
+  constexpr void __cordl_internal_set__thread(::System::Threading::Thread* value);
 
-  /// @brief Method Reset, addr 0x2241b38, size 0x84, virtual true, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method Update, addr 0x2241bbc, size 0x58, virtual true, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method DoWork, addr 0x2241da4, size 0x4, virtual true, abstract: false, final false
-  inline void DoWork();
-
-  /// @brief Method OnComplete, addr 0x2241da8, size 0x4, virtual true, abstract: false, final false
-  inline void OnComplete();
-
-  /// @brief Method OnStopped, addr 0x2241dac, size 0x4, virtual true, abstract: false, final false
-  inline void OnStopped();
-
-  /// @brief Method CleanUp, addr 0x2241db0, size 0x4, virtual true, abstract: false, final false
-  inline void CleanUp();
-
-  /// @brief Method Run, addr 0x2241db4, size 0x24, virtual false, abstract: false, final false
-  inline void Run();
-
-  /// @brief Method get_TaskName, addr 0x2241dd8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_TaskName();
-
-  /// @brief Method get_IsComplete, addr 0x224197c, size 0xc8, virtual false, abstract: false, final false
-  inline bool get_IsComplete();
-
-  /// @brief Method set_IsComplete, addr 0x2241880, size 0xc0, virtual false, abstract: false, final false
-  inline void set_IsComplete(bool value);
-
-  /// @brief Method get_IsActive, addr 0x2241c14, size 0xc8, virtual false, abstract: false, final false
-  inline bool get_IsActive();
-
-  /// @brief Method set_IsActive, addr 0x22417c0, size 0xc0, virtual false, abstract: false, final false
-  inline void set_IsActive(bool value);
-
-  /// @brief Method get_StopRequested, addr 0x2241cdc, size 0xc8, virtual false, abstract: false, final false
-  inline bool get_StopRequested();
-
-  /// @brief Method set_StopRequested, addr 0x2241a44, size 0xc0, virtual false, abstract: false, final false
-  inline void set_StopRequested(bool value);
-
-  /// @brief Method get_Priority, addr 0x2241de0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Threading::ThreadPriority get_Priority();
-
-  /// @brief Method set_Priority, addr 0x2241de8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Priority(::System::Threading::ThreadPriority value);
-
-  /// @brief Method get_IsBackground, addr 0x2241df0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsBackground();
-
-  /// @brief Method set_IsBackground, addr 0x2241df8, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsBackground(bool value);
-
-  static inline ::HoudiniEngineUnity::HEU_ThreadedTask* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2241e04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230e46c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IsActive, addr 0x230e27c, size 0xc8, virtual false, abstract: false, final false
+  inline bool get_IsActive();
+
+  /// @brief Method get_IsBackground, addr 0x230e458, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsBackground();
+
+  /// @brief Method get_IsComplete, addr 0x230dfe4, size 0xc8, virtual false, abstract: false, final false
+  inline bool get_IsComplete();
+
+  /// @brief Method get_Priority, addr 0x230e448, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Threading::ThreadPriority get_Priority();
+
+  /// @brief Method get_StopRequested, addr 0x230e344, size 0xc8, virtual false, abstract: false, final false
+  inline bool get_StopRequested();
+
+  /// @brief Method get_TaskName, addr 0x230e440, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_TaskName();
+
+  /// @brief Method set_IsActive, addr 0x230de28, size 0xc0, virtual false, abstract: false, final false
+  inline void set_IsActive(bool value);
+
+  /// @brief Method set_IsBackground, addr 0x230e460, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsBackground(bool value);
+
+  /// @brief Method set_IsComplete, addr 0x230dee8, size 0xc0, virtual false, abstract: false, final false
+  inline void set_IsComplete(bool value);
+
+  /// @brief Method set_Priority, addr 0x230e450, size 0x8, virtual false, abstract: false, final false
+  inline void set_Priority(::System::Threading::ThreadPriority value);
+
+  /// @brief Method set_StopRequested, addr 0x230e0ac, size 0xc0, virtual false, abstract: false, final false
+  inline void set_StopRequested(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ThreadedTask();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ThreadedTask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ThreadedTask(HEU_ThreadedTask&&) = delete;
@@ -191,12 +195,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ThreadedTask(HEU_ThreadedTask const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ThreadedTask();
-
-public:
   /// @brief Field _isComplete, offset: 0x10, size: 0x1, def value: None
   bool ____isComplete;
 

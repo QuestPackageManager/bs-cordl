@@ -19,23 +19,21 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodCallMessage);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3171))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodCallMessage*
 class CORDL_TYPE IMethodCallMessage {
 public:
   // Declarations
-  /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-  constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
-
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
+  /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
+
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMethodCallMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

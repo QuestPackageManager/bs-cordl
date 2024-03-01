@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCross
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3266))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainMap*
 class CORDL_TYPE BinaryCrossAppDomainMap : public ::System::Object {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  constexpr int32_t& __cordl_internal_get_crossAppDomainArrayIndex();
-
-  constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
-
-  constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
+  /// @brief Method Dump, addr 0x25b41c4, size 0x4, virtual false, abstract: false, final false
+  inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e349c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Read, addr 0x24e34a4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x25b419c, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24e34cc, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+  constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
 
+  constexpr int32_t& __cordl_internal_get_crossAppDomainArrayIndex();
+
+  constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
+
+  /// @brief Method .ctor, addr 0x25b4194, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryCrossAppDomainMap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainMap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryCrossAppDomainMap(BinaryCrossAppDomainMap&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryCrossAppDomainMap(BinaryCrossAppDomainMap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryCrossAppDomainMap();
-
-public:
   /// @brief Field crossAppDomainArrayIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___crossAppDomainArrayIndex;
 

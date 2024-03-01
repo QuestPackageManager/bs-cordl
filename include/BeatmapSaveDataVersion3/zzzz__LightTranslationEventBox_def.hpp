@@ -40,25 +40,27 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationEventBox);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11165)), TypeDefinitionIndex(TypeDefinitionIndex(11202)), TypeDefinitionIndex(TypeDefinitionIndex(11207)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11208))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11174)) CS Name: ::BeatmapSaveDataVersion3::LightTranslationEventBox*
+// CS Name: ::BeatmapSaveDataVersion3::LightTranslationEventBox*
 class CORDL_TYPE LightTranslationEventBox : public ::BeatmapSaveDataVersion3::EventBox {
 public:
   // Declarations
-  /// @brief Field s, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) float_t s;
-
-  /// @brief Field t, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::BeatmapSaveDataCommon::DistributionParamType t;
-
   /// @brief Field a, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::BeatmapSaveDataCommon::Axis a;
 
-  /// @brief Field r, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
+  __declspec(property(get = get_axis))::BeatmapSaveDataCommon::Axis axis;
 
   /// @brief Field b, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int32_t b;
+
+  __declspec(property(get = get_flipTranslation)) bool flipTranslation;
+
+  __declspec(property(get = get_gapDistributionEaseType))::BeatmapSaveDataCommon::EaseType gapDistributionEaseType;
+
+  __declspec(property(get = get_gapDistributionParam)) float_t gapDistributionParam;
+
+  __declspec(property(get = get_gapDistributionParamType))::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType;
+
+  __declspec(property(get = get_gapDistributionShouldAffectFirstBaseEvent)) bool gapDistributionShouldAffectFirstBaseEvent;
 
   /// @brief Field i, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i))::BeatmapSaveDataCommon::EaseType i;
@@ -66,94 +68,97 @@ public:
   /// @brief Field l, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* l;
 
-  __declspec(property(get = get_gapDistributionParam)) float_t gapDistributionParam;
-
-  __declspec(property(get = get_gapDistributionParamType))::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType;
-
-  __declspec(property(get = get_axis))::BeatmapSaveDataCommon::Axis axis;
-
-  __declspec(property(get = get_flipTranslation)) bool flipTranslation;
-
-  __declspec(property(get = get_gapDistributionShouldAffectFirstBaseEvent)) bool gapDistributionShouldAffectFirstBaseEvent;
-
-  __declspec(property(get = get_gapDistributionEaseType))::BeatmapSaveDataCommon::EaseType gapDistributionEaseType;
-
   __declspec(property(get = get_lightTranslationBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList;
 
-  constexpr float_t& __cordl_internal_get_s();
+  /// @brief Field r, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
 
-  constexpr float_t const& __cordl_internal_get_s() const;
+  /// @brief Field s, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) float_t s;
 
-  constexpr void __cordl_internal_set_s(float_t value);
-
-  constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_t();
-
-  constexpr ::BeatmapSaveDataCommon::DistributionParamType const& __cordl_internal_get_t() const;
-
-  constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
-
-  constexpr ::BeatmapSaveDataCommon::Axis& __cordl_internal_get_a();
-
-  constexpr ::BeatmapSaveDataCommon::Axis const& __cordl_internal_get_a() const;
-
-  constexpr void __cordl_internal_set_a(::BeatmapSaveDataCommon::Axis value);
-
-  constexpr int32_t& __cordl_internal_get_r();
-
-  constexpr int32_t const& __cordl_internal_get_r() const;
-
-  constexpr void __cordl_internal_set_r(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_b();
-
-  constexpr int32_t const& __cordl_internal_get_b() const;
-
-  constexpr void __cordl_internal_set_b(int32_t value);
-
-  constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_i();
-
-  constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_i() const;
-
-  constexpr void __cordl_internal_set_i(::BeatmapSaveDataCommon::EaseType value);
-
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*& __cordl_internal_get_l();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*> const& __cordl_internal_get_l() const;
-
-  constexpr void __cordl_internal_set_l(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* value);
-
-  /// @brief Method get_gapDistributionParam, addr 0x12bbf60, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_gapDistributionParam();
-
-  /// @brief Method get_gapDistributionParamType, addr 0x12bbf68, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::DistributionParamType get_gapDistributionParamType();
-
-  /// @brief Method get_axis, addr 0x12bbf70, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::Axis get_axis();
-
-  /// @brief Method get_flipTranslation, addr 0x12bbf78, size 0x10, virtual false, abstract: false, final false
-  inline bool get_flipTranslation();
-
-  /// @brief Method get_gapDistributionShouldAffectFirstBaseEvent, addr 0x12bbf88, size 0x10, virtual false, abstract: false, final false
-  inline bool get_gapDistributionShouldAffectFirstBaseEvent();
-
-  /// @brief Method get_gapDistributionEaseType, addr 0x12bbf98, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::EaseType get_gapDistributionEaseType();
-
-  /// @brief Method get_lightTranslationBaseDataList, addr 0x12bbfa0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* get_lightTranslationBaseDataList();
+  /// @brief Field t, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::BeatmapSaveDataCommon::DistributionParamType t;
 
   static inline ::BeatmapSaveDataVersion3::LightTranslationEventBox*
   New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t gapDistributionParam,
            ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataCommon::EaseType gapDistributionEaseType,
            ::BeatmapSaveDataCommon::Axis axis, bool flipTranslation, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method .ctor, addr 0x12bbfa8, size 0x78, virtual false, abstract: false, final false
+  constexpr ::BeatmapSaveDataCommon::Axis const& __cordl_internal_get_a() const;
+
+  constexpr ::BeatmapSaveDataCommon::Axis& __cordl_internal_get_a();
+
+  constexpr int32_t const& __cordl_internal_get_b() const;
+
+  constexpr int32_t& __cordl_internal_get_b();
+
+  constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_i() const;
+
+  constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_i();
+
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*& __cordl_internal_get_l();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*> const& __cordl_internal_get_l() const;
+
+  constexpr int32_t const& __cordl_internal_get_r() const;
+
+  constexpr int32_t& __cordl_internal_get_r();
+
+  constexpr float_t const& __cordl_internal_get_s() const;
+
+  constexpr float_t& __cordl_internal_get_s();
+
+  constexpr ::BeatmapSaveDataCommon::DistributionParamType const& __cordl_internal_get_t() const;
+
+  constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_t();
+
+  constexpr void __cordl_internal_set_a(::BeatmapSaveDataCommon::Axis value);
+
+  constexpr void __cordl_internal_set_b(int32_t value);
+
+  constexpr void __cordl_internal_set_i(::BeatmapSaveDataCommon::EaseType value);
+
+  constexpr void __cordl_internal_set_l(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* value);
+
+  constexpr void __cordl_internal_set_r(int32_t value);
+
+  constexpr void __cordl_internal_set_s(float_t value);
+
+  constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
+
+  /// @brief Method .ctor, addr 0x12fcf78, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t gapDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent,
                     ::BeatmapSaveDataCommon::EaseType gapDistributionEaseType, ::BeatmapSaveDataCommon::Axis axis, bool flipTranslation,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
+  /// @brief Method get_axis, addr 0x12fcf40, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::Axis get_axis();
+
+  /// @brief Method get_flipTranslation, addr 0x12fcf48, size 0x10, virtual false, abstract: false, final false
+  inline bool get_flipTranslation();
+
+  /// @brief Method get_gapDistributionEaseType, addr 0x12fcf68, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::EaseType get_gapDistributionEaseType();
+
+  /// @brief Method get_gapDistributionParam, addr 0x12fcf30, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_gapDistributionParam();
+
+  /// @brief Method get_gapDistributionParamType, addr 0x12fcf38, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::DistributionParamType get_gapDistributionParamType();
+
+  /// @brief Method get_gapDistributionShouldAffectFirstBaseEvent, addr 0x12fcf58, size 0x10, virtual false, abstract: false, final false
+  inline bool get_gapDistributionShouldAffectFirstBaseEvent();
+
+  /// @brief Method get_lightTranslationBaseDataList, addr 0x12fcf70, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* get_lightTranslationBaseDataList();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationEventBox();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationEventBox", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationEventBox(LightTranslationEventBox&&) = delete;
@@ -162,12 +167,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationEventBox(LightTranslationEventBox const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTranslationEventBox();
-
-public:
   /// @brief Field s, offset: 0x20, size: 0x4, def value: None
   float_t ___s;
 

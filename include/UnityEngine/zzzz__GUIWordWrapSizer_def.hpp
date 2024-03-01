@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::UnityEngine::GUIWordWrapSizer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14597))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14598))
 // CS Name: ::UnityEngine::GUIWordWrapSizer*
 class CORDL_TYPE GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry {
 public:
@@ -34,42 +32,48 @@ public:
   /// @brief Field m_Content, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Content, put = __cordl_internal_set_m_Content))::UnityEngine::GUIContent* m_Content;
 
+  /// @brief Field m_ForcedMaxHeight, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ForcedMaxHeight, put = __cordl_internal_set_m_ForcedMaxHeight)) float_t m_ForcedMaxHeight;
+
   /// @brief Field m_ForcedMinHeight, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ForcedMinHeight, put = __cordl_internal_set_m_ForcedMinHeight)) float_t m_ForcedMinHeight;
 
-  /// @brief Field m_ForcedMaxHeight, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ForcedMaxHeight, put = __cordl_internal_set_m_ForcedMaxHeight)) float_t m_ForcedMaxHeight;
+  /// @brief Method CalcHeight, addr 0x2df4204, size 0x70, virtual true, abstract: false, final false
+  inline void CalcHeight();
+
+  /// @brief Method CalcWidth, addr 0x2df4180, size 0x84, virtual true, abstract: false, final false
+  inline void CalcWidth();
+
+  static inline ::UnityEngine::GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,
+                                                          ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
   constexpr ::UnityEngine::GUIContent*& __cordl_internal_get_m_Content();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& __cordl_internal_get_m_Content() const;
 
-  constexpr void __cordl_internal_set_m_Content(::UnityEngine::GUIContent* value);
-
-  constexpr float_t& __cordl_internal_get_m_ForcedMinHeight();
-
-  constexpr float_t const& __cordl_internal_get_m_ForcedMinHeight() const;
-
-  constexpr void __cordl_internal_set_m_ForcedMinHeight(float_t value);
+  constexpr float_t const& __cordl_internal_get_m_ForcedMaxHeight() const;
 
   constexpr float_t& __cordl_internal_get_m_ForcedMaxHeight();
 
-  constexpr float_t const& __cordl_internal_get_m_ForcedMaxHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_ForcedMinHeight() const;
+
+  constexpr float_t& __cordl_internal_get_m_ForcedMinHeight();
+
+  constexpr void __cordl_internal_set_m_Content(::UnityEngine::GUIContent* value);
 
   constexpr void __cordl_internal_set_m_ForcedMaxHeight(float_t value);
 
-  static inline ::UnityEngine::GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,
-                                                          ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
+  constexpr void __cordl_internal_set_m_ForcedMinHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x2d078f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df4020, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method CalcWidth, addr 0x2d07a58, size 0x84, virtual true, abstract: false, final false
-  inline void CalcWidth();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GUIWordWrapSizer();
 
-  /// @brief Method CalcHeight, addr 0x2d07adc, size 0x70, virtual true, abstract: false, final false
-  inline void CalcHeight();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GUIWordWrapSizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIWordWrapSizer(GUIWordWrapSizer&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GUIWordWrapSizer(GUIWordWrapSizer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUIWordWrapSizer();
-
-public:
   /// @brief Field m_Content, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::GUIContent* ___m_Content;
 

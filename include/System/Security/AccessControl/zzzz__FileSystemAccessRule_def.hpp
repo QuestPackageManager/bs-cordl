@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Security::AccessControl::FileSystemAccessRule);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3015))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3032))
 // CS Name: ::System.Security.AccessControl::FileSystemAccessRule*
 class CORDL_TYPE FileSystemAccessRule : public ::System::Security::AccessControl::AccessRule {
 public:
@@ -43,14 +41,20 @@ public:
                                                                                   ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method .ctor, addr 0x24a5620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2577318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited,
                     ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                     ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_FileSystemRights, addr 0x24a5628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileSystemRights, addr 0x2577320, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::FileSystemRights get_FileSystemRights();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileSystemAccessRule();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemAccessRule", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileSystemAccessRule(FileSystemAccessRule&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileSystemAccessRule(FileSystemAccessRule const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileSystemAccessRule();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

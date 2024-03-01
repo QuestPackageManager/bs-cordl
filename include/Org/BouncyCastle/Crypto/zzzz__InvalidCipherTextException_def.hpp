@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::InvalidCipherTextException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1347))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1350))
 // CS Name: ::Org.BouncyCastle.Crypto::InvalidCipherTextException*
 class CORDL_TYPE InvalidCipherTextException : public ::Org::BouncyCastle::Crypto::CryptoException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor();
 
-  /// @brief Method .ctor, addr 0xff2820, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0xff2824, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0xff2828, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10367f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x10367f4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x10367f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvalidCipherTextException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvalidCipherTextException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvalidCipherTextException(InvalidCipherTextException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvalidCipherTextException(InvalidCipherTextException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidCipherTextException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

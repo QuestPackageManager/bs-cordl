@@ -21,20 +21,24 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11608))
 // CS Name: ::System.Xml.Schema::ValidationEventHandler*
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Xml::Schema::ValidationEventHandler* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x28c8268, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x28c8398, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29af814, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
+  static inline ::System::Xml::Schema::ValidationEventHandler* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x29af6e4, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValidationEventHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationEventHandler(ValidationEventHandler&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationEventHandler(ValidationEventHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidationEventHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

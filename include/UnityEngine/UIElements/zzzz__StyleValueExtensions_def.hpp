@@ -42,36 +42,40 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6560))
 // CS Name: ::UnityEngine.UIElements::StyleValueExtensions*
 class CORDL_TYPE StyleValueExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
-
-  /// @brief Method ToYogaValue, addr 0x2e8b260, size 0x14c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length);
-
-  /// @brief Method ToLength, addr 0x2e8b3ac, size 0x108, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method ToRotate, addr 0x2e8b4c4, size 0x17c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method ToScale, addr 0x2e8b640, size 0x104, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method ToTranslate, addr 0x2e8b75c, size 0x150, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method ToLength, addr 0x2e8b8c8, size 0x20, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
-
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CopyFrom(::System::Collections::Generic::List_1<T>* list, ::System::Collections::Generic::List_1<T>* other);
 
+  /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
+
+  /// @brief Method ToLength, addr 0x2f7ead4, size 0x108, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method ToLength, addr 0x2f7eff0, size 0x20, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
+
+  /// @brief Method ToRotate, addr 0x2f7ebec, size 0x17c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method ToScale, addr 0x2f7ed68, size 0x104, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method ToTranslate, addr 0x2f7ee84, size 0x150, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method ToYogaValue, addr 0x2f7e988, size 0x14c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleValueExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleValueExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleValueExtensions(StyleValueExtensions&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StyleValueExtensions(StyleValueExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleValueExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

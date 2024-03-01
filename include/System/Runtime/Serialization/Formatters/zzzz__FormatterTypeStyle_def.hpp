@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::FormatterTypeStyle);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3240))
 // CS Name: ::System.Runtime.Serialization.Formatters::FormatterTypeStyle
 struct CORDL_TYPE FormatterTypeStyle {
 public:
@@ -35,27 +33,32 @@ public:
     return static_cast<__FormatterTypeStyle_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FormatterTypeStyle(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FormatterTypeStyle();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FormatterTypeStyle(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field TypesWhenNeeded value: static_cast<int32_t>(0x0)
-  static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesWhenNeeded;
 
   /// @brief Field TypesAlways value: static_cast<int32_t>(0x1)
   static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesAlways;
 
+  /// @brief Field TypesWhenNeeded value: static_cast<int32_t>(0x0)
+  static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const TypesWhenNeeded;
+
   /// @brief Field XsdString value: static_cast<int32_t>(0x2)
   static ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const XsdString;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

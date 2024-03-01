@@ -23,61 +23,29 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextInputField);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6354))
 // CS Name: ::UnityEngine.UIElements::ITextInputField*
 class CORDL_TYPE ITextInputField {
 public:
   // Declarations
-  __declspec(property(get = get_hasFocus)) bool hasFocus;
-
   __declspec(property(get = get_doubleClickSelectsWord)) bool doubleClickSelectsWord;
 
-  __declspec(property(get = get_tripleClickSelectsLine)) bool tripleClickSelectsLine;
+  __declspec(property(get = get_editorEngine))::UnityEngine::UIElements::TextEditorEngine* editorEngine;
 
-  __declspec(property(get = get_isReadOnly)) bool isReadOnly;
+  __declspec(property(get = get_hasFocus)) bool hasFocus;
 
   __declspec(property(get = get_isDelayed)) bool isDelayed;
 
   __declspec(property(get = get_isPasswordField)) bool isPasswordField;
 
-  __declspec(property(get = get_editorEngine))::UnityEngine::UIElements::TextEditorEngine* editorEngine;
+  __declspec(property(get = get_isReadOnly)) bool isReadOnly;
+
+  __declspec(property(get = get_tripleClickSelectsLine)) bool tripleClickSelectsLine;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
   constexpr operator ::UnityEngine::UIElements::IEventHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
-  constexpr ::UnityEngine::UIElements::IEventHandler* i___UnityEngine__UIElements__IEventHandler() noexcept;
-
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextElement"
   constexpr operator ::UnityEngine::UIElements::ITextElement*() noexcept;
-
-  /// @brief Convert to "::UnityEngine::UIElements::ITextElement"
-  constexpr ::UnityEngine::UIElements::ITextElement* i___UnityEngine__UIElements__ITextElement() noexcept;
-
-  /// @brief Method get_hasFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_hasFocus();
-
-  /// @brief Method get_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_doubleClickSelectsWord();
-
-  /// @brief Method get_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_tripleClickSelectsLine();
-
-  /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isReadOnly();
-
-  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isDelayed();
-
-  /// @brief Method get_isPasswordField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isPasswordField();
-
-  /// @brief Method get_editorEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
-
-  /// @brief Method SyncTextEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SyncTextEngine();
 
   /// @brief Method AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AcceptCharacter(char16_t c);
@@ -85,11 +53,41 @@ public:
   /// @brief Method CullString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW CullString(::StringW s);
 
+  /// @brief Method SyncTextEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SyncTextEngine();
+
   /// @brief Method UpdateText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateText(::StringW value);
 
   /// @brief Method UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateValueFromText();
+
+  /// @brief Method get_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_doubleClickSelectsWord();
+
+  /// @brief Method get_editorEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
+
+  /// @brief Method get_hasFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_hasFocus();
+
+  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isDelayed();
+
+  /// @brief Method get_isPasswordField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isPasswordField();
+
+  /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isReadOnly();
+
+  /// @brief Method get_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_tripleClickSelectsLine();
+
+  /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
+  constexpr ::UnityEngine::UIElements::IEventHandler* i___UnityEngine__UIElements__IEventHandler() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::ITextElement"
+  constexpr ::UnityEngine::UIElements::ITextElement* i___UnityEngine__UIElements__ITextElement() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextInputField", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

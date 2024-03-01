@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissScoringElement__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4661)), TypeDefinitionIndex(TypeDefinitionIndex(11121))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
 // CS Name: ::MissScoringElement*
 class CORDL_TYPE MissScoringElement : public ::GlobalNamespace::ScoringElement {
 public:
@@ -48,44 +46,50 @@ public:
 
   __declspec(property(get = get_cutScore)) int32_t cutScore;
 
-  __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
+  __declspec(property(get = get_executionOrder)) int32_t executionOrder;
 
   __declspec(property(get = get_multiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType;
 
-  __declspec(property(get = get_executionOrder)) int32_t executionOrder;
+  __declspec(property(get = get_wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType wouldBeCorrectCutBestPossibleMultiplierEventType;
 
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__multiplierEventType();
-
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__multiplierEventType() const;
-
-  constexpr void __cordl_internal_set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
-
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType();
-
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const;
-
-  constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
-
-  /// @brief Method get_cutScore, addr 0x23c6db4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_cutScore();
-
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x23c6dbc, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
-
-  /// @brief Method get_multiplierEventType, addr 0x23c6dc4, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
-
-  /// @brief Method get_executionOrder, addr 0x23c6dcc, size 0xc, virtual true, abstract: false, final false
-  inline int32_t get_executionOrder();
-
-  /// @brief Method Init, addr 0x23c68f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2495838, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData);
 
   static inline ::GlobalNamespace::MissScoringElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c6dd8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__multiplierEventType() const;
+
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__multiplierEventType();
+
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const;
+
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType();
+
+  constexpr void __cordl_internal_set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
+
+  constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
+
+  /// @brief Method .ctor, addr 0x2495d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_cutScore, addr 0x2495cfc, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_cutScore();
+
+  /// @brief Method get_executionOrder, addr 0x2495d14, size 0xc, virtual true, abstract: false, final false
+  inline int32_t get_executionOrder();
+
+  /// @brief Method get_multiplierEventType, addr 0x2495d0c, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
+
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x2495d04, size 0x8, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissScoringElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissScoringElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissScoringElement(MissScoringElement&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissScoringElement(MissScoringElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissScoringElement();
-
-public:
   /// @brief Field _multiplierEventType, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType ____multiplierEventType;
 
@@ -120,16 +118,21 @@ static_assert(offsetof(::GlobalNamespace::MissScoringElement, ____wouldBeCorrect
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4660)), TypeDefinitionIndex(TypeDefinitionIndex(4667)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4660), inst: 2788
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4666)) CS Name: ::MissScoringElement::Pool*
+// CS Name: ::MissScoringElement::Pool*
 class CORDL_TYPE __MissScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::MissScoringElement*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MissScoringElement__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23c6de0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2495d28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MissScoringElement__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MissScoringElement__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MissScoringElement__Pool(__MissScoringElement__Pool&&) = delete;
@@ -138,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MissScoringElement__Pool(__MissScoringElement__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MissScoringElement__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

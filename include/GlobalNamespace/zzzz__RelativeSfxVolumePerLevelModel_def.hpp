@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::RelativeSfxVolumePerLevelModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10842))
 // CS Name: ::RelativeSfxVolumePerLevelModel*
 class CORDL_TYPE RelativeSfxVolumePerLevelModel : public ::System::Object {
 public:
@@ -35,20 +33,26 @@ public:
   __declspec(property(get = __cordl_internal_get__relativeSfxVolumePerLevelId,
                       put = __cordl_internal_set__relativeSfxVolumePerLevelId))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _relativeSfxVolumePerLevelId;
 
+  /// @brief Method GetRelativeSfxVolume, addr 0x12d3600, size 0x7c, virtual false, abstract: false, final false
+  inline float_t GetRelativeSfxVolume(::StringW levelId);
+
+  static inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& __cordl_internal_get__relativeSfxVolumePerLevelId();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const& __cordl_internal_get__relativeSfxVolumePerLevelId() const;
 
   constexpr void __cordl_internal_set__relativeSfxVolumePerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
-  static inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
-
-  /// @brief Method .ctor, addr 0x1290e88, size 0x7a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d2e58, size 0x7a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
 
-  /// @brief Method GetRelativeSfxVolume, addr 0x1291630, size 0x7c, virtual false, abstract: false, final false
-  inline float_t GetRelativeSfxVolume(::StringW levelId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RelativeSfxVolumePerLevelModel();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RelativeSfxVolumePerLevelModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RelativeSfxVolumePerLevelModel(RelativeSfxVolumePerLevelModel&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RelativeSfxVolumePerLevelModel(RelativeSfxVolumePerLevelModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RelativeSfxVolumePerLevelModel();
-
-public:
   /// @brief Field _relativeSfxVolumePerLevelId, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* ____relativeSfxVolumePerLevelId;
 

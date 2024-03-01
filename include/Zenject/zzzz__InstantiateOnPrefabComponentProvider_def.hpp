@@ -39,58 +39,62 @@ MARK_REF_PTR_T(::Zenject::InstantiateOnPrefabComponentProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10332))
 // CS Name: ::Zenject::InstantiateOnPrefabComponentProvider*
 class CORDL_TYPE InstantiateOnPrefabComponentProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _prefabInstantiator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabInstantiator, put = __cordl_internal_set__prefabInstantiator))::Zenject::IPrefabInstantiator* _prefabInstantiator;
-
-  /// @brief Field _componentType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
-
   __declspec(property(get = get_IsCached)) bool IsCached;
 
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
+  /// @brief Field _componentType, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
+
+  /// @brief Field _prefabInstantiator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__prefabInstantiator, put = __cordl_internal_set__prefabInstantiator))::Zenject::IPrefabInstantiator* _prefabInstantiator;
+
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x3016cf0, size 0x16c, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  constexpr ::Zenject::IPrefabInstantiator*& __cordl_internal_get__prefabInstantiator();
+  /// @brief Method GetInstanceType, addr 0x3016ce8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __cordl_internal_get__prefabInstantiator() const;
-
-  constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
+  static inline ::Zenject::InstantiateOnPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 
   constexpr ::System::Type*& __cordl_internal_get__componentType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__componentType() const;
 
+  constexpr ::Zenject::IPrefabInstantiator*& __cordl_internal_get__prefabInstantiator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __cordl_internal_get__prefabInstantiator() const;
+
   constexpr void __cordl_internal_set__componentType(::System::Type* value);
 
-  static inline ::Zenject::InstantiateOnPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
+  constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x2f23584, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3016cac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 
-  /// @brief Method get_IsCached, addr 0x2f235b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x3016cd8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f235b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3016ce0, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f235c0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f235c8, size 0x16c, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstantiateOnPrefabComponentProvider();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InstantiateOnPrefabComponentProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstantiateOnPrefabComponentProvider(InstantiateOnPrefabComponentProvider&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstantiateOnPrefabComponentProvider(InstantiateOnPrefabComponentProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstantiateOnPrefabComponentProvider();
-
-public:
   /// @brief Field _prefabInstantiator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IPrefabInstantiator* ____prefabInstantiator;
 

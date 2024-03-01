@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::EasingMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6544))
 // CS Name: ::UnityEngine.UIElements::EasingMode
 struct CORDL_TYPE EasingMode {
 public:
@@ -55,18 +53,20 @@ public:
     return static_cast<__EasingMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EasingMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EasingMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EasingMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Ease value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::EasingMode const Ease;
@@ -74,68 +74,71 @@ public:
   /// @brief Field EaseIn value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UIElements::EasingMode const EaseIn;
 
-  /// @brief Field EaseOut value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UIElements::EasingMode const EaseOut;
-
-  /// @brief Field EaseInOut value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::EasingMode const EaseInOut;
-
-  /// @brief Field Linear value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::EasingMode const Linear;
-
-  /// @brief Field EaseInSine value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::UIElements::EasingMode const EaseInSine;
-
-  /// @brief Field EaseOutSine value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::UIElements::EasingMode const EaseOutSine;
-
-  /// @brief Field EaseInOutSine value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::UIElements::EasingMode const EaseInOutSine;
-
-  /// @brief Field EaseInCubic value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::UIElements::EasingMode const EaseInCubic;
-
-  /// @brief Field EaseOutCubic value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::UIElements::EasingMode const EaseOutCubic;
-
-  /// @brief Field EaseInOutCubic value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::UIElements::EasingMode const EaseInOutCubic;
-
-  /// @brief Field EaseInCirc value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::UIElements::EasingMode const EaseInCirc;
-
-  /// @brief Field EaseOutCirc value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::UIElements::EasingMode const EaseOutCirc;
-
-  /// @brief Field EaseInOutCirc value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::UIElements::EasingMode const EaseInOutCirc;
-
-  /// @brief Field EaseInElastic value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::UIElements::EasingMode const EaseInElastic;
-
-  /// @brief Field EaseOutElastic value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::UIElements::EasingMode const EaseOutElastic;
-
-  /// @brief Field EaseInOutElastic value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::UIElements::EasingMode const EaseInOutElastic;
-
   /// @brief Field EaseInBack value: static_cast<int32_t>(0x11)
   static ::UnityEngine::UIElements::EasingMode const EaseInBack;
-
-  /// @brief Field EaseOutBack value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::UIElements::EasingMode const EaseOutBack;
-
-  /// @brief Field EaseInOutBack value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::UIElements::EasingMode const EaseInOutBack;
 
   /// @brief Field EaseInBounce value: static_cast<int32_t>(0x14)
   static ::UnityEngine::UIElements::EasingMode const EaseInBounce;
 
-  /// @brief Field EaseOutBounce value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::UIElements::EasingMode const EaseOutBounce;
+  /// @brief Field EaseInCirc value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::UIElements::EasingMode const EaseInCirc;
+
+  /// @brief Field EaseInCubic value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::UIElements::EasingMode const EaseInCubic;
+
+  /// @brief Field EaseInElastic value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::UIElements::EasingMode const EaseInElastic;
+
+  /// @brief Field EaseInOut value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UIElements::EasingMode const EaseInOut;
+
+  /// @brief Field EaseInOutBack value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::UIElements::EasingMode const EaseInOutBack;
 
   /// @brief Field EaseInOutBounce value: static_cast<int32_t>(0x16)
   static ::UnityEngine::UIElements::EasingMode const EaseInOutBounce;
+
+  /// @brief Field EaseInOutCirc value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::UIElements::EasingMode const EaseInOutCirc;
+
+  /// @brief Field EaseInOutCubic value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::UIElements::EasingMode const EaseInOutCubic;
+
+  /// @brief Field EaseInOutElastic value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::UIElements::EasingMode const EaseInOutElastic;
+
+  /// @brief Field EaseInOutSine value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::UIElements::EasingMode const EaseInOutSine;
+
+  /// @brief Field EaseInSine value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::UIElements::EasingMode const EaseInSine;
+
+  /// @brief Field EaseOut value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::UIElements::EasingMode const EaseOut;
+
+  /// @brief Field EaseOutBack value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::UIElements::EasingMode const EaseOutBack;
+
+  /// @brief Field EaseOutBounce value: static_cast<int32_t>(0x15)
+  static ::UnityEngine::UIElements::EasingMode const EaseOutBounce;
+
+  /// @brief Field EaseOutCirc value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::UIElements::EasingMode const EaseOutCirc;
+
+  /// @brief Field EaseOutCubic value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::UIElements::EasingMode const EaseOutCubic;
+
+  /// @brief Field EaseOutElastic value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::UIElements::EasingMode const EaseOutElastic;
+
+  /// @brief Field EaseOutSine value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::UIElements::EasingMode const EaseOutSine;
+
+  /// @brief Field Linear value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::EasingMode const Linear;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

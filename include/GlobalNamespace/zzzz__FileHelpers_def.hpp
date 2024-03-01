@@ -22,24 +22,28 @@ MARK_REF_PTR_T(::GlobalNamespace::FileHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15599))
 // CS Name: ::FileHelpers*
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0xe51958, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0xe97928, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xe519b4, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
-
-  /// @brief Method GetFilePaths, addr 0xe51a70, size 0x234, virtual false, abstract: false, final false
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
-
-  /// @brief Method GetFileNamesFromFilePaths, addr 0xe51ca4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFileNamesFromFilePaths, addr 0xe97c74, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
+  /// @brief Method GetFilePaths, addr 0xe97a40, size 0x234, virtual false, abstract: false, final false
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
+
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xe97984, size 0xbc, virtual false, abstract: false, final false
+  static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileHelpers(FileHelpers&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileHelpers(FileHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

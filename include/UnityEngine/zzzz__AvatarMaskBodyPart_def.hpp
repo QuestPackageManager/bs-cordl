@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::AvatarMaskBodyPart);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14728))
 // CS Name: ::UnityEngine::AvatarMaskBodyPart
 struct CORDL_TYPE AvatarMaskBodyPart {
 public:
@@ -46,21 +44,20 @@ public:
     return static_cast<__AvatarMaskBodyPart_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AvatarMaskBodyPart(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AvatarMaskBodyPart();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AvatarMaskBodyPart(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Root value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::AvatarMaskBodyPart const Root;
 
   /// @brief Field Body value: static_cast<int32_t>(0x1)
   static ::UnityEngine::AvatarMaskBodyPart const Body;
@@ -68,38 +65,44 @@ public:
   /// @brief Field Head value: static_cast<int32_t>(0x2)
   static ::UnityEngine::AvatarMaskBodyPart const Head;
 
-  /// @brief Field LeftLeg value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::AvatarMaskBodyPart const LeftLeg;
-
-  /// @brief Field RightLeg value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::AvatarMaskBodyPart const RightLeg;
+  /// @brief Field LastBodyPart value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::AvatarMaskBodyPart const LastBodyPart;
 
   /// @brief Field LeftArm value: static_cast<int32_t>(0x5)
   static ::UnityEngine::AvatarMaskBodyPart const LeftArm;
 
-  /// @brief Field RightArm value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::AvatarMaskBodyPart const RightArm;
-
   /// @brief Field LeftFingers value: static_cast<int32_t>(0x7)
   static ::UnityEngine::AvatarMaskBodyPart const LeftFingers;
-
-  /// @brief Field RightFingers value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::AvatarMaskBodyPart const RightFingers;
 
   /// @brief Field LeftFootIK value: static_cast<int32_t>(0x9)
   static ::UnityEngine::AvatarMaskBodyPart const LeftFootIK;
 
-  /// @brief Field RightFootIK value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::AvatarMaskBodyPart const RightFootIK;
-
   /// @brief Field LeftHandIK value: static_cast<int32_t>(0xb)
   static ::UnityEngine::AvatarMaskBodyPart const LeftHandIK;
+
+  /// @brief Field LeftLeg value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::AvatarMaskBodyPart const LeftLeg;
+
+  /// @brief Field RightArm value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::AvatarMaskBodyPart const RightArm;
+
+  /// @brief Field RightFingers value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::AvatarMaskBodyPart const RightFingers;
+
+  /// @brief Field RightFootIK value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::AvatarMaskBodyPart const RightFootIK;
 
   /// @brief Field RightHandIK value: static_cast<int32_t>(0xc)
   static ::UnityEngine::AvatarMaskBodyPart const RightHandIK;
 
-  /// @brief Field LastBodyPart value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::AvatarMaskBodyPart const LastBodyPart;
+  /// @brief Field RightLeg value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::AvatarMaskBodyPart const RightLeg;
+
+  /// @brief Field Root value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::AvatarMaskBodyPart const Root;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EmptyAdvancedHapticsPlayer::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::EmptyAdvancedHapticsPlayer::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x218cbdc;
+  constexpr static std::size_t addrs = 0x225b244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EmptyAdvancedHapticsPlayer::*)(::Libraries::HM::HMLib::VR::HapticPresetSO*)>(
     &::GlobalNamespace::EmptyAdvancedHapticsPlayer::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x218cbe0;
+  constexpr static std::size_t addrs = 0x225b248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EmptyAdvancedHapticsPlayer::*)()>(&::GlobalNamespace::EmptyAdvancedHapticsPlayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x218cbe8;
+  constexpr static std::size_t addrs = 0x225b250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EmptyAdvancedHapticsPlayer*>::get(), ".ctor",

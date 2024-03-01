@@ -74,8 +74,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16026))
 // CS Name: ::AsyncCachedLoader`2::ScheduledTask<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2__ScheduledTask {
 public:
@@ -83,15 +81,15 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TKey keyId, ::System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource, ::System::Threading::CancellationToken cancellationToken);
 
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncCachedLoader_2__ScheduledTask();
+
   // Ctor Parameters [CppParam { name: "keyId", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "taskCompletionSource", ty:
   // "::System::Threading::Tasks::TaskCompletionSource_1<TValue>*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
   // def_value: None }]
   constexpr __AsyncCachedLoader_2__ScheduledTask(TKey keyId, ::System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource,
                                                  ::System::Threading::CancellationToken cancellationToken) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncCachedLoader_2__ScheduledTask();
 
   /// @brief Field keyId, offset: 0x0, size: 0x8, def value: None
   TKey keyId;
@@ -115,23 +113,25 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 865 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 865 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(16027)) CS Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
+// CS Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncCachedLoader_2___LoadAsync_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "keyId", ty: "TKey", modifiers: "", def_value: None }, CppParam { name:
@@ -140,10 +140,6 @@ public:
   constexpr __AsyncCachedLoader_2___LoadAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TValue> __t__builder, TKey keyId,
                                                    ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* __4__this,
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<TValue> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncCachedLoader_2___LoadAsync_d__7();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -176,23 +172,25 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(16026)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5027 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16026), inst: 87 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(16028)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
+// CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAllAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncCachedLoader_2___LoadAllAsync_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AsyncCachedLoader_2<TKey,TValue>*",
@@ -202,10 +200,6 @@ public:
                                                       ::GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>* __4__this,
                                                       ::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue> _scheduledTask_5__2,
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<TValue> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncCachedLoader_2___LoadAllAsync_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -235,73 +229,77 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16029))
 // CS Name: ::AsyncCachedLoader`2<TKey,TValue>*
 class CORDL_TYPE AsyncCachedLoader_2 : public ::System::Object {
 public:
   // Declarations
+  using ScheduledTask = ::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>;
+
   using _LoadAllAsync_d__8 = ::GlobalNamespace::__AsyncCachedLoader_2___LoadAllAsync_d__8<TKey, TValue>;
 
   using _LoadAsync_d__7 = ::GlobalNamespace::__AsyncCachedLoader_2___LoadAsync_d__7<TKey, TValue>;
 
-  using ScheduledTask = ::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>;
-
-  /// @brief Field _scheduledTaskList, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__scheduledTaskList,
-                      put = __cordl_internal_set__scheduledTaskList))::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* _scheduledTaskList;
-
   /// @brief Field _cache, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__cache, put = __cordl_internal_set__cache))::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* _cache;
+
+  /// @brief Field _isLoading, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__isLoading, put = __cordl_internal_set__isLoading)) bool _isLoading;
 
   /// @brief Field _resultValueFunc, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__resultValueFunc,
                       put = __cordl_internal_set__resultValueFunc))::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* _resultValueFunc;
 
-  /// @brief Field _isLoading, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isLoading, put = __cordl_internal_set__isLoading)) bool _isLoading;
+  /// @brief Field _scheduledTaskList, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__scheduledTaskList,
+                      put = __cordl_internal_set__scheduledTaskList))::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* _scheduledTaskList;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>*& __cordl_internal_get__scheduledTaskList();
+  /// @brief Method ClearCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ClearCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>*> const&
-  __cordl_internal_get__scheduledTaskList() const;
+  /// @brief Method LoadAllAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void LoadAllAsync();
 
-  constexpr void __cordl_internal_set__scheduledTaskList(::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* value);
+  /// @brief Method LoadAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<TValue>* LoadAsync(TKey keyId, ::System::Threading::CancellationToken cancellationToken);
+
+  static inline ::GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>*
+  New_ctor(int32_t maxNumberCachedElements, ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc);
 
   constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*& __cordl_internal_get__cache();
 
   constexpr ::cordl_internals::to_const_pointer<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*> const& __cordl_internal_get__cache() const;
 
-  constexpr void __cordl_internal_set__cache(::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* value);
+  constexpr bool const& __cordl_internal_get__isLoading() const;
+
+  constexpr bool& __cordl_internal_get__isLoading();
 
   constexpr ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>*& __cordl_internal_get__resultValueFunc();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>*> const&
   __cordl_internal_get__resultValueFunc() const;
 
-  constexpr void __cordl_internal_set__resultValueFunc(::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* value);
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>*& __cordl_internal_get__scheduledTaskList();
 
-  constexpr bool& __cordl_internal_get__isLoading();
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>*> const&
+  __cordl_internal_get__scheduledTaskList() const;
 
-  constexpr bool const& __cordl_internal_get__isLoading() const;
+  constexpr void __cordl_internal_set__cache(::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* value);
 
   constexpr void __cordl_internal_set__isLoading(bool value);
 
-  /// @brief Method ClearCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ClearCache();
+  constexpr void __cordl_internal_set__resultValueFunc(::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* value);
 
-  static inline ::GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>*
-  New_ctor(int32_t maxNumberCachedElements, ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc);
+  constexpr void __cordl_internal_set__scheduledTaskList(::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNumberCachedElements, ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc);
 
-  /// @brief Method LoadAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<TValue>* LoadAsync(TKey keyId, ::System::Threading::CancellationToken cancellationToken);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncCachedLoader_2();
 
-  /// @brief Method LoadAllAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void LoadAllAsync();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCachedLoader_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncCachedLoader_2(AsyncCachedLoader_2&&) = delete;
@@ -310,12 +308,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncCachedLoader_2(AsyncCachedLoader_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncCachedLoader_2();
-
-public:
   /// @brief Field _scheduledTaskList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__AsyncCachedLoader_2__ScheduledTask<TKey, TValue>>* ____scheduledTaskList;
 

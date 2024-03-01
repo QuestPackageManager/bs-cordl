@@ -34,24 +34,10 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenReader);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11731))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11892))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenReader*
 class CORDL_TYPE JTokenReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
-  /// @brief Field _root, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root))::Newtonsoft::Json::Linq::JToken* _root;
-
-  /// @brief Field _initialPath, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__initialPath, put = __cordl_internal_set__initialPath))::StringW _initialPath;
-
-  /// @brief Field _parent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JToken* _parent;
-
-  /// @brief Field _current, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::Newtonsoft::Json::Linq::JToken* _current;
-
   __declspec(property(get = get_CurrentToken))::Newtonsoft::Json::Linq::JToken* CurrentToken;
 
   __declspec(property(get = Newtonsoft_Json_IJsonLineInfo_get_LineNumber)) int32_t Newtonsoft_Json_IJsonLineInfo_LineNumber;
@@ -60,85 +46,103 @@ public:
 
   __declspec(property(get = get_Path))::StringW Path;
 
+  /// @brief Field _current, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::Newtonsoft::Json::Linq::JToken* _current;
+
+  /// @brief Field _initialPath, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__initialPath, put = __cordl_internal_set__initialPath))::StringW _initialPath;
+
+  /// @brief Field _parent, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JToken* _parent;
+
+  /// @brief Field _root, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root))::Newtonsoft::Json::Linq::JToken* _root;
+
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
-  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
+  /// @brief Method GetEndToken, addr 0x278cd50, size 0x150, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::JsonToken> GetEndToken(::Newtonsoft::Json::Linq::JContainer* c);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__root();
+  static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token);
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__root() const;
+  static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
-  constexpr void __cordl_internal_set__root(::Newtonsoft::Json::Linq::JToken* value);
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x278cec0, size 0xb4, virtual true, abstract: false, final true
+  inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  constexpr ::StringW& __cordl_internal_get__initialPath();
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x278cf74, size 0xb8, virtual true, abstract: false, final true
+  inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  constexpr ::StringW const& __cordl_internal_get__initialPath() const;
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x278d02c, size 0xb8, virtual true, abstract: false, final true
+  inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  constexpr void __cordl_internal_set__initialPath(::StringW value);
+  /// @brief Method Read, addr 0x278c5e8, size 0xc4, virtual true, abstract: false, final false
+  inline bool Read();
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__parent();
+  /// @brief Method ReadInto, addr 0x278c6ac, size 0x68, virtual false, abstract: false, final false
+  inline bool ReadInto(::Newtonsoft::Json::Linq::JContainer* c);
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__parent() const;
+  /// @brief Method ReadOver, addr 0x278c714, size 0xb4, virtual false, abstract: false, final false
+  inline bool ReadOver(::Newtonsoft::Json::Linq::JToken* t);
 
-  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JToken* value);
+  /// @brief Method ReadToEnd, addr 0x278ccac, size 0x20, virtual false, abstract: false, final false
+  inline bool ReadToEnd();
+
+  /// @brief Method SafeToString, addr 0x278cea0, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW SafeToString(::System::Object* value);
+
+  /// @brief Method SetEnd, addr 0x278cccc, size 0x84, virtual false, abstract: false, final false
+  inline bool SetEnd(::Newtonsoft::Json::Linq::JContainer* c);
+
+  /// @brief Method SetToken, addr 0x278c7c8, size 0x4e4, virtual false, abstract: false, final false
+  inline void SetToken(::Newtonsoft::Json::Linq::JToken* token);
 
   constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__current();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__current() const;
 
+  constexpr ::StringW const& __cordl_internal_get__initialPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__initialPath();
+
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__parent();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__parent() const;
+
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__root();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__root() const;
+
   constexpr void __cordl_internal_set__current(::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method get_CurrentToken, addr 0x26bde04, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
+  constexpr void __cordl_internal_set__initialPath(::StringW value);
 
-  static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token);
+  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method .ctor, addr 0x26bde0c, size 0x6c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__root(::Newtonsoft::Json::Linq::JToken* value);
+
+  /// @brief Method .ctor, addr 0x278c558, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token);
 
-  static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
-
-  /// @brief Method .ctor, addr 0x26bde78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278c5c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
-  /// @brief Method Read, addr 0x26bde9c, size 0xc4, virtual true, abstract: false, final false
-  inline bool Read();
+  /// @brief Method get_CurrentToken, addr 0x278c550, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
 
-  /// @brief Method ReadOver, addr 0x26bdfc8, size 0xb4, virtual false, abstract: false, final false
-  inline bool ReadOver(::Newtonsoft::Json::Linq::JToken* t);
-
-  /// @brief Method ReadToEnd, addr 0x26be560, size 0x20, virtual false, abstract: false, final false
-  inline bool ReadToEnd();
-
-  /// @brief Method GetEndToken, addr 0x26be604, size 0x150, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::JsonToken> GetEndToken(::Newtonsoft::Json::Linq::JContainer* c);
-
-  /// @brief Method ReadInto, addr 0x26bdf60, size 0x68, virtual false, abstract: false, final false
-  inline bool ReadInto(::Newtonsoft::Json::Linq::JContainer* c);
-
-  /// @brief Method SetEnd, addr 0x26be580, size 0x84, virtual false, abstract: false, final false
-  inline bool SetEnd(::Newtonsoft::Json::Linq::JContainer* c);
-
-  /// @brief Method SetToken, addr 0x26be07c, size 0x4e4, virtual false, abstract: false, final false
-  inline void SetToken(::Newtonsoft::Json::Linq::JToken* token);
-
-  /// @brief Method SafeToString, addr 0x26be754, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW SafeToString(::System::Object* value);
-
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x26be774, size 0xb4, virtual true, abstract: false, final true
-  inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
-
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x26be828, size 0xb8, virtual true, abstract: false, final true
-  inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
-
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x26be8e0, size 0xb8, virtual true, abstract: false, final true
-  inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
-
-  /// @brief Method get_Path, addr 0x26be998, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x278d0e4, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
+  /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
+  constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JTokenReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JTokenReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JTokenReader(JTokenReader&&) = delete;
@@ -147,12 +151,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JTokenReader(JTokenReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JTokenReader();
-
-public:
   /// @brief Field _root, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____root;
 

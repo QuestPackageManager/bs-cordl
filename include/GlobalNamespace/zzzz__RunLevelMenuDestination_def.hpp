@@ -32,130 +32,134 @@ MARK_REF_PTR_T(::GlobalNamespace::RunLevelMenuDestination);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10608)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10614))
 // CS Name: ::RunLevelMenuDestination*
 class CORDL_TYPE RunLevelMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
-  /// @brief Field beatmapLevelPack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack;
-
-  /// @brief Field beatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
+  /// @brief Field beatmapCharacteristic, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapCharacteristic, put = __cordl_internal_set_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   /// @brief Field beatmapDifficulty, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
-  /// @brief Field beatmapCharacteristic, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapCharacteristic, put = __cordl_internal_set_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+  /// @brief Field beatmapLevel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
-  /// @brief Field gameplayModifiers, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
-
-  /// @brief Field practice, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
-
-  /// @brief Field startSongTime, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_startSongTime, put = __cordl_internal_set_startSongTime)) float_t startSongTime;
-
-  /// @brief Field songSpeedMultiplier, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_songSpeedMultiplier, put = __cordl_internal_set_songSpeedMultiplier)) float_t songSpeedMultiplier;
-
-  /// @brief Field overrideEnvironments, offset 0x44, size 0x1
-  __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
-
-  /// @brief Field environmentType, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::StringW environmentType;
+  /// @brief Field beatmapLevelPack, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack;
 
   /// @brief Field environmentName, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName))::StringW environmentName;
 
+  /// @brief Field environmentType, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::StringW environmentType;
+
+  /// @brief Field gameplayModifiers, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+
+  /// @brief Field overrideEnvironments, offset 0x44, size 0x1
+  __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
+
+  /// @brief Field practice, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
+
   /// @brief Field quitAppAfterRun, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_quitAppAfterRun, put = __cordl_internal_set_quitAppAfterRun)) bool quitAppAfterRun;
 
-  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
+  /// @brief Field songSpeedMultiplier, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_songSpeedMultiplier, put = __cordl_internal_set_songSpeedMultiplier)) float_t songSpeedMultiplier;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
-
-  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
-
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
-
-  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
-
-  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get_beatmapCharacteristic();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get_beatmapCharacteristic() const;
-
-  constexpr void __cordl_internal_set_beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
-
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
-
-  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
-
-  constexpr bool& __cordl_internal_get_practice();
-
-  constexpr bool const& __cordl_internal_get_practice() const;
-
-  constexpr void __cordl_internal_set_practice(bool value);
-
-  constexpr float_t& __cordl_internal_get_startSongTime();
-
-  constexpr float_t const& __cordl_internal_get_startSongTime() const;
-
-  constexpr void __cordl_internal_set_startSongTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get_songSpeedMultiplier();
-
-  constexpr float_t const& __cordl_internal_get_songSpeedMultiplier() const;
-
-  constexpr void __cordl_internal_set_songSpeedMultiplier(float_t value);
-
-  constexpr bool& __cordl_internal_get_overrideEnvironments();
-
-  constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
-
-  constexpr void __cordl_internal_set_overrideEnvironments(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_environmentType();
-
-  constexpr ::StringW const& __cordl_internal_get_environmentType() const;
-
-  constexpr void __cordl_internal_set_environmentType(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_environmentName();
-
-  constexpr ::StringW const& __cordl_internal_get_environmentName() const;
-
-  constexpr void __cordl_internal_set_environmentName(::StringW value);
-
-  constexpr bool& __cordl_internal_get_quitAppAfterRun();
-
-  constexpr bool const& __cordl_internal_get_quitAppAfterRun() const;
-
-  constexpr void __cordl_internal_set_quitAppAfterRun(bool value);
+  /// @brief Field startSongTime, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_startSongTime, put = __cordl_internal_set_startSongTime)) float_t startSongTime;
 
   static inline ::GlobalNamespace::RunLevelMenuDestination* New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                      ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                      ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
                                                                      bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun);
 
-  /// @brief Method .ctor, addr 0x1265a6c, size 0x98, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get_beatmapCharacteristic() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get_beatmapCharacteristic();
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
+
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
+
+  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
+
+  constexpr ::StringW const& __cordl_internal_get_environmentName() const;
+
+  constexpr ::StringW& __cordl_internal_get_environmentName();
+
+  constexpr ::StringW const& __cordl_internal_get_environmentType() const;
+
+  constexpr ::StringW& __cordl_internal_get_environmentType();
+
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
+
+  constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
+
+  constexpr bool& __cordl_internal_get_overrideEnvironments();
+
+  constexpr bool const& __cordl_internal_get_practice() const;
+
+  constexpr bool& __cordl_internal_get_practice();
+
+  constexpr bool const& __cordl_internal_get_quitAppAfterRun() const;
+
+  constexpr bool& __cordl_internal_get_quitAppAfterRun();
+
+  constexpr float_t const& __cordl_internal_get_songSpeedMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get_songSpeedMultiplier();
+
+  constexpr float_t const& __cordl_internal_get_startSongTime() const;
+
+  constexpr float_t& __cordl_internal_get_startSongTime();
+
+  constexpr void __cordl_internal_set_beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
+
+  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+
+  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
+
+  constexpr void __cordl_internal_set_environmentName(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentType(::StringW value);
+
+  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set_overrideEnvironments(bool value);
+
+  constexpr void __cordl_internal_set_practice(bool value);
+
+  constexpr void __cordl_internal_set_quitAppAfterRun(bool value);
+
+  constexpr void __cordl_internal_set_songSpeedMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set_startSongTime(float_t value);
+
+  /// @brief Method .ctor, addr 0x12a8a3c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime,
                     float_t songSpeedMultiplier, bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RunLevelMenuDestination();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RunLevelMenuDestination", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RunLevelMenuDestination(RunLevelMenuDestination&&) = delete;
@@ -164,12 +168,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RunLevelMenuDestination(RunLevelMenuDestination const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RunLevelMenuDestination();
-
-public:
   /// @brief Field beatmapLevelPack, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
 

@@ -24,60 +24,64 @@ MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4837))
 // CS Name: ::GuestNameButtonsListItem*
 class CORDL_TYPE GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _nameText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
-
   /// @brief Field _button, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _buttonPressed, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonPressed, put = __cordl_internal_set__buttonPressed))::System::Action* _buttonPressed;
 
-  __declspec(property(put = set_nameText))::StringW nameText;
+  /// @brief Field _nameText, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   __declspec(property(put = set_buttonPressed))::System::Action* buttonPressed;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
+  __declspec(property(put = set_nameText))::StringW nameText;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+  /// @brief Method Awake, addr 0x24c8148, size 0x94, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+  /// @brief Method <Awake>b__7_0, addr 0x24c81e4, size 0x1c, virtual false, abstract: false, final false
+  inline void _Awake_b__7_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
   constexpr ::System::Action*& __cordl_internal_get__buttonPressed();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__buttonPressed() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
+
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+
   constexpr void __cordl_internal_set__buttonPressed(::System::Action* value);
 
-  /// @brief Method set_nameText, addr 0x23f8dc4, size 0x24, virtual false, abstract: false, final false
-  inline void set_nameText(::StringW value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method set_buttonPressed, addr 0x23f8de8, size 0x8, virtual false, abstract: false, final false
-  inline void set_buttonPressed(::System::Action* value);
-
-  /// @brief Method Awake, addr 0x23f8df0, size 0x94, virtual false, abstract: false, final false
-  inline void Awake();
-
-  static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23f8e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c81dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__7_0, addr 0x23f8e8c, size 0x1c, virtual false, abstract: false, final false
-  inline void _Awake_b__7_0();
+  /// @brief Method set_buttonPressed, addr 0x24c8140, size 0x8, virtual false, abstract: false, final false
+  inline void set_buttonPressed(::System::Action* value);
 
+  /// @brief Method set_nameText, addr 0x24c811c, size 0x24, virtual false, abstract: false, final false
+  inline void set_nameText(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GuestNameButtonsListItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GuestNameButtonsListItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GuestNameButtonsListItem(GuestNameButtonsListItem&&) = delete;
@@ -86,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GuestNameButtonsListItem(GuestNameButtonsListItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GuestNameButtonsListItem();
-
-public:
   /// @brief Field _nameText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 

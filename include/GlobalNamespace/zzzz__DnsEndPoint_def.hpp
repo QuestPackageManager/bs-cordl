@@ -31,81 +31,85 @@ MARK_REF_PTR_T(::GlobalNamespace::DnsEndPoint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12620))
 // CS Name: ::DnsEndPoint*
 class CORDL_TYPE DnsEndPoint : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _getEndPointTask, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__getEndPointTask, put = __cordl_internal_set__getEndPointTask))::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* _getEndPointTask;
+
+  __declspec(property(get = get_endPoint))::System::Net::IPEndPoint* endPoint;
+
   /// @brief Field hostName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_hostName, put = __cordl_internal_set_hostName))::StringW hostName;
 
   /// @brief Field port, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
 
-  /// @brief Field _getEndPointTask, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__getEndPointTask, put = __cordl_internal_set__getEndPointTask))::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* _getEndPointTask;
-
-  __declspec(property(get = get_endPoint))::System::Net::IPEndPoint* endPoint;
-
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*() noexcept;
 
-  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
-  constexpr ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* i___System__IEquatable_1___GlobalNamespace__DnsEndPoint__() noexcept;
+  /// @brief Method Equals, addr 0xea4d98, size 0xa0, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::StringW& __cordl_internal_get_hostName();
+  /// @brief Method Equals, addr 0xea4e38, size 0x4c, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::DnsEndPoint* other);
 
-  constexpr ::StringW const& __cordl_internal_get_hostName() const;
+  /// @brief Method GetEndPoint, addr 0xea4bc8, size 0x94, virtual false, abstract: false, final false
+  inline ::System::Net::IPEndPoint* GetEndPoint();
 
-  constexpr void __cordl_internal_set_hostName(::StringW value);
+  /// @brief Method GetEndPointAsync, addr 0xea4aa8, size 0x120, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
 
-  constexpr int32_t& __cordl_internal_get_port();
+  /// @brief Method GetEndPointInternal, addr 0xea4c5c, size 0xb0, virtual false, abstract: false, final false
+  inline ::System::Net::IPEndPoint* GetEndPointInternal();
 
-  constexpr int32_t const& __cordl_internal_get_port() const;
+  /// @brief Method GetHashCode, addr 0xea4e84, size 0x2c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  constexpr void __cordl_internal_set_port(int32_t value);
+  static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint);
+
+  static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::StringW hostName, int32_t port);
+
+  /// @brief Method ToString, addr 0xea4d0c, size 0x8c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& __cordl_internal_get__getEndPointTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*> const& __cordl_internal_get__getEndPointTask() const;
 
+  constexpr ::StringW const& __cordl_internal_get_hostName() const;
+
+  constexpr ::StringW& __cordl_internal_get_hostName();
+
+  constexpr int32_t const& __cordl_internal_get_port() const;
+
+  constexpr int32_t& __cordl_internal_get_port();
+
   constexpr void __cordl_internal_set__getEndPointTask(::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* value);
 
-  /// @brief Method get_endPoint, addr 0xe5e9b0, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Net::IPEndPoint* get_endPoint();
+  constexpr void __cordl_internal_set_hostName(::StringW value);
 
-  static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::StringW hostName, int32_t port);
+  constexpr void __cordl_internal_set_port(int32_t value);
 
-  /// @brief Method .ctor, addr 0xe5d854, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::StringW hostName, int32_t port);
-
-  static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint);
-
-  /// @brief Method .ctor, addr 0xe5ea24, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea49f4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method GetEndPointAsync, addr 0xe5ead8, size 0x120, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
+  /// @brief Method .ctor, addr 0xea3824, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method GetEndPoint, addr 0xe5ebf8, size 0x94, virtual false, abstract: false, final false
-  inline ::System::Net::IPEndPoint* GetEndPoint();
+  /// @brief Method get_endPoint, addr 0xea4980, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Net::IPEndPoint* get_endPoint();
 
-  /// @brief Method GetEndPointInternal, addr 0xe5ec8c, size 0xb0, virtual false, abstract: false, final false
-  inline ::System::Net::IPEndPoint* GetEndPointInternal();
+  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
+  constexpr ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* i___System__IEquatable_1___GlobalNamespace__DnsEndPoint__() noexcept;
 
-  /// @brief Method ToString, addr 0xe5ed3c, size 0x8c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DnsEndPoint();
 
-  /// @brief Method Equals, addr 0xe5edc8, size 0xa0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0xe5ee68, size 0x4c, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::DnsEndPoint* other);
-
-  /// @brief Method GetHashCode, addr 0xe5eeb4, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DnsEndPoint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DnsEndPoint(DnsEndPoint&&) = delete;
@@ -114,12 +118,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DnsEndPoint(DnsEndPoint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DnsEndPoint();
-
-public:
   /// @brief Field hostName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___hostName;
 

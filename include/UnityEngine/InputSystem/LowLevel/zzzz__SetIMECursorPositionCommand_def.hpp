@@ -29,8 +29,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5747))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::SetIMECursorPositionCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE SetIMECursorPositionCommand {
@@ -49,40 +47,40 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bcf084, size 0x50, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand Create(::UnityEngine::Vector2 cursorPosition);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Position();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Position() const;
 
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Position();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
   constexpr void __cordl_internal_set_m_Position(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Type, addr 0x2ae9f48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2bcf01c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_position, addr 0x2ae9f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2bcf04c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_typeStatic, addr 0x2ae9f80, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bcf054, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae9fb0, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand Create(::UnityEngine::Vector2 cursorPosition);
-
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr SetIMECursorPositionCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, ::UnityEngine::Vector2 m_Position) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SetIMECursorPositionCommand();
+
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  constexpr SetIMECursorPositionCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, ::UnityEngine::Vector2 m_Position) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TransitionRunEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6447)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6447), inst: 5138 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6448))
 // CS Name: ::UnityEngine.UIElements::TransitionRunEvent*
 class CORDL_TYPE TransitionRunEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionRunEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::TransitionRunEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e69cf0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5c418, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TransitionRunEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TransitionRunEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TransitionRunEvent(TransitionRunEvent&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransitionRunEvent(TransitionRunEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransitionRunEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

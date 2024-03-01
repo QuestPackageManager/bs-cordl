@@ -154,8 +154,6 @@ MARK_VAL_T(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityCha
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8019))
 // CS Name: ::OVRTrackedKeyboard::TrackedKeyboardState
 struct CORDL_TYPE __OVRTrackedKeyboard__TrackedKeyboardState {
 public:
@@ -179,21 +177,26 @@ public:
     return static_cast<____OVRTrackedKeyboard__TrackedKeyboardState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRTrackedKeyboard__TrackedKeyboardState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTrackedKeyboard__TrackedKeyboardState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRTrackedKeyboard__TrackedKeyboardState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Error value: static_cast<int32_t>(0x6)
+  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Error;
 
-  /// @brief Field Uninitialized value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Uninitialized;
+  /// @brief Field ErrorExtensionFailed value: static_cast<int32_t>(0x7)
+  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const ErrorExtensionFailed;
 
   /// @brief Field NoTrackableKeyboard value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const NoTrackableKeyboard;
@@ -201,20 +204,20 @@ public:
   /// @brief Field Offline value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Offline;
 
+  /// @brief Field Stale value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Stale;
+
   /// @brief Field StartedNotTracked value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const StartedNotTracked;
 
-  /// @brief Field Stale value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Stale;
+  /// @brief Field Uninitialized value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Uninitialized;
 
   /// @brief Field Valid value: static_cast<int32_t>(0x5)
   static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Valid;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const Error;
-
-  /// @brief Field ErrorExtensionFailed value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const ErrorExtensionFailed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -228,8 +231,6 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardS
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8020))
 // CS Name: ::OVRTrackedKeyboard::KeyboardPresentation
 struct CORDL_TYPE __OVRTrackedKeyboard__KeyboardPresentation {
 public:
@@ -247,24 +248,29 @@ public:
     return static_cast<____OVRTrackedKeyboard__KeyboardPresentation_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRTrackedKeyboard__KeyboardPresentation(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTrackedKeyboard__KeyboardPresentation();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRTrackedKeyboard__KeyboardPresentation(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field PreferKeyLabels value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation const PreferKeyLabels;
 
   /// @brief Field PreferOpaque value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation const PreferOpaque;
 
-  /// @brief Field PreferKeyLabels value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation const PreferKeyLabels;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -278,23 +284,21 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresenta
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8019))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8021))
 // CS Name: ::OVRTrackedKeyboard::TrackedKeyboardVisibilityChangedEvent
 struct CORDL_TYPE __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27b0a98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2887f88, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyboardModel, ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState state, bool timeout);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent();
 
   // Ctor Parameters [CppParam { name: "ActiveKeyboardName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "State", ty:
   // "::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState", modifiers: "", def_value: None }, CppParam { name: "TrackingTimeout", ty: "bool", modifiers: "", def_value: None }]
   constexpr __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent(::StringW ActiveKeyboardName, ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState State,
                                                                         bool TrackingTimeout) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent();
 
   /// @brief Field ActiveKeyboardName, offset: 0x0, size: 0x8, def value: None
   ::StringW ActiveKeyboardName;
@@ -324,21 +328,19 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardV
 // SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8022))
 // CS Name: ::OVRTrackedKeyboard::TrackedKeyboardSetActiveEvent
 struct CORDL_TYPE __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27b0aac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28881a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isEnabled);
-
-  // Ctor Parameters [CppParam { name: "IsEnabled", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent(bool IsEnabled) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent();
+
+  // Ctor Parameters [CppParam { name: "IsEnabled", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent(bool IsEnabled) noexcept;
 
   /// @brief Field IsEnabled, offset: 0x0, size: 0x1, def value: None
   bool IsEnabled;
@@ -358,12 +360,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardS
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8023))
 // CS Name: ::OVRTrackedKeyboard::<Start>d__88*
 class CORDL_TYPE __OVRTrackedKeyboard___Start_d__88 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -373,66 +377,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRTrackedKeyboard> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x28881b4, size 0x104, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRTrackedKeyboard___Start_d__88* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x28882b8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x28882c0, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2888300, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x28881b0, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  static inline ::GlobalNamespace::__OVRTrackedKeyboard___Start_d__88* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x27b0ab8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28866e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27b0ae0, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27b0ae4, size 0x10c, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27b0bf0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27b0bf8, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard___Start_d__88();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27b0c38, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboard___Start_d__88", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTrackedKeyboard___Start_d__88(__OVRTrackedKeyboard___Start_d__88&&) = delete;
@@ -441,12 +447,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTrackedKeyboard___Start_d__88(__OVRTrackedKeyboard___Start_d__88 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard___Start_d__88();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -472,12 +472,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard___Start_d__88, __
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8024))
 // CS Name: ::OVRTrackedKeyboard::<InitializeHandPresenceData>d__89*
 class CORDL_TYPE __OVRTrackedKeyboard___InitializeHandPresenceData_d__89 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -487,66 +489,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRTrackedKeyboard> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x288830c, size 0x170, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandPresenceData_d__89* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x288847c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2888484, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28884c4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2888308, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  static inline ::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandPresenceData_d__89* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x27b0c40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2886778, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27b0c68, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27b0c6c, size 0x170, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27b0ddc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27b0de4, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard___InitializeHandPresenceData_d__89();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27b0e24, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboard___InitializeHandPresenceData_d__89", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTrackedKeyboard___InitializeHandPresenceData_d__89(__OVRTrackedKeyboard___InitializeHandPresenceData_d__89&&) = delete;
@@ -555,12 +559,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTrackedKeyboard___InitializeHandPresenceData_d__89(__OVRTrackedKeyboard___InitializeHandPresenceData_d__89 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard___InitializeHandPresenceData_d__89();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -586,12 +584,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandP
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8017))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8025))
 // CS Name: ::OVRTrackedKeyboard::<UpdateTrackingStateCoroutine>d__95*
 class CORDL_TYPE __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -604,72 +604,74 @@ public:
   /// @brief Field <keyboardInfo>5__2, offset 0x28, size 0x28
   __declspec(property(get = __cordl_internal_get__keyboardInfo_5__2, put = __cordl_internal_set__keyboardInfo_5__2))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo _keyboardInfo_5__2;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x28884d0, size 0x4bc, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x288898c, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2888994, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28889d4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x28884cc, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
+  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo const& __cordl_internal_get__keyboardInfo_5__2() const;
 
   constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo& __cordl_internal_get__keyboardInfo_5__2();
 
-  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo const& __cordl_internal_get__keyboardInfo_5__2() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
   constexpr void __cordl_internal_set__keyboardInfo_5__2(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  static inline ::GlobalNamespace::__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x27b0e2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2886e4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27b0e54, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27b0e58, size 0x4d8, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27b1330, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27b1338, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27b1378, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95(__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95&&) = delete;
@@ -678,12 +680,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95(__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -714,12 +710,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard___UpdateTrackingS
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8026))
 // CS Name: ::OVRTrackedKeyboard::<StartKeyboardTrackingCoroutine>d__96*
 class CORDL_TYPE __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -729,66 +727,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRTrackedKeyboard> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x28889e0, size 0x2c4, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2888ca4, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2888cac, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2888cec, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x28889dc, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  static inline ::GlobalNamespace::__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x27b1380, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2886edc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27b13a8, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27b13ac, size 0x2a0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27b164c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27b1654, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27b1694, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96(__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96&&) = delete;
@@ -797,12 +797,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96(__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -828,12 +822,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard___StartKeyboardTr
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8027))
 // CS Name: ::OVRTrackedKeyboard::<UpdateKeyboardPose>d__98*
 class CORDL_TYPE __OVRTrackedKeyboard___UpdateKeyboardPose_d__98 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -843,66 +839,68 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRTrackedKeyboard> __4__this;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x2888cf8, size 0x9a8, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__OVRTrackedKeyboard___UpdateKeyboardPose_d__98* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x28896a0, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x28896a8, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28896e8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2888cf4, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& __cordl_internal_get___4__this() const;
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value);
 
-  static inline ::GlobalNamespace::__OVRTrackedKeyboard___UpdateKeyboardPose_d__98* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x27b169c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2887294, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27b16c4, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27b16c8, size 0x98c, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27b2054, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27b205c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard___UpdateKeyboardPose_d__98();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27b209c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboard___UpdateKeyboardPose_d__98", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTrackedKeyboard___UpdateKeyboardPose_d__98(__OVRTrackedKeyboard___UpdateKeyboardPose_d__98&&) = delete;
@@ -911,12 +909,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTrackedKeyboard___UpdateKeyboardPose_d__98(__OVRTrackedKeyboard___UpdateKeyboardPose_d__98 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard___UpdateKeyboardPose_d__98();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -942,8 +934,6 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboard___UpdateKeyboardP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8028))
 // CS Name: ::OVRTrackedKeyboard::<>c*
 class CORDL_TYPE __OVRTrackedKeyboard____c : public ::System::Object {
 public:
@@ -957,29 +947,35 @@ public:
   /// @brief Field <>9__113_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__113_1, put = setStaticF___9__113_1))::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* __9__113_1;
 
-  static inline void setStaticF___9(::GlobalNamespace::__OVRTrackedKeyboard____c* value);
+  static inline ::GlobalNamespace::__OVRTrackedKeyboard____c* New_ctor();
+
+  /// @brief Method <.ctor>b__113_0, addr 0x288975c, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__113_0(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent _p0_);
+
+  /// @brief Method <.ctor>b__113_1, addr 0x2889760, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__113_1(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent _p0_);
+
+  /// @brief Method .ctor, addr 0x2889754, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboard____c* getStaticF___9();
 
-  static inline void setStaticF___9__113_0(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* value);
-
   static inline ::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* getStaticF___9__113_0();
-
-  static inline void setStaticF___9__113_1(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* value);
 
   static inline ::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* getStaticF___9__113_1();
 
-  static inline ::GlobalNamespace::__OVRTrackedKeyboard____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__OVRTrackedKeyboard____c* value);
 
-  /// @brief Method .ctor, addr 0x27b2108, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__113_0(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* value);
 
-  /// @brief Method <.ctor>b__113_0, addr 0x27b2110, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__113_0(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent _p0_);
+  static inline void setStaticF___9__113_1(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* value);
 
-  /// @brief Method <.ctor>b__113_1, addr 0x27b2114, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__113_1(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent _p0_);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRTrackedKeyboard____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboard____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRTrackedKeyboard____c(__OVRTrackedKeyboard____c&&) = delete;
@@ -988,12 +984,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRTrackedKeyboard____c(__OVRTrackedKeyboard____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTrackedKeyboard____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1004,165 +994,38 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTrackedKey
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 393, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7841)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7843)), TypeDefinitionIndex(TypeDefinitionIndex(8017)), TypeDefinitionIndex(TypeDefinitionIndex(8019)), TypeDefinitionIndex(TypeDefinitionIndex(8020)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 414 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3311 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8029)) CS Name:
-// ::OVRTrackedKeyboard*
+// CS Name: ::OVRTrackedKeyboard*
 class CORDL_TYPE OVRTrackedKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__OVRTrackedKeyboard____c;
-
-  using _UpdateKeyboardPose_d__98 = ::GlobalNamespace::__OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
-
-  using _StartKeyboardTrackingCoroutine_d__96 = ::GlobalNamespace::__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
-
-  using _UpdateTrackingStateCoroutine_d__95 = ::GlobalNamespace::__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
-
-  using _InitializeHandPresenceData_d__89 = ::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
-
-  using _Start_d__88 = ::GlobalNamespace::__OVRTrackedKeyboard___Start_d__88;
+  using KeyboardPresentation = ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation;
 
   using TrackedKeyboardSetActiveEvent = ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
 
-  using TrackedKeyboardVisibilityChangedEvent = ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
-
-  using KeyboardPresentation = ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation;
-
   using TrackedKeyboardState = ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState;
 
-  /// @brief Field <CurrentKeyboardAngleFromUp>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__CurrentKeyboardAngleFromUp_k__BackingField,
-                      put = __cordl_internal_set__CurrentKeyboardAngleFromUp_k__BackingField)) float_t _CurrentKeyboardAngleFromUp_k__BackingField;
+  using TrackedKeyboardVisibilityChangedEvent = ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
 
-  /// @brief Field <TrackingState>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__TrackingState_k__BackingField,
-                      put = __cordl_internal_set__TrackingState_k__BackingField))::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState _TrackingState_k__BackingField;
+  using _InitializeHandPresenceData_d__89 = ::GlobalNamespace::__OVRTrackedKeyboard___InitializeHandPresenceData_d__89;
 
-  /// @brief Field <ActiveKeyboardInfo>k__BackingField, offset 0x20, size 0x28
-  __declspec(property(get = __cordl_internal_get__ActiveKeyboardInfo_k__BackingField,
-                      put = __cordl_internal_set__ActiveKeyboardInfo_k__BackingField))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo _ActiveKeyboardInfo_k__BackingField;
+  using _StartKeyboardTrackingCoroutine_d__96 = ::GlobalNamespace::__OVRTrackedKeyboard___StartKeyboardTrackingCoroutine_d__96;
 
-  /// @brief Field <SystemKeyboardInfo>k__BackingField, offset 0x48, size 0x28
-  __declspec(property(get = __cordl_internal_get__SystemKeyboardInfo_k__BackingField,
-                      put = __cordl_internal_set__SystemKeyboardInfo_k__BackingField))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo _SystemKeyboardInfo_k__BackingField;
+  using _Start_d__88 = ::GlobalNamespace::__OVRTrackedKeyboard___Start_d__88;
 
-  /// @brief Field trackingEnabled, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get_trackingEnabled, put = __cordl_internal_set_trackingEnabled)) bool trackingEnabled;
+  using _UpdateKeyboardPose_d__98 = ::GlobalNamespace::__OVRTrackedKeyboard___UpdateKeyboardPose_d__98;
 
-  /// @brief Field connectionRequired, offset 0x71, size 0x1
-  __declspec(property(get = __cordl_internal_get_connectionRequired, put = __cordl_internal_set_connectionRequired)) bool connectionRequired;
+  using _UpdateTrackingStateCoroutine_d__95 = ::GlobalNamespace::__OVRTrackedKeyboard___UpdateTrackingStateCoroutine_d__95;
 
-  /// @brief Field showUntracked, offset 0x72, size 0x1
-  __declspec(property(get = __cordl_internal_get_showUntracked, put = __cordl_internal_set_showUntracked)) bool showUntracked;
+  using __c = ::GlobalNamespace::__OVRTrackedKeyboard____c;
 
-  /// @brief Field keyboardQueryFlags, offset 0x74, size 0x4
-  __declspec(property(get = __cordl_internal_get_keyboardQueryFlags, put = __cordl_internal_set_keyboardQueryFlags))::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags;
-
-  /// @brief Field presentation, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_presentation, put = __cordl_internal_set_presentation))::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation presentation;
-
-  /// @brief Field textureFiltering, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get_textureFiltering, put = __cordl_internal_set_textureFiltering))::GlobalNamespace::OVRTextureQualityFiltering textureFiltering;
-
-  /// @brief Field mipmapBias, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get_mipmapBias, put = __cordl_internal_set_mipmapBias)) float_t mipmapBias;
-
-  /// @brief Field PassthroughBorderMultiplier, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_PassthroughBorderMultiplier, put = __cordl_internal_set_PassthroughBorderMultiplier)) float_t PassthroughBorderMultiplier;
-
-  /// @brief Field keyboardModelShader, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyboardModelShader, put = __cordl_internal_set_keyboardModelShader))::UnityW<::UnityEngine::Shader> keyboardModelShader;
-
-  /// @brief Field keyboardModelAlphaBlendShader, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyboardModelAlphaBlendShader, put = __cordl_internal_set_keyboardModelAlphaBlendShader))::UnityW<::UnityEngine::Shader> keyboardModelAlphaBlendShader;
-
-  /// @brief Field currentKeyboardPresentationStyles, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentKeyboardPresentationStyles,
-                      put = __cordl_internal_set_currentKeyboardPresentationStyles))::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles currentKeyboardPresentationStyles;
-
-  /// @brief Field projectedPassthroughOpaque_, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_projectedPassthroughOpaque_,
-                      put = __cordl_internal_set_projectedPassthroughOpaque_))::UnityW<::GlobalNamespace::OVROverlay> projectedPassthroughOpaque_;
-
-  /// @brief Field activeKeyboardRenderers_, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_activeKeyboardRenderers_,
-                      put = __cordl_internal_set_activeKeyboardRenderers_))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> activeKeyboardRenderers_;
-
-  /// @brief Field activeKeyboardMesh_, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_activeKeyboardMesh_, put = __cordl_internal_set_activeKeyboardMesh_))::UnityW<::UnityEngine::GameObject> activeKeyboardMesh_;
-
-  /// @brief Field keyboardMeshNodes_, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyboardMeshNodes_,
-                      put = __cordl_internal_set_keyboardMeshNodes_))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> keyboardMeshNodes_;
-
-  /// @brief Field activeKeyboardMeshRenderer_, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_activeKeyboardMeshRenderer_, put = __cordl_internal_set_activeKeyboardMeshRenderer_))::UnityW<::UnityEngine::MeshRenderer> activeKeyboardMeshRenderer_;
-
-  /// @brief Field passthroughQuad_, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_passthroughQuad_, put = __cordl_internal_set_passthroughQuad_))::UnityW<::UnityEngine::GameObject> passthroughQuad_;
-
-  /// @brief Field opaqueShader_, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_opaqueShader_, put = __cordl_internal_set_opaqueShader_))::UnityW<::UnityEngine::Shader> opaqueShader_;
-
-  /// @brief Field dynamicQualityTexture_, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_dynamicQualityTexture_, put = __cordl_internal_set_dynamicQualityTexture_))::UnityW<::UnityEngine::Texture2D> dynamicQualityTexture_;
-
-  /// @brief Field untrackedPosition_, offset 0xe0, size 0xc
-  __declspec(property(get = __cordl_internal_get_untrackedPosition_, put = __cordl_internal_set_untrackedPosition_))::UnityEngine::Vector3 untrackedPosition_;
-
-  /// @brief Field KeyLabelModeShader, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_KeyLabelModeShader, put = __cordl_internal_set_KeyLabelModeShader))::UnityW<::UnityEngine::Shader> KeyLabelModeShader;
-
-  /// @brief Field PassthroughShader, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PassthroughShader, put = __cordl_internal_set_PassthroughShader))::UnityW<::UnityEngine::Shader> PassthroughShader;
-
-  /// @brief Field projectedPassthroughRoot, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get_projectedPassthroughRoot, put = __cordl_internal_set_projectedPassthroughRoot))::UnityW<::UnityEngine::Transform> projectedPassthroughRoot;
-
-  /// @brief Field projectedPassthroughMesh, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_projectedPassthroughMesh, put = __cordl_internal_set_projectedPassthroughMesh))::UnityW<::UnityEngine::MeshFilter> projectedPassthroughMesh;
-
-  /// @brief Field ProjectedPassthroughKeyLabel, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_ProjectedPassthroughKeyLabel,
-                      put = __cordl_internal_set_ProjectedPassthroughKeyLabel))::UnityW<::GlobalNamespace::OVRPassthroughLayer> ProjectedPassthroughKeyLabel;
-
-  /// @brief Field TrackedKeyboardActiveChanged, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_TrackedKeyboardActiveChanged,
-                      put = __cordl_internal_set_TrackedKeyboardActiveChanged))::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* TrackedKeyboardActiveChanged;
-
-  /// @brief Field TrackedKeyboardVisibilityChanged, offset 0x120, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_TrackedKeyboardVisibilityChanged,
-      put = __cordl_internal_set_TrackedKeyboardVisibilityChanged))::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* TrackedKeyboardVisibilityChanged;
+  __declspec(property(get = get_ActiveKeyboardInfo, put = set_ActiveKeyboardInfo))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo ActiveKeyboardInfo;
 
   /// @brief Field ActiveKeyboardTransform, offset 0x128, size 0x8
   __declspec(property(get = __cordl_internal_get_ActiveKeyboardTransform, put = __cordl_internal_set_ActiveKeyboardTransform))::UnityW<::UnityEngine::Transform> ActiveKeyboardTransform;
 
-  /// @brief Field HandsOverKeyboard, offset 0x130, size 0x1
-  __declspec(property(get = __cordl_internal_get_HandsOverKeyboard, put = __cordl_internal_set_HandsOverKeyboard)) bool HandsOverKeyboard;
+  __declspec(property(get = get_ConnectionRequired, put = set_ConnectionRequired)) bool ConnectionRequired;
 
-  /// @brief Field cameraRig_, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraRig_, put = __cordl_internal_set_cameraRig_))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig_;
-
-  /// @brief Field updateKeyboardRoutine_, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get_updateKeyboardRoutine_, put = __cordl_internal_set_updateKeyboardRoutine_))::UnityEngine::Coroutine* updateKeyboardRoutine_;
-
-  /// @brief Field keyboardBoundingBox_, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyboardBoundingBox_, put = __cordl_internal_set_keyboardBoundingBox_))::UnityW<::UnityEngine::BoxCollider> keyboardBoundingBox_;
-
-  /// @brief Field staleTimeoutCounter_, offset 0x150, size 0x4
-  __declspec(property(get = __cordl_internal_get_staleTimeoutCounter_, put = __cordl_internal_set_staleTimeoutCounter_)) float_t staleTimeoutCounter_;
-
-  /// @brief Field reacquisitionTimer_, offset 0x154, size 0x4
-  __declspec(property(get = __cordl_internal_get_reacquisitionTimer_, put = __cordl_internal_set_reacquisitionTimer_)) float_t reacquisitionTimer_;
-
-  /// @brief Field sendFilteredPoseEventTimer_, offset 0x158, size 0x4
-  __declspec(property(get = __cordl_internal_get_sendFilteredPoseEventTimer_, put = __cordl_internal_set_sendFilteredPoseEventTimer_)) float_t sendFilteredPoseEventTimer_;
-
-  /// @brief Field skippedPoseCount_, offset 0x15c, size 0x4
-  __declspec(property(get = __cordl_internal_get_skippedPoseCount_, put = __cordl_internal_set_skippedPoseCount_)) int32_t skippedPoseCount_;
+  __declspec(property(get = get_CurrentKeyboardAngleFromUp, put = set_CurrentKeyboardAngleFromUp)) float_t CurrentKeyboardAngleFromUp;
 
   /// @brief Field EWAPosition, offset 0x160, size 0x10
   __declspec(property(get = __cordl_internal_get_EWAPosition, put = __cordl_internal_set_EWAPosition))::System::Nullable_1<::UnityEngine::Vector3> EWAPosition;
@@ -1173,23 +1036,91 @@ public:
   /// @brief Field HAND_HEIGHT_TUNING, offset 0x184, size 0x4
   __declspec(property(get = __cordl_internal_get_HAND_HEIGHT_TUNING, put = __cordl_internal_set_HAND_HEIGHT_TUNING)) float_t HAND_HEIGHT_TUNING;
 
+  /// @brief Field HandsOverKeyboard, offset 0x130, size 0x1
+  __declspec(property(get = __cordl_internal_get_HandsOverKeyboard, put = __cordl_internal_set_HandsOverKeyboard)) bool HandsOverKeyboard;
+
+  /// @brief Field KeyLabelModeShader, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_KeyLabelModeShader, put = __cordl_internal_set_KeyLabelModeShader))::UnityW<::UnityEngine::Shader> KeyLabelModeShader;
+
+  __declspec(property(get = get_KeyboardQueryFlags, put = set_KeyboardQueryFlags))::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags KeyboardQueryFlags;
+
+  /// @brief Field PassthroughBorderMultiplier, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get_PassthroughBorderMultiplier, put = __cordl_internal_set_PassthroughBorderMultiplier)) float_t PassthroughBorderMultiplier;
+
+  __declspec(property(get = get_PassthroughOverlay, put = set_PassthroughOverlay))::UnityW<::GlobalNamespace::OVROverlay> PassthroughOverlay;
+
+  /// @brief Field PassthroughShader, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_PassthroughShader, put = __cordl_internal_set_PassthroughShader))::UnityW<::UnityEngine::Shader> PassthroughShader;
+
+  __declspec(property(get = get_Presentation, put = set_Presentation))::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation Presentation;
+
+  /// @brief Field ProjectedPassthroughKeyLabel, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get_ProjectedPassthroughKeyLabel,
+                      put = __cordl_internal_set_ProjectedPassthroughKeyLabel))::UnityW<::GlobalNamespace::OVRPassthroughLayer> ProjectedPassthroughKeyLabel;
+
+  __declspec(property(get = get_RemoteKeyboard, put = set_RemoteKeyboard)) bool RemoteKeyboard;
+
+  __declspec(property(get = get_ShowUntracked, put = set_ShowUntracked)) bool ShowUntracked;
+
+  __declspec(property(get = get_SystemKeyboardInfo, put = set_SystemKeyboardInfo))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo SystemKeyboardInfo;
+
+  /// @brief Field TrackedKeyboardActiveChanged, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get_TrackedKeyboardActiveChanged,
+                      put = __cordl_internal_set_TrackedKeyboardActiveChanged))::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* TrackedKeyboardActiveChanged;
+
+  /// @brief Field TrackedKeyboardVisibilityChanged, offset 0x120, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_TrackedKeyboardVisibilityChanged,
+      put = __cordl_internal_set_TrackedKeyboardVisibilityChanged))::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* TrackedKeyboardVisibilityChanged;
+
+  __declspec(property(get = get_TrackingEnabled, put = set_TrackingEnabled)) bool TrackingEnabled;
+
+  __declspec(property(get = get_TrackingState, put = set_TrackingState))::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState TrackingState;
+
   /// @brief Field UseHeuristicRollback, offset 0x188, size 0x1
   __declspec(property(get = __cordl_internal_get_UseHeuristicRollback, put = __cordl_internal_set_UseHeuristicRollback)) bool UseHeuristicRollback;
 
-  /// @brief Field underlayScaleMultX_, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_underlayScaleMultX_, put = setStaticF_underlayScaleMultX_)) float_t underlayScaleMultX_;
+  /// @brief Field <ActiveKeyboardInfo>k__BackingField, offset 0x20, size 0x28
+  __declspec(property(get = __cordl_internal_get__ActiveKeyboardInfo_k__BackingField,
+                      put = __cordl_internal_set__ActiveKeyboardInfo_k__BackingField))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo _ActiveKeyboardInfo_k__BackingField;
 
-  /// @brief Field underlayScaleConstY_, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_underlayScaleConstY_, put = setStaticF_underlayScaleConstY_)) float_t underlayScaleConstY_;
+  /// @brief Field <CurrentKeyboardAngleFromUp>k__BackingField, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__CurrentKeyboardAngleFromUp_k__BackingField,
+                      put = __cordl_internal_set__CurrentKeyboardAngleFromUp_k__BackingField)) float_t _CurrentKeyboardAngleFromUp_k__BackingField;
 
-  /// @brief Field underlayScaleMultZ_, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_underlayScaleMultZ_, put = setStaticF_underlayScaleMultZ_)) float_t underlayScaleMultZ_;
+  /// @brief Field <SystemKeyboardInfo>k__BackingField, offset 0x48, size 0x28
+  __declspec(property(get = __cordl_internal_get__SystemKeyboardInfo_k__BackingField,
+                      put = __cordl_internal_set__SystemKeyboardInfo_k__BackingField))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo _SystemKeyboardInfo_k__BackingField;
 
-  /// @brief Field underlayOffset_, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_underlayOffset_, put = setStaticF_underlayOffset_))::UnityEngine::Vector3 underlayOffset_;
+  /// @brief Field <TrackingState>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__TrackingState_k__BackingField,
+                      put = __cordl_internal_set__TrackingState_k__BackingField))::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState _TrackingState_k__BackingField;
+
+  /// @brief Field activeKeyboardMeshRenderer_, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_activeKeyboardMeshRenderer_, put = __cordl_internal_set_activeKeyboardMeshRenderer_))::UnityW<::UnityEngine::MeshRenderer> activeKeyboardMeshRenderer_;
+
+  /// @brief Field activeKeyboardMesh_, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_activeKeyboardMesh_, put = __cordl_internal_set_activeKeyboardMesh_))::UnityW<::UnityEngine::GameObject> activeKeyboardMesh_;
+
+  /// @brief Field activeKeyboardRenderers_, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_activeKeyboardRenderers_,
+                      put = __cordl_internal_set_activeKeyboardRenderers_))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> activeKeyboardRenderers_;
 
   /// @brief Field boundingBoxAboveKeyboardY_, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_boundingBoxAboveKeyboardY_, put = setStaticF_boundingBoxAboveKeyboardY_)) float_t boundingBoxAboveKeyboardY_;
+
+  /// @brief Field cameraRig_, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get_cameraRig_, put = __cordl_internal_set_cameraRig_))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig_;
+
+  /// @brief Field connectionRequired, offset 0x71, size 0x1
+  __declspec(property(get = __cordl_internal_get_connectionRequired, put = __cordl_internal_set_connectionRequired)) bool connectionRequired;
+
+  /// @brief Field currentKeyboardPresentationStyles, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get_currentKeyboardPresentationStyles,
+                      put = __cordl_internal_set_currentKeyboardPresentationStyles))::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles currentKeyboardPresentationStyles;
+
+  /// @brief Field dynamicQualityTexture_, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_dynamicQualityTexture_, put = __cordl_internal_set_dynamicQualityTexture_))::UnityW<::UnityEngine::Texture2D> dynamicQualityTexture_;
 
   /// @brief Field initialHorizontalDistanceKeyboard_, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_initialHorizontalDistanceKeyboard_, put = setStaticF_initialHorizontalDistanceKeyboard_)) float_t initialHorizontalDistanceKeyboard_;
@@ -1197,462 +1128,523 @@ public:
   /// @brief Field initialVerticalDistanceKeyboard_, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_initialVerticalDistanceKeyboard_, put = setStaticF_initialVerticalDistanceKeyboard_)) float_t initialVerticalDistanceKeyboard_;
 
-  __declspec(property(get = get_CurrentKeyboardAngleFromUp, put = set_CurrentKeyboardAngleFromUp)) float_t CurrentKeyboardAngleFromUp;
+  /// @brief Field keyboardBoundingBox_, offset 0x148, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyboardBoundingBox_, put = __cordl_internal_set_keyboardBoundingBox_))::UnityW<::UnityEngine::BoxCollider> keyboardBoundingBox_;
 
-  __declspec(property(get = get_TrackingState, put = set_TrackingState))::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState TrackingState;
+  /// @brief Field keyboardMeshNodes_, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyboardMeshNodes_,
+                      put = __cordl_internal_set_keyboardMeshNodes_))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> keyboardMeshNodes_;
 
-  __declspec(property(get = get_ActiveKeyboardInfo, put = set_ActiveKeyboardInfo))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo ActiveKeyboardInfo;
+  /// @brief Field keyboardModelAlphaBlendShader, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyboardModelAlphaBlendShader, put = __cordl_internal_set_keyboardModelAlphaBlendShader))::UnityW<::UnityEngine::Shader> keyboardModelAlphaBlendShader;
 
-  __declspec(property(get = get_SystemKeyboardInfo, put = set_SystemKeyboardInfo))::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo SystemKeyboardInfo;
+  /// @brief Field keyboardModelShader, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyboardModelShader, put = __cordl_internal_set_keyboardModelShader))::UnityW<::UnityEngine::Shader> keyboardModelShader;
 
-  __declspec(property(get = get_Presentation, put = set_Presentation))::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation Presentation;
+  /// @brief Field keyboardQueryFlags, offset 0x74, size 0x4
+  __declspec(property(get = __cordl_internal_get_keyboardQueryFlags, put = __cordl_internal_set_keyboardQueryFlags))::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags;
 
-  __declspec(property(get = get_TrackingEnabled, put = set_TrackingEnabled)) bool TrackingEnabled;
+  /// @brief Field mipmapBias, offset 0x80, size 0x4
+  __declspec(property(get = __cordl_internal_get_mipmapBias, put = __cordl_internal_set_mipmapBias)) float_t mipmapBias;
 
-  __declspec(property(get = get_ConnectionRequired, put = set_ConnectionRequired)) bool ConnectionRequired;
+  /// @brief Field opaqueShader_, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_opaqueShader_, put = __cordl_internal_set_opaqueShader_))::UnityW<::UnityEngine::Shader> opaqueShader_;
 
-  __declspec(property(get = get_ShowUntracked, put = set_ShowUntracked)) bool ShowUntracked;
+  /// @brief Field passthroughQuad_, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_passthroughQuad_, put = __cordl_internal_set_passthroughQuad_))::UnityW<::UnityEngine::GameObject> passthroughQuad_;
 
-  __declspec(property(get = get_RemoteKeyboard, put = set_RemoteKeyboard)) bool RemoteKeyboard;
+  /// @brief Field presentation, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_presentation, put = __cordl_internal_set_presentation))::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation presentation;
 
-  __declspec(property(get = get_KeyboardQueryFlags, put = set_KeyboardQueryFlags))::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags KeyboardQueryFlags;
+  /// @brief Field projectedPassthroughMesh, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get_projectedPassthroughMesh, put = __cordl_internal_set_projectedPassthroughMesh))::UnityW<::UnityEngine::MeshFilter> projectedPassthroughMesh;
 
-  __declspec(property(get = get_PassthroughOverlay, put = set_PassthroughOverlay))::UnityW<::GlobalNamespace::OVROverlay> PassthroughOverlay;
+  /// @brief Field projectedPassthroughOpaque_, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_projectedPassthroughOpaque_,
+                      put = __cordl_internal_set_projectedPassthroughOpaque_))::UnityW<::GlobalNamespace::OVROverlay> projectedPassthroughOpaque_;
 
-  constexpr float_t& __cordl_internal_get__CurrentKeyboardAngleFromUp_k__BackingField();
+  /// @brief Field projectedPassthroughRoot, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get_projectedPassthroughRoot, put = __cordl_internal_set_projectedPassthroughRoot))::UnityW<::UnityEngine::Transform> projectedPassthroughRoot;
 
-  constexpr float_t const& __cordl_internal_get__CurrentKeyboardAngleFromUp_k__BackingField() const;
+  /// @brief Field reacquisitionTimer_, offset 0x154, size 0x4
+  __declspec(property(get = __cordl_internal_get_reacquisitionTimer_, put = __cordl_internal_set_reacquisitionTimer_)) float_t reacquisitionTimer_;
 
-  constexpr void __cordl_internal_set__CurrentKeyboardAngleFromUp_k__BackingField(float_t value);
+  /// @brief Field sendFilteredPoseEventTimer_, offset 0x158, size 0x4
+  __declspec(property(get = __cordl_internal_get_sendFilteredPoseEventTimer_, put = __cordl_internal_set_sendFilteredPoseEventTimer_)) float_t sendFilteredPoseEventTimer_;
 
-  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState& __cordl_internal_get__TrackingState_k__BackingField();
+  /// @brief Field showUntracked, offset 0x72, size 0x1
+  __declspec(property(get = __cordl_internal_get_showUntracked, put = __cordl_internal_set_showUntracked)) bool showUntracked;
 
-  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const& __cordl_internal_get__TrackingState_k__BackingField() const;
+  /// @brief Field skippedPoseCount_, offset 0x15c, size 0x4
+  __declspec(property(get = __cordl_internal_get_skippedPoseCount_, put = __cordl_internal_set_skippedPoseCount_)) int32_t skippedPoseCount_;
 
-  constexpr void __cordl_internal_set__TrackingState_k__BackingField(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState value);
+  /// @brief Field staleTimeoutCounter_, offset 0x150, size 0x4
+  __declspec(property(get = __cordl_internal_get_staleTimeoutCounter_, put = __cordl_internal_set_staleTimeoutCounter_)) float_t staleTimeoutCounter_;
 
-  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo& __cordl_internal_get__ActiveKeyboardInfo_k__BackingField();
+  /// @brief Field textureFiltering, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get_textureFiltering, put = __cordl_internal_set_textureFiltering))::GlobalNamespace::OVRTextureQualityFiltering textureFiltering;
 
-  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo const& __cordl_internal_get__ActiveKeyboardInfo_k__BackingField() const;
+  /// @brief Field trackingEnabled, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get_trackingEnabled, put = __cordl_internal_set_trackingEnabled)) bool trackingEnabled;
 
-  constexpr void __cordl_internal_set__ActiveKeyboardInfo_k__BackingField(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
+  /// @brief Field underlayOffset_, offset 0xffffffff, size 0xc
+  static __declspec(property(get = getStaticF_underlayOffset_, put = setStaticF_underlayOffset_))::UnityEngine::Vector3 underlayOffset_;
 
-  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo& __cordl_internal_get__SystemKeyboardInfo_k__BackingField();
+  /// @brief Field underlayScaleConstY_, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_underlayScaleConstY_, put = setStaticF_underlayScaleConstY_)) float_t underlayScaleConstY_;
 
-  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo const& __cordl_internal_get__SystemKeyboardInfo_k__BackingField() const;
+  /// @brief Field underlayScaleMultX_, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_underlayScaleMultX_, put = setStaticF_underlayScaleMultX_)) float_t underlayScaleMultX_;
 
-  constexpr void __cordl_internal_set__SystemKeyboardInfo_k__BackingField(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
+  /// @brief Field underlayScaleMultZ_, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_underlayScaleMultZ_, put = setStaticF_underlayScaleMultZ_)) float_t underlayScaleMultZ_;
 
-  constexpr bool& __cordl_internal_get_trackingEnabled();
+  /// @brief Field untrackedPosition_, offset 0xe0, size 0xc
+  __declspec(property(get = __cordl_internal_get_untrackedPosition_, put = __cordl_internal_set_untrackedPosition_))::UnityEngine::Vector3 untrackedPosition_;
 
-  constexpr bool const& __cordl_internal_get_trackingEnabled() const;
+  /// @brief Field updateKeyboardRoutine_, offset 0x140, size 0x8
+  __declspec(property(get = __cordl_internal_get_updateKeyboardRoutine_, put = __cordl_internal_set_updateKeyboardRoutine_))::UnityEngine::Coroutine* updateKeyboardRoutine_;
 
-  constexpr void __cordl_internal_set_trackingEnabled(bool value);
+  /// @brief Method DispatchVisibilityEvent, addr 0x2887e44, size 0x30, virtual false, abstract: false, final false
+  inline void DispatchVisibilityEvent(bool timeOut);
 
-  constexpr bool& __cordl_internal_get_connectionRequired();
+  /// @brief Method Dispose, addr 0x2887e74, size 0x114, virtual false, abstract: false, final false
+  inline void Dispose();
 
-  constexpr bool const& __cordl_internal_get_connectionRequired() const;
+  /// @brief Method GetDistanceToKeyboard, addr 0x2886838, size 0x18c, virtual false, abstract: false, final false
+  inline float_t GetDistanceToKeyboard(::UnityEngine::Vector3 point);
 
-  constexpr void __cordl_internal_set_connectionRequired(bool value);
+  /// @brief Method GetKeyboardVisibility, addr 0x28863c4, size 0x44, virtual false, abstract: false, final false
+  inline bool GetKeyboardVisibility();
 
-  constexpr bool& __cordl_internal_get_showUntracked();
+  /// @brief Method InitializeHandPresenceData, addr 0x2886710, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* InitializeHandPresenceData();
 
-  constexpr bool const& __cordl_internal_get_showUntracked() const;
+  /// @brief Method InitializeKeyboardInfo, addr 0x28871d8, size 0x54, virtual false, abstract: false, final false
+  inline void InitializeKeyboardInfo();
 
-  constexpr void __cordl_internal_set_showUntracked(bool value);
+  /// @brief Method KeyboardTrackerIsRunning, addr 0x2886dd0, size 0x14, virtual false, abstract: false, final false
+  inline bool KeyboardTrackerIsRunning();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags& __cordl_internal_get_keyboardQueryFlags();
+  /// @brief Method LaunchLocalKeyboardSelectionDialog, addr 0x28869c4, size 0x40, virtual false, abstract: false, final false
+  inline void LaunchLocalKeyboardSelectionDialog();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags const& __cordl_internal_get_keyboardQueryFlags() const;
+  /// @brief Method LaunchOverlayIntent, addr 0x2886a04, size 0x38c, virtual false, abstract: false, final false
+  inline void LaunchOverlayIntent(::StringW dataUri);
 
-  constexpr void __cordl_internal_set_keyboardQueryFlags(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags value);
+  /// @brief Method LaunchRemoteKeyboardSelectionDialog, addr 0x2886d90, size 0x40, virtual false, abstract: false, final false
+  inline void LaunchRemoteKeyboardSelectionDialog();
 
-  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation& __cordl_internal_get_presentation();
+  /// @brief Method LoadKeyboardMesh, addr 0x2887304, size 0x648, virtual false, abstract: false, final false
+  inline void LoadKeyboardMesh();
 
-  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation const& __cordl_internal_get_presentation() const;
+  /// @brief Method LoadRuntimeKeyboardMesh, addr 0x288794c, size 0x2b4, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> LoadRuntimeKeyboardMesh();
 
-  constexpr void __cordl_internal_set_presentation(::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation value);
+  static inline ::GlobalNamespace::OVRTrackedKeyboard* New_ctor();
 
-  constexpr ::GlobalNamespace::OVRTextureQualityFiltering& __cordl_internal_get_textureFiltering();
+  /// @brief Method RegisterPassthroughMeshToSDK, addr 0x28867a0, size 0x98, virtual false, abstract: false, final false
+  inline void RegisterPassthroughMeshToSDK();
 
-  constexpr ::GlobalNamespace::OVRTextureQualityFiltering const& __cordl_internal_get_textureFiltering() const;
+  /// @brief Method SetKeyboardState, addr 0x28870fc, size 0xdc, virtual false, abstract: false, final false
+  inline void SetKeyboardState(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState state);
 
-  constexpr void __cordl_internal_set_textureFiltering(::GlobalNamespace::OVRTextureQualityFiltering value);
+  /// @brief Method Start, addr 0x2886680, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* Start();
 
-  constexpr float_t& __cordl_internal_get_mipmapBias();
+  /// @brief Method StartKeyboardTrackingCoroutine, addr 0x2886e74, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* StartKeyboardTrackingCoroutine();
 
-  constexpr float_t const& __cordl_internal_get_mipmapBias() const;
+  /// @brief Method StopKeyboardTrackingInternal, addr 0x2886f04, size 0x1f8, virtual false, abstract: false, final false
+  inline void StopKeyboardTrackingInternal();
 
-  constexpr void __cordl_internal_set_mipmapBias(float_t value);
+  /// @brief Method UpdateKeyboardPose, addr 0x288722c, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* UpdateKeyboardPose();
 
-  constexpr float_t& __cordl_internal_get_PassthroughBorderMultiplier();
+  /// @brief Method UpdateKeyboardVisibility, addr 0x2887d30, size 0x114, virtual false, abstract: false, final false
+  inline void UpdateKeyboardVisibility();
 
-  constexpr float_t const& __cordl_internal_get_PassthroughBorderMultiplier() const;
+  /// @brief Method UpdatePresentation, addr 0x2886408, size 0x1f8, virtual false, abstract: false, final false
+  inline void UpdatePresentation(bool isVisible);
 
-  constexpr void __cordl_internal_set_PassthroughBorderMultiplier(float_t value);
+  /// @brief Method UpdateSkippedPoseTimer, addr 0x28872bc, size 0x48, virtual false, abstract: false, final false
+  inline void UpdateSkippedPoseTimer();
 
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_keyboardModelShader();
+  /// @brief Method UpdateTextureQuality, addr 0x2887c00, size 0x130, virtual false, abstract: false, final false
+  inline void UpdateTextureQuality();
 
-  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_keyboardModelShader() const;
+  /// @brief Method UpdateTrackingStateCoroutine, addr 0x2886de4, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* UpdateTrackingStateCoroutine();
 
-  constexpr void __cordl_internal_set_keyboardModelShader(::UnityW<::UnityEngine::Shader> value);
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_ActiveKeyboardTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_keyboardModelAlphaBlendShader();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_ActiveKeyboardTransform();
 
-  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_keyboardModelAlphaBlendShader() const;
+  constexpr ::System::Nullable_1<::UnityEngine::Vector3> const& __cordl_internal_get_EWAPosition() const;
 
-  constexpr void __cordl_internal_set_keyboardModelAlphaBlendShader(::UnityW<::UnityEngine::Shader> value);
+  constexpr ::System::Nullable_1<::UnityEngine::Vector3>& __cordl_internal_get_EWAPosition();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles& __cordl_internal_get_currentKeyboardPresentationStyles();
+  constexpr ::System::Nullable_1<::UnityEngine::Quaternion> const& __cordl_internal_get_EWARotation() const;
 
-  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles const& __cordl_internal_get_currentKeyboardPresentationStyles() const;
+  constexpr ::System::Nullable_1<::UnityEngine::Quaternion>& __cordl_internal_get_EWARotation();
 
-  constexpr void __cordl_internal_set_currentKeyboardPresentationStyles(::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles value);
+  constexpr float_t const& __cordl_internal_get_HAND_HEIGHT_TUNING() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVROverlay>& __cordl_internal_get_projectedPassthroughOpaque_();
+  constexpr float_t& __cordl_internal_get_HAND_HEIGHT_TUNING();
 
-  constexpr ::UnityW<::GlobalNamespace::OVROverlay> const& __cordl_internal_get_projectedPassthroughOpaque_() const;
+  constexpr bool const& __cordl_internal_get_HandsOverKeyboard() const;
 
-  constexpr void __cordl_internal_set_projectedPassthroughOpaque_(::UnityW<::GlobalNamespace::OVROverlay> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get_activeKeyboardRenderers_();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get_activeKeyboardRenderers_() const;
-
-  constexpr void __cordl_internal_set_activeKeyboardRenderers_(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_activeKeyboardMesh_();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_activeKeyboardMesh_() const;
-
-  constexpr void __cordl_internal_set_activeKeyboardMesh_(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get_keyboardMeshNodes_();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_keyboardMeshNodes_() const;
-
-  constexpr void __cordl_internal_set_keyboardMeshNodes_(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_activeKeyboardMeshRenderer_();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_activeKeyboardMeshRenderer_() const;
-
-  constexpr void __cordl_internal_set_activeKeyboardMeshRenderer_(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_passthroughQuad_();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_passthroughQuad_() const;
-
-  constexpr void __cordl_internal_set_passthroughQuad_(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_opaqueShader_();
-
-  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_opaqueShader_() const;
-
-  constexpr void __cordl_internal_set_opaqueShader_(::UnityW<::UnityEngine::Shader> value);
-
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_dynamicQualityTexture_();
-
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_dynamicQualityTexture_() const;
-
-  constexpr void __cordl_internal_set_dynamicQualityTexture_(::UnityW<::UnityEngine::Texture2D> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_untrackedPosition_();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_untrackedPosition_() const;
-
-  constexpr void __cordl_internal_set_untrackedPosition_(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_KeyLabelModeShader();
+  constexpr bool& __cordl_internal_get_HandsOverKeyboard();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_KeyLabelModeShader() const;
 
-  constexpr void __cordl_internal_set_KeyLabelModeShader(::UnityW<::UnityEngine::Shader> value);
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_KeyLabelModeShader();
 
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_PassthroughShader();
+  constexpr float_t const& __cordl_internal_get_PassthroughBorderMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get_PassthroughBorderMultiplier();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_PassthroughShader() const;
 
-  constexpr void __cordl_internal_set_PassthroughShader(::UnityW<::UnityEngine::Shader> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_projectedPassthroughRoot();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_projectedPassthroughRoot() const;
-
-  constexpr void __cordl_internal_set_projectedPassthroughRoot(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_projectedPassthroughMesh();
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_projectedPassthroughMesh() const;
-
-  constexpr void __cordl_internal_set_projectedPassthroughMesh(::UnityW<::UnityEngine::MeshFilter> value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer>& __cordl_internal_get_ProjectedPassthroughKeyLabel();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_PassthroughShader();
 
   constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer> const& __cordl_internal_get_ProjectedPassthroughKeyLabel() const;
 
-  constexpr void __cordl_internal_set_ProjectedPassthroughKeyLabel(::UnityW<::GlobalNamespace::OVRPassthroughLayer> value);
+  constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer>& __cordl_internal_get_ProjectedPassthroughKeyLabel();
 
   constexpr ::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>*& __cordl_internal_get_TrackedKeyboardActiveChanged();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>*> const&
   __cordl_internal_get_TrackedKeyboardActiveChanged() const;
 
-  constexpr void __cordl_internal_set_TrackedKeyboardActiveChanged(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* value);
-
   constexpr ::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>*& __cordl_internal_get_TrackedKeyboardVisibilityChanged();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>*> const&
   __cordl_internal_get_TrackedKeyboardVisibilityChanged() const;
 
-  constexpr void __cordl_internal_set_TrackedKeyboardVisibilityChanged(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* value);
+  constexpr bool const& __cordl_internal_get_UseHeuristicRollback() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_ActiveKeyboardTransform();
+  constexpr bool& __cordl_internal_get_UseHeuristicRollback();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_ActiveKeyboardTransform() const;
+  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo const& __cordl_internal_get__ActiveKeyboardInfo_k__BackingField() const;
 
-  constexpr void __cordl_internal_set_ActiveKeyboardTransform(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo& __cordl_internal_get__ActiveKeyboardInfo_k__BackingField();
 
-  constexpr bool& __cordl_internal_get_HandsOverKeyboard();
+  constexpr float_t const& __cordl_internal_get__CurrentKeyboardAngleFromUp_k__BackingField() const;
 
-  constexpr bool const& __cordl_internal_get_HandsOverKeyboard() const;
+  constexpr float_t& __cordl_internal_get__CurrentKeyboardAngleFromUp_k__BackingField();
 
-  constexpr void __cordl_internal_set_HandsOverKeyboard(bool value);
+  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo const& __cordl_internal_get__SystemKeyboardInfo_k__BackingField() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig_();
+  constexpr ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo& __cordl_internal_get__SystemKeyboardInfo_k__BackingField();
+
+  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState const& __cordl_internal_get__TrackingState_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState& __cordl_internal_get__TrackingState_k__BackingField();
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_activeKeyboardMeshRenderer_() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_activeKeyboardMeshRenderer_();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_activeKeyboardMesh_() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_activeKeyboardMesh_();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get_activeKeyboardRenderers_() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get_activeKeyboardRenderers_();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig_() const;
 
-  constexpr void __cordl_internal_set_cameraRig_(::UnityW<::GlobalNamespace::OVRCameraRig> value);
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig_();
+
+  constexpr bool const& __cordl_internal_get_connectionRequired() const;
+
+  constexpr bool& __cordl_internal_get_connectionRequired();
+
+  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles const& __cordl_internal_get_currentKeyboardPresentationStyles() const;
+
+  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles& __cordl_internal_get_currentKeyboardPresentationStyles();
+
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_dynamicQualityTexture_() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_dynamicQualityTexture_();
+
+  constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get_keyboardBoundingBox_() const;
+
+  constexpr ::UnityW<::UnityEngine::BoxCollider>& __cordl_internal_get_keyboardBoundingBox_();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_keyboardMeshNodes_() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get_keyboardMeshNodes_();
+
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_keyboardModelAlphaBlendShader() const;
+
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_keyboardModelAlphaBlendShader();
+
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_keyboardModelShader() const;
+
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_keyboardModelShader();
+
+  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags const& __cordl_internal_get_keyboardQueryFlags() const;
+
+  constexpr ::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags& __cordl_internal_get_keyboardQueryFlags();
+
+  constexpr float_t const& __cordl_internal_get_mipmapBias() const;
+
+  constexpr float_t& __cordl_internal_get_mipmapBias();
+
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_opaqueShader_() const;
+
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_opaqueShader_();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_passthroughQuad_() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_passthroughQuad_();
+
+  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation const& __cordl_internal_get_presentation() const;
+
+  constexpr ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation& __cordl_internal_get_presentation();
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_projectedPassthroughMesh() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_projectedPassthroughMesh();
+
+  constexpr ::UnityW<::GlobalNamespace::OVROverlay> const& __cordl_internal_get_projectedPassthroughOpaque_() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVROverlay>& __cordl_internal_get_projectedPassthroughOpaque_();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_projectedPassthroughRoot() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_projectedPassthroughRoot();
+
+  constexpr float_t const& __cordl_internal_get_reacquisitionTimer_() const;
+
+  constexpr float_t& __cordl_internal_get_reacquisitionTimer_();
+
+  constexpr float_t const& __cordl_internal_get_sendFilteredPoseEventTimer_() const;
+
+  constexpr float_t& __cordl_internal_get_sendFilteredPoseEventTimer_();
+
+  constexpr bool const& __cordl_internal_get_showUntracked() const;
+
+  constexpr bool& __cordl_internal_get_showUntracked();
+
+  constexpr int32_t const& __cordl_internal_get_skippedPoseCount_() const;
+
+  constexpr int32_t& __cordl_internal_get_skippedPoseCount_();
+
+  constexpr float_t const& __cordl_internal_get_staleTimeoutCounter_() const;
+
+  constexpr float_t& __cordl_internal_get_staleTimeoutCounter_();
+
+  constexpr ::GlobalNamespace::OVRTextureQualityFiltering const& __cordl_internal_get_textureFiltering() const;
+
+  constexpr ::GlobalNamespace::OVRTextureQualityFiltering& __cordl_internal_get_textureFiltering();
+
+  constexpr bool const& __cordl_internal_get_trackingEnabled() const;
+
+  constexpr bool& __cordl_internal_get_trackingEnabled();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_untrackedPosition_() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_untrackedPosition_();
 
   constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_updateKeyboardRoutine_();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_updateKeyboardRoutine_() const;
 
-  constexpr void __cordl_internal_set_updateKeyboardRoutine_(::UnityEngine::Coroutine* value);
-
-  constexpr ::UnityW<::UnityEngine::BoxCollider>& __cordl_internal_get_keyboardBoundingBox_();
-
-  constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get_keyboardBoundingBox_() const;
-
-  constexpr void __cordl_internal_set_keyboardBoundingBox_(::UnityW<::UnityEngine::BoxCollider> value);
-
-  constexpr float_t& __cordl_internal_get_staleTimeoutCounter_();
-
-  constexpr float_t const& __cordl_internal_get_staleTimeoutCounter_() const;
-
-  constexpr void __cordl_internal_set_staleTimeoutCounter_(float_t value);
-
-  constexpr float_t& __cordl_internal_get_reacquisitionTimer_();
-
-  constexpr float_t const& __cordl_internal_get_reacquisitionTimer_() const;
-
-  constexpr void __cordl_internal_set_reacquisitionTimer_(float_t value);
-
-  constexpr float_t& __cordl_internal_get_sendFilteredPoseEventTimer_();
-
-  constexpr float_t const& __cordl_internal_get_sendFilteredPoseEventTimer_() const;
-
-  constexpr void __cordl_internal_set_sendFilteredPoseEventTimer_(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_skippedPoseCount_();
-
-  constexpr int32_t const& __cordl_internal_get_skippedPoseCount_() const;
-
-  constexpr void __cordl_internal_set_skippedPoseCount_(int32_t value);
-
-  constexpr ::System::Nullable_1<::UnityEngine::Vector3>& __cordl_internal_get_EWAPosition();
-
-  constexpr ::System::Nullable_1<::UnityEngine::Vector3> const& __cordl_internal_get_EWAPosition() const;
+  constexpr void __cordl_internal_set_ActiveKeyboardTransform(::UnityW<::UnityEngine::Transform> value);
 
   constexpr void __cordl_internal_set_EWAPosition(::System::Nullable_1<::UnityEngine::Vector3> value);
 
-  constexpr ::System::Nullable_1<::UnityEngine::Quaternion>& __cordl_internal_get_EWARotation();
-
-  constexpr ::System::Nullable_1<::UnityEngine::Quaternion> const& __cordl_internal_get_EWARotation() const;
-
   constexpr void __cordl_internal_set_EWARotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
-
-  constexpr float_t& __cordl_internal_get_HAND_HEIGHT_TUNING();
-
-  constexpr float_t const& __cordl_internal_get_HAND_HEIGHT_TUNING() const;
 
   constexpr void __cordl_internal_set_HAND_HEIGHT_TUNING(float_t value);
 
-  constexpr bool& __cordl_internal_get_UseHeuristicRollback();
+  constexpr void __cordl_internal_set_HandsOverKeyboard(bool value);
 
-  constexpr bool const& __cordl_internal_get_UseHeuristicRollback() const;
+  constexpr void __cordl_internal_set_KeyLabelModeShader(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set_PassthroughBorderMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set_PassthroughShader(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set_ProjectedPassthroughKeyLabel(::UnityW<::GlobalNamespace::OVRPassthroughLayer> value);
+
+  constexpr void __cordl_internal_set_TrackedKeyboardActiveChanged(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent>* value);
+
+  constexpr void __cordl_internal_set_TrackedKeyboardVisibilityChanged(::System::Action_1<::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent>* value);
 
   constexpr void __cordl_internal_set_UseHeuristicRollback(bool value);
 
-  static inline void setStaticF_underlayScaleMultX_(float_t value);
+  constexpr void __cordl_internal_set__ActiveKeyboardInfo_k__BackingField(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  static inline float_t getStaticF_underlayScaleMultX_();
+  constexpr void __cordl_internal_set__CurrentKeyboardAngleFromUp_k__BackingField(float_t value);
 
-  static inline void setStaticF_underlayScaleConstY_(float_t value);
+  constexpr void __cordl_internal_set__SystemKeyboardInfo_k__BackingField(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  static inline float_t getStaticF_underlayScaleConstY_();
+  constexpr void __cordl_internal_set__TrackingState_k__BackingField(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState value);
 
-  static inline void setStaticF_underlayScaleMultZ_(float_t value);
+  constexpr void __cordl_internal_set_activeKeyboardMeshRenderer_(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  static inline float_t getStaticF_underlayScaleMultZ_();
+  constexpr void __cordl_internal_set_activeKeyboardMesh_(::UnityW<::UnityEngine::GameObject> value);
 
-  static inline void setStaticF_underlayOffset_(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_activeKeyboardRenderers_(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  static inline ::UnityEngine::Vector3 getStaticF_underlayOffset_();
+  constexpr void __cordl_internal_set_cameraRig_(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  static inline void setStaticF_boundingBoxAboveKeyboardY_(float_t value);
+  constexpr void __cordl_internal_set_connectionRequired(bool value);
+
+  constexpr void __cordl_internal_set_currentKeyboardPresentationStyles(::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles value);
+
+  constexpr void __cordl_internal_set_dynamicQualityTexture_(::UnityW<::UnityEngine::Texture2D> value);
+
+  constexpr void __cordl_internal_set_keyboardBoundingBox_(::UnityW<::UnityEngine::BoxCollider> value);
+
+  constexpr void __cordl_internal_set_keyboardMeshNodes_(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
+
+  constexpr void __cordl_internal_set_keyboardModelAlphaBlendShader(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set_keyboardModelShader(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set_keyboardQueryFlags(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags value);
+
+  constexpr void __cordl_internal_set_mipmapBias(float_t value);
+
+  constexpr void __cordl_internal_set_opaqueShader_(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set_passthroughQuad_(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_presentation(::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation value);
+
+  constexpr void __cordl_internal_set_projectedPassthroughMesh(::UnityW<::UnityEngine::MeshFilter> value);
+
+  constexpr void __cordl_internal_set_projectedPassthroughOpaque_(::UnityW<::GlobalNamespace::OVROverlay> value);
+
+  constexpr void __cordl_internal_set_projectedPassthroughRoot(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_reacquisitionTimer_(float_t value);
+
+  constexpr void __cordl_internal_set_sendFilteredPoseEventTimer_(float_t value);
+
+  constexpr void __cordl_internal_set_showUntracked(bool value);
+
+  constexpr void __cordl_internal_set_skippedPoseCount_(int32_t value);
+
+  constexpr void __cordl_internal_set_staleTimeoutCounter_(float_t value);
+
+  constexpr void __cordl_internal_set_textureFiltering(::GlobalNamespace::OVRTextureQualityFiltering value);
+
+  constexpr void __cordl_internal_set_trackingEnabled(bool value);
+
+  constexpr void __cordl_internal_set_untrackedPosition_(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_updateKeyboardRoutine_(::UnityEngine::Coroutine* value);
+
+  /// @brief Method .ctor, addr 0x2887f9c, size 0x190, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline float_t getStaticF_boundingBoxAboveKeyboardY_();
 
-  static inline void setStaticF_initialHorizontalDistanceKeyboard_(float_t value);
-
   static inline float_t getStaticF_initialHorizontalDistanceKeyboard_();
-
-  static inline void setStaticF_initialVerticalDistanceKeyboard_(float_t value);
 
   static inline float_t getStaticF_initialVerticalDistanceKeyboard_();
 
-  /// @brief Method get_CurrentKeyboardAngleFromUp, addr 0x27adcc0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_CurrentKeyboardAngleFromUp();
+  static inline ::UnityEngine::Vector3 getStaticF_underlayOffset_();
 
-  /// @brief Method set_CurrentKeyboardAngleFromUp, addr 0x27adcc8, size 0x8, virtual false, abstract: false, final false
-  inline void set_CurrentKeyboardAngleFromUp(float_t value);
+  static inline float_t getStaticF_underlayScaleConstY_();
 
-  /// @brief Method get_TrackingState, addr 0x27adcd0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState get_TrackingState();
+  static inline float_t getStaticF_underlayScaleMultX_();
 
-  /// @brief Method set_TrackingState, addr 0x27adcd8, size 0x8, virtual false, abstract: false, final false
-  inline void set_TrackingState(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState value);
+  static inline float_t getStaticF_underlayScaleMultZ_();
 
-  /// @brief Method get_ActiveKeyboardInfo, addr 0x27adce0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveKeyboardInfo, addr 0x2886314, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo get_ActiveKeyboardInfo();
 
-  /// @brief Method set_ActiveKeyboardInfo, addr 0x27adcf4, size 0x14, virtual false, abstract: false, final false
-  inline void set_ActiveKeyboardInfo(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
-
-  /// @brief Method get_SystemKeyboardInfo, addr 0x27add08, size 0x18, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo get_SystemKeyboardInfo();
-
-  /// @brief Method set_SystemKeyboardInfo, addr 0x27add20, size 0x18, virtual false, abstract: false, final false
-  inline void set_SystemKeyboardInfo(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
-
-  /// @brief Method get_Presentation, addr 0x27add38, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation get_Presentation();
-
-  /// @brief Method set_Presentation, addr 0x27add40, size 0x50, virtual false, abstract: false, final false
-  inline void set_Presentation(::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation value);
-
-  /// @brief Method get_TrackingEnabled, addr 0x27adfcc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_TrackingEnabled();
-
-  /// @brief Method set_TrackingEnabled, addr 0x27adfd4, size 0xc, virtual false, abstract: false, final false
-  inline void set_TrackingEnabled(bool value);
-
-  /// @brief Method get_ConnectionRequired, addr 0x27adfe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectionRequired, addr 0x2886614, size 0x8, virtual false, abstract: false, final false
   inline bool get_ConnectionRequired();
 
-  /// @brief Method set_ConnectionRequired, addr 0x27adfe8, size 0xc, virtual false, abstract: false, final false
-  inline void set_ConnectionRequired(bool value);
+  /// @brief Method get_CurrentKeyboardAngleFromUp, addr 0x28862f4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_CurrentKeyboardAngleFromUp();
 
-  /// @brief Method get_ShowUntracked, addr 0x27adff4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ShowUntracked();
-
-  /// @brief Method set_ShowUntracked, addr 0x27adffc, size 0xc, virtual false, abstract: false, final false
-  inline void set_ShowUntracked(bool value);
-
-  /// @brief Method get_RemoteKeyboard, addr 0x27ae008, size 0x10, virtual false, abstract: false, final false
-  inline bool get_RemoteKeyboard();
-
-  /// @brief Method set_RemoteKeyboard, addr 0x27ae018, size 0x18, virtual false, abstract: false, final false
-  inline void set_RemoteKeyboard(bool value);
-
-  /// @brief Method get_KeyboardQueryFlags, addr 0x27ae030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyboardQueryFlags, addr 0x2886664, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags get_KeyboardQueryFlags();
 
-  /// @brief Method set_KeyboardQueryFlags, addr 0x27ae038, size 0x8, virtual false, abstract: false, final false
-  inline void set_KeyboardQueryFlags(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags value);
-
-  /// @brief Method get_PassthroughOverlay, addr 0x27ae040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PassthroughOverlay, addr 0x2886674, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVROverlay> get_PassthroughOverlay();
 
-  /// @brief Method set_PassthroughOverlay, addr 0x27ae048, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Presentation, addr 0x288636c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation get_Presentation();
+
+  /// @brief Method get_RemoteKeyboard, addr 0x288663c, size 0x10, virtual false, abstract: false, final false
+  inline bool get_RemoteKeyboard();
+
+  /// @brief Method get_ShowUntracked, addr 0x2886628, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ShowUntracked();
+
+  /// @brief Method get_SystemKeyboardInfo, addr 0x288633c, size 0x18, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo get_SystemKeyboardInfo();
+
+  /// @brief Method get_TrackingEnabled, addr 0x2886600, size 0x8, virtual false, abstract: false, final false
+  inline bool get_TrackingEnabled();
+
+  /// @brief Method get_TrackingState, addr 0x2886304, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState get_TrackingState();
+
+  static inline void setStaticF_boundingBoxAboveKeyboardY_(float_t value);
+
+  static inline void setStaticF_initialHorizontalDistanceKeyboard_(float_t value);
+
+  static inline void setStaticF_initialVerticalDistanceKeyboard_(float_t value);
+
+  static inline void setStaticF_underlayOffset_(::UnityEngine::Vector3 value);
+
+  static inline void setStaticF_underlayScaleConstY_(float_t value);
+
+  static inline void setStaticF_underlayScaleMultX_(float_t value);
+
+  static inline void setStaticF_underlayScaleMultZ_(float_t value);
+
+  /// @brief Method set_ActiveKeyboardInfo, addr 0x2886328, size 0x14, virtual false, abstract: false, final false
+  inline void set_ActiveKeyboardInfo(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
+
+  /// @brief Method set_ConnectionRequired, addr 0x288661c, size 0xc, virtual false, abstract: false, final false
+  inline void set_ConnectionRequired(bool value);
+
+  /// @brief Method set_CurrentKeyboardAngleFromUp, addr 0x28862fc, size 0x8, virtual false, abstract: false, final false
+  inline void set_CurrentKeyboardAngleFromUp(float_t value);
+
+  /// @brief Method set_KeyboardQueryFlags, addr 0x288666c, size 0x8, virtual false, abstract: false, final false
+  inline void set_KeyboardQueryFlags(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags value);
+
+  /// @brief Method set_PassthroughOverlay, addr 0x288667c, size 0x4, virtual false, abstract: false, final false
   inline void set_PassthroughOverlay(::GlobalNamespace::OVROverlay* value);
 
-  /// @brief Method Start, addr 0x27ae04c, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* Start();
+  /// @brief Method set_Presentation, addr 0x2886374, size 0x50, virtual false, abstract: false, final false
+  inline void set_Presentation(::GlobalNamespace::__OVRTrackedKeyboard__KeyboardPresentation value);
 
-  /// @brief Method InitializeHandPresenceData, addr 0x27ae0b4, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* InitializeHandPresenceData();
+  /// @brief Method set_RemoteKeyboard, addr 0x288664c, size 0x18, virtual false, abstract: false, final false
+  inline void set_RemoteKeyboard(bool value);
 
-  /// @brief Method RegisterPassthroughMeshToSDK, addr 0x27ae11c, size 0x98, virtual false, abstract: false, final false
-  inline void RegisterPassthroughMeshToSDK();
+  /// @brief Method set_ShowUntracked, addr 0x2886630, size 0xc, virtual false, abstract: false, final false
+  inline void set_ShowUntracked(bool value);
 
-  /// @brief Method GetDistanceToKeyboard, addr 0x27ae1b4, size 0x18c, virtual false, abstract: false, final false
-  inline float_t GetDistanceToKeyboard(::UnityEngine::Vector3 point);
+  /// @brief Method set_SystemKeyboardInfo, addr 0x2886354, size 0x18, virtual false, abstract: false, final false
+  inline void set_SystemKeyboardInfo(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo value);
 
-  /// @brief Method LaunchLocalKeyboardSelectionDialog, addr 0x27ae340, size 0x40, virtual false, abstract: false, final false
-  inline void LaunchLocalKeyboardSelectionDialog();
+  /// @brief Method set_TrackingEnabled, addr 0x2886608, size 0xc, virtual false, abstract: false, final false
+  inline void set_TrackingEnabled(bool value);
 
-  /// @brief Method LaunchRemoteKeyboardSelectionDialog, addr 0x27ae70c, size 0x40, virtual false, abstract: false, final false
-  inline void LaunchRemoteKeyboardSelectionDialog();
+  /// @brief Method set_TrackingState, addr 0x288630c, size 0x8, virtual false, abstract: false, final false
+  inline void set_TrackingState(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState value);
 
-  /// @brief Method KeyboardTrackerIsRunning, addr 0x27ae74c, size 0x14, virtual false, abstract: false, final false
-  inline bool KeyboardTrackerIsRunning();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRTrackedKeyboard();
 
-  /// @brief Method UpdateTrackingStateCoroutine, addr 0x27ae760, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* UpdateTrackingStateCoroutine();
-
-  /// @brief Method StartKeyboardTrackingCoroutine, addr 0x27ae7c8, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* StartKeyboardTrackingCoroutine();
-
-  /// @brief Method StopKeyboardTrackingInternal, addr 0x27ae830, size 0x1f8, virtual false, abstract: false, final false
-  inline void StopKeyboardTrackingInternal();
-
-  /// @brief Method UpdateKeyboardPose, addr 0x27aeb3c, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* UpdateKeyboardPose();
-
-  /// @brief Method UpdateSkippedPoseTimer, addr 0x27aeba4, size 0x48, virtual false, abstract: false, final false
-  inline void UpdateSkippedPoseTimer();
-
-  /// @brief Method LoadKeyboardMesh, addr 0x27aebec, size 0x648, virtual false, abstract: false, final false
-  inline void LoadKeyboardMesh();
-
-  /// @brief Method UpdateTextureQuality, addr 0x27af4e8, size 0x130, virtual false, abstract: false, final false
-  inline void UpdateTextureQuality();
-
-  /// @brief Method UpdatePresentation, addr 0x27addd4, size 0x1f8, virtual false, abstract: false, final false
-  inline void UpdatePresentation(bool isVisible);
-
-  /// @brief Method LoadRuntimeKeyboardMesh, addr 0x27af234, size 0x2b4, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> LoadRuntimeKeyboardMesh();
-
-  /// @brief Method UpdateKeyboardVisibility, addr 0x27af618, size 0x114, virtual false, abstract: false, final false
-  inline void UpdateKeyboardVisibility();
-
-  /// @brief Method SetKeyboardState, addr 0x27aea28, size 0xc0, virtual false, abstract: false, final false
-  inline void SetKeyboardState(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardState state);
-
-  /// @brief Method GetKeyboardVisibility, addr 0x27add90, size 0x44, virtual false, abstract: false, final false
-  inline bool GetKeyboardVisibility();
-
-  /// @brief Method InitializeKeyboardInfo, addr 0x27aeae8, size 0x54, virtual false, abstract: false, final false
-  inline void InitializeKeyboardInfo();
-
-  /// @brief Method LaunchOverlayIntent, addr 0x27ae380, size 0x38c, virtual false, abstract: false, final false
-  inline void LaunchOverlayIntent(::StringW dataUri);
-
-  /// @brief Method Dispose, addr 0x27af77c, size 0x114, virtual false, abstract: false, final false
-  inline void Dispose();
-
-  /// @brief Method DispatchVisibilityEvent, addr 0x27af72c, size 0x50, virtual false, abstract: false, final false
-  inline void DispatchVisibilityEvent(bool timeOut);
-
-  static inline ::GlobalNamespace::OVRTrackedKeyboard* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27af890, size 0x190, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboard", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTrackedKeyboard(OVRTrackedKeyboard&&) = delete;
@@ -1661,12 +1653,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRTrackedKeyboard(OVRTrackedKeyboard const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTrackedKeyboard();
-
-public:
   /// @brief Field <CurrentKeyboardAngleFromUp>k__BackingField, offset: 0x18, size: 0x4, def value: None
   float_t ____CurrentKeyboardAngleFromUp_k__BackingField;
 
@@ -1799,11 +1785,11 @@ public:
   /// @brief Field UseHeuristicRollback, offset: 0x188, size: 0x1, def value: None
   bool ___UseHeuristicRollback;
 
-  /// @brief Field STALE_TIMEOUT offset 0xffffffff size 0x4
-  static constexpr float_t STALE_TIMEOUT{ 10.0 };
-
   /// @brief Field FILTERED_POSE_TIMEOUT offset 0xffffffff size 0x4
   static constexpr float_t FILTERED_POSE_TIMEOUT{ 15.0 };
+
+  /// @brief Field STALE_TIMEOUT offset 0xffffffff size 0x4
+  static constexpr float_t STALE_TIMEOUT{ 10.0 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

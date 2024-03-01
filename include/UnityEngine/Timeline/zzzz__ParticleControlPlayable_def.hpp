@@ -31,84 +31,88 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ParticleControlPlayable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13860))
 // CS Name: ::UnityEngine.Timeline::ParticleControlPlayable*
 class CORDL_TYPE ParticleControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  /// @brief Field m_LastPlayableTime, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LastPlayableTime, put = __cordl_internal_set_m_LastPlayableTime)) float_t m_LastPlayableTime;
-
-  /// @brief Field m_LastParticleTime, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LastParticleTime, put = __cordl_internal_set_m_LastParticleTime)) float_t m_LastParticleTime;
-
-  /// @brief Field m_RandomSeed, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RandomSeed, put = __cordl_internal_set_m_RandomSeed)) uint32_t m_RandomSeed;
-
   /// @brief Field <particleSystem>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem_k__BackingField,
                       put = __cordl_internal_set__particleSystem_k__BackingField))::UnityW<::UnityEngine::ParticleSystem> _particleSystem_k__BackingField;
 
+  /// @brief Field m_LastParticleTime, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_LastParticleTime, put = __cordl_internal_set_m_LastParticleTime)) float_t m_LastParticleTime;
+
+  /// @brief Field m_LastPlayableTime, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_LastPlayableTime, put = __cordl_internal_set_m_LastPlayableTime)) float_t m_LastPlayableTime;
+
+  /// @brief Field m_RandomSeed, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_RandomSeed, put = __cordl_internal_set_m_RandomSeed)) uint32_t m_RandomSeed;
+
   __declspec(property(get = get_particleSystem, put = set_particleSystem))::UnityW<::UnityEngine::ParticleSystem> particleSystem;
 
-  constexpr float_t& __cordl_internal_get_m_LastPlayableTime();
-
-  constexpr float_t const& __cordl_internal_get_m_LastPlayableTime() const;
-
-  constexpr void __cordl_internal_set_m_LastPlayableTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_LastParticleTime();
-
-  constexpr float_t const& __cordl_internal_get_m_LastParticleTime() const;
-
-  constexpr void __cordl_internal_set_m_LastParticleTime(float_t value);
-
-  constexpr uint32_t& __cordl_internal_get_m_RandomSeed();
-
-  constexpr uint32_t const& __cordl_internal_get_m_RandomSeed() const;
-
-  constexpr void __cordl_internal_set_m_RandomSeed(uint32_t value);
-
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem_k__BackingField();
-
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__particleSystem_k__BackingField(::UnityW<::UnityEngine::ParticleSystem> value);
-
-  /// @brief Method Create, addr 0x2c68fe4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2d530b8, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::ParticleSystem* component, uint32_t randomSeed);
 
-  /// @brief Method get_particleSystem, addr 0x2c691a8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::ParticleSystem> get_particleSystem();
-
-  /// @brief Method set_particleSystem, addr 0x2c691b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
-
-  /// @brief Method Initialize, addr 0x2c69128, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2d531fc, size 0x80, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::ParticleSystem* ps, uint32_t randomSeed);
-
-  /// @brief Method SetRandomSeed, addr 0x2c691b8, size 0x13c, virtual false, abstract: false, final false
-  static inline void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t randomSeed);
-
-  /// @brief Method PrepareFrame, addr 0x2c692f4, size 0x1b4, virtual true, abstract: false, final false
-  inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
-
-  /// @brief Method OnBehaviourPlay, addr 0x2c6956c, size 0xc, virtual true, abstract: false, final false
-  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
-
-  /// @brief Method OnBehaviourPause, addr 0x2c69578, size 0xc, virtual true, abstract: false, final false
-  inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
-
-  /// @brief Method Simulate, addr 0x2c694a8, size 0xc4, virtual false, abstract: false, final false
-  inline void Simulate(float_t time, bool restart);
 
   static inline ::UnityEngine::Timeline::ParticleControlPlayable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c69584, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x2d5364c, size 0xc, virtual true, abstract: false, final false
+  inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+
+  /// @brief Method OnBehaviourPlay, addr 0x2d53640, size 0xc, virtual true, abstract: false, final false
+  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+
+  /// @brief Method PrepareFrame, addr 0x2d533c8, size 0x1b4, virtual true, abstract: false, final false
+  inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
+
+  /// @brief Method SetRandomSeed, addr 0x2d5328c, size 0x13c, virtual false, abstract: false, final false
+  static inline void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t randomSeed);
+
+  /// @brief Method Simulate, addr 0x2d5357c, size 0xc4, virtual false, abstract: false, final false
+  inline void Simulate(float_t time, bool restart);
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem_k__BackingField() const;
+
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get_m_LastParticleTime() const;
+
+  constexpr float_t& __cordl_internal_get_m_LastParticleTime();
+
+  constexpr float_t const& __cordl_internal_get_m_LastPlayableTime() const;
+
+  constexpr float_t& __cordl_internal_get_m_LastPlayableTime();
+
+  constexpr uint32_t const& __cordl_internal_get_m_RandomSeed() const;
+
+  constexpr uint32_t& __cordl_internal_get_m_RandomSeed();
+
+  constexpr void __cordl_internal_set__particleSystem_k__BackingField(::UnityW<::UnityEngine::ParticleSystem> value);
+
+  constexpr void __cordl_internal_set_m_LastParticleTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_LastPlayableTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_RandomSeed(uint32_t value);
+
+  /// @brief Method .ctor, addr 0x2d53658, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_particleSystem, addr 0x2d5327c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::ParticleSystem> get_particleSystem();
+
+  /// @brief Method set_particleSystem, addr 0x2d53284, size 0x8, virtual false, abstract: false, final false
+  inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParticleControlPlayable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParticleControlPlayable(ParticleControlPlayable&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParticleControlPlayable(ParticleControlPlayable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParticleControlPlayable();
-
-public:
   /// @brief Field m_LastPlayableTime, offset: 0x10, size: 0x4, def value: None
   float_t ___m_LastPlayableTime;
 

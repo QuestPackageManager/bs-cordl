@@ -19,18 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::_Scripting::APIUpdating {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9038))
 // CS Name: ::UnityEngine._Scripting.APIUpdating::APIUpdaterRuntimeHelpers*
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x2ced28c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x2dd89b4, size 0x140, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x2ced3cc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x2dd8af4, size 0x2bc, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr APIUpdaterRuntimeHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr APIUpdaterRuntimeHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

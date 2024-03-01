@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4029))
 // CS Name: ::SongPreviewPlayerPauseOnInputFocusLost*
 class CORDL_TYPE SongPreviewPlayerPauseOnInputFocusLost : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,35 +30,41 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase>& __cordl_internal_get__songPreviewPlayer();
+  /// @brief Method HandleInputFocusCaptured, addr 0x2387764, size 0x44, virtual false, abstract: false, final false
+  inline void HandleInputFocusCaptured();
+
+  /// @brief Method HandleInputFocusReleased, addr 0x238794c, size 0x44, virtual false, abstract: false, final false
+  inline void HandleInputFocusReleased();
+
+  static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23877a8, size 0x1a4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x2387554, size 0x210, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
 
-  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase>& __cordl_internal_get__songPreviewPlayer();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
+
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method Start, addr 0x22baeec, size 0x210, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x22bb140, size 0x1a4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleInputFocusCaptured, addr 0x22bb0fc, size 0x44, virtual false, abstract: false, final false
-  inline void HandleInputFocusCaptured();
-
-  /// @brief Method HandleInputFocusReleased, addr 0x22bb2e4, size 0x44, virtual false, abstract: false, final false
-  inline void HandleInputFocusReleased();
-
-  static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22bb328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2387990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SongPreviewPlayerPauseOnInputFocusLost();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayerPauseOnInputFocusLost", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongPreviewPlayerPauseOnInputFocusLost(SongPreviewPlayerPauseOnInputFocusLost&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongPreviewPlayerPauseOnInputFocusLost(SongPreviewPlayerPauseOnInputFocusLost const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongPreviewPlayerPauseOnInputFocusLost();
-
-public:
   /// @brief Field _songPreviewPlayer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPlayerBase> ____songPreviewPlayer;
 

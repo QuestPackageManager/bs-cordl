@@ -49,172 +49,176 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutInfoNetSerializable);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14906)), TypeDefinitionIndex(TypeDefinitionIndex(14912)), TypeDefinitionIndex(TypeDefinitionIndex(14914)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15136)), TypeDefinitionIndex(TypeDefinitionIndex(15141)), TypeDefinitionIndex(TypeDefinitionIndex(15144))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14899)) CS Name: ::NoteCutInfoNetSerializable*
+// CS Name: ::NoteCutInfoNetSerializable*
 class CORDL_TYPE NoteCutInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
-  /// @brief Field saberSpeed, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_saberSpeed, put = __cordl_internal_set_saberSpeed)) float_t saberSpeed;
-
-  /// @brief Field cutWasOk, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_cutWasOk, put = __cordl_internal_set_cutWasOk)) bool cutWasOk;
-
-  /// @brief Field saberDir, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_saberDir, put = __cordl_internal_set_saberDir))::GlobalNamespace::Vector3Serializable saberDir;
-
-  /// @brief Field cutPoint, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get_cutPoint, put = __cordl_internal_set_cutPoint))::GlobalNamespace::Vector3Serializable cutPoint;
+  /// @brief Field colorType, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::ColorType colorType;
 
   /// @brief Field cutNormal, offset 0x34, size 0xc
   __declspec(property(get = __cordl_internal_get_cutNormal, put = __cordl_internal_set_cutNormal))::GlobalNamespace::Vector3Serializable cutNormal;
 
-  /// @brief Field notePosition, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get_notePosition, put = __cordl_internal_set_notePosition))::GlobalNamespace::Vector3Serializable notePosition;
+  /// @brief Field cutPoint, offset 0x28, size 0xc
+  __declspec(property(get = __cordl_internal_get_cutPoint, put = __cordl_internal_set_cutPoint))::GlobalNamespace::Vector3Serializable cutPoint;
 
-  /// @brief Field noteScale, offset 0x4c, size 0xc
-  __declspec(property(get = __cordl_internal_get_noteScale, put = __cordl_internal_set_noteScale))::GlobalNamespace::Vector3Serializable noteScale;
-
-  /// @brief Field noteRotation, offset 0x58, size 0xc
-  __declspec(property(get = __cordl_internal_get_noteRotation, put = __cordl_internal_set_noteRotation))::GlobalNamespace::QuaternionSerializable noteRotation;
+  /// @brief Field cutWasOk, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_cutWasOk, put = __cordl_internal_set_cutWasOk)) bool cutWasOk;
 
   /// @brief Field gameplayType, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_gameplayType, put = __cordl_internal_set_gameplayType))::GlobalNamespace::__NoteData__GameplayType gameplayType;
 
-  /// @brief Field colorType, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::ColorType colorType;
-
-  /// @brief Field noteTime, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_noteTime, put = __cordl_internal_set_noteTime)) float_t noteTime;
-
-  /// @brief Field noteLineIndex, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_noteLineIndex, put = __cordl_internal_set_noteLineIndex)) int32_t noteLineIndex;
-
   /// @brief Field lineLayer, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_lineLayer, put = __cordl_internal_set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
-
-  /// @brief Field timeToNextColorNote, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_timeToNextColorNote, put = __cordl_internal_set_timeToNextColorNote)) float_t timeToNextColorNote;
 
   /// @brief Field moveVec, offset 0x7c, size 0xc
   __declspec(property(get = __cordl_internal_get_moveVec, put = __cordl_internal_set_moveVec))::GlobalNamespace::Vector3Serializable moveVec;
 
-  constexpr float_t& __cordl_internal_get_saberSpeed();
+  /// @brief Field noteLineIndex, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteLineIndex, put = __cordl_internal_set_noteLineIndex)) int32_t noteLineIndex;
 
-  constexpr float_t const& __cordl_internal_get_saberSpeed() const;
+  /// @brief Field notePosition, offset 0x40, size 0xc
+  __declspec(property(get = __cordl_internal_get_notePosition, put = __cordl_internal_set_notePosition))::GlobalNamespace::Vector3Serializable notePosition;
 
-  constexpr void __cordl_internal_set_saberSpeed(float_t value);
+  /// @brief Field noteRotation, offset 0x58, size 0xc
+  __declspec(property(get = __cordl_internal_get_noteRotation, put = __cordl_internal_set_noteRotation))::GlobalNamespace::QuaternionSerializable noteRotation;
 
-  constexpr bool& __cordl_internal_get_cutWasOk();
+  /// @brief Field noteScale, offset 0x4c, size 0xc
+  __declspec(property(get = __cordl_internal_get_noteScale, put = __cordl_internal_set_noteScale))::GlobalNamespace::Vector3Serializable noteScale;
 
-  constexpr bool const& __cordl_internal_get_cutWasOk() const;
+  /// @brief Field noteTime, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteTime, put = __cordl_internal_set_noteTime)) float_t noteTime;
 
-  constexpr void __cordl_internal_set_cutWasOk(bool value);
+  /// @brief Field saberDir, offset 0x1c, size 0xc
+  __declspec(property(get = __cordl_internal_get_saberDir, put = __cordl_internal_set_saberDir))::GlobalNamespace::Vector3Serializable saberDir;
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_saberDir();
+  /// @brief Field saberSpeed, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_saberSpeed, put = __cordl_internal_set_saberSpeed)) float_t saberSpeed;
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_saberDir() const;
+  /// @brief Field timeToNextColorNote, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_timeToNextColorNote, put = __cordl_internal_set_timeToNextColorNote)) float_t timeToNextColorNote;
 
-  constexpr void __cordl_internal_set_saberDir(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_cutPoint();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_cutPoint() const;
-
-  constexpr void __cordl_internal_set_cutPoint(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_cutNormal();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_cutNormal() const;
-
-  constexpr void __cordl_internal_set_cutNormal(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_notePosition();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_notePosition() const;
-
-  constexpr void __cordl_internal_set_notePosition(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_noteScale();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_noteScale() const;
-
-  constexpr void __cordl_internal_set_noteScale(::GlobalNamespace::Vector3Serializable value);
-
-  constexpr ::GlobalNamespace::QuaternionSerializable& __cordl_internal_get_noteRotation();
-
-  constexpr ::GlobalNamespace::QuaternionSerializable const& __cordl_internal_get_noteRotation() const;
-
-  constexpr void __cordl_internal_set_noteRotation(::GlobalNamespace::QuaternionSerializable value);
-
-  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get_gameplayType();
-
-  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get_gameplayType() const;
-
-  constexpr void __cordl_internal_set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
-
-  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get_colorType();
-
-  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
-
-  constexpr void __cordl_internal_set_colorType(::GlobalNamespace::ColorType value);
-
-  constexpr float_t& __cordl_internal_get_noteTime();
-
-  constexpr float_t const& __cordl_internal_get_noteTime() const;
-
-  constexpr void __cordl_internal_set_noteTime(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_noteLineIndex();
-
-  constexpr int32_t const& __cordl_internal_get_noteLineIndex() const;
-
-  constexpr void __cordl_internal_set_noteLineIndex(int32_t value);
-
-  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_lineLayer();
-
-  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_lineLayer() const;
-
-  constexpr void __cordl_internal_set_lineLayer(::GlobalNamespace::NoteLineLayer value);
-
-  constexpr float_t& __cordl_internal_get_timeToNextColorNote();
-
-  constexpr float_t const& __cordl_internal_get_timeToNextColorNote() const;
-
-  constexpr void __cordl_internal_set_timeToNextColorNote(float_t value);
-
-  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_moveVec();
-
-  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_moveVec() const;
-
-  constexpr void __cordl_internal_set_moveVec(::GlobalNamespace::Vector3Serializable value);
-
-  /// @brief Method Obtain, addr 0x133a160, size 0x64, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
-
-  /// @brief Method Deserialize, addr 0x133a1c4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x137b1b0, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x133a3a4, size 0x104, virtual true, abstract: false, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
-
-  /// @brief Method .ctor, addr 0x133a550, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Init, addr 0x133a5b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x137b59c, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData, ::UnityEngine::Vector3 notePosition,
                                                              ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec);
 
-  /// @brief Method Init, addr 0x133a694, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x137b680, size 0x224, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutInfoNetSerializable* Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                                                              ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::ColorType colorType,
                                                              ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote,
                                                              ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, ::UnityEngine::Vector3 noteScale,
                                                              ::UnityEngine::Vector3 moveVec);
 
+  static inline ::GlobalNamespace::NoteCutInfoNetSerializable* New_ctor();
+
+  /// @brief Method Obtain, addr 0x137b14c, size 0x64, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NoteCutInfoNetSerializable* Obtain();
+
+  /// @brief Method Serialize, addr 0x137b390, size 0x104, virtual true, abstract: false, final false
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
+
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get_colorType();
+
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_cutNormal() const;
+
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_cutNormal();
+
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_cutPoint() const;
+
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_cutPoint();
+
+  constexpr bool const& __cordl_internal_get_cutWasOk() const;
+
+  constexpr bool& __cordl_internal_get_cutWasOk();
+
+  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get_gameplayType() const;
+
+  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get_gameplayType();
+
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_lineLayer() const;
+
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_lineLayer();
+
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_moveVec() const;
+
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_moveVec();
+
+  constexpr int32_t const& __cordl_internal_get_noteLineIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_noteLineIndex();
+
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_notePosition() const;
+
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_notePosition();
+
+  constexpr ::GlobalNamespace::QuaternionSerializable const& __cordl_internal_get_noteRotation() const;
+
+  constexpr ::GlobalNamespace::QuaternionSerializable& __cordl_internal_get_noteRotation();
+
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_noteScale() const;
+
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_noteScale();
+
+  constexpr float_t const& __cordl_internal_get_noteTime() const;
+
+  constexpr float_t& __cordl_internal_get_noteTime();
+
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_saberDir() const;
+
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_saberDir();
+
+  constexpr float_t const& __cordl_internal_get_saberSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_saberSpeed();
+
+  constexpr float_t const& __cordl_internal_get_timeToNextColorNote() const;
+
+  constexpr float_t& __cordl_internal_get_timeToNextColorNote();
+
+  constexpr void __cordl_internal_set_colorType(::GlobalNamespace::ColorType value);
+
+  constexpr void __cordl_internal_set_cutNormal(::GlobalNamespace::Vector3Serializable value);
+
+  constexpr void __cordl_internal_set_cutPoint(::GlobalNamespace::Vector3Serializable value);
+
+  constexpr void __cordl_internal_set_cutWasOk(bool value);
+
+  constexpr void __cordl_internal_set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
+
+  constexpr void __cordl_internal_set_lineLayer(::GlobalNamespace::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set_moveVec(::GlobalNamespace::Vector3Serializable value);
+
+  constexpr void __cordl_internal_set_noteLineIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_notePosition(::GlobalNamespace::Vector3Serializable value);
+
+  constexpr void __cordl_internal_set_noteRotation(::GlobalNamespace::QuaternionSerializable value);
+
+  constexpr void __cordl_internal_set_noteScale(::GlobalNamespace::Vector3Serializable value);
+
+  constexpr void __cordl_internal_set_noteTime(float_t value);
+
+  constexpr void __cordl_internal_set_saberDir(::GlobalNamespace::Vector3Serializable value);
+
+  constexpr void __cordl_internal_set_saberSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_timeToNextColorNote(float_t value);
+
+  /// @brief Method .ctor, addr 0x137b53c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteCutInfoNetSerializable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutInfoNetSerializable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutInfoNetSerializable(NoteCutInfoNetSerializable&&) = delete;
@@ -223,12 +227,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutInfoNetSerializable(NoteCutInfoNetSerializable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutInfoNetSerializable();
-
-public:
   /// @brief Field saberSpeed, offset: 0x14, size: 0x4, def value: None
   float_t ___saberSpeed;
 

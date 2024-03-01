@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5704))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidAxis
 struct CORDL_TYPE AndroidAxis {
 public:
@@ -74,87 +72,20 @@ public:
     return static_cast<__AndroidAxis_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AndroidAxis(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidAxis();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AndroidAxis(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field X value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const X;
-
-  /// @brief Field Y value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Y;
-
-  /// @brief Field Pressure value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Pressure;
-
-  /// @brief Field Size value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Size;
-
-  /// @brief Field TouchMajor value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMajor;
-
-  /// @brief Field TouchMinor value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMinor;
-
-  /// @brief Field ToolMajor value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMajor;
-
-  /// @brief Field ToolMinor value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMinor;
-
-  /// @brief Field Orientation value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Orientation;
-
-  /// @brief Field Vscroll value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Vscroll;
-
-  /// @brief Field Hscroll value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Hscroll;
-
-  /// @brief Field Z value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Z;
-
-  /// @brief Field Rx value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rx;
-
-  /// @brief Field Ry value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ry;
-
-  /// @brief Field Rz value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rz;
-
-  /// @brief Field HatX value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatX;
-
-  /// @brief Field HatY value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatY;
-
-  /// @brief Field Ltrigger value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ltrigger;
-
-  /// @brief Field Rtrigger value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rtrigger;
-
-  /// @brief Field Throttle value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Throttle;
-
-  /// @brief Field Rudder value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rudder;
-
-  /// @brief Field Wheel value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Wheel;
-
-  /// @brief Field Gas value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Gas;
 
   /// @brief Field Brake value: static_cast<int32_t>(0x17)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Brake;
@@ -162,11 +93,32 @@ public:
   /// @brief Field Distance value: static_cast<int32_t>(0x18)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Distance;
 
-  /// @brief Field Tilt value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Tilt;
+  /// @brief Field Gas value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Gas;
 
   /// @brief Field Generic1 value: static_cast<int32_t>(0x20)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic1;
+
+  /// @brief Field Generic10 value: static_cast<int32_t>(0x29)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic10;
+
+  /// @brief Field Generic11 value: static_cast<int32_t>(0x2a)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic11;
+
+  /// @brief Field Generic12 value: static_cast<int32_t>(0x2b)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic12;
+
+  /// @brief Field Generic13 value: static_cast<int32_t>(0x2c)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic13;
+
+  /// @brief Field Generic14 value: static_cast<int32_t>(0x2d)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic14;
+
+  /// @brief Field Generic15 value: static_cast<int32_t>(0x2e)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic15;
+
+  /// @brief Field Generic16 value: static_cast<int32_t>(0x2f)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic16;
 
   /// @brief Field Generic2 value: static_cast<int32_t>(0x21)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic2;
@@ -192,26 +144,77 @@ public:
   /// @brief Field Generic9 value: static_cast<int32_t>(0x28)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic9;
 
-  /// @brief Field Generic10 value: static_cast<int32_t>(0x29)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic10;
+  /// @brief Field HatX value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatX;
 
-  /// @brief Field Generic11 value: static_cast<int32_t>(0x2a)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic11;
+  /// @brief Field HatY value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const HatY;
 
-  /// @brief Field Generic12 value: static_cast<int32_t>(0x2b)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic12;
+  /// @brief Field Hscroll value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Hscroll;
 
-  /// @brief Field Generic13 value: static_cast<int32_t>(0x2c)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic13;
+  /// @brief Field Ltrigger value: static_cast<int32_t>(0x11)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ltrigger;
 
-  /// @brief Field Generic14 value: static_cast<int32_t>(0x2d)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic14;
+  /// @brief Field Orientation value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Orientation;
 
-  /// @brief Field Generic15 value: static_cast<int32_t>(0x2e)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic15;
+  /// @brief Field Pressure value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Pressure;
 
-  /// @brief Field Generic16 value: static_cast<int32_t>(0x2f)
-  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Generic16;
+  /// @brief Field Rtrigger value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rtrigger;
+
+  /// @brief Field Rudder value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rudder;
+
+  /// @brief Field Rx value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rx;
+
+  /// @brief Field Ry value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Ry;
+
+  /// @brief Field Rz value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Rz;
+
+  /// @brief Field Size value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Size;
+
+  /// @brief Field Throttle value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Throttle;
+
+  /// @brief Field Tilt value: static_cast<int32_t>(0x19)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Tilt;
+
+  /// @brief Field ToolMajor value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMajor;
+
+  /// @brief Field ToolMinor value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const ToolMinor;
+
+  /// @brief Field TouchMajor value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMajor;
+
+  /// @brief Field TouchMinor value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const TouchMinor;
+
+  /// @brief Field Vscroll value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Vscroll;
+
+  /// @brief Field Wheel value: static_cast<int32_t>(0x15)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Wheel;
+
+  /// @brief Field X value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const X;
+
+  /// @brief Field Y value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Y;
+
+  /// @brief Field Z value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis const Z;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

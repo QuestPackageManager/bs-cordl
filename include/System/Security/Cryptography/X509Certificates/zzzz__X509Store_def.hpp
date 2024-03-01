@@ -38,93 +38,97 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Store);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6988)), TypeDefinitionIndex(TypeDefinitionIndex(6989))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7026))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
-
-  /// @brief Field _location, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__location, put = __cordl_internal_set__location))::System::Security::Cryptography::X509Certificates::StoreLocation _location;
-
-  /// @brief Field list, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* list;
-
-  /// @brief Field _flags, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags))::System::Security::Cryptography::X509Certificates::OpenFlags _flags;
-
-  /// @brief Field store, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store))::Mono::Security::X509::X509Store* store;
-
   __declspec(property(get = get_Certificates))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Certificates;
 
   __declspec(property(get = get_Factory))::Mono::Security::X509::X509Stores* Factory;
 
   __declspec(property(get = get_Store))::Mono::Security::X509::X509Store* Store;
 
+  /// @brief Field _flags, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags))::System::Security::Cryptography::X509Certificates::OpenFlags _flags;
+
+  /// @brief Field _location, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__location, put = __cordl_internal_set__location))::System::Security::Cryptography::X509Certificates::StoreLocation _location;
+
+  /// @brief Field _name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+
+  /// @brief Field list, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* list;
+
+  /// @brief Field store, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store))::Mono::Security::X509::X509Store* store;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Close, addr 0x2a70eb8, size 0x1c, virtual false, abstract: false, final false
+  inline void Close();
 
-  constexpr ::StringW& __cordl_internal_get__name();
+  /// @brief Method Dispose, addr 0x2a70ed4, size 0x1c, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+  static inline ::System::Security::Cryptography::X509Certificates::X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
+                                                                                        ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  constexpr void __cordl_internal_set__name(::StringW value);
+  /// @brief Method Open, addr 0x2a70ef0, size 0x3fc, virtual false, abstract: false, final false
+  inline void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation& __cordl_internal_get__location();
+  constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags const& __cordl_internal_get__flags() const;
+
+  constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags& __cordl_internal_get__flags();
 
   constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation const& __cordl_internal_get__location() const;
 
-  constexpr void __cordl_internal_set__location(::System::Security::Cryptography::X509Certificates::StoreLocation value);
+  constexpr ::System::Security::Cryptography::X509Certificates::StoreLocation& __cordl_internal_get__location();
+
+  constexpr ::StringW const& __cordl_internal_get__name() const;
+
+  constexpr ::StringW& __cordl_internal_get__name();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __cordl_internal_get_list();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __cordl_internal_get_list() const;
 
-  constexpr void __cordl_internal_set_list(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
-
-  constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags& __cordl_internal_get__flags();
-
-  constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags const& __cordl_internal_get__flags() const;
-
-  constexpr void __cordl_internal_set__flags(::System::Security::Cryptography::X509Certificates::OpenFlags value);
-
   constexpr ::Mono::Security::X509::X509Store*& __cordl_internal_get_store();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& __cordl_internal_get_store() const;
 
+  constexpr void __cordl_internal_set__flags(::System::Security::Cryptography::X509Certificates::OpenFlags value);
+
+  constexpr void __cordl_internal_set__location(::System::Security::Cryptography::X509Certificates::StoreLocation value);
+
+  constexpr void __cordl_internal_set__name(::StringW value);
+
+  constexpr void __cordl_internal_set_list(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+
   constexpr void __cordl_internal_set_store(::Mono::Security::X509::X509Store* value);
 
-  static inline ::System::Security::Cryptography::X509Certificates::X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
-                                                                                        ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
-
-  /// @brief Method .ctor, addr 0x2989c00, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a70cd4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName, ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method get_Certificates, addr 0x2989d38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x2a70e0c, size 0x88, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
 
-  /// @brief Method get_Factory, addr 0x2989dc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Factory, addr 0x2a70e94, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Stores* get_Factory();
 
-  /// @brief Method get_Store, addr 0x2989ddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x2a70eb0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_Store();
 
-  /// @brief Method Close, addr 0x2989de4, size 0x1c, virtual false, abstract: false, final false
-  inline void Close();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Dispose, addr 0x2989e00, size 0x1c, virtual true, abstract: false, final true
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Store();
 
-  /// @brief Method Open, addr 0x2989e1c, size 0x3fc, virtual false, abstract: false, final false
-  inline void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Store", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Store(X509Store&&) = delete;
@@ -133,12 +137,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Store(X509Store const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Store();
-
-public:
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
 

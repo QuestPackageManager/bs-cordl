@@ -19,19 +19,17 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceIncomingPacket);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15345))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15358))
 // CS Name: ::IgnoranceCore::IgnoranceIncomingPacket
 struct CORDL_TYPE IgnoranceIncomingPacket {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None }]
-  constexpr IgnoranceIncomingPacket(uint8_t Channel, uint32_t NativePeerId, ::ENet::Packet Payload) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr IgnoranceIncomingPacket();
+
+  // Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None }]
+  constexpr IgnoranceIncomingPacket(uint8_t Channel, uint32_t NativePeerId, ::ENet::Packet Payload) noexcept;
 
   /// @brief Field Channel, offset: 0x0, size: 0x1, def value: None
   uint8_t Channel;

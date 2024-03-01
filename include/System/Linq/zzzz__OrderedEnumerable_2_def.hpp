@@ -31,58 +31,62 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14304)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 1637 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14305))
 // CS Name: ::System.Linq::OrderedEnumerable`2<TElement,TKey>*
 class CORDL_TYPE OrderedEnumerable_2 : public ::System::Linq::OrderedEnumerable_1<TElement> {
 public:
   // Declarations
-  /// @brief Field parent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Linq::OrderedEnumerable_1<TElement>* parent;
-
-  /// @brief Field keySelector, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
-
   /// @brief Field comparer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field descending, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_descending, put = __cordl_internal_set_descending)) bool descending;
 
-  constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& __cordl_internal_get_parent();
+  /// @brief Field keySelector, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& __cordl_internal_get_parent() const;
+  /// @brief Field parent, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Linq::OrderedEnumerable_1<TElement>* parent;
 
-  constexpr void __cordl_internal_set_parent(::System::Linq::OrderedEnumerable_1<TElement>* value);
+  /// @brief Method GetEnumerableSorter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next);
 
-  constexpr ::System::Func_2<TElement, TKey>*& __cordl_internal_get_keySelector();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __cordl_internal_get_keySelector() const;
-
-  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value);
+  static inline ::System::Linq::OrderedEnumerable_2<TElement, TKey>* New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector,
+                                                                              ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending);
 
   constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
+  constexpr bool const& __cordl_internal_get_descending() const;
 
   constexpr bool& __cordl_internal_get_descending();
 
-  constexpr bool const& __cordl_internal_get_descending() const;
+  constexpr ::System::Func_2<TElement, TKey>*& __cordl_internal_get_keySelector();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __cordl_internal_get_keySelector() const;
+
+  constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& __cordl_internal_get_parent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& __cordl_internal_get_parent() const;
+
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
 
   constexpr void __cordl_internal_set_descending(bool value);
 
-  static inline ::System::Linq::OrderedEnumerable_2<TElement, TKey>* New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector,
-                                                                              ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending);
+  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value);
+
+  constexpr void __cordl_internal_set_parent(::System::Linq::OrderedEnumerable_1<TElement>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                     bool descending);
 
-  /// @brief Method GetEnumerableSorter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OrderedEnumerable_2();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OrderedEnumerable_2(OrderedEnumerable_2&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OrderedEnumerable_2(OrderedEnumerable_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OrderedEnumerable_2();
-
-public:
   /// @brief Field parent, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::OrderedEnumerable_1<TElement>* ___parent;
 

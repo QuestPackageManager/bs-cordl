@@ -57,22 +57,24 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainVEData);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6633)), TypeDefinitionIndex(TypeDefinitionIndex(6653)), TypeDefinitionIndex(TypeDefinitionIndex(6704)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8995))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6655)) CS Name:
-// ::UnityEngine.UIElements.UIR::RenderChainVEData
+// CS Name: ::UnityEngine.UIElements.UIR::RenderChainVEData
 struct CORDL_TYPE RenderChainVEData {
 public:
   // Declarations
   __declspec(property(get = get_lastClosingOrLastCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method get_lastClosingOrLastCommand, addr 0x2eab200, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
-
-  /// @brief Method AllocatesID, addr 0x2eab218, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AllocatesID, addr 0x2f9f940, size 0x34, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID, addr 0x2eab24c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InheritsID, addr 0x2f9f974, size 0x30, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+
+  /// @brief Method get_lastClosingOrLastCommand, addr 0x2f9f928, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderChainVEData();
 
   // Ctor Parameters [CppParam { name: "prev", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "next", ty:
   // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "groupTransformAncestor", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "",
@@ -117,10 +119,6 @@ public:
                               ::UnityEngine::Color backgroundColor, ::UnityEngine::UIElements::VisualElement* prevText, ::UnityEngine::UIElements::VisualElement* nextText,
                               ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChainTextEntry>* textEntries,
                               ::UnityEngine::UIElements::UIR::BasicNode_1<::UnityEngine::UIElements::UIR::TextureEntry>* textures) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderChainVEData();
 
   /// @brief Field prev, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* prev;

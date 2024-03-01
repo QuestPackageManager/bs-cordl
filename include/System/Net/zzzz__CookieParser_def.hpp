@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Net::CookieParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7134))
 // CS Name: ::System.Net::CookieParser*
 class CORDL_TYPE CookieParser : public ::System::Object {
 public:
@@ -30,23 +28,29 @@ public:
   /// @brief Field m_tokenizer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_tokenizer, put = __cordl_internal_set_m_tokenizer))::System::Net::CookieTokenizer* m_tokenizer;
 
+  /// @brief Method CheckQuoted, addr 0x2a9789c, size 0xc4, virtual false, abstract: false, final false
+  static inline ::StringW CheckQuoted(::StringW value);
+
+  /// @brief Method Get, addr 0x2a99234, size 0x55c, virtual false, abstract: false, final false
+  inline ::System::Net::Cookie* Get();
+
+  static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
+
   constexpr ::System::Net::CookieTokenizer*& __cordl_internal_get_m_tokenizer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieTokenizer*> const& __cordl_internal_get_m_tokenizer() const;
 
   constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer* value);
 
-  static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
-
-  /// @brief Method .ctor, addr 0x29b20e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a991bc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW cookieString);
 
-  /// @brief Method Get, addr 0x29b2160, size 0x55c, virtual false, abstract: false, final false
-  inline ::System::Net::Cookie* Get();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CookieParser();
 
-  /// @brief Method CheckQuoted, addr 0x29b07c8, size 0xc4, virtual false, abstract: false, final false
-  static inline ::StringW CheckQuoted(::StringW value);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CookieParser(CookieParser&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CookieParser(CookieParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CookieParser();
-
-public:
   /// @brief Field m_tokenizer, offset: 0x10, size: 0x8, def value: None
   ::System::Net::CookieTokenizer* ___m_tokenizer;
 

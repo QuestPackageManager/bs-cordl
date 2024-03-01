@@ -55,8 +55,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStyle);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6621))
 // CS Name: ::UnityEngine.UIElements::IStyle*
 class CORDL_TYPE IStyle {
 public:
@@ -151,6 +149,36 @@ public:
 
   __declspec(property(get = get_width, put = set_width))::UnityEngine::UIElements::StyleLength width;
 
+  /// @brief Method get_cursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleCursor get_cursor();
+
+  /// @brief Method get_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> get_display();
+
+  /// @brief Method get_height, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleLength get_height();
+
+  /// @brief Method get_paddingTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleLength get_paddingTop();
+
+  /// @brief Method get_rotate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleRotate get_rotate();
+
+  /// @brief Method get_scale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleScale get_scale();
+
+  /// @brief Method get_textShadow, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleTextShadow get_textShadow();
+
+  /// @brief Method get_transformOrigin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleTransformOrigin get_transformOrigin();
+
+  /// @brief Method get_translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleTranslate get_translate();
+
+  /// @brief Method get_width, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleLength get_width();
+
   /// @brief Method set_backgroundColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_backgroundColor(::UnityEngine::UIElements::StyleColor value);
 
@@ -196,12 +224,6 @@ public:
   /// @brief Method set_color, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_color(::UnityEngine::UIElements::StyleColor value);
 
-  /// @brief Method get_cursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleCursor get_cursor();
-
-  /// @brief Method get_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> get_display();
-
   /// @brief Method set_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_display(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> value);
 
@@ -219,9 +241,6 @@ public:
 
   /// @brief Method set_fontSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_fontSize(::UnityEngine::UIElements::StyleLength value);
-
-  /// @brief Method get_height, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleLength get_height();
 
   /// @brief Method set_height, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_height(::UnityEngine::UIElements::StyleLength value);
@@ -256,9 +275,6 @@ public:
   /// @brief Method set_paddingRight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_paddingRight(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method get_paddingTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleLength get_paddingTop();
-
   /// @brief Method set_paddingTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_paddingTop(::UnityEngine::UIElements::StyleLength value);
 
@@ -268,23 +284,8 @@ public:
   /// @brief Method set_right, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_right(::UnityEngine::UIElements::StyleLength value);
 
-  /// @brief Method get_rotate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleRotate get_rotate();
-
-  /// @brief Method get_scale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleScale get_scale();
-
-  /// @brief Method get_textShadow, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleTextShadow get_textShadow();
-
   /// @brief Method set_top, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_top(::UnityEngine::UIElements::StyleLength value);
-
-  /// @brief Method get_transformOrigin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleTransformOrigin get_transformOrigin();
-
-  /// @brief Method get_translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleTranslate get_translate();
 
   /// @brief Method set_translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_translate(::UnityEngine::UIElements::StyleTranslate value);
@@ -294,9 +295,6 @@ public:
 
   /// @brief Method set_visibility, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_visibility(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> value);
-
-  /// @brief Method get_width, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleLength get_width();
 
   /// @brief Method set_width, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_width(::UnityEngine::UIElements::StyleLength value);

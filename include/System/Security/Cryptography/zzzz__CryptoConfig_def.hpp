@@ -26,44 +26,48 @@ MARK_REF_PTR_T(::System::Security::Cryptography::CryptoConfig);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2977))
 // CS Name: ::System.Security.Cryptography::CryptoConfig*
 class CORDL_TYPE CryptoConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field lockObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_lockObject, put = setStaticF_lockObject))::System::Object* lockObject;
-
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* algorithms;
 
-  static inline void setStaticF_lockObject(::System::Object* value);
+  /// @brief Field lockObject, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_lockObject, put = setStaticF_lockObject))::System::Object* lockObject;
 
-  static inline ::System::Object* getStaticF_lockObject();
+  /// @brief Method CreateFromName, addr 0x255ea70, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateFromName(::StringW name);
 
-  static inline void setStaticF_algorithms(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* value);
+  /// @brief Method CreateFromName, addr 0x2560244, size 0x1f14, virtual false, abstract: false, final false
+  static inline ::System::Object* CreateFromName(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+
+  /// @brief Method EncodeLongNumber, addr 0x2562e64, size 0x190, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeLongNumber(int64_t x);
+
+  /// @brief Method EncodeOID, addr 0x2562a58, size 0x40c, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeOID(::StringW str);
+
+  /// @brief Method MapNameToOID, addr 0x25622a4, size 0x7b4, virtual false, abstract: false, final false
+  static inline ::StringW MapNameToOID(::StringW name);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* getStaticF_algorithms();
 
-  /// @brief Method CreateFromName, addr 0x248cd78, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Object* CreateFromName(::StringW name);
+  static inline ::System::Object* getStaticF_lockObject();
 
-  /// @brief Method CreateFromName, addr 0x248e54c, size 0x1f14, virtual false, abstract: false, final false
-  static inline ::System::Object* CreateFromName(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
-
-  /// @brief Method MapNameToOID, addr 0x24905ac, size 0x7b4, virtual false, abstract: false, final false
-  static inline ::StringW MapNameToOID(::StringW name);
-
-  /// @brief Method EncodeOID, addr 0x2490d60, size 0x40c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeOID(::StringW str);
-
-  /// @brief Method EncodeLongNumber, addr 0x249116c, size 0x190, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeLongNumber(int64_t x);
-
-  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x248a338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x255c030, size 0x8, virtual false, abstract: false, final false
   static inline bool get_AllowOnlyFipsAlgorithms();
 
+  static inline void setStaticF_algorithms(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* value);
+
+  static inline void setStaticF_lockObject(::System::Object* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CryptoConfig();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CryptoConfig", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoConfig(CryptoConfig&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CryptoConfig(CryptoConfig const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CryptoConfig();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

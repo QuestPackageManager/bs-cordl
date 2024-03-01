@@ -31,61 +31,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::CscaMasterList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(174))
 // CS Name: ::Org.BouncyCastle.Asn1.Icao::CscaMasterList*
 class CORDL_TYPE CscaMasterList : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Field certList, offset 0x18, size 0x8
   __declspec(
       property(get = __cordl_internal_get_certList,
                put = __cordl_internal_set_certList))::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certList;
 
-  __declspec(property(get = get_Version)) int32_t Version;
+  /// @brief Field version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+
+  /// @brief Method CopyCertList, addr 0xfe54c8, size 0x78, virtual false, abstract: false, final false
+  static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*>
+  CopyCertList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> orig);
+
+  /// @brief Method GetCertStructs, addr 0xfe555c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertStructs();
+
+  /// @brief Method GetInstance, addr 0xfe5114, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList*
+  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certStructs);
+
+  static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xfe5564, size 0x11c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> const& __cordl_internal_get_certList() const;
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*>& __cordl_internal_get_certList();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*>& __cordl_internal_get_certList();
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> const& __cordl_internal_get_certList() const;
-
   constexpr void __cordl_internal_set_certList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> value);
 
-  /// @brief Method GetInstance, addr 0xf9f144, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* GetInstance(::System::Object* obj);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xf9f1e8, size 0x288, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList*
-  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certStructs);
-
-  /// @brief Method .ctor, addr 0xf9f470, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe5440, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certStructs);
 
-  /// @brief Method get_Version, addr 0xf9f570, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe51b8, size 0x288, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_Version, addr 0xfe5540, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method GetCertStructs, addr 0xf9f58c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertStructs();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CscaMasterList();
 
-  /// @brief Method CopyCertList, addr 0xf9f4f8, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*>
-  CopyCertList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> orig);
-
-  /// @brief Method ToAsn1Object, addr 0xf9f594, size 0x11c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CscaMasterList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CscaMasterList(CscaMasterList&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CscaMasterList(CscaMasterList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CscaMasterList();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
 

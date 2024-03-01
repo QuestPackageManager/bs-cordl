@@ -97,8 +97,6 @@ MARK_VAL_T(::BeatSaber::AvatarCore::__AvatarSystemCollection___GetMultiplayerAva
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15260))
 // CS Name: ::AvatarSystemCollection::<>c*
 class CORDL_TYPE __AvatarSystemCollection____c : public ::System::Object {
 public:
@@ -109,22 +107,28 @@ public:
   /// @brief Field <>9__14_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0))::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* __9__14_0;
 
-  static inline void setStaticF___9(::BeatSaber::AvatarCore::__AvatarSystemCollection____c* value);
+  static inline ::BeatSaber::AvatarCore::__AvatarSystemCollection____c* New_ctor();
+
+  /// @brief Method .ctor, addr 0xe5ed34, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method <get_anyAvatarCreated>b__14_0, addr 0xe5ed3c, size 0xa0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* _get_anyAvatarCreated_b__14_0(::BeatSaber::AvatarCore::IAvatarSystem* avatarSystem);
 
   static inline ::BeatSaber::AvatarCore::__AvatarSystemCollection____c* getStaticF___9();
 
-  static inline void setStaticF___9__14_0(::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* value);
-
   static inline ::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* getStaticF___9__14_0();
 
-  static inline ::BeatSaber::AvatarCore::__AvatarSystemCollection____c* New_ctor();
+  static inline void setStaticF___9(::BeatSaber::AvatarCore::__AvatarSystemCollection____c* value);
 
-  /// @brief Method .ctor, addr 0xe191d0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__14_0(::System::Func_2<::BeatSaber::AvatarCore::IAvatarSystem*, ::System::Threading::Tasks::Task_1<bool>*>* value);
 
-  /// @brief Method <get_anyAvatarCreated>b__14_0, addr 0xe191d8, size 0xa0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* _get_anyAvatarCreated_b__14_0(::BeatSaber::AvatarCore::IAvatarSystem* avatarSystem);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AvatarSystemCollection____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AvatarSystemCollection____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AvatarSystemCollection____c(__AvatarSystemCollection____c&&) = delete;
@@ -133,12 +137,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AvatarSystemCollection____c(__AvatarSystemCollection____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AvatarSystemCollection____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -149,23 +147,25 @@ static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::__AvatarS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(14893)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14894)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5041 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 894 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15261)) CS Name: ::AvatarSystemCollection::<GetMultiplayerAvatarsData>d__16
+// CS Name: ::AvatarSystemCollection::<GetMultiplayerAvatarsData>d__16
 struct CORDL_TYPE __AvatarSystemCollection___GetMultiplayerAvatarsData_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe5eddc, size 0x89c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe5f678, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe19278, size 0x89c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe19b14, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AvatarSystemCollection___GetMultiplayerAvatarsData_d__16();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -176,10 +176,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerAvatarsData> __t__builder,
       ::BeatSaber::AvatarCore::AvatarSystemCollection* __4__this, ::StringW selectedAvatarTypeIdentifier,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::MultiplayerAvatarData, ::Array<::GlobalNamespace::MultiplayerAvatarData>*>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AvatarSystemCollection___GetMultiplayerAvatarsData_d__16();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -219,24 +215,25 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__AvatarSystemCollection___GetMu
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15273)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3841), inst: 1647 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15262)) CS Name:
-// ::AvatarSystemCollection::<CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync>d__18
+// CS Name: ::AvatarSystemCollection::<CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync>d__18
 struct CORDL_TYPE __AvatarSystemCollection___CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe5f6d0, size 0x410, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe5fae0, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe19b6c, size 0x410, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe19f7c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AvatarSystemCollection___CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers:
@@ -245,10 +242,6 @@ public:
   constexpr __AvatarSystemCollection___CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::BeatSaber::AvatarCore::AvatarSystemCollection* __4__this,
       ::System::Collections::Generic::__List_1__Enumerator<::BeatSaber::AvatarCore::IAvatarSystem*> __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AvatarSystemCollection___CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync_d__18();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -288,8 +281,6 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__AvatarSystemCollection___Creat
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15263))
 // CS Name: ::BeatSaber.AvatarCore::AvatarSystemCollection*
 class CORDL_TYPE AvatarSystemCollection : public ::System::Object {
 public:
@@ -301,6 +292,10 @@ public:
 
   using __c = ::BeatSaber::AvatarCore::__AvatarSystemCollection____c;
 
+  /// @brief Field _availableAvatarSystemList, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__availableAvatarSystemList,
+                      put = __cordl_internal_set__availableAvatarSystemList))::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystem*>* _availableAvatarSystemList;
+
   /// @brief Field _availableAvatarSystems, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__availableAvatarSystems,
                       put = __cordl_internal_set__availableAvatarSystems))::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>* _availableAvatarSystems;
@@ -310,102 +305,104 @@ public:
       property(get = __cordl_internal_get__availableUserSelectableAvatarSystems,
                put = __cordl_internal_set__availableUserSelectableAvatarSystems))::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* _availableUserSelectableAvatarSystems;
 
+  /// @brief Field _fallbackAvatarSystem, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__fallbackAvatarSystem, put = __cordl_internal_set__fallbackAvatarSystem))::BeatSaber::AvatarCore::IAvatarSystem* _fallbackAvatarSystem;
+
   /// @brief Field _supportedOptionalAvatarDataTypes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__supportedOptionalAvatarDataTypes,
                       put = __cordl_internal_set__supportedOptionalAvatarDataTypes))::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* _supportedOptionalAvatarDataTypes;
 
-  /// @brief Field _fallbackAvatarSystem, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__fallbackAvatarSystem, put = __cordl_internal_set__fallbackAvatarSystem))::BeatSaber::AvatarCore::IAvatarSystem* _fallbackAvatarSystem;
-
-  /// @brief Field _availableAvatarSystemList, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__availableAvatarSystemList,
-                      put = __cordl_internal_set__availableAvatarSystemList))::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystem*>* _availableAvatarSystemList;
-
-  __declspec(property(get = get_selectableAvatarSystems))::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* selectableAvatarSystems;
+  __declspec(property(get = get_anyAvatarCreated))::System::Threading::Tasks::Task_1<bool>* anyAvatarCreated;
 
   __declspec(property(get = get_availableAvatarSystems))::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* availableAvatarSystems;
 
+  __declspec(property(get = get_selectableAvatarSystems))::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* selectableAvatarSystems;
+
   __declspec(property(get = get_supportedOptionalAvatarDataType))::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataType;
 
-  __declspec(property(get = get_anyAvatarCreated))::System::Threading::Tasks::Task_1<bool>* anyAvatarCreated;
+  /// @brief Method AvatarSystemBySelectionSortOrder, addr 0xe5e74c, size 0x128, virtual false, abstract: false, final false
+  static inline int32_t AvatarSystemBySelectionSortOrder(::BeatSaber::AvatarCore::IAvatarSystem* system1, ::BeatSaber::AvatarCore::IAvatarSystem* system2);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>*& __cordl_internal_get__availableAvatarSystems();
+  /// @brief Method CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync, addr 0xe5eb84, size 0x94, virtual false, abstract: false, final false
+  inline void CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>*> const&
-  __cordl_internal_get__availableAvatarSystems() const;
+  /// @brief Method GetAvatarSystem, addr 0xe5ecc0, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::BeatSaber::AvatarCore::AvatarSystemIdentifier avatarSystemIdentifier);
 
-  constexpr void __cordl_internal_set__availableAvatarSystems(::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>* value);
+  /// @brief Method GetAvatarSystem, addr 0xe5ec18, size 0xa8, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>*& __cordl_internal_get__availableUserSelectableAvatarSystems();
+  /// @brief Method GetAvatarSystem, addr 0xe5eb54, size 0x30, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::StringW avatarTypeIdentifier);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>*> const&
-  __cordl_internal_get__availableUserSelectableAvatarSystems() const;
+  /// @brief Method GetAvatarSystem, addr 0xe5c4c8, size 0x128, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(uint32_t avatarTypeIdentifierHash);
 
-  constexpr void __cordl_internal_set__availableUserSelectableAvatarSystems(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* value);
+  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xe5ea98, size 0xbc, virtual false, abstract: false, final false
+  inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider(::StringW selectedAvatarTypeIdentifier);
 
-  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*& __cordl_internal_get__supportedOptionalAvatarDataTypes();
+  /// @brief Method GetMultiplayerAvatarsData, addr 0xe5e994, size 0x104, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarsData>* GetMultiplayerAvatarsData(::StringW selectedAvatarTypeIdentifier);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*> const& __cordl_internal_get__supportedOptionalAvatarDataTypes() const;
+  /// @brief Method HasAvatarSystem, addr 0xe5c470, size 0x58, virtual false, abstract: false, final false
+  inline bool HasAvatarSystem(uint32_t avatarTypeIdentifierHash);
 
-  constexpr void __cordl_internal_set__supportedOptionalAvatarDataTypes(::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* value);
-
-  constexpr ::BeatSaber::AvatarCore::IAvatarSystem*& __cordl_internal_get__fallbackAvatarSystem();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarSystem*> const& __cordl_internal_get__fallbackAvatarSystem() const;
-
-  constexpr void __cordl_internal_set__fallbackAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystem* value);
+  static inline ::BeatSaber::AvatarCore::AvatarSystemCollection* New_ctor(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* boundAvatarSystems);
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystem*>*& __cordl_internal_get__availableAvatarSystemList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystem*>*> const&
   __cordl_internal_get__availableAvatarSystemList() const;
 
+  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>*& __cordl_internal_get__availableAvatarSystems();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>*> const&
+  __cordl_internal_get__availableAvatarSystems() const;
+
+  constexpr ::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>*& __cordl_internal_get__availableUserSelectableAvatarSystems();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>*> const&
+  __cordl_internal_get__availableUserSelectableAvatarSystems() const;
+
+  constexpr ::BeatSaber::AvatarCore::IAvatarSystem*& __cordl_internal_get__fallbackAvatarSystem();
+
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarSystem*> const& __cordl_internal_get__fallbackAvatarSystem() const;
+
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*& __cordl_internal_get__supportedOptionalAvatarDataTypes();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*> const& __cordl_internal_get__supportedOptionalAvatarDataTypes() const;
+
   constexpr void __cordl_internal_set__availableAvatarSystemList(::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystem*>* value);
 
-  /// @brief Method get_selectableAvatarSystems, addr 0xe180e8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* get_selectableAvatarSystems();
+  constexpr void __cordl_internal_set__availableAvatarSystems(::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>* value);
 
-  /// @brief Method get_availableAvatarSystems, addr 0xe180f0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* get_availableAvatarSystems();
+  constexpr void __cordl_internal_set__availableUserSelectableAvatarSystems(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* value);
 
-  /// @brief Method get_supportedOptionalAvatarDataType, addr 0xe180f8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataType();
+  constexpr void __cordl_internal_set__fallbackAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystem* value);
 
-  static inline ::BeatSaber::AvatarCore::AvatarSystemCollection* New_ctor(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* boundAvatarSystems);
+  constexpr void __cordl_internal_set__supportedOptionalAvatarDataTypes(::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0xe18100, size 0xae8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5dc64, size 0xae8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatSaber::AvatarCore::IAvatarSystem*>* boundAvatarSystems);
 
-  /// @brief Method AvatarSystemBySelectionSortOrder, addr 0xe18be8, size 0x128, virtual false, abstract: false, final false
-  static inline int32_t AvatarSystemBySelectionSortOrder(::BeatSaber::AvatarCore::IAvatarSystem* system1, ::BeatSaber::AvatarCore::IAvatarSystem* system2);
-
-  /// @brief Method get_anyAvatarCreated, addr 0xe18d10, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_anyAvatarCreated, addr 0xe5e874, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_anyAvatarCreated();
 
-  /// @brief Method HasAvatarSystem, addr 0xe1690c, size 0x58, virtual false, abstract: false, final false
-  inline bool HasAvatarSystem(uint32_t avatarTypeIdentifierHash);
+  /// @brief Method get_availableAvatarSystems, addr 0xe5dc54, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* get_availableAvatarSystems();
 
-  /// @brief Method GetMultiplayerAvatarsData, addr 0xe18e30, size 0x104, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarsData>* GetMultiplayerAvatarsData(::StringW selectedAvatarTypeIdentifier);
+  /// @brief Method get_selectableAvatarSystems, addr 0xe5dc4c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* get_selectableAvatarSystems();
 
-  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xe18f34, size 0xbc, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider(::StringW selectedAvatarTypeIdentifier);
+  /// @brief Method get_supportedOptionalAvatarDataType, addr 0xe5dc5c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataType();
 
-  /// @brief Method CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync, addr 0xe19020, size 0x94, virtual false, abstract: false, final false
-  inline void CreateDefaultAvatarsForAvatarSystemsWithoutUserCreatedAvatarAsync();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSystemCollection();
 
-  /// @brief Method GetAvatarSystem, addr 0xe190b4, size 0xa8, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata);
-
-  /// @brief Method GetAvatarSystem, addr 0xe1915c, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::BeatSaber::AvatarCore::AvatarSystemIdentifier avatarSystemIdentifier);
-
-  /// @brief Method GetAvatarSystem, addr 0xe18ff0, size 0x30, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(::StringW avatarTypeIdentifier);
-
-  /// @brief Method GetAvatarSystem, addr 0xe16964, size 0x128, virtual false, abstract: false, final false
-  inline ::BeatSaber::AvatarCore::IAvatarSystem* GetAvatarSystem(uint32_t avatarTypeIdentifierHash);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSystemCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSystemCollection(AvatarSystemCollection&&) = delete;
@@ -414,12 +411,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSystemCollection(AvatarSystemCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarSystemCollection();
-
-public:
   /// @brief Field _availableAvatarSystems, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::IAvatarSystem*>* ____availableAvatarSystems;
 

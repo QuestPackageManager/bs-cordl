@@ -25,20 +25,19 @@ MARK_VAL_T(::GlobalNamespace::LevelSelectionOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(15101)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 1646 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4974)) CS Name: ::LevelSelectionOptions
+// CS Name: ::LevelSelectionOptions
 struct CORDL_TYPE LevelSelectionOptions {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LevelSelectionOptions();
+
   // Ctor Parameters [CppParam { name: "preferredCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }, CppParam { name: "preferredDifficulty",
   // ty: "::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>", modifiers: "", def_value: None }, CppParam { name: "sortAlphabetically", ty: "bool", modifiers: "", def_value: None }, CppParam {
   // name: "isFiltered", ty: "bool", modifiers: "", def_value: None }]
   constexpr LevelSelectionOptions(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> preferredCharacteristic, ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> preferredDifficulty,
                                   bool sortAlphabetically, bool isFiltered) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelSelectionOptions();
 
   /// @brief Field preferredCharacteristic, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> preferredCharacteristic;

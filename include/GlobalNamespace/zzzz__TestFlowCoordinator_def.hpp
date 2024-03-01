@@ -17,14 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::TestFlowCoordinator);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13535))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4835))
 // CS Name: ::TestFlowCoordinator*
 class CORDL_TYPE TestFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Field _viewController, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController))::UnityW<::HMUI::ViewController> _viewController;
+  /// @brief Field _bottomScreenViewController, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__bottomScreenViewController, put = __cordl_internal_set__bottomScreenViewController))::UnityW<::HMUI::ViewController> _bottomScreenViewController;
 
   /// @brief Field _leftViewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__leftViewController, put = __cordl_internal_set__leftViewController))::UnityW<::HMUI::ViewController> _leftViewController;
@@ -32,50 +30,56 @@ public:
   /// @brief Field _rightViewController, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__rightViewController, put = __cordl_internal_set__rightViewController))::UnityW<::HMUI::ViewController> _rightViewController;
 
-  /// @brief Field _bottomScreenViewController, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__bottomScreenViewController, put = __cordl_internal_set__bottomScreenViewController))::UnityW<::HMUI::ViewController> _bottomScreenViewController;
-
   /// @brief Field _topScreenViewController, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__topScreenViewController, put = __cordl_internal_set__topScreenViewController))::UnityW<::HMUI::ViewController> _topScreenViewController;
 
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__viewController();
+  /// @brief Field _viewController, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController))::UnityW<::HMUI::ViewController> _viewController;
 
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__viewController() const;
-
-  constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
-
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__leftViewController();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__leftViewController() const;
-
-  constexpr void __cordl_internal_set__leftViewController(::UnityW<::HMUI::ViewController> value);
-
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__rightViewController();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__rightViewController() const;
-
-  constexpr void __cordl_internal_set__rightViewController(::UnityW<::HMUI::ViewController> value);
-
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__bottomScreenViewController();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__bottomScreenViewController() const;
-
-  constexpr void __cordl_internal_set__bottomScreenViewController(::UnityW<::HMUI::ViewController> value);
-
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__topScreenViewController();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__topScreenViewController() const;
-
-  constexpr void __cordl_internal_set__topScreenViewController(::UnityW<::HMUI::ViewController> value);
-
-  /// @brief Method DidActivate, addr 0x23f8a18, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x24c7d70, size 0x1c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::TestFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f8a34, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__bottomScreenViewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__bottomScreenViewController();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__leftViewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__leftViewController();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__rightViewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__rightViewController();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__topScreenViewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__topScreenViewController();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__viewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__viewController();
+
+  constexpr void __cordl_internal_set__bottomScreenViewController(::UnityW<::HMUI::ViewController> value);
+
+  constexpr void __cordl_internal_set__leftViewController(::UnityW<::HMUI::ViewController> value);
+
+  constexpr void __cordl_internal_set__rightViewController(::UnityW<::HMUI::ViewController> value);
+
+  constexpr void __cordl_internal_set__topScreenViewController(::UnityW<::HMUI::ViewController> value);
+
+  constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
+
+  /// @brief Method .ctor, addr 0x24c7d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TestFlowCoordinator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TestFlowCoordinator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TestFlowCoordinator(TestFlowCoordinator&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TestFlowCoordinator(TestFlowCoordinator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TestFlowCoordinator();
-
-public:
   /// @brief Field _viewController, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;
 

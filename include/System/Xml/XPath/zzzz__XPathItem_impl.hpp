@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XPath::XPathItem::*)(::System::Type*)>(&::System::Xml::XPath::XPathItem::ValueAs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x28ad4cc;
+  constexpr static std::size_t addrs = 0x2994948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathItem::*)()>(&::System::Xml::XPath::XPathItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ad4e0;
+  constexpr static std::size_t addrs = 0x299495c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XPath::XPathItem*>::get(), ".ctor",

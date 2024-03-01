@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicCollection);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10706))
 // CS Name: ::BeatmapCharacteristicCollection*
 class CORDL_TYPE BeatmapCharacteristicCollection : public ::System::Object {
 public:
@@ -49,36 +47,42 @@ public:
       get = __cordl_internal_get_disabledBeatmapCharacteristics,
       put = __cordl_internal_set_disabledBeatmapCharacteristics))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* disabledBeatmapCharacteristics;
 
+  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x12b7b9c, size 0x90, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
+
+  static inline ::GlobalNamespace::BeatmapCharacteristicCollection* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection,
+                                                                             ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__beatmapCharacteristicsBySerializedName();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
   __cordl_internal_get__beatmapCharacteristicsBySerializedName() const;
-
-  constexpr void __cordl_internal_set__beatmapCharacteristicsBySerializedName(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_beatmapCharacteristics();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
   __cordl_internal_get_beatmapCharacteristics() const;
 
-  constexpr void __cordl_internal_set_beatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
-
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_disabledBeatmapCharacteristics();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
   __cordl_internal_get_disabledBeatmapCharacteristics() const;
 
+  constexpr void __cordl_internal_set__beatmapCharacteristicsBySerializedName(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+
+  constexpr void __cordl_internal_set_beatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+
   constexpr void __cordl_internal_set_disabledBeatmapCharacteristics(::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  static inline ::GlobalNamespace::BeatmapCharacteristicCollection* New_ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection,
-                                                                             ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
-
-  /// @brief Method .ctor, addr 0x12746a4, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b7674, size 0x528, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCharacteristicCollectionSO* collection, ::GlobalNamespace::AppStaticSettingsSO* appStaticSettings);
 
-  /// @brief Method GetBeatmapCharacteristicBySerializedName, addr 0x1274bcc, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetBeatmapCharacteristicBySerializedName(::StringW serializedName);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapCharacteristicCollection();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicCollection(BeatmapCharacteristicCollection&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCharacteristicCollection(BeatmapCharacteristicCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicCollection();
-
-public:
   /// @brief Field _beatmapCharacteristicsBySerializedName, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ____beatmapCharacteristicsBySerializedName;
 

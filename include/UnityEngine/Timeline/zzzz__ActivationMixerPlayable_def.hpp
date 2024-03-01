@@ -37,61 +37,65 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationMixerPlayable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193)), TypeDefinitionIndex(TypeDefinitionIndex(13780))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13778))
 // CS Name: ::UnityEngine.Timeline::ActivationMixerPlayable*
 class CORDL_TYPE ActivationMixerPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  /// @brief Field m_PostPlaybackState, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PostPlaybackState, put = __cordl_internal_set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
+  /// @brief Field m_BoundGameObject, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BoundGameObject, put = __cordl_internal_set_m_BoundGameObject))::UnityW<::UnityEngine::GameObject> m_BoundGameObject;
 
   /// @brief Field m_BoundGameObjectInitialStateIsActive, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_m_BoundGameObjectInitialStateIsActive, put = __cordl_internal_set_m_BoundGameObjectInitialStateIsActive)) bool m_BoundGameObjectInitialStateIsActive;
 
-  /// @brief Field m_BoundGameObject, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BoundGameObject, put = __cordl_internal_set_m_BoundGameObject))::UnityW<::UnityEngine::GameObject> m_BoundGameObject;
+  /// @brief Field m_PostPlaybackState, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_PostPlaybackState, put = __cordl_internal_set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& __cordl_internal_get_m_PostPlaybackState();
-
-  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& __cordl_internal_get_m_PostPlaybackState() const;
-
-  constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
-
-  constexpr bool& __cordl_internal_get_m_BoundGameObjectInitialStateIsActive();
-
-  constexpr bool const& __cordl_internal_get_m_BoundGameObjectInitialStateIsActive() const;
-
-  constexpr void __cordl_internal_set_m_BoundGameObjectInitialStateIsActive(bool value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_BoundGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_BoundGameObject() const;
-
-  constexpr void __cordl_internal_set_m_BoundGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  /// @brief Method Create, addr 0x2c4c4e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2d365b8, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
-
-  /// @brief Method get_postPlaybackState, addr 0x2c4c568, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
-
-  /// @brief Method set_postPlaybackState, addr 0x2c4c570, size 0x8, virtual false, abstract: false, final false
-  inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
-
-  /// @brief Method OnPlayableDestroy, addr 0x2c4c578, size 0xc0, virtual true, abstract: false, final false
-  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
-
-  /// @brief Method ProcessFrame, addr 0x2c4c638, size 0x1c4, virtual true, abstract: false, final false
-  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   static inline ::UnityEngine::Timeline::ActivationMixerPlayable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c4c7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x2d3664c, size 0xc0, virtual true, abstract: false, final false
+  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
+
+  /// @brief Method ProcessFrame, addr 0x2d3670c, size 0x1c4, virtual true, abstract: false, final false
+  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_BoundGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_BoundGameObject();
+
+  constexpr bool const& __cordl_internal_get_m_BoundGameObjectInitialStateIsActive() const;
+
+  constexpr bool& __cordl_internal_get_m_BoundGameObjectInitialStateIsActive();
+
+  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& __cordl_internal_get_m_PostPlaybackState() const;
+
+  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& __cordl_internal_get_m_PostPlaybackState();
+
+  constexpr void __cordl_internal_set_m_BoundGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_m_BoundGameObjectInitialStateIsActive(bool value);
+
+  constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
+
+  /// @brief Method .ctor, addr 0x2d368d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_postPlaybackState, addr 0x2d3663c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
+
+  /// @brief Method set_postPlaybackState, addr 0x2d36644, size 0x8, virtual false, abstract: false, final false
+  inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ActivationMixerPlayable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ActivationMixerPlayable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ActivationMixerPlayable(ActivationMixerPlayable&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ActivationMixerPlayable(ActivationMixerPlayable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ActivationMixerPlayable();
-
-public:
   /// @brief Field m_PostPlaybackState, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState ___m_PostPlaybackState;
 

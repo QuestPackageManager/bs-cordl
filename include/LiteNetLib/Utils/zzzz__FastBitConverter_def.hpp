@@ -32,36 +32,34 @@ MARK_VAL_T(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14202))
 // CS Name: ::FastBitConverter::ConverterHelperDouble
 struct CORDL_TYPE __FastBitConverter__ConverterHelperDouble {
 public:
   // Declarations
-  /// @brief Field Along, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_Along, put = __cordl_internal_set_Along)) uint64_t Along;
-
   /// @brief Field Adouble, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_Adouble, put = __cordl_internal_set_Adouble)) double_t Adouble;
 
-  constexpr uint64_t& __cordl_internal_get_Along();
-
-  constexpr uint64_t const& __cordl_internal_get_Along() const;
-
-  constexpr void __cordl_internal_set_Along(uint64_t value);
-
-  constexpr double_t& __cordl_internal_get_Adouble();
+  /// @brief Field Along, offset 0x0, size 0x8
+  __declspec(property(get = __cordl_internal_get_Along, put = __cordl_internal_set_Along)) uint64_t Along;
 
   constexpr double_t const& __cordl_internal_get_Adouble() const;
 
+  constexpr double_t& __cordl_internal_get_Adouble();
+
+  constexpr uint64_t const& __cordl_internal_get_Along() const;
+
+  constexpr uint64_t& __cordl_internal_get_Along();
+
   constexpr void __cordl_internal_set_Adouble(double_t value);
 
-  // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None }]
-  constexpr __FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
+  constexpr void __cordl_internal_set_Along(uint64_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __FastBitConverter__ConverterHelperDouble();
+
+  // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None }]
+  constexpr __FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -110,36 +108,34 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConv
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14203))
 // CS Name: ::FastBitConverter::ConverterHelperFloat
 struct CORDL_TYPE __FastBitConverter__ConverterHelperFloat {
 public:
   // Declarations
-  /// @brief Field Aint, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_Aint, put = __cordl_internal_set_Aint)) int32_t Aint;
-
   /// @brief Field Afloat, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_Afloat, put = __cordl_internal_set_Afloat)) float_t Afloat;
 
-  constexpr int32_t& __cordl_internal_get_Aint();
-
-  constexpr int32_t const& __cordl_internal_get_Aint() const;
-
-  constexpr void __cordl_internal_set_Aint(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_Afloat();
+  /// @brief Field Aint, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_Aint, put = __cordl_internal_set_Aint)) int32_t Aint;
 
   constexpr float_t const& __cordl_internal_get_Afloat() const;
 
+  constexpr float_t& __cordl_internal_get_Afloat();
+
+  constexpr int32_t const& __cordl_internal_get_Aint() const;
+
+  constexpr int32_t& __cordl_internal_get_Aint();
+
   constexpr void __cordl_internal_set_Afloat(float_t value);
 
-  // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
+  constexpr void __cordl_internal_set_Aint(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __FastBitConverter__ConverterHelperFloat();
+
+  // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -188,49 +184,53 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConv
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14204))
 // CS Name: ::LiteNetLib.Utils::FastBitConverter*
 class CORDL_TYPE FastBitConverter : public ::System::Object {
 public:
   // Declarations
-  using ConverterHelperFloat = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat;
-
   using ConverterHelperDouble = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble;
 
-  /// @brief Method WriteLittleEndian, addr 0x229e024, size 0xf0, virtual false, abstract: false, final false
-  static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, uint64_t data);
+  using ConverterHelperFloat = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat;
 
-  /// @brief Method WriteLittleEndian, addr 0x229e114, size 0x80, virtual false, abstract: false, final false
-  static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t data);
-
-  /// @brief Method WriteLittleEndian, addr 0x229e194, size 0x48, virtual false, abstract: false, final false
-  static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int16_t data);
-
-  /// @brief Method GetBytes, addr 0x229e1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x236a844, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, double_t value);
 
-  /// @brief Method GetBytes, addr 0x229e1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x236a84c, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, float_t value);
 
-  /// @brief Method GetBytes, addr 0x229e1ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x236a854, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int16_t value);
 
-  /// @brief Method GetBytes, addr 0x22984e8, size 0x4, virtual false, abstract: false, final false
-  static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint16_t value);
-
-  /// @brief Method GetBytes, addr 0x2298acc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x2365134, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int32_t value);
 
-  /// @brief Method GetBytes, addr 0x229e1f0, size 0x4, virtual false, abstract: false, final false
-  static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint32_t value);
-
-  /// @brief Method GetBytes, addr 0x2294a7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x23610e4, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int64_t value);
 
-  /// @brief Method GetBytes, addr 0x229e1f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x2364b50, size 0x4, virtual false, abstract: false, final false
+  static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint16_t value);
+
+  /// @brief Method GetBytes, addr 0x236a858, size 0x4, virtual false, abstract: false, final false
+  static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint32_t value);
+
+  /// @brief Method GetBytes, addr 0x236a85c, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint64_t value);
 
+  /// @brief Method WriteLittleEndian, addr 0x236a7fc, size 0x48, virtual false, abstract: false, final false
+  static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int16_t data);
+
+  /// @brief Method WriteLittleEndian, addr 0x236a77c, size 0x80, virtual false, abstract: false, final false
+  static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t data);
+
+  /// @brief Method WriteLittleEndian, addr 0x236a68c, size 0xf0, virtual false, abstract: false, final false
+  static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, uint64_t data);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FastBitConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FastBitConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastBitConverter(FastBitConverter&&) = delete;
@@ -239,12 +239,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastBitConverter(FastBitConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FastBitConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

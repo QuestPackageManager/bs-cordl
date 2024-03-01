@@ -15,35 +15,39 @@ MARK_REF_PTR_T(::Oculus::Platform::StandalonePlatformSettings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13322))
 // CS Name: ::Oculus.Platform::StandalonePlatformSettings*
 class CORDL_TYPE StandalonePlatformSettings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_OculusPlatformTestUserEmail, addr 0x27344ec, size 0x48, virtual false, abstract: false, final false
-  static inline ::StringW get_OculusPlatformTestUserEmail();
-
-  /// @brief Method set_OculusPlatformTestUserEmail, addr 0x2734534, size 0x4, virtual false, abstract: false, final false
-  static inline void set_OculusPlatformTestUserEmail(::StringW value);
-
-  /// @brief Method get_OculusPlatformTestUserPassword, addr 0x2734538, size 0x48, virtual false, abstract: false, final false
-  static inline ::StringW get_OculusPlatformTestUserPassword();
-
-  /// @brief Method set_OculusPlatformTestUserPassword, addr 0x2734580, size 0x4, virtual false, abstract: false, final false
-  static inline void set_OculusPlatformTestUserPassword(::StringW value);
-
-  /// @brief Method get_OculusPlatformTestUserAccessToken, addr 0x2734584, size 0x48, virtual false, abstract: false, final false
-  static inline ::StringW get_OculusPlatformTestUserAccessToken();
-
-  /// @brief Method set_OculusPlatformTestUserAccessToken, addr 0x27345cc, size 0x4, virtual false, abstract: false, final false
-  static inline void set_OculusPlatformTestUserAccessToken(::StringW value);
-
   static inline ::Oculus::Platform::StandalonePlatformSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27345d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f2aec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_OculusPlatformTestUserAccessToken, addr 0x27f2aa0, size 0x48, virtual false, abstract: false, final false
+  static inline ::StringW get_OculusPlatformTestUserAccessToken();
+
+  /// @brief Method get_OculusPlatformTestUserEmail, addr 0x27f2a08, size 0x48, virtual false, abstract: false, final false
+  static inline ::StringW get_OculusPlatformTestUserEmail();
+
+  /// @brief Method get_OculusPlatformTestUserPassword, addr 0x27f2a54, size 0x48, virtual false, abstract: false, final false
+  static inline ::StringW get_OculusPlatformTestUserPassword();
+
+  /// @brief Method set_OculusPlatformTestUserAccessToken, addr 0x27f2ae8, size 0x4, virtual false, abstract: false, final false
+  static inline void set_OculusPlatformTestUserAccessToken(::StringW value);
+
+  /// @brief Method set_OculusPlatformTestUserEmail, addr 0x27f2a50, size 0x4, virtual false, abstract: false, final false
+  static inline void set_OculusPlatformTestUserEmail(::StringW value);
+
+  /// @brief Method set_OculusPlatformTestUserPassword, addr 0x27f2a9c, size 0x4, virtual false, abstract: false, final false
+  static inline void set_OculusPlatformTestUserPassword(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandalonePlatformSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandalonePlatformSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandalonePlatformSettings(StandalonePlatformSettings&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandalonePlatformSettings(StandalonePlatformSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandalonePlatformSettings();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

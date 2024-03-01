@@ -21,50 +21,54 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(903))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::ElGamalParametersGenerator*
 class CORDL_TYPE ElGamalParametersGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field size, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
-
   /// @brief Field certainty, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_certainty, put = __cordl_internal_set_certainty)) int32_t certainty;
 
   /// @brief Field random, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
-  constexpr int32_t& __cordl_internal_get_size();
+  /// @brief Field size, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  constexpr int32_t const& __cordl_internal_get_size() const;
+  /// @brief Method GenerateParameters, addr 0xf6b404, size 0xdc, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* GenerateParameters();
 
-  constexpr void __cordl_internal_set_size(int32_t value);
+  /// @brief Method Init, addr 0xf6b3f8, size 0xc, virtual false, abstract: false, final false
+  inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  constexpr int32_t& __cordl_internal_get_certainty();
+  static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_certainty() const;
 
-  constexpr void __cordl_internal_set_certainty(int32_t value);
+  constexpr int32_t& __cordl_internal_get_certainty();
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
+  constexpr int32_t const& __cordl_internal_get_size() const;
+
+  constexpr int32_t& __cordl_internal_get_size();
+
+  constexpr void __cordl_internal_set_certainty(int32_t value);
+
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xf25428, size 0xc, virtual false, abstract: false, final false
-  inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
+  constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method GenerateParameters, addr 0xf25434, size 0xdc, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* GenerateParameters();
-
-  static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0xf25510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6b4e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ElGamalParametersGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalParametersGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElGamalParametersGenerator(ElGamalParametersGenerator&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalParametersGenerator(ElGamalParametersGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ElGamalParametersGenerator();
-
-public:
   /// @brief Field size, offset: 0x10, size: 0x4, def value: None
   int32_t ___size;
 

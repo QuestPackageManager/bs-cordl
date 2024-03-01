@@ -29,14 +29,15 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(595))
 // CS Name: ::Org.BouncyCastle.Bcpg::SymmetricKeyEncSessionPacket*
 class CORDL_TYPE SymmetricKeyEncSessionPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
+  __declspec(property(get = get_EncAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag EncAlgorithm;
+
+  __declspec(property(get = get_S2k))::Org::BouncyCastle::Bcpg::S2k* S2k;
+
+  __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Field encAlgorithm, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_encAlgorithm, put = __cordl_internal_set_encAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm;
@@ -47,62 +48,65 @@ public:
   /// @brief Field secKeyData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_secKeyData, put = __cordl_internal_set_secKeyData))::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData;
 
-  __declspec(property(get = get_EncAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag EncAlgorithm;
+  /// @brief Field version, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  __declspec(property(get = get_S2k))::Org::BouncyCastle::Bcpg::S2k* S2k;
+  /// @brief Method Encode, addr 0x1245ac8, size 0x15c, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  __declspec(property(get = get_Version)) int32_t Version;
+  /// @brief Method GetSecKeyData, addr 0x1245ab8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecKeyData();
 
-  constexpr int32_t& __cordl_internal_get_version();
+  static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  constexpr int32_t const& __cordl_internal_get_version() const;
-
-  constexpr void __cordl_internal_set_version(int32_t value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_encAlgorithm();
+  static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
+                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
   constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __cordl_internal_get_encAlgorithm() const;
 
-  constexpr void __cordl_internal_set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_encAlgorithm();
 
   constexpr ::Org::BouncyCastle::Bcpg::S2k*& __cordl_internal_get_s2k();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::S2k*> const& __cordl_internal_get_s2k() const;
 
-  constexpr void __cordl_internal_set_s2k(::Org::BouncyCastle::Bcpg::S2k* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_secKeyData() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_secKeyData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_secKeyData() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
+
+  constexpr int32_t& __cordl_internal_get_version();
+
+  constexpr void __cordl_internal_set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
+
+  constexpr void __cordl_internal_set_s2k(::Org::BouncyCastle::Bcpg::S2k* value);
 
   constexpr void __cordl_internal_set_secKeyData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11fc258, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123f228, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
-                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
-
-  /// @brief Method .ctor, addr 0x1202a98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1245a68, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method get_EncAlgorithm, addr 0x1202ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncAlgorithm, addr 0x1245aa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm();
 
-  /// @brief Method get_S2k, addr 0x1202ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_S2k, addr 0x1245ab0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::S2k* get_S2k();
 
-  /// @brief Method GetSecKeyData, addr 0x1202ae8, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecKeyData();
-
-  /// @brief Method get_Version, addr 0x1202af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x1245ac0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method Encode, addr 0x1202af8, size 0x15c, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SymmetricKeyEncSessionPacket();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricKeyEncSessionPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SymmetricKeyEncSessionPacket(SymmetricKeyEncSessionPacket&&) = delete;
@@ -111,12 +115,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SymmetricKeyEncSessionPacket(SymmetricKeyEncSessionPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SymmetricKeyEncSessionPacket();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x4, def value: None
   int32_t ___version;
 

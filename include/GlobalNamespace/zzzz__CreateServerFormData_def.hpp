@@ -40,12 +40,14 @@ MARK_VAL_T(::GlobalNamespace::CreateServerFormData);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12657)), TypeDefinitionIndex(TypeDefinitionIndex(12666)), TypeDefinitionIndex(TypeDefinitionIndex(12857)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14870)), TypeDefinitionIndex(TypeDefinitionIndex(14920)), TypeDefinitionIndex(TypeDefinitionIndex(15103))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10911)) CS Name: ::CreateServerFormData
+// CS Name: ::CreateServerFormData
 struct CORDL_TYPE CreateServerFormData {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CreateServerFormData();
+
   // Ctor Parameters [CppParam { name: "usePassword", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "maxPlayers", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "allowInviteOthers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "netDiscoverable", ty: "bool",
   // modifiers: "", def_value: None }, CppParam { name: "difficulties", ty: "::GlobalNamespace::BeatmapDifficultyMask", modifiers: "", def_value: None }, CppParam { name: "modifiers", ty:
@@ -55,10 +57,6 @@ public:
   constexpr CreateServerFormData(bool usePassword, ::StringW password, int32_t maxPlayers, bool allowInviteOthers, bool netDiscoverable, ::GlobalNamespace::BeatmapDifficultyMask difficulties,
                                  ::GlobalNamespace::GameplayModifierMask modifiers, ::GlobalNamespace::SongPackMask songPacks, ::GlobalNamespace::GameplayServerMode gameplayServerMode,
                                  ::GlobalNamespace::SongSelectionMode songSelectionMode, ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreateServerFormData();
 
   /// @brief Field usePassword, offset: 0x0, size: 0x1, def value: None
   bool usePassword;

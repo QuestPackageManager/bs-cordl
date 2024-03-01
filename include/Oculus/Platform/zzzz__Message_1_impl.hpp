@@ -61,7 +61,7 @@ template <typename T> inline T Oculus::Platform::Message_1<T>::get_Data() {
 }
 template <typename T> inline T Oculus::Platform::Message_1<T>::GetDataFromMessage(void* c_message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_1<T>*>::get(), 89)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_1<T>*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, c_message);
 }
 // Ctor Parameters []

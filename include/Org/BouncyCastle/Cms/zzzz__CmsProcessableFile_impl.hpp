@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableFile::*)(::System::IO::FileInfo*)>(
     &::Org::BouncyCastle::Cms::CmsProcessableFile::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1212020;
+  constexpr static std::size_t addrs = 0x1255ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableFile::*)(::System::IO::FileInfo*, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsProcessableFile::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1212050;
+  constexpr static std::size_t addrs = 0x1256020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsProcessableFile::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableFile::GetInputStream)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x1212080;
+  constexpr static std::size_t addrs = 0x1256050;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableFile::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsProcessableFile::Write)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x1212114;
+  constexpr static std::size_t addrs = 0x12560e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Cms::CmsProcessableFile::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableFile::GetContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1212198;
+  constexpr static std::size_t addrs = 0x1256168;
 
   inline static ::MethodInfo const* methodInfo() {
 

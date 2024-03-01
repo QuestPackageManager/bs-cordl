@@ -48,17 +48,13 @@ MARK_REF_PTR_T(::System::Security::Principal::WindowsIdentity);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3005)), TypeDefinitionIndex(TypeDefinitionIndex(3010))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3006))
 // CS Name: ::System.Security.Principal::WindowsIdentity*
 class CORDL_TYPE WindowsIdentity : public ::System::Security::Claims::ClaimsIdentity {
 public:
   // Declarations
-  /// @brief Field _token, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) void* _token;
+  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
 
-  /// @brief Field _type, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::StringW _type;
+  __declspec(property(get = get_Name))::StringW Name;
 
   /// @brief Field _account, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__account, put = __cordl_internal_set__account))::System::Security::Principal::WindowsAccountType _account;
@@ -66,134 +62,142 @@ public:
   /// @brief Field _authenticated, offset 0x8c, size 0x1
   __declspec(property(get = __cordl_internal_get__authenticated, put = __cordl_internal_set__authenticated)) bool _authenticated;
 
+  /// @brief Field _info, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__info, put = __cordl_internal_set__info))::System::Runtime::Serialization::SerializationInfo* _info;
+
   /// @brief Field _name, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
-  /// @brief Field _info, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__info, put = __cordl_internal_set__info))::System::Runtime::Serialization::SerializationInfo* _info;
+  /// @brief Field _token, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) void* _token;
+
+  /// @brief Field _type, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::StringW _type;
 
   /// @brief Field invalidWindows, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_invalidWindows, put = setStaticF_invalidWindows)) void* invalidWindows;
 
-  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
-
-  __declspec(property(get = get_Name))::StringW Name;
-
-  /// @brief Convert operator to "::System::Security::Principal::IIdentity"
-  constexpr operator ::System::Security::Principal::IIdentity*() noexcept;
-
-  /// @brief Convert to "::System::Security::Principal::IIdentity"
-  constexpr ::System::Security::Principal::IIdentity* i___System__Security__Principal__IIdentity() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
-
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Convert operator to "::System::Security::Principal::IIdentity"
+  constexpr operator ::System::Security::Principal::IIdentity*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+  /// @brief Method CloneAsBase, addr 0x256f238, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Security::Claims::ClaimsIdentity* CloneAsBase();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Dispose, addr 0x256ebbc, size 0x50, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr void*& __cordl_internal_get__token();
+  /// @brief Method GetCurrent, addr 0x256ec0c, size 0x84, virtual false, abstract: false, final false
+  static inline ::System::Security::Principal::WindowsIdentity* GetCurrent();
 
-  constexpr void* const& __cordl_internal_get__token() const;
+  /// @brief Method GetCurrentToken, addr 0x256ec90, size 0x4, virtual false, abstract: false, final false
+  static inline void* GetCurrentToken();
 
-  constexpr void __cordl_internal_set__token(void* value);
+  /// @brief Method GetTokenInternal, addr 0x256f38c, size 0x8, virtual false, abstract: false, final false
+  inline void* GetTokenInternal();
 
-  constexpr ::StringW& __cordl_internal_get__type();
+  /// @brief Method GetTokenName, addr 0x256edf4, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW GetTokenName(void* token);
 
-  constexpr ::StringW const& __cordl_internal_get__type() const;
+  /// @brief Method Impersonate, addr 0x256ec94, size 0x64, virtual true, abstract: false, final false
+  inline ::System::Security::Principal::WindowsImpersonationContext* Impersonate();
 
-  constexpr void __cordl_internal_set__type(::StringW value);
+  static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
 
-  constexpr ::System::Security::Principal::WindowsAccountType& __cordl_internal_get__account();
+  static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::Security::Principal::WindowsIdentity* New_ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
+
+  /// @brief Method SetToken, addr 0x256e97c, size 0x160, virtual false, abstract: false, final false
+  inline void SetToken(void* token);
+
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x256edf8, size 0x2d8, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
+
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x256f0d0, size 0x168, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::System::Security::Principal::WindowsAccountType const& __cordl_internal_get__account() const;
 
-  constexpr void __cordl_internal_set__account(::System::Security::Principal::WindowsAccountType value);
-
-  constexpr bool& __cordl_internal_get__authenticated();
+  constexpr ::System::Security::Principal::WindowsAccountType& __cordl_internal_get__account();
 
   constexpr bool const& __cordl_internal_get__authenticated() const;
 
-  constexpr void __cordl_internal_set__authenticated(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__name();
-
-  constexpr ::StringW const& __cordl_internal_get__name() const;
-
-  constexpr void __cordl_internal_set__name(::StringW value);
+  constexpr bool& __cordl_internal_get__authenticated();
 
   constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__info();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__info() const;
 
+  constexpr ::StringW const& __cordl_internal_get__name() const;
+
+  constexpr ::StringW& __cordl_internal_get__name();
+
+  constexpr void* const& __cordl_internal_get__token() const;
+
+  constexpr void*& __cordl_internal_get__token();
+
+  constexpr ::StringW const& __cordl_internal_get__type() const;
+
+  constexpr ::StringW& __cordl_internal_get__type();
+
+  constexpr void __cordl_internal_set__account(::System::Security::Principal::WindowsAccountType value);
+
+  constexpr void __cordl_internal_set__authenticated(bool value);
+
   constexpr void __cordl_internal_set__info(::System::Runtime::Serialization::SerializationInfo* value);
 
-  static inline void setStaticF_invalidWindows(void* value);
+  constexpr void __cordl_internal_set__name(::StringW value);
+
+  constexpr void __cordl_internal_set__token(void* value);
+
+  constexpr void __cordl_internal_set__type(::StringW value);
+
+  /// @brief Method .ctor, addr 0x256eb18, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
+
+  /// @brief Method .ctor, addr 0x256eadc, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x256e918, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
 
   static inline void* getStaticF_invalidWindows();
 
-  static inline ::System::Security::Principal::WindowsIdentity* New_ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
-
-  /// @brief Method .ctor, addr 0x249cc20, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(void* userToken, ::StringW type, ::System::Security::Principal::WindowsAccountType acctType, bool isAuthenticated);
-
-  static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x249cde4, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  static inline ::System::Security::Principal::WindowsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
-
-  /// @brief Method .ctor, addr 0x249ce20, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Claims::ClaimsIdentity* claimsIdentity, void* userToken);
-
-  /// @brief Method Dispose, addr 0x249cec4, size 0x50, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method GetCurrent, addr 0x249cf14, size 0x84, virtual false, abstract: false, final false
-  static inline ::System::Security::Principal::WindowsIdentity* GetCurrent();
-
-  /// @brief Method Impersonate, addr 0x249cf9c, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Security::Principal::WindowsImpersonationContext* Impersonate();
-
-  /// @brief Method get_AuthenticationType, addr 0x249d08c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x256ed84, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Name, addr 0x249d094, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x256ed8c, size 0x68, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x249d100, size 0x2d8, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x249d3d8, size 0x168, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  /// @brief Method CloneAsBase, addr 0x249d540, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Security::Claims::ClaimsIdentity* CloneAsBase();
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method GetTokenInternal, addr 0x249d694, size 0x8, virtual false, abstract: false, final false
-  inline void* GetTokenInternal();
+  /// @brief Convert to "::System::Security::Principal::IIdentity"
+  constexpr ::System::Security::Principal::IIdentity* i___System__Security__Principal__IIdentity() noexcept;
 
-  /// @brief Method SetToken, addr 0x249cc84, size 0x160, virtual false, abstract: false, final false
-  inline void SetToken(void* token);
+  static inline void setStaticF_invalidWindows(void* value);
 
-  /// @brief Method GetCurrentToken, addr 0x249cf98, size 0x4, virtual false, abstract: false, final false
-  static inline void* GetCurrentToken();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WindowsIdentity();
 
-  /// @brief Method GetTokenName, addr 0x249d0fc, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetTokenName(void* token);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WindowsIdentity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WindowsIdentity(WindowsIdentity&&) = delete;
@@ -202,12 +206,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WindowsIdentity(WindowsIdentity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WindowsIdentity();
-
-public:
   /// @brief Field _token, offset: 0x78, size: 0x8, def value: None
   void* ____token;
 

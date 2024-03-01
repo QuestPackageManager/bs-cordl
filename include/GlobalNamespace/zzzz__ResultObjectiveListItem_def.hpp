@@ -27,12 +27,13 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultObjectiveListItem);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5102))
 // CS Name: ::ResultObjectiveListItem*
 class CORDL_TYPE ResultObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _conditionText, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText))::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
+
   /// @brief Field _icon, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::UI::Image> _icon;
 
@@ -42,87 +43,90 @@ public:
   /// @brief Field _titleText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText))::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-  /// @brief Field _conditionText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText))::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
-
   /// @brief Field _valueText, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
-
-  __declspec(property(put = set_iconColor))::UnityEngine::Color iconColor;
-
-  __declspec(property(put = set_icon))::UnityW<::UnityEngine::Sprite> icon;
-
-  __declspec(property(put = set_iconGlow))::UnityW<::UnityEngine::Sprite> iconGlow;
-
-  __declspec(property(put = set_title))::StringW title;
 
   __declspec(property(put = set_conditionText))::StringW conditionText;
 
   __declspec(property(put = set_hideConditionText)) bool hideConditionText;
 
-  __declspec(property(put = set_valueText))::StringW valueText;
-
   __declspec(property(put = set_hideValueText)) bool hideValueText;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
+  __declspec(property(put = set_icon))::UnityW<::UnityEngine::Sprite> icon;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
+  __declspec(property(put = set_iconColor))::UnityEngine::Color iconColor;
 
-  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
+  __declspec(property(put = set_iconGlow))::UnityW<::UnityEngine::Sprite> iconGlow;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconGlow();
+  __declspec(property(put = set_title))::StringW title;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__iconGlow() const;
-
-  constexpr void __cordl_internal_set__iconGlow(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
-
-  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__conditionText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__conditionText() const;
-
-  constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
-
-  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  /// @brief Method set_iconColor, addr 0x2316ab8, size 0x24, virtual false, abstract: false, final false
-  inline void set_iconColor(::UnityEngine::Color value);
-
-  /// @brief Method set_icon, addr 0x2316adc, size 0x1c, virtual false, abstract: false, final false
-  inline void set_icon(::UnityEngine::Sprite* value);
-
-  /// @brief Method set_iconGlow, addr 0x2316af8, size 0x1c, virtual false, abstract: false, final false
-  inline void set_iconGlow(::UnityEngine::Sprite* value);
-
-  /// @brief Method set_title, addr 0x2316b14, size 0x24, virtual false, abstract: false, final false
-  inline void set_title(::StringW value);
-
-  /// @brief Method set_conditionText, addr 0x2316b38, size 0x24, virtual false, abstract: false, final false
-  inline void set_conditionText(::StringW value);
-
-  /// @brief Method set_hideConditionText, addr 0x2316b5c, size 0x34, virtual false, abstract: false, final false
-  inline void set_hideConditionText(bool value);
-
-  /// @brief Method set_valueText, addr 0x2316b90, size 0x24, virtual false, abstract: false, final false
-  inline void set_valueText(::StringW value);
-
-  /// @brief Method set_hideValueText, addr 0x2316bb4, size 0x34, virtual false, abstract: false, final false
-  inline void set_hideValueText(bool value);
+  __declspec(property(put = set_valueText))::StringW valueText;
 
   static inline ::GlobalNamespace::ResultObjectiveListItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2316be8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__conditionText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__conditionText();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__iconGlow() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconGlow();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
+
+  constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__iconGlow(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  /// @brief Method .ctor, addr 0x23e48bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_conditionText, addr 0x23e480c, size 0x24, virtual false, abstract: false, final false
+  inline void set_conditionText(::StringW value);
+
+  /// @brief Method set_hideConditionText, addr 0x23e4830, size 0x34, virtual false, abstract: false, final false
+  inline void set_hideConditionText(bool value);
+
+  /// @brief Method set_hideValueText, addr 0x23e4888, size 0x34, virtual false, abstract: false, final false
+  inline void set_hideValueText(bool value);
+
+  /// @brief Method set_icon, addr 0x23e47b0, size 0x1c, virtual false, abstract: false, final false
+  inline void set_icon(::UnityEngine::Sprite* value);
+
+  /// @brief Method set_iconColor, addr 0x23e478c, size 0x24, virtual false, abstract: false, final false
+  inline void set_iconColor(::UnityEngine::Color value);
+
+  /// @brief Method set_iconGlow, addr 0x23e47cc, size 0x1c, virtual false, abstract: false, final false
+  inline void set_iconGlow(::UnityEngine::Sprite* value);
+
+  /// @brief Method set_title, addr 0x23e47e8, size 0x24, virtual false, abstract: false, final false
+  inline void set_title(::StringW value);
+
+  /// @brief Method set_valueText, addr 0x23e4864, size 0x24, virtual false, abstract: false, final false
+  inline void set_valueText(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResultObjectiveListItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultObjectiveListItem(ResultObjectiveListItem&&) = delete;
@@ -131,12 +135,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResultObjectiveListItem(ResultObjectiveListItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResultObjectiveListItem();
-
-public:
   /// @brief Field _icon, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;
 

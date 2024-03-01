@@ -16,19 +16,17 @@ MARK_VAL_T(::BeatmapLevelSaveDataVersion4::LufsData);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11229))
 // CS Name: ::BeatmapLevelSaveDataVersion4::LufsData
 struct CORDL_TYPE LufsData {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty:
-  // "float_t", modifiers: "", def_value: None }]
-  constexpr LufsData(int32_t si, int32_t ei, float_t l) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr LufsData();
+
+  // Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty:
+  // "float_t", modifiers: "", def_value: None }]
+  constexpr LufsData(int32_t si, int32_t ei, float_t l) noexcept;
 
   /// @brief Field si, offset: 0x0, size: 0x4, def value: None
   int32_t si;

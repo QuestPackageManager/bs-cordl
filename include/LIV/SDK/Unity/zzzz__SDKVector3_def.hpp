@@ -19,55 +19,53 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKVector3);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14982))
 // CS Name: ::LIV.SDK.Unity::SDKVector3
 struct CORDL_TYPE SDKVector3 {
 public:
   // Declarations
-  /// @brief Method get_zero, addr 0x22a977c, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 get_zero();
-
-  /// @brief Method get_one, addr 0x22a978c, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 get_one();
-
-  /// @brief Method get_forward, addr 0x22a979c, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 get_forward();
-
-  /// @brief Method get_up, addr 0x22a97ac, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 get_up();
-
-  /// @brief Method get_right, addr 0x22a97bc, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 get_right();
-
-  /// @brief Method op_Implicit, addr 0x22a97cc, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::LIV::SDK::Unity::SDKVector3 v);
-
-  /// @brief Method op_Implicit, addr 0x22a8d48, size 0x4, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 op_Implicit___LIV__SDK__Unity__SDKVector3(::UnityEngine::Vector3 v);
-
-  /// @brief Method op_Addition, addr 0x22a97d0, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 op_Addition(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
-
-  /// @brief Method op_Subtraction, addr 0x22a97e0, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 op_Subtraction(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
-
-  /// @brief Method op_Multiply, addr 0x22a97f0, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
-
-  /// @brief Method op_Multiply, addr 0x22a9800, size 0x10, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, float_t rhs);
-
-  /// @brief Method ToString, addr 0x22a9810, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2375e78, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
-  // modifiers: "", def_value: None }]
-  constexpr SDKVector3(float_t x, float_t y, float_t z) noexcept;
+  /// @brief Method get_forward, addr 0x2375e04, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 get_forward();
+
+  /// @brief Method get_one, addr 0x2375df4, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 get_one();
+
+  /// @brief Method get_right, addr 0x2375e24, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 get_right();
+
+  /// @brief Method get_up, addr 0x2375e14, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 get_up();
+
+  /// @brief Method get_zero, addr 0x2375de4, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 get_zero();
+
+  /// @brief Method op_Addition, addr 0x2375e38, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 op_Addition(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
+
+  /// @brief Method op_Implicit, addr 0x23753b0, size 0x4, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 op_Implicit___LIV__SDK__Unity__SDKVector3(::UnityEngine::Vector3 v);
+
+  /// @brief Method op_Implicit, addr 0x2375e34, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::LIV::SDK::Unity::SDKVector3 v);
+
+  /// @brief Method op_Multiply, addr 0x2375e58, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
+
+  /// @brief Method op_Multiply, addr 0x2375e68, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, float_t rhs);
+
+  /// @brief Method op_Subtraction, addr 0x2375e48, size 0x10, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 op_Subtraction(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SDKVector3();
+
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t",
+  // modifiers: "", def_value: None }]
+  constexpr SDKVector3(float_t x, float_t y, float_t z) noexcept;
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   float_t x;

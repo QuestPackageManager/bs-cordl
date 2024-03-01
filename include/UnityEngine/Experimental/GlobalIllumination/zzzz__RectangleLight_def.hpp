@@ -36,12 +36,14 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::RectangleLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 97, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(9155)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9156)), TypeDefinitionIndex(TypeDefinitionIndex(9158))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9162)) CS Name:
-// ::UnityEngine.Experimental.GlobalIllumination::RectangleLight
+// CS Name: ::UnityEngine.Experimental.GlobalIllumination::RectangleLight
 struct CORDL_TYPE RectangleLight {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RectangleLight();
+
   // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode",
   // ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
   // CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor",
@@ -51,10 +53,6 @@ public:
   constexpr RectangleLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                            ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t width,
                            float_t height, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RectangleLight();
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;

@@ -22,15 +22,19 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableGraphExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14765))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableGraphExtensions*
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput, addr 0x2c941c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAnimationOutput, addr 0x2d7e29c, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimationPlayableGraphExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationPlayableGraphExtensions(AnimationPlayableGraphExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationPlayableGraphExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -17,23 +17,21 @@ MARK_VAL_T(::UnityEngine::jvalue);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14790))
 // CS Name: ::UnityEngine::jvalue
 struct CORDL_TYPE jvalue {
 public:
   // Declarations
-  /// @brief Field z, offset 0x0, size 0x1
-  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) bool z;
-
   /// @brief Field b, offset 0x0, size 0x1
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int8_t b;
 
   /// @brief Field c, offset 0x0, size 0x2
   __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) char16_t c;
 
-  /// @brief Field s, offset 0x0, size 0x2
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) int16_t s;
+  /// @brief Field d, offset 0x0, size 0x8
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) double_t d;
+
+  /// @brief Field f, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f)) float_t f;
 
   /// @brief Field i, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
@@ -41,78 +39,78 @@ public:
   /// @brief Field j, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j)) int64_t j;
 
-  /// @brief Field f, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f)) float_t f;
-
-  /// @brief Field d, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) double_t d;
-
   /// @brief Field l, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) void* l;
 
-  constexpr bool& __cordl_internal_get_z();
+  /// @brief Field s, offset 0x0, size 0x2
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) int16_t s;
 
-  constexpr bool const& __cordl_internal_get_z() const;
-
-  constexpr void __cordl_internal_set_z(bool value);
-
-  constexpr int8_t& __cordl_internal_get_b();
+  /// @brief Field z, offset 0x0, size 0x1
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) bool z;
 
   constexpr int8_t const& __cordl_internal_get_b() const;
 
-  constexpr void __cordl_internal_set_b(int8_t value);
-
-  constexpr char16_t& __cordl_internal_get_c();
+  constexpr int8_t& __cordl_internal_get_b();
 
   constexpr char16_t const& __cordl_internal_get_c() const;
 
-  constexpr void __cordl_internal_set_c(char16_t value);
-
-  constexpr int16_t& __cordl_internal_get_s();
-
-  constexpr int16_t const& __cordl_internal_get_s() const;
-
-  constexpr void __cordl_internal_set_s(int16_t value);
-
-  constexpr int32_t& __cordl_internal_get_i();
-
-  constexpr int32_t const& __cordl_internal_get_i() const;
-
-  constexpr void __cordl_internal_set_i(int32_t value);
-
-  constexpr int64_t& __cordl_internal_get_j();
-
-  constexpr int64_t const& __cordl_internal_get_j() const;
-
-  constexpr void __cordl_internal_set_j(int64_t value);
-
-  constexpr float_t& __cordl_internal_get_f();
-
-  constexpr float_t const& __cordl_internal_get_f() const;
-
-  constexpr void __cordl_internal_set_f(float_t value);
-
-  constexpr double_t& __cordl_internal_get_d();
+  constexpr char16_t& __cordl_internal_get_c();
 
   constexpr double_t const& __cordl_internal_get_d() const;
 
-  constexpr void __cordl_internal_set_d(double_t value);
+  constexpr double_t& __cordl_internal_get_d();
 
-  constexpr void*& __cordl_internal_get_l();
+  constexpr float_t const& __cordl_internal_get_f() const;
+
+  constexpr float_t& __cordl_internal_get_f();
+
+  constexpr int32_t const& __cordl_internal_get_i() const;
+
+  constexpr int32_t& __cordl_internal_get_i();
+
+  constexpr int64_t const& __cordl_internal_get_j() const;
+
+  constexpr int64_t& __cordl_internal_get_j();
 
   constexpr void* const& __cordl_internal_get_l() const;
 
+  constexpr void*& __cordl_internal_get_l();
+
+  constexpr int16_t const& __cordl_internal_get_s() const;
+
+  constexpr int16_t& __cordl_internal_get_s();
+
+  constexpr bool const& __cordl_internal_get_z() const;
+
+  constexpr bool& __cordl_internal_get_z();
+
+  constexpr void __cordl_internal_set_b(int8_t value);
+
+  constexpr void __cordl_internal_set_c(char16_t value);
+
+  constexpr void __cordl_internal_set_d(double_t value);
+
+  constexpr void __cordl_internal_set_f(float_t value);
+
+  constexpr void __cordl_internal_set_i(int32_t value);
+
+  constexpr void __cordl_internal_set_j(int64_t value);
+
   constexpr void __cordl_internal_set_l(void* value);
+
+  constexpr void __cordl_internal_set_s(int16_t value);
+
+  constexpr void __cordl_internal_set_z(bool value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr jvalue();
 
   // Ctor Parameters [CppParam { name: "z", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "b", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "char16_t",
   // modifiers: "", def_value: None }, CppParam { name: "s", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "j", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "double_t", modifiers: "", def_value: None
   // }, CppParam { name: "l", ty: "void*", modifiers: "", def_value: None }]
   constexpr jvalue(bool z, int8_t b, char16_t c, int16_t s, int32_t i, int64_t j, float_t f, double_t d, void* l) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr jvalue();
 
 private:
   /// @brief Explicitly laid out type with union based offsets

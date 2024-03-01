@@ -21,44 +21,48 @@ MARK_REF_PTR_T(::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4010))
 // CS Name: ::FadeOutSongPreviewPlayerOnSceneTransitionStart*
 class CORDL_TYPE FadeOutSongPreviewPlayerOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _songPreviewPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::AudioPlayerBase> _songPreviewPlayer;
-
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase>& __cordl_internal_get__songPreviewPlayer();
+  /// @brief Field _songPreviewPlayer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::AudioPlayerBase> _songPreviewPlayer;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
-
-  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
-
-  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
-
-  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
-
-  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
-
-  /// @brief Method Start, addr 0x22b7b24, size 0x8c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x22b7bb0, size 0xd4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x22b7c84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x23842ec, size 0x38, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(float_t duration);
 
   static inline ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b7cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2384218, size 0xd4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x238418c, size 0x8c, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
+
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase>& __cordl_internal_get__songPreviewPlayer();
+
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
+
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
+
+  /// @brief Method .ctor, addr 0x2384324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FadeOutSongPreviewPlayerOnSceneTransitionStart();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FadeOutSongPreviewPlayerOnSceneTransitionStart", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FadeOutSongPreviewPlayerOnSceneTransitionStart(FadeOutSongPreviewPlayerOnSceneTransitionStart&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FadeOutSongPreviewPlayerOnSceneTransitionStart(FadeOutSongPreviewPlayerOnSceneTransitionStart const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FadeOutSongPreviewPlayerOnSceneTransitionStart();
-
-public:
   /// @brief Field _songPreviewPlayer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPlayerBase> ____songPreviewPlayer;
 

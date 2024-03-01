@@ -19,25 +19,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IWrapper);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(826))
 // CS Name: ::Org.BouncyCastle.Crypto::IWrapper*
 class CORDL_TYPE IWrapper {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_AlgorithmName();
-
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
+  /// @brief Method Unwrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   /// @brief Method Wrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Unwrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_AlgorithmName();
 
   // Ctor Parameters [CppParam { name: "", ty: "IWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

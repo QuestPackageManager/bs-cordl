@@ -30,39 +30,37 @@ MARK_VAL_T(::System::TypedReference);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2618))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2572))
 // CS Name: ::System::TypedReference
 struct CORDL_TYPE TypedReference {
 public:
   // Declarations
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  /// @brief Method MakeTypedReference, addr 0x2615b58, size 0x448, virtual false, abstract: false, final false
-  static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> flds);
-
-  /// @brief Method InternalMakeTypedReference, addr 0x2615fa4, size 0x4, virtual false, abstract: false, final false
-  static inline void InternalMakeTypedReference(::cordl_internals::Ptr<void> result, ::System::Object* target, ::ArrayW<void*, ::Array<void*>*> flds, ::System::RuntimeType* lastFieldType);
-
-  /// @brief Method GetHashCode, addr 0x2615fa8, size 0xac, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x2616060, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26e5744, size 0x58, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method get_IsNull, addr 0x26160b8, size 0x6c, virtual false, abstract: false, final false
-  inline bool get_IsNull();
+  /// @brief Method GetHashCode, addr 0x26e568c, size 0xac, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  /// @brief Method SetTypedReference, addr 0x2616124, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InternalMakeTypedReference, addr 0x26e5688, size 0x4, virtual false, abstract: false, final false
+  static inline void InternalMakeTypedReference(::cordl_internals::Ptr<void> result, ::System::Object* target, ::ArrayW<void*, ::Array<void*>*> flds, ::System::RuntimeType* lastFieldType);
+
+  /// @brief Method MakeTypedReference, addr 0x26e523c, size 0x448, virtual false, abstract: false, final false
+  static inline ::System::TypedReference MakeTypedReference(::System::Object* target, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> flds);
+
+  /// @brief Method SetTypedReference, addr 0x26e5808, size 0x50, virtual false, abstract: false, final false
   static inline void SetTypedReference(::System::TypedReference target, ::System::Object* value);
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "void*", modifiers: "", def_value: None }, CppParam {
-  // name: "Type", ty: "void*", modifiers: "", def_value: None }]
-  constexpr TypedReference(::System::RuntimeTypeHandle type, void* Value, void* Type) noexcept;
+  /// @brief Method get_IsNull, addr 0x26e579c, size 0x6c, virtual false, abstract: false, final false
+  inline bool get_IsNull();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TypedReference();
+
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "void*", modifiers: "", def_value: None }, CppParam {
+  // name: "Type", ty: "void*", modifiers: "", def_value: None }]
+  constexpr TypedReference(::System::RuntimeTypeHandle type, void* Value, void* Type) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x8, def value: None
   ::System::RuntimeTypeHandle type;

@@ -17,22 +17,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CustomStyleResolvedEvent);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1679 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6468))
 // CS Name: ::UnityEngine.UIElements::CustomStyleResolvedEvent*
 class CORDL_TYPE CustomStyleResolvedEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::CustomStyleResolvedEvent*> {
 public:
   // Declarations
   __declspec(property(get = get_customStyle))::UnityEngine::UIElements::ICustomStyle* customStyle;
 
-  /// @brief Method get_customStyle, addr 0x2e60898, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
-
   static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6bce0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e408, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_customStyle, addr 0x2f52fc0, size 0x88, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomStyleResolvedEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomStyleResolvedEvent(CustomStyleResolvedEvent&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomStyleResolvedEvent(CustomStyleResolvedEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomStyleResolvedEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

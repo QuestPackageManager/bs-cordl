@@ -27,19 +27,17 @@ MARK_VAL_T(::UnityEngine::UIElements::VectorImageVertex);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6063))
 // CS Name: ::UnityEngine.UIElements::VectorImageVertex
 struct CORDL_TYPE VectorImageVertex {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None
-  // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "settingIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VectorImageVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, uint32_t settingIndex) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VectorImageVertex();
+
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None
+  // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "settingIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr VectorImageVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, uint32_t settingIndex) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;

@@ -17,26 +17,30 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerDownEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6457), inst: 4808 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6458))
 // CS Name: ::UnityEngine.UIElements::PointerDownEvent*
 class CORDL_TYPE PointerDownEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerDownEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e6a250, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5c978, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e6a2a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5c9c8, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6a3a4, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method PostDispatch, addr 0x2e6a3f4, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x2f5cb1c, size 0x264, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
+  /// @brief Method .ctor, addr 0x2f5cacc, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerDownEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerDownEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerDownEvent(PointerDownEvent&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerDownEvent(PointerDownEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerDownEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

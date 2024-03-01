@@ -49,20 +49,15 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(38))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiHeaderBuilder*
 class CORDL_TYPE PkiHeaderBuilder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field pvno, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pvno, put = __cordl_internal_set_pvno))::Org::BouncyCastle::Asn1::DerInteger* pvno;
+  /// @brief Field freeText, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_freeText, put = __cordl_internal_set_freeText))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText;
 
-  /// @brief Field sender, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
-
-  /// @brief Field recipient, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipient, put = __cordl_internal_set_recipient))::Org::BouncyCastle::Asn1::X509::GeneralName* recipient;
+  /// @brief Field generalInfo, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_generalInfo, put = __cordl_internal_set_generalInfo))::Org::BouncyCastle::Asn1::Asn1Sequence* generalInfo;
 
   /// @brief Field messageTime, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_messageTime, put = __cordl_internal_set_messageTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* messageTime;
@@ -70,172 +65,181 @@ public:
   /// @brief Field protectionAlg, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_protectionAlg, put = __cordl_internal_set_protectionAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* protectionAlg;
 
-  /// @brief Field senderKID, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_senderKID, put = __cordl_internal_set_senderKID))::Org::BouncyCastle::Asn1::Asn1OctetString* senderKID;
+  /// @brief Field pvno, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_pvno, put = __cordl_internal_set_pvno))::Org::BouncyCastle::Asn1::DerInteger* pvno;
 
   /// @brief Field recipKID, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_recipKID, put = __cordl_internal_set_recipKID))::Org::BouncyCastle::Asn1::Asn1OctetString* recipKID;
 
-  /// @brief Field transactionID, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_transactionID, put = __cordl_internal_set_transactionID))::Org::BouncyCastle::Asn1::Asn1OctetString* transactionID;
+  /// @brief Field recipNonce, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_recipNonce, put = __cordl_internal_set_recipNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* recipNonce;
+
+  /// @brief Field recipient, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_recipient, put = __cordl_internal_set_recipient))::Org::BouncyCastle::Asn1::X509::GeneralName* recipient;
+
+  /// @brief Field sender, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
+
+  /// @brief Field senderKID, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_senderKID, put = __cordl_internal_set_senderKID))::Org::BouncyCastle::Asn1::Asn1OctetString* senderKID;
 
   /// @brief Field senderNonce, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_senderNonce, put = __cordl_internal_set_senderNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* senderNonce;
 
-  /// @brief Field recipNonce, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipNonce, put = __cordl_internal_set_recipNonce))::Org::BouncyCastle::Asn1::Asn1OctetString* recipNonce;
+  /// @brief Field transactionID, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_transactionID, put = __cordl_internal_set_transactionID))::Org::BouncyCastle::Asn1::Asn1OctetString* transactionID;
 
-  /// @brief Field freeText, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_freeText, put = __cordl_internal_set_freeText))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* freeText;
+  /// @brief Method AddOptional, addr 0xede810, size 0x9c, virtual false, abstract: false, final false
+  inline void AddOptional(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Field generalInfo, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_generalInfo, put = __cordl_internal_set_generalInfo))::Org::BouncyCastle::Asn1::Asn1Sequence* generalInfo;
+  /// @brief Method Build, addr 0xede5f0, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Build();
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_pvno();
+  /// @brief Method MakeGeneralInfoSeq, addr 0xede478, size 0x64, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* MakeGeneralInfoSeq(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* generalInfo);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_pvno() const;
+  /// @brief Method MakeGeneralInfoSeq, addr 0xede508, size 0xe0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence*
+  MakeGeneralInfoSeq(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> generalInfos);
 
-  constexpr void __cordl_internal_set_pvno(::Org::BouncyCastle::Asn1::DerInteger* value);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
+                                                                           ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_sender();
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* New_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_sender() const;
+  /// @brief Method SetFreeText, addr 0xede444, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetFreeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* text);
 
-  constexpr void __cordl_internal_set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  /// @brief Method SetGeneralInfo, addr 0xede44c, size 0x2c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetGeneralInfo(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* genInfo);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_recipient();
+  /// @brief Method SetGeneralInfo, addr 0xede4dc, size 0x2c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*
+  SetGeneralInfo(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> genInfos);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_recipient() const;
+  /// @brief Method SetGeneralInfo, addr 0xede5e8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetGeneralInfo(::Org::BouncyCastle::Asn1::Asn1Sequence* seqOfInfoTypeAndValue);
 
-  constexpr void __cordl_internal_set_recipient(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  /// @brief Method SetMessageTime, addr 0xede170, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetMessageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* time);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_messageTime();
+  /// @brief Method SetProtectionAlg, addr 0xede178, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetProtectionAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_messageTime() const;
+  /// @brief Method SetRecipKID, addr 0xede20c, size 0x84, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipKID(::ArrayW<uint8_t, ::Array<uint8_t>*> kid);
 
-  constexpr void __cordl_internal_set_messageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  /// @brief Method SetRecipKID, addr 0xede290, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipKID(::Org::BouncyCastle::Asn1::Asn1OctetString* kid);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_protectionAlg();
+  /// @brief Method SetRecipNonce, addr 0xede3b4, size 0x88, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_protectionAlg() const;
+  /// @brief Method SetRecipNonce, addr 0xede43c, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* nonce);
 
-  constexpr void __cordl_internal_set_protectionAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  /// @brief Method SetSenderKID, addr 0xede180, size 0x84, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderKID(::ArrayW<uint8_t, ::Array<uint8_t>*> kid);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_senderKID();
+  /// @brief Method SetSenderKID, addr 0xede204, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderKID(::Org::BouncyCastle::Asn1::Asn1OctetString* kid);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_senderKID() const;
+  /// @brief Method SetSenderNonce, addr 0xede324, size 0x88, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  constexpr void __cordl_internal_set_senderKID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  /// @brief Method SetSenderNonce, addr 0xede3ac, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* nonce);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_recipKID();
+  /// @brief Method SetTransactionID, addr 0xede298, size 0x84, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetTransactionID(::ArrayW<uint8_t, ::Array<uint8_t>*> tid);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_recipKID() const;
-
-  constexpr void __cordl_internal_set_recipKID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_transactionID();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_transactionID() const;
-
-  constexpr void __cordl_internal_set_transactionID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_senderNonce();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_senderNonce() const;
-
-  constexpr void __cordl_internal_set_senderNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_recipNonce();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_recipNonce() const;
-
-  constexpr void __cordl_internal_set_recipNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  /// @brief Method SetTransactionID, addr 0xede31c, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetTransactionID(::Org::BouncyCastle::Asn1::Asn1OctetString* tid);
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __cordl_internal_get_freeText();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*> const& __cordl_internal_get_freeText() const;
 
-  constexpr void __cordl_internal_set_freeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_generalInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_generalInfo() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_messageTime();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_messageTime() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_protectionAlg();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_protectionAlg() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_pvno();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_pvno() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_recipKID();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_recipKID() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_recipNonce();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_recipNonce() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_recipient();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_recipient() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_sender();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_sender() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_senderKID();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_senderKID() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_senderNonce();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_senderNonce() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_transactionID();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_transactionID() const;
+
+  constexpr void __cordl_internal_set_freeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
+
   constexpr void __cordl_internal_set_generalInfo(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* New_ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
+  constexpr void __cordl_internal_set_messageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0xe970d4, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
+  constexpr void __cordl_internal_set_protectionAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
-                                                                           ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
+  constexpr void __cordl_internal_set_pvno(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xe97164, size 0x3c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_recipKID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  constexpr void __cordl_internal_set_recipNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  constexpr void __cordl_internal_set_recipient(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+
+  constexpr void __cordl_internal_set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+
+  constexpr void __cordl_internal_set_senderKID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  constexpr void __cordl_internal_set_senderNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  constexpr void __cordl_internal_set_transactionID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  /// @brief Method .ctor, addr 0xede134, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method SetMessageTime, addr 0xe971a0, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetMessageTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* time);
+  /// @brief Method .ctor, addr 0xede0a4, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method SetProtectionAlg, addr 0xe971a8, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetProtectionAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* aid);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkiHeaderBuilder();
 
-  /// @brief Method SetSenderKID, addr 0xe971b0, size 0x84, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderKID(::ArrayW<uint8_t, ::Array<uint8_t>*> kid);
-
-  /// @brief Method SetSenderKID, addr 0xe97234, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderKID(::Org::BouncyCastle::Asn1::Asn1OctetString* kid);
-
-  /// @brief Method SetRecipKID, addr 0xe9723c, size 0x84, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipKID(::ArrayW<uint8_t, ::Array<uint8_t>*> kid);
-
-  /// @brief Method SetRecipKID, addr 0xe972c0, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipKID(::Org::BouncyCastle::Asn1::Asn1OctetString* kid);
-
-  /// @brief Method SetTransactionID, addr 0xe972c8, size 0x84, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetTransactionID(::ArrayW<uint8_t, ::Array<uint8_t>*> tid);
-
-  /// @brief Method SetTransactionID, addr 0xe9734c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetTransactionID(::Org::BouncyCastle::Asn1::Asn1OctetString* tid);
-
-  /// @brief Method SetSenderNonce, addr 0xe97354, size 0x88, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
-
-  /// @brief Method SetSenderNonce, addr 0xe973dc, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetSenderNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* nonce);
-
-  /// @brief Method SetRecipNonce, addr 0xe973e4, size 0x88, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
-
-  /// @brief Method SetRecipNonce, addr 0xe9746c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetRecipNonce(::Org::BouncyCastle::Asn1::Asn1OctetString* nonce);
-
-  /// @brief Method SetFreeText, addr 0xe97474, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetFreeText(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* text);
-
-  /// @brief Method SetGeneralInfo, addr 0xe9747c, size 0x2c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetGeneralInfo(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* genInfo);
-
-  /// @brief Method SetGeneralInfo, addr 0xe9750c, size 0x2c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*
-  SetGeneralInfo(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> genInfos);
-
-  /// @brief Method SetGeneralInfo, addr 0xe97618, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* SetGeneralInfo(::Org::BouncyCastle::Asn1::Asn1Sequence* seqOfInfoTypeAndValue);
-
-  /// @brief Method MakeGeneralInfoSeq, addr 0xe974a8, size 0x64, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence* MakeGeneralInfoSeq(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* generalInfo);
-
-  /// @brief Method MakeGeneralInfoSeq, addr 0xe97538, size 0xe0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Asn1Sequence*
-  MakeGeneralInfoSeq(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> generalInfos);
-
-  /// @brief Method Build, addr 0xe97620, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Build();
-
-  /// @brief Method AddOptional, addr 0xe97840, size 0x9c, virtual false, abstract: false, final false
-  inline void AddOptional(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkiHeaderBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkiHeaderBuilder(PkiHeaderBuilder&&) = delete;
@@ -244,12 +248,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkiHeaderBuilder(PkiHeaderBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkiHeaderBuilder();
-
-public:
   /// @brief Field pvno, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___pvno;
 

@@ -25,56 +25,60 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitSpline);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12520))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12526))
 // CS Name: ::RootMotion.FinalIK::RotationLimitSpline*
 class CORDL_TYPE RotationLimitSpline : public ::RootMotion::FinalIK::RotationLimit {
 public:
   // Declarations
-  /// @brief Field twistLimit, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
-
   /// @brief Field spline, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_spline, put = __cordl_internal_set_spline))::UnityEngine::AnimationCurve* spline;
 
-  constexpr float_t& __cordl_internal_get_twistLimit();
+  /// @brief Field twistLimit, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
 
-  constexpr float_t const& __cordl_internal_get_twistLimit() const;
+  /// @brief Method ASThread, addr 0x136bdf8, size 0x44, virtual false, abstract: false, final false
+  inline void ASThread();
 
-  constexpr void __cordl_internal_set_twistLimit(float_t value);
+  /// @brief Method LimitRotation, addr 0x136be58, size 0x94, virtual true, abstract: false, final false
+  inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
+
+  /// @brief Method LimitSwing, addr 0x136beec, size 0x3b8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
+
+  static inline ::RootMotion::FinalIK::RotationLimitSpline* New_ctor();
+
+  /// @brief Method OpenScriptReference, addr 0x136bd70, size 0x44, virtual false, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenUserManual, addr 0x136bd2c, size 0x44, virtual false, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method SetSpline, addr 0x136be3c, size 0x1c, virtual false, abstract: false, final false
+  inline void SetSpline(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keyframes);
+
+  /// @brief Method SupportGroup, addr 0x136bdb4, size 0x44, virtual false, abstract: false, final false
+  inline void SupportGroup();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_spline();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_spline() const;
 
+  constexpr float_t const& __cordl_internal_get_twistLimit() const;
+
+  constexpr float_t& __cordl_internal_get_twistLimit();
+
   constexpr void __cordl_internal_set_spline(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method OpenUserManual, addr 0x132ad40, size 0x44, virtual false, abstract: false, final false
-  inline void OpenUserManual();
+  constexpr void __cordl_internal_set_twistLimit(float_t value);
 
-  /// @brief Method OpenScriptReference, addr 0x132ad84, size 0x44, virtual false, abstract: false, final false
-  inline void OpenScriptReference();
-
-  /// @brief Method SupportGroup, addr 0x132adc8, size 0x44, virtual false, abstract: false, final false
-  inline void SupportGroup();
-
-  /// @brief Method ASThread, addr 0x132ae0c, size 0x44, virtual false, abstract: false, final false
-  inline void ASThread();
-
-  /// @brief Method SetSpline, addr 0x132ae50, size 0x1c, virtual false, abstract: false, final false
-  inline void SetSpline(::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> keyframes);
-
-  /// @brief Method LimitRotation, addr 0x132ae6c, size 0x94, virtual true, abstract: false, final false
-  inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
-
-  /// @brief Method LimitSwing, addr 0x132af00, size 0x3b8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion LimitSwing(::UnityEngine::Quaternion rotation);
-
-  static inline ::RootMotion::FinalIK::RotationLimitSpline* New_ctor();
-
-  /// @brief Method .ctor, addr 0x132b2b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136c2a4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RotationLimitSpline();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RotationLimitSpline", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RotationLimitSpline(RotationLimitSpline&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RotationLimitSpline(RotationLimitSpline const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RotationLimitSpline();
-
-public:
   /// @brief Field twistLimit, offset: 0x38, size: 0x4, def value: None
   float_t ___twistLimit;
 

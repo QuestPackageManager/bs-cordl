@@ -95,8 +95,6 @@ MARK_VAL_T(::BGLib::AppFlow::Initialization::__AsyncSceneContext___Run_d__4);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15470))
 // CS Name: ::AsyncSceneContext::State
 struct CORDL_TYPE __AsyncSceneContext__State {
 public:
@@ -115,27 +113,32 @@ public:
     return static_cast<____AsyncSceneContext__State_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AsyncSceneContext__State(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __AsyncSceneContext__State();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __AsyncSceneContext__State(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NotInitialized value: static_cast<int32_t>(0x0)
-  static ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const NotInitialized;
+  /// @brief Field Initialized value: static_cast<int32_t>(0x2)
+  static ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const Initialized;
 
   /// @brief Field Initializing value: static_cast<int32_t>(0x1)
   static ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const Initializing;
 
-  /// @brief Field Initialized value: static_cast<int32_t>(0x2)
-  static ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const Initialized;
+  /// @brief Field NotInitialized value: static_cast<int32_t>(0x0)
+  static ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const NotInitialized;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -149,8 +152,6 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext__St
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3396))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15471))
 // CS Name: ::AsyncSceneContext::<Run>d__4
 struct CORDL_TYPE __AsyncSceneContext___Run_d__4 {
 public:
@@ -158,24 +159,24 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe8bad0, size 0x178, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe8bc48, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe45b00, size 0x178, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe45c78, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncSceneContext___Run_d__4();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __AsyncSceneContext___Run_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                            ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncSceneContext___Run_d__4();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -210,22 +211,25 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext___R
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(15469)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 878 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15472)) CS Name: ::AsyncSceneContext::<RunAsync>d__5
+// CS Name: ::AsyncSceneContext::<RunAsync>d__5
 struct CORDL_TYPE __AsyncSceneContext___RunAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe8bc54, size 0x380, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe8bfd4, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe45c84, size 0x380, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe46004, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncSceneContext___RunAsync_d__5();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>",
@@ -234,10 +238,6 @@ public:
   constexpr __AsyncSceneContext___RunAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                 ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this,
                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncSceneContext___RunAsync_d__5();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -272,38 +272,42 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext___R
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15473))
 // CS Name: ::AsyncSceneContext::<>c__DisplayClass8_0*
 class CORDL_TYPE __AsyncSceneContext____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field registry, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_registry, put = __cordl_internal_set_registry))::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* registry;
-
   /// @brief Field container, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
-  constexpr ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*& __cordl_internal_get_registry();
+  /// @brief Field registry, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_registry, put = __cordl_internal_set_registry))::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* registry;
 
-  constexpr ::cordl_internals::to_const_pointer<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> const& __cordl_internal_get_registry() const;
+  static inline ::BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass8_0* New_ctor();
 
-  constexpr void __cordl_internal_set_registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value);
+  /// @brief Method <LoadInstallersAsync>b__0, addr 0xe8bfe8, size 0x28, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* _LoadInstallersAsync_b__0(::BGLib::AppFlow::Initialization::AsyncInstaller* r);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
+  constexpr ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*& __cordl_internal_get_registry();
+
+  constexpr ::cordl_internals::to_const_pointer<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> const& __cordl_internal_get_registry() const;
+
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  static inline ::BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass8_0* New_ctor();
+  constexpr void __cordl_internal_set_registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value);
 
-  /// @brief Method .ctor, addr 0xe46010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8bfe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LoadInstallersAsync>b__0, addr 0xe46018, size 0x28, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* _LoadInstallersAsync_b__0(::BGLib::AppFlow::Initialization::AsyncInstaller* r);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncSceneContext____c__DisplayClass8_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncSceneContext____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AsyncSceneContext____c__DisplayClass8_0(__AsyncSceneContext____c__DisplayClass8_0&&) = delete;
@@ -312,12 +316,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AsyncSceneContext____c__DisplayClass8_0(__AsyncSceneContext____c__DisplayClass8_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncSceneContext____c__DisplayClass8_0();
-
-public:
   /// @brief Field registry, offset: 0x10, size: 0x8, def value: None
   ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* ___registry;
 
@@ -338,23 +336,25 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(15469)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 878 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15474)) CS Name:
-// ::AsyncSceneContext::<LoadInstallersAsync>d__8
+// CS Name: ::AsyncSceneContext::<LoadInstallersAsync>d__8
 struct CORDL_TYPE __AsyncSceneContext___LoadInstallersAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe8c010, size 0x2d8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe8c2e8, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe46040, size 0x2d8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe46318, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AsyncSceneContext___LoadInstallersAsync_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -366,10 +366,6 @@ public:
                                                            ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> __4__this,
                                                            ::BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass8_0* __8__1,
                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AsyncSceneContext___LoadInstallersAsync_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -409,77 +405,81 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__AsyncSceneContext___L
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10268)), TypeDefinitionIndex(TypeDefinitionIndex(15470))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15475))
 // CS Name: ::BGLib.AppFlow.Initialization::AsyncSceneContext*
 class CORDL_TYPE AsyncSceneContext : public ::Zenject::SceneContext {
 public:
   // Declarations
-  using _LoadInstallersAsync_d__8 = ::BGLib::AppFlow::Initialization::__AsyncSceneContext___LoadInstallersAsync_d__8;
+  using State = ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State;
 
-  using __c__DisplayClass8_0 = ::BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass8_0;
+  using _LoadInstallersAsync_d__8 = ::BGLib::AppFlow::Initialization::__AsyncSceneContext___LoadInstallersAsync_d__8;
 
   using _RunAsync_d__5 = ::BGLib::AppFlow::Initialization::__AsyncSceneContext___RunAsync_d__5;
 
   using _Run_d__4 = ::BGLib::AppFlow::Initialization::__AsyncSceneContext___Run_d__4;
 
-  using State = ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State;
+  using __c__DisplayClass8_0 = ::BGLib::AppFlow::Initialization::__AsyncSceneContext____c__DisplayClass8_0;
 
   /// @brief Field _asyncInstallers, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__asyncInstallers,
                       put = __cordl_internal_set__asyncInstallers))::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>* _asyncInstallers;
 
+  /// @brief Field _registry, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__registry, put = __cordl_internal_set__registry))::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* _registry;
+
   /// @brief Field _state, offset 0xc0, size 0x4
   __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::BGLib::AppFlow::Initialization::__AsyncSceneContext__State _state;
 
-  /// @brief Field _registry, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__registry, put = __cordl_internal_set__registry))::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* _registry;
+  /// @brief Method CreateContainerForLoading, addr 0xe8b5ac, size 0x9c, virtual false, abstract: false, final false
+  inline ::Zenject::DiContainer* CreateContainerForLoading();
+
+  /// @brief Method CreateRegistry, addr 0xe8b648, size 0x84, virtual false, abstract: false, final false
+  inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* CreateRegistry();
+
+  /// @brief Method InstallInstallers, addr 0xe8b7c0, size 0x300, virtual true, abstract: false, final false
+  inline void InstallInstallers();
+
+  /// @brief Method LoadInstallersAsync, addr 0xe8b6cc, size 0xf4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* LoadInstallersAsync();
+
+  static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext* New_ctor();
+
+  /// @brief Method Run, addr 0xe8b518, size 0x94, virtual true, abstract: false, final false
+  inline void Run();
+
+  /// @brief Method RunAsync, addr 0xe85af0, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* RunAsync();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>*& __cordl_internal_get__asyncInstallers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>*> const&
   __cordl_internal_get__asyncInstallers() const;
 
-  constexpr void __cordl_internal_set__asyncInstallers(::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>* value);
-
-  constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State& __cordl_internal_get__state();
-
-  constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const& __cordl_internal_get__state() const;
-
-  constexpr void __cordl_internal_set__state(::BGLib::AppFlow::Initialization::__AsyncSceneContext__State value);
-
   constexpr ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*& __cordl_internal_get__registry();
 
   constexpr ::cordl_internals::to_const_pointer<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*> const& __cordl_internal_get__registry() const;
 
+  constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State const& __cordl_internal_get__state() const;
+
+  constexpr ::BGLib::AppFlow::Initialization::__AsyncSceneContext__State& __cordl_internal_get__state();
+
+  constexpr void __cordl_internal_set__asyncInstallers(::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>* value);
+
   constexpr void __cordl_internal_set__registry(::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* value);
 
-  /// @brief Method Run, addr 0xe45548, size 0x94, virtual true, abstract: false, final false
-  inline void Run();
+  constexpr void __cordl_internal_set__state(::BGLib::AppFlow::Initialization::__AsyncSceneContext__State value);
 
-  /// @brief Method RunAsync, addr 0xe3fb20, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* RunAsync();
-
-  /// @brief Method CreateContainerForLoading, addr 0xe455dc, size 0x9c, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* CreateContainerForLoading();
-
-  /// @brief Method CreateRegistry, addr 0xe45678, size 0x84, virtual false, abstract: false, final false
-  inline ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry* CreateRegistry();
-
-  /// @brief Method LoadInstallersAsync, addr 0xe456fc, size 0xf4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::BGLib::AppFlow::Initialization::AsyncInstallerRegistry*>* LoadInstallersAsync();
-
-  /// @brief Method InstallInstallers, addr 0xe457f0, size 0x300, virtual true, abstract: false, final false
-  inline void InstallInstallers();
-
-  static inline ::BGLib::AppFlow::Initialization::AsyncSceneContext* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe45af0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <>n__0, addr 0xe45af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0xe8bac8, size 0x8, virtual false, abstract: false, final false
   inline void __n__0();
 
+  /// @brief Method .ctor, addr 0xe8bac0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncSceneContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncSceneContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncSceneContext(AsyncSceneContext&&) = delete;
@@ -488,12 +488,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncSceneContext(AsyncSceneContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncSceneContext();
-
-public:
   /// @brief Field _asyncInstallers, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::BGLib::AppFlow::Initialization::AsyncInstaller>>* ____asyncInstallers;
 

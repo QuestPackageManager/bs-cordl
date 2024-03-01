@@ -20,41 +20,45 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMRAudioFilter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7604))
 // CS Name: ::OVRMRAudioFilter*
 class CORDL_TYPE OVRMRAudioFilter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field running, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_running, put = __cordl_internal_set_running)) bool running;
-
   /// @brief Field composition, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_composition, put = __cordl_internal_set_composition))::GlobalNamespace::OVRExternalComposition* composition;
 
-  constexpr bool& __cordl_internal_get_running();
+  /// @brief Field running, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_running, put = __cordl_internal_set_running)) bool running;
 
-  constexpr bool const& __cordl_internal_get_running() const;
+  static inline ::GlobalNamespace::OVRMRAudioFilter* New_ctor();
 
-  constexpr void __cordl_internal_set_running(bool value);
+  /// @brief Method OnAudioFilterRead, addr 0x2803790, size 0x18, virtual false, abstract: false, final false
+  inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
+
+  /// @brief Method Start, addr 0x2803784, size 0xc, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::OVRExternalComposition*& __cordl_internal_get_composition();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRExternalComposition*> const& __cordl_internal_get_composition() const;
 
+  constexpr bool const& __cordl_internal_get_running() const;
+
+  constexpr bool& __cordl_internal_get_running();
+
   constexpr void __cordl_internal_set_composition(::GlobalNamespace::OVRExternalComposition* value);
 
-  /// @brief Method Start, addr 0x2743108, size 0xc, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set_running(bool value);
 
-  /// @brief Method OnAudioFilterRead, addr 0x2743114, size 0x18, virtual false, abstract: false, final false
-  inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
-
-  static inline ::GlobalNamespace::OVRMRAudioFilter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x274312c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28037a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRMRAudioFilter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRMRAudioFilter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRMRAudioFilter(OVRMRAudioFilter&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMRAudioFilter(OVRMRAudioFilter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRMRAudioFilter();
-
-public:
   /// @brief Field running, offset: 0x18, size: 0x1, def value: None
   bool ___running;
 

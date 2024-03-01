@@ -19,19 +19,17 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::Arc);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11220))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11151))
 // CS Name: ::BeatmapSaveDataVersion4::Arc
 struct CORDL_TYPE Arc {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a", ty:
-  // "::BeatmapSaveDataCommon::SliderMidAnchorMode", modifiers: "", def_value: None }]
-  constexpr Arc(float_t m, float_t tm, ::BeatmapSaveDataCommon::SliderMidAnchorMode a) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Arc();
+
+  // Ctor Parameters [CppParam { name: "m", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "tm", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "a", ty:
+  // "::BeatmapSaveDataCommon::SliderMidAnchorMode", modifiers: "", def_value: None }]
+  constexpr Arc(float_t m, float_t tm, ::BeatmapSaveDataCommon::SliderMidAnchorMode a) noexcept;
 
   /// @brief Field m, offset: 0x0, size: 0x4, def value: None
   float_t m;

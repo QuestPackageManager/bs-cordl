@@ -23,56 +23,60 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListDetailTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4724))
 // CS Name: ::GameServerListDetailTableCell*
 class CORDL_TYPE GameServerListDetailTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
+  /// @brief Field _buttonBinder, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+
   /// @brief Field _joinServerButton, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__joinServerButton, put = __cordl_internal_set__joinServerButton))::UnityW<::UnityEngine::UI::Button> _joinServerButton;
 
   /// @brief Field joinServerButtonWasPressedEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_joinServerButtonWasPressedEvent, put = __cordl_internal_set_joinServerButtonWasPressedEvent))::System::Action* joinServerButtonWasPressedEvent;
 
-  /// @brief Field _buttonBinder, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinServerButton();
+  /// @brief Method Start, addr 0x24a28f8, size 0xa8, virtual true, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinServerButton() const;
-
-  constexpr void __cordl_internal_set__joinServerButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::System::Action*& __cordl_internal_get_joinServerButtonWasPressedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_joinServerButtonWasPressedEvent() const;
-
-  constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
+  /// @brief Method <Start>b__5_0, addr 0x24a2a08, size 0x1c, virtual false, abstract: false, final false
+  inline void _Start_b__5_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinServerButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinServerButton();
+
+  constexpr ::System::Action*& __cordl_internal_get_joinServerButtonWasPressedEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_joinServerButtonWasPressedEvent() const;
+
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x23d4878, size 0x9c, virtual false, abstract: false, final false
-  inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__joinServerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x23d4914, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method Start, addr 0x23d49b0, size 0xa8, virtual true, abstract: false, final false
-  inline void Start();
-
-  static inline ::GlobalNamespace::GameServerListDetailTableCell* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23d4a58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a29a0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__5_0, addr 0x23d4ac0, size 0x1c, virtual false, abstract: false, final false
-  inline void _Start_b__5_0();
+  /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x24a27c0, size 0x9c, virtual false, abstract: false, final false
+  inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
 
+  /// @brief Method remove_joinServerButtonWasPressedEvent, addr 0x24a285c, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_joinServerButtonWasPressedEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameServerListDetailTableCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameServerListDetailTableCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameServerListDetailTableCell(GameServerListDetailTableCell&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerListDetailTableCell(GameServerListDetailTableCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameServerListDetailTableCell();
-
-public:
   /// @brief Field _joinServerButton, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinServerButton;
 

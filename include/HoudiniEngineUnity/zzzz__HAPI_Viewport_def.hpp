@@ -16,25 +16,23 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Viewport);
 // SizeInfo { instance_size: 24, native_size: 32, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9547))
 // CS Name: ::HoudiniEngineUnity::HAPI_Viewport
 struct CORDL_TYPE HAPI_Viewport {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2226858, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(bool initializeFields);
-
-  /// @brief Method Init, addr 0x22268e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22f3f48, size 0x70, virtual false, abstract: false, final false
   inline void Init();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty:
-  // "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HAPI_Viewport(::ArrayW<float_t, ::Array<float_t>*> position, ::ArrayW<float_t, ::Array<float_t>*> rotationQuaternion, float_t offset) noexcept;
+  /// @brief Method .ctor, addr 0x22f3ec0, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_Viewport();
+
+  // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty:
+  // "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr HAPI_Viewport(::ArrayW<float_t, ::Array<float_t>*> position, ::ArrayW<float_t, ::Array<float_t>*> rotationQuaternion, float_t offset) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> position;

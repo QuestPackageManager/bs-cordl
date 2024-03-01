@@ -29,22 +29,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1001))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultVerifierCalculator*
 class CORDL_TYPE DefaultVerifierCalculator : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
+
   /// @brief Field mSignerSink, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mSignerSink, put = __cordl_internal_set_mSignerSink))::Org::BouncyCastle::Crypto::IO::SignerSink* mSignerSink;
-
-  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
-  constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
+  /// @brief Method GetResult, addr 0xf9dd04, size 0x84, virtual true, abstract: false, final true
+  inline ::System::Object* GetResult();
+
+  static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   constexpr ::Org::BouncyCastle::Crypto::IO::SignerSink*& __cordl_internal_get_mSignerSink();
 
@@ -52,17 +52,21 @@ public:
 
   constexpr void __cordl_internal_set_mSignerSink(::Org::BouncyCastle::Crypto::IO::SignerSink* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
-
-  /// @brief Method .ctor, addr 0xf57e74, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9ce44, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method get_Stream, addr 0xf58d2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0xf9dcfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
-  /// @brief Method GetResult, addr 0xf58d34, size 0x84, virtual true, abstract: false, final true
-  inline ::System::Object* GetResult();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"
+  constexpr ::Org::BouncyCastle::Crypto::IStreamCalculator* i___Org__BouncyCastle__Crypto__IStreamCalculator() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultVerifierCalculator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultVerifierCalculator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultVerifierCalculator(DefaultVerifierCalculator&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultVerifierCalculator(DefaultVerifierCalculator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultVerifierCalculator();
-
-public:
   /// @brief Field mSignerSink, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IO::SignerSink* ___mSignerSink;
 

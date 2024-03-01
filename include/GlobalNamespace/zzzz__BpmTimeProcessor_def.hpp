@@ -52,22 +52,20 @@ MARK_VAL_T(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10722))
 // CS Name: ::BpmTimeProcessor::BpmChangeData
 struct CORDL_TYPE __BpmTimeProcessor__BpmChangeData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x12785c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12bb598, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm);
-
-  // Ctor Parameters [CppParam { name: "bpmChangeStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bpmChangeStartBpmTime", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __BpmTimeProcessor__BpmChangeData(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __BpmTimeProcessor__BpmChangeData();
+
+  // Ctor Parameters [CppParam { name: "bpmChangeStartTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "bpmChangeStartBpmTime", ty: "float_t", modifiers: "", def_value: None },
+  // CppParam { name: "bpm", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __BpmTimeProcessor__BpmChangeData(float_t bpmChangeStartTime, float_t bpmChangeStartBpmTime, float_t bpm) noexcept;
 
   /// @brief Field bpmChangeStartTime, offset: 0x0, size: 0x4, def value: None
   float_t bpmChangeStartTime;
@@ -97,8 +95,6 @@ static_assert(offsetof(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData, bpm
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10723))
 // CS Name: ::BpmTimeProcessor::<>c*
 class CORDL_TYPE __BpmTimeProcessor____c : public ::System::Object {
 public:
@@ -109,22 +105,28 @@ public:
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*, bool>* __9__3_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__BpmTimeProcessor____c* value);
+  static inline ::GlobalNamespace::__BpmTimeProcessor____c* New_ctor();
+
+  /// @brief Method <.ctor>b__3_0, addr 0x12bbd48, size 0x20, virtual false, abstract: false, final false
+  inline bool __ctor_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
+
+  /// @brief Method .ctor, addr 0x12bbd40, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__BpmTimeProcessor____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Func_2<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*, bool>* value);
-
   static inline ::System::Func_2<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*, bool>* getStaticF___9__3_0();
 
-  static inline ::GlobalNamespace::__BpmTimeProcessor____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__BpmTimeProcessor____c* value);
 
-  /// @brief Method .ctor, addr 0x1278d70, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__3_0(::System::Func_2<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*, bool>* value);
 
-  /// @brief Method <.ctor>b__3_0, addr 0x1278d78, size 0x20, virtual false, abstract: false, final false
-  inline bool __ctor_b__3_0(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData* e);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BpmTimeProcessor____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BpmTimeProcessor____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BpmTimeProcessor____c(__BpmTimeProcessor____c&&) = delete;
@@ -133,12 +135,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BpmTimeProcessor____c(__BpmTimeProcessor____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BpmTimeProcessor____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -149,15 +145,13 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BpmTimeProces
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10724))
 // CS Name: ::BpmTimeProcessor*
 class CORDL_TYPE BpmTimeProcessor : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__BpmTimeProcessor____c;
-
   using BpmChangeData = ::GlobalNamespace::__BpmTimeProcessor__BpmChangeData;
+
+  using __c = ::GlobalNamespace::__BpmTimeProcessor____c;
 
   /// @brief Field _bpmChangeDataList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bpmChangeDataList,
@@ -169,45 +163,51 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatToTimeConverter"
   constexpr operator ::GlobalNamespace::IBeatToTimeConverter*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
-  constexpr ::GlobalNamespace::IBeatToTimeConverter* i___GlobalNamespace__IBeatToTimeConverter() noexcept;
+  /// @brief Method CalculateTime, addr 0x12bb5a4, size 0x1c, virtual false, abstract: false, final false
+  static inline float_t CalculateTime(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData prevBpmChangeData, float_t beat);
+
+  /// @brief Method ConvertBeatToTime, addr 0x12bbbcc, size 0x108, virtual true, abstract: false, final true
+  inline float_t ConvertBeatToTime(float_t beat);
+
+  static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
+
+  static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEventsSaveData);
+
+  static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
+
+  /// @brief Method Reset, addr 0x12bbcd4, size 0x8, virtual false, abstract: false, final false
+  inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>*& __cordl_internal_get__bpmChangeDataList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>*> const& __cordl_internal_get__bpmChangeDataList() const;
 
-  constexpr void __cordl_internal_set__bpmChangeDataList(::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>* value);
+  constexpr int32_t const& __cordl_internal_get_currentBpmChangesDataIdx() const;
 
   constexpr int32_t& __cordl_internal_get_currentBpmChangesDataIdx();
 
-  constexpr int32_t const& __cordl_internal_get_currentBpmChangesDataIdx() const;
+  constexpr void __cordl_internal_set__bpmChangeDataList(::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>* value);
 
   constexpr void __cordl_internal_set_currentBpmChangesDataIdx(int32_t value);
 
-  static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
-
-  /// @brief Method .ctor, addr 0x1278240, size 0x388, virtual false, abstract: false, final false
-  inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
-
-  static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEventsSaveData);
-
-  /// @brief Method .ctor, addr 0x12785f0, size 0x488, virtual false, abstract: false, final false
-  inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEventsSaveData);
-
-  static inline ::GlobalNamespace::BpmTimeProcessor* New_ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
-
-  /// @brief Method .ctor, addr 0x1278a78, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12bba48, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData);
 
-  /// @brief Method ConvertBeatToTime, addr 0x1278bfc, size 0x108, virtual true, abstract: false, final true
-  inline float_t ConvertBeatToTime(float_t beat);
+  /// @brief Method .ctor, addr 0x12bb5c0, size 0x488, virtual false, abstract: false, final false
+  inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEventsSaveData);
 
-  /// @brief Method Reset, addr 0x1278d04, size 0x8, virtual false, abstract: false, final false
-  inline void Reset();
+  /// @brief Method .ctor, addr 0x12bb210, size 0x388, virtual false, abstract: false, final false
+  inline void _ctor(float_t startBpm, ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events);
 
-  /// @brief Method CalculateTime, addr 0x12785d4, size 0x1c, virtual false, abstract: false, final false
-  static inline float_t CalculateTime(::GlobalNamespace::__BpmTimeProcessor__BpmChangeData prevBpmChangeData, float_t beat);
+  /// @brief Convert to "::GlobalNamespace::IBeatToTimeConverter"
+  constexpr ::GlobalNamespace::IBeatToTimeConverter* i___GlobalNamespace__IBeatToTimeConverter() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BpmTimeProcessor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BpmTimeProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BpmTimeProcessor(BpmTimeProcessor&&) = delete;
@@ -216,12 +216,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BpmTimeProcessor(BpmTimeProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BpmTimeProcessor();
-
-public:
   /// @brief Field _bpmChangeDataList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__BpmTimeProcessor__BpmChangeData>* ____bpmChangeDataList;
 

@@ -16,20 +16,24 @@ MARK_REF_PTR_T(::GlobalNamespace::DistanceObjectiveValueFormatterSO);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10875))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10864))
 // CS Name: ::DistanceObjectiveValueFormatterSO*
 class CORDL_TYPE DistanceObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x12940ac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x12d607c, size 0x80, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::DistanceObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129412c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d60fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DistanceObjectiveValueFormatterSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DistanceObjectiveValueFormatterSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DistanceObjectiveValueFormatterSO(DistanceObjectiveValueFormatterSO&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DistanceObjectiveValueFormatterSO(DistanceObjectiveValueFormatterSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DistanceObjectiveValueFormatterSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

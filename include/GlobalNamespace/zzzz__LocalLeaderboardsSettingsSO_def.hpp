@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardsSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10681))
 // CS Name: ::LocalLeaderboardsSettingsSO*
 class CORDL_TYPE LocalLeaderboardsSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -26,23 +24,29 @@ public:
 
   __declspec(property(get = get_maxNumberOfScoresInLeaderboard, put = set_maxNumberOfScoresInLeaderboard)) int32_t maxNumberOfScoresInLeaderboard;
 
-  constexpr int32_t& __cordl_internal_get__maxNumberOfScoresInLeaderboard();
+  static inline ::GlobalNamespace::LocalLeaderboardsSettingsSO* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get__maxNumberOfScoresInLeaderboard() const;
 
+  constexpr int32_t& __cordl_internal_get__maxNumberOfScoresInLeaderboard();
+
   constexpr void __cordl_internal_set__maxNumberOfScoresInLeaderboard(int32_t value);
 
-  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x126fcdc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_maxNumberOfScoresInLeaderboard();
-
-  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x126fce4, size 0x8, virtual false, abstract: false, final false
-  inline void set_maxNumberOfScoresInLeaderboard(int32_t value);
-
-  static inline ::GlobalNamespace::LocalLeaderboardsSettingsSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x126fcec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b2cbc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x12b2cac, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_maxNumberOfScoresInLeaderboard();
+
+  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x12b2cb4, size 0x8, virtual false, abstract: false, final false
+  inline void set_maxNumberOfScoresInLeaderboard(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalLeaderboardsSettingsSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardsSettingsSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalLeaderboardsSettingsSO(LocalLeaderboardsSettingsSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalLeaderboardsSettingsSO();
-
-public:
   /// @brief Field _maxNumberOfScoresInLeaderboard, offset: 0x18, size: 0x4, def value: None
   int32_t ____maxNumberOfScoresInLeaderboard;
 

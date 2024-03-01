@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::System::Runtime::ExceptionServices::FirstChanceExceptionEventAr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3344))
 // CS Name: ::System.Runtime.ExceptionServices::FirstChanceExceptionEventArgs*
 class CORDL_TYPE FirstChanceExceptionEventArgs : public ::System::EventArgs {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FirstChanceExceptionEventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FirstChanceExceptionEventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FirstChanceExceptionEventArgs(FirstChanceExceptionEventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FirstChanceExceptionEventArgs();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

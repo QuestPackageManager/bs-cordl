@@ -32,67 +32,71 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(584))
 // CS Name: ::Org.BouncyCastle.Bcpg::RsaPublicBcpgKey*
 class CORDL_TYPE RsaPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
-  /// @brief Field n, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Bcpg::MPInteger* n;
+  __declspec(property(get = get_Format))::StringW Format;
+
+  __declspec(property(get = get_Modulus))::Org::BouncyCastle::Math::BigInteger* Modulus;
+
+  __declspec(property(get = get_PublicExponent))::Org::BouncyCastle::Math::BigInteger* PublicExponent;
 
   /// @brief Field e, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::Org::BouncyCastle::Bcpg::MPInteger* e;
 
-  __declspec(property(get = get_PublicExponent))::Org::BouncyCastle::Math::BigInteger* PublicExponent;
-
-  __declspec(property(get = get_Modulus))::Org::BouncyCastle::Math::BigInteger* Modulus;
-
-  __declspec(property(get = get_Format))::StringW Format;
+  /// @brief Field n, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Bcpg::MPInteger* n;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
-  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
+  /// @brief Method Encode, addr 0x1243894, size 0xd4, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_n();
+  /// @brief Method GetEncoded, addr 0x1243810, size 0x84, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_n() const;
+  static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Bcpg::MPInteger* value);
+  static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
   constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_e();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_e() const;
 
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_n();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_n() const;
+
   constexpr void __cordl_internal_set_e(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x1200398, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1243368, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
-
-  /// @brief Method .ctor, addr 0x1200730, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1243700, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method get_PublicExponent, addr 0x12007c8, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
-
-  /// @brief Method get_Modulus, addr 0x12007e4, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
-
-  /// @brief Method get_Format, addr 0x1200800, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x12437d0, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded, addr 0x1200840, size 0x84, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+  /// @brief Method get_Modulus, addr 0x12437b4, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method Encode, addr 0x12008c4, size 0xd4, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+  /// @brief Method get_PublicExponent, addr 0x1243798, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
+  /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
+  constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RsaPublicBcpgKey();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RsaPublicBcpgKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RsaPublicBcpgKey(RsaPublicBcpgKey&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RsaPublicBcpgKey(RsaPublicBcpgKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RsaPublicBcpgKey();
-
-public:
   /// @brief Field n, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::MPInteger* ___n;
 

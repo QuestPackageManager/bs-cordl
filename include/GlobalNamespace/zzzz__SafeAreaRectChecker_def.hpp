@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__SafeAreaRectChecker__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4737))
 // CS Name: ::SafeAreaRectChecker::InitData*
 class CORDL_TYPE __SafeAreaRectChecker__InitData : public ::System::Object {
 public:
@@ -45,17 +43,23 @@ public:
   /// @brief Field checkingEnabled, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_checkingEnabled, put = __cordl_internal_set_checkingEnabled)) bool checkingEnabled;
 
-  constexpr bool& __cordl_internal_get_checkingEnabled();
+  static inline ::GlobalNamespace::__SafeAreaRectChecker__InitData* New_ctor(bool checkingEnabled);
 
   constexpr bool const& __cordl_internal_get_checkingEnabled() const;
 
+  constexpr bool& __cordl_internal_get_checkingEnabled();
+
   constexpr void __cordl_internal_set_checkingEnabled(bool value);
 
-  static inline ::GlobalNamespace::__SafeAreaRectChecker__InitData* New_ctor(bool checkingEnabled);
-
-  /// @brief Method .ctor, addr 0x23d7f44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a5e8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SafeAreaRectChecker__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SafeAreaRectChecker__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SafeAreaRectChecker__InitData(__SafeAreaRectChecker__InitData&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SafeAreaRectChecker__InitData(__SafeAreaRectChecker__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SafeAreaRectChecker__InitData();
-
-public:
   /// @brief Field checkingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___checkingEnabled;
 
@@ -85,25 +83,11 @@ static_assert(offsetof(::GlobalNamespace::__SafeAreaRectChecker__InitData, ___ch
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4738))
 // CS Name: ::SafeAreaRectChecker*
 class CORDL_TYPE SafeAreaRectChecker : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using InitData = ::GlobalNamespace::__SafeAreaRectChecker__InitData;
-
-  /// @brief Field _minAngleX, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__minAngleX, put = __cordl_internal_set__minAngleX)) float_t _minAngleX;
-
-  /// @brief Field _maxAngleX, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxAngleX, put = __cordl_internal_set__maxAngleX)) float_t _maxAngleX;
-
-  /// @brief Field _minAngleY, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__minAngleY, put = __cordl_internal_set__minAngleY)) float_t _minAngleY;
-
-  /// @brief Field _maxAngleY, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxAngleY, put = __cordl_internal_set__maxAngleY)) float_t _maxAngleY;
 
   /// @brief Field _activeObjectWhenInsideSafeArea, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__activeObjectWhenInsideSafeArea,
@@ -113,89 +97,107 @@ public:
   __declspec(property(get = __cordl_internal_get__activeObjectWhenNotInsideSafeArea,
                       put = __cordl_internal_set__activeObjectWhenNotInsideSafeArea))::UnityW<::UnityEngine::GameObject> _activeObjectWhenNotInsideSafeArea;
 
-  /// @brief Field _rectTransformToCheck, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__rectTransformToCheck, put = __cordl_internal_set__rectTransformToCheck))::UnityW<::UnityEngine::RectTransform> _rectTransformToCheck;
-
   /// @brief Field _corners, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__corners, put = __cordl_internal_set__corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _corners;
-
-  /// @brief Field _mainCamera, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
   /// @brief Field _initData, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__SafeAreaRectChecker__InitData* _initData;
 
-  constexpr float_t& __cordl_internal_get__minAngleX();
+  /// @brief Field _mainCamera, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
-  constexpr float_t const& __cordl_internal_get__minAngleX() const;
+  /// @brief Field _maxAngleX, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxAngleX, put = __cordl_internal_set__maxAngleX)) float_t _maxAngleX;
 
-  constexpr void __cordl_internal_set__minAngleX(float_t value);
+  /// @brief Field _maxAngleY, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxAngleY, put = __cordl_internal_set__maxAngleY)) float_t _maxAngleY;
 
-  constexpr float_t& __cordl_internal_get__maxAngleX();
+  /// @brief Field _minAngleX, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__minAngleX, put = __cordl_internal_set__minAngleX)) float_t _minAngleX;
 
-  constexpr float_t const& __cordl_internal_get__maxAngleX() const;
+  /// @brief Field _minAngleY, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__minAngleY, put = __cordl_internal_set__minAngleY)) float_t _minAngleY;
 
-  constexpr void __cordl_internal_set__maxAngleX(float_t value);
+  /// @brief Field _rectTransformToCheck, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__rectTransformToCheck, put = __cordl_internal_set__rectTransformToCheck))::UnityW<::UnityEngine::RectTransform> _rectTransformToCheck;
 
-  constexpr float_t& __cordl_internal_get__minAngleY();
+  static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  constexpr float_t const& __cordl_internal_get__minAngleY() const;
+  /// @brief Method Start, addr 0x24a5bd8, size 0x64, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr void __cordl_internal_set__minAngleY(float_t value);
-
-  constexpr float_t& __cordl_internal_get__maxAngleY();
-
-  constexpr float_t const& __cordl_internal_get__maxAngleY() const;
-
-  constexpr void __cordl_internal_set__maxAngleY(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__activeObjectWhenInsideSafeArea();
+  /// @brief Method Update, addr 0x24a5c3c, size 0x1ec, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenInsideSafeArea() const;
 
-  constexpr void __cordl_internal_set__activeObjectWhenInsideSafeArea(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__activeObjectWhenNotInsideSafeArea();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__activeObjectWhenInsideSafeArea();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenNotInsideSafeArea() const;
 
-  constexpr void __cordl_internal_set__activeObjectWhenNotInsideSafeArea(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransformToCheck();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransformToCheck() const;
-
-  constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__corners();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__activeObjectWhenNotInsideSafeArea();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__corners() const;
 
-  constexpr void __cordl_internal_set__corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
-
-  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
-
-  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__corners();
 
   constexpr ::GlobalNamespace::__SafeAreaRectChecker__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SafeAreaRectChecker__InitData*> const& __cordl_internal_get__initData() const;
 
+  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
+
+  constexpr float_t const& __cordl_internal_get__maxAngleX() const;
+
+  constexpr float_t& __cordl_internal_get__maxAngleX();
+
+  constexpr float_t const& __cordl_internal_get__maxAngleY() const;
+
+  constexpr float_t& __cordl_internal_get__maxAngleY();
+
+  constexpr float_t const& __cordl_internal_get__minAngleX() const;
+
+  constexpr float_t& __cordl_internal_get__minAngleX();
+
+  constexpr float_t const& __cordl_internal_get__minAngleY() const;
+
+  constexpr float_t& __cordl_internal_get__minAngleY();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransformToCheck() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransformToCheck();
+
+  constexpr void __cordl_internal_set__activeObjectWhenInsideSafeArea(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__activeObjectWhenNotInsideSafeArea(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SafeAreaRectChecker__InitData* value);
 
-  /// @brief Method Start, addr 0x23d7c90, size 0x64, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
-  /// @brief Method Update, addr 0x23d7cf4, size 0x1ec, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__maxAngleX(float_t value);
 
-  static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
+  constexpr void __cordl_internal_set__maxAngleY(float_t value);
 
-  /// @brief Method .ctor, addr 0x23d7ee0, size 0x64, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__minAngleX(float_t value);
+
+  constexpr void __cordl_internal_set__minAngleY(float_t value);
+
+  constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
+
+  /// @brief Method .ctor, addr 0x24a5e28, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeAreaRectChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeAreaRectChecker(SafeAreaRectChecker&&) = delete;
@@ -204,12 +206,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeAreaRectChecker(SafeAreaRectChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeAreaRectChecker();
-
-public:
   /// @brief Field _minAngleX, offset: 0x18, size: 0x4, def value: None
   float_t ____minAngleX;
 

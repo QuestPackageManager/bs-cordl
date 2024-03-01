@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EDualAnalogWhich);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8539))
 // CS Name: ::OVR.OpenVR::EDualAnalogWhich
 struct CORDL_TYPE EDualAnalogWhich {
 public:
@@ -34,12 +32,17 @@ public:
     return static_cast<__EDualAnalogWhich_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EDualAnalogWhich(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EDualAnalogWhich();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EDualAnalogWhich(int32_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;

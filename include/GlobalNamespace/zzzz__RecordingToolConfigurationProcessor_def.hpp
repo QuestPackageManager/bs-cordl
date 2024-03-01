@@ -88,44 +88,48 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolConfigurationProcessor__Recordi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5229))
 // CS Name: ::RecordingToolConfigurationProcessor::ColorSaveData*
 class CORDL_TYPE __RecordingToolConfigurationProcessor__ColorSaveData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field r, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
+  /// @brief Field b, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
   /// @brief Field g, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) float_t g;
 
-  /// @brief Field b, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
-
-  constexpr float_t& __cordl_internal_get_r();
-
-  constexpr float_t const& __cordl_internal_get_r() const;
-
-  constexpr void __cordl_internal_set_r(float_t value);
-
-  constexpr float_t& __cordl_internal_get_g();
-
-  constexpr float_t const& __cordl_internal_get_g() const;
-
-  constexpr void __cordl_internal_set_g(float_t value);
-
-  constexpr float_t& __cordl_internal_get_b();
-
-  constexpr float_t const& __cordl_internal_get_b() const;
-
-  constexpr void __cordl_internal_set_b(float_t value);
+  /// @brief Field r, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
 
   static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2335408, size 0x8, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_b() const;
+
+  constexpr float_t& __cordl_internal_get_b();
+
+  constexpr float_t const& __cordl_internal_get_g() const;
+
+  constexpr float_t& __cordl_internal_get_g();
+
+  constexpr float_t const& __cordl_internal_get_r() const;
+
+  constexpr float_t& __cordl_internal_get_r();
+
+  constexpr void __cordl_internal_set_b(float_t value);
+
+  constexpr void __cordl_internal_set_g(float_t value);
+
+  constexpr void __cordl_internal_set_r(float_t value);
+
+  /// @brief Method .ctor, addr 0x2404350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordingToolConfigurationProcessor__ColorSaveData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingToolConfigurationProcessor__ColorSaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordingToolConfigurationProcessor__ColorSaveData(__RecordingToolConfigurationProcessor__ColorSaveData&&) = delete;
@@ -134,12 +138,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordingToolConfigurationProcessor__ColorSaveData(__RecordingToolConfigurationProcessor__ColorSaveData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordingToolConfigurationProcessor__ColorSaveData();
-
-public:
   /// @brief Field r, offset: 0x10, size: 0x4, def value: None
   float_t ___r;
 
@@ -165,62 +163,66 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5230))
 // CS Name: ::RecordingToolConfigurationProcessor::PlaybackScreenshot*
 class CORDL_TYPE __RecordingToolConfigurationProcessor__PlaybackScreenshot : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field backgroundColor, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_backgroundColor, put = __cordl_internal_set_backgroundColor))::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* backgroundColor;
+
+  /// @brief Field excludedLayers, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_excludedLayers, put = __cordl_internal_set_excludedLayers))::ArrayW<::StringW, ::Array<::StringW>*> excludedLayers;
+
+  /// @brief Field includedLayers, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_includedLayers, put = __cordl_internal_set_includedLayers))::ArrayW<::StringW, ::Array<::StringW>*> includedLayers;
+
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
 
-  /// @brief Field includedLayers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_includedLayers, put = __cordl_internal_set_includedLayers))::ArrayW<::StringW, ::Array<::StringW>*> includedLayers;
-
-  /// @brief Field excludedLayers, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedLayers, put = __cordl_internal_set_excludedLayers))::ArrayW<::StringW, ::Array<::StringW>*> excludedLayers;
-
-  /// @brief Field backgroundColor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_backgroundColor, put = __cordl_internal_set_backgroundColor))::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* backgroundColor;
-
-  constexpr ::StringW& __cordl_internal_get_name();
-
-  constexpr ::StringW const& __cordl_internal_get_name() const;
-
-  constexpr void __cordl_internal_set_name(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_type();
-
-  constexpr ::StringW const& __cordl_internal_get_type() const;
-
-  constexpr void __cordl_internal_set_type(::StringW value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_includedLayers();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_includedLayers() const;
-
-  constexpr void __cordl_internal_set_includedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_excludedLayers();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_excludedLayers() const;
-
-  constexpr void __cordl_internal_set_excludedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot* New_ctor();
 
   constexpr ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*& __cordl_internal_get_backgroundColor();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*> const& __cordl_internal_get_backgroundColor() const;
 
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_excludedLayers() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_excludedLayers();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_includedLayers() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_includedLayers();
+
+  constexpr ::StringW const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_name();
+
+  constexpr ::StringW const& __cordl_internal_get_type() const;
+
+  constexpr ::StringW& __cordl_internal_get_type();
+
   constexpr void __cordl_internal_set_backgroundColor(::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* value);
 
-  static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot* New_ctor();
+  constexpr void __cordl_internal_set_excludedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2335410, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_includedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_name(::StringW value);
+
+  constexpr void __cordl_internal_set_type(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2404358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordingToolConfigurationProcessor__PlaybackScreenshot();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingToolConfigurationProcessor__PlaybackScreenshot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordingToolConfigurationProcessor__PlaybackScreenshot(__RecordingToolConfigurationProcessor__PlaybackScreenshot&&) = delete;
@@ -229,12 +231,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordingToolConfigurationProcessor__PlaybackScreenshot(__RecordingToolConfigurationProcessor__PlaybackScreenshot const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordingToolConfigurationProcessor__PlaybackScreenshot();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -270,8 +266,6 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5231))
 // CS Name: ::RecordingToolConfigurationProcessor::RecordingToolConfiguration*
 class CORDL_TYPE __RecordingToolConfigurationProcessor__RecordingToolConfiguration : public ::System::Object {
 public:
@@ -281,21 +275,27 @@ public:
                       put = __cordl_internal_set_recordingConfigurations))::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*,
                                                                                    ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> recordingConfigurations;
 
-  constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*>&
-  __cordl_internal_get_recordingConfigurations();
+  static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* New_ctor();
 
   constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*,
                      ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> const&
   __cordl_internal_get_recordingConfigurations() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*>&
+  __cordl_internal_get_recordingConfigurations();
+
   constexpr void __cordl_internal_set_recordingConfigurations(
       ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> value);
 
-  static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2333870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24027b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordingToolConfigurationProcessor__RecordingToolConfiguration();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingToolConfigurationProcessor__RecordingToolConfiguration", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordingToolConfigurationProcessor__RecordingToolConfiguration(__RecordingToolConfigurationProcessor__RecordingToolConfiguration&&) = delete;
@@ -304,12 +304,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordingToolConfigurationProcessor__RecordingToolConfiguration(__RecordingToolConfigurationProcessor__RecordingToolConfiguration const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordingToolConfigurationProcessor__RecordingToolConfiguration();
-
-public:
   /// @brief Field recordingConfigurations, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*>
       ___recordingConfigurations;
@@ -326,29 +320,50 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
 // CS Name: ::RecordingToolConfigurationProcessor::RecordingConfiguration*
 class CORDL_TYPE __RecordingToolConfigurationProcessor__RecordingConfiguration : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field mode, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::StringW mode;
+  /// @brief Field addDateTimeSuffixToRecordingName, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get_addDateTimeSuffixToRecordingName, put = __cordl_internal_set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
 
-  /// @brief Field packID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_packID, put = __cordl_internal_set_packID))::StringW packID;
-
-  /// @brief Field levelID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelID, put = __cordl_internal_set_levelID))::StringW levelID;
-
-  /// @brief Field difficulty, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::StringW difficulty;
+  /// @brief Field cameraView, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView))::StringW cameraView;
 
   /// @brief Field characteristic, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::StringW characteristic;
 
-  /// @brief Field runLevel, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_runLevel, put = __cordl_internal_set_runLevel)) bool runLevel;
+  /// @brief Field difficulty, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::StringW difficulty;
+
+  /// @brief Field environmentName, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName))::StringW environmentName;
+
+  /// @brief Field environmentType, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::StringW environmentType;
+
+  /// @brief Field framerate, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
+
+  /// @brief Field levelID, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_levelID, put = __cordl_internal_set_levelID))::StringW levelID;
+
+  /// @brief Field mode, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::StringW mode;
+
+  /// @brief Field overrideEnvironments, offset 0x7c, size 0x1
+  __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
+
+  /// @brief Field packID, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_packID, put = __cordl_internal_set_packID))::StringW packID;
+
+  /// @brief Field playbackScreenshots, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_playbackScreenshots,
+                      put = __cordl_internal_set_playbackScreenshots))::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*,
+                                                                               ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> playbackScreenshots;
+
+  /// @brief Field practice, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
 
   /// @brief Field recordPerformance, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_recordPerformance, put = __cordl_internal_set_recordPerformance)) bool recordPerformance;
@@ -359,11 +374,14 @@ public:
   /// @brief Field recordingPath, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_recordingPath, put = __cordl_internal_set_recordingPath))::StringW recordingPath;
 
-  /// @brief Field cameraView, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView))::StringW cameraView;
+  /// @brief Field runLevel, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_runLevel, put = __cordl_internal_set_runLevel)) bool runLevel;
 
-  /// @brief Field addDateTimeSuffixToRecordingName, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_addDateTimeSuffixToRecordingName, put = __cordl_internal_set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
+  /// @brief Field saveToOldFormat, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get_saveToOldFormat, put = __cordl_internal_set_saveToOldFormat)) bool saveToOldFormat;
+
+  /// @brief Field screenshotHeight, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_screenshotHeight, put = __cordl_internal_set_screenshotHeight)) int32_t screenshotHeight;
 
   /// @brief Field screenshotRecording, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get_screenshotRecording, put = __cordl_internal_set_screenshotRecording)) bool screenshotRecording;
@@ -371,184 +389,164 @@ public:
   /// @brief Field screenshotWidth, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_screenshotWidth, put = __cordl_internal_set_screenshotWidth)) int32_t screenshotWidth;
 
-  /// @brief Field screenshotHeight, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_screenshotHeight, put = __cordl_internal_set_screenshotHeight)) int32_t screenshotHeight;
-
-  /// @brief Field framerate, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
-
-  /// @brief Field playbackScreenshots, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_playbackScreenshots,
-                      put = __cordl_internal_set_playbackScreenshots))::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*,
-                                                                               ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> playbackScreenshots;
-
-  /// @brief Field practice, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get_practice, put = __cordl_internal_set_practice)) bool practice;
+  /// @brief Field songSpeedMultiplier, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_songSpeedMultiplier, put = __cordl_internal_set_songSpeedMultiplier)) float_t songSpeedMultiplier;
 
   /// @brief Field startSongTime, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_startSongTime, put = __cordl_internal_set_startSongTime)) float_t startSongTime;
 
-  /// @brief Field songSpeedMultiplier, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_songSpeedMultiplier, put = __cordl_internal_set_songSpeedMultiplier)) float_t songSpeedMultiplier;
-
-  /// @brief Field overrideEnvironments, offset 0x7c, size 0x1
-  __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
-
-  /// @brief Field environmentType, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentType, put = __cordl_internal_set_environmentType))::StringW environmentType;
-
-  /// @brief Field environmentName, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName))::StringW environmentName;
-
-  /// @brief Field saveToOldFormat, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get_saveToOldFormat, put = __cordl_internal_set_saveToOldFormat)) bool saveToOldFormat;
-
-  constexpr ::StringW& __cordl_internal_get_mode();
-
-  constexpr ::StringW const& __cordl_internal_get_mode() const;
-
-  constexpr void __cordl_internal_set_mode(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_packID();
-
-  constexpr ::StringW const& __cordl_internal_get_packID() const;
-
-  constexpr void __cordl_internal_set_packID(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_levelID();
-
-  constexpr ::StringW const& __cordl_internal_get_levelID() const;
-
-  constexpr void __cordl_internal_set_levelID(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_difficulty();
-
-  constexpr ::StringW const& __cordl_internal_get_difficulty() const;
-
-  constexpr void __cordl_internal_set_difficulty(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_characteristic();
-
-  constexpr ::StringW const& __cordl_internal_get_characteristic() const;
-
-  constexpr void __cordl_internal_set_characteristic(::StringW value);
-
-  constexpr bool& __cordl_internal_get_runLevel();
-
-  constexpr bool const& __cordl_internal_get_runLevel() const;
-
-  constexpr void __cordl_internal_set_runLevel(bool value);
-
-  constexpr bool& __cordl_internal_get_recordPerformance();
-
-  constexpr bool const& __cordl_internal_get_recordPerformance() const;
-
-  constexpr void __cordl_internal_set_recordPerformance(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_recordingMode();
-
-  constexpr ::StringW const& __cordl_internal_get_recordingMode() const;
-
-  constexpr void __cordl_internal_set_recordingMode(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_recordingPath();
-
-  constexpr ::StringW const& __cordl_internal_get_recordingPath() const;
-
-  constexpr void __cordl_internal_set_recordingPath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_cameraView();
-
-  constexpr ::StringW const& __cordl_internal_get_cameraView() const;
-
-  constexpr void __cordl_internal_set_cameraView(::StringW value);
-
-  constexpr bool& __cordl_internal_get_addDateTimeSuffixToRecordingName();
+  static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration* New_ctor();
 
   constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
 
-  constexpr void __cordl_internal_set_addDateTimeSuffixToRecordingName(bool value);
+  constexpr bool& __cordl_internal_get_addDateTimeSuffixToRecordingName();
 
-  constexpr bool& __cordl_internal_get_screenshotRecording();
+  constexpr ::StringW const& __cordl_internal_get_cameraView() const;
 
-  constexpr bool const& __cordl_internal_get_screenshotRecording() const;
+  constexpr ::StringW& __cordl_internal_get_cameraView();
 
-  constexpr void __cordl_internal_set_screenshotRecording(bool value);
+  constexpr ::StringW const& __cordl_internal_get_characteristic() const;
 
-  constexpr int32_t& __cordl_internal_get_screenshotWidth();
+  constexpr ::StringW& __cordl_internal_get_characteristic();
 
-  constexpr int32_t const& __cordl_internal_get_screenshotWidth() const;
+  constexpr ::StringW const& __cordl_internal_get_difficulty() const;
 
-  constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
+  constexpr ::StringW& __cordl_internal_get_difficulty();
 
-  constexpr int32_t& __cordl_internal_get_screenshotHeight();
+  constexpr ::StringW const& __cordl_internal_get_environmentName() const;
 
-  constexpr int32_t const& __cordl_internal_get_screenshotHeight() const;
+  constexpr ::StringW& __cordl_internal_get_environmentName();
 
-  constexpr void __cordl_internal_set_screenshotHeight(int32_t value);
+  constexpr ::StringW const& __cordl_internal_get_environmentType() const;
 
-  constexpr int32_t& __cordl_internal_get_framerate();
+  constexpr ::StringW& __cordl_internal_get_environmentType();
 
   constexpr int32_t const& __cordl_internal_get_framerate() const;
 
-  constexpr void __cordl_internal_set_framerate(int32_t value);
+  constexpr int32_t& __cordl_internal_get_framerate();
 
-  constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*>&
-  __cordl_internal_get_playbackScreenshots();
+  constexpr ::StringW const& __cordl_internal_get_levelID() const;
+
+  constexpr ::StringW& __cordl_internal_get_levelID();
+
+  constexpr ::StringW const& __cordl_internal_get_mode() const;
+
+  constexpr ::StringW& __cordl_internal_get_mode();
+
+  constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
+
+  constexpr bool& __cordl_internal_get_overrideEnvironments();
+
+  constexpr ::StringW const& __cordl_internal_get_packID() const;
+
+  constexpr ::StringW& __cordl_internal_get_packID();
 
   constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> const&
   __cordl_internal_get_playbackScreenshots() const;
 
-  constexpr void __cordl_internal_set_playbackScreenshots(
-      ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> value);
-
-  constexpr bool& __cordl_internal_get_practice();
+  constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*>&
+  __cordl_internal_get_playbackScreenshots();
 
   constexpr bool const& __cordl_internal_get_practice() const;
 
-  constexpr void __cordl_internal_set_practice(bool value);
+  constexpr bool& __cordl_internal_get_practice();
 
-  constexpr float_t& __cordl_internal_get_startSongTime();
+  constexpr bool const& __cordl_internal_get_recordPerformance() const;
 
-  constexpr float_t const& __cordl_internal_get_startSongTime() const;
+  constexpr bool& __cordl_internal_get_recordPerformance();
 
-  constexpr void __cordl_internal_set_startSongTime(float_t value);
+  constexpr ::StringW const& __cordl_internal_get_recordingMode() const;
 
-  constexpr float_t& __cordl_internal_get_songSpeedMultiplier();
+  constexpr ::StringW& __cordl_internal_get_recordingMode();
 
-  constexpr float_t const& __cordl_internal_get_songSpeedMultiplier() const;
+  constexpr ::StringW const& __cordl_internal_get_recordingPath() const;
 
-  constexpr void __cordl_internal_set_songSpeedMultiplier(float_t value);
+  constexpr ::StringW& __cordl_internal_get_recordingPath();
 
-  constexpr bool& __cordl_internal_get_overrideEnvironments();
+  constexpr bool const& __cordl_internal_get_runLevel() const;
 
-  constexpr bool const& __cordl_internal_get_overrideEnvironments() const;
-
-  constexpr void __cordl_internal_set_overrideEnvironments(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_environmentType();
-
-  constexpr ::StringW const& __cordl_internal_get_environmentType() const;
-
-  constexpr void __cordl_internal_set_environmentType(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_environmentName();
-
-  constexpr ::StringW const& __cordl_internal_get_environmentName() const;
-
-  constexpr void __cordl_internal_set_environmentName(::StringW value);
-
-  constexpr bool& __cordl_internal_get_saveToOldFormat();
+  constexpr bool& __cordl_internal_get_runLevel();
 
   constexpr bool const& __cordl_internal_get_saveToOldFormat() const;
 
+  constexpr bool& __cordl_internal_get_saveToOldFormat();
+
+  constexpr int32_t const& __cordl_internal_get_screenshotHeight() const;
+
+  constexpr int32_t& __cordl_internal_get_screenshotHeight();
+
+  constexpr bool const& __cordl_internal_get_screenshotRecording() const;
+
+  constexpr bool& __cordl_internal_get_screenshotRecording();
+
+  constexpr int32_t const& __cordl_internal_get_screenshotWidth() const;
+
+  constexpr int32_t& __cordl_internal_get_screenshotWidth();
+
+  constexpr float_t const& __cordl_internal_get_songSpeedMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get_songSpeedMultiplier();
+
+  constexpr float_t const& __cordl_internal_get_startSongTime() const;
+
+  constexpr float_t& __cordl_internal_get_startSongTime();
+
+  constexpr void __cordl_internal_set_addDateTimeSuffixToRecordingName(bool value);
+
+  constexpr void __cordl_internal_set_cameraView(::StringW value);
+
+  constexpr void __cordl_internal_set_characteristic(::StringW value);
+
+  constexpr void __cordl_internal_set_difficulty(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentName(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentType(::StringW value);
+
+  constexpr void __cordl_internal_set_framerate(int32_t value);
+
+  constexpr void __cordl_internal_set_levelID(::StringW value);
+
+  constexpr void __cordl_internal_set_mode(::StringW value);
+
+  constexpr void __cordl_internal_set_overrideEnvironments(bool value);
+
+  constexpr void __cordl_internal_set_packID(::StringW value);
+
+  constexpr void __cordl_internal_set_playbackScreenshots(
+      ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> value);
+
+  constexpr void __cordl_internal_set_practice(bool value);
+
+  constexpr void __cordl_internal_set_recordPerformance(bool value);
+
+  constexpr void __cordl_internal_set_recordingMode(::StringW value);
+
+  constexpr void __cordl_internal_set_recordingPath(::StringW value);
+
+  constexpr void __cordl_internal_set_runLevel(bool value);
+
   constexpr void __cordl_internal_set_saveToOldFormat(bool value);
 
-  static inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration* New_ctor();
+  constexpr void __cordl_internal_set_screenshotHeight(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2335418, size 0xa0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_screenshotRecording(bool value);
+
+  constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
+
+  constexpr void __cordl_internal_set_songSpeedMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set_startSongTime(float_t value);
+
+  /// @brief Method .ctor, addr 0x2404360, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __RecordingToolConfigurationProcessor__RecordingConfiguration();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingToolConfigurationProcessor__RecordingConfiguration", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __RecordingToolConfigurationProcessor__RecordingConfiguration(__RecordingToolConfigurationProcessor__RecordingConfiguration&&) = delete;
@@ -557,12 +555,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordingToolConfigurationProcessor__RecordingConfiguration(__RecordingToolConfigurationProcessor__RecordingConfiguration const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RecordingToolConfigurationProcessor__RecordingConfiguration();
-
-public:
   /// @brief Field mode, offset: 0x10, size: 0x8, def value: None
   ::StringW ___mode;
 
@@ -689,22 +681,23 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolConfigurationProcessor_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5233))
 // CS Name: ::RecordingToolConfigurationProcessor*
 class CORDL_TYPE RecordingToolConfigurationProcessor : public ::System::Object {
 public:
   // Declarations
+  using ColorSaveData = ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData;
+
+  using PlaybackScreenshot = ::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot;
+
   using RecordingConfiguration = ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration;
 
   using RecordingToolConfiguration = ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration;
 
-  using PlaybackScreenshot = ::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot;
+  /// @brief Field _beatmapLevelsModel, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
 
-  using ColorSaveData = ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData;
-
-  /// @brief Field _programArguments, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__programArguments, put = __cordl_internal_set__programArguments))::GlobalNamespace::ProgramArguments* _programArguments;
+  /// @brief Field _environmentListModel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentListModel, put = __cordl_internal_set__environmentListModel))::GlobalNamespace::EnvironmentsListModel* _environmentListModel;
 
   /// @brief Field _logger, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
@@ -712,89 +705,92 @@ public:
   /// @brief Field _posesSerializer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
-  /// @brief Field _environmentListModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentListModel, put = __cordl_internal_set__environmentListModel))::GlobalNamespace::EnvironmentsListModel* _environmentListModel;
+  /// @brief Field _programArguments, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__programArguments, put = __cordl_internal_set__programArguments))::GlobalNamespace::ProgramArguments* _programArguments;
 
-  /// @brief Field _beatmapLevelsModel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x2403fc0, size 0x390, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  constexpr ::GlobalNamespace::ProgramArguments*& __cordl_internal_get__programArguments();
+  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x2403eb4, size 0x10c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ProgramArguments*> const& __cordl_internal_get__programArguments() const;
+  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x2402bf0, size 0x1148, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::RecordingToolSettings*
+  CreateRecordingToolSettingsFromConfiguration(::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* recordingToolConfiguration,
+                                               ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  constexpr void __cordl_internal_set__programArguments(::GlobalNamespace::ProgramArguments* value);
+  /// @brief Method DeserializeConfigurationFile, addr 0x240255c, size 0x25c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* DeserializeConfigurationFile(::StringW jsonData);
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
+  /// @brief Method GetConfigFilePath, addr 0x2402004, size 0x3e0, virtual false, abstract: false, final false
+  inline ::StringW GetConfigFilePath();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
+  /// @brief Method GetDefaultMrcLayersMask, addr 0x24027dc, size 0x94, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
 
-  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+  /// @brief Method GetLayerMask, addr 0x2402870, size 0x208, virtual false, abstract: false, final false
+  inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get__posesSerializer();
+  /// @brief Method GetLayersMask, addr 0x2402a78, size 0xac, virtual false, abstract: false, final false
+  inline ::UnityEngine::LayerMask GetLayersMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get__posesSerializer() const;
+  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x2402b24, size 0xcc, virtual false, abstract: false, final false
+  static inline ::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*>
+  GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
+  /// @brief Method IsRecordingToolEnabled, addr 0x2401f98, size 0x6c, virtual false, abstract: false, final false
+  inline bool IsRecordingToolEnabled();
 
-  constexpr ::GlobalNamespace::EnvironmentsListModel*& __cordl_internal_get__environmentListModel();
+  /// @brief Method LoadConfiguration, addr 0x24027c0, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* LoadConfiguration(::StringW filePath);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListModel*> const& __cordl_internal_get__environmentListModel() const;
-
-  constexpr void __cordl_internal_set__environmentListModel(::GlobalNamespace::EnvironmentsListModel* value);
-
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
-
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  /// @brief Method LoadConfigurationFile, addr 0x24023e4, size 0x178, virtual false, abstract: false, final false
+  inline ::StringW LoadConfigurationFile(::StringW filePath);
 
   static inline ::GlobalNamespace::RecordingToolConfigurationProcessor* New_ctor(::GlobalNamespace::ProgramArguments* programArguments, ::GlobalNamespace::IBeatSaberLogger* logger,
                                                                                  ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::EnvironmentsListModel* environmentListModel,
                                                                                  ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method .ctor, addr 0x2333000, size 0x50, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
+
+  constexpr ::GlobalNamespace::EnvironmentsListModel*& __cordl_internal_get__environmentListModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListModel*> const& __cordl_internal_get__environmentListModel() const;
+
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
+
+  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get__posesSerializer();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get__posesSerializer() const;
+
+  constexpr ::GlobalNamespace::ProgramArguments*& __cordl_internal_get__programArguments();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ProgramArguments*> const& __cordl_internal_get__programArguments() const;
+
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+
+  constexpr void __cordl_internal_set__environmentListModel(::GlobalNamespace::EnvironmentsListModel* value);
+
+  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+
+  constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
+
+  constexpr void __cordl_internal_set__programArguments(::GlobalNamespace::ProgramArguments* value);
+
+  /// @brief Method .ctor, addr 0x2401f48, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ProgramArguments* programArguments, ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer,
                     ::GlobalNamespace::EnvironmentsListModel* environmentListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method IsRecordingToolEnabled, addr 0x2333050, size 0x6c, virtual false, abstract: false, final false
-  inline bool IsRecordingToolEnabled();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordingToolConfigurationProcessor();
 
-  /// @brief Method GetConfigFilePath, addr 0x23330bc, size 0x3e0, virtual false, abstract: false, final false
-  inline ::StringW GetConfigFilePath();
-
-  /// @brief Method LoadConfigurationFile, addr 0x233349c, size 0x178, virtual false, abstract: false, final false
-  inline ::StringW LoadConfigurationFile(::StringW filePath);
-
-  /// @brief Method DeserializeConfigurationFile, addr 0x2333614, size 0x25c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* DeserializeConfigurationFile(::StringW jsonData);
-
-  /// @brief Method LoadConfiguration, addr 0x2333878, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* LoadConfiguration(::StringW filePath);
-
-  /// @brief Method GetDefaultMrcLayersMask, addr 0x2333894, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
-
-  /// @brief Method GetLayerMask, addr 0x2333928, size 0x208, virtual false, abstract: false, final false
-  inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
-
-  /// @brief Method GetLayersMask, addr 0x2333b30, size 0xac, virtual false, abstract: false, final false
-  inline ::UnityEngine::LayerMask GetLayersMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
-
-  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x2333bdc, size 0xcc, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*>
-  GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
-
-  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x2333ca8, size 0x1148, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::RecordingToolSettings*
-  CreateRecordingToolSettingsFromConfiguration(::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* recordingToolConfiguration,
-                                               ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
-
-  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x2334f6c, size 0x10c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings);
-
-  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x2335078, size 0x390, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolConfigurationProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolConfigurationProcessor(RecordingToolConfigurationProcessor&&) = delete;
@@ -803,12 +799,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingToolConfigurationProcessor(RecordingToolConfigurationProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolConfigurationProcessor();
-
-public:
   /// @brief Field _programArguments, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ProgramArguments* ____programArguments;
 
@@ -824,26 +814,26 @@ public:
   /// @brief Field _beatmapLevelsModel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
 
+  /// @brief Field kDefaultMrcLayersMask offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDefaultMrcLayersMask{ u"DefaultMrcLayers" };
+
+  /// @brief Field kEverythingLayerMask offset 0xffffffff size 0x8
+  static constexpr ::ConstString kEverythingLayerMask{ u"Everything" };
+
+  /// @brief Field kNormalEnvironmentNameSuffix offset 0xffffffff size 0x8
+  static constexpr ::ConstString kNormalEnvironmentNameSuffix{ u"Environment" };
+
+  /// @brief Field kNormalEnvironmentType offset 0xffffffff size 0x8
+  static constexpr ::ConstString kNormalEnvironmentType{ u"Normal" };
+
+  /// @brief Field kNothingLayerMask offset 0xffffffff size 0x8
+  static constexpr ::ConstString kNothingLayerMask{ u"Nothing" };
+
   /// @brief Field kRecordingToolCommandLineArgument offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolCommandLineArgument{ u"--enable_recording_tool" };
 
   /// @brief Field kSoloMode offset 0xffffffff size 0x8
   static constexpr ::ConstString kSoloMode{ u"Solo" };
-
-  /// @brief Field kNormalEnvironmentType offset 0xffffffff size 0x8
-  static constexpr ::ConstString kNormalEnvironmentType{ u"Normal" };
-
-  /// @brief Field kNormalEnvironmentNameSuffix offset 0xffffffff size 0x8
-  static constexpr ::ConstString kNormalEnvironmentNameSuffix{ u"Environment" };
-
-  /// @brief Field kEverythingLayerMask offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEverythingLayerMask{ u"Everything" };
-
-  /// @brief Field kNothingLayerMask offset 0xffffffff size 0x8
-  static constexpr ::ConstString kNothingLayerMask{ u"Nothing" };
-
-  /// @brief Field kDefaultMrcLayersMask offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDefaultMrcLayersMask{ u"DefaultMrcLayers" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

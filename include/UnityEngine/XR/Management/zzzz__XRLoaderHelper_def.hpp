@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoaderHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16153))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16154))
 // CS Name: ::UnityEngine.XR.Management::XRLoaderHelper*
 class CORDL_TYPE XRLoaderHelper : public ::UnityEngine::XR::Management::XRLoader {
 public:
@@ -37,14 +35,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_SubsystemInstanceMap,
                       put = __cordl_internal_set_m_SubsystemInstanceMap))::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* m_SubsystemInstanceMap;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*& __cordl_internal_get_m_SubsystemInstanceMap();
+  /// @brief Method CreateIntegratedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDescriptor, typename TSubsystem> inline void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*> const& __cordl_internal_get_m_SubsystemInstanceMap() const;
+  /// @brief Method CreateStandaloneSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDescriptor, typename TSubsystem> inline void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
+  /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+
+  /// @brief Method Deinitialize, addr 0x2d5c154, size 0x58, virtual true, abstract: false, final false
+  inline bool Deinitialize();
+
+  /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline void DestroySubsystem();
 
   /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline T GetLoadedSubsystem();
+
+  static inline ::UnityEngine::XR::Management::XRLoaderHelper* New_ctor();
 
   /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StartSubsystem();
@@ -52,26 +61,21 @@ public:
   /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StopSubsystem();
 
-  /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void DestroySubsystem();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*& __cordl_internal_get_m_SubsystemInstanceMap();
 
-  /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*> const& __cordl_internal_get_m_SubsystemInstanceMap() const;
 
-  /// @brief Method CreateIntegratedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
+  constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
-  /// @brief Method CreateStandaloneSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TDescriptor, typename TSubsystem> inline void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
-
-  /// @brief Method Deinitialize, addr 0x2c73080, size 0x58, virtual true, abstract: false, final false
-  inline bool Deinitialize();
-
-  static inline ::UnityEngine::XR::Management::XRLoaderHelper* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c730d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d5c1ac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRLoaderHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRLoaderHelper(XRLoaderHelper&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRLoaderHelper(XRLoaderHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRLoaderHelper();
-
-public:
   /// @brief Field m_SubsystemInstanceMap, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* ___m_SubsystemInstanceMap;
 

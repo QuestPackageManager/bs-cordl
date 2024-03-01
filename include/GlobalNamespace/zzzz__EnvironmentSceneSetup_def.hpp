@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5306))
 // CS Name: ::EnvironmentSceneSetup*
 class CORDL_TYPE EnvironmentSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -30,24 +28,30 @@ public:
   /// @brief Field trackLaneYPositionPropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_trackLaneYPositionPropertyId, put = setStaticF_trackLaneYPositionPropertyId)) int32_t trackLaneYPositionPropertyId;
 
+  /// @brief Method InstallBindings, addr 0x2412990, size 0x168, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::EnvironmentSceneSetup* New_ctor();
+
   constexpr ::GlobalNamespace::EnvironmentSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData* value);
 
-  static inline void setStaticF_trackLaneYPositionPropertyId(int32_t value);
+  /// @brief Method .ctor, addr 0x2412af8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF_trackLaneYPositionPropertyId();
 
-  /// @brief Method InstallBindings, addr 0x2343a48, size 0x168, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  static inline void setStaticF_trackLaneYPositionPropertyId(int32_t value);
 
-  static inline ::GlobalNamespace::EnvironmentSceneSetup* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentSceneSetup();
 
-  /// @brief Method .ctor, addr 0x2343bb0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentSceneSetup(EnvironmentSceneSetup&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentSceneSetup(EnvironmentSceneSetup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentSceneSetup();
-
-public:
   /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSceneSetupData* ____sceneSetupData;
 

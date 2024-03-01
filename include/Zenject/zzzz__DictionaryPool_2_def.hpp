@@ -20,33 +20,37 @@ namespace Zenject {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3823)), TypeDefinitionIndex(TypeDefinitionIndex(10228)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3823), inst:
-// 1169 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10228), inst: 2772 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10237)) CS Name:
-// ::Zenject::DictionaryPool`2<TKey,TValue>*
+// CS Name: ::Zenject::DictionaryPool`2<TKey,TValue>*
 class CORDL_TYPE DictionaryPool_2 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> {
 public:
   // Declarations
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::Zenject::DictionaryPool_2<TKey, TValue>* _instance;
 
-  static inline void setStaticF__instance(::Zenject::DictionaryPool_2<TKey, TValue>* value);
-
-  static inline ::Zenject::DictionaryPool_2<TKey, TValue>* getStaticF__instance();
-
   static inline ::Zenject::DictionaryPool_2<TKey, TValue>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::DictionaryPool_2<TKey, TValue>* get_Instance();
-
-  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void OnSpawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items);
 
   /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items);
 
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void OnSpawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Zenject::DictionaryPool_2<TKey, TValue>* getStaticF__instance();
+
+  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::Zenject::DictionaryPool_2<TKey, TValue>* get_Instance();
+
+  static inline void setStaticF__instance(::Zenject::DictionaryPool_2<TKey, TValue>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DictionaryPool_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DictionaryPool_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DictionaryPool_2(DictionaryPool_2&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DictionaryPool_2(DictionaryPool_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DictionaryPool_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

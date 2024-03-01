@@ -18,8 +18,6 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13476))
 // CS Name: ::HMUI::IValueChanger`1<T>*
 class CORDL_TYPE IValueChanger_1 {
 public:

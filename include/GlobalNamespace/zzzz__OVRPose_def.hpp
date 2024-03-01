@@ -29,52 +29,50 @@ MARK_VAL_T(::GlobalNamespace::OVRPose);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7615))
 // CS Name: ::OVRPose
 struct CORDL_TYPE OVRPose {
 public:
   // Declarations
-  /// @brief Method get_identity, addr 0x27451a8, size 0x98, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPose get_identity();
-
-  /// @brief Method Equals, addr 0x2747ab8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x280cbf4, size 0xf8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2747c34, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x280cd70, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2747bb0, size 0x84, virtual false, abstract: false, final false
-  static inline bool op_Equality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
-
-  /// @brief Method op_Inequality, addr 0x2747cdc, size 0x84, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
-
-  /// @brief Method op_Multiply, addr 0x273f5c4, size 0xe4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRPose op_Multiply(::GlobalNamespace::OVRPose lhs, ::GlobalNamespace::OVRPose rhs);
-
-  /// @brief Method Inverse, addr 0x2742d70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x2803350, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose Inverse();
 
-  /// @brief Method flipZ, addr 0x2747d60, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRPose flipZ();
-
-  /// @brief Method ToPosef_Legacy, addr 0x2747d8c, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRPlugin__Posef ToPosef_Legacy();
-
-  /// @brief Method ToPosef, addr 0x2742df4, size 0x28, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRPlugin__Posef ToPosef();
-
-  /// @brief Method Rotate180AlongX, addr 0x2747da8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Rotate180AlongX, addr 0x280cee4, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose Rotate180AlongX();
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "",
-  // def_value: None }]
-  constexpr OVRPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation) noexcept;
+  /// @brief Method ToPosef, addr 0x28033d4, size 0x28, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRPlugin__Posef ToPosef();
+
+  /// @brief Method ToPosef_Legacy, addr 0x280cec8, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRPlugin__Posef ToPosef_Legacy();
+
+  /// @brief Method flipZ, addr 0x280ce9c, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRPose flipZ();
+
+  /// @brief Method get_identity, addr 0x28050fc, size 0x98, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::OVRPose get_identity();
+
+  /// @brief Method op_Equality, addr 0x280ccec, size 0x84, virtual false, abstract: false, final false
+  static inline bool op_Equality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
+
+  /// @brief Method op_Inequality, addr 0x280ce18, size 0x84, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
+
+  /// @brief Method op_Multiply, addr 0x27ffa64, size 0xe4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::OVRPose op_Multiply(::GlobalNamespace::OVRPose lhs, ::GlobalNamespace::OVRPose rhs);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OVRPose();
+
+  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "",
+  // def_value: None }]
+  constexpr OVRPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;

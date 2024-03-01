@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4864))
 // CS Name: ::CountdownController*
 class CORDL_TYPE CountdownController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -37,16 +35,21 @@ public:
   /// @brief Field _audioSource, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
+  /// @brief Field _countdownElementControllerQueue, offset 0x40, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__countdownElementControllerQueue,
+      put = __cordl_internal_set__countdownElementControllerQueue))::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* _countdownElementControllerQueue;
+
   /// @brief Field _countdownElementControllers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__countdownElementControllers,
                       put = __cordl_internal_set__countdownElementControllers))::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>,
                                                                                         ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> _countdownElementControllers;
 
-  /// @brief Field _timeProvider, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::GlobalNamespace::ITimeProvider* _timeProvider;
-
   /// @brief Field _countdownEndTime, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__countdownEndTime, put = __cordl_internal_set__countdownEndTime)) int64_t _countdownEndTime;
+
+  /// @brief Field _countdownRunning, offset 0x3d, size 0x1
+  __declspec(property(get = __cordl_internal_get__countdownRunning, put = __cordl_internal_set__countdownRunning)) bool _countdownRunning;
 
   /// @brief Field _currentRemainingSecond, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__currentRemainingSecond, put = __cordl_internal_set__currentRemainingSecond)) int32_t _currentRemainingSecond;
@@ -54,85 +57,86 @@ public:
   /// @brief Field _gongSounded, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__gongSounded, put = __cordl_internal_set__gongSounded)) bool _gongSounded;
 
-  /// @brief Field _countdownRunning, offset 0x3d, size 0x1
-  __declspec(property(get = __cordl_internal_get__countdownRunning, put = __cordl_internal_set__countdownRunning)) bool _countdownRunning;
+  /// @brief Field _timeProvider, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::GlobalNamespace::ITimeProvider* _timeProvider;
 
-  /// @brief Field _countdownElementControllerQueue, offset 0x40, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__countdownElementControllerQueue,
-      put = __cordl_internal_set__countdownElementControllerQueue))::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* _countdownElementControllerQueue;
+  /// @brief Method Awake, addr 0x23a51b0, size 0x18, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
+  static inline ::GlobalNamespace::CountdownController* New_ctor();
+
+  /// @brief Method StartCountdown, addr 0x23a5408, size 0xf4, virtual false, abstract: false, final false
+  inline void StartCountdown(int64_t countdownEndTime);
+
+  /// @brief Method StopCountdown, addr 0x23a5588, size 0x78, virtual false, abstract: false, final false
+  inline void StopCountdown();
+
+  /// @brief Method Update, addr 0x23a51c8, size 0x1dc, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateCountdown, addr 0x23a5520, size 0x68, virtual false, abstract: false, final false
+  inline void UpdateCountdown(int64_t countdownEndTime);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*>& __cordl_internal_get__countdownElementControllers();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
-  __cordl_internal_get__countdownElementControllers() const;
-
-  constexpr void
-  __cordl_internal_set__countdownElementControllers(::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> value);
-
-  constexpr ::GlobalNamespace::ITimeProvider*& __cordl_internal_get__timeProvider();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
-
-  constexpr void __cordl_internal_set__timeProvider(::GlobalNamespace::ITimeProvider* value);
-
-  constexpr int64_t& __cordl_internal_get__countdownEndTime();
-
-  constexpr int64_t const& __cordl_internal_get__countdownEndTime() const;
-
-  constexpr void __cordl_internal_set__countdownEndTime(int64_t value);
-
-  constexpr int32_t& __cordl_internal_get__currentRemainingSecond();
-
-  constexpr int32_t const& __cordl_internal_get__currentRemainingSecond() const;
-
-  constexpr void __cordl_internal_set__currentRemainingSecond(int32_t value);
-
-  constexpr bool& __cordl_internal_get__gongSounded();
-
-  constexpr bool const& __cordl_internal_get__gongSounded() const;
-
-  constexpr void __cordl_internal_set__gongSounded(bool value);
-
-  constexpr bool& __cordl_internal_get__countdownRunning();
-
-  constexpr bool const& __cordl_internal_get__countdownRunning() const;
-
-  constexpr void __cordl_internal_set__countdownRunning(bool value);
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
   constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*& __cordl_internal_get__countdownElementControllerQueue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
   __cordl_internal_get__countdownElementControllerQueue() const;
 
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
+  __cordl_internal_get__countdownElementControllers() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*>& __cordl_internal_get__countdownElementControllers();
+
+  constexpr int64_t const& __cordl_internal_get__countdownEndTime() const;
+
+  constexpr int64_t& __cordl_internal_get__countdownEndTime();
+
+  constexpr bool const& __cordl_internal_get__countdownRunning() const;
+
+  constexpr bool& __cordl_internal_get__countdownRunning();
+
+  constexpr int32_t const& __cordl_internal_get__currentRemainingSecond() const;
+
+  constexpr int32_t& __cordl_internal_get__currentRemainingSecond();
+
+  constexpr bool const& __cordl_internal_get__gongSounded() const;
+
+  constexpr bool& __cordl_internal_get__gongSounded();
+
+  constexpr ::GlobalNamespace::ITimeProvider*& __cordl_internal_get__timeProvider();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
+
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
+
   constexpr void __cordl_internal_set__countdownElementControllerQueue(::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* value);
 
-  /// @brief Method Awake, addr 0x23fd7e8, size 0x18, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void
+  __cordl_internal_set__countdownElementControllers(::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> value);
 
-  /// @brief Method Update, addr 0x23fd800, size 0x1dc, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__countdownEndTime(int64_t value);
 
-  /// @brief Method StartCountdown, addr 0x23fda40, size 0xf4, virtual false, abstract: false, final false
-  inline void StartCountdown(int64_t countdownEndTime);
+  constexpr void __cordl_internal_set__countdownRunning(bool value);
 
-  /// @brief Method UpdateCountdown, addr 0x23fdb58, size 0x68, virtual false, abstract: false, final false
-  inline void UpdateCountdown(int64_t countdownEndTime);
+  constexpr void __cordl_internal_set__currentRemainingSecond(int32_t value);
 
-  /// @brief Method StopCountdown, addr 0x23fdbc0, size 0x78, virtual false, abstract: false, final false
-  inline void StopCountdown();
+  constexpr void __cordl_internal_set__gongSounded(bool value);
 
-  static inline ::GlobalNamespace::CountdownController* New_ctor();
+  constexpr void __cordl_internal_set__timeProvider(::GlobalNamespace::ITimeProvider* value);
 
-  /// @brief Method .ctor, addr 0x23fdc38, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a5600, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CountdownController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CountdownController(CountdownController&&) = delete;
@@ -141,12 +145,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CountdownController(CountdownController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CountdownController();
-
-public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 

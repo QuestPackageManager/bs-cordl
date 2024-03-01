@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::IntersectionMaskRectangle_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8652))
 // CS Name: ::OVR.OpenVR::IntersectionMaskRectangle_t
 struct CORDL_TYPE IntersectionMaskRectangle_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_flTopLeftX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flTopLeftY", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_flWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flHeight", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr IntersectionMaskRectangle_t(float_t m_flTopLeftX, float_t m_flTopLeftY, float_t m_flWidth, float_t m_flHeight) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr IntersectionMaskRectangle_t();
+
+  // Ctor Parameters [CppParam { name: "m_flTopLeftX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flTopLeftY", ty: "float_t", modifiers: "", def_value: None }, CppParam {
+  // name: "m_flWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flHeight", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr IntersectionMaskRectangle_t(float_t m_flTopLeftX, float_t m_flTopLeftY, float_t m_flWidth, float_t m_flHeight) noexcept;
 
   /// @brief Field m_flTopLeftX, offset: 0x0, size: 0x4, def value: None
   float_t m_flTopLeftX;

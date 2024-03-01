@@ -32,17 +32,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IAuthenticationTokenProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12673))
 // CS Name: ::IAuthenticationTokenProvider*
 class CORDL_TYPE IAuthenticationTokenProvider {
 public:
   // Declarations
   __declspec(property(get = get_hashedUserId))::StringW hashedUserId;
 
-  __declspec(property(get = get_userName))::StringW userName;
-
   __declspec(property(get = get_platform))::GlobalNamespace::__AuthenticationToken__Platform platform;
+
+  __declspec(property(get = get_userName))::StringW userName;
 
   /// @brief Method GetAuthenticationToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
@@ -56,11 +54,11 @@ public:
   /// @brief Method get_hashedUserId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_userName();
-
   /// @brief Method get_platform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
+
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_userName();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

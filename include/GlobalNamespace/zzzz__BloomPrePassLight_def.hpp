@@ -65,55 +65,53 @@ MARK_VAL_T(::GlobalNamespace::__BloomPrePassLight__VertexData);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
 // CS Name: ::BloomPrePassLight::VertexData
 struct CORDL_TYPE __BloomPrePassLight__VertexData {
 public:
   // Declarations
-  /// @brief Field vertex, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_vertex, put = __cordl_internal_set_vertex))::UnityEngine::Vector3 vertex;
-
-  /// @brief Field viewPos, offset 0xc, size 0xc
-  __declspec(property(get = __cordl_internal_get_viewPos, put = __cordl_internal_set_viewPos))::UnityEngine::Vector3 viewPos;
-
   /// @brief Field color, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
   /// @brief Field uv, offset 0x28, size 0xc
   __declspec(property(get = __cordl_internal_get_uv, put = __cordl_internal_set_uv))::UnityEngine::Vector3 uv;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_vertex();
+  /// @brief Field vertex, offset 0x0, size 0xc
+  __declspec(property(get = __cordl_internal_get_vertex, put = __cordl_internal_set_vertex))::UnityEngine::Vector3 vertex;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_vertex() const;
-
-  constexpr void __cordl_internal_set_vertex(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_viewPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_viewPos() const;
-
-  constexpr void __cordl_internal_set_viewPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
+  /// @brief Field viewPos, offset 0xc, size 0xc
+  __declspec(property(get = __cordl_internal_get_viewPos, put = __cordl_internal_set_viewPos))::UnityEngine::Vector3 viewPos;
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_uv();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_uv() const;
 
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_uv();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_vertex() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_vertex();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_viewPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_viewPos();
+
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
+
   constexpr void __cordl_internal_set_uv(::UnityEngine::Vector3 value);
 
-  // Ctor Parameters [CppParam { name: "vertex", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "viewPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-  constexpr __BloomPrePassLight__VertexData(::UnityEngine::Vector3 vertex, ::UnityEngine::Vector3 viewPos, ::UnityEngine::Color color, ::UnityEngine::Vector3 uv) noexcept;
+  constexpr void __cordl_internal_set_vertex(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_viewPos(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __BloomPrePassLight__VertexData();
+
+  // Ctor Parameters [CppParam { name: "vertex", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "viewPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+  // None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
+  constexpr __BloomPrePassLight__VertexData(::UnityEngine::Vector3 vertex, ::UnityEngine::Vector3 viewPos, ::UnityEngine::Color color, ::UnityEngine::Vector3 uv) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -190,8 +188,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14365))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14366))
 // CS Name: ::BloomPrePassLight::QuadData
 struct CORDL_TYPE __BloomPrePassLight__QuadData {
 public:
@@ -208,39 +204,39 @@ public:
   /// @brief Field vertex3, offset 0x9c, size 0x34
   __declspec(property(get = __cordl_internal_get_vertex3, put = __cordl_internal_set_vertex3))::GlobalNamespace::__BloomPrePassLight__VertexData vertex3;
 
-  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex0();
-
   constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData const& __cordl_internal_get_vertex0() const;
 
-  constexpr void __cordl_internal_set_vertex0(::GlobalNamespace::__BloomPrePassLight__VertexData value);
-
-  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex1();
+  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex0();
 
   constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData const& __cordl_internal_get_vertex1() const;
 
-  constexpr void __cordl_internal_set_vertex1(::GlobalNamespace::__BloomPrePassLight__VertexData value);
-
-  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex2();
+  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex1();
 
   constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData const& __cordl_internal_get_vertex2() const;
 
-  constexpr void __cordl_internal_set_vertex2(::GlobalNamespace::__BloomPrePassLight__VertexData value);
-
-  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex3();
+  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex2();
 
   constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData const& __cordl_internal_get_vertex3() const;
 
+  constexpr ::GlobalNamespace::__BloomPrePassLight__VertexData& __cordl_internal_get_vertex3();
+
+  constexpr void __cordl_internal_set_vertex0(::GlobalNamespace::__BloomPrePassLight__VertexData value);
+
+  constexpr void __cordl_internal_set_vertex1(::GlobalNamespace::__BloomPrePassLight__VertexData value);
+
+  constexpr void __cordl_internal_set_vertex2(::GlobalNamespace::__BloomPrePassLight__VertexData value);
+
   constexpr void __cordl_internal_set_vertex3(::GlobalNamespace::__BloomPrePassLight__VertexData value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BloomPrePassLight__QuadData();
 
   // Ctor Parameters [CppParam { name: "vertex0", ty: "::GlobalNamespace::__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex1", ty:
   // "::GlobalNamespace::__BloomPrePassLight__VertexData", modifiers: "", def_value: None }, CppParam { name: "vertex2", ty: "::GlobalNamespace::__BloomPrePassLight__VertexData", modifiers: "",
   // def_value: None }, CppParam { name: "vertex3", ty: "::GlobalNamespace::__BloomPrePassLight__VertexData", modifiers: "", def_value: None }]
   constexpr __BloomPrePassLight__QuadData(::GlobalNamespace::__BloomPrePassLight__VertexData vertex0, ::GlobalNamespace::__BloomPrePassLight__VertexData vertex1,
                                           ::GlobalNamespace::__BloomPrePassLight__VertexData vertex2, ::GlobalNamespace::__BloomPrePassLight__VertexData vertex3) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BloomPrePassLight__QuadData();
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -317,8 +313,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassL
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14367))
 // CS Name: ::BloomPrePassLight::LightsDataItem*
 class CORDL_TYPE __BloomPrePassLight__LightsDataItem : public ::System::Object {
 public:
@@ -329,24 +323,30 @@ public:
   /// @brief Field lights, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_lights, put = __cordl_internal_set_lights))::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get_lightType();
+  static inline ::GlobalNamespace::__BloomPrePassLight__LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType,
+                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get_lightType() const;
 
-  constexpr void __cordl_internal_set_lightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get_lightType();
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*& __cordl_internal_get_lights();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*> const& __cordl_internal_get_lights() const;
 
+  constexpr void __cordl_internal_set_lightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
+
   constexpr void __cordl_internal_set_lights(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* value);
 
-  static inline ::GlobalNamespace::__BloomPrePassLight__LightsDataItem* New_ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType,
-                                                                                 ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
-
-  /// @brief Method .ctor, addr 0x219b514, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269b7c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>* lights);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BloomPrePassLight__LightsDataItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassLight__LightsDataItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BloomPrePassLight__LightsDataItem(__BloomPrePassLight__LightsDataItem&&) = delete;
@@ -355,12 +355,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BloomPrePassLight__LightsDataItem(__BloomPrePassLight__LightsDataItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BloomPrePassLight__LightsDataItem();
-
-public:
   /// @brief Field lightType, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ___lightType;
 
@@ -381,8 +375,6 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassLight__LightsDataItem, _
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: ::BloomPrePassLight*
 class CORDL_TYPE BloomPrePassLight : public ::UnityEngine::MonoBehaviour {
 public:
@@ -393,89 +385,28 @@ public:
 
   using VertexData = ::GlobalNamespace::__BloomPrePassLight__VertexData;
 
-  /// @brief Field _lightType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightType, put = __cordl_internal_set__lightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _lightType;
-
-  /// @brief Field _registeredWithLightType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__registeredWithLightType,
-                      put = __cordl_internal_set__registeredWithLightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _registeredWithLightType;
-
-  /// @brief Field _isRegistered, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
+  /// @brief Field _bloomLightsDict, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__bloomLightsDict, put = setStaticF__bloomLightsDict))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* _bloomLightsDict;
 
   /// @brief Field _isBeingDestroyed, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get__isBeingDestroyed, put = __cordl_internal_set__isBeingDestroyed)) bool _isBeingDestroyed;
 
-  /// @brief Field _bloomLightsDict, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__bloomLightsDict, put = setStaticF__bloomLightsDict))::System::Collections::Generic::Dictionary_2<
-      ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* _bloomLightsDict;
+  /// @brief Field _isRegistered, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
+
+  /// @brief Field _lightType, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightType, put = __cordl_internal_set__lightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _lightType;
 
   /// @brief Field _lightsDataItems, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lightsDataItems,
                              put = setStaticF__lightsDataItems))::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* _lightsDataItems;
 
+  /// @brief Field _registeredWithLightType, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__registeredWithLightType,
+                      put = __cordl_internal_set__registeredWithLightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> _registeredWithLightType;
+
   __declspec(property(get = get_isDirty)) bool isDirty;
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get__lightType();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get__lightType() const;
-
-  constexpr void __cordl_internal_set__lightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get__registeredWithLightType();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get__registeredWithLightType() const;
-
-  constexpr void __cordl_internal_set__registeredWithLightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
-
-  constexpr bool& __cordl_internal_get__isRegistered();
-
-  constexpr bool const& __cordl_internal_get__isRegistered() const;
-
-  constexpr void __cordl_internal_set__isRegistered(bool value);
-
-  constexpr bool& __cordl_internal_get__isBeingDestroyed();
-
-  constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
-
-  constexpr void __cordl_internal_set__isBeingDestroyed(bool value);
-
-  static inline void setStaticF__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
-                                                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
-                                                             ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
-  getStaticF__bloomLightsDict();
-
-  static inline void setStaticF__lightsDataItems(::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* value);
-
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* getStaticF__lightsDataItems();
-
-  /// @brief Method get_bloomLightsDict, addr 0x219b0d8, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
-                                                             ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
-  get_bloomLightsDict();
-
-  /// @brief Method get_lightsDataItems, addr 0x219b130, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* get_lightsDataItems();
-
-  /// @brief Method get_isDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isDirty();
-
-  /// @brief Method OnEnable, addr 0x219b188, size 0x4, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x219b440, size 0x4, virtual true, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnDestroy, addr 0x219b508, size 0xc, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method RegisterLight, addr 0x219b18c, size 0x2b4, virtual false, abstract: false, final false
-  inline void RegisterLight();
-
-  /// @brief Method UnregisterLight, addr 0x219b444, size 0xc4, virtual false, abstract: false, final false
-  inline void UnregisterLight();
 
   /// @brief Method DidRegisterLight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DidRegisterLight();
@@ -484,14 +415,81 @@ public:
   inline void FillMeshData(ByRef<int32_t> lightNum, ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> lightQuads,
                            ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t lineWidth);
 
+  static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2269b70, size 0xc, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDisable, addr 0x2269aa8, size 0x4, virtual true, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x22697f0, size 0x4, virtual true, abstract: false, final false
+  inline void OnEnable();
+
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh();
 
-  static inline ::GlobalNamespace::BloomPrePassLight* New_ctor();
+  /// @brief Method RegisterLight, addr 0x22697f4, size 0x2b4, virtual false, abstract: false, final false
+  inline void RegisterLight();
 
-  /// @brief Method .ctor, addr 0x219b540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x2269aac, size 0xc4, virtual false, abstract: false, final false
+  inline void UnregisterLight();
+
+  constexpr bool const& __cordl_internal_get__isBeingDestroyed() const;
+
+  constexpr bool& __cordl_internal_get__isBeingDestroyed();
+
+  constexpr bool const& __cordl_internal_get__isRegistered() const;
+
+  constexpr bool& __cordl_internal_get__isRegistered();
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get__lightType() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get__lightType();
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get__registeredWithLightType() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get__registeredWithLightType();
+
+  constexpr void __cordl_internal_set__isBeingDestroyed(bool value);
+
+  constexpr void __cordl_internal_set__isRegistered(bool value);
+
+  constexpr void __cordl_internal_set__lightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
+
+  constexpr void __cordl_internal_set__registeredWithLightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
+
+  /// @brief Method .ctor, addr 0x2269ba8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
+                                                             ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
+  getStaticF__bloomLightsDict();
+
+  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* getStaticF__lightsDataItems();
+
+  /// @brief Method get_bloomLightsDict, addr 0x2269740, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
+                                                             ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>*
+  get_bloomLightsDict();
+
+  /// @brief Method get_isDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isDirty();
+
+  /// @brief Method get_lightsDataItems, addr 0x2269798, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* get_lightsDataItems();
+
+  static inline void setStaticF__bloomLightsDict(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>,
+                                                                                              ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BloomPrePassLight>>*>* value);
+
+  static inline void setStaticF__lightsDataItems(::System::Collections::Generic::List_1<::GlobalNamespace::__BloomPrePassLight__LightsDataItem*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassLight();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLight", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassLight(BloomPrePassLight&&) = delete;
@@ -500,12 +498,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassLight(BloomPrePassLight const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassLight();
-
-public:
   /// @brief Field _lightType, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ____lightType;
 
@@ -518,8 +510,23 @@ public:
   /// @brief Field _isBeingDestroyed, offset: 0x29, size: 0x1, def value: None
   bool ____isBeingDestroyed;
 
+  /// @brief Field kColorOffset offset 0xffffffff size 0x4
+  static constexpr int32_t kColorOffset{ static_cast<int32_t>(0x18) };
+
+  /// @brief Field kColorSize offset 0xffffffff size 0x4
+  static constexpr int32_t kColorSize{ static_cast<int32_t>(0x10) };
+
   /// @brief Field kFloatSize offset 0xffffffff size 0x4
   static constexpr int32_t kFloatSize{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field kUvOffset offset 0xffffffff size 0x4
+  static constexpr int32_t kUvOffset{ static_cast<int32_t>(0x28) };
+
+  /// @brief Field kUvSize offset 0xffffffff size 0x4
+  static constexpr int32_t kUvSize{ static_cast<int32_t>(0xc) };
+
+  /// @brief Field kVertexDataSize offset 0xffffffff size 0x4
+  static constexpr int32_t kVertexDataSize{ static_cast<int32_t>(0x34) };
 
   /// @brief Field kVertexOffset offset 0xffffffff size 0x4
   static constexpr int32_t kVertexOffset{ static_cast<int32_t>(0x0) };
@@ -532,21 +539,6 @@ public:
 
   /// @brief Field kViewPosSize offset 0xffffffff size 0x4
   static constexpr int32_t kViewPosSize{ static_cast<int32_t>(0xc) };
-
-  /// @brief Field kColorOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kColorOffset{ static_cast<int32_t>(0x18) };
-
-  /// @brief Field kColorSize offset 0xffffffff size 0x4
-  static constexpr int32_t kColorSize{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field kUvOffset offset 0xffffffff size 0x4
-  static constexpr int32_t kUvOffset{ static_cast<int32_t>(0x28) };
-
-  /// @brief Field kUvSize offset 0xffffffff size 0x4
-  static constexpr int32_t kUvSize{ static_cast<int32_t>(0xc) };
-
-  /// @brief Field kVertexDataSize offset 0xffffffff size 0x4
-  static constexpr int32_t kVertexDataSize{ static_cast<int32_t>(0x34) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

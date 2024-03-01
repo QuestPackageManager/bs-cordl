@@ -16,8 +16,6 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2412))
 // CS Name: ::System::IComparable`1<T>*
 class CORDL_TYPE IComparable_1 {
 public:

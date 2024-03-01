@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerExternalParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(505))
 // CS Name: ::Org.BouncyCastle.Asn1::DerExternalParser*
 class CORDL_TYPE DerExternalParser : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
@@ -32,23 +30,29 @@ public:
   /// @brief Field _parser, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__parser, put = __cordl_internal_set__parser))::Org::BouncyCastle::Asn1::Asn1StreamParser* _parser;
 
+  static inline ::Org::BouncyCastle::Asn1::DerExternalParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
+
+  /// @brief Method ReadObject, addr 0x12314e8, size 0x20, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+
+  /// @brief Method ToAsn1Object, addr 0x1231508, size 0x74, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1StreamParser*> const& __cordl_internal_get__parser() const;
 
   constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerExternalParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
-
-  /// @brief Method .ctor, addr 0x11e3760, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1226730, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x11ee518, size 0x20, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerExternalParser();
 
-  /// @brief Method ToAsn1Object, addr 0x11ee538, size 0x74, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerExternalParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerExternalParser(DerExternalParser&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerExternalParser(DerExternalParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerExternalParser();
-
-public:
   /// @brief Field _parser, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1StreamParser* ____parser;
 

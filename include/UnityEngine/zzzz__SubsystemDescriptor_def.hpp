@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16085))
 // CS Name: ::UnityEngine::SubsystemDescriptor*
 class CORDL_TYPE SubsystemDescriptor : public ::System::Object {
 public:
@@ -35,29 +33,35 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
-  constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__id_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
-
-  /// @brief Method get_id, addr 0x2d3ac7c, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_id();
-
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2d3ac84, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
-
   /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
   static inline ::UnityEngine::SubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3ac90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2e273ac, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
+
+  constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__id_k__BackingField();
+
+  constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2e273b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_id, addr 0x2e273a4, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_id();
+
+  /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
+  constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubsystemDescriptor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubsystemDescriptor(SubsystemDescriptor&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubsystemDescriptor(SubsystemDescriptor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubsystemDescriptor();
-
-public:
   /// @brief Field <id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id_k__BackingField;
 

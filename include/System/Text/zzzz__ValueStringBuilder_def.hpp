@@ -22,65 +22,61 @@ MARK_VAL_T(::System::Text::ValueStringBuilder);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2470)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 292 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2868))
 // CS Name: ::System.Text::ValueStringBuilder
 struct CORDL_TYPE ValueStringBuilder {
 public:
   // Declarations
   __declspec(property(get = get_Length)) int32_t Length;
 
-  __declspec(property(get = get_Item)) char16_t Item[];
-
-  /// @brief Method .ctor, addr 0x2469bcc, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::Span_1<char16_t> initialBuffer);
-
-  /// @brief Method get_Length, addr 0x2469bdc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Length();
-
-  /// @brief Method get_Item, addr 0x2469be4, size 0x24, virtual false, abstract: false, final false
-  inline ByRef<char16_t> get_Item(int32_t index);
-
-  /// @brief Method ToString, addr 0x2469c08, size 0x198, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method TryCopyTo, addr 0x2469da0, size 0x28c, virtual false, abstract: false, final false
-  inline bool TryCopyTo(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten);
-
-  /// @brief Method Append, addr 0x246a02c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x2935c48, size 0x7c, virtual false, abstract: false, final false
   inline void Append(char16_t c);
 
-  /// @brief Method Append, addr 0x246a128, size 0xac, virtual false, abstract: false, final false
-  inline void Append(::StringW s);
-
-  /// @brief Method AppendSlow, addr 0x246a1d4, size 0x130, virtual false, abstract: false, final false
-  inline void AppendSlow(::StringW s);
-
-  /// @brief Method Append, addr 0x246a548, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x29349a4, size 0xdc, virtual false, abstract: false, final false
   inline void Append(char16_t c, int32_t count);
 
-  /// @brief Method Append, addr 0x246a624, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x2935d44, size 0xac, virtual false, abstract: false, final false
+  inline void Append(::StringW s);
+
+  /// @brief Method Append, addr 0x29348c4, size 0xe0, virtual false, abstract: false, final false
   inline void Append(::cordl_internals::Ptr<char16_t> value, int32_t length);
 
-  /// @brief Method AppendSpan, addr 0x246a704, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AppendSlow, addr 0x2935df0, size 0x130, virtual false, abstract: false, final false
+  inline void AppendSlow(::StringW s);
+
+  /// @brief Method AppendSpan, addr 0x2935f20, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Span_1<char16_t> AppendSpan(int32_t length);
 
-  /// @brief Method GrowAndAppend, addr 0x246a0a8, size 0x80, virtual false, abstract: false, final false
-  inline void GrowAndAppend(char16_t c);
-
-  /// @brief Method Grow, addr 0x246a304, size 0x244, virtual false, abstract: false, final false
-  inline void Grow(int32_t requiredAdditionalCapacity);
-
-  /// @brief Method Dispose, addr 0x246a7c4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2935fe0, size 0xf8, virtual false, abstract: false, final false
   inline void Dispose();
 
-  // Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "_chars", ty:
-  // "::System::Span_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ValueStringBuilder(::ArrayW<char16_t, ::Array<char16_t>*> _arrayToReturnToPool, ::System::Span_1<char16_t> _chars, int32_t _pos) noexcept;
+  /// @brief Method Grow, addr 0x2935a04, size 0x244, virtual false, abstract: false, final false
+  inline void Grow(int32_t requiredAdditionalCapacity);
+
+  /// @brief Method GrowAndAppend, addr 0x2935cc4, size 0x80, virtual false, abstract: false, final false
+  inline void GrowAndAppend(char16_t c);
+
+  /// @brief Method Insert, addr 0x2930d04, size 0x1d0, virtual false, abstract: false, final false
+  inline void Insert(int32_t index, char16_t value, int32_t count);
+
+  /// @brief Method ToString, addr 0x2931160, size 0x198, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method TryCopyTo, addr 0x2930ed4, size 0x28c, virtual false, abstract: false, final false
+  inline bool TryCopyTo(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten);
+
+  /// @brief Method .ctor, addr 0x2930cf4, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::System::Span_1<char16_t> initialBuffer);
+
+  /// @brief Method get_Length, addr 0x29359fc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Length();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueStringBuilder();
+
+  // Ctor Parameters [CppParam { name: "_arrayToReturnToPool", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "_chars", ty:
+  // "::System::Span_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ValueStringBuilder(::ArrayW<char16_t, ::Array<char16_t>*> _arrayToReturnToPool, ::System::Span_1<char16_t> _chars, int32_t _pos) noexcept;
 
   /// @brief Field _arrayToReturnToPool, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<char16_t, ::Array<char16_t>*> _arrayToReturnToPool;

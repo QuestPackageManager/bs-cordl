@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::CollectionParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14667))
 // CS Name: ::System.Net.Http.Headers::CollectionParser*
 class CORDL_TYPE CollectionParser : public ::System::Object {
 public:
@@ -39,12 +37,18 @@ public:
   template <typename T>
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ByRef<::System::Collections::Generic::List_1<T>*> result);
 
-  /// @brief Method TryParse, addr 0x283baec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2920f68, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::StringW>*> result);
 
-  /// @brief Method TryParseStringElement, addr 0x283bb9c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TryParseStringElement, addr 0x2921018, size 0xcc, virtual false, abstract: false, final false
   static inline bool TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CollectionParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionParser(CollectionParser&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionParser(CollectionParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CollectionParser();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -44,8 +44,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightBehaviour);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5298))
 // CS Name: ::TubeLightBehaviour::ParameterType
 struct CORDL_TYPE __TubeLightBehaviour__ParameterType {
 public:
@@ -63,24 +61,29 @@ public:
     return static_cast<____TubeLightBehaviour__ParameterType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TubeLightBehaviour__ParameterType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __TubeLightBehaviour__ParameterType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __TubeLightBehaviour__ParameterType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field References value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const References;
 
   /// @brief Field Values value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const Values;
 
-  /// @brief Field References value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const References;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -94,28 +97,25 @@ static_assert(offsetof(::GlobalNamespace::__TubeLightBehaviour__ParameterType, v
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(9193))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5299))
 // CS Name: ::TubeLightBehaviour*
 class CORDL_TYPE TubeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   using ParameterType = ::GlobalNamespace::__TubeLightBehaviour__ParameterType;
 
-  /// @brief Field _noPredefinedStartValue, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__noPredefinedStartValue, put = __cordl_internal_set__noPredefinedStartValue)) bool _noPredefinedStartValue;
+  /// @brief Field _directionalLights, offset 0x48, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__directionalLights,
+               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
 
-  /// @brief Field startColor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_startColor, put = __cordl_internal_set_startColor))::UnityW<::GlobalNamespace::ColorSO> startColor;
-
-  /// @brief Field endColor, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_endColor, put = __cordl_internal_set_endColor))::UnityW<::GlobalNamespace::ColorSO> endColor;
-
-  /// @brief Field blend, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_blend, put = __cordl_internal_set_blend)) float_t blend;
+  /// @brief Field _firstFrameColor, offset 0x54, size 0x10
+  __declspec(property(get = __cordl_internal_get__firstFrameColor, put = __cordl_internal_set__firstFrameColor))::UnityEngine::Color _firstFrameColor;
 
   /// @brief Field _initialized, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+
+  /// @brief Field _noPredefinedStartValue, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__noPredefinedStartValue, put = __cordl_internal_set__noPredefinedStartValue)) bool _noPredefinedStartValue;
 
   /// @brief Field _originalColor, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get__originalColor, put = __cordl_internal_set__originalColor))::UnityEngine::Color _originalColor;
@@ -124,88 +124,95 @@ public:
   __declspec(property(get = __cordl_internal_get__tubeLights,
                       put = __cordl_internal_set__tubeLights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _tubeLights;
 
-  /// @brief Field _directionalLights, offset 0x48, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__directionalLights,
-               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
+  /// @brief Field blend, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_blend, put = __cordl_internal_set_blend)) float_t blend;
+
+  /// @brief Field endColor, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_endColor, put = __cordl_internal_set_endColor))::UnityW<::GlobalNamespace::ColorSO> endColor;
+
+  /// @brief Field startColor, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_startColor, put = __cordl_internal_set_startColor))::UnityW<::GlobalNamespace::ColorSO> startColor;
 
   /// @brief Field started, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) bool started;
 
-  /// @brief Field _firstFrameColor, offset 0x54, size 0x10
-  __declspec(property(get = __cordl_internal_get__firstFrameColor, put = __cordl_internal_set__firstFrameColor))::UnityEngine::Color _firstFrameColor;
+  static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  constexpr bool& __cordl_internal_get__noPredefinedStartValue();
+  /// @brief Method OnPlayableDestroy, addr 0x24120d8, size 0xcc, virtual true, abstract: false, final false
+  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  constexpr bool const& __cordl_internal_get__noPredefinedStartValue() const;
-
-  constexpr void __cordl_internal_set__noPredefinedStartValue(bool value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get_startColor();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get_startColor() const;
-
-  constexpr void __cordl_internal_set_startColor(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get_endColor();
-
-  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get_endColor() const;
-
-  constexpr void __cordl_internal_set_endColor(::UnityW<::GlobalNamespace::ColorSO> value);
-
-  constexpr float_t& __cordl_internal_get_blend();
-
-  constexpr float_t const& __cordl_internal_get_blend() const;
-
-  constexpr void __cordl_internal_set_blend(float_t value);
-
-  constexpr bool& __cordl_internal_get__initialized();
-
-  constexpr bool const& __cordl_internal_get__initialized() const;
-
-  constexpr void __cordl_internal_set__initialized(bool value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__originalColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__originalColor() const;
-
-  constexpr void __cordl_internal_set__originalColor(::UnityEngine::Color value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__tubeLights();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__tubeLights() const;
-
-  constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights();
+  /// @brief Method ProcessFrame, addr 0x2411cd0, size 0x408, virtual true, abstract: false, final false
+  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
 
-  constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> value);
-
-  constexpr bool& __cordl_internal_get_started();
-
-  constexpr bool const& __cordl_internal_get_started() const;
-
-  constexpr void __cordl_internal_set_started(bool value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__firstFrameColor();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__firstFrameColor() const;
 
+  constexpr ::UnityEngine::Color& __cordl_internal_get__firstFrameColor();
+
+  constexpr bool const& __cordl_internal_get__initialized() const;
+
+  constexpr bool& __cordl_internal_get__initialized();
+
+  constexpr bool const& __cordl_internal_get__noPredefinedStartValue() const;
+
+  constexpr bool& __cordl_internal_get__noPredefinedStartValue();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__originalColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__originalColor();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__tubeLights() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__tubeLights();
+
+  constexpr float_t const& __cordl_internal_get_blend() const;
+
+  constexpr float_t& __cordl_internal_get_blend();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get_endColor() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get_endColor();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get_startColor() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get_startColor();
+
+  constexpr bool const& __cordl_internal_get_started() const;
+
+  constexpr bool& __cordl_internal_get_started();
+
+  constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> value);
+
   constexpr void __cordl_internal_set__firstFrameColor(::UnityEngine::Color value);
 
-  /// @brief Method ProcessFrame, addr 0x2342d88, size 0x408, virtual true, abstract: false, final false
-  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method OnPlayableDestroy, addr 0x2343190, size 0xcc, virtual true, abstract: false, final false
-  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
+  constexpr void __cordl_internal_set__noPredefinedStartValue(bool value);
 
-  static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
+  constexpr void __cordl_internal_set__originalColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x234325c, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__tubeLights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
+
+  constexpr void __cordl_internal_set_blend(float_t value);
+
+  constexpr void __cordl_internal_set_endColor(::UnityW<::GlobalNamespace::ColorSO> value);
+
+  constexpr void __cordl_internal_set_startColor(::UnityW<::GlobalNamespace::ColorSO> value);
+
+  constexpr void __cordl_internal_set_started(bool value);
+
+  /// @brief Method .ctor, addr 0x24121a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TubeLightBehaviour();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TubeLightBehaviour(TubeLightBehaviour&&) = delete;
@@ -214,12 +221,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TubeLightBehaviour(TubeLightBehaviour const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TubeLightBehaviour();
-
-public:
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;
 

@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NotImplemented)
 namespace System {
 class Exception;
@@ -18,15 +17,19 @@ MARK_REF_PTR_T(::System::NotImplemented);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6873))
 // CS Name: ::System::NotImplemented*
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ByDesignWithMessage, addr 0x294ae08, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::Exception* ByDesignWithMessage(::StringW message);
+  /// @brief Method get_ByDesign, addr 0x26bba14, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Exception* get_ByDesign();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NotImplemented();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NotImplemented", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NotImplemented(NotImplemented&&) = delete;
@@ -35,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NotImplemented(NotImplemented const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NotImplemented();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

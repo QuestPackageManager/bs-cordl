@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Rendering::PassType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9090))
 // CS Name: ::UnityEngine.Rendering::PassType
 struct CORDL_TYPE PassType {
 public:
@@ -47,21 +45,56 @@ public:
     return static_cast<__PassType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PassType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PassType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PassType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Deferred value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::Rendering::PassType const Deferred;
+
+  /// @brief Field ForwardAdd value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::Rendering::PassType const ForwardAdd;
+
+  /// @brief Field ForwardBase value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::Rendering::PassType const ForwardBase;
+
+  /// @brief Field GrabPass value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::Rendering::PassType const GrabPass;
+
+  /// @brief Field LightPrePassBase value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::Rendering::PassType const LightPrePassBase;
+
+  /// @brief Field LightPrePassFinal value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::Rendering::PassType const LightPrePassFinal;
+
+  /// @brief Field Meta value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::Rendering::PassType const Meta;
+
+  /// @brief Field MotionVectors value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::Rendering::PassType const MotionVectors;
 
   /// @brief Field Normal value: static_cast<int32_t>(0x0)
   static ::UnityEngine::Rendering::PassType const Normal;
+
+  /// @brief Field ScriptableRenderPipeline value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::Rendering::PassType const ScriptableRenderPipeline;
+
+  /// @brief Field ScriptableRenderPipelineDefaultUnlit value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::Rendering::PassType const ScriptableRenderPipelineDefaultUnlit;
+
+  /// @brief Field ShadowCaster value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::Rendering::PassType const ShadowCaster;
 
   /// @brief Field Vertex value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Rendering::PassType const Vertex;
@@ -72,38 +105,8 @@ public:
   /// @brief Field VertexLMRGBM value: static_cast<int32_t>(0x3)
   static ::UnityEngine::Rendering::PassType const VertexLMRGBM;
 
-  /// @brief Field ForwardBase value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Rendering::PassType const ForwardBase;
-
-  /// @brief Field ForwardAdd value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::Rendering::PassType const ForwardAdd;
-
-  /// @brief Field LightPrePassBase value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::Rendering::PassType const LightPrePassBase;
-
-  /// @brief Field LightPrePassFinal value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::Rendering::PassType const LightPrePassFinal;
-
-  /// @brief Field ShadowCaster value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::Rendering::PassType const ShadowCaster;
-
-  /// @brief Field Deferred value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::Rendering::PassType const Deferred;
-
-  /// @brief Field Meta value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::Rendering::PassType const Meta;
-
-  /// @brief Field MotionVectors value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::Rendering::PassType const MotionVectors;
-
-  /// @brief Field ScriptableRenderPipeline value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::Rendering::PassType const ScriptableRenderPipeline;
-
-  /// @brief Field ScriptableRenderPipelineDefaultUnlit value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::Rendering::PassType const ScriptableRenderPipelineDefaultUnlit;
-
-  /// @brief Field GrabPass value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::Rendering::PassType const GrabPass;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

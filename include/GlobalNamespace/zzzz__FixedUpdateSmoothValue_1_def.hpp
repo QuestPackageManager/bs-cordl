@@ -17,8 +17,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14491))
 // CS Name: ::FixedUpdateSmoothValue`1<T>*
 class CORDL_TYPE FixedUpdateSmoothValue_1 : public ::System::Object {
 public:
@@ -32,32 +30,6 @@ public:
   /// @brief Field _smooth, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
-  constexpr T& __cordl_internal_get__currentSmoothedValue();
-
-  constexpr T const& __cordl_internal_get__currentSmoothedValue() const;
-
-  constexpr void __cordl_internal_set__currentSmoothedValue(T value);
-
-  constexpr T& __cordl_internal_get__prevSmoothedValue();
-
-  constexpr T const& __cordl_internal_get__prevSmoothedValue() const;
-
-  constexpr void __cordl_internal_set__prevSmoothedValue(T value);
-
-  constexpr float_t& __cordl_internal_get__smooth();
-
-  constexpr float_t const& __cordl_internal_get__smooth() const;
-
-  constexpr void __cordl_internal_set__smooth(float_t value);
-
-  static inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* New_ctor(float_t smooth);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(float_t smooth);
-
-  /// @brief Method SetStartValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetStartValue(T value);
-
   /// @brief Method FixedUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FixedUpdate(T value);
 
@@ -67,6 +39,38 @@ public:
   /// @brief Method Interpolate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Interpolate(T value0, T value1, float_t t);
 
+  static inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* New_ctor(float_t smooth);
+
+  /// @brief Method SetStartValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetStartValue(T value);
+
+  constexpr T const& __cordl_internal_get__currentSmoothedValue() const;
+
+  constexpr T& __cordl_internal_get__currentSmoothedValue();
+
+  constexpr T const& __cordl_internal_get__prevSmoothedValue() const;
+
+  constexpr T& __cordl_internal_get__prevSmoothedValue();
+
+  constexpr float_t const& __cordl_internal_get__smooth() const;
+
+  constexpr float_t& __cordl_internal_get__smooth();
+
+  constexpr void __cordl_internal_set__currentSmoothedValue(T value);
+
+  constexpr void __cordl_internal_set__prevSmoothedValue(T value);
+
+  constexpr void __cordl_internal_set__smooth(float_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(float_t smooth);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixedUpdateSmoothValue_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateSmoothValue_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedUpdateSmoothValue_1(FixedUpdateSmoothValue_1&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedUpdateSmoothValue_1(FixedUpdateSmoothValue_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixedUpdateSmoothValue_1();
-
-public:
   /// @brief Field _currentSmoothedValue, offset: 0x10, size: 0x8, def value: None
   T ____currentSmoothedValue;
 

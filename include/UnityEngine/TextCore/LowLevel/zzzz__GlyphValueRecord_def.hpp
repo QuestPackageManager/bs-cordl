@@ -22,57 +22,55 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphValueRecord);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15726))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphValueRecord
 struct CORDL_TYPE GlyphValueRecord {
 public:
   // Declarations
-  __declspec(property(get = get_xPlacement)) float_t xPlacement;
-
-  __declspec(property(get = get_yPlacement)) float_t yPlacement;
-
   __declspec(property(get = get_xAdvance)) float_t xAdvance;
 
+  __declspec(property(get = get_xPlacement)) float_t xPlacement;
+
   __declspec(property(get = get_yAdvance)) float_t yAdvance;
+
+  __declspec(property(get = get_yPlacement)) float_t yPlacement;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>*();
 
+  /// @brief Method Equals, addr 0x2e2fb30, size 0x78, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2e2fba8, size 0xa8, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphValueRecord other);
+
+  /// @brief Method GetHashCode, addr 0x2e2facc, size 0x64, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method get_xAdvance, addr 0x2e2faa8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_xAdvance();
+
+  /// @brief Method get_xPlacement, addr 0x2e2fa98, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_xPlacement();
+
+  /// @brief Method get_yAdvance, addr 0x2e2fab0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_yAdvance();
+
+  /// @brief Method get_yPlacement, addr 0x2e2faa0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_yPlacement();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>* i___System__IEquatable_1___UnityEngine__TextCore__LowLevel__GlyphValueRecord_();
 
-  /// @brief Method get_xPlacement, addr 0x2d43370, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_xPlacement();
-
-  /// @brief Method get_yPlacement, addr 0x2d43378, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_yPlacement();
-
-  /// @brief Method get_xAdvance, addr 0x2d43380, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_xAdvance();
-
-  /// @brief Method get_yAdvance, addr 0x2d43388, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_yAdvance();
-
-  /// @brief Method op_Addition, addr 0x2d43390, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2e2fab8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord op_Addition(::UnityEngine::TextCore::LowLevel::GlyphValueRecord a, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord b);
-
-  /// @brief Method GetHashCode, addr 0x2d433a4, size 0x64, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x2d43408, size 0x78, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x2d43480, size 0xa8, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphValueRecord other);
-
-  // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GlyphValueRecord();
+
+  // Ctor Parameters [CppParam { name: "m_XPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YPlacement", ty: "float_t", modifiers: "", def_value: None }, CppParam {
+  // name: "m_XAdvance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_YAdvance", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr GlyphValueRecord(float_t m_XPlacement, float_t m_YPlacement, float_t m_XAdvance, float_t m_YAdvance) noexcept;
 
   /// @brief Field m_XPlacement, offset: 0x0, size: 0x4, def value: None
   float_t m_XPlacement;

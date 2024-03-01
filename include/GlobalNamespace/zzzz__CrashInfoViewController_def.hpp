@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::CrashInfoViewController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4925))
 // CS Name: ::CrashInfoViewController*
 class CORDL_TYPE CrashInfoViewController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,26 +30,32 @@ public:
   /// @brief Field _text, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  constexpr ::UnityW<::GlobalNamespace::CrashManagerSO>& __cordl_internal_get__crashManager();
+  static inline ::GlobalNamespace::CrashInfoViewController* New_ctor();
+
+  /// @brief Method Start, addr 0x23b1690, size 0x78, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::CrashManagerSO> const& __cordl_internal_get__crashManager() const;
 
-  constexpr void __cordl_internal_set__crashManager(::UnityW<::GlobalNamespace::CrashManagerSO> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+  constexpr ::UnityW<::GlobalNamespace::CrashManagerSO>& __cordl_internal_get__crashManager();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
+  constexpr void __cordl_internal_set__crashManager(::UnityW<::GlobalNamespace::CrashManagerSO> value);
+
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method Start, addr 0x22e29dc, size 0x78, virtual false, abstract: false, final false
-  inline void Start();
-
-  static inline ::GlobalNamespace::CrashInfoViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22e2a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b1708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CrashInfoViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CrashInfoViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CrashInfoViewController(CrashInfoViewController&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CrashInfoViewController(CrashInfoViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CrashInfoViewController();
-
-public:
   /// @brief Field _crashManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CrashManagerSO> ____crashManager;
 

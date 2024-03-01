@@ -54,23 +54,25 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatmapLevelDataFr
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10756)) CS Name: ::BeatmapLevelDataLoader::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__2
+// CS Name: ::BeatmapLevelDataLoader::<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__2
 struct CORDL_TYPE __BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12c1bb0, size 0x260, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12c1e88, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x127ebe0, size 0x260, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x127eeb8, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::BeatmapLevelDataLoader*", modifiers:
@@ -81,10 +83,6 @@ public:
                                                                                             ::GlobalNamespace::BeatmapLevelDataLoader* __4__this, ::StringW levelId, ::StringW assetBundlePath,
                                                                                             ::System::Threading::CancellationToken cancellationToken,
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapLevelDataLoader___CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__2();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -134,8 +132,6 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataLoader___CheckBeatma
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10757))
 // CS Name: ::BeatmapLevelDataLoader*
 class CORDL_TYPE BeatmapLevelDataLoader : public ::System::Object {
 public:
@@ -149,8 +145,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x12c17e0, size 0x118, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::StringW levelId, ::StringW assetBundlePath,
+                                                                                                   ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method Dispose, addr 0x12c18f8, size 0x1b4, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method LoadBeatmapLevelDataFromAssetBundleAsync, addr 0x12c1504, size 0x134, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelDataFromAssetBundleAsync(::StringW levelId, ::StringW assetBundlePath, ::StringW levelDataAssetName,
+                                                                                                                             ::System::Threading::CancellationToken cancellationToken);
+
+  static inline ::GlobalNamespace::BeatmapLevelDataLoader* New_ctor();
+
+  /// @brief Method TryUnload, addr 0x12c1aac, size 0x88, virtual false, abstract: false, final false
+  inline bool TryUnload(::StringW beatmapLevelId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>*& __cordl_internal_get__loadRequests();
 
@@ -159,25 +168,18 @@ public:
 
   constexpr void __cordl_internal_set__loadRequests(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* value);
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetBundleAsync, addr 0x127e534, size 0x134, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelDataFromAssetBundleAsync(::StringW levelId, ::StringW assetBundlePath, ::StringW levelDataAssetName,
-                                                                                                                             ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x127e810, size 0x118, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::StringW levelId, ::StringW assetBundlePath,
-                                                                                                   ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method Dispose, addr 0x127e928, size 0x1b4, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method TryUnload, addr 0x127eadc, size 0x88, virtual false, abstract: false, final false
-  inline bool TryUnload(::StringW beatmapLevelId);
-
-  static inline ::GlobalNamespace::BeatmapLevelDataLoader* New_ctor();
-
-  /// @brief Method .ctor, addr 0x127eb64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12c1b34, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapLevelDataLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelDataLoader(BeatmapLevelDataLoader&&) = delete;
@@ -186,12 +188,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelDataLoader(BeatmapLevelDataLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelDataLoader();
-
-public:
   /// @brief Field _loadRequests, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* ____loadRequests;
 

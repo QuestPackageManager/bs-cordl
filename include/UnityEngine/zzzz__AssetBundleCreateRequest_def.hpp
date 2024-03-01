@@ -17,22 +17,26 @@ MARK_REF_PTR_T(::UnityEngine::AssetBundleCreateRequest);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8945))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16216))
 // CS Name: ::UnityEngine::AssetBundleCreateRequest*
 class CORDL_TYPE AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
   __declspec(property(get = get_assetBundle))::UnityW<::UnityEngine::AssetBundle> assetBundle;
 
-  /// @brief Method get_assetBundle, addr 0x2c97a50, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
-
   static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c97a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d81b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_assetBundle, addr 0x2d81b24, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetBundleCreateRequest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleCreateRequest(AssetBundleCreateRequest&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetBundleCreateRequest(AssetBundleCreateRequest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetBundleCreateRequest();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

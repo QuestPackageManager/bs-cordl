@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)()>(&::System::Net::__WebUtility__UrlDecoder::FlushBytes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x29aa794;
+  constexpr static std::size_t addrs = 0x2a91868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "FlushBytes",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)(int32_t, ::System::Text::Encoding*)>(
     &::System::Net::__WebUtility__UrlDecoder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x29aa420;
+  constexpr static std::size_t addrs = 0x2a914f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)(char16_t)>(&::System::Net::__WebUtility__UrlDecoder::AddChar)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x29aa57c;
+  constexpr static std::size_t addrs = 0x2a91650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebUtility__UrlDecoder::*)(uint8_t)>(&::System::Net::__WebUtility__UrlDecoder::AddByte)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x29aa4e4;
+  constexpr static std::size_t addrs = 0x2a915b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::__WebUtility__UrlDecoder::*)()>(&::System::Net::__WebUtility__UrlDecoder::GetString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x29aa5dc;
+  constexpr static std::size_t addrs = 0x2a916b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebUtility__UrlDecoder*>::get(), "GetString",
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::WebUtility::HtmlEncode)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x29a9a58;
+  constexpr static std::size_t addrs = 0x2a90b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::IO::TextWriter*)>(&::System::Net::WebUtility::HtmlEncode)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x29a9cc0;
+  constexpr static std::size_t addrs = 0x2a90d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Net::WebUtility::IndexOfHtmlEncodingChars)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x29a9b78;
+  constexpr static std::size_t addrs = 0x2a90c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Configuration::UnicodeEncodingConformance (*)()>(
     &::System::Net::WebUtility::get_HtmlEncodeConformance)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x29aa074;
+  constexpr static std::size_t addrs = 0x2a91148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebUtility*>::get(), "get_HtmlEncodeConformance",
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Text::Encoding*)>(&::System::Net::WebUtility::UrlDecodeInternal)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x29aa210;
+  constexpr static std::size_t addrs = 0x2a912e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::WebUtility::UrlDecode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x29aa664;
+  constexpr static std::size_t addrs = 0x2a91738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::cordl_internals::Ptr<char16_t>>, ByRef<int32_t>)>(
     &::System::Net::WebUtility::GetNextUnicodeScalarValueFromUtf16Surrogate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x29aa158;
+  constexpr static std::size_t addrs = 0x2a9122c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(char16_t)>(&::System::Net::WebUtility::HexToInt)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x29aa494;
+  constexpr static std::size_t addrs = 0x2a91568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

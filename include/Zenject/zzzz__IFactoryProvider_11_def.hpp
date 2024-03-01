@@ -41,22 +41,26 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10336)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10336), inst: 3436 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10344))
 // CS Name: ::Zenject::IFactoryProvider`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
 class CORDL_TYPE IFactoryProvider_11 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:
   // Declarations
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+
   static inline ::Zenject::IFactoryProvider_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* New_ctor(::Zenject::DiContainer* container,
                                                                                                                                                                ::System::Guid factoryId);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IFactoryProvider_11();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IFactoryProvider_11", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IFactoryProvider_11(IFactoryProvider_11&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IFactoryProvider_11(IFactoryProvider_11 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IFactoryProvider_11();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

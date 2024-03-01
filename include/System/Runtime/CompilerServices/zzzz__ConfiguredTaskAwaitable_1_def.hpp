@@ -9,6 +9,9 @@ namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
 namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
@@ -33,8 +36,6 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3393))
 // CS Name: ::ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 struct CORDL_TYPE __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter {
 public:
@@ -44,8 +45,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TResult GetResult();
+
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void UnsafeOnCompleted(::System::Action* continuation);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
@@ -53,19 +63,19 @@ public:
   /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void UnsafeOnCompleted(::System::Action* continuation);
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TResult GetResult();
-
-  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None }, CppParam { name: "m_continueOnCapturedContext", ty: "bool",
-  // modifiers: "", def_value: None }]
-  constexpr __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter(::System::Threading::Tasks::Task_1<TResult>* m_task, bool m_continueOnCapturedContext) noexcept;
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter();
+
+  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None }, CppParam { name: "m_continueOnCapturedContext", ty: "bool",
+  // modifiers: "", def_value: None }]
+  constexpr __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter(::System::Threading::Tasks::Task_1<TResult>* m_task, bool m_continueOnCapturedContext) noexcept;
 
   /// @brief Field m_task, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* m_task;
@@ -86,27 +96,25 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 1112 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3394))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredTaskAwaitable_1 {
 public:
   // Declarations
   using ConfiguredTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult>;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
-
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult> GetAwaiter();
 
-  // Ctor Parameters [CppParam { name: "m_configuredTaskAwaiter", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult>", modifiers: "", def_value: None
-  // }]
-  constexpr ConfiguredTaskAwaitable_1(::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter) noexcept;
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ConfiguredTaskAwaitable_1();
+
+  // Ctor Parameters [CppParam { name: "m_configuredTaskAwaiter", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult>", modifiers: "", def_value: None
+  // }]
+  constexpr ConfiguredTaskAwaitable_1(::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter) noexcept;
 
   /// @brief Field m_configuredTaskAwaiter, offset: 0x0, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter;

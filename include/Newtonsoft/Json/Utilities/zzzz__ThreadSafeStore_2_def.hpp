@@ -25,50 +25,54 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11766))
 // CS Name: ::Newtonsoft.Json.Utilities::ThreadSafeStore`2<TKey,TValue>*
 class CORDL_TYPE ThreadSafeStore_2 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _creator, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator))::System::Func_2<TKey, TValue>* _creator;
+
   /// @brief Field _lock, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field _store, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__store, put = __cordl_internal_set__store))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _store;
 
-  /// @brief Field _creator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator))::System::Func_2<TKey, TValue>* _creator;
+  /// @brief Method AddValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValue AddValue(TKey key);
 
-  constexpr ::System::Object*& __cordl_internal_get__lock();
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValue Get(TKey key);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
-
-  constexpr void __cordl_internal_set__lock(::System::Object* value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__store();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__store() const;
-
-  constexpr void __cordl_internal_set__store(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
+  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, TValue>* creator);
 
   constexpr ::System::Func_2<TKey, TValue>*& __cordl_internal_get__creator();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, TValue>*> const& __cordl_internal_get__creator() const;
 
+  constexpr ::System::Object*& __cordl_internal_get__lock();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__store();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__store() const;
+
   constexpr void __cordl_internal_set__creator(::System::Func_2<TKey, TValue>* value);
 
-  static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, TValue>* creator);
+  constexpr void __cordl_internal_set__lock(::System::Object* value);
+
+  constexpr void __cordl_internal_set__store(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<TKey, TValue>* creator);
 
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue Get(TKey key);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadSafeStore_2();
 
-  /// @brief Method AddValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue AddValue(TKey key);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadSafeStore_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadSafeStore_2(ThreadSafeStore_2&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadSafeStore_2(ThreadSafeStore_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadSafeStore_2();
-
-public:
   /// @brief Field _lock, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____lock;
 

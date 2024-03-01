@@ -23,19 +23,23 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapIdentifierNetSerializableHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10772))
 // CS Name: ::BeatmapIdentifierNetSerializableHelper*
 class CORDL_TYPE BeatmapIdentifierNetSerializableHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToBeatmapKey, addr 0x1281dcc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToBeatmapKey, addr 0x12c4d9c, size 0x70, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable,
                                                            ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method ToIdentifier, addr 0x1281e4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToIdentifier, addr 0x12c4e1c, size 0xb8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapKeyNetSerializable* ToIdentifier(::GlobalNamespace::BeatmapKey beatmapKey);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapIdentifierNetSerializableHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapIdentifierNetSerializableHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapIdentifierNetSerializableHelper(BeatmapIdentifierNetSerializableHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapIdentifierNetSerializableHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

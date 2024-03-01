@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::BootConfigData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8930))
 // CS Name: ::UnityEngine::BootConfigData*
 class CORDL_TYPE BootConfigData : public ::System::Object {
 public:
@@ -25,20 +23,26 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  static inline ::UnityEngine::BootConfigData* New_ctor(void* nativeHandle);
+
+  /// @brief Method WrapBootConfigData, addr 0x2dbf76c, size 0x60, virtual false, abstract: false, final false
+  static inline ::UnityEngine::BootConfigData* WrapBootConfigData(void* nativeHandle);
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
+  constexpr void*& __cordl_internal_get_m_Ptr();
+
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method WrapBootConfigData, addr 0x2cd411c, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::BootConfigData* WrapBootConfigData(void* nativeHandle);
-
-  static inline ::UnityEngine::BootConfigData* New_ctor(void* nativeHandle);
-
-  /// @brief Method .ctor, addr 0x2cd417c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbf7cc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(void* nativeHandle);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BootConfigData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BootConfigData(BootConfigData&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BootConfigData(BootConfigData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BootConfigData();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

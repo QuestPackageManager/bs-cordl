@@ -16,43 +16,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::OidTokenizer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(527))
 // CS Name: ::Org.BouncyCastle.Asn1::OidTokenizer*
 class CORDL_TYPE OidTokenizer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field oid, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid))::StringW oid;
+  __declspec(property(get = get_HasMoreTokens)) bool HasMoreTokens;
 
   /// @brief Field index, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-  __declspec(property(get = get_HasMoreTokens)) bool HasMoreTokens;
-
-  constexpr ::StringW& __cordl_internal_get_oid();
-
-  constexpr ::StringW const& __cordl_internal_get_oid() const;
-
-  constexpr void __cordl_internal_set_oid(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_index();
-
-  constexpr int32_t const& __cordl_internal_get_index() const;
-
-  constexpr void __cordl_internal_set_index(int32_t value);
+  /// @brief Field oid, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid))::StringW oid;
 
   static inline ::Org::BouncyCastle::Asn1::OidTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x11f3958, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW oid);
-
-  /// @brief Method get_HasMoreTokens, addr 0x11f3980, size 0x10, virtual false, abstract: false, final false
-  inline bool get_HasMoreTokens();
-
-  /// @brief Method NextToken, addr 0x11f3990, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x1236960, size 0x88, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
+  constexpr int32_t const& __cordl_internal_get_index() const;
+
+  constexpr int32_t& __cordl_internal_get_index();
+
+  constexpr ::StringW const& __cordl_internal_get_oid() const;
+
+  constexpr ::StringW& __cordl_internal_get_oid();
+
+  constexpr void __cordl_internal_set_index(int32_t value);
+
+  constexpr void __cordl_internal_set_oid(::StringW value);
+
+  /// @brief Method .ctor, addr 0x1236928, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::StringW oid);
+
+  /// @brief Method get_HasMoreTokens, addr 0x1236950, size 0x10, virtual false, abstract: false, final false
+  inline bool get_HasMoreTokens();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OidTokenizer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OidTokenizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OidTokenizer(OidTokenizer&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OidTokenizer(OidTokenizer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OidTokenizer();
-
-public:
   /// @brief Field oid, offset: 0x10, size: 0x8, def value: None
   ::StringW ___oid;
 

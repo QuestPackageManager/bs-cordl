@@ -13,8 +13,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Haptics::IHaptics);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5721))
 // CS Name: ::UnityEngine.InputSystem.Haptics::IHaptics*
 class CORDL_TYPE IHaptics {
 public:
@@ -22,11 +20,11 @@ public:
   /// @brief Method PauseHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PauseHaptics();
 
-  /// @brief Method ResumeHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ResumeHaptics();
-
   /// @brief Method ResetHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetHaptics();
+
+  /// @brief Method ResumeHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ResumeHaptics();
 
   // Ctor Parameters [CppParam { name: "", ty: "IHaptics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

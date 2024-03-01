@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509FindType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6993))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509FindType
 struct CORDL_TYPE X509FindType {
 public:
@@ -47,48 +45,20 @@ public:
     return static_cast<__X509FindType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr X509FindType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr X509FindType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr X509FindType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field FindByThumbprint value: static_cast<int32_t>(0x0)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByThumbprint;
-
-  /// @brief Field FindBySubjectName value: static_cast<int32_t>(0x1)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectName;
-
-  /// @brief Field FindBySubjectDistinguishedName value: static_cast<int32_t>(0x2)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectDistinguishedName;
-
-  /// @brief Field FindByIssuerName value: static_cast<int32_t>(0x3)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerName;
-
-  /// @brief Field FindByIssuerDistinguishedName value: static_cast<int32_t>(0x4)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerDistinguishedName;
-
-  /// @brief Field FindBySerialNumber value: static_cast<int32_t>(0x5)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySerialNumber;
-
-  /// @brief Field FindByTimeValid value: static_cast<int32_t>(0x6)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeValid;
-
-  /// @brief Field FindByTimeNotYetValid value: static_cast<int32_t>(0x7)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeNotYetValid;
-
-  /// @brief Field FindByTimeExpired value: static_cast<int32_t>(0x8)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeExpired;
-
-  /// @brief Field FindByTemplateName value: static_cast<int32_t>(0x9)
-  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTemplateName;
 
   /// @brief Field FindByApplicationPolicy value: static_cast<int32_t>(0xa)
   static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByApplicationPolicy;
@@ -99,11 +69,44 @@ public:
   /// @brief Field FindByExtension value: static_cast<int32_t>(0xc)
   static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByExtension;
 
+  /// @brief Field FindByIssuerDistinguishedName value: static_cast<int32_t>(0x4)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerDistinguishedName;
+
+  /// @brief Field FindByIssuerName value: static_cast<int32_t>(0x3)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByIssuerName;
+
   /// @brief Field FindByKeyUsage value: static_cast<int32_t>(0xd)
   static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByKeyUsage;
 
+  /// @brief Field FindBySerialNumber value: static_cast<int32_t>(0x5)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySerialNumber;
+
+  /// @brief Field FindBySubjectDistinguishedName value: static_cast<int32_t>(0x2)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectDistinguishedName;
+
   /// @brief Field FindBySubjectKeyIdentifier value: static_cast<int32_t>(0xe)
   static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectKeyIdentifier;
+
+  /// @brief Field FindBySubjectName value: static_cast<int32_t>(0x1)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindBySubjectName;
+
+  /// @brief Field FindByTemplateName value: static_cast<int32_t>(0x9)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTemplateName;
+
+  /// @brief Field FindByThumbprint value: static_cast<int32_t>(0x0)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByThumbprint;
+
+  /// @brief Field FindByTimeExpired value: static_cast<int32_t>(0x8)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeExpired;
+
+  /// @brief Field FindByTimeNotYetValid value: static_cast<int32_t>(0x7)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeNotYetValid;
+
+  /// @brief Field FindByTimeValid value: static_cast<int32_t>(0x6)
+  static ::System::Security::Cryptography::X509Certificates::X509FindType const FindByTimeValid;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

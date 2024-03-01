@@ -35,35 +35,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::SignedData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(93))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::SignedData*
 class CORDL_TYPE SignedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = get_CRLs))::Org::BouncyCastle::Asn1::Asn1Set* CRLs;
 
-  /// @brief Field digestAlgorithms, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_digestAlgorithms, put = __cordl_internal_set_digestAlgorithms))::Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms;
+  __declspec(property(get = get_Certificates))::Org::BouncyCastle::Asn1::Asn1Set* Certificates;
 
-  /// @brief Field contentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = get_DigestAlgorithms))::Org::BouncyCastle::Asn1::Asn1Set* DigestAlgorithms;
 
-  /// @brief Field certificates, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificates, put = __cordl_internal_set_certificates))::Org::BouncyCastle::Asn1::Asn1Set* certificates;
+  __declspec(property(get = get_EncapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* EncapContentInfo;
 
-  /// @brief Field crls, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1Set* crls;
+  __declspec(property(get = get_SignerInfos))::Org::BouncyCastle::Asn1::Asn1Set* SignerInfos;
 
-  /// @brief Field signerInfos, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_signerInfos, put = __cordl_internal_set_signerInfos))::Org::BouncyCastle::Asn1::Asn1Set* signerInfos;
-
-  /// @brief Field certsBer, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_certsBer, put = __cordl_internal_set_certsBer)) bool certsBer;
-
-  /// @brief Field crlsBer, offset 0x41, size 0x1
-  __declspec(property(get = __cordl_internal_get_crlsBer, put = __cordl_internal_set_crlsBer)) bool crlsBer;
+  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   /// @brief Field Version1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Version1, put = setStaticF_Version1))::Org::BouncyCastle::Asn1::DerInteger* Version1;
@@ -77,126 +63,144 @@ public:
   /// @brief Field Version5, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Version5, put = setStaticF_Version5))::Org::BouncyCastle::Asn1::DerInteger* Version5;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  /// @brief Field certificates, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_certificates, put = __cordl_internal_set_certificates))::Org::BouncyCastle::Asn1::Asn1Set* certificates;
 
-  __declspec(property(get = get_DigestAlgorithms))::Org::BouncyCastle::Asn1::Asn1Set* DigestAlgorithms;
+  /// @brief Field certsBer, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_certsBer, put = __cordl_internal_set_certsBer)) bool certsBer;
 
-  __declspec(property(get = get_EncapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* EncapContentInfo;
+  /// @brief Field contentInfo, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
-  __declspec(property(get = get_Certificates))::Org::BouncyCastle::Asn1::Asn1Set* Certificates;
+  /// @brief Field crls, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1Set* crls;
 
-  __declspec(property(get = get_CRLs))::Org::BouncyCastle::Asn1::Asn1Set* CRLs;
+  /// @brief Field crlsBer, offset 0x41, size 0x1
+  __declspec(property(get = __cordl_internal_get_crlsBer, put = __cordl_internal_set_crlsBer)) bool crlsBer;
 
-  __declspec(property(get = get_SignerInfos))::Org::BouncyCastle::Asn1::Asn1Set* SignerInfos;
+  /// @brief Field digestAlgorithms, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_digestAlgorithms, put = __cordl_internal_set_digestAlgorithms))::Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+  /// @brief Field signerInfos, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_signerInfos, put = __cordl_internal_set_signerInfos))::Org::BouncyCastle::Asn1::Asn1Set* signerInfos;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+  /// @brief Field version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  /// @brief Method CalculateVersion, addr 0xeefe78, size 0x694, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerInteger* CalculateVersion(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentOid, ::Org::BouncyCastle::Asn1::Asn1Set* certs,
+                                                                 ::Org::BouncyCastle::Asn1::Asn1Set* crls, ::Org::BouncyCastle::Asn1::Asn1Set* signerInfs);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_digestAlgorithms();
+  /// @brief Method CheckForVersion3, addr 0xef050c, size 0x2d4, virtual false, abstract: false, final false
+  inline bool CheckForVersion3(::Org::BouncyCastle::Asn1::Asn1Set* signerInfs);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_digestAlgorithms() const;
-
-  constexpr void __cordl_internal_set_digestAlgorithms(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
-
-  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_certificates();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_certificates() const;
-
-  constexpr void __cordl_internal_set_certificates(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_crls();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_crls() const;
-
-  constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_signerInfos();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_signerInfos() const;
-
-  constexpr void __cordl_internal_set_signerInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr bool& __cordl_internal_get_certsBer();
-
-  constexpr bool const& __cordl_internal_get_certsBer() const;
-
-  constexpr void __cordl_internal_set_certsBer(bool value);
-
-  constexpr bool& __cordl_internal_get_crlsBer();
-
-  constexpr bool const& __cordl_internal_get_crlsBer() const;
-
-  constexpr void __cordl_internal_set_crlsBer(bool value);
-
-  static inline void setStaticF_Version1(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version1();
-
-  static inline void setStaticF_Version3(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version3();
-
-  static inline void setStaticF_Version4(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version4();
-
-  static inline void setStaticF_Version5(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version5();
-
-  /// @brief Method GetInstance, addr 0xea8684, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xeef654, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo,
                                                                      ::Org::BouncyCastle::Asn1::Asn1Set* certificates, ::Org::BouncyCastle::Asn1::Asn1Set* crls,
                                                                      ::Org::BouncyCastle::Asn1::Asn1Set* signerInfos);
 
-  /// @brief Method .ctor, addr 0xea8d98, size 0x110, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xef0810, size 0x26c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_certificates();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_certificates() const;
+
+  constexpr bool const& __cordl_internal_get_certsBer() const;
+
+  constexpr bool& __cordl_internal_get_certsBer();
+
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_crls();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_crls() const;
+
+  constexpr bool const& __cordl_internal_get_crlsBer() const;
+
+  constexpr bool& __cordl_internal_get_crlsBer();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_digestAlgorithms();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_digestAlgorithms() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_signerInfos();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_signerInfos() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+
+  constexpr void __cordl_internal_set_certificates(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_certsBer(bool value);
+
+  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+
+  constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_crlsBer(bool value);
+
+  constexpr void __cordl_internal_set_digestAlgorithms(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_signerInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  /// @brief Method .ctor, addr 0xeefd68, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* digestAlgorithms, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo, ::Org::BouncyCastle::Asn1::Asn1Set* certificates,
                     ::Org::BouncyCastle::Asn1::Asn1Set* crls, ::Org::BouncyCastle::Asn1::Asn1Set* signerInfos);
 
-  /// @brief Method CalculateVersion, addr 0xea8ea8, size 0x694, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* CalculateVersion(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentOid, ::Org::BouncyCastle::Asn1::Asn1Set* certs,
-                                                                 ::Org::BouncyCastle::Asn1::Asn1Set* crls, ::Org::BouncyCastle::Asn1::Asn1Set* signerInfs);
-
-  /// @brief Method CheckForVersion3, addr 0xea953c, size 0x2d4, virtual false, abstract: false, final false
-  inline bool CheckForVersion3(::Org::BouncyCastle::Asn1::Asn1Set* signerInfs);
-
-  static inline ::Org::BouncyCastle::Asn1::Cms::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xea8728, size 0x670, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeef6f8, size 0x670, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0xea9810, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version1();
 
-  /// @brief Method get_DigestAlgorithms, addr 0xea9818, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Set* get_DigestAlgorithms();
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version3();
 
-  /// @brief Method get_EncapContentInfo, addr 0xea9820, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo();
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version4();
 
-  /// @brief Method get_Certificates, addr 0xea9828, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_Version5();
 
-  /// @brief Method get_CRLs, addr 0xea9830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CRLs, addr 0xef0800, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_CRLs();
 
-  /// @brief Method get_SignerInfos, addr 0xea9838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0xef07f8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
+
+  /// @brief Method get_DigestAlgorithms, addr 0xef07e8, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Set* get_DigestAlgorithms();
+
+  /// @brief Method get_EncapContentInfo, addr 0xef07f0, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo();
+
+  /// @brief Method get_SignerInfos, addr 0xef0808, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_SignerInfos();
 
-  /// @brief Method ToAsn1Object, addr 0xea9840, size 0x26c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_Version, addr 0xef07e0, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
+  static inline void setStaticF_Version1(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  static inline void setStaticF_Version3(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  static inline void setStaticF_Version4(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  static inline void setStaticF_Version5(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignedData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignedData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignedData(SignedData&&) = delete;
@@ -205,12 +209,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignedData(SignedData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignedData();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
 

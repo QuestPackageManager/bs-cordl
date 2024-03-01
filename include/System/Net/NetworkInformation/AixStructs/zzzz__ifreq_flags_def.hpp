@@ -23,19 +23,17 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq_flags);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7313))
 // CS Name: ::ifreq_flags::<ifr_name>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __ifreq_flags___ifr_name_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __ifreq_flags___ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ifreq_flags___ifr_name_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __ifreq_flags___ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -59,8 +57,6 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq_fl
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7313))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7314))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq_flags
 #pragma pack(push, 0)
 struct CORDL_TYPE ifreq_flags {
@@ -74,25 +70,25 @@ public:
   /// @brief Field ifru_flags, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_ifru_flags, put = __cordl_internal_set_ifru_flags)) uint32_t ifru_flags;
 
-  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer& __cordl_internal_get_ifr_name();
-
   constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer const& __cordl_internal_get_ifr_name() const;
 
-  constexpr void __cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer value);
-
-  constexpr uint32_t& __cordl_internal_get_ifru_flags();
+  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer& __cordl_internal_get_ifr_name();
 
   constexpr uint32_t const& __cordl_internal_get_ifru_flags() const;
 
-  constexpr void __cordl_internal_set_ifru_flags(uint32_t value);
+  constexpr uint32_t& __cordl_internal_get_ifru_flags();
 
-  // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "ifru_flags", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr ifreq_flags(::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer ifr_name, uint32_t ifru_flags) noexcept;
+  constexpr void __cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer value);
+
+  constexpr void __cordl_internal_set_ifru_flags(uint32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ifreq_flags();
+
+  // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
+  // "ifru_flags", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr ifreq_flags(::System::Net::NetworkInformation::AixStructs::__ifreq_flags___ifr_name_e__FixedBuffer ifr_name, uint32_t ifru_flags) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4))
 // CS Name: ::Org.BouncyCastle.Asn1.Anssi::AnssiObjectIdentifiers*
 class CORDL_TYPE AnssiObjectIdentifiers : public ::System::Object {
 public:
@@ -26,15 +24,21 @@ public:
   /// @brief Field FRP256v1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_FRP256v1, put = setStaticF_FRP256v1))::Org::BouncyCastle::Asn1::DerObjectIdentifier* FRP256v1;
 
-  static inline void setStaticF_FRP256v1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers* New_ctor();
+
+  /// @brief Method .ctor, addr 0xed48cc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_FRP256v1();
 
-  static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers* New_ctor();
+  static inline void setStaticF_FRP256v1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0xe8d8fc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnssiObjectIdentifiers();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnssiObjectIdentifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnssiObjectIdentifiers(AnssiObjectIdentifiers&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnssiObjectIdentifiers(AnssiObjectIdentifiers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnssiObjectIdentifiers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

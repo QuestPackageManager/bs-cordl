@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberRefer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3272))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberReference*
 class CORDL_TYPE MemberReference : public ::System::Object {
 public:
@@ -30,29 +28,35 @@ public:
   /// @brief Field idRef, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_idRef, put = __cordl_internal_set_idRef)) int32_t idRef;
 
-  constexpr int32_t& __cordl_internal_get_idRef();
-
-  constexpr int32_t const& __cordl_internal_get_idRef() const;
-
-  constexpr void __cordl_internal_set_idRef(int32_t value);
+  /// @brief Method Dump, addr 0x25b5164, size 0x4, virtual false, abstract: false, final false
+  inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24e43e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Set, addr 0x24e43e8, size 0x8, virtual false, abstract: false, final false
-  inline void Set(int32_t idRef);
-
-  /// @brief Method Write, addr 0x24e43f0, size 0x54, virtual true, abstract: false, final true
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
-
-  /// @brief Method Read, addr 0x24e4444, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x25b513c, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump, addr 0x24e446c, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+  /// @brief Method Set, addr 0x25b50e0, size 0x8, virtual false, abstract: false, final false
+  inline void Set(int32_t idRef);
 
+  /// @brief Method Write, addr 0x25b50e8, size 0x54, virtual true, abstract: false, final true
+  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+
+  constexpr int32_t const& __cordl_internal_get_idRef() const;
+
+  constexpr int32_t& __cordl_internal_get_idRef();
+
+  constexpr void __cordl_internal_set_idRef(int32_t value);
+
+  /// @brief Method .ctor, addr 0x25b50d8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemberReference();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemberReference", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemberReference(MemberReference&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberReference(MemberReference const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberReference();
-
-public:
   /// @brief Field idRef, offset: 0x10, size: 0x4, def value: None
   int32_t ___idRef;
 

@@ -18,23 +18,27 @@ MARK_REF_PTR_T(::GlobalNamespace::ConfigSerializer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14512))
 // CS Name: ::ConfigSerializer*
 class CORDL_TYPE ConfigSerializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SaveConfig, addr 0x21859a4, size 0x430, virtual false, abstract: false, final false
-  static inline void SaveConfig(::System::Object* config, ::StringW filePath);
-
-  /// @brief Method LoadConfig, addr 0x2185dd4, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method LoadConfig, addr 0x2254478, size 0x560, virtual false, abstract: false, final false
   static inline bool LoadConfig(::System::Object* config, ::StringW filePath);
 
   static inline ::GlobalNamespace::ConfigSerializer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2186334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SaveConfig, addr 0x2254048, size 0x430, virtual false, abstract: false, final false
+  static inline void SaveConfig(::System::Object* config, ::StringW filePath);
+
+  /// @brief Method .ctor, addr 0x22549d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConfigSerializer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigSerializer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConfigSerializer(ConfigSerializer&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigSerializer(ConfigSerializer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConfigSerializer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

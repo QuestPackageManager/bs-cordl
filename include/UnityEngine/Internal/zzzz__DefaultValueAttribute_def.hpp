@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::UnityEngine::Internal::DefaultValueAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Internal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9070))
 // CS Name: ::UnityEngine.Internal::DefaultValueAttribute*
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
@@ -30,26 +28,32 @@ public:
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
+  /// @brief Method Equals, addr 0x2ddc778, size 0xb8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x2ddc830, size 0x24, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
+
   constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_DefaultValue() const;
 
   constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
 
-  static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
-
-  /// @brief Method .ctor, addr 0x2cf1020, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddc748, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_Value, addr 0x2cf1048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2ddc770, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method Equals, addr 0x2cf1050, size 0xb8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultValueAttribute();
 
-  /// @brief Method GetHashCode, addr 0x2cf1108, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultValueAttribute(DefaultValueAttribute&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultValueAttribute(DefaultValueAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultValueAttribute();
-
-public:
   /// @brief Field DefaultValue, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___DefaultValue;
 

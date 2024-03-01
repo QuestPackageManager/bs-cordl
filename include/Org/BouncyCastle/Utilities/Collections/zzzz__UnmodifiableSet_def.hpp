@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1789))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableSet*
 class CORDL_TYPE UnmodifiableSet : public ::System::Object {
 public:
@@ -54,33 +52,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Collections::ISet"
   constexpr operator ::Org::BouncyCastle::Utilities::Collections::ISet*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept;
-
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
-
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1188f1c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Add, addr 0x1188f24, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x11caef4, size 0x40, virtual true, abstract: false, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll, addr 0x1188f64, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method AddAll, addr 0x11caf34, size 0x40, virtual true, abstract: false, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear, addr 0x1188fa4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x11caf74, size 0x40, virtual true, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -89,11 +73,22 @@ public:
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_Count();
-
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
+
+  /// @brief Method Remove, addr 0x11cafbc, size 0x40, virtual true, abstract: false, final false
+  inline void Remove(::System::Object* o);
+
+  /// @brief Method RemoveAll, addr 0x11caffc, size 0x40, virtual true, abstract: false, final false
+  inline void RemoveAll(::System::Collections::IEnumerable* e);
+
+  /// @brief Method .ctor, addr 0x11caeec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_Count();
 
   /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEmpty();
@@ -101,7 +96,7 @@ public:
   /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x1188fe4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x11cafb4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -110,12 +105,21 @@ public:
   /// @brief Method get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method Remove, addr 0x1188fec, size 0x40, virtual true, abstract: false, final false
-  inline void Remove(::System::Object* o);
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept;
 
-  /// @brief Method RemoveAll, addr 0x118902c, size 0x40, virtual true, abstract: false, final false
-  inline void RemoveAll(::System::Collections::IEnumerable* e);
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnmodifiableSet();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmodifiableSet(UnmodifiableSet&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnmodifiableSet(UnmodifiableSet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnmodifiableSet();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -22,17 +22,21 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCachePreset);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9404))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeCachePreset*
 class CORDL_TYPE HEU_VolumeCachePreset : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _geoName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
+
   /// @brief Field _objName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__objName, put = __cordl_internal_set__objName))::StringW _objName;
 
-  /// @brief Field _geoName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
+  /// @brief Field _terrainDataPath, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__terrainDataPath, put = __cordl_internal_set__terrainDataPath))::StringW _terrainDataPath;
+
+  /// @brief Field _tile, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__tile, put = __cordl_internal_set__tile)) int32_t _tile;
 
   /// @brief Field _uiExpanded, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__uiExpanded, put = __cordl_internal_set__uiExpanded)) bool _uiExpanded;
@@ -41,53 +45,53 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeLayersPresets,
                       put = __cordl_internal_set__volumeLayersPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* _volumeLayersPresets;
 
-  /// @brief Field _terrainDataPath, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__terrainDataPath, put = __cordl_internal_set__terrainDataPath))::StringW _terrainDataPath;
-
-  /// @brief Field _tile, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__tile, put = __cordl_internal_set__tile)) int32_t _tile;
-
-  constexpr ::StringW& __cordl_internal_get__objName();
-
-  constexpr ::StringW const& __cordl_internal_get__objName() const;
-
-  constexpr void __cordl_internal_set__objName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__geoName();
+  static inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__geoName() const;
 
-  constexpr void __cordl_internal_set__geoName(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__geoName();
 
-  constexpr bool& __cordl_internal_get__uiExpanded();
+  constexpr ::StringW const& __cordl_internal_get__objName() const;
+
+  constexpr ::StringW& __cordl_internal_get__objName();
+
+  constexpr ::StringW const& __cordl_internal_get__terrainDataPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__terrainDataPath();
+
+  constexpr int32_t const& __cordl_internal_get__tile() const;
+
+  constexpr int32_t& __cordl_internal_get__tile();
 
   constexpr bool const& __cordl_internal_get__uiExpanded() const;
 
-  constexpr void __cordl_internal_set__uiExpanded(bool value);
+  constexpr bool& __cordl_internal_get__uiExpanded();
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& __cordl_internal_get__volumeLayersPresets();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*> const& __cordl_internal_get__volumeLayersPresets() const;
 
-  constexpr void __cordl_internal_set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* value);
+  constexpr void __cordl_internal_set__geoName(::StringW value);
 
-  constexpr ::StringW& __cordl_internal_get__terrainDataPath();
-
-  constexpr ::StringW const& __cordl_internal_get__terrainDataPath() const;
+  constexpr void __cordl_internal_set__objName(::StringW value);
 
   constexpr void __cordl_internal_set__terrainDataPath(::StringW value);
 
-  constexpr int32_t& __cordl_internal_get__tile();
-
-  constexpr int32_t const& __cordl_internal_get__tile() const;
-
   constexpr void __cordl_internal_set__tile(int32_t value);
 
-  static inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* New_ctor();
+  constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  /// @brief Method .ctor, addr 0x21e4154, size 0x7c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* value);
+
+  /// @brief Method .ctor, addr 0x22af7bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_VolumeCachePreset();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeCachePreset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_VolumeCachePreset(HEU_VolumeCachePreset&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_VolumeCachePreset(HEU_VolumeCachePreset const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_VolumeCachePreset();
-
-public:
   /// @brief Field _objName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____objName;
 

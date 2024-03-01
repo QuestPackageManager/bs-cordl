@@ -55,8 +55,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2765))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask::<>c<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask____c : public ::System::Object {
 public:
@@ -64,18 +62,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* __9;
 
-  static inline void setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value);
-
-  static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* getStaticF___9();
-
   static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <.cctor>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::System::Object* state);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* getStaticF___9();
+
+  static inline void setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ValueTask_1__ValueTaskSourceAsTask____c();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ValueTask_1__ValueTaskSourceAsTask____c(__ValueTask_1__ValueTaskSourceAsTask____c&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValueTask_1__ValueTaskSourceAsTask____c(__ValueTask_1__ValueTaskSourceAsTask____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ValueTask_1__ValueTaskSourceAsTask____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -100,8 +98,6 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3833 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2766))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
@@ -117,27 +113,33 @@ public:
   /// @brief Field s_completionAction, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction))::System::Action_1<::System::Object*>* s_completionAction;
 
+  static inline ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>* New_ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
+
   constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*& __cordl_internal_get__source();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*> const& __cordl_internal_get__source() const;
 
-  constexpr void __cordl_internal_set__source(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* value);
+  constexpr int16_t const& __cordl_internal_get__token() const;
 
   constexpr int16_t& __cordl_internal_get__token();
 
-  constexpr int16_t const& __cordl_internal_get__token() const;
+  constexpr void __cordl_internal_set__source(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* value);
 
   constexpr void __cordl_internal_set__token(int16_t value);
-
-  static inline void setStaticF_s_completionAction(::System::Action_1<::System::Object*>* value);
-
-  static inline ::System::Action_1<::System::Object*>* getStaticF_s_completionAction();
-
-  static inline ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>* New_ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
 
+  static inline ::System::Action_1<::System::Object*>* getStaticF_s_completionAction();
+
+  static inline void setStaticF_s_completionAction(::System::Action_1<::System::Object*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ValueTask_1__ValueTaskSourceAsTask();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ValueTask_1__ValueTaskSourceAsTask(__ValueTask_1__ValueTaskSourceAsTask&&) = delete;
@@ -146,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValueTask_1__ValueTaskSourceAsTask(__ValueTask_1__ValueTaskSourceAsTask const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ValueTask_1__ValueTaskSourceAsTask();
-
-public:
   /// @brief Field _source, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* ____source;
 
@@ -168,16 +164,11 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2767))
 // CS Name: ::System.Threading.Tasks::ValueTask`1<TResult>
 struct CORDL_TYPE ValueTask_1 {
 public:
   // Declarations
   using ValueTaskSourceAsTask = ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>;
-
-  /// @brief Field s_canceledTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_canceledTask, put = setStaticF_s_canceledTask))::System::Threading::Tasks::Task_1<TResult>* s_canceledTask;
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
@@ -185,30 +176,17 @@ public:
 
   __declspec(property(get = get_Result)) TResult Result;
 
+  /// @brief Field s_canceledTask, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_canceledTask, put = setStaticF_s_canceledTask))::System::Threading::Tasks::Task_1<TResult>* s_canceledTask;
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
   constexpr operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
-  constexpr ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>* i___System__IEquatable_1___System__Threading__Tasks__ValueTask_1_TResult__();
+  /// @brief Method AsTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<TResult>* AsTask();
 
-  static inline void setStaticF_s_canceledTask(::System::Threading::Tasks::Task_1<TResult>* value);
-
-  static inline ::System::Threading::Tasks::Task_1<TResult>* getStaticF_s_canceledTask();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(TResult result);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* obj, TResult result, int16_t token, bool continueOnCapturedContext);
-
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  /// @brief Method ConfigureAwait, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResult> ConfigureAwait(bool continueOnCapturedContext);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
@@ -216,11 +194,31 @@ public:
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::Tasks::ValueTask_1<TResult> other);
 
-  /// @brief Method AsTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<TResult>* AsTask();
+  /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult> GetAwaiter();
+
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   /// @brief Method GetTaskForValueTaskSource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* GetTaskForValueTaskSource(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* t);
+
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* obj, TResult result, int16_t token, bool continueOnCapturedContext);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(TResult result);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task);
+
+  static inline ::System::Threading::Tasks::Task_1<TResult>* getStaticF_s_canceledTask();
 
   /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
@@ -231,22 +229,18 @@ public:
   /// @brief Method get_Result, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult get_Result();
 
-  /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult> GetAwaiter();
+  /// @brief Convert to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
+  constexpr ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>* i___System__IEquatable_1___System__Threading__Tasks__ValueTask_1_TResult__();
 
-  /// @brief Method ConfigureAwait, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResult> ConfigureAwait(bool continueOnCapturedContext);
-
-  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "_obj", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None }, CppParam { name:
-  // "_token", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None }]
-  constexpr ValueTask_1(::System::Object* _obj, TResult _result, int16_t _token, bool _continueOnCapturedContext) noexcept;
+  static inline void setStaticF_s_canceledTask(::System::Threading::Tasks::Task_1<TResult>* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueTask_1();
+
+  // Ctor Parameters [CppParam { name: "_obj", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None }, CppParam { name:
+  // "_token", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None }]
+  constexpr ValueTask_1(::System::Object* _obj, TResult _result, int16_t _token, bool _continueOnCapturedContext) noexcept;
 
   /// @brief Field _obj, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _obj;

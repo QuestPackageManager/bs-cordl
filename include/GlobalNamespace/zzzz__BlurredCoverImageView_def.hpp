@@ -58,23 +58,25 @@ MARK_VAL_T(::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5073)) CS
-// Name: ::BlurredCoverImageView::<SetTextureAsync>d__6
+// CS Name: ::BlurredCoverImageView::<SetTextureAsync>d__6
 struct CORDL_TYPE __BlurredCoverImageView___SetTextureAsync_d__6 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x23de564, size 0x6cc, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x23dec30, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2310688, size 0x6cc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2310d54, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BlurredCoverImageView___SetTextureAsync_d__6();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::BlurredCoverImageView>", modifiers:
@@ -85,10 +87,6 @@ public:
                                                            ::UnityW<::GlobalNamespace::BlurredCoverImageView> __4__this, ::GlobalNamespace::BeatmapLevel* level,
                                                            ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BlurredCoverImageView___SetTextureAsync_d__6();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -133,13 +131,17 @@ static_assert(offsetof(::GlobalNamespace::__BlurredCoverImageView___SetTextureAs
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5074))
 // CS Name: ::BlurredCoverImageView*
 class CORDL_TYPE BlurredCoverImageView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using _SetTextureAsync_d__6 = ::GlobalNamespace::__BlurredCoverImageView___SetTextureAsync_d__6;
+
+  /// @brief Field _blurredCoverTexture, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__blurredCoverTexture, put = __cordl_internal_set__blurredCoverTexture))::UnityW<::UnityEngine::Texture2D> _blurredCoverTexture;
+
+  /// @brief Field _cancellationTokenSource, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _coverImage, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage))::UnityW<::HMUI::ImageView> _coverImage;
@@ -150,53 +152,53 @@ public:
   /// @brief Field _settingTextureForLevelId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingTextureForLevelId, put = __cordl_internal_set__settingTextureForLevelId))::StringW _settingTextureForLevelId;
 
-  /// @brief Field _cancellationTokenSource, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
 
-  /// @brief Field _blurredCoverTexture, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__blurredCoverTexture, put = __cordl_internal_set__blurredCoverTexture))::UnityW<::UnityEngine::Texture2D> _blurredCoverTexture;
+  /// @brief Method OnDestroy, addr 0x23de418, size 0xa4, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__coverImage();
+  /// @brief Method SetTextureAsync, addr 0x23de4bc, size 0xa0, virtual false, abstract: false, final false
+  inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
 
-  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__coverImage() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blurredCoverTexture() const;
 
-  constexpr void __cordl_internal_set__coverImage(::UnityW<::HMUI::ImageView> value);
-
-  constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>& __cordl_internal_get__kawaseBlurRenderer();
-
-  constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> const& __cordl_internal_get__kawaseBlurRenderer() const;
-
-  constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
-
-  constexpr ::StringW& __cordl_internal_get__settingTextureForLevelId();
-
-  constexpr ::StringW const& __cordl_internal_get__settingTextureForLevelId() const;
-
-  constexpr void __cordl_internal_set__settingTextureForLevelId(::StringW value);
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__blurredCoverTexture();
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__coverImage() const;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__blurredCoverTexture();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__coverImage();
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blurredCoverTexture() const;
+  constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> const& __cordl_internal_get__kawaseBlurRenderer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::KawaseBlurRendererSO>& __cordl_internal_get__kawaseBlurRenderer();
+
+  constexpr ::StringW const& __cordl_internal_get__settingTextureForLevelId() const;
+
+  constexpr ::StringW& __cordl_internal_get__settingTextureForLevelId();
 
   constexpr void __cordl_internal_set__blurredCoverTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method OnDestroy, addr 0x231053c, size 0xa4, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method SetTextureAsync, addr 0x23105e0, size 0xa0, virtual false, abstract: false, final false
-  inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
+  constexpr void __cordl_internal_set__coverImage(::UnityW<::HMUI::ImageView> value);
 
-  static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
+  constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x2310680, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__settingTextureForLevelId(::StringW value);
+
+  /// @brief Method .ctor, addr 0x23de55c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BlurredCoverImageView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BlurredCoverImageView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BlurredCoverImageView(BlurredCoverImageView&&) = delete;
@@ -205,12 +207,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BlurredCoverImageView(BlurredCoverImageView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BlurredCoverImageView();
-
-public:
   /// @brief Field _coverImage, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____coverImage;
 

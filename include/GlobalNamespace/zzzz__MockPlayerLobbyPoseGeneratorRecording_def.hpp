@@ -17,23 +17,27 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15708))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4522))
 // CS Name: ::MockPlayerLobbyPoseGeneratorRecording*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
-  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
-
-  /// @brief Method .ctor, addr 0x239ff2c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
-
-  /// @brief Method Init, addr 0x23a20f4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x247103c, size 0x68, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Tick, addr 0x23a215c, size 0x68, virtual true, abstract: false, final false
+  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
+
+  /// @brief Method Tick, addr 0x24710a4, size 0x68, virtual true, abstract: false, final false
   inline void Tick();
 
+  /// @brief Method .ctor, addr 0x246ee74, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockPlayerLobbyPoseGeneratorRecording();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerLobbyPoseGeneratorRecording", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlayerLobbyPoseGeneratorRecording();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

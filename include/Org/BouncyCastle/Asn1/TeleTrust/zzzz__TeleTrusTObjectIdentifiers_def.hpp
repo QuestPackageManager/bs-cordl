@@ -17,55 +17,10 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(313))
 // CS Name: ::Org.BouncyCastle.Asn1.TeleTrust::TeleTrusTObjectIdentifiers*
 class CORDL_TYPE TeleTrusTObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field TeleTrusTAlgorithm, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TeleTrusTAlgorithm, put = setStaticF_TeleTrusTAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* TeleTrusTAlgorithm;
-
-  /// @brief Field RipeMD160, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RipeMD160, put = setStaticF_RipeMD160))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RipeMD160;
-
-  /// @brief Field RipeMD128, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RipeMD128, put = setStaticF_RipeMD128))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RipeMD128;
-
-  /// @brief Field RipeMD256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RipeMD256, put = setStaticF_RipeMD256))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RipeMD256;
-
-  /// @brief Field TeleTrusTRsaSignatureAlgorithm, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TeleTrusTRsaSignatureAlgorithm,
-                             put = setStaticF_TeleTrusTRsaSignatureAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* TeleTrusTRsaSignatureAlgorithm;
-
-  /// @brief Field RsaSignatureWithRipeMD160, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RsaSignatureWithRipeMD160, put = setStaticF_RsaSignatureWithRipeMD160))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RsaSignatureWithRipeMD160;
-
-  /// @brief Field RsaSignatureWithRipeMD128, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RsaSignatureWithRipeMD128, put = setStaticF_RsaSignatureWithRipeMD128))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RsaSignatureWithRipeMD128;
-
-  /// @brief Field RsaSignatureWithRipeMD256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RsaSignatureWithRipeMD256, put = setStaticF_RsaSignatureWithRipeMD256))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RsaSignatureWithRipeMD256;
-
-  /// @brief Field ECSign, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ECSign, put = setStaticF_ECSign))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ECSign;
-
-  /// @brief Field ECSignWithSha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ECSignWithSha1, put = setStaticF_ECSignWithSha1))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ECSignWithSha1;
-
-  /// @brief Field ECSignWithRipeMD160, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ECSignWithRipeMD160, put = setStaticF_ECSignWithRipeMD160))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ECSignWithRipeMD160;
-
-  /// @brief Field EccBrainpool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EccBrainpool, put = setStaticF_EccBrainpool))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EccBrainpool;
-
-  /// @brief Field EllipticCurve, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EllipticCurve, put = setStaticF_EllipticCurve))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EllipticCurve;
-
-  /// @brief Field VersionOne, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_VersionOne, put = setStaticF_VersionOne))::Org::BouncyCastle::Asn1::DerObjectIdentifier* VersionOne;
-
   /// @brief Field BrainpoolP160R1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_BrainpoolP160R1, put = setStaticF_BrainpoolP160R1))::Org::BouncyCastle::Asn1::DerObjectIdentifier* BrainpoolP160R1;
 
@@ -108,123 +63,172 @@ public:
   /// @brief Field BrainpoolP512T1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_BrainpoolP512T1, put = setStaticF_BrainpoolP512T1))::Org::BouncyCastle::Asn1::DerObjectIdentifier* BrainpoolP512T1;
 
-  static inline void setStaticF_TeleTrusTAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field ECSign, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ECSign, put = setStaticF_ECSign))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ECSign;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_TeleTrusTAlgorithm();
+  /// @brief Field ECSignWithRipeMD160, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ECSignWithRipeMD160, put = setStaticF_ECSignWithRipeMD160))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ECSignWithRipeMD160;
 
-  static inline void setStaticF_RipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field ECSignWithSha1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ECSignWithSha1, put = setStaticF_ECSignWithSha1))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ECSignWithSha1;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RipeMD160();
+  /// @brief Field EccBrainpool, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_EccBrainpool, put = setStaticF_EccBrainpool))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EccBrainpool;
 
-  static inline void setStaticF_RipeMD128(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field EllipticCurve, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_EllipticCurve, put = setStaticF_EllipticCurve))::Org::BouncyCastle::Asn1::DerObjectIdentifier* EllipticCurve;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RipeMD128();
+  /// @brief Field RipeMD128, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_RipeMD128, put = setStaticF_RipeMD128))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RipeMD128;
 
-  static inline void setStaticF_RipeMD256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field RipeMD160, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_RipeMD160, put = setStaticF_RipeMD160))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RipeMD160;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RipeMD256();
+  /// @brief Field RipeMD256, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_RipeMD256, put = setStaticF_RipeMD256))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RipeMD256;
 
-  static inline void setStaticF_TeleTrusTRsaSignatureAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field RsaSignatureWithRipeMD128, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_RsaSignatureWithRipeMD128, put = setStaticF_RsaSignatureWithRipeMD128))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RsaSignatureWithRipeMD128;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_TeleTrusTRsaSignatureAlgorithm();
+  /// @brief Field RsaSignatureWithRipeMD160, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_RsaSignatureWithRipeMD160, put = setStaticF_RsaSignatureWithRipeMD160))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RsaSignatureWithRipeMD160;
 
-  static inline void setStaticF_RsaSignatureWithRipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field RsaSignatureWithRipeMD256, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_RsaSignatureWithRipeMD256, put = setStaticF_RsaSignatureWithRipeMD256))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RsaSignatureWithRipeMD256;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RsaSignatureWithRipeMD160();
+  /// @brief Field TeleTrusTAlgorithm, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_TeleTrusTAlgorithm, put = setStaticF_TeleTrusTAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* TeleTrusTAlgorithm;
 
-  static inline void setStaticF_RsaSignatureWithRipeMD128(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Field TeleTrusTRsaSignatureAlgorithm, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_TeleTrusTRsaSignatureAlgorithm,
+                             put = setStaticF_TeleTrusTRsaSignatureAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* TeleTrusTRsaSignatureAlgorithm;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RsaSignatureWithRipeMD128();
+  /// @brief Field VersionOne, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_VersionOne, put = setStaticF_VersionOne))::Org::BouncyCastle::Asn1::DerObjectIdentifier* VersionOne;
 
-  static inline void setStaticF_RsaSignatureWithRipeMD256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers* New_ctor();
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RsaSignatureWithRipeMD256();
+  /// @brief Method .ctor, addr 0x10e9ecc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline void setStaticF_ECSign(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP160R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP160T1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP192R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP192T1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP224R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP224T1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP256R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP256T1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP320R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP320T1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP384R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP384T1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP512R1();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP512T1();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ECSign();
 
-  static inline void setStaticF_ECSignWithSha1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ECSignWithRipeMD160();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ECSignWithSha1();
 
-  static inline void setStaticF_ECSignWithRipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ECSignWithRipeMD160();
-
-  static inline void setStaticF_EccBrainpool(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_EccBrainpool();
-
-  static inline void setStaticF_EllipticCurve(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_EllipticCurve();
 
-  static inline void setStaticF_VersionOne(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RipeMD128();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RipeMD160();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RipeMD256();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RsaSignatureWithRipeMD128();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RsaSignatureWithRipeMD160();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RsaSignatureWithRipeMD256();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_TeleTrusTAlgorithm();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_TeleTrusTRsaSignatureAlgorithm();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_VersionOne();
 
   static inline void setStaticF_BrainpoolP160R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP160R1();
-
   static inline void setStaticF_BrainpoolP160T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP160T1();
 
   static inline void setStaticF_BrainpoolP192R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP192R1();
-
   static inline void setStaticF_BrainpoolP192T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP192T1();
 
   static inline void setStaticF_BrainpoolP224R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP224R1();
-
   static inline void setStaticF_BrainpoolP224T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP224T1();
 
   static inline void setStaticF_BrainpoolP256R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP256R1();
-
   static inline void setStaticF_BrainpoolP256T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP256T1();
 
   static inline void setStaticF_BrainpoolP320R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP320R1();
-
   static inline void setStaticF_BrainpoolP320T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP320T1();
 
   static inline void setStaticF_BrainpoolP384R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP384R1();
-
   static inline void setStaticF_BrainpoolP384T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP384T1();
 
   static inline void setStaticF_BrainpoolP512R1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP512R1();
-
   static inline void setStaticF_BrainpoolP512T1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BrainpoolP512T1();
+  static inline void setStaticF_ECSign(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers* New_ctor();
+  static inline void setStaticF_ECSignWithRipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x10a4efc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_ECSignWithSha1(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
+  static inline void setStaticF_EccBrainpool(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_EllipticCurve(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RipeMD128(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RipeMD256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RsaSignatureWithRipeMD128(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RsaSignatureWithRipeMD160(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RsaSignatureWithRipeMD256(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_TeleTrusTAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_TeleTrusTRsaSignatureAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_VersionOne(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TeleTrusTObjectIdentifiers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTObjectIdentifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TeleTrusTObjectIdentifiers(TeleTrusTObjectIdentifiers&&) = delete;
@@ -233,12 +237,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TeleTrusTObjectIdentifiers(TeleTrusTObjectIdentifiers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TeleTrusTObjectIdentifiers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

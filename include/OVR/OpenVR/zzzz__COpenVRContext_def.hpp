@@ -16,12 +16,14 @@ MARK_VAL_T(::OVR::OpenVR::COpenVRContext);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8671))
 // CS Name: ::OVR.OpenVR::COpenVRContext
 struct CORDL_TYPE COpenVRContext {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr COpenVRContext();
+
   // Ctor Parameters [CppParam { name: "m_pVRSystem", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pVRChaperone", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
   // "m_pVRChaperoneSetup", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pVRCompositor", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pVROverlay", ty:
   // "void*", modifiers: "", def_value: None }, CppParam { name: "m_pVRResources", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pVRRenderModels", ty: "void*", modifiers: "",
@@ -33,10 +35,6 @@ public:
   constexpr COpenVRContext(void* m_pVRSystem, void* m_pVRChaperone, void* m_pVRChaperoneSetup, void* m_pVRCompositor, void* m_pVROverlay, void* m_pVRResources, void* m_pVRRenderModels,
                            void* m_pVRExtendedDisplay, void* m_pVRSettings, void* m_pVRApplications, void* m_pVRTrackedCamera, void* m_pVRScreenshots, void* m_pVRDriverManager, void* m_pVRInput,
                            void* m_pVRIOBuffer, void* m_pVRSpatialAnchors) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr COpenVRContext();
 
   /// @brief Field m_pVRSystem, offset: 0x0, size: 0x8, def value: None
   void* m_pVRSystem;

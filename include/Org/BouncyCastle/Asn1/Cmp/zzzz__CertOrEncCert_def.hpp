@@ -32,67 +32,71 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertOrEncCert*
 class CORDL_TYPE CertOrEncCert : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Certificate))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* Certificate;
+
+  __declspec(property(get = get_EncryptedCert))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* EncryptedCert;
+
   /// @brief Field certificate, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate;
 
   /// @brief Field encryptedCert, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_encryptedCert, put = __cordl_internal_set_encryptedCert))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert;
 
-  __declspec(property(get = get_Certificate))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* Certificate;
-
-  __declspec(property(get = get_EncryptedCert))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* EncryptedCert;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Method GetInstance, addr 0xed6728, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
+
+  /// @brief Method ToAsn1Object, addr 0xed6e08, size 0x94, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_certificate();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_certificate() const;
 
-  constexpr void __cordl_internal_set_certificate(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& __cordl_internal_get_encryptedCert();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& __cordl_internal_get_encryptedCert() const;
 
+  constexpr void __cordl_internal_set_certificate(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
+
   constexpr void __cordl_internal_set_encryptedCert(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
-
-  /// @brief Method .ctor, addr 0xe8fc44, size 0xf4, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
-
-  /// @brief Method GetInstance, addr 0xe8f758, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
-
-  /// @brief Method .ctor, addr 0xe8fd38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed6d08, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert);
-
-  /// @brief Method .ctor, addr 0xe8fdb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed6d80, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert);
 
-  /// @brief Method get_Certificate, addr 0xe8fe28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed6c14, size 0xf4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
+
+  /// @brief Method get_Certificate, addr 0xed6df8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_Certificate();
 
-  /// @brief Method get_EncryptedCert, addr 0xe8fe30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncryptedCert, addr 0xed6e00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* get_EncryptedCert();
 
-  /// @brief Method ToAsn1Object, addr 0xe8fe38, size 0x94, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertOrEncCert();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertOrEncCert", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertOrEncCert(CertOrEncCert&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertOrEncCert(CertOrEncCert const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertOrEncCert();
-
-public:
   /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* ___certificate;
 

@@ -15,46 +15,44 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5604))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::HapticCapabilities
 struct CORDL_TYPE HapticCapabilities {
 public:
   // Declarations
-  __declspec(property(get = get_numChannels, put = set_numChannels)) uint32_t numChannels;
-
   __declspec(property(get = get_frequencyHz, put = set_frequencyHz)) uint32_t frequencyHz;
 
   __declspec(property(get = get_maxBufferSize, put = set_maxBufferSize)) uint32_t maxBufferSize;
 
-  /// @brief Method .ctor, addr 0x2aca410, size 0xc, virtual false, abstract: false, final false
+  __declspec(property(get = get_numChannels, put = set_numChannels)) uint32_t numChannels;
+
+  /// @brief Method .ctor, addr 0x2bb14e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t numChannels, uint32_t frequencyHz, uint32_t maxBufferSize);
 
-  /// @brief Method get_numChannels, addr 0x2aca41c, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_numChannels();
-
-  /// @brief Method set_numChannels, addr 0x2aca424, size 0x8, virtual false, abstract: false, final false
-  inline void set_numChannels(uint32_t value);
-
-  /// @brief Method get_frequencyHz, addr 0x2aca42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequencyHz, addr 0x2bb1500, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_frequencyHz();
 
-  /// @brief Method set_frequencyHz, addr 0x2aca434, size 0x8, virtual false, abstract: false, final false
-  inline void set_frequencyHz(uint32_t value);
-
-  /// @brief Method get_maxBufferSize, addr 0x2aca43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxBufferSize, addr 0x2bb1510, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxBufferSize();
 
-  /// @brief Method set_maxBufferSize, addr 0x2aca444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numChannels, addr 0x2bb14f0, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_numChannels();
+
+  /// @brief Method set_frequencyHz, addr 0x2bb1508, size 0x8, virtual false, abstract: false, final false
+  inline void set_frequencyHz(uint32_t value);
+
+  /// @brief Method set_maxBufferSize, addr 0x2bb1518, size 0x8, virtual false, abstract: false, final false
   inline void set_maxBufferSize(uint32_t value);
 
-  // Ctor Parameters [CppParam { name: "_numChannels_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_frequencyHz_k__BackingField", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "_maxBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr HapticCapabilities(uint32_t _numChannels_k__BackingField, uint32_t _frequencyHz_k__BackingField, uint32_t _maxBufferSize_k__BackingField) noexcept;
+  /// @brief Method set_numChannels, addr 0x2bb14f8, size 0x8, virtual false, abstract: false, final false
+  inline void set_numChannels(uint32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HapticCapabilities();
+
+  // Ctor Parameters [CppParam { name: "_numChannels_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_frequencyHz_k__BackingField", ty: "uint32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "_maxBufferSize_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr HapticCapabilities(uint32_t _numChannels_k__BackingField, uint32_t _frequencyHz_k__BackingField, uint32_t _maxBufferSize_k__BackingField) noexcept;
 
   /// @brief Field <numChannels>k__BackingField, offset: 0x0, size: 0x4, def value: None
   uint32_t _numChannels_k__BackingField;

@@ -22,60 +22,64 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::EventBox);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11207))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11165))
 // CS Name: ::BeatmapSaveDataVersion3::EventBox*
 class CORDL_TYPE EventBox : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field f, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f))::BeatmapSaveDataVersion3::IndexFilter* f;
+  __declspec(property(get = get_beatDistributionParam)) float_t beatDistributionParam;
 
-  /// @brief Field w, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_w, put = __cordl_internal_set_w)) float_t w;
+  __declspec(property(get = get_beatDistributionParamType))::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType;
 
   /// @brief Field d, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::DistributionParamType d;
 
+  /// @brief Field f, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f))::BeatmapSaveDataVersion3::IndexFilter* f;
+
   __declspec(property(get = get_indexFilter))::BeatmapSaveDataVersion3::IndexFilter* indexFilter;
 
-  __declspec(property(get = get_beatDistributionParam)) float_t beatDistributionParam;
+  /// @brief Field w, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_w, put = __cordl_internal_set_w)) float_t w;
 
-  __declspec(property(get = get_beatDistributionParamType))::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType;
+  static inline ::BeatmapSaveDataVersion3::EventBox* New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
+                                                              ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
+
+  constexpr ::BeatmapSaveDataCommon::DistributionParamType const& __cordl_internal_get_d() const;
+
+  constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_d();
 
   constexpr ::BeatmapSaveDataVersion3::IndexFilter*& __cordl_internal_get_f();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::IndexFilter*> const& __cordl_internal_get_f() const;
 
-  constexpr void __cordl_internal_set_f(::BeatmapSaveDataVersion3::IndexFilter* value);
+  constexpr float_t const& __cordl_internal_get_w() const;
 
   constexpr float_t& __cordl_internal_get_w();
 
-  constexpr float_t const& __cordl_internal_get_w() const;
+  constexpr void __cordl_internal_set_d(::BeatmapSaveDataCommon::DistributionParamType value);
+
+  constexpr void __cordl_internal_set_f(::BeatmapSaveDataVersion3::IndexFilter* value);
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_d();
-
-  constexpr ::BeatmapSaveDataCommon::DistributionParamType const& __cordl_internal_get_d() const;
-
-  constexpr void __cordl_internal_set_d(::BeatmapSaveDataCommon::DistributionParamType value);
-
-  /// @brief Method get_indexFilter, addr 0x12bb81c, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
-
-  /// @brief Method get_beatDistributionParam, addr 0x12bb824, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_beatDistributionParam();
-
-  /// @brief Method get_beatDistributionParamType, addr 0x12bb82c, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
-
-  static inline ::BeatmapSaveDataVersion3::EventBox* New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
-                                                              ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
-
-  /// @brief Method .ctor, addr 0x12bb834, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fc804, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
 
+  /// @brief Method get_beatDistributionParam, addr 0x12fc7f4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_beatDistributionParam();
+
+  /// @brief Method get_beatDistributionParamType, addr 0x12fc7fc, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
+
+  /// @brief Method get_indexFilter, addr 0x12fc7ec, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventBox();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventBox", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBox(EventBox&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBox(EventBox const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBox();
-
-public:
   /// @brief Field f, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::IndexFilter* ___f;
 

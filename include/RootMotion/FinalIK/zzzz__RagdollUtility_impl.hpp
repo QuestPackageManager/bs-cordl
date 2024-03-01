@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility__Rigidbone::*)(::UnityEngine::Rigidbody*)>(
     &::RootMotion::FinalIK::__RagdollUtility__Rigidbone::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x1325b68;
+  constexpr static std::size_t addrs = 0x1367b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility__Rigidbone::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility__Rigidbone::RecordVelocity)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x13266b0;
+  constexpr static std::size_t addrs = 0x136869c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__RagdollUtility__Rigidbone*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility__Rigidbone::*)(float_t, float_t)>(
     &::RootMotion::FinalIK::__RagdollUtility__Rigidbone::WakeUp)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x1326470;
+  constexpr static std::size_t addrs = 0x136845c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility__Child::*)(::UnityEngine::Transform*)>(
     &::RootMotion::FinalIK::__RagdollUtility__Child::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1325cbc;
+  constexpr static std::size_t addrs = 0x1367ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility__Child::*)(float_t)>(
     &::RootMotion::FinalIK::__RagdollUtility__Child::FixTransform)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x13267c8;
+  constexpr static std::size_t addrs = 0x13687b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility__Child::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility__Child::StoreLocalState)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1326784;
+  constexpr static std::size_t addrs = 0x1368770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__RagdollUtility__Child*>::get(),
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::*)(int32_t)>(
     &::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1325d18;
+  constexpr static std::size_t addrs = 0x1367d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1326ae8;
+  constexpr static std::size_t addrs = 0x1368ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x1326aec;
+  constexpr static std::size_t addrs = 0x1368ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1326ccc;
+  constexpr static std::size_t addrs = 0x1368cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1326cd4;
+  constexpr static std::size_t addrs = 0x1368cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::*)()>(
     &::RootMotion::FinalIK::__RagdollUtility___DisableRagdollSmooth_d__21::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1326d14;
+  constexpr static std::size_t addrs = 0x1368d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::EnableRagdoll)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x13255c0;
+  constexpr static std::size_t addrs = 0x13675ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "EnableRagdoll",
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::DisableRagdoll)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1325650;
+  constexpr static std::size_t addrs = 0x136763c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "DisableRagdoll",
@@ -539,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::Start)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x132575c;
+  constexpr static std::size_t addrs = 0x1367748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "Start",
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::RootMotion::FinalIK::RagdollUtility::*)()>(
     &::RootMotion::FinalIK::RagdollUtility::DisableRagdollSmooth)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13256f4;
+  constexpr static std::size_t addrs = 0x13676e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(),
@@ -566,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::Update)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x1325d40;
+  constexpr static std::size_t addrs = 0x1367d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "Update",
@@ -579,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::FixedUpdate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x1325f68;
+  constexpr static std::size_t addrs = 0x1367f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "FixedUpdate",
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::LateUpdate)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1326008;
+  constexpr static std::size_t addrs = 0x1367ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "LateUpdate",
@@ -605,7 +605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::AfterLastIK)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x13261f8;
+  constexpr static std::size_t addrs = 0x13681e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "AfterLastIK",
@@ -618,7 +618,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::AfterAnimation)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1326078;
+  constexpr static std::size_t addrs = 0x1368064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "AfterAnimation",
@@ -631,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::OnFinalPose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x13261c4;
+  constexpr static std::size_t addrs = 0x13681b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "OnFinalPose",
@@ -644,7 +644,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::RagdollEnabler)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x1326278;
+  constexpr static std::size_t addrs = 0x1368264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "RagdollEnabler",
@@ -657,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::get_isRagdoll)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x13255ec;
+  constexpr static std::size_t addrs = 0x13675d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "get_isRagdoll",
@@ -670,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::RecordVelocities)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x132621c;
+  constexpr static std::size_t addrs = 0x1368208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(),
@@ -683,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::get_ikUsed)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x13260a4;
+  constexpr static std::size_t addrs = 0x1368090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "get_ikUsed",
@@ -696,7 +696,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::StoreLocalState)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1325698;
+  constexpr static std::size_t addrs = 0x1367684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "StoreLocalState",
@@ -709,7 +709,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)(float_t)>(&::RootMotion::FinalIK::RagdollUtility::FixTransforms)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x1325f9c;
+  constexpr static std::size_t addrs = 0x1367f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -723,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::OnDestroy)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x13268d8;
+  constexpr static std::size_t addrs = 0x13688c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), "OnDestroy",
@@ -736,7 +736,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RagdollUtility::*)()>(&::RootMotion::FinalIK::RagdollUtility::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x13269f0;
+  constexpr static std::size_t addrs = 0x13689dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RagdollUtility*>::get(), ".ctor",

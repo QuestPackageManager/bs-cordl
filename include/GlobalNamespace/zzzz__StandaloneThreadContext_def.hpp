@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::StandaloneThreadContext);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12865))
 // CS Name: ::StandaloneThreadContext*
 class CORDL_TYPE StandaloneThreadContext : public ::System::Object {
 public:
@@ -32,21 +30,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStandaloneThreadRunner"
   constexpr operator ::GlobalNamespace::IStandaloneThreadRunner*() noexcept;
 
+  static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
+
+  /// @brief Method Run, addr 0xecb1b4, size 0x4, virtual true, abstract: false, final true
+  inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
+
+  /// @brief Method .ctor, addr 0xecb1b8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();
+
   /// @brief Convert to "::GlobalNamespace::IStandaloneThreadRunner"
   constexpr ::GlobalNamespace::IStandaloneThreadRunner* i___GlobalNamespace__IStandaloneThreadRunner() noexcept;
 
   static inline void setStaticF_instance(::GlobalNamespace::StandaloneThreadContext* value);
 
-  static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandaloneThreadContext();
 
-  /// @brief Method Run, addr 0xe841e4, size 0x4, virtual true, abstract: false, final true
-  inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
-
-  static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe841e8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneThreadContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneThreadContext(StandaloneThreadContext&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandaloneThreadContext(StandaloneThreadContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneThreadContext();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9533))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9690))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo*
 class CORDL_TYPE Test_HAPI_AttributeInfo : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_AttributeInfo__() noexcept;
-
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __cordl_internal_get_self();
-
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_AttributeInfo value);
+  /// @brief Method IsEquivalentTo, addr 0x23454b0, size 0xec, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AttributeInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* New_ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
-  /// @brief Method .ctor, addr 0x2278e14, size 0x34, virtual false, abstract: false, final false
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& __cordl_internal_get_self() const;
+
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_AttributeInfo value);
+
+  /// @brief Method .ctor, addr 0x234547c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
-  /// @brief Method IsEquivalentTo, addr 0x2278e48, size 0xec, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AttributeInfo* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_AttributeInfo__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_HAPI_AttributeInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_AttributeInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_HAPI_AttributeInfo(Test_HAPI_AttributeInfo&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_AttributeInfo(Test_HAPI_AttributeInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_HAPI_AttributeInfo();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_AttributeInfo ___self;
 

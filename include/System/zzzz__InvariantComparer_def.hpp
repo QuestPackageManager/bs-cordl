@@ -24,23 +24,23 @@ MARK_REF_PTR_T(::System::InvariantComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6878))
 // CS Name: ::System::InvariantComparer*
 class CORDL_TYPE InvariantComparer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_compareInfo, put = __cordl_internal_set_m_compareInfo))::System::Globalization::CompareInfo* m_compareInfo;
-
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::InvariantComparer* Default;
+
+  /// @brief Field m_compareInfo, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_compareInfo, put = __cordl_internal_set_m_compareInfo))::System::Globalization::CompareInfo* m_compareInfo;
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+  /// @brief Method Compare, addr 0x2a31da4, size 0xec, virtual true, abstract: false, final true
+  inline int32_t Compare(::System::Object* a, ::System::Object* b);
+
+  static inline ::System::InvariantComparer* New_ctor();
 
   constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get_m_compareInfo();
 
@@ -48,18 +48,22 @@ public:
 
   constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
-  static inline void setStaticF_Default(::System::InvariantComparer* value);
+  /// @brief Method .ctor, addr 0x2a31d28, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::InvariantComparer* getStaticF_Default();
 
-  static inline ::System::InvariantComparer* New_ctor();
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  /// @brief Method .ctor, addr 0x294c8ac, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_Default(::System::InvariantComparer* value);
 
-  /// @brief Method Compare, addr 0x294c928, size 0xec, virtual true, abstract: false, final true
-  inline int32_t Compare(::System::Object* a, ::System::Object* b);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvariantComparer();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvariantComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvariantComparer(InvariantComparer&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvariantComparer(InvariantComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvariantComparer();
-
-public:
   /// @brief Field m_compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ___m_compareInfo;
 

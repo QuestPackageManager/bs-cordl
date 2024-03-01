@@ -32,12 +32,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerBitString);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(33))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(34))
 // CS Name: ::Org.BouncyCastle.Asn1::DerBitString*
 class CORDL_TYPE DerBitString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
   // Declarations
+  __declspec(property(get = get_IntValue)) int32_t IntValue;
+
+  __declspec(property(get = get_PadBits)) int32_t PadBits;
+
   /// @brief Field mData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mData, put = __cordl_internal_set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
 
@@ -47,79 +49,81 @@ public:
   /// @brief Field table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_table, put = setStaticF_table))::ArrayW<char16_t, ::Array<char16_t>*> table;
 
-  __declspec(property(get = get_PadBits)) int32_t PadBits;
+  /// @brief Method Asn1Equals, addr 0xedce0c, size 0xd8, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  __declspec(property(get = get_IntValue)) int32_t IntValue;
+  /// @brief Method Asn1GetHashCode, addr 0xedcd84, size 0x88, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mData();
+  /// @brief Method Encode, addr 0xedcc6c, size 0x118, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mData() const;
+  /// @brief Method FromAsn1Octets, addr 0xedc5bc, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
-  constexpr void __cordl_internal_set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetBytes, addr 0xedcab8, size 0xa0, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-  constexpr int32_t& __cordl_internal_get_mPadBits();
-
-  constexpr int32_t const& __cordl_internal_get_mPadBits() const;
-
-  constexpr void __cordl_internal_set_mPadBits(int32_t value);
-
-  static inline void setStaticF_table(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_table();
-
-  /// @brief Method GetInstance, addr 0xe93620, size 0x20c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::System::Object* obj);
-
-  /// @brief Method GetInstance, addr 0xe954ac, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0xedc47c, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
+  /// @brief Method GetInstance, addr 0xeda5f0, size 0x20c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0xe95774, size 0x168, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
+  /// @brief Method GetOctets, addr 0xedca08, size 0xb0, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
+
+  /// @brief Method GetString, addr 0xedcee4, size 0x168, virtual true, abstract: false, final false
+  inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0xe958dc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+  static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(int32_t namedBits);
 
-  /// @brief Method .ctor, addr 0xe958e4, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor(int32_t namedBits);
-
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0xe95a0c, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mData() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mData();
+
+  constexpr int32_t const& __cordl_internal_get_mPadBits() const;
+
+  constexpr int32_t& __cordl_internal_get_mPadBits();
+
+  constexpr void __cordl_internal_set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_mPadBits(int32_t value);
+
+  /// @brief Method .ctor, addr 0xedc8ac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method .ctor, addr 0xedc744, size 0x168, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
+
+  /// @brief Method .ctor, addr 0xedc8b4, size 0x128, virtual false, abstract: false, final false
+  inline void _ctor(int32_t namedBits);
+
+  /// @brief Method .ctor, addr 0xedc9dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method GetOctets, addr 0xe95a38, size 0xb0, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_table();
 
-  /// @brief Method GetBytes, addr 0xe95ae8, size 0xa0, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
-
-  /// @brief Method get_PadBits, addr 0xe95b88, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_PadBits();
-
-  /// @brief Method get_IntValue, addr 0xe95b90, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_IntValue, addr 0xedcb60, size 0x10c, virtual true, abstract: false, final false
   inline int32_t get_IntValue();
 
-  /// @brief Method Encode, addr 0xe95c9c, size 0x118, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+  /// @brief Method get_PadBits, addr 0xedcb58, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_PadBits();
 
-  /// @brief Method Asn1GetHashCode, addr 0xe95db4, size 0x88, virtual true, abstract: false, final false
-  inline int32_t Asn1GetHashCode();
+  static inline void setStaticF_table(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method Asn1Equals, addr 0xe95e3c, size 0xd8, virtual true, abstract: false, final false
-  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerBitString();
 
-  /// @brief Method GetString, addr 0xe95f14, size 0x168, virtual true, abstract: false, final false
-  inline ::StringW GetString();
-
-  /// @brief Method FromAsn1Octets, addr 0xe955ec, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerBitString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerBitString(DerBitString&&) = delete;
@@ -128,12 +132,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerBitString(DerBitString const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerBitString();
-
-public:
   /// @brief Field mData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mData;
 

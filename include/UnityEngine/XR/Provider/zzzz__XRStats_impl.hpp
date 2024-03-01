@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::IntegratedSubsystem*, ::StringW, ByRef<float_t>)>(
     &::UnityEngine::XR::Provider::XRStats::TryGetStat)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2ecf204;
+  constexpr static std::size_t addrs = 0x2fc392c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(void*, ::StringW, ByRef<float_t>)>(&::UnityEngine::XR::Provider::XRStats::TryGetStat_Internal)> {
-  constexpr static std::size_t size = 0x1054;
-  constexpr static std::size_t addrs = 0x2ecf260;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x2fc3988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

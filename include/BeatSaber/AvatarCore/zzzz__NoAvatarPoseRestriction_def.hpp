@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::NoAvatarPoseRestriction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15283))
 // CS Name: ::BeatSaber.AvatarCore::NoAvatarPoseRestriction*
 class CORDL_TYPE NoAvatarPoseRestriction : public ::System::Object {
 public:
@@ -33,18 +31,24 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarPoseRestriction*() noexcept;
 
-  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
-  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
+  static inline ::BeatSaber::AvatarCore::NoAvatarPoseRestriction* New_ctor();
 
-  /// @brief Method RestrictPose, addr 0xe1bc94, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method RestrictPose, addr 0xe617f8, size 0x2c, virtual true, abstract: false, final true
   inline void RestrictPose(::UnityEngine::Quaternion headRotation, ::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition,
                            ByRef<::UnityEngine::Vector3> newHeadPosition, ByRef<::UnityEngine::Vector3> newLeftHandPosition, ByRef<::UnityEngine::Vector3> newRightHandPosition);
 
-  static inline ::BeatSaber::AvatarCore::NoAvatarPoseRestriction* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe1bcc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe61824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseRestriction"
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* i___BeatSaber__AvatarCore__IAvatarPoseRestriction() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoAvatarPoseRestriction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoAvatarPoseRestriction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoAvatarPoseRestriction(NoAvatarPoseRestriction&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoAvatarPoseRestriction(NoAvatarPoseRestriction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoAvatarPoseRestriction();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

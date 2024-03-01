@@ -50,8 +50,6 @@ MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__Displa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10417))
 // CS Name: ::SubContainerCreatorByNewPrefabInstaller::<>c__DisplayClass3_0*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -62,32 +60,38 @@ public:
   /// @brief Field args, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
+  static inline ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0* New_ctor();
+
+  /// @brief Method <AddInstallers>b__0, addr 0x301be0c, size 0x178, virtual false, abstract: false, final false
+  inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
+
   constexpr ::Zenject::SubContainerCreatorByNewPrefabInstaller*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewPrefabInstaller*> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewPrefabInstaller* value);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_args();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_args() const;
 
+  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewPrefabInstaller* value);
+
   constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  static inline ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f286dc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <AddInstallers>b__0, addr 0x2f286e4, size 0x178, virtual false, abstract: false, final false
-  inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
-
-  /// @brief Method __zenCreate, addr 0x2f2885c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x301bf84, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f288b8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x301bfe0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x301be04, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0(__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0(__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0();
-
-public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorByNewPrefabInstaller* _____4__this;
 
@@ -122,43 +120,47 @@ static_assert(offsetof(::Zenject::__SubContainerCreatorByNewPrefabInstaller____c
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10416))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabInstaller*
 class CORDL_TYPE SubContainerCreatorByNewPrefabInstaller : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
   // Declarations
   using __c__DisplayClass3_0 = ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0;
 
-  /// @brief Field _installerType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
-
   /// @brief Field _extraArgs, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__extraArgs, put = __cordl_internal_set__extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
 
-  constexpr ::System::Type*& __cordl_internal_get__installerType();
+  /// @brief Field _installerType, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
-
-  constexpr void __cordl_internal_set__installerType(::System::Type* value);
-
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArgs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArgs() const;
-
-  constexpr void __cordl_internal_set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  /// @brief Method AddInstallers, addr 0x301bd10, size 0xf4, virtual true, abstract: false, final false
+  inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                              ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                                                                              ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method .ctor, addr 0x2f28510, size 0xd8, virtual false, abstract: false, final false
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArgs();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArgs() const;
+
+  constexpr ::System::Type*& __cordl_internal_get__installerType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
+
+  constexpr void __cordl_internal_set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+
+  constexpr void __cordl_internal_set__installerType(::System::Type* value);
+
+  /// @brief Method .ctor, addr 0x301bc38, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method AddInstallers, addr 0x2f285e8, size 0xf4, virtual true, abstract: false, final false
-  inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerCreatorByNewPrefabInstaller();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByNewPrefabInstaller(SubContainerCreatorByNewPrefabInstaller&&) = delete;
@@ -167,12 +169,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByNewPrefabInstaller(SubContainerCreatorByNewPrefabInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByNewPrefabInstaller();
-
-public:
   /// @brief Field _installerType, offset: 0x28, size: 0x8, def value: None
   ::System::Type* ____installerType;
 

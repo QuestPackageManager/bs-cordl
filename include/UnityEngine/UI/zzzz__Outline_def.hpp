@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::UnityEngine::UI::Outline);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13046))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13044))
 // CS Name: ::UnityEngine.UI::Outline*
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
 public:
   // Declarations
-  static inline ::UnityEngine::UI::Outline* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2dadd2c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ModifyMesh, addr 0x2dadd34, size 0x1c40, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x2e9c45c, size 0x1c40, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
+  static inline ::UnityEngine::UI::Outline* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2e9c454, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Outline();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Outline", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Outline(Outline&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Outline(Outline const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Outline();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

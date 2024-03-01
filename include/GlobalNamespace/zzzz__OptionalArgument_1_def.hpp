@@ -17,8 +17,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5262))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5264))
 // CS Name: ::OptionalArgument`1<T>*
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:
@@ -29,53 +27,59 @@ public:
   /// @brief Field _value, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
-  __declspec(property(get = get_value)) T value;
+  __declspec(property(get = get_hasValue, put = set_hasValue)) bool hasValue;
 
   __declspec(property(get = get_isOptional)) bool isOptional;
 
-  __declspec(property(get = get_hasValue, put = set_hasValue)) bool hasValue;
-
-  constexpr bool& __cordl_internal_get__hasValue_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hasValue_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hasValue_k__BackingField(bool value);
-
-  constexpr T& __cordl_internal_get__value();
-
-  constexpr T const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(T value);
-
-  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T get_value();
-
-  /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_isOptional();
-
-  /// @brief Method get_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_hasValue();
-
-  /// @brief Method set_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_hasValue(bool value);
-
-  static inline ::GlobalNamespace::OptionalArgument_1<T>* New_ctor(::StringW name, ::StringW description);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW description);
+  __declspec(property(get = get_value)) T value;
 
   /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueOrDefault(T defaultValue);
 
+  static inline ::GlobalNamespace::OptionalArgument_1<T>* New_ctor(::StringW name, ::StringW description);
+
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reset();
-
-  /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryParseWithValue(::StringW inValue);
 
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryParseWithValue(::StringW inValue);
+
+  constexpr bool const& __cordl_internal_get__hasValue_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hasValue_k__BackingField();
+
+  constexpr T const& __cordl_internal_get__value() const;
+
+  constexpr T& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__hasValue_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__value(T value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, ::StringW description);
+
+  /// @brief Method get_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_hasValue();
+
+  /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_isOptional();
+
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_value();
+
+  /// @brief Method set_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_hasValue(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OptionalArgument_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OptionalArgument_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OptionalArgument_1(OptionalArgument_1&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OptionalArgument_1(OptionalArgument_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OptionalArgument_1();
-
-public:
   /// @brief Field <hasValue>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____hasValue_k__BackingField;
 

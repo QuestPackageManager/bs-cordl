@@ -26,8 +26,6 @@ MARK_VAL_T(::TMPro::TMP_Vertex);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12227))
 // CS Name: ::TMPro::TMP_Vertex
 struct CORDL_TYPE TMP_Vertex {
 public:
@@ -35,21 +33,21 @@ public:
   /// @brief Field k_Zero, offset 0xffffffff, size 0x28
   static __declspec(property(get = getStaticF_k_Zero, put = setStaticF_k_Zero))::TMPro::TMP_Vertex k_Zero;
 
-  static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);
-
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x2bfe36c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x2ce8440, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
+
+  static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_Vertex();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None
   // }, CppParam { name: "uv2", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "uv4", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
   // "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }]
   constexpr TMP_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector2 uv, ::UnityEngine::Vector2 uv2, ::UnityEngine::Vector2 uv4, ::UnityEngine::Color32 color) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_Vertex();
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;

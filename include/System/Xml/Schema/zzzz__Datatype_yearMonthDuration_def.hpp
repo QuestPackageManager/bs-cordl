@@ -31,25 +31,29 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_yearMonthDuration);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11530))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11531))
 // CS Name: ::System.Xml.Schema::Datatype_yearMonthDuration*
 class CORDL_TYPE Datatype_yearMonthDuration : public ::System::Xml::Schema::Datatype_duration {
 public:
   // Declarations
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method TryParseValue, addr 0x28bb92c, size 0x1c4, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
-
-  /// @brief Method get_TypeCode, addr 0x28bbaf0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
-
   static inline ::System::Xml::Schema::Datatype_yearMonthDuration* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bbaf8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x29a2da8, size 0x1c4, virtual true, abstract: false, final false
+  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
+
+  /// @brief Method .ctor, addr 0x29a2f74, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_TypeCode, addr 0x29a2f6c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Datatype_yearMonthDuration();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_yearMonthDuration", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_yearMonthDuration(Datatype_yearMonthDuration&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_yearMonthDuration(Datatype_yearMonthDuration const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_yearMonthDuration();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

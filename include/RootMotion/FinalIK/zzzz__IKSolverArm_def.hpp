@@ -34,26 +34,21 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverArm);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12464))
 // CS Name: ::RootMotion.FinalIK::IKSolverArm*
 class CORDL_TYPE IKSolverArm : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
-  /// @brief Field IKRotationWeight, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_IKRotationWeight, put = __cordl_internal_set_IKRotationWeight)) float_t IKRotationWeight;
-
   /// @brief Field IKRotation, offset 0x5c, size 0x10
   __declspec(property(get = __cordl_internal_get_IKRotation, put = __cordl_internal_set_IKRotation))::UnityEngine::Quaternion IKRotation;
 
+  /// @brief Field IKRotationWeight, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_IKRotationWeight, put = __cordl_internal_set_IKRotationWeight)) float_t IKRotationWeight;
+
+  /// @brief Field arm, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_arm, put = __cordl_internal_set_arm))::RootMotion::FinalIK::__IKSolverVR__Arm* arm;
+
   /// @brief Field chest, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_chest, put = __cordl_internal_set_chest))::RootMotion::FinalIK::__IKSolver__Point* chest;
-
-  /// @brief Field shoulder, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_shoulder, put = __cordl_internal_set_shoulder))::RootMotion::FinalIK::__IKSolver__Point* shoulder;
-
-  /// @brief Field upperArm, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_upperArm, put = __cordl_internal_set_upperArm))::RootMotion::FinalIK::__IKSolver__Point* upperArm;
 
   /// @brief Field forearm, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_forearm, put = __cordl_internal_set_forearm))::RootMotion::FinalIK::__IKSolver__Point* forearm;
@@ -64,120 +59,129 @@ public:
   /// @brief Field isLeft, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get_isLeft, put = __cordl_internal_set_isLeft)) bool isLeft;
 
-  /// @brief Field arm, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_arm, put = __cordl_internal_set_arm))::RootMotion::FinalIK::__IKSolverVR__Arm* arm;
-
   /// @brief Field positions, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions;
 
   /// @brief Field rotations, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_rotations, put = __cordl_internal_set_rotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations;
 
-  constexpr float_t& __cordl_internal_get_IKRotationWeight();
+  /// @brief Field shoulder, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_shoulder, put = __cordl_internal_set_shoulder))::RootMotion::FinalIK::__IKSolver__Point* shoulder;
 
-  constexpr float_t const& __cordl_internal_get_IKRotationWeight() const;
+  /// @brief Field upperArm, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_upperArm, put = __cordl_internal_set_upperArm))::RootMotion::FinalIK::__IKSolver__Point* upperArm;
 
-  constexpr void __cordl_internal_set_IKRotationWeight(float_t value);
+  /// @brief Method FixTransforms, addr 0x133c70c, size 0x50, virtual true, abstract: false, final false
+  inline void FixTransforms();
 
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
+  /// @brief Method GetPoint, addr 0x133c56c, size 0x160, virtual true, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
+
+  /// @brief Method GetPoints, addr 0x133c428, size 0x144, virtual true, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
+
+  /// @brief Method IsValid, addr 0x133c06c, size 0x35c, virtual true, abstract: false, final false
+  inline bool IsValid(ByRef<::StringW> message);
+
+  static inline ::RootMotion::FinalIK::IKSolverArm* New_ctor();
+
+  /// @brief Method OnInitiate, addr 0x133c75c, size 0x58, virtual true, abstract: false, final false
+  inline void OnInitiate();
+
+  /// @brief Method OnUpdate, addr 0x133cabc, size 0x20, virtual true, abstract: false, final false
+  inline void OnUpdate();
+
+  /// @brief Method Read, addr 0x133c7b4, size 0x308, virtual false, abstract: false, final false
+  inline void Read();
+
+  /// @brief Method SetChain, addr 0x133c3c8, size 0x60, virtual false, abstract: false, final false
+  inline bool SetChain(::UnityEngine::Transform* chest, ::UnityEngine::Transform* shoulder, ::UnityEngine::Transform* upperArm, ::UnityEngine::Transform* forearm, ::UnityEngine::Transform* hand,
+                       ::UnityEngine::Transform* root);
+
+  /// @brief Method Solve, addr 0x133cadc, size 0x60, virtual false, abstract: false, final false
+  inline void Solve();
+
+  /// @brief Method StoreDefaultLocalState, addr 0x133c6cc, size 0x40, virtual true, abstract: false, final false
+  inline void StoreDefaultLocalState();
+
+  /// @brief Method Write, addr 0x133cb3c, size 0x178, virtual false, abstract: false, final false
+  inline void Write();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
 
-  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_chest();
+  constexpr float_t const& __cordl_internal_get_IKRotationWeight() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_chest() const;
-
-  constexpr void __cordl_internal_set_chest(::RootMotion::FinalIK::__IKSolver__Point* value);
-
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_shoulder();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_shoulder() const;
-
-  constexpr void __cordl_internal_set_shoulder(::RootMotion::FinalIK::__IKSolver__Point* value);
-
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_upperArm();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_upperArm() const;
-
-  constexpr void __cordl_internal_set_upperArm(::RootMotion::FinalIK::__IKSolver__Point* value);
-
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_forearm();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_forearm() const;
-
-  constexpr void __cordl_internal_set_forearm(::RootMotion::FinalIK::__IKSolver__Point* value);
-
-  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_hand();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_hand() const;
-
-  constexpr void __cordl_internal_set_hand(::RootMotion::FinalIK::__IKSolver__Point* value);
-
-  constexpr bool& __cordl_internal_get_isLeft();
-
-  constexpr bool const& __cordl_internal_get_isLeft() const;
-
-  constexpr void __cordl_internal_set_isLeft(bool value);
+  constexpr float_t& __cordl_internal_get_IKRotationWeight();
 
   constexpr ::RootMotion::FinalIK::__IKSolverVR__Arm*& __cordl_internal_get_arm();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Arm*> const& __cordl_internal_get_arm() const;
 
-  constexpr void __cordl_internal_set_arm(::RootMotion::FinalIK::__IKSolverVR__Arm* value);
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_chest();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_positions();
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_chest() const;
+
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_forearm();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_forearm() const;
+
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_hand();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_hand() const;
+
+  constexpr bool const& __cordl_internal_get_isLeft() const;
+
+  constexpr bool& __cordl_internal_get_isLeft();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_positions() const;
 
-  constexpr void __cordl_internal_set_positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_rotations();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_positions();
 
   constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_rotations() const;
 
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_rotations();
+
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_shoulder();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_shoulder() const;
+
+  constexpr ::RootMotion::FinalIK::__IKSolver__Point*& __cordl_internal_get_upperArm();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__Point*> const& __cordl_internal_get_upperArm() const;
+
+  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_IKRotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_arm(::RootMotion::FinalIK::__IKSolverVR__Arm* value);
+
+  constexpr void __cordl_internal_set_chest(::RootMotion::FinalIK::__IKSolver__Point* value);
+
+  constexpr void __cordl_internal_set_forearm(::RootMotion::FinalIK::__IKSolver__Point* value);
+
+  constexpr void __cordl_internal_set_hand(::RootMotion::FinalIK::__IKSolver__Point* value);
+
+  constexpr void __cordl_internal_set_isLeft(bool value);
+
+  constexpr void __cordl_internal_set_positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
   constexpr void __cordl_internal_set_rotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method IsValid, addr 0x12fa080, size 0x35c, virtual true, abstract: false, final false
-  inline bool IsValid(ByRef<::StringW> message);
+  constexpr void __cordl_internal_set_shoulder(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  /// @brief Method SetChain, addr 0x12fa3dc, size 0x60, virtual false, abstract: false, final false
-  inline bool SetChain(::UnityEngine::Transform* chest, ::UnityEngine::Transform* shoulder, ::UnityEngine::Transform* upperArm, ::UnityEngine::Transform* forearm, ::UnityEngine::Transform* hand,
-                       ::UnityEngine::Transform* root);
+  constexpr void __cordl_internal_set_upperArm(::RootMotion::FinalIK::__IKSolver__Point* value);
 
-  /// @brief Method GetPoints, addr 0x12fa43c, size 0x144, virtual true, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
-
-  /// @brief Method GetPoint, addr 0x12fa580, size 0x160, virtual true, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
-
-  /// @brief Method StoreDefaultLocalState, addr 0x12fa6e0, size 0x40, virtual true, abstract: false, final false
-  inline void StoreDefaultLocalState();
-
-  /// @brief Method FixTransforms, addr 0x12fa720, size 0x50, virtual true, abstract: false, final false
-  inline void FixTransforms();
-
-  /// @brief Method OnInitiate, addr 0x12fa770, size 0x58, virtual true, abstract: false, final false
-  inline void OnInitiate();
-
-  /// @brief Method OnUpdate, addr 0x12faad0, size 0x20, virtual true, abstract: false, final false
-  inline void OnUpdate();
-
-  /// @brief Method Solve, addr 0x12faaf0, size 0x60, virtual false, abstract: false, final false
-  inline void Solve();
-
-  /// @brief Method Read, addr 0x12fa7c8, size 0x308, virtual false, abstract: false, final false
-  inline void Read();
-
-  /// @brief Method Write, addr 0x12fab50, size 0x178, virtual false, abstract: false, final false
-  inline void Write();
-
-  static inline ::RootMotion::FinalIK::IKSolverArm* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12facc8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133ccb4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverArm();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverArm", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverArm(IKSolverArm&&) = delete;
@@ -186,12 +190,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverArm(IKSolverArm const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverArm();
-
-public:
   /// @brief Field IKRotationWeight, offset: 0x58, size: 0x4, def value: None
   float_t ___IKRotationWeight;
 

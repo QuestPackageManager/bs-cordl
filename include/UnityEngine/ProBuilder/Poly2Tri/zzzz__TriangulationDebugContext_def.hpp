@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15502))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationDebugContext*
 class CORDL_TYPE TriangulationDebugContext : public ::System::Object {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _tcx, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tcx, put = __cordl_internal_set__tcx))::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _tcx;
 
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Clear();
+
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
+
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& __cordl_internal_get__tcx();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*> const& __cordl_internal_get__tcx() const;
 
   constexpr void __cordl_internal_set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
-
-  /// @brief Method .ctor, addr 0x2b33840, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1a914, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Clear();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TriangulationDebugContext();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TriangulationDebugContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TriangulationDebugContext(TriangulationDebugContext&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TriangulationDebugContext(TriangulationDebugContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TriangulationDebugContext();
-
-public:
   /// @brief Field _tcx, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* ____tcx;
 

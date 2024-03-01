@@ -41,124 +41,128 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSet);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11634))
 // CS Name: ::System.Xml.Schema::XmlSchemaSet*
 class CORDL_TYPE XmlSchemaSet : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field nameTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
-
-  /// @brief Field schemas, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemas, put = __cordl_internal_set_schemas))::System::Collections::SortedList* schemas;
-
-  /// @brief Field internalEventHandler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_internalEventHandler, put = __cordl_internal_set_internalEventHandler))::System::Xml::Schema::ValidationEventHandler* internalEventHandler;
-
-  /// @brief Field eventHandler, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_eventHandler, put = __cordl_internal_set_eventHandler))::System::Xml::Schema::ValidationEventHandler* eventHandler;
-
-  /// @brief Field schemaLocations, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaLocations, put = __cordl_internal_set_schemaLocations))::System::Collections::Hashtable* schemaLocations;
+  /// @brief Field cachedCompiledInfo, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_cachedCompiledInfo, put = __cordl_internal_set_cachedCompiledInfo))::System::Xml::Schema::SchemaInfo* cachedCompiledInfo;
 
   /// @brief Field chameleonSchemas, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_chameleonSchemas, put = __cordl_internal_set_chameleonSchemas))::System::Collections::Hashtable* chameleonSchemas;
 
-  /// @brief Field targetNamespaces, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetNamespaces, put = __cordl_internal_set_targetNamespaces))::System::Collections::Hashtable* targetNamespaces;
+  /// @brief Field compilationSettings, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_compilationSettings, put = __cordl_internal_set_compilationSettings))::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings;
 
   /// @brief Field compileAll, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_compileAll, put = __cordl_internal_set_compileAll)) bool compileAll;
 
-  /// @brief Field cachedCompiledInfo, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_cachedCompiledInfo, put = __cordl_internal_set_cachedCompiledInfo))::System::Xml::Schema::SchemaInfo* cachedCompiledInfo;
+  /// @brief Field eventHandler, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_eventHandler, put = __cordl_internal_set_eventHandler))::System::Xml::Schema::ValidationEventHandler* eventHandler;
+
+  /// @brief Field internalEventHandler, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_internalEventHandler, put = __cordl_internal_set_internalEventHandler))::System::Xml::Schema::ValidationEventHandler* internalEventHandler;
+
+  /// @brief Field nameTable, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field readerSettings, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_readerSettings, put = __cordl_internal_set_readerSettings))::System::Xml::XmlReaderSettings* readerSettings;
 
-  /// @brief Field compilationSettings, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_compilationSettings, put = __cordl_internal_set_compilationSettings))::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings;
+  /// @brief Field schemaLocations, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_schemaLocations, put = __cordl_internal_set_schemaLocations))::System::Collections::Hashtable* schemaLocations;
 
-  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
+  /// @brief Field schemas, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_schemas, put = __cordl_internal_set_schemas))::System::Collections::SortedList* schemas;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
+  /// @brief Field targetNamespaces, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_targetNamespaces, put = __cordl_internal_set_targetNamespaces))::System::Collections::Hashtable* targetNamespaces;
 
-  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
+  /// @brief Method InternalValidationCallback, addr 0x29b2b80, size 0x44, virtual false, abstract: false, final false
+  inline void InternalValidationCallback(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
 
-  constexpr ::System::Collections::SortedList*& __cordl_internal_get_schemas();
+  static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get_schemas() const;
-
-  constexpr void __cordl_internal_set_schemas(::System::Collections::SortedList* value);
-
-  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_internalEventHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_internalEventHandler() const;
-
-  constexpr void __cordl_internal_set_internalEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
-
-  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_eventHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_eventHandler() const;
-
-  constexpr void __cordl_internal_set_eventHandler(::System::Xml::Schema::ValidationEventHandler* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_schemaLocations();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_schemaLocations() const;
-
-  constexpr void __cordl_internal_set_schemaLocations(::System::Collections::Hashtable* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_chameleonSchemas();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_chameleonSchemas() const;
-
-  constexpr void __cordl_internal_set_chameleonSchemas(::System::Collections::Hashtable* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_targetNamespaces();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_targetNamespaces() const;
-
-  constexpr void __cordl_internal_set_targetNamespaces(::System::Collections::Hashtable* value);
-
-  constexpr bool& __cordl_internal_get_compileAll();
-
-  constexpr bool const& __cordl_internal_get_compileAll() const;
-
-  constexpr void __cordl_internal_set_compileAll(bool value);
+  static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
   constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get_cachedCompiledInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __cordl_internal_get_cachedCompiledInfo() const;
 
-  constexpr void __cordl_internal_set_cachedCompiledInfo(::System::Xml::Schema::SchemaInfo* value);
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_chameleonSchemas();
 
-  constexpr ::System::Xml::XmlReaderSettings*& __cordl_internal_get_readerSettings();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReaderSettings*> const& __cordl_internal_get_readerSettings() const;
-
-  constexpr void __cordl_internal_set_readerSettings(::System::Xml::XmlReaderSettings* value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_chameleonSchemas() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaCompilationSettings*& __cordl_internal_get_compilationSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaCompilationSettings*> const& __cordl_internal_get_compilationSettings() const;
 
+  constexpr bool const& __cordl_internal_get_compileAll() const;
+
+  constexpr bool& __cordl_internal_get_compileAll();
+
+  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_eventHandler();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_eventHandler() const;
+
+  constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_internalEventHandler();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_internalEventHandler() const;
+
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
+
+  constexpr ::System::Xml::XmlReaderSettings*& __cordl_internal_get_readerSettings();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReaderSettings*> const& __cordl_internal_get_readerSettings() const;
+
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_schemaLocations();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_schemaLocations() const;
+
+  constexpr ::System::Collections::SortedList*& __cordl_internal_get_schemas();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get_schemas() const;
+
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_targetNamespaces();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_targetNamespaces() const;
+
+  constexpr void __cordl_internal_set_cachedCompiledInfo(::System::Xml::Schema::SchemaInfo* value);
+
+  constexpr void __cordl_internal_set_chameleonSchemas(::System::Collections::Hashtable* value);
+
   constexpr void __cordl_internal_set_compilationSettings(::System::Xml::Schema::XmlSchemaCompilationSettings* value);
 
-  static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor();
+  constexpr void __cordl_internal_set_compileAll(bool value);
 
-  /// @brief Method .ctor, addr 0x28cb418, size 0x64, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_eventHandler(::System::Xml::Schema::ValidationEventHandler* value);
+
+  constexpr void __cordl_internal_set_internalEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
+
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
+
+  constexpr void __cordl_internal_set_readerSettings(::System::Xml::XmlReaderSettings* value);
+
+  constexpr void __cordl_internal_set_schemaLocations(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_schemas(::System::Collections::SortedList* value);
+
+  constexpr void __cordl_internal_set_targetNamespaces(::System::Collections::Hashtable* value);
+
+  /// @brief Method .ctor, addr 0x29b2894, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Xml::Schema::XmlSchemaSet* New_ctor(::System::Xml::XmlNameTable* nameTable);
-
-  /// @brief Method .ctor, addr 0x28cb47c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b28f8, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method InternalValidationCallback, addr 0x28cb704, size 0x44, virtual false, abstract: false, final false
-  inline void InternalValidationCallback(::System::Object* sender, ::System::Xml::Schema::ValidationEventArgs* e);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaSet();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSet(XmlSchemaSet&&) = delete;
@@ -167,12 +171,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaSet(XmlSchemaSet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaSet();
-
-public:
   /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ___nameTable;
 

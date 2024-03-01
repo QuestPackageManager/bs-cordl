@@ -15,8 +15,6 @@ MARK_VAL_T(::Mono::Net::Security::AsyncOperationStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6827))
 // CS Name: ::Mono.Net.Security::AsyncOperationStatus
 struct CORDL_TYPE AsyncOperationStatus {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__AsyncOperationStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AsyncOperationStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AsyncOperationStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AsyncOperationStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Initialize value: static_cast<int32_t>(0x0)
-  static ::Mono::Net::Security::AsyncOperationStatus const Initialize;
+  /// @brief Field Complete value: static_cast<int32_t>(0x3)
+  static ::Mono::Net::Security::AsyncOperationStatus const Complete;
 
   /// @brief Field Continue value: static_cast<int32_t>(0x1)
   static ::Mono::Net::Security::AsyncOperationStatus const Continue;
 
+  /// @brief Field Initialize value: static_cast<int32_t>(0x0)
+  static ::Mono::Net::Security::AsyncOperationStatus const Initialize;
+
   /// @brief Field ReadDone value: static_cast<int32_t>(0x2)
   static ::Mono::Net::Security::AsyncOperationStatus const ReadDone;
 
-  /// @brief Field Complete value: static_cast<int32_t>(0x3)
-  static ::Mono::Net::Security::AsyncOperationStatus const Complete;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -27,78 +27,82 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::SliderData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11184)), TypeDefinitionIndex(TypeDefinitionIndex(11216)), TypeDefinitionIndex(TypeDefinitionIndex(11220))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11185))
 // CS Name: ::BeatmapSaveDataVersion3::SliderData*
 class CORDL_TYPE SliderData : public ::BeatmapSaveDataVersion3::BaseSliderData {
 public:
   // Declarations
-  /// @brief Field mu, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_mu, put = __cordl_internal_set_mu)) float_t mu;
-
-  /// @brief Field tmu, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_tmu, put = __cordl_internal_set_tmu)) float_t tmu;
-
-  /// @brief Field tc, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_tc, put = __cordl_internal_set_tc))::BeatmapSaveDataCommon::NoteCutDirection tc;
+  __declspec(property(get = get_headControlPointLengthMultiplier)) float_t headControlPointLengthMultiplier;
 
   /// @brief Field m, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m))::BeatmapSaveDataCommon::SliderMidAnchorMode m;
 
-  __declspec(property(get = get_headControlPointLengthMultiplier)) float_t headControlPointLengthMultiplier;
+  /// @brief Field mu, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_mu, put = __cordl_internal_set_mu)) float_t mu;
+
+  __declspec(property(get = get_sliderMidAnchorMode))::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode;
 
   __declspec(property(get = get_tailControlPointLengthMultiplier)) float_t tailControlPointLengthMultiplier;
 
   __declspec(property(get = get_tailCutDirection))::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection;
 
-  __declspec(property(get = get_sliderMidAnchorMode))::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode;
+  /// @brief Field tc, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_tc, put = __cordl_internal_set_tc))::BeatmapSaveDataCommon::NoteCutDirection tc;
 
-  constexpr float_t& __cordl_internal_get_mu();
-
-  constexpr float_t const& __cordl_internal_get_mu() const;
-
-  constexpr void __cordl_internal_set_mu(float_t value);
-
-  constexpr float_t& __cordl_internal_get_tmu();
-
-  constexpr float_t const& __cordl_internal_get_tmu() const;
-
-  constexpr void __cordl_internal_set_tmu(float_t value);
-
-  constexpr ::BeatmapSaveDataCommon::NoteCutDirection& __cordl_internal_get_tc();
-
-  constexpr ::BeatmapSaveDataCommon::NoteCutDirection const& __cordl_internal_get_tc() const;
-
-  constexpr void __cordl_internal_set_tc(::BeatmapSaveDataCommon::NoteCutDirection value);
-
-  constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode& __cordl_internal_get_m();
-
-  constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode const& __cordl_internal_get_m() const;
-
-  constexpr void __cordl_internal_set_m(::BeatmapSaveDataCommon::SliderMidAnchorMode value);
-
-  /// @brief Method get_headControlPointLengthMultiplier, addr 0x12bc338, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_headControlPointLengthMultiplier();
-
-  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x12bc340, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_tailControlPointLengthMultiplier();
-
-  /// @brief Method get_tailCutDirection, addr 0x12bc348, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::NoteCutDirection get_tailCutDirection();
-
-  /// @brief Method get_sliderMidAnchorMode, addr 0x12bc350, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::SliderMidAnchorMode get_sliderMidAnchorMode();
+  /// @brief Field tmu, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_tmu, put = __cordl_internal_set_tmu)) float_t tmu;
 
   static inline ::BeatmapSaveDataVersion3::SliderData* New_ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer,
                                                                 float_t headControlPointLengthMultiplier, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat,
                                                                 int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier,
                                                                 ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection, ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
 
-  /// @brief Method .ctor, addr 0x12bc358, size 0x8c, virtual false, abstract: false, final false
+  constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode const& __cordl_internal_get_m() const;
+
+  constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode& __cordl_internal_get_m();
+
+  constexpr float_t const& __cordl_internal_get_mu() const;
+
+  constexpr float_t& __cordl_internal_get_mu();
+
+  constexpr ::BeatmapSaveDataCommon::NoteCutDirection const& __cordl_internal_get_tc() const;
+
+  constexpr ::BeatmapSaveDataCommon::NoteCutDirection& __cordl_internal_get_tc();
+
+  constexpr float_t const& __cordl_internal_get_tmu() const;
+
+  constexpr float_t& __cordl_internal_get_tmu();
+
+  constexpr void __cordl_internal_set_m(::BeatmapSaveDataCommon::SliderMidAnchorMode value);
+
+  constexpr void __cordl_internal_set_mu(float_t value);
+
+  constexpr void __cordl_internal_set_tc(::BeatmapSaveDataCommon::NoteCutDirection value);
+
+  constexpr void __cordl_internal_set_tmu(float_t value);
+
+  /// @brief Method .ctor, addr 0x12fd328, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, float_t headControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection, float_t tailBeat, int32_t tailLine, int32_t tailLayer, float_t tailControlPointLengthMultiplier,
                     ::BeatmapSaveDataCommon::NoteCutDirection tailCutDirection, ::BeatmapSaveDataCommon::SliderMidAnchorMode sliderMidAnchorMode);
 
+  /// @brief Method get_headControlPointLengthMultiplier, addr 0x12fd308, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_headControlPointLengthMultiplier();
+
+  /// @brief Method get_sliderMidAnchorMode, addr 0x12fd320, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::SliderMidAnchorMode get_sliderMidAnchorMode();
+
+  /// @brief Method get_tailControlPointLengthMultiplier, addr 0x12fd310, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_tailControlPointLengthMultiplier();
+
+  /// @brief Method get_tailCutDirection, addr 0x12fd318, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::NoteCutDirection get_tailCutDirection();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SliderData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SliderData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderData(SliderData&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderData(SliderData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderData();
-
-public:
   /// @brief Field mu, offset: 0x30, size: 0x4, def value: None
   float_t ___mu;
 

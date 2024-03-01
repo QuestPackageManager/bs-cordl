@@ -25,82 +25,86 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Extension);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13709))
 // CS Name: ::Mono.Security.X509::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field extnOid, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_extnOid, put = __cordl_internal_set_extnOid))::StringW extnOid;
+  __declspec(property(get = get_Critical)) bool Critical;
+
+  __declspec(property(get = get_Oid))::StringW Oid;
+
+  __declspec(property(get = get_Value))::Mono::Security::ASN1* Value;
 
   /// @brief Field extnCritical, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_extnCritical, put = __cordl_internal_set_extnCritical)) bool extnCritical;
 
+  /// @brief Field extnOid, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_extnOid, put = __cordl_internal_set_extnOid))::StringW extnOid;
+
   /// @brief Field extnValue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_extnValue, put = __cordl_internal_set_extnValue))::Mono::Security::ASN1* extnValue;
 
-  __declspec(property(get = get_Oid))::StringW Oid;
+  /// @brief Method Decode, addr 0x24ebadc, size 0x4, virtual true, abstract: false, final false
+  inline void Decode();
 
-  __declspec(property(get = get_Critical)) bool Critical;
+  /// @brief Method Encode, addr 0x24ebae0, size 0x4, virtual true, abstract: false, final false
+  inline void Encode();
 
-  __declspec(property(get = get_Value))::Mono::Security::ASN1* Value;
+  /// @brief Method Equals, addr 0x24ebaf4, size 0x144, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::StringW& __cordl_internal_get_extnOid();
+  /// @brief Method GetHashCode, addr 0x24ebc38, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  constexpr ::StringW const& __cordl_internal_get_extnOid() const;
+  static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::ASN1* asn1);
 
-  constexpr void __cordl_internal_set_extnOid(::StringW value);
+  static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::X509::X509Extension* extension);
 
-  constexpr bool& __cordl_internal_get_extnCritical();
+  /// @brief Method ToString, addr 0x24ebe80, size 0xd8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method WriteLine, addr 0x24ebc58, size 0x228, virtual false, abstract: false, final false
+  inline void WriteLine(::System::Text::StringBuilder* sb, int32_t n, int32_t pos);
 
   constexpr bool const& __cordl_internal_get_extnCritical() const;
 
-  constexpr void __cordl_internal_set_extnCritical(bool value);
+  constexpr bool& __cordl_internal_get_extnCritical();
+
+  constexpr ::StringW const& __cordl_internal_get_extnOid() const;
+
+  constexpr ::StringW& __cordl_internal_get_extnOid();
 
   constexpr ::Mono::Security::ASN1*& __cordl_internal_get_extnValue();
 
   constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __cordl_internal_get_extnValue() const;
 
+  constexpr void __cordl_internal_set_extnCritical(bool value);
+
+  constexpr void __cordl_internal_set_extnOid(::StringW value);
+
   constexpr void __cordl_internal_set_extnValue(::Mono::Security::ASN1* value);
 
-  static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::ASN1* asn1);
-
-  /// @brief Method .ctor, addr 0x241c9a0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24eb698, size 0x2cc, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  static inline ::Mono::Security::X509::X509Extension* New_ctor(::Mono::Security::X509::X509Extension* extension);
-
-  /// @brief Method .ctor, addr 0x241cc6c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24eb964, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Extension* extension);
 
-  /// @brief Method Decode, addr 0x241cde4, size 0x4, virtual true, abstract: false, final false
-  inline void Decode();
-
-  /// @brief Method Encode, addr 0x241cde8, size 0x4, virtual true, abstract: false, final false
-  inline void Encode();
-
-  /// @brief Method get_Oid, addr 0x241cdec, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Oid();
-
-  /// @brief Method get_Critical, addr 0x241cdf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Critical, addr 0x24ebaec, size 0x8, virtual false, abstract: false, final false
   inline bool get_Critical();
 
-  /// @brief Method get_Value, addr 0x241cdb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Oid, addr 0x24ebae4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Oid();
+
+  /// @brief Method get_Value, addr 0x24ebab0, size 0x2c, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_Value();
 
-  /// @brief Method Equals, addr 0x241cdfc, size 0x144, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Extension();
 
-  /// @brief Method GetHashCode, addr 0x241cf40, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method WriteLine, addr 0x241cf60, size 0x228, virtual false, abstract: false, final false
-  inline void WriteLine(::System::Text::StringBuilder* sb, int32_t n, int32_t pos);
-
-  /// @brief Method ToString, addr 0x241d188, size 0xd8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Extension", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Extension(X509Extension&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Extension(X509Extension const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Extension();
-
-public:
   /// @brief Field extnOid, offset: 0x10, size: 0x8, def value: None
   ::StringW ___extnOid;
 

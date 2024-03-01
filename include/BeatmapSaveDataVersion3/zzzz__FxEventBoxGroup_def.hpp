@@ -27,9 +27,7 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::FxEventBoxGroup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11157)), TypeDefinitionIndex(TypeDefinitionIndex(11164)), TypeDefinitionIndex(TypeDefinitionIndex(11166)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11157), inst: 1684 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11158)) CS Name:
-// ::BeatmapSaveDataVersion3::FxEventBoxGroup*
+// CS Name: ::BeatmapSaveDataVersion3::FxEventBoxGroup*
 class CORDL_TYPE FxEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGroup_1<::BeatmapSaveDataVersion3::FxEventBox*> {
 public:
   // Declarations
@@ -38,21 +36,27 @@ public:
 
   __declspec(property(get = get_type))::BeatmapSaveDataVersion3::FxEventType type;
 
-  constexpr ::BeatmapSaveDataVersion3::FxEventType& __cordl_internal_get_t();
-
-  constexpr ::BeatmapSaveDataVersion3::FxEventType const& __cordl_internal_get_t() const;
-
-  constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion3::FxEventType value);
-
-  /// @brief Method get_type, addr 0x12bb078, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataVersion3::FxEventType get_type();
-
   static inline ::BeatmapSaveDataVersion3::FxEventBoxGroup* New_ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type,
                                                                      ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes);
 
-  /// @brief Method .ctor, addr 0x12bb080, size 0x84, virtual false, abstract: false, final false
+  constexpr ::BeatmapSaveDataVersion3::FxEventType const& __cordl_internal_get_t() const;
+
+  constexpr ::BeatmapSaveDataVersion3::FxEventType& __cordl_internal_get_t();
+
+  constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion3::FxEventType value);
+
+  /// @brief Method .ctor, addr 0x12fc050, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes);
 
+  /// @brief Method get_type, addr 0x12fc048, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataVersion3::FxEventType get_type();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxEventBoxGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FxEventBoxGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FxEventBoxGroup(FxEventBoxGroup&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FxEventBoxGroup(FxEventBoxGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxEventBoxGroup();
-
-public:
   /// @brief Field t, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataVersion3::FxEventType ___t;
 

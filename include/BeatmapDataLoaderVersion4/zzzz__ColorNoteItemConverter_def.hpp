@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::ColorNoteItemConverter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10726))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11233))
 // CS Name: ::BeatmapDataLoaderVersion4::ColorNoteItemConverter*
 class CORDL_TYPE ColorNoteItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
@@ -37,21 +35,27 @@ public:
   __declspec(property(get = __cordl_internal_get__colorNotes,
                       put = __cordl_internal_set__colorNotes))::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> _colorNotes;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>& __cordl_internal_get__colorNotes();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> const& __cordl_internal_get__colorNotes() const;
-
-  constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
+  /// @brief Method Convert, addr 0x12ffd00, size 0xcc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes,
                                                                               ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x12bec20, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> const& __cordl_internal_get__colorNotes() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>& __cordl_internal_get__colorNotes();
+
+  constexpr void __cordl_internal_set__colorNotes(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> value);
+
+  /// @brief Method .ctor, addr 0x12ffbf0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-  /// @brief Method Convert, addr 0x12bed30, size 0xcc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorNoteItemConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorNoteItemConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorNoteItemConverter(ColorNoteItemConverter&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorNoteItemConverter(ColorNoteItemConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorNoteItemConverter();
-
-public:
   /// @brief Field _colorNotes, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> ____colorNotes;
 

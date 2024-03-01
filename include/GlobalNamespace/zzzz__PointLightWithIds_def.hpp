@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PointLightWithIds);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14446))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14444))
 // CS Name: ::PointLightWithIds*
 class CORDL_TYPE PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -29,20 +27,26 @@ public:
   /// @brief Field _pointLight, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__pointLight, put = __cordl_internal_set__pointLight))::UnityW<::GlobalNamespace::PointLight> _pointLight;
 
-  constexpr ::UnityW<::GlobalNamespace::PointLight>& __cordl_internal_get__pointLight();
-
-  constexpr ::UnityW<::GlobalNamespace::PointLight> const& __cordl_internal_get__pointLight() const;
-
-  constexpr void __cordl_internal_set__pointLight(::UnityW<::GlobalNamespace::PointLight> value);
-
-  /// @brief Method ColorWasSet, addr 0x21a70b8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2275720, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::PointLightWithIds* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21a70d8, size 0x18, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::PointLight> const& __cordl_internal_get__pointLight() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PointLight>& __cordl_internal_get__pointLight();
+
+  constexpr void __cordl_internal_set__pointLight(::UnityW<::GlobalNamespace::PointLight> value);
+
+  /// @brief Method .ctor, addr 0x2275740, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointLightWithIds();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointLightWithIds(PointLightWithIds&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointLightWithIds(PointLightWithIds const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointLightWithIds();
-
-public:
   /// @brief Field _pointLight, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PointLight> ____pointLight;
 

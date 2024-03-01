@@ -29,81 +29,85 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15406))
 // CS Name: ::MainEffectController*
 class CORDL_TYPE MainEffectController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _mainEffectContainer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectContainer, put = __cordl_internal_set__mainEffectContainer))::UnityW<::GlobalNamespace::MainEffectContainerSO> _mainEffectContainer;
-
   /// @brief Field _fadeValue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeValue, put = __cordl_internal_set__fadeValue))::UnityW<::GlobalNamespace::FloatSO> _fadeValue;
+
+  /// @brief Field _imageEffectController, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__imageEffectController, put = __cordl_internal_set__imageEffectController))::UnityW<::GlobalNamespace::ImageEffectController> _imageEffectController;
+
+  /// @brief Field _mainEffectContainer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainEffectContainer, put = __cordl_internal_set__mainEffectContainer))::UnityW<::GlobalNamespace::MainEffectContainerSO> _mainEffectContainer;
 
   /// @brief Field afterImageEffectEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_afterImageEffectEvent,
                       put = __cordl_internal_set_afterImageEffectEvent))::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* afterImageEffectEvent;
 
-  /// @brief Field _imageEffectController, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__imageEffectController, put = __cordl_internal_set__imageEffectController))::UnityW<::GlobalNamespace::ImageEffectController> _imageEffectController;
+  /// @brief Method ImageEffectControllerCallback, addr 0x28f13bc, size 0xa4, virtual false, abstract: false, final false
+  inline void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer();
+  /// @brief Method LazySetupImageEffectController, addr 0x28f1190, size 0x154, virtual false, abstract: false, final false
+  inline void LazySetupImageEffectController();
 
-  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& __cordl_internal_get__mainEffectContainer() const;
+  static inline ::GlobalNamespace::MainEffectController* New_ctor();
 
-  constexpr void __cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
+  /// @brief Method OnDisable, addr 0x28f12e4, size 0x88, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__fadeValue();
+  /// @brief Method OnEnable, addr 0x28f1168, size 0x28, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method OnPostRender, addr 0x28f151c, size 0x6c, virtual false, abstract: false, final false
+  inline void OnPostRender();
+
+  /// @brief Method OnPreRender, addr 0x28f1460, size 0xbc, virtual false, abstract: false, final false
+  inline void OnPreRender();
+
+  /// @brief Method OnValidate, addr 0x28f136c, size 0x50, virtual false, abstract: false, final false
+  inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__fadeValue() const;
 
-  constexpr void __cordl_internal_set__fadeValue(::UnityW<::GlobalNamespace::FloatSO> value);
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__fadeValue();
+
+  constexpr ::UnityW<::GlobalNamespace::ImageEffectController> const& __cordl_internal_get__imageEffectController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ImageEffectController>& __cordl_internal_get__imageEffectController();
+
+  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& __cordl_internal_get__mainEffectContainer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer();
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_afterImageEffectEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get_afterImageEffectEvent() const;
 
-  constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
-
-  constexpr ::UnityW<::GlobalNamespace::ImageEffectController>& __cordl_internal_get__imageEffectController();
-
-  constexpr ::UnityW<::GlobalNamespace::ImageEffectController> const& __cordl_internal_get__imageEffectController() const;
+  constexpr void __cordl_internal_set__fadeValue(::UnityW<::GlobalNamespace::FloatSO> value);
 
   constexpr void __cordl_internal_set__imageEffectController(::UnityW<::GlobalNamespace::ImageEffectController> value);
 
-  /// @brief Method add_afterImageEffectEvent, addr 0x280cb8c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+  constexpr void __cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
 
-  /// @brief Method remove_afterImageEffectEvent, addr 0x280cc3c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+  constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method OnEnable, addr 0x280ccec, size 0x28, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x280ce68, size 0x88, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnValidate, addr 0x280cef0, size 0x50, virtual false, abstract: false, final false
-  inline void OnValidate();
-
-  /// @brief Method LazySetupImageEffectController, addr 0x280cd14, size 0x154, virtual false, abstract: false, final false
-  inline void LazySetupImageEffectController();
-
-  /// @brief Method ImageEffectControllerCallback, addr 0x280cf40, size 0xa4, virtual false, abstract: false, final false
-  inline void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
-
-  /// @brief Method OnPreRender, addr 0x280cfe4, size 0xbc, virtual false, abstract: false, final false
-  inline void OnPreRender();
-
-  /// @brief Method OnPostRender, addr 0x280d0a0, size 0x6c, virtual false, abstract: false, final false
-  inline void OnPostRender();
-
-  static inline ::GlobalNamespace::MainEffectController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x280d10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28f1588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_afterImageEffectEvent, addr 0x28f1008, size 0xb0, virtual false, abstract: false, final false
+  inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+
+  /// @brief Method remove_afterImageEffectEvent, addr 0x28f10b8, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainEffectController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainEffectController(MainEffectController&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainEffectController(MainEffectController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainEffectController();
-
-public:
   /// @brief Field _mainEffectContainer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
 

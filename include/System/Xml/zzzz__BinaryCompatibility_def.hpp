@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::System::Xml::BinaryCompatibility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11475))
 // CS Name: ::System.Xml::BinaryCompatibility*
 class CORDL_TYPE BinaryCompatibility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x28ad3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x2994854, size 0x8, virtual false, abstract: false, final false
   static inline bool get_TargetsAtLeast_Desktop_V4_5_2();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryCompatibility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryCompatibility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryCompatibility(BinaryCompatibility&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryCompatibility(BinaryCompatibility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryCompatibility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

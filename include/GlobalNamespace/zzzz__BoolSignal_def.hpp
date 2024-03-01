@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14543), inst: 77 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14539))
 // CS Name: ::BoolSignal*
 class CORDL_TYPE BoolSignal : public ::GlobalNamespace::GenericSignal_1<bool> {
 public:
   // Declarations
   static inline ::GlobalNamespace::BoolSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2188f14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22575b8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BoolSignal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BoolSignal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolSignal(BoolSignal&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BoolSignal(BoolSignal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BoolSignal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

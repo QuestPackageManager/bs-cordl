@@ -23,20 +23,18 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::PressInteraction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5908))
 // CS Name: ::UnityEngine.InputSystem.Interactions::PressInteraction*
 class CORDL_TYPE PressInteraction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field pressPoint, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
-
   /// @brief Field behavior, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_behavior, put = __cordl_internal_set_behavior))::UnityEngine::InputSystem::Interactions::PressBehavior behavior;
 
   /// @brief Field m_WaitingForRelease, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_WaitingForRelease, put = __cordl_internal_set_m_WaitingForRelease)) bool m_WaitingForRelease;
+
+  /// @brief Field pressPoint, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
 
   __declspec(property(get = get_pressPointOrDefault)) float_t pressPointOrDefault;
 
@@ -45,44 +43,50 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr operator ::UnityEngine::InputSystem::IInputInteraction*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
-  constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
+  static inline ::UnityEngine::InputSystem::Interactions::PressInteraction* New_ctor();
 
-  constexpr float_t& __cordl_internal_get_pressPoint();
+  /// @brief Method Process, addr 0x2bf2860, size 0x3c4, virtual true, abstract: false, final true
+  inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  constexpr float_t const& __cordl_internal_get_pressPoint() const;
-
-  constexpr void __cordl_internal_set_pressPoint(float_t value);
-
-  constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior& __cordl_internal_get_behavior();
+  /// @brief Method Reset, addr 0x2bf2c24, size 0x8, virtual true, abstract: false, final true
+  inline void Reset();
 
   constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior const& __cordl_internal_get_behavior() const;
 
-  constexpr void __cordl_internal_set_behavior(::UnityEngine::InputSystem::Interactions::PressBehavior value);
-
-  constexpr bool& __cordl_internal_get_m_WaitingForRelease();
+  constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior& __cordl_internal_get_behavior();
 
   constexpr bool const& __cordl_internal_get_m_WaitingForRelease() const;
 
+  constexpr bool& __cordl_internal_get_m_WaitingForRelease();
+
+  constexpr float_t const& __cordl_internal_get_pressPoint() const;
+
+  constexpr float_t& __cordl_internal_get_pressPoint();
+
+  constexpr void __cordl_internal_set_behavior(::UnityEngine::InputSystem::Interactions::PressBehavior value);
+
   constexpr void __cordl_internal_set_m_WaitingForRelease(bool value);
 
-  /// @brief Method get_pressPointOrDefault, addr 0x2b0c6ac, size 0x58, virtual false, abstract: false, final false
-  inline float_t get_pressPointOrDefault();
+  constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method get_releasePointOrDefault, addr 0x2b0c704, size 0x88, virtual false, abstract: false, final false
-  inline float_t get_releasePointOrDefault();
-
-  /// @brief Method Process, addr 0x2b0c78c, size 0x3c4, virtual true, abstract: false, final true
-  inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
-
-  /// @brief Method Reset, addr 0x2b0cb50, size 0x8, virtual true, abstract: false, final true
-  inline void Reset();
-
-  static inline ::UnityEngine::InputSystem::Interactions::PressInteraction* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b0cb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bf2c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_pressPointOrDefault, addr 0x2bf2780, size 0x58, virtual false, abstract: false, final false
+  inline float_t get_pressPointOrDefault();
+
+  /// @brief Method get_releasePointOrDefault, addr 0x2bf27d8, size 0x88, virtual false, abstract: false, final false
+  inline float_t get_releasePointOrDefault();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
+  constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PressInteraction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PressInteraction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PressInteraction(PressInteraction&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PressInteraction(PressInteraction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PressInteraction();
-
-public:
   /// @brief Field pressPoint, offset: 0x10, size: 0x4, def value: None
   float_t ___pressPoint;
 

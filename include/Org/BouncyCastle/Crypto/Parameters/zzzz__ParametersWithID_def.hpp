@@ -19,55 +19,59 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ParametersWithID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1071))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ParametersWithID*
 class CORDL_TYPE ParametersWithID : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::ICipherParameters* parameters;
+  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::ICipherParameters* Parameters;
 
   /// @brief Field id, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::ArrayW<uint8_t, ::Array<uint8_t>*> id;
 
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::ICipherParameters* Parameters;
+  /// @brief Field parameters, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::ICipherParameters* parameters;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
+  /// @brief Method GetID, addr 0xfa8dd8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetID();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id);
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id, int32_t idOff,
+                                                                                    int32_t idLen);
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_id() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_id();
 
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& __cordl_internal_get_parameters();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherParameters*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_id();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_id() const;
-
   constexpr void __cordl_internal_set_id(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  /// @brief Method .ctor, addr 0xf63d54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa8d24, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id, int32_t idOff,
-                                                                                    int32_t idLen);
-
-  /// @brief Method .ctor, addr 0xf63d70, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa8d40, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id, int32_t idOff, int32_t idLen);
 
-  /// @brief Method GetID, addr 0xf63e08, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetID();
-
-  /// @brief Method get_Parameters, addr 0xf63e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xfa8de0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParametersWithID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParametersWithID(ParametersWithID&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParametersWithID(ParametersWithID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParametersWithID();
-
-public:
   /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::ICipherParameters* ___parameters;
 

@@ -18,61 +18,65 @@ MARK_REF_PTR_T(::System::ComponentModel::BrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7396))
 // CS Name: ::System.ComponentModel::BrowsableAttribute*
 class CORDL_TYPE BrowsableAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <Browsable>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__Browsable_k__BackingField, put = __cordl_internal_set__Browsable_k__BackingField)) bool _Browsable_k__BackingField;
-
-  /// @brief Field Yes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes))::System::ComponentModel::BrowsableAttribute* Yes;
-
-  /// @brief Field No, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_No, put = setStaticF_No))::System::ComponentModel::BrowsableAttribute* No;
+  __declspec(property(get = get_Browsable)) bool Browsable;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::BrowsableAttribute* Default;
 
-  __declspec(property(get = get_Browsable)) bool Browsable;
+  /// @brief Field No, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_No, put = setStaticF_No))::System::ComponentModel::BrowsableAttribute* No;
 
-  constexpr bool& __cordl_internal_get__Browsable_k__BackingField();
+  /// @brief Field Yes, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes))::System::ComponentModel::BrowsableAttribute* Yes;
 
-  constexpr bool const& __cordl_internal_get__Browsable_k__BackingField() const;
+  /// @brief Field <Browsable>k__BackingField, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__Browsable_k__BackingField, put = __cordl_internal_set__Browsable_k__BackingField)) bool _Browsable_k__BackingField;
 
-  constexpr void __cordl_internal_set__Browsable_k__BackingField(bool value);
+  /// @brief Method Equals, addr 0x29ed4e4, size 0xe4, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  static inline void setStaticF_Yes(::System::ComponentModel::BrowsableAttribute* value);
+  /// @brief Method GetHashCode, addr 0x29ed5c8, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Yes();
-
-  static inline void setStaticF_No(::System::ComponentModel::BrowsableAttribute* value);
-
-  static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_No();
-
-  static inline void setStaticF_Default(::System::ComponentModel::BrowsableAttribute* value);
-
-  static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Default();
+  /// @brief Method IsDefaultAttribute, addr 0x29ed5e8, size 0x68, virtual true, abstract: false, final false
+  inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::BrowsableAttribute* New_ctor(bool browsable);
 
-  /// @brief Method .ctor, addr 0x2908038, size 0x28, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__Browsable_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__Browsable_k__BackingField();
+
+  constexpr void __cordl_internal_set__Browsable_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x29ed4b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool browsable);
 
-  /// @brief Method get_Browsable, addr 0x2908060, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Default();
+
+  static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_No();
+
+  static inline ::System::ComponentModel::BrowsableAttribute* getStaticF_Yes();
+
+  /// @brief Method get_Browsable, addr 0x29ed4dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Browsable();
 
-  /// @brief Method Equals, addr 0x2908068, size 0xe4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  static inline void setStaticF_Default(::System::ComponentModel::BrowsableAttribute* value);
 
-  /// @brief Method GetHashCode, addr 0x290814c, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  static inline void setStaticF_No(::System::ComponentModel::BrowsableAttribute* value);
 
-  /// @brief Method IsDefaultAttribute, addr 0x290816c, size 0x68, virtual true, abstract: false, final false
-  inline bool IsDefaultAttribute();
+  static inline void setStaticF_Yes(::System::ComponentModel::BrowsableAttribute* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BrowsableAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BrowsableAttribute(BrowsableAttribute&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BrowsableAttribute(BrowsableAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BrowsableAttribute();
-
-public:
   /// @brief Field <Browsable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Browsable_k__BackingField;
 

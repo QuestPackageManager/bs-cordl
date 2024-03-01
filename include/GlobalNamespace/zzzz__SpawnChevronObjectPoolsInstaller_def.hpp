@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnChevronObjectPoolsInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4347))
 // CS Name: ::SpawnChevronObjectPoolsInstaller*
 class CORDL_TYPE SpawnChevronObjectPoolsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -27,20 +25,26 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotationChevronPrefab,
                       put = __cordl_internal_set__spawnRotationChevronPrefab))::UnityW<::GlobalNamespace::SpawnRotationChevron> _spawnRotationChevronPrefab;
 
-  constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron>& __cordl_internal_get__spawnRotationChevronPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron> const& __cordl_internal_get__spawnRotationChevronPrefab() const;
-
-  constexpr void __cordl_internal_set__spawnRotationChevronPrefab(::UnityW<::GlobalNamespace::SpawnRotationChevron> value);
-
-  /// @brief Method InstallBindings, addr 0x2374708, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2442650, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::SpawnChevronObjectPoolsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x237478c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron> const& __cordl_internal_get__spawnRotationChevronPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron>& __cordl_internal_get__spawnRotationChevronPrefab();
+
+  constexpr void __cordl_internal_set__spawnRotationChevronPrefab(::UnityW<::GlobalNamespace::SpawnRotationChevron> value);
+
+  /// @brief Method .ctor, addr 0x24426d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpawnChevronObjectPoolsInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpawnChevronObjectPoolsInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnChevronObjectPoolsInstaller(SpawnChevronObjectPoolsInstaller&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpawnChevronObjectPoolsInstaller(SpawnChevronObjectPoolsInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpawnChevronObjectPoolsInstaller();
-
-public:
   /// @brief Field _spawnRotationChevronPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpawnRotationChevron> ____spawnRotationChevronPrefab;
 

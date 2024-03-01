@@ -23,48 +23,52 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4497))
 // CS Name: ::MultiplayerLocalActivePlayerInstaller*
 class CORDL_TYPE MultiplayerLocalActivePlayerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _sceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
-
-  /// @brief Field _playerDataModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
-
   /// @brief Field _optionalAvatarDataSender, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
                       put = __cordl_internal_set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
+  /// @brief Field _playerDataModel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+  /// @brief Field _sceneSetupData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  /// @brief Method InstallBindings, addr 0x2469fb8, size 0x140, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
-
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+  static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInstaller* New_ctor();
 
   constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __cordl_internal_get__optionalAvatarDataSender();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __cordl_internal_get__optionalAvatarDataSender() const;
 
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+
   constexpr void __cordl_internal_set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
 
-  /// @brief Method InstallBindings, addr 0x239b070, size 0x140, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInstaller* New_ctor();
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x239b1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x246a0f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLocalActivePlayerInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalActivePlayerInstaller(MultiplayerLocalActivePlayerInstaller&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActivePlayerInstaller(MultiplayerLocalActivePlayerInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalActivePlayerInstaller();
-
-public:
   /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 

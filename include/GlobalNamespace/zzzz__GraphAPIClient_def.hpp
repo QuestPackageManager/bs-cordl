@@ -83,19 +83,17 @@ MARK_GEN_VAL_T(::GlobalNamespace::__GraphAPIClient___Post_d__5_1);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 25, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12667))
 // CS Name: ::GraphAPIClient::PostOptions
 struct CORDL_TYPE __GraphAPIClient__PostOptions {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "MaxRetries", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "MinWaitTimeForRetryMs", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "WithExponentialBackoff", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __GraphAPIClient__PostOptions(int32_t MaxRetries, int32_t MinWaitTimeForRetryMs, bool WithExponentialBackoff) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __GraphAPIClient__PostOptions();
+
+  // Ctor Parameters [CppParam { name: "MaxRetries", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "MinWaitTimeForRetryMs", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "WithExponentialBackoff", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __GraphAPIClient__PostOptions(int32_t MaxRetries, int32_t MinWaitTimeForRetryMs, bool WithExponentialBackoff) noexcept;
 
   /// @brief Field MaxRetries, offset: 0x0, size: 0x4, def value: None
   int32_t MaxRetries;
@@ -127,24 +125,25 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TRequest, typename TResponse>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(12667)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 866 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 866 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12668)) CS Name:
-// ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
+// CS Name: ::GraphAPIClient::<Post>d__4`2<TRequest,TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__4_2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GraphAPIClient___Post_d__4_2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GraphAPIClient*", modifiers:
@@ -159,10 +158,6 @@ public:
                                            ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions, ::System::UriBuilder* _uriBuilder_5__2, ::System::Net::Http::HttpContent* _httpContent_5__3,
                                            int32_t _numAttempts_5__4, ::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> __u__1,
                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GraphAPIClient___Post_d__4_2();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -216,24 +211,25 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResponse>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 887 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 99 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12669)) CS Name:
-// ::GraphAPIClient::<Post>d__5`1<TResponse>
+// CS Name: ::GraphAPIClient::<Post>d__5`1<TResponse>
 struct CORDL_TYPE __GraphAPIClient___Post_d__5_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GraphAPIClient___Post_d__5_1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse>", modifiers: "", def_value: None }, CppParam { name: "uri", ty: "::System::Uri*", modifiers: "", def_value: None },
@@ -247,10 +243,6 @@ public:
                                            ::System::Net::Http::HttpRequestMessage* _requestMessage_5__2,
                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__1,
                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GraphAPIClient___Post_d__5_1();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -293,45 +285,26 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12670))
 // CS Name: ::GraphAPIClient*
 class CORDL_TYPE GraphAPIClient : public ::System::Object {
 public:
   // Declarations
-  template <typename TResponse> using _Post_d__5_1 = ::GlobalNamespace::__GraphAPIClient___Post_d__5_1<TResponse>;
+  using PostOptions = ::GlobalNamespace::__GraphAPIClient__PostOptions;
 
   template <typename TRequest, typename TResponse> using _Post_d__4_2 = ::GlobalNamespace::__GraphAPIClient___Post_d__4_2<TRequest, TResponse>;
 
-  using PostOptions = ::GlobalNamespace::__GraphAPIClient__PostOptions;
-
-  /// @brief Field _networkConfig, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  template <typename TResponse> using _Post_d__5_1 = ::GlobalNamespace::__GraphAPIClient___Post_d__5_1<TResponse>;
 
   /// @brief Field _client, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__client, put = __cordl_internal_set__client))::System::Net::Http::HttpClient* _client;
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+  /// @brief Field _networkConfig, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
-
-  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
-
-  constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& __cordl_internal_get__client() const;
-
-  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
+  /// @brief Method CalculateDelayMsBeforeRetry, addr 0xead0d8, size 0x98, virtual false, abstract: false, final false
+  static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions);
 
   static inline ::GlobalNamespace::GraphAPIClient* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig);
-
-  /// @brief Method .ctor, addr 0xe6708c, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
-
-  /// @brief Method PostLoggedOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TRequest, typename TResponse>
-  inline ::System::Threading::Tasks::Task_1<TResponse>* PostLoggedOut(::StringW path, TRequest request, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions,
-                                                                      ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method Post, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TRequest, typename TResponse>
@@ -343,9 +316,32 @@ public:
   inline ::System::Threading::Tasks::Task_1<TResponse>* Post(::System::Uri* uri, ::StringW accessToken, ::System::Net::Http::HttpContent* httpContent,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CalculateDelayMsBeforeRetry, addr 0xe67108, size 0x98, virtual false, abstract: false, final false
-  static inline int32_t CalculateDelayMsBeforeRetry(int32_t numAttempts, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions);
+  /// @brief Method PostLoggedOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TRequest, typename TResponse>
+  inline ::System::Threading::Tasks::Task_1<TResponse>* PostLoggedOut(::StringW path, TRequest request, ::GlobalNamespace::__GraphAPIClient__PostOptions postOptions,
+                                                                      ::System::Threading::CancellationToken cancellationToken);
 
+  constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& __cordl_internal_get__client() const;
+
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
+
+  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
+
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+
+  /// @brief Method .ctor, addr 0xead05c, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GraphAPIClient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GraphAPIClient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphAPIClient(GraphAPIClient&&) = delete;
@@ -354,12 +350,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GraphAPIClient(GraphAPIClient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphAPIClient();
-
-public:
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 

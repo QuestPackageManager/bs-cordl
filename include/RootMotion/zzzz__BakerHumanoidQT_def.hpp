@@ -40,14 +40,12 @@ MARK_REF_PTR_T(::RootMotion::BakerHumanoidQT);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(14744))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12374))
 // CS Name: ::RootMotion::BakerHumanoidQT*
 class CORDL_TYPE BakerHumanoidQT : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
+  /// @brief Field Qw, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_Qw, put = __cordl_internal_set_Qw))::StringW Qw;
 
   /// @brief Field Qx, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Qx, put = __cordl_internal_set_Qx))::StringW Qx;
@@ -58,9 +56,6 @@ public:
   /// @brief Field Qz, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Qz, put = __cordl_internal_set_Qz))::StringW Qz;
 
-  /// @brief Field Qw, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Qw, put = __cordl_internal_set_Qw))::StringW Qw;
-
   /// @brief Field Tx, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_Tx, put = __cordl_internal_set_Tx))::StringW Tx;
 
@@ -69,27 +64,6 @@ public:
 
   /// @brief Field Tz, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_Tz, put = __cordl_internal_set_Tz))::StringW Tz;
-
-  /// @brief Field rotX, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_rotX, put = __cordl_internal_set_rotX))::UnityEngine::AnimationCurve* rotX;
-
-  /// @brief Field rotY, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_rotY, put = __cordl_internal_set_rotY))::UnityEngine::AnimationCurve* rotY;
-
-  /// @brief Field rotZ, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_rotZ, put = __cordl_internal_set_rotZ))::UnityEngine::AnimationCurve* rotZ;
-
-  /// @brief Field rotW, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_rotW, put = __cordl_internal_set_rotW))::UnityEngine::AnimationCurve* rotW;
-
-  /// @brief Field posX, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_posX, put = __cordl_internal_set_posX))::UnityEngine::AnimationCurve* posX;
-
-  /// @brief Field posY, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_posY, put = __cordl_internal_set_posY))::UnityEngine::AnimationCurve* posY;
-
-  /// @brief Field posZ, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_posZ, put = __cordl_internal_set_posZ))::UnityEngine::AnimationCurve* posZ;
 
   /// @brief Field goal, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_goal, put = __cordl_internal_set_goal))::UnityEngine::AvatarIKGoal goal;
@@ -100,148 +74,178 @@ public:
   /// @brief Field lastQSet, offset 0x9c, size 0x1
   __declspec(property(get = __cordl_internal_get_lastQSet, put = __cordl_internal_set_lastQSet)) bool lastQSet;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+  /// @brief Field posX, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_posX, put = __cordl_internal_set_posX))::UnityEngine::AnimationCurve* posX;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+  /// @brief Field posY, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_posY, put = __cordl_internal_set_posY))::UnityEngine::AnimationCurve* posY;
 
-  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Field posZ, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_posZ, put = __cordl_internal_set_posZ))::UnityEngine::AnimationCurve* posZ;
 
-  constexpr ::StringW& __cordl_internal_get_Qx();
+  /// @brief Field rotW, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_rotW, put = __cordl_internal_set_rotW))::UnityEngine::AnimationCurve* rotW;
 
-  constexpr ::StringW const& __cordl_internal_get_Qx() const;
+  /// @brief Field rotX, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_rotX, put = __cordl_internal_set_rotX))::UnityEngine::AnimationCurve* rotX;
 
-  constexpr void __cordl_internal_set_Qx(::StringW value);
+  /// @brief Field rotY, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_rotY, put = __cordl_internal_set_rotY))::UnityEngine::AnimationCurve* rotY;
 
-  constexpr ::StringW& __cordl_internal_get_Qy();
+  /// @brief Field rotZ, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_rotZ, put = __cordl_internal_set_rotZ))::UnityEngine::AnimationCurve* rotZ;
 
-  constexpr ::StringW const& __cordl_internal_get_Qy() const;
+  /// @brief Field transform, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  constexpr void __cordl_internal_set_Qy(::StringW value);
+  /// @brief Method MoveLastKeyframe, addr 0x130f55c, size 0x7c, virtual false, abstract: false, final false
+  inline void MoveLastKeyframe(float_t time, ::UnityEngine::AnimationCurve* curve);
 
-  constexpr ::StringW& __cordl_internal_get_Qz();
+  /// @brief Method MoveLastKeyframes, addr 0x130f4f4, size 0x68, virtual false, abstract: false, final false
+  inline void MoveLastKeyframes(float_t time);
 
-  constexpr ::StringW const& __cordl_internal_get_Qz() const;
+  /// @brief Method MultiplyLength, addr 0x130f640, size 0xa8, virtual false, abstract: false, final false
+  inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
 
-  constexpr void __cordl_internal_set_Qz(::StringW value);
+  static inline ::RootMotion::BakerHumanoidQT* New_ctor(::StringW name);
 
-  constexpr ::StringW& __cordl_internal_get_Qw();
+  static inline ::RootMotion::BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
+
+  /// @brief Method Reset, addr 0x130ef04, size 0x144, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SetCurves, addr 0x130f6e8, size 0x2ec, virtual false, abstract: false, final false
+  inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
+
+  /// @brief Method SetIKKeyframes, addr 0x130f1d0, size 0x234, virtual false, abstract: false, final false
+  inline void SetIKKeyframes(float_t time, ::UnityEngine::Avatar* avatar, float_t humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
+
+  /// @brief Method SetKeyframes, addr 0x130f404, size 0xf0, virtual false, abstract: false, final false
+  inline void SetKeyframes(float_t time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+
+  /// @brief Method SetLoopFrame, addr 0x130f5d8, size 0x68, virtual false, abstract: false, final false
+  inline void SetLoopFrame(float_t time);
 
   constexpr ::StringW const& __cordl_internal_get_Qw() const;
 
-  constexpr void __cordl_internal_set_Qw(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_Qw();
 
-  constexpr ::StringW& __cordl_internal_get_Tx();
+  constexpr ::StringW const& __cordl_internal_get_Qx() const;
+
+  constexpr ::StringW& __cordl_internal_get_Qx();
+
+  constexpr ::StringW const& __cordl_internal_get_Qy() const;
+
+  constexpr ::StringW& __cordl_internal_get_Qy();
+
+  constexpr ::StringW const& __cordl_internal_get_Qz() const;
+
+  constexpr ::StringW& __cordl_internal_get_Qz();
 
   constexpr ::StringW const& __cordl_internal_get_Tx() const;
 
-  constexpr void __cordl_internal_set_Tx(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Ty();
+  constexpr ::StringW& __cordl_internal_get_Tx();
 
   constexpr ::StringW const& __cordl_internal_get_Ty() const;
 
-  constexpr void __cordl_internal_set_Ty(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Tz();
+  constexpr ::StringW& __cordl_internal_get_Ty();
 
   constexpr ::StringW const& __cordl_internal_get_Tz() const;
 
-  constexpr void __cordl_internal_set_Tz(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_Tz();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotX();
+  constexpr ::UnityEngine::AvatarIKGoal const& __cordl_internal_get_goal() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotX() const;
+  constexpr ::UnityEngine::AvatarIKGoal& __cordl_internal_get_goal();
 
-  constexpr void __cordl_internal_set_rotX(::UnityEngine::AnimationCurve* value);
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastQ() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotY();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastQ();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotY() const;
+  constexpr bool const& __cordl_internal_get_lastQSet() const;
 
-  constexpr void __cordl_internal_set_rotY(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotZ();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotZ() const;
-
-  constexpr void __cordl_internal_set_rotZ(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotW();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotW() const;
-
-  constexpr void __cordl_internal_set_rotW(::UnityEngine::AnimationCurve* value);
+  constexpr bool& __cordl_internal_get_lastQSet();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_posX();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_posX() const;
 
-  constexpr void __cordl_internal_set_posX(::UnityEngine::AnimationCurve* value);
-
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_posY();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_posY() const;
-
-  constexpr void __cordl_internal_set_posY(::UnityEngine::AnimationCurve* value);
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_posZ();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_posZ() const;
 
-  constexpr void __cordl_internal_set_posZ(::UnityEngine::AnimationCurve* value);
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotW();
 
-  constexpr ::UnityEngine::AvatarIKGoal& __cordl_internal_get_goal();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotW() const;
 
-  constexpr ::UnityEngine::AvatarIKGoal const& __cordl_internal_get_goal() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotX();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotX() const;
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotY();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotY() const;
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotZ();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotZ() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+
+  constexpr void __cordl_internal_set_Qw(::StringW value);
+
+  constexpr void __cordl_internal_set_Qx(::StringW value);
+
+  constexpr void __cordl_internal_set_Qy(::StringW value);
+
+  constexpr void __cordl_internal_set_Qz(::StringW value);
+
+  constexpr void __cordl_internal_set_Tx(::StringW value);
+
+  constexpr void __cordl_internal_set_Ty(::StringW value);
+
+  constexpr void __cordl_internal_set_Tz(::StringW value);
 
   constexpr void __cordl_internal_set_goal(::UnityEngine::AvatarIKGoal value);
 
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastQ();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastQ() const;
-
   constexpr void __cordl_internal_set_lastQ(::UnityEngine::Quaternion value);
-
-  constexpr bool& __cordl_internal_get_lastQSet();
-
-  constexpr bool const& __cordl_internal_get_lastQSet() const;
 
   constexpr void __cordl_internal_set_lastQSet(bool value);
 
-  static inline ::RootMotion::BakerHumanoidQT* New_ctor(::StringW name);
+  constexpr void __cordl_internal_set_posX(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x12cdda0, size 0x178, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_posY(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_posZ(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_rotW(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_rotX(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_rotY(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_rotZ(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x130ed8c, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  static inline ::RootMotion::BakerHumanoidQT* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
-
-  /// @brief Method .ctor, addr 0x12ce05c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130f048, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name);
 
-  /// @brief Method Reset, addr 0x12cdf18, size 0x144, virtual false, abstract: false, final false
-  inline void Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BakerHumanoidQT();
 
-  /// @brief Method SetIKKeyframes, addr 0x12ce1e4, size 0x234, virtual false, abstract: false, final false
-  inline void SetIKKeyframes(float_t time, ::UnityEngine::Avatar* avatar, float_t humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation);
-
-  /// @brief Method SetKeyframes, addr 0x12ce418, size 0xf0, virtual false, abstract: false, final false
-  inline void SetKeyframes(float_t time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
-
-  /// @brief Method MoveLastKeyframes, addr 0x12ce508, size 0x68, virtual false, abstract: false, final false
-  inline void MoveLastKeyframes(float_t time);
-
-  /// @brief Method SetLoopFrame, addr 0x12ce5ec, size 0x68, virtual false, abstract: false, final false
-  inline void SetLoopFrame(float_t time);
-
-  /// @brief Method MoveLastKeyframe, addr 0x12ce570, size 0x7c, virtual false, abstract: false, final false
-  inline void MoveLastKeyframe(float_t time, ::UnityEngine::AnimationCurve* curve);
-
-  /// @brief Method MultiplyLength, addr 0x12ce654, size 0xa8, virtual false, abstract: false, final false
-  inline void MultiplyLength(::UnityEngine::AnimationCurve* curve, float_t mlp);
-
-  /// @brief Method SetCurves, addr 0x12ce6fc, size 0x2ec, virtual false, abstract: false, final false
-  inline void SetCurves(ByRef<::UnityEngine::AnimationClip*> clip, float_t maxError, float_t lengthMlp);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BakerHumanoidQT", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakerHumanoidQT(BakerHumanoidQT&&) = delete;
@@ -250,12 +254,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BakerHumanoidQT(BakerHumanoidQT const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BakerHumanoidQT();
-
-public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___transform;
 

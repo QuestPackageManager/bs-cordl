@@ -21,8 +21,6 @@ MARK_VAL_T(::UnityEngine::XR::Eyes);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15754))
 // CS Name: ::UnityEngine.XR::Eyes
 struct CORDL_TYPE Eyes {
 public:
@@ -34,30 +32,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Eyes>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
-  constexpr ::System::IEquatable_1<::UnityEngine::XR::Eyes>* i___System__IEquatable_1___UnityEngine__XR__Eyes_();
-
-  /// @brief Method get_deviceId, addr 0x2ecd7fc, size 0x8, virtual false, abstract: false, final false
-  inline uint64_t get_deviceId();
-
-  /// @brief Method get_featureIndex, addr 0x2ecd804, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_featureIndex();
-
-  /// @brief Method Equals, addr 0x2ecd80c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2fc1f34, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2ecd894, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2fc1fbc, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::Eyes other);
 
-  /// @brief Method GetHashCode, addr 0x2ecd8b8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2fc1fe0, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr Eyes(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
+  /// @brief Method get_deviceId, addr 0x2fc1f24, size 0x8, virtual false, abstract: false, final false
+  inline uint64_t get_deviceId();
+
+  /// @brief Method get_featureIndex, addr 0x2fc1f2c, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_featureIndex();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Eyes>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::Eyes>* i___System__IEquatable_1___UnityEngine__XR__Eyes_();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Eyes();
+
+  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_FeatureIndex", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr Eyes(uint64_t m_DeviceId, uint32_t m_FeatureIndex) noexcept;
 
   /// @brief Field m_DeviceId, offset: 0x0, size: 0x8, def value: None
   uint64_t m_DeviceId;

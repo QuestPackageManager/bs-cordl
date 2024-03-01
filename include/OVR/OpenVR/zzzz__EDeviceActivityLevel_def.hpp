@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EDeviceActivityLevel);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8536))
 // CS Name: ::OVR.OpenVR::EDeviceActivityLevel
 struct CORDL_TYPE EDeviceActivityLevel {
 public:
@@ -37,12 +35,17 @@ public:
     return static_cast<__EDeviceActivityLevel_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EDeviceActivityLevel(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EDeviceActivityLevel();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EDeviceActivityLevel(int32_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
@@ -50,20 +53,20 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field k_EDeviceActivityLevel_Unknown value: static_cast<int32_t>(0xffffffff)
-  static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Unknown;
-
   /// @brief Field k_EDeviceActivityLevel_Idle value: static_cast<int32_t>(0x0)
   static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Idle;
+
+  /// @brief Field k_EDeviceActivityLevel_Standby value: static_cast<int32_t>(0x3)
+  static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Standby;
+
+  /// @brief Field k_EDeviceActivityLevel_Unknown value: static_cast<int32_t>(0xffffffff)
+  static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Unknown;
 
   /// @brief Field k_EDeviceActivityLevel_UserInteraction value: static_cast<int32_t>(0x1)
   static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_UserInteraction;
 
   /// @brief Field k_EDeviceActivityLevel_UserInteraction_Timeout value: static_cast<int32_t>(0x2)
   static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_UserInteraction_Timeout;
-
-  /// @brief Field k_EDeviceActivityLevel_Standby value: static_cast<int32_t>(0x3)
-  static ::OVR::OpenVR::EDeviceActivityLevel const k_EDeviceActivityLevel_Standby;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

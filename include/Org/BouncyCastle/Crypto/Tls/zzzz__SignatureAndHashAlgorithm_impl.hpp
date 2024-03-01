@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)(uint8_t, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0xfc24dc;
+  constexpr static std::size_t addrs = 0x10074ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::get_Hash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfc2640;
+  constexpr static std::size_t addrs = 0x1007610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfc2648;
+  constexpr static std::size_t addrs = 0x1007618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0xfc2650;
+  constexpr static std::size_t addrs = 0x1007620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0xfc2720;
+  constexpr static std::size_t addrs = 0x10076f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::Encode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0xfc2764;
+  constexpr static std::size_t addrs = 0x1007734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::Parse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0xfc2800;
+  constexpr static std::size_t addrs = 0x10077d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

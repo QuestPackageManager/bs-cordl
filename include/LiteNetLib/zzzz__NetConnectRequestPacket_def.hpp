@@ -28,63 +28,67 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectRequestPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14183))
 // CS Name: ::LiteNetLib::NetConnectRequestPacket*
 class CORDL_TYPE NetConnectRequestPacket : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field ConnectionTime, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConnectionTime, put = __cordl_internal_set_ConnectionTime)) int64_t ConnectionTime;
-
   /// @brief Field ConnectionNumber, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_ConnectionNumber, put = __cordl_internal_set_ConnectionNumber)) uint8_t ConnectionNumber;
 
-  /// @brief Field TargetAddress, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
+  /// @brief Field ConnectionTime, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_ConnectionTime, put = __cordl_internal_set_ConnectionTime)) int64_t ConnectionTime;
 
   /// @brief Field Data, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data))::LiteNetLib::Utils::NetDataReader* Data;
 
-  constexpr int64_t& __cordl_internal_get_ConnectionTime();
+  /// @brief Field TargetAddress, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
 
-  constexpr int64_t const& __cordl_internal_get_ConnectionTime() const;
+  /// @brief Method FromData, addr 0x2361c4c, size 0x1ac, virtual false, abstract: false, final false
+  static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  constexpr void __cordl_internal_set_ConnectionTime(int64_t value);
+  /// @brief Method GetProtocolId, addr 0x2361b40, size 0x68, virtual false, abstract: false, final false
+  static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
 
-  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
+  /// @brief Method Make, addr 0x2364ff0, size 0x144, virtual false, abstract: false, final false
+  static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
+
+  static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
+                                                                ::LiteNetLib::Utils::NetDataReader* data);
 
   constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
 
-  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
+  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_TargetAddress();
+  constexpr int64_t const& __cordl_internal_get_ConnectionTime() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_TargetAddress() const;
-
-  constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr int64_t& __cordl_internal_get_ConnectionTime();
 
   constexpr ::LiteNetLib::Utils::NetDataReader*& __cordl_internal_get_Data();
 
   constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __cordl_internal_get_Data() const;
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_TargetAddress() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_TargetAddress();
+
+  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
+
+  constexpr void __cordl_internal_set_ConnectionTime(int64_t value);
+
   constexpr void __cordl_internal_set_Data(::LiteNetLib::Utils::NetDataReader* value);
 
-  static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
-                                                                ::LiteNetLib::Utils::NetDataReader* data);
+  constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2298904, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2364f6c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
 
-  /// @brief Method GetProtocolId, addr 0x22954d8, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetConnectRequestPacket();
 
-  /// @brief Method FromData, addr 0x22955e4, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
-
-  /// @brief Method Make, addr 0x2298988, size 0x144, virtual false, abstract: false, final false
-  static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetConnectRequestPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetConnectRequestPacket(NetConnectRequestPacket&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetConnectRequestPacket(NetConnectRequestPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetConnectRequestPacket();
-
-public:
   /// @brief Field ConnectionTime, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionTime;
 

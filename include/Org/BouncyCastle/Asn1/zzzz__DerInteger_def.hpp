@@ -32,116 +32,120 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerInteger);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(123))
 // CS Name: ::Org.BouncyCastle.Asn1::DerInteger*
 class CORDL_TYPE DerInteger : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
-  /// @brief Field bytes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
-
-  /// @brief Field start, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
-
-  __declspec(property(get = get_PositiveValue))::Org::BouncyCastle::Math::BigInteger* PositiveValue;
-
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
-
   __declspec(property(get = get_IntPositiveValueExact)) int32_t IntPositiveValueExact;
 
   __declspec(property(get = get_IntValueExact)) int32_t IntValueExact;
 
   __declspec(property(get = get_LongValueExact)) int64_t LongValueExact;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_bytes();
+  __declspec(property(get = get_PositiveValue))::Org::BouncyCastle::Math::BigInteger* PositiveValue;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
+  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
 
-  constexpr void __cordl_internal_set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field bytes, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
 
-  constexpr int32_t& __cordl_internal_get_start();
+  /// @brief Field start, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
-  constexpr int32_t const& __cordl_internal_get_start() const;
-
-  constexpr void __cordl_internal_set_start(int32_t value);
-
-  /// @brief Method AllowUnsafe, addr 0xeb29bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AllowUnsafe, addr 0xef998c, size 0xb0, virtual false, abstract: false, final false
   static inline bool AllowUnsafe();
 
-  /// @brief Method GetInstance, addr 0xeac474, size 0xf0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* GetInstance(::System::Object* obj);
+  /// @brief Method Asn1Equals, addr 0xefa1d0, size 0xc8, virtual true, abstract: false, final false
+  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method GetInstance, addr 0xeaf0a4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0xefa174, size 0x5c, virtual true, abstract: false, final false
+  inline int32_t Asn1GetHashCode();
+
+  /// @brief Method Encode, addr 0xefa14c, size 0x28, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+
+  /// @brief Method GetInstance, addr 0xef6074, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerInteger* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(int32_t value);
+  /// @brief Method GetInstance, addr 0xef3444, size 0xf0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* GetInstance(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0xeab3c8, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t value);
+  /// @brief Method HasValue, addr 0xef9e10, size 0x74, virtual false, abstract: false, final false
+  inline bool HasValue(::Org::BouncyCastle::Math::BigInteger* x);
 
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(int64_t value);
+  /// @brief Method IntValue, addr 0xef9e84, size 0xd4, virtual false, abstract: false, final false
+  static inline int32_t IntValue(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t signExt);
 
-  /// @brief Method .ctor, addr 0xeb2a74, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(int64_t value);
+  /// @brief Method IsMalformed, addr 0xef9c5c, size 0x7c, virtual false, abstract: false, final false
+  static inline bool IsMalformed(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(::Org::BouncyCastle::Math::BigInteger* value);
-
-  /// @brief Method .ctor, addr 0xeb2b00, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* value);
+  /// @brief Method LongValue, addr 0xefa074, size 0xd8, virtual false, abstract: false, final false
+  static inline int64_t LongValue(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t signExt);
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0xeb2a6c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
-
   static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, bool clone);
 
-  /// @brief Method .ctor, addr 0xeb2b88, size 0x104, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, bool clone);
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method get_PositiveValue, addr 0xeb2d6c, size 0x6c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(int32_t value);
 
-  /// @brief Method get_Value, addr 0xeb2dd8, size 0x68, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
+  static inline ::Org::BouncyCastle::Asn1::DerInteger* New_ctor(int64_t value);
 
-  /// @brief Method HasValue, addr 0xeb2e40, size 0x74, virtual false, abstract: false, final false
-  inline bool HasValue(::Org::BouncyCastle::Math::BigInteger* x);
-
-  /// @brief Method get_IntPositiveValueExact, addr 0xeb2f88, size 0x9c, virtual false, abstract: false, final false
-  inline int32_t get_IntPositiveValueExact();
-
-  /// @brief Method get_IntValueExact, addr 0xeaf284, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_IntValueExact();
-
-  /// @brief Method get_LongValueExact, addr 0xeb3024, size 0x80, virtual false, abstract: false, final false
-  inline int64_t get_LongValueExact();
-
-  /// @brief Method Encode, addr 0xeb317c, size 0x28, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
-
-  /// @brief Method Asn1GetHashCode, addr 0xeb31a4, size 0x5c, virtual true, abstract: false, final false
-  inline int32_t Asn1GetHashCode();
-
-  /// @brief Method Asn1Equals, addr 0xeb3200, size 0xc8, virtual true, abstract: false, final false
-  inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
-
-  /// @brief Method ToString, addr 0xeb32c8, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method IntValue, addr 0xeb2eb4, size 0xd4, virtual false, abstract: false, final false
-  static inline int32_t IntValue(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t signExt);
-
-  /// @brief Method LongValue, addr 0xeb30a4, size 0xd8, virtual false, abstract: false, final false
-  static inline int64_t LongValue(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t signExt);
-
-  /// @brief Method IsMalformed, addr 0xeb2c8c, size 0x7c, virtual false, abstract: false, final false
-  static inline bool IsMalformed(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
-
-  /// @brief Method SignBytesToSkip, addr 0xeb2d08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SignBytesToSkip, addr 0xef9cd8, size 0x64, virtual false, abstract: false, final false
   static inline int32_t SignBytesToSkip(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
+  /// @brief Method ToString, addr 0xefa298, size 0x20, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_bytes();
+
+  constexpr int32_t const& __cordl_internal_get_start() const;
+
+  constexpr int32_t& __cordl_internal_get_start();
+
+  constexpr void __cordl_internal_set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_start(int32_t value);
+
+  /// @brief Method .ctor, addr 0xef9a3c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+
+  /// @brief Method .ctor, addr 0xef9b58, size 0x104, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, bool clone);
+
+  /// @brief Method .ctor, addr 0xef9ad0, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* value);
+
+  /// @brief Method .ctor, addr 0xef2398, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t value);
+
+  /// @brief Method .ctor, addr 0xef9a44, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(int64_t value);
+
+  /// @brief Method get_IntPositiveValueExact, addr 0xef9f58, size 0x9c, virtual false, abstract: false, final false
+  inline int32_t get_IntPositiveValueExact();
+
+  /// @brief Method get_IntValueExact, addr 0xef6254, size 0x80, virtual false, abstract: false, final false
+  inline int32_t get_IntValueExact();
+
+  /// @brief Method get_LongValueExact, addr 0xef9ff4, size 0x80, virtual false, abstract: false, final false
+  inline int64_t get_LongValueExact();
+
+  /// @brief Method get_PositiveValue, addr 0xef9d3c, size 0x6c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_PositiveValue();
+
+  /// @brief Method get_Value, addr 0xef9da8, size 0x68, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerInteger();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerInteger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerInteger(DerInteger&&) = delete;
@@ -150,12 +154,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerInteger(DerInteger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerInteger();
-
-public:
   /// @brief Field bytes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___bytes;
 

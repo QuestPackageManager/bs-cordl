@@ -19,59 +19,63 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(500))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(501))
 // CS Name: ::Org.BouncyCastle.Asn1::DefiniteLengthInputStream*
 class CORDL_TYPE DefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
 public:
   // Declarations
+  /// @brief Field EmptyBytes, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_EmptyBytes, put = setStaticF_EmptyBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBytes;
+
+  __declspec(property(get = get_Remaining)) int32_t Remaining;
+
   /// @brief Field _originalLength, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__originalLength, put = __cordl_internal_set__originalLength)) int32_t _originalLength;
 
   /// @brief Field _remaining, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__remaining, put = __cordl_internal_set__remaining)) int32_t _remaining;
 
-  /// @brief Field EmptyBytes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyBytes, put = setStaticF_EmptyBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBytes;
+  static inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
-  __declspec(property(get = get_Remaining)) int32_t Remaining;
+  /// @brief Method Read, addr 0x12301cc, size 0x254, virtual true, abstract: false, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  constexpr int32_t& __cordl_internal_get__originalLength();
+  /// @brief Method ReadAllIntoByteArray, addr 0x1226848, size 0x3a4, virtual false, abstract: false, final false
+  inline void ReadAllIntoByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
+
+  /// @brief Method ReadByte, addr 0x122ffe8, size 0x1e4, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
+
+  /// @brief Method ToArray, addr 0x1224648, size 0x3a8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToArray();
 
   constexpr int32_t const& __cordl_internal_get__originalLength() const;
 
-  constexpr void __cordl_internal_set__originalLength(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__remaining();
+  constexpr int32_t& __cordl_internal_get__originalLength();
 
   constexpr int32_t const& __cordl_internal_get__remaining() const;
 
+  constexpr int32_t& __cordl_internal_get__remaining();
+
+  constexpr void __cordl_internal_set__originalLength(int32_t value);
+
   constexpr void __cordl_internal_set__remaining(int32_t value);
 
-  static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method .ctor, addr 0x1224580, size 0xc8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EmptyBytes();
 
-  static inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
-
-  /// @brief Method .ctor, addr 0x11e15b0, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
-
-  /// @brief Method get_Remaining, addr 0x11ed010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x122ffe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method ReadByte, addr 0x11ed018, size 0x1e4, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
+  static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Read, addr 0x11ed1fc, size 0x254, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefiniteLengthInputStream();
 
-  /// @brief Method ReadAllIntoByteArray, addr 0x11e3878, size 0x3a4, virtual false, abstract: false, final false
-  inline void ReadAllIntoByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
-
-  /// @brief Method ToArray, addr 0x11e1678, size 0x3a8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToArray();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefiniteLengthInputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefiniteLengthInputStream(DefiniteLengthInputStream&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefiniteLengthInputStream(DefiniteLengthInputStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefiniteLengthInputStream();
-
-public:
   /// @brief Field _originalLength, offset: 0x3c, size: 0x4, def value: None
   int32_t ____originalLength;
 

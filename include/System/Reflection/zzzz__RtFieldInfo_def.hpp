@@ -26,12 +26,15 @@ MARK_REF_PTR_T(::System::Reflection::RtFieldInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3465))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3516))
 // CS Name: ::System.Reflection::RtFieldInfo*
 class CORDL_TYPE RtFieldInfo : public ::System::Reflection::FieldInfo {
 public:
   // Declarations
+  /// @brief Method CheckConsistency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void CheckConsistency(::System::Object* target);
+
+  static inline ::System::Reflection::RtFieldInfo* New_ctor();
+
   /// @brief Method UnsafeGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* UnsafeGetValue(::System::Object* obj);
 
@@ -39,14 +42,15 @@ public:
   inline void UnsafeSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                              ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CheckConsistency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void CheckConsistency(::System::Object* target);
-
-  static inline ::System::Reflection::RtFieldInfo* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2511dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e39e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RtFieldInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RtFieldInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RtFieldInfo(RtFieldInfo&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RtFieldInfo(RtFieldInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RtFieldInfo();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

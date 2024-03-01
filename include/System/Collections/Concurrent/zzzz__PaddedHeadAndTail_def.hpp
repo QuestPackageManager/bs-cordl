@@ -16,8 +16,6 @@ MARK_VAL_T(::System::Collections::Concurrent::PaddedHeadAndTail);
 // }
 namespace System::Collections::Concurrent {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3803))
 // CS Name: ::System.Collections.Concurrent::PaddedHeadAndTail
 #pragma pack(push, 0)
 struct CORDL_TYPE PaddedHeadAndTail {
@@ -29,24 +27,24 @@ public:
   /// @brief Field Tail, offset 0x100, size 0x4
   __declspec(property(get = __cordl_internal_get_Tail, put = __cordl_internal_set_Tail)) int32_t Tail;
 
-  constexpr int32_t& __cordl_internal_get_Head();
-
   constexpr int32_t const& __cordl_internal_get_Head() const;
 
-  constexpr void __cordl_internal_set_Head(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_Tail();
+  constexpr int32_t& __cordl_internal_get_Head();
 
   constexpr int32_t const& __cordl_internal_get_Tail() const;
 
-  constexpr void __cordl_internal_set_Tail(int32_t value);
+  constexpr int32_t& __cordl_internal_get_Tail();
 
-  // Ctor Parameters [CppParam { name: "Head", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Tail", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PaddedHeadAndTail(int32_t Head, int32_t Tail) noexcept;
+  constexpr void __cordl_internal_set_Head(int32_t value);
+
+  constexpr void __cordl_internal_set_Tail(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PaddedHeadAndTail();
+
+  // Ctor Parameters [CppParam { name: "Head", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Tail", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PaddedHeadAndTail(int32_t Head, int32_t Tail) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

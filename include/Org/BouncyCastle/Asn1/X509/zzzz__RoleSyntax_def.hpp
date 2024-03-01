@@ -31,75 +31,79 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::RoleSyntax);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(380))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::RoleSyntax*
 class CORDL_TYPE RoleSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_RoleAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* RoleAuthority;
+
+  __declspec(property(get = get_RoleName))::Org::BouncyCastle::Asn1::X509::GeneralName* RoleName;
+
   /// @brief Field roleAuthority, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_roleAuthority, put = __cordl_internal_set_roleAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority;
 
   /// @brief Field roleName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_roleName, put = __cordl_internal_set_roleName))::Org::BouncyCastle::Asn1::X509::GeneralName* roleName;
 
-  __declspec(property(get = get_RoleAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* RoleAuthority;
+  /// @brief Method GetInstance, addr 0x1205510, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_RoleName))::Org::BouncyCastle::Asn1::X509::GeneralName* RoleName;
+  /// @brief Method GetRoleAuthorityAsString, addr 0x1205af4, size 0x1fc, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> GetRoleAuthorityAsString();
+
+  /// @brief Method GetRoleNameAsString, addr 0x1205a08, size 0xec, virtual false, abstract: false, final false
+  inline ::StringW GetRoleNameAsString();
+
+  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority, ::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::StringW roleName);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0x1205cf0, size 0xfc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  /// @brief Method ToString, addr 0x1205dec, size 0x1b8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_roleAuthority();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_roleAuthority() const;
 
-  constexpr void __cordl_internal_set_roleAuthority(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
-
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_roleName();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_roleName() const;
 
+  constexpr void __cordl_internal_set_roleAuthority(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+
   constexpr void __cordl_internal_set_roleName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method GetInstance, addr 0x11c3540, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority, ::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
-
-  /// @brief Method .ctor, addr 0x11c37f4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12057c4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority, ::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
-
-  /// @brief Method .ctor, addr 0x11c3988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1205958, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::StringW roleName);
-
-  /// @brief Method .ctor, addr 0x11c3994, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1205964, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW roleName);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x11c35e4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12055b4, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RoleAuthority, addr 0x11c3a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RoleAuthority, addr 0x12059f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_RoleAuthority();
 
-  /// @brief Method get_RoleName, addr 0x11c3a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RoleName, addr 0x1205a00, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_RoleName();
 
-  /// @brief Method GetRoleNameAsString, addr 0x11c3a38, size 0xec, virtual false, abstract: false, final false
-  inline ::StringW GetRoleNameAsString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RoleSyntax();
 
-  /// @brief Method GetRoleAuthorityAsString, addr 0x11c3b24, size 0x1fc, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> GetRoleAuthorityAsString();
-
-  /// @brief Method ToAsn1Object, addr 0x11c3d20, size 0xfc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
-  /// @brief Method ToString, addr 0x11c3e1c, size 0x1b8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RoleSyntax", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RoleSyntax(RoleSyntax&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RoleSyntax(RoleSyntax const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RoleSyntax();
-
-public:
   /// @brief Field roleAuthority, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::GeneralNames* ___roleAuthority;
 

@@ -18,84 +18,88 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParame
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1056))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Gost3410ValidationParameters*
 class CORDL_TYPE Gost3410ValidationParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field x0, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_x0, put = __cordl_internal_set_x0)) int32_t x0;
+  __declspec(property(get = get_C)) int32_t C;
+
+  __declspec(property(get = get_CL)) int64_t CL;
+
+  __declspec(property(get = get_X0)) int32_t X0;
+
+  __declspec(property(get = get_X0L)) int64_t X0L;
 
   /// @brief Field c, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
 
-  /// @brief Field x0L, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_x0L, put = __cordl_internal_set_x0L)) int64_t x0L;
-
   /// @brief Field cL, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_cL, put = __cordl_internal_set_cL)) int64_t cL;
 
-  __declspec(property(get = get_C)) int32_t C;
+  /// @brief Field x0, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_x0, put = __cordl_internal_set_x0)) int32_t x0;
 
-  __declspec(property(get = get_X0)) int32_t X0;
+  /// @brief Field x0L, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_x0L, put = __cordl_internal_set_x0L)) int64_t x0L;
 
-  __declspec(property(get = get_CL)) int64_t CL;
+  /// @brief Method Equals, addr 0xfa664c, size 0xc8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  __declspec(property(get = get_X0L)) int64_t X0L;
-
-  constexpr int32_t& __cordl_internal_get_x0();
-
-  constexpr int32_t const& __cordl_internal_get_x0() const;
-
-  constexpr void __cordl_internal_set_x0(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_c();
-
-  constexpr int32_t const& __cordl_internal_get_c() const;
-
-  constexpr void __cordl_internal_set_c(int32_t value);
-
-  constexpr int64_t& __cordl_internal_get_x0L();
-
-  constexpr int64_t const& __cordl_internal_get_x0L() const;
-
-  constexpr void __cordl_internal_set_x0L(int64_t value);
-
-  constexpr int64_t& __cordl_internal_get_cL();
-
-  constexpr int64_t const& __cordl_internal_get_cL() const;
-
-  constexpr void __cordl_internal_set_cL(int64_t value);
+  /// @brief Method GetHashCode, addr 0xfa6714, size 0x68, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* New_ctor(int32_t x0, int32_t c);
 
-  /// @brief Method .ctor, addr 0xf61604, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t x0, int32_t c);
-
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* New_ctor(int64_t x0L, int64_t cL);
 
-  /// @brief Method .ctor, addr 0xf61630, size 0x2c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_c() const;
+
+  constexpr int32_t& __cordl_internal_get_c();
+
+  constexpr int64_t const& __cordl_internal_get_cL() const;
+
+  constexpr int64_t& __cordl_internal_get_cL();
+
+  constexpr int32_t const& __cordl_internal_get_x0() const;
+
+  constexpr int32_t& __cordl_internal_get_x0();
+
+  constexpr int64_t const& __cordl_internal_get_x0L() const;
+
+  constexpr int64_t& __cordl_internal_get_x0L();
+
+  constexpr void __cordl_internal_set_c(int32_t value);
+
+  constexpr void __cordl_internal_set_cL(int64_t value);
+
+  constexpr void __cordl_internal_set_x0(int32_t value);
+
+  constexpr void __cordl_internal_set_x0L(int64_t value);
+
+  /// @brief Method .ctor, addr 0xfa65d4, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t x0, int32_t c);
+
+  /// @brief Method .ctor, addr 0xfa6600, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int64_t x0L, int64_t cL);
 
-  /// @brief Method get_C, addr 0xf6165c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_C, addr 0xfa662c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_C();
 
-  /// @brief Method get_X0, addr 0xf61664, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_X0();
-
-  /// @brief Method get_CL, addr 0xf6166c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CL, addr 0xfa663c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_CL();
 
-  /// @brief Method get_X0L, addr 0xf61674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X0, addr 0xfa6634, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_X0();
+
+  /// @brief Method get_X0L, addr 0xfa6644, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_X0L();
 
-  /// @brief Method Equals, addr 0xf6167c, size 0xc8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gost3410ValidationParameters();
 
-  /// @brief Method GetHashCode, addr 0xf61744, size 0x68, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410ValidationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost3410ValidationParameters(Gost3410ValidationParameters&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost3410ValidationParameters(Gost3410ValidationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost3410ValidationParameters();
-
-public:
   /// @brief Field x0, offset: 0x10, size: 0x4, def value: None
   int32_t ___x0;
 

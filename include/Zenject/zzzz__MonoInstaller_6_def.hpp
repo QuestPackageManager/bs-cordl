@@ -23,8 +23,6 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TDerived>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10288))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10286))
 // CS Name: ::Zenject::MonoInstaller`6<TParam1,TParam2,TParam3,TParam4,TParam5,TDerived>*
 class CORDL_TYPE MonoInstaller_6 : public ::Zenject::MonoInstallerBase {
 public:
@@ -37,12 +35,18 @@ public:
 
   static inline ::Zenject::MonoInstaller_6<TParam1, TParam2, TParam3, TParam4, TParam5, TDerived>* New_ctor();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoInstaller_6();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller_6", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoInstaller_6(MonoInstaller_6&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoInstaller_6(MonoInstaller_6 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoInstaller_6();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -45,59 +45,63 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__Sec
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1363))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1512))
 // CS Name: ::SecT571R1Curve::SecT571R1LookupTable*
 class CORDL_TYPE __SecT571R1Curve__SecT571R1LookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
 public:
   // Declarations
+  __declspec(property(get = get_Size)) int32_t Size;
+
   /// @brief Field m_outer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* m_outer;
-
-  /// @brief Field m_table, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table))::ArrayW<uint64_t, ::Array<uint64_t>*> m_table;
 
   /// @brief Field m_size, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_size, put = __cordl_internal_set_m_size)) int32_t m_size;
 
-  __declspec(property(get = get_Size)) int32_t Size;
+  /// @brief Field m_table, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table))::ArrayW<uint64_t, ::Array<uint64_t>*> m_table;
+
+  /// @brief Method CreatePoint, addr 0x10a5678, size 0xe0, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
+
+  /// @brief Method Lookup, addr 0x10a5570, size 0x108, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
+
+  /// @brief Method LookupVar, addr 0x10a5758, size 0xcc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
+
+  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* outer,
+                                                                                                             ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
 
   constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve*& __cordl_internal_get_m_outer();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* value);
-
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_m_table();
-
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_m_table() const;
-
-  constexpr void __cordl_internal_set_m_table(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr int32_t const& __cordl_internal_get_m_size() const;
 
   constexpr int32_t& __cordl_internal_get_m_size();
 
-  constexpr int32_t const& __cordl_internal_get_m_size() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_m_table() const;
+
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_m_table();
+
+  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* value);
 
   constexpr void __cordl_internal_set_m_size(int32_t value);
 
-  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* outer,
-                                                                                                             ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
+  constexpr void __cordl_internal_set_m_table(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1060338, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a5308, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* outer, ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
 
-  /// @brief Method get_Size, addr 0x1060598, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x10a5568, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method Lookup, addr 0x10605a0, size 0x108, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecT571R1Curve__SecT571R1LookupTable();
 
-  /// @brief Method LookupVar, addr 0x1060788, size 0xcc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
-
-  /// @brief Method CreatePoint, addr 0x10606a8, size 0xe0, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecT571R1Curve__SecT571R1LookupTable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecT571R1Curve__SecT571R1LookupTable(__SecT571R1Curve__SecT571R1LookupTable&&) = delete;
@@ -106,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecT571R1Curve__SecT571R1LookupTable(__SecT571R1Curve__SecT571R1LookupTable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecT571R1Curve__SecT571R1LookupTable();
-
-public:
   /// @brief Field m_outer, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* ___m_outer;
 
@@ -137,16 +135,27 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Cu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1443))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1513))
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Sec::SecT571R1Curve*
 class CORDL_TYPE SecT571R1Curve : public ::Org::BouncyCastle::Math::EC::AbstractF2mCurve {
 public:
   // Declarations
   using SecT571R1LookupTable = ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT571R1Curve__SecT571R1LookupTable;
 
-  /// @brief Field m_infinity, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point* m_infinity;
+  __declspec(property(get = get_FieldSize)) int32_t FieldSize;
+
+  __declspec(property(get = get_Infinity))::Org::BouncyCastle::Math::EC::ECPoint* Infinity;
+
+  __declspec(property(get = get_IsKoblitz)) bool IsKoblitz;
+
+  __declspec(property(get = get_IsTrinomial)) bool IsTrinomial;
+
+  __declspec(property(get = get_K1)) int32_t K1;
+
+  __declspec(property(get = get_K2)) int32_t K2;
+
+  __declspec(property(get = get_K3)) int32_t K3;
+
+  __declspec(property(get = get_M)) int32_t M;
 
   /// @brief Field SECT571R1_AFFINE_ZS, offset 0xffffffff, size 0x8
   static __declspec(
@@ -159,21 +168,31 @@ public:
   /// @brief Field SecT571R1_B_SQRT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SecT571R1_B_SQRT, put = setStaticF_SecT571R1_B_SQRT))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* SecT571R1_B_SQRT;
 
-  __declspec(property(get = get_Infinity))::Org::BouncyCastle::Math::EC::ECPoint* Infinity;
+  /// @brief Field m_infinity, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point* m_infinity;
 
-  __declspec(property(get = get_FieldSize)) int32_t FieldSize;
+  /// @brief Method CloneCurve, addr 0x10a4ea4, size 0x58, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
 
-  __declspec(property(get = get_IsKoblitz)) bool IsKoblitz;
+  /// @brief Method CreateCacheSafeLookupTable, addr 0x10a5160, size 0x1a8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
+                                                                                  int32_t off, int32_t len);
 
-  __declspec(property(get = get_M)) int32_t M;
+  /// @brief Method CreateRawPoint, addr 0x10a4f7c, size 0x88, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  __declspec(property(get = get_IsTrinomial)) bool IsTrinomial;
+  /// @brief Method CreateRawPoint, addr 0x10a5090, size 0x94, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
+                                                                ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
+                                                                bool withCompression);
 
-  __declspec(property(get = get_K1)) int32_t K1;
+  /// @brief Method FromBigInteger, addr 0x10a4f18, size 0x64, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  __declspec(property(get = get_K2)) int32_t K2;
+  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* New_ctor();
 
-  __declspec(property(get = get_K3)) int32_t K3;
+  /// @brief Method SupportsCoordinateSystem, addr 0x10a4efc, size 0xc, virtual true, abstract: false, final false
+  inline bool SupportsCoordinateSystem(int32_t coord);
 
   constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point*& __cordl_internal_get_m_infinity();
 
@@ -181,68 +200,51 @@ public:
 
   constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point* value);
 
-  static inline void setStaticF_SECT571R1_AFFINE_ZS(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);
+  /// @brief Method .ctor, addr 0x10a4d08, size 0x194, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> getStaticF_SECT571R1_AFFINE_ZS();
 
-  static inline void setStaticF_SecT571R1_B(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* value);
-
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* getStaticF_SecT571R1_B();
-
-  static inline void setStaticF_SecT571R1_B_SQRT(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* getStaticF_SecT571R1_B_SQRT();
 
-  static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Curve* New_ctor();
-
-  /// @brief Method .ctor, addr 0x105fd38, size 0x194, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CloneCurve, addr 0x105fed4, size 0x58, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECCurve* CloneCurve();
-
-  /// @brief Method SupportsCoordinateSystem, addr 0x105ff2c, size 0xc, virtual true, abstract: false, final false
-  inline bool SupportsCoordinateSystem(int32_t coord);
-
-  /// @brief Method get_Infinity, addr 0x105ff38, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
-
-  /// @brief Method get_FieldSize, addr 0x105ff40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FieldSize, addr 0x10a4f10, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method FromBigInteger, addr 0x105ff48, size 0x64, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECFieldElement* FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
+  /// @brief Method get_Infinity, addr 0x10a4f08, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Infinity();
 
-  /// @brief Method CreateRawPoint, addr 0x105ffac, size 0x88, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
-
-  /// @brief Method CreateRawPoint, addr 0x10600c0, size 0x94, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
-                                                                ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
-                                                                bool withCompression);
-
-  /// @brief Method get_IsKoblitz, addr 0x1060160, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsKoblitz, addr 0x10a5130, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsKoblitz();
 
-  /// @brief Method get_M, addr 0x1060168, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_M();
-
-  /// @brief Method get_IsTrinomial, addr 0x1060170, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsTrinomial, addr 0x10a5140, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsTrinomial();
 
-  /// @brief Method get_K1, addr 0x1060178, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K1, addr 0x10a5148, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K1();
 
-  /// @brief Method get_K2, addr 0x1060180, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K2, addr 0x10a5150, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K2();
 
-  /// @brief Method get_K3, addr 0x1060188, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_K3, addr 0x10a5158, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_K3();
 
-  /// @brief Method CreateCacheSafeLookupTable, addr 0x1060190, size 0x1a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points,
-                                                                                  int32_t off, int32_t len);
+  /// @brief Method get_M, addr 0x10a5138, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_M();
 
+  static inline void setStaticF_SECT571R1_AFFINE_ZS(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);
+
+  static inline void setStaticF_SecT571R1_B(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* value);
+
+  static inline void setStaticF_SecT571R1_B_SQRT(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571FieldElement* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecT571R1Curve();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SecT571R1Curve", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecT571R1Curve(SecT571R1Curve&&) = delete;
@@ -251,12 +253,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SecT571R1Curve(SecT571R1Curve const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecT571R1Curve();
-
-public:
   /// @brief Field m_infinity, offset: 0x58, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571R1Point* ___m_infinity;
 

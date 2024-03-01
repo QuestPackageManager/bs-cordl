@@ -34,106 +34,104 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableGraph);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9204))
 // CS Name: ::UnityEngine.Playables::PlayableGraph
 struct CORDL_TYPE PlayableGraph {
 public:
   // Declarations
-  /// @brief Method GetRootPlayable, addr 0x2d00edc, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable GetRootPlayable(int32_t index);
-
   /// @brief Method Connect, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U, typename V> inline bool Connect(U source, int32_t sourceOutputPort, V destination, int32_t destinationInputPort);
 
-  /// @brief Method Evaluate, addr 0x2d00f3c, size 0x40, virtual false, abstract: false, final false
-  inline void Evaluate();
-
-  /// @brief Method IsValid, addr 0x2d00fc8, size 0x3c, virtual false, abstract: false, final false
-  inline bool IsValid();
-
-  /// @brief Method IsPlaying, addr 0x2d01040, size 0x3c, virtual false, abstract: false, final false
-  inline bool IsPlaying();
-
-  /// @brief Method Evaluate, addr 0x2d00f7c, size 0x4c, virtual false, abstract: false, final false
-  inline void Evaluate(float_t deltaTime);
-
-  /// @brief Method GetResolver, addr 0x2d01104, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::IExposedPropertyTable* GetResolver();
-
-  /// @brief Method GetPlayableCount, addr 0x2d0117c, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t GetPlayableCount();
-
-  /// @brief Method GetRootPlayableCount, addr 0x2d011f4, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t GetRootPlayableCount();
-
-  /// @brief Method SynchronizeEvaluation, addr 0x2d0126c, size 0x50, virtual false, abstract: false, final false
-  inline void SynchronizeEvaluation(::UnityEngine::Playables::PlayableGraph playable);
-
-  /// @brief Method CreatePlayableHandle, addr 0x2d0098c, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::PlayableHandle CreatePlayableHandle();
-
-  /// @brief Method CreateScriptOutputInternal, addr 0x2d0074c, size 0x54, virtual false, abstract: false, final false
-  inline bool CreateScriptOutputInternal(::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
-
-  /// @brief Method GetRootPlayableInternal, addr 0x2d00ee0, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::PlayableHandle GetRootPlayableInternal(int32_t index);
-
-  /// @brief Method IsMatchFrameRateEnabled, addr 0x2d013ec, size 0x3c, virtual false, abstract: false, final false
-  inline bool IsMatchFrameRateEnabled();
-
-  /// @brief Method GetFrameRate, addr 0x2d01464, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::FrameRate GetFrameRate();
-
-  /// @brief Method ConnectInternal, addr 0x2d014f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ConnectInternal, addr 0x2decc1c, size 0x74, virtual false, abstract: false, final false
   inline bool ConnectInternal(::UnityEngine::Playables::PlayableHandle source, int32_t sourceOutputPort, ::UnityEngine::Playables::PlayableHandle destination, int32_t destinationInputPort);
 
-  /// @brief Method IsValid_Injected, addr 0x2d01004, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsValid_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
-
-  /// @brief Method IsPlaying_Injected, addr 0x2d0107c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsPlaying_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
-
-  /// @brief Method Evaluate_Injected, addr 0x2d010b8, size 0x4c, virtual false, abstract: false, final false
-  static inline void Evaluate_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, float_t deltaTime);
-
-  /// @brief Method GetResolver_Injected, addr 0x2d01140, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::IExposedPropertyTable* GetResolver_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
-
-  /// @brief Method GetPlayableCount_Injected, addr 0x2d011b8, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetPlayableCount_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
-
-  /// @brief Method GetRootPlayableCount_Injected, addr 0x2d01230, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetRootPlayableCount_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
-
-  /// @brief Method SynchronizeEvaluation_Injected, addr 0x2d012bc, size 0x44, virtual false, abstract: false, final false
-  static inline void SynchronizeEvaluation_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::PlayableGraph> playable);
-
-  /// @brief Method CreatePlayableHandle_Injected, addr 0x2d01300, size 0x44, virtual false, abstract: false, final false
-  static inline void CreatePlayableHandle_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::PlayableHandle> ret);
-
-  /// @brief Method CreateScriptOutputInternal_Injected, addr 0x2d01344, size 0x54, virtual false, abstract: false, final false
-  static inline bool CreateScriptOutputInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
-
-  /// @brief Method GetRootPlayableInternal_Injected, addr 0x2d01398, size 0x54, virtual false, abstract: false, final false
-  static inline void GetRootPlayableInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, int32_t index, ByRef<::UnityEngine::Playables::PlayableHandle> ret);
-
-  /// @brief Method IsMatchFrameRateEnabled_Injected, addr 0x2d01428, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsMatchFrameRateEnabled_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
-
-  /// @brief Method GetFrameRate_Injected, addr 0x2d014b0, size 0x44, virtual false, abstract: false, final false
-  static inline void GetFrameRate_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::FrameRate> ret);
-
-  /// @brief Method ConnectInternal_Injected, addr 0x2d01568, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ConnectInternal_Injected, addr 0x2decc90, size 0x6c, virtual false, abstract: false, final false
   static inline bool ConnectInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::PlayableHandle> source, int32_t sourceOutputPort,
                                               ByRef<::UnityEngine::Playables::PlayableHandle> destination, int32_t destinationInputPort);
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr PlayableGraph(void* m_Handle, uint32_t m_Version) noexcept;
+  /// @brief Method CreatePlayableHandle, addr 0x2dec0b4, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::Playables::PlayableHandle CreatePlayableHandle();
+
+  /// @brief Method CreatePlayableHandle_Injected, addr 0x2deca28, size 0x44, virtual false, abstract: false, final false
+  static inline void CreatePlayableHandle_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::PlayableHandle> ret);
+
+  /// @brief Method CreateScriptOutputInternal, addr 0x2debe74, size 0x54, virtual false, abstract: false, final false
+  inline bool CreateScriptOutputInternal(::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+
+  /// @brief Method CreateScriptOutputInternal_Injected, addr 0x2deca6c, size 0x54, virtual false, abstract: false, final false
+  static inline bool CreateScriptOutputInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+
+  /// @brief Method Evaluate, addr 0x2dec664, size 0x40, virtual false, abstract: false, final false
+  inline void Evaluate();
+
+  /// @brief Method Evaluate, addr 0x2dec6a4, size 0x4c, virtual false, abstract: false, final false
+  inline void Evaluate(float_t deltaTime);
+
+  /// @brief Method Evaluate_Injected, addr 0x2dec7e0, size 0x4c, virtual false, abstract: false, final false
+  static inline void Evaluate_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, float_t deltaTime);
+
+  /// @brief Method GetFrameRate, addr 0x2decb8c, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Playables::FrameRate GetFrameRate();
+
+  /// @brief Method GetFrameRate_Injected, addr 0x2decbd8, size 0x44, virtual false, abstract: false, final false
+  static inline void GetFrameRate_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::FrameRate> ret);
+
+  /// @brief Method GetPlayableCount, addr 0x2dec8a4, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t GetPlayableCount();
+
+  /// @brief Method GetPlayableCount_Injected, addr 0x2dec8e0, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t GetPlayableCount_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
+
+  /// @brief Method GetResolver, addr 0x2dec82c, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::IExposedPropertyTable* GetResolver();
+
+  /// @brief Method GetResolver_Injected, addr 0x2dec868, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::IExposedPropertyTable* GetResolver_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
+
+  /// @brief Method GetRootPlayable, addr 0x2dec604, size 0x4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Playables::Playable GetRootPlayable(int32_t index);
+
+  /// @brief Method GetRootPlayableCount, addr 0x2dec91c, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t GetRootPlayableCount();
+
+  /// @brief Method GetRootPlayableCount_Injected, addr 0x2dec958, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t GetRootPlayableCount_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
+
+  /// @brief Method GetRootPlayableInternal, addr 0x2dec608, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Playables::PlayableHandle GetRootPlayableInternal(int32_t index);
+
+  /// @brief Method GetRootPlayableInternal_Injected, addr 0x2decac0, size 0x54, virtual false, abstract: false, final false
+  static inline void GetRootPlayableInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, int32_t index, ByRef<::UnityEngine::Playables::PlayableHandle> ret);
+
+  /// @brief Method IsMatchFrameRateEnabled, addr 0x2decb14, size 0x3c, virtual false, abstract: false, final false
+  inline bool IsMatchFrameRateEnabled();
+
+  /// @brief Method IsMatchFrameRateEnabled_Injected, addr 0x2decb50, size 0x3c, virtual false, abstract: false, final false
+  static inline bool IsMatchFrameRateEnabled_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
+
+  /// @brief Method IsPlaying, addr 0x2dec768, size 0x3c, virtual false, abstract: false, final false
+  inline bool IsPlaying();
+
+  /// @brief Method IsPlaying_Injected, addr 0x2dec7a4, size 0x3c, virtual false, abstract: false, final false
+  static inline bool IsPlaying_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
+
+  /// @brief Method IsValid, addr 0x2dec6f0, size 0x3c, virtual false, abstract: false, final false
+  inline bool IsValid();
+
+  /// @brief Method IsValid_Injected, addr 0x2dec72c, size 0x3c, virtual false, abstract: false, final false
+  static inline bool IsValid_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self);
+
+  /// @brief Method SynchronizeEvaluation, addr 0x2dec994, size 0x50, virtual false, abstract: false, final false
+  inline void SynchronizeEvaluation(::UnityEngine::Playables::PlayableGraph playable);
+
+  /// @brief Method SynchronizeEvaluation_Injected, addr 0x2dec9e4, size 0x44, virtual false, abstract: false, final false
+  static inline void SynchronizeEvaluation_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ByRef<::UnityEngine::Playables::PlayableGraph> playable);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PlayableGraph();
+
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr PlayableGraph(void* m_Handle, uint32_t m_Version) noexcept;
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x8, def value: None
   void* m_Handle;

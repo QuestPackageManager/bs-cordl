@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTextTableCell);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13453))
 // CS Name: ::SimpleTextTableCell*
 class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
 public:
@@ -29,23 +27,29 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+  static inline ::GlobalNamespace::SimpleTextTableCell* New_ctor();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method set_text, addr 0x21aaaa0, size 0x24, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
-
-  /// @brief Method get_text, addr 0x21aaac4, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_text();
-
-  static inline ::GlobalNamespace::SimpleTextTableCell* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21aaae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2278150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_text, addr 0x227812c, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW get_text();
+
+  /// @brief Method set_text, addr 0x2278108, size 0x24, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleTextTableCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleTextTableCell(SimpleTextTableCell&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleTextTableCell(SimpleTextTableCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleTextTableCell();
-
-public:
   /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

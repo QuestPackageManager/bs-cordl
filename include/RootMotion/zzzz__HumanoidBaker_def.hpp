@@ -36,46 +36,18 @@ MARK_REF_PTR_T(::RootMotion::HumanoidBaker);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12369)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14757))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12377)) CS Name: ::RootMotion::HumanoidBaker*
+// CS Name: ::RootMotion::HumanoidBaker*
 class CORDL_TYPE HumanoidBaker : public ::RootMotion::Baker {
 public:
   // Declarations
-  /// @brief Field bakeHandIK, offset 0x74, size 0x1
-  __declspec(property(get = __cordl_internal_get_bakeHandIK, put = __cordl_internal_set_bakeHandIK)) bool bakeHandIK;
-
   /// @brief Field IKKeyReductionError, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_IKKeyReductionError, put = __cordl_internal_set_IKKeyReductionError)) float_t IKKeyReductionError;
 
-  /// @brief Field muscleFrameRateDiv, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get_muscleFrameRateDiv, put = __cordl_internal_set_muscleFrameRateDiv)) int32_t muscleFrameRateDiv;
+  /// @brief Field bakeHandIK, offset 0x74, size 0x1
+  __declspec(property(get = __cordl_internal_get_bakeHandIK, put = __cordl_internal_set_bakeHandIK)) bool bakeHandIK;
 
   /// @brief Field bakerMuscles, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_bakerMuscles, put = __cordl_internal_set_bakerMuscles))::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*> bakerMuscles;
-
-  /// @brief Field rootQT, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_rootQT, put = __cordl_internal_set_rootQT))::RootMotion::BakerHumanoidQT* rootQT;
-
-  /// @brief Field leftFootQT, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftFootQT, put = __cordl_internal_set_leftFootQT))::RootMotion::BakerHumanoidQT* leftFootQT;
-
-  /// @brief Field rightFootQT, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightFootQT, put = __cordl_internal_set_rightFootQT))::RootMotion::BakerHumanoidQT* rightFootQT;
-
-  /// @brief Field leftHandQT, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftHandQT, put = __cordl_internal_set_leftHandQT))::RootMotion::BakerHumanoidQT* leftHandQT;
-
-  /// @brief Field rightHandQT, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightHandQT, put = __cordl_internal_set_rightHandQT))::RootMotion::BakerHumanoidQT* rightHandQT;
-
-  /// @brief Field muscles, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_muscles, put = __cordl_internal_set_muscles))::ArrayW<float_t, ::Array<float_t>*> muscles;
-
-  /// @brief Field pose, offset 0xb8, size 0x28
-  __declspec(property(get = __cordl_internal_get_pose, put = __cordl_internal_set_pose))::UnityEngine::HumanPose pose;
-
-  /// @brief Field handler, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::UnityEngine::HumanPoseHandler* handler;
 
   /// @brief Field bodyPosition, offset 0xe8, size 0xc
   __declspec(property(get = __cordl_internal_get_bodyPosition, put = __cordl_internal_set_bodyPosition))::UnityEngine::Vector3 bodyPosition;
@@ -83,134 +55,167 @@ public:
   /// @brief Field bodyRotation, offset 0xf4, size 0x10
   __declspec(property(get = __cordl_internal_get_bodyRotation, put = __cordl_internal_set_bodyRotation))::UnityEngine::Quaternion bodyRotation;
 
-  /// @brief Field mN, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_mN, put = __cordl_internal_set_mN)) int32_t mN;
+  /// @brief Field handler, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::UnityEngine::HumanPoseHandler* handler;
 
   /// @brief Field lastBodyRotation, offset 0x108, size 0x10
   __declspec(property(get = __cordl_internal_get_lastBodyRotation, put = __cordl_internal_set_lastBodyRotation))::UnityEngine::Quaternion lastBodyRotation;
 
-  constexpr bool& __cordl_internal_get_bakeHandIK();
+  /// @brief Field leftFootQT, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftFootQT, put = __cordl_internal_set_leftFootQT))::RootMotion::BakerHumanoidQT* leftFootQT;
 
-  constexpr bool const& __cordl_internal_get_bakeHandIK() const;
+  /// @brief Field leftHandQT, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftHandQT, put = __cordl_internal_set_leftHandQT))::RootMotion::BakerHumanoidQT* leftHandQT;
 
-  constexpr void __cordl_internal_set_bakeHandIK(bool value);
+  /// @brief Field mN, offset 0x104, size 0x4
+  __declspec(property(get = __cordl_internal_get_mN, put = __cordl_internal_set_mN)) int32_t mN;
 
-  constexpr float_t& __cordl_internal_get_IKKeyReductionError();
+  /// @brief Field muscleFrameRateDiv, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get_muscleFrameRateDiv, put = __cordl_internal_set_muscleFrameRateDiv)) int32_t muscleFrameRateDiv;
+
+  /// @brief Field muscles, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_muscles, put = __cordl_internal_set_muscles))::ArrayW<float_t, ::Array<float_t>*> muscles;
+
+  /// @brief Field pose, offset 0xb8, size 0x28
+  __declspec(property(get = __cordl_internal_get_pose, put = __cordl_internal_set_pose))::UnityEngine::HumanPose pose;
+
+  /// @brief Field rightFootQT, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightFootQT, put = __cordl_internal_set_rightFootQT))::RootMotion::BakerHumanoidQT* rightFootQT;
+
+  /// @brief Field rightHandQT, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightHandQT, put = __cordl_internal_set_rightHandQT))::RootMotion::BakerHumanoidQT* rightHandQT;
+
+  /// @brief Field rootQT, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_rootQT, put = __cordl_internal_set_rootQT))::RootMotion::BakerHumanoidQT* rootQT;
+
+  /// @brief Method Awake, addr 0x131099c, size 0x4b8, virtual false, abstract: false, final false
+  inline void Awake();
+
+  /// @brief Method GetCharacterRoot, addr 0x1310e54, size 0x1c, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
+
+  static inline ::RootMotion::HumanoidBaker* New_ctor();
+
+  /// @brief Method OnSetCurves, addr 0x1311008, size 0x1a0, virtual true, abstract: false, final false
+  inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
+
+  /// @brief Method OnSetKeyframes, addr 0x13111a8, size 0x2a4, virtual true, abstract: false, final false
+  inline void OnSetKeyframes(float_t time, bool lastFrame);
+
+  /// @brief Method OnSetLoopFrame, addr 0x1310f4c, size 0xbc, virtual true, abstract: false, final false
+  inline void OnSetLoopFrame(float_t time);
+
+  /// @brief Method OnStartBaking, addr 0x1310e70, size 0xdc, virtual true, abstract: false, final false
+  inline void OnStartBaking();
+
+  /// @brief Method UpdateHumanPose, addr 0x131144c, size 0xd8, virtual false, abstract: false, final false
+  inline void UpdateHumanPose();
 
   constexpr float_t const& __cordl_internal_get_IKKeyReductionError() const;
 
-  constexpr void __cordl_internal_set_IKKeyReductionError(float_t value);
+  constexpr float_t& __cordl_internal_get_IKKeyReductionError();
 
-  constexpr int32_t& __cordl_internal_get_muscleFrameRateDiv();
+  constexpr bool const& __cordl_internal_get_bakeHandIK() const;
 
-  constexpr int32_t const& __cordl_internal_get_muscleFrameRateDiv() const;
-
-  constexpr void __cordl_internal_set_muscleFrameRateDiv(int32_t value);
-
-  constexpr ::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*>& __cordl_internal_get_bakerMuscles();
+  constexpr bool& __cordl_internal_get_bakeHandIK();
 
   constexpr ::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*> const& __cordl_internal_get_bakerMuscles() const;
 
-  constexpr void __cordl_internal_set_bakerMuscles(::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*> value);
+  constexpr ::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*>& __cordl_internal_get_bakerMuscles();
 
-  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_rootQT();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyPosition() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_rootQT() const;
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyPosition();
 
-  constexpr void __cordl_internal_set_rootQT(::RootMotion::BakerHumanoidQT* value);
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bodyRotation() const;
 
-  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_leftFootQT();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_leftFootQT() const;
-
-  constexpr void __cordl_internal_set_leftFootQT(::RootMotion::BakerHumanoidQT* value);
-
-  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_rightFootQT();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_rightFootQT() const;
-
-  constexpr void __cordl_internal_set_rightFootQT(::RootMotion::BakerHumanoidQT* value);
-
-  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_leftHandQT();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_leftHandQT() const;
-
-  constexpr void __cordl_internal_set_leftHandQT(::RootMotion::BakerHumanoidQT* value);
-
-  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_rightHandQT();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_rightHandQT() const;
-
-  constexpr void __cordl_internal_set_rightHandQT(::RootMotion::BakerHumanoidQT* value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_muscles();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_muscles() const;
-
-  constexpr void __cordl_internal_set_muscles(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr ::UnityEngine::HumanPose& __cordl_internal_get_pose();
-
-  constexpr ::UnityEngine::HumanPose const& __cordl_internal_get_pose() const;
-
-  constexpr void __cordl_internal_set_pose(::UnityEngine::HumanPose value);
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bodyRotation();
 
   constexpr ::UnityEngine::HumanPoseHandler*& __cordl_internal_get_handler();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::HumanPoseHandler*> const& __cordl_internal_get_handler() const;
 
-  constexpr void __cordl_internal_set_handler(::UnityEngine::HumanPoseHandler* value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyPosition() const;
-
-  constexpr void __cordl_internal_set_bodyPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bodyRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bodyRotation() const;
-
-  constexpr void __cordl_internal_set_bodyRotation(::UnityEngine::Quaternion value);
-
-  constexpr int32_t& __cordl_internal_get_mN();
-
-  constexpr int32_t const& __cordl_internal_get_mN() const;
-
-  constexpr void __cordl_internal_set_mN(int32_t value);
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastBodyRotation() const;
 
   constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastBodyRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastBodyRotation() const;
+  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_leftFootQT();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_leftFootQT() const;
+
+  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_leftHandQT();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_leftHandQT() const;
+
+  constexpr int32_t const& __cordl_internal_get_mN() const;
+
+  constexpr int32_t& __cordl_internal_get_mN();
+
+  constexpr int32_t const& __cordl_internal_get_muscleFrameRateDiv() const;
+
+  constexpr int32_t& __cordl_internal_get_muscleFrameRateDiv();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_muscles() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_muscles();
+
+  constexpr ::UnityEngine::HumanPose const& __cordl_internal_get_pose() const;
+
+  constexpr ::UnityEngine::HumanPose& __cordl_internal_get_pose();
+
+  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_rightFootQT();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_rightFootQT() const;
+
+  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_rightHandQT();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_rightHandQT() const;
+
+  constexpr ::RootMotion::BakerHumanoidQT*& __cordl_internal_get_rootQT();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BakerHumanoidQT*> const& __cordl_internal_get_rootQT() const;
+
+  constexpr void __cordl_internal_set_IKKeyReductionError(float_t value);
+
+  constexpr void __cordl_internal_set_bakeHandIK(bool value);
+
+  constexpr void __cordl_internal_set_bakerMuscles(::ArrayW<::RootMotion::BakerMuscle*, ::Array<::RootMotion::BakerMuscle*>*> value);
+
+  constexpr void __cordl_internal_set_bodyPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_bodyRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_handler(::UnityEngine::HumanPoseHandler* value);
 
   constexpr void __cordl_internal_set_lastBodyRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method Awake, addr 0x12cf9b0, size 0x4b8, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set_leftFootQT(::RootMotion::BakerHumanoidQT* value);
 
-  /// @brief Method GetCharacterRoot, addr 0x12cfe68, size 0x1c, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
+  constexpr void __cordl_internal_set_leftHandQT(::RootMotion::BakerHumanoidQT* value);
 
-  /// @brief Method OnStartBaking, addr 0x12cfe84, size 0xdc, virtual true, abstract: false, final false
-  inline void OnStartBaking();
+  constexpr void __cordl_internal_set_mN(int32_t value);
 
-  /// @brief Method OnSetLoopFrame, addr 0x12cff60, size 0xbc, virtual true, abstract: false, final false
-  inline void OnSetLoopFrame(float_t time);
+  constexpr void __cordl_internal_set_muscleFrameRateDiv(int32_t value);
 
-  /// @brief Method OnSetCurves, addr 0x12d001c, size 0x1a0, virtual true, abstract: false, final false
-  inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
+  constexpr void __cordl_internal_set_muscles(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method OnSetKeyframes, addr 0x12d01bc, size 0x2a4, virtual true, abstract: false, final false
-  inline void OnSetKeyframes(float_t time, bool lastFrame);
+  constexpr void __cordl_internal_set_pose(::UnityEngine::HumanPose value);
 
-  /// @brief Method UpdateHumanPose, addr 0x12d0460, size 0xd8, virtual false, abstract: false, final false
-  inline void UpdateHumanPose();
+  constexpr void __cordl_internal_set_rightFootQT(::RootMotion::BakerHumanoidQT* value);
 
-  static inline ::RootMotion::HumanoidBaker* New_ctor();
+  constexpr void __cordl_internal_set_rightHandQT(::RootMotion::BakerHumanoidQT* value);
 
-  /// @brief Method .ctor, addr 0x12d0538, size 0xa4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_rootQT(::RootMotion::BakerHumanoidQT* value);
+
+  /// @brief Method .ctor, addr 0x1311524, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HumanoidBaker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HumanoidBaker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HumanoidBaker(HumanoidBaker&&) = delete;
@@ -219,12 +224,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HumanoidBaker(HumanoidBaker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HumanoidBaker();
-
-public:
   /// @brief Field bakeHandIK, offset: 0x74, size: 0x1, def value: None
   bool ___bakeHandIK;
 

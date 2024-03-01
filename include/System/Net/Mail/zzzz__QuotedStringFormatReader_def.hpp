@@ -16,21 +16,25 @@ MARK_REF_PTR_T(::System::Net::Mail::QuotedStringFormatReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7390))
 // CS Name: ::System.Net.Mail::QuotedStringFormatReader*
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverseQuoted, addr 0x2907410, size 0x1cc, virtual false, abstract: false, final false
-  static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
-
-  /// @brief Method ReadReverseUnQuoted, addr 0x29075dc, size 0x1a0, virtual false, abstract: false, final false
-  static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
-
-  /// @brief Method IsValidQtext, addr 0x2907820, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidQtext, addr 0x29ecc9c, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
+  /// @brief Method ReadReverseQuoted, addr 0x29ec88c, size 0x1cc, virtual false, abstract: false, final false
+  static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
+
+  /// @brief Method ReadReverseUnQuoted, addr 0x29eca58, size 0x1a0, virtual false, abstract: false, final false
+  static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuotedStringFormatReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuotedStringFormatReader(QuotedStringFormatReader&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuotedStringFormatReader(QuotedStringFormatReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuotedStringFormatReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::ContractionComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2261))
 // CS Name: ::Mono.Globalization.Unicode::ContractionComparer*
 class CORDL_TYPE ContractionComparer : public ::System::Object {
 public:
@@ -33,22 +31,28 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*() noexcept;
 
+  /// @brief Method Compare, addr 0x250611c, size 0x94, virtual true, abstract: false, final true
+  inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
+
+  static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25061b0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();
+
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
   constexpr ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*
   i___System__Collections__Generic__IComparer_1___Mono__Globalization__Unicode__Contraction__() noexcept;
 
   static inline void setStaticF_Instance(::Mono::Globalization::Unicode::ContractionComparer* value);
 
-  static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContractionComparer();
 
-  /// @brief Method Compare, addr 0x2435424, size 0x94, virtual true, abstract: false, final true
-  inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
-
-  static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24354b8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContractionComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContractionComparer(ContractionComparer&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContractionComparer(ContractionComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContractionComparer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

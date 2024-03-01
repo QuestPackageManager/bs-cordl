@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(178))
 // CS Name: ::Org.BouncyCastle.Asn1.Icao::LdsVersionInfo*
 class CORDL_TYPE LdsVersionInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
@@ -39,40 +37,46 @@ public:
   /// @brief Field unicodeVersion, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_unicodeVersion, put = __cordl_internal_set_unicodeVersion))::Org::BouncyCastle::Asn1::DerPrintableString* unicodeVersion;
 
+  /// @brief Method GetInstance, addr 0xfe62bc, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object* obj);
+
+  /// @brief Method GetLdsVersion, addr 0xfe68ec, size 0x20, virtual true, abstract: false, final false
+  inline ::StringW GetLdsVersion();
+
+  /// @brief Method GetUnicodeVersion, addr 0xfe690c, size 0x20, virtual true, abstract: false, final false
+  inline ::StringW GetUnicodeVersion();
+
+  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
+
+  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xfe692c, size 0xf0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
   constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_ldsVersion();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerPrintableString*> const& __cordl_internal_get_ldsVersion() const;
-
-  constexpr void __cordl_internal_set_ldsVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
 
   constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_unicodeVersion();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerPrintableString*> const& __cordl_internal_get_unicodeVersion() const;
 
+  constexpr void __cordl_internal_set_ldsVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
+
   constexpr void __cordl_internal_set_unicodeVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
-
-  /// @brief Method .ctor, addr 0xfa0794, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe6764, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
-  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xfa0834, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfe6804, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xfa02ec, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LdsVersionInfo();
 
-  /// @brief Method GetLdsVersion, addr 0xfa091c, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetLdsVersion();
-
-  /// @brief Method GetUnicodeVersion, addr 0xfa093c, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetUnicodeVersion();
-
-  /// @brief Method ToAsn1Object, addr 0xfa095c, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LdsVersionInfo(LdsVersionInfo&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LdsVersionInfo(LdsVersionInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LdsVersionInfo();
-
-public:
   /// @brief Field ldsVersion, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerPrintableString* ___ldsVersion;
 

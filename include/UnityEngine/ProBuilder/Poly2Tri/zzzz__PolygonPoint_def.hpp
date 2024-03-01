@@ -16,12 +16,14 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15504))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15481))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonPoint*
 class CORDL_TYPE PolygonPoint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
 public:
   // Declarations
+  __declspec(property(get = get_Next, put = set_Next))::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* Next;
+
+  __declspec(property(get = get_Previous, put = set_Previous))::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* Previous;
+
   /// @brief Field <Next>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__Next_k__BackingField, put = __cordl_internal_set__Next_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Next_k__BackingField;
 
@@ -29,39 +31,41 @@ public:
   __declspec(property(get = __cordl_internal_get__Previous_k__BackingField,
                       put = __cordl_internal_set__Previous_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Previous_k__BackingField;
 
-  __declspec(property(get = get_Next, put = set_Next))::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* Next;
-
-  __declspec(property(get = get_Previous, put = set_Previous))::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* Previous;
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* New_ctor(double_t x, double_t y, int32_t index);
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*& __cordl_internal_get__Next_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> const& __cordl_internal_get__Next_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Next_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
-
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*& __cordl_internal_get__Previous_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*> const& __cordl_internal_get__Previous_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__Next_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
+
   constexpr void __cordl_internal_set__Previous_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* New_ctor(double_t x, double_t y, int32_t index);
-
-  /// @brief Method .ctor, addr 0x2b2dcd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c14da8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(double_t x, double_t y, int32_t index);
 
-  /// @brief Method get_Next, addr 0x2b2dd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Next, addr 0x2c14e20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Next();
 
-  /// @brief Method set_Next, addr 0x2b2dd54, size 0x8, virtual false, abstract: false, final false
-  inline void set_Next(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
-
-  /// @brief Method get_Previous, addr 0x2b2dd5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Previous, addr 0x2c14e30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Previous();
 
-  /// @brief Method set_Previous, addr 0x2b2dd64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Next, addr 0x2c14e28, size 0x8, virtual false, abstract: false, final false
+  inline void set_Next(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
+
+  /// @brief Method set_Previous, addr 0x2c14e38, size 0x8, virtual false, abstract: false, final false
   inline void set_Previous(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PolygonPoint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PolygonPoint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PolygonPoint(PolygonPoint&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PolygonPoint(PolygonPoint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PolygonPoint();
-
-public:
   /// @brief Field <Next>k__BackingField, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* ____Next_k__BackingField;
 

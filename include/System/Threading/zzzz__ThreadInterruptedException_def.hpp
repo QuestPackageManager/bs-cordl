@@ -20,22 +20,26 @@ MARK_REF_PTR_T(::System::Threading::ThreadInterruptedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2726))
 // CS Name: ::System.Threading::ThreadInterruptedException*
 class CORDL_TYPE ThreadInterruptedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Threading::ThreadInterruptedException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x263f5a4, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Threading::ThreadInterruptedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x263f620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270ec98, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x270ed14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ThreadInterruptedException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ThreadInterruptedException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ThreadInterruptedException(ThreadInterruptedException&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ThreadInterruptedException(ThreadInterruptedException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadInterruptedException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -42,39 +42,22 @@ MARK_REF_PTR_T(::System::Reflection::ParameterInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3478))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3479))
 // CS Name: ::System.Reflection::ParameterInfo*
 class CORDL_TYPE ParameterInfo : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Attributes))::System::Reflection::ParameterAttributes Attributes;
+
   /// @brief Field AttrsImpl, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_AttrsImpl, put = __cordl_internal_set_AttrsImpl))::System::Reflection::ParameterAttributes AttrsImpl;
 
   /// @brief Field ClassImpl, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ClassImpl, put = __cordl_internal_set_ClassImpl))::System::Type* ClassImpl;
 
+  __declspec(property(get = get_DefaultValue))::System::Object* DefaultValue;
+
   /// @brief Field DefaultValueImpl, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_DefaultValueImpl, put = __cordl_internal_set_DefaultValueImpl))::System::Object* DefaultValueImpl;
-
-  /// @brief Field MemberImpl, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_MemberImpl, put = __cordl_internal_set_MemberImpl))::System::Reflection::MemberInfo* MemberImpl;
-
-  /// @brief Field NameImpl, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_NameImpl, put = __cordl_internal_set_NameImpl))::StringW NameImpl;
-
-  /// @brief Field PositionImpl, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_PositionImpl, put = __cordl_internal_set_PositionImpl)) int32_t PositionImpl;
-
-  __declspec(property(get = get_Attributes))::System::Reflection::ParameterAttributes Attributes;
-
-  __declspec(property(get = get_Member))::System::Reflection::MemberInfo* Member;
-
-  __declspec(property(get = get_Name))::StringW Name;
-
-  __declspec(property(get = get_ParameterType))::System::Type* ParameterType;
-
-  __declspec(property(get = get_Position)) int32_t Position;
 
   __declspec(property(get = get_IsIn)) bool IsIn;
 
@@ -82,109 +65,130 @@ public:
 
   __declspec(property(get = get_IsOut)) bool IsOut;
 
-  __declspec(property(get = get_DefaultValue))::System::Object* DefaultValue;
+  __declspec(property(get = get_Member))::System::Reflection::MemberInfo* Member;
+
+  /// @brief Field MemberImpl, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_MemberImpl, put = __cordl_internal_set_MemberImpl))::System::Reflection::MemberInfo* MemberImpl;
+
+  __declspec(property(get = get_Name))::StringW Name;
+
+  /// @brief Field NameImpl, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_NameImpl, put = __cordl_internal_set_NameImpl))::StringW NameImpl;
+
+  __declspec(property(get = get_ParameterType))::System::Type* ParameterType;
+
+  __declspec(property(get = get_Position)) int32_t Position;
+
+  /// @brief Field PositionImpl, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_PositionImpl, put = __cordl_internal_set_PositionImpl)) int32_t PositionImpl;
 
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
-  /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
-  constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
+  /// @brief Convert operator to "::System::Runtime::InteropServices::_ParameterInfo"
+  constexpr operator ::System::Runtime::InteropServices::_ParameterInfo*() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
-  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
+  /// @brief Method GetCustomAttributes, addr 0x25da10c, size 0x104, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Convert operator to "::System::Runtime::InteropServices::_ParameterInfo"
-  constexpr operator ::System::Runtime::InteropServices::_ParameterInfo*() noexcept;
+  /// @brief Method GetCustomAttributes, addr 0x25da090, size 0x7c, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Convert to "::System::Runtime::InteropServices::_ParameterInfo"
-  constexpr ::System::Runtime::InteropServices::_ParameterInfo* i___System__Runtime__InteropServices___ParameterInfo() noexcept;
+  /// @brief Method GetRealObject, addr 0x25da210, size 0x2e0, virtual true, abstract: false, final true
+  inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr ::System::Reflection::ParameterAttributes& __cordl_internal_get_AttrsImpl();
+  /// @brief Method IsDefined, addr 0x25d9fdc, size 0xb4, virtual true, abstract: false, final false
+  inline bool IsDefined(::System::Type* attributeType, bool inherit);
+
+  static inline ::System::Reflection::ParameterInfo* New_ctor();
+
+  /// @brief Method ToString, addr 0x25da4f0, size 0x84, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::System::Reflection::ParameterAttributes const& __cordl_internal_get_AttrsImpl() const;
 
-  constexpr void __cordl_internal_set_AttrsImpl(::System::Reflection::ParameterAttributes value);
+  constexpr ::System::Reflection::ParameterAttributes& __cordl_internal_get_AttrsImpl();
 
   constexpr ::System::Type*& __cordl_internal_get_ClassImpl();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_ClassImpl() const;
 
-  constexpr void __cordl_internal_set_ClassImpl(::System::Type* value);
-
   constexpr ::System::Object*& __cordl_internal_get_DefaultValueImpl();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_DefaultValueImpl() const;
-
-  constexpr void __cordl_internal_set_DefaultValueImpl(::System::Object* value);
 
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get_MemberImpl();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get_MemberImpl() const;
 
-  constexpr void __cordl_internal_set_MemberImpl(::System::Reflection::MemberInfo* value);
+  constexpr ::StringW const& __cordl_internal_get_NameImpl() const;
 
   constexpr ::StringW& __cordl_internal_get_NameImpl();
 
-  constexpr ::StringW const& __cordl_internal_get_NameImpl() const;
-
-  constexpr void __cordl_internal_set_NameImpl(::StringW value);
+  constexpr int32_t const& __cordl_internal_get_PositionImpl() const;
 
   constexpr int32_t& __cordl_internal_get_PositionImpl();
 
-  constexpr int32_t const& __cordl_internal_get_PositionImpl() const;
+  constexpr void __cordl_internal_set_AttrsImpl(::System::Reflection::ParameterAttributes value);
+
+  constexpr void __cordl_internal_set_ClassImpl(::System::Type* value);
+
+  constexpr void __cordl_internal_set_DefaultValueImpl(::System::Object* value);
+
+  constexpr void __cordl_internal_set_MemberImpl(::System::Reflection::MemberInfo* value);
+
+  constexpr void __cordl_internal_set_NameImpl(::StringW value);
 
   constexpr void __cordl_internal_set_PositionImpl(int32_t value);
 
-  static inline ::System::Reflection::ParameterInfo* New_ctor();
-
-  /// @brief Method .ctor, addr 0x250831c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9f30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes, addr 0x2508324, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x25d9f38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ParameterAttributes get_Attributes();
 
-  /// @brief Method get_Member, addr 0x250832c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::MemberInfo* get_Member();
-
-  /// @brief Method get_Name, addr 0x2508334, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
-
-  /// @brief Method get_ParameterType, addr 0x250833c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Type* get_ParameterType();
-
-  /// @brief Method get_Position, addr 0x2508344, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Position();
-
-  /// @brief Method get_IsIn, addr 0x250834c, size 0x1c, virtual false, abstract: false, final false
-  inline bool get_IsIn();
-
-  /// @brief Method get_IsOptional, addr 0x2508368, size 0x1c, virtual false, abstract: false, final false
-  inline bool get_IsOptional();
-
-  /// @brief Method get_IsOut, addr 0x2508384, size 0x1c, virtual false, abstract: false, final false
-  inline bool get_IsOut();
-
-  /// @brief Method get_DefaultValue, addr 0x25083a0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x25d9fb4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method IsDefined, addr 0x25083c8, size 0xb4, virtual true, abstract: false, final false
-  inline bool IsDefined(::System::Type* attributeType, bool inherit);
+  /// @brief Method get_IsIn, addr 0x25d9f60, size 0x1c, virtual false, abstract: false, final false
+  inline bool get_IsIn();
 
-  /// @brief Method GetCustomAttributes, addr 0x250847c, size 0x7c, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
+  /// @brief Method get_IsOptional, addr 0x25d9f7c, size 0x1c, virtual false, abstract: false, final false
+  inline bool get_IsOptional();
 
-  /// @brief Method GetCustomAttributes, addr 0x25084f8, size 0x104, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
+  /// @brief Method get_IsOut, addr 0x25d9f98, size 0x1c, virtual false, abstract: false, final false
+  inline bool get_IsOut();
 
-  /// @brief Method GetRealObject, addr 0x25085fc, size 0x2e0, virtual true, abstract: false, final true
-  inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Method get_Member, addr 0x25d9f40, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method ToString, addr 0x25088dc, size 0x84, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method get_Name, addr 0x25d9f48, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_Name();
 
+  /// @brief Method get_ParameterType, addr 0x25d9f50, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Type* get_ParameterType();
+
+  /// @brief Method get_Position, addr 0x25d9f58, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_Position();
+
+  /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
+  constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
+
+  /// @brief Convert to "::System::Runtime::InteropServices::_ParameterInfo"
+  constexpr ::System::Runtime::InteropServices::_ParameterInfo* i___System__Runtime__InteropServices___ParameterInfo() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParameterInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParameterInfo(ParameterInfo&&) = delete;
@@ -193,12 +197,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParameterInfo(ParameterInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParameterInfo();
-
-public:
   /// @brief Field AttrsImpl, offset: 0x10, size: 0x4, def value: None
   ::System::Reflection::ParameterAttributes ___AttrsImpl;
 

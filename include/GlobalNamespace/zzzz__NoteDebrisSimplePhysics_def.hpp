@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSimplePhysics);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4125)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4127))
 // CS Name: ::NoteDebrisSimplePhysics*
 class CORDL_TYPE NoteDebrisSimplePhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
@@ -33,67 +31,73 @@ public:
   /// @brief Field _currentTorque, offset 0x24, size 0xc
   __declspec(property(get = __cordl_internal_get__currentTorque, put = __cordl_internal_set__currentTorque))::UnityEngine::Vector3 _currentTorque;
 
-  /// @brief Field _transform, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _firstUpdate, offset 0x44, size 0x1
+  __declspec(property(get = __cordl_internal_get__firstUpdate, put = __cordl_internal_set__firstUpdate)) bool _firstUpdate;
 
   /// @brief Field _gravity, offset 0x38, size 0xc
   __declspec(property(get = __cordl_internal_get__gravity, put = __cordl_internal_set__gravity))::UnityEngine::Vector3 _gravity;
 
-  /// @brief Field _firstUpdate, offset 0x44, size 0x1
-  __declspec(property(get = __cordl_internal_get__firstUpdate, put = __cordl_internal_set__firstUpdate)) bool _firstUpdate;
+  /// @brief Field _transform, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__currentForce();
+  /// @brief Method AddVelocity, addr 0x239d940, size 0x20, virtual true, abstract: false, final false
+  inline void AddVelocity(::UnityEngine::Vector3 force);
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentForce() const;
-
-  constexpr void __cordl_internal_set__currentForce(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__currentTorque();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentTorque() const;
-
-  constexpr void __cordl_internal_set__currentTorque(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__gravity();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__gravity() const;
-
-  constexpr void __cordl_internal_set__gravity(::UnityEngine::Vector3 value);
-
-  constexpr bool& __cordl_internal_get__firstUpdate();
-
-  constexpr bool const& __cordl_internal_get__firstUpdate() const;
-
-  constexpr void __cordl_internal_set__firstUpdate(bool value);
-
-  /// @brief Method get_position, addr 0x22d00c8, size 0x1c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_position();
-
-  /// @brief Method Start, addr 0x22d00e4, size 0x2c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method LateUpdate, addr 0x22d0110, size 0x19c, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  /// @brief Method Init, addr 0x22d02ac, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x239d914, size 0x2c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
 
-  /// @brief Method AddVelocity, addr 0x22d02d8, size 0x20, virtual true, abstract: false, final false
-  inline void AddVelocity(::UnityEngine::Vector3 force);
+  /// @brief Method LateUpdate, addr 0x239d778, size 0x19c, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d02f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x239d74c, size 0x2c, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentForce() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__currentForce();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentTorque() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__currentTorque();
+
+  constexpr bool const& __cordl_internal_get__firstUpdate() const;
+
+  constexpr bool& __cordl_internal_get__firstUpdate();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__gravity() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__gravity();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__currentForce(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__currentTorque(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__firstUpdate(bool value);
+
+  constexpr void __cordl_internal_set__gravity(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x239d960, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_position, addr 0x239d730, size 0x1c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_position();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteDebrisSimplePhysics();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSimplePhysics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteDebrisSimplePhysics(NoteDebrisSimplePhysics&&) = delete;
@@ -102,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteDebrisSimplePhysics(NoteDebrisSimplePhysics const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteDebrisSimplePhysics();
-
-public:
   /// @brief Field _currentForce, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____currentForce;
 

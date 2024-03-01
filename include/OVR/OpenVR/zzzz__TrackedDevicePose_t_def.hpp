@@ -26,22 +26,20 @@ MARK_VAL_T(::OVR::OpenVR::TrackedDevicePose_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 94, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8527)), TypeDefinitionIndex(TypeDefinitionIndex(8588)), TypeDefinitionIndex(TypeDefinitionIndex(8591))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8602))
 // CS Name: ::OVR.OpenVR::TrackedDevicePose_t
 struct CORDL_TYPE TrackedDevicePose_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackedDevicePose_t();
+
   // Ctor Parameters [CppParam { name: "mDeviceToAbsoluteTracking", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "vVelocity", ty:
   // "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vAngularVelocity", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name:
   // "eTrackingResult", ty: "::OVR::OpenVR::ETrackingResult", modifiers: "", def_value: None }, CppParam { name: "bPoseIsValid", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "bDeviceIsConnected", ty: "bool", modifiers: "", def_value: None }]
   constexpr TrackedDevicePose_t(::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking, ::OVR::OpenVR::HmdVector3_t vVelocity, ::OVR::OpenVR::HmdVector3_t vAngularVelocity,
                                 ::OVR::OpenVR::ETrackingResult eTrackingResult, bool bPoseIsValid, bool bDeviceIsConnected) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackedDevicePose_t();
 
   /// @brief Field mDeviceToAbsoluteTracking, offset: 0x0, size: 0x30, def value: None
   ::OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking;

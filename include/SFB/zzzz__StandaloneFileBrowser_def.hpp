@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::SFB::StandaloneFileBrowser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace SFB {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5365))
 // CS Name: ::SFB::StandaloneFileBrowser*
 class CORDL_TYPE StandaloneFileBrowser : public ::System::Object {
 public:
@@ -34,48 +32,54 @@ public:
   /// @brief Field _platformWrapper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__platformWrapper, put = setStaticF__platformWrapper))::SFB::IStandaloneFileBrowser* _platformWrapper;
 
-  static inline void setStaticF__platformWrapper(::SFB::IStandaloneFileBrowser* value);
+  static inline ::SFB::StandaloneFileBrowser* New_ctor();
 
-  static inline ::SFB::IStandaloneFileBrowser* getStaticF__platformWrapper();
-
-  /// @brief Method OpenFilePanel, addr 0x234e248, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanel, addr 0x241c190, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFilePanel(::StringW title, ::StringW directory, ::StringW extension, bool multiselect);
 
-  /// @brief Method OpenFilePanel, addr 0x234e388, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanel, addr 0x241c2d0, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFilePanel(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions,
                                                                        bool multiselect);
 
-  /// @brief Method OpenFilePanelAsync, addr 0x234e480, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanelAsync, addr 0x241c3c8, size 0x148, virtual false, abstract: false, final false
   static inline void OpenFilePanelAsync(::StringW title, ::StringW directory, ::StringW extension, bool multiselect, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
-  /// @brief Method OpenFilePanelAsync, addr 0x234e5c8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OpenFilePanelAsync, addr 0x241c510, size 0x104, virtual false, abstract: false, final false
   static inline void OpenFilePanelAsync(::StringW title, ::StringW directory, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions, bool multiselect,
                                         ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
-  /// @brief Method OpenFolderPanel, addr 0x234e6cc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OpenFolderPanel, addr 0x241c614, size 0xec, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> OpenFolderPanel(::StringW title, ::StringW directory, bool multiselect);
 
-  /// @brief Method OpenFolderPanelAsync, addr 0x234e7b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OpenFolderPanelAsync, addr 0x241c700, size 0xfc, virtual false, abstract: false, final false
   static inline void OpenFolderPanelAsync(::StringW title, ::StringW directory, bool multiselect, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>* cb);
 
-  /// @brief Method SaveFilePanel, addr 0x234e8b4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanel, addr 0x241c7fc, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::StringW extension);
 
-  /// @brief Method SaveFilePanel, addr 0x234e9f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanel, addr 0x241c93c, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW SaveFilePanel(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions);
 
-  /// @brief Method SaveFilePanelAsync, addr 0x234eaf0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanelAsync, addr 0x241ca38, size 0x148, virtual false, abstract: false, final false
   static inline void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::StringW extension, ::System::Action_1<::StringW>* cb);
 
-  /// @brief Method SaveFilePanelAsync, addr 0x234ec38, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SaveFilePanelAsync, addr 0x241cb80, size 0x104, virtual false, abstract: false, final false
   static inline void SaveFilePanelAsync(::StringW title, ::StringW directory, ::StringW defaultName, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*> extensions,
                                         ::System::Action_1<::StringW>* cb);
 
-  static inline ::SFB::StandaloneFileBrowser* New_ctor();
-
-  /// @brief Method .ctor, addr 0x234ed3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241cc84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::SFB::IStandaloneFileBrowser* getStaticF__platformWrapper();
+
+  static inline void setStaticF__platformWrapper(::SFB::IStandaloneFileBrowser* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandaloneFileBrowser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneFileBrowser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneFileBrowser(StandaloneFileBrowser&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandaloneFileBrowser(StandaloneFileBrowser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneFileBrowser();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

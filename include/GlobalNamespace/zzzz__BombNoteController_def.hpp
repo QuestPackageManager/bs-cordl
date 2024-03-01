@@ -41,8 +41,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BombNoteController__Pool);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4112))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4087))
 // CS Name: ::BombNoteController*
 class CORDL_TYPE BombNoteController : public ::GlobalNamespace::NoteController {
 public:
@@ -55,51 +53,57 @@ public:
   /// @brief Field _wrapperGO, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO))::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
-  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber>& __cordl_internal_get__cuttableBySaber();
+  /// @brief Method Awake, addr 0x23972fc, size 0xf8, virtual true, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get__cuttableBySaber() const;
+  /// @brief Method HandleDidPassHalfJump, addr 0x2397aac, size 0x24, virtual false, abstract: false, final false
+  inline void HandleDidPassHalfJump();
 
-  constexpr void __cordl_internal_set__cuttableBySaber(::UnityW<::GlobalNamespace::CuttableBySaber> value);
+  /// @brief Method HandleWasCutBySaber, addr 0x2397ad0, size 0x284, virtual false, abstract: false, final false
+  inline void HandleWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO();
+  /// @brief Method HiddenStateDidChange, addr 0x2397fa4, size 0x24, virtual true, abstract: false, final false
+  inline void HiddenStateDidChange(bool hide);
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__wrapperGO() const;
-
-  constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
-
-  /// @brief Method Init, addr 0x22c9870, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2396ed8, size 0xd0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
-  /// @brief Method Awake, addr 0x22c9c94, size 0xf8, virtual true, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0x22c9fa4, size 0xdc, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method NoteDidPassMissedMarker, addr 0x22ca248, size 0x30, virtual true, abstract: false, final false
-  inline void NoteDidPassMissedMarker();
-
-  /// @brief Method HandleDidPassHalfJump, addr 0x22ca444, size 0x24, virtual false, abstract: false, final false
-  inline void HandleDidPassHalfJump();
-
-  /// @brief Method HandleWasCutBySaber, addr 0x22ca468, size 0x284, virtual false, abstract: false, final false
-  inline void HandleWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
-
-  /// @brief Method NoteDidStartDissolving, addr 0x22ca918, size 0x24, virtual true, abstract: false, final false
-  inline void NoteDidStartDissolving();
-
-  /// @brief Method HiddenStateDidChange, addr 0x22ca93c, size 0x24, virtual true, abstract: false, final false
-  inline void HiddenStateDidChange(bool hide);
-
-  /// @brief Method Pause, addr 0x22ca960, size 0x10, virtual true, abstract: false, final false
-  inline void Pause(bool pause);
-
   static inline ::GlobalNamespace::BombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ca970, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x23978b0, size 0x30, virtual true, abstract: false, final false
+  inline void NoteDidPassMissedMarker();
+
+  /// @brief Method NoteDidStartDissolving, addr 0x2397f80, size 0x24, virtual true, abstract: false, final false
+  inline void NoteDidStartDissolving();
+
+  /// @brief Method OnDestroy, addr 0x239760c, size 0xdc, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Pause, addr 0x2397fc8, size 0x10, virtual true, abstract: false, final false
+  inline void Pause(bool pause);
+
+  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get__cuttableBySaber() const;
+
+  constexpr ::UnityW<::GlobalNamespace::CuttableBySaber>& __cordl_internal_get__cuttableBySaber();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__wrapperGO() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO();
+
+  constexpr void __cordl_internal_set__cuttableBySaber(::UnityW<::GlobalNamespace::CuttableBySaber> value);
+
+  constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
+
+  /// @brief Method .ctor, addr 0x2397fd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BombNoteController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BombNoteController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BombNoteController(BombNoteController&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BombNoteController(BombNoteController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BombNoteController();
-
-public:
   /// @brief Field _cuttableBySaber, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CuttableBySaber> ____cuttableBySaber;
 
@@ -134,16 +132,21 @@ static_assert(offsetof(::GlobalNamespace::BombNoteController, ____wrapperGO) == 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4087)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
-// 2780 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4086)) CS Name: ::BombNoteController::Pool*
+// CS Name: ::BombNoteController::Pool*
 class CORDL_TYPE __BombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cabcc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2398234, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BombNoteController__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BombNoteController__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BombNoteController__Pool(__BombNoteController__Pool&&) = delete;
@@ -152,12 +155,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BombNoteController__Pool(__BombNoteController__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BombNoteController__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

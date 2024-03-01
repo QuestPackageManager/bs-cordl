@@ -15,8 +15,6 @@ MARK_VAL_T(::System::TypeCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2496))
 // CS Name: ::System::TypeCode
 struct CORDL_TYPE TypeCode {
 public:
@@ -50,72 +48,77 @@ public:
     return static_cast<__TypeCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TypeCode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TypeCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TypeCode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Empty value: static_cast<int32_t>(0x0)
-  static ::System::TypeCode const Empty;
-
-  /// @brief Field Object value: static_cast<int32_t>(0x1)
-  static ::System::TypeCode const Object;
-
-  /// @brief Field DBNull value: static_cast<int32_t>(0x2)
-  static ::System::TypeCode const DBNull;
 
   /// @brief Field Boolean value: static_cast<int32_t>(0x3)
   static ::System::TypeCode const Boolean;
 
-  /// @brief Field Char value: static_cast<int32_t>(0x4)
-  static ::System::TypeCode const Char;
-
-  /// @brief Field SByte value: static_cast<int32_t>(0x5)
-  static ::System::TypeCode const SByte;
-
   /// @brief Field Byte value: static_cast<int32_t>(0x6)
   static ::System::TypeCode const Byte;
 
-  /// @brief Field Int16 value: static_cast<int32_t>(0x7)
-  static ::System::TypeCode const Int16;
+  /// @brief Field Char value: static_cast<int32_t>(0x4)
+  static ::System::TypeCode const Char;
 
-  /// @brief Field UInt16 value: static_cast<int32_t>(0x8)
-  static ::System::TypeCode const UInt16;
-
-  /// @brief Field Int32 value: static_cast<int32_t>(0x9)
-  static ::System::TypeCode const Int32;
-
-  /// @brief Field UInt32 value: static_cast<int32_t>(0xa)
-  static ::System::TypeCode const UInt32;
-
-  /// @brief Field Int64 value: static_cast<int32_t>(0xb)
-  static ::System::TypeCode const Int64;
-
-  /// @brief Field UInt64 value: static_cast<int32_t>(0xc)
-  static ::System::TypeCode const UInt64;
-
-  /// @brief Field Single value: static_cast<int32_t>(0xd)
-  static ::System::TypeCode const Single;
-
-  /// @brief Field Double value: static_cast<int32_t>(0xe)
-  static ::System::TypeCode const Double;
-
-  /// @brief Field Decimal value: static_cast<int32_t>(0xf)
-  static ::System::TypeCode const Decimal;
+  /// @brief Field DBNull value: static_cast<int32_t>(0x2)
+  static ::System::TypeCode const DBNull;
 
   /// @brief Field DateTime value: static_cast<int32_t>(0x10)
   static ::System::TypeCode const DateTime;
 
+  /// @brief Field Decimal value: static_cast<int32_t>(0xf)
+  static ::System::TypeCode const Decimal;
+
+  /// @brief Field Double value: static_cast<int32_t>(0xe)
+  static ::System::TypeCode const Double;
+
+  /// @brief Field Empty value: static_cast<int32_t>(0x0)
+  static ::System::TypeCode const Empty;
+
+  /// @brief Field Int16 value: static_cast<int32_t>(0x7)
+  static ::System::TypeCode const Int16;
+
+  /// @brief Field Int32 value: static_cast<int32_t>(0x9)
+  static ::System::TypeCode const Int32;
+
+  /// @brief Field Int64 value: static_cast<int32_t>(0xb)
+  static ::System::TypeCode const Int64;
+
+  /// @brief Field Object value: static_cast<int32_t>(0x1)
+  static ::System::TypeCode const Object;
+
+  /// @brief Field SByte value: static_cast<int32_t>(0x5)
+  static ::System::TypeCode const SByte;
+
+  /// @brief Field Single value: static_cast<int32_t>(0xd)
+  static ::System::TypeCode const Single;
+
   /// @brief Field String value: static_cast<int32_t>(0x12)
   static ::System::TypeCode const String;
+
+  /// @brief Field UInt16 value: static_cast<int32_t>(0x8)
+  static ::System::TypeCode const UInt16;
+
+  /// @brief Field UInt32 value: static_cast<int32_t>(0xa)
+  static ::System::TypeCode const UInt32;
+
+  /// @brief Field UInt64 value: static_cast<int32_t>(0xc)
+  static ::System::TypeCode const UInt64;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

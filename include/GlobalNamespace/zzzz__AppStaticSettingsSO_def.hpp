@@ -14,44 +14,48 @@ MARK_REF_PTR_T(::GlobalNamespace::AppStaticSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 27, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10580))
 // CS Name: ::AppStaticSettingsSO*
 class CORDL_TYPE AppStaticSettingsSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Field requirePrivacyPolicy, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_requirePrivacyPolicy, put = __cordl_internal_set_requirePrivacyPolicy)) bool requirePrivacyPolicy;
-
   /// @brief Field enable360DegreeLevels, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_enable360DegreeLevels, put = __cordl_internal_set_enable360DegreeLevels)) bool enable360DegreeLevels;
 
   /// @brief Field enableCustomLevels, offset 0x1a, size 0x1
   __declspec(property(get = __cordl_internal_get_enableCustomLevels, put = __cordl_internal_set_enableCustomLevels)) bool enableCustomLevels;
 
-  constexpr bool& __cordl_internal_get_requirePrivacyPolicy();
-
-  constexpr bool const& __cordl_internal_get_requirePrivacyPolicy() const;
-
-  constexpr void __cordl_internal_set_requirePrivacyPolicy(bool value);
-
-  constexpr bool& __cordl_internal_get_enable360DegreeLevels();
-
-  constexpr bool const& __cordl_internal_get_enable360DegreeLevels() const;
-
-  constexpr void __cordl_internal_set_enable360DegreeLevels(bool value);
-
-  constexpr bool& __cordl_internal_get_enableCustomLevels();
-
-  constexpr bool const& __cordl_internal_get_enableCustomLevels() const;
-
-  constexpr void __cordl_internal_set_enableCustomLevels(bool value);
+  /// @brief Field requirePrivacyPolicy, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_requirePrivacyPolicy, put = __cordl_internal_set_requirePrivacyPolicy)) bool requirePrivacyPolicy;
 
   static inline ::GlobalNamespace::AppStaticSettingsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1262e58, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_enable360DegreeLevels() const;
+
+  constexpr bool& __cordl_internal_get_enable360DegreeLevels();
+
+  constexpr bool const& __cordl_internal_get_enableCustomLevels() const;
+
+  constexpr bool& __cordl_internal_get_enableCustomLevels();
+
+  constexpr bool const& __cordl_internal_get_requirePrivacyPolicy() const;
+
+  constexpr bool& __cordl_internal_get_requirePrivacyPolicy();
+
+  constexpr void __cordl_internal_set_enable360DegreeLevels(bool value);
+
+  constexpr void __cordl_internal_set_enableCustomLevels(bool value);
+
+  constexpr void __cordl_internal_set_requirePrivacyPolicy(bool value);
+
+  /// @brief Method .ctor, addr 0x12a5e28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppStaticSettingsSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AppStaticSettingsSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppStaticSettingsSO(AppStaticSettingsSO&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AppStaticSettingsSO(AppStaticSettingsSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppStaticSettingsSO();
-
-public:
   /// @brief Field requirePrivacyPolicy, offset: 0x18, size: 0x1, def value: None
   bool ___requirePrivacyPolicy;
 

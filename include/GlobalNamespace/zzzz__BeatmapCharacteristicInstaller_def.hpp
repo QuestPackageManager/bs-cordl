@@ -15,19 +15,24 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicInstaller);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10707)), TypeDefinitionIndex(TypeDefinitionIndex(15477)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15477), inst:
-// 4933 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3966)) CS Name: ::BeatmapCharacteristicInstaller*
+// CS Name: ::BeatmapCharacteristicInstaller*
 class CORDL_TYPE BeatmapCharacteristicInstaller : public ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x22af49c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x237bb04, size 0x7c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af518, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237bb80, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapCharacteristicInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller&&) = delete;
@@ -36,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

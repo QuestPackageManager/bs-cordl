@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5971))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5494))
 // CS Name: ::UnityEngine.InputSystem::InputProcessor*
 class CORDL_TYPE InputProcessor : public ::System::Object {
 public:
@@ -34,24 +32,30 @@ public:
   /// @brief Field s_Processors, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Processors, put = setStaticF_s_Processors))::UnityEngine::InputSystem::Utilities::TypeTable s_Processors;
 
-  static inline void setStaticF_s_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value);
-
-  static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Processors();
-
-  /// @brief Method ProcessAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method GetValueTypeFromType, addr 0x2a6c154, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetValueTypeFromType, addr 0x2b53228, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueTypeFromType(::System::Type* processorType);
 
   static inline ::UnityEngine::InputSystem::InputProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a6c248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ProcessAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method .ctor, addr 0x2b5331c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Processors();
+
+  static inline void setStaticF_s_Processors(::UnityEngine::InputSystem::Utilities::TypeTable value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputProcessor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputProcessor(InputProcessor&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputProcessor(InputProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputProcessor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -22,18 +22,22 @@ MARK_REF_PTR_T(::UnityEngine::SetupCoroutine);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8947))
 // CS Name: ::UnityEngine::SetupCoroutine*
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMoveNext, addr 0x2cd7a18, size 0x154, virtual false, abstract: false, final false
-  static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, void* returnValueAddress);
-
-  /// @brief Method InvokeMember, addr 0x2cd7b6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x2dc31bc, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
+  /// @brief Method InvokeMoveNext, addr 0x2dc3068, size 0x154, virtual false, abstract: false, final false
+  static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, void* returnValueAddress);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SetupCoroutine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SetupCoroutine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SetupCoroutine(SetupCoroutine&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetupCoroutine(SetupCoroutine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetupCoroutine();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

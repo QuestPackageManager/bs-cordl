@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10068))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10083))
 // CS Name: ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
@@ -32,23 +30,29 @@ public:
   /// @brief Field _subContainerBindInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__subContainerBindInfo, put = __cordl_internal_set__subContainerBindInfo))::Zenject::SubContainerCreatorBindInfo* _subContainerBindInfo;
 
+  static inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
+
+  /// @brief Method WithKernel, addr 0x2fee1c4, size 0x20, virtual false, abstract: false, final false
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
+
+  /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TKernel> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
+
   constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__subContainerBindInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__subContainerBindInfo() const;
 
   constexpr void __cordl_internal_set__subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  static inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
-
-  /// @brief Method .ctor, addr 0x2efaa70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fee198, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x2efaa9c, size 0x20, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder();
 
-  /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKernel> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder();
-
-public:
   /// @brief Field _subContainerBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____subContainerBindInfo;
 

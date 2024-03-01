@@ -20,12 +20,14 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CookOptions);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9485))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9524))
 // CS Name: ::HoudiniEngineUnity::HAPI_CookOptions
 struct CORDL_TYPE HAPI_CookOptions {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_CookOptions();
+
   // Ctor Parameters [CppParam { name: "splitGeosByGroup", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "splitGeosByAttribute", ty: "bool", modifiers: "", def_value: None }, CppParam
   // { name: "splitAttrSH", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxVerticesPerPrimitive", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "refineCurveToLinear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "curveRefineLOD", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "clearErrorsAndWarnings",
@@ -37,10 +39,6 @@ public:
   constexpr HAPI_CookOptions(bool splitGeosByGroup, bool splitGeosByAttribute, int32_t splitAttrSH, int32_t maxVerticesPerPrimitive, bool refineCurveToLinear, float_t curveRefineLOD,
                              bool clearErrorsAndWarnings, bool cookTemplatedGeos, bool splitPointsByVertexAttributes, ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode packedPrimInstancingMode,
                              bool handleBoxPartTypes, bool handleSpherePartTypes, bool checkPartChanges, bool cacheMeshTopology, int32_t extraFlags) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_CookOptions();
 
   /// @brief Field splitGeosByGroup, offset: 0x0, size: 0x1, def value: None
   bool splitGeosByGroup;

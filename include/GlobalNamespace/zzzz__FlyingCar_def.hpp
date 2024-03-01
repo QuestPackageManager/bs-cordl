@@ -16,71 +16,75 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingCar);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4340))
 // CS Name: ::FlyingCar*
 class CORDL_TYPE FlyingCar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _startZ, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__startZ, put = __cordl_internal_set__startZ)) float_t _startZ;
-
   /// @brief Field _endZ, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__endZ, put = __cordl_internal_set__endZ)) float_t _endZ;
-
-  /// @brief Field _speed, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
-
-  /// @brief Field _progress, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__progress, put = __cordl_internal_set__progress)) float_t _progress;
 
   /// @brief Field _pos, offset 0x28, size 0xc
   __declspec(property(get = __cordl_internal_get__pos, put = __cordl_internal_set__pos))::UnityEngine::Vector3 _pos;
 
-  constexpr float_t& __cordl_internal_get__startZ();
+  /// @brief Field _progress, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__progress, put = __cordl_internal_set__progress)) float_t _progress;
 
-  constexpr float_t const& __cordl_internal_get__startZ() const;
+  /// @brief Field _speed, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
 
-  constexpr void __cordl_internal_set__startZ(float_t value);
-
-  constexpr float_t& __cordl_internal_get__endZ();
-
-  constexpr float_t const& __cordl_internal_get__endZ() const;
-
-  constexpr void __cordl_internal_set__endZ(float_t value);
-
-  constexpr float_t& __cordl_internal_get__speed();
-
-  constexpr float_t const& __cordl_internal_get__speed() const;
-
-  constexpr void __cordl_internal_set__speed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__progress();
-
-  constexpr float_t const& __cordl_internal_get__progress() const;
-
-  constexpr void __cordl_internal_set__progress(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__pos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__pos() const;
-
-  constexpr void __cordl_internal_set__pos(::UnityEngine::Vector3 value);
-
-  /// @brief Method Start, addr 0x23736c0, size 0x44, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x2373748, size 0x60, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method UpdatePos, addr 0x2373704, size 0x44, virtual false, abstract: false, final false
-  inline void UpdatePos();
+  /// @brief Field _startZ, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__startZ, put = __cordl_internal_set__startZ)) float_t _startZ;
 
   static inline ::GlobalNamespace::FlyingCar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23737a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2441608, size 0x44, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x2441690, size 0x60, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdatePos, addr 0x244164c, size 0x44, virtual false, abstract: false, final false
+  inline void UpdatePos();
+
+  constexpr float_t const& __cordl_internal_get__endZ() const;
+
+  constexpr float_t& __cordl_internal_get__endZ();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__pos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__pos();
+
+  constexpr float_t const& __cordl_internal_get__progress() const;
+
+  constexpr float_t& __cordl_internal_get__progress();
+
+  constexpr float_t const& __cordl_internal_get__speed() const;
+
+  constexpr float_t& __cordl_internal_get__speed();
+
+  constexpr float_t const& __cordl_internal_get__startZ() const;
+
+  constexpr float_t& __cordl_internal_get__startZ();
+
+  constexpr void __cordl_internal_set__endZ(float_t value);
+
+  constexpr void __cordl_internal_set__pos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__progress(float_t value);
+
+  constexpr void __cordl_internal_set__speed(float_t value);
+
+  constexpr void __cordl_internal_set__startZ(float_t value);
+
+  /// @brief Method .ctor, addr 0x24416f0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlyingCar();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FlyingCar", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingCar(FlyingCar&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingCar(FlyingCar const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FlyingCar();
-
-public:
   /// @brief Field _startZ, offset: 0x18, size: 0x4, def value: None
   float_t ____startZ;
 

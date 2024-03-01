@@ -25,38 +25,12 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsText);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14958))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsText*
 class CORDL_TYPE G_FpsText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field m_fpsText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsText, put = __cordl_internal_set_m_fpsText))::UnityW<::UnityEngine::UI::Text> m_fpsText;
-
-  /// @brief Field m_msText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_msText, put = __cordl_internal_set_m_msText))::UnityW<::UnityEngine::UI::Text> m_msText;
-
   /// @brief Field m_avgFpsText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_avgFpsText, put = __cordl_internal_set_m_avgFpsText))::UnityW<::UnityEngine::UI::Text> m_avgFpsText;
-
-  /// @brief Field m_onePercentFpsText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_onePercentFpsText, put = __cordl_internal_set_m_onePercentFpsText))::UnityW<::UnityEngine::UI::Text> m_onePercentFpsText;
-
-  /// @brief Field m_zero1PercentFpsText, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText))::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
-
-  /// @brief Field m_graphyManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
-
-  /// @brief Field m_fpsMonitor, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
-
-  /// @brief Field m_updateRate, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) int32_t m_updateRate;
-
-  /// @brief Field m_frameCount, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_frameCount, put = __cordl_internal_set_m_frameCount)) int32_t m_frameCount;
 
   /// @brief Field m_deltaTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_m_deltaTime, put = __cordl_internal_set_m_deltaTime)) float_t m_deltaTime;
@@ -64,101 +38,131 @@ public:
   /// @brief Field m_fps, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_fps, put = __cordl_internal_set_m_fps)) float_t m_fps;
 
+  /// @brief Field m_fpsMonitor, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
+
+  /// @brief Field m_fpsText, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_fpsText, put = __cordl_internal_set_m_fpsText))::UnityW<::UnityEngine::UI::Text> m_fpsText;
+
+  /// @brief Field m_frameCount, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_frameCount, put = __cordl_internal_set_m_frameCount)) int32_t m_frameCount;
+
+  /// @brief Field m_graphyManager, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
+
   /// @brief Field m_ms, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ms, put = __cordl_internal_set_m_ms)) float_t m_ms;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_fpsText();
+  /// @brief Field m_msText, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_msText, put = __cordl_internal_set_m_msText))::UnityW<::UnityEngine::UI::Text> m_msText;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_fpsText() const;
+  /// @brief Field m_onePercentFpsText, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_onePercentFpsText, put = __cordl_internal_set_m_onePercentFpsText))::UnityW<::UnityEngine::UI::Text> m_onePercentFpsText;
 
-  constexpr void __cordl_internal_set_m_fpsText(::UnityW<::UnityEngine::UI::Text> value);
+  /// @brief Field m_updateRate, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) int32_t m_updateRate;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_msText();
+  /// @brief Field m_zero1PercentFpsText, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText))::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_msText() const;
-
-  constexpr void __cordl_internal_set_m_msText(::UnityW<::UnityEngine::UI::Text> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_avgFpsText();
-
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_avgFpsText() const;
-
-  constexpr void __cordl_internal_set_m_avgFpsText(::UnityW<::UnityEngine::UI::Text> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_onePercentFpsText();
-
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_onePercentFpsText() const;
-
-  constexpr void __cordl_internal_set_m_onePercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_zero1PercentFpsText();
-
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_zero1PercentFpsText() const;
-
-  constexpr void __cordl_internal_set_m_zero1PercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
-
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
-
-  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor();
-
-  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
-
-  constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
-
-  constexpr int32_t& __cordl_internal_get_m_updateRate();
-
-  constexpr int32_t const& __cordl_internal_get_m_updateRate() const;
-
-  constexpr void __cordl_internal_set_m_updateRate(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_frameCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_frameCount() const;
-
-  constexpr void __cordl_internal_set_m_frameCount(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_m_deltaTime();
-
-  constexpr float_t const& __cordl_internal_get_m_deltaTime() const;
-
-  constexpr void __cordl_internal_set_m_deltaTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_fps();
-
-  constexpr float_t const& __cordl_internal_get_m_fps() const;
-
-  constexpr void __cordl_internal_set_m_fps(float_t value);
-
-  constexpr float_t& __cordl_internal_get_m_ms();
-
-  constexpr float_t const& __cordl_internal_get_m_ms() const;
-
-  constexpr void __cordl_internal_set_m_ms(float_t value);
-
-  /// @brief Method Awake, addr 0x2a0dbf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2af5ccc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x2a0dbfc, size 0x30c, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method UpdateParameters, addr 0x2a0d534, size 0x20, virtual false, abstract: false, final false
-  inline void UpdateParameters();
-
-  /// @brief Method Init, addr 0x2a0d554, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2af5628, size 0x144, virtual false, abstract: false, final false
   inline void Init();
-
-  /// @brief Method SetFpsRelatedTextColor, addr 0x2a0df08, size 0x7c, virtual false, abstract: false, final false
-  inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
 
   static inline ::Tayx::Graphy::Fps::G_FpsText* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a0df84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFpsRelatedTextColor, addr 0x2af5fdc, size 0x7c, virtual false, abstract: false, final false
+  inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
+
+  /// @brief Method Update, addr 0x2af5cd0, size 0x30c, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateParameters, addr 0x2af5608, size 0x20, virtual false, abstract: false, final false
+  inline void UpdateParameters();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_avgFpsText() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_avgFpsText();
+
+  constexpr float_t const& __cordl_internal_get_m_deltaTime() const;
+
+  constexpr float_t& __cordl_internal_get_m_deltaTime();
+
+  constexpr float_t const& __cordl_internal_get_m_fps() const;
+
+  constexpr float_t& __cordl_internal_get_m_fps();
+
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_fpsText() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_fpsText();
+
+  constexpr int32_t const& __cordl_internal_get_m_frameCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_frameCount();
+
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
+
+  constexpr float_t const& __cordl_internal_get_m_ms() const;
+
+  constexpr float_t& __cordl_internal_get_m_ms();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_msText() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_msText();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_onePercentFpsText() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_onePercentFpsText();
+
+  constexpr int32_t const& __cordl_internal_get_m_updateRate() const;
+
+  constexpr int32_t& __cordl_internal_get_m_updateRate();
+
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_zero1PercentFpsText() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_zero1PercentFpsText();
+
+  constexpr void __cordl_internal_set_m_avgFpsText(::UnityW<::UnityEngine::UI::Text> value);
+
+  constexpr void __cordl_internal_set_m_deltaTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_fps(float_t value);
+
+  constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
+
+  constexpr void __cordl_internal_set_m_fpsText(::UnityW<::UnityEngine::UI::Text> value);
+
+  constexpr void __cordl_internal_set_m_frameCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
+
+  constexpr void __cordl_internal_set_m_ms(float_t value);
+
+  constexpr void __cordl_internal_set_m_msText(::UnityW<::UnityEngine::UI::Text> value);
+
+  constexpr void __cordl_internal_set_m_onePercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
+
+  constexpr void __cordl_internal_set_m_updateRate(int32_t value);
+
+  constexpr void __cordl_internal_set_m_zero1PercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
+
+  /// @brief Method .ctor, addr 0x2af6058, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_FpsText();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_FpsText(G_FpsText&&) = delete;
@@ -167,12 +171,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_FpsText(G_FpsText const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_FpsText();
-
-public:
   /// @brief Field m_fpsText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_fpsText;
 

@@ -16,15 +16,13 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16044))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::INearestNeighbourList`2<TItem,TDistance>*
 class CORDL_TYPE INearestNeighbourList_2 {
 public:
   // Declarations
-  __declspec(property(get = get_MaxCapacity)) int32_t MaxCapacity;
-
   __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_MaxCapacity)) int32_t MaxCapacity;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Add(TItem item, TDistance distance);
@@ -35,11 +33,11 @@ public:
   /// @brief Method RemoveFurtherest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TItem RemoveFurtherest();
 
-  /// @brief Method get_MaxCapacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_MaxCapacity();
-
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
+
+  /// @brief Method get_MaxCapacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_MaxCapacity();
 
   // Ctor Parameters [CppParam { name: "", ty: "INearestNeighbourList_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

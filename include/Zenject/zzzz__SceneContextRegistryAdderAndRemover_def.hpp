@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::Zenject::SceneContextRegistryAdderAndRemover);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10475))
 // CS Name: ::Zenject::SceneContextRegistryAdderAndRemover*
 class CORDL_TYPE SceneContextRegistryAdderAndRemover : public ::System::Object {
 public:
@@ -45,47 +43,53 @@ public:
   /// @brief Field _sceneContext, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneContext, put = __cordl_internal_set__sceneContext))::UnityW<::Zenject::SceneContext> _sceneContext;
 
-  /// @brief Convert operator to "::Zenject::IInitializable"
-  constexpr operator ::Zenject::IInitializable*() noexcept;
-
-  /// @brief Convert to "::Zenject::IInitializable"
-  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Convert operator to "::Zenject::IInitializable"
+  constexpr operator ::Zenject::IInitializable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x3028254, size 0x20, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Initialize, addr 0x3028234, size 0x20, virtual true, abstract: false, final true
+  inline void Initialize();
+
+  static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
   constexpr ::Zenject::SceneContextRegistry*& __cordl_internal_get__registry();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::SceneContextRegistry*> const& __cordl_internal_get__registry() const;
 
-  constexpr void __cordl_internal_set__registry(::Zenject::SceneContextRegistry* value);
+  constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__sceneContext() const;
 
   constexpr ::UnityW<::Zenject::SceneContext>& __cordl_internal_get__sceneContext();
 
-  constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__sceneContext() const;
+  constexpr void __cordl_internal_set__registry(::Zenject::SceneContextRegistry* value);
 
   constexpr void __cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext> value);
 
-  static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
-
-  /// @brief Method .ctor, addr 0x2f34ae0, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
-
-  /// @brief Method Initialize, addr 0x2f34b0c, size 0x20, virtual true, abstract: false, final true
-  inline void Initialize();
-
-  /// @brief Method Dispose, addr 0x2f34b2c, size 0x20, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method __zenCreate, addr 0x2f34b4c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3028274, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f34c68, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3028390, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3028208, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  /// @brief Convert to "::Zenject::IInitializable"
+  constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SceneContextRegistryAdderAndRemover();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SceneContextRegistryAdderAndRemover", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneContextRegistryAdderAndRemover(SceneContextRegistryAdderAndRemover&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SceneContextRegistryAdderAndRemover(SceneContextRegistryAdderAndRemover const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneContextRegistryAdderAndRemover();
-
-public:
   /// @brief Field _registry, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SceneContextRegistry* ____registry;
 

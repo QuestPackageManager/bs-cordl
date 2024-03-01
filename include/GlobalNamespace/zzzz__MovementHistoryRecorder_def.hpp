@@ -18,64 +18,68 @@ MARK_REF_PTR_T(::GlobalNamespace::MovementHistoryRecorder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4628))
 // CS Name: ::MovementHistoryRecorder*
 class CORDL_TYPE MovementHistoryRecorder : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _accum, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__accum, put = __cordl_internal_set__accum)) float_t _accum;
+
   /// @brief Field _averagingValueRecorer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__averagingValueRecorer, put = __cordl_internal_set__averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* _averagingValueRecorer;
-
-  /// @brief Field _increaseSpeed, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__increaseSpeed, put = __cordl_internal_set__increaseSpeed)) float_t _increaseSpeed;
 
   /// @brief Field _decreaseSpeed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__decreaseSpeed, put = __cordl_internal_set__decreaseSpeed)) float_t _decreaseSpeed;
 
-  /// @brief Field _accum, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__accum, put = __cordl_internal_set__accum)) float_t _accum;
+  /// @brief Field _increaseSpeed, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__increaseSpeed, put = __cordl_internal_set__increaseSpeed)) float_t _increaseSpeed;
 
   __declspec(property(get = get_averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
+
+  /// @brief Method AddMovement, addr 0x249097c, size 0x24, virtual false, abstract: false, final false
+  inline void AddMovement(float_t distance);
+
+  /// @brief Method ManualUpdate, addr 0x24909a0, size 0x3c, virtual false, abstract: false, final false
+  inline void ManualUpdate(float_t deltaTime);
+
+  static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
+
+  constexpr float_t const& __cordl_internal_get__accum() const;
+
+  constexpr float_t& __cordl_internal_get__accum();
 
   constexpr ::GlobalNamespace::AveragingValueRecorder*& __cordl_internal_get__averagingValueRecorer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AveragingValueRecorder*> const& __cordl_internal_get__averagingValueRecorer() const;
 
-  constexpr void __cordl_internal_set__averagingValueRecorer(::GlobalNamespace::AveragingValueRecorder* value);
-
-  constexpr float_t& __cordl_internal_get__increaseSpeed();
-
-  constexpr float_t const& __cordl_internal_get__increaseSpeed() const;
-
-  constexpr void __cordl_internal_set__increaseSpeed(float_t value);
+  constexpr float_t const& __cordl_internal_get__decreaseSpeed() const;
 
   constexpr float_t& __cordl_internal_get__decreaseSpeed();
 
-  constexpr float_t const& __cordl_internal_get__decreaseSpeed() const;
+  constexpr float_t const& __cordl_internal_get__increaseSpeed() const;
 
-  constexpr void __cordl_internal_set__decreaseSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__accum();
-
-  constexpr float_t const& __cordl_internal_get__accum() const;
+  constexpr float_t& __cordl_internal_get__increaseSpeed();
 
   constexpr void __cordl_internal_set__accum(float_t value);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x23c1990, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
+  constexpr void __cordl_internal_set__averagingValueRecorer(::GlobalNamespace::AveragingValueRecorder* value);
 
-  static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
+  constexpr void __cordl_internal_set__decreaseSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x23c1998, size 0x9c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__increaseSpeed(float_t value);
+
+  /// @brief Method .ctor, addr 0x24908e0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method AddMovement, addr 0x23c1a34, size 0x24, virtual false, abstract: false, final false
-  inline void AddMovement(float_t distance);
+  /// @brief Method get_averagingValueRecorer, addr 0x24908d8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
-  /// @brief Method ManualUpdate, addr 0x23c1a58, size 0x3c, virtual false, abstract: false, final false
-  inline void ManualUpdate(float_t deltaTime);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MovementHistoryRecorder();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MovementHistoryRecorder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MovementHistoryRecorder(MovementHistoryRecorder&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MovementHistoryRecorder(MovementHistoryRecorder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MovementHistoryRecorder();
-
-public:
   /// @brief Field _averagingValueRecorer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::AveragingValueRecorder* ____averagingValueRecorer;
 

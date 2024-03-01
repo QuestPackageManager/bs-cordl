@@ -17,17 +17,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Kdf1BytesGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(886))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(907))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Kdf1BytesGenerator*
 class CORDL_TYPE Kdf1BytesGenerator : public ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Generators::Kdf1BytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor, addr 0xf28178, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf6e148, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Kdf1BytesGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Kdf1BytesGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Kdf1BytesGenerator(Kdf1BytesGenerator&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Kdf1BytesGenerator(Kdf1BytesGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Kdf1BytesGenerator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

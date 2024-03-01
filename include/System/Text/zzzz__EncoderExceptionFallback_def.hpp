@@ -21,31 +21,35 @@ MARK_REF_PTR_T(::System::Text::EncoderExceptionFallback);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2844))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2841))
 // CS Name: ::System.Text::EncoderExceptionFallback*
 class CORDL_TYPE EncoderExceptionFallback : public ::System::Text::EncoderFallback {
 public:
   // Declarations
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
-  static inline ::System::Text::EncoderExceptionFallback* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2659b90, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CreateFallbackBuffer, addr 0x2659b98, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x27282e4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount, addr 0x2659bfc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_MaxCharCount();
-
-  /// @brief Method Equals, addr 0x2659c04, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2728350, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2659c60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27283ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  static inline ::System::Text::EncoderExceptionFallback* New_ctor();
+
+  /// @brief Method .ctor, addr 0x27282dc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_MaxCharCount, addr 0x2728348, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_MaxCharCount();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EncoderExceptionFallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EncoderExceptionFallback(EncoderExceptionFallback&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncoderExceptionFallback(EncoderExceptionFallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderExceptionFallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerManipulator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6051))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6085))
 // CS Name: ::UnityEngine.UIElements::PointerManipulator*
 class CORDL_TYPE PointerManipulator : public ::UnityEngine::UIElements::MouseManipulator {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  constexpr int32_t& __cordl_internal_get_m_CurrentPointerId();
-
-  constexpr int32_t const& __cordl_internal_get_m_CurrentPointerId() const;
-
-  constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
-
-  /// @brief Method CanStartManipulation, addr 0x2ddc4f0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x2ecbc18, size 0x1f4, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x2ddc928, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x2ecc050, size 0xb4, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
   static inline ::UnityEngine::UIElements::PointerManipulator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ddb594, size 0x4, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_m_CurrentPointerId() const;
+
+  constexpr int32_t& __cordl_internal_get_m_CurrentPointerId();
+
+  constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2ecacbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerManipulator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerManipulator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerManipulator(PointerManipulator&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerManipulator(PointerManipulator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerManipulator();
-
-public:
   /// @brief Field m_CurrentPointerId, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_CurrentPointerId;
 

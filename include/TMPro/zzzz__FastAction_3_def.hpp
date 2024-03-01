@@ -28,8 +28,6 @@ namespace TMPro {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12198))
 // CS Name: ::TMPro::FastAction`3<A,B,C>*
 class CORDL_TYPE FastAction_3 : public ::System::Object {
 public:
@@ -42,11 +40,20 @@ public:
                       put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*,
                                                                                                       ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* lookup;
 
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(::System::Action_3<A, B, C>* rhs);
+
+  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Call(A a, B b, C c);
+
+  static inline ::TMPro::FastAction_3<A, B, C>* New_ctor();
+
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Remove(::System::Action_3<A, B, C>* rhs);
+
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*& __cordl_internal_get_delegates();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*> const& __cordl_internal_get_delegates() const;
-
-  constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>*& __cordl_internal_get_lookup();
 
@@ -54,23 +61,20 @@ public:
       ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>*> const&
   __cordl_internal_get_lookup() const;
 
+  constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* value);
+
   constexpr void
   __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* value);
-
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(::System::Action_3<A, B, C>* rhs);
-
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Remove(::System::Action_3<A, B, C>* rhs);
-
-  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Call(A a, B b, C c);
-
-  static inline ::TMPro::FastAction_3<A, B, C>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FastAction_3();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FastAction_3", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FastAction_3(FastAction_3&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastAction_3(FastAction_3 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FastAction_3();
-
-public:
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* ___delegates;
 

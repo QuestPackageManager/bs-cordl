@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BackgroundCommandQueue___RunInternal_d__4::*)()>(
     &::GlobalNamespace::__BackgroundCommandQueue___RunInternal_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0xe4fe30;
+  constexpr static std::size_t addrs = 0xe95e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BackgroundCommandQueue___RunInternal_d__4::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__BackgroundCommandQueue___RunInternal_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xe50210;
+  constexpr static std::size_t addrs = 0xe961e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundCommandQueue::*)(::GlobalNamespace::IBackgroundCommand*)>(
     &::GlobalNamespace::BackgroundCommandQueue::Enqueue)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0xe4fb20;
+  constexpr static std::size_t addrs = 0xe95af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::BackgroundCommandQueue::*)()>(
     &::GlobalNamespace::BackgroundCommandQueue::RunInternal)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0xe4fcbc;
+  constexpr static std::size_t addrs = 0xe95c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundCommandQueue*>::get(), "RunInternal",
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundCommandQueue::*)()>(&::GlobalNamespace::BackgroundCommandQueue::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0xe4fd84;
+  constexpr static std::size_t addrs = 0xe95d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundCommandQueue*>::get(), ".ctor",

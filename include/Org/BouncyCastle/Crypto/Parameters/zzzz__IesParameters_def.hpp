@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::IesParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1058))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::IesParameters*
 class CORDL_TYPE IesParameters : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_MacKeySize)) int32_t MacKeySize;
+
   /// @brief Field derivation, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_derivation, put = __cordl_internal_set_derivation))::ArrayW<uint8_t, ::Array<uint8_t>*> derivation;
 
@@ -34,46 +34,50 @@ public:
   /// @brief Field macKeySize, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_macKeySize, put = __cordl_internal_set_macKeySize)) int32_t macKeySize;
 
-  __declspec(property(get = get_MacKeySize)) int32_t MacKeySize;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
+
+  /// @brief Method GetDerivationV, addr 0xfa6b28, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerivationV();
+
+  /// @brief Method GetEncodingV, addr 0xfa6b30, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodingV();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_derivation() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_derivation();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoding() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encoding();
+
+  constexpr int32_t const& __cordl_internal_get_macKeySize() const;
+
+  constexpr int32_t& __cordl_internal_get_macKeySize();
+
+  constexpr void __cordl_internal_set_derivation(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_encoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_macKeySize(int32_t value);
+
+  /// @brief Method .ctor, addr 0xfa6aec, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
+
+  /// @brief Method get_MacKeySize, addr 0xfa6b38, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_MacKeySize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_derivation();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IesParameters();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_derivation() const;
-
-  constexpr void __cordl_internal_set_derivation(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encoding();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoding() const;
-
-  constexpr void __cordl_internal_set_encoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_macKeySize();
-
-  constexpr int32_t const& __cordl_internal_get_macKeySize() const;
-
-  constexpr void __cordl_internal_set_macKeySize(int32_t value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
-
-  /// @brief Method .ctor, addr 0xf61b1c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
-
-  /// @brief Method GetDerivationV, addr 0xf61b58, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerivationV();
-
-  /// @brief Method GetEncodingV, addr 0xf61b60, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodingV();
-
-  /// @brief Method get_MacKeySize, addr 0xf61b68, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_MacKeySize();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IesParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IesParameters(IesParameters&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IesParameters(IesParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IesParameters();
-
-public:
   /// @brief Field derivation, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___derivation;
 

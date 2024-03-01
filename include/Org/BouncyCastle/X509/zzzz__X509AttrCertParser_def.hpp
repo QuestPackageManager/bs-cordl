@@ -34,72 +34,76 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509AttrCertParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1858))
 // CS Name: ::Org.BouncyCastle.X509::X509AttrCertParser*
 class CORDL_TYPE X509AttrCertParser : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field PemAttrCertParser, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PemAttrCertParser, put = setStaticF_PemAttrCertParser))::Org::BouncyCastle::X509::PemParser* PemAttrCertParser;
+
+  /// @brief Field currentStream, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_currentStream, put = __cordl_internal_set_currentStream))::System::IO::Stream* currentStream;
+
   /// @brief Field sData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sData, put = __cordl_internal_set_sData))::Org::BouncyCastle::Asn1::Asn1Set* sData;
 
   /// @brief Field sDataObjectCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_sDataObjectCount, put = __cordl_internal_set_sDataObjectCount)) int32_t sDataObjectCount;
 
-  /// @brief Field currentStream, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentStream, put = __cordl_internal_set_currentStream))::System::IO::Stream* currentStream;
+  /// @brief Method GetCertificate, addr 0x11e7204, size 0x128, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* GetCertificate();
 
-  /// @brief Field PemAttrCertParser, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PemAttrCertParser, put = setStaticF_PemAttrCertParser))::Org::BouncyCastle::X509::PemParser* PemAttrCertParser;
+  static inline ::Org::BouncyCastle::X509::X509AttrCertParser* New_ctor();
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_sData();
+  /// @brief Method ReadAttrCert, addr 0x11e75d0, size 0x2ec, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::System::IO::Stream* inStream);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_sData() const;
+  /// @brief Method ReadAttrCert, addr 0x11e7558, size 0x78, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  constexpr void __cordl_internal_set_sData(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  /// @brief Method ReadAttrCerts, addr 0x11e7934, size 0x110, virtual false, abstract: false, final false
+  inline ::System::Collections::ICollection* ReadAttrCerts(::System::IO::Stream* inStream);
 
-  constexpr int32_t& __cordl_internal_get_sDataObjectCount();
+  /// @brief Method ReadAttrCerts, addr 0x11e78bc, size 0x78, virtual false, abstract: false, final false
+  inline ::System::Collections::ICollection* ReadAttrCerts(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  constexpr int32_t const& __cordl_internal_get_sDataObjectCount() const;
+  /// @brief Method ReadDerCertificate, addr 0x11e6fc4, size 0x240, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadDerCertificate(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
 
-  constexpr void __cordl_internal_set_sDataObjectCount(int32_t value);
+  /// @brief Method ReadPemCertificate, addr 0x11e749c, size 0xbc, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadPemCertificate(::System::IO::Stream* inStream);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_currentStream();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_currentStream() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_sData();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_sData() const;
+
+  constexpr int32_t const& __cordl_internal_get_sDataObjectCount() const;
+
+  constexpr int32_t& __cordl_internal_get_sDataObjectCount();
+
   constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
-  static inline void setStaticF_PemAttrCertParser(::Org::BouncyCastle::X509::PemParser* value);
+  constexpr void __cordl_internal_set_sData(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_sDataObjectCount(int32_t value);
+
+  /// @brief Method .ctor, addr 0x11e7ad4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::PemParser* getStaticF_PemAttrCertParser();
 
-  /// @brief Method ReadDerCertificate, addr 0x11a4ff4, size 0x240, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadDerCertificate(::Org::BouncyCastle::Asn1::Asn1InputStream* dIn);
+  static inline void setStaticF_PemAttrCertParser(::Org::BouncyCastle::X509::PemParser* value);
 
-  /// @brief Method GetCertificate, addr 0x11a5234, size 0x128, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* GetCertificate();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509AttrCertParser();
 
-  /// @brief Method ReadPemCertificate, addr 0x11a54cc, size 0xbc, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadPemCertificate(::System::IO::Stream* inStream);
-
-  /// @brief Method ReadAttrCert, addr 0x11a5588, size 0x78, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
-  /// @brief Method ReadAttrCerts, addr 0x11a58ec, size 0x78, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* ReadAttrCerts(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
-  /// @brief Method ReadAttrCert, addr 0x11a5600, size 0x2ec, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* ReadAttrCert(::System::IO::Stream* inStream);
-
-  /// @brief Method ReadAttrCerts, addr 0x11a5964, size 0x110, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* ReadAttrCerts(::System::IO::Stream* inStream);
-
-  static inline ::Org::BouncyCastle::X509::X509AttrCertParser* New_ctor();
-
-  /// @brief Method .ctor, addr 0x11a5b04, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509AttrCertParser(X509AttrCertParser&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509AttrCertParser(X509AttrCertParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509AttrCertParser();
-
-public:
   /// @brief Field sData, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Set* ___sData;
 

@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Utils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15165))
 // CS Name: ::Unity.XR.Oculus::Utils*
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetColorScaleAndOffset, addr 0x2c73c20, size 0x40, virtual false, abstract: false, final false
-  static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
-
-  /// @brief Method GetSystemHeadsetType, addr 0x2c73c68, size 0x4, virtual false, abstract: false, final false
-  static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
-
-  /// @brief Method SetFoveationLevel, addr 0x2c73c70, size 0x8c, virtual false, abstract: false, final false
-  static inline bool SetFoveationLevel(int32_t level);
-
-  /// @brief Method EnableDynamicFFR, addr 0x2c73d04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnableDynamicFFR, addr 0x2d5cdd8, size 0x8c, virtual false, abstract: false, final false
   static inline bool EnableDynamicFFR(bool enable);
 
-  /// @brief Method GetFoveationLevel, addr 0x2c73d98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetFoveationLevel, addr 0x2d5ce6c, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetFoveationLevel();
 
+  /// @brief Method GetSystemHeadsetType, addr 0x2d5cd3c, size 0x4, virtual false, abstract: false, final false
+  static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
+
+  /// @brief Method SetColorScaleAndOffset, addr 0x2d5ccf4, size 0x40, virtual false, abstract: false, final false
+  static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
+
+  /// @brief Method SetFoveationLevel, addr 0x2d5cd44, size 0x8c, virtual false, abstract: false, final false
+  static inline bool SetFoveationLevel(int32_t level);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Utils();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Utils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Utils(Utils&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Utils(Utils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Utils();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

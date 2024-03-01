@@ -15,45 +15,49 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeConditionalAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16108))
 // CS Name: ::UnityEngine.Bindings::NativeConditionalAttribute*
 class CORDL_TYPE NativeConditionalAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(put = set_Condition))::StringW Condition;
+
+  __declspec(property(put = set_Enabled)) bool Enabled;
+
   /// @brief Field <Condition>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Condition_k__BackingField, put = __cordl_internal_set__Condition_k__BackingField))::StringW _Condition_k__BackingField;
 
   /// @brief Field <Enabled>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__Enabled_k__BackingField, put = __cordl_internal_set__Enabled_k__BackingField)) bool _Enabled_k__BackingField;
 
-  __declspec(property(put = set_Condition))::StringW Condition;
-
-  __declspec(property(put = set_Enabled)) bool Enabled;
-
-  constexpr ::StringW& __cordl_internal_get__Condition_k__BackingField();
+  static inline ::UnityEngine::Bindings::NativeConditionalAttribute* New_ctor(::StringW condition);
 
   constexpr ::StringW const& __cordl_internal_get__Condition_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Condition_k__BackingField(::StringW value);
-
-  constexpr bool& __cordl_internal_get__Enabled_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Condition_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__Enabled_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__Enabled_k__BackingField();
+
+  constexpr void __cordl_internal_set__Condition_k__BackingField(::StringW value);
+
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method set_Condition, addr 0x2d38cd4, size 0x8, virtual false, abstract: false, final false
-  inline void set_Condition(::StringW value);
-
-  /// @brief Method set_Enabled, addr 0x2d38cdc, size 0xc, virtual false, abstract: false, final false
-  inline void set_Enabled(bool value);
-
-  static inline ::UnityEngine::Bindings::NativeConditionalAttribute* New_ctor(::StringW condition);
-
-  /// @brief Method .ctor, addr 0x2d38ce8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25410, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
+  /// @brief Method set_Condition, addr 0x2e253fc, size 0x8, virtual false, abstract: false, final false
+  inline void set_Condition(::StringW value);
+
+  /// @brief Method set_Enabled, addr 0x2e25404, size 0xc, virtual false, abstract: false, final false
+  inline void set_Enabled(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeConditionalAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeConditionalAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeConditionalAttribute(NativeConditionalAttribute&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeConditionalAttribute();
-
-public:
   /// @brief Field <Condition>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Condition_k__BackingField;
 

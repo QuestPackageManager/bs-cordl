@@ -21,21 +21,25 @@ MARK_REF_PTR_T(::System::Net::NetRes);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7118))
 // CS Name: ::System.Net::NetRes*
 class CORDL_TYPE NetRes : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetWebStatusString, addr 0x29a2c8c, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
-
-  /// @brief Method GetWebStatusString, addr 0x29ad11c, size 0x5c, virtual false, abstract: false, final false
-  static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
-
-  /// @brief Method GetWebStatusCodeString, addr 0x29ad178, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusCodeString, addr 0x2a9424c, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusCodeString(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription);
 
+  /// @brief Method GetWebStatusString, addr 0x2a89d60, size 0xbc, virtual false, abstract: false, final false
+  static inline ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
+
+  /// @brief Method GetWebStatusString, addr 0x2a941f0, size 0x5c, virtual false, abstract: false, final false
+  static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetRes();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetRes", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetRes(NetRes&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetRes(NetRes const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetRes();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

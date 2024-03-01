@@ -16,35 +16,39 @@ MARK_REF_PTR_T(::Mono::Xml::SmallXmlParserException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2255))
 // CS Name: ::Mono.Xml::SmallXmlParserException*
 class CORDL_TYPE SmallXmlParserException : public ::System::SystemException {
 public:
   // Declarations
-  /// @brief Field line, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_line, put = __cordl_internal_set_line)) int32_t line;
-
   /// @brief Field column, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get_column, put = __cordl_internal_set_column)) int32_t column;
 
-  constexpr int32_t& __cordl_internal_get_line();
-
-  constexpr int32_t const& __cordl_internal_get_line() const;
-
-  constexpr void __cordl_internal_set_line(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_column();
-
-  constexpr int32_t const& __cordl_internal_get_column() const;
-
-  constexpr void __cordl_internal_set_column(int32_t value);
+  /// @brief Field line, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_line, put = __cordl_internal_set_line)) int32_t line;
 
   static inline ::Mono::Xml::SmallXmlParserException* New_ctor(::StringW msg, int32_t line, int32_t column);
 
-  /// @brief Method .ctor, addr 0x2433690, size 0xcc, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_column() const;
+
+  constexpr int32_t& __cordl_internal_get_column();
+
+  constexpr int32_t const& __cordl_internal_get_line() const;
+
+  constexpr int32_t& __cordl_internal_get_line();
+
+  constexpr void __cordl_internal_set_column(int32_t value);
+
+  constexpr void __cordl_internal_set_line(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2504388, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, int32_t line, int32_t column);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SmallXmlParserException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParserException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmallXmlParserException(SmallXmlParserException&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmallXmlParserException(SmallXmlParserException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SmallXmlParserException();
-
-public:
   /// @brief Field line, offset: 0x8c, size: 0x4, def value: None
   int32_t ___line;
 

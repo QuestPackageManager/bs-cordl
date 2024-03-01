@@ -31,47 +31,51 @@ MARK_REF_PTR_T(::System::Net::DigestClient);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7171))
 // CS Name: ::System.Net::DigestClient*
 class CORDL_TYPE DigestClient : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
+
   /// @brief Field cache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cache, put = setStaticF_cache))::System::Collections::Hashtable* cache;
 
-  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
-
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
+
+  /// @brief Method Authenticate, addr 0x2aaafd4, size 0x2a8, virtual true, abstract: false, final true
+  inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+
+  /// @brief Method CheckExpired, addr 0x2aaa78c, size 0x848, virtual false, abstract: false, final false
+  static inline void CheckExpired(int32_t count);
+
+  static inline ::System::Net::DigestClient* New_ctor();
+
+  /// @brief Method PreAuthenticate, addr 0x2aab27c, size 0x194, virtual true, abstract: false, final true
+  inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+
+  /// @brief Method .ctor, addr 0x2aa6930, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::Collections::Hashtable* getStaticF_cache();
+
+  /// @brief Method get_AuthenticationType, addr 0x2aab410, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_AuthenticationType();
+
+  /// @brief Method get_Cache, addr 0x2aaa624, size 0x168, virtual false, abstract: false, final false
+  static inline ::System::Collections::Hashtable* get_Cache();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
   constexpr ::System::Net::IAuthenticationModule* i___System__Net__IAuthenticationModule() noexcept;
 
   static inline void setStaticF_cache(::System::Collections::Hashtable* value);
 
-  static inline ::System::Collections::Hashtable* getStaticF_cache();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DigestClient();
 
-  /// @brief Method get_Cache, addr 0x29c2550, size 0x168, virtual false, abstract: false, final false
-  static inline ::System::Collections::Hashtable* get_Cache();
-
-  /// @brief Method CheckExpired, addr 0x29c26b8, size 0x848, virtual false, abstract: false, final false
-  static inline void CheckExpired(int32_t count);
-
-  /// @brief Method Authenticate, addr 0x29c2f00, size 0x2a8, virtual true, abstract: false, final true
-  inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
-
-  /// @brief Method PreAuthenticate, addr 0x29c31a8, size 0x194, virtual true, abstract: false, final true
-  inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
-
-  /// @brief Method get_AuthenticationType, addr 0x29c333c, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_AuthenticationType();
-
-  static inline ::System::Net::DigestClient* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29be85c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DigestClient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DigestClient(DigestClient&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DigestClient(DigestClient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DigestClient();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

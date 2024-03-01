@@ -21,23 +21,27 @@ MARK_REF_PTR_T(::Oculus::Platform::AndroidPlatform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13122))
 // CS Name: ::Oculus.Platform::AndroidPlatform*
 class CORDL_TYPE AndroidPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x26ecef8, size 0xb0, virtual false, abstract: false, final false
-  inline bool Initialize(::StringW appId);
-
-  /// @brief Method AsyncInitialize, addr 0x26ed040, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AsyncInitialize, addr 0x27bfef8, size 0x108, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
+
+  /// @brief Method Initialize, addr 0x27bfdb0, size 0xb0, virtual false, abstract: false, final false
+  inline bool Initialize(::StringW appId);
 
   static inline ::Oculus::Platform::AndroidPlatform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ed1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27c0094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidPlatform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidPlatform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidPlatform(AndroidPlatform&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidPlatform(AndroidPlatform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidPlatform();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

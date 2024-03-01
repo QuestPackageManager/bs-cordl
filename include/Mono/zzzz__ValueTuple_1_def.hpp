@@ -16,18 +16,16 @@ namespace Mono {
 // cpp template
 template <typename T1>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2243))
 // CS Name: ::Mono::ValueTuple`1<T1>
 struct CORDL_TYPE ValueTuple_1 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }]
-  constexpr ValueTuple_1(T1 Item1) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueTuple_1();
+
+  // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }]
+  constexpr ValueTuple_1(T1 Item1) noexcept;
 
   /// @brief Field Item1, offset: 0x0, size: 0x8, def value: None
   T1 Item1;

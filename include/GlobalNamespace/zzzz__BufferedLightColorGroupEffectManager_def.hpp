@@ -27,12 +27,18 @@ MARK_REF_PTR_T(::GlobalNamespace::BufferedLightColorGroupEffectManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4274))
 // CS Name: ::BufferedLightColorGroupEffectManager*
 class CORDL_TYPE BufferedLightColorGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _bufferedLightColorGroupEffects, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__bufferedLightColorGroupEffects,
+                      put = __cordl_internal_set__bufferedLightColorGroupEffects))::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*,
+                                                                                           ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> _bufferedLightColorGroupEffects;
+
+  /// @brief Field _container, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
   /// @brief Field _lightGroups, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups,
                       put = __cordl_internal_set__lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> _lightGroups;
@@ -42,53 +48,51 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockControllers))::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
                                                                                              ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _materialPropertyBlockControllers;
 
-  /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Field _bufferedLightColorGroupEffects, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bufferedLightColorGroupEffects,
-                      put = __cordl_internal_set__bufferedLightColorGroupEffects))::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*,
-                                                                                           ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> _bufferedLightColorGroupEffects;
+  /// @brief Method OnDestroy, addr 0x2436084, size 0x5c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*>& __cordl_internal_get__lightGroups();
+  /// @brief Method Start, addr 0x2435ecc, size 0x1b8, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> const& __cordl_internal_get__lightGroups() const;
+  constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> const&
+  __cordl_internal_get__bufferedLightColorGroupEffects() const;
 
-  constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
-  __cordl_internal_get__materialPropertyBlockControllers();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
-  __cordl_internal_get__materialPropertyBlockControllers() const;
-
-  constexpr void __cordl_internal_set__materialPropertyBlockControllers(
-      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
+  constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*>& __cordl_internal_get__bufferedLightColorGroupEffects();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> const& __cordl_internal_get__lightGroups() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*>& __cordl_internal_get__bufferedLightColorGroupEffects();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*>& __cordl_internal_get__lightGroups();
 
-  constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> const&
-  __cordl_internal_get__bufferedLightColorGroupEffects() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
+  __cordl_internal_get__materialPropertyBlockControllers() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+  __cordl_internal_get__materialPropertyBlockControllers();
 
   constexpr void __cordl_internal_set__bufferedLightColorGroupEffects(::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> value);
 
-  /// @brief Method Start, addr 0x2367f84, size 0x1b8, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method OnDestroy, addr 0x236813c, size 0x5c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> value);
 
-  static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
+  constexpr void __cordl_internal_set__materialPropertyBlockControllers(
+      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x2368198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24360e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferedLightColorGroupEffectManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffectManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedLightColorGroupEffectManager(BufferedLightColorGroupEffectManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferedLightColorGroupEffectManager();
-
-public:
   /// @brief Field _lightGroups, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroups;
 

@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__ClothRandomFluctuation__SineLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3955))
 // CS Name: ::ClothRandomFluctuation::SineLayer*
 class CORDL_TYPE __ClothRandomFluctuation__SineLayer : public ::System::Object {
 public:
@@ -42,23 +40,29 @@ public:
   /// @brief Field offset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) float_t offset;
 
-  constexpr float_t& __cordl_internal_get_multiplier();
+  static inline ::GlobalNamespace::__ClothRandomFluctuation__SineLayer* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_multiplier() const;
 
-  constexpr void __cordl_internal_set_multiplier(float_t value);
-
-  constexpr float_t& __cordl_internal_get_offset();
+  constexpr float_t& __cordl_internal_get_multiplier();
 
   constexpr float_t const& __cordl_internal_get_offset() const;
 
+  constexpr float_t& __cordl_internal_get_offset();
+
+  constexpr void __cordl_internal_set_multiplier(float_t value);
+
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  static inline ::GlobalNamespace::__ClothRandomFluctuation__SineLayer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22acebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2379524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ClothRandomFluctuation__SineLayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ClothRandomFluctuation__SineLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ClothRandomFluctuation__SineLayer(__ClothRandomFluctuation__SineLayer&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ClothRandomFluctuation__SineLayer(__ClothRandomFluctuation__SineLayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ClothRandomFluctuation__SineLayer();
-
-public:
   /// @brief Field multiplier, offset: 0x10, size: 0x4, def value: None
   float_t ___multiplier;
 
@@ -93,8 +91,6 @@ static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3956))
 // CS Name: ::ClothRandomFluctuation*
 class CORDL_TYPE ClothRandomFluctuation : public ::UnityEngine::MonoBehaviour {
 public:
@@ -104,90 +100,96 @@ public:
   /// @brief Field _cloth, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth))::UnityW<::UnityEngine::Cloth> _cloth;
 
-  /// @brief Field _useLocalExternalFluctuations, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__useLocalExternalFluctuations, put = __cordl_internal_set__useLocalExternalFluctuations)) bool _useLocalExternalFluctuations;
-
-  /// @brief Field _externalFluctuations, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get__externalFluctuations, put = __cordl_internal_set__externalFluctuations))::UnityEngine::Vector3 _externalFluctuations;
-
-  /// @brief Field _useLocalRandomFluctuations, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__useLocalRandomFluctuations, put = __cordl_internal_set__useLocalRandomFluctuations)) bool _useLocalRandomFluctuations;
-
-  /// @brief Field _minFluctuations, offset 0x34, size 0xc
-  __declspec(property(get = __cordl_internal_get__minFluctuations, put = __cordl_internal_set__minFluctuations))::UnityEngine::Vector3 _minFluctuations;
-
-  /// @brief Field _maxFluctuations, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__maxFluctuations, put = __cordl_internal_set__maxFluctuations))::UnityEngine::Vector3 _maxFluctuations;
-
   /// @brief Field _compoundSins, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__compoundSins,
                       put = __cordl_internal_set__compoundSins))::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* _compoundSins;
 
+  /// @brief Field _externalFluctuations, offset 0x24, size 0xc
+  __declspec(property(get = __cordl_internal_get__externalFluctuations, put = __cordl_internal_set__externalFluctuations))::UnityEngine::Vector3 _externalFluctuations;
+
+  /// @brief Field _maxFluctuations, offset 0x40, size 0xc
+  __declspec(property(get = __cordl_internal_get__maxFluctuations, put = __cordl_internal_set__maxFluctuations))::UnityEngine::Vector3 _maxFluctuations;
+
+  /// @brief Field _minFluctuations, offset 0x34, size 0xc
+  __declspec(property(get = __cordl_internal_get__minFluctuations, put = __cordl_internal_set__minFluctuations))::UnityEngine::Vector3 _minFluctuations;
+
   /// @brief Field _speed, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
 
-  constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
+  /// @brief Field _useLocalExternalFluctuations, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__useLocalExternalFluctuations, put = __cordl_internal_set__useLocalExternalFluctuations)) bool _useLocalExternalFluctuations;
+
+  /// @brief Field _useLocalRandomFluctuations, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__useLocalRandomFluctuations, put = __cordl_internal_set__useLocalRandomFluctuations)) bool _useLocalRandomFluctuations;
+
+  /// @brief Method FluctuateCloth, addr 0x23792a8, size 0x170, virtual false, abstract: false, final false
+  inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
+
+  /// @brief Method GetNoise, addr 0x2379418, size 0x104, virtual false, abstract: false, final false
+  inline float_t GetNoise(float_t time, float_t offset);
+
+  static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
+
+  /// @brief Method Update, addr 0x23792a0, size 0x8, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
 
-  constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
-
-  constexpr bool& __cordl_internal_get__useLocalExternalFluctuations();
-
-  constexpr bool const& __cordl_internal_get__useLocalExternalFluctuations() const;
-
-  constexpr void __cordl_internal_set__useLocalExternalFluctuations(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__externalFluctuations();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__externalFluctuations() const;
-
-  constexpr void __cordl_internal_set__externalFluctuations(::UnityEngine::Vector3 value);
-
-  constexpr bool& __cordl_internal_get__useLocalRandomFluctuations();
-
-  constexpr bool const& __cordl_internal_get__useLocalRandomFluctuations() const;
-
-  constexpr void __cordl_internal_set__useLocalRandomFluctuations(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__minFluctuations();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__minFluctuations() const;
-
-  constexpr void __cordl_internal_set__minFluctuations(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__maxFluctuations();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__maxFluctuations() const;
-
-  constexpr void __cordl_internal_set__maxFluctuations(::UnityEngine::Vector3 value);
+  constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>*& __cordl_internal_get__compoundSins();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>*> const& __cordl_internal_get__compoundSins() const;
 
-  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__externalFluctuations() const;
 
-  constexpr float_t& __cordl_internal_get__speed();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__externalFluctuations();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__maxFluctuations() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__maxFluctuations();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__minFluctuations() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__minFluctuations();
 
   constexpr float_t const& __cordl_internal_get__speed() const;
 
+  constexpr float_t& __cordl_internal_get__speed();
+
+  constexpr bool const& __cordl_internal_get__useLocalExternalFluctuations() const;
+
+  constexpr bool& __cordl_internal_get__useLocalExternalFluctuations();
+
+  constexpr bool const& __cordl_internal_get__useLocalRandomFluctuations() const;
+
+  constexpr bool& __cordl_internal_get__useLocalRandomFluctuations();
+
+  constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
+
+  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* value);
+
+  constexpr void __cordl_internal_set__externalFluctuations(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__maxFluctuations(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__minFluctuations(::UnityEngine::Vector3 value);
+
   constexpr void __cordl_internal_set__speed(float_t value);
 
-  /// @brief Method Update, addr 0x22acc38, size 0x8, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__useLocalExternalFluctuations(bool value);
 
-  /// @brief Method FluctuateCloth, addr 0x22acc40, size 0x170, virtual false, abstract: false, final false
-  inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
+  constexpr void __cordl_internal_set__useLocalRandomFluctuations(bool value);
 
-  /// @brief Method GetNoise, addr 0x22acdb0, size 0x104, virtual false, abstract: false, final false
-  inline float_t GetNoise(float_t time, float_t offset);
-
-  static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22aceb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237951c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClothRandomFluctuation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClothRandomFluctuation(ClothRandomFluctuation&&) = delete;
@@ -196,12 +198,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClothRandomFluctuation(ClothRandomFluctuation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClothRandomFluctuation();
-
-public:
   /// @brief Field _cloth, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cloth> ____cloth;
 

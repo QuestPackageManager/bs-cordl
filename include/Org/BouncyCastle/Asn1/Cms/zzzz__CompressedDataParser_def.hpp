@@ -26,14 +26,13 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CompressedDataParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(65))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::CompressedDataParser*
 class CORDL_TYPE CompressedDataParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
+  __declspec(property(get = get_CompressionAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* CompressionAlgorithmIdentifier;
+
+  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   /// @brief Field _compressionAlgorithm, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__compressionAlgorithm, put = __cordl_internal_set__compressionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _compressionAlgorithm;
@@ -41,42 +40,47 @@ public:
   /// @brief Field _encapContentInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__encapContentInfo, put = __cordl_internal_set__encapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* _encapContentInfo;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  /// @brief Field _version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-  __declspec(property(get = get_CompressionAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* CompressionAlgorithmIdentifier;
+  /// @brief Method GetEncapContentInfo, addr 0xee7c94, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get__version() const;
-
-  constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get__compressionAlgorithm();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get__compressionAlgorithm() const;
 
-  constexpr void __cordl_internal_set__compressionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*& __cordl_internal_get__encapContentInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*> const& __cordl_internal_get__encapContentInfo() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get__version() const;
+
+  constexpr void __cordl_internal_set__compressionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+
   constexpr void __cordl_internal_set__encapContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
+  constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xea09f8, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xee79c8, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0xea0cb4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
-
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0xea0cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0xee7c8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method GetEncapContentInfo, addr 0xea0cc4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
+  /// @brief Method get_Version, addr 0xee7c84, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompressedDataParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompressedDataParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompressedDataParser(CompressedDataParser&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompressedDataParser(CompressedDataParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompressedDataParser();
-
-public:
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ____version;
 

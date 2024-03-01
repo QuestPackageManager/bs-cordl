@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1527))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1534))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::MixedNafR2LMultiplier*
 class CORDL_TYPE MixedNafR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
@@ -36,34 +34,40 @@ public:
   /// @brief Field doublingCoord, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_doublingCoord, put = __cordl_internal_set_doublingCoord)) int32_t doublingCoord;
 
-  constexpr int32_t& __cordl_internal_get_additionCoord();
+  /// @brief Method ConfigureCurve, addr 0x10a8ef8, size 0x134, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
 
-  constexpr int32_t const& __cordl_internal_get_additionCoord() const;
-
-  constexpr void __cordl_internal_set_additionCoord(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_doublingCoord();
-
-  constexpr int32_t const& __cordl_internal_get_doublingCoord() const;
-
-  constexpr void __cordl_internal_set_doublingCoord(int32_t value);
+  /// @brief Method MultiplyPositive, addr 0x10a8a9c, size 0x1e8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1063a7c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor(int32_t additionCoord, int32_t doublingCoord);
 
-  /// @brief Method .ctor, addr 0x1063aa0, size 0x2c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_additionCoord() const;
+
+  constexpr int32_t& __cordl_internal_get_additionCoord();
+
+  constexpr int32_t const& __cordl_internal_get_doublingCoord() const;
+
+  constexpr int32_t& __cordl_internal_get_doublingCoord();
+
+  constexpr void __cordl_internal_set_additionCoord(int32_t value);
+
+  constexpr void __cordl_internal_set_doublingCoord(int32_t value);
+
+  /// @brief Method .ctor, addr 0x10a8a4c, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x10a8a70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t additionCoord, int32_t doublingCoord);
 
-  /// @brief Method MultiplyPositive, addr 0x1063acc, size 0x1e8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MixedNafR2LMultiplier();
 
-  /// @brief Method ConfigureCurve, addr 0x1063f28, size 0x134, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MixedNafR2LMultiplier(MixedNafR2LMultiplier&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MixedNafR2LMultiplier(MixedNafR2LMultiplier const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MixedNafR2LMultiplier();
-
-public:
   /// @brief Field additionCoord, offset: 0x10, size: 0x4, def value: None
   int32_t ___additionCoord;
 

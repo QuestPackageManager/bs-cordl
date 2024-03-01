@@ -16,20 +16,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Adler32);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1817))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Adler32*
 class CORDL_TYPE Adler32 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method adler32, addr 0x118e9a4, size 0x32c, virtual false, abstract: false, final false
-  inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
-
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor, addr 0x118ecd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d0ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method adler32, addr 0x11d0974, size 0x32c, virtual false, abstract: false, final false
+  inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Adler32();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Adler32", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Adler32(Adler32&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Adler32(Adler32 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Adler32();
-
-public:
   /// @brief Field BASE offset 0xffffffff size 0x4
   static constexpr int32_t BASE{ static_cast<int32_t>(0xfff1) };
 

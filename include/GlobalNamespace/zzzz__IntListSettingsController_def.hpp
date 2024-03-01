@@ -20,62 +20,66 @@ MARK_REF_PTR_T(::GlobalNamespace::IntListSettingsController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16289))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4901))
 // CS Name: ::IntListSettingsController*
 class CORDL_TYPE IntListSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
-  /// @brief Field _customNumberOfElements, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__customNumberOfElements, put = __cordl_internal_set__customNumberOfElements)) int32_t _customNumberOfElements;
-
   /// @brief Field _customIndex, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__customIndex, put = __cordl_internal_set__customIndex)) int32_t _customIndex;
+
+  /// @brief Field _customNumberOfElements, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__customNumberOfElements, put = __cordl_internal_set__customNumberOfElements)) int32_t _customNumberOfElements;
 
   /// @brief Field valueChangedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
 
-  constexpr int32_t& __cordl_internal_get__customNumberOfElements();
+  /// @brief Method ApplyValue, addr 0x23acf08, size 0x20, virtual true, abstract: false, final false
+  inline void ApplyValue(int32_t idx);
 
-  constexpr int32_t const& __cordl_internal_get__customNumberOfElements() const;
+  /// @brief Method GetInitValues, addr 0x23acef0, size 0x18, virtual true, abstract: false, final false
+  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  constexpr void __cordl_internal_set__customNumberOfElements(int32_t value);
+  /// @brief Method InitValues, addr 0x23aced0, size 0x20, virtual false, abstract: false, final false
+  inline void InitValues(int32_t numberOfElements, int32_t index);
 
-  constexpr int32_t& __cordl_internal_get__customIndex();
+  static inline ::GlobalNamespace::IntListSettingsController* New_ctor();
+
+  /// @brief Method TextForValue, addr 0x23acf28, size 0x1c, virtual true, abstract: false, final false
+  inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__customIndex() const;
 
-  constexpr void __cordl_internal_set__customIndex(int32_t value);
+  constexpr int32_t& __cordl_internal_get__customIndex();
+
+  constexpr int32_t const& __cordl_internal_get__customNumberOfElements() const;
+
+  constexpr int32_t& __cordl_internal_get__customNumberOfElements();
 
   constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueChangedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_valueChangedEvent() const;
 
+  constexpr void __cordl_internal_set__customIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__customNumberOfElements(int32_t value);
+
   constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_valueChangedEvent, addr 0x22de0bc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
-
-  /// @brief Method remove_valueChangedEvent, addr 0x22de16c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
-
-  /// @brief Method InitValues, addr 0x22de21c, size 0x20, virtual false, abstract: false, final false
-  inline void InitValues(int32_t numberOfElements, int32_t index);
-
-  /// @brief Method GetInitValues, addr 0x22de23c, size 0x18, virtual true, abstract: false, final false
-  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
-
-  /// @brief Method ApplyValue, addr 0x22de254, size 0x20, virtual true, abstract: false, final false
-  inline void ApplyValue(int32_t idx);
-
-  /// @brief Method TextForValue, addr 0x22de274, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW TextForValue(int32_t idx);
-
-  static inline ::GlobalNamespace::IntListSettingsController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22de290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23acf44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_valueChangedEvent, addr 0x23acd70, size 0xb0, virtual false, abstract: false, final false
+  inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);
+
+  /// @brief Method remove_valueChangedEvent, addr 0x23ace20, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_valueChangedEvent(::System::Action_1<int32_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntListSettingsController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IntListSettingsController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntListSettingsController(IntListSettingsController&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntListSettingsController(IntListSettingsController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntListSettingsController();
-
-public:
   /// @brief Field _customNumberOfElements, offset: 0x28, size: 0x4, def value: None
   int32_t ____customNumberOfElements;
 

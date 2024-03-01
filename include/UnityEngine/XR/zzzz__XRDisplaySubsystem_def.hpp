@@ -32,8 +32,6 @@ MARK_VAL_T(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15772))
 // CS Name: ::XRDisplaySubsystem::LateLatchNode
 struct CORDL_TYPE __XRDisplaySubsystem__LateLatchNode {
 public:
@@ -52,18 +50,20 @@ public:
     return static_cast<____XRDisplaySubsystem__LateLatchNode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XRDisplaySubsystem__LateLatchNode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __XRDisplaySubsystem__LateLatchNode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __XRDisplaySubsystem__LateLatchNode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Head value: static_cast<int32_t>(0x0)
   static ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode const Head;
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field RightHand value: static_cast<int32_t>(0x2)
   static ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode const RightHand;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -86,12 +89,14 @@ static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode, v
 // SizeInfo { instance_size: 216, native_size: 216, calculated_instance_size: 216, calculated_native_size: 228, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8821)), TypeDefinitionIndex(TypeDefinitionIndex(9096))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15773))
 // CS Name: ::XRDisplaySubsystem::XRRenderPass
 struct CORDL_TYPE __XRDisplaySubsystem__XRRenderPass {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __XRDisplaySubsystem__XRRenderPass();
+
   // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: None }, CppParam { name: "renderTargetDesc", ty:
   // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: None }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
@@ -102,10 +107,6 @@ public:
                                                ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass,
                                                ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget, ::UnityEngine::RenderTextureDescriptor motionVectorRenderTargetDesc,
                                                bool shouldFillOutDepth, int32_t cullingPassIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XRDisplaySubsystem__XRRenderPass();
 
   /// @brief Field displaySubsystemInstance, offset: 0x0, size: 0x8, def value: None
   void* displaySubsystemInstance;
@@ -165,19 +166,17 @@ static_assert(offsetof(::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass, cu
 // SizeInfo { instance_size: 16, native_size: 24, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15774))
 // CS Name: ::XRDisplaySubsystem::XRMirrorViewBlitDesc
 struct CORDL_TYPE __XRDisplaySubsystem__XRMirrorViewBlitDesc {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XRDisplaySubsystem__XRMirrorViewBlitDesc(void* displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __XRDisplaySubsystem__XRMirrorViewBlitDesc();
+
+  // Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "", def_value: None },
+  // CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __XRDisplaySubsystem__XRMirrorViewBlitDesc(void* displaySubsystemInstance, bool nativeBlitAvailable, bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept;
 
   /// @brief Field displaySubsystemInstance, offset: 0x0, size: 0x8, def value: None
   void* displaySubsystemInstance;

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_ParmInfo);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9526))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9694))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_ParmInfo*
 class CORDL_TYPE Test_HAPI_ParmInfo : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_ParmInfo__() noexcept;
-
-  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo& __cordl_internal_get_self();
-
-  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_ParmInfo value);
+  /// @brief Method IsEquivalentTo, addr 0x2345968, size 0x78c, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_ParmInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_ParmInfo* New_ctor(::HoudiniEngineUnity::HAPI_ParmInfo self);
 
-  /// @brief Method .ctor, addr 0x22792cc, size 0x34, virtual false, abstract: false, final false
+  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo const& __cordl_internal_get_self() const;
+
+  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_ParmInfo value);
+
+  /// @brief Method .ctor, addr 0x2345934, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_ParmInfo self);
 
-  /// @brief Method IsEquivalentTo, addr 0x2279300, size 0x78c, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_ParmInfo* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_ParmInfo__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_HAPI_ParmInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_ParmInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_HAPI_ParmInfo(Test_HAPI_ParmInfo&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_ParmInfo(Test_HAPI_ParmInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_HAPI_ParmInfo();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x90, def value: None
   ::HoudiniEngineUnity::HAPI_ParmInfo ___self;
 

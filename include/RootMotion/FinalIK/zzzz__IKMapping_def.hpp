@@ -48,20 +48,15 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKMapping__BoneMap);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12451))
 // CS Name: ::IKMapping::BoneMap*
 class CORDL_TYPE __IKMapping__BoneMap : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
+  /// @brief Field animatedRotation, offset 0x90, size 0x10
+  __declspec(property(get = __cordl_internal_get_animatedRotation, put = __cordl_internal_set_animatedRotation))::UnityEngine::Quaternion animatedRotation;
 
   /// @brief Field chainIndex, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_chainIndex, put = __cordl_internal_set_chainIndex)) int32_t chainIndex;
-
-  /// @brief Field nodeIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_nodeIndex, put = __cordl_internal_set_nodeIndex)) int32_t nodeIndex;
 
   /// @brief Field defaultLocalPosition, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_defaultLocalPosition, put = __cordl_internal_set_defaultLocalPosition))::UnityEngine::Vector3 defaultLocalPosition;
@@ -69,38 +64,30 @@ public:
   /// @brief Field defaultLocalRotation, offset 0x2c, size 0x10
   __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
+  /// @brief Field defaultLocalTargetRotation, offset 0x6c, size 0x10
+  __declspec(property(get = __cordl_internal_get_defaultLocalTargetRotation, put = __cordl_internal_set_defaultLocalTargetRotation))::UnityEngine::Quaternion defaultLocalTargetRotation;
+
+  /// @brief Field ikPosition, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get_ikPosition, put = __cordl_internal_set_ikPosition))::UnityEngine::Vector3 ikPosition;
+
+  __declspec(property(get = get_isNodeBone)) bool isNodeBone;
+
+  __declspec(property(get = get_lastAnimatedTargetRotation))::UnityEngine::Quaternion lastAnimatedTargetRotation;
+
+  /// @brief Field length, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+
   /// @brief Field localSwingAxis, offset 0x3c, size 0xc
   __declspec(property(get = __cordl_internal_get_localSwingAxis, put = __cordl_internal_set_localSwingAxis))::UnityEngine::Vector3 localSwingAxis;
 
   /// @brief Field localTwistAxis, offset 0x48, size 0xc
   __declspec(property(get = __cordl_internal_get_localTwistAxis, put = __cordl_internal_set_localTwistAxis))::UnityEngine::Vector3 localTwistAxis;
 
-  /// @brief Field planePosition, offset 0x54, size 0xc
-  __declspec(property(get = __cordl_internal_get_planePosition, put = __cordl_internal_set_planePosition))::UnityEngine::Vector3 planePosition;
-
-  /// @brief Field ikPosition, offset 0x60, size 0xc
-  __declspec(property(get = __cordl_internal_get_ikPosition, put = __cordl_internal_set_ikPosition))::UnityEngine::Vector3 ikPosition;
-
-  /// @brief Field defaultLocalTargetRotation, offset 0x6c, size 0x10
-  __declspec(property(get = __cordl_internal_get_defaultLocalTargetRotation, put = __cordl_internal_set_defaultLocalTargetRotation))::UnityEngine::Quaternion defaultLocalTargetRotation;
-
   /// @brief Field maintainRotation, offset 0x7c, size 0x10
   __declspec(property(get = __cordl_internal_get_maintainRotation, put = __cordl_internal_set_maintainRotation))::UnityEngine::Quaternion maintainRotation;
 
-  /// @brief Field length, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
-
-  /// @brief Field animatedRotation, offset 0x90, size 0x10
-  __declspec(property(get = __cordl_internal_get_animatedRotation, put = __cordl_internal_set_animatedRotation))::UnityEngine::Quaternion animatedRotation;
-
-  /// @brief Field planeBone1, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_planeBone1, put = __cordl_internal_set_planeBone1))::UnityW<::UnityEngine::Transform> planeBone1;
-
-  /// @brief Field planeBone2, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_planeBone2, put = __cordl_internal_set_planeBone2))::UnityW<::UnityEngine::Transform> planeBone2;
-
-  /// @brief Field planeBone3, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_planeBone3, put = __cordl_internal_set_planeBone3))::UnityW<::UnityEngine::Transform> planeBone3;
+  /// @brief Field nodeIndex, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_nodeIndex, put = __cordl_internal_set_nodeIndex)) int32_t nodeIndex;
 
   /// @brief Field plane1ChainIndex, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_plane1ChainIndex, put = __cordl_internal_set_plane1ChainIndex)) int32_t plane1ChainIndex;
@@ -120,224 +107,241 @@ public:
   /// @brief Field plane3NodeIndex, offset 0xcc, size 0x4
   __declspec(property(get = __cordl_internal_get_plane3NodeIndex, put = __cordl_internal_set_plane3NodeIndex)) int32_t plane3NodeIndex;
 
+  /// @brief Field planeBone1, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_planeBone1, put = __cordl_internal_set_planeBone1))::UnityW<::UnityEngine::Transform> planeBone1;
+
+  /// @brief Field planeBone2, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_planeBone2, put = __cordl_internal_set_planeBone2))::UnityW<::UnityEngine::Transform> planeBone2;
+
+  /// @brief Field planeBone3, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_planeBone3, put = __cordl_internal_set_planeBone3))::UnityW<::UnityEngine::Transform> planeBone3;
+
+  /// @brief Field planePosition, offset 0x54, size 0xc
+  __declspec(property(get = __cordl_internal_get_planePosition, put = __cordl_internal_set_planePosition))::UnityEngine::Vector3 planePosition;
+
   __declspec(property(get = get_swingDirection))::UnityEngine::Vector3 swingDirection;
 
-  __declspec(property(get = get_isNodeBone)) bool isNodeBone;
+  /// @brief Field transform, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  __declspec(property(get = get_lastAnimatedTargetRotation))::UnityEngine::Quaternion lastAnimatedTargetRotation;
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
-
-  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr int32_t& __cordl_internal_get_chainIndex();
-
-  constexpr int32_t const& __cordl_internal_get_chainIndex() const;
-
-  constexpr void __cordl_internal_set_chainIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_nodeIndex();
-
-  constexpr int32_t const& __cordl_internal_get_nodeIndex() const;
-
-  constexpr void __cordl_internal_set_nodeIndex(int32_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
-
-  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
-
-  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localSwingAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localSwingAxis() const;
-
-  constexpr void __cordl_internal_set_localSwingAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localTwistAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localTwistAxis() const;
-
-  constexpr void __cordl_internal_set_localTwistAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_planePosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_planePosition() const;
-
-  constexpr void __cordl_internal_set_planePosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_ikPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_ikPosition() const;
-
-  constexpr void __cordl_internal_set_ikPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalTargetRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalTargetRotation() const;
-
-  constexpr void __cordl_internal_set_defaultLocalTargetRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_maintainRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_maintainRotation() const;
-
-  constexpr void __cordl_internal_set_maintainRotation(::UnityEngine::Quaternion value);
-
-  constexpr float_t& __cordl_internal_get_length();
-
-  constexpr float_t const& __cordl_internal_get_length() const;
-
-  constexpr void __cordl_internal_set_length(float_t value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_animatedRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_animatedRotation() const;
-
-  constexpr void __cordl_internal_set_animatedRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_planeBone1();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_planeBone1() const;
-
-  constexpr void __cordl_internal_set_planeBone1(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_planeBone2();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_planeBone2() const;
-
-  constexpr void __cordl_internal_set_planeBone2(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_planeBone3();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_planeBone3() const;
-
-  constexpr void __cordl_internal_set_planeBone3(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr int32_t& __cordl_internal_get_plane1ChainIndex();
-
-  constexpr int32_t const& __cordl_internal_get_plane1ChainIndex() const;
-
-  constexpr void __cordl_internal_set_plane1ChainIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_plane1NodeIndex();
-
-  constexpr int32_t const& __cordl_internal_get_plane1NodeIndex() const;
-
-  constexpr void __cordl_internal_set_plane1NodeIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_plane2ChainIndex();
-
-  constexpr int32_t const& __cordl_internal_get_plane2ChainIndex() const;
-
-  constexpr void __cordl_internal_set_plane2ChainIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_plane2NodeIndex();
-
-  constexpr int32_t const& __cordl_internal_get_plane2NodeIndex() const;
-
-  constexpr void __cordl_internal_set_plane2NodeIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_plane3ChainIndex();
-
-  constexpr int32_t const& __cordl_internal_get_plane3ChainIndex() const;
-
-  constexpr void __cordl_internal_set_plane3ChainIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_plane3NodeIndex();
-
-  constexpr int32_t const& __cordl_internal_get_plane3NodeIndex() const;
-
-  constexpr void __cordl_internal_set_plane3NodeIndex(int32_t value);
-
-  /// @brief Method Initiate, addr 0x12f42ac, size 0x28, virtual false, abstract: false, final false
-  inline void Initiate(::UnityEngine::Transform* transform, ::RootMotion::FinalIK::IKSolverFullBody* solver);
-
-  /// @brief Method get_swingDirection, addr 0x12f42d4, size 0x30, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_swingDirection();
-
-  /// @brief Method StoreDefaultLocalState, addr 0x12f4304, size 0x44, virtual false, abstract: false, final false
-  inline void StoreDefaultLocalState();
-
-  /// @brief Method FixTransform, addr 0x12f4348, size 0x44, virtual false, abstract: false, final false
-  inline void FixTransform(bool position);
-
-  /// @brief Method get_isNodeBone, addr 0x12f438c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_isNodeBone();
-
-  /// @brief Method SetLength, addr 0x12f439c, size 0xd4, virtual false, abstract: false, final false
-  inline void SetLength(::RootMotion::FinalIK::__IKMapping__BoneMap* nextBone);
-
-  /// @brief Method SetLocalSwingAxis, addr 0x12f4470, size 0x8, virtual false, abstract: false, final false
-  inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* swingTarget);
-
-  /// @brief Method SetLocalSwingAxis, addr 0x12f4478, size 0xcc, virtual false, abstract: false, final false
-  inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* bone1, ::RootMotion::FinalIK::__IKMapping__BoneMap* bone2);
-
-  /// @brief Method SetLocalTwistAxis, addr 0x12f4544, size 0x6c, virtual false, abstract: false, final false
-  inline void SetLocalTwistAxis(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection);
-
-  /// @brief Method SetPlane, addr 0x12f45b0, size 0x88, virtual false, abstract: false, final false
-  inline void SetPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Transform* planeBone1, ::UnityEngine::Transform* planeBone2, ::UnityEngine::Transform* planeBone3);
-
-  /// @brief Method UpdatePlane, addr 0x12f4638, size 0x110, virtual false, abstract: false, final false
-  inline void UpdatePlane(bool rotation, bool position);
-
-  /// @brief Method SetIKPosition, addr 0x12f48b0, size 0x2c, virtual false, abstract: false, final false
-  inline void SetIKPosition();
-
-  /// @brief Method MaintainRotation, addr 0x12f48dc, size 0x2c, virtual false, abstract: false, final false
-  inline void MaintainRotation();
-
-  /// @brief Method SetToIKPosition, addr 0x12f4908, size 0x28, virtual false, abstract: false, final false
-  inline void SetToIKPosition();
-
-  /// @brief Method FixToNode, addr 0x12f4930, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FixToNode, addr 0x133691c, size 0xc0, virtual false, abstract: false, final false
   inline void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight, ::RootMotion::FinalIK::__IKSolver__Node* fixNode);
 
-  /// @brief Method GetPlanePosition, addr 0x12f49f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FixTransform, addr 0x1336334, size 0x44, virtual false, abstract: false, final false
+  inline void FixTransform(bool position);
+
+  /// @brief Method GetPlanePosition, addr 0x13369dc, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPlanePosition(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method PositionToPlane, addr 0x12f4b74, size 0x24, virtual false, abstract: false, final false
-  inline void PositionToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver);
-
-  /// @brief Method RotateToPlane, addr 0x12f4b98, size 0x120, virtual false, abstract: false, final false
-  inline void RotateToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
-
-  /// @brief Method Swing, addr 0x12f4cb8, size 0x64, virtual false, abstract: false, final false
-  inline void Swing(::UnityEngine::Vector3 swingTarget, float_t weight);
-
-  /// @brief Method Swing, addr 0x12f4d1c, size 0x180, virtual false, abstract: false, final false
-  inline void Swing(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t weight);
-
-  /// @brief Method Twist, addr 0x12f4e9c, size 0x180, virtual false, abstract: false, final false
-  inline void Twist(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection, float_t weight);
-
-  /// @brief Method RotateToMaintain, addr 0x12f501c, size 0x7c, virtual false, abstract: false, final false
-  inline void RotateToMaintain(float_t weight);
-
-  /// @brief Method RotateToEffector, addr 0x12f5098, size 0x11c, virtual false, abstract: false, final false
-  inline void RotateToEffector(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
-
-  /// @brief Method GetTargetRotation, addr 0x12f4a64, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTargetRotation, addr 0x1336a50, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetTargetRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method get_lastAnimatedTargetRotation, addr 0x12f4748, size 0x168, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_lastAnimatedTargetRotation();
+  /// @brief Method Initiate, addr 0x1336298, size 0x28, virtual false, abstract: false, final false
+  inline void Initiate(::UnityEngine::Transform* transform, ::RootMotion::FinalIK::IKSolverFullBody* solver);
+
+  /// @brief Method MaintainRotation, addr 0x13368c8, size 0x2c, virtual false, abstract: false, final false
+  inline void MaintainRotation();
 
   static inline ::RootMotion::FinalIK::__IKMapping__BoneMap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12f51b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PositionToPlane, addr 0x1336b60, size 0x24, virtual false, abstract: false, final false
+  inline void PositionToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver);
+
+  /// @brief Method RotateToEffector, addr 0x1337084, size 0x11c, virtual false, abstract: false, final false
+  inline void RotateToEffector(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
+
+  /// @brief Method RotateToMaintain, addr 0x1337008, size 0x7c, virtual false, abstract: false, final false
+  inline void RotateToMaintain(float_t weight);
+
+  /// @brief Method RotateToPlane, addr 0x1336b84, size 0x120, virtual false, abstract: false, final false
+  inline void RotateToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
+
+  /// @brief Method SetIKPosition, addr 0x133689c, size 0x2c, virtual false, abstract: false, final false
+  inline void SetIKPosition();
+
+  /// @brief Method SetLength, addr 0x1336388, size 0xd4, virtual false, abstract: false, final false
+  inline void SetLength(::RootMotion::FinalIK::__IKMapping__BoneMap* nextBone);
+
+  /// @brief Method SetLocalSwingAxis, addr 0x1336464, size 0xcc, virtual false, abstract: false, final false
+  inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* bone1, ::RootMotion::FinalIK::__IKMapping__BoneMap* bone2);
+
+  /// @brief Method SetLocalSwingAxis, addr 0x133645c, size 0x8, virtual false, abstract: false, final false
+  inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* swingTarget);
+
+  /// @brief Method SetLocalTwistAxis, addr 0x1336530, size 0x6c, virtual false, abstract: false, final false
+  inline void SetLocalTwistAxis(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection);
+
+  /// @brief Method SetPlane, addr 0x133659c, size 0x88, virtual false, abstract: false, final false
+  inline void SetPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Transform* planeBone1, ::UnityEngine::Transform* planeBone2, ::UnityEngine::Transform* planeBone3);
+
+  /// @brief Method SetToIKPosition, addr 0x13368f4, size 0x28, virtual false, abstract: false, final false
+  inline void SetToIKPosition();
+
+  /// @brief Method StoreDefaultLocalState, addr 0x13362f0, size 0x44, virtual false, abstract: false, final false
+  inline void StoreDefaultLocalState();
+
+  /// @brief Method Swing, addr 0x1336d08, size 0x180, virtual false, abstract: false, final false
+  inline void Swing(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t weight);
+
+  /// @brief Method Swing, addr 0x1336ca4, size 0x64, virtual false, abstract: false, final false
+  inline void Swing(::UnityEngine::Vector3 swingTarget, float_t weight);
+
+  /// @brief Method Twist, addr 0x1336e88, size 0x180, virtual false, abstract: false, final false
+  inline void Twist(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection, float_t weight);
+
+  /// @brief Method UpdatePlane, addr 0x1336624, size 0x110, virtual false, abstract: false, final false
+  inline void UpdatePlane(bool rotation, bool position);
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_animatedRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_animatedRotation();
+
+  constexpr int32_t const& __cordl_internal_get_chainIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_chainIndex();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalTargetRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalTargetRotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_ikPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_ikPosition();
+
+  constexpr float_t const& __cordl_internal_get_length() const;
+
+  constexpr float_t& __cordl_internal_get_length();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localSwingAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localSwingAxis();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localTwistAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localTwistAxis();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_maintainRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_maintainRotation();
+
+  constexpr int32_t const& __cordl_internal_get_nodeIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_nodeIndex();
+
+  constexpr int32_t const& __cordl_internal_get_plane1ChainIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_plane1ChainIndex();
+
+  constexpr int32_t const& __cordl_internal_get_plane1NodeIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_plane1NodeIndex();
+
+  constexpr int32_t const& __cordl_internal_get_plane2ChainIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_plane2ChainIndex();
+
+  constexpr int32_t const& __cordl_internal_get_plane2NodeIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_plane2NodeIndex();
+
+  constexpr int32_t const& __cordl_internal_get_plane3ChainIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_plane3ChainIndex();
+
+  constexpr int32_t const& __cordl_internal_get_plane3NodeIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_plane3NodeIndex();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_planeBone1() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_planeBone1();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_planeBone2() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_planeBone2();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_planeBone3() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_planeBone3();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_planePosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_planePosition();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+
+  constexpr void __cordl_internal_set_animatedRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_chainIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_defaultLocalTargetRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_ikPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_length(float_t value);
+
+  constexpr void __cordl_internal_set_localSwingAxis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_localTwistAxis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_maintainRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_nodeIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_plane1ChainIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_plane1NodeIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_plane2ChainIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_plane2NodeIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_plane3ChainIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_plane3NodeIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_planeBone1(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_planeBone2(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_planeBone3(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_planePosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x13371a0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_isNodeBone, addr 0x1336378, size 0x10, virtual false, abstract: false, final false
+  inline bool get_isNodeBone();
+
+  /// @brief Method get_lastAnimatedTargetRotation, addr 0x1336734, size 0x168, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_lastAnimatedTargetRotation();
+
+  /// @brief Method get_swingDirection, addr 0x13362c0, size 0x30, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_swingDirection();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKMapping__BoneMap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKMapping__BoneMap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKMapping__BoneMap(__IKMapping__BoneMap&&) = delete;
@@ -346,12 +350,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKMapping__BoneMap(__IKMapping__BoneMap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKMapping__BoneMap();
-
-public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___transform;
 
@@ -472,31 +470,35 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKMapping__BoneMap, ___plane3Nod
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12452))
 // CS Name: ::RootMotion.FinalIK::IKMapping*
 class CORDL_TYPE IKMapping : public ::System::Object {
 public:
   // Declarations
   using BoneMap = ::RootMotion::FinalIK::__IKMapping__BoneMap;
 
-  /// @brief Method IsValid, addr 0x12f4048, size 0x8, virtual true, abstract: false, final false
-  inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
-
-  /// @brief Method Initiate, addr 0x12f4050, size 0x4, virtual true, abstract: false, final false
-  inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
-
-  /// @brief Method BoneIsValid, addr 0x12f4054, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method BoneIsValid, addr 0x1336040, size 0x13c, virtual false, abstract: false, final false
   inline bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::__Warning__Logger* logger);
 
-  /// @brief Method SolveFABRIKJoint, addr 0x12f4190, size 0x114, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
+  /// @brief Method Initiate, addr 0x133603c, size 0x4, virtual true, abstract: false, final false
+  inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
+
+  /// @brief Method IsValid, addr 0x1336034, size 0x8, virtual true, abstract: false, final false
+  inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMapping* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12f42a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SolveFABRIKJoint, addr 0x133617c, size 0x114, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
+
+  /// @brief Method .ctor, addr 0x1336290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKMapping();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKMapping", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKMapping(IKMapping&&) = delete;
@@ -505,12 +507,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKMapping(IKMapping const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKMapping();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::RenderTextureFormat);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8853))
 // CS Name: ::UnityEngine::RenderTextureFormat
 struct CORDL_TYPE RenderTextureFormat {
 public:
@@ -60,48 +58,32 @@ public:
     return static_cast<__RenderTextureFormat_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderTextureFormat(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderTextureFormat();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderTextureFormat(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field ARGB32 value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::RenderTextureFormat const ARGB32;
-
-  /// @brief Field Depth value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::RenderTextureFormat const Depth;
-
-  /// @brief Field ARGBHalf value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::RenderTextureFormat const ARGBHalf;
-
-  /// @brief Field Shadowmap value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::RenderTextureFormat const Shadowmap;
-
-  /// @brief Field RGB565 value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::RenderTextureFormat const RGB565;
-
-  /// @brief Field ARGB4444 value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::RenderTextureFormat const ARGB4444;
 
   /// @brief Field ARGB1555 value: static_cast<int32_t>(0x6)
   static ::UnityEngine::RenderTextureFormat const ARGB1555;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::RenderTextureFormat const Default;
-
   /// @brief Field ARGB2101010 value: static_cast<int32_t>(0x8)
   static ::UnityEngine::RenderTextureFormat const ARGB2101010;
 
-  /// @brief Field DefaultHDR value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::RenderTextureFormat const DefaultHDR;
+  /// @brief Field ARGB32 value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::RenderTextureFormat const ARGB32;
+
+  /// @brief Field ARGB4444 value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::RenderTextureFormat const ARGB4444;
 
   /// @brief Field ARGB64 value: static_cast<int32_t>(0xa)
   static ::UnityEngine::RenderTextureFormat const ARGB64;
@@ -109,53 +91,74 @@ public:
   /// @brief Field ARGBFloat value: static_cast<int32_t>(0xb)
   static ::UnityEngine::RenderTextureFormat const ARGBFloat;
 
+  /// @brief Field ARGBHalf value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::RenderTextureFormat const ARGBHalf;
+
+  /// @brief Field ARGBInt value: static_cast<int32_t>(0x11)
+  static ::UnityEngine::RenderTextureFormat const ARGBInt;
+
+  /// @brief Field BGR101010_XR value: static_cast<int32_t>(0x1b)
+  static ::UnityEngine::RenderTextureFormat const BGR101010_XR;
+
+  /// @brief Field BGRA10101010_XR value: static_cast<int32_t>(0x1a)
+  static ::UnityEngine::RenderTextureFormat const BGRA10101010_XR;
+
+  /// @brief Field BGRA32 value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::RenderTextureFormat const BGRA32;
+
+  /// @brief Field Default value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::RenderTextureFormat const Default;
+
+  /// @brief Field DefaultHDR value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::RenderTextureFormat const DefaultHDR;
+
+  /// @brief Field Depth value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::RenderTextureFormat const Depth;
+
+  /// @brief Field R16 value: static_cast<int32_t>(0x1c)
+  static ::UnityEngine::RenderTextureFormat const R16;
+
+  /// @brief Field R8 value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::RenderTextureFormat const R8;
+
+  /// @brief Field RFloat value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::RenderTextureFormat const RFloat;
+
+  /// @brief Field RG16 value: static_cast<int32_t>(0x19)
+  static ::UnityEngine::RenderTextureFormat const RG16;
+
+  /// @brief Field RG32 value: static_cast<int32_t>(0x17)
+  static ::UnityEngine::RenderTextureFormat const RG32;
+
+  /// @brief Field RGB111110Float value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::RenderTextureFormat const RGB111110Float;
+
+  /// @brief Field RGB565 value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::RenderTextureFormat const RGB565;
+
+  /// @brief Field RGBAUShort value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::RenderTextureFormat const RGBAUShort;
+
   /// @brief Field RGFloat value: static_cast<int32_t>(0xc)
   static ::UnityEngine::RenderTextureFormat const RGFloat;
 
   /// @brief Field RGHalf value: static_cast<int32_t>(0xd)
   static ::UnityEngine::RenderTextureFormat const RGHalf;
 
-  /// @brief Field RFloat value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::RenderTextureFormat const RFloat;
+  /// @brief Field RGInt value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::RenderTextureFormat const RGInt;
 
   /// @brief Field RHalf value: static_cast<int32_t>(0xf)
   static ::UnityEngine::RenderTextureFormat const RHalf;
 
-  /// @brief Field R8 value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::RenderTextureFormat const R8;
-
-  /// @brief Field ARGBInt value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::RenderTextureFormat const ARGBInt;
-
-  /// @brief Field RGInt value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::RenderTextureFormat const RGInt;
-
   /// @brief Field RInt value: static_cast<int32_t>(0x13)
   static ::UnityEngine::RenderTextureFormat const RInt;
 
-  /// @brief Field BGRA32 value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::RenderTextureFormat const BGRA32;
+  /// @brief Field Shadowmap value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::RenderTextureFormat const Shadowmap;
 
-  /// @brief Field RGB111110Float value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::RenderTextureFormat const RGB111110Float;
-
-  /// @brief Field RG32 value: static_cast<int32_t>(0x17)
-  static ::UnityEngine::RenderTextureFormat const RG32;
-
-  /// @brief Field RGBAUShort value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::RenderTextureFormat const RGBAUShort;
-
-  /// @brief Field RG16 value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::RenderTextureFormat const RG16;
-
-  /// @brief Field BGRA10101010_XR value: static_cast<int32_t>(0x1a)
-  static ::UnityEngine::RenderTextureFormat const BGRA10101010_XR;
-
-  /// @brief Field BGR101010_XR value: static_cast<int32_t>(0x1b)
-  static ::UnityEngine::RenderTextureFormat const BGR101010_XR;
-
-  /// @brief Field R16 value: static_cast<int32_t>(0x1c)
-  static ::UnityEngine::RenderTextureFormat const R16;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

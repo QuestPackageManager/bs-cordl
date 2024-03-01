@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSizeData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10629))
 // CS Name: ::EnvironmentSizeData::FloorType
 struct CORDL_TYPE __EnvironmentSizeData__FloorType {
 public:
@@ -57,24 +55,29 @@ public:
     return static_cast<____EnvironmentSizeData__FloorType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EnvironmentSizeData__FloorType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EnvironmentSizeData__FloorType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __EnvironmentSizeData__FloorType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field CloseTo0 value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__EnvironmentSizeData__FloorType const CloseTo0;
 
   /// @brief Field NoFloor value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__EnvironmentSizeData__FloorType const NoFloor;
 
-  /// @brief Field CloseTo0 value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__EnvironmentSizeData__FloorType const CloseTo0;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -88,8 +91,6 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__FloorType, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10630))
 // CS Name: ::EnvironmentSizeData::CeilingType
 struct CORDL_TYPE __EnvironmentSizeData__CeilingType {
 public:
@@ -107,24 +108,29 @@ public:
     return static_cast<____EnvironmentSizeData__CeilingType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EnvironmentSizeData__CeilingType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EnvironmentSizeData__CeilingType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __EnvironmentSizeData__CeilingType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field LowCeiling value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__EnvironmentSizeData__CeilingType const LowCeiling;
 
   /// @brief Field NoCeiling value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__EnvironmentSizeData__CeilingType const NoCeiling;
 
-  /// @brief Field LowCeiling value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__EnvironmentSizeData__CeilingType const LowCeiling;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -138,8 +144,6 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__CeilingType, va
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10631))
 // CS Name: ::EnvironmentSizeData::TrackLaneType
 struct CORDL_TYPE __EnvironmentSizeData__TrackLaneType {
 public:
@@ -157,24 +161,29 @@ public:
     return static_cast<____EnvironmentSizeData__TrackLaneType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EnvironmentSizeData__TrackLaneType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EnvironmentSizeData__TrackLaneType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __EnvironmentSizeData__TrackLaneType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType const None;
 
   /// @brief Field Normal value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType const Normal;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -188,64 +197,69 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10629)), TypeDefinitionIndex(TypeDefinitionIndex(10630)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10631))] Self: TypeDefinitionIndex(TypeDefinitionIndex(10632)) CS Name: ::EnvironmentSizeData*
+// CS Name: ::EnvironmentSizeData*
 class CORDL_TYPE EnvironmentSizeData : public ::System::Object {
 public:
   // Declarations
-  using TrackLaneType = ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType;
-
   using CeilingType = ::GlobalNamespace::__EnvironmentSizeData__CeilingType;
 
   using FloorType = ::GlobalNamespace::__EnvironmentSizeData__FloorType;
 
-  /// @brief Field _floorType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__floorType, put = __cordl_internal_set__floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType _floorType;
+  using TrackLaneType = ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType;
 
   /// @brief Field _ceilingType, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ceilingType, put = __cordl_internal_set__ceilingType))::GlobalNamespace::__EnvironmentSizeData__CeilingType _ceilingType;
 
+  /// @brief Field _floorType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__floorType, put = __cordl_internal_set__floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType _floorType;
+
   /// @brief Field _trackLaneType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__trackLaneType, put = __cordl_internal_set__trackLaneType))::GlobalNamespace::__EnvironmentSizeData__TrackLaneType _trackLaneType;
 
-  __declspec(property(get = get_floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType floorType;
-
   __declspec(property(get = get_ceilingType))::GlobalNamespace::__EnvironmentSizeData__CeilingType ceilingType;
+
+  __declspec(property(get = get_floorType))::GlobalNamespace::__EnvironmentSizeData__FloorType floorType;
 
   __declspec(property(get = get_trackLaneType))::GlobalNamespace::__EnvironmentSizeData__TrackLaneType trackLaneType;
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType& __cordl_internal_get__floorType();
-
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType const& __cordl_internal_get__floorType() const;
-
-  constexpr void __cordl_internal_set__floorType(::GlobalNamespace::__EnvironmentSizeData__FloorType value);
-
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType& __cordl_internal_get__ceilingType();
+  static inline ::GlobalNamespace::EnvironmentSizeData* New_ctor();
 
   constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType const& __cordl_internal_get__ceilingType() const;
 
-  constexpr void __cordl_internal_set__ceilingType(::GlobalNamespace::__EnvironmentSizeData__CeilingType value);
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__CeilingType& __cordl_internal_get__ceilingType();
 
-  constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType& __cordl_internal_get__trackLaneType();
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType const& __cordl_internal_get__floorType() const;
+
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__FloorType& __cordl_internal_get__floorType();
 
   constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType const& __cordl_internal_get__trackLaneType() const;
 
+  constexpr ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType& __cordl_internal_get__trackLaneType();
+
+  constexpr void __cordl_internal_set__ceilingType(::GlobalNamespace::__EnvironmentSizeData__CeilingType value);
+
+  constexpr void __cordl_internal_set__floorType(::GlobalNamespace::__EnvironmentSizeData__FloorType value);
+
   constexpr void __cordl_internal_set__trackLaneType(::GlobalNamespace::__EnvironmentSizeData__TrackLaneType value);
 
-  /// @brief Method get_floorType, addr 0x12668ac, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__EnvironmentSizeData__FloorType get_floorType();
-
-  /// @brief Method get_ceilingType, addr 0x12668b4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__EnvironmentSizeData__CeilingType get_ceilingType();
-
-  /// @brief Method get_trackLaneType, addr 0x12668bc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType get_trackLaneType();
-
-  static inline ::GlobalNamespace::EnvironmentSizeData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12668c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a9894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ceilingType, addr 0x12a9884, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__EnvironmentSizeData__CeilingType get_ceilingType();
+
+  /// @brief Method get_floorType, addr 0x12a987c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__EnvironmentSizeData__FloorType get_floorType();
+
+  /// @brief Method get_trackLaneType, addr 0x12a988c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__EnvironmentSizeData__TrackLaneType get_trackLaneType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvironmentSizeData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSizeData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvironmentSizeData(EnvironmentSizeData&&) = delete;
@@ -254,12 +268,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentSizeData(EnvironmentSizeData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentSizeData();
-
-public:
   /// @brief Field _floorType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__EnvironmentSizeData__FloorType ____floorType;
 

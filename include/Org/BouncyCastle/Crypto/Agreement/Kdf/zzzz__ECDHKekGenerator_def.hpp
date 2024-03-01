@@ -28,17 +28,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(726))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::ECDHKekGenerator*
 class CORDL_TYPE ECDHKekGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field kdf, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
+  __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
   /// @brief Field algorithm, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm;
+
+  /// @brief Field kdf, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
   /// @brief Field keySize, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_keySize, put = __cordl_internal_set_keySize)) int32_t keySize;
@@ -46,52 +46,56 @@ public:
   /// @brief Field z, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
 
-  __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
-  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
+  /// @brief Method GenerateBytes, addr 0x128858c, size 0x318, virtual true, abstract: false, final false
+  inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction*& __cordl_internal_get_kdf();
+  /// @brief Method Init, addr 0x1288450, size 0x98, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDerivationFunction*> const& __cordl_internal_get_kdf() const;
-
-  constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
+  static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithm();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction*& __cordl_internal_get_kdf();
 
-  constexpr int32_t& __cordl_internal_get_keySize();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDerivationFunction*> const& __cordl_internal_get_kdf() const;
 
   constexpr int32_t const& __cordl_internal_get_keySize() const;
 
-  constexpr void __cordl_internal_set_keySize(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_z();
+  constexpr int32_t& __cordl_internal_get_keySize();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_z() const;
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_z();
+
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
+
+  constexpr void __cordl_internal_set_keySize(int32_t value);
+
   constexpr void __cordl_internal_set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
-
-  /// @brief Method .ctor, addr 0x1244404, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12883d4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init, addr 0x1244480, size 0x98, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
-
-  /// @brief Method get_Digest, addr 0x1244518, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x12884e8, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes, addr 0x12445bc, size 0x318, virtual true, abstract: false, final false
-  inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECDHKekGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECDHKekGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECDHKekGenerator(ECDHKekGenerator&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECDHKekGenerator(ECDHKekGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECDHKekGenerator();
-
-public:
   /// @brief Field kdf, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDerivationFunction* ___kdf;
 

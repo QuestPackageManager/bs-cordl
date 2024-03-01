@@ -32,16 +32,11 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9789)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9789), inst: 957 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9782))
 // CS Name: ::Zenject::BindSignalIdToBinder`1<TSignal>*
 class CORDL_TYPE BindSignalIdToBinder_1 : public ::Zenject::BindSignalToBinder_1<TSignal> {
 public:
   // Declarations
   static inline ::Zenject::BindSignalIdToBinder_1<TSignal>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo);
 
   /// @brief Method WithId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::BindSignalToBinder_1<TSignal>* WithId(::System::Object* identifier);
@@ -52,6 +47,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BindSignalIdToBinder_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BindSignalIdToBinder_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindSignalIdToBinder_1(BindSignalIdToBinder_1&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BindSignalIdToBinder_1(BindSignalIdToBinder_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindSignalIdToBinder_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

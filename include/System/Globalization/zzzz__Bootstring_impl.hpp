@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Globalization::Bootstring::*)(char16_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::Bootstring::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x259c204;
+  constexpr static std::size_t addrs = 0x266c8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::Bootstring::*)(::StringW, int32_t)>(
     &::System::Globalization::Bootstring::Encode)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x259b7a4;
+  constexpr static std::size_t addrs = 0x266be88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Globalization::Bootstring::*)(int32_t)>(&::System::Globalization::Bootstring::EncodeDigit)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x259c270;
+  constexpr static std::size_t addrs = 0x266c954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::Bootstring::*)(char16_t)>(&::System::Globalization::Bootstring::DecodeDigit)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259c300;
+  constexpr static std::size_t addrs = 0x266c9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::Bootstring::*)(int32_t, int32_t, bool)>(
     &::System::Globalization::Bootstring::Adapt)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x259c288;
+  constexpr static std::size_t addrs = 0x266c96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::Bootstring::*)(::StringW, int32_t)>(
     &::System::Globalization::Bootstring::Decode)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x259bf2c;
+  constexpr static std::size_t addrs = 0x266c610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

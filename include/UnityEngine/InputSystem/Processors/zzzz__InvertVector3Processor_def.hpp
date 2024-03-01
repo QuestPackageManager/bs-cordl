@@ -22,8 +22,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertVector3Processor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5495)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 414
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5845)) CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
+// CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
 class CORDL_TYPE InvertVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
@@ -36,35 +35,41 @@ public:
   /// @brief Field invertZ, offset 0x12, size 0x1
   __declspec(property(get = __cordl_internal_get_invertZ, put = __cordl_internal_set_invertZ)) bool invertZ;
 
-  constexpr bool& __cordl_internal_get_invertX();
+  static inline ::UnityEngine::InputSystem::Processors::InvertVector3Processor* New_ctor();
+
+  /// @brief Method Process, addr 0x2bdf138, size 0x34, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bdf16c, size 0xc4, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_invertX() const;
 
-  constexpr void __cordl_internal_set_invertX(bool value);
-
-  constexpr bool& __cordl_internal_get_invertY();
+  constexpr bool& __cordl_internal_get_invertX();
 
   constexpr bool const& __cordl_internal_get_invertY() const;
 
-  constexpr void __cordl_internal_set_invertY(bool value);
-
-  constexpr bool& __cordl_internal_get_invertZ();
+  constexpr bool& __cordl_internal_get_invertY();
 
   constexpr bool const& __cordl_internal_get_invertZ() const;
 
+  constexpr bool& __cordl_internal_get_invertZ();
+
+  constexpr void __cordl_internal_set_invertX(bool value);
+
+  constexpr void __cordl_internal_set_invertY(bool value);
+
   constexpr void __cordl_internal_set_invertZ(bool value);
 
-  /// @brief Method Process, addr 0x2afa064, size 0x34, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method ToString, addr 0x2afa098, size 0xc4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  static inline ::UnityEngine::InputSystem::Processors::InvertVector3Processor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2afa15c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bdf230, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InvertVector3Processor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InvertVector3Processor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InvertVector3Processor(InvertVector3Processor&&) = delete;
@@ -73,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvertVector3Processor(InvertVector3Processor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvertVector3Processor();
-
-public:
   /// @brief Field invertX, offset: 0x10, size: 0x1, def value: None
   bool ___invertX;
 

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Gen2GcCallback);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3333)), TypeDefinitionIndex(TypeDefinitionIndex(3351))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2384))
 // CS Name: ::System::Gen2GcCallback*
 class CORDL_TYPE Gen2GcCallback : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
@@ -33,32 +31,38 @@ public:
   /// @brief Field _weakTargetObj, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__weakTargetObj, put = __cordl_internal_set__weakTargetObj))::System::Runtime::InteropServices::GCHandle _weakTargetObj;
 
+  /// @brief Method Finalize, addr 0x2689a14, size 0x1ac, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  static inline ::System::Gen2GcCallback* New_ctor();
+
+  /// @brief Method Register, addr 0x268996c, size 0x80, virtual false, abstract: false, final false
+  static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
+
+  /// @brief Method Setup, addr 0x26899ec, size 0x28, virtual false, abstract: false, final false
+  inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
+
   constexpr ::System::Func_2<::System::Object*, bool>*& __cordl_internal_get__callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, bool>*> const& __cordl_internal_get__callback() const;
 
-  constexpr void __cordl_internal_set__callback(::System::Func_2<::System::Object*, bool>* value);
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get__weakTargetObj() const;
 
   constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get__weakTargetObj();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get__weakTargetObj() const;
+  constexpr void __cordl_internal_set__callback(::System::Func_2<::System::Object*, bool>* value);
 
   constexpr void __cordl_internal_set__weakTargetObj(::System::Runtime::InteropServices::GCHandle value);
 
-  static inline ::System::Gen2GcCallback* New_ctor();
-
-  /// @brief Method .ctor, addr 0x25b9280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2689964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Register, addr 0x25b9288, size 0x80, virtual false, abstract: false, final false
-  static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gen2GcCallback();
 
-  /// @brief Method Setup, addr 0x25b9308, size 0x28, virtual false, abstract: false, final false
-  inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
-
-  /// @brief Method Finalize, addr 0x25b9330, size 0x1ac, virtual true, abstract: false, final false
-  inline void Finalize();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Gen2GcCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gen2GcCallback(Gen2GcCallback&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gen2GcCallback(Gen2GcCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gen2GcCallback();
-
-public:
   /// @brief Field _callback, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, bool>* ____callback;
 

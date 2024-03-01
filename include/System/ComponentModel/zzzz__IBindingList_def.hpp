@@ -32,17 +32,21 @@ MARK_REF_PTR_T(::System::ComponentModel::IBindingList);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7440))
 // CS Name: ::System.ComponentModel::IBindingList*
 class CORDL_TYPE IBindingList {
 public:
   // Declarations
-  __declspec(property(get = get_AllowNew)) bool AllowNew;
-
   __declspec(property(get = get_AllowEdit)) bool AllowEdit;
 
+  __declspec(property(get = get_AllowNew)) bool AllowNew;
+
   __declspec(property(get = get_AllowRemove)) bool AllowRemove;
+
+  __declspec(property(get = get_IsSorted)) bool IsSorted;
+
+  __declspec(property(get = get_SortDirection))::System::ComponentModel::ListSortDirection SortDirection;
+
+  __declspec(property(get = get_SortProperty))::System::ComponentModel::PropertyDescriptor* SortProperty;
 
   __declspec(property(get = get_SupportsChangeNotification)) bool SupportsChangeNotification;
 
@@ -50,62 +54,20 @@ public:
 
   __declspec(property(get = get_SupportsSorting)) bool SupportsSorting;
 
-  __declspec(property(get = get_IsSorted)) bool IsSorted;
-
-  __declspec(property(get = get_SortProperty))::System::ComponentModel::PropertyDescriptor* SortProperty;
-
-  __declspec(property(get = get_SortDirection))::System::ComponentModel::ListSortDirection SortDirection;
-
-  /// @brief Convert operator to "::System::Collections::IList"
-  constexpr operator ::System::Collections::IList*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IList"
-  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
-
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
-
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Method get_AllowNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_AllowNew();
-
-  /// @brief Method AddNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* AddNew();
-
-  /// @brief Method get_AllowEdit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_AllowEdit();
-
-  /// @brief Method get_AllowRemove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_AllowRemove();
-
-  /// @brief Method get_SupportsChangeNotification, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_SupportsChangeNotification();
-
-  /// @brief Method get_SupportsSearching, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_SupportsSearching();
-
-  /// @brief Method get_SupportsSorting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_SupportsSorting();
-
-  /// @brief Method get_IsSorted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_IsSorted();
-
-  /// @brief Method get_SortProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::ComponentModel::PropertyDescriptor* get_SortProperty();
-
-  /// @brief Method get_SortDirection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::ComponentModel::ListSortDirection get_SortDirection();
+  /// @brief Convert operator to "::System::Collections::IList"
+  constexpr operator ::System::Collections::IList*() noexcept;
 
   /// @brief Method AddIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddIndex(::System::ComponentModel::PropertyDescriptor* property);
+
+  /// @brief Method AddNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* AddNew();
 
   /// @brief Method ApplySort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplySort(::System::ComponentModel::PropertyDescriptor* property, ::System::ComponentModel::ListSortDirection direction);
@@ -118,6 +80,42 @@ public:
 
   /// @brief Method RemoveSort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveSort();
+
+  /// @brief Method get_AllowEdit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_AllowEdit();
+
+  /// @brief Method get_AllowNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_AllowNew();
+
+  /// @brief Method get_AllowRemove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_AllowRemove();
+
+  /// @brief Method get_IsSorted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_IsSorted();
+
+  /// @brief Method get_SortDirection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::ComponentModel::ListSortDirection get_SortDirection();
+
+  /// @brief Method get_SortProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::ComponentModel::PropertyDescriptor* get_SortProperty();
+
+  /// @brief Method get_SupportsChangeNotification, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_SupportsChangeNotification();
+
+  /// @brief Method get_SupportsSearching, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_SupportsSearching();
+
+  /// @brief Method get_SupportsSorting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_SupportsSorting();
+
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+  /// @brief Convert to "::System::Collections::IList"
+  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindingList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

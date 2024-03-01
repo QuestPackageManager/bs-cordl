@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RelativeSfxVolumePerLevelModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(&::GlobalNamespace::RelativeSfxVolumePerLevelModel::_ctor)> {
   constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x1290e88;
+  constexpr static std::size_t addrs = 0x12d2e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::RelativeSfxVolumePerLevelModel::*)(::StringW)>(
     &::GlobalNamespace::RelativeSfxVolumePerLevelModel::GetRelativeSfxVolume)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x1291630;
+  constexpr static std::size_t addrs = 0x12d3600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

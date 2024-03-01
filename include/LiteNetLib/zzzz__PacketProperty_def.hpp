@@ -15,8 +15,6 @@ MARK_VAL_T(::LiteNetLib::PacketProperty);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14181))
 // CS Name: ::LiteNetLib::PacketProperty
 struct CORDL_TYPE PacketProperty {
 public:
@@ -50,45 +48,47 @@ public:
     return static_cast<__PacketProperty_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr PacketProperty(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<uint8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PacketProperty();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr PacketProperty(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
-
-  /// @brief Field Unreliable value: static_cast<uint8_t>(0x0u)
-  static ::LiteNetLib::PacketProperty const Unreliable;
-
-  /// @brief Field Channeled value: static_cast<uint8_t>(0x1u)
-  static ::LiteNetLib::PacketProperty const Channeled;
 
   /// @brief Field Ack value: static_cast<uint8_t>(0x2u)
   static ::LiteNetLib::PacketProperty const Ack;
 
-  /// @brief Field Ping value: static_cast<uint8_t>(0x3u)
-  static ::LiteNetLib::PacketProperty const Ping;
+  /// @brief Field Broadcast value: static_cast<uint8_t>(0xbu)
+  static ::LiteNetLib::PacketProperty const Broadcast;
 
-  /// @brief Field Pong value: static_cast<uint8_t>(0x4u)
-  static ::LiteNetLib::PacketProperty const Pong;
-
-  /// @brief Field ConnectRequest value: static_cast<uint8_t>(0x5u)
-  static ::LiteNetLib::PacketProperty const ConnectRequest;
+  /// @brief Field Channeled value: static_cast<uint8_t>(0x1u)
+  static ::LiteNetLib::PacketProperty const Channeled;
 
   /// @brief Field ConnectAccept value: static_cast<uint8_t>(0x6u)
   static ::LiteNetLib::PacketProperty const ConnectAccept;
 
+  /// @brief Field ConnectRequest value: static_cast<uint8_t>(0x5u)
+  static ::LiteNetLib::PacketProperty const ConnectRequest;
+
   /// @brief Field Disconnect value: static_cast<uint8_t>(0x7u)
   static ::LiteNetLib::PacketProperty const Disconnect;
 
-  /// @brief Field UnconnectedMessage value: static_cast<uint8_t>(0x8u)
-  static ::LiteNetLib::PacketProperty const UnconnectedMessage;
+  /// @brief Field Empty value: static_cast<uint8_t>(0x11u)
+  static ::LiteNetLib::PacketProperty const Empty;
+
+  /// @brief Field InvalidProtocol value: static_cast<uint8_t>(0xfu)
+  static ::LiteNetLib::PacketProperty const InvalidProtocol;
+
+  /// @brief Field Merged value: static_cast<uint8_t>(0xcu)
+  static ::LiteNetLib::PacketProperty const Merged;
 
   /// @brief Field MtuCheck value: static_cast<uint8_t>(0x9u)
   static ::LiteNetLib::PacketProperty const MtuCheck;
@@ -96,26 +96,29 @@ public:
   /// @brief Field MtuOk value: static_cast<uint8_t>(0xau)
   static ::LiteNetLib::PacketProperty const MtuOk;
 
-  /// @brief Field Broadcast value: static_cast<uint8_t>(0xbu)
-  static ::LiteNetLib::PacketProperty const Broadcast;
-
-  /// @brief Field Merged value: static_cast<uint8_t>(0xcu)
-  static ::LiteNetLib::PacketProperty const Merged;
-
-  /// @brief Field ShutdownOk value: static_cast<uint8_t>(0xdu)
-  static ::LiteNetLib::PacketProperty const ShutdownOk;
+  /// @brief Field NatMessage value: static_cast<uint8_t>(0x10u)
+  static ::LiteNetLib::PacketProperty const NatMessage;
 
   /// @brief Field PeerNotFound value: static_cast<uint8_t>(0xeu)
   static ::LiteNetLib::PacketProperty const PeerNotFound;
 
-  /// @brief Field InvalidProtocol value: static_cast<uint8_t>(0xfu)
-  static ::LiteNetLib::PacketProperty const InvalidProtocol;
+  /// @brief Field Ping value: static_cast<uint8_t>(0x3u)
+  static ::LiteNetLib::PacketProperty const Ping;
 
-  /// @brief Field NatMessage value: static_cast<uint8_t>(0x10u)
-  static ::LiteNetLib::PacketProperty const NatMessage;
+  /// @brief Field Pong value: static_cast<uint8_t>(0x4u)
+  static ::LiteNetLib::PacketProperty const Pong;
 
-  /// @brief Field Empty value: static_cast<uint8_t>(0x11u)
-  static ::LiteNetLib::PacketProperty const Empty;
+  /// @brief Field ShutdownOk value: static_cast<uint8_t>(0xdu)
+  static ::LiteNetLib::PacketProperty const ShutdownOk;
+
+  /// @brief Field UnconnectedMessage value: static_cast<uint8_t>(0x8u)
+  static ::LiteNetLib::PacketProperty const UnconnectedMessage;
+
+  /// @brief Field Unreliable value: static_cast<uint8_t>(0x0u)
+  static ::LiteNetLib::PacketProperty const Unreliable;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

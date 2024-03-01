@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRDriverManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8465))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8519))
 // CS Name: ::OVR.OpenVR::CVRDriverManager*
 class CORDL_TYPE CVRDriverManager : public ::System::Object {
 public:
@@ -29,26 +27,32 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRDriverManager FnTable;
 
-  constexpr ::OVR::OpenVR::IVRDriverManager& __cordl_internal_get_FnTable();
+  /// @brief Method GetDriverCount, addr 0x28e7314, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetDriverCount();
 
-  constexpr ::OVR::OpenVR::IVRDriverManager const& __cordl_internal_get_FnTable() const;
+  /// @brief Method GetDriverHandle, addr 0x28e735c, size 0x24, virtual false, abstract: false, final false
+  inline uint64_t GetDriverHandle(::StringW pchDriverName);
 
-  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRDriverManager value);
+  /// @brief Method GetDriverName, addr 0x28e7338, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetDriverName(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
   static inline ::OVR::OpenVR::CVRDriverManager* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor, addr 0x28030a8, size 0x114, virtual false, abstract: false, final false
+  constexpr ::OVR::OpenVR::IVRDriverManager const& __cordl_internal_get_FnTable() const;
+
+  constexpr ::OVR::OpenVR::IVRDriverManager& __cordl_internal_get_FnTable();
+
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRDriverManager value);
+
+  /// @brief Method .ctor, addr 0x28e7200, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method GetDriverCount, addr 0x28031bc, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetDriverCount();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CVRDriverManager();
 
-  /// @brief Method GetDriverName, addr 0x28031e0, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetDriverName(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
-
-  /// @brief Method GetDriverHandle, addr 0x2803204, size 0x24, virtual false, abstract: false, final false
-  inline uint64_t GetDriverHandle(::StringW pchDriverName);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CVRDriverManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRDriverManager(CVRDriverManager&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CVRDriverManager(CVRDriverManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CVRDriverManager();
-
-public:
   /// @brief Field FnTable, offset: 0x10, size: 0x18, def value: None
   ::OVR::OpenVR::IVRDriverManager ___FnTable;
 

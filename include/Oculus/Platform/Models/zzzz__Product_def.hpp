@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Product);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13422))
 // CS Name: ::Oculus.Platform.Models::Product*
 class CORDL_TYPE Product : public ::System::Object {
 public:
@@ -34,35 +32,41 @@ public:
   /// @brief Field Sku, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Sku, put = __cordl_internal_set_Sku))::StringW Sku;
 
-  constexpr ::StringW& __cordl_internal_get_Description();
+  static inline ::Oculus::Platform::Models::Product* New_ctor(void* o);
 
   constexpr ::StringW const& __cordl_internal_get_Description() const;
 
-  constexpr void __cordl_internal_set_Description(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_FormattedPrice();
+  constexpr ::StringW& __cordl_internal_get_Description();
 
   constexpr ::StringW const& __cordl_internal_get_FormattedPrice() const;
 
-  constexpr void __cordl_internal_set_FormattedPrice(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Name();
+  constexpr ::StringW& __cordl_internal_get_FormattedPrice();
 
   constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __cordl_internal_set_Name(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_Sku();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
   constexpr ::StringW const& __cordl_internal_get_Sku() const;
 
+  constexpr ::StringW& __cordl_internal_get_Sku();
+
+  constexpr void __cordl_internal_set_Description(::StringW value);
+
+  constexpr void __cordl_internal_set_FormattedPrice(::StringW value);
+
+  constexpr void __cordl_internal_set_Name(::StringW value);
+
   constexpr void __cordl_internal_set_Sku(::StringW value);
 
-  static inline ::Oculus::Platform::Models::Product* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x273c584, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f9db0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Product();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Product", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Product(Product&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Product(Product const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Product();
-
-public:
   /// @brief Field Description, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Description;
 

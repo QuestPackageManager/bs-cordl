@@ -28,8 +28,6 @@ MARK_VAL_T(::UnityEngine::Playables::ScriptPlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9183))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9192))
 // CS Name: ::UnityEngine.Playables::ScriptPlayableOutput
 struct CORDL_TYPE ScriptPlayableOutput {
 public:
@@ -37,30 +35,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
+  /// @brief Method Create, addr 0x2debdfc, size 0x78, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
+
+  /// @brief Method GetHandle, addr 0x2debffc, size 0xc, virtual true, abstract: false, final true
+  inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
+
+  /// @brief Method .ctor, addr 0x2debf40, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
+
+  /// @brief Method get_Null, addr 0x2debec8, size 0x78, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null();
+
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method Create, addr 0x2d006d4, size 0x78, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
-
-  /// @brief Method .ctor, addr 0x2d00818, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
-
-  /// @brief Method get_Null, addr 0x2d007a0, size 0x78, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null();
-
-  /// @brief Method GetHandle, addr 0x2d008d4, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
-
-  /// @brief Method op_Implicit, addr 0x2d008e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2dec008, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput output);
-
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-  constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ScriptPlayableOutput();
+
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+  constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableOutputHandle m_Handle;

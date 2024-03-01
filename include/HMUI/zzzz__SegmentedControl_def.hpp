@@ -55,17 +55,15 @@ MARK_REF_PTR_T(::HMUI::__SegmentedControl__IDataSource);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13502))
 // CS Name: ::SegmentedControl::IDataSource*
 class CORDL_TYPE __SegmentedControl__IDataSource {
 public:
   // Declarations
-  /// @brief Method NumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t NumberOfCells();
-
   /// @brief Method CellForCellNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
+
+  /// @brief Method NumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t NumberOfCells();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SegmentedControl__IDataSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -83,130 +81,134 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13503))
 // CS Name: ::HMUI::SegmentedControl*
 class CORDL_TYPE SegmentedControl : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using IDataSource = ::HMUI::__SegmentedControl__IDataSource;
 
-  /// @brief Field _separatorPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__separatorPrefab, put = __cordl_internal_set__separatorPrefab))::UnityW<::UnityEngine::Transform> _separatorPrefab;
-
-  /// @brief Field didSelectCellEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectCellEvent, put = __cordl_internal_set_didSelectCellEvent))::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* didSelectCellEvent;
-
-  /// @brief Field _numberOfCells, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__numberOfCells, put = __cordl_internal_set__numberOfCells)) int32_t _numberOfCells;
+  /// @brief Field _callbacks, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__callbacks, put = __cordl_internal_set__callbacks))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>* _callbacks;
 
   /// @brief Field _cells, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__cells, put = __cordl_internal_set__cells))::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>* _cells;
 
-  /// @brief Field _separators, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__separators, put = __cordl_internal_set__separators))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _separators;
-
   /// @brief Field _dataSource, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__dataSource, put = __cordl_internal_set__dataSource))::HMUI::__SegmentedControl__IDataSource* _dataSource;
+
+  /// @brief Field _numberOfCells, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__numberOfCells, put = __cordl_internal_set__numberOfCells)) int32_t _numberOfCells;
 
   /// @brief Field _selectedCellNumber, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedCellNumber, put = __cordl_internal_set__selectedCellNumber)) int32_t _selectedCellNumber;
 
-  /// @brief Field _callbacks, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__callbacks, put = __cordl_internal_set__callbacks))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>* _callbacks;
+  /// @brief Field _separatorPrefab, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__separatorPrefab, put = __cordl_internal_set__separatorPrefab))::UnityW<::UnityEngine::Transform> _separatorPrefab;
 
-  __declspec(property(get = get_dataSource, put = set_dataSource))::HMUI::__SegmentedControl__IDataSource* dataSource;
-
-  __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
+  /// @brief Field _separators, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__separators, put = __cordl_internal_set__separators))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _separators;
 
   __declspec(property(get = get_cells))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* cells;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__separatorPrefab();
+  __declspec(property(get = get_dataSource, put = set_dataSource))::HMUI::__SegmentedControl__IDataSource* dataSource;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__separatorPrefab() const;
+  /// @brief Field didSelectCellEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSelectCellEvent, put = __cordl_internal_set_didSelectCellEvent))::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* didSelectCellEvent;
 
-  constexpr void __cordl_internal_set__separatorPrefab(::UnityW<::UnityEngine::Transform> value);
+  __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
 
-  constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*& __cordl_internal_get_didSelectCellEvent();
+  /// @brief Method CreateCells, addr 0x2281a84, size 0x4bc, virtual false, abstract: false, final false
+  inline void CreateCells();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*> const& __cordl_internal_get_didSelectCellEvent() const;
+  /// @brief Method HandleCellSelectionDidChange, addr 0x2281f4c, size 0x150, virtual false, abstract: false, final false
+  inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
 
-  constexpr void __cordl_internal_set_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
+  static inline ::HMUI::SegmentedControl* New_ctor();
 
-  constexpr int32_t& __cordl_internal_get__numberOfCells();
+  /// @brief Method ReloadData, addr 0x2280f48, size 0x408, virtual false, abstract: false, final false
+  inline void ReloadData();
 
-  constexpr int32_t const& __cordl_internal_get__numberOfCells() const;
+  /// @brief Method SelectCellWithNumber, addr 0x2282104, size 0xa8, virtual false, abstract: false, final false
+  inline void SelectCellWithNumber(int32_t selectCellNumber);
 
-  constexpr void __cordl_internal_set__numberOfCells(int32_t value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>*& __cordl_internal_get__cells();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>*> const& __cordl_internal_get__cells() const;
-
-  constexpr void __cordl_internal_set__cells(::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>* value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__separators();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__separators() const;
-
-  constexpr void __cordl_internal_set__separators(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
-
-  constexpr ::HMUI::__SegmentedControl__IDataSource*& __cordl_internal_get__dataSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__SegmentedControl__IDataSource*> const& __cordl_internal_get__dataSource() const;
-
-  constexpr void __cordl_internal_set__dataSource(::HMUI::__SegmentedControl__IDataSource* value);
-
-  constexpr int32_t& __cordl_internal_get__selectedCellNumber();
-
-  constexpr int32_t const& __cordl_internal_get__selectedCellNumber() const;
-
-  constexpr void __cordl_internal_set__selectedCellNumber(int32_t value);
+  /// @brief Method SetCallbackForCell, addr 0x228209c, size 0x68, virtual false, abstract: false, final false
+  inline void SetCallbackForCell(int32_t cellNumber, ::System::Action_1<int32_t>* callback);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>*& __cordl_internal_get__callbacks();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>*> const& __cordl_internal_get__callbacks() const;
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>*& __cordl_internal_get__cells();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>*> const& __cordl_internal_get__cells() const;
+
+  constexpr ::HMUI::__SegmentedControl__IDataSource*& __cordl_internal_get__dataSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__SegmentedControl__IDataSource*> const& __cordl_internal_get__dataSource() const;
+
+  constexpr int32_t const& __cordl_internal_get__numberOfCells() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfCells();
+
+  constexpr int32_t const& __cordl_internal_get__selectedCellNumber() const;
+
+  constexpr int32_t& __cordl_internal_get__selectedCellNumber();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__separatorPrefab() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__separatorPrefab();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__separators();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__separators() const;
+
+  constexpr ::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*& __cordl_internal_get_didSelectCellEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>*> const& __cordl_internal_get_didSelectCellEvent() const;
+
   constexpr void __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action_1<int32_t>*>* value);
 
-  /// @brief Method add_didSelectCellEvent, addr 0x21b42a4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
+  constexpr void __cordl_internal_set__cells(::System::Collections::Generic::List_1<::UnityW<::HMUI::SegmentedControlCell>>* value);
 
-  /// @brief Method remove_didSelectCellEvent, addr 0x21b4354, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
+  constexpr void __cordl_internal_set__dataSource(::HMUI::__SegmentedControl__IDataSource* value);
 
-  /// @brief Method get_dataSource, addr 0x21b4404, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::__SegmentedControl__IDataSource* get_dataSource();
+  constexpr void __cordl_internal_set__numberOfCells(int32_t value);
 
-  /// @brief Method set_dataSource, addr 0x21b3898, size 0x8, virtual false, abstract: false, final false
-  inline void set_dataSource(::HMUI::__SegmentedControl__IDataSource* value);
+  constexpr void __cordl_internal_set__selectedCellNumber(int32_t value);
 
-  /// @brief Method get_selectedCellNumber, addr 0x21b440c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_selectedCellNumber();
+  constexpr void __cordl_internal_set__separatorPrefab(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method get_cells, addr 0x21b4414, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* get_cells();
+  constexpr void __cordl_internal_set__separators(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method CreateCells, addr 0x21b441c, size 0x4bc, virtual false, abstract: false, final false
-  inline void CreateCells();
+  constexpr void __cordl_internal_set_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
 
-  /// @brief Method HandleCellSelectionDidChange, addr 0x21b48e4, size 0x150, virtual false, abstract: false, final false
-  inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
-
-  /// @brief Method SetCallbackForCell, addr 0x21b4a34, size 0x68, virtual false, abstract: false, final false
-  inline void SetCallbackForCell(int32_t cellNumber, ::System::Action_1<int32_t>* callback);
-
-  /// @brief Method ReloadData, addr 0x21b38e0, size 0x408, virtual false, abstract: false, final false
-  inline void ReloadData();
-
-  /// @brief Method SelectCellWithNumber, addr 0x21b4a9c, size 0xa8, virtual false, abstract: false, final false
-  inline void SelectCellWithNumber(int32_t selectCellNumber);
-
-  static inline ::HMUI::SegmentedControl* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21b4120, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281788, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didSelectCellEvent, addr 0x228190c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
+
+  /// @brief Method get_cells, addr 0x2281a7c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::HMUI::SegmentedControlCell>>* get_cells();
+
+  /// @brief Method get_dataSource, addr 0x2281a6c, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::__SegmentedControl__IDataSource* get_dataSource();
+
+  /// @brief Method get_selectedCellNumber, addr 0x2281a74, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_selectedCellNumber();
+
+  /// @brief Method remove_didSelectCellEvent, addr 0x22819bc, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didSelectCellEvent(::System::Action_2<::UnityW<::HMUI::SegmentedControl>, int32_t>* value);
+
+  /// @brief Method set_dataSource, addr 0x2280f00, size 0x8, virtual false, abstract: false, final false
+  inline void set_dataSource(::HMUI::__SegmentedControl__IDataSource* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SegmentedControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SegmentedControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SegmentedControl(SegmentedControl&&) = delete;
@@ -215,12 +217,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SegmentedControl(SegmentedControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SegmentedControl();
-
-public:
   /// @brief Field _separatorPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____separatorPrefab;
 

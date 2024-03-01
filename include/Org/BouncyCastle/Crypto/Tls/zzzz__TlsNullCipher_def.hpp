@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNullCipher);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1313))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsNullCipher*
 class CORDL_TYPE TlsNullCipher : public ::System::Object {
 public:
@@ -37,56 +35,62 @@ public:
   /// @brief Field context, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
-  /// @brief Field writeMac, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_writeMac, put = __cordl_internal_set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
-
   /// @brief Field readMac, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_readMac, put = __cordl_internal_set_readMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
+
+  /// @brief Field writeMac, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_writeMac, put = __cordl_internal_set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
+  /// @brief Method DecodeCiphertext, addr 0x1020324, size 0x194, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
+
+  /// @brief Method EncodePlaintext, addr 0x10201f4, size 0x130, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
+
+  /// @brief Method GetPlaintextLimit, addr 0x10201c8, size 0x2c, virtual true, abstract: false, final false
+  inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
+                                                                          ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_readMac();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_readMac() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_writeMac();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_writeMac() const;
 
-  constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
-
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_readMac();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_readMac() const;
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
   constexpr void __cordl_internal_set_readMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
+  constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  /// @brief Method .ctor, addr 0xfdabd4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101fba4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
-                                                                          ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
-
-  /// @brief Method .ctor, addr 0xfdac00, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101fbd0, size 0x458, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
-  /// @brief Method GetPlaintextLimit, addr 0xfdb1f8, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
-  /// @brief Method EncodePlaintext, addr 0xfdb224, size 0x130, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsNullCipher();
 
-  /// @brief Method DecodeCiphertext, addr 0xfdb354, size 0x194, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsNullCipher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsNullCipher(TlsNullCipher&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsNullCipher(TlsNullCipher const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsNullCipher();
-
-public:
   /// @brief Field context, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsContext* ___context;
 

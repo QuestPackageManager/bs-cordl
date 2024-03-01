@@ -19,22 +19,20 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerState_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8639))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8640))
 // CS Name: ::OVR.OpenVR::VRControllerState_t
 struct CORDL_TYPE VRControllerState_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRControllerState_t();
+
   // Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
   // name: "ulButtonTouched", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "rAxis0", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name:
   // "rAxis1", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis2", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam
   // { name: "rAxis3", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
   constexpr VRControllerState_t(uint32_t unPacketNum, uint64_t ulButtonPressed, uint64_t ulButtonTouched, ::OVR::OpenVR::VRControllerAxis_t rAxis0, ::OVR::OpenVR::VRControllerAxis_t rAxis1,
                                 ::OVR::OpenVR::VRControllerAxis_t rAxis2, ::OVR::OpenVR::VRControllerAxis_t rAxis3, ::OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRControllerState_t();
 
   /// @brief Field unPacketNum, offset: 0x0, size: 0x4, def value: None
   uint32_t unPacketNum;

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::Sockets::SocketFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7358))
 // CS Name: ::System.Net.Sockets::SocketFlags
 struct CORDL_TYPE SocketFlags {
 public:
@@ -42,27 +40,26 @@ public:
     return static_cast<__SocketFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SocketFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SocketFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SocketFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Broadcast value: static_cast<int32_t>(0x400)
+  static ::System::Net::Sockets::SocketFlags const Broadcast;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Net::Sockets::SocketFlags const None;
-
-  /// @brief Field OutOfBand value: static_cast<int32_t>(0x1)
-  static ::System::Net::Sockets::SocketFlags const OutOfBand;
-
-  /// @brief Field Peek value: static_cast<int32_t>(0x2)
-  static ::System::Net::Sockets::SocketFlags const Peek;
+  /// @brief Field ControlDataTruncated value: static_cast<int32_t>(0x200)
+  static ::System::Net::Sockets::SocketFlags const ControlDataTruncated;
 
   /// @brief Field DontRoute value: static_cast<int32_t>(0x4)
   static ::System::Net::Sockets::SocketFlags const DontRoute;
@@ -70,20 +67,26 @@ public:
   /// @brief Field MaxIOVectorLength value: static_cast<int32_t>(0x10)
   static ::System::Net::Sockets::SocketFlags const MaxIOVectorLength;
 
-  /// @brief Field Truncated value: static_cast<int32_t>(0x100)
-  static ::System::Net::Sockets::SocketFlags const Truncated;
-
-  /// @brief Field ControlDataTruncated value: static_cast<int32_t>(0x200)
-  static ::System::Net::Sockets::SocketFlags const ControlDataTruncated;
-
-  /// @brief Field Broadcast value: static_cast<int32_t>(0x400)
-  static ::System::Net::Sockets::SocketFlags const Broadcast;
-
   /// @brief Field Multicast value: static_cast<int32_t>(0x800)
   static ::System::Net::Sockets::SocketFlags const Multicast;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Net::Sockets::SocketFlags const None;
+
+  /// @brief Field OutOfBand value: static_cast<int32_t>(0x1)
+  static ::System::Net::Sockets::SocketFlags const OutOfBand;
+
   /// @brief Field Partial value: static_cast<int32_t>(0x8000)
   static ::System::Net::Sockets::SocketFlags const Partial;
+
+  /// @brief Field Peek value: static_cast<int32_t>(0x2)
+  static ::System::Net::Sockets::SocketFlags const Peek;
+
+  /// @brief Field Truncated value: static_cast<int32_t>(0x100)
+  static ::System::Net::Sockets::SocketFlags const Truncated;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

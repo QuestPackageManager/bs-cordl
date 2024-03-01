@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Text::__ASCIIEncoding__ASCIIEncodingSealed);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2826))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2825))
 // CS Name: ::ASCIIEncoding::ASCIIEncodingSealed*
 class CORDL_TYPE __ASCIIEncoding__ASCIIEncodingSealed : public ::System::Text::ASCIIEncoding {
 public:
   // Declarations
   static inline ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2656148, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724894, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ASCIIEncoding__ASCIIEncodingSealed();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ASCIIEncoding__ASCIIEncodingSealed", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ASCIIEncoding__ASCIIEncodingSealed(__ASCIIEncoding__ASCIIEncodingSealed&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ASCIIEncoding__ASCIIEncodingSealed(__ASCIIEncoding__ASCIIEncodingSealed const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ASCIIEncoding__ASCIIEncodingSealed();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

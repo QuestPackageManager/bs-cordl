@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AvatarEditorResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13353))
 // CS Name: ::Oculus.Platform.Models::AvatarEditorResult*
 class CORDL_TYPE AvatarEditorResult : public ::System::Object {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field RequestSent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_RequestSent, put = __cordl_internal_set_RequestSent)) bool RequestSent;
 
-  constexpr bool& __cordl_internal_get_RequestSent();
+  static inline ::Oculus::Platform::Models::AvatarEditorResult* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_RequestSent() const;
 
+  constexpr bool& __cordl_internal_get_RequestSent();
+
   constexpr void __cordl_internal_set_RequestSent(bool value);
 
-  static inline ::Oculus::Platform::Models::AvatarEditorResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x27371f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f6568, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarEditorResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarEditorResult(AvatarEditorResult&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarEditorResult(AvatarEditorResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarEditorResult();
-
-public:
   /// @brief Field RequestSent, offset: 0x10, size: 0x1, def value: None
   bool ___RequestSent;
 

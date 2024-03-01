@@ -20,26 +20,30 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColliderBehaviour);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12021))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12009))
 // CS Name: ::UnityEngine.ProBuilder::ColliderBehaviour*
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2b3afdc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2c220b0, size 0x10c, virtual true, abstract: false, final false
   inline void Initialize();
-
-  /// @brief Method OnEnterPlayMode, addr 0x2b3b1cc, size 0xb8, virtual true, abstract: false, final false
-  inline void OnEnterPlayMode();
-
-  /// @brief Method OnSceneLoaded, addr 0x2b3b284, size 0xb8, virtual true, abstract: false, final false
-  inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b3b33c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x2c222a0, size 0xb8, virtual true, abstract: false, final false
+  inline void OnEnterPlayMode();
+
+  /// @brief Method OnSceneLoaded, addr 0x2c22358, size 0xb8, virtual true, abstract: false, final false
+  inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
+
+  /// @brief Method .ctor, addr 0x2c22410, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColliderBehaviour();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColliderBehaviour(ColliderBehaviour&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColliderBehaviour(ColliderBehaviour const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColliderBehaviour();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

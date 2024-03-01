@@ -35,8 +35,6 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3847))
 // CS Name: ::LowLevelDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __LowLevelDictionary_2__Entry : public ::System::Object {
 public:
@@ -44,35 +42,41 @@ public:
   /// @brief Field _key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) TKey _key;
 
-  /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) TValue _value;
-
   /// @brief Field _next, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* _next;
 
-  constexpr TKey& __cordl_internal_get__key();
+  /// @brief Field _value, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) TValue _value;
+
+  static inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* New_ctor();
 
   constexpr TKey const& __cordl_internal_get__key() const;
 
-  constexpr void __cordl_internal_set__key(TKey value);
-
-  constexpr TValue& __cordl_internal_get__value();
-
-  constexpr TValue const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(TValue value);
+  constexpr TKey& __cordl_internal_get__key();
 
   constexpr ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*& __cordl_internal_get__next();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*> const& __cordl_internal_get__next() const;
 
+  constexpr TValue const& __cordl_internal_get__value() const;
+
+  constexpr TValue& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__key(TKey value);
+
   constexpr void __cordl_internal_set__next(::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* value);
 
-  static inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* New_ctor();
+  constexpr void __cordl_internal_set__value(TValue value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LowLevelDictionary_2__Entry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LowLevelDictionary_2__Entry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LowLevelDictionary_2__Entry(__LowLevelDictionary_2__Entry&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LowLevelDictionary_2__Entry(__LowLevelDictionary_2__Entry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LowLevelDictionary_2__Entry();
-
-public:
   /// @brief Field _key, offset: 0x10, size: 0x8, def value: None
   TKey ____key;
 
@@ -106,17 +104,12 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue, typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
 // CS Name: ::LowLevelDictionary`2::DefaultComparer`1<TKey,TValue,T>*
 class CORDL_TYPE __LowLevelDictionary_2__DefaultComparer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept;
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(T x, T y);
@@ -129,6 +122,15 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LowLevelDictionary_2__DefaultComparer_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LowLevelDictionary_2__DefaultComparer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LowLevelDictionary_2__DefaultComparer_1(__LowLevelDictionary_2__DefaultComparer_1&&) = delete;
@@ -137,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LowLevelDictionary_2__DefaultComparer_1(__LowLevelDictionary_2__DefaultComparer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LowLevelDictionary_2__DefaultComparer_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -153,8 +149,6 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
 // CS Name: ::System.Collections.Generic::LowLevelDictionary`2<TKey,TValue>*
 class CORDL_TYPE LowLevelDictionary_2 : public ::System::Object {
 public:
@@ -163,10 +157,15 @@ public:
 
   using Entry = ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>;
 
+  __declspec(property(put = set_Item)) TKey Item;
+
   /// @brief Field _buckets, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__buckets,
                       put = __cordl_internal_set__buckets))::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*,
                                                                     ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> _buckets;
+
+  /// @brief Field _comparer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
 
   /// @brief Field _numEntries, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
@@ -174,44 +173,57 @@ public:
   /// @brief Field _version, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
-  /// @brief Field _comparer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear(int32_t capacity);
 
-  __declspec(property(put = set_Item)) TKey Item;
+  /// @brief Method ExpandBuckets, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ExpandBuckets();
 
-  constexpr ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*>&
-  __cordl_internal_get__buckets();
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* Find(TKey key);
+
+  /// @brief Method GetBucket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t GetBucket(TKey key, int32_t numBuckets);
+
+  static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor();
+
+  static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
+
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Remove(TKey key);
+
+  /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* UncheckedAdd(TKey key, TValue value);
 
   constexpr ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> const&
   __cordl_internal_get__buckets() const;
 
-  constexpr void __cordl_internal_set__buckets(
-      ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> value);
-
-  constexpr int32_t& __cordl_internal_get__numEntries();
-
-  constexpr int32_t const& __cordl_internal_get__numEntries() const;
-
-  constexpr void __cordl_internal_set__numEntries(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__version();
-
-  constexpr int32_t const& __cordl_internal_get__version() const;
-
-  constexpr void __cordl_internal_set__version(int32_t value);
+  constexpr ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*>&
+  __cordl_internal_get__buckets();
 
   constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get__comparer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get__comparer() const;
 
+  constexpr int32_t const& __cordl_internal_get__numEntries() const;
+
+  constexpr int32_t& __cordl_internal_get__numEntries();
+
+  constexpr int32_t const& __cordl_internal_get__version() const;
+
+  constexpr int32_t& __cordl_internal_get__version();
+
+  constexpr void __cordl_internal_set__buckets(
+      ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> value);
+
   constexpr void __cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
-  static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor();
+  constexpr void __cordl_internal_set__numEntries(int32_t value);
+
+  constexpr void __cordl_internal_set__version(int32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
-
-  static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
@@ -219,24 +231,12 @@ public:
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(TKey key, TValue value);
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear(int32_t capacity);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LowLevelDictionary_2();
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Remove(TKey key);
-
-  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* Find(TKey key);
-
-  /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* UncheckedAdd(TKey key, TValue value);
-
-  /// @brief Method ExpandBuckets, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ExpandBuckets();
-
-  /// @brief Method GetBucket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t GetBucket(TKey key, int32_t numBuckets);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LowLevelDictionary_2(LowLevelDictionary_2&&) = delete;
@@ -245,12 +245,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LowLevelDictionary_2(LowLevelDictionary_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LowLevelDictionary_2();
-
-public:
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> ____buckets;
 

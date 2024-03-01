@@ -58,8 +58,6 @@ namespace Zenject {
 // cpp template
 template <typename TObject, typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9779))
 // CS Name: ::BindSignalFromBinder`2::<>c<TObject,TSignal>*
 class CORDL_TYPE __BindSignalFromBinder_2____c : public ::System::Object {
 public:
@@ -76,35 +74,16 @@ public:
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* __9__7_0;
 
-  static inline void setStaticF___9(::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>* value);
-
-  static inline ::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>* getStaticF___9();
-
-  static inline void setStaticF___9__5_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* value);
-
-  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* getStaticF___9__5_0();
-
-  static inline void setStaticF___9__6_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* value);
-
-  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* getStaticF___9__6_0();
-
-  static inline void setStaticF___9__7_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* value);
-
-  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* getStaticF___9__7_0();
-
   static inline ::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>* New_ctor();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <FromResolve>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromResolve_b__5_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
+  /// @brief Method <FromNew>b__7_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _FromNew_b__7_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
 
   /// @brief Method <FromResolveAll>b__6_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromResolveAll_b__6_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
 
-  /// @brief Method <FromNew>b__7_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromNew_b__7_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
+  /// @brief Method <FromResolve>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _FromResolve_b__5_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -112,6 +91,31 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>* getStaticF___9();
+
+  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* getStaticF___9__5_0();
+
+  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* getStaticF___9__6_0();
+
+  static inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* getStaticF___9__7_0();
+
+  static inline void setStaticF___9(::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>* value);
+
+  static inline void setStaticF___9__5_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* value);
+
+  static inline void setStaticF___9__6_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* value);
+
+  static inline void setStaticF___9__7_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BindSignalFromBinder_2____c();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BindSignalFromBinder_2____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BindSignalFromBinder_2____c(__BindSignalFromBinder_2____c&&) = delete;
@@ -120,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BindSignalFromBinder_2____c(__BindSignalFromBinder_2____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BindSignalFromBinder_2____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -136,37 +134,32 @@ namespace Zenject {
 // cpp template
 template <typename TObject, typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9780))
 // CS Name: ::BindSignalFromBinder`2::<>c__DisplayClass8_0<TObject,TSignal>*
 class CORDL_TYPE __BindSignalFromBinder_2____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::System::Object* obj;
-
   /// @brief Field <>4__this, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::BindSignalFromBinder_2<TObject, TSignal>* __4__this;
 
-  constexpr ::System::Object*& __cordl_internal_get_obj();
+  /// @brief Field obj, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::System::Object* obj;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_obj() const;
+  static inline ::Zenject::__BindSignalFromBinder_2____c__DisplayClass8_0<TObject, TSignal>* New_ctor();
 
-  constexpr void __cordl_internal_set_obj(::System::Object* value);
+  /// @brief Method <From>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _From_b__1(::System::Object* s);
 
   constexpr ::Zenject::BindSignalFromBinder_2<TObject, TSignal>*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::BindSignalFromBinder_2<TObject, TSignal>*> const& __cordl_internal_get___4__this() const;
 
+  constexpr ::System::Object*& __cordl_internal_get_obj();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_obj() const;
+
   constexpr void __cordl_internal_set___4__this(::Zenject::BindSignalFromBinder_2<TObject, TSignal>* value);
 
-  static inline ::Zenject::__BindSignalFromBinder_2____c__DisplayClass8_0<TObject, TSignal>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <From>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _From_b__1(::System::Object* s);
+  constexpr void __cordl_internal_set_obj(::System::Object* value);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -174,6 +167,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BindSignalFromBinder_2____c__DisplayClass8_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BindSignalFromBinder_2____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BindSignalFromBinder_2____c__DisplayClass8_0(__BindSignalFromBinder_2____c__DisplayClass8_0&&) = delete;
@@ -182,12 +184,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BindSignalFromBinder_2____c__DisplayClass8_0(__BindSignalFromBinder_2____c__DisplayClass8_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BindSignalFromBinder_2____c__DisplayClass8_0();
-
-public:
   /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___obj;
 
@@ -204,58 +200,31 @@ namespace Zenject {
 // cpp template
 template <typename TObject, typename TSignal>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9781))
 // CS Name: ::Zenject::BindSignalFromBinder`2<TObject,TSignal>*
 class CORDL_TYPE BindSignalFromBinder_2 : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass8_0 = ::Zenject::__BindSignalFromBinder_2____c__DisplayClass8_0<TObject, TSignal>;
-
   using __c = ::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>;
+
+  using __c__DisplayClass8_0 = ::Zenject::__BindSignalFromBinder_2____c__DisplayClass8_0<TObject, TSignal>;
 
   /// @brief Field _bindStatement, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bindStatement, put = __cordl_internal_set__bindStatement))::Zenject::BindStatement* _bindStatement;
 
-  /// @brief Field _methodGetter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__methodGetter, put = __cordl_internal_set__methodGetter))::System::Func_2<TObject, ::System::Action_1<TSignal>*>* _methodGetter;
-
   /// @brief Field _container, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
+  /// @brief Field _methodGetter, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__methodGetter, put = __cordl_internal_set__methodGetter))::System::Func_2<TObject, ::System::Action_1<TSignal>*>* _methodGetter;
 
   /// @brief Field _signalBindInfo, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__signalBindInfo, put = __cordl_internal_set__signalBindInfo))::Zenject::SignalBindingBindInfo* _signalBindInfo;
 
-  constexpr ::Zenject::BindStatement*& __cordl_internal_get__bindStatement();
+  /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::SignalCopyBinder* From(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* objectBindCallback);
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindStatement*> const& __cordl_internal_get__bindStatement() const;
-
-  constexpr void __cordl_internal_set__bindStatement(::Zenject::BindStatement* value);
-
-  constexpr ::System::Func_2<TObject, ::System::Action_1<TSignal>*>*& __cordl_internal_get__methodGetter();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObject, ::System::Action_1<TSignal>*>*> const& __cordl_internal_get__methodGetter() const;
-
-  constexpr void __cordl_internal_set__methodGetter(::System::Func_2<TObject, ::System::Action_1<TSignal>*>* value);
-
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
-
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
-  constexpr ::Zenject::SignalBindingBindInfo*& __cordl_internal_get__signalBindInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBindingBindInfo*> const& __cordl_internal_get__signalBindInfo() const;
-
-  constexpr void __cordl_internal_set__signalBindInfo(::Zenject::SignalBindingBindInfo* value);
-
-  static inline ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* New_ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement,
-                                                                              ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter, ::Zenject::DiContainer* container);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement, ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter,
-                    ::Zenject::DiContainer* container);
+  /// @brief Method FromNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Zenject::SignalCopyBinder* FromNew();
 
   /// @brief Method FromResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* FromResolve();
@@ -263,14 +232,35 @@ public:
   /// @brief Method FromResolveAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* FromResolveAll();
 
-  /// @brief Method FromNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::SignalCopyBinder* FromNew();
-
-  /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Zenject::SignalCopyBinder* From(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* objectBindCallback);
+  static inline ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* New_ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement,
+                                                                              ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter, ::Zenject::DiContainer* container);
 
   /// @brief Method <From>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<::System::Object*>* _From_b__8_0(::System::Object* obj);
+
+  constexpr ::Zenject::BindStatement*& __cordl_internal_get__bindStatement();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindStatement*> const& __cordl_internal_get__bindStatement() const;
+
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+
+  constexpr ::System::Func_2<TObject, ::System::Action_1<TSignal>*>*& __cordl_internal_get__methodGetter();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObject, ::System::Action_1<TSignal>*>*> const& __cordl_internal_get__methodGetter() const;
+
+  constexpr ::Zenject::SignalBindingBindInfo*& __cordl_internal_get__signalBindInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBindingBindInfo*> const& __cordl_internal_get__signalBindInfo() const;
+
+  constexpr void __cordl_internal_set__bindStatement(::Zenject::BindStatement* value);
+
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
+  constexpr void __cordl_internal_set__methodGetter(::System::Func_2<TObject, ::System::Action_1<TSignal>*>* value);
+
+  constexpr void __cordl_internal_set__signalBindInfo(::Zenject::SignalBindingBindInfo* value);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -278,6 +268,16 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement, ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter,
+                    ::Zenject::DiContainer* container);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BindSignalFromBinder_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BindSignalFromBinder_2(BindSignalFromBinder_2&&) = delete;
@@ -286,12 +286,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BindSignalFromBinder_2(BindSignalFromBinder_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindSignalFromBinder_2();
-
-public:
   /// @brief Field _bindStatement, offset: 0x10, size: 0x8, def value: None
   ::Zenject::BindStatement* ____bindStatement;
 

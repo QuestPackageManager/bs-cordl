@@ -19,20 +19,18 @@ MARK_VAL_T(::System::IO::MonoIOStat);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3607))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3630))
 // CS Name: ::System.IO::MonoIOStat
 struct CORDL_TYPE MonoIOStat {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoIOStat();
+
   // Ctor Parameters [CppParam { name: "fileAttributes", ty: "::System::IO::FileAttributes", modifiers: "", def_value: None }, CppParam { name: "Length", ty: "int64_t", modifiers: "", def_value: None
   // }, CppParam { name: "CreationTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "LastAccessTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name:
   // "LastWriteTime", ty: "int64_t", modifiers: "", def_value: None }]
   constexpr MonoIOStat(::System::IO::FileAttributes fileAttributes, int64_t Length, int64_t CreationTime, int64_t LastAccessTime, int64_t LastWriteTime) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoIOStat();
 
   /// @brief Field fileAttributes, offset: 0x0, size: 0x4, def value: None
   ::System::IO::FileAttributes fileAttributes;

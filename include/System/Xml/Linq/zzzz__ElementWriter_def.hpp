@@ -28,43 +28,41 @@ MARK_VAL_T(::System::Xml::Linq::ElementWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15562))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15560))
 // CS Name: ::System.Xml.Linq::ElementWriter
 struct CORDL_TYPE ElementWriter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2862694, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlWriter* writer);
-
-  /// @brief Method WriteElement, addr 0x28626a0, size 0x1a8, virtual false, abstract: false, final false
-  inline void WriteElement(::System::Xml::Linq::XElement* e);
-
-  /// @brief Method GetPrefixOfNamespace, addr 0x28631d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x2948654, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns, bool allowDefaultNamespace);
 
-  /// @brief Method PushAncestors, addr 0x2862ef8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method PushAncestors, addr 0x2948374, size 0x128, virtual false, abstract: false, final false
   inline void PushAncestors(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method PushElement, addr 0x28634ac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x2948928, size 0xd4, virtual false, abstract: false, final false
   inline void PushElement(::System::Xml::Linq::XElement* e);
 
-  /// @brief Method WriteEndElement, addr 0x2863180, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteElement, addr 0x2947b1c, size 0x1a8, virtual false, abstract: false, final false
+  inline void WriteElement(::System::Xml::Linq::XElement* e);
+
+  /// @brief Method WriteEndElement, addr 0x29485fc, size 0x2c, virtual false, abstract: false, final false
   inline void WriteEndElement();
 
-  /// @brief Method WriteFullEndElement, addr 0x28631ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WriteFullEndElement, addr 0x2948628, size 0x2c, virtual false, abstract: false, final false
   inline void WriteFullEndElement();
 
-  /// @brief Method WriteStartElement, addr 0x2863020, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x294849c, size 0x160, virtual false, abstract: false, final false
   inline void WriteStartElement(::System::Xml::Linq::XElement* e);
 
-  // Ctor Parameters [CppParam { name: "_writer", ty: "::System::Xml::XmlWriter*", modifiers: "", def_value: None }, CppParam { name: "_resolver", ty: "::System::Xml::Linq::NamespaceResolver",
-  // modifiers: "", def_value: None }]
-  constexpr ElementWriter(::System::Xml::XmlWriter* _writer, ::System::Xml::Linq::NamespaceResolver _resolver) noexcept;
+  /// @brief Method .ctor, addr 0x2947b10, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlWriter* writer);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ElementWriter();
+
+  // Ctor Parameters [CppParam { name: "_writer", ty: "::System::Xml::XmlWriter*", modifiers: "", def_value: None }, CppParam { name: "_resolver", ty: "::System::Xml::Linq::NamespaceResolver",
+  // modifiers: "", def_value: None }]
+  constexpr ElementWriter(::System::Xml::XmlWriter* _writer, ::System::Xml::Linq::NamespaceResolver _resolver) noexcept;
 
   /// @brief Field _writer, offset: 0x0, size: 0x8, def value: None
   ::System::Xml::XmlWriter* _writer;

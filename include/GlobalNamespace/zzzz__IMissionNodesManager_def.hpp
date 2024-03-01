@@ -19,21 +19,19 @@ MARK_REF_PTR_T(::GlobalNamespace::IMissionNodesManager);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10866))
 // CS Name: ::IMissionNodesManager*
 class CORDL_TYPE IMissionNodesManager {
 public:
   // Declarations
-  __declspec(property(get = get_finalMissionNode))::GlobalNamespace::IMissionNode* finalMissionNode;
-
   __declspec(property(get = get_allMissionNodes))::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::IMissionNode*>* allMissionNodes;
 
-  /// @brief Method get_finalMissionNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::IMissionNode* get_finalMissionNode();
+  __declspec(property(get = get_finalMissionNode))::GlobalNamespace::IMissionNode* finalMissionNode;
 
   /// @brief Method get_allMissionNodes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::IMissionNode*>* get_allMissionNodes();
+
+  /// @brief Method get_finalMissionNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::IMissionNode* get_finalMissionNode();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMissionNodesManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

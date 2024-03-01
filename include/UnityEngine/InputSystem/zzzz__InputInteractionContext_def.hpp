@@ -40,8 +40,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputInteractionContext);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5464))
 // CS Name: ::InputInteractionContext::Flags
 struct CORDL_TYPE __InputInteractionContext__Flags {
 public:
@@ -58,21 +56,26 @@ public:
     return static_cast<____InputInteractionContext__Flags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputInteractionContext__Flags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __InputInteractionContext__Flags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __InputInteractionContext__Flags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field TimerHasExpired value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::__InputInteractionContext__Flags const TimerHasExpired;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -86,8 +89,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputInteractionContext__Fl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5435)), TypeDefinitionIndex(TypeDefinitionIndex(5464))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5465))
 // CS Name: ::UnityEngine.InputSystem::InputInteractionContext
 struct CORDL_TYPE InputInteractionContext {
 public:
@@ -96,109 +97,109 @@ public:
 
   __declspec(property(get = get_action))::UnityEngine::InputSystem::InputAction* action;
 
+  __declspec(property(get = get_bindingIndex)) int32_t bindingIndex;
+
   __declspec(property(get = get_control))::UnityEngine::InputSystem::InputControl* control;
-
-  __declspec(property(get = get_phase))::UnityEngine::InputSystem::InputActionPhase phase;
-
-  __declspec(property(get = get_time)) double_t time;
-
-  __declspec(property(get = get_startTime)) double_t startTime;
-
-  __declspec(property(get = get_timerHasExpired, put = set_timerHasExpired)) bool timerHasExpired;
-
-  __declspec(property(get = get_isWaiting)) bool isWaiting;
-
-  __declspec(property(get = get_isStarted)) bool isStarted;
-
-  __declspec(property(get = get_mapIndex)) int32_t mapIndex;
 
   __declspec(property(get = get_controlIndex)) int32_t controlIndex;
 
-  __declspec(property(get = get_bindingIndex)) int32_t bindingIndex;
-
   __declspec(property(get = get_interactionIndex)) int32_t interactionIndex;
 
-  /// @brief Method get_action, addr 0x2a5f684, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputAction* get_action();
+  __declspec(property(get = get_isStarted)) bool isStarted;
 
-  /// @brief Method get_control, addr 0x2a5f6a8, size 0x24, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* get_control();
+  __declspec(property(get = get_isWaiting)) bool isWaiting;
 
-  /// @brief Method get_phase, addr 0x2a5f6cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
+  __declspec(property(get = get_mapIndex)) int32_t mapIndex;
 
-  /// @brief Method get_time, addr 0x2a5f6d4, size 0x8, virtual false, abstract: false, final false
-  inline double_t get_time();
+  __declspec(property(get = get_phase))::UnityEngine::InputSystem::InputActionPhase phase;
 
-  /// @brief Method get_startTime, addr 0x2a5f6dc, size 0x8, virtual false, abstract: false, final false
-  inline double_t get_startTime();
+  __declspec(property(get = get_startTime)) double_t startTime;
 
-  /// @brief Method get_timerHasExpired, addr 0x2a5f6e4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_timerHasExpired();
+  __declspec(property(get = get_time)) double_t time;
 
-  /// @brief Method set_timerHasExpired, addr 0x2a5f6f0, size 0x1c, virtual false, abstract: false, final false
-  inline void set_timerHasExpired(bool value);
+  __declspec(property(get = get_timerHasExpired, put = set_timerHasExpired)) bool timerHasExpired;
 
-  /// @brief Method get_isWaiting, addr 0x2a5f70c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_isWaiting();
-
-  /// @brief Method get_isStarted, addr 0x2a5f71c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_isStarted();
-
-  /// @brief Method ComputeMagnitude, addr 0x2a5f72c, size 0x8, virtual false, abstract: false, final false
-  inline float_t ComputeMagnitude();
-
-  /// @brief Method ControlIsActuated, addr 0x2a5f734, size 0xc, virtual false, abstract: false, final false
-  inline bool ControlIsActuated(float_t threshold);
-
-  /// @brief Method Started, addr 0x2a5f740, size 0x38, virtual false, abstract: false, final false
-  inline void Started();
-
-  /// @brief Method Performed, addr 0x2a5f778, size 0x40, virtual false, abstract: false, final false
-  inline void Performed();
-
-  /// @brief Method PerformedAndStayStarted, addr 0x2a5f7b8, size 0x40, virtual false, abstract: false, final false
-  inline void PerformedAndStayStarted();
-
-  /// @brief Method PerformedAndStayPerformed, addr 0x2a5f7f8, size 0x40, virtual false, abstract: false, final false
-  inline void PerformedAndStayPerformed();
-
-  /// @brief Method Canceled, addr 0x2a5f838, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Canceled, addr 0x2b4690c, size 0x40, virtual false, abstract: false, final false
   inline void Canceled();
 
-  /// @brief Method Waiting, addr 0x2a5f878, size 0x40, virtual false, abstract: false, final false
-  inline void Waiting();
+  /// @brief Method ComputeMagnitude, addr 0x2b46800, size 0x8, virtual false, abstract: false, final false
+  inline float_t ComputeMagnitude();
 
-  /// @brief Method SetTimeout, addr 0x2a5f8b8, size 0x24, virtual false, abstract: false, final false
-  inline void SetTimeout(float_t seconds);
+  /// @brief Method ControlIsActuated, addr 0x2b46808, size 0xc, virtual false, abstract: false, final false
+  inline bool ControlIsActuated(float_t threshold);
 
-  /// @brief Method SetTotalTimeoutCompletionTime, addr 0x2a5f8dc, size 0x94, virtual false, abstract: false, final false
-  inline void SetTotalTimeoutCompletionTime(float_t seconds);
+  /// @brief Method Performed, addr 0x2b4684c, size 0x40, virtual false, abstract: false, final false
+  inline void Performed();
+
+  /// @brief Method PerformedAndStayPerformed, addr 0x2b468cc, size 0x40, virtual false, abstract: false, final false
+  inline void PerformedAndStayPerformed();
+
+  /// @brief Method PerformedAndStayStarted, addr 0x2b4688c, size 0x40, virtual false, abstract: false, final false
+  inline void PerformedAndStayStarted();
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline TValue ReadValue();
 
-  /// @brief Method get_mapIndex, addr 0x2a5f970, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_mapIndex();
+  /// @brief Method SetTimeout, addr 0x2b4698c, size 0x24, virtual false, abstract: false, final false
+  inline void SetTimeout(float_t seconds);
 
-  /// @brief Method get_controlIndex, addr 0x2a5f978, size 0xc, virtual false, abstract: false, final false
-  inline int32_t get_controlIndex();
+  /// @brief Method SetTotalTimeoutCompletionTime, addr 0x2b469b0, size 0x94, virtual false, abstract: false, final false
+  inline void SetTotalTimeoutCompletionTime(float_t seconds);
 
-  /// @brief Method get_bindingIndex, addr 0x2a5f984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Started, addr 0x2b46814, size 0x38, virtual false, abstract: false, final false
+  inline void Started();
+
+  /// @brief Method Waiting, addr 0x2b4694c, size 0x40, virtual false, abstract: false, final false
+  inline void Waiting();
+
+  /// @brief Method get_action, addr 0x2b46758, size 0x24, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputAction* get_action();
+
+  /// @brief Method get_bindingIndex, addr 0x2b46a58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bindingIndex();
 
-  /// @brief Method get_interactionIndex, addr 0x2a5f98c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x2b4677c, size 0x24, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputControl* get_control();
+
+  /// @brief Method get_controlIndex, addr 0x2b46a4c, size 0xc, virtual false, abstract: false, final false
+  inline int32_t get_controlIndex();
+
+  /// @brief Method get_interactionIndex, addr 0x2b46a60, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_interactionIndex();
+
+  /// @brief Method get_isStarted, addr 0x2b467f0, size 0x10, virtual false, abstract: false, final false
+  inline bool get_isStarted();
+
+  /// @brief Method get_isWaiting, addr 0x2b467e0, size 0x10, virtual false, abstract: false, final false
+  inline bool get_isWaiting();
+
+  /// @brief Method get_mapIndex, addr 0x2b46a44, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_mapIndex();
+
+  /// @brief Method get_phase, addr 0x2b467a0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
+
+  /// @brief Method get_startTime, addr 0x2b467b0, size 0x8, virtual false, abstract: false, final false
+  inline double_t get_startTime();
+
+  /// @brief Method get_time, addr 0x2b467a8, size 0x8, virtual false, abstract: false, final false
+  inline double_t get_time();
+
+  /// @brief Method get_timerHasExpired, addr 0x2b467b8, size 0xc, virtual false, abstract: false, final false
+  inline bool get_timerHasExpired();
+
+  /// @brief Method set_timerHasExpired, addr 0x2b467c4, size 0x1c, virtual false, abstract: false, final false
+  inline void set_timerHasExpired(bool value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputInteractionContext();
 
   // Ctor Parameters [CppParam { name: "m_State", ty: "::UnityEngine::InputSystem::InputActionState*", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty:
   // "::UnityEngine::InputSystem::__InputInteractionContext__Flags", modifiers: "", def_value: None }, CppParam { name: "m_TriggerState", ty:
   // "::UnityEngine::InputSystem::__InputActionState__TriggerState", modifiers: "", def_value: None }]
   constexpr InputInteractionContext(::UnityEngine::InputSystem::InputActionState* m_State, ::UnityEngine::InputSystem::__InputInteractionContext__Flags m_Flags,
                                     ::UnityEngine::InputSystem::__InputActionState__TriggerState m_TriggerState) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputInteractionContext();
 
   /// @brief Field m_State, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputActionState* m_State;

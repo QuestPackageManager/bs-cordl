@@ -54,20 +54,36 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextWriter);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11741))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11725))
 // CS Name: ::Newtonsoft.Json::JsonTextWriter*
 class CORDL_TYPE JsonTextWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
   // Declarations
-  /// @brief Field _writer, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::IO::TextWriter* _writer;
+  __declspec(property(get = get_ArrayPool, put = set_ArrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* ArrayPool;
+
+  __declspec(property(get = get_Base64Encoder))::Newtonsoft::Json::Utilities::Base64Encoder* Base64Encoder;
+
+  __declspec(property(get = get_IndentChar, put = set_IndentChar)) char16_t IndentChar;
+
+  __declspec(property(get = get_Indentation, put = set_Indentation)) int32_t Indentation;
+
+  __declspec(property(get = get_QuoteChar, put = set_QuoteChar)) char16_t QuoteChar;
+
+  __declspec(property(get = get_QuoteName, put = set_QuoteName)) bool QuoteName;
+
+  /// @brief Field _arrayPool, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__arrayPool, put = __cordl_internal_set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
 
   /// @brief Field _base64Encoder, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__base64Encoder, put = __cordl_internal_set__base64Encoder))::Newtonsoft::Json::Utilities::Base64Encoder* _base64Encoder;
 
+  /// @brief Field _charEscapeFlags, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__charEscapeFlags, put = __cordl_internal_set__charEscapeFlags))::ArrayW<bool, ::Array<bool>*> _charEscapeFlags;
+
   /// @brief Field _indentChar, offset 0x70, size 0x2
   __declspec(property(get = __cordl_internal_get__indentChar, put = __cordl_internal_set__indentChar)) char16_t _indentChar;
+
+  /// @brief Field _indentChars, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__indentChars, put = __cordl_internal_set__indentChars))::ArrayW<char16_t, ::Array<char16_t>*> _indentChars;
 
   /// @brief Field _indentation, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__indentation, put = __cordl_internal_set__indentation)) int32_t _indentation;
@@ -78,266 +94,254 @@ public:
   /// @brief Field _quoteName, offset 0x7a, size 0x1
   __declspec(property(get = __cordl_internal_get__quoteName, put = __cordl_internal_set__quoteName)) bool _quoteName;
 
-  /// @brief Field _charEscapeFlags, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__charEscapeFlags, put = __cordl_internal_set__charEscapeFlags))::ArrayW<bool, ::Array<bool>*> _charEscapeFlags;
-
   /// @brief Field _writeBuffer, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__writeBuffer, put = __cordl_internal_set__writeBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _writeBuffer;
 
-  /// @brief Field _arrayPool, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrayPool, put = __cordl_internal_set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
+  /// @brief Field _writer, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::IO::TextWriter* _writer;
 
-  /// @brief Field _indentChars, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__indentChars, put = __cordl_internal_set__indentChars))::ArrayW<char16_t, ::Array<char16_t>*> _indentChars;
+  /// @brief Method Close, addr 0x273bf40, size 0x50, virtual true, abstract: false, final false
+  inline void Close();
 
-  __declspec(property(get = get_Base64Encoder))::Newtonsoft::Json::Utilities::Base64Encoder* Base64Encoder;
+  /// @brief Method EnsureWriteBuffer, addr 0x273c718, size 0x2c, virtual false, abstract: false, final false
+  inline void EnsureWriteBuffer();
 
-  __declspec(property(get = get_ArrayPool, put = set_ArrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* ArrayPool;
+  /// @brief Method Flush, addr 0x273bf20, size 0x20, virtual true, abstract: false, final false
+  inline void Flush();
 
-  __declspec(property(get = get_Indentation, put = set_Indentation)) int32_t Indentation;
+  static inline ::Newtonsoft::Json::JsonTextWriter* New_ctor(::System::IO::TextWriter* textWriter);
 
-  __declspec(property(get = get_QuoteChar, put = set_QuoteChar)) char16_t QuoteChar;
+  /// @brief Method OnStringEscapeHandlingChanged, addr 0x273c3a8, size 0x4, virtual true, abstract: false, final false
+  inline void OnStringEscapeHandlingChanged();
 
-  __declspec(property(get = get_IndentChar, put = set_IndentChar)) char16_t IndentChar;
+  /// @brief Method UpdateCharEscapeFlags, addr 0x273bda0, size 0x6c, virtual false, abstract: false, final false
+  inline void UpdateCharEscapeFlags();
 
-  __declspec(property(get = get_QuoteName, put = set_QuoteName)) bool QuoteName;
+  /// @brief Method WriteComment, addr 0x273d9b4, size 0xb8, virtual true, abstract: false, final false
+  inline void WriteComment(::StringW text);
 
-  constexpr ::System::IO::TextWriter*& __cordl_internal_get__writer();
+  /// @brief Method WriteEnd, addr 0x273c0b4, size 0xd8, virtual true, abstract: false, final false
+  inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get__writer() const;
+  /// @brief Method WriteEscapedString, addr 0x273c210, size 0xd4, virtual false, abstract: false, final false
+  inline void WriteEscapedString(::StringW value, bool quote);
 
-  constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
+  /// @brief Method WriteIndent, addr 0x273c3ac, size 0x104, virtual true, abstract: false, final false
+  inline void WriteIndent();
 
-  constexpr ::Newtonsoft::Json::Utilities::Base64Encoder*& __cordl_internal_get__base64Encoder();
+  /// @brief Method WriteIndentSpace, addr 0x273c4d8, size 0x28, virtual true, abstract: false, final false
+  inline void WriteIndentSpace();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::Base64Encoder*> const& __cordl_internal_get__base64Encoder() const;
+  /// @brief Method WriteIntegerValue, addr 0x273c87c, size 0xe8, virtual false, abstract: false, final false
+  inline void WriteIntegerValue(uint64_t uvalue);
 
-  constexpr void __cordl_internal_set__base64Encoder(::Newtonsoft::Json::Utilities::Base64Encoder* value);
+  /// @brief Method WriteIntegerValue, addr 0x273c774, size 0x78, virtual false, abstract: false, final false
+  inline void WriteIntegerValue(int64_t value);
 
-  constexpr char16_t& __cordl_internal_get__indentChar();
+  /// @brief Method WriteNull, addr 0x273c52c, size 0x84, virtual true, abstract: false, final false
+  inline void WriteNull();
 
-  constexpr char16_t const& __cordl_internal_get__indentChar() const;
+  /// @brief Method WritePropertyName, addr 0x273c1c0, size 0x50, virtual true, abstract: false, final false
+  inline void WritePropertyName(::StringW name);
 
-  constexpr void __cordl_internal_set__indentChar(char16_t value);
+  /// @brief Method WritePropertyName, addr 0x273c2e4, size 0xc4, virtual true, abstract: false, final false
+  inline void WritePropertyName(::StringW name, bool escape);
 
-  constexpr int32_t& __cordl_internal_get__indentation();
+  /// @brief Method WriteRaw, addr 0x273c634, size 0x40, virtual true, abstract: false, final false
+  inline void WriteRaw(::StringW json);
 
-  constexpr int32_t const& __cordl_internal_get__indentation() const;
+  /// @brief Method WriteStartArray, addr 0x273bfcc, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteStartArray();
 
-  constexpr void __cordl_internal_set__indentation(int32_t value);
+  /// @brief Method WriteStartConstructor, addr 0x273c008, size 0xac, virtual true, abstract: false, final false
+  inline void WriteStartConstructor(::StringW name);
 
-  constexpr char16_t& __cordl_internal_get__quoteChar();
+  /// @brief Method WriteStartObject, addr 0x273bf90, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteStartObject();
 
-  constexpr char16_t const& __cordl_internal_get__quoteChar() const;
+  /// @brief Method WriteUndefined, addr 0x273c5b0, size 0x84, virtual true, abstract: false, final false
+  inline void WriteUndefined();
 
-  constexpr void __cordl_internal_set__quoteChar(char16_t value);
+  /// @brief Method WriteValue, addr 0x273d4b0, size 0xb8, virtual true, abstract: false, final false
+  inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __cordl_internal_get__quoteName();
+  /// @brief Method WriteValue, addr 0x273c674, size 0xa4, virtual true, abstract: false, final false
+  inline void WriteValue(::StringW value);
 
-  constexpr bool const& __cordl_internal_get__quoteName() const;
+  /// @brief Method WriteValue, addr 0x273d2c0, size 0x1f0, virtual true, abstract: false, final false
+  inline void WriteValue(::System::DateTime value);
 
-  constexpr void __cordl_internal_set__quoteName(bool value);
+  /// @brief Method WriteValue, addr 0x273d568, size 0x1fc, virtual true, abstract: false, final false
+  inline void WriteValue(::System::DateTimeOffset value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__charEscapeFlags();
+  /// @brief Method WriteValue, addr 0x273d15c, size 0x9c, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Decimal value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__charEscapeFlags() const;
+  /// @brief Method WriteValue, addr 0x273d764, size 0xfc, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Guid value);
 
-  constexpr void __cordl_internal_set__charEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
+  /// @brief Method WriteValue, addr 0x273cd80, size 0xfc, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Nullable_1<double_t> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__writeBuffer();
+  /// @brief Method WriteValue, addr 0x273cafc, size 0xf0, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Nullable_1<float_t> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__writeBuffer() const;
+  /// @brief Method WriteValue, addr 0x273c524, size 0x8, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Object* value);
 
-  constexpr void __cordl_internal_set__writeBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  /// @brief Method WriteValue, addr 0x273d860, size 0x94, virtual true, abstract: false, final false
+  inline void WriteValue(::System::TimeSpan value);
+
+  /// @brief Method WriteValue, addr 0x273d8f4, size 0xc0, virtual true, abstract: false, final false
+  inline void WriteValue(::System::Uri* value);
+
+  /// @brief Method WriteValue, addr 0x273ce7c, size 0x94, virtual true, abstract: false, final false
+  inline void WriteValue(bool value);
+
+  /// @brief Method WriteValue, addr 0x273cfdc, size 0x94, virtual true, abstract: false, final false
+  inline void WriteValue(char16_t value);
+
+  /// @brief Method WriteValue, addr 0x273cbec, size 0xa8, virtual true, abstract: false, final false
+  inline void WriteValue(double_t value);
+
+  /// @brief Method WriteValue, addr 0x273c964, size 0xa8, virtual true, abstract: false, final false
+  inline void WriteValue(float_t value);
+
+  /// @brief Method WriteValue, addr 0x273cf7c, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(int16_t value);
+
+  /// @brief Method WriteValue, addr 0x273c744, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(int32_t value);
+
+  /// @brief Method WriteValue, addr 0x273c81c, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(int64_t value);
+
+  /// @brief Method WriteValue, addr 0x273d12c, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(int8_t value);
+
+  /// @brief Method WriteValue, addr 0x273cfac, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(uint16_t value);
+
+  /// @brief Method WriteValue, addr 0x273c7ec, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(uint32_t value);
+
+  /// @brief Method WriteValue, addr 0x273c84c, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(uint64_t value);
+
+  /// @brief Method WriteValue, addr 0x273d0fc, size 0x30, virtual true, abstract: false, final false
+  inline void WriteValue(uint8_t value);
+
+  /// @brief Method WriteValueDelimiter, addr 0x273c4b0, size 0x28, virtual true, abstract: false, final false
+  inline void WriteValueDelimiter();
+
+  /// @brief Method WriteValueInternal, addr 0x273c500, size 0x24, virtual false, abstract: false, final false
+  inline void WriteValueInternal(::StringW value, ::Newtonsoft::Json::JsonToken token);
+
+  /// @brief Method WriteWhitespace, addr 0x273da6c, size 0x40, virtual true, abstract: false, final false
+  inline void WriteWhitespace(::StringW ws);
 
   constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __cordl_internal_get__arrayPool();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __cordl_internal_get__arrayPool() const;
 
-  constexpr void __cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+  constexpr ::Newtonsoft::Json::Utilities::Base64Encoder*& __cordl_internal_get__base64Encoder();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__indentChars();
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::Base64Encoder*> const& __cordl_internal_get__base64Encoder() const;
+
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__charEscapeFlags() const;
+
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__charEscapeFlags();
+
+  constexpr char16_t const& __cordl_internal_get__indentChar() const;
+
+  constexpr char16_t& __cordl_internal_get__indentChar();
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__indentChars() const;
 
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__indentChars();
+
+  constexpr int32_t const& __cordl_internal_get__indentation() const;
+
+  constexpr int32_t& __cordl_internal_get__indentation();
+
+  constexpr char16_t const& __cordl_internal_get__quoteChar() const;
+
+  constexpr char16_t& __cordl_internal_get__quoteChar();
+
+  constexpr bool const& __cordl_internal_get__quoteName() const;
+
+  constexpr bool& __cordl_internal_get__quoteName();
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__writeBuffer() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__writeBuffer();
+
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get__writer();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get__writer() const;
+
+  constexpr void __cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+
+  constexpr void __cordl_internal_set__base64Encoder(::Newtonsoft::Json::Utilities::Base64Encoder* value);
+
+  constexpr void __cordl_internal_set__charEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
+
+  constexpr void __cordl_internal_set__indentChar(char16_t value);
+
   constexpr void __cordl_internal_set__indentChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method get_Base64Encoder, addr 0x266c498, size 0x74, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();
+  constexpr void __cordl_internal_set__indentation(int32_t value);
 
-  /// @brief Method get_ArrayPool, addr 0x266c50c, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
+  constexpr void __cordl_internal_set__quoteChar(char16_t value);
 
-  /// @brief Method set_ArrayPool, addr 0x266c514, size 0x60, virtual false, abstract: false, final false
-  inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+  constexpr void __cordl_internal_set__quoteName(bool value);
 
-  /// @brief Method get_Indentation, addr 0x266c574, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Indentation();
+  constexpr void __cordl_internal_set__writeBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_Indentation, addr 0x266c57c, size 0x60, virtual false, abstract: false, final false
-  inline void set_Indentation(int32_t value);
+  constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
 
-  /// @brief Method get_QuoteChar, addr 0x266c5dc, size 0x8, virtual false, abstract: false, final false
-  inline char16_t get_QuoteChar();
-
-  /// @brief Method set_QuoteChar, addr 0x266c5e4, size 0x70, virtual false, abstract: false, final false
-  inline void set_QuoteChar(char16_t value);
-
-  /// @brief Method get_IndentChar, addr 0x266c6c0, size 0x8, virtual false, abstract: false, final false
-  inline char16_t get_IndentChar();
-
-  /// @brief Method set_IndentChar, addr 0x266c6c8, size 0x18, virtual false, abstract: false, final false
-  inline void set_IndentChar(char16_t value);
-
-  /// @brief Method get_QuoteName, addr 0x266c6e0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_QuoteName();
-
-  /// @brief Method set_QuoteName, addr 0x266c6e8, size 0xc, virtual false, abstract: false, final false
-  inline void set_QuoteName(bool value);
-
-  static inline ::Newtonsoft::Json::JsonTextWriter* New_ctor(::System::IO::TextWriter* textWriter);
-
-  /// @brief Method .ctor, addr 0x266c6f4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273be40, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* textWriter);
 
-  /// @brief Method Flush, addr 0x266c7d4, size 0x20, virtual true, abstract: false, final false
-  inline void Flush();
+  /// @brief Method get_ArrayPool, addr 0x273bc58, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method Close, addr 0x266c7f4, size 0x50, virtual true, abstract: false, final false
-  inline void Close();
+  /// @brief Method get_Base64Encoder, addr 0x273bbe4, size 0x74, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();
 
-  /// @brief Method WriteStartObject, addr 0x266c844, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteStartObject();
+  /// @brief Method get_IndentChar, addr 0x273be0c, size 0x8, virtual false, abstract: false, final false
+  inline char16_t get_IndentChar();
 
-  /// @brief Method WriteStartArray, addr 0x266c880, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteStartArray();
+  /// @brief Method get_Indentation, addr 0x273bcc0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Indentation();
 
-  /// @brief Method WriteStartConstructor, addr 0x266c8bc, size 0xac, virtual true, abstract: false, final false
-  inline void WriteStartConstructor(::StringW name);
+  /// @brief Method get_QuoteChar, addr 0x273bd28, size 0x8, virtual false, abstract: false, final false
+  inline char16_t get_QuoteChar();
 
-  /// @brief Method WriteEnd, addr 0x266c968, size 0xd8, virtual true, abstract: false, final false
-  inline void WriteEnd(::Newtonsoft::Json::JsonToken token);
+  /// @brief Method get_QuoteName, addr 0x273be2c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_QuoteName();
 
-  /// @brief Method WritePropertyName, addr 0x266ca74, size 0x50, virtual true, abstract: false, final false
-  inline void WritePropertyName(::StringW name);
+  /// @brief Method set_ArrayPool, addr 0x273bc60, size 0x60, virtual false, abstract: false, final false
+  inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method WritePropertyName, addr 0x266cb98, size 0xc4, virtual true, abstract: false, final false
-  inline void WritePropertyName(::StringW name, bool escape);
+  /// @brief Method set_IndentChar, addr 0x273be14, size 0x18, virtual false, abstract: false, final false
+  inline void set_IndentChar(char16_t value);
 
-  /// @brief Method OnStringEscapeHandlingChanged, addr 0x266cc5c, size 0x4, virtual true, abstract: false, final false
-  inline void OnStringEscapeHandlingChanged();
+  /// @brief Method set_Indentation, addr 0x273bcc8, size 0x60, virtual false, abstract: false, final false
+  inline void set_Indentation(int32_t value);
 
-  /// @brief Method UpdateCharEscapeFlags, addr 0x266c654, size 0x6c, virtual false, abstract: false, final false
-  inline void UpdateCharEscapeFlags();
+  /// @brief Method set_QuoteChar, addr 0x273bd30, size 0x70, virtual false, abstract: false, final false
+  inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method WriteIndent, addr 0x266cc60, size 0x104, virtual true, abstract: false, final false
-  inline void WriteIndent();
+  /// @brief Method set_QuoteName, addr 0x273be34, size 0xc, virtual false, abstract: false, final false
+  inline void set_QuoteName(bool value);
 
-  /// @brief Method WriteValueDelimiter, addr 0x266cd64, size 0x28, virtual true, abstract: false, final false
-  inline void WriteValueDelimiter();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonTextWriter();
 
-  /// @brief Method WriteIndentSpace, addr 0x266cd8c, size 0x28, virtual true, abstract: false, final false
-  inline void WriteIndentSpace();
-
-  /// @brief Method WriteValueInternal, addr 0x266cdb4, size 0x24, virtual false, abstract: false, final false
-  inline void WriteValueInternal(::StringW value, ::Newtonsoft::Json::JsonToken token);
-
-  /// @brief Method WriteValue, addr 0x266cdd8, size 0x8, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Object* value);
-
-  /// @brief Method WriteNull, addr 0x266cde0, size 0x84, virtual true, abstract: false, final false
-  inline void WriteNull();
-
-  /// @brief Method WriteUndefined, addr 0x266ce64, size 0x84, virtual true, abstract: false, final false
-  inline void WriteUndefined();
-
-  /// @brief Method WriteRaw, addr 0x266cee8, size 0x40, virtual true, abstract: false, final false
-  inline void WriteRaw(::StringW json);
-
-  /// @brief Method WriteValue, addr 0x266cf28, size 0xa4, virtual true, abstract: false, final false
-  inline void WriteValue(::StringW value);
-
-  /// @brief Method WriteEscapedString, addr 0x266cac4, size 0xd4, virtual false, abstract: false, final false
-  inline void WriteEscapedString(::StringW value, bool quote);
-
-  /// @brief Method WriteValue, addr 0x266cff8, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(int32_t value);
-
-  /// @brief Method WriteValue, addr 0x266d0a0, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(uint32_t value);
-
-  /// @brief Method WriteValue, addr 0x266d0d0, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(int64_t value);
-
-  /// @brief Method WriteValue, addr 0x266d100, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(uint64_t value);
-
-  /// @brief Method WriteValue, addr 0x266d218, size 0xa8, virtual true, abstract: false, final false
-  inline void WriteValue(float_t value);
-
-  /// @brief Method WriteValue, addr 0x266d3b0, size 0xf0, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Nullable_1<float_t> value);
-
-  /// @brief Method WriteValue, addr 0x266d4a0, size 0xa8, virtual true, abstract: false, final false
-  inline void WriteValue(double_t value);
-
-  /// @brief Method WriteValue, addr 0x266d634, size 0xfc, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Nullable_1<double_t> value);
-
-  /// @brief Method WriteValue, addr 0x266d730, size 0x94, virtual true, abstract: false, final false
-  inline void WriteValue(bool value);
-
-  /// @brief Method WriteValue, addr 0x266d830, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(int16_t value);
-
-  /// @brief Method WriteValue, addr 0x266d860, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(uint16_t value);
-
-  /// @brief Method WriteValue, addr 0x266d890, size 0x94, virtual true, abstract: false, final false
-  inline void WriteValue(char16_t value);
-
-  /// @brief Method WriteValue, addr 0x266d9b0, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(uint8_t value);
-
-  /// @brief Method WriteValue, addr 0x266d9e0, size 0x30, virtual true, abstract: false, final false
-  inline void WriteValue(int8_t value);
-
-  /// @brief Method WriteValue, addr 0x266da10, size 0x9c, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Decimal value);
-
-  /// @brief Method WriteValue, addr 0x266db74, size 0x1f0, virtual true, abstract: false, final false
-  inline void WriteValue(::System::DateTime value);
-
-  /// @brief Method WriteValue, addr 0x266dd64, size 0xb8, virtual true, abstract: false, final false
-  inline void WriteValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method WriteValue, addr 0x266de1c, size 0x1fc, virtual true, abstract: false, final false
-  inline void WriteValue(::System::DateTimeOffset value);
-
-  /// @brief Method WriteValue, addr 0x266e018, size 0xfc, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Guid value);
-
-  /// @brief Method WriteValue, addr 0x266e114, size 0x94, virtual true, abstract: false, final false
-  inline void WriteValue(::System::TimeSpan value);
-
-  /// @brief Method WriteValue, addr 0x266e1a8, size 0xc0, virtual true, abstract: false, final false
-  inline void WriteValue(::System::Uri* value);
-
-  /// @brief Method WriteComment, addr 0x266e268, size 0xb8, virtual true, abstract: false, final false
-  inline void WriteComment(::StringW text);
-
-  /// @brief Method WriteWhitespace, addr 0x266e320, size 0x40, virtual true, abstract: false, final false
-  inline void WriteWhitespace(::StringW ws);
-
-  /// @brief Method EnsureWriteBuffer, addr 0x266cfcc, size 0x2c, virtual false, abstract: false, final false
-  inline void EnsureWriteBuffer();
-
-  /// @brief Method WriteIntegerValue, addr 0x266d028, size 0x78, virtual false, abstract: false, final false
-  inline void WriteIntegerValue(int64_t value);
-
-  /// @brief Method WriteIntegerValue, addr 0x266d130, size 0xe8, virtual false, abstract: false, final false
-  inline void WriteIntegerValue(uint64_t uvalue);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonTextWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonTextWriter(JsonTextWriter&&) = delete;
@@ -346,12 +350,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonTextWriter(JsonTextWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonTextWriter();
-
-public:
   /// @brief Field _writer, offset: 0x60, size: 0x8, def value: None
   ::System::IO::TextWriter* ____writer;
 

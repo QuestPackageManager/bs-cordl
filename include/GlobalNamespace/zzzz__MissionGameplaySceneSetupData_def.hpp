@@ -30,18 +30,15 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionGameplaySceneSetupData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10773)), TypeDefinitionIndex(TypeDefinitionIndex(15456))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5329))
 // CS Name: ::MissionGameplaySceneSetupData*
 class CORDL_TYPE MissionGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field missionObjectives, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_missionObjectives,
-                      put = __cordl_internal_set_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
-
   /// @brief Field autoRestart, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
+
+  /// @brief Field backButtonText, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText))::StringW backButtonText;
 
   /// @brief Field beatmapKey, offset 0x20, size 0x18
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
@@ -52,53 +49,60 @@ public:
   /// @brief Field gameplayModifiers, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Field backButtonText, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText))::StringW backButtonText;
-
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get_missionObjectives();
-
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
-
-  constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
-
-  constexpr bool& __cordl_internal_get_autoRestart();
-
-  constexpr bool const& __cordl_internal_get_autoRestart() const;
-
-  constexpr void __cordl_internal_set_autoRestart(bool value);
-
-  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
-
-  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
-
-  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
-
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
-
-  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
-
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
-
-  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
-
-  constexpr ::StringW& __cordl_internal_get_backButtonText();
-
-  constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
-
-  constexpr void __cordl_internal_set_backButtonText(::StringW value);
+  /// @brief Field missionObjectives, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_missionObjectives,
+                      put = __cordl_internal_set_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
 
   static inline ::GlobalNamespace::MissionGameplaySceneSetupData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives,
                                                                            bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                            ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
-  /// @brief Method .ctor, addr 0x2348e30, size 0x64, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_autoRestart() const;
+
+  constexpr bool& __cordl_internal_get_autoRestart();
+
+  constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
+
+  constexpr ::StringW& __cordl_internal_get_backButtonText();
+
+  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
+
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
+
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
+
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get_missionObjectives();
+
+  constexpr void __cordl_internal_set_autoRestart(bool value);
+
+  constexpr void __cordl_internal_set_backButtonText(::StringW value);
+
+  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
+
+  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+
+  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
+
+  /// @brief Method .ctor, addr 0x2416d78, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::StringW backButtonText);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionGameplaySceneSetupData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionGameplaySceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionGameplaySceneSetupData(MissionGameplaySceneSetupData&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionGameplaySceneSetupData(MissionGameplaySceneSetupData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionGameplaySceneSetupData();
-
-public:
   /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;
 

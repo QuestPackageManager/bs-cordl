@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::UnknownStatus);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1626))
 // CS Name: ::Org.BouncyCastle.Ocsp::UnknownStatus*
 class CORDL_TYPE UnknownStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::UnknownStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10d1ff4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1115fc4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnknownStatus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnknownStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnknownStatus(UnknownStatus&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnknownStatus(UnknownStatus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnknownStatus();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector2IntSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8988)), TypeDefinitionIndex(TypeDefinitionIndex(15622)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15622), inst:
-// 3348 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15626)) CS Name: ::Vector2IntSO*
+// CS Name: ::Vector2IntSO*
 class CORDL_TYPE Vector2IntSO : public ::GlobalNamespace::ObservableVariableSO_1<::UnityEngine::Vector2Int> {
 public:
   // Declarations
   static inline ::GlobalNamespace::Vector2IntSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe52d84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98d54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Vector2IntSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector2IntSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Vector2IntSO(Vector2IntSO&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Vector2IntSO(Vector2IntSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vector2IntSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

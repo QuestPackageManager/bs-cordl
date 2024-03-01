@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlIntAttributeDescription____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6246))
 // CS Name: ::UxmlIntAttributeDescription::<>c*
 class CORDL_TYPE __UxmlIntAttributeDescription____c : public ::System::Object {
 public:
@@ -49,29 +47,35 @@ public:
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_3<::StringW, int32_t, int32_t>* __9__4_0;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* value);
+  static inline ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* New_ctor();
+
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2f1e204, size 0x40, virtual false, abstract: false, final false
+  inline int32_t _GetValueFromBag_b__3_0(::StringW s, int32_t i);
+
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x2f1e244, size 0x40, virtual false, abstract: false, final false
+  inline int32_t _TryGetValueFromBag_b__4_0(::StringW s, int32_t i);
+
+  /// @brief Method .ctor, addr 0x2f1e1fc, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Func_3<::StringW, int32_t, int32_t>* value);
-
   static inline ::System::Func_3<::StringW, int32_t, int32_t>* getStaticF___9__3_0();
-
-  static inline void setStaticF___9__4_0(::System::Func_3<::StringW, int32_t, int32_t>* value);
 
   static inline ::System::Func_3<::StringW, int32_t, int32_t>* getStaticF___9__4_0();
 
-  static inline ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* value);
 
-  /// @brief Method .ctor, addr 0x2e2cad4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__3_0(::System::Func_3<::StringW, int32_t, int32_t>* value);
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x2e2cadc, size 0x40, virtual false, abstract: false, final false
-  inline int32_t _GetValueFromBag_b__3_0(::StringW s, int32_t i);
+  static inline void setStaticF___9__4_0(::System::Func_3<::StringW, int32_t, int32_t>* value);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x2e2cb1c, size 0x40, virtual false, abstract: false, final false
-  inline int32_t _TryGetValueFromBag_b__4_0(::StringW s, int32_t i);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UxmlIntAttributeDescription____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlIntAttributeDescription____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UxmlIntAttributeDescription____c(__UxmlIntAttributeDescription____c&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UxmlIntAttributeDescription____c(__UxmlIntAttributeDescription____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UxmlIntAttributeDescription____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -96,28 +94,32 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlI
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6241)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6241), inst: 103 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6247))
 // CS Name: ::UnityEngine.UIElements::UxmlIntAttributeDescription*
 class CORDL_TYPE UxmlIntAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int32_t> {
 public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c;
 
-  static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2e2c6bc, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method GetValueFromBag, addr 0x2e2c758, size 0x164, virtual true, abstract: false, final false
-  inline int32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
-
-  /// @brief Method TryGetValueFromBag, addr 0x2e2c8bc, size 0x178, virtual false, abstract: false, final false
-  inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<int32_t> value);
-
-  /// @brief Method ConvertValueToInt, addr 0x2e2ca34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToInt, addr 0x2f1e15c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ConvertValueToInt(::StringW v, int32_t defaultValue);
 
+  /// @brief Method GetValueFromBag, addr 0x2f1de80, size 0x164, virtual true, abstract: false, final false
+  inline int32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+
+  static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* New_ctor();
+
+  /// @brief Method TryGetValueFromBag, addr 0x2f1dfe4, size 0x178, virtual false, abstract: false, final false
+  inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<int32_t> value);
+
+  /// @brief Method .ctor, addr 0x2f1dde4, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlIntAttributeDescription();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlIntAttributeDescription", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlIntAttributeDescription(UxmlIntAttributeDescription&&) = delete;
@@ -126,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlIntAttributeDescription(UxmlIntAttributeDescription const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlIntAttributeDescription();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Configuration::Assemblies::AssemblyHashAlgorithm);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Configuration::Assemblies {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3749))
 // CS Name: ::System.Configuration.Assemblies::AssemblyHashAlgorithm
 struct CORDL_TYPE AssemblyHashAlgorithm {
 public:
@@ -38,24 +36,26 @@ public:
     return static_cast<__AssemblyHashAlgorithm_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AssemblyHashAlgorithm(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AssemblyHashAlgorithm();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AssemblyHashAlgorithm(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field MD5 value: static_cast<int32_t>(0x8003)
+  static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const MD5;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const None;
-
-  /// @brief Field MD5 value: static_cast<int32_t>(0x8003)
-  static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const MD5;
 
   /// @brief Field SHA1 value: static_cast<int32_t>(0x8004)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA1;
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field SHA512 value: static_cast<int32_t>(0x800e)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA512;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

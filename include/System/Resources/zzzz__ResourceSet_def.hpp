@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::System::Resources::ResourceSet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3438))
 // CS Name: ::System.Resources::ResourceSet*
 class CORDL_TYPE ResourceSet : public ::System::Object {
 public:
@@ -51,82 +49,88 @@ public:
   /// @brief Field _caseInsensitiveTable, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__caseInsensitiveTable, put = __cordl_internal_set__caseInsensitiveTable))::System::Collections::Hashtable* _caseInsensitiveTable;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method CommonInit, addr 0x25d6314, size 0x60, virtual false, abstract: false, final false
+  inline void CommonInit();
+
+  /// @brief Method Dispose, addr 0x25d6374, size 0x10, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x25d017c, size 0xb4, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x25d6850, size 0x2d0, virtual false, abstract: false, final false
+  inline ::System::Object* GetCaseInsensitiveObjectInternal(::StringW name);
+
+  /// @brief Method GetEnumerator, addr 0x25d6384, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
+
+  /// @brief Method GetEnumeratorHelper, addr 0x25d6388, size 0x84, virtual false, abstract: false, final false
+  inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
+
+  /// @brief Method GetObject, addr 0x25d6b20, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Object* GetObject(::StringW name);
+
+  /// @brief Method GetObject, addr 0x25d6b24, size 0x40, virtual true, abstract: false, final false
+  inline ::System::Object* GetObject(::StringW name, bool ignoreCase);
+
+  /// @brief Method GetObjectInternal, addr 0x25d6578, size 0xd4, virtual false, abstract: false, final false
+  inline ::System::Object* GetObjectInternal(::StringW name);
+
+  /// @brief Method GetString, addr 0x25d6410, size 0x168, virtual true, abstract: false, final false
+  inline ::StringW GetString(::StringW name);
+
+  /// @brief Method GetString, addr 0x25d664c, size 0x204, virtual true, abstract: false, final false
+  inline ::StringW GetString(::StringW name, bool ignoreCase);
+
+  static inline ::System::Resources::ResourceSet* New_ctor();
+
+  static inline ::System::Resources::ResourceSet* New_ctor(bool junk);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x25d640c, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Resources::IResourceReader*& __cordl_internal_get_Reader();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceReader*> const& __cordl_internal_get_Reader() const;
 
-  constexpr void __cordl_internal_set_Reader(::System::Resources::IResourceReader* value);
-
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Table();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Table() const;
-
-  constexpr void __cordl_internal_set_Table(::System::Collections::Hashtable* value);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__caseInsensitiveTable();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__caseInsensitiveTable() const;
 
+  constexpr void __cordl_internal_set_Reader(::System::Resources::IResourceReader* value);
+
+  constexpr void __cordl_internal_set_Table(::System::Collections::Hashtable* value);
+
   constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Hashtable* value);
 
-  static inline ::System::Resources::ResourceSet* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2504628, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d62f8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Resources::ResourceSet* New_ctor(bool junk);
-
-  /// @brief Method .ctor, addr 0x25046a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cfe14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool junk);
 
-  /// @brief Method CommonInit, addr 0x2504644, size 0x60, virtual false, abstract: false, final false
-  inline void CommonInit();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method Dispose, addr 0x25046ac, size 0xb4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Dispose, addr 0x2504760, size 0x10, virtual true, abstract: false, final true
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceSet();
 
-  /// @brief Method GetEnumerator, addr 0x2504770, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x25047f8, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method GetEnumeratorHelper, addr 0x2504774, size 0x84, virtual false, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
-
-  /// @brief Method GetString, addr 0x25047fc, size 0x168, virtual true, abstract: false, final false
-  inline ::StringW GetString(::StringW name);
-
-  /// @brief Method GetString, addr 0x2504a38, size 0x204, virtual true, abstract: false, final false
-  inline ::StringW GetString(::StringW name, bool ignoreCase);
-
-  /// @brief Method GetObject, addr 0x2504f0c, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW name);
-
-  /// @brief Method GetObject, addr 0x2504f10, size 0x40, virtual true, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW name, bool ignoreCase);
-
-  /// @brief Method GetObjectInternal, addr 0x2504964, size 0xd4, virtual false, abstract: false, final false
-  inline ::System::Object* GetObjectInternal(::StringW name);
-
-  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x2504c3c, size 0x2d0, virtual false, abstract: false, final false
-  inline ::System::Object* GetCaseInsensitiveObjectInternal(::StringW name);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceSet(ResourceSet&&) = delete;
@@ -135,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceSet(ResourceSet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceSet();
-
-public:
   /// @brief Field Reader, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::IResourceReader* ___Reader;
 

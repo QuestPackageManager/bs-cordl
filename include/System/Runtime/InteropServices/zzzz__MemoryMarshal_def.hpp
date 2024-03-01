@@ -31,39 +31,43 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::MemoryMarshal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3305))
 // CS Name: ::System.Runtime.InteropServices::MemoryMarshal*
 class CORDL_TYPE MemoryMarshal : public ::System::Object {
 public:
   // Declarations
   /// @brief Method AsBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Span_1<uint8_t> AsBytes(::System::Span_1<T> span);
+  template <typename T> static inline ::System::ReadOnlySpan_1<uint8_t> AsBytes(::System::ReadOnlySpan_1<T> span);
 
   /// @brief Method AsBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::ReadOnlySpan_1<uint8_t> AsBytes(::System::ReadOnlySpan_1<T> span);
+  template <typename T> static inline ::System::Span_1<uint8_t> AsBytes(::System::Span_1<T> span);
 
   /// @brief Method AsMemory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Memory_1<T> AsMemory(::System::ReadOnlyMemory_1<T> memory);
 
-  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetReference(::System::Span_1<T> span);
-
-  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetReference(::System::ReadOnlySpan_1<T> span);
-
-  /// @brief Method GetNonNullPinnableReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetNonNullPinnableReference(::System::Span_1<T> span);
+  /// @brief Method CreateReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(ByRef<T> reference, int32_t length);
 
   /// @brief Method GetNonNullPinnableReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ByRef<T> GetNonNullPinnableReference(::System::ReadOnlySpan_1<T> span);
 
-  /// @brief Method CreateReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(ByRef<T> reference, int32_t length);
+  /// @brief Method GetNonNullPinnableReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ByRef<T> GetNonNullPinnableReference(::System::Span_1<T> span);
+
+  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ByRef<T> GetReference(::System::ReadOnlySpan_1<T> span);
+
+  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ByRef<T> GetReference(::System::Span_1<T> span);
 
   /// @brief Method TryGetArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool TryGetArray(::System::ReadOnlyMemory_1<T> memory, ByRef<::System::ArraySegment_1<T>> segment);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryMarshal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryMarshal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryMarshal(MemoryMarshal&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryMarshal(MemoryMarshal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryMarshal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

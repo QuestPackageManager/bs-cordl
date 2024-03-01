@@ -19,12 +19,12 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::RC4);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2973))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13751))
 // CS Name: ::Mono.Security.Cryptography::RC4*
 class CORDL_TYPE RC4 : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
   // Declarations
+  __declspec(property(get = get_IV, put = set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalBlockSizes,
                              put = setStaticF_s_legalBlockSizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalBlockSizes;
@@ -33,30 +33,34 @@ public:
   static __declspec(property(get = getStaticF_s_legalKeySizes,
                              put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
 
-  __declspec(property(get = get_IV, put = set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
-
-  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
-
-  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
-
-  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
-
-  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
+  /// @brief Method Create, addr 0x24f7a44, size 0x58, virtual false, abstract: false, final false
+  static inline ::Mono::Security::Cryptography::RC4* Create();
 
   static inline ::Mono::Security::Cryptography::RC4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2423190, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f2e88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IV, addr 0x2427d04, size 0x44, virtual true, abstract: false, final false
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
+
+  static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
+
+  /// @brief Method get_IV, addr 0x24f79fc, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IV();
 
-  /// @brief Method set_IV, addr 0x2427d48, size 0x4, virtual true, abstract: false, final false
+  static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+
+  /// @brief Method set_IV, addr 0x24f7a40, size 0x4, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Create, addr 0x2427d4c, size 0x58, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Cryptography::RC4* Create();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RC4();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RC4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RC4(RC4&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RC4(RC4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RC4();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

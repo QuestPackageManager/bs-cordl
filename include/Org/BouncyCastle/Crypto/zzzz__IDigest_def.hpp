@@ -16,25 +16,11 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IDigest);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(745))
 // CS Name: ::Org.BouncyCastle.Crypto::IDigest*
 class CORDL_TYPE IDigest {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
-
-  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method GetDigestSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t GetDigestSize();
-
-  /// @brief Method GetByteLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t GetByteLength();
-
-  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Update(uint8_t input);
 
   /// @brief Method BlockUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
@@ -42,8 +28,20 @@ public:
   /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
+  /// @brief Method GetByteLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t GetByteLength();
+
+  /// @brief Method GetDigestSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t GetDigestSize();
+
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
+
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Update(uint8_t input);
+
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_AlgorithmName();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDigest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

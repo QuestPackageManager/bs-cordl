@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::FileDifficultyBeatmap);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10803))
 // CS Name: ::FileDifficultyBeatmap*
 class CORDL_TYPE FileDifficultyBeatmap : public ::System::Object {
 public:
@@ -33,44 +31,50 @@ public:
   /// @brief Field _lightshowPath, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath))::StringW _lightshowPath;
 
-  constexpr ::StringW& __cordl_internal_get__beatmapChecksum();
+  /// @brief Method GetBeatmapChecksum, addr 0x12cbe6c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW GetBeatmapChecksum();
 
-  constexpr ::StringW const& __cordl_internal_get__beatmapChecksum() const;
+  /// @brief Method GetBeatmapString, addr 0x12cbd40, size 0xa4, virtual false, abstract: false, final false
+  inline ::StringW GetBeatmapString();
 
-  constexpr void __cordl_internal_set__beatmapChecksum(::StringW value);
+  /// @brief Method GetBeatmapStringAsync, addr 0x12cbb78, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  constexpr ::StringW& __cordl_internal_get__beatmapPath();
+  /// @brief Method GetLightshowString, addr 0x12cbde4, size 0x88, virtual false, abstract: false, final false
+  inline ::StringW GetLightshowString();
 
-  constexpr ::StringW const& __cordl_internal_get__beatmapPath() const;
-
-  constexpr void __cordl_internal_set__beatmapPath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__lightshowPath();
-
-  constexpr ::StringW const& __cordl_internal_get__lightshowPath() const;
-
-  constexpr void __cordl_internal_set__lightshowPath(::StringW value);
+  /// @brief Method GetLightshowStringAsync, addr 0x12cbc5c, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapChecksum, ::StringW beatmapPath, ::StringW lightshowPath);
 
-  /// @brief Method .ctor, addr 0x1288b6c, size 0x3c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__beatmapChecksum() const;
+
+  constexpr ::StringW& __cordl_internal_get__beatmapChecksum();
+
+  constexpr ::StringW const& __cordl_internal_get__beatmapPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__beatmapPath();
+
+  constexpr ::StringW const& __cordl_internal_get__lightshowPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__lightshowPath();
+
+  constexpr void __cordl_internal_set__beatmapChecksum(::StringW value);
+
+  constexpr void __cordl_internal_set__beatmapPath(::StringW value);
+
+  constexpr void __cordl_internal_set__lightshowPath(::StringW value);
+
+  /// @brief Method .ctor, addr 0x12cbb3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapChecksum, ::StringW beatmapPath, ::StringW lightshowPath);
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x1288ba8, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FileDifficultyBeatmap();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x1288c8c, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
-
-  /// @brief Method GetBeatmapString, addr 0x1288d70, size 0xa4, virtual false, abstract: false, final false
-  inline ::StringW GetBeatmapString();
-
-  /// @brief Method GetLightshowString, addr 0x1288e14, size 0x88, virtual false, abstract: false, final false
-  inline ::StringW GetLightshowString();
-
-  /// @brief Method GetBeatmapChecksum, addr 0x1288e9c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW GetBeatmapChecksum();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FileDifficultyBeatmap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FileDifficultyBeatmap(FileDifficultyBeatmap&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileDifficultyBeatmap(FileDifficultyBeatmap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileDifficultyBeatmap();
-
-public:
   /// @brief Field _beatmapChecksum, offset: 0x10, size: 0x8, def value: None
   ::StringW ____beatmapChecksum;
 

@@ -25,33 +25,37 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerOctetString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(456))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(479))
 // CS Name: ::Org.BouncyCastle.Asn1::DerOctetString*
 class CORDL_TYPE DerOctetString : public ::Org::BouncyCastle::Asn1::Asn1OctetString {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
+  /// @brief Method Encode, addr 0x122c380, size 0x24, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method .ctor, addr 0x11dede0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
-
-  static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
-
-  /// @brief Method .ctor, addr 0x11e92a0, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
+  /// @brief Method Encode, addr 0x122c3a4, size 0x70, virtual false, abstract: false, final false
+  static inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11e934c, size 0x64, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::DerOctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
+
+  /// @brief Method .ctor, addr 0x122c31c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Encode, addr 0x11e93b0, size 0x24, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+  /// @brief Method .ctor, addr 0x122c270, size 0xac, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::IAsn1Convertible* obj);
 
-  /// @brief Method Encode, addr 0x11e93d4, size 0x70, virtual false, abstract: false, final false
-  static inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset, int32_t length);
+  /// @brief Method .ctor, addr 0x1221db0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DerOctetString();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DerOctetString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DerOctetString(DerOctetString&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerOctetString(DerOctetString const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DerOctetString();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

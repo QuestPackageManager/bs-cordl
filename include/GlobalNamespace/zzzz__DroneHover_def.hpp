@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__DroneHover__SineLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3957))
 // CS Name: ::DroneHover::SineLayer*
 class CORDL_TYPE __DroneHover__SineLayer : public ::System::Object {
 public:
@@ -48,23 +46,29 @@ public:
   /// @brief Field offset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) float_t offset;
 
-  constexpr float_t& __cordl_internal_get_multiplier();
+  static inline ::GlobalNamespace::__DroneHover__SineLayer* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_multiplier() const;
 
-  constexpr void __cordl_internal_set_multiplier(float_t value);
-
-  constexpr float_t& __cordl_internal_get_offset();
+  constexpr float_t& __cordl_internal_get_multiplier();
 
   constexpr float_t const& __cordl_internal_get_offset() const;
 
+  constexpr float_t& __cordl_internal_get_offset();
+
+  constexpr void __cordl_internal_set_multiplier(float_t value);
+
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  static inline ::GlobalNamespace::__DroneHover__SineLayer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22ad460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2379ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DroneHover__SineLayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DroneHover__SineLayer(__DroneHover__SineLayer&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DroneHover__SineLayer(__DroneHover__SineLayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DroneHover__SineLayer();
-
-public:
   /// @brief Field multiplier, offset: 0x10, size: 0x4, def value: None
   float_t ___multiplier;
 
@@ -99,126 +97,130 @@ static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___offset) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3958))
 // CS Name: ::DroneHover*
 class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using SineLayer = ::GlobalNamespace::__DroneHover__SineLayer;
 
-  /// @brief Field _hoverAreaPerAxis, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__hoverAreaPerAxis, put = __cordl_internal_set__hoverAreaPerAxis))::UnityEngine::Vector3 _hoverAreaPerAxis;
-
-  /// @brief Field _speed, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
+  /// @brief Field _cloth, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth))::UnityW<::UnityEngine::Cloth> _cloth;
 
   /// @brief Field _compoundSins, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__compoundSins,
                       put = __cordl_internal_set__compoundSins))::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* _compoundSins;
 
-  /// @brief Field _tiltTransforms, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__tiltTransforms,
-                      put = __cordl_internal_set__tiltTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _tiltTransforms;
+  /// @brief Field _hoverAreaPerAxis, offset 0x18, size 0xc
+  __declspec(property(get = __cordl_internal_get__hoverAreaPerAxis, put = __cordl_internal_set__hoverAreaPerAxis))::UnityEngine::Vector3 _hoverAreaPerAxis;
 
   /// @brief Field _maxTiltAmount, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__maxTiltAmount, put = __cordl_internal_set__maxTiltAmount)) float_t _maxTiltAmount;
 
-  /// @brief Field _tiltSpeed, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__tiltSpeed, put = __cordl_internal_set__tiltSpeed)) float_t _tiltSpeed;
-
-  /// @brief Field _tiltAheadOfTime, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__tiltAheadOfTime, put = __cordl_internal_set__tiltAheadOfTime)) float_t _tiltAheadOfTime;
-
-  /// @brief Field _tiltToTarget, offset 0x44, size 0x1
-  __declspec(property(get = __cordl_internal_get__tiltToTarget, put = __cordl_internal_set__tiltToTarget)) bool _tiltToTarget;
+  /// @brief Field _speed, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
 
   /// @brief Field _startPos, offset 0x48, size 0xc
   __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
 
-  /// @brief Field _cloth, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth))::UnityW<::UnityEngine::Cloth> _cloth;
+  /// @brief Field _tiltAheadOfTime, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__tiltAheadOfTime, put = __cordl_internal_set__tiltAheadOfTime)) float_t _tiltAheadOfTime;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__hoverAreaPerAxis();
+  /// @brief Field _tiltSpeed, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__tiltSpeed, put = __cordl_internal_set__tiltSpeed)) float_t _tiltSpeed;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__hoverAreaPerAxis() const;
+  /// @brief Field _tiltToTarget, offset 0x44, size 0x1
+  __declspec(property(get = __cordl_internal_get__tiltToTarget, put = __cordl_internal_set__tiltToTarget)) bool _tiltToTarget;
 
-  constexpr void __cordl_internal_set__hoverAreaPerAxis(::UnityEngine::Vector3 value);
+  /// @brief Field _tiltTransforms, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__tiltTransforms,
+                      put = __cordl_internal_set__tiltTransforms))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _tiltTransforms;
 
-  constexpr float_t& __cordl_internal_get__speed();
+  /// @brief Method GetNoise, addr 0x23799b8, size 0xf4, virtual false, abstract: false, final false
+  inline float_t GetNoise(float_t time, float_t offset);
 
-  constexpr float_t const& __cordl_internal_get__speed() const;
+  /// @brief Method GetNoiseVec3, addr 0x237967c, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
-  constexpr void __cordl_internal_set__speed(float_t value);
+  static inline ::GlobalNamespace::DroneHover* New_ctor();
+
+  /// @brief Method Start, addr 0x237952c, size 0x30, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x237955c, size 0x120, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateTiltTransform, addr 0x23796f8, size 0x2c0, virtual false, abstract: false, final false
+  inline void UpdateTiltTransform();
+
+  constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
+
+  constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>*& __cordl_internal_get__compoundSins();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>*> const& __cordl_internal_get__compoundSins() const;
 
-  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__hoverAreaPerAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__hoverAreaPerAxis();
+
+  constexpr float_t const& __cordl_internal_get__maxTiltAmount() const;
+
+  constexpr float_t& __cordl_internal_get__maxTiltAmount();
+
+  constexpr float_t const& __cordl_internal_get__speed() const;
+
+  constexpr float_t& __cordl_internal_get__speed();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
+
+  constexpr float_t const& __cordl_internal_get__tiltAheadOfTime() const;
+
+  constexpr float_t& __cordl_internal_get__tiltAheadOfTime();
+
+  constexpr float_t const& __cordl_internal_get__tiltSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__tiltSpeed();
+
+  constexpr bool const& __cordl_internal_get__tiltToTarget() const;
+
+  constexpr bool& __cordl_internal_get__tiltToTarget();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__tiltTransforms();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__tiltTransforms() const;
 
-  constexpr void __cordl_internal_set__tiltTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
+  constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
 
-  constexpr float_t& __cordl_internal_get__maxTiltAmount();
+  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* value);
 
-  constexpr float_t const& __cordl_internal_get__maxTiltAmount() const;
+  constexpr void __cordl_internal_set__hoverAreaPerAxis(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set__maxTiltAmount(float_t value);
 
-  constexpr float_t& __cordl_internal_get__tiltSpeed();
-
-  constexpr float_t const& __cordl_internal_get__tiltSpeed() const;
-
-  constexpr void __cordl_internal_set__tiltSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__tiltAheadOfTime();
-
-  constexpr float_t const& __cordl_internal_get__tiltAheadOfTime() const;
-
-  constexpr void __cordl_internal_set__tiltAheadOfTime(float_t value);
-
-  constexpr bool& __cordl_internal_get__tiltToTarget();
-
-  constexpr bool const& __cordl_internal_get__tiltToTarget() const;
-
-  constexpr void __cordl_internal_set__tiltToTarget(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
+  constexpr void __cordl_internal_set__speed(float_t value);
 
   constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
+  constexpr void __cordl_internal_set__tiltAheadOfTime(float_t value);
 
-  constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
+  constexpr void __cordl_internal_set__tiltSpeed(float_t value);
 
-  constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
+  constexpr void __cordl_internal_set__tiltToTarget(bool value);
 
-  /// @brief Method Start, addr 0x22acec4, size 0x30, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__tiltTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method Update, addr 0x22acef4, size 0x120, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method GetNoiseVec3, addr 0x22ad014, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
-
-  /// @brief Method GetNoise, addr 0x22ad350, size 0xf4, virtual false, abstract: false, final false
-  inline float_t GetNoise(float_t time, float_t offset);
-
-  /// @brief Method UpdateTiltTransform, addr 0x22ad090, size 0x2c0, virtual false, abstract: false, final false
-  inline void UpdateTiltTransform();
-
-  static inline ::GlobalNamespace::DroneHover* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22ad444, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2379aac, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DroneHover();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DroneHover(DroneHover&&) = delete;
@@ -227,12 +229,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DroneHover(DroneHover const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DroneHover();
-
-public:
   /// @brief Field _hoverAreaPerAxis, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____hoverAreaPerAxis;
 

@@ -32,21 +32,12 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviousColorPanelController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16326))
 // CS Name: ::PreviousColorPanelController*
 class CORDL_TYPE PreviousColorPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _graphics, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__graphics,
-                      put = __cordl_internal_set__graphics))::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> _graphics;
-
   /// @brief Field _button, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
-
-  /// @brief Field colorWasSelectedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorWasSelectedEvent, put = __cordl_internal_set_colorWasSelectedEvent))::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
 
   /// @brief Field _buttonBinder, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
@@ -54,71 +45,84 @@ public:
   /// @brief Field _color, offset 0x38, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
+  /// @brief Field _graphics, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__graphics,
+                      put = __cordl_internal_set__graphics))::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> _graphics;
+
   /// @brief Field _graphicsColor, offset 0x48, size 0x10
   __declspec(property(get = __cordl_internal_get__graphicsColor, put = __cordl_internal_set__graphicsColor))::UnityEngine::Color _graphicsColor;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*>& __cordl_internal_get__graphics();
+  /// @brief Field colorWasSelectedEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_colorWasSelectedEvent, put = __cordl_internal_set_colorWasSelectedEvent))::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> const& __cordl_internal_get__graphics() const;
+  /// @brief Method AddColor, addr 0x24d15e0, size 0xa4, virtual false, abstract: false, final false
+  inline void AddColor(::UnityEngine::Color color);
 
-  constexpr void __cordl_internal_set__graphics(::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> value);
+  /// @brief Method Awake, addr 0x24d1500, size 0xc4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+  /// @brief Method DiscardUpcomingColor, addr 0x24d1684, size 0xc, virtual false, abstract: false, final false
+  inline void DiscardUpcomingColor();
+
+  static inline ::GlobalNamespace::PreviousColorPanelController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x24d15c4, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method <Awake>b__9_0, addr 0x24d16a8, size 0x24, virtual false, abstract: false, final false
+  inline void _Awake_b__9_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorWasSelectedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_colorWasSelectedEvent() const;
-
-  constexpr void __cordl_internal_set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> const& __cordl_internal_get__graphics() const;
 
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__graphicsColor();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*>& __cordl_internal_get__graphics();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__graphicsColor() const;
 
+  constexpr ::UnityEngine::Color& __cordl_internal_get__graphicsColor();
+
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorWasSelectedEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_colorWasSelectedEvent() const;
+
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
+
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__graphics(::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> value);
+
   constexpr void __cordl_internal_set__graphicsColor(::UnityEngine::Color value);
 
-  /// @brief Method add_colorWasSelectedEvent, addr 0x24036a8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_colorWasSelectedEvent, addr 0x2403758, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
-
-  /// @brief Method Awake, addr 0x2403808, size 0xc4, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0x24038cc, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method AddColor, addr 0x24038e8, size 0xa4, virtual false, abstract: false, final false
-  inline void AddColor(::UnityEngine::Color color);
-
-  /// @brief Method DiscardUpcomingColor, addr 0x240398c, size 0xc, virtual false, abstract: false, final false
-  inline void DiscardUpcomingColor();
-
-  static inline ::GlobalNamespace::PreviousColorPanelController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2403998, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d1690, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__9_0, addr 0x24039b0, size 0x24, virtual false, abstract: false, final false
-  inline void _Awake_b__9_0();
+  /// @brief Method add_colorWasSelectedEvent, addr 0x24d13a0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
+  /// @brief Method remove_colorWasSelectedEvent, addr 0x24d1450, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreviousColorPanelController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreviousColorPanelController(PreviousColorPanelController&&) = delete;
@@ -127,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PreviousColorPanelController(PreviousColorPanelController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreviousColorPanelController();
-
-public:
   /// @brief Field _graphics, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> ____graphics;
 

@@ -15,19 +15,17 @@ MARK_VAL_T(::UnityEngine::JointSpring);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13949))
 // CS Name: ::UnityEngine::JointSpring
 struct CORDL_TYPE JointSpring {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "targetPosition", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr JointSpring(float_t spring, float_t damper, float_t targetPosition) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr JointSpring();
+
+  // Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "targetPosition", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr JointSpring(float_t spring, float_t damper, float_t targetPosition) noexcept;
 
   /// @brief Field spring, offset: 0x0, size: 0x4, def value: None
   float_t spring;

@@ -23,49 +23,26 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1675 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6409))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
+  /// @brief Field <pointerId>k__BackingField, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__pointerId_k__BackingField, put = __cordl_internal_set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
+
   /// @brief Field <relatedTarget>k__BackingField, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__relatedTarget_k__BackingField,
                       put = __cordl_internal_set__relatedTarget_k__BackingField))::UnityEngine::UIElements::IEventHandler* _relatedTarget_k__BackingField;
 
-  /// @brief Field <pointerId>k__BackingField, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__pointerId_k__BackingField, put = __cordl_internal_set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
+  __declspec(property(get = get_pointerId, put = set_pointerId)) int32_t pointerId;
 
   __declspec(property(put = set_relatedTarget))::UnityEngine::UIElements::IEventHandler* relatedTarget;
-
-  __declspec(property(get = get_pointerId, put = set_pointerId)) int32_t pointerId;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
   constexpr operator ::UnityEngine::UIElements::IPointerCaptureEventInternal*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
-  constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept;
-
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__relatedTarget_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get__relatedTarget_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__relatedTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
-
-  constexpr int32_t& __cordl_internal_get__pointerId_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__pointerId_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__pointerId_k__BackingField(int32_t value);
-
-  /// @brief Method set_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_relatedTarget(::UnityEngine::UIElements::IEventHandler* value);
-
-  /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline int32_t get_pointerId();
-
-  /// @brief Method set_pointerId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_pointerId(int32_t value);
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline T GetPooled(::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::IEventHandler* relatedTarget, int32_t pointerId);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
@@ -73,14 +50,41 @@ public:
   /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::IEventHandler* relatedTarget, int32_t pointerId);
-
   static inline ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>* New_ctor();
+
+  constexpr int32_t const& __cordl_internal_get__pointerId_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__pointerId_k__BackingField();
+
+  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__relatedTarget_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get__relatedTarget_k__BackingField() const;
+
+  constexpr void __cordl_internal_set__pointerId_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__relatedTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_pointerId();
+
+  /// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
+  constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept;
+
+  /// @brief Method set_pointerId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_pointerId(int32_t value);
+
+  /// @brief Method set_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_relatedTarget(::UnityEngine::UIElements::IEventHandler* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerCaptureEventBase_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureEventBase_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerCaptureEventBase_1(PointerCaptureEventBase_1&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerCaptureEventBase_1(PointerCaptureEventBase_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerCaptureEventBase_1();
-
-public:
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::UnityEngine::UIElements::IEventHandler* ____relatedTarget_k__BackingField;
 

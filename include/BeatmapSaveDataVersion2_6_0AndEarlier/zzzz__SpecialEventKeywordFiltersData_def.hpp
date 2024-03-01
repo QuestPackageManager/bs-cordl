@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFilte
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11200))
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*
 class CORDL_TYPE SpecialEventKeywordFiltersData : public ::System::Object {
 public:
@@ -32,6 +30,9 @@ public:
 
   __declspec(property(get = get_keywords))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords;
 
+  static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*
+  New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords);
+
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>*& __cordl_internal_get__keywords();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>*> const&
@@ -39,15 +40,18 @@ public:
 
   constexpr void __cordl_internal_set__keywords(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* value);
 
-  /// @brief Method get_keywords, addr 0x12bcbf0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* get_keywords();
-
-  static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*
-  New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords);
-
-  /// @brief Method .ctor, addr 0x12bcbf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fdbc8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* keywords);
 
+  /// @brief Method get_keywords, addr 0x12fdbc0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* get_keywords();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpecialEventKeywordFiltersData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpecialEventKeywordFiltersData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpecialEventKeywordFiltersData(SpecialEventKeywordFiltersData&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpecialEventKeywordFiltersData(SpecialEventKeywordFiltersData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpecialEventKeywordFiltersData();
-
-public:
   /// @brief Field _keywords, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*>* ____keywords;
 

@@ -23,20 +23,24 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
 // CS Name: ::System.Collections.Generic::TreeWalkPredicate`1<T>*
 class CORDL_TYPE TreeWalkPredicate_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Invoke(::System::Collections::Generic::__SortedSet_1__Node<T>* node);
+
   static inline ::System::Collections::Generic::TreeWalkPredicate_1<T>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Invoke(::System::Collections::Generic::__SortedSet_1__Node<T>* node);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TreeWalkPredicate_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TreeWalkPredicate_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreeWalkPredicate_1(TreeWalkPredicate_1&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TreeWalkPredicate_1(TreeWalkPredicate_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TreeWalkPredicate_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

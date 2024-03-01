@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalOnPointerClick);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14546))
 // CS Name: ::SignalOnPointerClick*
 class CORDL_TYPE SignalOnPointerClick : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Field _inputFieldClickedSignal, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__inputFieldClickedSignal, put = __cordl_internal_set__inputFieldClickedSignal))::UnityW<::GlobalNamespace::Signal> _inputFieldClickedSignal;
 
+  /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+  constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
+  static inline ::GlobalNamespace::SignalOnPointerClick* New_ctor();
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+  /// @brief Method OnPointerClick, addr 0x22579a0, size 0x20, virtual true, abstract: false, final true
+  inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
+
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__inputFieldClickedSignal() const;
+
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__inputFieldClickedSignal();
+
+  constexpr void __cordl_internal_set__inputFieldClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
+
+  /// @brief Method .ctor, addr 0x22579c0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__inputFieldClickedSignal();
+  /// @brief Convert to "::UnityEngine::EventSystems::IPointerClickHandler"
+  constexpr ::UnityEngine::EventSystems::IPointerClickHandler* i___UnityEngine__EventSystems__IPointerClickHandler() noexcept;
 
-  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__inputFieldClickedSignal() const;
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalOnPointerClick();
 
-  constexpr void __cordl_internal_set__inputFieldClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
-
-  /// @brief Method OnPointerClick, addr 0x21892fc, size 0x20, virtual true, abstract: false, final true
-  inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
-
-  static inline ::GlobalNamespace::SignalOnPointerClick* New_ctor();
-
-  /// @brief Method .ctor, addr 0x218931c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalOnPointerClick", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalOnPointerClick(SignalOnPointerClick&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalOnPointerClick(SignalOnPointerClick const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalOnPointerClick();
-
-public:
   /// @brief Field _inputFieldClickedSignal, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____inputFieldClickedSignal;
 

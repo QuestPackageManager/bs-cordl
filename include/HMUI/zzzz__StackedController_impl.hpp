@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__StackedController____c__DisplayClass5_0::*)()>(
     &::HMUI::__StackedController____c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21c1624;
+  constexpr static std::size_t addrs = 0x228dc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__StackedController____c__DisplayClass5_0*>::get(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>, ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::__StackedController____c__DisplayClass5_0::_PopViewControllers_g__AnimationLayouter_0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x21c16cc;
+  constexpr static std::size_t addrs = 0x228dd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::HMUI::StackedController::*)()>(
     &::HMUI::StackedController::get_topStackedViewController)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x21c1204;
+  constexpr static std::size_t addrs = 0x228d86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::StackedController*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackedController::*)(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>*)>(
     &::HMUI::StackedController::LayoutViewControllers)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x21c127c;
+  constexpr static std::size_t addrs = 0x228d8e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackedController::*)(::HMUI::ViewController*, ::System::Action*, bool)>(
     &::HMUI::StackedController::PushViewController)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x21c13b0;
+  constexpr static std::size_t addrs = 0x228da18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackedController::*)(::System::Action*, bool)>(&::HMUI::StackedController::PopViewController)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x21c145c;
+  constexpr static std::size_t addrs = 0x228dac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackedController::*)(int32_t, ::System::Action*, bool)>(
     &::HMUI::StackedController::PopViewControllers)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x21c1470;
+  constexpr static std::size_t addrs = 0x228dad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HMUI::ViewController*, int32_t)>(&::HMUI::StackedController::SetupViewControllerRect)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x21c1364;
+  constexpr static std::size_t addrs = 0x228d9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::StackedController::*)()>(&::HMUI::StackedController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21c162c;
+  constexpr static std::size_t addrs = 0x228dc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::StackedController*>::get(), ".ctor",
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*>)>(
     &::HMUI::StackedController::_PushViewController_g__AnimationLayouter_3_0)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x21c1634;
+  constexpr static std::size_t addrs = 0x228dc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

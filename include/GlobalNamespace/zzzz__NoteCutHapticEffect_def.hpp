@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutHapticEffect);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4223))
 // CS Name: ::NoteCutHapticEffect::Type
 struct CORDL_TYPE __NoteCutHapticEffect__Type {
 public:
@@ -54,18 +52,26 @@ public:
     return static_cast<____NoteCutHapticEffect__Type_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NoteCutHapticEffect__Type(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NoteCutHapticEffect__Type();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __NoteCutHapticEffect__Type(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BadCut value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::__NoteCutHapticEffect__Type const BadCut;
+
+  /// @brief Field Bomb value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__NoteCutHapticEffect__Type const Bomb;
 
   /// @brief Field Normal value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__NoteCutHapticEffect__Type const Normal;
@@ -76,11 +82,8 @@ public:
   /// @brief Field ShortWeak value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__NoteCutHapticEffect__Type const ShortWeak;
 
-  /// @brief Field Bomb value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const Bomb;
-
-  /// @brief Field BadCut value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const BadCut;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -94,13 +97,20 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutHapticEffect__Type, value__) 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4224))
 // CS Name: ::NoteCutHapticEffect*
 class CORDL_TYPE NoteCutHapticEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using Type = ::GlobalNamespace::__NoteCutHapticEffect__Type;
+
+  /// @brief Field _badCutPreset, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__badCutPreset, put = __cordl_internal_set__badCutPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _badCutPreset;
+
+  /// @brief Field _bombPreset, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__bombPreset, put = __cordl_internal_set__bombPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _bombPreset;
+
+  /// @brief Field _hapticFeedbackManager, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
 
   /// @brief Field _normalPreset, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
@@ -111,59 +121,56 @@ public:
   /// @brief Field _shortWeakPreset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__shortWeakPreset, put = __cordl_internal_set__shortWeakPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _shortWeakPreset;
 
-  /// @brief Field _bombPreset, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombPreset, put = __cordl_internal_set__bombPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _bombPreset;
-
-  /// @brief Field _badCutPreset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__badCutPreset, put = __cordl_internal_set__badCutPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _badCutPreset;
-
-  /// @brief Field _hapticFeedbackManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__normalPreset();
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__normalPreset() const;
-
-  constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__shortNormalPreset();
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__shortNormalPreset() const;
-
-  constexpr void __cordl_internal_set__shortNormalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__shortWeakPreset();
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__shortWeakPreset() const;
-
-  constexpr void __cordl_internal_set__shortWeakPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__bombPreset();
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__bombPreset() const;
-
-  constexpr void __cordl_internal_set__bombPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__badCutPreset();
-
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__badCutPreset() const;
-
-  constexpr void __cordl_internal_set__badCutPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
-
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
-
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
-
-  /// @brief Method HitNote, addr 0x235b9fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HitNote, addr 0x2429944, size 0x88, virtual false, abstract: false, final false
   inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::__NoteCutHapticEffect__Type type);
 
   static inline ::GlobalNamespace::NoteCutHapticEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x235ba84, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__badCutPreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__badCutPreset();
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__bombPreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__bombPreset();
+
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__normalPreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__normalPreset();
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__shortNormalPreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__shortNormalPreset();
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__shortWeakPreset() const;
+
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__shortWeakPreset();
+
+  constexpr void __cordl_internal_set__badCutPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+
+  constexpr void __cordl_internal_set__bombPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+
+  constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+
+  constexpr void __cordl_internal_set__shortNormalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+
+  constexpr void __cordl_internal_set__shortWeakPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+
+  /// @brief Method .ctor, addr 0x24299cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteCutHapticEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutHapticEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutHapticEffect(NoteCutHapticEffect&&) = delete;
@@ -172,12 +179,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutHapticEffect(NoteCutHapticEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutHapticEffect();
-
-public:
   /// @brief Field _normalPreset, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____normalPreset;
 

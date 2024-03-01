@@ -22,22 +22,27 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizedHoverHint);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13485)), TypeDefinitionIndex(TypeDefinitionIndex(15685)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15685), inst:
-// 4430 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4840)) CS Name: ::LocalizedHoverHint*
+// CS Name: ::LocalizedHoverHint*
 class CORDL_TYPE LocalizedHoverHint : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::HMUI::HoverHint>> {
 public:
   // Declarations
-  /// @brief Method SetText, addr 0x23f9094, size 0x18, virtual true, abstract: false, final false
-  inline void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
-
-  /// @brief Method UpdateAlignment, addr 0x23f90ac, size 0x4, virtual true, abstract: false, final false
-  inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::BGLib::Polyglot::LanguageDirection direction);
-
   static inline ::GlobalNamespace::LocalizedHoverHint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f90b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x24c83ec, size 0x18, virtual true, abstract: false, final false
+  inline void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
+
+  /// @brief Method UpdateAlignment, addr 0x24c8404, size 0x4, virtual true, abstract: false, final false
+  inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::BGLib::Polyglot::LanguageDirection direction);
+
+  /// @brief Method .ctor, addr 0x24c8408, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalizedHoverHint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedHoverHint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizedHoverHint(LocalizedHoverHint&&) = delete;
@@ -46,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizedHoverHint(LocalizedHoverHint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizedHoverHint();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

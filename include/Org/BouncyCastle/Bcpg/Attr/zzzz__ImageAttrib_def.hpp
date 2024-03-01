@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Attr {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(529))
 // CS Name: ::ImageAttrib::Format
 struct CORDL_TYPE __ImageAttrib__Format {
 public:
@@ -42,21 +40,26 @@ public:
     return static_cast<____ImageAttrib__Format_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __ImageAttrib__Format(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<uint8_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ImageAttrib__Format();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __ImageAttrib__Format(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
-
   /// @brief Field Jpeg value: static_cast<uint8_t>(0x1u)
   static ::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format const Jpeg;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -70,88 +73,92 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format, v
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Attr {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(528))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(530))
 // CS Name: ::Org.BouncyCastle.Bcpg.Attr::ImageAttrib*
 class CORDL_TYPE ImageAttrib : public ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket {
 public:
   // Declarations
   using Format = ::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format;
 
-  /// @brief Field hdrLength, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_hdrLength, put = __cordl_internal_set_hdrLength)) int32_t hdrLength;
+  __declspec(property(get = get_Encoding)) int32_t Encoding;
 
-  /// @brief Field _version, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
-
-  /// @brief Field _encoding, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) int32_t _encoding;
-
-  /// @brief Field imageData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_imageData, put = __cordl_internal_set_imageData))::ArrayW<uint8_t, ::Array<uint8_t>*> imageData;
+  __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Field Zeroes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Zeroes, put = setStaticF_Zeroes))::ArrayW<uint8_t, ::Array<uint8_t>*> Zeroes;
 
-  __declspec(property(get = get_Version)) int32_t Version;
+  /// @brief Field _encoding, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) int32_t _encoding;
 
-  __declspec(property(get = get_Encoding)) int32_t Encoding;
+  /// @brief Field _version, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
-  constexpr int32_t& __cordl_internal_get_hdrLength();
+  /// @brief Field hdrLength, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_hdrLength, put = __cordl_internal_set_hdrLength)) int32_t hdrLength;
 
-  constexpr int32_t const& __cordl_internal_get_hdrLength() const;
+  /// @brief Field imageData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_imageData, put = __cordl_internal_set_imageData))::ArrayW<uint8_t, ::Array<uint8_t>*> imageData;
 
-  constexpr void __cordl_internal_set_hdrLength(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__version();
-
-  constexpr int32_t const& __cordl_internal_get__version() const;
-
-  constexpr void __cordl_internal_set__version(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__encoding();
-
-  constexpr int32_t const& __cordl_internal_get__encoding() const;
-
-  constexpr void __cordl_internal_set__encoding(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_imageData();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_imageData() const;
-
-  constexpr void __cordl_internal_set_imageData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline void setStaticF_Zeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Zeroes();
+  /// @brief Method GetImageData, addr 0x1237fec, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetImageData();
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x11f4d60, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  /// @brief Method .ctor, addr 0x11f4d6c, size 0xdc, virtual false, abstract: false, final false
-  inline void _ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method .ctor, addr 0x11f4e48, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
-
-  /// @brief Method ToByteArray, addr 0x11f4ec0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ToByteArray, addr 0x1237e90, size 0x14c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method get_Version, addr 0x11f500c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Version();
+  constexpr int32_t const& __cordl_internal_get__encoding() const;
 
-  /// @brief Method get_Encoding, addr 0x11f5014, size 0x8, virtual true, abstract: false, final false
+  constexpr int32_t& __cordl_internal_get__encoding();
+
+  constexpr int32_t const& __cordl_internal_get__version() const;
+
+  constexpr int32_t& __cordl_internal_get__version();
+
+  constexpr int32_t const& __cordl_internal_get_hdrLength() const;
+
+  constexpr int32_t& __cordl_internal_get_hdrLength();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_imageData() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_imageData();
+
+  constexpr void __cordl_internal_set__encoding(int32_t value);
+
+  constexpr void __cordl_internal_set__version(int32_t value);
+
+  constexpr void __cordl_internal_set_hdrLength(int32_t value);
+
+  constexpr void __cordl_internal_set_imageData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x1237d30, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method .ctor, addr 0x1237d3c, size 0xdc, virtual false, abstract: false, final false
+  inline void _ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method .ctor, addr 0x1237e18, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Zeroes();
+
+  /// @brief Method get_Encoding, addr 0x1237fe4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Encoding();
 
-  /// @brief Method GetImageData, addr 0x11f501c, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetImageData();
+  /// @brief Method get_Version, addr 0x1237fdc, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_Version();
 
+  static inline void setStaticF_Zeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ImageAttrib();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ImageAttrib", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ImageAttrib(ImageAttrib&&) = delete;
@@ -160,12 +167,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ImageAttrib(ImageAttrib const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImageAttrib();
-
-public:
   /// @brief Field hdrLength, offset: 0x20, size: 0x4, def value: None
   int32_t ___hdrLength;
 

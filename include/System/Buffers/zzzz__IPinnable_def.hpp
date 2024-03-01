@@ -13,8 +13,6 @@ MARK_REF_PTR_T(::System::Buffers::IPinnable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3882))
 // CS Name: ::System.Buffers::IPinnable*
 class CORDL_TYPE IPinnable {
 public:

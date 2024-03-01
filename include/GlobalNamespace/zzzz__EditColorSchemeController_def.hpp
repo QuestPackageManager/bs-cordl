@@ -47,18 +47,19 @@ MARK_REF_PTR_T(::GlobalNamespace::EditColorSchemeController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4716))
 // CS Name: ::EditColorSchemeController*
 class CORDL_TYPE EditColorSchemeController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _buttonBinder, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+
+  /// @brief Field _closeButton, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__closeButton, put = __cordl_internal_set__closeButton))::UnityW<::UnityEngine::UI::Button> _closeButton;
+
   /// @brief Field _colorSchemeColorsToggleGroup, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__colorSchemeColorsToggleGroup,
                       put = __cordl_internal_set__colorSchemeColorsToggleGroup))::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> _colorSchemeColorsToggleGroup;
-
-  /// @brief Field _rgbPanelController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rgbPanelController, put = __cordl_internal_set__rgbPanelController))::UnityW<::GlobalNamespace::RGBPanelController> _rgbPanelController;
 
   /// @brief Field _hsvPanelController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__hsvPanelController, put = __cordl_internal_set__hsvPanelController))::UnityW<::GlobalNamespace::HSVPanelController> _hsvPanelController;
@@ -67,108 +68,111 @@ public:
   __declspec(property(get = __cordl_internal_get__previousColorPanelController,
                       put = __cordl_internal_set__previousColorPanelController))::UnityW<::GlobalNamespace::PreviousColorPanelController> _previousColorPanelController;
 
-  /// @brief Field _closeButton, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__closeButton, put = __cordl_internal_set__closeButton))::UnityW<::UnityEngine::UI::Button> _closeButton;
-
-  /// @brief Field didFinishEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
+  /// @brief Field _rgbPanelController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__rgbPanelController, put = __cordl_internal_set__rgbPanelController))::UnityW<::GlobalNamespace::RGBPanelController> _rgbPanelController;
 
   /// @brief Field didChangeColorSchemeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeColorSchemeEvent,
                       put = __cordl_internal_set_didChangeColorSchemeEvent))::System::Action_1<::GlobalNamespace::ColorScheme*>* didChangeColorSchemeEvent;
 
-  /// @brief Field _buttonBinder, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Field didFinishEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup>& __cordl_internal_get__colorSchemeColorsToggleGroup();
+  /// @brief Method HandleColorSchemeColorsToggleGroupSelectedColorDidChange, addr 0x24a1724, size 0x80, virtual false, abstract: false, final false
+  inline void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> const& __cordl_internal_get__colorSchemeColorsToggleGroup() const;
+  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x24a1878, size 0xd4, virtual false, abstract: false, final false
+  inline void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  constexpr void __cordl_internal_set__colorSchemeColorsToggleGroup(::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> value);
+  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x24a194c, size 0xbc, virtual false, abstract: false, final false
+  inline void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
 
-  constexpr ::UnityW<::GlobalNamespace::RGBPanelController>& __cordl_internal_get__rgbPanelController();
+  /// @brief Method HandleRGBPanelControllerColorDidChange, addr 0x24a17a4, size 0xd4, virtual false, abstract: false, final false
+  inline void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  constexpr ::UnityW<::GlobalNamespace::RGBPanelController> const& __cordl_internal_get__rgbPanelController() const;
+  static inline ::GlobalNamespace::EditColorSchemeController* New_ctor();
 
-  constexpr void __cordl_internal_set__rgbPanelController(::UnityW<::GlobalNamespace::RGBPanelController> value);
+  /// @brief Method OnDestroy, addr 0x24a1548, size 0x1dc, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::GlobalNamespace::HSVPanelController>& __cordl_internal_get__hsvPanelController();
+  /// @brief Method SetColorScheme, addr 0x24a1200, size 0x1c, virtual false, abstract: false, final false
+  inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  constexpr ::UnityW<::GlobalNamespace::HSVPanelController> const& __cordl_internal_get__hsvPanelController() const;
+  /// @brief Method Start, addr 0x24a12c0, size 0x288, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr void __cordl_internal_set__hsvPanelController(::UnityW<::GlobalNamespace::HSVPanelController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PreviousColorPanelController>& __cordl_internal_get__previousColorPanelController();
-
-  constexpr ::UnityW<::GlobalNamespace::PreviousColorPanelController> const& __cordl_internal_get__previousColorPanelController() const;
-
-  constexpr void __cordl_internal_set__previousColorPanelController(::UnityW<::GlobalNamespace::PreviousColorPanelController> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__closeButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__closeButton() const;
-
-  constexpr void __cordl_internal_set__closeButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishEvent() const;
-
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::ColorScheme*>*& __cordl_internal_get_didChangeColorSchemeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ColorScheme*>*> const& __cordl_internal_get_didChangeColorSchemeEvent() const;
-
-  constexpr void __cordl_internal_set_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
+  /// @brief Method <Start>b__13_0, addr 0x24a1a10, size 0x1c, virtual false, abstract: false, final false
+  inline void _Start_b__13_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__closeButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__closeButton();
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> const& __cordl_internal_get__colorSchemeColorsToggleGroup() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup>& __cordl_internal_get__colorSchemeColorsToggleGroup();
+
+  constexpr ::UnityW<::GlobalNamespace::HSVPanelController> const& __cordl_internal_get__hsvPanelController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::HSVPanelController>& __cordl_internal_get__hsvPanelController();
+
+  constexpr ::UnityW<::GlobalNamespace::PreviousColorPanelController> const& __cordl_internal_get__previousColorPanelController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PreviousColorPanelController>& __cordl_internal_get__previousColorPanelController();
+
+  constexpr ::UnityW<::GlobalNamespace::RGBPanelController> const& __cordl_internal_get__rgbPanelController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::RGBPanelController>& __cordl_internal_get__rgbPanelController();
+
+  constexpr ::System::Action_1<::GlobalNamespace::ColorScheme*>*& __cordl_internal_get_didChangeColorSchemeEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ColorScheme*>*> const& __cordl_internal_get_didChangeColorSchemeEvent() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishEvent() const;
+
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x23d279c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__closeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x23d2b24, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__colorSchemeColorsToggleGroup(::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> value);
 
-  /// @brief Method add_didChangeColorSchemeEvent, addr 0x23d2838, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
+  constexpr void __cordl_internal_set__hsvPanelController(::UnityW<::GlobalNamespace::HSVPanelController> value);
 
-  /// @brief Method remove_didChangeColorSchemeEvent, addr 0x23d2bc0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
+  constexpr void __cordl_internal_set__previousColorPanelController(::UnityW<::GlobalNamespace::PreviousColorPanelController> value);
 
-  /// @brief Method SetColorScheme, addr 0x23d32b8, size 0x1c, virtual false, abstract: false, final false
-  inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
+  constexpr void __cordl_internal_set__rgbPanelController(::UnityW<::GlobalNamespace::RGBPanelController> value);
 
-  /// @brief Method Start, addr 0x23d3378, size 0x288, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
-  /// @brief Method OnDestroy, addr 0x23d3600, size 0x1dc, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method HandleColorSchemeColorsToggleGroupSelectedColorDidChange, addr 0x23d37dc, size 0x80, virtual false, abstract: false, final false
-  inline void HandleColorSchemeColorsToggleGroupSelectedColorDidChange(::UnityEngine::Color color);
-
-  /// @brief Method HandleRGBPanelControllerColorDidChange, addr 0x23d385c, size 0xd4, virtual false, abstract: false, final false
-  inline void HandleRGBPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-
-  /// @brief Method HandleHSVPanelControllerColorDidChange, addr 0x23d3930, size 0xd4, virtual false, abstract: false, final false
-  inline void HandleHSVPanelControllerColorDidChange(::UnityEngine::Color color, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
-
-  /// @brief Method HandlePreviousColorPanelControllerColorWasSelected, addr 0x23d3a04, size 0xbc, virtual false, abstract: false, final false
-  inline void HandlePreviousColorPanelControllerColorWasSelected(::UnityEngine::Color color);
-
-  static inline ::GlobalNamespace::EditColorSchemeController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23d3ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a1a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Start>b__13_0, addr 0x23d3ac8, size 0x1c, virtual false, abstract: false, final false
-  inline void _Start_b__13_0();
+  /// @brief Method add_didChangeColorSchemeEvent, addr 0x24a0780, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
 
+  /// @brief Method add_didFinishEvent, addr 0x24a06e4, size 0x9c, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action* value);
+
+  /// @brief Method remove_didChangeColorSchemeEvent, addr 0x24a0b08, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didChangeColorSchemeEvent(::System::Action_1<::GlobalNamespace::ColorScheme*>* value);
+
+  /// @brief Method remove_didFinishEvent, addr 0x24a0a6c, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EditColorSchemeController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EditColorSchemeController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditColorSchemeController(EditColorSchemeController&&) = delete;
@@ -177,12 +181,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditColorSchemeController(EditColorSchemeController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EditColorSchemeController();
-
-public:
   /// @brief Field _colorSchemeColorsToggleGroup, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeColorsToggleGroup> ____colorSchemeColorsToggleGroup;
 

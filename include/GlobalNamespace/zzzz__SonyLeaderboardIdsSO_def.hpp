@@ -36,8 +36,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10701))
 // CS Name: ::SonyLeaderboardIdsSO::LeaderboardIdData*
 class CORDL_TYPE __SonyLeaderboardIdsSO__LeaderboardIdData : public ::System::Object {
 public:
@@ -55,32 +53,38 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILeaderboardIdData"
   constexpr operator ::GlobalNamespace::ILeaderboardIdData*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ILeaderboardIdData"
-  constexpr ::GlobalNamespace::ILeaderboardIdData* i___GlobalNamespace__ILeaderboardIdData() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__difficultyBeatmapId();
+  static inline ::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData* New_ctor(uint32_t sonyLeaderboardId, ::StringW difficultyBeatmapId);
 
   constexpr ::StringW const& __cordl_internal_get__difficultyBeatmapId() const;
 
-  constexpr void __cordl_internal_set__difficultyBeatmapId(::StringW value);
-
-  constexpr uint32_t& __cordl_internal_get__sonyLeaderboardId();
+  constexpr ::StringW& __cordl_internal_get__difficultyBeatmapId();
 
   constexpr uint32_t const& __cordl_internal_get__sonyLeaderboardId() const;
 
+  constexpr uint32_t& __cordl_internal_get__sonyLeaderboardId();
+
+  constexpr void __cordl_internal_set__difficultyBeatmapId(::StringW value);
+
   constexpr void __cordl_internal_set__sonyLeaderboardId(uint32_t value);
 
-  /// @brief Method get_difficultyBeatmapId, addr 0x127388c, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_difficultyBeatmapId();
-
-  /// @brief Method get_sonyLeaderboardId, addr 0x1273894, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_sonyLeaderboardId();
-
-  static inline ::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData* New_ctor(uint32_t sonyLeaderboardId, ::StringW difficultyBeatmapId);
-
-  /// @brief Method .ctor, addr 0x127389c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b686c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint32_t sonyLeaderboardId, ::StringW difficultyBeatmapId);
 
+  /// @brief Method get_difficultyBeatmapId, addr 0x12b685c, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_difficultyBeatmapId();
+
+  /// @brief Method get_sonyLeaderboardId, addr 0x12b6864, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_sonyLeaderboardId();
+
+  /// @brief Convert to "::GlobalNamespace::ILeaderboardIdData"
+  constexpr ::GlobalNamespace::ILeaderboardIdData* i___GlobalNamespace__ILeaderboardIdData() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyLeaderboardIdsSO__LeaderboardIdData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SonyLeaderboardIdsSO__LeaderboardIdData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SonyLeaderboardIdsSO__LeaderboardIdData(__SonyLeaderboardIdsSO__LeaderboardIdData&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SonyLeaderboardIdsSO__LeaderboardIdData(__SonyLeaderboardIdsSO__LeaderboardIdData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyLeaderboardIdsSO__LeaderboardIdData();
-
-public:
   /// @brief Field _difficultyBeatmapId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____difficultyBeatmapId;
 
@@ -115,27 +113,27 @@ static_assert(offsetof(::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdD
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10702))
 // CS Name: ::SonyLeaderboardIdsSO*
 class CORDL_TYPE SonyLeaderboardIdsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   using LeaderboardIdData = ::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData;
 
+  __declspec(property(get = ILeaderboardIdContainer_get_leaderboardIds))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* ILeaderboardIdContainer_leaderboardIds;
+
   /// @brief Field _leaderboardIds, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardIds,
                       put = __cordl_internal_set__leaderboardIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* _leaderboardIds;
-
-  __declspec(property(get = ILeaderboardIdContainer_get_leaderboardIds))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* ILeaderboardIdContainer_leaderboardIds;
 
   __declspec(property(get = get_leaderboardIds, put = set_leaderboardIds))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* leaderboardIds;
 
   /// @brief Convert operator to "::GlobalNamespace::ILeaderboardIdContainer"
   constexpr operator ::GlobalNamespace::ILeaderboardIdContainer*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ILeaderboardIdContainer"
-  constexpr ::GlobalNamespace::ILeaderboardIdContainer* i___GlobalNamespace__ILeaderboardIdContainer() noexcept;
+  /// @brief Method ILeaderboardIdContainer.get_leaderboardIds, addr 0x12b6774, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* ILeaderboardIdContainer_get_leaderboardIds();
+
+  static inline ::GlobalNamespace::SonyLeaderboardIdsSO* New_ctor();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>*& __cordl_internal_get__leaderboardIds();
 
@@ -144,20 +142,24 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* value);
 
-  /// @brief Method ILeaderboardIdContainer.get_leaderboardIds, addr 0x12737a4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* ILeaderboardIdContainer_get_leaderboardIds();
-
-  /// @brief Method get_leaderboardIds, addr 0x12737ac, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* get_leaderboardIds();
-
-  /// @brief Method set_leaderboardIds, addr 0x12737b4, size 0x5c, virtual false, abstract: false, final false
-  inline void set_leaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* value);
-
-  static inline ::GlobalNamespace::SonyLeaderboardIdsSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1273810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b67e0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_leaderboardIds, addr 0x12b677c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* get_leaderboardIds();
+
+  /// @brief Convert to "::GlobalNamespace::ILeaderboardIdContainer"
+  constexpr ::GlobalNamespace::ILeaderboardIdContainer* i___GlobalNamespace__ILeaderboardIdContainer() noexcept;
+
+  /// @brief Method set_leaderboardIds, addr 0x12b6784, size 0x5c, virtual false, abstract: false, final false
+  inline void set_leaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyLeaderboardIdsSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyLeaderboardIdsSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyLeaderboardIdsSO(SonyLeaderboardIdsSO&&) = delete;
@@ -166,12 +168,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyLeaderboardIdsSO(SonyLeaderboardIdsSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyLeaderboardIdsSO();
-
-public:
   /// @brief Field _leaderboardIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsSO__LeaderboardIdData*>* ____leaderboardIds;
 

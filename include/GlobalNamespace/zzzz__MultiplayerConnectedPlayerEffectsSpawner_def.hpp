@@ -26,54 +26,58 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4458))
 // CS Name: ::MultiplayerConnectedPlayerEffectsSpawner*
 class CORDL_TYPE MultiplayerConnectedPlayerEffectsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _noteDebrisSpawner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner))::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
-
-  /// @brief Field _bombExplosionEffect, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombExplosionEffect, put = __cordl_internal_set__bombExplosionEffect))::UnityW<::GlobalNamespace::BombExplosionEffect> _bombExplosionEffect;
-
   /// @brief Field _beatmapObjectEventManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectEventManager,
                       put = __cordl_internal_set__beatmapObjectEventManager))::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* _beatmapObjectEventManager;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSpawner>& __cordl_internal_get__noteDebrisSpawner();
+  /// @brief Field _bombExplosionEffect, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__bombExplosionEffect, put = __cordl_internal_set__bombExplosionEffect))::UnityW<::GlobalNamespace::BombExplosionEffect> _bombExplosionEffect;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSpawner> const& __cordl_internal_get__noteDebrisSpawner() const;
+  /// @brief Field _noteDebrisSpawner, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner))::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
 
-  constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
+  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x245d424, size 0x1f8, virtual false, abstract: false, final false
+  inline void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
-  constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect>& __cordl_internal_get__bombExplosionEffect();
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect> const& __cordl_internal_get__bombExplosionEffect() const;
+  /// @brief Method OnDestroy, addr 0x245d31c, size 0x108, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr void __cordl_internal_set__bombExplosionEffect(::UnityW<::GlobalNamespace::BombExplosionEffect> value);
+  /// @brief Method Start, addr 0x245d22c, size 0xf0, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*> const& __cordl_internal_get__beatmapObjectEventManager() const;
 
+  constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect> const& __cordl_internal_get__bombExplosionEffect() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect>& __cordl_internal_get__bombExplosionEffect();
+
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSpawner> const& __cordl_internal_get__noteDebrisSpawner() const;
+
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSpawner>& __cordl_internal_get__noteDebrisSpawner();
+
   constexpr void __cordl_internal_set__beatmapObjectEventManager(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* value);
 
-  /// @brief Method Start, addr 0x238e2e4, size 0xf0, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__bombExplosionEffect(::UnityW<::GlobalNamespace::BombExplosionEffect> value);
 
-  /// @brief Method OnDestroy, addr 0x238e3d4, size 0x108, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
 
-  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x238e4dc, size 0x1f8, virtual false, abstract: false, final false
-  inline void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
-
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner* New_ctor();
-
-  /// @brief Method .ctor, addr 0x238e6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x245d61c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerEffectsSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerEffectsSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawner&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerEffectsSpawner();
-
-public:
   /// @brief Field _noteDebrisSpawner, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisSpawner> ____noteDebrisSpawner;
 

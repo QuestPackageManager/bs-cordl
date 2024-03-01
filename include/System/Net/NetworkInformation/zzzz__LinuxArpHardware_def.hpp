@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::NetworkInformation::LinuxArpHardware);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7286))
 // CS Name: ::System.Net.NetworkInformation::LinuxArpHardware
 struct CORDL_TYPE LinuxArpHardware {
 public:
@@ -49,60 +47,41 @@ public:
     return static_cast<__LinuxArpHardware_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr LinuxArpHardware(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LinuxArpHardware();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr LinuxArpHardware(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field ETHER value: static_cast<int32_t>(0x1)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const ETHER;
-
-  /// @brief Field EETHER value: static_cast<int32_t>(0x2)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const EETHER;
-
-  /// @brief Field PRONET value: static_cast<int32_t>(0x4)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const PRONET;
 
   /// @brief Field ATM value: static_cast<int32_t>(0x13)
   static ::System::Net::NetworkInformation::LinuxArpHardware const ATM;
 
-  /// @brief Field SLIP value: static_cast<int32_t>(0x100)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const SLIP;
-
   /// @brief Field CSLIP value: static_cast<int32_t>(0x101)
   static ::System::Net::NetworkInformation::LinuxArpHardware const CSLIP;
-
-  /// @brief Field SLIP6 value: static_cast<int32_t>(0x102)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const SLIP6;
 
   /// @brief Field CSLIP6 value: static_cast<int32_t>(0x103)
   static ::System::Net::NetworkInformation::LinuxArpHardware const CSLIP6;
 
-  /// @brief Field PPP value: static_cast<int32_t>(0x200)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const PPP;
+  /// @brief Field EETHER value: static_cast<int32_t>(0x2)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const EETHER;
 
-  /// @brief Field LOOPBACK value: static_cast<int32_t>(0x304)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const LOOPBACK;
+  /// @brief Field ETHER value: static_cast<int32_t>(0x1)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const ETHER;
 
   /// @brief Field FDDI value: static_cast<int32_t>(0x306)
   static ::System::Net::NetworkInformation::LinuxArpHardware const FDDI;
 
-  /// @brief Field TUNNEL value: static_cast<int32_t>(0x300)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL;
-
-  /// @brief Field TUNNEL6 value: static_cast<int32_t>(0x301)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL6;
-
-  /// @brief Field SIT value: static_cast<int32_t>(0x308)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const SIT;
+  /// @brief Field IP6GRE value: static_cast<int32_t>(0x337)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const IP6GRE;
 
   /// @brief Field IPDDP value: static_cast<int32_t>(0x309)
   static ::System::Net::NetworkInformation::LinuxArpHardware const IPDDP;
@@ -110,8 +89,32 @@ public:
   /// @brief Field IPGRE value: static_cast<int32_t>(0x30a)
   static ::System::Net::NetworkInformation::LinuxArpHardware const IPGRE;
 
-  /// @brief Field IP6GRE value: static_cast<int32_t>(0x337)
-  static ::System::Net::NetworkInformation::LinuxArpHardware const IP6GRE;
+  /// @brief Field LOOPBACK value: static_cast<int32_t>(0x304)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const LOOPBACK;
+
+  /// @brief Field PPP value: static_cast<int32_t>(0x200)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const PPP;
+
+  /// @brief Field PRONET value: static_cast<int32_t>(0x4)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const PRONET;
+
+  /// @brief Field SIT value: static_cast<int32_t>(0x308)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const SIT;
+
+  /// @brief Field SLIP value: static_cast<int32_t>(0x100)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const SLIP;
+
+  /// @brief Field SLIP6 value: static_cast<int32_t>(0x102)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const SLIP6;
+
+  /// @brief Field TUNNEL value: static_cast<int32_t>(0x300)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL;
+
+  /// @brief Field TUNNEL6 value: static_cast<int32_t>(0x301)
+  static ::System::Net::NetworkInformation::LinuxArpHardware const TUNNEL6;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -52,12 +52,14 @@ MARK_VAL_T(::TMPro::TMP_CharacterInfo);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 389, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(12227)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12229)), TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12336))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12230)) CS Name: ::TMPro::TMP_CharacterInfo
+// CS Name: ::TMPro::TMP_CharacterInfo
 struct CORDL_TYPE TMP_CharacterInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_CharacterInfo();
+
   // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "stringLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementType", ty: "::TMPro::TMP_TextElementType", modifiers: "", def_value: None }, CppParam { name:
   // "textElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }, CppParam
@@ -86,10 +88,6 @@ public:
                               float_t baseLine, float_t descender, float_t adjustedAscender, float_t adjustedDescender, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color,
                               ::UnityEngine::Color32 underlineColor, int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor, int32_t strikethroughVertexIndex,
                               ::UnityEngine::Color32 highlightColor, ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style, bool isVisible) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_CharacterInfo();
 
   /// @brief Field character, offset: 0x0, size: 0x2, def value: None
   char16_t character;

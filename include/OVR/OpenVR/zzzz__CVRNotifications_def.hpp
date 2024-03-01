@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRNotifications);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8437))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8515))
 // CS Name: ::OVR.OpenVR::CVRNotifications*
 class CORDL_TYPE CVRNotifications : public ::System::Object {
 public:
@@ -39,24 +37,30 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRNotifications FnTable;
 
-  constexpr ::OVR::OpenVR::IVRNotifications& __cordl_internal_get_FnTable();
-
-  constexpr ::OVR::OpenVR::IVRNotifications const& __cordl_internal_get_FnTable() const;
-
-  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRNotifications value);
-
-  static inline ::OVR::OpenVR::CVRNotifications* New_ctor(void* pInterface);
-
-  /// @brief Method .ctor, addr 0x28028a4, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(void* pInterface);
-
-  /// @brief Method CreateNotification, addr 0x28029b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CreateNotification, addr 0x28e6b08, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
                                                                 ::OVR::OpenVR::EVRNotificationStyle style, ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId);
 
-  /// @brief Method RemoveNotification, addr 0x28029dc, size 0x24, virtual false, abstract: false, final false
+  static inline ::OVR::OpenVR::CVRNotifications* New_ctor(void* pInterface);
+
+  /// @brief Method RemoveNotification, addr 0x28e6b34, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError RemoveNotification(uint32_t notificationId);
 
+  constexpr ::OVR::OpenVR::IVRNotifications const& __cordl_internal_get_FnTable() const;
+
+  constexpr ::OVR::OpenVR::IVRNotifications& __cordl_internal_get_FnTable();
+
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRNotifications value);
+
+  /// @brief Method .ctor, addr 0x28e69fc, size 0x10c, virtual false, abstract: false, final false
+  inline void _ctor(void* pInterface);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CVRNotifications();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CVRNotifications", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRNotifications(CVRNotifications&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CVRNotifications(CVRNotifications const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CVRNotifications();
-
-public:
   /// @brief Field FnTable, offset: 0x10, size: 0x10, def value: None
   ::OVR::OpenVR::IVRNotifications ___FnTable;
 

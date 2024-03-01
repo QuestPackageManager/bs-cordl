@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::GlobalNamespace::CannotStartGameReasonMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10909))
 // CS Name: ::CannotStartGameReasonMethods*
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x1299818, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x12db7e8, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CannotStartGameReasonMethods();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CannotStartGameReasonMethods(CannotStartGameReasonMethods&&) = delete;
@@ -35,23 +39,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CannotStartGameReasonMethods();
-
-public:
-  /// @brief Field kAllPlayersSpectating offset 0xffffffff size 0x8
-  static constexpr ::ConstString kAllPlayersSpectating{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_SPECTATING" };
-
-  /// @brief Field kNoSongSelected offset 0xffffffff size 0x8
-  static constexpr ::ConstString kNoSongSelected{ u"LABEL_CANT_START_GAME_NO_SONG_SELECTED" };
-
   /// @brief Field kAllPlayersNotInLobby offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersNotInLobby{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY" };
 
+  /// @brief Field kAllPlayersSpectating offset 0xffffffff size 0x8
+  static constexpr ::ConstString kAllPlayersSpectating{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_SPECTATING" };
+
   /// @brief Field kDoNotOwnSong offset 0xffffffff size 0x8
   static constexpr ::ConstString kDoNotOwnSong{ u"LABEL_CANT_START_GAME_DO_NOT_OWN_SONG" };
+
+  /// @brief Field kNoSongSelected offset 0xffffffff size 0x8
+  static constexpr ::ConstString kNoSongSelected{ u"LABEL_CANT_START_GAME_NO_SONG_SELECTED" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

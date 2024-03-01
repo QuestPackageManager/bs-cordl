@@ -16,50 +16,15 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarSaveData);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15792))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSaveData*
 class CORDL_TYPE AvatarSaveData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field headTopId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_headTopId, put = __cordl_internal_set_headTopId))::StringW headTopId;
-
-  /// @brief Field glassesId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_glassesId, put = __cordl_internal_set_glassesId))::StringW glassesId;
-
-  /// @brief Field facialHairId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_facialHairId, put = __cordl_internal_set_facialHairId))::StringW facialHairId;
-
-  /// @brief Field handsId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_handsId, put = __cordl_internal_set_handsId))::StringW handsId;
+  /// @brief Field clothesDetailColor, offset 0xc0, size 0x10
+  __declspec(property(get = __cordl_internal_get_clothesDetailColor, put = __cordl_internal_set_clothesDetailColor))::UnityEngine::Color clothesDetailColor;
 
   /// @brief Field clothesId, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_clothesId, put = __cordl_internal_set_clothesId))::StringW clothesId;
-
-  /// @brief Field skinColorId, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_skinColorId, put = __cordl_internal_set_skinColorId))::StringW skinColorId;
-
-  /// @brief Field mouthId, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mouthId, put = __cordl_internal_set_mouthId))::StringW mouthId;
-
-  /// @brief Field eyesId, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_eyesId, put = __cordl_internal_set_eyesId))::StringW eyesId;
-
-  /// @brief Field headTopPrimaryColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get_headTopPrimaryColor, put = __cordl_internal_set_headTopPrimaryColor))::UnityEngine::Color headTopPrimaryColor;
-
-  /// @brief Field headTopSecondaryColor, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_headTopSecondaryColor, put = __cordl_internal_set_headTopSecondaryColor))::UnityEngine::Color headTopSecondaryColor;
-
-  /// @brief Field glassesColor, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get_glassesColor, put = __cordl_internal_set_glassesColor))::UnityEngine::Color glassesColor;
-
-  /// @brief Field facialHairColor, offset 0x80, size 0x10
-  __declspec(property(get = __cordl_internal_get_facialHairColor, put = __cordl_internal_set_facialHairColor))::UnityEngine::Color facialHairColor;
-
-  /// @brief Field handsColor, offset 0x90, size 0x10
-  __declspec(property(get = __cordl_internal_get_handsColor, put = __cordl_internal_set_handsColor))::UnityEngine::Color handsColor;
 
   /// @brief Field clothesPrimaryColor, offset 0xa0, size 0x10
   __declspec(property(get = __cordl_internal_get_clothesPrimaryColor, put = __cordl_internal_set_clothesPrimaryColor))::UnityEngine::Color clothesPrimaryColor;
@@ -67,110 +32,149 @@ public:
   /// @brief Field clothesSecondaryColor, offset 0xb0, size 0x10
   __declspec(property(get = __cordl_internal_get_clothesSecondaryColor, put = __cordl_internal_set_clothesSecondaryColor))::UnityEngine::Color clothesSecondaryColor;
 
-  /// @brief Field clothesDetailColor, offset 0xc0, size 0x10
-  __declspec(property(get = __cordl_internal_get_clothesDetailColor, put = __cordl_internal_set_clothesDetailColor))::UnityEngine::Color clothesDetailColor;
+  /// @brief Field eyesId, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_eyesId, put = __cordl_internal_set_eyesId))::StringW eyesId;
 
-  constexpr ::StringW& __cordl_internal_get_headTopId();
+  /// @brief Field facialHairColor, offset 0x80, size 0x10
+  __declspec(property(get = __cordl_internal_get_facialHairColor, put = __cordl_internal_set_facialHairColor))::UnityEngine::Color facialHairColor;
 
-  constexpr ::StringW const& __cordl_internal_get_headTopId() const;
+  /// @brief Field facialHairId, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_facialHairId, put = __cordl_internal_set_facialHairId))::StringW facialHairId;
 
-  constexpr void __cordl_internal_set_headTopId(::StringW value);
+  /// @brief Field glassesColor, offset 0x70, size 0x10
+  __declspec(property(get = __cordl_internal_get_glassesColor, put = __cordl_internal_set_glassesColor))::UnityEngine::Color glassesColor;
 
-  constexpr ::StringW& __cordl_internal_get_glassesId();
+  /// @brief Field glassesId, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_glassesId, put = __cordl_internal_set_glassesId))::StringW glassesId;
 
-  constexpr ::StringW const& __cordl_internal_get_glassesId() const;
+  /// @brief Field handsColor, offset 0x90, size 0x10
+  __declspec(property(get = __cordl_internal_get_handsColor, put = __cordl_internal_set_handsColor))::UnityEngine::Color handsColor;
 
-  constexpr void __cordl_internal_set_glassesId(::StringW value);
+  /// @brief Field handsId, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_handsId, put = __cordl_internal_set_handsId))::StringW handsId;
 
-  constexpr ::StringW& __cordl_internal_get_facialHairId();
+  /// @brief Field headTopId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_headTopId, put = __cordl_internal_set_headTopId))::StringW headTopId;
 
-  constexpr ::StringW const& __cordl_internal_get_facialHairId() const;
+  /// @brief Field headTopPrimaryColor, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get_headTopPrimaryColor, put = __cordl_internal_set_headTopPrimaryColor))::UnityEngine::Color headTopPrimaryColor;
 
-  constexpr void __cordl_internal_set_facialHairId(::StringW value);
+  /// @brief Field headTopSecondaryColor, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get_headTopSecondaryColor, put = __cordl_internal_set_headTopSecondaryColor))::UnityEngine::Color headTopSecondaryColor;
 
-  constexpr ::StringW& __cordl_internal_get_handsId();
+  /// @brief Field mouthId, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_mouthId, put = __cordl_internal_set_mouthId))::StringW mouthId;
 
-  constexpr ::StringW const& __cordl_internal_get_handsId() const;
-
-  constexpr void __cordl_internal_set_handsId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_clothesId();
-
-  constexpr ::StringW const& __cordl_internal_get_clothesId() const;
-
-  constexpr void __cordl_internal_set_clothesId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_skinColorId();
-
-  constexpr ::StringW const& __cordl_internal_get_skinColorId() const;
-
-  constexpr void __cordl_internal_set_skinColorId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_mouthId();
-
-  constexpr ::StringW const& __cordl_internal_get_mouthId() const;
-
-  constexpr void __cordl_internal_set_mouthId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_eyesId();
-
-  constexpr ::StringW const& __cordl_internal_get_eyesId() const;
-
-  constexpr void __cordl_internal_set_eyesId(::StringW value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_headTopPrimaryColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_headTopPrimaryColor() const;
-
-  constexpr void __cordl_internal_set_headTopPrimaryColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_headTopSecondaryColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_headTopSecondaryColor() const;
-
-  constexpr void __cordl_internal_set_headTopSecondaryColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_glassesColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_glassesColor() const;
-
-  constexpr void __cordl_internal_set_glassesColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_facialHairColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_facialHairColor() const;
-
-  constexpr void __cordl_internal_set_facialHairColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_handsColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_handsColor() const;
-
-  constexpr void __cordl_internal_set_handsColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_clothesPrimaryColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_clothesPrimaryColor() const;
-
-  constexpr void __cordl_internal_set_clothesPrimaryColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_clothesSecondaryColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_clothesSecondaryColor() const;
-
-  constexpr void __cordl_internal_set_clothesSecondaryColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_clothesDetailColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_clothesDetailColor() const;
-
-  constexpr void __cordl_internal_set_clothesDetailColor(::UnityEngine::Color value);
+  /// @brief Field skinColorId, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_skinColorId, put = __cordl_internal_set_skinColorId))::StringW skinColorId;
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarSaveData* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe2601c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_clothesDetailColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_clothesDetailColor();
+
+  constexpr ::StringW const& __cordl_internal_get_clothesId() const;
+
+  constexpr ::StringW& __cordl_internal_get_clothesId();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_clothesPrimaryColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_clothesPrimaryColor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_clothesSecondaryColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_clothesSecondaryColor();
+
+  constexpr ::StringW const& __cordl_internal_get_eyesId() const;
+
+  constexpr ::StringW& __cordl_internal_get_eyesId();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_facialHairColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_facialHairColor();
+
+  constexpr ::StringW const& __cordl_internal_get_facialHairId() const;
+
+  constexpr ::StringW& __cordl_internal_get_facialHairId();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_glassesColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_glassesColor();
+
+  constexpr ::StringW const& __cordl_internal_get_glassesId() const;
+
+  constexpr ::StringW& __cordl_internal_get_glassesId();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_handsColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_handsColor();
+
+  constexpr ::StringW const& __cordl_internal_get_handsId() const;
+
+  constexpr ::StringW& __cordl_internal_get_handsId();
+
+  constexpr ::StringW const& __cordl_internal_get_headTopId() const;
+
+  constexpr ::StringW& __cordl_internal_get_headTopId();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_headTopPrimaryColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_headTopPrimaryColor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_headTopSecondaryColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_headTopSecondaryColor();
+
+  constexpr ::StringW const& __cordl_internal_get_mouthId() const;
+
+  constexpr ::StringW& __cordl_internal_get_mouthId();
+
+  constexpr ::StringW const& __cordl_internal_get_skinColorId() const;
+
+  constexpr ::StringW& __cordl_internal_get_skinColorId();
+
+  constexpr void __cordl_internal_set_clothesDetailColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_clothesId(::StringW value);
+
+  constexpr void __cordl_internal_set_clothesPrimaryColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_clothesSecondaryColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_eyesId(::StringW value);
+
+  constexpr void __cordl_internal_set_facialHairColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_facialHairId(::StringW value);
+
+  constexpr void __cordl_internal_set_glassesColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_glassesId(::StringW value);
+
+  constexpr void __cordl_internal_set_handsColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_handsId(::StringW value);
+
+  constexpr void __cordl_internal_set_headTopId(::StringW value);
+
+  constexpr void __cordl_internal_set_headTopPrimaryColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_headTopSecondaryColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_mouthId(::StringW value);
+
+  constexpr void __cordl_internal_set_skinColorId(::StringW value);
+
+  /// @brief Method .ctor, addr 0xe6bb80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSaveData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSaveData(AvatarSaveData&&) = delete;
@@ -179,12 +183,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSaveData(AvatarSaveData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarSaveData();
-
-public:
   /// @brief Field headTopId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___headTopId;
 

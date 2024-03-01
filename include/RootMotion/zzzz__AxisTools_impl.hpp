@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::RootMotion::Axis)>(&::RootMotion::AxisTools::ToVector3)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x12d05dc;
+  constexpr static std::size_t addrs = 0x13115c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Axis (*)(::UnityEngine::Vector3)>(&::RootMotion::AxisTools::ToAxis)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x12d06bc;
+  constexpr static std::size_t addrs = 0x13116a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Axis (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(
     &::RootMotion::AxisTools::GetAxisToPoint)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x12d06f4;
+  constexpr static std::size_t addrs = 0x13116e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::Axis (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(
     &::RootMotion::AxisTools::GetAxisToDirection)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x12d083c;
+  constexpr static std::size_t addrs = 0x1311828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(
     &::RootMotion::AxisTools::GetAxisVectorToPoint)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x12d07f0;
+  constexpr static std::size_t addrs = 0x13117dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(
     &::RootMotion::AxisTools::GetAxisVectorToDirection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x12d0938;
+  constexpr static std::size_t addrs = 0x1311924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::RootMotion::AxisTools::GetAxisVectorToDirection)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x12d097c;
+  constexpr static std::size_t addrs = 0x1311968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::AxisTools::*)()>(&::RootMotion::AxisTools::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d0e08;
+  constexpr static std::size_t addrs = 0x1311df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::AxisTools*>::get(), ".ctor",

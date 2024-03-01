@@ -92,8 +92,6 @@ MARK_VAL_T(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7231))
 // CS Name: ::WebConnectionTunnel::NtlmAuthState
 struct CORDL_TYPE __WebConnectionTunnel__NtlmAuthState {
 public:
@@ -112,27 +110,32 @@ public:
     return static_cast<____WebConnectionTunnel__NtlmAuthState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __WebConnectionTunnel__NtlmAuthState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __WebConnectionTunnel__NtlmAuthState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __WebConnectionTunnel__NtlmAuthState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Net::__WebConnectionTunnel__NtlmAuthState const None;
 
   /// @brief Field Challenge value: static_cast<int32_t>(0x1)
   static ::System::Net::__WebConnectionTunnel__NtlmAuthState const Challenge;
 
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Net::__WebConnectionTunnel__NtlmAuthState const None;
+
   /// @brief Field Response value: static_cast<int32_t>(0x2)
   static ::System::Net::__WebConnectionTunnel__NtlmAuthState const Response;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -146,24 +149,25 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel__NtlmAuthState, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3391)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(7101)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2508), inst: 5314 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 874 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7232)) CS Name:
-// ::WebConnectionTunnel::<Initialize>d__42
+// CS Name: ::WebConnectionTunnel::<Initialize>d__42
 struct CORDL_TYPE __WebConnectionTunnel___Initialize_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x2acd4b8, size 0xdd4, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2ace28c, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e53e4, size 0xdd4, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x29e61b8, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __WebConnectionTunnel___Initialize_d__42();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value:
@@ -178,10 +182,6 @@ public:
                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<
                                                          ::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t>>
                                                          __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebConnectionTunnel___Initialize_d__42();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -237,24 +237,25 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, 
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(7101)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5314 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3393), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 874 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7233)) CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
+// CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
 struct CORDL_TYPE __WebConnectionTunnel___ReadHeaders_d__43 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x2ace298, size 0x7bc, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2acea54, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x29e61c4, size 0x7bc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x29e6980, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __WebConnectionTunnel___ReadHeaders_d__43();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*,::ArrayW<uint8_t,::Array<uint8_t>*>,int32_t>>", modifiers: "", def_value:
@@ -269,10 +270,6 @@ public:
       ::System::Threading::CancellationToken cancellationToken, ::System::IO::Stream* stream, ::System::Net::WebConnectionTunnel* __4__this, ::ArrayW<uint8_t, ::Array<uint8_t>*> _retBuffer_5__2,
       int32_t _status_5__3, ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__4, ::System::IO::MemoryStream* _ms_5__5,
       ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebConnectionTunnel___ReadHeaders_d__43();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -337,44 +334,47 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7231))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7234))
 // CS Name: ::System.Net::WebConnectionTunnel*
 class CORDL_TYPE WebConnectionTunnel : public ::System::Object {
 public:
   // Declarations
-  using _ReadHeaders_d__43 = ::System::Net::__WebConnectionTunnel___ReadHeaders_d__43;
+  using NtlmAuthState = ::System::Net::__WebConnectionTunnel__NtlmAuthState;
 
   using _Initialize_d__42 = ::System::Net::__WebConnectionTunnel___Initialize_d__42;
 
-  using NtlmAuthState = ::System::Net::__WebConnectionTunnel__NtlmAuthState;
+  using _ReadHeaders_d__43 = ::System::Net::__WebConnectionTunnel___ReadHeaders_d__43;
 
-  /// @brief Field <Request>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
+  __declspec(property(get = get_Challenge, put = set_Challenge))::ArrayW<::StringW, ::Array<::StringW>*> Challenge;
 
-  /// @brief Field <ConnectUri>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__ConnectUri_k__BackingField, put = __cordl_internal_set__ConnectUri_k__BackingField))::System::Uri* _ConnectUri_k__BackingField;
+  __declspec(property(get = get_CloseConnection, put = set_CloseConnection)) bool CloseConnection;
 
-  /// @brief Field connectRequest, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_connectRequest, put = __cordl_internal_set_connectRequest))::System::Net::HttpWebRequest* connectRequest;
+  __declspec(property(get = get_ConnectUri))::System::Uri* ConnectUri;
 
-  /// @brief Field ntlmAuthState, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_ntlmAuthState, put = __cordl_internal_set_ntlmAuthState))::System::Net::__WebConnectionTunnel__NtlmAuthState ntlmAuthState;
+  __declspec(property(get = get_Data, put = set_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
 
-  /// @brief Field <Success>k__BackingField, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get__Success_k__BackingField, put = __cordl_internal_set__Success_k__BackingField)) bool _Success_k__BackingField;
+  __declspec(property(get = get_Headers, put = set_Headers))::System::Net::WebHeaderCollection* Headers;
+
+  __declspec(property(get = get_ProxyVersion, put = set_ProxyVersion))::System::Version* ProxyVersion;
+
+  __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
+
+  __declspec(property(get = get_StatusCode, put = set_StatusCode)) int32_t StatusCode;
+
+  __declspec(property(put = set_StatusDescription))::StringW StatusDescription;
+
+  __declspec(property(get = get_Success, put = set_Success)) bool Success;
+
+  /// @brief Field <Challenge>k__BackingField, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__Challenge_k__BackingField, put = __cordl_internal_set__Challenge_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _Challenge_k__BackingField;
 
   /// @brief Field <CloseConnection>k__BackingField, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get__CloseConnection_k__BackingField, put = __cordl_internal_set__CloseConnection_k__BackingField)) bool _CloseConnection_k__BackingField;
 
-  /// @brief Field <StatusCode>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__StatusCode_k__BackingField, put = __cordl_internal_set__StatusCode_k__BackingField)) int32_t _StatusCode_k__BackingField;
+  /// @brief Field <ConnectUri>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__ConnectUri_k__BackingField, put = __cordl_internal_set__ConnectUri_k__BackingField))::System::Uri* _ConnectUri_k__BackingField;
 
-  /// @brief Field <StatusDescription>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__StatusDescription_k__BackingField, put = __cordl_internal_set__StatusDescription_k__BackingField))::StringW _StatusDescription_k__BackingField;
-
-  /// @brief Field <Challenge>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__Challenge_k__BackingField, put = __cordl_internal_set__Challenge_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _Challenge_k__BackingField;
+  /// @brief Field <Data>k__BackingField, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Data_k__BackingField;
 
   /// @brief Field <Headers>k__BackingField, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
@@ -382,167 +382,168 @@ public:
   /// @brief Field <ProxyVersion>k__BackingField, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__ProxyVersion_k__BackingField, put = __cordl_internal_set__ProxyVersion_k__BackingField))::System::Version* _ProxyVersion_k__BackingField;
 
-  /// @brief Field <Data>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Data_k__BackingField;
+  /// @brief Field <Request>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
 
-  __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
+  /// @brief Field <StatusCode>k__BackingField, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__StatusCode_k__BackingField, put = __cordl_internal_set__StatusCode_k__BackingField)) int32_t _StatusCode_k__BackingField;
 
-  __declspec(property(get = get_ConnectUri))::System::Uri* ConnectUri;
+  /// @brief Field <StatusDescription>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__StatusDescription_k__BackingField, put = __cordl_internal_set__StatusDescription_k__BackingField))::StringW _StatusDescription_k__BackingField;
 
-  __declspec(property(get = get_Success, put = set_Success)) bool Success;
+  /// @brief Field <Success>k__BackingField, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get__Success_k__BackingField, put = __cordl_internal_set__Success_k__BackingField)) bool _Success_k__BackingField;
 
-  __declspec(property(get = get_CloseConnection, put = set_CloseConnection)) bool CloseConnection;
+  /// @brief Field connectRequest, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_connectRequest, put = __cordl_internal_set_connectRequest))::System::Net::HttpWebRequest* connectRequest;
 
-  __declspec(property(get = get_StatusCode, put = set_StatusCode)) int32_t StatusCode;
+  /// @brief Field ntlmAuthState, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_ntlmAuthState, put = __cordl_internal_set_ntlmAuthState))::System::Net::__WebConnectionTunnel__NtlmAuthState ntlmAuthState;
 
-  __declspec(property(put = set_StatusDescription))::StringW StatusDescription;
+  /// @brief Method FlushContents, addr 0x2acd424, size 0x94, virtual false, abstract: false, final false
+  inline void FlushContents(::System::IO::Stream* stream, int32_t contentLength);
 
-  __declspec(property(get = get_Challenge, put = set_Challenge))::ArrayW<::StringW, ::Array<::StringW>*> Challenge;
+  /// @brief Method Initialize, addr 0x2acba14, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* Initialize(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  __declspec(property(get = get_Headers, put = set_Headers))::System::Net::WebHeaderCollection* Headers;
+  static inline ::System::Net::WebConnectionTunnel* New_ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
-  __declspec(property(get = get_ProxyVersion, put = set_ProxyVersion))::System::Version* ProxyVersion;
+  /// @brief Method ReadHeaders, addr 0x2acd31c, size 0x108, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t>>*
+  ReadHeaders(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
-  __declspec(property(get = get_Data, put = set_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__Challenge_k__BackingField() const;
 
-  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__Challenge_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__CloseConnection_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+  constexpr bool& __cordl_internal_get__CloseConnection_k__BackingField();
 
   constexpr ::System::Uri*& __cordl_internal_get__ConnectUri_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__ConnectUri_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ConnectUri_k__BackingField(::System::Uri* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Data_k__BackingField() const;
 
-  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_connectRequest();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get_connectRequest() const;
-
-  constexpr void __cordl_internal_set_connectRequest(::System::Net::HttpWebRequest* value);
-
-  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState& __cordl_internal_get_ntlmAuthState();
-
-  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState const& __cordl_internal_get_ntlmAuthState() const;
-
-  constexpr void __cordl_internal_set_ntlmAuthState(::System::Net::__WebConnectionTunnel__NtlmAuthState value);
-
-  constexpr bool& __cordl_internal_get__Success_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__Success_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Success_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__CloseConnection_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__CloseConnection_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__CloseConnection_k__BackingField(bool value);
-
-  constexpr int32_t& __cordl_internal_get__StatusCode_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__StatusCode_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__StatusCode_k__BackingField(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get__StatusDescription_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__StatusDescription_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__StatusDescription_k__BackingField(::StringW value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__Challenge_k__BackingField();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__Challenge_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Challenge_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Data_k__BackingField();
 
   constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__Headers_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
-
   constexpr ::System::Version*& __cordl_internal_get__ProxyVersion_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get__ProxyVersion_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ProxyVersion_k__BackingField(::System::Version* value);
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Data_k__BackingField();
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Data_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__StatusCode_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__StatusCode_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__StatusDescription_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__StatusDescription_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__Success_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__Success_k__BackingField();
+
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_connectRequest();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get_connectRequest() const;
+
+  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState const& __cordl_internal_get_ntlmAuthState() const;
+
+  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState& __cordl_internal_get_ntlmAuthState();
+
+  constexpr void __cordl_internal_set__Challenge_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set__CloseConnection_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__ConnectUri_k__BackingField(::System::Uri* value);
 
   constexpr void __cordl_internal_set__Data_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Request, addr 0x29e51b8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::HttpWebRequest* get_Request();
+  constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method get_ConnectUri, addr 0x29e51c0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Uri* get_ConnectUri();
+  constexpr void __cordl_internal_set__ProxyVersion_k__BackingField(::System::Version* value);
 
-  static inline ::System::Net::WebConnectionTunnel* New_ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
+  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x29e3914, size 0x2c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__StatusCode_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__StatusDescription_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__Success_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set_connectRequest(::System::Net::HttpWebRequest* value);
+
+  constexpr void __cordl_internal_set_ntlmAuthState(::System::Net::__WebConnectionTunnel__NtlmAuthState value);
+
+  /// @brief Method .ctor, addr 0x2acb9e8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
-  /// @brief Method get_Success, addr 0x29e51c8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Success();
-
-  /// @brief Method set_Success, addr 0x29e51d0, size 0xc, virtual false, abstract: false, final false
-  inline void set_Success(bool value);
-
-  /// @brief Method get_CloseConnection, addr 0x29e51dc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_CloseConnection();
-
-  /// @brief Method set_CloseConnection, addr 0x29e51e4, size 0xc, virtual false, abstract: false, final false
-  inline void set_CloseConnection(bool value);
-
-  /// @brief Method get_StatusCode, addr 0x29e51f0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_StatusCode();
-
-  /// @brief Method set_StatusCode, addr 0x29e51f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_StatusCode(int32_t value);
-
-  /// @brief Method set_StatusDescription, addr 0x29e5200, size 0x8, virtual false, abstract: false, final false
-  inline void set_StatusDescription(::StringW value);
-
-  /// @brief Method get_Challenge, addr 0x29e5208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Challenge, addr 0x2acd2dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Challenge();
 
-  /// @brief Method set_Challenge, addr 0x29e5210, size 0x8, virtual false, abstract: false, final false
-  inline void set_Challenge(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Method get_CloseConnection, addr 0x2acd2b0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CloseConnection();
 
-  /// @brief Method get_Headers, addr 0x29e5218, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::WebHeaderCollection* get_Headers();
+  /// @brief Method get_ConnectUri, addr 0x2acd294, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Uri* get_ConnectUri();
 
-  /// @brief Method set_Headers, addr 0x29e5220, size 0x8, virtual false, abstract: false, final false
-  inline void set_Headers(::System::Net::WebHeaderCollection* value);
-
-  /// @brief Method get_ProxyVersion, addr 0x29e5228, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Version* get_ProxyVersion();
-
-  /// @brief Method set_ProxyVersion, addr 0x29e5230, size 0x8, virtual false, abstract: false, final false
-  inline void set_ProxyVersion(::System::Version* value);
-
-  /// @brief Method get_Data, addr 0x29e5238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x2acd30c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method set_Data, addr 0x29e5240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x2acd2ec, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::WebHeaderCollection* get_Headers();
+
+  /// @brief Method get_ProxyVersion, addr 0x2acd2fc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Version* get_ProxyVersion();
+
+  /// @brief Method get_Request, addr 0x2acd28c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Net::HttpWebRequest* get_Request();
+
+  /// @brief Method get_StatusCode, addr 0x2acd2c4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_StatusCode();
+
+  /// @brief Method get_Success, addr 0x2acd29c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Success();
+
+  /// @brief Method set_Challenge, addr 0x2acd2e4, size 0x8, virtual false, abstract: false, final false
+  inline void set_Challenge(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  /// @brief Method set_CloseConnection, addr 0x2acd2b8, size 0xc, virtual false, abstract: false, final false
+  inline void set_CloseConnection(bool value);
+
+  /// @brief Method set_Data, addr 0x2acd314, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Initialize, addr 0x29e3940, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* Initialize(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method set_Headers, addr 0x2acd2f4, size 0x8, virtual false, abstract: false, final false
+  inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method ReadHeaders, addr 0x29e5248, size 0x108, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t>>*
-  ReadHeaders(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method set_ProxyVersion, addr 0x2acd304, size 0x8, virtual false, abstract: false, final false
+  inline void set_ProxyVersion(::System::Version* value);
 
-  /// @brief Method FlushContents, addr 0x29e5350, size 0x94, virtual false, abstract: false, final false
-  inline void FlushContents(::System::IO::Stream* stream, int32_t contentLength);
+  /// @brief Method set_StatusCode, addr 0x2acd2cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_StatusCode(int32_t value);
 
+  /// @brief Method set_StatusDescription, addr 0x2acd2d4, size 0x8, virtual false, abstract: false, final false
+  inline void set_StatusDescription(::StringW value);
+
+  /// @brief Method set_Success, addr 0x2acd2a4, size 0xc, virtual false, abstract: false, final false
+  inline void set_Success(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WebConnectionTunnel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WebConnectionTunnel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebConnectionTunnel(WebConnectionTunnel&&) = delete;
@@ -551,12 +552,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebConnectionTunnel(WebConnectionTunnel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebConnectionTunnel();
-
-public:
   /// @brief Field <Request>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::HttpWebRequest* ____Request_k__BackingField;
 

@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::MacUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1751))
 // CS Name: ::Org.BouncyCastle.Security::MacUtilities*
 class CORDL_TYPE MacUtilities : public ::System::Object {
 public:
@@ -38,33 +36,39 @@ public:
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms))::System::Collections::IDictionary* algorithms;
 
-  static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
+  /// @brief Method CalculateMac, addr 0x11a161c, size 0x158, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* cp, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  static inline ::System::Collections::IDictionary* getStaticF_algorithms();
+  /// @brief Method DoFinal, addr 0x11a1774, size 0x134, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac);
+
+  /// @brief Method DoFinal, addr 0x11a18a8, size 0xec, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+
+  /// @brief Method GetAlgorithmName, addr 0x11a1514, size 0x108, virtual false, abstract: false, final false
+  static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetMac, addr 0x11a098c, size 0xb88, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::StringW algorithm);
+
+  /// @brief Method GetMac, addr 0x11a092c, size 0x60, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
 
   static inline ::Org::BouncyCastle::Security::MacUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x115cd44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119ed14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetMac, addr 0x115e95c, size 0x60, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
+  static inline ::System::Collections::IDictionary* getStaticF_algorithms();
 
-  /// @brief Method GetMac, addr 0x115e9bc, size 0xb88, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::StringW algorithm);
+  static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
 
-  /// @brief Method GetAlgorithmName, addr 0x115f544, size 0x108, virtual false, abstract: false, final false
-  static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MacUtilities();
 
-  /// @brief Method CalculateMac, addr 0x115f64c, size 0x158, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* cp, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
-  /// @brief Method DoFinal, addr 0x115f7a4, size 0x134, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac);
-
-  /// @brief Method DoFinal, addr 0x115f8d8, size 0xec, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MacUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MacUtilities(MacUtilities&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MacUtilities(MacUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MacUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

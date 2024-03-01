@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::UnityEngine::UI::FontUpdateTracker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12939))
 // CS Name: ::UnityEngine.UI::FontUpdateTracker*
 class CORDL_TYPE FontUpdateTracker : public ::System::Object {
 public:
@@ -37,20 +35,26 @@ public:
       get = getStaticF_m_Tracked,
       put = setStaticF_m_Tracked))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* m_Tracked;
 
-  static inline void
-  setStaticF_m_Tracked(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* value);
+  /// @brief Method RebuildForFont, addr 0x2e65fa4, size 0x1a4, virtual false, abstract: false, final false
+  static inline void RebuildForFont(::UnityEngine::Font* f);
+
+  /// @brief Method TrackText, addr 0x2e65d54, size 0x250, virtual false, abstract: false, final false
+  static inline void TrackText(::UnityEngine::UI::Text* t);
+
+  /// @brief Method UntrackText, addr 0x2e66148, size 0x20c, virtual false, abstract: false, final false
+  static inline void UntrackText(::UnityEngine::UI::Text* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* getStaticF_m_Tracked();
 
-  /// @brief Method TrackText, addr 0x2d7962c, size 0x250, virtual false, abstract: false, final false
-  static inline void TrackText(::UnityEngine::UI::Text* t);
+  static inline void
+  setStaticF_m_Tracked(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* value);
 
-  /// @brief Method RebuildForFont, addr 0x2d7987c, size 0x1a4, virtual false, abstract: false, final false
-  static inline void RebuildForFont(::UnityEngine::Font* f);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FontUpdateTracker();
 
-  /// @brief Method UntrackText, addr 0x2d79a20, size 0x20c, virtual false, abstract: false, final false
-  static inline void UntrackText(::UnityEngine::UI::Text* t);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FontUpdateTracker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FontUpdateTracker(FontUpdateTracker&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FontUpdateTracker(FontUpdateTracker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FontUpdateTracker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

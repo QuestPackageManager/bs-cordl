@@ -16,21 +16,19 @@ MARK_VAL_T(::UnityEngine::Rendering::GlobalKeyword);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9138))
 // CS Name: ::UnityEngine.Rendering::GlobalKeyword
 struct CORDL_TYPE GlobalKeyword {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2cfae20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2de6548, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr GlobalKeyword(::StringW m_Name, uint32_t m_Index) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GlobalKeyword();
+
+  // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr GlobalKeyword(::StringW m_Name, uint32_t m_Index) noexcept;
 
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;

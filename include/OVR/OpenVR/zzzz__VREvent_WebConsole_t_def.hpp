@@ -15,18 +15,16 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_WebConsole_t);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8632))
 // CS Name: ::OVR.OpenVR::VREvent_WebConsole_t
 struct CORDL_TYPE VREvent_WebConsole_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "webConsoleHandle", ty: "uint64_t", modifiers: "", def_value: None }]
-  constexpr VREvent_WebConsole_t(uint64_t webConsoleHandle) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_WebConsole_t();
+
+  // Ctor Parameters [CppParam { name: "webConsoleHandle", ty: "uint64_t", modifiers: "", def_value: None }]
+  constexpr VREvent_WebConsole_t(uint64_t webConsoleHandle) noexcept;
 
   /// @brief Field webConsoleHandle, offset: 0x0, size: 0x8, def value: None
   uint64_t webConsoleHandle;

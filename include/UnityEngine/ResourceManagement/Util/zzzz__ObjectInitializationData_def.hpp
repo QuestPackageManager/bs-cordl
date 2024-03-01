@@ -25,43 +25,41 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::ObjectInitializationData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13997))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ObjectInitializationData
 struct CORDL_TYPE ObjectInitializationData {
 public:
   // Declarations
+  __declspec(property(get = get_Data))::StringW Data;
+
   __declspec(property(get = get_Id))::StringW Id;
 
   __declspec(property(get = get_ObjectType))::UnityEngine::ResourceManagement::Util::SerializedType ObjectType;
 
-  __declspec(property(get = get_Data))::StringW Data;
-
-  /// @brief Method get_Id, addr 0x2bd034c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Id();
-
-  /// @brief Method get_ObjectType, addr 0x2bd0354, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
-
-  /// @brief Method get_Data, addr 0x2bd0364, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Data();
-
-  /// @brief Method ToString, addr 0x2bd036c, size 0x98, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject CreateInstance(::StringW idOverride);
 
-  /// @brief Method GetAsyncInitHandle, addr 0x2bd0404, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncInitHandle, addr 0x2cb94d8, size 0x24c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride);
 
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType, ::StringW m_Data) noexcept;
+  /// @brief Method ToString, addr 0x2cb9440, size 0x98, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method get_Data, addr 0x2cb9438, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Data();
+
+  /// @brief Method get_Id, addr 0x2cb9420, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Id();
+
+  /// @brief Method get_ObjectType, addr 0x2cb9428, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::Util::SerializedType get_ObjectType();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ObjectInitializationData();
+
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
+  // modifiers: "", def_value: None }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType, ::StringW m_Data) noexcept;
 
   /// @brief Field m_Id, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Id;

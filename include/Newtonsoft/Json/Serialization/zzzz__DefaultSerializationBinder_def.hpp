@@ -33,30 +33,28 @@ MARK_VAL_T(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__Type
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11828))
 // CS Name: ::DefaultSerializationBinder::TypeNameKey
 struct CORDL_TYPE __DefaultSerializationBinder__TypeNameKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x269a820, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW assemblyName, ::StringW typeName);
-
-  /// @brief Method GetHashCode, addr 0x269a950, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x269a9a0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27690ec, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x269aa18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2769164, size 0x48, virtual false, abstract: false, final false
   inline bool Equals(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey other);
 
-  // Ctor Parameters [CppParam { name: "AssemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "TypeName", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __DefaultSerializationBinder__TypeNameKey(::StringW AssemblyName, ::StringW TypeName) noexcept;
+  /// @brief Method GetHashCode, addr 0x276909c, size 0x50, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x2768f6c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW assemblyName, ::StringW typeName);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DefaultSerializationBinder__TypeNameKey();
+
+  // Ctor Parameters [CppParam { name: "AssemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "TypeName", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr __DefaultSerializationBinder__TypeNameKey(::StringW AssemblyName, ::StringW TypeName) noexcept;
 
   /// @brief Field AssemblyName, offset: 0x0, size: 0x8, def value: None
   ::StringW AssemblyName;
@@ -81,21 +79,27 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultSerialization
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3206))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11829))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultSerializationBinder*
 class CORDL_TYPE DefaultSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
 public:
   // Declarations
   using TypeNameKey = ::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey;
 
+  /// @brief Field Instance, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Newtonsoft::Json::Serialization::DefaultSerializationBinder* Instance;
+
   /// @brief Field _typeCache, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__typeCache,
                       put = __cordl_internal_set__typeCache))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey,
                                                                                                               ::System::Type*>* _typeCache;
 
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Newtonsoft::Json::Serialization::DefaultSerializationBinder* Instance;
+  /// @brief Method BindToType, addr 0x2768f04, size 0x68, virtual true, abstract: false, final false
+  inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
+
+  /// @brief Method GetTypeFromTypeNameKey, addr 0x2768ce4, size 0x220, virtual false, abstract: false, final false
+  static inline ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey typeNameKey);
+
+  static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* New_ctor();
 
   constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>*& __cordl_internal_get__typeCache();
 
@@ -105,21 +109,19 @@ public:
   constexpr void
   __cordl_internal_set__typeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* value);
 
-  static inline void setStaticF_Instance(::Newtonsoft::Json::Serialization::DefaultSerializationBinder* value);
+  /// @brief Method .ctor, addr 0x2768f74, size 0xc8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* getStaticF_Instance();
 
-  /// @brief Method GetTypeFromTypeNameKey, addr 0x269a598, size 0x220, virtual false, abstract: false, final false
-  static inline ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey typeNameKey);
+  static inline void setStaticF_Instance(::Newtonsoft::Json::Serialization::DefaultSerializationBinder* value);
 
-  /// @brief Method BindToType, addr 0x269a7b8, size 0x68, virtual true, abstract: false, final false
-  inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultSerializationBinder();
 
-  static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x269a828, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSerializationBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultSerializationBinder(DefaultSerializationBinder&&) = delete;
@@ -128,12 +130,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultSerializationBinder(DefaultSerializationBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultSerializationBinder();
-
-public:
   /// @brief Field _typeCache, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* ____typeCache;
 

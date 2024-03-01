@@ -21,43 +21,47 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshHandle);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12038))
 // CS Name: ::UnityEngine.ProBuilder::MeshHandle*
 class CORDL_TYPE MeshHandle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Transform, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform))::UnityW<::UnityEngine::Transform> m_Transform;
-
   /// @brief Field m_Mesh, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
 
+  /// @brief Field m_Transform, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform))::UnityW<::UnityEngine::Transform> m_Transform;
+
   __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_Transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_Transform() const;
-
-  constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
-
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
-
-  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
-
-  /// @brief Method get_mesh, addr 0x2b4ac70, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
+  /// @brief Method DrawMeshNow, addr 0x2c31d78, size 0x128, virtual false, abstract: false, final false
+  inline void DrawMeshNow(int32_t submeshIndex);
 
   static inline ::UnityEngine::ProBuilder::MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
-  /// @brief Method .ctor, addr 0x2b4ac78, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
+
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_Transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_Transform();
+
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
+
+  constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x2c31d4c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
-  /// @brief Method DrawMeshNow, addr 0x2b4aca4, size 0x128, virtual false, abstract: false, final false
-  inline void DrawMeshNow(int32_t submeshIndex);
+  /// @brief Method get_mesh, addr 0x2c31d44, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshHandle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MeshHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MeshHandle(MeshHandle&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshHandle(MeshHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshHandle();
-
-public:
   /// @brief Field m_Transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_Transform;
 

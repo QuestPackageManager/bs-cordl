@@ -20,8 +20,6 @@ MARK_VAL_T(::GlobalNamespace::XPlatformAccessTokenData);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12822))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12823))
 // CS Name: ::XPlatformAccessTokenData
 struct CORDL_TYPE XPlatformAccessTokenData {
 public:
@@ -29,23 +27,23 @@ public:
   /// @brief Field invalid, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid))::GlobalNamespace::XPlatformAccessTokenData invalid;
 
-  static inline void setStaticF_invalid(::GlobalNamespace::XPlatformAccessTokenData value);
+  /// @brief Method IsValid, addr 0xec3b60, size 0x40, virtual false, abstract: false, final false
+  inline bool IsValid();
+
+  /// @brief Method .ctor, addr 0xec3b54, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
   static inline ::GlobalNamespace::XPlatformAccessTokenData getStaticF_invalid();
 
-  /// @brief Method .ctor, addr 0xe7cb84, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
-
-  /// @brief Method IsValid, addr 0xe7cb90, size 0x40, virtual false, abstract: false, final false
-  inline bool IsValid();
-
-  // Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers: "",
-  // def_value: None }]
-  constexpr XPlatformAccessTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment) noexcept;
+  static inline void setStaticF_invalid(::GlobalNamespace::XPlatformAccessTokenData value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr XPlatformAccessTokenData();
+
+  // Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "platformEnvironment", ty: "::GlobalNamespace::PlatformEnvironment", modifiers: "",
+  // def_value: None }]
+  constexpr XPlatformAccessTokenData(::StringW token, ::GlobalNamespace::PlatformEnvironment platformEnvironment) noexcept;
 
   /// @brief Field token, offset: 0x0, size: 0x8, def value: None
   ::StringW token;

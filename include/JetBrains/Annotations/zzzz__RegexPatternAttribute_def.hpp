@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RegexPatternAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15941))
 // CS Name: ::JetBrains.Annotations::RegexPatternAttribute*
 class CORDL_TYPE RegexPatternAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::RegexPatternAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed68b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc9fdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RegexPatternAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RegexPatternAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexPatternAttribute(RegexPatternAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RegexPatternAttribute(RegexPatternAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegexPatternAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

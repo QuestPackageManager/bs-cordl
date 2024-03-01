@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11632))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11631))
 // CS Name: ::XmlSchemaParticle::EmptyParticle*
 class CORDL_TYPE __XmlSchemaParticle__EmptyParticle : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
   static inline ::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28cb3bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b2838, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __XmlSchemaParticle__EmptyParticle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__XmlSchemaParticle__EmptyParticle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __XmlSchemaParticle__EmptyParticle(__XmlSchemaParticle__EmptyParticle&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XmlSchemaParticle__EmptyParticle(__XmlSchemaParticle__EmptyParticle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XmlSchemaParticle__EmptyParticle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

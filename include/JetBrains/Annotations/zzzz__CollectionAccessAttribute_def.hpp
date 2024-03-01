@@ -18,35 +18,39 @@ MARK_REF_PTR_T(::JetBrains::Annotations::CollectionAccessAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15934))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15933))
 // CS Name: ::JetBrains.Annotations::CollectionAccessAttribute*
 class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_CollectionAccessType, put = set_CollectionAccessType))::JetBrains::Annotations::CollectionAccessType CollectionAccessType;
+
   /// @brief Field <CollectionAccessType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__CollectionAccessType_k__BackingField,
                       put = __cordl_internal_set__CollectionAccessType_k__BackingField))::JetBrains::Annotations::CollectionAccessType _CollectionAccessType_k__BackingField;
 
-  __declspec(property(get = get_CollectionAccessType, put = set_CollectionAccessType))::JetBrains::Annotations::CollectionAccessType CollectionAccessType;
-
-  constexpr ::JetBrains::Annotations::CollectionAccessType& __cordl_internal_get__CollectionAccessType_k__BackingField();
+  static inline ::JetBrains::Annotations::CollectionAccessAttribute* New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
   constexpr ::JetBrains::Annotations::CollectionAccessType const& __cordl_internal_get__CollectionAccessType_k__BackingField() const;
 
+  constexpr ::JetBrains::Annotations::CollectionAccessType& __cordl_internal_get__CollectionAccessType_k__BackingField();
+
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  static inline ::JetBrains::Annotations::CollectionAccessAttribute* New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
-
-  /// @brief Method .ctor, addr 0x2ed6824, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc9f4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
-  /// @brief Method get_CollectionAccessType, addr 0x2ed684c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionAccessType, addr 0x2fc9f74, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
 
-  /// @brief Method set_CollectionAccessType, addr 0x2ed6854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionAccessType, addr 0x2fc9f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CollectionAccessAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionAccessAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CollectionAccessAttribute(CollectionAccessAttribute&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionAccessAttribute(CollectionAccessAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CollectionAccessAttribute();
-
-public:
   /// @brief Field <CollectionAccessType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::CollectionAccessType ____CollectionAccessType_k__BackingField;
 

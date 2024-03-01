@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatSaberDefineSymbols);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16428))
 // CS Name: ::BeatSaberDefineSymbols*
 class CORDL_TYPE BeatSaberDefineSymbols : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatSaberDefineSymbols();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDefineSymbols", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatSaberDefineSymbols(BeatSaberDefineSymbols&&) = delete;
@@ -28,17 +32,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatSaberDefineSymbols(BeatSaberDefineSymbols const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatSaberDefineSymbols();
-
-public:
-  /// @brief Field kIgnoreVrFocusLostEvents offset 0xffffffff size 0x8
-  static constexpr ::ConstString kIgnoreVrFocusLostEvents{ u"IGNORE_VR_FOCUS_LOST_EVENTS" };
-
   /// @brief Field kEnableMultiplayerMock offset 0xffffffff size 0x8
   static constexpr ::ConstString kEnableMultiplayerMock{ u"ENABLE_MULTIPLAYER_MOCK" };
+
+  /// @brief Field kIgnoreVrFocusLostEvents offset 0xffffffff size 0x8
+  static constexpr ::ConstString kIgnoreVrFocusLostEvents{ u"IGNORE_VR_FOCUS_LOST_EVENTS" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

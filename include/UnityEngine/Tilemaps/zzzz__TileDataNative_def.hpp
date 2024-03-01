@@ -31,21 +31,20 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileDataNative);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(16061)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16068))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16065)) CS Name: ::UnityEngine.Tilemaps::TileDataNative
+// CS Name: ::UnityEngine.Tilemaps::TileDataNative
 struct CORDL_TYPE TileDataNative {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TileDataNative();
+
   // Ctor Parameters [CppParam { name: "m_Sprite", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam {
   // name: "m_Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_GameObject", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_Flags", ty: "::UnityEngine::Tilemaps::TileFlags", modifiers: "", def_value: None }, CppParam { name: "m_ColliderType", ty: "::UnityEngine::Tilemaps::__Tile__ColliderType", modifiers: "",
   // def_value: None }]
   constexpr TileDataNative(int32_t m_Sprite, ::UnityEngine::Color m_Color, ::UnityEngine::Matrix4x4 m_Transform, int32_t m_GameObject, ::UnityEngine::Tilemaps::TileFlags m_Flags,
                            ::UnityEngine::Tilemaps::__Tile__ColliderType m_ColliderType) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TileDataNative();
 
   /// @brief Field m_Sprite, offset: 0x0, size: 0x4, def value: None
   int32_t m_Sprite;

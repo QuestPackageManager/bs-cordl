@@ -44,14 +44,30 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberSwingRatingCounter);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8907)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
 // CS Name: ::SaberSwingRatingCounter*
 class CORDL_TYPE SaberSwingRatingCounter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _saberMovementData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberMovementData, put = __cordl_internal_set__saberMovementData))::GlobalNamespace::ISaberMovementData* _saberMovementData;
+  /// @brief Field _afterCutBottomPos, offset 0x98, size 0xc
+  __declspec(property(get = __cordl_internal_get__afterCutBottomPos, put = __cordl_internal_set__afterCutBottomPos))::UnityEngine::Vector3 _afterCutBottomPos;
+
+  /// @brief Field _afterCutRating, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__afterCutRating, put = __cordl_internal_set__afterCutRating)) float_t _afterCutRating;
+
+  /// @brief Field _afterCutTopPos, offset 0x8c, size 0xc
+  __declspec(property(get = __cordl_internal_get__afterCutTopPos, put = __cordl_internal_set__afterCutTopPos))::UnityEngine::Vector3 _afterCutTopPos;
+
+  /// @brief Field _beforeCutBottomPos, offset 0x80, size 0xc
+  __declspec(property(get = __cordl_internal_get__beforeCutBottomPos, put = __cordl_internal_set__beforeCutBottomPos))::UnityEngine::Vector3 _beforeCutBottomPos;
+
+  /// @brief Field _beforeCutRating, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__beforeCutRating, put = __cordl_internal_set__beforeCutRating)) float_t _beforeCutRating;
+
+  /// @brief Field _beforeCutTopPos, offset 0x74, size 0xc
+  __declspec(property(get = __cordl_internal_get__beforeCutTopPos, put = __cordl_internal_set__beforeCutTopPos))::UnityEngine::Vector3 _beforeCutTopPos;
+
+  /// @brief Field _cutBottomPos, offset 0xbc, size 0xc
+  __declspec(property(get = __cordl_internal_get__cutBottomPos, put = __cordl_internal_set__cutBottomPos))::UnityEngine::Vector3 _cutBottomPos;
 
   /// @brief Field _cutPlaneNormal, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get__cutPlaneNormal, put = __cordl_internal_set__cutPlaneNormal))::UnityEngine::Vector3 _cutPlaneNormal;
@@ -59,26 +75,8 @@ public:
   /// @brief Field _cutTime, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__cutTime, put = __cordl_internal_set__cutTime)) float_t _cutTime;
 
-  /// @brief Field _afterCutRating, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__afterCutRating, put = __cordl_internal_set__afterCutRating)) float_t _afterCutRating;
-
-  /// @brief Field _beforeCutRating, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__beforeCutRating, put = __cordl_internal_set__beforeCutRating)) float_t _beforeCutRating;
-
-  /// @brief Field _notePlane, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__notePlane, put = __cordl_internal_set__notePlane))::UnityEngine::Plane _notePlane;
-
-  /// @brief Field _notePlaneWasCut, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__notePlaneWasCut, put = __cordl_internal_set__notePlaneWasCut)) bool _notePlaneWasCut;
-
-  /// @brief Field _noteForward, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get__noteForward, put = __cordl_internal_set__noteForward))::UnityEngine::Vector3 _noteForward;
-
-  /// @brief Field _rateBeforeCut, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get__rateBeforeCut, put = __cordl_internal_set__rateBeforeCut)) bool _rateBeforeCut;
-
-  /// @brief Field _rateAfterCut, offset 0x51, size 0x1
-  __declspec(property(get = __cordl_internal_get__rateAfterCut, put = __cordl_internal_set__rateAfterCut)) bool _rateAfterCut;
+  /// @brief Field _cutTopPos, offset 0xb0, size 0xc
+  __declspec(property(get = __cordl_internal_get__cutTopPos, put = __cordl_internal_set__cutTopPos))::UnityEngine::Vector3 _cutTopPos;
 
   /// @brief Field _didChangeReceivers, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__didChangeReceivers,
@@ -88,212 +86,218 @@ public:
   __declspec(property(get = __cordl_internal_get__didFinishReceivers,
                       put = __cordl_internal_set__didFinishReceivers))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* _didFinishReceivers;
 
-  /// @brief Field _notePlaneCenter, offset 0x68, size 0xc
-  __declspec(property(get = __cordl_internal_get__notePlaneCenter, put = __cordl_internal_set__notePlaneCenter))::UnityEngine::Vector3 _notePlaneCenter;
-
-  /// @brief Field _beforeCutTopPos, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get__beforeCutTopPos, put = __cordl_internal_set__beforeCutTopPos))::UnityEngine::Vector3 _beforeCutTopPos;
-
-  /// @brief Field _beforeCutBottomPos, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get__beforeCutBottomPos, put = __cordl_internal_set__beforeCutBottomPos))::UnityEngine::Vector3 _beforeCutBottomPos;
-
-  /// @brief Field _afterCutTopPos, offset 0x8c, size 0xc
-  __declspec(property(get = __cordl_internal_get__afterCutTopPos, put = __cordl_internal_set__afterCutTopPos))::UnityEngine::Vector3 _afterCutTopPos;
-
-  /// @brief Field _afterCutBottomPos, offset 0x98, size 0xc
-  __declspec(property(get = __cordl_internal_get__afterCutBottomPos, put = __cordl_internal_set__afterCutBottomPos))::UnityEngine::Vector3 _afterCutBottomPos;
+  /// @brief Field _finished, offset 0xc8, size 0x1
+  __declspec(property(get = __cordl_internal_get__finished, put = __cordl_internal_set__finished)) bool _finished;
 
   /// @brief Field _newPlaneNormal, offset 0xa4, size 0xc
   __declspec(property(get = __cordl_internal_get__newPlaneNormal, put = __cordl_internal_set__newPlaneNormal))::UnityEngine::Vector3 _newPlaneNormal;
 
-  /// @brief Field _cutTopPos, offset 0xb0, size 0xc
-  __declspec(property(get = __cordl_internal_get__cutTopPos, put = __cordl_internal_set__cutTopPos))::UnityEngine::Vector3 _cutTopPos;
+  /// @brief Field _noteForward, offset 0x44, size 0xc
+  __declspec(property(get = __cordl_internal_get__noteForward, put = __cordl_internal_set__noteForward))::UnityEngine::Vector3 _noteForward;
 
-  /// @brief Field _cutBottomPos, offset 0xbc, size 0xc
-  __declspec(property(get = __cordl_internal_get__cutBottomPos, put = __cordl_internal_set__cutBottomPos))::UnityEngine::Vector3 _cutBottomPos;
+  /// @brief Field _notePlane, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get__notePlane, put = __cordl_internal_set__notePlane))::UnityEngine::Plane _notePlane;
 
-  /// @brief Field _finished, offset 0xc8, size 0x1
-  __declspec(property(get = __cordl_internal_get__finished, put = __cordl_internal_set__finished)) bool _finished;
+  /// @brief Field _notePlaneCenter, offset 0x68, size 0xc
+  __declspec(property(get = __cordl_internal_get__notePlaneCenter, put = __cordl_internal_set__notePlaneCenter))::UnityEngine::Vector3 _notePlaneCenter;
 
-  __declspec(property(get = get_beforeCutRating)) float_t beforeCutRating;
+  /// @brief Field _notePlaneWasCut, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__notePlaneWasCut, put = __cordl_internal_set__notePlaneWasCut)) bool _notePlaneWasCut;
+
+  /// @brief Field _rateAfterCut, offset 0x51, size 0x1
+  __declspec(property(get = __cordl_internal_get__rateAfterCut, put = __cordl_internal_set__rateAfterCut)) bool _rateAfterCut;
+
+  /// @brief Field _rateBeforeCut, offset 0x50, size 0x1
+  __declspec(property(get = __cordl_internal_get__rateBeforeCut, put = __cordl_internal_set__rateBeforeCut)) bool _rateBeforeCut;
+
+  /// @brief Field _saberMovementData, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberMovementData, put = __cordl_internal_set__saberMovementData))::GlobalNamespace::ISaberMovementData* _saberMovementData;
 
   __declspec(property(get = get_afterCutRating)) float_t afterCutRating;
 
-  /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
-  constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
-
-  /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounter"
-  constexpr ::GlobalNamespace::ISaberSwingRatingCounter* i___GlobalNamespace__ISaberSwingRatingCounter() noexcept;
+  __declspec(property(get = get_beforeCutRating)) float_t beforeCutRating;
 
   /// @brief Convert operator to "::GlobalNamespace::ISaberMovementDataProcessor"
   constexpr operator ::GlobalNamespace::ISaberMovementDataProcessor*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"
-  constexpr ::GlobalNamespace::ISaberMovementDataProcessor* i___GlobalNamespace__ISaberMovementDataProcessor() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
+  constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  constexpr ::GlobalNamespace::ISaberMovementData*& __cordl_internal_get__saberMovementData();
+  /// @brief Method DrawGizmos, addr 0x12ac618, size 0x384, virtual false, abstract: false, final false
+  inline void DrawGizmos();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaberMovementData*> const& __cordl_internal_get__saberMovementData() const;
+  /// @brief Method Finish, addr 0x12ac46c, size 0x1ac, virtual false, abstract: false, final false
+  inline void Finish();
 
-  constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
+  /// @brief Method Init, addr 0x12ab988, size 0x364, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutPlaneNormal();
+  static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutPlaneNormal() const;
+  /// @brief Method ProcessNewData, addr 0x12abcec, size 0x780, virtual true, abstract: false, final true
+  inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  constexpr void __cordl_internal_set__cutPlaneNormal(::UnityEngine::Vector3 value);
+  /// @brief Method RegisterDidChangeReceiver, addr 0x12ab828, size 0x58, virtual true, abstract: false, final true
+  inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  constexpr float_t& __cordl_internal_get__cutTime();
+  /// @brief Method RegisterDidFinishReceiver, addr 0x12ab880, size 0x58, virtual true, abstract: false, final true
+  inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  constexpr float_t const& __cordl_internal_get__cutTime() const;
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x12ab8d8, size 0x58, virtual true, abstract: false, final true
+  inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  constexpr void __cordl_internal_set__cutTime(float_t value);
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x12ab930, size 0x58, virtual true, abstract: false, final true
+  inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  constexpr float_t& __cordl_internal_get__afterCutRating();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__afterCutBottomPos();
 
   constexpr float_t const& __cordl_internal_get__afterCutRating() const;
 
-  constexpr void __cordl_internal_set__afterCutRating(float_t value);
+  constexpr float_t& __cordl_internal_get__afterCutRating();
 
-  constexpr float_t& __cordl_internal_get__beforeCutRating();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutTopPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__afterCutTopPos();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__beforeCutBottomPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__beforeCutBottomPos();
 
   constexpr float_t const& __cordl_internal_get__beforeCutRating() const;
 
-  constexpr void __cordl_internal_set__beforeCutRating(float_t value);
+  constexpr float_t& __cordl_internal_get__beforeCutRating();
 
-  constexpr ::UnityEngine::Plane& __cordl_internal_get__notePlane();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__beforeCutTopPos() const;
 
-  constexpr ::UnityEngine::Plane const& __cordl_internal_get__notePlane() const;
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__beforeCutTopPos();
 
-  constexpr void __cordl_internal_set__notePlane(::UnityEngine::Plane value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutBottomPos() const;
 
-  constexpr bool& __cordl_internal_get__notePlaneWasCut();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutBottomPos();
 
-  constexpr bool const& __cordl_internal_get__notePlaneWasCut() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutPlaneNormal() const;
 
-  constexpr void __cordl_internal_set__notePlaneWasCut(bool value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutPlaneNormal();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__noteForward();
+  constexpr float_t const& __cordl_internal_get__cutTime() const;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__noteForward() const;
+  constexpr float_t& __cordl_internal_get__cutTime();
 
-  constexpr void __cordl_internal_set__noteForward(::UnityEngine::Vector3 value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutTopPos() const;
 
-  constexpr bool& __cordl_internal_get__rateBeforeCut();
-
-  constexpr bool const& __cordl_internal_get__rateBeforeCut() const;
-
-  constexpr void __cordl_internal_set__rateBeforeCut(bool value);
-
-  constexpr bool& __cordl_internal_get__rateAfterCut();
-
-  constexpr bool const& __cordl_internal_get__rateAfterCut() const;
-
-  constexpr void __cordl_internal_set__rateAfterCut(bool value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutTopPos();
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& __cordl_internal_get__didChangeReceivers();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*> const&
   __cordl_internal_get__didChangeReceivers() const;
 
-  constexpr void __cordl_internal_set__didChangeReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* value);
-
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& __cordl_internal_get__didFinishReceivers();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*> const&
   __cordl_internal_get__didFinishReceivers() const;
 
-  constexpr void __cordl_internal_set__didFinishReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__notePlaneCenter();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__notePlaneCenter() const;
-
-  constexpr void __cordl_internal_set__notePlaneCenter(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__beforeCutTopPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__beforeCutTopPos() const;
-
-  constexpr void __cordl_internal_set__beforeCutTopPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__beforeCutBottomPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__beforeCutBottomPos() const;
-
-  constexpr void __cordl_internal_set__beforeCutBottomPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__afterCutTopPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutTopPos() const;
-
-  constexpr void __cordl_internal_set__afterCutTopPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__afterCutBottomPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
-
-  constexpr void __cordl_internal_set__afterCutBottomPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__newPlaneNormal();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__newPlaneNormal() const;
-
-  constexpr void __cordl_internal_set__newPlaneNormal(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutTopPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutTopPos() const;
-
-  constexpr void __cordl_internal_set__cutTopPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutBottomPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutBottomPos() const;
-
-  constexpr void __cordl_internal_set__cutBottomPos(::UnityEngine::Vector3 value);
+  constexpr bool const& __cordl_internal_get__finished() const;
 
   constexpr bool& __cordl_internal_get__finished();
 
-  constexpr bool const& __cordl_internal_get__finished() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__newPlaneNormal() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__newPlaneNormal();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__noteForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__noteForward();
+
+  constexpr ::UnityEngine::Plane const& __cordl_internal_get__notePlane() const;
+
+  constexpr ::UnityEngine::Plane& __cordl_internal_get__notePlane();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__notePlaneCenter() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__notePlaneCenter();
+
+  constexpr bool const& __cordl_internal_get__notePlaneWasCut() const;
+
+  constexpr bool& __cordl_internal_get__notePlaneWasCut();
+
+  constexpr bool const& __cordl_internal_get__rateAfterCut() const;
+
+  constexpr bool& __cordl_internal_get__rateAfterCut();
+
+  constexpr bool const& __cordl_internal_get__rateBeforeCut() const;
+
+  constexpr bool& __cordl_internal_get__rateBeforeCut();
+
+  constexpr ::GlobalNamespace::ISaberMovementData*& __cordl_internal_get__saberMovementData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaberMovementData*> const& __cordl_internal_get__saberMovementData() const;
+
+  constexpr void __cordl_internal_set__afterCutBottomPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__afterCutRating(float_t value);
+
+  constexpr void __cordl_internal_set__afterCutTopPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__beforeCutBottomPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__beforeCutRating(float_t value);
+
+  constexpr void __cordl_internal_set__beforeCutTopPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__cutBottomPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__cutPlaneNormal(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__cutTime(float_t value);
+
+  constexpr void __cordl_internal_set__cutTopPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__didChangeReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* value);
+
+  constexpr void __cordl_internal_set__didFinishReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* value);
 
   constexpr void __cordl_internal_set__finished(bool value);
 
-  /// @brief Method get_beforeCutRating, addr 0x1268848, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_beforeCutRating();
+  constexpr void __cordl_internal_set__newPlaneNormal(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_afterCutRating, addr 0x1268850, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_afterCutRating();
+  constexpr void __cordl_internal_set__noteForward(::UnityEngine::Vector3 value);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x1268858, size 0x58, virtual true, abstract: false, final true
-  inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+  constexpr void __cordl_internal_set__notePlane(::UnityEngine::Plane value);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x12688b0, size 0x58, virtual true, abstract: false, final true
-  inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+  constexpr void __cordl_internal_set__notePlaneCenter(::UnityEngine::Vector3 value);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x1268908, size 0x58, virtual true, abstract: false, final true
-  inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
+  constexpr void __cordl_internal_set__notePlaneWasCut(bool value);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x1268960, size 0x58, virtual true, abstract: false, final true
-  inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
+  constexpr void __cordl_internal_set__rateAfterCut(bool value);
 
-  /// @brief Method Init, addr 0x12689b8, size 0x364, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
+  constexpr void __cordl_internal_set__rateBeforeCut(bool value);
 
-  /// @brief Method ProcessNewData, addr 0x1268d1c, size 0x780, virtual true, abstract: false, final true
-  inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
+  constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method Finish, addr 0x126949c, size 0x1ac, virtual false, abstract: false, final false
-  inline void Finish();
-
-  /// @brief Method DrawGizmos, addr 0x1269648, size 0x384, virtual false, abstract: false, final false
-  inline void DrawGizmos();
-
-  static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12699cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ac99c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_afterCutRating, addr 0x12ab820, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_afterCutRating();
+
+  /// @brief Method get_beforeCutRating, addr 0x12ab818, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_beforeCutRating();
+
+  /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"
+  constexpr ::GlobalNamespace::ISaberMovementDataProcessor* i___GlobalNamespace__ISaberMovementDataProcessor() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounter"
+  constexpr ::GlobalNamespace::ISaberSwingRatingCounter* i___GlobalNamespace__ISaberSwingRatingCounter() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SaberSwingRatingCounter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberSwingRatingCounter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberSwingRatingCounter(SaberSwingRatingCounter&&) = delete;
@@ -302,12 +306,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberSwingRatingCounter(SaberSwingRatingCounter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SaberSwingRatingCounter();
-
-public:
   /// @brief Field _saberMovementData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ISaberMovementData* ____saberMovementData;
 

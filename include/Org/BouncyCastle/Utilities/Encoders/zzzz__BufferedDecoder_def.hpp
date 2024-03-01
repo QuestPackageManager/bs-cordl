@@ -19,50 +19,54 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1796))
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::BufferedDecoder*
 class CORDL_TYPE BufferedDecoder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
-
   /// @brief Field bufOff, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_bufOff, put = __cordl_internal_set_bufOff)) int32_t bufOff;
+
+  /// @brief Field buffer, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field translator, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_translator, put = __cordl_internal_set_translator))::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
+  static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
+  /// @brief Method ProcessByte, addr 0x11cce20, size 0x128, virtual false, abstract: false, final false
+  inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_bufOff();
+  /// @brief Method ProcessBytes, addr 0x11ccf48, size 0x264, virtual false, abstract: false, final false
+  inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   constexpr int32_t const& __cordl_internal_get_bufOff() const;
 
-  constexpr void __cordl_internal_set_bufOff(int32_t value);
+  constexpr int32_t& __cordl_internal_get_bufOff();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
   constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator*& __cordl_internal_get_translator();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Encoders::ITranslator*> const& __cordl_internal_get_translator() const;
 
+  constexpr void __cordl_internal_set_bufOff(int32_t value);
+
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
   constexpr void __cordl_internal_set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator* value);
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
-
-  /// @brief Method .ctor, addr 0x118ad14, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ccce4, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
-  /// @brief Method ProcessByte, addr 0x118ae50, size 0x128, virtual false, abstract: false, final false
-  inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferedDecoder();
 
-  /// @brief Method ProcessBytes, addr 0x118af78, size 0x264, virtual false, abstract: false, final false
-  inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferedDecoder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedDecoder(BufferedDecoder&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedDecoder(BufferedDecoder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferedDecoder();
-
-public:
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buffer;
 

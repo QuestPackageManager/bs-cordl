@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5PlatformAdditionalContentModel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11030))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10991))
 // CS Name: ::PS5PlatformAdditionalContentModel*
 class CORDL_TYPE PS5PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel {
 public:
@@ -29,9 +27,15 @@ public:
   static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                                ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
-  /// @brief Method .ctor, addr 0x12a8908, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e98d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper, ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PS5PlatformAdditionalContentModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PS5PlatformAdditionalContentModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PS5PlatformAdditionalContentModel(PS5PlatformAdditionalContentModel&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PS5PlatformAdditionalContentModel(PS5PlatformAdditionalContentModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PS5PlatformAdditionalContentModel();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

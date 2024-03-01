@@ -24,16 +24,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Media);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13292))
 // CS Name: ::Oculus.Platform::Media*
 class CORDL_TYPE Media : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShareToFacebook, addr 0x2730498, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ShareToFacebook, addr 0x27f043c, size 0x178, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath,
                                                                                                               ::Oculus::Platform::MediaContentType contentType);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Media();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Media", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Media(Media&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Media(Media const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Media();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

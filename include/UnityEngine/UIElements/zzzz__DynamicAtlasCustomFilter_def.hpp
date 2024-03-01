@@ -25,20 +25,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasCustomFilter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6019))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlasCustomFilter*
 class CORDL_TYPE DynamicAtlasCustomFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2dd25e8, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2dd26c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ec0de8, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
 
+  static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2ec0d10, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DynamicAtlasCustomFilter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasCustomFilter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DynamicAtlasCustomFilter(DynamicAtlasCustomFilter&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DynamicAtlasCustomFilter(DynamicAtlasCustomFilter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DynamicAtlasCustomFilter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

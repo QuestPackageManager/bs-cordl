@@ -16,8 +16,6 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6658))
 // CS Name: ::UnityEngine.UIElements.UIR::LinkedPoolItem`1<T>*
 class CORDL_TYPE LinkedPoolItem_1 : public ::System::Object {
 public:
@@ -25,17 +23,23 @@ public:
   /// @brief Field poolNext, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_poolNext, put = __cordl_internal_set_poolNext)) T poolNext;
 
-  constexpr T& __cordl_internal_get_poolNext();
+  static inline ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>* New_ctor();
 
   constexpr T const& __cordl_internal_get_poolNext() const;
 
-  constexpr void __cordl_internal_set_poolNext(T value);
+  constexpr T& __cordl_internal_get_poolNext();
 
-  static inline ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>* New_ctor();
+  constexpr void __cordl_internal_set_poolNext(T value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LinkedPoolItem_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LinkedPoolItem_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedPoolItem_1(LinkedPoolItem_1&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedPoolItem_1(LinkedPoolItem_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkedPoolItem_1();
-
-public:
   /// @brief Field poolNext, offset: 0x10, size: 0x8, def value: None
   T ___poolNext;
 

@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarPromoView);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15255))
 // CS Name: ::BeatSaber.AvatarCore::AvatarPromoView*
 class CORDL_TYPE AvatarPromoView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -28,20 +26,26 @@ public:
 
   __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+  static inline ::BeatSaber::AvatarCore::AvatarPromoView* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
+
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method get_rectTransform, addr 0xe172b8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
-
-  static inline ::BeatSaber::AvatarCore::AvatarPromoView* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe172c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe5ce24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_rectTransform, addr 0xe5ce1c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarPromoView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPromoView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarPromoView(AvatarPromoView&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPromoView(AvatarPromoView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarPromoView();
-
-public:
   /// @brief Field _rectTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 

@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractFpFieldElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1368))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1369))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractFpFieldElement*
 class CORDL_TYPE AbstractFpFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Math::EC::AbstractFpFieldElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0xffb704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103f6d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbstractFpFieldElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AbstractFpFieldElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractFpFieldElement(AbstractFpFieldElement&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AbstractFpFieldElement(AbstractFpFieldElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbstractFpFieldElement();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

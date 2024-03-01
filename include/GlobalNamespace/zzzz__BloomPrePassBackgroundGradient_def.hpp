@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundGradient);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14362))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14353))
 // CS Name: ::BloomPrePassBackgroundGradient*
 class CORDL_TYPE BloomPrePassBackgroundGradient : public ::GlobalNamespace::BloomPrePassBackgroundTextureGradient {
 public:
@@ -33,20 +31,26 @@ public:
   /// @brief Field _gradient, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient))::UnityEngine::Gradient* _gradient;
 
+  static inline ::GlobalNamespace::BloomPrePassBackgroundGradient* New_ctor();
+
+  /// @brief Method UpdatePixels, addr 0x2267460, size 0x318, virtual true, abstract: false, final false
+  inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
+
   constexpr ::UnityEngine::Gradient*& __cordl_internal_get__gradient();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __cordl_internal_get__gradient() const;
 
   constexpr void __cordl_internal_set__gradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method UpdatePixels, addr 0x2198df8, size 0x318, virtual true, abstract: false, final false
-  inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
-
-  static inline ::GlobalNamespace::BloomPrePassBackgroundGradient* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2199110, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2267778, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassBackgroundGradient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundGradient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundGradient(BloomPrePassBackgroundGradient&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundGradient(BloomPrePassBackgroundGradient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundGradient();
-
-public:
   /// @brief Field _gradient, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____gradient;
 

@@ -16,58 +16,56 @@ MARK_VAL_T(::UnityEngine::Keyframe);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8773))
 // CS Name: ::UnityEngine::Keyframe
 struct CORDL_TYPE Keyframe {
 public:
   // Declarations
-  __declspec(property(get = get_time, put = set_time)) float_t time;
-
-  __declspec(property(get = get_value, put = set_value)) float_t value;
-
   __declspec(property(get = get_inTangent, put = set_inTangent)) float_t inTangent;
 
   __declspec(property(get = get_outTangent, put = set_outTangent)) float_t outTangent;
 
-  /// @brief Method .ctor, addr 0x2c9f42c, size 0x10, virtual false, abstract: false, final false
+  __declspec(property(get = get_time, put = set_time)) float_t time;
+
+  __declspec(property(get = get_value, put = set_value)) float_t value;
+
+  /// @brief Method .ctor, addr 0x2d89508, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor, addr 0x2c9f43c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d89518, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
-  /// @brief Method get_time, addr 0x2c9f450, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_time();
-
-  /// @brief Method set_time, addr 0x2c9f458, size 0x8, virtual false, abstract: false, final false
-  inline void set_time(float_t value);
-
-  /// @brief Method get_value, addr 0x2c9f460, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_value();
-
-  /// @brief Method set_value, addr 0x2c9f468, size 0x8, virtual false, abstract: false, final false
-  inline void set_value(float_t value);
-
-  /// @brief Method get_inTangent, addr 0x2c9f470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inTangent, addr 0x2d8954c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inTangent();
 
-  /// @brief Method set_inTangent, addr 0x2c9f478, size 0x8, virtual false, abstract: false, final false
-  inline void set_inTangent(float_t value);
-
-  /// @brief Method get_outTangent, addr 0x2c9f480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outTangent, addr 0x2d8955c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outTangent();
 
-  /// @brief Method set_outTangent, addr 0x2c9f488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2d8952c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_time();
+
+  /// @brief Method get_value, addr 0x2d8953c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_value();
+
+  /// @brief Method set_inTangent, addr 0x2d89554, size 0x8, virtual false, abstract: false, final false
+  inline void set_inTangent(float_t value);
+
+  /// @brief Method set_outTangent, addr 0x2d89564, size 0x8, virtual false, abstract: false, final false
   inline void set_outTangent(float_t value);
+
+  /// @brief Method set_time, addr 0x2d89534, size 0x8, virtual false, abstract: false, final false
+  inline void set_time(float_t value);
+
+  /// @brief Method set_value, addr 0x2d89544, size 0x8, virtual false, abstract: false, final false
+  inline void set_value(float_t value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Keyframe();
 
   // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_InTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutTangent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_WeightedMode", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "m_InWeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OutWeight", ty: "float_t", modifiers: "", def_value: None }]
   constexpr Keyframe(float_t m_Time, float_t m_Value, float_t m_InTangent, float_t m_OutTangent, int32_t m_WeightedMode, float_t m_InWeight, float_t m_OutWeight) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Keyframe();
 
   /// @brief Field m_Time, offset: 0x0, size: 0x4, def value: None
   float_t m_Time;

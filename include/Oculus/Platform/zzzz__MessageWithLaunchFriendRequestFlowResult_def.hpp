@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13382)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
-// 4563 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13200)) CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
+// CS Name: ::Oculus.Platform::MessageWithLaunchFriendRequestFlowResult*
 class CORDL_TYPE MessageWithLaunchFriendRequestFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x271896c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x271b8dc, size 0x3c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
-
-  /// @brief Method GetDataFromMessage, addr 0x271b918, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e3794, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetDataFromMessage(void* c_message);
 
+  /// @brief Method GetLaunchFriendRequestFlowResult, addr 0x27e3758, size 0x3c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* GetLaunchFriendRequestFlowResult();
+
+  static inline ::Oculus::Platform::MessageWithLaunchFriendRequestFlowResult* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e0a98, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithLaunchFriendRequestFlowResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithLaunchFriendRequestFlowResult(MessageWithLaunchFriendRequestFlowResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithLaunchFriendRequestFlowResult();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

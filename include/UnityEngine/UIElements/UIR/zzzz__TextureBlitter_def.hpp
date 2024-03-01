@@ -58,20 +58,18 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8906)), TypeDefinitionIndex(TypeDefinitionIndex(8988)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6645))
 // CS Name: ::TextureBlitter::BlitInfo
 struct CORDL_TYPE __TextureBlitter__BlitInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TextureBlitter__BlitInfo();
+
   // Ctor Parameters [CppParam { name: "src", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "srcRect", ty: "::UnityEngine::RectInt", modifiers: "",
   // def_value: None }, CppParam { name: "dstPos", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "border", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "tint", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
   constexpr __TextureBlitter__BlitInfo(::UnityW<::UnityEngine::Texture> src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, int32_t border, ::UnityEngine::Color tint) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TextureBlitter__BlitInfo();
 
   /// @brief Field src, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture> src;
@@ -111,137 +109,141 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInf
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8695)), TypeDefinitionIndex(TypeDefinitionIndex(8906))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6646))
 // CS Name: ::UnityEngine.UIElements.UIR::TextureBlitter*
 class CORDL_TYPE TextureBlitter : public ::System::Object {
 public:
   // Declarations
   using BlitInfo = ::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo;
 
-  /// @brief Field m_SingleBlit, offset 0x10, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_m_SingleBlit,
-      put = __cordl_internal_set_m_SingleBlit))::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> m_SingleBlit;
+  /// @brief Field <disposed>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+
+  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
+
+  /// @brief Field k_TextureIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_k_TextureIds, put = setStaticF_k_TextureIds))::ArrayW<int32_t, ::Array<int32_t>*> k_TextureIds;
 
   /// @brief Field m_BlitMaterial, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BlitMaterial, put = __cordl_internal_set_m_BlitMaterial))::UnityW<::UnityEngine::Material> m_BlitMaterial;
-
-  /// @brief Field m_Properties, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Properties, put = __cordl_internal_set_m_Properties))::UnityEngine::MaterialPropertyBlock* m_Properties;
-
-  /// @brief Field m_Viewport, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Viewport, put = __cordl_internal_set_m_Viewport))::UnityEngine::RectInt m_Viewport;
-
-  /// @brief Field m_PrevRT, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PrevRT, put = __cordl_internal_set_m_PrevRT))::UnityW<::UnityEngine::RenderTexture> m_PrevRT;
 
   /// @brief Field m_PendingBlits, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PendingBlits,
                       put = __cordl_internal_set_m_PendingBlits))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* m_PendingBlits;
 
-  /// @brief Field <disposed>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  /// @brief Field m_PrevRT, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PrevRT, put = __cordl_internal_set_m_PrevRT))::UnityW<::UnityEngine::RenderTexture> m_PrevRT;
 
-  /// @brief Field k_TextureIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_TextureIds, put = setStaticF_k_TextureIds))::ArrayW<int32_t, ::Array<int32_t>*> k_TextureIds;
+  /// @brief Field m_Properties, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Properties, put = __cordl_internal_set_m_Properties))::UnityEngine::MaterialPropertyBlock* m_Properties;
+
+  /// @brief Field m_SingleBlit, offset 0x10, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_m_SingleBlit,
+      put = __cordl_internal_set_m_SingleBlit))::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> m_SingleBlit;
+
+  /// @brief Field m_Viewport, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Viewport, put = __cordl_internal_set_m_Viewport))::UnityEngine::RectInt m_Viewport;
 
   /// @brief Field s_CommitSampler, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_CommitSampler, put = setStaticF_s_CommitSampler))::Unity::Profiling::ProfilerMarker s_CommitSampler;
 
-  __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method BeginBlit, addr 0x2f9a5ac, size 0x1fc, virtual false, abstract: false, final false
+  inline void BeginBlit(::UnityEngine::RenderTexture* dst);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*>& __cordl_internal_get_m_SingleBlit();
+  /// @brief Method BlitOneNow, addr 0x2f8cbc4, size 0xe4, virtual false, abstract: false, final false
+  inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> const& __cordl_internal_get_m_SingleBlit() const;
+  /// @brief Method Commit, addr 0x2f8c9a0, size 0xec, virtual false, abstract: false, final false
+  inline void Commit(::UnityEngine::RenderTexture* dst);
 
-  constexpr void __cordl_internal_set_m_SingleBlit(::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> value);
+  /// @brief Method Dispose, addr 0x2f8bf54, size 0x6c, virtual true, abstract: false, final true
+  inline void Dispose();
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_BlitMaterial();
+  /// @brief Method Dispose, addr 0x2f9a404, size 0x7c, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method DoBlit, addr 0x2f9a7a8, size 0x51c, virtual false, abstract: false, final false
+  inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* blitInfos, int32_t startIndex);
+
+  /// @brief Method EndBlit, addr 0x2f9acc4, size 0xe0, virtual false, abstract: false, final false
+  inline void EndBlit();
+
+  static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
+
+  /// @brief Method QueueBlit, addr 0x2f8c340, size 0x1a4, virtual false, abstract: false, final false
+  inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
+
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_BlitMaterial() const;
 
-  constexpr void __cordl_internal_set_m_BlitMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get_m_Properties();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get_m_Properties() const;
-
-  constexpr void __cordl_internal_set_m_Properties(::UnityEngine::MaterialPropertyBlock* value);
-
-  constexpr ::UnityEngine::RectInt& __cordl_internal_get_m_Viewport();
-
-  constexpr ::UnityEngine::RectInt const& __cordl_internal_get_m_Viewport() const;
-
-  constexpr void __cordl_internal_set_m_Viewport(::UnityEngine::RectInt value);
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_m_PrevRT();
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_m_PrevRT() const;
-
-  constexpr void __cordl_internal_set_m_PrevRT(::UnityW<::UnityEngine::RenderTexture> value);
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_BlitMaterial();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*& __cordl_internal_get_m_PendingBlits();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> const& __cordl_internal_get_m_PendingBlits() const;
 
-  constexpr void __cordl_internal_set_m_PendingBlits(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* value);
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_m_PrevRT() const;
 
-  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get_m_PrevRT();
 
-  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
+  constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get_m_Properties();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get_m_Properties() const;
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> const& __cordl_internal_get_m_SingleBlit() const;
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*>& __cordl_internal_get_m_SingleBlit();
+
+  constexpr ::UnityEngine::RectInt const& __cordl_internal_get_m_Viewport() const;
+
+  constexpr ::UnityEngine::RectInt& __cordl_internal_get_m_Viewport();
 
   constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  static inline void setStaticF_k_TextureIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_BlitMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set_m_PendingBlits(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* value);
+
+  constexpr void __cordl_internal_set_m_PrevRT(::UnityW<::UnityEngine::RenderTexture> value);
+
+  constexpr void __cordl_internal_set_m_Properties(::UnityEngine::MaterialPropertyBlock* value);
+
+  constexpr void __cordl_internal_set_m_SingleBlit(::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> value);
+
+  constexpr void __cordl_internal_set_m_Viewport(::UnityEngine::RectInt value);
+
+  /// @brief Method .ctor, addr 0x2f8bc4c, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_TextureIds();
 
-  static inline void setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker value);
-
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_CommitSampler();
 
-  /// @brief Method get_disposed, addr 0x2ea5cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x2f9a3f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed, addr 0x2ea5cd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+  static inline void setStaticF_k_TextureIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  static inline void setStaticF_s_CommitSampler(::Unity::Profiling::ProfilerMarker value);
+
+  /// @brief Method set_disposed, addr 0x2f9a3f8, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose, addr 0x2e9782c, size 0x6c, virtual true, abstract: false, final true
-  inline void Dispose();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextureBlitter();
 
-  /// @brief Method Dispose, addr 0x2ea5cdc, size 0x7c, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  static inline ::UnityEngine::UIElements::UIR::TextureBlitter* New_ctor(int32_t capacity);
-
-  /// @brief Method .ctor, addr 0x2e97524, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
-
-  /// @brief Method QueueBlit, addr 0x2e97c18, size 0x1a4, virtual false, abstract: false, final false
-  inline void QueueBlit(::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
-
-  /// @brief Method BlitOneNow, addr 0x2e9849c, size 0xe4, virtual false, abstract: false, final false
-  inline void BlitOneNow(::UnityEngine::RenderTexture* dst, ::UnityEngine::Texture* src, ::UnityEngine::RectInt srcRect, ::UnityEngine::Vector2Int dstPos, bool addBorder, ::UnityEngine::Color tint);
-
-  /// @brief Method Commit, addr 0x2e98278, size 0xec, virtual false, abstract: false, final false
-  inline void Commit(::UnityEngine::RenderTexture* dst);
-
-  /// @brief Method BeginBlit, addr 0x2ea5e84, size 0x1fc, virtual false, abstract: false, final false
-  inline void BeginBlit(::UnityEngine::RenderTexture* dst);
-
-  /// @brief Method DoBlit, addr 0x2ea6080, size 0x51c, virtual false, abstract: false, final false
-  inline void DoBlit(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>* blitInfos, int32_t startIndex);
-
-  /// @brief Method EndBlit, addr 0x2ea659c, size 0xe0, virtual false, abstract: false, final false
-  inline void EndBlit();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextureBlitter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextureBlitter(TextureBlitter&&) = delete;
@@ -250,12 +252,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextureBlitter(TextureBlitter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureBlitter();
-
-public:
   /// @brief Field m_SingleBlit, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo, ::Array<::UnityEngine::UIElements::UIR::__TextureBlitter__BlitInfo>*> ___m_SingleBlit;
 

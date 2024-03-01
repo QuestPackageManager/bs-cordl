@@ -42,8 +42,6 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioLatencyViewController);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4917))
 // CS Name: ::AudioLatencyViewController*
 class CORDL_TYPE AudioLatencyViewController : public ::HMUI::ViewController {
 public:
@@ -51,116 +49,122 @@ public:
   /// @brief Field _audioLatency, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__audioLatency, put = __cordl_internal_set__audioLatency))::UnityW<::GlobalNamespace::FloatSO> _audioLatency;
 
-  /// @brief Field _overrideAudioLatency, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__overrideAudioLatency, put = __cordl_internal_set__overrideAudioLatency))::UnityW<::GlobalNamespace::BoolSO> _overrideAudioLatency;
-
-  /// @brief Field _setupCanvasGroup, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__setupCanvasGroup, put = __cordl_internal_set__setupCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _setupCanvasGroup;
-
-  /// @brief Field _overrideAudioLatencyToggle, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__overrideAudioLatencyToggle, put = __cordl_internal_set__overrideAudioLatencyToggle))::UnityW<::UnityEngine::UI::Toggle> _overrideAudioLatencyToggle;
-
-  /// @brief Field _slider, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__slider, put = __cordl_internal_set__slider))::UnityW<::HMUI::RangeValuesTextSlider> _slider;
-
-  /// @brief Field _visualMetronome, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__visualMetronome, put = __cordl_internal_set__visualMetronome))::UnityW<::GlobalNamespace::VisualMetronome> _visualMetronome;
-
   /// @brief Field _disabledAlpha, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get__disabledAlpha, put = __cordl_internal_set__disabledAlpha)) float_t _disabledAlpha;
-
-  /// @brief Field _songPreviewPlayer, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
   /// @brief Field _mainSettingsModel, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
+  /// @brief Field _overrideAudioLatency, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__overrideAudioLatency, put = __cordl_internal_set__overrideAudioLatency))::UnityW<::GlobalNamespace::BoolSO> _overrideAudioLatency;
+
+  /// @brief Field _overrideAudioLatencyToggle, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__overrideAudioLatencyToggle, put = __cordl_internal_set__overrideAudioLatencyToggle))::UnityW<::UnityEngine::UI::Toggle> _overrideAudioLatencyToggle;
+
+  /// @brief Field _setupCanvasGroup, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__setupCanvasGroup, put = __cordl_internal_set__setupCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _setupCanvasGroup;
+
+  /// @brief Field _slider, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__slider, put = __cordl_internal_set__slider))::UnityW<::HMUI::RangeValuesTextSlider> _slider;
+
+  /// @brief Field _songPreviewPlayer, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
+
   /// @brief Field _toggleBinder, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__audioLatency();
+  /// @brief Field _visualMetronome, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__visualMetronome, put = __cordl_internal_set__visualMetronome))::UnityW<::GlobalNamespace::VisualMetronome> _visualMetronome;
+
+  /// @brief Method DidActivate, addr 0x23ae7b4, size 0x230, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+  /// @brief Method DidDeactivate, addr 0x23aeae0, size 0x28, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x23aec60, size 0x68, virtual false, abstract: false, final false
+  inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
+
+  static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23aeb08, size 0xe4, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RefreshVisuals, addr 0x23ae9e4, size 0xfc, virtual false, abstract: false, final false
+  inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
+
+  /// @brief Method SliderValueDidChange, addr 0x23aebec, size 0x74, virtual false, abstract: false, final false
+  inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__audioLatency() const;
 
-  constexpr void __cordl_internal_set__audioLatency(::UnityW<::GlobalNamespace::FloatSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__overrideAudioLatency();
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__overrideAudioLatency() const;
-
-  constexpr void __cordl_internal_set__overrideAudioLatency(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__setupCanvasGroup();
-
-  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__setupCanvasGroup() const;
-
-  constexpr void __cordl_internal_set__setupCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__overrideAudioLatencyToggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__overrideAudioLatencyToggle() const;
-
-  constexpr void __cordl_internal_set__overrideAudioLatencyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__slider();
-
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__slider() const;
-
-  constexpr void __cordl_internal_set__slider(::UnityW<::HMUI::RangeValuesTextSlider> value);
-
-  constexpr ::UnityW<::GlobalNamespace::VisualMetronome>& __cordl_internal_get__visualMetronome();
-
-  constexpr ::UnityW<::GlobalNamespace::VisualMetronome> const& __cordl_internal_get__visualMetronome() const;
-
-  constexpr void __cordl_internal_set__visualMetronome(::UnityW<::GlobalNamespace::VisualMetronome> value);
-
-  constexpr float_t& __cordl_internal_get__disabledAlpha();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__audioLatency();
 
   constexpr float_t const& __cordl_internal_get__disabledAlpha() const;
 
-  constexpr void __cordl_internal_set__disabledAlpha(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
-
-  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
-
-  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+  constexpr float_t& __cordl_internal_get__disabledAlpha();
 
   constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__overrideAudioLatency() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__overrideAudioLatency();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__overrideAudioLatencyToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__overrideAudioLatencyToggle();
+
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__setupCanvasGroup() const;
+
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__setupCanvasGroup();
+
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__slider() const;
+
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__slider();
+
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
+  constexpr ::UnityW<::GlobalNamespace::VisualMetronome> const& __cordl_internal_get__visualMetronome() const;
+
+  constexpr ::UnityW<::GlobalNamespace::VisualMetronome>& __cordl_internal_get__visualMetronome();
+
+  constexpr void __cordl_internal_set__audioLatency(::UnityW<::GlobalNamespace::FloatSO> value);
+
+  constexpr void __cordl_internal_set__disabledAlpha(float_t value);
+
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+
+  constexpr void __cordl_internal_set__overrideAudioLatency(::UnityW<::GlobalNamespace::BoolSO> value);
+
+  constexpr void __cordl_internal_set__overrideAudioLatencyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__setupCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
+
+  constexpr void __cordl_internal_set__slider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
+
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method DidActivate, addr 0x22dfb00, size 0x230, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set__visualMetronome(::UnityW<::GlobalNamespace::VisualMetronome> value);
 
-  /// @brief Method DidDeactivate, addr 0x22dfe2c, size 0x28, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method OnDestroy, addr 0x22dfe54, size 0xe4, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method SliderValueDidChange, addr 0x22dff38, size 0x74, virtual false, abstract: false, final false
-  inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
-
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x22dffac, size 0x68, virtual false, abstract: false, final false
-  inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
-
-  /// @brief Method RefreshVisuals, addr 0x22dfd30, size 0xfc, virtual false, abstract: false, final false
-  inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
-
-  static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22e0014, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aecc8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioLatencyViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioLatencyViewController(AudioLatencyViewController&&) = delete;
@@ -169,12 +173,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioLatencyViewController(AudioLatencyViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioLatencyViewController();
-
-public:
   /// @brief Field _audioLatency, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatSO> ____audioLatency;
 

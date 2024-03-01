@@ -19,8 +19,6 @@ MARK_VAL_T(::BeatSaber::AvatarCore::OptionalAvatarData);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15286))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarData
 struct CORDL_TYPE OptionalAvatarData {
 public:
@@ -28,19 +26,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
-  constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>* i___System__IEquatable_1___BeatSaber__AvatarCore__OptionalAvatarData_();
-
-  /// @brief Method Equals, addr 0xe1c40c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0xe61f70, size 0xbc, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::AvatarCore::OptionalAvatarData other);
 
-  // Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]
-  constexpr OptionalAvatarData(uint32_t dataType, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) noexcept;
+  /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
+  constexpr ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>* i___System__IEquatable_1___BeatSaber__AvatarCore__OptionalAvatarData_();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OptionalAvatarData();
+
+  // Ctor Parameters [CppParam { name: "dataType", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]
+  constexpr OptionalAvatarData(uint32_t dataType, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) noexcept;
 
   /// @brief Field dataType, offset: 0x0, size: 0x4, def value: None
   uint32_t dataType;

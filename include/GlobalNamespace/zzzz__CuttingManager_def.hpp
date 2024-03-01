@@ -23,44 +23,48 @@ MARK_REF_PTR_T(::GlobalNamespace::CuttingManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4627))
 // CS Name: ::CuttingManager*
 class CORDL_TYPE CuttingManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _saberManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
-
   /// @brief Field _noteCutter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__noteCutter, put = __cordl_internal_set__noteCutter))::GlobalNamespace::NoteCutter* _noteCutter;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
+  /// @brief Field _saberManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
+  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x2490368, size 0x44, virtual false, abstract: false, final false
+  inline void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
 
-  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
+  static inline ::GlobalNamespace::CuttingManager* New_ctor();
+
+  /// @brief Method OnDisable, addr 0x2490230, size 0x88, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x24900f8, size 0x88, virtual false, abstract: false, final false
+  inline void OnEnable();
 
   constexpr ::GlobalNamespace::NoteCutter*& __cordl_internal_get__noteCutter();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutter*> const& __cordl_internal_get__noteCutter() const;
 
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
+
   constexpr void __cordl_internal_set__noteCutter(::GlobalNamespace::NoteCutter* value);
 
-  /// @brief Method OnEnable, addr 0x23c11b0, size 0x88, virtual false, abstract: false, final false
-  inline void OnEnable();
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method OnDisable, addr 0x23c12e8, size 0x88, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x23c1420, size 0x44, virtual false, abstract: false, final false
-  inline void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
-
-  static inline ::GlobalNamespace::CuttingManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c1988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24908d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CuttingManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CuttingManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CuttingManager(CuttingManager&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CuttingManager(CuttingManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CuttingManager();
-
-public:
   /// @brief Field _saberManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 

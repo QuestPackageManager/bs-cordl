@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::System::Text::InternalDecoderBestFitFallbackBuffer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2834))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2829))
 // CS Name: ::System.Text::InternalDecoderBestFitFallbackBuffer*
 class CORDL_TYPE InternalDecoderBestFitFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
 public:
   // Declarations
+  __declspec(property(get = get_Remaining)) int32_t Remaining;
+
   /// @brief Field _cBestFit, offset 0x20, size 0x2
   __declspec(property(get = __cordl_internal_get__cBestFit, put = __cordl_internal_set__cBestFit)) char16_t _cBestFit;
 
@@ -43,62 +43,66 @@ public:
   /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject))::System::Object* s_InternalSyncObject;
 
-  __declspec(property(get = get_Remaining)) int32_t Remaining;
+  /// @brief Method Fallback, addr 0x27256b0, size 0x40, virtual true, abstract: false, final false
+  inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  constexpr char16_t& __cordl_internal_get__cBestFit();
+  /// @brief Method GetNextChar, addr 0x2725830, size 0x40, virtual true, abstract: false, final false
+  inline char16_t GetNextChar();
+
+  /// @brief Method InternalFallback, addr 0x272588c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
+
+  static inline ::System::Text::InternalDecoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
+
+  /// @brief Method Reset, addr 0x272587c, size 0x10, virtual true, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method TryBestFit, addr 0x27256f0, size 0x140, virtual false, abstract: false, final false
+  inline char16_t TryBestFit(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesCheck);
 
   constexpr char16_t const& __cordl_internal_get__cBestFit() const;
 
-  constexpr void __cordl_internal_set__cBestFit(char16_t value);
-
-  constexpr int32_t& __cordl_internal_get__iCount();
+  constexpr char16_t& __cordl_internal_get__cBestFit();
 
   constexpr int32_t const& __cordl_internal_get__iCount() const;
 
-  constexpr void __cordl_internal_set__iCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__iSize();
+  constexpr int32_t& __cordl_internal_get__iCount();
 
   constexpr int32_t const& __cordl_internal_get__iSize() const;
 
-  constexpr void __cordl_internal_set__iSize(int32_t value);
+  constexpr int32_t& __cordl_internal_get__iSize();
 
   constexpr ::System::Text::InternalDecoderBestFitFallback*& __cordl_internal_get__oFallback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Text::InternalDecoderBestFitFallback*> const& __cordl_internal_get__oFallback() const;
 
+  constexpr void __cordl_internal_set__cBestFit(char16_t value);
+
+  constexpr void __cordl_internal_set__iCount(int32_t value);
+
+  constexpr void __cordl_internal_set__iSize(int32_t value);
+
   constexpr void __cordl_internal_set__oFallback(::System::Text::InternalDecoderBestFitFallback* value);
 
-  static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
+  /// @brief Method .ctor, addr 0x2725410, size 0x128, virtual false, abstract: false, final false
+  inline void _ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
 
-  /// @brief Method get_InternalSyncObject, addr 0x2656ec0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x272560c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
-  static inline ::System::Text::InternalDecoderBestFitFallbackBuffer* New_ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
-
-  /// @brief Method .ctor, addr 0x2656cc4, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::InternalDecoderBestFitFallback* fallback);
-
-  /// @brief Method Fallback, addr 0x2656f64, size 0x40, virtual true, abstract: false, final false
-  inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
-
-  /// @brief Method GetNextChar, addr 0x26570e4, size 0x40, virtual true, abstract: false, final false
-  inline char16_t GetNextChar();
-
-  /// @brief Method get_Remaining, addr 0x2657124, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x2725870, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset, addr 0x2657130, size 0x10, virtual true, abstract: false, final false
-  inline void Reset();
+  static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
 
-  /// @brief Method InternalFallback, addr 0x2657140, size 0x8, virtual true, abstract: false, final false
-  inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InternalDecoderBestFitFallbackBuffer();
 
-  /// @brief Method TryBestFit, addr 0x2656fa4, size 0x140, virtual false, abstract: false, final false
-  inline char16_t TryBestFit(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesCheck);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallbackBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalDecoderBestFitFallbackBuffer(InternalDecoderBestFitFallbackBuffer&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InternalDecoderBestFitFallbackBuffer(InternalDecoderBestFitFallbackBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InternalDecoderBestFitFallbackBuffer();
-
-public:
   /// @brief Field _cBestFit, offset: 0x20, size: 0x2, def value: None
   char16_t ____cBestFit;
 

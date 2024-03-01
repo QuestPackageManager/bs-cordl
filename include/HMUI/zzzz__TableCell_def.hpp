@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::HMUI::TableCell);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13606))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13617))
 // CS Name: ::HMUI::TableCell*
 class CORDL_TYPE TableCell : public ::HMUI::SelectableCell {
 public:
@@ -34,65 +32,71 @@ public:
   /// @brief Field _tableCellOwner, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__tableCellOwner, put = __cordl_internal_set__tableCellOwner))::HMUI::ITableCellOwner* _tableCellOwner;
 
-  __declspec(property(get = get_reuseIdentifier, put = set_reuseIdentifier))::StringW reuseIdentifier;
-
   __declspec(property(get = get_idx, put = set_idx)) int32_t idx;
+
+  __declspec(property(get = get_reuseIdentifier, put = set_reuseIdentifier))::StringW reuseIdentifier;
 
   __declspec(property(get = get_tableCellOwner))::HMUI::ITableCellOwner* tableCellOwner;
 
-  constexpr int32_t& __cordl_internal_get__idx_k__BackingField();
+  /// @brief Method InternalToggle, addr 0x22a9770, size 0x1f4, virtual true, abstract: false, final false
+  inline void InternalToggle();
+
+  /// @brief Method MoveIdx, addr 0x22a9760, size 0x10, virtual false, abstract: false, final false
+  inline void MoveIdx(int32_t offset);
+
+  static inline ::HMUI::TableCell* New_ctor();
+
+  /// @brief Method TableViewSetup, addr 0x22a9754, size 0xc, virtual true, abstract: false, final false
+  inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
+
+  /// @brief Method WasPreparedForReuse, addr 0x22a9974, size 0x4, virtual true, abstract: false, final false
+  inline void WasPreparedForReuse();
+
+  /// @brief Method __WasPreparedForReuse, addr 0x22a9964, size 0x10, virtual false, abstract: false, final false
+  inline void __WasPreparedForReuse();
 
   constexpr int32_t const& __cordl_internal_get__idx_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__idx_k__BackingField(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get__reuseIdentifier();
+  constexpr int32_t& __cordl_internal_get__idx_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__reuseIdentifier() const;
 
-  constexpr void __cordl_internal_set__reuseIdentifier(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__reuseIdentifier();
 
   constexpr ::HMUI::ITableCellOwner*& __cordl_internal_get__tableCellOwner();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ITableCellOwner*> const& __cordl_internal_get__tableCellOwner() const;
 
+  constexpr void __cordl_internal_set__idx_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__reuseIdentifier(::StringW value);
+
   constexpr void __cordl_internal_set__tableCellOwner(::HMUI::ITableCellOwner* value);
 
-  /// @brief Method get_reuseIdentifier, addr 0x21dd0c4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_reuseIdentifier();
-
-  /// @brief Method set_reuseIdentifier, addr 0x21dd0cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_reuseIdentifier(::StringW value);
-
-  /// @brief Method get_idx, addr 0x21dd0d4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_idx();
-
-  /// @brief Method set_idx, addr 0x21dd0dc, size 0x8, virtual false, abstract: false, final false
-  inline void set_idx(int32_t value);
-
-  /// @brief Method get_tableCellOwner, addr 0x21dd0e4, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ITableCellOwner* get_tableCellOwner();
-
-  /// @brief Method TableViewSetup, addr 0x21dd0ec, size 0xc, virtual true, abstract: false, final false
-  inline void TableViewSetup(::HMUI::ITableCellOwner* tableCellOwner, int32_t idx);
-
-  /// @brief Method MoveIdx, addr 0x21dd0f8, size 0x10, virtual false, abstract: false, final false
-  inline void MoveIdx(int32_t offset);
-
-  /// @brief Method InternalToggle, addr 0x21dd108, size 0x1f4, virtual true, abstract: false, final false
-  inline void InternalToggle();
-
-  /// @brief Method __WasPreparedForReuse, addr 0x21dd2fc, size 0x10, virtual false, abstract: false, final false
-  inline void __WasPreparedForReuse();
-
-  /// @brief Method WasPreparedForReuse, addr 0x21dd30c, size 0x4, virtual true, abstract: false, final false
-  inline void WasPreparedForReuse();
-
-  static inline ::HMUI::TableCell* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21dd310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a9978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_idx, addr 0x22a973c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_idx();
+
+  /// @brief Method get_reuseIdentifier, addr 0x22a972c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_reuseIdentifier();
+
+  /// @brief Method get_tableCellOwner, addr 0x22a974c, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::ITableCellOwner* get_tableCellOwner();
+
+  /// @brief Method set_idx, addr 0x22a9744, size 0x8, virtual false, abstract: false, final false
+  inline void set_idx(int32_t value);
+
+  /// @brief Method set_reuseIdentifier, addr 0x22a9734, size 0x8, virtual false, abstract: false, final false
+  inline void set_reuseIdentifier(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TableCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TableCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TableCell(TableCell&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TableCell(TableCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TableCell();
-
-public:
   /// @brief Field <idx>k__BackingField, offset: 0x44, size: 0x4, def value: None
   int32_t ____idx_k__BackingField;
 

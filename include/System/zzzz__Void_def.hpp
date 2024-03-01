@@ -14,8 +14,6 @@ MARK_VAL_T(::System::Void);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2513))
 // CS Name: ::System::Void
 #pragma pack(push, 0)
 struct CORDL_TYPE Void {

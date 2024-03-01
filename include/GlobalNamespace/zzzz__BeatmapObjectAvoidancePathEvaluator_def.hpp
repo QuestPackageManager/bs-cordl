@@ -27,104 +27,108 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14998))
 // CS Name: ::BeatmapObjectAvoidancePathEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidancePathEvaluator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _jumpStartZ, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__jumpStartZ, put = __cordl_internal_set__jumpStartZ)) float_t _jumpStartZ;
+  /// @brief Field _audioTimeSource, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _jumpEndZ, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__jumpEndZ, put = __cordl_internal_set__jumpEndZ)) float_t _jumpEndZ;
 
-  /// @brief Field _zOffset, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
-
-  /// @brief Field _yOffset, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__yOffset, put = __cordl_internal_set__yOffset)) float_t _yOffset;
-
-  /// @brief Field _noteJumpSpeed, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__noteJumpSpeed, put = __cordl_internal_set__noteJumpSpeed)) float_t _noteJumpSpeed;
+  /// @brief Field _jumpStartZ, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__jumpStartZ, put = __cordl_internal_set__jumpStartZ)) float_t _jumpStartZ;
 
   /// @brief Field _moveToPlayerHeadTParam, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__moveToPlayerHeadTParam, put = __cordl_internal_set__moveToPlayerHeadTParam)) float_t _moveToPlayerHeadTParam;
 
+  /// @brief Field _noteJumpSpeed, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__noteJumpSpeed, put = __cordl_internal_set__noteJumpSpeed)) float_t _noteJumpSpeed;
+
   /// @brief Field _pathBezierCurveEvaluator, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__pathBezierCurveEvaluator, put = __cordl_internal_set__pathBezierCurveEvaluator))::GlobalNamespace::BezierSplineEvaluator* _pathBezierCurveEvaluator;
-
-  /// @brief Field _audioTimeSource, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _playerTransforms, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
-  constexpr float_t& __cordl_internal_get__jumpStartZ();
+  /// @brief Field _yOffset, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__yOffset, put = __cordl_internal_set__yOffset)) float_t _yOffset;
 
-  constexpr float_t const& __cordl_internal_get__jumpStartZ() const;
+  /// @brief Field _zOffset, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  constexpr void __cordl_internal_set__jumpStartZ(float_t value);
-
-  constexpr float_t& __cordl_internal_get__jumpEndZ();
-
-  constexpr float_t const& __cordl_internal_get__jumpEndZ() const;
-
-  constexpr void __cordl_internal_set__jumpEndZ(float_t value);
-
-  constexpr float_t& __cordl_internal_get__zOffset();
-
-  constexpr float_t const& __cordl_internal_get__zOffset() const;
-
-  constexpr void __cordl_internal_set__zOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get__yOffset();
-
-  constexpr float_t const& __cordl_internal_get__yOffset() const;
-
-  constexpr void __cordl_internal_set__yOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get__noteJumpSpeed();
-
-  constexpr float_t const& __cordl_internal_get__noteJumpSpeed() const;
-
-  constexpr void __cordl_internal_set__noteJumpSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__moveToPlayerHeadTParam();
-
-  constexpr float_t const& __cordl_internal_get__moveToPlayerHeadTParam() const;
-
-  constexpr void __cordl_internal_set__moveToPlayerHeadTParam(float_t value);
-
-  constexpr ::GlobalNamespace::BezierSplineEvaluator*& __cordl_internal_get__pathBezierCurveEvaluator();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& __cordl_internal_get__pathBezierCurveEvaluator() const;
-
-  constexpr void __cordl_internal_set__pathBezierCurveEvaluator(::GlobalNamespace::BezierSplineEvaluator* value);
-
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
-
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
-
-  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
+  /// @brief Method GetCurrentPathPosition, addr 0xe6e7a4, size 0x104, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms,
                                                                                  ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ,
                                                                                  float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
-  /// @brief Method .ctor, addr 0xe28bc8, size 0x78, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+
+  constexpr float_t const& __cordl_internal_get__jumpEndZ() const;
+
+  constexpr float_t& __cordl_internal_get__jumpEndZ();
+
+  constexpr float_t const& __cordl_internal_get__jumpStartZ() const;
+
+  constexpr float_t& __cordl_internal_get__jumpStartZ();
+
+  constexpr float_t const& __cordl_internal_get__moveToPlayerHeadTParam() const;
+
+  constexpr float_t& __cordl_internal_get__moveToPlayerHeadTParam();
+
+  constexpr float_t const& __cordl_internal_get__noteJumpSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__noteJumpSpeed();
+
+  constexpr ::GlobalNamespace::BezierSplineEvaluator*& __cordl_internal_get__pathBezierCurveEvaluator();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& __cordl_internal_get__pathBezierCurveEvaluator() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
+
+  constexpr float_t const& __cordl_internal_get__yOffset() const;
+
+  constexpr float_t& __cordl_internal_get__yOffset();
+
+  constexpr float_t const& __cordl_internal_get__zOffset() const;
+
+  constexpr float_t& __cordl_internal_get__zOffset();
+
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+
+  constexpr void __cordl_internal_set__jumpEndZ(float_t value);
+
+  constexpr void __cordl_internal_set__jumpStartZ(float_t value);
+
+  constexpr void __cordl_internal_set__moveToPlayerHeadTParam(float_t value);
+
+  constexpr void __cordl_internal_set__noteJumpSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__pathBezierCurveEvaluator(::GlobalNamespace::BezierSplineEvaluator* value);
+
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
+
+  constexpr void __cordl_internal_set__yOffset(float_t value);
+
+  constexpr void __cordl_internal_set__zOffset(float_t value);
+
+  /// @brief Method .ctor, addr 0xe6e72c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
-  /// @brief Method GetCurrentPathPosition, addr 0xe28c40, size 0x104, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetCurrentPathPosition();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapObjectAvoidancePathEvaluator();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidancePathEvaluator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapObjectAvoidancePathEvaluator(BeatmapObjectAvoidancePathEvaluator&&) = delete;
@@ -133,12 +137,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapObjectAvoidancePathEvaluator(BeatmapObjectAvoidancePathEvaluator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapObjectAvoidancePathEvaluator();
-
-public:
   /// @brief Field _jumpStartZ, offset: 0x10, size: 0x4, def value: None
   float_t ____jumpStartZ;
 

@@ -23,49 +23,53 @@ MARK_REF_PTR_T(::TMPro::Compute_DT_EventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12211))
 // CS Name: ::TMPro::Compute_DT_EventArgs*
 class CORDL_TYPE Compute_DT_EventArgs : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Colors, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Colors, put = __cordl_internal_set_Colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> Colors;
+
   /// @brief Field EventType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_EventType, put = __cordl_internal_set_EventType))::TMPro::Compute_DistanceTransform_EventTypes EventType;
 
   /// @brief Field ProgressPercentage, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_ProgressPercentage, put = __cordl_internal_set_ProgressPercentage)) float_t ProgressPercentage;
 
-  /// @brief Field Colors, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Colors, put = __cordl_internal_set_Colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> Colors;
-
-  constexpr ::TMPro::Compute_DistanceTransform_EventTypes& __cordl_internal_get_EventType();
-
-  constexpr ::TMPro::Compute_DistanceTransform_EventTypes const& __cordl_internal_get_EventType() const;
-
-  constexpr void __cordl_internal_set_EventType(::TMPro::Compute_DistanceTransform_EventTypes value);
-
-  constexpr float_t& __cordl_internal_get_ProgressPercentage();
-
-  constexpr float_t const& __cordl_internal_get_ProgressPercentage() const;
-
-  constexpr void __cordl_internal_set_ProgressPercentage(float_t value);
-
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get_Colors();
-
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get_Colors() const;
-
-  constexpr void __cordl_internal_set_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  static inline ::TMPro::Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
   static inline ::TMPro::Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
-  /// @brief Method .ctor, addr 0x2bfbf5c, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get_Colors() const;
 
-  static inline ::TMPro::Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get_Colors();
 
-  /// @brief Method .ctor, addr 0x2bfbf94, size 0x30, virtual false, abstract: false, final false
+  constexpr ::TMPro::Compute_DistanceTransform_EventTypes const& __cordl_internal_get_EventType() const;
+
+  constexpr ::TMPro::Compute_DistanceTransform_EventTypes& __cordl_internal_get_EventType();
+
+  constexpr float_t const& __cordl_internal_get_ProgressPercentage() const;
+
+  constexpr float_t& __cordl_internal_get_ProgressPercentage();
+
+  constexpr void __cordl_internal_set_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+
+  constexpr void __cordl_internal_set_EventType(::TMPro::Compute_DistanceTransform_EventTypes value);
+
+  constexpr void __cordl_internal_set_ProgressPercentage(float_t value);
+
+  /// @brief Method .ctor, addr 0x2ce7068, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
+  /// @brief Method .ctor, addr 0x2ce7030, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Compute_DT_EventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Compute_DT_EventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Compute_DT_EventArgs(Compute_DT_EventArgs&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Compute_DT_EventArgs(Compute_DT_EventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Compute_DT_EventArgs();
-
-public:
   /// @brief Field EventType, offset: 0x10, size: 0x4, def value: None
   ::TMPro::Compute_DistanceTransform_EventTypes ___EventType;
 

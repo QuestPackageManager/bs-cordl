@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__SynchronizationContextAwaitTaskCont
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2803))
 // CS Name: ::SynchronizationContextAwaitTaskContinuation::<>c*
 class CORDL_TYPE __SynchronizationContextAwaitTaskContinuation____c : public ::System::Object {
 public:
@@ -49,18 +47,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* __9;
 
-  static inline void setStaticF___9(::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* value);
+  static inline ::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* New_ctor();
+
+  /// @brief Method <.cctor>b__7_0, addr 0x2720688, size 0x6c, virtual false, abstract: false, final false
+  inline void __cctor_b__7_0(::System::Object* state);
+
+  /// @brief Method .ctor, addr 0x2720680, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* getStaticF___9();
 
-  static inline ::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* New_ctor();
+  static inline void setStaticF___9(::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c* value);
 
-  /// @brief Method .ctor, addr 0x2651f34, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SynchronizationContextAwaitTaskContinuation____c();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x2651f3c, size 0x6c, virtual false, abstract: false, final false
-  inline void __cctor_b__7_0(::System::Object* state);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SynchronizationContextAwaitTaskContinuation____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SynchronizationContextAwaitTaskContinuation____c(__SynchronizationContextAwaitTaskContinuation____c&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SynchronizationContextAwaitTaskContinuation____c(__SynchronizationContextAwaitTaskContinuation____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SynchronizationContextAwaitTaskContinuation____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -85,8 +83,6 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Sync
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2807))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2804))
 // CS Name: ::System.Threading.Tasks::SynchronizationContextAwaitTaskContinuation*
 class CORDL_TYPE SynchronizationContextAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation {
 public:
@@ -96,11 +92,23 @@ public:
   /// @brief Field m_syncContext, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_syncContext, put = __cordl_internal_set_m_syncContext))::System::Threading::SynchronizationContext* m_syncContext;
 
+  /// @brief Field s_postActionCallback, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_postActionCallback, put = setStaticF_s_postActionCallback))::System::Threading::ContextCallback* s_postActionCallback;
+
   /// @brief Field s_postCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_postCallback, put = setStaticF_s_postCallback))::System::Threading::SendOrPostCallback* s_postCallback;
 
-  /// @brief Field s_postActionCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_postActionCallback, put = setStaticF_s_postActionCallback))::System::Threading::ContextCallback* s_postActionCallback;
+  /// @brief Method GetPostActionCallback, addr 0x2720490, size 0xc8, virtual false, abstract: false, final false
+  static inline ::System::Threading::ContextCallback* GetPostActionCallback();
+
+  static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action,
+                                                                                                  bool flowExecutionContext);
+
+  /// @brief Method PostAction, addr 0x27203fc, size 0x94, virtual false, abstract: false, final false
+  static inline void PostAction(::System::Object* state);
+
+  /// @brief Method Run, addr 0x2720094, size 0x1ec, virtual true, abstract: false, final true
+  inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get_m_syncContext();
 
@@ -108,29 +116,23 @@ public:
 
   constexpr void __cordl_internal_set_m_syncContext(::System::Threading::SynchronizationContext* value);
 
-  static inline void setStaticF_s_postCallback(::System::Threading::SendOrPostCallback* value);
+  /// @brief Method .ctor, addr 0x271b108, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext);
+
+  static inline ::System::Threading::ContextCallback* getStaticF_s_postActionCallback();
 
   static inline ::System::Threading::SendOrPostCallback* getStaticF_s_postCallback();
 
   static inline void setStaticF_s_postActionCallback(::System::Threading::ContextCallback* value);
 
-  static inline ::System::Threading::ContextCallback* getStaticF_s_postActionCallback();
+  static inline void setStaticF_s_postCallback(::System::Threading::SendOrPostCallback* value);
 
-  static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action,
-                                                                                                  bool flowExecutionContext);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SynchronizationContextAwaitTaskContinuation();
 
-  /// @brief Method .ctor, addr 0x264c9bc, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext);
-
-  /// @brief Method Run, addr 0x2651948, size 0x1ec, virtual true, abstract: false, final true
-  inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
-
-  /// @brief Method PostAction, addr 0x2651cb0, size 0x94, virtual false, abstract: false, final false
-  static inline void PostAction(::System::Object* state);
-
-  /// @brief Method GetPostActionCallback, addr 0x2651d44, size 0xc8, virtual false, abstract: false, final false
-  static inline ::System::Threading::ContextCallback* GetPostActionCallback();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SynchronizationContextAwaitTaskContinuation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation&&) = delete;
@@ -139,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SynchronizationContextAwaitTaskContinuation();
-
-public:
   /// @brief Field m_syncContext, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* ___m_syncContext;
 

@@ -25,84 +25,89 @@ MARK_REF_PTR_T(::GlobalNamespace::CanvasGroupStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4745)), TypeDefinitionIndex(TypeDefinitionIndex(15824)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4745), inst: 924
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4747)) CS Name: ::CanvasGroupStateTransition*
+// CS Name: ::CanvasGroupStateTransition*
 class CORDL_TYPE CanvasGroupStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::CanvasGroup>> {
 public:
   // Declarations
-  /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> _transition;
-
   /// @brief Field _floatTween, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__floatTween, put = __cordl_internal_set__floatTween))::Tweening::FloatTween* _floatTween;
 
+  /// @brief Field _transition, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> _transition;
+
   __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO>& __cordl_internal_get__transition();
+  static inline ::GlobalNamespace::CanvasGroupStateTransition* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> const& __cordl_internal_get__transition() const;
+  /// @brief Method SetDisabledState, addr 0x24a6920, size 0x28, virtual true, abstract: false, final false
+  inline void SetDisabledState();
 
-  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> value);
+  /// @brief Method SetHighlightedState, addr 0x24a68d0, size 0x28, virtual true, abstract: false, final false
+  inline void SetHighlightedState();
+
+  /// @brief Method SetNormalState, addr 0x24a68a8, size 0x28, virtual true, abstract: false, final false
+  inline void SetNormalState();
+
+  /// @brief Method SetPressedState, addr 0x24a68f8, size 0x28, virtual true, abstract: false, final false
+  inline void SetPressedState();
+
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x24a6970, size 0x28, virtual true, abstract: false, final false
+  inline void SetSelectedAndHighlightedState();
+
+  /// @brief Method SetSelectedState, addr 0x24a6948, size 0x28, virtual true, abstract: false, final false
+  inline void SetSelectedState();
+
+  /// @brief Method StartTween, addr 0x24a6640, size 0x1dc, virtual false, abstract: false, final false
+  inline void StartTween(float_t endAlpha);
+
+  /// @brief Method TransitionToDisabledState, addr 0x24a6854, size 0x1c, virtual true, abstract: false, final false
+  inline void TransitionToDisabledState();
+
+  /// @brief Method TransitionToHighlightedState, addr 0x24a681c, size 0x1c, virtual true, abstract: false, final false
+  inline void TransitionToHighlightedState();
+
+  /// @brief Method TransitionToNormalState, addr 0x24a6624, size 0x1c, virtual true, abstract: false, final false
+  inline void TransitionToNormalState();
+
+  /// @brief Method TransitionToPressedState, addr 0x24a6838, size 0x1c, virtual true, abstract: false, final false
+  inline void TransitionToPressedState();
+
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x24a688c, size 0x1c, virtual true, abstract: false, final false
+  inline void TransitionToSelectedAndHighlightedState();
+
+  /// @brief Method TransitionToSelectedState, addr 0x24a6870, size 0x1c, virtual true, abstract: false, final false
+  inline void TransitionToSelectedState();
+
+  /// @brief Method <StartTween>b__16_0, addr 0x24a69e0, size 0x1c, virtual false, abstract: false, final false
+  inline void _StartTween_b__16_0(float_t alpha);
+
+  /// @brief Method <StartTween>b__16_1, addr 0x24a69fc, size 0x88, virtual false, abstract: false, final false
+  inline void _StartTween_b__16_1();
 
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__floatTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__floatTween() const;
 
+  constexpr ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> const& __cordl_internal_get__transition() const;
+
+  constexpr ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO>& __cordl_internal_get__transition();
+
   constexpr void __cordl_internal_set__floatTween(::Tweening::FloatTween* value);
 
-  /// @brief Method get_transition, addr 0x23d86d4, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> value);
 
-  /// @brief Method TransitionToNormalState, addr 0x23d86dc, size 0x1c, virtual true, abstract: false, final false
-  inline void TransitionToNormalState();
-
-  /// @brief Method TransitionToHighlightedState, addr 0x23d88d4, size 0x1c, virtual true, abstract: false, final false
-  inline void TransitionToHighlightedState();
-
-  /// @brief Method TransitionToPressedState, addr 0x23d88f0, size 0x1c, virtual true, abstract: false, final false
-  inline void TransitionToPressedState();
-
-  /// @brief Method TransitionToDisabledState, addr 0x23d890c, size 0x1c, virtual true, abstract: false, final false
-  inline void TransitionToDisabledState();
-
-  /// @brief Method TransitionToSelectedState, addr 0x23d8928, size 0x1c, virtual true, abstract: false, final false
-  inline void TransitionToSelectedState();
-
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x23d8944, size 0x1c, virtual true, abstract: false, final false
-  inline void TransitionToSelectedAndHighlightedState();
-
-  /// @brief Method SetNormalState, addr 0x23d8960, size 0x28, virtual true, abstract: false, final false
-  inline void SetNormalState();
-
-  /// @brief Method SetHighlightedState, addr 0x23d8988, size 0x28, virtual true, abstract: false, final false
-  inline void SetHighlightedState();
-
-  /// @brief Method SetPressedState, addr 0x23d89b0, size 0x28, virtual true, abstract: false, final false
-  inline void SetPressedState();
-
-  /// @brief Method SetDisabledState, addr 0x23d89d8, size 0x28, virtual true, abstract: false, final false
-  inline void SetDisabledState();
-
-  /// @brief Method SetSelectedState, addr 0x23d8a00, size 0x28, virtual true, abstract: false, final false
-  inline void SetSelectedState();
-
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x23d8a28, size 0x28, virtual true, abstract: false, final false
-  inline void SetSelectedAndHighlightedState();
-
-  /// @brief Method StartTween, addr 0x23d86f8, size 0x1dc, virtual false, abstract: false, final false
-  inline void StartTween(float_t endAlpha);
-
-  static inline ::GlobalNamespace::CanvasGroupStateTransition* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23d8a50, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a6998, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <StartTween>b__16_0, addr 0x23d8a98, size 0x1c, virtual false, abstract: false, final false
-  inline void _StartTween_b__16_0(float_t alpha);
+  /// @brief Method get_transition, addr 0x24a661c, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
-  /// @brief Method <StartTween>b__16_1, addr 0x23d8ab4, size 0x88, virtual false, abstract: false, final false
-  inline void _StartTween_b__16_1();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CanvasGroupStateTransition();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CanvasGroupStateTransition", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CanvasGroupStateTransition(CanvasGroupStateTransition&&) = delete;
@@ -111,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CanvasGroupStateTransition(CanvasGroupStateTransition const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CanvasGroupStateTransition();
-
-public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CanvasGroupTransitionSO> ____transition;
 

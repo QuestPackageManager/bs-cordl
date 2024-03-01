@@ -21,17 +21,15 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14205))
 // CS Name: ::LiteNetLib.Utils::INetImmutableSerializable`1<T>*
 class CORDL_TYPE INetImmutableSerializable_1 {
 public:
   // Declarations
-  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
   /// @brief Method CreateFromSerializedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
+
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   // Ctor Parameters [CppParam { name: "", ty: "INetImmutableSerializable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -24,9 +24,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3864)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2656
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3864), inst: 1025 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3866)) CS Name:
-// ::System.Collections.Generic::NullableComparer`1<T>*
+// CS Name: ::System.Collections.Generic::NullableComparer`1<T>*
 class CORDL_TYPE NullableComparer_1 : public ::System::Collections::Generic::Comparer_1<::System::Nullable_1<T>> {
 public:
   // Declarations
@@ -44,6 +42,12 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NullableComparer_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NullableComparer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableComparer_1(NullableComparer_1&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableComparer_1(NullableComparer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullableComparer_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

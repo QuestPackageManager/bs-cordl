@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidJoystick);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5500))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5688))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidJoystick*
 class CORDL_TYPE AndroidJoystick : public ::UnityEngine::InputSystem::Joystick {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidJoystick* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae751c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc5f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidJoystick();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidJoystick", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidJoystick(AndroidJoystick&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidJoystick(AndroidJoystick const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidJoystick();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

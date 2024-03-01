@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadUpdate);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13352))
 // CS Name: ::Oculus.Platform.Models::AssetFileDownloadUpdate*
 class CORDL_TYPE AssetFileDownloadUpdate : public ::System::Object {
 public:
@@ -36,41 +34,47 @@ public:
   /// @brief Field Completed, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_Completed, put = __cordl_internal_set_Completed)) bool Completed;
 
-  constexpr uint64_t& __cordl_internal_get_AssetFileId();
+  static inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* New_ctor(void* o);
 
   constexpr uint64_t const& __cordl_internal_get_AssetFileId() const;
 
-  constexpr void __cordl_internal_set_AssetFileId(uint64_t value);
-
-  constexpr uint64_t& __cordl_internal_get_AssetId();
+  constexpr uint64_t& __cordl_internal_get_AssetFileId();
 
   constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
-  constexpr void __cordl_internal_set_AssetId(uint64_t value);
-
-  constexpr uint64_t& __cordl_internal_get_BytesTotal();
+  constexpr uint64_t& __cordl_internal_get_AssetId();
 
   constexpr uint64_t const& __cordl_internal_get_BytesTotal() const;
 
-  constexpr void __cordl_internal_set_BytesTotal(uint64_t value);
-
-  constexpr int64_t& __cordl_internal_get_BytesTransferred();
+  constexpr uint64_t& __cordl_internal_get_BytesTotal();
 
   constexpr int64_t const& __cordl_internal_get_BytesTransferred() const;
 
-  constexpr void __cordl_internal_set_BytesTransferred(int64_t value);
-
-  constexpr bool& __cordl_internal_get_Completed();
+  constexpr int64_t& __cordl_internal_get_BytesTransferred();
 
   constexpr bool const& __cordl_internal_get_Completed() const;
 
+  constexpr bool& __cordl_internal_get_Completed();
+
+  constexpr void __cordl_internal_set_AssetFileId(uint64_t value);
+
+  constexpr void __cordl_internal_set_AssetId(uint64_t value);
+
+  constexpr void __cordl_internal_set_BytesTotal(uint64_t value);
+
+  constexpr void __cordl_internal_set_BytesTransferred(int64_t value);
+
   constexpr void __cordl_internal_set_Completed(bool value);
 
-  static inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2737138, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f64ac, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetFileDownloadUpdate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetFileDownloadUpdate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetFileDownloadUpdate(AssetFileDownloadUpdate&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetFileDownloadUpdate(AssetFileDownloadUpdate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetFileDownloadUpdate();
-
-public:
   /// @brief Field AssetFileId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetFileId;
 

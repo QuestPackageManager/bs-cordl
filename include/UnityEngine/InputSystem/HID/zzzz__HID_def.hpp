@@ -160,8 +160,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5650))
 // CS Name: ::HID::HIDLayoutBuilder::<>c*
 class CORDL_TYPE __HID__HIDLayoutBuilder____c : public ::System::Object {
 public:
@@ -178,36 +176,42 @@ public:
   /// @brief Field <>9__4_2, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_2, put = setStaticF___9__4_2))::System::Func_2<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::StringW>* __9__4_2;
 
-  static inline void setStaticF___9(::GlobalNamespace::__HID__HIDLayoutBuilder____c* value);
+  static inline ::GlobalNamespace::__HID__HIDLayoutBuilder____c* New_ctor();
+
+  /// @brief Method <Build>b__4_0, addr 0x2bc56fc, size 0x24, virtual false, abstract: false, final false
+  inline bool _Build_b__4_0(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
+
+  /// @brief Method <Build>b__4_1, addr 0x2bc5720, size 0x24, virtual false, abstract: false, final false
+  inline bool _Build_b__4_1(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
+
+  /// @brief Method <Build>b__4_2, addr 0x2bc5744, size 0xc, virtual false, abstract: false, final false
+  inline ::StringW _Build_b__4_2(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem x);
+
+  /// @brief Method .ctor, addr 0x2bc56f4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__HID__HIDLayoutBuilder____c* getStaticF___9();
 
-  static inline void setStaticF___9__4_0(::System::Predicate_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* value);
-
   static inline ::System::Predicate_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* getStaticF___9__4_0();
-
-  static inline void setStaticF___9__4_1(::System::Predicate_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* value);
 
   static inline ::System::Predicate_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* getStaticF___9__4_1();
 
-  static inline void setStaticF___9__4_2(::System::Func_2<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::StringW>* value);
-
   static inline ::System::Func_2<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::StringW>* getStaticF___9__4_2();
 
-  static inline ::GlobalNamespace::__HID__HIDLayoutBuilder____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__HID__HIDLayoutBuilder____c* value);
 
-  /// @brief Method .ctor, addr 0x2adf620, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__4_0(::System::Predicate_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* value);
 
-  /// @brief Method <Build>b__4_0, addr 0x2adf628, size 0x24, virtual false, abstract: false, final false
-  inline bool _Build_b__4_0(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
+  static inline void setStaticF___9__4_1(::System::Predicate_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* value);
 
-  /// @brief Method <Build>b__4_1, addr 0x2adf64c, size 0x24, virtual false, abstract: false, final false
-  inline bool _Build_b__4_1(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
+  static inline void setStaticF___9__4_2(::System::Func_2<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::StringW>* value);
 
-  /// @brief Method <Build>b__4_2, addr 0x2adf670, size 0xc, virtual false, abstract: false, final false
-  inline ::StringW _Build_b__4_2(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID__HIDLayoutBuilder____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HID__HIDLayoutBuilder____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HID__HIDLayoutBuilder____c(__HID__HIDLayoutBuilder____c&&) = delete;
@@ -216,12 +220,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HID__HIDLayoutBuilder____c(__HID__HIDLayoutBuilder____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID__HIDLayoutBuilder____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -232,8 +230,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HID__HIDLayou
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5659))
 // CS Name: ::HID::UsagePage
 struct CORDL_TYPE __HID__UsagePage {
 public:
@@ -274,36 +270,47 @@ public:
     return static_cast<____HID__UsagePage_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__UsagePage(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__UsagePage();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__UsagePage(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field AlphanumericDisplay value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const AlphanumericDisplay;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Undefined;
+  /// @brief Field Arcade value: static_cast<int32_t>(0x91)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Arcade;
 
-  /// @brief Field GenericDesktop value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const GenericDesktop;
+  /// @brief Field BarCodeScanner value: static_cast<int32_t>(0x8c)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const BarCodeScanner;
 
-  /// @brief Field Simulation value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Simulation;
+  /// @brief Field Button value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Button;
 
-  /// @brief Field VRControls value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const VRControls;
+  /// @brief Field Camera value: static_cast<int32_t>(0x90)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Camera;
 
-  /// @brief Field SportControls value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const SportControls;
+  /// @brief Field Consumer value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Consumer;
+
+  /// @brief Field Digitizer value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Digitizer;
 
   /// @brief Field GameControls value: static_cast<int32_t>(0x5)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const GameControls;
+
+  /// @brief Field GenericDesktop value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const GenericDesktop;
 
   /// @brief Field GenericDeviceControls value: static_cast<int32_t>(0x6)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const GenericDeviceControls;
@@ -314,29 +321,8 @@ public:
   /// @brief Field LEDs value: static_cast<int32_t>(0x8)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const LEDs;
 
-  /// @brief Field Button value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Button;
-
-  /// @brief Field Ordinal value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Ordinal;
-
-  /// @brief Field Telephony value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Telephony;
-
-  /// @brief Field Consumer value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Consumer;
-
-  /// @brief Field Digitizer value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Digitizer;
-
-  /// @brief Field PID value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const PID;
-
-  /// @brief Field Unicode value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Unicode;
-
-  /// @brief Field AlphanumericDisplay value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const AlphanumericDisplay;
+  /// @brief Field MagneticStripeReader value: static_cast<int32_t>(0x8e)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const MagneticStripeReader;
 
   /// @brief Field MedicalInstruments value: static_cast<int32_t>(0x40)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const MedicalInstruments;
@@ -344,23 +330,38 @@ public:
   /// @brief Field Monitor value: static_cast<int32_t>(0x80)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Monitor;
 
+  /// @brief Field Ordinal value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Ordinal;
+
+  /// @brief Field PID value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const PID;
+
   /// @brief Field Power value: static_cast<int32_t>(0x84)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Power;
 
-  /// @brief Field BarCodeScanner value: static_cast<int32_t>(0x8c)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const BarCodeScanner;
+  /// @brief Field Simulation value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Simulation;
 
-  /// @brief Field MagneticStripeReader value: static_cast<int32_t>(0x8e)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const MagneticStripeReader;
+  /// @brief Field SportControls value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const SportControls;
 
-  /// @brief Field Camera value: static_cast<int32_t>(0x90)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Camera;
+  /// @brief Field Telephony value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Telephony;
 
-  /// @brief Field Arcade value: static_cast<int32_t>(0x91)
-  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Arcade;
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Undefined;
+
+  /// @brief Field Unicode value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const Unicode;
+
+  /// @brief Field VRControls value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::InputSystem::HID::__HID__UsagePage const VRControls;
 
   /// @brief Field VendorDefined value: static_cast<int32_t>(0xff00)
   static ::UnityEngine::InputSystem::HID::__HID__UsagePage const VendorDefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -374,17 +375,19 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__UsagePage, value_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5659))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5657))
 // CS Name: ::HID::HIDDeviceDescriptor
 struct CORDL_TYPE __HID__HIDDeviceDescriptor {
 public:
   // Declarations
-  /// @brief Method ToJson, addr 0x2add7ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2bc1d14, size 0xf28, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor FromJson(::StringW json);
+
+  /// @brief Method ToJson, addr 0x2bc3880, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method FromJson, addr 0x2adbc40, size 0xf28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor FromJson(::StringW json);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID__HIDDeviceDescriptor();
 
   // Ctor Parameters [CppParam { name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name:
@@ -397,10 +400,6 @@ public:
       int32_t vendorId, int32_t productId, int32_t usage, ::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t inputReportSize, int32_t outputReportSize, int32_t featureReportSize,
       ::ArrayW<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor, ::Array<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>*> elements,
       ::ArrayW<::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor, ::Array<::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor>*> collections) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID__HIDDeviceDescriptor();
 
   /// @brief Field vendorId, offset: 0x0, size: 0x4, def value: None
   int32_t vendorId;
@@ -460,13 +459,14 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescript
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5657))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5651))
 // CS Name: ::HID::HIDLayoutBuilder*
 class CORDL_TYPE __HID__HIDLayoutBuilder : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__HID__HIDLayoutBuilder____c;
+
+  /// @brief Field deviceType, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_deviceType, put = __cordl_internal_set_deviceType))::System::Type* deviceType;
 
   /// @brief Field displayName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
@@ -477,41 +477,44 @@ public:
   /// @brief Field parentLayout, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_parentLayout, put = __cordl_internal_set_parentLayout))::StringW parentLayout;
 
-  /// @brief Field deviceType, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_deviceType, put = __cordl_internal_set_deviceType))::System::Type* deviceType;
+  /// @brief Method Build, addr 0x2bc3a20, size 0xcac, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
-  constexpr ::StringW& __cordl_internal_get_displayName();
-
-  constexpr ::StringW const& __cordl_internal_get_displayName() const;
-
-  constexpr void __cordl_internal_set_displayName(::StringW value);
-
-  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor& __cordl_internal_get_hidDescriptor();
-
-  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& __cordl_internal_get_hidDescriptor() const;
-
-  constexpr void __cordl_internal_set_hidDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value);
-
-  constexpr ::StringW& __cordl_internal_get_parentLayout();
-
-  constexpr ::StringW const& __cordl_internal_get_parentLayout() const;
-
-  constexpr void __cordl_internal_set_parentLayout(::StringW value);
+  static inline ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* New_ctor();
 
   constexpr ::System::Type*& __cordl_internal_get_deviceType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_deviceType() const;
 
+  constexpr ::StringW const& __cordl_internal_get_displayName() const;
+
+  constexpr ::StringW& __cordl_internal_get_displayName();
+
+  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& __cordl_internal_get_hidDescriptor() const;
+
+  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor& __cordl_internal_get_hidDescriptor();
+
+  constexpr ::StringW const& __cordl_internal_get_parentLayout() const;
+
+  constexpr ::StringW& __cordl_internal_get_parentLayout();
+
   constexpr void __cordl_internal_set_deviceType(::System::Type* value);
 
-  /// @brief Method Build, addr 0x2add94c, size 0xcac, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
+  constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  static inline ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* New_ctor();
+  constexpr void __cordl_internal_set_hidDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value);
 
-  /// @brief Method .ctor, addr 0x2adbc38, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_parentLayout(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2bc1d0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID__HIDLayoutBuilder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HID__HIDLayoutBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HID__HIDLayoutBuilder(__HID__HIDLayoutBuilder&&) = delete;
@@ -520,12 +523,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HID__HIDLayoutBuilder(__HID__HIDLayoutBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID__HIDLayoutBuilder();
-
-public:
   /// @brief Field displayName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___displayName;
 
@@ -556,8 +553,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5652))
 // CS Name: ::HID::HIDReportType
 struct CORDL_TYPE __HID__HIDReportType {
 public:
@@ -577,21 +572,23 @@ public:
     return static_cast<____HID__HIDReportType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__HIDReportType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__HIDReportType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__HIDReportType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDReportType const Unknown;
+  /// @brief Field Feature value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDReportType const Feature;
 
   /// @brief Field Input value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::HID::__HID__HIDReportType const Input;
@@ -599,8 +596,11 @@ public:
   /// @brief Field Output value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::HID::__HID__HIDReportType const Output;
 
-  /// @brief Field Feature value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDReportType const Feature;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDReportType const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -614,8 +614,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDReportType, va
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5653))
 // CS Name: ::HID::HIDCollectionType
 struct CORDL_TYPE __HID__HIDCollectionType {
 public:
@@ -638,21 +636,20 @@ public:
     return static_cast<____HID__HIDCollectionType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__HIDCollectionType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__HIDCollectionType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__HIDCollectionType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Physical value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const Physical;
 
   /// @brief Field Application value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const Application;
@@ -660,17 +657,23 @@ public:
   /// @brief Field Logical value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const Logical;
 
+  /// @brief Field NamedArray value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const NamedArray;
+
+  /// @brief Field Physical value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const Physical;
+
   /// @brief Field Report value: static_cast<int32_t>(0x3)
   static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const Report;
 
-  /// @brief Field NamedArray value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const NamedArray;
+  /// @brief Field UsageModifier value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const UsageModifier;
 
   /// @brief Field UsageSwitch value: static_cast<int32_t>(0x5)
   static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const UsageSwitch;
 
-  /// @brief Field UsageModifier value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType const UsageModifier;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -684,8 +687,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5654))
 // CS Name: ::HID::HIDElementFlags
 struct CORDL_TYPE __HID__HIDElementFlags {
 public:
@@ -710,45 +711,50 @@ public:
     return static_cast<____HID__HIDElementFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__HIDElementFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__HIDElementFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__HIDElementFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BufferedBytes value: static_cast<int32_t>(0x100)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const BufferedBytes;
 
   /// @brief Field Constant value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Constant;
 
-  /// @brief Field Variable value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Variable;
-
-  /// @brief Field Relative value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Relative;
-
-  /// @brief Field Wrap value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Wrap;
+  /// @brief Field NoPreferred value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const NoPreferred;
 
   /// @brief Field NonLinear value: static_cast<int32_t>(0x10)
   static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const NonLinear;
 
-  /// @brief Field NoPreferred value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const NoPreferred;
-
   /// @brief Field NullState value: static_cast<int32_t>(0x40)
   static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const NullState;
+
+  /// @brief Field Relative value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Relative;
+
+  /// @brief Field Variable value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Variable;
 
   /// @brief Field Volatile value: static_cast<int32_t>(0x80)
   static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Volatile;
 
-  /// @brief Field BufferedBytes value: static_cast<int32_t>(0x100)
-  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const BufferedBytes;
+  /// @brief Field Wrap value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags const Wrap;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -762,9 +768,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementFlags, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5652)), TypeDefinitionIndex(TypeDefinitionIndex(5654)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5659)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5655)) CS
-// Name: ::HID::HIDElementDescriptor
+// CS Name: ::HID::HIDElementDescriptor
 struct CORDL_TYPE __HID__HIDElementDescriptor {
 public:
   // Declarations
@@ -774,86 +778,90 @@ public:
 
   __declspec(property(get = get_isArray)) bool isArray;
 
+  __declspec(property(get = get_isConstant)) bool isConstant;
+
   __declspec(property(get = get_isNonLinear)) bool isNonLinear;
 
   __declspec(property(get = get_isRelative)) bool isRelative;
 
-  __declspec(property(get = get_isConstant)) bool isConstant;
+  __declspec(property(get = get_isSigned)) bool isSigned;
 
   __declspec(property(get = get_isWrapping)) bool isWrapping;
 
-  __declspec(property(get = get_isSigned)) bool isSigned;
+  __declspec(property(get = get_maxFloatValue)) float_t maxFloatValue;
 
   __declspec(property(get = get_minFloatValue)) float_t minFloatValue;
 
-  __declspec(property(get = get_maxFloatValue)) float_t maxFloatValue;
-
-  /// @brief Method get_hasNullState, addr 0x2adf67c, size 0xc, virtual false, abstract: false, final false
-  inline bool get_hasNullState();
-
-  /// @brief Method get_hasPreferredState, addr 0x2adf688, size 0x10, virtual false, abstract: false, final false
-  inline bool get_hasPreferredState();
-
-  /// @brief Method get_isArray, addr 0x2adf698, size 0x10, virtual false, abstract: false, final false
-  inline bool get_isArray();
-
-  /// @brief Method get_isNonLinear, addr 0x2adf6a8, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isNonLinear();
-
-  /// @brief Method get_isRelative, addr 0x2adf6b4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isRelative();
-
-  /// @brief Method get_isConstant, addr 0x2adf6c0, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isConstant();
-
-  /// @brief Method get_isWrapping, addr 0x2adf6cc, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isWrapping();
-
-  /// @brief Method get_isSigned, addr 0x2ade768, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isSigned();
-
-  /// @brief Method get_minFloatValue, addr 0x2adf6d8, size 0x9c, virtual false, abstract: false, final false
-  inline float_t get_minFloatValue();
-
-  /// @brief Method get_maxFloatValue, addr 0x2adf774, size 0xa4, virtual false, abstract: false, final false
-  inline float_t get_maxFloatValue();
-
-  /// @brief Method Is, addr 0x2ade8ac, size 0x24, virtual false, abstract: false, final false
-  inline bool Is(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
-
-  /// @brief Method DetermineName, addr 0x2ade9bc, size 0x210, virtual false, abstract: false, final false
-  inline ::StringW DetermineName();
-
-  /// @brief Method DetermineDisplayName, addr 0x2adebcc, size 0xfc, virtual false, abstract: false, final false
-  inline ::StringW DetermineDisplayName();
-
-  /// @brief Method IsUsableElement, addr 0x2adbc00, size 0x38, virtual false, abstract: false, final false
-  inline bool IsUsableElement();
-
-  /// @brief Method DetermineLayout, addr 0x2ade8d0, size 0xec, virtual false, abstract: false, final false
-  inline ::StringW DetermineLayout();
-
-  /// @brief Method DetermineFormat, addr 0x2adecc8, size 0x108, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::FourCC DetermineFormat();
-
-  /// @brief Method DetermineUsages, addr 0x2adedd0, size 0x190, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> DetermineUsages();
-
-  /// @brief Method DetermineParameters, addr 0x2ade5f8, size 0x170, virtual false, abstract: false, final false
-  inline ::StringW DetermineParameters();
-
-  /// @brief Method DetermineAxisNormalizationParameters, addr 0x2adf818, size 0x1c8, virtual false, abstract: false, final false
-  inline ::StringW DetermineAxisNormalizationParameters();
-
-  /// @brief Method DetermineProcessors, addr 0x2ade83c, size 0x70, virtual false, abstract: false, final false
-  inline ::StringW DetermineProcessors();
-
-  /// @brief Method DetermineDefaultState, addr 0x2ade774, size 0xc8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue DetermineDefaultState();
-
-  /// @brief Method AddChildControls, addr 0x2adef60, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method AddChildControls, addr 0x2bc5034, size 0x65c, virtual false, abstract: false, final false
   inline void AddChildControls(ByRef<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor> element, ::StringW controlName,
                                ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder*> builder);
+
+  /// @brief Method DetermineAxisNormalizationParameters, addr 0x2bc58ec, size 0x1c8, virtual false, abstract: false, final false
+  inline ::StringW DetermineAxisNormalizationParameters();
+
+  /// @brief Method DetermineDefaultState, addr 0x2bc4848, size 0xc8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue DetermineDefaultState();
+
+  /// @brief Method DetermineDisplayName, addr 0x2bc4ca0, size 0xfc, virtual false, abstract: false, final false
+  inline ::StringW DetermineDisplayName();
+
+  /// @brief Method DetermineFormat, addr 0x2bc4d9c, size 0x108, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::FourCC DetermineFormat();
+
+  /// @brief Method DetermineLayout, addr 0x2bc49a4, size 0xec, virtual false, abstract: false, final false
+  inline ::StringW DetermineLayout();
+
+  /// @brief Method DetermineName, addr 0x2bc4a90, size 0x210, virtual false, abstract: false, final false
+  inline ::StringW DetermineName();
+
+  /// @brief Method DetermineParameters, addr 0x2bc46cc, size 0x170, virtual false, abstract: false, final false
+  inline ::StringW DetermineParameters();
+
+  /// @brief Method DetermineProcessors, addr 0x2bc4910, size 0x70, virtual false, abstract: false, final false
+  inline ::StringW DetermineProcessors();
+
+  /// @brief Method DetermineUsages, addr 0x2bc4ea4, size 0x190, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> DetermineUsages();
+
+  /// @brief Method Is, addr 0x2bc4980, size 0x24, virtual false, abstract: false, final false
+  inline bool Is(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
+
+  /// @brief Method IsUsableElement, addr 0x2bc1cd4, size 0x38, virtual false, abstract: false, final false
+  inline bool IsUsableElement();
+
+  /// @brief Method get_hasNullState, addr 0x2bc5750, size 0xc, virtual false, abstract: false, final false
+  inline bool get_hasNullState();
+
+  /// @brief Method get_hasPreferredState, addr 0x2bc575c, size 0x10, virtual false, abstract: false, final false
+  inline bool get_hasPreferredState();
+
+  /// @brief Method get_isArray, addr 0x2bc576c, size 0x10, virtual false, abstract: false, final false
+  inline bool get_isArray();
+
+  /// @brief Method get_isConstant, addr 0x2bc5794, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isConstant();
+
+  /// @brief Method get_isNonLinear, addr 0x2bc577c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isNonLinear();
+
+  /// @brief Method get_isRelative, addr 0x2bc5788, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isRelative();
+
+  /// @brief Method get_isSigned, addr 0x2bc483c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isSigned();
+
+  /// @brief Method get_isWrapping, addr 0x2bc57a0, size 0xc, virtual false, abstract: false, final false
+  inline bool get_isWrapping();
+
+  /// @brief Method get_maxFloatValue, addr 0x2bc5848, size 0xa4, virtual false, abstract: false, final false
+  inline float_t get_maxFloatValue();
+
+  /// @brief Method get_minFloatValue, addr 0x2bc57ac, size 0x9c, virtual false, abstract: false, final false
+  inline float_t get_minFloatValue();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID__HIDElementDescriptor();
 
   // Ctor Parameters [CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "",
   // def_value: None }, CppParam { name: "unit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitExponent", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -867,10 +875,6 @@ public:
                                         int32_t physicalMin, int32_t physicalMax, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t collectionIndex, int32_t reportId,
                                         int32_t reportSizeInBits, int32_t reportOffsetInBits, ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags flags, ::System::Nullable_1<int32_t> usageMin,
                                         ::System::Nullable_1<int32_t> usageMax) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID__HIDElementDescriptor();
 
   /// @brief Field usage, offset: 0x0, size: 0x4, def value: None
   int32_t usage;
@@ -965,21 +969,19 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDElementDescrip
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5653)), TypeDefinitionIndex(TypeDefinitionIndex(5659))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5656))
 // CS Name: ::HID::HIDCollectionDescriptor
 struct CORDL_TYPE __HID__HIDCollectionDescriptor {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID__HIDCollectionDescriptor();
+
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::InputSystem::HID::__HID__HIDCollectionType", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers:
   // "", def_value: None }, CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "childCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstChild", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr __HID__HIDCollectionDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDCollectionType type, int32_t usage, ::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t parent,
                                            int32_t childCount, int32_t firstChild) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID__HIDCollectionDescriptor();
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType type;
@@ -1024,35 +1026,37 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDCollectionDesc
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5652)), TypeDefinitionIndex(TypeDefinitionIndex(5659))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5658))
 // CS Name: ::HID::HIDDeviceDescriptorBuilder
 struct CORDL_TYPE __HID__HIDDeviceDescriptorBuilder {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2adf9e0, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
-
-  /// @brief Method .ctor, addr 0x2adf9f8, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage);
-
-  /// @brief Method StartReport, addr 0x2adfa14, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder StartReport(::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t reportId);
-
-  /// @brief Method AddElement, addr 0x2adfa3c, size 0x3d4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage, int32_t sizeInBits);
-
-  /// @brief Method AddElement, addr 0x2adfe10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddElement, addr 0x2bc5ee4, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage, int32_t sizeInBits);
 
-  /// @brief Method WithPhysicalMinMax, addr 0x2adfe58, size 0x194, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithPhysicalMinMax(int32_t min, int32_t max);
+  /// @brief Method AddElement, addr 0x2bc5b10, size 0x3d4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage, int32_t sizeInBits);
 
-  /// @brief Method WithLogicalMinMax, addr 0x2adffec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x2bc6238, size 0xb0, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor Finish();
+
+  /// @brief Method StartReport, addr 0x2bc5ae8, size 0x28, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder StartReport(::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t reportId);
+
+  /// @brief Method WithLogicalMinMax, addr 0x2bc60c0, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithLogicalMinMax(int32_t min, int32_t max);
 
-  /// @brief Method Finish, addr 0x2ae0164, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor Finish();
+  /// @brief Method WithPhysicalMinMax, addr 0x2bc5f2c, size 0x194, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithPhysicalMinMax(int32_t min, int32_t max);
+
+  /// @brief Method .ctor, addr 0x2bc5acc, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage);
+
+  /// @brief Method .ctor, addr 0x2bc5ab4, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID__HIDDeviceDescriptorBuilder();
 
   // Ctor Parameters [CppParam { name: "usagePage", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "m_CurrentReportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CurrentReportType", ty:
@@ -1066,10 +1070,6 @@ public:
                                               ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor>* m_Elements,
                                               ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor>* m_Collections, int32_t m_InputReportSize,
                                               int32_t m_OutputReportSize, int32_t m_FeatureReportSize) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID__HIDDeviceDescriptorBuilder();
 
   /// @brief Field usagePage, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage;
@@ -1134,8 +1134,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescript
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5660))
 // CS Name: ::HID::GenericDesktop
 struct CORDL_TYPE __HID__GenericDesktop {
 public:
@@ -1222,33 +1220,62 @@ public:
     return static_cast<____HID__GenericDesktop_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__GenericDesktop(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__GenericDesktop();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__GenericDesktop(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field ApplicationBreak value: static_cast<int32_t>(0xa5)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ApplicationBreak;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Undefined;
+  /// @brief Field ApplicationDebuggerBreak value: static_cast<int32_t>(0xa6)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ApplicationDebuggerBreak;
 
-  /// @brief Field Pointer value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Pointer;
+  /// @brief Field AssistiveControl value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const AssistiveControl;
 
-  /// @brief Field Mouse value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Mouse;
+  /// @brief Field ByteCount value: static_cast<int32_t>(0x3b)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ByteCount;
 
-  /// @brief Field Joystick value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Joystick;
+  /// @brief Field CountedBuffer value: static_cast<int32_t>(0x3a)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const CountedBuffer;
+
+  /// @brief Field Dial value: static_cast<int32_t>(0x37)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Dial;
+
+  /// @brief Field DpadDown value: static_cast<int32_t>(0x91)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadDown;
+
+  /// @brief Field DpadLeft value: static_cast<int32_t>(0x93)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadLeft;
+
+  /// @brief Field DpadRight value: static_cast<int32_t>(0x92)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadRight;
+
+  /// @brief Field DpadUp value: static_cast<int32_t>(0x90)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadUp;
+
+  /// @brief Field FeatureNotification value: static_cast<int32_t>(0x47)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const FeatureNotification;
 
   /// @brief Field Gamepad value: static_cast<int32_t>(0x5)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Gamepad;
+
+  /// @brief Field HatSwitch value: static_cast<int32_t>(0x39)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const HatSwitch;
+
+  /// @brief Field Joystick value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Joystick;
 
   /// @brief Field Keyboard value: static_cast<int32_t>(0x6)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Keyboard;
@@ -1256,23 +1283,20 @@ public:
   /// @brief Field Keypad value: static_cast<int32_t>(0x7)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Keypad;
 
+  /// @brief Field MotionWakeup value: static_cast<int32_t>(0x3c)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const MotionWakeup;
+
+  /// @brief Field Mouse value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Mouse;
+
   /// @brief Field MultiAxisController value: static_cast<int32_t>(0x8)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const MultiAxisController;
 
-  /// @brief Field TabletPCControls value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const TabletPCControls;
+  /// @brief Field Pointer value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Pointer;
 
-  /// @brief Field AssistiveControl value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const AssistiveControl;
-
-  /// @brief Field X value: static_cast<int32_t>(0x30)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const X;
-
-  /// @brief Field Y value: static_cast<int32_t>(0x31)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Y;
-
-  /// @brief Field Z value: static_cast<int32_t>(0x32)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Z;
+  /// @brief Field ResolutionMultiplier value: static_cast<int32_t>(0x48)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ResolutionMultiplier;
 
   /// @brief Field Rx value: static_cast<int32_t>(0x33)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Rx;
@@ -1283,41 +1307,113 @@ public:
   /// @brief Field Rz value: static_cast<int32_t>(0x35)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Rz;
 
+  /// @brief Field Select value: static_cast<int32_t>(0x3e)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Select;
+
   /// @brief Field Slider value: static_cast<int32_t>(0x36)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Slider;
-
-  /// @brief Field Dial value: static_cast<int32_t>(0x37)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Dial;
-
-  /// @brief Field Wheel value: static_cast<int32_t>(0x38)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Wheel;
-
-  /// @brief Field HatSwitch value: static_cast<int32_t>(0x39)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const HatSwitch;
-
-  /// @brief Field CountedBuffer value: static_cast<int32_t>(0x3a)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const CountedBuffer;
-
-  /// @brief Field ByteCount value: static_cast<int32_t>(0x3b)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ByteCount;
-
-  /// @brief Field MotionWakeup value: static_cast<int32_t>(0x3c)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const MotionWakeup;
 
   /// @brief Field Start value: static_cast<int32_t>(0x3d)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Start;
 
-  /// @brief Field Select value: static_cast<int32_t>(0x3e)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Select;
+  /// @brief Field SystemAppMenu value: static_cast<int32_t>(0x86)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemAppMenu;
 
-  /// @brief Field Vx value: static_cast<int32_t>(0x40)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vx;
+  /// @brief Field SystemBreak value: static_cast<int32_t>(0xa3)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemBreak;
 
-  /// @brief Field Vy value: static_cast<int32_t>(0x41)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vy;
+  /// @brief Field SystemColdRestart value: static_cast<int32_t>(0x8e)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemColdRestart;
 
-  /// @brief Field Vz value: static_cast<int32_t>(0x42)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vz;
+  /// @brief Field SystemContextMenu value: static_cast<int32_t>(0x84)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemContextMenu;
+
+  /// @brief Field SystemControl value: static_cast<int32_t>(0x80)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemControl;
+
+  /// @brief Field SystemDebuggerBreak value: static_cast<int32_t>(0xa4)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDebuggerBreak;
+
+  /// @brief Field SystemDisplayBoth value: static_cast<int32_t>(0xb3)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayBoth;
+
+  /// @brief Field SystemDisplayDual value: static_cast<int32_t>(0xb4)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayDual;
+
+  /// @brief Field SystemDisplayExternal value: static_cast<int32_t>(0xb2)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayExternal;
+
+  /// @brief Field SystemDisplayInternal value: static_cast<int32_t>(0xb1)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayInternal;
+
+  /// @brief Field SystemDisplayInvert value: static_cast<int32_t>(0xb0)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayInvert;
+
+  /// @brief Field SystemDisplayLCDAutoScale value: static_cast<int32_t>(0xb7)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayLCDAutoScale;
+
+  /// @brief Field SystemDisplaySwapPrimarySecondary value: static_cast<int32_t>(0xb6)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplaySwapPrimarySecondary;
+
+  /// @brief Field SystemDisplayToggleIntExt value: static_cast<int32_t>(0xb5)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayToggleIntExt;
+
+  /// @brief Field SystemDock value: static_cast<int32_t>(0xa0)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDock;
+
+  /// @brief Field SystemHibernate value: static_cast<int32_t>(0xa8)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemHibernate;
+
+  /// @brief Field SystemMainMenu value: static_cast<int32_t>(0x85)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMainMenu;
+
+  /// @brief Field SystemMenuDown value: static_cast<int32_t>(0x8d)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuDown;
+
+  /// @brief Field SystemMenuExit value: static_cast<int32_t>(0x88)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuExit;
+
+  /// @brief Field SystemMenuHelp value: static_cast<int32_t>(0x87)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuHelp;
+
+  /// @brief Field SystemMenuLeft value: static_cast<int32_t>(0x8b)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuLeft;
+
+  /// @brief Field SystemMenuRight value: static_cast<int32_t>(0x8a)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuRight;
+
+  /// @brief Field SystemMenuSelect value: static_cast<int32_t>(0x89)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuSelect;
+
+  /// @brief Field SystemMenuUp value: static_cast<int32_t>(0x8c)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuUp;
+
+  /// @brief Field SystemPowerDown value: static_cast<int32_t>(0x81)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemPowerDown;
+
+  /// @brief Field SystemSetup value: static_cast<int32_t>(0xa2)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemSetup;
+
+  /// @brief Field SystemSleep value: static_cast<int32_t>(0x82)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemSleep;
+
+  /// @brief Field SystemSpeakerMute value: static_cast<int32_t>(0xa7)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemSpeakerMute;
+
+  /// @brief Field SystemUndock value: static_cast<int32_t>(0xa1)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemUndock;
+
+  /// @brief Field SystemWakeUp value: static_cast<int32_t>(0x83)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemWakeUp;
+
+  /// @brief Field SystemWarmRestart value: static_cast<int32_t>(0x8f)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemWarmRestart;
+
+  /// @brief Field TabletPCControls value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const TabletPCControls;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Undefined;
 
   /// @brief Field Vbrx value: static_cast<int32_t>(0x43)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vbrx;
@@ -1331,122 +1427,29 @@ public:
   /// @brief Field Vno value: static_cast<int32_t>(0x46)
   static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vno;
 
-  /// @brief Field FeatureNotification value: static_cast<int32_t>(0x47)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const FeatureNotification;
+  /// @brief Field Vx value: static_cast<int32_t>(0x40)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vx;
 
-  /// @brief Field ResolutionMultiplier value: static_cast<int32_t>(0x48)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ResolutionMultiplier;
+  /// @brief Field Vy value: static_cast<int32_t>(0x41)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vy;
 
-  /// @brief Field SystemControl value: static_cast<int32_t>(0x80)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemControl;
+  /// @brief Field Vz value: static_cast<int32_t>(0x42)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Vz;
 
-  /// @brief Field SystemPowerDown value: static_cast<int32_t>(0x81)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemPowerDown;
+  /// @brief Field Wheel value: static_cast<int32_t>(0x38)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Wheel;
 
-  /// @brief Field SystemSleep value: static_cast<int32_t>(0x82)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemSleep;
+  /// @brief Field X value: static_cast<int32_t>(0x30)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const X;
 
-  /// @brief Field SystemWakeUp value: static_cast<int32_t>(0x83)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemWakeUp;
+  /// @brief Field Y value: static_cast<int32_t>(0x31)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Y;
 
-  /// @brief Field SystemContextMenu value: static_cast<int32_t>(0x84)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemContextMenu;
+  /// @brief Field Z value: static_cast<int32_t>(0x32)
+  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const Z;
 
-  /// @brief Field SystemMainMenu value: static_cast<int32_t>(0x85)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMainMenu;
-
-  /// @brief Field SystemAppMenu value: static_cast<int32_t>(0x86)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemAppMenu;
-
-  /// @brief Field SystemMenuHelp value: static_cast<int32_t>(0x87)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuHelp;
-
-  /// @brief Field SystemMenuExit value: static_cast<int32_t>(0x88)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuExit;
-
-  /// @brief Field SystemMenuSelect value: static_cast<int32_t>(0x89)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuSelect;
-
-  /// @brief Field SystemMenuRight value: static_cast<int32_t>(0x8a)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuRight;
-
-  /// @brief Field SystemMenuLeft value: static_cast<int32_t>(0x8b)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuLeft;
-
-  /// @brief Field SystemMenuUp value: static_cast<int32_t>(0x8c)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuUp;
-
-  /// @brief Field SystemMenuDown value: static_cast<int32_t>(0x8d)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemMenuDown;
-
-  /// @brief Field SystemColdRestart value: static_cast<int32_t>(0x8e)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemColdRestart;
-
-  /// @brief Field SystemWarmRestart value: static_cast<int32_t>(0x8f)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemWarmRestart;
-
-  /// @brief Field DpadUp value: static_cast<int32_t>(0x90)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadUp;
-
-  /// @brief Field DpadDown value: static_cast<int32_t>(0x91)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadDown;
-
-  /// @brief Field DpadRight value: static_cast<int32_t>(0x92)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadRight;
-
-  /// @brief Field DpadLeft value: static_cast<int32_t>(0x93)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const DpadLeft;
-
-  /// @brief Field SystemDock value: static_cast<int32_t>(0xa0)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDock;
-
-  /// @brief Field SystemUndock value: static_cast<int32_t>(0xa1)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemUndock;
-
-  /// @brief Field SystemSetup value: static_cast<int32_t>(0xa2)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemSetup;
-
-  /// @brief Field SystemBreak value: static_cast<int32_t>(0xa3)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemBreak;
-
-  /// @brief Field SystemDebuggerBreak value: static_cast<int32_t>(0xa4)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDebuggerBreak;
-
-  /// @brief Field ApplicationBreak value: static_cast<int32_t>(0xa5)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ApplicationBreak;
-
-  /// @brief Field ApplicationDebuggerBreak value: static_cast<int32_t>(0xa6)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const ApplicationDebuggerBreak;
-
-  /// @brief Field SystemSpeakerMute value: static_cast<int32_t>(0xa7)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemSpeakerMute;
-
-  /// @brief Field SystemHibernate value: static_cast<int32_t>(0xa8)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemHibernate;
-
-  /// @brief Field SystemDisplayInvert value: static_cast<int32_t>(0xb0)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayInvert;
-
-  /// @brief Field SystemDisplayInternal value: static_cast<int32_t>(0xb1)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayInternal;
-
-  /// @brief Field SystemDisplayExternal value: static_cast<int32_t>(0xb2)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayExternal;
-
-  /// @brief Field SystemDisplayBoth value: static_cast<int32_t>(0xb3)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayBoth;
-
-  /// @brief Field SystemDisplayDual value: static_cast<int32_t>(0xb4)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayDual;
-
-  /// @brief Field SystemDisplayToggleIntExt value: static_cast<int32_t>(0xb5)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayToggleIntExt;
-
-  /// @brief Field SystemDisplaySwapPrimarySecondary value: static_cast<int32_t>(0xb6)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplaySwapPrimarySecondary;
-
-  /// @brief Field SystemDisplayLCDAutoScale value: static_cast<int32_t>(0xb7)
-  static ::UnityEngine::InputSystem::HID::__HID__GenericDesktop const SystemDisplayLCDAutoScale;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -1460,8 +1463,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__GenericDesktop, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5661))
 // CS Name: ::HID::Simulation
 struct CORDL_TYPE __HID__Simulation {
 public:
@@ -1529,75 +1530,23 @@ public:
     return static_cast<____HID__Simulation_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__Simulation(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__Simulation();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__Simulation(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Undefined;
-
-  /// @brief Field FlightSimulationDevice value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightSimulationDevice;
-
-  /// @brief Field AutomobileSimulationDevice value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const AutomobileSimulationDevice;
-
-  /// @brief Field TankSimulationDevice value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const TankSimulationDevice;
-
-  /// @brief Field SpaceshipSimulationDevice value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SpaceshipSimulationDevice;
-
-  /// @brief Field SubmarineSimulationDevice value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SubmarineSimulationDevice;
-
-  /// @brief Field SailingSimulationDevice value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SailingSimulationDevice;
-
-  /// @brief Field MotorcycleSimulationDevice value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const MotorcycleSimulationDevice;
-
-  /// @brief Field SportsSimulationDevice value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SportsSimulationDevice;
-
-  /// @brief Field AirplaneSimulationDevice value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const AirplaneSimulationDevice;
-
-  /// @brief Field HelicopterSimulationDevice value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const HelicopterSimulationDevice;
-
-  /// @brief Field MagicCarpetSimulationDevice value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const MagicCarpetSimulationDevice;
-
-  /// @brief Field BicylcleSimulationDevice value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const BicylcleSimulationDevice;
-
-  /// @brief Field FlightControlStick value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightControlStick;
-
-  /// @brief Field FlightStick value: static_cast<int32_t>(0x21)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightStick;
-
-  /// @brief Field CyclicControl value: static_cast<int32_t>(0x22)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const CyclicControl;
-
-  /// @brief Field CyclicTrim value: static_cast<int32_t>(0x23)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const CyclicTrim;
-
-  /// @brief Field FlightYoke value: static_cast<int32_t>(0x24)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightYoke;
-
-  /// @brief Field TrackControl value: static_cast<int32_t>(0x25)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const TrackControl;
+  /// @brief Field Accelerator value: static_cast<int32_t>(0xc4)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Accelerator;
 
   /// @brief Field Aileron value: static_cast<int32_t>(0xb0)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const Aileron;
@@ -1605,20 +1554,53 @@ public:
   /// @brief Field AileronTrim value: static_cast<int32_t>(0xb1)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const AileronTrim;
 
+  /// @brief Field AirplaneSimulationDevice value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const AirplaneSimulationDevice;
+
   /// @brief Field AntiTorqueControl value: static_cast<int32_t>(0xb2)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const AntiTorqueControl;
+
+  /// @brief Field AutomobileSimulationDevice value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const AutomobileSimulationDevice;
 
   /// @brief Field AutopilotEnable value: static_cast<int32_t>(0xb3)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const AutopilotEnable;
 
+  /// @brief Field Ballast value: static_cast<int32_t>(0xcc)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Ballast;
+
+  /// @brief Field BarrelElevation value: static_cast<int32_t>(0xca)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const BarrelElevation;
+
+  /// @brief Field BicycleCrank value: static_cast<int32_t>(0xcd)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const BicycleCrank;
+
+  /// @brief Field BicylcleSimulationDevice value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const BicylcleSimulationDevice;
+
+  /// @brief Field Brake value: static_cast<int32_t>(0xc5)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Brake;
+
   /// @brief Field ChaffRelease value: static_cast<int32_t>(0xb4)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const ChaffRelease;
+
+  /// @brief Field Clutch value: static_cast<int32_t>(0xc6)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Clutch;
 
   /// @brief Field CollectiveControl value: static_cast<int32_t>(0xb5)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const CollectiveControl;
 
+  /// @brief Field CyclicControl value: static_cast<int32_t>(0x22)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const CyclicControl;
+
+  /// @brief Field CyclicTrim value: static_cast<int32_t>(0x23)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const CyclicTrim;
+
   /// @brief Field DiveBreak value: static_cast<int32_t>(0xb6)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const DiveBreak;
+
+  /// @brief Field DivePlane value: static_cast<int32_t>(0xcb)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const DivePlane;
 
   /// @brief Field ElectronicCountermeasures value: static_cast<int32_t>(0xb7)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const ElectronicCountermeasures;
@@ -1629,26 +1611,86 @@ public:
   /// @brief Field ElevatorTrim value: static_cast<int32_t>(0xb9)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const ElevatorTrim;
 
-  /// @brief Field Rudder value: static_cast<int32_t>(0xba)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Rudder;
-
-  /// @brief Field Throttle value: static_cast<int32_t>(0xbb)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Throttle;
+  /// @brief Field FlareRelease value: static_cast<int32_t>(0xbd)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlareRelease;
 
   /// @brief Field FlightCommunications value: static_cast<int32_t>(0xbc)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightCommunications;
 
-  /// @brief Field FlareRelease value: static_cast<int32_t>(0xbd)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlareRelease;
+  /// @brief Field FlightControlStick value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightControlStick;
+
+  /// @brief Field FlightSimulationDevice value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightSimulationDevice;
+
+  /// @brief Field FlightStick value: static_cast<int32_t>(0x21)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightStick;
+
+  /// @brief Field FlightYoke value: static_cast<int32_t>(0x24)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FlightYoke;
+
+  /// @brief Field FrontBrake value: static_cast<int32_t>(0xcf)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FrontBrake;
+
+  /// @brief Field HandleBars value: static_cast<int32_t>(0xce)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const HandleBars;
+
+  /// @brief Field HelicopterSimulationDevice value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const HelicopterSimulationDevice;
 
   /// @brief Field LandingGear value: static_cast<int32_t>(0xbe)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const LandingGear;
 
+  /// @brief Field MagicCarpetSimulationDevice value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const MagicCarpetSimulationDevice;
+
+  /// @brief Field MotorcycleSimulationDevice value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const MotorcycleSimulationDevice;
+
+  /// @brief Field RearBrake value: static_cast<int32_t>(0xd0)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const RearBrake;
+
+  /// @brief Field Rudder value: static_cast<int32_t>(0xba)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Rudder;
+
+  /// @brief Field SailingSimulationDevice value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SailingSimulationDevice;
+
+  /// @brief Field Shifter value: static_cast<int32_t>(0xc7)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Shifter;
+
+  /// @brief Field SpaceshipSimulationDevice value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SpaceshipSimulationDevice;
+
+  /// @brief Field SportsSimulationDevice value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SportsSimulationDevice;
+
+  /// @brief Field Steering value: static_cast<int32_t>(0xc8)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Steering;
+
+  /// @brief Field SubmarineSimulationDevice value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const SubmarineSimulationDevice;
+
+  /// @brief Field TankSimulationDevice value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const TankSimulationDevice;
+
+  /// @brief Field Throttle value: static_cast<int32_t>(0xbb)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Throttle;
+
   /// @brief Field ToeBreak value: static_cast<int32_t>(0xbf)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const ToeBreak;
 
+  /// @brief Field TrackControl value: static_cast<int32_t>(0x25)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const TrackControl;
+
   /// @brief Field Trigger value: static_cast<int32_t>(0xc0)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const Trigger;
+
+  /// @brief Field TurretDirection value: static_cast<int32_t>(0xc9)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const TurretDirection;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Undefined;
 
   /// @brief Field WeaponsArm value: static_cast<int32_t>(0xc1)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const WeaponsArm;
@@ -1659,44 +1701,8 @@ public:
   /// @brief Field WingFlaps value: static_cast<int32_t>(0xc3)
   static ::UnityEngine::InputSystem::HID::__HID__Simulation const WingFlaps;
 
-  /// @brief Field Accelerator value: static_cast<int32_t>(0xc4)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Accelerator;
-
-  /// @brief Field Brake value: static_cast<int32_t>(0xc5)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Brake;
-
-  /// @brief Field Clutch value: static_cast<int32_t>(0xc6)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Clutch;
-
-  /// @brief Field Shifter value: static_cast<int32_t>(0xc7)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Shifter;
-
-  /// @brief Field Steering value: static_cast<int32_t>(0xc8)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Steering;
-
-  /// @brief Field TurretDirection value: static_cast<int32_t>(0xc9)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const TurretDirection;
-
-  /// @brief Field BarrelElevation value: static_cast<int32_t>(0xca)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const BarrelElevation;
-
-  /// @brief Field DivePlane value: static_cast<int32_t>(0xcb)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const DivePlane;
-
-  /// @brief Field Ballast value: static_cast<int32_t>(0xcc)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const Ballast;
-
-  /// @brief Field BicycleCrank value: static_cast<int32_t>(0xcd)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const BicycleCrank;
-
-  /// @brief Field HandleBars value: static_cast<int32_t>(0xce)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const HandleBars;
-
-  /// @brief Field FrontBrake value: static_cast<int32_t>(0xcf)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const FrontBrake;
-
-  /// @brief Field RearBrake value: static_cast<int32_t>(0xd0)
-  static ::UnityEngine::InputSystem::HID::__HID__Simulation const RearBrake;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -1710,8 +1716,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__Simulation, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5662))
 // CS Name: ::HID::Button
 struct CORDL_TYPE __HID__Button {
 public:
@@ -1731,21 +1735,20 @@ public:
     return static_cast<____HID__Button_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HID__Button(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HID__Button();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HID__Button(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::HID::__HID__Button const Undefined;
 
   /// @brief Field Primary value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::HID::__HID__Button const Primary;
@@ -1755,6 +1758,12 @@ public:
 
   /// @brief Field Tertiary value: static_cast<int32_t>(0x3)
   static ::UnityEngine::InputSystem::HID::__HID__Button const Tertiary;
+
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::HID::__HID__Button const Undefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -1768,8 +1777,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID__Button, value__) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5663))
 // CS Name: ::HID::<>c__DisplayClass12_0*
 class CORDL_TYPE __HID____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -1777,20 +1784,26 @@ public:
   /// @brief Field layout, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_layout, put = __cordl_internal_set_layout))::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* layout;
 
+  static inline ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0* New_ctor();
+
+  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2bc62e8, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
+
   constexpr ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder*& __cordl_internal_get_layout();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder*> const& __cordl_internal_get_layout() const;
 
   constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* value);
 
-  static inline ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2adb498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc156c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2ae0214, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HID____c__DisplayClass12_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HID____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HID____c__DisplayClass12_0(__HID____c__DisplayClass12_0&&) = delete;
@@ -1799,12 +1812,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HID____c__DisplayClass12_0(__HID____c__DisplayClass12_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HID____c__DisplayClass12_0();
-
-public:
   /// @brief Field layout, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* ___layout;
 
@@ -1820,89 +1827,93 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID____c__DisplayClass
 // SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5498)), TypeDefinitionIndex(TypeDefinitionIndex(5657))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5664))
 // CS Name: ::UnityEngine.InputSystem.HID::HID*
 class CORDL_TYPE HID : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
-  using __c__DisplayClass12_0 = ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0;
-
   using Button = ::UnityEngine::InputSystem::HID::__HID__Button;
-
-  using Simulation = ::UnityEngine::InputSystem::HID::__HID__Simulation;
 
   using GenericDesktop = ::UnityEngine::InputSystem::HID::__HID__GenericDesktop;
 
-  using UsagePage = ::UnityEngine::InputSystem::HID::__HID__UsagePage;
+  using HIDCollectionDescriptor = ::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor;
 
-  using HIDDeviceDescriptorBuilder = ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder;
+  using HIDCollectionType = ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType;
 
   using HIDDeviceDescriptor = ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor;
 
-  using HIDCollectionDescriptor = ::UnityEngine::InputSystem::HID::__HID__HIDCollectionDescriptor;
+  using HIDDeviceDescriptorBuilder = ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder;
 
   using HIDElementDescriptor = ::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor;
 
   using HIDElementFlags = ::UnityEngine::InputSystem::HID::__HID__HIDElementFlags;
 
-  using HIDCollectionType = ::UnityEngine::InputSystem::HID::__HID__HIDCollectionType;
+  using HIDLayoutBuilder = ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder;
 
   using HIDReportType = ::UnityEngine::InputSystem::HID::__HID__HIDReportType;
 
-  using HIDLayoutBuilder = ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder;
+  using Simulation = ::UnityEngine::InputSystem::HID::__HID__Simulation;
 
-  /// @brief Field m_HaveParsedHIDDescriptor, offset 0x158, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_HaveParsedHIDDescriptor, put = __cordl_internal_set_m_HaveParsedHIDDescriptor)) bool m_HaveParsedHIDDescriptor;
+  using UsagePage = ::UnityEngine::InputSystem::HID::__HID__UsagePage;
+
+  using __c__DisplayClass12_0 = ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0;
+
+  __declspec(property(get = get_hidDescriptor))::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor hidDescriptor;
 
   /// @brief Field m_HIDDescriptor, offset 0x160, size 0x30
   __declspec(property(get = __cordl_internal_get_m_HIDDescriptor, put = __cordl_internal_set_m_HIDDescriptor))::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor m_HIDDescriptor;
 
-  __declspec(property(get = get_hidDescriptor))::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor hidDescriptor;
-
-  constexpr bool& __cordl_internal_get_m_HaveParsedHIDDescriptor();
-
-  constexpr bool const& __cordl_internal_get_m_HaveParsedHIDDescriptor() const;
-
-  constexpr void __cordl_internal_set_m_HaveParsedHIDDescriptor(bool value);
-
-  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor& __cordl_internal_get_m_HIDDescriptor();
-
-  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& __cordl_internal_get_m_HIDDescriptor() const;
-
-  constexpr void __cordl_internal_set_m_HIDDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value);
-
-  /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType, addr 0x2adaa1c, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorDeviceCommandType();
-
-  /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType, addr 0x2adaa4c, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorSizeDeviceCommandType();
-
-  /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType, addr 0x2adaa7c, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDParsedReportDescriptorDeviceCommandType();
-
-  /// @brief Method get_hidDescriptor, addr 0x2adaaac, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor get_hidDescriptor();
-
-  /// @brief Method OnFindLayoutForDevice, addr 0x2adab50, size 0x948, virtual false, abstract: false, final false
-  static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
-                                                ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
-
-  /// @brief Method ReadHIDDeviceDescriptor, addr 0x2adb4a0, size 0x6f8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor ReadHIDDeviceDescriptor(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription,
-                                                                                                    ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
-
-  /// @brief Method UsagePageToString, addr 0x2add81c, size 0x8c, virtual false, abstract: false, final false
-  static inline ::StringW UsagePageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage);
-
-  /// @brief Method UsageToString, addr 0x2add8a8, size 0x9c, virtual false, abstract: false, final false
-  static inline ::StringW UsageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
+  /// @brief Field m_HaveParsedHIDDescriptor, offset 0x158, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_HaveParsedHIDDescriptor, put = __cordl_internal_set_m_HaveParsedHIDDescriptor)) bool m_HaveParsedHIDDescriptor;
 
   static inline ::UnityEngine::InputSystem::HID::HID* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2add944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x2bc0c24, size 0x948, virtual false, abstract: false, final false
+  static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
+                                                ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
+
+  /// @brief Method ReadHIDDeviceDescriptor, addr 0x2bc1574, size 0x6f8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor ReadHIDDeviceDescriptor(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription,
+                                                                                                    ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
+
+  /// @brief Method UsagePageToString, addr 0x2bc38f0, size 0x8c, virtual false, abstract: false, final false
+  static inline ::StringW UsagePageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage);
+
+  /// @brief Method UsageToString, addr 0x2bc397c, size 0x9c, virtual false, abstract: false, final false
+  static inline ::StringW UsageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
+
+  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& __cordl_internal_get_m_HIDDescriptor() const;
+
+  constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor& __cordl_internal_get_m_HIDDescriptor();
+
+  constexpr bool const& __cordl_internal_get_m_HaveParsedHIDDescriptor() const;
+
+  constexpr bool& __cordl_internal_get_m_HaveParsedHIDDescriptor();
+
+  constexpr void __cordl_internal_set_m_HIDDescriptor(::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor value);
+
+  constexpr void __cordl_internal_set_m_HaveParsedHIDDescriptor(bool value);
+
+  /// @brief Method .ctor, addr 0x2bc3a18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType, addr 0x2bc0b50, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDParsedReportDescriptorDeviceCommandType();
+
+  /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType, addr 0x2bc0af0, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorDeviceCommandType();
+
+  /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType, addr 0x2bc0b20, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorSizeDeviceCommandType();
+
+  /// @brief Method get_hidDescriptor, addr 0x2bc0b80, size 0xa4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor get_hidDescriptor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HID(HID&&) = delete;
@@ -1911,12 +1922,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HID(HID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HID();
-
-public:
   /// @brief Field m_HaveParsedHIDDescriptor, offset: 0x158, size: 0x1, def value: None
   bool ___m_HaveParsedHIDDescriptor;
 

@@ -20,26 +20,30 @@ MARK_REF_PTR_T(::Zenject::NoTransitionInstaller);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10318))
 // CS Name: ::Zenject::NoTransitionInstaller*
 class CORDL_TYPE NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2f20df8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3014520, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
-
-  /// @brief Method PostInstall, addr 0x2f20dfc, size 0x4, virtual true, abstract: false, final false
-  inline void PostInstall(::Zenject::DiContainer* container);
 
   static inline ::Zenject::NoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f20e00, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method PostInstall, addr 0x3014524, size 0x4, virtual true, abstract: false, final false
+  inline void PostInstall(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f20e08, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3014530, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3014528, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoTransitionInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoTransitionInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoTransitionInstaller(NoTransitionInstaller&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoTransitionInstaller(NoTransitionInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoTransitionInstaller();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

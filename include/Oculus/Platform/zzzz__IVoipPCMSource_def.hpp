@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::IVoipPCMSource);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13146))
 // CS Name: ::Oculus.Platform::IVoipPCMSource*
 class CORDL_TYPE IVoipPCMSource {
 public:
@@ -25,14 +23,14 @@ public:
   /// @brief Method GetPCM, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);
 
+  /// @brief Method PeekSizeElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t PeekSizeElements();
+
   /// @brief Method SetSenderID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetSenderID(uint64_t senderID);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
-
-  /// @brief Method PeekSizeElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t PeekSizeElements();
 
   // Ctor Parameters [CppParam { name: "", ty: "IVoipPCMSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

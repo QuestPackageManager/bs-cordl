@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(210))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::OcspObjectIdentifiers*
 class CORDL_TYPE OcspObjectIdentifiers : public ::System::Object {
 public:
@@ -26,64 +24,70 @@ public:
   /// @brief Field PkixOcsp, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PkixOcsp, put = setStaticF_PkixOcsp))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcsp;
 
+  /// @brief Field PkixOcspArchiveCutoff, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PkixOcspArchiveCutoff, put = setStaticF_PkixOcspArchiveCutoff))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspArchiveCutoff;
+
   /// @brief Field PkixOcspBasic, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PkixOcspBasic, put = setStaticF_PkixOcspBasic))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspBasic;
-
-  /// @brief Field PkixOcspNonce, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspNonce, put = setStaticF_PkixOcspNonce))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNonce;
 
   /// @brief Field PkixOcspCrl, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PkixOcspCrl, put = setStaticF_PkixOcspCrl))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspCrl;
 
-  /// @brief Field PkixOcspResponse, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspResponse, put = setStaticF_PkixOcspResponse))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspResponse;
-
   /// @brief Field PkixOcspNocheck, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PkixOcspNocheck, put = setStaticF_PkixOcspNocheck))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNocheck;
 
-  /// @brief Field PkixOcspArchiveCutoff, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PkixOcspArchiveCutoff, put = setStaticF_PkixOcspArchiveCutoff))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspArchiveCutoff;
+  /// @brief Field PkixOcspNonce, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PkixOcspNonce, put = setStaticF_PkixOcspNonce))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspNonce;
+
+  /// @brief Field PkixOcspResponse, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PkixOcspResponse, put = setStaticF_PkixOcspResponse))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspResponse;
 
   /// @brief Field PkixOcspServiceLocator, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PkixOcspServiceLocator, put = setStaticF_PkixOcspServiceLocator))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PkixOcspServiceLocator;
 
-  static inline void setStaticF_PkixOcsp(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers* New_ctor();
+
+  /// @brief Method .ctor, addr 0xff190c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcsp();
 
-  static inline void setStaticF_PkixOcspBasic(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspArchiveCutoff();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspBasic();
 
-  static inline void setStaticF_PkixOcspNonce(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspNonce();
-
-  static inline void setStaticF_PkixOcspCrl(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspCrl();
-
-  static inline void setStaticF_PkixOcspResponse(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspResponse();
-
-  static inline void setStaticF_PkixOcspNocheck(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspNocheck();
 
-  static inline void setStaticF_PkixOcspArchiveCutoff(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspNonce();
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspArchiveCutoff();
-
-  static inline void setStaticF_PkixOcspServiceLocator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspResponse();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PkixOcspServiceLocator();
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspObjectIdentifiers* New_ctor();
+  static inline void setStaticF_PkixOcsp(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0xfab93c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_PkixOcspArchiveCutoff(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
+  static inline void setStaticF_PkixOcspBasic(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_PkixOcspCrl(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_PkixOcspNocheck(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_PkixOcspNonce(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_PkixOcspResponse(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_PkixOcspServiceLocator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OcspObjectIdentifiers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OcspObjectIdentifiers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OcspObjectIdentifiers(OcspObjectIdentifiers&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OcspObjectIdentifiers(OcspObjectIdentifiers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OcspObjectIdentifiers();
-
-public:
   /// @brief Field PkixOcspId offset 0xffffffff size 0x8
   static constexpr ::ConstString PkixOcspId{ u"1.3.6.1.5.5.7.48.1" };
 

@@ -17,15 +17,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RuntimeEventDispatcher);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6278))
 // CS Name: ::UnityEngine.UIElements::RuntimeEventDispatcher*
 class CORDL_TYPE RuntimeEventDispatcher : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2e34358, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2f26a80, size 0x3cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* Create();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeEventDispatcher();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeEventDispatcher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeEventDispatcher(RuntimeEventDispatcher&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeEventDispatcher(RuntimeEventDispatcher const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeEventDispatcher();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

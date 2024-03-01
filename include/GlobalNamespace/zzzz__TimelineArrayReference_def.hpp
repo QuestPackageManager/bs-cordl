@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelineArrayReference);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5295))
 // CS Name: ::TimelineArrayReference::ArrayTypes
 struct CORDL_TYPE __TimelineArrayReference__ArrayTypes {
 public:
@@ -62,33 +60,38 @@ public:
     return static_cast<____TimelineArrayReference__ArrayTypes_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TimelineArrayReference__ArrayTypes(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __TimelineArrayReference__ArrayTypes();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __TimelineArrayReference__ArrayTypes(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field TubeLight value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const TubeLight;
-
-  /// @brief Field Transform value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const Transform;
 
   /// @brief Field Canvas value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const Canvas;
 
+  /// @brief Field DirectionalLight value: static_cast<int32_t>(0x4)
+  static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const DirectionalLight;
+
   /// @brief Field TextMeshPro value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const TextMeshPro;
 
-  /// @brief Field DirectionalLight value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const DirectionalLight;
+  /// @brief Field Transform value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const Transform;
+
+  /// @brief Field TubeLight value: static_cast<int32_t>(0x0)
+  static ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const TubeLight;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -102,25 +105,20 @@ static_assert(offsetof(::GlobalNamespace::__TimelineArrayReference__ArrayTypes, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5295)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5296))
 // CS Name: ::TimelineArrayReference*
 class CORDL_TYPE TimelineArrayReference : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using ArrayTypes = ::GlobalNamespace::__TimelineArrayReference__ArrayTypes;
 
-  /// @brief Field arrayType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_arrayType, put = __cordl_internal_set_arrayType))::GlobalNamespace::__TimelineArrayReference__ArrayTypes arrayType;
-
-  /// @brief Field _tubeLightArray, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__tubeLightArray,
-               put = __cordl_internal_set__tubeLightArray))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _tubeLightArray;
-
   /// @brief Field _canvasGroupArray, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__canvasGroupArray,
                       put = __cordl_internal_set__canvasGroupArray))::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> _canvasGroupArray;
+
+  /// @brief Field _directionalLights, offset 0x40, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__directionalLights,
+               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
 
   /// @brief Field _tmproArray, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tmproArray, put = __cordl_internal_set__tmproArray))::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> _tmproArray;
@@ -129,52 +127,61 @@ public:
   __declspec(property(get = __cordl_internal_get__transformArray,
                       put = __cordl_internal_set__transformArray))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transformArray;
 
-  /// @brief Field _directionalLights, offset 0x40, size 0x8
+  /// @brief Field _tubeLightArray, offset 0x20, size 0x8
   __declspec(
-      property(get = __cordl_internal_get__directionalLights,
-               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
+      property(get = __cordl_internal_get__tubeLightArray,
+               put = __cordl_internal_set__tubeLightArray))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _tubeLightArray;
 
-  constexpr ::GlobalNamespace::__TimelineArrayReference__ArrayTypes& __cordl_internal_get_arrayType();
-
-  constexpr ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const& __cordl_internal_get_arrayType() const;
-
-  constexpr void __cordl_internal_set_arrayType(::GlobalNamespace::__TimelineArrayReference__ArrayTypes value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__tubeLightArray();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__tubeLightArray() const;
-
-  constexpr void __cordl_internal_set__tubeLightArray(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*>& __cordl_internal_get__canvasGroupArray();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvasGroupArray() const;
-
-  constexpr void __cordl_internal_set__canvasGroupArray(::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>& __cordl_internal_get__tmproArray();
-
-  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__tmproArray() const;
-
-  constexpr void __cordl_internal_set__tmproArray(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transformArray();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transformArray() const;
-
-  constexpr void __cordl_internal_set__transformArray(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
-
-  constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> value);
+  /// @brief Field arrayType, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_arrayType, put = __cordl_internal_set_arrayType))::GlobalNamespace::__TimelineArrayReference__ArrayTypes arrayType;
 
   static inline ::GlobalNamespace::TimelineArrayReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2342cc8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvasGroupArray() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*>& __cordl_internal_get__canvasGroupArray();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>& __cordl_internal_get__directionalLights();
+
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__tmproArray() const;
+
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>& __cordl_internal_get__tmproArray();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transformArray() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transformArray();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__tubeLightArray() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__tubeLightArray();
+
+  constexpr ::GlobalNamespace::__TimelineArrayReference__ArrayTypes const& __cordl_internal_get_arrayType() const;
+
+  constexpr ::GlobalNamespace::__TimelineArrayReference__ArrayTypes& __cordl_internal_get_arrayType();
+
+  constexpr void __cordl_internal_set__canvasGroupArray(::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> value);
+
+  constexpr void __cordl_internal_set__directionalLights(::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> value);
+
+  constexpr void __cordl_internal_set__tmproArray(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
+
+  constexpr void __cordl_internal_set__transformArray(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set__tubeLightArray(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
+
+  constexpr void __cordl_internal_set_arrayType(::GlobalNamespace::__TimelineArrayReference__ArrayTypes value);
+
+  /// @brief Method .ctor, addr 0x2411c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimelineArrayReference();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelineArrayReference(TimelineArrayReference&&) = delete;
@@ -183,12 +190,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimelineArrayReference(TimelineArrayReference const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelineArrayReference();
-
-public:
   /// @brief Field arrayType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::__TimelineArrayReference__ArrayTypes ___arrayType;
 

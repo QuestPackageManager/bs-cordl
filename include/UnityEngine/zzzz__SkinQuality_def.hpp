@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::SkinQuality);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8846))
 // CS Name: ::UnityEngine::SkinQuality
 struct CORDL_TYPE SkinQuality {
 public:
@@ -36,18 +34,20 @@ public:
     return static_cast<__SkinQuality_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SkinQuality(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SkinQuality();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SkinQuality(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Auto value: static_cast<int32_t>(0x0)
   static ::UnityEngine::SkinQuality const Auto;
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field Bone4 value: static_cast<int32_t>(0x4)
   static ::UnityEngine::SkinQuality const Bone4;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::GraphicsBuffer);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8864))
 // CS Name: ::GraphicsBuffer::Target
 struct CORDL_TYPE __GraphicsBuffer__Target {
 public:
@@ -51,48 +49,53 @@ public:
     return static_cast<____GraphicsBuffer__Target_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GraphicsBuffer__Target(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __GraphicsBuffer__Target();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __GraphicsBuffer__Target(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Vertex value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::__GraphicsBuffer__Target const Vertex;
-
-  /// @brief Field Index value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::__GraphicsBuffer__Target const Index;
-
-  /// @brief Field CopySource value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::__GraphicsBuffer__Target const CopySource;
-
-  /// @brief Field CopyDestination value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::__GraphicsBuffer__Target const CopyDestination;
-
-  /// @brief Field Structured value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::__GraphicsBuffer__Target const Structured;
-
-  /// @brief Field Raw value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::__GraphicsBuffer__Target const Raw;
 
   /// @brief Field Append value: static_cast<int32_t>(0x40)
   static ::UnityEngine::__GraphicsBuffer__Target const Append;
 
+  /// @brief Field Constant value: static_cast<int32_t>(0x200)
+  static ::UnityEngine::__GraphicsBuffer__Target const Constant;
+
+  /// @brief Field CopyDestination value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::__GraphicsBuffer__Target const CopyDestination;
+
+  /// @brief Field CopySource value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::__GraphicsBuffer__Target const CopySource;
+
   /// @brief Field Counter value: static_cast<int32_t>(0x80)
   static ::UnityEngine::__GraphicsBuffer__Target const Counter;
+
+  /// @brief Field Index value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::__GraphicsBuffer__Target const Index;
 
   /// @brief Field IndirectArguments value: static_cast<int32_t>(0x100)
   static ::UnityEngine::__GraphicsBuffer__Target const IndirectArguments;
 
-  /// @brief Field Constant value: static_cast<int32_t>(0x200)
-  static ::UnityEngine::__GraphicsBuffer__Target const Constant;
+  /// @brief Field Raw value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::__GraphicsBuffer__Target const Raw;
+
+  /// @brief Field Structured value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::__GraphicsBuffer__Target const Structured;
+
+  /// @brief Field Vertex value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::__GraphicsBuffer__Target const Vertex;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -106,8 +109,6 @@ static_assert(offsetof(::UnityEngine::__GraphicsBuffer__Target, value__) == 0x0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8865))
 // CS Name: ::UnityEngine::GraphicsBuffer*
 class CORDL_TYPE GraphicsBuffer : public ::System::Object {
 public:
@@ -117,12 +118,18 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
-
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GraphicsBuffer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GraphicsBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicsBuffer(GraphicsBuffer&&) = delete;
@@ -131,12 +138,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GraphicsBuffer(GraphicsBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphicsBuffer();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

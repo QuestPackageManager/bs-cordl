@@ -19,18 +19,16 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::SpawnRotation);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11210))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11147))
 // CS Name: ::BeatmapSaveDataVersion4::SpawnRotation
 struct CORDL_TYPE SpawnRotation {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::ExecutionTime", modifiers: "", def_value: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr SpawnRotation(::BeatmapSaveDataCommon::ExecutionTime t, float_t r) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr SpawnRotation();
+
+  // Ctor Parameters [CppParam { name: "t", ty: "::BeatmapSaveDataCommon::ExecutionTime", modifiers: "", def_value: None }, CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr SpawnRotation(::BeatmapSaveDataCommon::ExecutionTime t, float_t r) noexcept;
 
   /// @brief Field t, offset: 0x0, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::ExecutionTime t;

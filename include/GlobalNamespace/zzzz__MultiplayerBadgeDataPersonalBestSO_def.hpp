@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10903))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10900))
 // CS Name: ::MultiplayerBadgeDataPersonalBestSO*
 class CORDL_TYPE MultiplayerBadgeDataPersonalBestSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
@@ -40,22 +38,28 @@ public:
   /// @brief Field _weight, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
 
-  constexpr float_t& __cordl_internal_get__weight();
-
-  constexpr float_t const& __cordl_internal_get__weight() const;
-
-  constexpr void __cordl_internal_set__weight(float_t value);
-
-  /// @brief Method CalculateBadgeData, addr 0x1297b30, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x12d9b00, size 0x580, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataPersonalBestSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12980b0, size 0x10, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get__weight() const;
+
+  constexpr float_t& __cordl_internal_get__weight();
+
+  constexpr void __cordl_internal_set__weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x12da080, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBadgeDataPersonalBestSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataPersonalBestSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataPersonalBestSO(MultiplayerBadgeDataPersonalBestSO&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgeDataPersonalBestSO(MultiplayerBadgeDataPersonalBestSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataPersonalBestSO();
-
-public:
   /// @brief Field _weight, offset: 0x30, size: 0x4, def value: None
   float_t ____weight;
 

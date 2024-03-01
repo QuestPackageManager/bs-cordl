@@ -18,45 +18,49 @@ MARK_REF_PTR_T(::GlobalNamespace::SettingsSubMenuInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4994))
 // CS Name: ::SettingsSubMenuInfo*
 class CORDL_TYPE SettingsSubMenuInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _viewController, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController))::UnityW<::HMUI::ViewController> _viewController;
-
   /// @brief Field _menuName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__menuName, put = __cordl_internal_set__menuName))::StringW _menuName;
 
-  __declspec(property(get = get_viewController))::UnityW<::HMUI::ViewController> viewController;
+  /// @brief Field _viewController, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController))::UnityW<::HMUI::ViewController> _viewController;
 
   __declspec(property(get = get_localizedMenuName))::StringW localizedMenuName;
 
-  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__viewController();
-
-  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__viewController() const;
-
-  constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
-
-  constexpr ::StringW& __cordl_internal_get__menuName();
-
-  constexpr ::StringW const& __cordl_internal_get__menuName() const;
-
-  constexpr void __cordl_internal_set__menuName(::StringW value);
-
-  /// @brief Method get_viewController, addr 0x22f90f4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::HMUI::ViewController> get_viewController();
-
-  /// @brief Method get_localizedMenuName, addr 0x22f90fc, size 0xc, virtual false, abstract: false, final false
-  inline ::StringW get_localizedMenuName();
+  __declspec(property(get = get_viewController))::UnityW<::HMUI::ViewController> viewController;
 
   static inline ::GlobalNamespace::SettingsSubMenuInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22f9108, size 0x8, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__menuName() const;
+
+  constexpr ::StringW& __cordl_internal_get__menuName();
+
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get__viewController() const;
+
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get__viewController();
+
+  constexpr void __cordl_internal_set__menuName(::StringW value);
+
+  constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
+
+  /// @brief Method .ctor, addr 0x23c7db0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_localizedMenuName, addr 0x23c7da4, size 0xc, virtual false, abstract: false, final false
+  inline ::StringW get_localizedMenuName();
+
+  /// @brief Method get_viewController, addr 0x23c7d9c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::HMUI::ViewController> get_viewController();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingsSubMenuInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SettingsSubMenuInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsSubMenuInfo(SettingsSubMenuInfo&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsSubMenuInfo(SettingsSubMenuInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SettingsSubMenuInfo();
-
-public:
   /// @brief Field _viewController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;
 

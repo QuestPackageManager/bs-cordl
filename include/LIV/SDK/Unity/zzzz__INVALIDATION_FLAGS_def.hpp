@@ -15,8 +15,6 @@ MARK_VAL_T(::LIV::SDK::Unity::INVALIDATION_FLAGS);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14965))
 // CS Name: ::LIV.SDK.Unity::INVALIDATION_FLAGS
 struct CORDL_TYPE INVALIDATION_FLAGS {
 public:
@@ -37,33 +35,38 @@ public:
     return static_cast<__INVALIDATION_FLAGS_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr INVALIDATION_FLAGS(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<uint32_t>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr INVALIDATION_FLAGS();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr INVALIDATION_FLAGS(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NONE value: static_cast<uint32_t>(0x4020100u)
-  static ::LIV::SDK::Unity::INVALIDATION_FLAGS const NONE;
+  /// @brief Field EXCLUDE_BEHAVIOURS value: static_cast<uint32_t>(0x70000008u)
+  static ::LIV::SDK::Unity::INVALIDATION_FLAGS const EXCLUDE_BEHAVIOURS;
 
   /// @brief Field HMD_CAMERA value: static_cast<uint32_t>(0x8040201u)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const HMD_CAMERA;
 
-  /// @brief Field STAGE value: static_cast<uint32_t>(0x80402u)
-  static ::LIV::SDK::Unity::INVALIDATION_FLAGS const STAGE;
-
   /// @brief Field MR_CAMERA_PREFAB value: static_cast<uint32_t>(0x804u)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const MR_CAMERA_PREFAB;
 
-  /// @brief Field EXCLUDE_BEHAVIOURS value: static_cast<uint32_t>(0x70000008u)
-  static ::LIV::SDK::Unity::INVALIDATION_FLAGS const EXCLUDE_BEHAVIOURS;
+  /// @brief Field NONE value: static_cast<uint32_t>(0x4020100u)
+  static ::LIV::SDK::Unity::INVALIDATION_FLAGS const NONE;
+
+  /// @brief Field STAGE value: static_cast<uint32_t>(0x80402u)
+  static ::LIV::SDK::Unity::INVALIDATION_FLAGS const STAGE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

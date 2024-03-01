@@ -18,22 +18,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::PkcsIOException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1706))
 // CS Name: ::Org.BouncyCastle.Pkcs::PkcsIOException*
 class CORDL_TYPE PkcsIOException : public ::System::IO::IOException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkcs::PkcsIOException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1115128, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::Org::BouncyCastle::Pkcs::PkcsIOException* New_ctor(::StringW message, ::System::Exception* underlying);
 
-  /// @brief Method .ctor, addr 0x1114788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11580f8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x1157758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* underlying);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkcsIOException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkcsIOException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkcsIOException(PkcsIOException&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkcsIOException(PkcsIOException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkcsIOException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

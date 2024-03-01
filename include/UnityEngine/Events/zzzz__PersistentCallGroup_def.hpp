@@ -27,16 +27,19 @@ MARK_REF_PTR_T(::UnityEngine::Events::PersistentCallGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9228))
 // CS Name: ::UnityEngine.Events::PersistentCallGroup*
 class CORDL_TYPE PersistentCallGroup : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
+
   /// @brief Field m_Calls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls))::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+  /// @brief Method Initialize, addr 0x2def828, size 0x190, virtual false, abstract: false, final false
+  inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
+
+  static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>*& __cordl_internal_get_m_Calls();
 
@@ -44,17 +47,18 @@ public:
 
   constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-  static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d04038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2def760, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2d040b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2def7e0, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Initialize, addr 0x2d04100, size 0x190, virtual false, abstract: false, final false
-  inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PersistentCallGroup();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PersistentCallGroup(PersistentCallGroup&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PersistentCallGroup(PersistentCallGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PersistentCallGroup();
-
-public:
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* ___m_Calls;
 

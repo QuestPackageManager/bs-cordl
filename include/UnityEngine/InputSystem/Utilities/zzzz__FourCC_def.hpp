@@ -22,8 +22,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::FourCC);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5926))
 // CS Name: ::UnityEngine.InputSystem.Utilities::FourCC
 struct CORDL_TYPE FourCC {
 public:
@@ -31,54 +29,54 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>*();
 
+  /// @brief Method Equals, addr 0x2bf5a60, size 0x78, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2bf5a50, size 0x10, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::InputSystem::Utilities::FourCC other);
+
+  /// @brief Method FromInt32, addr 0x2bf5af8, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC FromInt32(int32_t i);
+
+  /// @brief Method GetHashCode, addr 0x2bf5ad8, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToInt32, addr 0x2bf5b00, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t ToInt32(::UnityEngine::InputSystem::Utilities::FourCC fourCC);
+
+  /// @brief Method ToString, addr 0x2bf58a0, size 0x1b0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2bf149c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(char16_t a, char16_t b, char16_t c, char16_t d);
+
+  /// @brief Method .ctor, addr 0x2bf571c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t code);
+
+  /// @brief Method .ctor, addr 0x2bf5724, size 0x170, virtual false, abstract: false, final false
+  inline void _ctor(::StringW str);
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::FourCC>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__FourCC_();
 
-  /// @brief Method .ctor, addr 0x2b0f648, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t code);
-
-  /// @brief Method .ctor, addr 0x2b0b3c8, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(char16_t a, char16_t b, char16_t c, char16_t d);
-
-  /// @brief Method .ctor, addr 0x2b0f650, size 0x170, virtual false, abstract: false, final false
-  inline void _ctor(::StringW str);
-
-  /// @brief Method op_Implicit, addr 0x2b0f7c0, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t op_Implicit_int32_t(::UnityEngine::InputSystem::Utilities::FourCC fourCC);
-
-  /// @brief Method op_Implicit, addr 0x2b0f7c4, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC op_Implicit___UnityEngine__InputSystem__Utilities__FourCC(int32_t i);
-
-  /// @brief Method ToString, addr 0x2b0f7cc, size 0x1b0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Equals, addr 0x2b0f97c, size 0x10, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::InputSystem::Utilities::FourCC other);
-
-  /// @brief Method Equals, addr 0x2b0f98c, size 0x78, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2b0fa04, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method op_Equality, addr 0x2b0fa0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2bf5ae0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::FourCC left, ::UnityEngine::InputSystem::Utilities::FourCC right);
 
-  /// @brief Method op_Inequality, addr 0x2b0fa18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2bf5898, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC op_Implicit___UnityEngine__InputSystem__Utilities__FourCC(int32_t i);
+
+  /// @brief Method op_Implicit, addr 0x2bf5894, size 0x4, virtual false, abstract: false, final false
+  static inline int32_t op_Implicit_int32_t(::UnityEngine::InputSystem::Utilities::FourCC fourCC);
+
+  /// @brief Method op_Inequality, addr 0x2bf5aec, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::FourCC left, ::UnityEngine::InputSystem::Utilities::FourCC right);
-
-  /// @brief Method FromInt32, addr 0x2b0fa24, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC FromInt32(int32_t i);
-
-  /// @brief Method ToInt32, addr 0x2b0fa2c, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t ToInt32(::UnityEngine::InputSystem::Utilities::FourCC fourCC);
-
-  // Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FourCC(int32_t m_Code) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FourCC();
+
+  // Ctor Parameters [CppParam { name: "m_Code", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FourCC(int32_t m_Code) noexcept;
 
   /// @brief Field m_Code, offset: 0x0, size: 0x4, def value: None
   int32_t m_Code;

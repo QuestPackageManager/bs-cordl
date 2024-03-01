@@ -34,263 +34,267 @@ MARK_REF_PTR_T(::VRUIControls::VRPointer);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15836))
 // CS Name: ::VRUIControls::VRPointer*
 class CORDL_TYPE VRPointer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _leftVRController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftVRController, put = __cordl_internal_set__leftVRController))::UnityW<::GlobalNamespace::VRController> _leftVRController;
-
-  /// @brief Field _rightVRController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightVRController, put = __cordl_internal_set__rightVRController))::UnityW<::GlobalNamespace::VRController> _rightVRController;
-
-  /// @brief Field _laserPointerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__laserPointerPrefab, put = __cordl_internal_set__laserPointerPrefab))::UnityW<::VRUIControls::VRLaserPointer> _laserPointerPrefab;
-
   /// @brief Field _cursorPrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__cursorPrefab, put = __cordl_internal_set__cursorPrefab))::UnityW<::UnityEngine::Transform> _cursorPrefab;
-
-  /// @brief Field _defaultLaserPointerLength, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultLaserPointerLength, put = __cordl_internal_set__defaultLaserPointerLength)) float_t _defaultLaserPointerLength;
-
-  /// @brief Field _laserPointerWidth, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__laserPointerWidth, put = __cordl_internal_set__laserPointerWidth)) float_t _laserPointerWidth;
-
-  /// @brief Field _laserPointer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__laserPointer, put = __cordl_internal_set__laserPointer))::UnityW<::VRUIControls::VRLaserPointer> _laserPointer;
 
   /// @brief Field _cursorTransform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__cursorTransform, put = __cordl_internal_set__cursorTransform))::UnityW<::UnityEngine::Transform> _cursorTransform;
 
-  /// @brief Field _leftLaserPointer, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftLaserPointer, put = __cordl_internal_set__leftLaserPointer))::UnityW<::VRUIControls::VRLaserPointer> _leftLaserPointer;
-
-  /// @brief Field _rightLaserPointer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightLaserPointer, put = __cordl_internal_set__rightLaserPointer))::UnityW<::VRUIControls::VRLaserPointer> _rightLaserPointer;
-
-  /// @brief Field _leftCursorTransform, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftCursorTransform, put = __cordl_internal_set__leftCursorTransform))::UnityW<::UnityEngine::Transform> _leftCursorTransform;
-
-  /// @brief Field _rightCursorTransform, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightCursorTransform, put = __cordl_internal_set__rightCursorTransform))::UnityW<::UnityEngine::Transform> _rightCursorTransform;
+  /// @brief Field _defaultLaserPointerLength, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__defaultLaserPointerLength, put = __cordl_internal_set__defaultLaserPointerLength)) float_t _defaultLaserPointerLength;
 
   /// @brief Field _eventSystem, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__eventSystem, put = __cordl_internal_set__eventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> _eventSystem;
 
-  /// @brief Field _lastSelectedVrController, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastSelectedVrController, put = __cordl_internal_set__lastSelectedVrController))::UnityW<::GlobalNamespace::VRController> _lastSelectedVrController;
-
-  /// @brief Field _lastSelectedControllerWasRight, offset 0x80, size 0x1
-  __declspec(property(get = __cordl_internal_get__lastSelectedControllerWasRight, put = __cordl_internal_set__lastSelectedControllerWasRight)) bool _lastSelectedControllerWasRight;
-
-  /// @brief Field _rightControllerWasReleased, offset 0x81, size 0x1
-  __declspec(property(get = __cordl_internal_get__rightControllerWasReleased, put = __cordl_internal_set__rightControllerWasReleased)) bool _rightControllerWasReleased;
-
-  /// @brief Field _leftControllerWasReleased, offset 0x82, size 0x1
-  __declspec(property(get = __cordl_internal_get__leftControllerWasReleased, put = __cordl_internal_set__leftControllerWasReleased)) bool _leftControllerWasReleased;
+  /// @brief Field _hasCursors, offset 0x84, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasCursors, put = __cordl_internal_set__hasCursors)) bool _hasCursors;
 
   /// @brief Field _hasLaserPointers, offset 0x83, size 0x1
   __declspec(property(get = __cordl_internal_get__hasLaserPointers, put = __cordl_internal_set__hasLaserPointers)) bool _hasLaserPointers;
 
-  /// @brief Field _hasCursors, offset 0x84, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasCursors, put = __cordl_internal_set__hasCursors)) bool _hasCursors;
+  /// @brief Field _laserPointer, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__laserPointer, put = __cordl_internal_set__laserPointer))::UnityW<::VRUIControls::VRLaserPointer> _laserPointer;
+
+  /// @brief Field _laserPointerPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__laserPointerPrefab, put = __cordl_internal_set__laserPointerPrefab))::UnityW<::VRUIControls::VRLaserPointer> _laserPointerPrefab;
+
+  /// @brief Field _laserPointerWidth, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__laserPointerWidth, put = __cordl_internal_set__laserPointerWidth)) float_t _laserPointerWidth;
+
+  /// @brief Field _lastSelectedControllerWasRight, offset 0x80, size 0x1
+  __declspec(property(get = __cordl_internal_get__lastSelectedControllerWasRight, put = __cordl_internal_set__lastSelectedControllerWasRight)) bool _lastSelectedControllerWasRight;
+
+  /// @brief Field _lastSelectedVrController, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__lastSelectedVrController, put = __cordl_internal_set__lastSelectedVrController))::UnityW<::GlobalNamespace::VRController> _lastSelectedVrController;
+
+  /// @brief Field _leftControllerWasReleased, offset 0x82, size 0x1
+  __declspec(property(get = __cordl_internal_get__leftControllerWasReleased, put = __cordl_internal_set__leftControllerWasReleased)) bool _leftControllerWasReleased;
+
+  /// @brief Field _leftCursorTransform, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftCursorTransform, put = __cordl_internal_set__leftCursorTransform))::UnityW<::UnityEngine::Transform> _leftCursorTransform;
+
+  /// @brief Field _leftLaserPointer, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftLaserPointer, put = __cordl_internal_set__leftLaserPointer))::UnityW<::VRUIControls::VRLaserPointer> _leftLaserPointer;
+
+  /// @brief Field _leftVRController, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftVRController, put = __cordl_internal_set__leftVRController))::UnityW<::GlobalNamespace::VRController> _leftVRController;
 
   /// @brief Field _pointerData, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__pointerData, put = __cordl_internal_set__pointerData))::UnityEngine::EventSystems::PointerEventData* _pointerData;
 
-  __declspec(property(get = get_lastSelectedVrController))::UnityW<::GlobalNamespace::VRController> lastSelectedVrController;
+  /// @brief Field _rightControllerWasReleased, offset 0x81, size 0x1
+  __declspec(property(get = __cordl_internal_get__rightControllerWasReleased, put = __cordl_internal_set__rightControllerWasReleased)) bool _rightControllerWasReleased;
+
+  /// @brief Field _rightCursorTransform, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightCursorTransform, put = __cordl_internal_set__rightCursorTransform))::UnityW<::UnityEngine::Transform> _rightCursorTransform;
+
+  /// @brief Field _rightLaserPointer, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightLaserPointer, put = __cordl_internal_set__rightLaserPointer))::UnityW<::VRUIControls::VRLaserPointer> _rightLaserPointer;
+
+  /// @brief Field _rightVRController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightVRController, put = __cordl_internal_set__rightVRController))::UnityW<::GlobalNamespace::VRController> _rightVRController;
 
   __declspec(property(get = get_cursorPosition))::UnityEngine::Vector3 cursorPosition;
 
+  __declspec(property(get = get_lastSelectedVrController))::UnityW<::GlobalNamespace::VRController> lastSelectedVrController;
+
   __declspec(property(get = get_state))::StringW state;
 
-  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__leftVRController();
+  /// @brief Method Awake, addr 0x2fc83ac, size 0xb4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__leftVRController() const;
+  /// @brief Method CreateCursors, addr 0x2fc8564, size 0x134, virtual false, abstract: false, final false
+  inline bool CreateCursors();
 
-  constexpr void __cordl_internal_set__leftVRController(::UnityW<::GlobalNamespace::VRController> value);
+  /// @brief Method CreateLaserPointers, addr 0x2fc8460, size 0x104, virtual false, abstract: false, final false
+  inline bool CreateLaserPointers();
 
-  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__rightVRController();
+  /// @brief Method EnabledLastSelectedPointer, addr 0x2fc88d8, size 0x54, virtual false, abstract: false, final false
+  inline void EnabledLastSelectedPointer();
 
-  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__rightVRController() const;
+  /// @brief Method HideCursors, addr 0x2fc8be4, size 0x60, virtual false, abstract: false, final false
+  inline void HideCursors();
 
-  constexpr void __cordl_internal_set__rightVRController(::UnityW<::GlobalNamespace::VRController> value);
+  /// @brief Method HideLaserPointers, addr 0x2fc8c44, size 0x60, virtual false, abstract: false, final false
+  inline void HideLaserPointers();
 
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__laserPointerPrefab();
+  /// @brief Method HideLaserPointersAndCursors, addr 0x2fc86d4, size 0x18, virtual false, abstract: false, final false
+  inline void HideLaserPointersAndCursors();
 
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__laserPointerPrefab() const;
+  /// @brief Method IsLeftControllerDown, addr 0x2fc8838, size 0x50, virtual false, abstract: false, final false
+  inline bool IsLeftControllerDown();
 
-  constexpr void __cordl_internal_set__laserPointerPrefab(::UnityW<::VRUIControls::VRLaserPointer> value);
+  /// @brief Method IsRightControllerDown, addr 0x2fc8888, size 0x50, virtual false, abstract: false, final false
+  inline bool IsRightControllerDown();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cursorPrefab();
+  /// @brief Method LateUpdate, addr 0x2fc86ec, size 0x14c, virtual false, abstract: false, final false
+  inline void LateUpdate();
+
+  static inline ::VRUIControls::VRPointer* New_ctor();
+
+  /// @brief Method OnApplicationFocus, addr 0x2fc8bd8, size 0xc, virtual false, abstract: false, final false
+  inline void OnApplicationFocus(bool hasFocus);
+
+  /// @brief Method OnDisable, addr 0x2fc86bc, size 0x18, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method Process, addr 0x2fc79a0, size 0x68, virtual false, abstract: false, final false
+  inline void Process(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
+
+  /// @brief Method RefreshLaserPointerAndLaserHit, addr 0x2fc89a0, size 0x238, virtual false, abstract: false, final false
+  inline void RefreshLaserPointerAndLaserHit(::UnityEngine::EventSystems::PointerEventData* pointerData);
+
+  /// @brief Method SelectLeftController, addr 0x2fc86ac, size 0x10, virtual false, abstract: false, final false
+  inline void SelectLeftController();
+
+  /// @brief Method SelectRightController, addr 0x2fc8698, size 0x14, virtual false, abstract: false, final false
+  inline void SelectRightController();
+
+  /// @brief Method SetupLaserPointer, addr 0x2fc892c, size 0x74, virtual false, abstract: false, final false
+  inline void SetupLaserPointer(::VRUIControls::VRLaserPointer* laserPointer);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cursorPrefab() const;
 
-  constexpr void __cordl_internal_set__cursorPrefab(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get__defaultLaserPointerLength();
-
-  constexpr float_t const& __cordl_internal_get__defaultLaserPointerLength() const;
-
-  constexpr void __cordl_internal_set__defaultLaserPointerLength(float_t value);
-
-  constexpr float_t& __cordl_internal_get__laserPointerWidth();
-
-  constexpr float_t const& __cordl_internal_get__laserPointerWidth() const;
-
-  constexpr void __cordl_internal_set__laserPointerWidth(float_t value);
-
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__laserPointer();
-
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__laserPointer() const;
-
-  constexpr void __cordl_internal_set__laserPointer(::UnityW<::VRUIControls::VRLaserPointer> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cursorTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cursorPrefab();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cursorTransform() const;
 
-  constexpr void __cordl_internal_set__cursorTransform(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cursorTransform();
 
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__leftLaserPointer();
+  constexpr float_t const& __cordl_internal_get__defaultLaserPointerLength() const;
 
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__leftLaserPointer() const;
-
-  constexpr void __cordl_internal_set__leftLaserPointer(::UnityW<::VRUIControls::VRLaserPointer> value);
-
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__rightLaserPointer();
-
-  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__rightLaserPointer() const;
-
-  constexpr void __cordl_internal_set__rightLaserPointer(::UnityW<::VRUIControls::VRLaserPointer> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftCursorTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftCursorTransform() const;
-
-  constexpr void __cordl_internal_set__leftCursorTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightCursorTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightCursorTransform() const;
-
-  constexpr void __cordl_internal_set__rightCursorTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get__eventSystem();
+  constexpr float_t& __cordl_internal_get__defaultLaserPointerLength();
 
   constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__eventSystem() const;
 
-  constexpr void __cordl_internal_set__eventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
-
-  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__lastSelectedVrController();
-
-  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__lastSelectedVrController() const;
-
-  constexpr void __cordl_internal_set__lastSelectedVrController(::UnityW<::GlobalNamespace::VRController> value);
-
-  constexpr bool& __cordl_internal_get__lastSelectedControllerWasRight();
-
-  constexpr bool const& __cordl_internal_get__lastSelectedControllerWasRight() const;
-
-  constexpr void __cordl_internal_set__lastSelectedControllerWasRight(bool value);
-
-  constexpr bool& __cordl_internal_get__rightControllerWasReleased();
-
-  constexpr bool const& __cordl_internal_get__rightControllerWasReleased() const;
-
-  constexpr void __cordl_internal_set__rightControllerWasReleased(bool value);
-
-  constexpr bool& __cordl_internal_get__leftControllerWasReleased();
-
-  constexpr bool const& __cordl_internal_get__leftControllerWasReleased() const;
-
-  constexpr void __cordl_internal_set__leftControllerWasReleased(bool value);
-
-  constexpr bool& __cordl_internal_get__hasLaserPointers();
-
-  constexpr bool const& __cordl_internal_get__hasLaserPointers() const;
-
-  constexpr void __cordl_internal_set__hasLaserPointers(bool value);
-
-  constexpr bool& __cordl_internal_get__hasCursors();
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get__eventSystem();
 
   constexpr bool const& __cordl_internal_get__hasCursors() const;
 
-  constexpr void __cordl_internal_set__hasCursors(bool value);
+  constexpr bool& __cordl_internal_get__hasCursors();
+
+  constexpr bool const& __cordl_internal_get__hasLaserPointers() const;
+
+  constexpr bool& __cordl_internal_get__hasLaserPointers();
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__laserPointer() const;
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__laserPointer();
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__laserPointerPrefab() const;
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__laserPointerPrefab();
+
+  constexpr float_t const& __cordl_internal_get__laserPointerWidth() const;
+
+  constexpr float_t& __cordl_internal_get__laserPointerWidth();
+
+  constexpr bool const& __cordl_internal_get__lastSelectedControllerWasRight() const;
+
+  constexpr bool& __cordl_internal_get__lastSelectedControllerWasRight();
+
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__lastSelectedVrController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__lastSelectedVrController();
+
+  constexpr bool const& __cordl_internal_get__leftControllerWasReleased() const;
+
+  constexpr bool& __cordl_internal_get__leftControllerWasReleased();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftCursorTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftCursorTransform();
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__leftLaserPointer() const;
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__leftLaserPointer();
+
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__leftVRController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__leftVRController();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get__pointerData();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get__pointerData() const;
 
+  constexpr bool const& __cordl_internal_get__rightControllerWasReleased() const;
+
+  constexpr bool& __cordl_internal_get__rightControllerWasReleased();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightCursorTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightCursorTransform();
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer> const& __cordl_internal_get__rightLaserPointer() const;
+
+  constexpr ::UnityW<::VRUIControls::VRLaserPointer>& __cordl_internal_get__rightLaserPointer();
+
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__rightVRController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__rightVRController();
+
+  constexpr void __cordl_internal_set__cursorPrefab(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__cursorTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__defaultLaserPointerLength(float_t value);
+
+  constexpr void __cordl_internal_set__eventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
+
+  constexpr void __cordl_internal_set__hasCursors(bool value);
+
+  constexpr void __cordl_internal_set__hasLaserPointers(bool value);
+
+  constexpr void __cordl_internal_set__laserPointer(::UnityW<::VRUIControls::VRLaserPointer> value);
+
+  constexpr void __cordl_internal_set__laserPointerPrefab(::UnityW<::VRUIControls::VRLaserPointer> value);
+
+  constexpr void __cordl_internal_set__laserPointerWidth(float_t value);
+
+  constexpr void __cordl_internal_set__lastSelectedControllerWasRight(bool value);
+
+  constexpr void __cordl_internal_set__lastSelectedVrController(::UnityW<::GlobalNamespace::VRController> value);
+
+  constexpr void __cordl_internal_set__leftControllerWasReleased(bool value);
+
+  constexpr void __cordl_internal_set__leftCursorTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__leftLaserPointer(::UnityW<::VRUIControls::VRLaserPointer> value);
+
+  constexpr void __cordl_internal_set__leftVRController(::UnityW<::GlobalNamespace::VRController> value);
+
   constexpr void __cordl_internal_set__pointerData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method get_lastSelectedVrController, addr 0x2ed4b8c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::VRController> get_lastSelectedVrController();
+  constexpr void __cordl_internal_set__rightControllerWasReleased(bool value);
 
-  /// @brief Method get_cursorPosition, addr 0x2ed4b94, size 0xf0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_cursorPosition();
+  constexpr void __cordl_internal_set__rightCursorTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Awake, addr 0x2ed4c84, size 0xb4, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__rightLaserPointer(::UnityW<::VRUIControls::VRLaserPointer> value);
 
-  /// @brief Method OnDisable, addr 0x2ed4f94, size 0x18, virtual false, abstract: false, final false
-  inline void OnDisable();
+  constexpr void __cordl_internal_set__rightVRController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method LateUpdate, addr 0x2ed4fc4, size 0x14c, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  /// @brief Method IsLeftControllerDown, addr 0x2ed5110, size 0x50, virtual false, abstract: false, final false
-  inline bool IsLeftControllerDown();
-
-  /// @brief Method IsRightControllerDown, addr 0x2ed5160, size 0x50, virtual false, abstract: false, final false
-  inline bool IsRightControllerDown();
-
-  /// @brief Method SelectRightController, addr 0x2ed4f70, size 0x14, virtual false, abstract: false, final false
-  inline void SelectRightController();
-
-  /// @brief Method SelectLeftController, addr 0x2ed4f84, size 0x10, virtual false, abstract: false, final false
-  inline void SelectLeftController();
-
-  /// @brief Method EnabledLastSelectedPointer, addr 0x2ed51b0, size 0x54, virtual false, abstract: false, final false
-  inline void EnabledLastSelectedPointer();
-
-  /// @brief Method CreateLaserPointers, addr 0x2ed4d38, size 0x104, virtual false, abstract: false, final false
-  inline bool CreateLaserPointers();
-
-  /// @brief Method SetupLaserPointer, addr 0x2ed5204, size 0x74, virtual false, abstract: false, final false
-  inline void SetupLaserPointer(::VRUIControls::VRLaserPointer* laserPointer);
-
-  /// @brief Method CreateCursors, addr 0x2ed4e3c, size 0x134, virtual false, abstract: false, final false
-  inline bool CreateCursors();
-
-  /// @brief Method RefreshLaserPointerAndLaserHit, addr 0x2ed5278, size 0x238, virtual false, abstract: false, final false
-  inline void RefreshLaserPointerAndLaserHit(::UnityEngine::EventSystems::PointerEventData* pointerData);
-
-  /// @brief Method OnApplicationFocus, addr 0x2ed54b0, size 0xc, virtual false, abstract: false, final false
-  inline void OnApplicationFocus(bool hasFocus);
-
-  /// @brief Method HideLaserPointersAndCursors, addr 0x2ed4fac, size 0x18, virtual false, abstract: false, final false
-  inline void HideLaserPointersAndCursors();
-
-  /// @brief Method HideLaserPointers, addr 0x2ed551c, size 0x60, virtual false, abstract: false, final false
-  inline void HideLaserPointers();
-
-  /// @brief Method HideCursors, addr 0x2ed54bc, size 0x60, virtual false, abstract: false, final false
-  inline void HideCursors();
-
-  /// @brief Method get_state, addr 0x2ed557c, size 0x2f4, virtual false, abstract: false, final false
-  inline ::StringW get_state();
-
-  /// @brief Method Process, addr 0x2ed4278, size 0x68, virtual false, abstract: false, final false
-  inline void Process(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
-
-  static inline ::VRUIControls::VRPointer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ed5870, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc8f98, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_cursorPosition, addr 0x2fc82bc, size 0xf0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_cursorPosition();
+
+  /// @brief Method get_lastSelectedVrController, addr 0x2fc82b4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::VRController> get_lastSelectedVrController();
+
+  /// @brief Method get_state, addr 0x2fc8ca4, size 0x2f4, virtual false, abstract: false, final false
+  inline ::StringW get_state();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRPointer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VRPointer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRPointer(VRPointer&&) = delete;
@@ -299,12 +303,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRPointer(VRPointer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRPointer();
-
-public:
   /// @brief Field _leftVRController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftVRController;
 

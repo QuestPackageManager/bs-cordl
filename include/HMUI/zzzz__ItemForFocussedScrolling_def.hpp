@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::HMUI::ItemForFocussedScrolling);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13591))
 // CS Name: ::HMUI::ItemForFocussedScrolling*
 class CORDL_TYPE ItemForFocussedScrolling : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::HMUI::ItemForFocussedScrolling* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21d76cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a3d34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ItemForFocussedScrolling();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ItemForFocussedScrolling", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ItemForFocussedScrolling(ItemForFocussedScrolling&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ItemForFocussedScrolling(ItemForFocussedScrolling const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ItemForFocussedScrolling();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

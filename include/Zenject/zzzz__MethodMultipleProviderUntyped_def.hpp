@@ -45,12 +45,14 @@ MARK_REF_PTR_T(::Zenject::MethodMultipleProviderUntyped);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10348))
 // CS Name: ::Zenject::MethodMultipleProviderUntyped*
 class CORDL_TYPE MethodMultipleProviderUntyped : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IsCached)) bool IsCached;
+
+  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
+
   /// @brief Field _container, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
@@ -58,48 +60,50 @@ public:
   __declspec(property(get = __cordl_internal_get__method,
                       put = __cordl_internal_set__method))::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* _method;
 
-  __declspec(property(get = get_IsCached)) bool IsCached;
-
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
-
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x3017ca0, size 0x580, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+
+  /// @brief Method GetInstanceType, addr 0x3017c88, size 0x18, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+
+  static inline ::Zenject::MethodMultipleProviderUntyped* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* method,
+                                                                   ::Zenject::DiContainer* container);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
-
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   constexpr ::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*& __cordl_internal_get__method();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*> const&
   __cordl_internal_get__method() const;
 
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
   constexpr void __cordl_internal_set__method(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* value);
 
-  static inline ::Zenject::MethodMultipleProviderUntyped* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* method,
-                                                                   ::Zenject::DiContainer* container);
-
-  /// @brief Method .ctor, addr 0x2f24524, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3017c4c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>* method, ::Zenject::DiContainer* container);
 
-  /// @brief Method get_IsCached, addr 0x2f24550, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x3017c78, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f24558, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3017c80, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f24560, size 0x18, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f24578, size 0x580, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MethodMultipleProviderUntyped();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MethodMultipleProviderUntyped", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodMultipleProviderUntyped(MethodMultipleProviderUntyped&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MethodMultipleProviderUntyped(MethodMultipleProviderUntyped const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MethodMultipleProviderUntyped();
-
-public:
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

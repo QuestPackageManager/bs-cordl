@@ -40,54 +40,58 @@ MARK_REF_PTR_T(::Oculus::Platform::AssetFile);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13283))
 // CS Name: ::Oculus.Platform::AssetFile*
 class CORDL_TYPE AssetFile : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Delete, addr 0x272a9bc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x27ecf80, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* Delete(uint64_t assetFileID);
 
-  /// @brief Method DeleteById, addr 0x272ab1c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DeleteById, addr 0x27ed0e0, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* DeleteById(uint64_t assetFileID);
 
-  /// @brief Method DeleteByName, addr 0x272ac7c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DeleteByName, addr 0x27ed240, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* DeleteByName(::StringW assetFileName);
 
-  /// @brief Method Download, addr 0x272addc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Download, addr 0x27ed3a0, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* Download(uint64_t assetFileID);
 
-  /// @brief Method DownloadById, addr 0x272af3c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DownloadById, addr 0x27ed500, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* DownloadById(uint64_t assetFileID);
 
-  /// @brief Method DownloadByName, addr 0x272b09c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DownloadByName, addr 0x27ed660, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* DownloadByName(::StringW assetFileName);
 
-  /// @brief Method DownloadCancel, addr 0x272b1fc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DownloadCancel, addr 0x27ed7c0, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancel(uint64_t assetFileID);
 
-  /// @brief Method DownloadCancelById, addr 0x272b35c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DownloadCancelById, addr 0x27ed920, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancelById(uint64_t assetFileID);
 
-  /// @brief Method DownloadCancelByName, addr 0x272b4bc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DownloadCancelByName, addr 0x27eda80, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadCancelResult*>* DownloadCancelByName(::StringW assetFileName);
 
-  /// @brief Method GetList, addr 0x272b61c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetList, addr 0x27edbe0, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetailsList*>* GetList();
 
-  /// @brief Method Status, addr 0x272b774, size 0x160, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* Status(uint64_t assetFileID);
-
-  /// @brief Method StatusById, addr 0x272b8d4, size 0x160, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* StatusById(uint64_t assetFileID);
-
-  /// @brief Method StatusByName, addr 0x272ba34, size 0x160, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* StatusByName(::StringW assetFileName);
-
-  /// @brief Method SetDownloadUpdateNotificationCallback, addr 0x272bb94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetDownloadUpdateNotificationCallback, addr 0x27ee158, size 0x74, virtual false, abstract: false, final false
   static inline void SetDownloadUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* callback);
 
+  /// @brief Method Status, addr 0x27edd38, size 0x160, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* Status(uint64_t assetFileID);
+
+  /// @brief Method StatusById, addr 0x27ede98, size 0x160, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* StatusById(uint64_t assetFileID);
+
+  /// @brief Method StatusByName, addr 0x27edff8, size 0x160, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* StatusByName(::StringW assetFileName);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetFile();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetFile", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetFile(AssetFile&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetFile(AssetFile const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetFile();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

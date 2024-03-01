@@ -16,22 +16,20 @@ MARK_VAL_T(::UnityEngine::AnimatorTransitionInfo);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14753))
 // CS Name: ::UnityEngine::AnimatorTransitionInfo
 struct CORDL_TYPE AnimatorTransitionInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimatorTransitionInfo();
+
   // Ctor Parameters [CppParam { name: "m_FullPath", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_UserName", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_Name", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_HasFixedDuration", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Duration", ty: "float_t",
   // modifiers: "", def_value: None }, CppParam { name: "m_NormalizedTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AnyState", ty: "bool", modifiers: "", def_value: None
   // }, CppParam { name: "m_TransitionType", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AnimatorTransitionInfo(int32_t m_FullPath, int32_t m_UserName, int32_t m_Name, bool m_HasFixedDuration, float_t m_Duration, float_t m_NormalizedTime, bool m_AnyState,
                                    int32_t m_TransitionType) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorTransitionInfo();
 
   /// @brief Field m_FullPath, offset: 0x0, size: 0x4, def value: None
   int32_t m_FullPath;

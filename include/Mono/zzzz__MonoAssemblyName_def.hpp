@@ -24,19 +24,17 @@ MARK_VAL_T(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer);
 // SizeInfo { instance_size: 17, native_size: 17, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2240))
 // CS Name: ::MonoAssemblyName::<public_key_token>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __MonoAssemblyName___public_key_token_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __MonoAssemblyName___public_key_token_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MonoAssemblyName___public_key_token_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __MonoAssemblyName___public_key_token_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -60,13 +58,15 @@ static_assert(offsetof(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuf
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2240)), TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2241))
 // CS Name: ::Mono::MonoAssemblyName
 struct CORDL_TYPE MonoAssemblyName {
 public:
   // Declarations
   using _public_key_token_e__FixedBuffer = ::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoAssemblyName();
 
   // Ctor Parameters [CppParam { name: "name", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "hash_value",
   // ty: "void*", modifiers: "", def_value: None }, CppParam { name: "public_key", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "public_key_token", ty:
@@ -76,10 +76,6 @@ public:
   // "revision", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "arch", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr MonoAssemblyName(void* name, void* culture, void* hash_value, void* public_key, ::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer public_key_token, uint32_t hash_alg,
                              uint32_t hash_len, uint32_t flags, uint16_t major, uint16_t minor, uint16_t build, uint16_t revision, uint16_t arch) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoAssemblyName();
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   void* name;

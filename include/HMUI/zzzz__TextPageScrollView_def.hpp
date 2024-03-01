@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::HMUI::TextPageScrollView);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13601))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13623))
 // CS Name: ::HMUI::TextPageScrollView*
 class CORDL_TYPE TextPageScrollView : public ::HMUI::ScrollView {
 public:
@@ -27,20 +25,26 @@ public:
   /// @brief Field _text, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+  static inline ::HMUI::TextPageScrollView* New_ctor();
+
+  /// @brief Method SetText, addr 0x22ab978, size 0x68, virtual false, abstract: false, final false
+  inline void SetText(::StringW text);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method SetText, addr 0x21df310, size 0x68, virtual false, abstract: false, final false
-  inline void SetText(::StringW text);
-
-  static inline ::HMUI::TextPageScrollView* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21df378, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ab9e0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextPageScrollView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextPageScrollView(TextPageScrollView&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextPageScrollView(TextPageScrollView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextPageScrollView();
-
-public:
   /// @brief Field _text, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

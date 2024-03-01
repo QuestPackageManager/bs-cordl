@@ -44,8 +44,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsDHUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1300))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsDHUtilities*
 class CORDL_TYPE TlsDHUtilities : public ::System::Object {
 public:
@@ -53,158 +51,164 @@ public:
   /// @brief Field Two, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Two, put = setStaticF_Two))::Org::BouncyCastle::Math::BigInteger* Two;
 
-  /// @brief Field draft_ffdhe2432_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_draft_ffdhe2432_p, put = setStaticF_draft_ffdhe2432_p))::StringW draft_ffdhe2432_p;
-
   /// @brief Field draft_ffdhe2432, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_draft_ffdhe2432, put = setStaticF_draft_ffdhe2432))::Org::BouncyCastle::Crypto::Parameters::DHParameters* draft_ffdhe2432;
 
-  /// @brief Field draft_ffdhe3072_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_draft_ffdhe3072_p, put = setStaticF_draft_ffdhe3072_p))::StringW draft_ffdhe3072_p;
+  /// @brief Field draft_ffdhe2432_p, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_draft_ffdhe2432_p, put = setStaticF_draft_ffdhe2432_p))::StringW draft_ffdhe2432_p;
 
   /// @brief Field draft_ffdhe3072, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_draft_ffdhe3072, put = setStaticF_draft_ffdhe3072))::Org::BouncyCastle::Crypto::Parameters::DHParameters* draft_ffdhe3072;
 
-  /// @brief Field draft_ffdhe4096_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_draft_ffdhe4096_p, put = setStaticF_draft_ffdhe4096_p))::StringW draft_ffdhe4096_p;
+  /// @brief Field draft_ffdhe3072_p, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_draft_ffdhe3072_p, put = setStaticF_draft_ffdhe3072_p))::StringW draft_ffdhe3072_p;
 
   /// @brief Field draft_ffdhe4096, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_draft_ffdhe4096, put = setStaticF_draft_ffdhe4096))::Org::BouncyCastle::Crypto::Parameters::DHParameters* draft_ffdhe4096;
 
-  /// @brief Field draft_ffdhe6144_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_draft_ffdhe6144_p, put = setStaticF_draft_ffdhe6144_p))::StringW draft_ffdhe6144_p;
+  /// @brief Field draft_ffdhe4096_p, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_draft_ffdhe4096_p, put = setStaticF_draft_ffdhe4096_p))::StringW draft_ffdhe4096_p;
 
   /// @brief Field draft_ffdhe6144, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_draft_ffdhe6144, put = setStaticF_draft_ffdhe6144))::Org::BouncyCastle::Crypto::Parameters::DHParameters* draft_ffdhe6144;
 
-  /// @brief Field draft_ffdhe8192_p, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_draft_ffdhe8192_p, put = setStaticF_draft_ffdhe8192_p))::StringW draft_ffdhe8192_p;
+  /// @brief Field draft_ffdhe6144_p, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_draft_ffdhe6144_p, put = setStaticF_draft_ffdhe6144_p))::StringW draft_ffdhe6144_p;
 
   /// @brief Field draft_ffdhe8192, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_draft_ffdhe8192, put = setStaticF_draft_ffdhe8192))::Org::BouncyCastle::Crypto::Parameters::DHParameters* draft_ffdhe8192;
 
-  static inline void setStaticF_Two(::Org::BouncyCastle::Math::BigInteger* value);
+  /// @brief Field draft_ffdhe8192_p, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_draft_ffdhe8192_p, put = setStaticF_draft_ffdhe8192_p))::StringW draft_ffdhe8192_p;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();
-
-  static inline void setStaticF_draft_ffdhe2432_p(::StringW value);
-
-  static inline ::StringW getStaticF_draft_ffdhe2432_p();
-
-  static inline void setStaticF_draft_ffdhe2432(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe2432();
-
-  static inline void setStaticF_draft_ffdhe3072_p(::StringW value);
-
-  static inline ::StringW getStaticF_draft_ffdhe3072_p();
-
-  static inline void setStaticF_draft_ffdhe3072(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe3072();
-
-  static inline void setStaticF_draft_ffdhe4096_p(::StringW value);
-
-  static inline ::StringW getStaticF_draft_ffdhe4096_p();
-
-  static inline void setStaticF_draft_ffdhe4096(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe4096();
-
-  static inline void setStaticF_draft_ffdhe6144_p(::StringW value);
-
-  static inline ::StringW getStaticF_draft_ffdhe6144_p();
-
-  static inline void setStaticF_draft_ffdhe6144(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe6144();
-
-  static inline void setStaticF_draft_ffdhe8192_p(::StringW value);
-
-  static inline ::StringW getStaticF_draft_ffdhe8192_p();
-
-  static inline void setStaticF_draft_ffdhe8192(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe8192();
-
-  /// @brief Method FromHex, addr 0xfd17d4, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
-
-  /// @brief Method FromSafeP, addr 0xfd1874, size 0xc8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromSafeP(::StringW hexP);
-
-  /// @brief Method AddNegotiatedDheGroupsClientExtension, addr 0xfd193c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddNegotiatedDheGroupsClientExtension, addr 0x101690c, size 0x14c, virtual false, abstract: false, final false
   static inline void AddNegotiatedDheGroupsClientExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t, ::Array<uint8_t>*> dheGroups);
 
-  /// @brief Method AddNegotiatedDheGroupsServerExtension, addr 0xfd1b34, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddNegotiatedDheGroupsServerExtension, addr 0x1016b04, size 0x14c, virtual false, abstract: false, final false
   static inline void AddNegotiatedDheGroupsServerExtension(::System::Collections::IDictionary* extensions, uint8_t dheGroup);
 
-  /// @brief Method GetNegotiatedDheGroupsClientExtension, addr 0xfd1cd8, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNegotiatedDheGroupsClientExtension(::System::Collections::IDictionary* extensions);
-
-  /// @brief Method GetNegotiatedDheGroupsServerExtension, addr 0xfd1e58, size 0xd4, virtual false, abstract: false, final false
-  static inline int16_t GetNegotiatedDheGroupsServerExtension(::System::Collections::IDictionary* extensions);
-
-  /// @brief Method CreateNegotiatedDheGroupsClientExtension, addr 0xfd1a88, size 0xac, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateNegotiatedDheGroupsClientExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> dheGroups);
-
-  /// @brief Method CreateNegotiatedDheGroupsServerExtension, addr 0xfd1c80, size 0x58, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateNegotiatedDheGroupsServerExtension(uint8_t dheGroup);
-
-  /// @brief Method ReadNegotiatedDheGroupsClientExtension, addr 0xfd1da8, size 0xb0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadNegotiatedDheGroupsClientExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
-
-  /// @brief Method ReadNegotiatedDheGroupsServerExtension, addr 0xfd1f2c, size 0x58, virtual false, abstract: false, final false
-  static inline uint8_t ReadNegotiatedDheGroupsServerExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
-
-  /// @brief Method GetParametersForDHEGroup, addr 0xfd1f84, size 0xfc, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetParametersForDHEGroup(int16_t dheGroup);
-
-  /// @brief Method ContainsDheCipherSuites, addr 0xfd2080, size 0xb0, virtual false, abstract: false, final false
-  static inline bool ContainsDheCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> cipherSuites);
-
-  /// @brief Method IsDheCipherSuite, addr 0xfd2130, size 0x13c, virtual false, abstract: false, final false
-  static inline bool IsDheCipherSuite(int32_t cipherSuite);
-
-  /// @brief Method AreCompatibleParameters, addr 0xfd226c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AreCompatibleParameters, addr 0x101723c, size 0x90, virtual false, abstract: false, final false
   static inline bool AreCompatibleParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* a, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* b);
 
-  /// @brief Method CalculateDHBasicAgreement, addr 0xfd0c48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CalculateDHBasicAgreement, addr 0x1015c18, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateDHBasicAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* publicKey,
                                                                                ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKey);
 
-  /// @brief Method GenerateDHKeyPair, addr 0xfd22fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ContainsDheCipherSuites, addr 0x1017050, size 0xb0, virtual false, abstract: false, final false
+  static inline bool ContainsDheCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> cipherSuites);
+
+  /// @brief Method CreateNegotiatedDheGroupsClientExtension, addr 0x1016a58, size 0xac, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateNegotiatedDheGroupsClientExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> dheGroups);
+
+  /// @brief Method CreateNegotiatedDheGroupsServerExtension, addr 0x1016c50, size 0x58, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateNegotiatedDheGroupsServerExtension(uint8_t dheGroup);
+
+  /// @brief Method FromHex, addr 0x10167a4, size 0xa0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
+
+  /// @brief Method FromSafeP, addr 0x1016844, size 0xc8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromSafeP(::StringW hexP);
+
+  /// @brief Method GenerateDHKeyPair, addr 0x10172cc, size 0xbc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateDHKeyPair(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                         ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams);
 
-  /// @brief Method GenerateEphemeralClientKeyExchange, addr 0xfd08f8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GenerateEphemeralClientKeyExchange, addr 0x10158c8, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*
   GenerateEphemeralClientKeyExchange(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::System::IO::Stream* output);
 
-  /// @brief Method GenerateEphemeralServerKeyExchange, addr 0xfd01f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GenerateEphemeralServerKeyExchange, addr 0x10151c0, size 0x144, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*
   GenerateEphemeralServerKeyExchange(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::System::IO::Stream* output);
 
-  /// @brief Method ReadDHParameter, addr 0xfd0574, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* ReadDHParameter(::System::IO::Stream* input);
+  /// @brief Method GetNegotiatedDheGroupsClientExtension, addr 0x1016ca8, size 0xd0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNegotiatedDheGroupsClientExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method ReadDHParameters, addr 0xfd24a8, size 0xa8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ReadDHParameters(::System::IO::Stream* input);
+  /// @brief Method GetNegotiatedDheGroupsServerExtension, addr 0x1016e28, size 0xd4, virtual false, abstract: false, final false
+  static inline int16_t GetNegotiatedDheGroupsServerExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method ReceiveDHParameters, addr 0xfd044c, size 0x128, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ReceiveDHParameters(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier, ::System::IO::Stream* input);
+  /// @brief Method GetParametersForDHEGroup, addr 0x1016f54, size 0xfc, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetParametersForDHEGroup(int16_t dheGroup);
 
-  /// @brief Method WriteDHParameter, addr 0xfd23b8, size 0x7c, virtual false, abstract: false, final false
-  static inline void WriteDHParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
-
-  /// @brief Method WriteDHParameters, addr 0xfd2434, size 0x74, virtual false, abstract: false, final false
-  static inline void WriteDHParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters, ::System::IO::Stream* output);
+  /// @brief Method IsDheCipherSuite, addr 0x1017100, size 0x13c, virtual false, abstract: false, final false
+  static inline bool IsDheCipherSuite(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDHUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfd26bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadDHParameter, addr 0x1015544, size 0xa0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* ReadDHParameter(::System::IO::Stream* input);
+
+  /// @brief Method ReadDHParameters, addr 0x1017478, size 0xa8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ReadDHParameters(::System::IO::Stream* input);
+
+  /// @brief Method ReadNegotiatedDheGroupsClientExtension, addr 0x1016d78, size 0xb0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadNegotiatedDheGroupsClientExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
+
+  /// @brief Method ReadNegotiatedDheGroupsServerExtension, addr 0x1016efc, size 0x58, virtual false, abstract: false, final false
+  static inline uint8_t ReadNegotiatedDheGroupsServerExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
+
+  /// @brief Method ReceiveDHParameters, addr 0x101541c, size 0x128, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ReceiveDHParameters(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier, ::System::IO::Stream* input);
+
+  /// @brief Method WriteDHParameter, addr 0x1017388, size 0x7c, virtual false, abstract: false, final false
+  static inline void WriteDHParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
+
+  /// @brief Method WriteDHParameters, addr 0x1017404, size 0x74, virtual false, abstract: false, final false
+  static inline void WriteDHParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters, ::System::IO::Stream* output);
+
+  /// @brief Method .ctor, addr 0x101768c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe2432();
+
+  static inline ::StringW getStaticF_draft_ffdhe2432_p();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe3072();
+
+  static inline ::StringW getStaticF_draft_ffdhe3072_p();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe4096();
+
+  static inline ::StringW getStaticF_draft_ffdhe4096_p();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe6144();
+
+  static inline ::StringW getStaticF_draft_ffdhe6144_p();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_draft_ffdhe8192();
+
+  static inline ::StringW getStaticF_draft_ffdhe8192_p();
+
+  static inline void setStaticF_Two(::Org::BouncyCastle::Math::BigInteger* value);
+
+  static inline void setStaticF_draft_ffdhe2432(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+
+  static inline void setStaticF_draft_ffdhe2432_p(::StringW value);
+
+  static inline void setStaticF_draft_ffdhe3072(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+
+  static inline void setStaticF_draft_ffdhe3072_p(::StringW value);
+
+  static inline void setStaticF_draft_ffdhe4096(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+
+  static inline void setStaticF_draft_ffdhe4096_p(::StringW value);
+
+  static inline void setStaticF_draft_ffdhe6144(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+
+  static inline void setStaticF_draft_ffdhe6144_p(::StringW value);
+
+  static inline void setStaticF_draft_ffdhe8192(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+
+  static inline void setStaticF_draft_ffdhe8192_p(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsDHUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsDHUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsDHUtilities(TlsDHUtilities&&) = delete;
@@ -213,12 +217,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsDHUtilities(TlsDHUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsDHUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -14,13 +14,11 @@ MARK_REF_PTR_T(::GlobalNamespace::IAudioTimeSource);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4011))
 // CS Name: ::IAudioTimeSource*
 class CORDL_TYPE IAudioTimeSource {
 public:
   // Declarations
-  __declspec(property(get = get_songTime)) float_t songTime;
+  __declspec(property(get = get_isReady)) bool isReady;
 
   __declspec(property(get = get_lastFrameDeltaSongTime)) float_t lastFrameDeltaSongTime;
 
@@ -28,10 +26,10 @@ public:
 
   __declspec(property(get = get_songLength)) float_t songLength;
 
-  __declspec(property(get = get_isReady)) bool isReady;
+  __declspec(property(get = get_songTime)) float_t songTime;
 
-  /// @brief Method get_songTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_songTime();
+  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isReady();
 
   /// @brief Method get_lastFrameDeltaSongTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_lastFrameDeltaSongTime();
@@ -42,8 +40,8 @@ public:
   /// @brief Method get_songLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isReady();
+  /// @brief Method get_songTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_songTime();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

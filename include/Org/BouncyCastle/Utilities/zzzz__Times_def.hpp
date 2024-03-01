@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Times);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1838))
 // CS Name: ::Org.BouncyCastle.Utilities::Times*
 class CORDL_TYPE Times : public ::System::Object {
 public:
@@ -24,18 +22,24 @@ public:
   /// @brief Field NanosecondsPerTick, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_NanosecondsPerTick, put = setStaticF_NanosecondsPerTick)) int64_t NanosecondsPerTick;
 
-  static inline void setStaticF_NanosecondsPerTick(int64_t value);
-
-  static inline int64_t getStaticF_NanosecondsPerTick();
-
-  /// @brief Method NanoTime, addr 0x119da78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NanoTime, addr 0x11dfa48, size 0xa4, virtual false, abstract: false, final false
   static inline int64_t NanoTime();
 
   static inline ::Org::BouncyCastle::Utilities::Times* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119db68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11dfb38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline int64_t getStaticF_NanosecondsPerTick();
+
+  static inline void setStaticF_NanosecondsPerTick(int64_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Times();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Times", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Times(Times&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Times(Times const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Times();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

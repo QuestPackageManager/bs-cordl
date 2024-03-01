@@ -34,43 +34,47 @@ MARK_REF_PTR_T(::System::IO::DirectoryInfo);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
 // CS Name: ::System.IO::DirectoryInfo*
 class CORDL_TYPE DirectoryInfo : public ::System::IO::FileSystemInfo {
 public:
   // Declarations
-  static inline ::System::IO::DirectoryInfo* New_ctor(::StringW path);
+  /// @brief Method Delete, addr 0x25fdf8c, size 0xc, virtual true, abstract: false, final false
+  inline void Delete();
 
-  /// @brief Method .ctor, addr 0x252ab28, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::StringW path);
-
-  static inline ::System::IO::DirectoryInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
-
-  /// @brief Method .ctor, addr 0x252b2dc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
-
-  /// @brief Method Init, addr 0x252bd84, size 0x290, virtual false, abstract: false, final false
-  inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
-
-  /// @brief Method GetDirectories, addr 0x252c014, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetDirectories, addr 0x25fdc84, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories();
 
-  /// @brief Method GetDirectories, addr 0x252c0bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDirectories, addr 0x25fdd2c, size 0xa0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories(::StringW searchPattern, ::System::IO::EnumerationOptions* enumerationOptions);
 
-  /// @brief Method InternalEnumerateInfos, addr 0x252c15c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25fd9f4, size 0x290, virtual false, abstract: false, final false
+  inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
+
+  /// @brief Method InternalEnumerateInfos, addr 0x25fddcc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::IO::FileSystemInfo*>* InternalEnumerateInfos(::StringW path, ::StringW searchPattern, ::System::IO::SearchTarget searchTarget,
                                                                                                                      ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method Delete, addr 0x252c31c, size 0xc, virtual true, abstract: false, final false
-  inline void Delete();
-
   static inline ::System::IO::DirectoryInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x252c3ec, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::IO::DirectoryInfo* New_ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
+
+  static inline ::System::IO::DirectoryInfo* New_ctor(::StringW path);
+
+  /// @brief Method .ctor, addr 0x25fe05c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x25fcfbc, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
+
+  /// @brief Method .ctor, addr 0x25fc800, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::StringW path);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DirectoryInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DirectoryInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DirectoryInfo(DirectoryInfo&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DirectoryInfo(DirectoryInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectoryInfo();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

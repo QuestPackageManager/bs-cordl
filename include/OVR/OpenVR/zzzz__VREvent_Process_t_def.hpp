@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Process_t);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 25, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8615))
 // CS Name: ::OVR.OpenVR::VREvent_Process_t
 struct CORDL_TYPE VREvent_Process_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "oldPid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "bForced",
-  // ty: "bool", modifiers: "", def_value: None }]
-  constexpr VREvent_Process_t(uint32_t pid, uint32_t oldPid, bool bForced) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_Process_t();
+
+  // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "oldPid", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "bForced",
+  // ty: "bool", modifiers: "", def_value: None }]
+  constexpr VREvent_Process_t(uint32_t pid, uint32_t oldPid, bool bForced) noexcept;
 
   /// @brief Field pid, offset: 0x0, size: 0x4, def value: None
   uint32_t pid;

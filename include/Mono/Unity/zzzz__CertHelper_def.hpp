@@ -26,22 +26,26 @@ MARK_REF_PTR_T(::Mono::Unity::CertHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6766))
 // CS Name: ::Mono.Unity::CertHelper*
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificatesToNativeChain, addr 0x281bdc8, size 0x1d8, virtual false, abstract: false, final false
-  static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
-                                                  ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
-                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
-
-  /// @brief Method AddCertificateToNativeChain, addr 0x281bfa0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x290141c, size 0x1c0, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
+  /// @brief Method AddCertificatesToNativeChain, addr 0x2901244, size 0x1d8, virtual false, abstract: false, final false
+  static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
+                                                  ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
+                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertHelper(CertHelper&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertHelper(CertHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
